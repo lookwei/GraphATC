@@ -46,18 +46,14 @@ If you find the repository or the paper useful, please use the following entry f
 > Wengyu Zhang, Qi Tian, Yi Cao, Wenqi Fan, Dongmei Jiang, Yaowei Wang, Qing Li, Xiao-Yong Wei, GraphATC: advancing multilevel and multi-label anatomical therapeutic chemical classification via atom-level graph learning, *Briefings in Bioinformatics*, Volume 26, Issue 2, March 2025, bbaf194, https://doi.org/10.1093/bib/bbaf194
 
 ```
-@article{10.1093/bib/bbaf194,
-    author = {Zhang, Wengyu and Tian, Qi and Cao, Yi and Fan, Wenqi and Jiang, Dongmei and Wang, Yaowei and Li, Qing and Wei, Xiao-Yong},
-    title = {GraphATC: advancing multilevel and multi-label anatomical therapeutic chemical classification via atom-level graph learning},
-    journal = {Briefings in Bioinformatics},
-    volume = {26},
-    number = {2},
-    pages = {bbaf194},
-    year = {2025},
-    month = {04},
-    issn = {1477-4054},
-    doi = {10.1093/bib/bbaf194},
-    url = {https://doi.org/10.1093/bib/bbaf194},
-    eprint = {https://academic.oup.com/bib/article-pdf/26/2/bbaf194/63012495/bbaf194.pdf},
+@article{zhang2025graphatc,
+  title={GraphATC: advancing multilevel and multi-label anatomical therapeutic chemical classification via atom-level graph learning},
+  author={Zhang, Wengyu and Tian, Qi and Cao, Yi and Fan, Wenqi and Jiang, Dongmei and Wang, Yaowei and Li, Qing and Wei, Xiao-Yong},
+  journal={Briefings in Bioinformatics},
+  volume={26},
+  number={2},
+  pages={bbaf194},
+  year={2025},
+  publisher={Oxford University Press}
 }
 ```
