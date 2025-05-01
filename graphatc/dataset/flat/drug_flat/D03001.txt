@@ -1,0 +1,102 @@
+ENTRY       D03001                      Drug
+NAME        Atevirdine mesylate (USAN)
+FORMULA     C21H25N5O2. CH4SO3
+EXACT_MASS  475.1889
+MOL_WEIGHT  475.5612
+CLASS       Antiviral
+             DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+               D03001  Atevirdine mesylate
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D03001  Atevirdine mesylate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D03001  Atevirdine mesylate (USAN)
+DBLINKS     CAS: 138540-32-6
+            PubChem: 17397157
+            LigandBox: D03001
+            NIKKAJI: J572.443K
+ATOM        33
+            1   C5a C    17.3276  -18.0504
+            2   O5a O    17.3276  -19.4445
+            3   N1y N    13.7026  -15.9590
+            4   C1x C    13.7026  -17.3532
+            5   C1x C    14.8877  -18.0504
+            6   N1y N    16.1425  -17.3532
+            7   C1x C    16.1425  -15.9590
+            8   C1x C    14.8877  -15.2619
+            9   C8y C    12.4924  -15.2668
+            10  N5x N    12.4866  -13.8681
+            11  C8x C    11.2764  -13.1760
+            12  C8x C    10.0020  -13.8781
+            13  C8x C    10.0078  -15.2768
+            14  C8y C    11.2879  -15.9689
+            15  N1b N    11.2934  -17.3529
+            16  C1b C    10.0661  -18.0682
+            17  C1a C     8.8571  -17.3768
+            18  C8y C    18.5501  -17.3513
+            19  C8x C    18.5501  -15.9528
+            20  N4x N    19.8801  -17.7834
+            21  C8y C    20.7022  -16.6520
+            22  C8y C    19.8801  -15.5206
+            23  C8x C    22.0930  -16.6457
+            24  C8x C    22.6618  -15.2982
+            25  C8y C    21.8397  -14.2367
+            26  C8x C    20.4489  -14.2430
+            27  O2a O    22.4357  -13.0134
+            28  C1a C    23.8324  -12.9849
+            29  O1d O    26.9834  -16.6264
+            30  S4a S    26.9834  -18.0240
+            31  C1a C    25.5858  -18.0240
+            32  O1d O    28.3811  -18.0240
+            33  O1d O    26.9834  -19.4216
+BOND        35
+            1     1   2 2
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     7   8 1
+            7     3   8 1
+            8     6   1 1
+            9     3   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19    1  18 1
+            20   18  19 2
+            21   18  20 1
+            22   20  21 1
+            23   21  22 1
+            24   19  22 1
+            25   21  23 2
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   22  26 2
+            30   25  27 1
+            31   27  28 1
+            32   29  30 2
+            33   30  31 1
+            34   30  32 1
+            35   30  33 2
+///

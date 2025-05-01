@@ -1,0 +1,132 @@
+ENTRY       D08619                      Drug
+NAME        Torasemide sodium;
+            Torem (TN)
+FORMULA     C16H20N4O3S. xNa
+CLASS       Cardiovascular agent
+             DG01690  Sulfonamide diuretic
+              DG01747  Furosemide type diuretic
+             DG01748  Loop diuretic
+              DG01747  Furosemide type diuretic
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01642  CYP2C9 substrate
+REMARK      ATC code: C03CA04
+            Chemical structure group: DG00273
+            Product (DG00273): D00382<JP/US>
+EFFICACY    Diuretic, Na-K-Cl cotransporter inhibitor
+COMMENT     Loop diuretic
+            Sulfonamide derivative
+TARGET      SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+            SLC12A2 (NKCC1) [HSA:6558] [KO:K10951]
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP2C8 [HSA:1558]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03C HIGH-CEILING DIURETICS
+                C03CA Sulfonamides, plain
+                 C03CA04 Torasemide
+                  D08619  Torasemide sodium
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01690  Sulfonamide diuretic
+               DG01747  Furosemide type diuretic
+                DG00273  Torasemide
+                 D08619  Torasemide sodium
+              DG01748  Loop diuretic
+               DG01747  Furosemide type diuretic
+                DG00273  Torasemide
+                 D08619  Torasemide sodium
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00273  Torasemide
+                D08619  Torasemide sodium
+              DG01642  CYP2C9 substrate
+               DG00273  Torasemide
+                D08619  Torasemide sodium
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D08619  Torasemide sodium
+                SLC12A2 (NKCC1)
+                 D08619  Torasemide sodium
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08619
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01690  Sulfonamide diuretic
+               DG01747  Furosemide type diuretic
+                DG00273  Torasemide
+              DG01748  Loop diuretic
+               DG01747  Furosemide type diuretic
+                DG00273  Torasemide
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00273  Torasemide
+              DG01642  CYP2C9 substrate
+               DG00273  Torasemide
+DBLINKS     PubChem: 96025303
+            LigandBox: D08619
+ATOM        25
+            1   C8y C    26.4600  -20.4400
+            2   C8y C    27.6500  -19.7400
+            3   S4a S    25.2700  -19.7400
+            4   C8x C    26.4600  -21.8400
+            5   N1b N    27.6500  -18.3400
+            6   C8x C    28.9100  -20.4400
+            7   N1b N    24.0100  -20.4400
+            8   O3c O    26.2500  -18.7600
+            9   O3c O    24.2200  -18.7600
+            10  N5x N    27.6500  -22.5400
+            11  C8y C    28.8400  -17.6400
+            12  C8x C    28.9100  -21.8400
+            13  C5a C    22.8200  -19.7400
+            14  C8x C    28.8400  -16.2400
+            15  C8x C    30.1000  -18.3400
+            16  N1b N    21.6300  -20.4400
+            17  O5a O    22.8200  -18.3400
+            18  C8y C    30.1000  -15.5400
+            19  C8x C    31.2900  -17.6400
+            20  C1c C    20.3700  -19.7400
+            21  C8x C    31.2900  -16.2400
+            22  C1a C    30.1000  -14.1400
+            23  C1a C    19.1800  -20.4400
+            24  C1a C    20.3700  -18.3400
+            25  Z   Na   31.5700  -20.7900
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 2
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13   11  14 1
+            14   11  15 2
+            15   13  16 1
+            16   13  17 2
+            17   14  18 2
+            18   15  19 1
+            19   16  20 1
+            20   18  21 1
+            21   18  22 1
+            22   20  23 1
+            23   20  24 1
+            24   10  12 2
+            25   19  21 2
+BRACKET     1    30.8700  -21.7700   30.8700  -20.0900
+            1    32.8300  -20.0900   32.8300  -21.7700
+            1  x
+  ORIGINAL  1   25
+  REPEAT    1 
+///

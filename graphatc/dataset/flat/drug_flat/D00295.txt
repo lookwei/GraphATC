@@ -1,0 +1,156 @@
+ENTRY       D00295                      Drug
+NAME        Cimetidine (JP18/USP/INN);
+            Tagamet (TN)
+PRODUCT
+  GENERIC   CIMETIDINE (A-S Medication Solutions)
+            CIMETIDINE (A-S Medication Solutions)
+            CIMETIDINE (Chartwell RX)
+            CIMETIDINE (Denton Pharma)
+            CIMETIDINE (Mylan Pharmaceuticals)
+            CIMETIDINE (Northwind Pharmaceuticals)
+            CIMETIDINE (PD-Rx Pharmaceuticals)
+            CIMETIDINE (Proficient Rx LP)
+            CIMETIDINE (RPK Pharmaceuticals)
+            CIMETIDINE (Teva Pharmaceuticals USA)
+FORMULA     C10H16N6S
+EXACT_MASS  252.1157
+MOL_WEIGHT  252.3392
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      Same as: C06952
+            Therapeutic category: 2325
+            ATC code: A02BA01
+            Chemical structure group: DG00017
+            Product (DG00017): D00295<JP/US> D03503<US>
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+  DISEASE   Duodenal ulcer [DS:H01634]
+            Gastric ulcer [DS:H01634]
+            Gastroesophageal reflux disease [DS:H01602]
+            Zollinger-Ellison syndrome [DS:H01522]
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04020(3274)  Calcium signaling pathway
+            hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+STR_MAP     map07038  Antiulcer drugs
+            map07227  Histamine H2/H3 receptor agonists/antagonists
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BA H2-receptor antagonists
+                 A02BA01 Cimetidine
+                  D00295  Cimetidine (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Histamine2 (H2) Receptor Antagonists
+               Cimetidine
+                D00295  Cimetidine (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              23  Digestive organ agents
+               232  Peptic ulcer agents
+                2325  H2 blockers
+                 D00295  Cimetidine (JP18/USP/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for digestive organs
+              09 Histamine H2 receptor blocker containing drugs
+               D00295  Cimetidine (JP18/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Cimetidine
+                D00295  Cimetidine (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                DG00017  Cimetidine
+                 D00295  Cimetidine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00017  Cimetidine
+                D00295  Cimetidine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00017  Cimetidine
+                 D00295  Cimetidine
+            Drug classes [BR:br08332]
+             Gastrointestinal agent
+              DG01481  Histamine receptor H2 antagonist
+               D00295  Cimetidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D00295  Cimetidine (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00295  Cimetidine
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00295
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00295
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D00295
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                DG00017  Cimetidine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00017  Cimetidine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00017  Cimetidine
+DBLINKS     CAS: 51481-61-9
+            PubChem: 7847361
+            ChEBI: 3699
+            LigandBox: D00295
+            NIKKAJI: J3.190I
+ATOM        17
+            1   C1b C    24.5609  -17.1206
+            2   S2a S    25.7722  -16.4242
+            3   C1b C    26.9833  -17.1206
+            4   C1b C    28.1944  -16.4242
+            5   N1b N    29.4055  -17.1206
+            6   C2c C    30.6226  -16.4242
+            7   N2b N    30.6226  -15.0201
+            8   N1b N    31.8337  -17.1206
+            9   C3b C    31.8337  -14.3237
+            10  C1a C    33.0449  -16.4242
+            11  N3a N    33.0598  -13.6286
+            12  C8y C    23.3693  -16.4301
+            13  N5x N    23.3693  -15.0301
+            14  C8x C    22.0378  -14.5975
+            15  N4x N    21.2149  -15.7301
+            16  C8y C    22.0378  -16.8627
+            17  C1a C    21.6042  -18.1971
+BOND        17
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 2
+            7     6   8 1
+            8     7   9 1
+            9     8  10 1
+            10    9  11 3
+            11    1  12 1
+            12   12  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 1
+            16   12  16 2
+            17   16  17 1
+///

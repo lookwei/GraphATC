@@ -1,0 +1,89 @@
+ENTRY       D08300                      Drug
+NAME        Orciprenaline (INN);
+            Metaproterenol
+FORMULA     C11H17NO3
+EXACT_MASS  211.1208
+MOL_WEIGHT  211.2576
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Same as: C07144
+            ATC code: R03AB03 R03CB03
+            Chemical structure group: DG01044
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AB Non-selective beta-adrenoreceptor agonists
+                 R03AB03 Orciprenaline
+                  D08300  Orciprenaline (INN)
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CB Non-selective beta-adrenoreceptor agonists
+                 R03CB03 Orciprenaline
+                  D08300  Orciprenaline (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01044  Orciprenaline
+                  D08300  Orciprenaline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D08300  Orciprenaline (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01044  Orciprenaline
+DBLINKS     CAS: 586-06-1
+            PubChem: 96024987
+            ChEBI: 6792 82719
+            LigandBox: D08300
+            NIKKAJI: J6.736I
+ATOM        15
+            1   C8y C    22.8900  -18.6200
+            2   C8x C    21.7000  -19.3200
+            3   C8x C    22.8900  -17.2200
+            4   C1c C    24.1500  -19.3200
+            5   C8y C    20.5100  -18.6200
+            6   C8y C    21.7000  -16.5200
+            7   C1b C    25.3400  -18.6200
+            8   O1a O    24.1500  -20.7200
+            9   C8x C    20.5100  -17.2200
+            10  O1a O    19.3200  -19.3200
+            11  O1a O    21.7000  -15.1200
+            12  N1b N    26.5300  -19.3200
+            13  C1c C    27.7900  -18.6200
+            14  C1a C    28.9800  -19.3200
+            15  C1a C    27.7900  -17.2200
+BOND        15
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     4   8 1
+            8     5   9 2
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12   12  13 1
+            13   13  14 1
+            14   13  15 1
+            15    6   9 1
+///

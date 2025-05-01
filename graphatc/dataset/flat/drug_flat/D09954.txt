@@ -1,0 +1,63 @@
+ENTRY       D09954                      Drug
+NAME        Pridopidine hydrochloride (USAN)
+FORMULA     C15H23NO2S. HCl
+EXACT_MASS  317.1216
+MOL_WEIGHT  317.8746
+REMARK      Chemical structure group: DG01325
+EFFICACY    Antipsychotic, Antiparkinsonian
+COMMENT     Treatment of schizophrenia, Parkinson's disease and Huntington's disease
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D09954  Pridopidine hydrochloride (USAN)
+DBLINKS     CAS: 882737-42-0
+            PubChem: 135626679
+            LigandBox: D09954
+ATOM        20
+            1   C1x C    28.7700  -29.1900
+            2   N1y N    28.7700  -30.5900
+            3   C1x C    30.0300  -31.2900
+            4   C1x C    31.2200  -30.5900
+            5   C1y C    31.2200  -29.1900
+            6   C1x C    30.0300  -28.4900
+            7   C8y C    32.4800  -28.4900
+            8   C8x C    33.6700  -29.1200
+            9   C8x C    34.8600  -28.4200
+            10  C8x C    34.8600  -27.0200
+            11  C8y C    33.6700  -26.3200
+            12  C8x C    32.4800  -27.0200
+            13  C1b C    27.5800  -31.2900
+            14  C1b C    26.3900  -30.5900
+            15  C1a C    25.2000  -31.2900
+            16  S4a S    33.6700  -24.9900
+            17  C1a C    33.6700  -23.5900
+            18  O3c O    35.0700  -24.9900
+            19  O3c O    32.2700  -24.9900
+            20  X   Cl   26.7400  -26.7400
+BOND        20
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13    7  12 2
+            14    2  13 1
+            15   13  14 1
+            16   14  15 1
+            17   11  16 1
+            18   16  17 1
+            19   16  18 2
+            20   16  19 2
+///

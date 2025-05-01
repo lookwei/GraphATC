@@ -1,0 +1,34 @@
+ENTRY       C01796                      Compound
+NAME        D-Erythrose
+FORMULA     C4H8O4
+EXACT_MASS  120.0423
+MOL_WEIGHT  120.1039
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C01796  D-Erythrose
+DBLINKS     CAS: 583-50-6
+            PubChem: 4923
+            ChEBI: 182523 27904
+            3DMET: B04815
+            NIKKAJI: J166.114K
+ATOM        8
+            1   C1y C    25.8829  -16.3514
+            2   C1y C    24.4756  -16.3514
+            3   C1y C    26.2976  -15.0433
+            4   O1a O    26.7122  -17.4844
+            5   C1x C    24.0259  -15.0200
+            6   O1a O    23.6639  -17.4902
+            7   O2x O    25.1530  -14.2023
+            8   O1a O    27.6291  -14.6112
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Either
+            8     5   7 1
+///

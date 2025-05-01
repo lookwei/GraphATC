@@ -1,0 +1,114 @@
+ENTRY       D01856                      Drug
+NAME        Nifekalant hydrochloride (JAN);
+            MS 551;
+            Shinbit (TN)
+FORMULA     C19H27N5O5. HCl
+EXACT_MASS  441.1779
+MOL_WEIGHT  441.9091
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01648  Class III antiarrhythmic agent
+REMARK      Therapeutic category: 2129
+            Product: D01856<JP>
+EFFICACY    Antiarrhythmic, Potassium channel blocker
+COMMENT     Class III antiarrhythmic agent
+TARGET      KCND3 [HSA:3752] [KO:K04893]
+            KCNH2 [HSA:3757] [KO:K04905]
+            KCNJ12 [HSA:3768] [KO:K05005]
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07232  Potassium channel blocking and opening drugs
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               212  Antiarrhythmic agents
+                2129  Others
+                 D01856  Nifekalant hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01648  Class III antiarrhythmic agent
+                D01856  Nifekalant hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               D01856  Nifekalant hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Potassium channels
+                KCND3
+                 D01856  Nifekalant hydrochloride (JAN) &lt;JP&gt;
+                KCNH2
+                 D01856  Nifekalant hydrochloride (JAN) &lt;JP&gt;
+               Inward rectifier channels (Kir)
+                KCNJ12
+                 D01856  Nifekalant hydrochloride (JAN) &lt;JP&gt;
+DBLINKS     CAS: 130656-51-8
+            PubChem: 7848918
+            ChEBI: 31909
+            LigandBox: D01856
+            NIKKAJI: J846.903B
+ATOM        30
+            1   X   Cl   27.8315  -15.0437
+            2   C8x C     9.0553  -13.9192
+            3   C8y C     9.0553  -12.5189
+            4   C8x C    10.2708  -11.8188
+            5   C8x C    11.4793  -12.5189
+            6   C8y C    11.4793  -13.9192
+            7   C8x C    10.2708  -14.6193
+            8   C1b C    12.6914  -14.6199
+            9   N1c N    16.3298  -13.9225
+            10  C1b C    17.5420  -14.6235
+            11  C1b C    18.7552  -13.9244
+            12  N1b N    19.9672  -14.6254
+            13  C8y C    21.1803  -13.9261
+            14  C8x C    21.1775  -12.5261
+            15  C8y C    22.3906  -11.8268
+            16  N4y N    23.6028  -12.5279
+            17  C8y C    23.6018  -13.9281
+            18  N4y N    22.3886  -14.6272
+            19  C1a C    22.3866  -16.0275
+            20  O5x O    24.8138  -14.6291
+            21  C1a C    24.8160  -11.8287
+            22  O5x O    22.3917  -10.4266
+            23  C1b C    15.1163  -14.6194
+            24  C1b C    13.9070  -13.9193
+            25  N2b N     7.8429  -11.8181 #+
+            26  O3a O     7.8438  -10.4179
+            27  O3a O     6.6301  -12.5176 #-
+            28  C1b C    16.3320  -12.5223
+            29  C1b C    17.5457  -11.8241
+            30  O1a O    17.5477  -10.4239
+BOND        30
+            1     9  10 1
+            2    10  11 1
+            3    11  12 1
+            4    12  13 1
+            5    13  14 2
+            6    14  15 1
+            7    15  16 1
+            8    16  17 1
+            9    17  18 1
+            10   18  13 1
+            11   18  19 1
+            12   17  20 2
+            13   16  21 1
+            14   15  22 2
+            15    7   2 1
+            16    9  23 1
+            17   23  24 1
+            18   24   8 1
+            19    8   6 1
+            20    3  25 1
+            21    2   3 2
+            22   25  26 2
+            23    3   4 1
+            24   25  27 1
+            25    4   5 2
+            26    9  28 1
+            27    5   6 1
+            28   28  29 1
+            29    6   7 2
+            30   29  30 1
+///

@@ -1,0 +1,118 @@
+ENTRY       D08460                      Drug
+NAME        Quinine (BAN);
+            Kinder Quinina (TN)
+FORMULA     C20H24N2O2
+EXACT_MASS  324.1838
+MOL_WEIGHT  324.4168
+SOURCE      Cinchona [TAX:43462], Cinchona calisaya [TAX:153742], Cinchona succirubra, Cinchona calisaya
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      Same as: C06526
+            ATC code: P01BC01
+            Chemical structure group: DG01019
+            Product (DG01019): D02262<US>
+EFFICACY    Antimalarial
+COMMENT     Methanolquinoline
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+            map07025  Quinolines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             P ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS
+              P01 ANTIPROTOZOALS
+               P01B ANTIMALARIALS
+                P01BC Methanolquinolines
+                 P01BC01 Quinine
+                  D08460  Quinine (BAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01019  Quinine
+                 D08460  Quinine
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01019  Quinine
+                D08460  Quinine
+            Antimicrobials [BR:br08307]
+             Antiparasitics
+              Antmalarials
+               Methanolquinoline
+                D08460  Quinine (BAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08460
+             Drug transporters
+              D08460
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01019  Quinine
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01019  Quinine
+DBLINKS     CAS: 130-95-0
+            PubChem: 96025146
+            ChEBI: 15854
+            PDB-CCD: QI9
+            LigandBox: D08460
+            NIKKAJI: J5.555G
+ATOM        24
+            1   C8y C    25.1988  -26.8161
+            2   C8y C    26.4550  -26.1182
+            3   C8y C    25.1988  -28.2118
+            4   C8x C    24.0125  -26.1182
+            5   C1c C    26.4550  -24.7225
+            6   C8x C    27.6414  -26.8161
+            7   C8x C    24.0125  -28.9097
+            8   N5x N    26.3852  -28.9097
+            9   C8y C    22.8261  -26.8161
+            10  C1y C    27.6414  -24.0246
+            11  O1a O    25.1988  -24.0246
+            12  C8x C    27.6414  -28.2118
+            13  C8x C    22.8261  -28.2118
+            14  O2a O    21.5699  -26.1182
+            15  N1y N    29.1069  -23.1174
+            16  C1x C    26.9435  -22.9778
+            17  C1a C    21.5699  -24.7225
+            18  C1x C    29.1069  -21.9310
+            19  C1x C    30.5724  -23.9548
+            20  C1y C    28.3392  -22.1404
+            21  C1y C    28.3392  -21.1634
+            22  C1x C    29.8745  -22.8383
+            23  C2b C    27.7809  -19.8374
+            24  C2a C    28.6882  -18.7208
+BOND        27
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Up
+            11    6  12 1
+            12    7  13 2
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1
+            16   14  17 1
+            17   15  18 1
+            18   15  19 1
+            19   16  20 1
+            20   18  21 1
+            21   19  22 1
+            22   21  23 1 #Up
+            23   23  24 2
+            24    8  12 2
+            25    9  13 1
+            26   20  21 1
+            27   20  22 1
+///

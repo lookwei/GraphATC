@@ -1,0 +1,79 @@
+ENTRY       D01329                      Drug
+NAME        Oxendolone (JAN/USAN/INN);
+            Prostetin (TN)
+FORMULA     C20H30O2
+EXACT_MASS  302.2246
+MOL_WEIGHT  302.451
+CLASS       Antineoplastic
+             DG01591  Androgen receptor antagonist
+              DG01623  Steroid-type antiandrogen
+EFFICACY    Antidysuria, Androgen receptor antagonist
+COMMENT     Anti-androgen (benign prostatic hypertrophy)
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               DG01623  Steroid-type antiandrogen
+                D01329  Oxendolone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D01329  Oxendolone (JAN/USAN/INN)
+DBLINKS     CAS: 33765-68-3
+            PubChem: 7848392
+            ChEBI: 31946
+            LigandBox: D01329
+            NIKKAJI: J3.493B
+ATOM        22
+            1   C1x C    20.3611  -18.0591
+            2   C5x C    20.3611  -19.4272
+            3   C2x C    21.5489  -20.1113
+            4   C1x C    21.5489  -17.3750
+            5   C1y C    22.7296  -18.0591
+            6   C2y C    22.7238  -19.4272
+            7   C1x C    23.9058  -20.1163
+            8   C1x C    25.0935  -19.4374
+            9   C1y C    23.9175  -17.3799
+            10  C1y C    25.0937  -18.0720
+            11  C1x C    25.1161  -15.3428
+            12  C1x C    23.9287  -16.0154
+            13  C1z C    26.2922  -16.0348
+            14  C1y C    26.3458  -17.3952
+            15  C1x C    28.6321  -17.4237
+            16  C1y C    28.6486  -16.0633
+            17  C1y C    27.4786  -15.3688
+            18  O1a O    27.4952  -14.0008
+            19  C1a C    26.3531  -14.6661
+            20  O5x O    19.1767  -20.1118
+            21  C1b C    29.8417  -15.3937
+            22  C1a C    31.0182  -16.0920
+BOND        25
+            1    11  12 1
+            2    12   9 1
+            3     2   3 1
+            4     3   6 2
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8    13  14 1
+            9    15  16 1
+            10   16  17 1
+            11   17  13 1
+            12   14  15 1
+            13    8  10 1
+            14   17  18 1 #Up
+            15    9   5 1
+            16   13  19 1 #Up
+            17    5   4 1
+            18    4   1 1
+            19    1   2 1
+            20    2  20 2
+            21    9  10 1
+            22   16  21 1 #Up
+            23   10  14 1
+            24   21  22 1
+            25   13  11 1
+///

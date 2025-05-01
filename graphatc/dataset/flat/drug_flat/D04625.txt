@@ -1,0 +1,98 @@
+ENTRY       D04625                      Drug
+NAME        Isoetharine (USP);
+            Isoetarine (INN)
+FORMULA     C13H21NO3
+EXACT_MASS  239.1521
+MOL_WEIGHT  239.3107
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+REMARK      Same as: C07053
+            ATC code: R03AC07 R03CC06
+            Chemical structure group: DG01234
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC07 Isoetarine
+                  D04625  Isoetharine (USP)
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CC Selective beta-2-adrenoreceptor agonists
+                 R03CC06 Isoetarine
+                  D04625  Isoetharine (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01234  Isoetharine
+                  D04625  Isoetharine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG01234  Isoetharine
+                D04625  Isoetharine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D04625  Isoetharine (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01234  Isoetharine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG01234  Isoetharine
+DBLINKS     CAS: 530-08-5
+            PubChem: 47206468
+            ChEBI: 6005
+            LigandBox: D04625
+            NIKKAJI: J6.696F
+ATOM        17
+            1   C8y C    13.3000  -20.0900
+            2   C8y C    13.3000  -21.4900
+            3   C8x C    14.5124  -22.1900
+            4   C8x C    15.7249  -21.4900
+            5   C8y C    15.7249  -20.0900
+            6   C8x C    14.5124  -19.3900
+            7   C1c C    16.9560  -19.3790
+            8   C1c C    18.1612  -20.0747
+            9   O1a O    16.9557  -17.9901
+            10  N1b N    19.3435  -19.3919
+            11  O1a O    12.0876  -22.1900
+            12  O1a O    12.0876  -19.3900
+            13  C1c C    20.5375  -20.0812
+            14  C1a C    21.7254  -19.3952
+            15  C1a C    20.5377  -21.4897
+            16  C1b C    18.1616  -21.4896
+            17  C1a C    19.3505  -22.1759
+BOND        17
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    8  10 1
+            11    2  11 1
+            12    1  12 1
+            13   10  13 1
+            14   13  14 1
+            15   13  15 1
+            16    8  16 1
+            17   16  17 1
+///

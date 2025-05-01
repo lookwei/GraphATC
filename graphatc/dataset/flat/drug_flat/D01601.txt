@@ -1,0 +1,88 @@
+ENTRY       D01601                      Drug
+NAME        Acetylsulfamethoxazole (JAN)
+FORMULA     C12H13N3O4S
+EXACT_MASS  295.0627
+MOL_WEIGHT  295.3143
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01785  Intermediate-acting sulfonamide
+REMARK      Same as: C13061
+            ATC code: J01EC01
+            Chemical structure group: DG02848
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+COMMENT     Sulfonamide
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EC Intermediate-acting sulfonamides
+                 J01EC01 Sulfamethoxazole
+                  D01601  Acetylsulfamethoxazole (JAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01785  Intermediate-acting sulfonamide
+                DG02848  Sulfamethoxazole
+                 D01601  Acetylsulfamethoxazole
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Intermediate-acting sulfonamide
+                D01601  Acetylsulfamethoxazole (JAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01785  Intermediate-acting sulfonamide
+                DG02848  Sulfamethoxazole
+DBLINKS     CAS: 21312-10-7
+            PubChem: 7848664
+            ChEBI: 31169
+            LigandBox: D01601
+            NIKKAJI: J226.185E
+ATOM        20
+            1   C8y C    26.8280  -18.3588
+            2   S4a S    28.0408  -17.6547
+            3   C8x C    26.8280  -19.7609
+            4   C8x C    25.6210  -17.6547
+            5   N1b N    29.2594  -18.3588
+            6   C8x C    25.6210  -20.4589
+            7   C8x C    24.4081  -18.3588
+            8   C8y C    30.4722  -17.6547
+            9   C8y C    24.4081  -19.7609
+            10  C8x C    31.7953  -18.0832
+            11  N5x N    30.4670  -16.2482
+            12  N1b N    23.1896  -20.4589
+            13  C8y C    32.6215  -16.9441
+            14  O2x O    31.7881  -15.8162
+            15  C5a C    21.9661  -19.7471
+            16  C1a C    20.7380  -20.4507
+            17  O5a O    21.9709  -18.3317
+            18  O3c O    27.0640  -16.6883
+            19  O3c O    29.0298  -16.6883
+            20  C1a C    34.0106  -16.9378
+BOND        21
+            1     1   4 2
+            2     2   5 1
+            3     3   6 2
+            4     4   7 1
+            5     5   8 1
+            6     6   9 1
+            7     8  10 1
+            8     8  11 2
+            9     9  12 1
+            10   10  13 2
+            11   11  14 1
+            12    7   9 2
+            13   13  14 1
+            14   12  15 1
+            15    1   2 1
+            16   15  16 1
+            17    1   3 1
+            18   15  17 2
+            19    2  18 2
+            20    2  19 2
+            21   13  20 1
+///

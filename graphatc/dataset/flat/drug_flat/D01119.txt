@@ -1,0 +1,145 @@
+ENTRY       D01119                      Drug
+NAME        Temocapril hydrochloride (JP18/USAN);
+            Acecol (TN)
+FORMULA     C23H28N2O5S2. HCl
+EXACT_MASS  512.1206
+MOL_WEIGHT  513.0698
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Therapeutic category: 2144
+            ATC code: C09AA14
+            Chemical structure group: DG00345
+            Product (DG00345): D01119<JP>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     Active form of prodrug: Temocaprilat [CPD:C11373]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA14 Temocapril
+                  D01119  Temocapril hydrochloride (JP18/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2144  Angiotensin converting enzyme inhibitors
+                 D01119  Temocapril hydrochloride (JP18/USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00345  Temocapril
+                 D01119  Temocapril hydrochloride
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00345  Temocapril
+                 D01119  Temocapril hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01501  Angiotensin-converting enzyme inhibitor
+               D01119  Temocapril hydrochloride
+              DG03231  Antihypertensive
+               D01119  Temocapril hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D01119  Temocapril hydrochloride (JP18/USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01119  Temocapril hydrochloride
+              D01119  Temocapril hydrochloride tablets
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00345  Temocapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00345  Temocapril
+            Prodrugs [br08324.html(DG00345)]
+             DG00345
+DBLINKS     CAS: 110221-44-8
+            PubChem: 7848182
+            ChEBI: 32190
+            LigandBox: D01119
+            NIKKAJI: J246.886G
+ATOM        33
+            1   S2x S    29.4714  -15.9075
+            2   C8x C    30.6077  -15.0884
+            3   C8x C    30.1717  -13.7501
+            4   C8x C    28.7711  -13.7501
+            5   C8y C    28.3351  -15.0884
+            6   C8y C    18.3350  -17.9988
+            7   C1b C    19.5446  -17.2985
+            8   C1b C    20.7542  -17.9918
+            9   C1c C    21.9639  -17.2915
+            10  N1b N    23.1735  -17.9847
+            11  C1y C    24.3831  -17.2844
+            12  C1x C    24.7103  -15.9193
+            13  S2x S    25.9744  -15.3312
+            14  C1y C    27.2331  -15.9529
+            15  C1x C    27.5358  -17.3180
+            16  C5x C    25.2469  -18.3898
+            17  N1y N    26.6493  -18.3998
+            18  O5x O    24.6286  -19.6466
+            19  C8x C    17.1291  -17.3016
+            20  C8x C    15.9195  -18.0019
+            21  C8x C    15.9212  -19.3996
+            22  C8x C    17.1325  -20.0970
+            23  C8x C    18.3421  -19.3967
+            24  C7a C    21.9544  -15.8865
+            25  O6a O    23.1626  -15.1780
+            26  O7a O    20.7368  -15.1943
+            27  C1b C    19.5285  -15.9028
+            28  C1a C    18.3109  -15.2106
+            29  C1b C    27.2440  -19.6678
+            30  C6a C    26.4432  -20.8170
+            31  O6a O    27.0379  -22.0851
+            32  O6a O    25.0386  -20.8099
+            33  X   Cl   30.8574  -19.4470
+BOND        34
+            1     7   8 1
+            2    15  17 1
+            3    16  17 1
+            4     1   2 1
+            5    16  18 2
+            6     8   9 1
+            7     2   3 2
+            8     9  10 1
+            9     3   4 1
+            10   11  10 1 #Up
+            11    6  19 2
+            12   19  20 1
+            13   20  21 2
+            14   21  22 1
+            15   22  23 2
+            16   23   6 1
+            17    5   1 1
+            18    9  24 1 #Up
+            19    4   5 2
+            20   24  25 2
+            21   12  13 1
+            22   24  26 1
+            23   26  27 1
+            24   13  14 1
+            25   27  28 1
+            26   14   5 1 #Down
+            27   12  11 1
+            28   17  29 1
+            29    6   7 1
+            30   29  30 1
+            31   14  15 1
+            32   30  31 2
+            33   30  32 1
+            34   11  16 1
+///

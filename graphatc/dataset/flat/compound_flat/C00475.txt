@@ -1,0 +1,64 @@
+ENTRY       C00475                      Compound
+NAME        Cytidine
+FORMULA     C9H13N3O5
+EXACT_MASS  243.0855
+MOL_WEIGHT  243.2166
+REMARK      Same as: D07769
+REACTION    R00511 R00513 R00517 R01878 R02137 R02296 R02370 R12635
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+            map02010  ABC transporters
+ENZYME      2.4.2.2         2.7.1.48        2.7.1.213       3.1.3.5         
+            3.1.3.6         3.1.3.91        3.1.3.-         3.2.2.8         
+            3.5.1.135       3.5.4.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleosides
+               Ribonucleosides
+                C00475  Cytidine (C)
+DBLINKS     CAS: 65-46-3
+            PubChem: 3758
+            ChEBI: 17562
+            KNApSAcK: C00042440
+            PDB-CCD: CTN
+            3DMET: B01256
+            NIKKAJI: J4.837B
+ATOM        17
+            1   C1y C    25.8246  -16.1700
+            2   N4y N    27.1592  -15.7446
+            3   O2x O    24.6821  -15.3075
+            4   C1y C    25.4106  -17.4641
+            5   C8y C    28.1676  -16.6947
+            6   C8x C    27.4739  -14.3983
+            7   C1y C    23.5572  -16.1467
+            8   C1y C    23.9943  -17.4641
+            9   O1a O    25.8362  -18.8221
+            10  N5x N    29.5082  -16.2983
+            11  O5x O    27.8587  -18.0644
+            12  C8x C    28.8088  -13.9843
+            13  C1b C    22.2283  -15.7213
+            14  O1a O    23.5629  -18.8280
+            15  C8y C    29.8113  -14.9461
+            16  O1a O    21.1965  -16.6597
+            17  N1a N    31.1693  -14.5497
+BOND        18
+            1     1   2 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1 #Down
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12    7  13 1 #Up
+            13    8  14 1 #Down
+            14   10  15 2
+            15   13  16 1
+            16   15  17 1
+            17    7   8 1
+            18   12  15 1
+///

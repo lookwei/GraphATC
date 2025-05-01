@@ -1,0 +1,159 @@
+ENTRY       D00371                      Drug
+NAME        Theophylline (JP18);
+            Elixophyllin (TN);
+            Quibron-t (TN);
+            Theo-24 (TN);
+            Theodur G (TN);
+            Theolair (TN);
+            Uniphyl (TN)
+PRODUCT
+  GENERIC   ELIXOPHYLLIN (Nostrum Laboratories)
+            THEO-24 (Endo Pharmaceuticals)
+            THEOPHYLLINE (Alembic Pharmaceuticals Limited)
+            THEOPHYLLINE (Alembic Pharmaceuticals)
+            THEOPHYLLINE (American Health Packaging)
+            THEOPHYLLINE (Amneal Pharmaceuticals NY LLC)
+            THEOPHYLLINE (AvKARE)
+            THEOPHYLLINE (Bionpharma Inc.,)
+            THEOPHYLLINE (Bryant Ranch Prepack)
+            THEOPHYLLINE (Camber Pharmaceuticals)
+            THEOPHYLLINE (Chartwell RX)
+            THEOPHYLLINE (Chartwell RX)
+            THEOPHYLLINE (Glenmark Pharmaceuticals)
+            THEOPHYLLINE (Glenmark Pharmaceuticals)
+            THEOPHYLLINE (Golden State Medical Supply)
+            THEOPHYLLINE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            THEOPHYLLINE (Lannett Company)
+            THEOPHYLLINE (Leading Pharma)
+            THEOPHYLLINE (Nostrum Laboratories)
+            THEOPHYLLINE (Nostrum Laboratories)
+            THEOPHYLLINE (PAI Holdings)
+            THEOPHYLLINE (Rhodes Pharmaceuticals L.P.)
+            THEOPHYLLINE (Teva Pharmaceuticals)
+            THEOPHYLLINE (Tris Pharma)
+FORMULA     C7H8N4O2
+EXACT_MASS  180.0647
+MOL_WEIGHT  180.164
+CLASS       Respiratory system agent
+             DG01616  Xanthine derivative
+              DG01609  Xanthine-type bronchodilator
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      Same as: C07130
+            Therapeutic category: 2251
+            ATC code: R03DA04
+            Chemical structure group: DG01061
+            Product (DG01061): D00371<JP/US>
+EFFICACY    Bronchodilator, Phosphodiesterase inhibitor
+  DISEASE   Chronic asthma [DS:H00079]
+COMMENT     Xanthine derivative
+TARGET      ADORA1 [HSA:134] [KO:K04265]
+            ADORA2B [HSA:136] [KO:K04267]
+            PDE [HSA:10846 27115 50940 5136 5137 5138 5139 5140 5141 5142 5143 5144 5150 5151 5153 8622] [KO:K18438 K18436 K13298 K13755 K18283 K19021 K13296 K13293 K18437]
+  PATHWAY   hsa04020(136+5136+5137+5153)  Calcium signaling pathway
+            hsa04022(134+5138+5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(10846+134+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+            hsa04080(134+136)  Neuroactive ligand-receptor interaction
+            hsa04270(136)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03D OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+                R03DA Xanthines
+                 R03DA04 Theophylline
+                  D00371  Theophylline (JP18) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Phosphodiesterase Inhibitors, Airways Disease
+               Theophylline
+                D00371  Theophylline (JP18)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               225  Bronchodilators
+                2251  Xanthines
+                 D00371  Theophylline (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for respiratory organs
+              26 Antitussives and expectorants
+               D00371  Theophylline (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Theophylline
+                D00371  Theophylline (JP18)
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01609  Xanthine-type bronchodilator
+                DG01061  Theophylline
+                 D00371  Theophylline
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01061  Theophylline
+                D00371  Theophylline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA1
+                 D00371  Theophylline (JP18) &lt;JP/US&gt;
+                ADORA2B
+                 D00371  Theophylline (JP18) &lt;JP/US&gt;
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D00371  Theophylline (JP18) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00371  Theophylline
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00371
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01609  Xanthine-type bronchodilator
+                DG01061  Theophylline
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01061  Theophylline
+DBLINKS     CAS: 58-55-9
+            PubChem: 7847437
+            ChEBI: 28177
+            PDB-CCD: TEP
+            LigandBox: D00371
+            NIKKAJI: J2.333G
+ATOM        13
+            1   C8y C    24.1848  -17.2082
+            2   C8y C    24.1848  -18.6318
+            3   C8y C    25.3867  -16.5023
+            4   N4x N    22.8837  -16.7764
+            5   N4y N    25.3867  -19.3144
+            6   N5x N    22.8837  -19.0636
+            7   N4y N    26.6061  -17.2374
+            8   O5x O    25.3867  -15.1253
+            9   C8x C    22.0669  -17.9317
+            10  C8y C    26.6061  -18.5794
+            11  C1a C    25.3867  -20.7440
+            12  C1a C    27.8547  -16.5606
+            13  O5x O    27.8547  -19.2794
+BOND        14
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    7  12 1
+            12   10  13 2
+            13    6   9 2
+            14    7  10 1
+///

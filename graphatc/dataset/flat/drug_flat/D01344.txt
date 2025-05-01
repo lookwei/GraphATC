@@ -1,0 +1,90 @@
+ENTRY       D01344                      Drug
+NAME        Fenbufen (JP18/USAN/INN)
+FORMULA     C16H14O3
+EXACT_MASS  254.0943
+MOL_WEIGHT  254.2806
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01906  Anti-inflammatory drug, acetic acid derivatives
+               DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+REMARK      ATC code: M01AE05
+EFFICACY    Anti-inflammatory, COX inhibitor
+COMMENT     Propionic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE05 Fenbufen
+                  D01344  Fenbufen (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+                 D01344  Fenbufen
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                D01344  Fenbufen
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01344  Fenbufen (JP18/USAN/INN)
+                PTGS2 (COX2)
+                 D01344  Fenbufen (JP18/USAN/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01344  Fenbufen
+DBLINKS     CAS: 36330-85-5
+            PubChem: 7848407
+            ChEBI: 31599
+            LigandBox: D01344
+            NIKKAJI: J3.182H
+ATOM        19
+            1   C8x C    25.2762  -16.6847
+            2   C8x C    25.2762  -18.0849
+            3   C8x C    26.4918  -18.7850
+            4   C8x C    27.7003  -18.0849
+            5   C8y C    27.7003  -16.6847
+            6   C8x C    26.4918  -15.9845
+            7   C8y C    28.9135  -15.9856
+            8   C8x C    30.1234  -16.6882
+            9   C8x C    31.3366  -15.9889
+            10  C8y C    31.3377  -14.5887
+            11  C8x C    30.1255  -13.8877
+            12  C8x C    28.9124  -14.5868
+            13  C5a C    32.5508  -13.8894
+            14  C1b C    33.7628  -14.5906
+            15  O5a O    32.5518  -12.4892
+            16  C1b C    34.9760  -13.8913
+            17  C6a C    36.1881  -14.5923
+            18  O6a O    37.4014  -13.8932
+            19  O6a O    36.1871  -15.9925
+BOND        20
+            1     5   6 2
+            2     7   8 2
+            3     8   9 1
+            4     9  10 2
+            5    10  11 1
+            6    11  12 2
+            7    12   7 1
+            8     6   1 1
+            9    10  13 1
+            10   13  14 1
+            11    5   7 1
+            12   13  15 2
+            13    1   2 2
+            14   14  16 1
+            15    2   3 1
+            16   16  17 1
+            17    3   4 2
+            18   17  18 1
+            19    4   5 1
+            20   17  19 2
+///

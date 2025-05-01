@@ -1,0 +1,169 @@
+ENTRY       D07538                      Drug
+NAME        Bosentan (INN)
+FORMULA     C27H29N5O6S
+EXACT_MASS  551.1839
+MOL_WEIGHT  551.6141
+CLASS       Cardiovascular agent
+             DG01502  Endothelin receptor antagonist
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02886  CYP2C9 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      ATC code: C02KX01
+            Chemical structure group: DG00266
+            Product (DG00266): D01227<JP/US>
+EFFICACY    Antihypertensive, Endothelin receptor antagonist
+TARGET      EDNR [HSA:1909 1910] [KO:K04197 K04198]
+  PATHWAY   hsa04080(1909+1910)  Neuroactive ligand-receptor interaction
+            hsa04270(1909)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP3A4 [HSA:1576]
+INTERACTION CYP induction: CYP2C9 [HSA:1559], CYP3A4 [HSA:1576]
+STR_MAP     map07229  Angiotensin receptor and endothelin receptor antagonists
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02K OTHER ANTIHYPERTENSIVES
+                C02KX Antihypertensives for pulmonary arterial hypertension
+                 C02KX01 Bosentan
+                  D07538  Bosentan (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               DG00266  Bosentan
+                D07538  Bosentan
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00266  Bosentan
+                D07538  Bosentan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00266  Bosentan
+                 D07538  Bosentan
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               DG00266  Bosentan
+                D07538  Bosentan
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00266  Bosentan
+                 D07538  Bosentan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Endothelin
+                EDNR
+                 D07538  Bosentan (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07538
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               DG00266  Bosentan
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00266  Bosentan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00266  Bosentan
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               DG00266  Bosentan
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00266  Bosentan
+DBLINKS     CAS: 147536-97-8
+            PubChem: 51091861
+            ChEBI: 51450
+            PDB-CCD: K86
+            LigandBox: D07538
+            NIKKAJI: J594.472D
+ATOM        39
+            1   C8y C    16.8194  -13.8223
+            2   C8x C    15.6323  -13.1240
+            3   C8x C    14.3753  -13.8223
+            4   C8y C    14.3753  -15.2189
+            5   C8x C    15.6323  -15.9172
+            6   C8x C    16.8194  -15.2189
+            7   N5x N    18.0065  -15.9172
+            8   C8y C    19.2635  -15.2189
+            9   N1b N    19.2636  -13.8223
+            10  O2a O    21.6377  -18.0121
+            11  C1b C    21.6377  -19.4087
+            12  C1b C    22.8248  -20.1070
+            13  O1a O    24.0120  -19.4087
+            14  C8x C    24.0120  -18.0121
+            15  C8x C    22.8248  -17.3138
+            16  C8y C    16.8194  -18.0121
+            17  N5x N    15.6323  -17.3138
+            18  C8x C    14.3753  -18.0121
+            19  C8x C    14.3753  -19.4087
+            20  C8x C    15.6323  -20.1070
+            21  N5x N    16.8194  -19.4087
+            22  C8y C    18.0065  -17.3138
+            23  N5x N    19.1936  -18.0121
+            24  C8y C    22.8248  -15.9172
+            25  C8x C    25.2691  -17.3138
+            26  C8x C    25.2689  -15.9172
+            27  C8y C    24.0120  -15.2189
+            28  C8y C    20.4506  -15.9172
+            29  C8y C    20.4506  -17.3138
+            30  O2a O    21.6377  -15.2189
+            31  O2a O    24.0118  -13.8223
+            32  C1d C    13.1882  -15.9172
+            33  O3c O    19.1238  -12.2162
+            34  C1a C    25.2689  -13.1240
+            35  S4a S    18.0065  -13.1240
+            36  O3c O    16.6797  -12.2162
+            37  C1a C    12.0011  -15.2189
+            38  C1a C    13.1882  -17.3138
+            39  C1a C    12.0011  -16.6155
+BOND        42
+            1    19  20 2
+            2    20  21 1
+            3    21  16 2
+            4     2   3 2
+            5     3   4 1
+            6    22  16 1
+            7    23  22 2
+            8     4   5 2
+            9     5   6 1
+            10    6   1 2
+            11   24  15 1
+            12   14  25 1
+            13   25  26 2
+            14   26  27 1
+            15   27  24 2
+            16   10  11 1
+            17   11  12 1
+            18   12  13 1
+            19   28  29 2
+            20   29  10 1
+            21   24  30 1
+            22   30  28 1
+            23    7  22 1
+            24   23  29 1
+            25   28   8 1
+            26   14  15 2
+            27   27  31 1
+            28    4  32 1
+            29    1   2 1
+            30    7   8 2
+            31    8   9 1
+            32    9  35 1
+            33   35  33 2
+            34   35   1 1
+            35   31  34 1
+            36   16  17 1
+            37   17  18 2
+            38   35  36 2
+            39   18  19 1
+            40   32  37 1
+            41   32  38 1
+            42   32  39 1
+///

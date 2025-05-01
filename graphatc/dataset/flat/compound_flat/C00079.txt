@@ -1,0 +1,97 @@
+ENTRY       C00079                      Compound
+NAME        L-Phenylalanine;
+            (S)-alpha-Amino-beta-phenylpropionic acid
+FORMULA     C9H11NO2
+EXACT_MASS  165.079
+MOL_WEIGHT  165.1891
+REMARK      Same as: D00021
+REACTION    R00686 R00688 R00689 R00690 R00691 R00692 R00693 R00694 
+            R00695 R00697 R00698 R00699 R01375 R01376 R01795 R03660 
+            R06744 R07211 R08463 R08652 R08690 R09535 R09578 R09579 
+            R10286 R10287 R10495 R10499 R10729 R11068 R11918 R12413 
+            R12540 R12543
+PATHWAY     map00360  Phenylalanine metabolism
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00460  Cyanoamino acid metabolism
+            map00470  D-Amino acid metabolism
+            map00940  Phenylpropanoid biosynthesis
+            map00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            map00966  Glucosinolate biosynthesis
+            map00970  Aminoacyl-tRNA biosynthesis
+            map00996  Biosynthesis of various alkaloids
+            map00997  Biosynthesis of various other secondary metabolites
+            map00999  Biosynthesis of various plant secondary metabolites
+            map01060  Biosynthesis of plant secondary metabolites
+            map01061  Biosynthesis of phenylpropanoids
+            map01063  Biosynthesis of alkaloids derived from shikimate pathway
+            map01064  Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+            map01070  Biosynthesis of plant hormones
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map02010  ABC transporters
+            map04974  Protein digestion and absorption
+            map04978  Mineral absorption
+            map05230  Central carbon metabolism in cancer
+MODULE      M00024  Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine
+            M00039  Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+            M00137  Flavanone biosynthesis, phenylalanine => naringenin
+            M00891  Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline
+            M00910  Phenylalanine biosynthesis, chorismate => arogenate => phenylalanine
+NETWORK     nt06016  Phenylalanine and tyrosine metabolism
+ENZYME      1.4.1.20        1.4.3.2         1.11.1.21       1.13.12.9       
+            1.14.14.40      1.14.16.1       1.14.16.7       2.3.1.53        
+            2.6.1.1         2.6.1.5         2.6.1.9         2.6.1.28        
+            2.6.1.57        2.6.1.58        2.6.1.64        2.6.1.70        
+            2.6.1.-         3.4.17.23       4.1.1.28        4.1.1.53        
+            4.1.1.109       4.2.1.51        4.2.1.91        4.3.1.24        
+            4.3.1.25        5.1.1.11        5.4.3.10        5.4.3.11        
+            6.1.1.20        6.3.2.40        6.3.2.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Common amino acids
+                C00079  Phenylalanine (Phe)
+            Risk category of Japanese OTC drugs [BR:br08312(D00021)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               L-Phenylalanine
+                D00021  Phenylalanine (USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00021)]
+             Chemicals
+              D00021  L-Phenylalanine
+DBLINKS     CAS: 63-91-2
+            PubChem: 3379
+            ChEBI: 17295
+            KNApSAcK: C00001386
+            PDB-CCD: PHE
+            3DMET: B01151
+            NIKKAJI: J9.175H
+ATOM        12
+            1   C8y C    25.3400  -16.0300
+            2   C8x C    25.3400  -17.5000
+            3   C8x C    24.0800  -18.2000
+            4   C8x C    22.8900  -17.5000
+            5   C8x C    22.8900  -16.0300
+            6   C8x C    24.0800  -15.3300
+            7   C1b C    26.5300  -15.3300
+            8   C1c C    27.7200  -16.0300
+            9   C6a C    28.9100  -15.3300
+            10  O6a O    30.1000  -16.0300
+            11  O6a O    28.9100  -13.9300
+            12  N1a N    27.7200  -17.5000
+BOND        12
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    9  11 2
+            12    8  12 1 #Up
+///

@@ -1,0 +1,108 @@
+ENTRY       D00131                      Drug
+NAME        Disulfiram (JP18/USP/INN);
+            Antabuse (TN)
+PRODUCT
+  GENERIC   DISULFIRAM (Alvogen)
+            DISULFIRAM (Chartwell RX)
+            DISULFIRAM (Golden State Medical Supply)
+            DISULFIRAM (Rising Pharmaceuticals)
+            DISULFIRAM (Sigmapharm Laboratories)
+            DISULFIRAM (West-Ward Pharmaceuticals Corp.)
+FORMULA     C10H20N2S4
+EXACT_MASS  296.0509
+MOL_WEIGHT  296.5392
+CLASS       Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+             DG02884  CYP2E1 inhibitor
+REMARK      Same as: C01692
+            Therapeutic category: 3939
+            ATC code: N07BB01 P03AA04
+            Product: D00131<JP/US>
+EFFICACY    Antialcohol dependence, Aldehyde dehydrogenase inhibitor
+  DISEASE   Management of selected chronic alcohol patients [DS:H01611]
+TARGET      ALDH [HSA:217 219 224] [KO:K00128]
+  PATHWAY   hsa00010(217+219+224)  Glycolysis / Gluconeogenesis
+            hsa00071(217+219+224)  Fatty acid degradation
+            hsa00620(217+219+224)  Pyruvate metabolism
+INTERACTION CYP inhibition: CYP2E1 [HSA:1571], CYP1A2 [HSA:1544]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BB Drugs used in alcohol dependence
+                 N07BB01 Disulfiram
+                  D00131  Disulfiram (JP18/USP/INN) &lt;JP/US&gt;
+             P ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS
+              P03 ECTOPARASITICIDES, INCL. SCABICIDES, INSECTICIDES AND REPELLENTS
+               P03A ECTOPARASITICIDES, INCL. SCABICIDES
+                P03AA Sulfur containing products
+                 P03AA04 Disulfiram
+                  D00131  Disulfiram (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Anti-Addiction/Substance Abuse Treatment Agents
+              Alcohol Deterrents/Anti-craving
+               Disulfiram
+                D00131  Disulfiram (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               393  Habitual intoxication agents
+                3939  Others
+                 D00131  Disulfiram (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               D00131  Disulfiram
+              DG02884  CYP2E1 inhibitor
+               D00131  Disulfiram
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                ALDH
+                 D00131  Disulfiram (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00131  Disulfiram
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00131
+DBLINKS     CAS: 97-77-8
+            PubChem: 7847199
+            ChEBI: 4659
+            LigandBox: D00131
+            NIKKAJI: J3.980B
+ATOM        16
+            1   N1c N    18.9962  -16.1700
+            2   C2c C    20.2135  -16.8721
+            3   C1b C    17.7852  -16.8721
+            4   C1b C    18.9962  -14.7723
+            5   S3a S    21.4244  -16.1700
+            6   S0  S    20.2135  -18.2762
+            7   C1a C    16.5743  -16.1700
+            8   C1a C    17.7852  -14.0703
+            9   S3a S    22.8221  -16.1636
+            10  C2c C    24.0265  -16.8656
+            11  N1c N    25.2438  -16.1700
+            12  S0  S    24.0200  -18.2633
+            13  C1b C    26.4548  -16.8721
+            14  C1b C    25.2438  -14.7659
+            15  C1a C    27.6657  -16.1764
+            16  C1a C    26.4611  -14.0703
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 1
+            13   11  14 1
+            14   13  15 1
+            15   14  16 1
+///

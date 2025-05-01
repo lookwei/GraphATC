@@ -1,0 +1,142 @@
+ENTRY       D03106                      Drug
+NAME        Bexarotene (JAN/USAN/INN);
+            Targretin (TN)
+PRODUCT     TARGRETIN (Bausch Health US)
+            TARGRETIN (Bausch Health US)
+  GENERIC   BEXAROTENE (ANI Pharmaceuticals)
+            BEXAROTENE (Actavis Pharma)
+            BEXAROTENE (Amneal Pharmaceuticals NY LLC)
+            BEXAROTENE (Amneal Pharmaceuticals NY LLC)
+            BEXAROTENE (AvKARE)
+            BEXAROTENE (Hikma Pharmaceuticals USA)
+            BEXAROTENE (Mylan Pharmaceuticals)
+            BEXAROTENE (Oceanside Pharmaceuticals)
+            BEXAROTENE (Oceanside Pharmaceuticals)
+            BEXAROTENE (Upsher-Smith Laboratories)
+FORMULA     C24H28O2
+EXACT_MASS  348.2089
+MOL_WEIGHT  348.4779
+CLASS       Vitamin and mineral
+             DG01604  Retinol derivative
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      Therapeutic category: 4291
+            ATC code: L01XF03
+            Product: D03106<JP/US>
+EFFICACY    Antineoplastic
+  DISEASE   Cutaneous T-cell lymphoma [DS:H01463]
+TARGET      NR2B (RXR) [HSA:6256 6257 6258] [KO:K08524 K08525 K08526]
+  PATHWAY   hsa03320(6256+6257+6258)  PPAR signaling pathway
+            hsa04920(6256+6257+6258)  Adipocytokine signaling pathway
+            hsa05200(6256+6257+6258)  Pathways in cancer
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07223  Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XF Retinoids for cancer treatment
+                 L01XF03 Bexarotene
+                  D03106  Bexarotene (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Retinoids
+               Bexarotene
+                D03106  Bexarotene (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D03106  Bexarotene (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Vitamin and mineral
+              DG01604  Retinol derivative
+               D03106  Bexarotene
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               D03106  Bexarotene
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Hepatocyte nuclear factor 4 like receptors
+               Retinoid X receptor (RXR)
+                NR2B (RXR)
+                 D03106  Bexarotene (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D03106
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D03106
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D03106
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D03106
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03106
+DBLINKS     CAS: 153559-49-0
+            PubChem: 17397261
+            ChEBI: 50859
+            PDB-CCD: 9RA
+            LigandBox: D03106
+            NIKKAJI: J612.549B
+ATOM        26
+            1   C8y C    14.9800  -16.8700
+            2   C8y C    14.9800  -15.4700
+            3   C1z C    13.7900  -14.7700
+            4   C1x C    12.6000  -15.4700
+            5   C1x C    12.6000  -16.8700
+            6   C1z C    13.7900  -17.5700
+            7   C8x C    16.2400  -17.5700
+            8   C8y C    17.4300  -16.8700
+            9   C8y C    17.4300  -15.4700
+            10  C8x C    16.2400  -14.7700
+            11  C2c C    18.6200  -17.5700
+            12  C8y C    19.8800  -16.8700
+            13  C1a C    12.8100  -18.5500
+            14  C1a C    14.7700  -18.5500
+            15  C1a C    14.8400  -13.7900
+            16  C1a C    12.8100  -13.7900
+            17  C2a C    18.6200  -18.9700
+            18  C1a C    18.6200  -14.7700
+            19  C8x C    21.0700  -17.5700
+            20  C8x C    22.2600  -16.8700
+            21  C8y C    22.2600  -15.4700
+            22  C8x C    21.0700  -14.7700
+            23  C8x C    19.8800  -15.4700
+            24  C6a C    23.4500  -14.7700
+            25  O6a O    24.7100  -15.5400
+            26  O6a O    23.4500  -13.4400
+BOND        28
+            1    11  12 1
+            2     1   7 1
+            3     7   8 2
+            4     8   9 1
+            5     9  10 2
+            6    10   2 1
+            7     5   6 1
+            8     6   1 1
+            9     1   2 2
+            10    6  13 1
+            11    2   3 1
+            12    6  14 1
+            13    3   4 1
+            14    3  15 1
+            15    4   5 1
+            16    3  16 1
+            17    8  11 1
+            18   11  17 2
+            19    9  18 1
+            20   12  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   12  23 1
+            26   21  24 1
+            27   24  25 1
+            28   24  26 2
+///

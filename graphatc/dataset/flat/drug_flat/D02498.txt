@@ -1,0 +1,293 @@
+ENTRY       D02498            Mixture   Drug
+NAME        Lopinavir and ritonavir;
+            Kaletra (TN)
+  ABBR      LPV/r
+PRODUCT     KALETRA (AbbVie)
+  GENERIC   LOPINAVIR AND RITONAVIR (Camber Pharmaceuticals)
+            LOPINAVIR AND RITONAVIR (Laurus Labs Limited)
+            LOPINAVIR AND RITONAVIR (NuCare Pharmaceuticals)
+            LOPINAVIR-RITONAVIR (Lannett Company)
+FORMULA     C37H48N6O5S2. C37H48N4O5
+EXACT_MASS  1348.6752
+MOL_WEIGHT  1349.745
+COMPONENT   Lopinavir [DR:D01425], Ritnavir [DR:D00427]
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+REMARK      Therapeutic category: 6250
+            ATC code: J05AR10
+            Product: D02498<JP/US>
+EFFICACY    Antiviral
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AR Antivirals for treatment of HIV infections, combinations
+                 J05AR10 Lopinavir and ritonavir
+                  D02498  Lopinavir and ritonavir &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Combinations
+               Lopinavir/ Ritonavir
+                D02498  Lopinavir and ritonavir
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D02498  Lopinavir and ritonavir
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                D02498  Lopinavir and ritonavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D02498  Lopinavir and ritonavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D02498  Lopinavir and ritonavir
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D02498  Lopinavir and ritonavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D02498  Lopinavir and ritonavir &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D02498  Lopinavir and ritonavir
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D02498
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D02498
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D02498
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D02498
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02498
+DBLINKS     CAS: 369372-47-4
+            PubChem: 17396672
+            ChEBI: 145924
+            LigandBox: D02498
+ATOM        96
+            1   C1c C    33.1595  -13.2660
+            2   C1b C    33.1667  -14.6594
+            3   C1b C    34.3723  -12.5730
+            4   N1b N    31.9539  -12.5803
+            5   C8y C    34.1485  -15.6485
+            6   C1c C    35.5778  -13.2589
+            7   C5a C    30.7482  -13.2734
+            8   C1c C    36.7763  -12.5660
+            9   O1a O    35.5851  -14.6522
+            10  C1c C    29.5429  -12.5875
+            11  O5a O    30.7482  -14.6666
+            12  C1b C    36.7763  -11.1654
+            13  N1b N    37.9817  -13.2516
+            14  N1b N    28.3301  -13.2805
+            15  C1c C    29.5355  -10.7691
+            16  C8y C    35.5632  -10.4651
+            17  C7a C    39.1944  -12.5586
+            18  C5a C    27.1244  -12.5947
+            19  C1a C    30.7482  -10.0688
+            20  C1a C    28.3228  -10.0688
+            21  C8x C    35.5632   -9.0720
+            22  C8x C    34.3650  -11.1725
+            23  O7a O    40.4002  -13.2445
+            24  O6a O    39.1869  -11.1581
+            25  N1c N    25.9261  -13.2878
+            26  O5a O    27.1244  -11.1943
+            27  C8x C    34.3578   -8.3790
+            28  C8x C    33.1523  -10.4722
+            29  C1b C    41.6057  -12.5515
+            30  C1b C    24.7204  -12.6021
+            31  C1a C    25.9261  -14.6811
+            32  C8x C    33.1523   -9.0791
+            33  C8y C    42.8111  -13.2372
+            34  C8y C    23.5077  -13.2949
+            35  C8x C    42.8741  -14.6306
+            36  S2x S    44.1396  -12.8184
+            37  N5x N    22.1649  -12.9341
+            38  C8x C    23.5099  -14.6882
+            39  N5x N    44.1251  -15.0636
+            40  C8x C    44.9479  -13.9448
+            41  C8y C    21.3927  -14.1035
+            42  S2x S    22.2734  -15.1864
+            43  C1c C    19.9994  -14.0990
+            44  C1a C    19.2485  -12.9293
+            45  C1a C    19.3640  -15.3477
+            46  C8x C    35.5479  -15.6485
+            47  C8x C    33.4488  -16.8604
+            48  C8x C    34.1485  -18.0723
+            49  C8x C    35.5479  -18.0723
+            50  C8x C    36.2476  -16.8604
+            51  C8x C    29.3761  -24.4774
+            52  C8x C    28.6867  -25.6808
+            53  C8x C    27.2998  -25.6851
+            54  C8x C    26.6024  -24.4864
+            55  C8y C    27.2920  -23.2830
+            56  C8x C    28.6788  -23.2786
+            57  C1b C    26.5914  -22.0787
+            58  C8y C    36.2179  -20.6854
+            59  O2a O    35.0145  -19.9887
+            60  C1b C    33.8113  -20.6854
+            61  C5a C    32.6080  -19.9887
+            62  N1b N    31.4046  -20.6854
+            63  C1c C    30.2013  -19.9887
+            64  C1c C    28.9981  -20.6854
+            65  C1b C    27.7947  -19.9887
+            66  C1c C    26.5914  -20.6854
+            67  N1b N    25.3881  -19.9887
+            68  C5a C    24.1849  -20.6854
+            69  C1c C    22.9816  -19.9887
+            70  N1y N    21.7783  -20.6854
+            71  C8y C    37.4228  -19.9916
+            72  C8x C    38.6261  -20.6882
+            73  C8x C    38.6244  -22.0787
+            74  C8x C    37.4194  -22.7725
+            75  C8y C    36.2162  -22.0758
+            76  C1a C    37.4245  -18.5983
+            77  C1a C    35.0088  -22.7710
+            78  O5a O    32.6080  -18.5955
+            79  C1b C    30.2013  -18.5955
+            80  C8y C    28.9949  -17.8988
+            81  C8x C    27.7966  -18.5948
+            82  C8x C    26.5901  -17.8981
+            83  C8x C    26.5901  -16.5049
+            84  C8x C    27.7966  -15.8082
+            85  C8x C    29.0033  -16.5049
+            86  O1a O    29.0028  -22.0751
+            87  O5a O    24.1849  -22.0787
+            88  C1c C    22.9816  -18.1782
+            89  C1a C    21.7750  -17.4816
+            90  C1a C    24.1883  -17.4816
+            91  C1x C    21.7800  -22.0758
+            92  C1x C    20.5766  -22.7725
+            93  C1x C    19.3717  -22.0787
+            94  N1x N    19.3700  -20.6882
+            95  C5x C    20.5732  -19.9916
+            96  O5x O    20.5718  -18.5983
+BOND        102
+            1     1   2 1 #Down
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     6   9 1 #Up
+            9     7  10 1
+            10    7  11 2
+            11    8  12 1 #Down
+            12    8  13 1
+            13   10  14 1
+            14   10  15 1 #Up
+            15   12  16 1
+            16   13  17 1
+            17   14  18 1
+            18   15  19 1
+            19   15  20 1
+            20   16  21 2
+            21   16  22 1
+            22   17  23 1
+            23   17  24 2
+            24   18  25 1
+            25   18  26 2
+            26   21  27 1
+            27   22  28 2
+            28   23  29 1
+            29   25  30 1
+            30   25  31 1
+            31   27  32 2
+            32   29  33 1
+            33   30  34 1
+            34   33  35 2
+            35   33  36 1
+            36   34  37 1
+            37   34  38 2
+            38   35  39 1
+            39   36  40 1
+            40   37  41 2
+            41   38  42 1
+            42   41  43 1
+            43   43  44 1
+            44   43  45 1
+            45   28  32 1
+            46   39  40 2
+            47   41  42 1
+            48    5  46 1
+            49    5  47 2
+            50   47  48 1
+            51   48  49 2
+            52   49  50 1
+            53   46  50 2
+            54   71  72 1
+            55   72  73 2
+            56   73  74 1
+            57   74  75 2
+            58   75  58 1
+            59   62  63 1
+            60   71  76 1
+            61   75  77 1
+            62   63  64 1
+            63   61  78 2
+            64   55  57 1
+            65   63  79 1 #Down
+            66   64  65 1
+            67   79  80 1
+            68   51  52 2
+            69   65  66 1
+            70   52  53 1
+            71   66  67 1
+            72   58  59 1
+            73   80  81 2
+            74   81  82 1
+            75   82  83 2
+            76   83  84 1
+            77   84  85 2
+            78   85  80 1
+            79   64  86 1 #Up
+            80   66  57 1 #Down
+            81   67  68 1
+            82   53  54 2
+            83   68  87 2
+            84   68  69 1
+            85   69  88 1 #Up
+            86   59  60 1
+            87   88  89 1
+            88   69  70 1
+            89   88  90 1
+            90   54  55 1
+            91   60  61 1
+            92   55  56 2
+            93   61  62 1
+            94   56  51 1
+            95   70  91 1
+            96   91  92 1
+            97   92  93 1
+            98   93  94 1
+            99   94  95 1
+            100  95  70 1
+            101  58  71 2
+            102  95  96 2
+///

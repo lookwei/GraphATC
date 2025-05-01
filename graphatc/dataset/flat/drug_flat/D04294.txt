@@ -1,0 +1,75 @@
+ENTRY       D04294                      Drug
+NAME        Galdansetron hydrochloride (USAN)
+FORMULA     C18H19N3O. HCl
+EXACT_MASS  329.1295
+MOL_WEIGHT  329.8239
+CLASS       Gastrointestinal agent
+             DG01762  Antiemetic
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               D04294  Galdansetron hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D04294  Galdansetron hydrochloride (USAN)
+DBLINKS     CAS: 156712-35-5
+            PubChem: 47206226
+            LigandBox: D04294
+ATOM        23
+            1   C8y C     6.1600  -22.9600
+            2   C8y C     6.1600  -24.3600
+            3   C1b C     7.3724  -25.0600
+            4   C1y C     8.5849  -24.3600
+            5   C1x C     8.5849  -22.9600
+            6   C1a C     7.3724  -22.2600
+            7   C5x C     9.7973  -25.0600
+            8   C8y C    11.0097  -24.3600
+            9   C8y C    11.0097  -22.9600
+            10  C1x C     9.7973  -22.2600
+            11  N4x N     4.8285  -22.5274
+            12  C8x C     4.0056  -23.6600
+            13  N5x N     4.8285  -24.7926
+            14  C8y C    12.3412  -24.7926
+            15  C8y C    13.1641  -23.6600
+            16  N4y N    12.3412  -22.5274
+            17  O5x O     9.7973  -26.4600
+            18  C1a C    12.7679  -21.2136
+            19  C8x C    14.5600  -23.6600
+            20  C8x C    15.2600  -24.8724
+            21  C8x C    14.5696  -26.0679
+            22  C8x C    13.1603  -26.0680
+            23  X   Cl   17.5700  -24.4300
+BOND        25
+            1     1   2 2
+            2     2   3 1
+            3     4   3 1 #Up
+            4     4   5 1
+            5     1   6 1
+            6     4   7 1
+            7     7   8 1
+            8     8   9 2
+            9     9  10 1
+            10    5  10 1
+            11    1  11 1
+            12   11  12 1
+            13   12  13 2
+            14    2  13 1
+            15    8  14 1
+            16   14  15 1
+            17   15  16 1
+            18    9  16 1
+            19    7  17 2
+            20   16  18 1
+            21   15  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  14 2
+///

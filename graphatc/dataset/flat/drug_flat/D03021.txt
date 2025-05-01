@@ -1,0 +1,125 @@
+ENTRY       D03021                      Drug
+NAME        Azacitidine (JAN/USAN/INN);
+            Vidaza (TN)
+PRODUCT     AZACITIDINE (BluePoint Laboratories)
+            ONUREG (Celgene Corporation)
+            VIDAZA (Celgene Corporation)
+  GENERIC   AZACITIDINE (Accord Healthcare)
+            AZACITIDINE (Amneal Pharmaceuticals LLC)
+            AZACITIDINE (Apotex Corp)
+            AZACITIDINE (Armas Pharmaceuticals)
+            AZACITIDINE (BluePoint Laboratories)
+            AZACITIDINE (BluePoint Laboratories)
+            AZACITIDINE (Breckenridge Pharmaceutical)
+            AZACITIDINE (CELLTRION USA)
+            AZACITIDINE (Cipla USA)
+            AZACITIDINE (Dr. Reddy's Laboratories)
+            AZACITIDINE (Dr. Reddy's Laboratories)
+            AZACITIDINE (Dr. Reddy's Laboratories)
+            AZACITIDINE (Dr. Reddy's Laboratories)
+            AZACITIDINE (Eugia US LLC)
+            AZACITIDINE (Fresenius Kabi USA)
+            AZACITIDINE (Hikma Pharmaceuticals USA)
+            AZACITIDINE (Meitheal Pharmaceuticals)
+            AZACITIDINE (Meitheal Pharmaceuticals)
+            AZACITIDINE (NorthStar RxLLC)
+            AZACITIDINE (NorthStar RxLLC)
+            AZACITIDINE (Panacea Biotec Limited)
+            AZACITIDINE (Sandoz)
+            AZACITIDINE (Sandoz)
+            AZACITIDINE (Wockhardt USA LLC.)
+            AZACITIDINE FOR (Cipla USA)
+FORMULA     C8H12N4O5
+EXACT_MASS  244.0808
+MOL_WEIGHT  244.2047
+REMARK      Same as: C11262
+            Therapeutic category: 4291
+            ATC code: L01BC07
+            Product: D03021<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Myelodysplastic syndrome [DS:H01481]
+COMMENT     Cytidine [CPD:C00475] analog
+TARGET      DNMT [HSA:1786 1788 1789] [KO:K00558 K17398 K17399]
+  PATHWAY   hsa00270(1786+1788+1789)  Cysteine and methionine metabolism
+            hsa05206(1786+1788+1789)  MicroRNAs in cancer
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC07 Azacitidine
+                  D03021  Azacitidine (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Azacitidine
+                D03021  Azacitidine (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D03021  Azacitidine (JAN/USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                DNMT
+                 D03021  Azacitidine (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D03021
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D03021
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D03021
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D03021
+DBLINKS     CAS: 320-67-2
+            PubChem: 17397176
+            ChEBI: 2038
+            PDB-CCD: 5AE
+            LigandBox: D03021
+            NIKKAJI: J1.523G
+ATOM        17
+            1   C1y C    18.3340  -16.0895
+            2   N4y N    19.6665  -15.6575
+            3   C1y C    17.9014  -17.4167
+            4   O2x O    17.1998  -15.2653
+            5   C1y C    16.4982  -17.4167
+            6   C1y C    16.0656  -16.0895
+            7   O1a O    15.6799  -18.5506
+            8   C1b C    14.7328  -15.6569
+            9   O1a O    13.6982  -16.5982
+            10  O1a O    18.7229  -18.5485
+            11  C8x C    19.6636  -14.2586
+            12  C8y C    20.8795  -16.3543
+            13  N5x N    22.0894  -15.6524
+            14  C8y C    22.0865  -14.2536
+            15  N5x N    20.8736  -13.5567
+            16  O5x O    20.8822  -17.7618
+            17  N1a N    23.2968  -13.5514
+BOND        18
+            1     1   2 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     3   5 1
+            5     4   6 1
+            6     5   7 1 #Down
+            7     6   8 1 #Up
+            8     8   9 1
+            9     5   6 1
+            10    3  10 1 #Down
+            11    2  11 1
+            12    2  12 1
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   11  15 2
+            17   12  16 2
+            18   14  17 1
+///

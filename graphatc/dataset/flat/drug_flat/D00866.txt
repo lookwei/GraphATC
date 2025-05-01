@@ -1,0 +1,161 @@
+ENTRY       D00866                      Drug
+NAME        Kanamycin sulfate (USP);
+            Kanamycin monosulfate (JP18);
+            Kantrex (TN)
+FORMULA     C18H36N4O11. H2SO4
+EXACT_MASS  582.2054
+MOL_WEIGHT  582.5771
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+             DG01966  Antitubercular
+REMARK      Same as: C08046
+            Therapeutic category: 6123
+            ATC code: A07AA08 J01GB04 S01AA24
+            Chemical structure group: DG00085
+            Product (DG00085): D00866<JP> D03262<JP>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07021  Aminoglycosides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A07 ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS
+               A07A INTESTINAL ANTIINFECTIVES
+                A07AA Antibiotics
+                 A07AA08 Kanamycin
+                  D00866  Kanamycin sulfate (USP) &lt;JP&gt;
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01G AMINOGLYCOSIDE ANTIBACTERIALS
+                J01GB Other aminoglycosides
+                 J01GB04 Kanamycin
+                  D00866  Kanamycin sulfate (USP) &lt;JP&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA24 Kanamycin
+                  D00866  Kanamycin sulfate (USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               612  Acting mainly on gram-negative bacteria
+                6123  Amino sugars
+                 D00866  Kanamycin sulfate (USP); Kanamycin monosulfate (JP18)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00085  Kanamycin
+                D00866  Kanamycin sulfate
+              DG01966  Antitubercular
+               DG00085  Kanamycin
+                D00866  Kanamycin sulfate
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               D00866  Kanamycin sulfate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D00866  Kanamycin sulfate (USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00866  Kanamycin monosulfate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00085  Kanamycin
+              DG01966  Antitubercular
+               DG00085  Kanamycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                DG00085  Kanamycin
+DBLINKS     CAS: 25389-94-0
+            PubChem: 7847931
+            ChEBI: 6109
+            LigandBox: D00866
+            NIKKAJI: J203.663K
+ATOM        38
+            1   O2a O    30.3297  -15.0547
+            2   C1y C    31.4689  -14.3495
+            3   O2x O    32.7495  -15.0399
+            4   C1y C    33.9585  -14.3345
+            5   C1y C    33.9489  -12.9339
+            6   C1y C    32.7300  -12.2384
+            7   C1y C    31.5210  -12.9506
+            8   C1b C    35.1773  -15.0231
+            9   N1a N    35.1870  -16.4237
+            10  O1a O    30.3001  -12.2587
+            11  C1y C    30.3489  -16.4552
+            12  C1y C    31.5722  -17.1430
+            13  C1x C    31.5892  -18.5461
+            14  C1y C    30.3866  -19.2553
+            15  C1y C    29.0934  -18.5746
+            16  C1y C    29.1429  -17.1777
+            17  N1a N    32.7772  -16.4238
+            18  N1a N    30.4040  -20.6561
+            19  O1a O    27.9260  -16.4914
+            20  O2a O    27.9663  -19.2884
+            21  C1y C    26.7575  -19.9994
+            22  C1y C    26.7664  -21.3994
+            23  C1y C    25.5576  -22.1034
+            24  C1y C    24.3398  -21.4147
+            25  C1y C    24.3310  -20.0148
+            26  O2x O    25.5399  -19.3036
+            27  O1a O    27.9848  -22.0884
+            28  O1a O    23.1303  -22.1191
+            29  C1b C    23.1127  -19.3187
+            30  N1a N    25.5664  -23.5041
+            31  O1a O    21.9030  -20.0302
+            32  O1a O    32.7204  -10.8376
+            33  O1a O    35.1581  -12.2217
+            34  O1d O    33.6899  -21.5139
+            35  S4a S    35.0836  -21.5139
+            36  O1d O    35.0765  -22.9076
+            37  O1d O    36.4773  -21.5139
+            38  O1d O    35.0765  -20.1202
+BOND        39
+            1    16  19 1 #Up
+            2     8   9 1
+            3    15  20 1 #Down
+            4    11   1 1 #Down
+            5    21  20 1 #Down
+            6     7  10 1 #Down
+            7     2   3 1
+            8     3   4 1
+            9     4   5 1
+            10    5   6 1
+            11   21  22 1
+            12   22  23 1
+            13   23  24 1
+            14   24  25 1
+            15   25  26 1
+            16   26  21 1
+            17    6   7 1
+            18   22  27 1 #Down
+            19    7   2 1
+            20   24  28 1 #Down
+            21   11  12 1
+            22   25  29 1 #Up
+            23   12  13 1
+            24   23  30 1 #Up
+            25   13  14 1
+            26   29  31 1
+            27   14  15 1
+            28    6  32 1 #Up
+            29   15  16 1
+            30    5  33 1 #Down
+            31   16  11 1
+            32    2   1 1 #Down
+            33   12  17 1 #Up
+            34    4   8 1 #Up
+            35   14  18 1 #Up
+            36   34  35 1
+            37   35  36 2
+            38   35  37 1
+            39   35  38 2
+///

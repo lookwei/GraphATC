@@ -1,0 +1,159 @@
+ENTRY       D10145                      Drug
+NAME        Olodaterol (USAN/INN);
+            Striverdi respimat (TN)
+FORMULA     C21H26N2O5
+EXACT_MASS  386.1842
+MOL_WEIGHT  386.4415
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01642  CYP2C9 substrate
+             DG02924  UGT substrate
+              DG03183  UGT1A1 substrate
+              DG03185  UGT1A7 substrate
+              DG03188  UGT1A9 substrate
+              DG03190  UGT2B7 substrate
+REMARK      ATC code: R03AC19
+            Chemical structure group: DG01058
+            Product (DG01058): D10020<US>
+            Product (mixture): D10744<JP/US>
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP2C8 [HSA:1558], UGT2B7 [HSA:7364], UGT1A1 [HSA:54658], UGT1A7 [HSA:54577], UGT1A9 [HSA:54600]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC19 Olodaterol
+                  D10145  Olodaterol (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01058  Olodaterol
+                  D10145  Olodaterol
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG01058  Olodaterol
+                D10145  Olodaterol
+              DG01642  CYP2C9 substrate
+               DG01058  Olodaterol
+                D10145  Olodaterol
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                DG01058  Olodaterol
+                 D10145  Olodaterol
+               DG03185  UGT1A7 substrate
+                DG01058  Olodaterol
+                 D10145  Olodaterol
+               DG03188  UGT1A9 substrate
+                DG01058  Olodaterol
+                 D10145  Olodaterol
+               DG03190  UGT2B7 substrate
+                DG01058  Olodaterol
+                 D10145  Olodaterol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D10145  Olodaterol (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10145
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01058  Olodaterol
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG01058  Olodaterol
+              DG01642  CYP2C9 substrate
+               DG01058  Olodaterol
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                DG01058  Olodaterol
+               DG03185  UGT1A7 substrate
+                DG01058  Olodaterol
+               DG03188  UGT1A9 substrate
+                DG01058  Olodaterol
+               DG03190  UGT2B7 substrate
+                DG01058  Olodaterol
+DBLINKS     CAS: 868049-49-4
+            PubChem: 135626863
+            ChEBI: 82700
+            PDB-CCD: DZQ
+            LigandBox: D10145
+ATOM        28
+            1   C5x C    11.4100  -18.6200
+            2   N1x N    11.4100  -17.2200
+            3   C8y C    12.6000  -16.5200
+            4   C8y C    13.7900  -17.2200
+            5   O2x O    13.7900  -18.6200
+            6   C1x C    12.6000  -19.3200
+            7   C8x C    12.6000  -15.1200
+            8   C8y C    13.7900  -14.4200
+            9   C8x C    15.0500  -15.1200
+            10  C8y C    15.0500  -16.5200
+            11  O5x O    10.1500  -19.3200
+            12  O1a O    13.7900  -13.0200
+            13  C1c C    16.2400  -17.2200
+            14  C1b C    17.4300  -16.5200
+            15  O1a O    16.2400  -18.6200
+            16  N1b N    18.6200  -17.2200
+            17  C1d C    19.8100  -16.5200
+            18  C1b C    21.0000  -17.2200
+            19  C8y C    22.2600  -16.5200
+            20  C1a C    19.1100  -15.3300
+            21  C1a C    20.5100  -15.3300
+            22  C8x C    22.2600  -15.1200
+            23  C8x C    23.4500  -14.4200
+            24  C8y C    24.6400  -15.1200
+            25  C8x C    24.6400  -16.5200
+            26  C8x C    23.4500  -17.2200
+            27  O2a O    25.9000  -14.4200
+            28  C1a C    27.0900  -15.1200
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     3   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    4  10 2
+            12    1  11 2
+            13    8  12 1
+            14   10  13 1
+            15   13  14 1
+            16   13  15 1 #Down
+            17   14  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   17  20 1
+            22   17  21 1
+            23   19  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   25  26 2
+            28   19  26 1
+            29   24  27 1
+            30   27  28 1
+///

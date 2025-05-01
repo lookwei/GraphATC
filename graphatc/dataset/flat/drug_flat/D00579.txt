@@ -1,0 +1,69 @@
+ENTRY       D00579                      Drug
+NAME        Foscarnet sodium (USP/INN);
+            Foscavir (TN)
+FORMULA     CO5P. 3Na
+EXACT_MASS  191.9176
+MOL_WEIGHT  191.9508
+CLASS       Antiviral
+             DG01937  Anti-cytomegalovirus agent
+REMARK      ATC code: J05AD01
+            Chemical structure group: DG00651
+            Product (DG00651): D02267<JP/US>
+EFFICACY    Antiviral, DNA polymerase inhibitor
+  DISEASE   CMV retinitis [DS:H00368]
+            HSV infections [DS:H00365]
+COMMENT     Phosphonic acid derivative
+TARGET      HCMV DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AD Phosphonic acid derivatives
+                 J05AD01 Foscarnet
+                  D00579  Foscarnet sodium (USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01937  Anti-cytomegalovirus agent
+               DG00651  Foscarnet
+                D00579  Foscarnet sodium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D00579  Foscarnet sodium (USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01937  Anti-cytomegalovirus agent
+               DG00651  Foscarnet
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00651  Foscarnet
+DBLINKS     CAS: 63585-09-1
+            PubChem: 7847645
+            ChEBI: 141644
+            LigandBox: D00579
+            NIKKAJI: J19.447F
+ATOM        10
+            1   Z   Na   26.5842  -23.6738 #+
+            2   Z   Na   30.8880  -22.3875 #+
+            3   Z   Na   23.9722  -21.1394 #+
+            4   P1b P    27.2300  -21.1400
+            5   C6a C    28.6300  -21.1400
+            6   O1c O    27.2300  -22.5400 #-
+            7   O1c O    25.8300  -21.1400 #-
+            8   O1c O    27.2300  -19.7400
+            9   O6a O    29.3300  -22.4000 #-
+            10  O6a O    29.3300  -19.9500
+BOND        6
+            1     4   6 1
+            2     4   7 1
+            3     4   8 2
+            4     5   9 1
+            5     4   5 1
+            6     5  10 2
+///

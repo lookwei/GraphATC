@@ -1,0 +1,224 @@
+ENTRY       D10105                      Drug
+NAME        Daclatasvir dihydrochloride (USAN);
+            Daclatasvir hydrochloride (JAN);
+            Daklinza (TN)
+FORMULA     C40H50N8O6. 2HCl
+EXACT_MASS  810.3387
+MOL_WEIGHT  811.7969
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG01999  HCV NS5A inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+             DG02887  UGT1A1 inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: J05AP07
+            Chemical structure group: DG01669
+EFFICACY    Antiviral, NS5A inhibitor
+TARGET      HCV NS5A [KO:K22275]
+  PATHWAY   ko03230(K22275)  Viral genome structure
+            ko03240(K22275)  Viral replication
+            ko05160(K22275)  Hepatitis C
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Enzyme inhibition: UGT1A1 [HSA:54658]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP07 Daclatasvir
+                  D10105  Daclatasvir dihydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                DG01669  Daclatasvir
+                 D10105  Daclatasvir dihydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01669  Daclatasvir
+                 D10105  Daclatasvir dihydrochloride
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01669  Daclatasvir
+                D10105  Daclatasvir dihydrochloride
+              DG02887  UGT1A1 inhibitor
+               DG01669  Daclatasvir
+                D10105  Daclatasvir dihydrochloride
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01669  Daclatasvir
+                D10105  Daclatasvir dihydrochloride
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10105  Daclatasvir dihydrochloride (USAN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10105
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10105
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10105
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10105
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10105
+             Drug transporters
+              D10105
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                DG01669  Daclatasvir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01669  Daclatasvir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01669  Daclatasvir
+              DG02887  UGT1A1 inhibitor
+               DG01669  Daclatasvir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01669  Daclatasvir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                DG01669  Daclatasvir
+DBLINKS     CAS: 1009119-65-6
+            PubChem: 135626823
+            ChEBI: 83800
+            LigandBox: D10105
+ATOM        56
+            1   C8x C    21.4200  -21.4900
+            2   C8y C    21.4200  -22.8900
+            3   C8x C    22.6100  -23.5900
+            4   C8x C    23.8700  -22.8900
+            5   C8y C    23.8700  -21.4900
+            6   C8x C    22.6100  -20.7900
+            7   C8y C    25.0600  -20.7900
+            8   C8x C    26.3200  -21.4900
+            9   C8x C    27.5800  -20.7900
+            10  C8y C    27.5800  -19.3900
+            11  C8x C    26.3900  -18.6900
+            12  C8x C    25.0600  -19.3900
+            13  C8y C    20.2300  -23.5900
+            14  C8x C    18.9000  -23.1700
+            15  N5x N    18.0600  -24.3600
+            16  C8y C    18.9000  -25.4800
+            17  N4x N    20.2300  -25.0600
+            18  C8y C    28.7700  -18.6900
+            19  C8x C    30.1000  -19.1100
+            20  N5x N    30.9400  -17.9200
+            21  C8y C    30.1000  -16.8000
+            22  N4x N    28.7700  -17.2900
+            23  C1y C    30.5200  -15.4700
+            24  N1y N    31.8500  -15.0500
+            25  C1x C    31.8500  -13.6500
+            26  C1x C    30.5200  -13.2300
+            27  C1x C    29.6800  -14.3500
+            28  C5a C    33.0400  -15.7500
+            29  O5a O    34.2300  -15.0500
+            30  C1c C    33.0400  -17.1500
+            31  N1b N    31.8500  -17.8500
+            32  C1c C    34.2300  -17.8500
+            33  C7a C    31.8500  -19.2500
+            34  O7a O    30.6600  -19.9500
+            35  O6a O    33.0400  -19.9500
+            36  C1a C    30.6600  -21.3500
+            37  C1a C    35.4200  -17.1500
+            38  C1a C    34.2300  -19.2500
+            39  C1y C    18.4800  -26.8100
+            40  N1y N    17.1500  -27.2300
+            41  C1x C    17.1500  -28.6300
+            42  C1x C    18.4800  -29.0500
+            43  C1x C    19.3200  -27.9300
+            44  C5a C    15.9600  -26.5300
+            45  O5a O    14.7700  -27.2300
+            46  C1c C    15.9600  -25.1300
+            47  C1c C    14.7700  -24.4300
+            48  N1b N    17.2200  -24.4300
+            49  C7a C    17.2200  -22.9600
+            50  O7a O    18.4100  -22.3300
+            51  O6a O    15.9600  -22.2600
+            52  C1a C    18.4100  -20.9300
+            53  C1a C    13.5800  -25.0600
+            54  C1a C    14.7700  -22.9600
+            55  X   Cl   27.9300  -25.9700
+            56  X   Cl   27.9300  -28.1400
+BOND        59
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14    2  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   13  17 1
+            20   10  18 1
+            21   18  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   18  22 1
+            26   23  21 1 #Down
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   23  27 1
+            32   24  28 1
+            33   28  29 2
+            34   28  30 1
+            35   30  31 1
+            36   30  32 1 #Down
+            37   31  33 1
+            38   33  34 1
+            39   33  35 2
+            40   34  36 1
+            41   32  37 1
+            42   32  38 1
+            43   39  16 1 #Down
+            44   39  40 1
+            45   40  41 1
+            46   41  42 1
+            47   42  43 1
+            48   39  43 1
+            49   44  40 1
+            50   44  45 2
+            51   44  46 1
+            52   46  47 1 #Down
+            53   46  48 1
+            54   48  49 1
+            55   49  50 1
+            56   49  51 2
+            57   50  52 1
+            58   47  53 1
+            59   47  54 1
+///

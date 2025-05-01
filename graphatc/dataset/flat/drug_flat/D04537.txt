@@ -1,0 +1,91 @@
+ENTRY       D04537                      Drug
+NAME        Ingliforib (USAN/INN)
+FORMULA     C23H24ClN3O5
+EXACT_MASS  457.1404
+MOL_WEIGHT  457.9068
+EFFICACY    Antidiabetic, Glycogen phosphorylase inhibitor
+COMMENT     Treatment of type 2 diabetes mellitus
+TARGET      PYG [HSA:5834 5836 5837] [KO:K00688]
+  PATHWAY   hsa00500(5834+5836+5837)  Starch and sucrose metabolism
+            hsa04910(5834+5836+5837)  Insulin signaling pathway
+            hsa04922(5834+5836+5837)  Glucagon signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Hexosyltransferases
+                PYG
+                 D04537  Ingliforib (USAN/INN)
+DBLINKS     CAS: 186392-65-4
+            PubChem: 47206384
+            ChEBI: 167777
+            LigandBox: D04537
+ATOM        32
+            1   C8y C    24.0158  -14.3861
+            2   C8x C    24.0158  -15.7952
+            3   C8x C    25.2360  -16.4997
+            4   C8y C    26.4564  -15.7952
+            5   C8y C    26.4564  -14.3861
+            6   C8x C    25.2360  -13.6816
+            7   N4x N    27.7965  -16.2306
+            8   C8y C    28.6247  -15.0907
+            9   C8x C    27.7965  -13.9507
+            10  X   Cl   22.7955  -13.6816
+            11  C5a C    30.0043  -15.0907
+            12  O5a O    30.7088  -16.3109
+            13  N1b N    30.7088  -13.8704
+            14  C1c C    32.1177  -13.8704
+            15  C1c C    32.8321  -15.1076
+            16  C5a C    34.2314  -15.1074
+            17  N1y N    34.9289  -16.3151
+            18  O5a O    34.9431  -13.8744
+            19  C1x C    34.5198  -17.6348
+            20  C1y C    35.6483  -18.4323
+            21  C1y C    36.7554  -17.6055
+            22  C1x C    36.3113  -16.2970
+            23  C1b C    32.8127  -12.6671
+            24  C8y C    32.1227  -11.4722
+            25  C8x C    32.8152  -10.2731
+            26  C8x C    32.1107   -9.0527
+            27  C8x C    30.7016   -9.0526
+            28  C8x C    30.0092  -10.2517
+            29  C8x C    30.7137  -11.4721
+            30  O1a O    32.1326  -16.3193
+            31  O1a O    35.6671  -19.8079
+            32  O1a O    38.0813  -18.0178
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    1  10 1
+            12    8  11 1
+            13   11  12 2
+            14   11  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   17  22 1
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   27  28 1
+            30   28  29 2
+            31   24  29 1
+            32   14  23 1 #Up
+            33   15  30 1 #Down
+            34   20  31 1 #Down
+            35   21  32 1 #Down
+///

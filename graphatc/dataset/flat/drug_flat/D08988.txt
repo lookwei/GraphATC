@@ -1,0 +1,157 @@
+ENTRY       D08988                      Drug
+NAME        Rolapitant hydrochloride (USAN);
+            Varubi (TN)
+PRODUCT     VARUBI (TerSera Therapeutics LLC)
+FORMULA     C25H26F6N2O2. HCl. H2O
+EXACT_MASS  554.1771
+MOL_WEIGHT  554.9528
+CLASS       Gastrointestinal agent
+             DG01762  Antiemetic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      ATC code: A04AD14
+            Chemical structure group: DG01868
+            Product (DG01868): D08988<US>
+EFFICACY    Anti-emetic, Neurokinin NK1 antagonist
+COMMENT     Prevention of nausea and vomiting
+TARGET      TACR1 (NK1R) [HSA:6869] [KO:K04222]
+  PATHWAY   hsa04080(6869)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A04 ANTIEMETICS AND ANTINAUSEANTS
+               A04A ANTIEMETICS AND ANTINAUSEANTS
+                A04AD Other antiemetics
+                 A04AD14 Rolapitant
+                  D08988  Rolapitant hydrochloride (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antiemetics
+              Emetogenic Therapy Adjuncts
+               Rolapitant
+                D08988  Rolapitant hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               DG01868  Rolapitant
+                D08988  Rolapitant hydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01868  Rolapitant
+                 D08988  Rolapitant hydrochloride
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01868  Rolapitant
+                D08988  Rolapitant hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Tachykinin
+                TACR1 (NK1R)
+                 D08988  Rolapitant hydrochloride (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D08988
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D08988
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08988
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               DG01868  Rolapitant
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01868  Rolapitant
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01868  Rolapitant
+DBLINKS     CAS: 914462-92-3
+            PubChem: 96025671
+            ChEBI: 90911
+            LigandBox: D08988
+ATOM        37
+            1   C8x C    21.5600  -22.5400
+            2   C8y C    21.5600  -21.1400
+            3   C8x C    22.7500  -20.4400
+            4   C8y C    23.9400  -21.1400
+            5   C8x C    23.9400  -22.5400
+            6   C8y C    22.7500  -23.2400
+            7   C1d C    22.7500  -24.6400
+            8   X   F    22.7500  -26.0400
+            9   X   F    21.3500  -24.6400
+            10  X   F    24.0800  -24.6400
+            11  C1d C    25.2000  -20.4400
+            12  X   F    26.3900  -19.7400
+            13  X   F    24.5000  -19.2500
+            14  X   F    25.9000  -21.7000
+            15  C1c C    20.3000  -20.4400
+            16  O2a O    19.1100  -21.1400
+            17  C1b C    17.9200  -20.4400
+            18  C1z C    16.6600  -21.1400
+            19  C8y C    15.4700  -20.4400
+            20  N1x N    17.9200  -21.9100
+            21  C1x C    17.9200  -23.3100
+            22  C1z C    16.7300  -24.0100
+            23  C1x C    15.4700  -23.2400
+            24  C1x C    15.4700  -21.8400
+            25  C1x C    17.8500  -24.7800
+            26  C1x C    17.4300  -26.1100
+            27  C5x C    16.0300  -26.1100
+            28  N1x N    15.5400  -24.7800
+            29  O5x O    15.1900  -27.2300
+            30  C8x C    14.2100  -21.2100
+            31  C8x C    13.0200  -20.5100
+            32  C8x C    13.0200  -19.1100
+            33  C8x C    14.2800  -18.4100
+            34  C8x C    15.4700  -19.1100
+            35  C1a C    20.3000  -19.1100
+            36  X   Cl   30.5900  -23.2400
+            37  O0  O    34.1600  -23.3100
+BOND        38
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     7   9 1
+            10    7  10 1
+            11    4  11 1
+            12   11  12 1
+            13   11  13 1
+            14   11  14 1
+            15    2  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1 #Up
+            20   18  20 1
+            21   20  21 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   18  24 1
+            26   22  25 1 #Up
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30   22  28 1
+            31   27  29 2
+            32   19  30 2
+            33   30  31 1
+            34   31  32 2
+            35   32  33 1
+            36   33  34 2
+            37   19  34 1
+            38   15  35 1 #Down
+///

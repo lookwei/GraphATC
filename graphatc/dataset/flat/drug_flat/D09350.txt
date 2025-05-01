@@ -1,0 +1,90 @@
+ENTRY       D09350                      Drug
+NAME        Indeglitazar (USAN)
+FORMULA     C19H19NO6S
+EXACT_MASS  389.0933
+MOL_WEIGHT  389.4223
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01795  PPAR gamma agonist
+               DG01732  Non-thiazolidinedione type PPAR agonist
+EFFICACY    Antidiabetic, Peroxisome proliferator-activated receptor (PPAR) agonist
+COMMENT     Treatment of type II diabetes
+TARGET      NR1C (PPAR) [HSA:5465 5467 5468] [KO:K07294 K04504 K08530]
+  PATHWAY   hsa03320(5465+5467+5468)  PPAR signaling pathway
+            hsa04922(5465)  Glucagon signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01732  Non-thiazolidinedione type PPAR agonist
+                 D09350  Indeglitazar
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C (PPAR)
+                 D09350  Indeglitazar (USAN)
+DBLINKS     CAS: 835619-41-5
+            PubChem: 96026030
+            PDB-CCD: ET1
+            LigandBox: D09350
+ATOM        27
+            1   C8x C    11.5500  -23.3100
+            2   C8y C    11.5500  -24.7100
+            3   C8x C    12.7400  -25.4100
+            4   C8x C    14.0000  -24.7100
+            5   C8y C    14.0000  -23.3100
+            6   C8x C    12.7400  -22.6100
+            7   O2a O    10.3600  -25.4100
+            8   C1a C     9.1700  -24.7100
+            9   S4a S    15.1900  -22.6100
+            10  N4y N    16.3800  -23.3100
+            11  C8y C    16.8000  -24.6400
+            12  C8y C    18.2000  -24.6400
+            13  C8y C    18.6900  -23.3100
+            14  C8x C    17.5700  -22.4700
+            15  C8x C    16.1000  -25.8300
+            16  C8x C    16.7300  -27.0900
+            17  C8y C    18.2000  -27.0900
+            18  C8x C    18.9000  -25.9000
+            19  O2a O    18.8300  -28.3500
+            20  C1a C    20.2300  -28.3500
+            21  O3c O    14.4900  -21.4200
+            22  O3c O    15.8900  -21.4200
+            23  C1b C    19.8800  -22.6100
+            24  C1b C    21.0700  -23.3100
+            25  C6a C    22.2600  -22.6100
+            26  O6a O    23.4500  -23.3100
+            27  O6a O    22.2600  -21.2100
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     5   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 2
+            15   10  14 1
+            16   11  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   12  18 2
+            21   17  19 1
+            22   19  20 1
+            23    9  21 2
+            24    9  22 2
+            25   23  24 1
+            26   23  13 1
+            27   24  25 1
+            28   25  26 1
+            29   25  27 2
+///

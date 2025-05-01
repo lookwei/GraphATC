@@ -1,0 +1,92 @@
+ENTRY       D12291                      Drug
+NAME        Tovorafenib (USAN/INN)
+FORMULA     C17H12Cl2F3N7O2S
+EXACT_MASS  505.0102
+MOL_WEIGHT  506.2891
+EFFICACY    Antineoplastic, pan-RAF inhibitor
+TARGET      ARAF [HSA:369] [KO:K08845]
+            BRAF [HSA:673] [KO:K04365]
+            RAF1 [HSA:5894] [KO:K04366]
+  PATHWAY   hsa04010(369+5894+673)  MAPK signaling pathway
+            hsa04068(369+5894+673)  FoxO signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               TKL group
+                ARAF
+                 D12291  Tovorafenib (USAN/INN)
+                BRAF
+                 D12291  Tovorafenib (USAN/INN)
+                RAF1
+                 D12291  Tovorafenib (USAN/INN)
+DBLINKS     CAS: 1096708-71-2
+            PDB-CCD: QOP
+ATOM        32
+            1   C8x C    24.9900  -15.4700
+            2   C8y C    24.9900  -16.8700
+            3   N5x N    26.1800  -17.5700
+            4   C8x C    27.4400  -16.8700
+            5   C8y C    27.4400  -15.4700
+            6   C8y C    26.1800  -14.7700
+            7   C1d C    26.1800  -13.3700
+            8   X   F    24.7800  -13.3700
+            9   X   F    27.5800  -13.3700
+            10  X   F    26.1800  -11.9700
+            11  X   Cl   28.6300  -14.7700
+            12  N1b N    23.8000  -17.5700
+            13  C5a C    22.6100  -16.8700
+            14  C8y C    21.4200  -17.5700
+            15  O5a O    22.6100  -15.4700
+            16  S2x S    20.3000  -16.7300
+            17  C8y C    19.1800  -17.5700
+            18  N5x N    19.6000  -18.8300
+            19  C8x C    20.9300  -18.8300
+            20  C1c C    17.9900  -16.8700
+            21  N1b N    16.8000  -17.5700
+            22  C1a C    17.9900  -15.4700
+            23  C5a C    15.5819  -16.8799
+            24  C8y C    14.4005  -17.5750
+            25  O5a O    15.6402  -15.4706
+            26  N5x N    13.1951  -16.8920
+            27  C8x C    11.9884  -17.6018
+            28  N5x N    11.9997  -19.0018
+            29  C8y C    13.2051  -19.6847
+            30  C8y C    14.4118  -18.9749
+            31  N1a N    13.2166  -21.0699
+            32  X   Cl   15.6339  -19.6674
+BOND        34
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     7   9 1
+            10    7  10 1
+            11    5  11 1
+            12    2  12 1
+            13   12  13 1
+            14   13  14 1
+            15   13  15 2
+            16   14  16 1
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   14  19 2
+            21   20  17 1
+            22   20  21 1
+            23   20  22 1 #Down
+            24   21  23 1
+            25   23  24 1
+            26   23  25 2
+            27   24  26 2
+            28   26  27 1
+            29   27  28 2
+            30   28  29 1
+            31   29  30 2
+            32   24  30 1
+            33   29  31 1
+            34   30  32 1
+///

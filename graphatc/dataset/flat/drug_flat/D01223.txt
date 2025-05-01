@@ -1,0 +1,163 @@
+ENTRY       D01223                      Drug
+NAME        Capecitabine (JAN/USP/INN);
+            Xeloda (TN)
+PRODUCT     XELODA (Genentech)
+            XELODA (H2-Pharma)
+  GENERIC   CAPECITABINE (Accord Healthcare)
+            CAPECITABINE (American Health Packaging)
+            CAPECITABINE (Amneal Pharmaceuticals LLC)
+            CAPECITABINE (Areva Pharmaceuticals)
+            CAPECITABINE (Ascend Laboratories)
+            CAPECITABINE (Aurobindo Pharma Limited)
+            CAPECITABINE (BluePoint Laboratories)
+            CAPECITABINE (CELLTRION USA)
+            CAPECITABINE (Cipla USA)
+            CAPECITABINE (Dr. Reddy's Laboratories Limited)
+            CAPECITABINE (Golden State Medical Supply)
+            CAPECITABINE (Golden State Medical Supply)
+            CAPECITABINE (Hikma Pharmaceuticals USA)
+            CAPECITABINE (Lifestar Pharma LLC)
+            CAPECITABINE (MSN LABORATORIES PRIVATE LIMITED)
+            CAPECITABINE (NORTHSTAR RXLLC)
+            CAPECITABINE (Novadoz Pharmaceuticals LLC)
+            CAPECITABINE (Quallent Pharmaceuticals Health LLC)
+            CAPECITABINE (Rising Pharmaceuticals)
+            CAPECITABINE (Sun Pharmaceutical Industries)
+            CAPECITABINE (Teva Pharmaceuticals USA)
+            CAPECITABINE 150MG (Armas Pharmaceuticals)
+            CAPECITABINE 500MG (Armas Pharmaceuticals)
+FORMULA     C15H22FN3O6
+EXACT_MASS  359.1493
+MOL_WEIGHT  359.3501
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01935  Fluoropyrimidine antineoplastic
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      Same as: C12650
+            Therapeutic category: 4223
+            ATC code: L01BC06
+            Product: D01223<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Colorectal cancer [DS:H00020]
+            Breast cancer [DS:H00031]
+            Gastric cancer [DS:H00018]
+            Esophageal cancer [DS:H00017]
+            Pancreatic cancer [DS:H00019]
+COMMENT     Active form of prodrug: Fluorouracil [DR:D00584]
+TARGET      TYMS [HSA:7298] [KO:K00560]
+  PATHWAY   hsa00240(7298)  Pyrimidine metabolism
+            hsa00670(7298)  One carbon pool by folate
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+OTHER_MAP   map00983  Drug metabolism - other enzymes
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC06 Capecitabine
+                  D01223  Capecitabine (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Capecitabine
+                D01223  Capecitabine (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               422  Antimetabolites
+                4223  Fluorouracils
+                 D01223  Capecitabine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01935  Fluoropyrimidine antineoplastic
+                 D01223  Capecitabine
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D01223  Capecitabine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D01223  Capecitabine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                TYMS
+                 D01223  Capecitabine (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01223
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01223
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01223
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D01223
+DBLINKS     CAS: 154361-50-9
+            PubChem: 7848286
+            ChEBI: 31348
+            LigandBox: D01223
+            NIKKAJI: J949.163E
+ATOM        25
+            1   C1y C    11.2700  -21.5600
+            2   C1y C    12.6700  -21.5600
+            3   C1y C    13.1600  -20.2300
+            4   O2x O    11.9700  -19.4600
+            5   C1y C    10.8500  -20.2300
+            6   C1a C     9.5200  -19.8100
+            7   O1a O    10.4300  -22.7500
+            8   O1a O    13.5100  -22.7500
+            9   N4y N    14.4900  -19.8100
+            10  C8y C    15.6800  -20.5100
+            11  N5x N    16.9400  -19.8100
+            12  C8y C    16.9400  -18.4100
+            13  C8y C    15.7500  -17.7100
+            14  C8x C    14.4900  -18.4100
+            15  O5x O    15.6800  -21.9100
+            16  X   F    15.7500  -16.3800
+            17  N1b N    18.1300  -17.7100
+            18  C7a C    19.3200  -18.4100
+            19  O7a O    20.5100  -17.7100
+            20  C1b C    21.7000  -18.4100
+            21  C1b C    22.8900  -17.7100
+            22  C1b C    24.0800  -18.4100
+            23  C1b C    25.2700  -17.7100
+            24  C1a C    26.4600  -18.4100
+            25  O6a O    19.3200  -19.8100
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     5   6 1 #Up
+            7     1   7 1 #Down
+            8     2   8 1 #Down
+            9     3   9 1 #Up
+            10    9  10 1
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   10  15 2
+            17   13  16 1
+            18   17  18 1
+            19   17  12 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   18  25 2
+///

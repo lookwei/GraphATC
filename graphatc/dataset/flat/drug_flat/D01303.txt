@@ -1,0 +1,131 @@
+ENTRY       D01303                      Drug
+NAME        Flunarizine hydrochloride (JAN/USAN)
+FORMULA     C26H26F2N2. 2HCl
+EXACT_MASS  476.1598
+MOL_WEIGHT  477.4167
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01573  Calcium channel T type blocker
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: N07CA03
+            Chemical structure group: DG01006
+EFFICACY    Antivertigo, Vasodilator, Calcium antagonist
+TARGET      CACNA1-T [HSA:8911 8912 8913] [KO:K04856 K04855 K04854]
+  PATHWAY   hsa04020(8911+8912+8913)  Calcium signaling pathway
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+            map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07C ANTIVERTIGO PREPARATIONS
+                N07CA Antivertigo preparations
+                 N07CA03 Flunarizine
+                  D01303  Flunarizine hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG01006  Flunarizine
+                 D01303  Flunarizine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01006  Flunarizine
+                D01303  Flunarizine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-T
+                 D01303  Flunarizine hydrochloride (JAN/USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01303
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG01006  Flunarizine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01006  Flunarizine
+DBLINKS     CAS: 30484-77-6
+            PubChem: 7848366
+            ChEBI: 31621
+            LigandBox: D01303
+            NIKKAJI: J290.434I
+ATOM        32
+            1   C1c C    32.9047  -20.4996
+            2   C8y C    31.6903  -21.1975
+            3   C8y C    34.1164  -21.2023
+            4   C8x C    30.4848  -20.4979
+            5   C8x C    29.2704  -21.1960
+            6   C8y C    29.2677  -22.5966
+            7   C8x C    30.4794  -23.2991
+            8   C8x C    31.6936  -22.6012
+            9   C8x C    34.1060  -22.6017
+            10  C8x C    35.3177  -23.3044
+            11  C8y C    36.5320  -22.6066
+            12  C8x C    36.5349  -21.2060
+            13  C8x C    35.3231  -20.5033
+            14  X   F    28.0533  -23.2944
+            15  X   F    37.7437  -23.3093
+            16  N1y N    32.9074  -19.0988
+            17  C1x C    34.1218  -18.4009
+            18  C1x C    34.1245  -17.0003
+            19  N1y N    32.9130  -16.2976
+            20  C1x C    31.6987  -16.9954
+            21  C1x C    31.6959  -18.3960
+            22  C1b C    32.9158  -14.8970
+            23  C2b C    34.1301  -14.1989
+            24  C2b C    35.3684  -14.9170
+            25  C8y C    36.5712  -14.2255
+            26  C8x C    37.7523  -14.9103
+            27  C8x C    38.9660  -14.2126
+            28  C8x C    38.9686  -12.8126
+            29  C8x C    37.7876  -12.1278
+            30  C8x C    36.5739  -12.8255
+            31  X   Cl   38.3236  -17.8908
+            32  X   Cl   38.3236  -17.8908
+BOND        33
+            1    16  17 1
+            2    17  18 1
+            3    18  19 1
+            4    19  20 1
+            5    20  21 1
+            6    21  16 1
+            7     1   2 1
+            8    19  22 1
+            9     1   3 1
+            10    3   9 2
+            11    9  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13   3 1
+            16    2   4 2
+            17    6  14 1
+            18   22  23 1
+            19    4   5 1
+            20   11  15 1
+            21    5   6 2
+            22    1  16 1
+            23    6   7 1
+            24    7   8 2
+            25    8   2 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   25  30 1
+BRACKET     1    36.7500  -18.6200   36.7500  -17.2200
+            1    39.1300  -17.2200   39.1300  -18.6200
+            1  2
+  ORIGINAL  1   31
+  REPEAT    1   32
+///

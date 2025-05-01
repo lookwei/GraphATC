@@ -1,0 +1,131 @@
+ENTRY       D03276                      Drug
+NAME        Profenamine hibenzate (JAN);
+            Parkin (TN)
+FORMULA     C19H24N2S. C14H10O4
+EXACT_MASS  554.2239
+MOL_WEIGHT  554.6991
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+              DG01745  Anticholinergic antiparkinson agent
+REMARK      ATC code: N04AA05
+            Chemical structure group: DG00855
+EFFICACY    Antiparkinsonian, Muscarinic acetylcholine receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+            map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04A ANTICHOLINERGIC AGENTS
+                N04AA Tertiary amines
+                 N04AA05 Profenamine
+                  D03276  Profenamine hibenzate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01745  Anticholinergic antiparkinson agent
+                DG00855  Profenamine
+                 D03276  Profenamine hibenzate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D03276  Profenamine hibenzate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01745  Anticholinergic antiparkinson agent
+                DG00855  Profenamine
+DBLINKS     PubChem: 17397428
+            LigandBox: D03276
+ATOM        40
+            1   C8y C     4.2000  -19.3900
+            2   C8y C     4.2000  -20.7900
+            3   S2x S     5.3900  -21.4900
+            4   C8y C     6.6500  -20.7900
+            5   C8y C     6.6500  -19.3900
+            6   N1y N     5.3900  -18.6900
+            7   C8x C     7.8400  -21.4900
+            8   C8x C     9.0300  -20.7900
+            9   C8x C     9.0300  -19.3900
+            10  C8x C     7.8400  -18.6900
+            11  C8x C     3.0100  -18.6900
+            12  C8x C     1.7500  -19.3900
+            13  C8x C     1.7500  -20.7900
+            14  C8x C     3.0100  -21.4900
+            15  C1b C     5.3900  -17.2900
+            16  C1c C     6.6500  -16.5900
+            17  N1c N     6.6500  -15.1900
+            18  C1b C     7.8400  -14.4900
+            19  C1a C     8.9600  -15.1900
+            20  C1a C     7.8400  -17.2900
+            21  C1b C     5.4600  -14.4900
+            22  C1a C     4.2700  -15.1900
+            23  C8x C    14.2100  -19.3200
+            24  C8x C    14.2100  -20.7200
+            25  C8x C    15.4700  -21.4200
+            26  C8x C    16.6600  -20.7200
+            27  C8y C    16.6600  -19.3200
+            28  C8y C    15.4700  -18.6200
+            29  C5a C    17.8500  -18.6200
+            30  C8y C    19.1100  -19.3200
+            31  C8x C    19.1100  -20.7200
+            32  C8x C    20.3000  -21.4200
+            33  C8y C    21.4900  -20.7200
+            34  C8x C    21.4900  -19.3200
+            35  C8x C    20.3000  -18.6200
+            36  C6a C    15.4700  -17.2200
+            37  O6a O    16.6600  -16.5200
+            38  O6a O    14.2100  -16.5200
+            39  O5a O    17.8500  -17.2200
+            40  O1a O    22.7053  -21.4151
+BOND        43
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    1  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16    2  14 1
+            17    6  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   16  20 1
+            23   17  21 1
+            24   21  22 1
+            25   29  39 2
+            26   29  30 1
+            27   23  24 2
+            28   24  25 1
+            29   25  26 2
+            30   26  27 1
+            31   27  28 2
+            32   30  31 2
+            33   31  32 1
+            34   32  33 2
+            35   33  34 1
+            36   34  35 2
+            37   35  30 1
+            38   28  23 1
+            39   28  36 1
+            40   36  37 1
+            41   27  29 1
+            42   36  38 2
+            43   33  40 1
+///

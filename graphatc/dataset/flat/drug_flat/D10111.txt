@@ -1,0 +1,48 @@
+ENTRY       D10111                      Drug
+NAME        Dexmecamylamine (USAN)
+FORMULA     C11H21N
+EXACT_MASS  167.1674
+MOL_WEIGHT  167.2911
+REMARK      Chemical structure group: DG01378
+EFFICACY    Antidepressant, Nicotinic acetylcholine receptor alpha4/beta2 antagonist
+COMMENT     Treatment of major depressive disorder
+TARGET      CHRNA4/CHRNB2 [HSA:1137 1141] [KO:K04806 K04813]
+  PATHWAY   hsa04080(1137+1141)  Neuroactive ligand-receptor interaction
+            hsa04725(1137+1141)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRNA4/CHRNB2
+                 D10111  Dexmecamylamine (USAN)
+DBLINKS     CAS: 107538-05-6
+            PubChem: 135626829
+            LigandBox: D10111
+ATOM        12
+            1   C1z C    25.1047  -20.7675
+            2   C1y C    23.9160  -20.0683
+            3   C1z C    25.1047  -22.1660
+            4   C1x C    23.4265  -21.3968
+            5   C1x C    22.6574  -20.7675
+            6   C1y C    23.9160  -22.7953
+            7   C1x C    22.6574  -22.1660
+            8   C1a C    26.2934  -20.0683
+            9   C1a C    26.2934  -22.8652
+            10  C1a C    25.1047  -23.5645
+            11  N1b N    25.1047  -19.3690
+            12  C1a C    26.2934  -18.6698
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1 #Up
+            5     3   6 1
+            6     5   7 1
+            7     6   4 1
+            8     6   7 1 #Up
+            9     1   8 1 #Up
+            10    3   9 1
+            11    3  10 1
+            12    1  11 1 #Down
+            13   11  12 1
+///

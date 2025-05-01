@@ -1,0 +1,277 @@
+ENTRY       D00887                      Drug
+NAME        Atorvastatin calcium anhydorous;
+            Lipitor (TN)
+FORMULA     (C33H34FN2O5)2. Ca
+EXACT_MASS  1154.4529
+MOL_WEIGHT  1155.3417
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01660  HMG-CoA reductase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+             DG02856  SLCO1B1 substrate
+             DG02932  SLCO1B3 substrate
+REMARK      ATC code: C10AA05
+            Chemical structure group: DG00355
+            Product (DG00355): D07474<US> D02258<JP/US> D11095<US>
+            Product (mixture): D08488<JP/US> D10385<JP/US>
+EFFICACY    Antihyperlipidemic, HMG-CoA reductase inhibitor
+COMMENT     Atorvastatin promotes up-regulation of low-density lipoprotein (LDL) receptors.
+TARGET      HMGCR [HSA:3156] [KO:K00021]
+  PATHWAY   hsa00900(3156)  Terpenoid backbone biosynthesis
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+            Transporter: ABCB1 [HSA:5243], ABCG2 [HSA:9429], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+INTERACTION  
+STR_MAP     map07024  HMG-CoA reductase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AA HMG CoA reductase inhibitors
+                 C10AA05 Atorvastatin
+                  D00887  Atorvastatin calcium anhydorous
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00355  Atorvastatin
+                 D00887  Atorvastatin calcium anhydorous
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00355  Atorvastatin
+                 D00887  Atorvastatin calcium anhydorous
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00355  Atorvastatin
+                D00887  Atorvastatin calcium anhydorous
+              DG01913  ABCG2 substrate
+               DG00355  Atorvastatin
+                D00887  Atorvastatin calcium anhydorous
+              DG02856  SLCO1B1 substrate
+               DG00355  Atorvastatin
+                D00887  Atorvastatin calcium anhydorous
+              DG02932  SLCO1B3 substrate
+               DG00355  Atorvastatin
+                D00887  Atorvastatin calcium anhydorous
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                HMGCR
+                 D00887  Atorvastatin calcium anhydorous
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00887
+             Drug transporters
+              D00887
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00355  Atorvastatin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00355  Atorvastatin
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00355  Atorvastatin
+              DG01913  ABCG2 substrate
+               DG00355  Atorvastatin
+              DG02856  SLCO1B1 substrate
+               DG00355  Atorvastatin
+              DG02932  SLCO1B3 substrate
+               DG00355  Atorvastatin
+DBLINKS     CAS: 134523-03-8
+            PubChem: 7847951
+            ChEBI: 2911 50686
+            LigandBox: D00887
+            NIKKAJI: J426.140B
+ATOM        83
+            1   C8y C    24.7759  -21.2292
+            2   C8y C    26.1739  -21.2292
+            3   C8y C    26.5932  -19.8778
+            4   N4y N    25.4749  -19.0856
+            5   C8y C    24.3100  -19.8778
+            6   C8y C    23.9371  -22.3475
+            7   C1c C    27.8980  -19.4584
+            8   C8y C    23.0052  -19.4584
+            9   C1b C    25.4749  -17.6877
+            10  C1b C    26.6865  -16.9887
+            11  C1c C    26.6865  -15.5908
+            12  O1a O    27.8980  -14.8919
+            13  C1b C    25.4749  -14.8919
+            14  C1c C    25.4749  -13.4939
+            15  C1b C    26.6865  -12.7950
+            16  O1a O    24.2634  -12.7950
+            17  C6a C    28.0844  -12.7950
+            18  O6a O    28.7834  -14.0066 #-
+            19  O6a O    28.7834  -11.5835
+            20  C8x C    22.7256  -18.0605
+            21  C8x C    21.3743  -17.6411
+            22  C8y C    20.3492  -18.5731
+            23  C8x C    20.6288  -19.9710
+            24  C8x C    21.9800  -20.3904
+            25  C1a C    28.9697  -20.3904
+            26  C1a C    28.2241  -18.0605
+            27  X   F    18.9979  -18.1537
+            28  C5a C    26.9881  -22.3339
+            29  N1b N    28.3874  -22.3339
+            30  O5a O    26.3674  -23.5627
+            31  C8y C    29.0855  -23.5431
+            32  C8x C    28.4066  -24.7194
+            33  C8x C    29.1062  -25.9313
+            34  C8x C    30.5055  -25.9312
+            35  C8x C    31.1846  -24.7548
+            36  C8x C    30.4848  -23.5430
+            37  C8x C    22.5310  -22.3543
+            38  C8x C    21.7783  -23.4640
+            39  C8x C    22.4236  -24.7756
+            40  C8x C    23.8318  -24.7682
+            41  C8x C    24.5845  -23.5886
+            42  Z   Ca   32.8355  -18.0187 #2+
+            43  C8y C    24.7759  -21.2292
+            44  C8y C    26.1739  -21.2292
+            45  C8y C    26.5932  -19.8778
+            46  N4y N    25.4749  -19.0856
+            47  C8y C    24.3100  -19.8778
+            48  C8y C    23.0052  -19.4584
+            49  C8x C    22.7256  -18.0605
+            50  C8x C    21.3743  -17.6411
+            51  C8y C    20.3492  -18.5731
+            52  C8x C    20.6288  -19.9710
+            53  C8x C    21.9800  -20.3904
+            54  X   F    18.9979  -18.1537
+            55  C1b C    25.4749  -17.6877
+            56  C1b C    26.6865  -16.9887
+            57  C1c C    26.6865  -15.5908
+            58  O1a O    27.8980  -14.8919
+            59  C1b C    25.4749  -14.8919
+            60  C1c C    25.4749  -13.4939
+            61  C1b C    26.6865  -12.7950
+            62  C6a C    28.0844  -12.7950
+            63  O6a O    28.7834  -14.0066 #-
+            64  O6a O    28.7834  -11.5835
+            65  O1a O    24.2634  -12.7950
+            66  C1c C    27.8980  -19.4584
+            67  C1a C    28.9697  -20.3904
+            68  C1a C    28.2241  -18.0605
+            69  C5a C    26.9881  -22.3339
+            70  N1b N    28.3874  -22.3339
+            71  C8y C    29.0855  -23.5431
+            72  C8x C    28.4066  -24.7194
+            73  C8x C    29.1062  -25.9313
+            74  C8x C    30.5055  -25.9312
+            75  C8x C    31.1846  -24.7548
+            76  C8x C    30.4848  -23.5430
+            77  O5a O    26.3674  -23.5627
+            78  C8y C    23.9371  -22.3475
+            79  C8x C    22.5310  -22.3543
+            80  C8x C    21.7783  -23.4640
+            81  C8x C    22.4236  -24.7756
+            82  C8x C    23.8318  -24.7682
+            83  C8x C    24.5845  -23.5886
+BOND        88
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     1   6 1
+            7     3   7 1
+            8     5   8 1
+            9     4   9 1
+            10    9  10 1
+            11   11  10 1 #Down
+            12   11  12 1
+            13   11  13 1
+            14   13  14 1
+            15   14  15 1
+            16   14  16 1 #Up
+            17   15  17 1
+            18   17  18 1
+            19   17  19 2
+            20    8  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25    8  24 1
+            26    7  25 1
+            27    7  26 1
+            28   22  27 1
+            29    2  28 1
+            30   28  29 1
+            31   28  30 2
+            32   29  31 1
+            33   31  32 2
+            34   32  33 1
+            35   33  34 2
+            36   34  35 1
+            37   35  36 2
+            38   31  36 1
+            39    6  37 2
+            40   37  38 1
+            41   38  39 2
+            42   39  40 1
+            43   40  41 2
+            44    6  41 1
+            45   43  44 1
+            46   44  45 2
+            47   45  46 1
+            48   46  47 1
+            49   43  47 2
+            50   43  78 1
+            51   45  66 1
+            52   47  48 1
+            53   46  55 1
+            54   55  56 1
+            55   57  56 1 #Down
+            56   57  58 1
+            57   57  59 1
+            58   59  60 1
+            59   60  61 1
+            60   60  65 1 #Up
+            61   61  62 1
+            62   62  63 1
+            63   62  64 2
+            64   48  49 2
+            65   49  50 1
+            66   50  51 2
+            67   51  52 1
+            68   52  53 2
+            69   48  53 1
+            70   66  67 1
+            71   66  68 1
+            72   51  54 1
+            73   44  69 1
+            74   69  70 1
+            75   69  77 2
+            76   70  71 1
+            77   71  72 2
+            78   72  73 1
+            79   73  74 2
+            80   74  75 1
+            81   75  76 2
+            82   71  76 1
+            83   78  79 2
+            84   79  80 1
+            85   80  81 2
+            86   81  82 1
+            87   82  83 2
+            88   78  83 1
+BRACKET     1    18.2000  -26.0400   18.2000  -10.7100
+            1    31.2200  -10.7100   31.2200  -26.0400
+            1  2
+  ORIGINAL  1    1   2   3   4   5   8  20  21  22  23  24  27   9  10  11  12
+            1   13  14  15  17  18  19  16   7  25  26  28  29  31  32  33  34
+            1   35  36  30   6  37  38  39  40  41
+  REPEAT    1   43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58
+            1   59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74
+            1   75  76  77  78  79  80  81  82  83
+///

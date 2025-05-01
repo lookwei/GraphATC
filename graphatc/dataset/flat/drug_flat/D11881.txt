@@ -1,0 +1,156 @@
+ENTRY       D11881                      Drug
+NAME        Amlodipine benzoate;
+            Katerzia (TN)
+PRODUCT     KATERZIA (Azurity Pharmaceuticals)
+  GENERIC   AMLODIPINE (Amneal Pharmaceuticals NY LLC)
+FORMULA     C20H25ClN2O5. C7H6O2
+EXACT_MASS  530.182
+MOL_WEIGHT  530.9972
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: C08CA01
+            Chemical structure group: DG00322
+            Product (DG00322): D00615<JP/US> D11881<US>
+EFFICACY    Antihypertensive, Vasodilator, Calcium channel blocker
+  DISEASE   Hypertension [DS:H01633]
+            Coronary artery disease [DS:H01742]
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA01 Amlodipine
+                  D11881  Amlodipine benzoate &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00322  Amlodipine
+                 D11881  Amlodipine benzoate
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00322  Amlodipine
+                 D11881  Amlodipine benzoate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00322  Amlodipine
+                 D11881  Amlodipine benzoate
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01928  Dihydropyridine calcium channel blocker
+               D11881  Amlodipine benzoate
+              DG03231  Antihypertensive
+               D11881  Amlodipine benzoate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D11881  Amlodipine benzoate &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11881
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00322  Amlodipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00322  Amlodipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00322  Amlodipine
+ATOM        37
+            1   C1y C    17.5124  -15.0607
+            2   C2y C    18.7032  -14.3602
+            3   C2y C    16.3215  -14.3602
+            4   C8y C    17.5124  -17.3723
+            5   C2y C    18.7032  -12.9592
+            6   C7a C    19.8941  -15.0607
+            7   C2y C    16.3215  -12.9592
+            8   C7a C    15.1307  -14.9906
+            9   C8y C    18.7032  -18.0728
+            10  C8x C    16.3215  -18.0728
+            11  N1x N    17.5124  -12.2587
+            12  C1b C    19.8941  -12.2587
+            13  O7a O    21.0849  -14.3602
+            14  O6a O    19.8941  -16.3215
+            15  C1a C    15.1307  -12.2587
+            16  O7a O    13.9399  -14.3602
+            17  O6a O    15.1307  -16.3215
+            18  C8x C    18.7032  -19.4037
+            19  X   Cl   19.8941  -17.3723
+            20  C8x C    16.3215  -19.4037
+            21  O2a O    21.0849  -12.9592
+            22  C1b C    22.2758  -15.0607
+            23  C1a C    12.7490  -14.9906
+            24  C8x C    17.5124  -20.1042
+            25  C1b C    22.2758  -12.2587
+            26  C1a C    23.4666  -14.3602
+            27  C1b C    23.4666  -12.9592
+            28  N1a N    24.5874  -12.2587
+            29  C8x C    26.2500  -18.0600
+            30  C8x C    26.2500  -19.4600
+            31  C8x C    27.4624  -20.1600
+            32  C8x C    28.6749  -19.4600
+            33  C8x C    28.6749  -18.0600
+            34  C8y C    27.4624  -17.3600
+            35  C6a C    27.4624  -15.9602
+            36  O6a O    26.2332  -15.2503
+            37  O6a O    28.6580  -15.2698
+BOND        38
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     4  10 2
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    6  14 2
+            14    7  15 1
+            15    8  16 1
+            16    8  17 2
+            17    9  18 2
+            18    9  19 1
+            19   10  20 1
+            20   12  21 1
+            21   13  22 1
+            22   16  23 1
+            23   18  24 1
+            24   21  25 1
+            25   22  26 1
+            26   25  27 1
+            27   27  28 1
+            28    7  11 1
+            29   20  24 2
+            30   29  30 2
+            31   30  31 1
+            32   31  32 2
+            33   32  33 1
+            34   33  34 2
+            35   29  34 1
+            36   34  35 1
+            37   35  36 2
+            38   35  37 1
+///

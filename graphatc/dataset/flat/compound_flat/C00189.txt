@@ -1,0 +1,41 @@
+ENTRY       C00189                      Compound
+NAME        Ethanolamine;
+            Aminoethanol;
+            2-Hydroxyethylamine
+FORMULA     C2H7NO
+EXACT_MASS  61.0528
+MOL_WEIGHT  61.0831
+REMARK      Same as: D05074
+REACTION    R00749 R01468 R01469 R01470 R02041 R02051 R04248 R04362 
+            R05381 R06870 R07376 R07385 R07386 R07388 R09536 R11062 
+            R12757
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+            map04723  Retrograde endocannabinoid signaling
+MODULE      M00092  Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE
+ENZYME      1.4.3.8         2.6.-.-         2.7.1.82        2.7.8.29        
+            2.7.8.-         3.1.3.75        3.1.4.2         3.1.4.4         
+            3.1.4.39        3.1.4.46        3.5.1.60        3.5.1.99        
+            4.1.1.-         4.3.1.7         4.3.3.-         4.99.1.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amines
+               Biogenic amines
+                C00189  Ethanolamine
+DBLINKS     CAS: 141-43-5
+            PubChem: 3489
+            ChEBI: 16000
+            KNApSAcK: C00007279
+            PDB-CCD: ETA
+            3DMET: B01183
+            NIKKAJI: J2.536D
+ATOM        4
+            1   C1b C    25.6678  -17.3607
+            2   C1b C    24.4522  -16.6593
+            3   N1a N    26.8775  -16.6593
+            4   O1a O    23.2425  -17.3607
+BOND        3
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+///

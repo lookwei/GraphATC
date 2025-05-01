@@ -1,0 +1,78 @@
+ENTRY       D06072                      Drug
+NAME        Tenidap (USAN/INN)
+FORMULA     C14H9ClN2O3S
+EXACT_MASS  320.0022
+MOL_WEIGHT  320.7509
+REMARK      ATC code: M01AX23
+            Chemical structure group: DG00761
+EFFICACY    Anti-inflammatory
+COMMENT     Treatment of osteoarthritis and rheumatoid arthritis
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AX Other antiinflammatory and antirheumatic agents, non-steroids
+                 M01AX23 Tenidap
+                  D06072  Tenidap (USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D06072  Tenidap (USAN/INN)
+                PTGS2 (COX2)
+                 D06072  Tenidap (USAN/INN)
+DBLINKS     CAS: 120210-48-2
+            PubChem: 47207730
+            LigandBox: D06072
+            NIKKAJI: J594.228D
+ATOM        21
+            1   C8x C    29.7291  -15.4197
+            2   C8y C    29.7291  -16.8131
+            3   C8x C    30.9358  -17.5099
+            4   C8y C    32.1427  -16.8131
+            5   C8y C    32.1427  -15.4197
+            6   C8x C    30.9358  -14.7229
+            7   C2y C    33.4680  -17.2438
+            8   C5x C    34.2871  -16.1164
+            9   N1y N    33.4680  -14.9891
+            10  O5x O    35.6807  -16.1164
+            11  X   Cl   28.5223  -17.5099
+            12  C5a C    33.4680  -13.5891
+            13  N1a N    34.6783  -12.8903
+            14  O5a O    32.2456  -12.8834
+            15  C2c C    33.4680  -18.6438
+            16  C8y C    32.2600  -19.3411
+            17  O1a O    34.6641  -19.3342
+            18  C8x C    32.2600  -20.7411
+            19  S2x S    30.9285  -18.9085
+            20  C8x C    30.1056  -20.0411
+            21  C8x C    30.9285  -21.1738
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1
+            11    8  10 2
+            12    2  11 1
+            13    9  12 1
+            14   12  13 1
+            15   12  14 2
+            16    7  15 2
+            17   15  16 1
+            18   15  17 1
+            19   16  18 2
+            20   16  19 1
+            21   19  20 1
+            22   20  21 2
+            23   18  21 1
+///

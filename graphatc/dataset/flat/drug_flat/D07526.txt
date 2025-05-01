@@ -1,0 +1,124 @@
+ENTRY       D07526                      Drug
+NAME        Betaxolol (INN);
+            Betaxolol (TN)
+FORMULA     C18H29NO3
+EXACT_MASS  307.2147
+MOL_WEIGHT  307.4278
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+               DG01461  beta1-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Same as: C06849
+            ATC code: C07AB05 S01ED02
+            Chemical structure group: DG00315
+            Product (DG00315): D00598<JP/US>
+EFFICACY    Antiglaucoma, Antihypertensive, beta1-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04020(153)  Calcium signaling pathway
+            hsa04022(153)  cGMP-PKG signaling pathway
+            hsa04024(153)  cAMP signaling pathway
+            hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AB Beta blocking agents, selective
+                 C07AB05 Betaxolol
+                  D07526  Betaxolol (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01ED Beta blocking agents
+                 S01ED02 Betaxolol
+                  D07526  Betaxolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00315  Betaxolol
+                  D07526  Betaxolol
+              DG03231  Antihypertensive
+               DG00315  Betaxolol
+                D07526  Betaxolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG00315  Betaxolol
+                D07526  Betaxolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D07526  Betaxolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00315  Betaxolol
+              DG03231  Antihypertensive
+               DG00315  Betaxolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG00315  Betaxolol
+DBLINKS     CAS: 63659-18-7
+            PubChem: 51091849
+            ChEBI: 3082
+            LigandBox: D07526
+            NIKKAJI: J19.271F
+ATOM        22
+            1   O2a O    20.5100  -14.6300
+            2   C1b C    21.7000  -13.9300
+            3   C1c C    22.9600  -14.6300
+            4   C1b C    24.1500  -13.9300
+            5   O1a O    22.9600  -16.0300
+            6   N1b N    25.3400  -14.6300
+            7   C1c C    26.6000  -13.9300
+            8   C1a C    27.7900  -14.6300
+            9   C1a C    26.6000  -12.5300
+            10  C8y C    20.5100  -16.0300
+            11  C8x C    19.3200  -16.7300
+            12  C8x C    19.3200  -18.1300
+            13  C8y C    20.5100  -18.8300
+            14  C8x C    21.7000  -18.1300
+            15  C8x C    21.7000  -16.7300
+            16  C1b C    20.5100  -20.2300
+            17  C1b C    19.3200  -21.0000
+            18  O2a O    18.1300  -20.3000
+            19  C1b C    16.9400  -21.0000
+            20  C1y C    15.6800  -20.3700
+            21  C1x C    14.2800  -20.3700
+            22  C1x C    14.9800  -19.1800
+BOND        23
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 1
+            5     4   6 1
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     1  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   13  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   21  20 1
+            22   22  21 1
+            23   22  20 1
+///

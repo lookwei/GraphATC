@@ -1,0 +1,123 @@
+ENTRY       D00281                      Drug
+NAME        Clonidine (JAN/USP/INN);
+            Catarpres-TTS (TN)
+PRODUCT     CATAPRES-TTS (Boehringer Ingelheim Pharmaceuticals)
+            CLONIDINE TRANSDERMAL SYSTEM (Technomed)
+            CLONIDINE TRANSDERMAL SYSTEM (TruPharma)
+  GENERIC   CLONIDINE (Mayne Pharma)
+            CLONIDINE (Mylan Pharmaceuticals)
+            CLONIDINE TRANSDERMAL SYSTEM (Actavis Pharma)
+FORMULA     C9H9Cl2N3
+EXACT_MASS  229.0174
+MOL_WEIGHT  230.0939
+CLASS       Cardiovascular agent
+             DG01738  Centrally-acting antiadrenergic
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01449  alpha2-Adrenergic receptor agonist
+             DG03231  Antihypertensive
+REMARK      ATC code: C02AC01 N02CX02 S01EA04
+            Chemical structure group: DG00249
+            Product (DG00249): D00281<US> D00604<JP/US>
+EFFICACY    Antihypertensive, alpha2-Adrenergic receptor agonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04022(150+151+152)  cGMP-PKG signaling pathway
+            hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02A ANTIADRENERGIC AGENTS, CENTRALLY ACTING
+                C02AC Imidazoline receptor agonists
+                 C02AC01 Clonidine
+                  D00281  Clonidine (JAN/USP/INN) &lt;US&gt;
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CX Other antimigraine preparations
+                 N02CX02 Clonidine
+                  D00281  Clonidine (JAN/USP/INN) &lt;US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EA Sympathomimetics in glaucoma therapy
+                 S01EA04 Clonidine
+                  D00281  Clonidine (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Alpha-adrenergic Agonists
+               Clonidine
+                D00281  Clonidine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01738  Centrally-acting antiadrenergic
+               DG00249  Clonidine
+                D00281  Clonidine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG00249  Clonidine
+                  D00281  Clonidine
+              DG03231  Antihypertensive
+               DG00249  Clonidine
+                D00281  Clonidine
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00281  Clonidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D00281  Clonidine (JAN/USP/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01738  Centrally-acting antiadrenergic
+               DG00249  Clonidine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG00249  Clonidine
+              DG03231  Antihypertensive
+               DG00249  Clonidine
+DBLINKS     CAS: 4205-90-7
+            PubChem: 7847347
+            ChEBI: 3757
+            PDB-CCD: CLU
+            LigandBox: D00281
+            NIKKAJI: J9.618K
+ATOM        14
+            1   C8x C     8.2600  -20.5100
+            2   C8x C     8.2600  -21.9100
+            3   C8x C     9.4724  -22.6100
+            4   C8y C    10.6849  -21.9100
+            5   C8y C    10.6849  -20.5100
+            6   C8y C     9.4724  -19.8100
+            7   X   Cl   11.8973  -22.6100
+            8   N1x N    13.1097  -21.9100
+            9   C2y C    13.1097  -20.5100
+            10  N2b N    11.8973  -19.8100
+            11  C1x C    14.4412  -22.3426
+            12  C1x C    15.2641  -21.2100
+            13  N1x N    14.4412  -20.0774
+            14  X   Cl    9.4724  -18.4102
+BOND        15
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     8   9 1
+            9     9  10 2
+            10    5  10 1
+            11    8  11 1
+            12   11  12 1
+            13   12  13 1
+            14    9  13 1
+            15    6  14 1
+///

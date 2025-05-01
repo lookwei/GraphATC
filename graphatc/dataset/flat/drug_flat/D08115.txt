@@ -1,0 +1,106 @@
+ENTRY       D08115                      Drug
+NAME        Levobunolol (INN)
+FORMULA     C17H25NO3
+EXACT_MASS  291.1834
+MOL_WEIGHT  291.3853
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Same as: C07914
+            ATC code: S01ED03
+            Chemical structure group: DG01136
+            Product (DG01136): D01025<JP/US>
+EFFICACY    Antiglaucoma, alpha1/beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+            ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+153+154+155)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01ED Beta blocking agents
+                 S01ED03 Levobunolol
+                  D08115  Levobunolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01136  Levobunolol
+                 D08115  Levobunolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01136  Levobunolol
+                D08115  Levobunolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08115  Levobunolol (INN)
+                ADRB
+                 D08115  Levobunolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01136  Levobunolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01136  Levobunolol
+DBLINKS     CAS: 47141-42-4
+            PubChem: 96024805
+            ChEBI: 6438
+            LigandBox: D08115
+            NIKKAJI: J237.992I
+ATOM        21
+            1   C1d C    25.2700  -14.2800
+            2   C1a C    26.4600  -15.0500
+            3   N1b N    24.0100  -15.0500
+            4   C1b C    22.8200  -14.3500
+            5   C1c C    21.6300  -14.9800
+            6   C1b C    20.4400  -14.3500
+            7   O2a O    19.2500  -14.9800
+            8   C1a C    25.2700  -12.8800
+            9   C1a C    26.4600  -13.5800
+            10  O1a O    21.6300  -16.4500
+            11  C8y C    19.2500  -16.3800
+            12  C8y C    18.0600  -17.0800
+            13  C8y C    18.0600  -18.4800
+            14  C8x C    19.2500  -19.2500
+            15  C8x C    20.4400  -18.5500
+            16  C8x C    20.4400  -17.1500
+            17  C1x C    16.8000  -16.3800
+            18  C1x C    15.6100  -17.0800
+            19  C1x C    15.6100  -18.4800
+            20  C5x C    16.8000  -19.2500
+            21  O5x O    16.8000  -20.6500
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     1   8 1
+            8     1   9 1
+            9     5  10 1 #Down
+            10    7  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 2
+            16   11  16 1
+            17   12  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   13  20 1
+            22   20  21 2
+///

@@ -1,0 +1,177 @@
+ENTRY       D09755                      Drug
+NAME        Cabazitaxel (USAN/INN);
+            Jevtana (TN)
+FORMULA     C45H57NO14
+EXACT_MASS  835.3779
+MOL_WEIGHT  835.9324
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      ATC code: L01CD04
+            Chemical structure group: DG00695
+            Product (DG00695): D10452<JP/US>
+EFFICACY    Antineoplastic, Tubulin depolymerization inhibitor
+COMMENT     Taxane derivative
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CD Taxanes
+                 L01CD04 Cabazitaxel
+                  D09755  Cabazitaxel (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00695  Cabazitaxel
+                D09755  Cabazitaxel
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D09755  Cabazitaxel (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09755
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09755
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00695  Cabazitaxel
+DBLINKS     CAS: 183133-96-2
+            PubChem: 124490495
+            ChEBI: 63584
+            LigandBox: D09755
+ATOM        60
+            1   C1y C    30.1912  -18.4346
+            2   C1z C    31.3042  -19.0607
+            3   C1y C    29.4260  -19.2694
+            4   C1z C    30.1912  -17.1129
+            5   C1y C    32.4172  -18.4346
+            6   C1x C    32.4867  -19.7563
+            7   O7a O    31.3042  -21.2867
+            8   C1z C    26.9913  -19.2694
+            9   O7a O    29.4260  -21.5649
+            10  C5x C    28.5912  -16.0695
+            11  C1y C    31.3042  -16.4868
+            12  O2x O    33.4606  -19.1302
+            13  C1x C    32.4172  -17.1129
+            14  C7a C    32.4867  -21.9823
+            15  C1z C    26.9913  -17.9477
+            16  C1x C    25.8783  -19.8954
+            17  O1a O    26.9913  -20.4519
+            18  C7a C    28.3130  -22.1910
+            19  C1y C    25.8783  -16.0695
+            20  O5x O    28.5912  -14.6782
+            21  C1a C    33.6693  -21.2867
+            22  O6a O    32.4867  -23.3736
+            23  C2y C    25.8783  -17.3216
+            24  C1a C    28.0347  -16.9738
+            25  C1a C    28.0347  -18.4346
+            26  C1y C    24.7653  -19.2694
+            27  C8y C    28.3130  -23.4431
+            28  O6a O    27.2695  -21.4954
+            29  C2y C    24.7653  -17.9477
+            30  O7a O    23.3740  -19.9650
+            31  C1a C    23.7218  -17.0433
+            32  C7a C    22.1914  -19.3389
+            33  C1c C    21.0784  -19.9650
+            34  O6a O    22.1914  -18.0172
+            35  C1c C    19.9654  -19.3389
+            36  O1a O    21.0784  -21.2867
+            37  C8y C    18.7829  -19.9650
+            38  N1b N    19.9654  -18.0172
+            39  C8x C    17.6698  -19.3389
+            40  C8x C    18.7829  -21.2867
+            41  C7a C    18.7829  -17.3216
+            42  C8x C    16.4873  -19.9650
+            43  C8x C    17.6698  -21.9823
+            44  O7a O    18.7829  -15.9999
+            45  O6a O    17.6698  -18.0172
+            46  C8x C    16.4873  -21.2867
+            47  C1d C    17.6003  -15.3738
+            48  C1a C    17.6003  -13.9826
+            49  C1a C    16.4177  -15.9999
+            50  C1a C    16.4177  -14.6782
+            51  C8x C    27.1304  -24.0692
+            52  C8x C    27.1304  -25.4605
+            53  C8x C    28.3130  -26.1561
+            54  C8x C    29.4955  -25.5300
+            55  C8x C    29.4955  -24.1388
+            56  O2a O    31.3042  -15.0956
+            57  C1a C    32.5090  -14.4000
+            58  C1a C    30.0520  -15.6521
+            59  O2a O    24.6734  -15.3738
+            60  C1a C    24.6733  -13.9828
+BOND        65
+            1     2   7 1 #Down
+            2     3   8 1
+            3     3   9 1 #Down
+            4     4  10 1
+            5     4  11 1
+            6     5  12 1 #Up
+            7     5  13 1
+            8     7  14 1
+            9     8  15 1
+            10    8  16 1
+            11    8  17 1 #Up
+            12    9  18 1
+            13   10  19 1
+            14   10  20 2
+            15   14  21 1
+            16   14  22 2
+            17   15  23 1
+            18   15  24 1
+            19   15  25 1
+            20   16  26 1
+            21   18  27 1
+            22   18  28 2
+            23   23  29 2
+            24   26  30 1 #Down
+            25   29  31 1
+            26   30  32 1
+            27   32  33 1
+            28   32  34 2
+            29   33  35 1
+            30   33  36 1 #Down
+            31   35  37 1
+            32   35  38 1 #Down
+            33   37  39 2
+            34   37  40 1
+            35   38  41 1
+            36   39  42 1
+            37   40  43 2
+            38   41  44 1
+            39   41  45 2
+            40   42  46 2
+            41    6  12 1
+            42   11  13 1
+            43   19  23 1
+            44   26  29 1
+            45   43  46 1
+            46   44  47 1
+            47    1   2 1
+            48   47  48 1
+            49    1   3 1
+            50   47  49 1
+            51    1   4 1
+            52   47  50 1
+            53    2   5 1
+            54    2   6 1 #Up
+            55   27  51 2
+            56   51  52 1
+            57   52  53 2
+            58   53  54 1
+            59   54  55 2
+            60   27  55 1
+            61   11  56 1 #Up
+            62   56  57 1
+            63    4  58 1 #Up
+            64   19  59 1 #Up
+            65   59  60 1
+///

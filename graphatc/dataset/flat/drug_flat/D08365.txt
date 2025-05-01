@@ -1,0 +1,119 @@
+ENTRY       D08365                      Drug
+NAME        Phenylephrine (INN);
+            Phenylephrine Minims (TN)
+FORMULA     C9H13NO2
+EXACT_MASS  167.0946
+MOL_WEIGHT  167.205
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+REMARK      Same as: C07441
+            ATC code: C01CA06 R01AA04 R01AB01 R01BA03 S01FB01 S01GA05
+            Chemical structure group: DG00215
+            Product (DG00215): D00511<JP/US>
+            Product (mixture): D10837<US> D11853<US>
+EFFICACY    Vasoconstrictor, alpha1-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA06 Phenylephrine
+                  D08365  Phenylephrine (INN)
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA04 Phenylephrine
+                  D08365  Phenylephrine (INN)
+                R01AB Sympathomimetics, combinations excl. corticosteroids
+                 R01AB01 Phenylephrine
+                  D08365  Phenylephrine (INN)
+               R01B NASAL DECONGESTANTS FOR SYSTEMIC USE
+                R01BA Sympathomimetics
+                 R01BA03 Phenylephrine
+                  D08365  Phenylephrine (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FB Sympathomimetics excl. antiglaucoma preparations
+                 S01FB01 Phenylephrine
+                  D08365  Phenylephrine (INN)
+               S01G DECONGESTANTS AND ANTIALLERGICS
+                S01GA Sympathomimetics used as decongestants
+                 S01GA05 Phenylephrine
+                  D08365  Phenylephrine (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Phenylephrine
+                D08365  Phenylephrine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00215  Phenylephrine
+                 D08365  Phenylephrine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00215  Phenylephrine
+                  D08365  Phenylephrine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08365  Phenylephrine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00215  Phenylephrine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00215  Phenylephrine
+DBLINKS     CAS: 59-42-7
+            PubChem: 96025051
+            ChEBI: 8093
+            LigandBox: D08365
+            NIKKAJI: J8.601K
+ATOM        12
+            1   C8y C    13.1600  -38.5700
+            2   C8x C    13.1600  -39.9700
+            3   C8x C    14.3724  -40.6700
+            4   C8x C    15.5849  -39.9700
+            5   C8y C    15.5849  -38.5700
+            6   C8x C    14.3724  -37.8700
+            7   O1a O    11.9476  -37.8700
+            8   C1c C    16.8160  -37.8590
+            9   C1b C    18.0212  -38.5547
+            10  O1a O    16.8157  -36.4701
+            11  N1b N    19.2035  -37.8719
+            12  C1a C    20.3975  -38.5612
+BOND        12
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 1 #Up
+            11    9  11 1
+            12   11  12 1
+///

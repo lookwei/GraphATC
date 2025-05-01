@@ -1,0 +1,87 @@
+ENTRY       D02331                      Drug
+NAME        Vitamin E (USP);
+            Eprolin (TN)
+FORMULA     C29H49O2R
+EFFICACY    Supplement (vitamin E)
+COMMENT     Vitamin E may consist of d- or dl-alpha tocopherol, d- or dl-alpha tocopheryl acetate, d- or dl-alpha tocopheryl acid succinate, mixed tocopherols concentrate, or d-alpha tocopheryl acetate concentrate.
+            d-alpha Tocopherol (R = -H) [CPD:C02477]
+            dl-alpha Tocopherol (CAS 10191-41-0) (R = -H)
+            d-alpha Tocopheryl acetate (CAS 58-95-7) (R = -COCH3)
+            dl-alpha Tocopheryl acetate (CAS 52225-20-4) (R = -COCH3)
+            d-alpha Tocopheryl acid succinate (CAS 4345-03-3) (R = -COCH2CH2COOH)
+            dl-alpha Tocopheryl acid succinate (CAS 17407-37-3) (R = -COCH2CH2COOH)
+            Tocopherol (R = -H) [DR:D02332]
+            Tocopherol acetate (R = -COCH3) [DR:D01735]
+            Tocopherol calcium succinate [DR:D01406]
+            Tocopherol nicotinate (R = -COC6H4N) [CPD:C12981] [DR:D01530]
+DBLINKS     CAS: 1406-18-4
+            PubChem: 7849390
+            NIKKAJI: J203.513H
+ATOM        32
+            1   C8y C    12.1605  -10.1453
+            2   C8y C    12.1605   -8.7747
+            3   O2x O    13.4020  -10.8705
+            4   C8y C    10.9868  -10.8705
+            5   C1x C    13.4020   -8.0556
+            6   C8y C    10.9868   -8.0556
+            7   C1z C    14.5818  -10.1453
+            8   C8y C     9.7453  -10.1453
+            9   C1a C    10.9868  -12.2654
+            10  C1x C    14.5818   -8.7747
+            11  C8y C     9.7453   -8.7747
+            12  C1a C    10.9868   -6.6607
+            13  C1b C    15.8356  -10.8705
+            14  C1a C     8.5100  -10.8705
+            15  O2a O     8.5100   -8.0556
+            16  C1b C    17.0278  -10.2312
+            17  C1b C    18.2507  -10.9441
+            18  C1c C    19.4922  -10.3050
+            19  C1b C    20.7029  -11.0301
+            20  C1a C    19.5352   -8.9467
+            21  C1b C    21.9321  -10.3050
+            22  C1b C    23.1181  -11.0301
+            23  C1c C    24.3595  -10.3418
+            24  C1b C    25.5578  -11.0977
+            25  C1a C    24.3595   -8.9899
+            26  C1b C    26.7747  -10.4156
+            27  C1b C    27.9608  -11.1654
+            28  C1c C    29.1899  -10.4156
+            29  C1a C    29.1899   -9.0636
+            30  C1a C    30.3883  -11.1654
+            31  C1a C    14.5818  -11.9653
+            32  R   R     7.3202   -8.7371
+BOND        33
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 1
+            11    6  12 1
+            12    7  13 1 #Up
+            13    8  14 1
+            14   11  15 1
+            15   13  16 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19   18  20 1 #Down
+            20   19  21 1
+            21   21  22 1
+            22   22  23 1
+            23   23  24 1
+            24   23  25 1 #Down
+            25   24  26 1
+            26   26  27 1
+            27   27  28 1
+            28   28  29 1
+            29   28  30 1
+            30    7  10 1
+            31    8  11 2
+            32    7  31 1 #Either
+            33   15  32 1
+///

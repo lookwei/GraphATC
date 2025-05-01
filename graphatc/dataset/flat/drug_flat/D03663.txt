@@ -1,0 +1,69 @@
+ENTRY       D03663                      Drug
+NAME        Dazoxiben hydrochloride (USAN)
+FORMULA     C12H12N2O3. HCl
+EXACT_MASS  268.0615
+MOL_WEIGHT  268.6962
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+               DG01516  Thromboxane A2 synthase inhibitor
+EFFICACY    Antithrombotic, Thromboxane A2 (TXA2) synthase inhibitor
+TARGET      TBXAS1 (CYP5A1) [HSA:6916] [KO:K01832]
+  PATHWAY   hsa00590(6916)  Arachidonic acid metabolism
+            hsa04611(6916)  Platelet activation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01516  Thromboxane A2 synthase inhibitor
+                 D03663  Dazoxiben hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               Thromboxane-A synthase
+                TBXAS1 (CYP5A1)
+                 D03663  Dazoxiben hydrochloride (USAN)
+DBLINKS     CAS: 74226-22-5
+            PubChem: 17397759
+            LigandBox: D03663
+            NIKKAJI: J358.650B
+ATOM        18
+            1   X   Cl   36.5700  -14.9846
+            2   C8x C    24.8500  -14.1400
+            3   C8y C    24.8500  -15.5400
+            4   C8x C    26.0624  -16.2400
+            5   C8x C    27.2749  -15.5400
+            6   C8y C    27.2749  -14.1400
+            7   C8x C    26.0624  -13.4400
+            8   C6a C    23.6376  -16.2400
+            9   O6a O    22.4421  -15.5496
+            10  O6a O    23.6375  -17.6398
+            11  O2a O    28.5060  -13.4290
+            12  C1b C    29.7112  -14.1247
+            13  C1b C    30.8935  -13.4419
+            14  N4y N    32.0875  -14.1312
+            15  C8x C    32.0875  -15.5312
+            16  C8x C    33.4190  -15.9638
+            17  N5x N    34.2419  -14.8312
+            18  C8x C    33.4190  -13.6986
+BOND        18
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     3   8 1
+            8     8   9 1
+            9     8  10 2
+            10    6  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 2
+            16   16  17 1
+            17   17  18 2
+            18   14  18 1
+///

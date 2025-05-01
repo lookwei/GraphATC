@@ -1,0 +1,93 @@
+ENTRY       D10657                      Drug
+NAME        Pradigastat sodium (USAN)
+FORMULA     C25H23F3N3O2. Na
+EXACT_MASS  477.164
+MOL_WEIGHT  477.454
+REMARK      Chemical structure group: DG01846
+EFFICACY    Antidyslipidemia (hypertriglyceridemic), Diacylglycerol acyltransferase 1 inhibitor
+COMMENT     Lowering of triglycerides in patients with chylomicronemia
+TARGET      DGAT1 [HSA:8694] [KO:K11155]
+  PATHWAY   hsa00561(8694)  Glycerolipid metabolism
+            hsa00830(8694)  Retinol metabolism
+            hsa04975(8694)  Fat digestion and absorption
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Acyltransferases
+                DGAT1
+                 D10657  Pradigastat sodium (USAN)
+DBLINKS     CAS: 956136-98-4
+            PubChem: 254741618
+ATOM        34
+            1   C1y C    19.2500   -9.8000
+            2   C8x C     9.4500  -16.8700
+            3   N5x N     9.4500  -18.2700
+            4   C8y C    10.6624  -18.9700
+            5   C8x C    11.8749  -18.2700
+            6   C8x C    11.8749  -16.8700
+            7   C8y C    10.6624  -16.1700
+            8   C8x C    13.0873  -14.7700
+            9   C8y C    11.8749  -14.0700
+            10  N1b N    10.6624  -14.7700
+            11  C8x C    14.2997  -14.0700
+            12  C8y C    14.2997  -12.6700
+            13  N5x N    13.0873  -11.9700
+            14  C8x C    11.8749  -12.6700
+            15  C8y C    15.5122  -11.9700
+            16  C8x C    16.7453  -12.6822
+            17  C8x C    17.9579  -11.9824
+            18  C8y C    17.9581  -10.5824
+            19  C8x C    16.7250   -9.8702
+            20  C8x C    15.5124  -10.5700
+            21  C1d C    10.6624  -20.3700
+            22  X   F    12.0624  -20.3700
+            23  X   F     9.2624  -20.3700
+            24  X   F    10.6624  -21.7700
+            25  C1x C    20.4768  -10.4745
+            26  C1x C    21.6743   -9.7492
+            27  C1y C    21.6450   -8.3495
+            28  C1x C    20.4182   -7.6751
+            29  C1x C    19.2207   -8.4003
+            30  C1b C    22.8574   -7.6495
+            31  C6a C    24.0699   -8.3495
+            32  O6a O    24.0699   -9.7495 #-
+            33  O6a O    25.2823   -7.6495
+            34  Z   Na   23.9400  -12.6700 #+
+BOND        36
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   7 1
+            6     2   7 2
+            7     8   9 1
+            8     9  10 1
+            9     7  10 1
+            10    8  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14    9  14 2
+            15   12  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22    4  21 1
+            23   21  22 1
+            24   21  23 1
+            25   21  24 1
+            26    1  18 1 #Up
+            27    1  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   28  29 1
+            32    1  29 1
+            33   27  30 1 #Down
+            34   30  31 1
+            35   31  32 1
+            36   31  33 2
+///

@@ -1,0 +1,151 @@
+ENTRY       D00399                      Drug
+NAME        Valproic acid (USP);
+            Depakene (TN)
+PRODUCT
+  GENERIC   VALPROIC (Actavis Pharma)
+            VALPROIC (Aphena Pharma Solutions - Tennessee)
+            VALPROIC (Bryant Ranch Prepack)
+            VALPROIC ACID (ATLANTIC BIOLOGICALS CORP.)
+            VALPROIC ACID (ATLANTIC BIOLOGICALS CORP.)
+            VALPROIC ACID (Akorn)
+            VALPROIC ACID (American Health Packaging)
+            VALPROIC ACID (Aphena Pharma Solutions - Tennessee)
+            VALPROIC ACID (Aphena Pharma Solutions - Tennessee)
+            VALPROIC ACID (Bionpharma)
+            VALPROIC ACID (Bryant Ranch Prepack)
+            VALPROIC ACID (Bryant Ranch Prepack)
+            VALPROIC ACID (Chartwell RX)
+            VALPROIC ACID (Direct_Rx)
+            VALPROIC ACID (Eywa Pharma)
+            VALPROIC ACID (Lannett Company)
+            VALPROIC ACID (McKesson Corporation dba SKY Packaging)
+            VALPROIC ACID (McKesson Corporation dba SKY Packaging)
+            VALPROIC ACID (NCS HealthCare of KY)
+            VALPROIC ACID (NuCare Pharmaceuticals)
+            VALPROIC ACID (PAI Holdings)
+            VALPROIC ACID (Precision Dose)
+            VALPROIC ACID (REMEDYREPACK)
+            VALPROIC ACID (REMEDYREPACK)
+            VALPROIC ACID (REMEDYREPACK)
+            VALPROIC ACID (Upsher-Smith Laboratories)
+FORMULA     C8H16O2
+EXACT_MASS  144.115
+MOL_WEIGHT  144.2114
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01573  Calcium channel T type blocker
+            Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02035  Fatty acid antiepileptic
+REMARK      Same as: C07185
+            ATC code: N03AG01
+            Chemical structure group: DG00849
+            Product (DG00849): D00399<US> D00304<US> D00710<JP/US>
+EFFICACY    Anticonvulsant
+COMMENT     Fatty acid derivative
+            Valproic acid is contraindicated in patients with known urea cycle disorders [DS:H00164 H00185 H00186 H00187 H01028 H01032]
+TARGET      ABAT [HSA:18] [KO:K13524]
+            SSADH [HSA:7915] [KO:K00139]
+            GAD [HSA:2571 2572] [KO:K01580]
+            CACNA1-T [HSA:8911 8912 8913] [KO:K04856 K04855 K04854]
+  PATHWAY   hsa04020(8911+8912+8913)  Calcium signaling pathway
+            hsa04727(18+2571+2572)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07033  Anticonvulsants
+            map07036  Calcium channel blocking drugs
+            map07048  Antimigraines
+OTHER_MAP   map00982  Drug metabolism - cytochrome P450
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AG Fatty acid derivatives
+                 N03AG01 Valproic acid
+                  D00399  Valproic acid (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Anticonvulsants, Other
+               Valproic Acid
+                D00399  Valproic acid (USP)
+             Antimigraine Agents
+              Antimigraine Agents, Other
+               Valproic Acid
+                D00399  Valproic acid (USP)
+             Bipolar Agents
+              Mood Stabilizers
+               Valproic Acid
+                D00399  Valproic acid (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG00849  Valproic acid
+                 D00399  Valproic acid
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02035  Fatty acid antiepileptic
+                DG00849  Valproic acid
+                 D00399  Valproic acid
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D00399  Valproic acid
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-T
+                 D00399  Valproic acid (USP) &lt;US&gt;
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SSADH
+                 D00399  Valproic acid (USP) &lt;US&gt;
+              Transferases (EC2)
+               Aminotransferase
+                ABAT
+                 D00399  Valproic acid (USP) &lt;US&gt;
+              Lyases (EC4)
+               Carboxy-lyases
+                GAD
+                 D00399  Valproic acid (USP) &lt;US&gt;
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00399
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG00849  Valproic acid
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02035  Fatty acid antiepileptic
+                DG00849  Valproic acid
+DBLINKS     CAS: 99-66-1
+            PubChem: 7847465
+            ChEBI: 39867
+            PDB-CCD: 2PP
+            LigandBox: D00399
+            NIKKAJI: J4.972G
+ATOM        10
+            1   C1c C    25.4573  -18.6784
+            2   C1b C    25.4573  -17.3002
+            3   C1b C    24.2485  -19.3967
+            4   C6a C    26.6604  -19.3967
+            5   C1b C    24.2427  -16.5935
+            6   C1b C    23.0396  -18.6784
+            7   O6a O    26.6604  -20.7925
+            8   O6a O    27.8692  -18.6784
+            9   C1a C    23.0339  -17.3002
+            10  C1a C    21.8367  -19.3967
+BOND        9
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     5   9 1
+            9     6  10 1
+///

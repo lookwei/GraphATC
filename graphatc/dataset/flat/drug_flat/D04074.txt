@@ -1,0 +1,112 @@
+ENTRY       D04074                      Drug
+NAME        Etalocib (USAN)
+FORMULA     C33H33FO6
+EXACT_MASS  544.2261
+MOL_WEIGHT  544.6099
+CLASS       Anti-allergic agent
+             DG01541  Cysteinyl leukotriene receptor antagonist
+EFFICACY    Antineoplastic
+COMMENT     Inhibits formation of 5-LO, LTB4, LTC4, and thromboxane B2(TxB2), activates PPARgamma nuclear receptors
+TARGET      LTB4R [HSA:1241 56413] [KO:K04296 K04297]
+  PATHWAY   hsa04020(56413)  Calcium signaling pathway
+            hsa04080(1241+56413)  Neuroactive ligand-receptor interaction
+BRITE       Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01541  Cysteinyl leukotriene receptor antagonist
+               D04074  Etalocib
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Leukotriene
+                LTB4R
+                 D04074  Etalocib (USAN)
+DBLINKS     CAS: 161172-51-6
+            PubChem: 47206030
+            ChEBI: 187612
+            LigandBox: D04074
+ATOM        40
+            1   C8x C     7.4900  -17.7800
+            2   C8x C     7.4900  -19.1800
+            3   C8x C     8.7024  -19.8800
+            4   C8x C     9.9149  -19.1800
+            5   C8y C     9.9149  -17.7800
+            6   C8y C     8.7024  -17.0800
+            7   C8x C    12.3397  -19.1800
+            8   C8y C    12.3397  -17.7800
+            9   O2a O    11.1273  -17.0800
+            10  C8x C    13.5522  -19.8800
+            11  C8x C    14.7646  -19.1800
+            12  C8y C    14.7646  -17.7800
+            13  C8y C    13.5522  -17.0800
+            14  C1b C    13.5522  -15.6803
+            15  C6a C     8.7024  -15.6802
+            16  O6a O     7.4732  -14.9703
+            17  O6a O     9.8980  -14.9898
+            18  C1b C    14.7854  -14.9680
+            19  C1a C    15.9915  -15.6641
+            20  O2a O    15.9811  -17.0777
+            21  C1b C    17.1786  -17.7692
+            22  C1b C    18.3649  -17.0843
+            23  C1b C    19.5567  -17.7726
+            24  O2a O    20.7459  -17.0861
+            25  C8y C    21.9362  -17.7735
+            26  C8x C    21.9361  -19.1798
+            27  C8y C    23.1485  -19.8798
+            28  C8y C    24.3610  -19.1799
+            29  C8x C    24.3610  -17.7736
+            30  C8y C    23.1487  -17.0735
+            31  C1b C    23.1488  -15.6802
+            32  C1a C    24.3772  -14.9710
+            33  C8y C    25.5727  -19.8796
+            34  O1a O    23.1484  -21.2798
+            35  C8x C    25.5726  -21.2798
+            36  C8x C    26.7850  -21.9799
+            37  C8y C    27.9975  -21.2799
+            38  C8x C    27.9976  -19.8797
+            39  C8x C    26.7852  -19.1796
+            40  X   F    29.2118  -21.9811
+BOND        43
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15   13  14 1
+            16    6  15 1
+            17   15  16 1
+            18   15  17 2
+            19   14  18 1
+            20   18  19 1
+            21   12  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 2
+            28   26  27 1
+            29   27  28 2
+            30   28  29 1
+            31   29  30 2
+            32   25  30 1
+            33   30  31 1
+            34   31  32 1
+            35   28  33 1
+            36   27  34 1
+            37   33  35 2
+            38   35  36 1
+            39   36  37 2
+            40   37  38 1
+            41   38  39 2
+            42   33  39 1
+            43   37  40 1
+///

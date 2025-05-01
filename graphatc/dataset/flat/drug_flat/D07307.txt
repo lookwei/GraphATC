@@ -1,0 +1,99 @@
+ENTRY       D07307                      Drug
+NAME        Cyamemazine (INN);
+            Tercian (TN)
+FORMULA     C19H21N3S
+EXACT_MASS  323.1456
+MOL_WEIGHT  323.4551
+CLASS       Neuropsychiatric agent
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      ATC code: N05AA06
+            Chemical structure group: DG00872
+EFFICACY    Antipsychotic, Neuroleptic
+COMMENT     Phenothiazine derivative
+TARGET      HTR2C [HSA:3358] [KO:K04157]
+            HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04080(3356+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3358)  Serotonergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AA Phenothiazines with aliphatic side-chain
+                 N05AA06 Cyamemazine
+                  D07307  Cyamemazine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00872  Cyamemazine
+                 D07307  Cyamemazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2A
+                 D07307  Cyamemazine (INN)
+                HTR2C
+                 D07307  Cyamemazine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00872  Cyamemazine
+DBLINKS     CAS: 3546-03-0
+            PubChem: 51091644
+            LigandBox: D07307
+            NIKKAJI: J7.962F
+ATOM        23
+            1   C8x C    19.3159  -20.0346
+            2   C8x C    19.3159  -21.4408
+            3   C8x C    20.5337  -22.1440
+            4   C8y C    21.7516  -21.4408
+            5   C8y C    21.7516  -20.0346
+            6   C8x C    20.5337  -19.3315
+            7   S2x S    22.9694  -22.1440
+            8   C8y C    24.1872  -21.4408
+            9   C8y C    24.1872  -20.0346
+            10  N4y N    22.9694  -19.3315
+            11  C8x C    25.4051  -22.1440
+            12  C8x C    26.6229  -21.4408
+            13  C8y C    26.6229  -20.0346
+            14  C8x C    25.4051  -19.3315
+            15  C3b C    27.8448  -19.3292
+            16  N3a N    28.9774  -18.6878
+            17  C1b C    22.9694  -17.9252
+            18  C1c C    24.1893  -17.2209
+            19  C1a C    25.3911  -17.9150
+            20  C1b C    24.1893  -15.8161
+            21  N1c N    25.3907  -15.1223
+            22  C1a C    26.5834  -15.8110
+            23  C1a C    25.3908  -13.7068
+BOND        25
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   13  15 1
+            18   15  16 3
+            19   10  17 1
+            20   17  18 1
+            21   18  19 1
+            22   18  20 1
+            23   20  21 1
+            24   21  22 1
+            25   21  23 1
+///

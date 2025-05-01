@@ -1,0 +1,99 @@
+ENTRY       D07434                      Drug
+NAME        Polyestradiol phosphate (INN);
+            Estradurin (TN)
+FORMULA     (C18H22O4P)n
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+REMARK      ATC code: L02AA02
+EFFICACY    Antineoplastic, Estrogen receptor agonist
+TARGET      NR3A1 (ESR1) [HSA:2099] [KO:K08550]
+  PATHWAY   hsa04915(2099)  Estrogen signaling pathway
+            hsa05200(2099)  Pathways in cancer
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L02 ENDOCRINE THERAPY
+               L02A HORMONES AND RELATED AGENTS
+                L02AA Estrogens
+                 L02AA02 Polyestradiol phosphate
+                  D07434  Polyestradiol phosphate (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               D07434  Polyestradiol phosphate
+              DG01584  Estrogen receptor agonist
+               D07434  Polyestradiol phosphate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A1 (ESR1)
+                 D07434  Polyestradiol phosphate (INN)
+DBLINKS     CAS: 28014-46-2
+            PubChem: 51091766
+ATOM        26
+            1   C8x C    20.3700  -22.9600
+            2   C8x C    20.3700  -24.3600
+            3   C8x C    21.5600  -25.0600
+            4   C8y C    22.8200  -24.3600
+            5   C8y C    22.8200  -22.9600
+            6   C8x C    21.5600  -22.2600
+            7   C1x C    24.0100  -25.0600
+            8   C1x C    25.2000  -24.3600
+            9   C1y C    25.2000  -22.9600
+            10  C1y C    24.0100  -22.2600
+            11  C1y C    26.4600  -22.2600
+            12  C1z C    26.4600  -20.8600
+            13  C1x C    25.2000  -20.1600
+            14  C1x C    24.0100  -20.8600
+            15  C1a C    26.4600  -19.4600
+            16  Z   *    18.6200  -24.3600
+            17  C1x C    28.8849  -22.2600
+            18  C1x C    28.8849  -20.8600
+            19  C1y C    27.6724  -20.1600
+            20  O2b O    27.6724  -18.7602
+            21  P1b P    28.8680  -18.0698
+            22  O1c O    30.0614  -17.3757
+            23  O1c O    29.5584  -19.2616
+            24  O1c O    28.1551  -16.8390
+            25  Z   *    32.4984  -19.2616
+            26  Z   *    32.5057  -17.3544
+BOND        29
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   12  15 1 #Up
+            18    2  16 1
+            19   11  17 1
+            20   17  18 1
+            21   18  19 1
+            22   12  19 1
+            23   19  20 1 #Up
+            24   20  21 1
+            25   21  22 1
+            26   21  23 1
+            27   21  24 2
+            28   23  25 1
+            29   22  26 1
+BRACKET     1    20.0900  -25.5500   20.0900  -15.9600
+            1    31.6400  -16.1700   31.6400  -25.7600
+            1  n
+  ORIGINAL  1    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+            1   17  18  20  21  22  23  24  25  26  27
+  REPEAT    1 
+///

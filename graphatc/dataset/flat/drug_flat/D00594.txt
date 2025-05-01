@@ -1,0 +1,178 @@
+ENTRY       D00594                      Drug
+NAME        Repaglinide (JAN/USP/INN);
+            Prandin (TN);
+            Surepost (TN)
+PRODUCT
+  GENERIC   REPAGLINIDE (American Health Packaging)
+            REPAGLINIDE (Aurobindo Pharma Limited)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Bryant Ranch Prepack)
+            REPAGLINIDE (Macleods Pharmaceuticals Limited)
+            REPAGLINIDE (Padagis US LLC)
+            REPAGLINIDE (Rising Health)
+            REPAGLINIDE (Sun Pharmaceutical Industries)
+FORMULA     C27H36N2O4
+EXACT_MASS  452.2675
+MOL_WEIGHT  452.5857
+CLASS       Antidiabetic agent
+             DG01508  Sulfonylurea receptor agonist
+              DG01735  Glinide
+             DG02044  Hypoglycemic agent
+              DG01735  Glinide
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07670
+            Therapeutic category: 3969
+            ATC code: A10BX02
+            Product: D00594<JP/US>
+EFFICACY    Antidiabetic, Hypoglycemic, Sulfonylurea receptor agonist
+  DISEASE   Type 2 diabetes mellitus [DS:H00409]
+COMMENT     Glinide derivative
+TARGET      ABCC8(SUR1)/KCNJ11(KIR6.2) [HSA:6833 3767] [KO:K05032 K05004]
+  PATHWAY   hsa02010(6833)  ABC transporters
+            hsa04911(3767+6833)  Insulin secretion
+            hsa04930(3767+6833)  Type II diabetes mellitus
+METABOLISM  Enzyme: CYP2C8 [HSA:1558]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BX Other blood glucose lowering drugs, excl. insulins
+                 A10BX02 Repaglinide
+                  D00594  Repaglinide (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Blood Glucose Regulators
+              Antidiabetic Agents
+               Glucose Control Agents, Other
+                Repaglinide
+                 D00594  Repaglinide (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D00594  Repaglinide (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01735  Glinide
+                D00594  Repaglinide
+              DG02044  Hypoglycemic agent
+               DG01735  Glinide
+                D00594  Repaglinide
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               D00594  Repaglinide
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00594  Repaglinide
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01735  Glinide
+               D00594  Repaglinide
+              DG02044  Hypoglycemic agent
+               D00594  Repaglinide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8(SUR1)/KCNJ11(KIR6.2)
+                 D00594  Repaglinide (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00594
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00594
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D00594
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00594
+DBLINKS     CAS: 135062-02-1
+            PubChem: 7847660
+            ChEBI: 8805
+            PDB-CCD: BJX
+            LigandBox: D00594
+            NIKKAJI: J555.407A
+ATOM        33
+            1   C8y C    29.5484  -19.4440
+            2   C8y C    29.5543  -20.8486
+            3   N1y N    28.3361  -18.7446
+            4   C8x C    30.7608  -18.7446
+            5   C1c C    28.3478  -21.5481
+            6   C8x C    30.7608  -21.5423
+            7   C1x C    28.3361  -17.3457
+            8   C1x C    27.1296  -19.4497
+            9   C8x C    31.9790  -19.4440
+            10  N1b N    27.1296  -20.8486
+            11  C1b C    28.3478  -22.9469
+            12  C8x C    31.9790  -20.8486
+            13  C1x C    27.1238  -16.6520
+            14  C1x C    25.9114  -18.7503
+            15  C5a C    25.9173  -21.5481
+            16  C1c C    29.5543  -23.6521
+            17  C1x C    25.9114  -17.3514
+            18  C1b C    24.7049  -20.8486
+            19  O5a O    25.9173  -22.9469
+            20  C1a C    29.5543  -25.0569
+            21  C1a C    30.7666  -22.9469
+            22  C8y C    23.4867  -21.5481
+            23  C8x C    22.2744  -20.8486
+            24  C8x C    23.4867  -22.9469
+            25  C8y C    21.0679  -21.5538
+            26  C8x C    22.2744  -23.6521
+            27  C8y C    21.0562  -22.9469
+            28  O2a O    19.8556  -20.8603
+            29  C6a C    19.8497  -23.6521
+            30  C1b C    18.6432  -21.5538
+            31  O6a O    18.6375  -22.9410
+            32  O6a O    19.9140  -25.0510
+            33  C1a C    17.4309  -20.8603
+BOND        35
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    7  13 1
+            13    8  14 1
+            14   10  15 1
+            15   11  16 1
+            16   13  17 1
+            17   15  18 1
+            18   15  19 2
+            19   16  20 1
+            20   16  21 1
+            21   18  22 1
+            22   22  23 2
+            23   22  24 1
+            24   23  25 1
+            25   24  26 2
+            26   25  27 2
+            27   25  28 1
+            28   27  29 1
+            29   28  30 1
+            30   29  31 1
+            31   29  32 2
+            32   30  33 1
+            33    9  12 2
+            34   14  17 1
+            35   26  27 1
+///

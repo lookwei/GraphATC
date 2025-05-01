@@ -1,0 +1,61 @@
+ENTRY       C00232                      Compound
+NAME        Succinate semialdehyde;
+            Succinic semialdehyde;
+            4-Oxobutanoate
+FORMULA     C4H6O3
+EXACT_MASS  102.0317
+MOL_WEIGHT  102.0886
+REACTION    R00272 R00713 R00714 R01644 R01645 R01647 R01648 R01649 
+            R01650 R09280 R09281 R09472 R10101 R10178 R10179
+PATHWAY     map00250  Alanine, aspartate and glutamate metabolism
+            map00350  Tyrosine metabolism
+            map00650  Butanoate metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map00750  Vitamin B6 metabolism
+            map00760  Nicotinate and nicotinamide metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map02024  Quorum sensing
+MODULE      M00027  GABA (gamma-Aminobutyrate) shunt
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+            M00375  Hydroxypropionate-hydroxybutylate cycle
+            M00810  Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde
+            M00811  Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde
+ENZYME      1.1.1.61        1.1.1.-         1.2.1.16        1.2.1.24        
+            1.2.1.76        1.2.1.79        1.5.3.21        1.14.13.163     
+            2.6.1.19        2.6.1.96        3.5.1.29        4.1.1.71        
+            4.1.2.52
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               4-Oxocarboxylic acid
+                C00232  Succinate semialdehyde; 4-Oxobutanoate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA06 Fatty aldehydes
+               C00232  Succinate semialdehyde
+DBLINKS     CAS: 692-29-5
+            PubChem: 3531
+            ChEBI: 16265
+            LIPIDMAPS: LMFA06000118
+            KNApSAcK: C00019682
+            PDB-CCD: SSN
+            3DMET: B00065
+            NIKKAJI: J61.361D
+ATOM        7
+            1   C1b C    28.6587  -19.8972
+            2   C6a C    29.8727  -19.1909
+            3   C1b C    27.4447  -19.2025
+            4   O6a O    31.0927  -19.8972
+            5   O6a O    29.8727  -17.7958
+            6   C4a C    26.2364  -19.9029
+            7   O4a O    25.0232  -19.2054
+BOND        6
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     6   7 2
+///

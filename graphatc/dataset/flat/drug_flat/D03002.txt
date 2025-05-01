@@ -1,0 +1,66 @@
+ENTRY       D03002                      Drug
+NAME        Atipamezole (USAN/INN);
+            Antisedan (TN)
+FORMULA     C14H16N2
+EXACT_MASS  212.1313
+MOL_WEIGHT  212.2902
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+EFFICACY    Antidepressant, alpha2-Adrenergic receptor antagonist
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 D03002  Atipamezole
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D03002  Atipamezole (USAN/INN)
+DBLINKS     CAS: 104054-27-5
+            PubChem: 17397158
+            LigandBox: D03002
+            NIKKAJI: J134.051D
+ATOM        16
+            1   C8x C    25.2700  -14.7000
+            2   C8x C    25.2700  -16.1000
+            3   C8x C    26.5300  -16.8000
+            4   C8y C    27.7200  -16.1000
+            5   C8y C    27.7200  -14.7000
+            6   C8x C    26.5300  -14.0000
+            7   C1x C    29.0500  -16.5200
+            8   C1x C    29.0500  -14.2800
+            9   C1z C    29.8900  -15.4000
+            10  C8y C    30.5900  -16.5900
+            11  C1a C    31.9900  -14.1400
+            12  C1b C    30.5900  -14.1400
+            13  C8x C    31.9900  -16.5900
+            14  N4x N    30.1700  -17.9200
+            15  C8x C    31.2900  -18.7600
+            16  N5x N    32.4100  -17.9200
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     5   8 1
+            9     7   9 1
+            10    9   8 1
+            11    9  10 1
+            12   11  12 1
+            13    9  12 1
+            14   13  10 2
+            15   10  14 1
+            16   14  15 1
+            17   15  16 2
+            18   13  16 1
+///

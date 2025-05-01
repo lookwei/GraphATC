@@ -1,0 +1,106 @@
+ENTRY       D10582            Mixture   Drug
+NAME        Dasabuvir, ombitasvir, paritaprevir and ritonavir;
+            Viekira pak (TN)
+COMPONENT   (Dasabuvir sodium hydrate [DR:D10581] | Dasabuvir [DR:D10553]), (Ombitasvir hydrate [DR:D10598] | Ombitasvir [DR:D10576]), (Paritaprevir hydrate [DR:D10597] | Paritaprevir [DR:D10580]), Ritonavir [DR:D00427]
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+             DG02887  UGT1A1 inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+             DG02856  SLCO1B1 substrate
+             DG02932  SLCO1B3 substrate
+            Transporter inhibitor
+             DG02862  ABCG2 inhibitor
+             DG02865  SLCO1B1 inhibitor
+             DG02907  SLCO1B3 inhibitor
+REMARK      ATC code: J05AP52
+EFFICACY    Antiviral
+  DISEASE   Chronic hepatitis C virus infection [DS:H00413]
+COMMENT     Dasabuvir is an inhibitor of UGT1A1 and P-glycoprotein (P-gp). It is metabolized by CYP2C8 and it is a substrate for P-glycoprotein (P-gp).
+            Ombitasvir is an inhibitor of UGT1A1, and it is a substrate for P-glycoprotein (P-gp) and breast cancer resistance protein (BCRP).
+            Paritaprevir is an inhibitor of UGT1A1, and it is an inhibitor of the following transporters: OATP1B1 and OATP1B3. It is metabolized by CYP3A4 and it is a substrate for P-glycoprotein (P-gp).
+            Ritonavir is an inhibitor of CYP3A4 and P-glycoprotein (P-gp). It is metabolized by CYP3A and it is a substrate for P-glycoprotein (P-gp).
+TARGET      HCV NS3/4A protease [KO:K22273 K22274]
+            HCV NS5A [KO:K22275]
+            HCV NS5B [KO:K22472]
+            RNA-directed DNA polymerase
+  PATHWAY   ko03230(K22273+K22274+K22275+K22472)  Viral genome structure
+            ko03240(K22273+K22274+K22275+K22472)  Viral replication
+            ko05160(K22273+K22274+K22275+K22472)  Hepatitis C
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551], CYP2C8 [HSA:1558]
+            Transporter: SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234], ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+            Transporter inhibition: SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234], ABCG2 [HSA:9429]
+            Enzyme inhibition: UGT1A1 [HSA:54658]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP52 Dasabuvir, ombitasvir, paritaprevir and ritonavir
+                  D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-hepatitis C (HCV) Agents
+               Dasabuvir/ Ombitasvir/ Paritaprevir/ Ritonavir
+                D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG01633  CYP3A/CYP3A4 substrate
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG02887  UGT1A1 inhibitor
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG01913  ABCG2 substrate
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG02856  SLCO1B1 substrate
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG02932  SLCO1B3 substrate
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+             Transporter inhibitor
+              DG02862  ABCG2 inhibitor
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG02865  SLCO1B1 inhibitor
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+              DG02907  SLCO1B3 inhibitor
+               D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HCV NS3/4A inhibitor
+                D10582  Dasabuvir, ombitasvir, paritaprevir and ritonavir
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10582
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10582
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10582
+             Drug transporters
+              D10582
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D10582
+DBLINKS     PubChem: 254741544
+            ChEBI: 85177
+///

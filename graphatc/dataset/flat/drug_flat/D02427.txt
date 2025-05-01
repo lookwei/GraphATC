@@ -1,0 +1,100 @@
+ENTRY       D02427                      Drug
+NAME        Glibornuride (USAN/INN);
+            Glutril (TN)
+FORMULA     C18H26N2O4S
+EXACT_MASS  366.1613
+MOL_WEIGHT  366.475
+CLASS       Antidiabetic agent
+             DG01508  Sulfonylurea receptor agonist
+              DG01734  Sulfonylurea
+             DG02044  Hypoglycemic agent
+              DG01734  Sulfonylurea
+REMARK      ATC code: A10BB04
+EFFICACY    Antidiabetic, Hypoglycemic, Sulfonylurea receptor agonist
+COMMENT     Sulfonylurea
+TARGET      ABCC8 (SUR1) [HSA:6833] [KO:K05032]
+  PATHWAY   hsa02010(6833)  ABC transporters
+            hsa04911(6833)  Insulin secretion
+            hsa04930(6833)  Type II diabetes mellitus
+INTERACTION  
+STR_MAP     map07018  Sulfonamide derivatives - hypoglycemic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BB Sulfonylureas
+                 A10BB04 Glibornuride
+                  D02427  Glibornuride (USAN/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01734  Sulfonylurea
+                D02427  Glibornuride
+              DG02044  Hypoglycemic agent
+               DG01734  Sulfonylurea
+                D02427  Glibornuride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8 (SUR1)
+                 D02427  Glibornuride (USAN/INN)
+DBLINKS     CAS: 26944-48-9
+            PubChem: 7849485
+            LigandBox: D02427
+            NIKKAJI: J209.324C
+ATOM        25
+            1   C1z C    27.7996  -16.7237
+            2   S4a S    21.5497  -20.1287
+            3   N1b N    23.0422  -20.8283
+            4   C5a C    24.0683  -20.1287
+            5   N1b N    25.2344  -20.7350
+            6   O5a O    24.0683  -18.8227
+            7   C1y C    26.3071  -20.0353
+            8   C1y C    27.3799  -19.2425
+            9   C1y C    25.7474  -18.8227
+            10  C1z C    26.6337  -17.8899
+            11  C1x C    28.6392  -19.4756
+            12  C1x C    27.9862  -18.1231
+            13  C1a C    29.1056  -16.4439
+            14  C1a C    27.2866  -15.4644
+            15  C1a C    25.7474  -17.0037
+            16  O1a O    24.7213  -17.9365
+            17  O3c O    20.5597  -19.1387
+            18  O3c O    22.5396  -19.1387
+            19  C8y C    20.3373  -20.8287
+            20  C8x C    19.1628  -20.1510
+            21  C8x C    17.9505  -20.8513
+            22  C8y C    17.9509  -22.2513
+            23  C8x C    19.1253  -22.9290
+            24  C8x C    20.3376  -22.2287
+            25  C1a C    16.7118  -22.9673
+BOND        27
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     4   6 2
+            5     5   7 1
+            6     7   8 1
+            7     7   9 1
+            8     9  10 1
+            9     8  11 1
+            10   10  12 1
+            11   12  11 1
+            12    1   8 1
+            13   10   1 1
+            14    1  13 1
+            15    1  14 1
+            16   10  15 1
+            17    9  16 1
+            18    2  17 2
+            19    2  18 2
+            20    2  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   22  25 1
+///

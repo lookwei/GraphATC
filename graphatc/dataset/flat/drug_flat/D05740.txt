@@ -1,0 +1,167 @@
+ENTRY       D05740                      Drug
+NAME        Rizatriptan sulfate (USAN)
+FORMULA     (C15H19N5)2. H2SO4. H2O
+EXACT_MASS  654.306
+MOL_WEIGHT  654.7835
+CLASS       Analgesic
+             DG01484  5-HT1B-receptor agonist
+             DG01485  5-HT1D-receptor agonist
+             DG01518  5-HT1B/1D-receptor agonist
+             DG01943  Triptan
+REMARK      ATC code: N02CC04
+            Chemical structure group: DG00838
+            Product (DG00838): D00675<JP/US>
+EFFICACY    Antimigraine, Vasoconstrictor, Serotonin receptor agonist
+COMMENT     Sumatriptan derivative
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CC Selective serotonin (5HT1) agonists
+                 N02CC04 Rizatriptan
+                  D05740  Rizatriptan sulfate (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00838  Rizatriptan
+                D05740  Rizatriptan sulfate
+              DG01485  5-HT1D-receptor agonist
+               DG00838  Rizatriptan
+                D05740  Rizatriptan sulfate
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00838  Rizatriptan
+                D05740  Rizatriptan sulfate
+              DG01943  Triptan
+               DG00838  Rizatriptan
+                D05740  Rizatriptan sulfate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D05740  Rizatriptan sulfate (USAN)
+                HTR1D
+                 D05740  Rizatriptan sulfate (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00838  Rizatriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00838  Rizatriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00838  Rizatriptan
+              DG01943  Triptan
+               DG00838  Rizatriptan
+DBLINKS     CAS: 159776-67-7
+            PubChem: 47207401
+            LigandBox: D05740
+ATOM        46
+            1   S4a S    30.4731  -16.0606
+            2   O1d O    30.4731  -14.6614
+            3   O1d O    30.4731  -17.4598
+            4   O1d O    29.0737  -16.0606
+            5   O1d O    31.8722  -16.0606
+            6   O0  O    31.0800  -19.1800
+            7   C8y C    20.3700  -17.2200
+            8   C8y C    20.3700  -18.6200
+            9   C8y C    21.7000  -16.8000
+            10  C8x C    19.1100  -16.5200
+            11  N4x N    21.7000  -19.0400
+            12  C8x C    19.1100  -19.3200
+            13  C8x C    22.4700  -17.9200
+            14  C8y C    17.9200  -17.2200
+            15  C8x C    17.9200  -18.6200
+            16  C1b C    16.7300  -16.5200
+            17  N4y N    15.5400  -17.2200
+            18  N5x N    15.5400  -18.6200
+            19  C8x C    14.2100  -16.8000
+            20  N5x N    13.3700  -17.9200
+            21  C8x C    14.2100  -19.0400
+            22  C1b C    21.7000  -15.4000
+            23  C1b C    22.8900  -14.7000
+            24  N1c N    24.0800  -15.4000
+            25  C1a C    25.2700  -14.7000
+            26  C1a C    24.0800  -16.8000
+            27  C8y C    20.3700  -17.2200
+            28  C8y C    20.3700  -18.6200
+            29  N4x N    21.7000  -19.0400
+            30  C8x C    22.4700  -17.9200
+            31  C8y C    21.7000  -16.8000
+            32  C1b C    21.7000  -15.4000
+            33  C1b C    22.8900  -14.7000
+            34  N1c N    24.0800  -15.4000
+            35  C1a C    25.2700  -14.7000
+            36  C1a C    24.0800  -16.8000
+            37  C8x C    19.1100  -19.3200
+            38  C8x C    17.9200  -18.6200
+            39  C8y C    17.9200  -17.2200
+            40  C8x C    19.1100  -16.5200
+            41  C1b C    16.7300  -16.5200
+            42  N4y N    15.5400  -17.2200
+            43  N5x N    15.5400  -18.6200
+            44  C8x C    14.2100  -19.0400
+            45  N5x N    13.3700  -17.9200
+            46  C8x C    14.2100  -16.8000
+BOND        48
+            1     1   2 2
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     7   8 1
+            6     7   9 1
+            7     7  10 2
+            8     8  11 1
+            9     8  12 2
+            10    9  13 2
+            11   10  14 1
+            12   12  15 1
+            13   11  13 1
+            14   14  15 2
+            15   14  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19   19  20 2
+            20   20  21 1
+            21   18  21 2
+            22    9  22 1
+            23   22  23 1
+            24   23  24 1
+            25   24  25 1
+            26   24  26 1
+            27   27  28 1
+            28   27  31 1
+            29   27  40 2
+            30   28  29 1
+            31   28  37 2
+            32   31  30 2
+            33   40  39 1
+            34   37  38 1
+            35   29  30 1
+            36   39  38 2
+            37   39  41 1
+            38   41  42 1
+            39   42  43 1
+            40   42  46 1
+            41   46  45 2
+            42   45  44 1
+            43   43  44 2
+            44   31  32 1
+            45   32  33 1
+            46   33  34 1
+            47   34  35 1
+            48   34  36 1
+BRACKET     1    12.7400  -20.4400   12.7400  -13.7900
+            1    26.8800  -13.7900   26.8800  -20.4400
+            1  2
+  ORIGINAL  1    7   8  11  13   9  22  23  24  25  26  12  15  14  10  16  17
+            1   18  21  20  19
+  REPEAT    1   27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+            1   43  44  45  46
+///

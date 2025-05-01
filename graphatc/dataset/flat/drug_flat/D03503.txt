@@ -1,0 +1,125 @@
+ENTRY       D03503                      Drug
+NAME        Cimetidine hydrochloride (USP);
+            Cimetidine hydrochloride (TN)
+PRODUCT
+  GENERIC   CIMETIDINE (Pharmaceutical Associates)
+            CIMETIDINE HYDROCHLORIDE (Akorn)
+            CIMETIDINE HYDROCHLORIDE ORAL SOLUTION (Akorn Operating Company LLC)
+FORMULA     C10H16N6S. HCl
+EXACT_MASS  288.0924
+MOL_WEIGHT  288.8002
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      ATC code: A02BA01
+            Chemical structure group: DG00017
+            Product (DG00017): D00295<JP/US> D03503<US>
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+  DISEASE   Duodenal ulcer [DS:H01634]
+            Gastric ulcer [DS:H01634]
+            Gastroesophageal reflux disease [DS:H01602]
+            Zollinger-Ellison syndrome [DS:H01522]
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04020(3274)  Calcium signaling pathway
+            hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+STR_MAP     map07038  Antiulcer drugs
+            map07227  Histamine H2/H3 receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BA H2-receptor antagonists
+                 A02BA01 Cimetidine
+                  D03503  Cimetidine hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Histamine2 (H2) Receptor Antagonists
+               Cimetidine
+                D03503  Cimetidine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                DG00017  Cimetidine
+                 D03503  Cimetidine hydrochloride
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00017  Cimetidine
+                D03503  Cimetidine hydrochloride
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00017  Cimetidine
+                 D03503  Cimetidine hydrochloride
+            Drug classes [BR:br08332]
+             Gastrointestinal agent
+              DG01481  Histamine receptor H2 antagonist
+               D03503  Cimetidine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D03503  Cimetidine hydrochloride (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03503
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                DG00017  Cimetidine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00017  Cimetidine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00017  Cimetidine
+DBLINKS     CAS: 70059-30-2
+            PubChem: 17397637
+            ChEBI: 50362
+            LigandBox: D03503
+            NIKKAJI: J321.073A
+ATOM        18
+            1   X   Cl   35.4200  -16.7300
+            2   C1b C    27.3161  -14.5481
+            3   S2a S    28.5286  -13.8510
+            4   C1b C    29.7410  -14.5481
+            5   C1b C    30.9533  -13.8510
+            6   N1b N    32.1656  -14.5481
+            7   C2c C    33.3840  -13.8510
+            8   N2b N    33.3840  -12.4455
+            9   N1b N    34.5963  -14.5481
+            10  C3b C    34.5963  -11.7484
+            11  C1a C    35.8088  -13.8510
+            12  N3a N    35.8237  -11.0526
+            13  C8y C    26.1233  -13.8569
+            14  N5x N    26.1233  -12.4555
+            15  C8x C    24.7904  -12.0225
+            16  N4x N    23.9666  -13.1562
+            17  C8y C    24.7904  -14.2900
+            18  C1a C    24.3563  -15.6258
+BOND        17
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     7   8 2
+            7     7   9 1
+            8     8  10 1
+            9     9  11 1
+            10   10  12 3
+            11    2  13 1
+            12   13  14 1
+            13   14  15 2
+            14   15  16 1
+            15   16  17 1
+            16   13  17 2
+            17   17  18 1
+///

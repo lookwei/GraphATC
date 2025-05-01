@@ -1,0 +1,44 @@
+ENTRY       D10525            Mixture   Drug
+NAME        Valsartan and cilnidipine;
+            Atedio (TN)
+COMPONENT   Valsartan [DR:D00400], Cilnidipine [DR:D01173]
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+             DG03231  Antihypertensive
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2149
+            Product: D10525<JP>
+EFFICACY    Antihypertensive
+COMMENT     Cilnidipine is metabolized by CYP3A4 with some contribution from CYP2C19.
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2C19 [HSA:1557]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D10525  Valsartan and cilnidipine
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               D10525  Valsartan and cilnidipine
+              DG03231  Antihypertensive
+               D10525  Valsartan and cilnidipine
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D10525  Valsartan and cilnidipine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10525  Valsartan and cilnidipine
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D10525  Valsartan and cilnidipine
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10525
+DBLINKS     PubChem: 254741487
+///

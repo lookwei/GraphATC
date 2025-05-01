@@ -1,0 +1,113 @@
+ENTRY       D08491                      Drug
+NAME        Rosiglitazone (INN);
+            Gaudil (TN)
+FORMULA     C18H19N3O3S
+EXACT_MASS  357.1147
+MOL_WEIGHT  357.4268
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01795  PPAR gamma agonist
+               DG01683  Thiazolidinedione
+             DG02044  Hypoglycemic agent
+              DG01683  Thiazolidinedione
+REMARK      ATC code: A10BG02
+            Chemical structure group: DG00116
+EFFICACY    Antidiabetic, Peroxisome proliferator-activated receptor (PPAR) gamma agonist
+COMMENT     Thiazolidinedione derivative
+TARGET      NR1C3 (PPARG) [HSA:5468] [KO:K08530]
+  PATHWAY   hsa03320(5468)  PPAR signaling pathway
+            hsa04152(5468)  AMPK signaling pathway
+INTERACTION  
+STR_MAP     map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BG Thiazolidinediones
+                 A10BG02 Rosiglitazone
+                  D08491  Rosiglitazone (INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01683  Thiazolidinedione
+                 DG00116  Rosiglitazone
+                  D08491  Rosiglitazone
+              DG02044  Hypoglycemic agent
+               DG01683  Thiazolidinedione
+                DG00116  Rosiglitazone
+                 D08491  Rosiglitazone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C3 (PPARG)
+                 D08491  Rosiglitazone (INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01683  Thiazolidinedione
+                 DG00116  Rosiglitazone
+              DG02044  Hypoglycemic agent
+               DG01683  Thiazolidinedione
+                DG00116  Rosiglitazone
+DBLINKS     CAS: 122320-73-4
+            PubChem: 96025177
+            LigandBox: D08491
+            NIKKAJI: J620.770G
+ATOM        25
+            1   C1y C    29.0500  -16.1000
+            2   C1b C    27.8600  -15.4700
+            3   S2x S    30.3800  -15.6800
+            4   C5x C    29.0500  -17.5700
+            5   C8y C    26.6000  -16.1000
+            6   C5x C    31.2200  -16.8000
+            7   N1x N    30.3800  -17.9900
+            8   O5x O    27.9300  -18.4100
+            9   C8x C    25.4100  -15.4700
+            10  C8x C    26.6000  -17.5700
+            11  O5x O    32.6200  -16.8000
+            12  C8x C    24.2200  -16.1000
+            13  C8x C    25.4100  -18.2000
+            14  C8y C    24.2200  -17.5700
+            15  O2a O    22.9600  -18.2000
+            16  C1b C    21.7700  -17.5700
+            17  C1b C    20.5800  -18.2000
+            18  N1c N    19.3900  -17.5700
+            19  C8y C    18.1300  -18.2000
+            20  C1a C    19.3900  -16.1000
+            21  C8x C    18.1300  -19.6700
+            22  N5x N    16.9400  -17.5700
+            23  C8x C    16.9400  -20.3700
+            24  C8x C    15.7500  -18.2700
+            25  C8x C    15.7500  -19.6700
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     5   9 2
+            9     5  10 1
+            10    6  11 2
+            11    9  12 1
+            12   10  13 2
+            13   12  14 2
+            14   14  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19   18  20 1
+            20   19  21 1
+            21   19  22 2
+            22   21  23 2
+            23   22  24 1
+            24   23  25 1
+            25    6   7 1
+            26   13  14 1
+            27   24  25 2
+///

@@ -1,0 +1,63 @@
+ENTRY       D01572                      Drug
+NAME        Pralidoxime iodide (JAN/USAN);
+            Pam (TN)
+FORMULA     C7H9N2O. I
+EXACT_MASS  263.976
+MOL_WEIGHT  264.0636
+REMARK      Therapeutic category: 3929
+            ATC code: V03AB04
+            Chemical structure group: DG01153
+            Product (DG01153): D00469<US> D01572<JP>
+EFFICACY    Antidote (organicphosphorus compound), Acetylcholinesterase (AChE) reactivator
+TARGET      ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa00564(43)  Glycerophospholipid metabolism
+            hsa04725(43)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB04 Pralidoxime
+                  D01572  Pralidoxime iodide (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               392  Antidotes
+                3929  Others
+                 D01572  Pralidoxime iodide (JAN/USAN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D01572  Pralidoxime iodide (JAN/USAN) &lt;JP&gt;
+DBLINKS     CAS: 94-63-3
+            PubChem: 7848635
+            ChEBI: 32038
+            LigandBox: D01572
+            NIKKAJI: J516.806F
+ATOM        11
+            1   C8y C    22.4722  -18.2513
+            2   N5y N    21.2626  -17.5442 #+
+            3   C8x C    22.4722  -19.6478
+            4   C2b C    23.6875  -17.5442
+            5   C8x C    20.0473  -18.2513
+            6   C1a C    21.2626  -16.1594
+            7   C8x C    21.2626  -20.3547
+            8   N2b N    24.8853  -18.2513
+            9   C8x C    20.0473  -19.6478
+            10  O1b O    26.1066  -17.5442
+            11  X   I    19.0124  -17.3806 #-
+BOND        10
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     5   9 2
+            9     8  10 1
+            10    7   9 1
+///

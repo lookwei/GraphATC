@@ -1,0 +1,93 @@
+ENTRY       D01407                      Drug
+NAME        Thiamphenicol (JAN/USAN/INN);
+            Armai (TN);
+            Thiocymetin (TN)
+FORMULA     C12H15Cl2NO5S
+EXACT_MASS  355.0048
+MOL_WEIGHT  356.2222
+CLASS       Antibacterial
+             DG01576  Amphenicol type antibacterial
+REMARK      Same as: C12853
+            ATC code: J01BA02
+            Chemical structure group: DG00516
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     Amphenicol derivative
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01B AMPHENICOLS
+                J01BA Amphenicols
+                 J01BA02 Thiamphenicol
+                  D01407  Thiamphenicol (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01576  Amphenicol type antibacterial
+               DG00516  Thiamphenicol
+                D01407  Thiamphenicol
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Amphenicol
+                D01407  Thiamphenicol (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01576  Amphenicol type antibacterial
+               DG00516  Thiamphenicol
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Amphenicol
+                DG00516  Thiamphenicol
+DBLINKS     CAS: 15318-45-3
+            PubChem: 7848470
+            ChEBI: 32215
+            PDB-CCD: TH8
+            LigandBox: D01407
+            NIKKAJI: J9.286J
+ATOM        21
+            1   C8x C    21.2037  -17.4471
+            2   C8y C    21.2037  -18.8487
+            3   C8x C    22.4204  -19.5494
+            4   C8x C    23.6300  -18.8487
+            5   C8y C    23.6300  -17.4471
+            6   C8x C    22.4204  -16.7463
+            7   S4a S    19.9903  -19.5501
+            8   C1c C    24.8351  -16.7463
+            9   C1c C    26.0456  -17.4471
+            10  N1b N    27.2560  -16.7463
+            11  C5a C    28.4665  -17.4471
+            12  C1c C    29.6770  -16.7463
+            13  X   Cl   30.8874  -17.4471
+            14  O1a O    24.8337  -15.3446
+            15  O5a O    28.4665  -18.8487
+            16  X   Cl   29.6770  -15.3446
+            17  C1a C    18.9881  -18.5513
+            18  C1b C    26.0456  -18.8487
+            19  O1a O    24.8319  -19.5494
+            20  O3c O    19.0211  -20.5401
+            21  O3c O    20.9784  -20.5355
+BOND        21
+            1     4   5 1
+            2    10  11 1
+            3     5   6 2
+            4    11  12 1
+            5     6   1 1
+            6    12  13 1
+            7     8  14 1 #Up
+            8     2   7 1
+            9    11  15 2
+            10    1   2 2
+            11   12  16 1
+            12    5   8 1
+            13    2   3 1
+            14    8   9 1
+            15    7  17 1
+            16    3   4 2
+            17    9  18 1 #Down
+            18    9  10 1
+            19   18  19 1
+            20    7  20 2
+            21    7  21 2
+///

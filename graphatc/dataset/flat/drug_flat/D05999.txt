@@ -1,0 +1,119 @@
+ENTRY       D05999                      Drug
+NAME        Talotrexin ammonium (USAN)
+FORMULA     C27H27N9O6. NH3
+EXACT_MASS  590.235
+MOL_WEIGHT  590.5905
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01978  Folic acid analog
+EFFICACY    Antineoplastic, Antimetabolite
+TARGET      DHFR [HSA:1719 200895] [KO:K00287]
+  PATHWAY   hsa00670(1719+200895)  One carbon pool by folate
+            hsa00790(1719+200895)  Folate biosynthesis
+INTERACTION  
+OTHER_MAP   map01523  Antifolate resistance
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01978  Folic acid analog
+                D05999  Talotrexin ammonium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dihydrofolate reductase
+                DHFR
+                 D05999  Talotrexin ammonium (USAN)
+DBLINKS     CAS: 648420-92-2
+            PubChem: 47207657
+            LigandBox: D05999
+ATOM        43
+            1   N5x N     7.0000  -13.4400
+            2   C8y C     7.0000  -12.0400
+            3   N5x N     8.1900  -11.3400
+            4   C8y C     9.4500  -12.0400
+            5   C8y C     9.4500  -13.4400
+            6   C8y C     8.1900  -14.1400
+            7   N5x N    10.6400  -11.3400
+            8   C8x C    11.8300  -12.0400
+            9   C8y C    11.8300  -13.4400
+            10  N5x N    10.6400  -14.1400
+            11  N1a N     8.1900  -15.5400
+            12  N1a N     5.8100  -11.3400
+            13  C1b C    13.0453  -14.1351
+            14  N1b N    14.2337  -13.4423
+            15  C8y C    15.4301  -14.1265
+            16  C8x C    15.3661  -15.5395
+            17  C8x C    16.6515  -16.2344
+            18  C8y C    17.8610  -15.5292
+            19  C8x C    17.8550  -14.1162
+            20  C8x C    16.6396  -13.4214
+            21  C5a C    19.0727  -16.2220
+            22  N1b N    20.2499  -15.5356
+            23  O5a O    19.0091  -17.6395
+            24  C1c C    21.4521  -16.2231
+            25  C1b C    22.6303  -15.5363
+            26  C6a C    21.4583  -17.6395
+            27  O6a O    22.6977  -18.3481
+            28  O6a O    20.2726  -18.3313
+            29  C1b C    23.8318  -16.2235
+            30  C1b C    25.0104  -15.5366
+            31  N1b N    26.2117  -16.2237
+            32  C5a C    27.3906  -15.5368
+            33  C8y C    28.5916  -16.2239
+            34  O5a O    27.3850  -14.1401
+            35  C8x C    28.5275  -17.6395
+            36  C8x C    29.8128  -18.3344
+            37  C8x C    31.0223  -17.6294
+            38  C8x C    31.0164  -16.2138
+            39  C8y C    29.8011  -15.5189
+            40  C6a C    29.7956  -14.1402
+            41  O6a O    28.5988  -13.4553
+            42  O6a O    31.0235  -13.4247
+            43  N0  N    26.1100  -19.8100
+BOND        45
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    6  11 1
+            13    2  12 1
+            14    9  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   18  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 1
+            27   24  25 1
+            28   24  26 1 #Up
+            29   26  27 1
+            30   26  28 2
+            31   25  29 1
+            32   29  30 1
+            33   30  31 1
+            34   31  32 1
+            35   32  33 1
+            36   32  34 2
+            37   33  35 2
+            38   35  36 1
+            39   36  37 2
+            40   37  38 1
+            41   38  39 2
+            42   33  39 1
+            43   39  40 1
+            44   40  41 2
+            45   40  42 1
+///

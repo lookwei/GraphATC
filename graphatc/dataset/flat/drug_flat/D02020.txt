@@ -1,0 +1,54 @@
+ENTRY       D02020                      Drug
+NAME        Mitobronitol (JAN/INN)
+FORMULA     C6H12Br2O4
+EXACT_MASS  305.9102
+MOL_WEIGHT  307.9651
+CLASS       Antineoplastic
+             DG01677  Alkylating agent
+REMARK      Same as: C13522
+            ATC code: L01AX01
+EFFICACY    Antineoplastic, Alkylating agent
+TARGET      DNA
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01A ALKYLATING AGENTS
+                L01AX Other alkylating agents
+                 L01AX01 Mitobronitol
+                  D02020  Mitobronitol (JAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01677  Alkylating agent
+               D02020  Mitobronitol
+DBLINKS     CAS: 488-41-5
+            PubChem: 7849082
+            ChEBI: 34853
+            LigandBox: D02020
+            NIKKAJI: J2.056G
+ATOM        12
+            1   X   Br   27.8150  -16.7769
+            2   C1b C    29.0279  -17.4766
+            3   C1c C    30.2408  -16.7769
+            4   C1c C    31.4537  -17.4766
+            5   C1c C    32.6667  -16.7769
+            6   C1c C    33.8796  -17.4766
+            7   C1b C    35.0925  -16.7769
+            8   X   Br   36.3055  -17.4766
+            9   O1a O    30.2408  -15.3774
+            10  O1a O    33.8796  -18.8761
+            11  O1a O    32.6667  -15.3774
+            12  O1a O    31.4537  -18.8761
+BOND        11
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     3   9 1 #Up
+            9     6  10 1 #Up
+            10    5  11 1 #Down
+            11    4  12 1 #Down
+///

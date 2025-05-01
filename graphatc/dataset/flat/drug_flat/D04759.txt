@@ -1,0 +1,66 @@
+ENTRY       D04759                      Drug
+NAME        Lodenosine (USAN)
+FORMULA     C10H12FN5O2
+EXACT_MASS  253.0975
+MOL_WEIGHT  253.233
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D04759  Lodenosine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D04759  Lodenosine (USAN)
+DBLINKS     CAS: 110143-10-7
+            PubChem: 47206575
+            LigandBox: D04759
+            NIKKAJI: J274.986F
+ATOM        18
+            1   N4y N    41.1600  -21.8400
+            2   C8y C    42.1400  -22.6800
+            3   C1y C    39.8300  -22.2600
+            4   C8x C    41.7900  -20.5100
+            5   C8y C    43.4700  -21.9100
+            6   N5x N    42.1400  -24.0800
+            7   O2x O    38.7100  -21.4200
+            8   C1y C    39.4100  -23.5200
+            9   N5x N    43.1900  -20.6500
+            10  C8y C    44.6600  -22.6100
+            11  C8x C    43.3300  -24.8500
+            12  C1y C    37.5900  -22.1900
+            13  C1x C    38.0100  -23.5200
+            14  N5x N    44.6600  -24.0800
+            15  N1a N    45.8500  -21.9100
+            16  C1b C    36.3300  -21.7700
+            17  O1a O    35.2100  -22.6100
+            18  X   F    40.2286  -24.6557
+BOND        20
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13   10  14 2
+            14   10  15 1
+            15   12  16 1 #Up
+            16   16  17 1
+            17    5   9 1
+            18   11  14 1
+            19   12  13 1
+            20    8  18 1 #Up
+///

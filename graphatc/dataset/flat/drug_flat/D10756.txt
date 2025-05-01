@@ -1,0 +1,86 @@
+ENTRY       D10756            Mixture   Drug
+NAME        Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil;
+            Stribild (TN)
+PRODUCT     STRIBILD (Gilead Sciences)
+COMPONENT   Elvitegravir [DR:D06677], Cobicistat [DR:D09881], Emtricitabine [DR:D01199], Tenofovir disoproxil fumarate [DR:D01982]
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      ATC code: J05AR09
+            Product: D10756<US>
+EFFICACY    Antiviral
+  DISEASE   HIV-1 infection [DS:H01563]
+COMMENT     Elvitegravir is metabolized by CYP3A.
+            Cobicistat is metabolized by CYP3A with some contribution from by CYP2D6 and it is an inhibitor of CYP3A, CYP2D6 and P-glycoprotein (P-gp).
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+            HIV-1 integrase [KO:K24803]
+  PATHWAY   ko03230(K24802+K24803)  Viral genome structure
+            ko03240(K24802+K24803)  Viral replication
+            ko03250(K24802+K24803)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]; CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551], CYP2D6 [HSA:1565]
+            Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AR Antivirals for treatment of HIV infections, combinations
+                 J05AR09 Emtricitabine, tenofovir disoproxil, elvitegravir and cobicistat
+                  D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Combinations
+               Elvitegravir/ Cobicistat/ Emtricitabine/ Tenofovir Disoproxil Fumarate
+                D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+              DG01633  CYP3A/CYP3A4 substrate
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                D10756  Elvitegravir, cobicistat, emtricitabine and tenofovir disoproxil &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10756
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10756
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10756
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10756
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10756
+             Drug transporters
+              D10756
+DBLINKS     PubChem: 273220352
+///

@@ -1,0 +1,119 @@
+ENTRY       D08522                      Drug
+NAME        Solifenacin (INN)
+FORMULA     C23H26N2O2
+EXACT_MASS  362.1994
+MOL_WEIGHT  362.4647
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G04BD08
+            Chemical structure group: DG00481
+            Product (DG00481): D01269<JP/US>
+EFFICACY    Overactive bladder agent, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04020(1131)  Calcium signaling pathway
+            hsa04080(1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1131)  Cholinergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BD Drugs for urinary frequency and incontinence
+                 G04BD08 Solifenacin
+                  D08522  Solifenacin (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00481  Solifenacin
+                D08522  Solifenacin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00481  Solifenacin
+                 D08522  Solifenacin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM3
+                 D08522  Solifenacin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08522
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00481  Solifenacin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00481  Solifenacin
+DBLINKS     CAS: 242478-37-1
+            PubChem: 96025207
+            LigandBox: D08522
+            NIKKAJI: J1.594.869H
+ATOM        27
+            1   C1y C    22.5322  -14.8066
+            2   C1x C    22.5322  -13.4035
+            3   C1y C    21.3396  -15.5082
+            4   C1x C    23.7950  -15.5082
+            5   C1x C    23.2338  -14.5961
+            6   C1x C    22.0411  -16.7008
+            7   C1x C    24.4264  -16.7008
+            8   N1y N    23.2338  -15.9992
+            9   C1x C    16.4989  -12.7020
+            10  C1x C    17.6915  -13.4035
+            11  N1y N    17.6915  -14.8066
+            12  C1y C    16.4989  -15.5082
+            13  C8y C    15.2361  -13.4035
+            14  C8y C    15.2361  -14.8066
+            15  C8x C    14.0434  -15.5082
+            16  C8x C    12.8508  -14.8066
+            17  C8x C    12.8508  -13.4035
+            18  C8x C    14.0434  -12.7020
+            19  C8y C    16.4989  -16.9113
+            20  C8x C    17.6915  -17.6128
+            21  C8x C    17.6915  -19.0159
+            22  C8x C    16.4989  -19.7175
+            23  C8x C    15.2361  -19.0159
+            24  C8x C    15.2361  -17.6128
+            25  C7a C    18.8841  -15.5082
+            26  O7a O    20.1469  -14.8066
+            27  O6a O    18.8841  -16.9113
+BOND        31
+            1    13   9 1
+            2     9  10 1
+            3    10  11 1
+            4    11  12 1
+            5    12  14 1
+            6     1   2 1
+            7    13  14 2
+            8    14  15 1
+            9    15  16 2
+            10   16  17 1
+            11   17  18 2
+            12   18  13 1
+            13    1   3 1
+            14   12  19 1 #Up
+            15    1   4 1
+            16    2   5 1
+            17    3   6 1
+            18    4   7 1
+            19    5   8 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   24  19 1
+            26    6   8 1
+            27   11  25 1
+            28    7   8 1
+            29   25  26 1
+            30   25  27 2
+            31    3  26 1 #Down
+///

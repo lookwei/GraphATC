@@ -1,0 +1,69 @@
+ENTRY       D03241                      Drug
+NAME        Nitecapone (INN)
+FORMULA     C12H11NO6
+EXACT_MASS  265.0586
+MOL_WEIGHT  265.2188
+CLASS       Neuropsychiatric agent
+             DG01497  Catechol O-methyltransferase inhibitor
+EFFICACY    Antiparkinsonian, COMT inhibitor
+COMMENT     Nitrocatechols
+TARGET      COMT [HSA:1312] [KO:K00545]
+  PATHWAY   hsa04728(1312)  Dopaminergic synapse
+STR_MAP     map07216  Catecholamine transferase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01497  Catechol O-methyltransferase inhibitor
+               D03241  Nitecapone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                COMT
+                 D03241  Nitecapone (INN)
+DBLINKS     CAS: 116313-94-1
+            PubChem: 17397394
+            ChEBI: 166596
+            PDB-CCD: EAO
+            LigandBox: D03241
+            NIKKAJI: J227.994K
+ATOM        19
+            1   C8y C    32.0364  -16.4247
+            2   C8x C    33.2365  -15.7316
+            3   C2b C    30.8249  -15.7316
+            4   C8x C    32.0307  -17.8287
+            5   C8y C    34.4537  -16.4247
+            6   C2c C    29.6131  -16.4190
+            7   C8y C    33.2365  -18.5335
+            8   C8y C    34.4537  -17.8287
+            9   N2b N    35.6654  -15.7316 #+
+            10  C5a C    28.4074  -15.7257
+            11  C5a C    29.6131  -17.8111
+            12  O1a O    33.2539  -19.9314
+            13  O1a O    35.6713  -18.5276
+            14  O3a O    35.6713  -14.3277
+            15  O3a O    36.8770  -16.4190 #-
+            16  C1a C    27.1960  -16.4131
+            17  O5a O    28.4133  -14.3220
+            18  C1a C    28.3767  -18.5249
+            19  O5a O    30.8354  -18.5168
+BOND        19
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 2
+            7     5   8 2
+            8     5   9 1
+            9     6  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    9  14 2
+            14    9  15 1
+            15   10  16 1
+            16   10  17 2
+            17    7   8 1
+            18   11  18 1
+            19   11  19 2
+///

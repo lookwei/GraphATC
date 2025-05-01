@@ -1,0 +1,99 @@
+ENTRY       D01598                      Drug
+NAME        Calcium L-aspartate hydrate (JAN);
+            Calcium L-aspartate;
+            Aspara-CA (TN)
+FORMULA     (C4H6NO4)2. 3H2O. Ca
+EXACT_MASS  358.0537
+MOL_WEIGHT  358.3133
+CLASS       Gastrointestinal agent
+             DG01980  Calcium
+            Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+REMARK      Therapeutic category: 3214
+            Product: D01598<JP>
+EFFICACY    Antihypocalcemia, Supplement (calcium)
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              32  Nutrients, tonics
+               321  Calcium preparations
+                3214  Calcium organic acids
+                 D01598  Calcium L-aspartate hydrate (JAN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Nourishing tonics and health supplements
+              44 Calcium based drugs
+               D01598  Calcium L-aspartate hydrate (JAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               L-Aspartic acid
+                D01598  Calcium L-aspartate hydrate (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               D01598  Calcium L-aspartate hydrate
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D01598  Calcium L-aspartate hydrate
+            Drug classes [BR:br08332]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D01598  Calcium L-aspartate hydrate
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D01598
+DBLINKS     CAS: 21059-46-1
+            PubChem: 7848661
+            LigandBox: D01598
+            NIKKAJI: J62.327J
+ATOM        22
+            1   C6a C    23.9129  -18.4110
+            2   C1b C    22.7272  -17.7135
+            3   C1c C    21.5416  -18.4110
+            4   C6a C    20.4258  -17.7135
+            5   O6a O    19.2401  -18.4110 #-
+            6   O6a O    20.4258  -16.3884
+            7   O6a O    23.9129  -19.7361
+            8   N1a N    21.5416  -19.7361 #+
+            9   O6a O    25.4472  -17.5043 #-
+            10  Z   Ca   29.6421  -17.1032 #2+
+            11  O0  O    31.1743  -20.2263
+            12  C6a C    23.9129  -18.4110
+            13  O6a O    23.9129  -19.7361
+            14  O6a O    25.4472  -17.5043 #-
+            15  C1b C    22.7272  -17.7135
+            16  C1c C    21.5416  -18.4110
+            17  N1a N    21.5416  -19.7361 #+
+            18  C6a C    20.4258  -17.7135
+            19  O6a O    19.2401  -18.4110 #-
+            20  O6a O    20.4258  -16.3884
+            21  O0  O    31.1743  -20.2263
+            22  O0  O    31.1743  -20.2263
+BOND        16
+            1     4   5 1
+            2     4   6 2
+            3     2   3 1
+            4     1   7 2
+            5     3   8 1 #Down
+            6     3   4 1
+            7     1   9 1
+            8     1   2 1
+            9    18  19 1
+            10   18  20 2
+            11   15  16 1
+            12   12  13 2
+            13   16  17 1 #Down
+            14   16  18 1
+            15   12  14 1
+            16   12  15 1
+BRACKET     1    17.9900  -21.0000   17.9900  -15.1900
+            1    27.0200  -15.1900   27.0200  -21.0000
+            1  2
+  ORIGINAL  1    1   7   9   2   3   8   4   5   6
+  REPEAT    1   12  13  14  15  16  17  18  19  20
+            2    29.1900  -21.0000   29.1900  -19.1800
+            2    31.7100  -19.1800   31.7100  -21.0000
+            2  3
+  ORIGINAL  2   11
+  REPEAT    2   21  22
+///

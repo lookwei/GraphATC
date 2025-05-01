@@ -1,0 +1,121 @@
+ENTRY       D09339                      Drug
+NAME        Esomeprazole potassium (USAN)
+FORMULA     C17H18N3O3S. K
+EXACT_MASS  383.0706
+MOL_WEIGHT  383.5064
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01646  Proton pump inhibitor (PPI)
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: A02BC05
+            Chemical structure group: DG00023
+            Product (DG00023): D01984<JP/US> D04056<US> D10120<US> D11114<US>
+EFFICACY    Antisecretory (gastric acid), Anti-ulcerative, Proton pump inhibitor
+COMMENT     Benzimidazole derivative
+TARGET      ATP4 [HSA:495 496] [KO:K01542 K01543]
+  PATHWAY   hsa04966(495+496)  Collecting duct acid secretion
+            hsa04971(495+496)  Gastric acid secretion
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BC Proton pump inhibitors
+                 A02BC05 Esomeprazole
+                  D09339  Esomeprazole potassium (USAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00023  Esomeprazole
+                 D09339  Esomeprazole potassium
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00023  Esomeprazole
+                D09339  Esomeprazole potassium
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00023  Esomeprazole
+                 D09339  Esomeprazole potassium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP4
+                 D09339  Esomeprazole potassium (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09339
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00023  Esomeprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00023  Esomeprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00023  Esomeprazole
+DBLINKS     CAS: 161796-84-5
+            PubChem: 96026019
+            LigandBox: D09339
+ATOM        25
+            1   C8x C    18.6200  -21.0000
+            2   C8y C    18.6200  -22.4000
+            3   C8x C    19.8800  -23.1000
+            4   C8x C    19.8800  -20.3000
+            5   C8y C    21.0700  -21.0000
+            6   C8y C    21.0700  -22.4000
+            7   N5x N    22.4000  -22.8900
+            8   C8y C    23.2400  -21.7000
+            9   N4x N    22.4000  -20.5800 #-
+            10  S4a S    24.6400  -21.7000
+            11  C1b C    25.3400  -23.0300
+            12  C8y C    26.7400  -23.0300
+            13  C8y C    27.4400  -24.2200
+            14  C8y C    28.8400  -24.2200
+            15  C8y C    29.4700  -23.0300
+            16  C8x C    28.8400  -21.7700
+            17  N5x N    27.4400  -21.7700
+            18  C1a C    30.9400  -23.0300
+            19  O2a O    29.5400  -25.4100
+            20  C1a C    30.9400  -25.4100
+            21  C1a C    26.7400  -25.4100
+            22  O3c O    25.3400  -20.5800
+            23  O2a O    17.4300  -23.1000
+            24  C1a C    16.2400  -22.4000
+            25  Z   K    22.1200  -18.8300 #+
+BOND        26
+            1     2   3 1
+            2    23  24 1
+            3     8  10 1
+            4     3   6 2
+            5    10  11 1 #Up
+            6     5   4 2
+            7    11  12 1
+            8     4   1 1
+            9    12  13 2
+            10   13  14 1
+            11   14  15 2
+            12   15  16 1
+            13   16  17 2
+            14   17  12 1
+            15    1   2 2
+            16   15  18 1
+            17    5   6 1
+            18   14  19 1
+            19    6   7 1
+            20   19  20 1
+            21    7   8 2
+            22   13  21 1
+            23    8   9 1
+            24   10  22 2
+            25    9   5 1
+            26    2  23 1
+///

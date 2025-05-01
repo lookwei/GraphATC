@@ -1,0 +1,91 @@
+ENTRY       D03622                      Drug
+NAME        Cyclizine hydrochloride (USP)
+FORMULA     C18H22N2. HCl
+EXACT_MASS  302.155
+MOL_WEIGHT  302.8416
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: R06AE03
+            Chemical structure group: DG01105
+EFFICACY    Anti-emetic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AE Piperazine derivatives
+                 R06AE03 Cyclizine
+                  D03622  Cyclizine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01105  Cyclizine
+                 D03622  Cyclizine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D03622  Cyclizine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01105  Cyclizine
+DBLINKS     CAS: 303-25-3
+            PubChem: 17397726
+            ChEBI: 51045
+            LigandBox: D03622
+            NIKKAJI: J610.763J
+ATOM        21
+            1   X   Cl   29.2600  -15.7500
+            2   C8x C    20.3696  -17.3576
+            3   C8x C    20.3696  -18.7575
+            4   C8x C    21.5819  -19.4574
+            5   C8x C    22.7943  -18.7575
+            6   C8y C    22.7943  -17.3576
+            7   C8x C    21.5819  -16.6577
+            8   C8x C    25.2188  -18.7575
+            9   C8y C    25.2188  -17.3576
+            10  C1c C    24.0065  -16.6577
+            11  C8x C    26.4311  -19.4574
+            12  C8x C    27.6434  -18.7575
+            13  C8x C    27.6434  -17.3576
+            14  C8x C    26.4311  -16.6577
+            15  N1y N    24.0065  -15.2579
+            16  C1x C    25.2209  -14.5568
+            17  C1x C    25.2209  -13.1569
+            18  N1y N    24.0085  -12.4570
+            19  C1x C    22.7943  -13.1581
+            20  C1x C    22.7943  -14.5580
+            21  C1a C    24.0085  -11.0584
+BOND        22
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     8   9 1
+            8     9  10 1
+            9     6  10 1
+            10    8  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14    9  14 2
+            15   10  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   15  20 1
+            22   18  21 1
+///

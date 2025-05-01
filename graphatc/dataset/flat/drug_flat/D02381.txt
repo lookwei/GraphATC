@@ -1,0 +1,71 @@
+ENTRY       D02381                      Drug
+NAME        Aspartame (NF/INN)
+FORMULA     C14H18N2O5
+EXACT_MASS  294.1216
+MOL_WEIGHT  294.3031
+REMARK      Same as: C11045
+            Chemical structure group: DG01355
+EFFICACY    Pharmaceutic aid (sweetener)
+TARGET      TAS1R2 [HSA:80834] [KO:K04625]
+            TAS1R3 [HSA:83756] [KO:K04626]
+  PATHWAY   hsa04742(80834+83756)  Taste transduction
+            hsa04973(80834+83756)  Carbohydrate digestion and absorption
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               Chemoreception
+                TAS1R2
+                 D02381  Aspartame (NF/INN)
+                TAS1R3
+                 D02381  Aspartame (NF/INN)
+DBLINKS     CAS: 22839-47-0
+            PubChem: 7849440
+            ChEBI: 2877
+            PDB-CCD: PME
+            LigandBox: D02381
+            NIKKAJI: J11.477D
+ATOM        21
+            1   C8y C    21.6348  -15.1239
+            2   C8x C    22.8469  -15.8287
+            3   C8x C    24.0611  -15.1268
+            4   C8x C    24.0628  -13.7269
+            5   C8x C    22.8503  -13.0293
+            6   C8x C    21.6365  -13.7241
+            7   O6a O    13.1555  -17.2454
+            8   C6a C    14.3678  -17.9364
+            9   C1b C    15.5801  -17.2385
+            10  C1c C    16.7925  -17.9293
+            11  C5a C    17.9977  -17.2314
+            12  N1b N    19.2100  -17.9221
+            13  C1c C    20.4224  -17.2243
+            14  C7a C    21.6348  -17.9152
+            15  O7a O    22.8469  -17.2173
+            16  C1a C    24.0594  -17.9547
+            17  O6a O    14.3608  -19.3388
+            18  N1a N    16.7854  -19.3319
+            19  O5a O    17.9906  -15.8287
+            20  O6a O    21.6044  -19.3177
+            21  C1b C    20.4224  -15.8287
+BOND        21
+            1    10  11 1
+            2     5   6 2
+            3    11  12 1
+            4     6   1 1
+            5    12  13 1
+            6    13  14 1
+            7     1   2 2
+            8    14  15 1
+            9     7   8 1
+            10   15  16 1
+            11    2   3 1
+            12    8  17 2
+            13    8   9 1
+            14   10  18 1 #Up
+            15    3   4 2
+            16   11  19 2
+            17    9  10 1
+            18   14  20 2
+            19    4   5 1
+            20   13  21 1 #Up
+            21   21   1 1
+///

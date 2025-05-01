@@ -1,0 +1,154 @@
+ENTRY       D01076                      Drug
+NAME        Mupirocin (USP/INN);
+            Bactroban (TN);
+            Centany (TN)
+PRODUCT
+  GENERIC   MUPIROCIN (A-S Medication Solutions)
+            MUPIROCIN (Advanced Rx Pharmacy of Tennessee)
+            MUPIROCIN (Advanced Rx Pharmacy of Tennessee)
+            MUPIROCIN (Asclemed USA)
+            MUPIROCIN (AvPAK)
+            MUPIROCIN (Bryant Ranch Prepack)
+            MUPIROCIN (E. Fougera & Co. a division of Fougera Pharmaceuticals)
+            MUPIROCIN (Glenmark Pharmaceuticals)
+            MUPIROCIN (Lohxa)
+            MUPIROCIN (MAJOR PHARMACEUTICALS)
+            MUPIROCIN (Medsource Pharmaceuticals)
+            MUPIROCIN (NuCare Pharmaceuticals)
+            MUPIROCIN (Padagis Israel Pharmaceuticals)
+            MUPIROCIN (Preferred Pharmaceuticals)
+            MUPIROCIN (Preferred Pharmaceuticals)
+            MUPIROCIN (Proficient Rx LP)
+            MUPIROCIN (Proficient Rx LP)
+            MUPIROCIN (Proficient Rx LP)
+            MUPIROCIN (Proficient Rx LP)
+            MUPIROCIN (Quality Care Products LLC)
+            MUPIROCIN (REMEDYREPACK)
+            MUPIROCIN (REMEDYREPACK)
+            MUPIROCIN (RPK Pharmaceuticals)
+            MUPIROCIN (RPK Pharmaceuticals)
+            MUPIROCIN (RPK Pharmaceuticals)
+            MUPIROCIN (Taro Pharmaceuticals U.S.A.)
+            MUPIROCIN (Teva Pharmaceuticals USA)
+            NUSURGEPAK SURGICAL PREP/CAREPAK (Nucare Pharmaceuticals)
+FORMULA     C26H44O9
+EXACT_MASS  500.2985
+MOL_WEIGHT  500.6222
+SOURCE      Pseudomonas fluorescens [TAX:294]
+REMARK      Same as: C11758
+            ATC code: D06AX09 R01AX06
+            Chemical structure group: DG00402
+            Product (DG00402): D01076<US> D02195<JP/US>
+EFFICACY    Antibacterial, tRNA Ligase inhibitor
+COMMENT     Natural product
+TARGET      isoleucine tRNA ligase [KO:K01870]
+  PATHWAY   ko00970(K01870)  Aminoacyl-tRNA biosynthesis
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AX Other antibiotics for topical use
+                 D06AX09 Mupirocin
+                  D01076  Mupirocin (USP/INN) &lt;US&gt;
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AX Other nasal preparations
+                 R01AX06 Mupirocin
+                  D01076  Mupirocin (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Topical Anti-infectives
+               Antibacterials, dermatological
+                Mupirocin
+                 D01076  Mupirocin (USP/INN)
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Other protein biosynthesis inhibitor
+                D01076  Mupirocin (USP/INN) &lt;US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Other protein biosynthesis inhibitor
+                DG00402  Mupirocin
+DBLINKS     CAS: 12650-69-0
+            PubChem: 7848139
+            ChEBI: 7025
+            PDB-CCD: MRC
+            LigandBox: D01076
+            NIKKAJI: J15.623J
+ATOM        35
+            1   C1y C    18.3898  -16.3286
+            2   C1y C    18.3898  -17.7334
+            3   C1x C    19.6033  -18.4323
+            4   O2x O    20.8169  -17.7334
+            5   C1y C    20.8169  -16.3286
+            6   C1y C    19.6033  -15.6225
+            7   C1y C    15.9682  -17.7405
+            8   C1b C    17.1826  -18.4466
+            9   O1a O    17.1773  -15.6332
+            10  O1a O    19.5899  -14.2175
+            11  C1b C    22.0258  -15.6225
+            12  C2c C    23.2400  -16.3145
+            13  C2b C    24.4544  -15.6156
+            14  C7a C    25.6687  -16.3074
+            15  O7a O    26.8759  -15.6084
+            16  C1b C    28.0901  -16.3003
+            17  C1b C    29.3045  -15.6013
+            18  C1b C    30.5188  -16.2933
+            19  C1b C    31.7330  -15.5944
+            20  C1b C    32.9474  -16.2862
+            21  C1b C    34.1618  -15.5873
+            22  C1b C    35.3760  -16.2791
+            23  C1b C    36.5832  -15.5801
+            24  C6a C    37.7976  -16.2721
+            25  O6a O    39.0120  -15.5661
+            26  C1a C    23.2431  -17.7193
+            27  O6a O    25.6718  -17.7122
+            28  O6a O    37.8037  -17.6770
+            29  C1y C    14.7497  -18.4450
+            30  C1c C    13.5328  -17.7376
+            31  C1c C    12.3144  -18.4421
+            32  C1a C    11.0975  -17.7347
+            33  O2x O    15.9894  -19.0819
+            34  O1a O    12.3127  -19.8471
+            35  C1a C    13.5345  -16.3328
+BOND        36
+            1    31  32 1
+            2     3   4 1
+            3     7  33 1 #Up
+            4    29  33 1 #Up
+            5     4   5 1
+            6    31  34 1 #Up
+            7     5   6 1
+            8    30  35 1 #Down
+            9     7   8 1
+            10    2   8 1 #Down
+            11    1   9 1 #Up
+            12    6  10 1 #Up
+            13    5  11 1 #Down
+            14   11  12 1
+            15   12  13 2
+            16   13  14 1
+            17   14  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   12  26 1
+            29   14  27 2
+            30   24  28 2
+            31    7  29 1
+            32    1   2 1
+            33   29  30 1
+            34    1   6 1
+            35   30  31 1
+            36    2   3 1
+///

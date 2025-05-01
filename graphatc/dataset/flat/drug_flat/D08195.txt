@@ -1,0 +1,203 @@
+ENTRY       D08195                      Drug
+NAME        Methadone (BAN)
+FORMULA     C21H27NO
+EXACT_MASS  309.2093
+MOL_WEIGHT  309.4452
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG02918  CYP2C8 substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02891  CYP2B6 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      Same as: C07163
+            ATC code: N07BC02
+            Chemical structure group: DG00999
+            Product (DG00999): D02102<JP/US>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist, NMDA receptor antagonist
+COMMENT     Synthetic opioid
+            Phenylpiperidine derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906+4988)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+            hsa04728(2903+2904)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2B6 [HSA:1555]; CYP2C8 [HSA:1558], CYP2C9 [HSA:1559], CYP2C19 [HSA:1557], CYP2D6 [HSA:1565]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION CYP induction: CYP3A4 [HSA:1576], CYP2B6 [HSA:1555]
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+            map07235  N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+OTHER_MAP   map00982  Drug metabolism - cytochrome P450
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BC Drugs used in opioid dependence
+                 N07BC02 Methadone
+                  D08195  Methadone (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG00999  Methadone
+                D08195  Methadone
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00999  Methadone
+                 D08195  Methadone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00999  Methadone
+                D08195  Methadone
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG00999  Methadone
+                D08195  Methadone
+              DG02918  CYP2C8 substrate
+               DG00999  Methadone
+                D08195  Methadone
+              DG01642  CYP2C9 substrate
+               DG00999  Methadone
+                D08195  Methadone
+              DG01639  CYP2C19 substrate
+               DG00999  Methadone
+                D08195  Methadone
+              DG01644  CYP2D6 substrate
+               DG00999  Methadone
+                D08195  Methadone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00999  Methadone
+                 D08195  Methadone
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               DG00999  Methadone
+                D08195  Methadone
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00999  Methadone
+                 D08195  Methadone
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00999  Methadone
+                D08195  Methadone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D08195  Methadone (BAN)
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D08195  Methadone (BAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08195
+             Drug transporters
+              D08195
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D08195
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG00999  Methadone
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00999  Methadone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00999  Methadone
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG00999  Methadone
+              DG02918  CYP2C8 substrate
+               DG00999  Methadone
+              DG01642  CYP2C9 substrate
+               DG00999  Methadone
+              DG01639  CYP2C19 substrate
+               DG00999  Methadone
+              DG01644  CYP2D6 substrate
+               DG00999  Methadone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00999  Methadone
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               DG00999  Methadone
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00999  Methadone
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00999  Methadone
+DBLINKS     CAS: 76-99-3
+            PubChem: 96024885
+            ChEBI: 6807
+            LigandBox: D08195
+            NIKKAJI: J4.190D
+ATOM        23
+            1   C8x C    21.0000  -19.2500
+            2   C8x C    21.0000  -20.6500
+            3   C8x C    22.1900  -21.3500
+            4   C8x C    23.3800  -20.6500
+            5   C8y C    23.3800  -19.2500
+            6   C8x C    22.1900  -18.6200
+            7   C8x C    25.6900  -20.6500
+            8   C8y C    25.6900  -19.2500
+            9   C1d C    24.5000  -18.6200
+            10  C8x C    26.8800  -21.3500
+            11  C8x C    28.0700  -20.6500
+            12  C8x C    28.0700  -19.2500
+            13  C8x C    26.8800  -18.6200
+            14  C1b C    24.5000  -17.2200
+            15  C1c C    25.6900  -16.5200
+            16  C5a C    22.5400  -17.5000
+            17  C1a C    26.8800  -17.2200
+            18  N1c N    25.6900  -15.2600
+            19  C1a C    26.8800  -14.5600
+            20  C1a C    24.5000  -14.5600
+            21  O5a O    22.5400  -16.1700
+            22  C1b C    21.3500  -18.2000
+            23  C1a C    20.2300  -17.5000
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 1
+            16   14  15 1
+            17    9  16 1
+            18   15  17 1
+            19   15  18 1
+            20   18  19 1
+            21   18  20 1
+            22   16  21 2
+            23   16  22 1
+            24   22  23 1
+///

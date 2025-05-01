@@ -1,0 +1,146 @@
+ENTRY       D10624                      Drug
+NAME        Doravirine (JAN/USAN/INN);
+            Pifeltro (TN)
+  ABBR      DOR
+PRODUCT     PIFELTRO (A-S Medication Solutions)
+            PIFELTRO (A-S Medication Solutions)
+            PIFELTRO (Merck Sharp & Dohme LLC)
+FORMULA     C17H11ClF3N5O3
+EXACT_MASS  425.0503
+MOL_WEIGHT  425.7492
+CLASS       Antiviral
+             DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Therapeutic category: 6250
+            ATC code: J05AG06
+            Product: D10624<JP/US>
+            Product (mixture): D11396<US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AG Non-nucleoside reverse transcriptase inhibitors
+                 J05AG06 Doravirine
+                  D10624  Doravirine (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Non-nucleoside Reverse Transcriptase Inhibitors (NNRTI)
+               Doravirine
+                D10624  Doravirine (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D10624  Doravirine (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+               D10624  Doravirine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D10624  Doravirine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D10624  Doravirine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10624  Doravirine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D10624  Doravirine (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10624
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10624
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10624
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10624
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10624
+DBLINKS     CAS: 1338225-97-0
+            PubChem: 254741585
+            PDB-CCD: 2KW
+ATOM        29
+            1   C8x C    14.2557  -16.0257
+            2   C8y C    14.2557  -17.3764
+            3   C8x C    15.4254  -18.0516
+            4   C8y C    16.5951  -17.3764
+            5   C8x C    16.5951  -16.0257
+            6   C8y C    15.4254  -15.3504
+            7   X   Cl   15.4254  -13.9997
+            8   O2a O    17.7648  -18.0516
+            9   C8y C    18.9346  -17.3764
+            10  C8y C    20.0898  -18.0434
+            11  C8x C    21.2596  -17.3683
+            12  C8x C    21.2597  -16.0176
+            13  N4y N    20.1044  -15.3505
+            14  C8y C    18.9347  -16.0257
+            15  C1d C    20.0898  -19.3941
+            16  X   F    18.7392  -19.3941
+            17  X   F    21.4405  -19.3941
+            18  X   F    20.0898  -20.7447
+            19  C1b C    20.1044  -13.9998
+            20  O5x O    17.7650  -15.3504
+            21  C3b C    13.0717  -18.0599
+            22  N3a N    11.8872  -18.7438
+            23  C8y C    21.3168  -13.2998
+            24  N4y N    22.6234  -13.8818
+            25  C8y C    23.5807  -12.8191
+            26  N4x N    22.8658  -11.5802
+            27  N5x N    21.4666  -11.8773
+            28  C1a C    22.9857  -15.2341
+            29  O5x O    24.9330  -13.1814
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 1
+            15    9  14 1
+            16   10  15 1
+            17   15  16 1
+            18   15  17 1
+            19   15  18 1
+            20   13  19 1
+            21   14  20 2
+            22    2  21 1
+            23   21  22 3
+            24   19  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   23  27 2
+            30   24  28 1
+            31   25  29 2
+///

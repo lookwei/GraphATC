@@ -1,0 +1,136 @@
+ENTRY       D00618                      Drug
+NAME        Nisoldipine (JAN/USAN/INN);
+            Sular (TN)
+PRODUCT     SULAR (Covis Pharma US)
+  GENERIC   NISOLDIPINE (Mylan Pharmaceuticals)
+            NISOLDIPINE (Mylan Pharmaceuticals)
+            NISOLDIPINE (Prasco Laboratories)
+FORMULA     C20H24N2O6
+EXACT_MASS  388.1634
+MOL_WEIGHT  388.4144
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07699
+            ATC code: C08CA07
+            Product: D00618<US>
+EFFICACY    Antihypertensive, Vasodilator, Calcium channel blocker
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA07 Nisoldipine
+                  D00618  Nisoldipine (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Calcium Channel Blocking Agents, Dihydropyridines
+               Nisoldipine
+                D00618  Nisoldipine (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                D00618  Nisoldipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D00618  Nisoldipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00618  Nisoldipine
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01928  Dihydropyridine calcium channel blocker
+               D00618  Nisoldipine
+              DG03231  Antihypertensive
+               D00618  Nisoldipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D00618  Nisoldipine (JAN/USAN/INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00618
+DBLINKS     CAS: 63675-72-9
+            PubChem: 7847684
+            ChEBI: 7577 76917
+            LigandBox: D00618
+            NIKKAJI: J19.554E
+ATOM        28
+            1   C1y C    23.9681  -15.8359
+            2   C8y C    23.9564  -18.2346
+            3   C2y C    25.1147  -15.1866
+            4   C2y C    22.8213  -15.1866
+            5   C8y C    22.8038  -18.8958
+            6   C8x C    25.0972  -18.8958
+            7   C2y C    25.1147  -13.8642
+            8   C7a C    26.2614  -15.8359
+            9   C2y C    22.8213  -13.8642
+            10  C7a C    21.6862  -15.8359
+            11  C8x C    22.8038  -20.2063
+            12  N2b N    21.6805  -18.2346 #+
+            13  C8x C    25.0972  -20.2063
+            14  N1x N    23.9681  -13.2032
+            15  C1a C    26.2614  -13.2032
+            16  O7a O    27.3965  -15.1866
+            17  O6a O    26.2614  -17.1640
+            18  C1a C    21.6862  -13.2032
+            19  O7a O    20.5454  -15.1866
+            20  O6a O    21.6922  -17.0644
+            21  C8x C    23.9564  -20.8790
+            22  C1b C    28.5314  -15.8359
+            23  C1a C    19.4046  -15.8359
+            24  C1c C    29.6664  -15.1806
+            25  C1a C    30.8073  -15.8301
+            26  C1a C    29.6605  -13.8642
+            27  O3a O    20.4917  -18.9072 #-
+            28  O3a O    23.0904  -17.1047
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 2
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1
+            15    8  16 1
+            16    8  17 2
+            17    9  18 1
+            18   10  19 1
+            19   10  20 2
+            20   11  21 1
+            21   16  22 1
+            22   19  23 1
+            23   22  24 1
+            24   24  25 1
+            25   24  26 1
+            26    9  14 1
+            27   13  21 2
+            28   12  27 1
+            29   12  28 2
+///

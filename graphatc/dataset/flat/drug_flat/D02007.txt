@@ -1,0 +1,123 @@
+ENTRY       D02007                      Drug
+NAME        Protirelin tartrate hydrate (JP18);
+            Hirtonin (TN)
+FORMULA     C16H22N6O4. C4H6O6. H2O
+EXACT_MASS  530.1973
+MOL_WEIGHT  530.4858
+REMARK      Therapeutic category: 1190 7223
+            ATC code: V04CJ02
+            Chemical structure group: DG01171
+            Product (DG01171): D00176<JP> D02007<JP>
+EFFICACY    Thyrotropin-releasing hormone receptor agonist
+COMMENT     tripeptide
+TARGET      TRHR [HSA:7201] [KO:K04282]
+  PATHWAY   hsa04020(7201)  Calcium signaling pathway
+            hsa04080(7201)  Neuroactive ligand-receptor interaction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CJ Tests for thyreoidea function
+                 V04CJ02 Protirelin
+                  D02007  Protirelin tartrate hydrate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D02007  Protirelin tartrate hydrate (JP18)
+             7  Agents not mainly for therapeutic purpose
+              72  Intracorporeal diagnostic agents
+               722  Various function testing reagents
+                7223  Diagnostic reagents for endocrine function
+                 D02007  Protirelin tartrate hydrate (JP18)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thyrotropin-releasing hormone
+                TRHR
+                 D02007  Protirelin tartrate hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02007  Protirelin tartrate hydrate
+DBLINKS     CAS: 53935-32-3
+            PubChem: 7849069
+            LigandBox: D02007
+            NIKKAJI: J391.511E
+ATOM        37
+            1   C1x C    16.1545  -21.0629
+            2   C1y C    16.5734  -19.7134
+            3   N1x N    15.4564  -18.8757
+            4   C5x C    14.2929  -19.7134
+            5   C1x C    14.7583  -21.0629
+            6   C8y C    21.4135  -16.9676
+            7   C8x C    22.8097  -16.9676
+            8   N5x N    23.2285  -15.6177
+            9   C8x C    22.1116  -14.8266
+            10  N4x N    20.9946  -15.6177
+            11  C1x C    24.4385  -17.7122
+            12  C1x C    24.9039  -19.0618
+            13  C1y C    23.7404  -19.8996
+            14  N1y N    22.6235  -19.0618
+            15  C1x C    23.0424  -17.7122
+            16  C5a C    21.4135  -19.7599
+            17  C1c C    20.2035  -19.0618
+            18  N1b N    18.9933  -19.7599
+            19  C5a C    17.7834  -19.0618
+            20  O5a O    17.7834  -17.6657
+            21  C1b C    20.2035  -17.6657
+            22  C5a C    23.7404  -21.2956
+            23  O5a O    22.5304  -21.9937
+            24  N1a N    24.9505  -21.9937
+            25  O5a O    21.4135  -21.1560
+            26  O5x O    12.9897  -19.2945
+            27  O6a O    27.9304  -17.6636
+            28  C6a C    29.1429  -16.9636
+            29  C1c C    30.3553  -17.6636
+            30  C1c C    31.5677  -16.9636
+            31  C6a C    32.7802  -17.6636
+            32  O6a O    33.9926  -16.9636
+            33  O6a O    29.1429  -15.5636
+            34  O1a O    31.5677  -15.5636
+            35  O1a O    30.3553  -19.0636
+            36  O6a O    32.7802  -19.0636
+            37  O0  O    31.5001  -21.8634
+BOND        37
+            1    11  12 1
+            2    12  13 1
+            3    13  14 1
+            4    14  15 1
+            5    15  11 1
+            6     4   5 1
+            7    14  16 1
+            8     6   7 2
+            9    16  17 1
+            10    7   8 1
+            11   17  18 1
+            12    8   9 2
+            13   18  19 1
+            14    9  10 1
+            15   19  20 2
+            16   10   6 1
+            17   17  21 1 #Up
+            18   21   6 1
+            19    5   1 1
+            20   13  22 1 #Up
+            21   22  23 2
+            22    1   2 1
+            23   22  24 1
+            24    2   3 1
+            25   16  25 2
+            26    2  19 1 #Down
+            27    3   4 1
+            28    4  26 2
+            29   27  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   28  33 2
+            35   30  34 1 #Up
+            36   29  35 1 #Up
+            37   31  36 2
+///

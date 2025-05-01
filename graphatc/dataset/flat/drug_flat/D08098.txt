@@ -1,0 +1,95 @@
+ENTRY       D08098                      Drug
+NAME        Ketamine (INN);
+            Tekam (TN)
+FORMULA     C13H16ClNO
+EXACT_MASS  237.092
+MOL_WEIGHT  237.7252
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG02027  General anesthetics
+             DG01498  NMDA receptor antagonist
+REMARK      Same as: C07525
+            ATC code: N01AX03
+            Chemical structure group: DG00796
+            Product (DG00796): D00711<JP/US>
+EFFICACY    Anesthetic (intravenous), NMDA receptor antagonist
+COMMENT     Phencyclidine derivative
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04020(2902+2903+2905+2906)  Calcium signaling pathway
+            hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+INTERACTION  
+STR_MAP     map07235  N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01A ANESTHETICS, GENERAL
+                N01AX Other general anesthetics
+                 N01AX03 Ketamine
+                  D08098  Ketamine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG00796  Ketamine
+                 D08098  Ketamine
+              DG01498  NMDA receptor antagonist
+               DG00796  Ketamine
+                D08098  Ketamine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D08098  Ketamine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D08098
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG00796  Ketamine
+              DG01498  NMDA receptor antagonist
+               DG00796  Ketamine
+DBLINKS     CAS: 6740-88-1
+            PubChem: 96024788
+            ChEBI: 6121
+            LigandBox: D08098
+            NIKKAJI: J244.885H
+ATOM        16
+            1   C1z C    24.9200  -17.7800
+            2   C8y C    23.7300  -18.4800
+            3   C5x C    26.3200  -17.7800
+            4   C1x C    24.2200  -16.5900
+            5   N1b N    25.6200  -18.9700
+            6   C8y C    22.4700  -17.7800
+            7   C8x C    23.7300  -19.8800
+            8   C1x C    27.0200  -16.5200
+            9   O5x O    27.0200  -18.9700
+            10  C1x C    24.9200  -15.3300
+            11  C1a C    24.9200  -20.2300
+            12  C8x C    21.2800  -18.4800
+            13  X   Cl   22.4700  -16.3800
+            14  C8x C    22.4700  -20.5800
+            15  C1x C    26.3200  -15.3300
+            16  C8x C    21.2800  -19.8800
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12    6  13 1
+            13    7  14 2
+            14    8  15 1
+            15   12  16 2
+            16   10  15 1
+            17   14  16 1
+///

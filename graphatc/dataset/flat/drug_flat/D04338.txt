@@ -1,0 +1,40 @@
+ENTRY       D04338            Mixture   Drug
+NAME        Dihydrocodeine phosphate, ephedrine hydrochloride and ammmonium chloride;
+            Sekicode (TN)
+COMPONENT   Dihydrocodeine phosphate [DR:D01481], Ephedrine hydrochloride [DR:D01386], Ammonium chloride [DR:D01139]
+CLASS       Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03189  UGT2B4 substrate
+              DG03190  UGT2B7 substrate
+REMARK      Therapeutic category: 2249
+            Product: D04338<JP>
+EFFICACY    Antitussive, Expectorant
+COMMENT     Dihydrocodeine phosphate is metabolized by UGT2B7, UGT2B4 with some contribution from CYP3A4 and CYP2D6.
+METABOLISM  Enzyme: UGT2B7 [HSA:7364], UGT2B4 [HSA:7363]; CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               224  Antitussives and expectorants
+                2249  Others
+                 D04338  Dihydrocodeine phosphate, ephedrine hydrochloride and ammmonium chloride
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D04338  Dihydrocodeine phosphate, ephedrine hydrochloride and ammmonium chloride
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D04338  Dihydrocodeine phosphate, ephedrine hydrochloride and ammmonium chloride
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                D04338  Dihydrocodeine phosphate, ephedrine hydrochloride and ammmonium chloride
+               DG03190  UGT2B7 substrate
+                D04338  Dihydrocodeine phosphate, ephedrine hydrochloride and ammmonium chloride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04338
+DBLINKS     PubChem: 17398060
+///

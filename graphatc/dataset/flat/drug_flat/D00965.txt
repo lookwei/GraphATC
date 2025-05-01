@@ -1,0 +1,102 @@
+ENTRY       D00965                      Drug
+NAME        Nilutamide (USAN/INN);
+            Nilandron (TN)
+PRODUCT     NILANDRON (Concordia Pharmaceuticals)
+  GENERIC   NILUTAMIDE (ANI Pharmaceuticals)
+            NILUTAMIDE (Prasco Laboratories)
+FORMULA     C12H10F3N3O4
+EXACT_MASS  317.0623
+MOL_WEIGHT  317.2207
+CLASS       Antineoplastic
+             DG01591  Androgen receptor antagonist
+              DG01624  Flutamide-type antiandrogen
+REMARK      Same as: C08164
+            ATC code: L02BB02
+            Product: D00965<US>
+EFFICACY    Antineoplastic, Androgen receptor antagonist
+  DISEASE   Prostate Cancer [DS:H00024]
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+  PATHWAY   hsa05200(367)  Pathways in cancer
+            hsa05215(367)  Prostate cancer
+STR_MAP     map07043  Antineoplastics - hormones
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L02 ENDOCRINE THERAPY
+               L02B HORMONE ANTAGONISTS AND RELATED AGENTS
+                L02BB Anti-androgens
+                 L02BB02 Nilutamide
+                  D00965  Nilutamide (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antiandrogens
+               Nilutamide
+                D00965  Nilutamide (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               DG01624  Flutamide-type antiandrogen
+                D00965  Nilutamide
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               D00965  Nilutamide
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D00965  Nilutamide (USAN/INN) &lt;US&gt;
+DBLINKS     CAS: 63612-50-0
+            PubChem: 7848028
+            ChEBI: 7573
+            LigandBox: D00965
+            NIKKAJI: J33.120A
+ATOM        22
+            1   N1y N    34.9300  -18.0600
+            2   C8y C    36.1200  -18.7600
+            3   C5x C    33.7400  -18.8300
+            4   C5x C    34.5800  -16.6600
+            5   C8x C    36.1200  -20.1600
+            6   C8x C    37.3800  -18.0600
+            7   C1z C    32.6900  -17.9200
+            8   O5x O    33.7400  -20.2300
+            9   N1x N    33.1800  -16.6600
+            10  O5x O    35.5600  -15.6800
+            11  C8x C    37.3800  -20.8600
+            12  C8y C    38.5700  -18.7600
+            13  C1a C    31.7100  -16.9400
+            14  C1a C    31.5000  -18.6200
+            15  C8y C    38.5700  -20.1600
+            16  N2b N    39.7600  -20.8600 #+
+            17  O3a O    39.7600  -22.2600
+            18  O3a O    41.0200  -20.1600 #-
+            19  C1d C    39.7853  -18.0649
+            20  X   F    40.9977  -17.3649
+            21  X   F    39.0853  -16.8525
+            22  X   F    40.4853  -19.2774
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     4  10 2
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    7  14 1
+            14   11  15 2
+            15   15  16 1
+            16   16  17 2
+            17   16  18 1
+            18    7   9 1
+            19   12  15 1
+            20   12  19 1
+            21   19  20 1
+            22   19  21 1
+            23   19  22 1
+///

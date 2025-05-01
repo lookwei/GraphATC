@@ -1,0 +1,83 @@
+ENTRY       D09931                      Drug
+NAME        Mibampator (USAN/INN)
+FORMULA     C21H30N2O4S2
+EXACT_MASS  438.1647
+MOL_WEIGHT  438.6039
+EFFICACY    Dementia therapeutic agent, AMPA receptor agonist
+COMMENT     Agitation/aggression associated with Alzheimer's disease
+TARGET      GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+  PATHWAY   hsa04080(2890+2891+2892+2893)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893)  Glutamatergic synapse
+            hsa04728(2890+2891+2892+2893)  Dopaminergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D09931  Mibampator (USAN/INN)
+DBLINKS     CAS: 375345-95-2
+            PubChem: 135626665
+            PDB-CCD: 8SO
+            LigandBox: D09931
+ATOM        29
+            1   C8x C    14.8400  -24.6400
+            2   C8y C    14.8400  -26.0400
+            3   C8x C    16.0524  -26.7400
+            4   C8x C    17.2649  -26.0400
+            5   C8y C    17.2649  -24.6400
+            6   C8x C    16.0524  -23.9400
+            7   C8y C    18.4960  -23.9290
+            8   C8x C    19.7012  -24.6247
+            9   C8x C    20.9135  -23.9246
+            10  C8y C    20.9135  -22.5246
+            11  C8x C    19.7083  -21.8289
+            12  C8x C    18.4959  -22.5290
+            13  C1c C    13.6276  -26.7400
+            14  C1b C    12.4321  -26.0496
+            15  C1a C    13.6275  -28.1398
+            16  N1b N    11.2447  -26.7351
+            17  S4a S    10.0535  -26.0471
+            18  C1c C     8.8640  -26.7338
+            19  C1a C     7.6739  -26.0465
+            20  O3c O    10.7535  -24.8347
+            21  O3c O     9.3535  -24.8347
+            22  C1a C     8.8638  -28.1398
+            23  C1b C    22.1314  -21.8212
+            24  C1b C    23.3434  -22.5207
+            25  N1b N    24.5223  -21.8398
+            26  S4a S    25.7181  -22.5302
+            27  C1a C    26.9051  -21.8447
+            28  O3c O    25.0181  -23.7426
+            29  O3c O    26.4181  -23.7426
+BOND        30
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13    7  12 2
+            14    2  13 1
+            15   13  14 1
+            16   13  15 1 #Up
+            17   14  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   17  20 2
+            22   17  21 2
+            23   18  22 1
+            24   10  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   26  28 2
+            30   26  29 2
+///

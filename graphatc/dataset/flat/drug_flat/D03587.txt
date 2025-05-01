@@ -1,0 +1,78 @@
+ENTRY       D03587                      Drug
+NAME        Colterol mesylate (USAN)
+FORMULA     C12H19NO3. CH4SO3
+EXACT_MASS  321.1246
+MOL_WEIGHT  321.3898
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 D03587  Colterol mesylate
+              DG01951  Catecholamine adrenergic receptor agonist
+               D03587  Colterol mesylate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D03587  Colterol mesylate (USAN)
+DBLINKS     CAS: 17605-73-1
+            PubChem: 47205866
+            LigandBox: D03587
+            NIKKAJI: J365.038C
+ATOM        21
+            1   C8x C     2.9400   -5.8100
+            2   C8y C     2.9400   -4.4100
+            3   C8y C     4.1300   -3.7100
+            4   C8x C     5.3900   -4.4100
+            5   C8y C     5.3900   -5.8100
+            6   C8x C     4.1300   -6.5100
+            7   O1a O     1.7500   -3.7100
+            8   C1c C     6.5800   -6.5100
+            9   O1a O     4.1300   -2.3100
+            10  C1b C     7.7700   -5.8100
+            11  N1b N     8.9600   -6.5100
+            12  O1a O     6.5800   -7.9100
+            13  C1d C    10.1500   -5.8100
+            14  C1a C    11.3400   -6.5100
+            15  C1a C    10.1500   -4.4100
+            16  C1a C    11.3653   -5.1149
+            17  O1d O    17.5091   -3.8863
+            18  S4a S    17.5091   -5.2833
+            19  C1a C    16.1122   -5.2833
+            20  O1d O    18.9061   -5.2833
+            21  O1d O    17.5091   -6.6802
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     3   9 1
+            10    8  10 1
+            11   10  11 1
+            12    8  12 1
+            13   11  13 1
+            14   13  14 1
+            15   13  15 1
+            16   13  16 1
+            17   17  18 2
+            18   18  19 1
+            19   18  20 1
+            20   18  21 2
+///

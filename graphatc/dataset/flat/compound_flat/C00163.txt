@@ -1,0 +1,52 @@
+ENTRY       C00163                      Compound
+NAME        Propanoate;
+            Propionate;
+            Propanoic acid;
+            Propionic acid
+FORMULA     C3H6O2
+EXACT_MASS  74.0368
+MOL_WEIGHT  74.0785
+REMARK      Same as: D02310
+REACTION    R00920 R00925 R00928 R01353 R01354 R01355 R01449 R05366 
+            R11773 R13136
+PATHWAY     map00640  Propanoate metabolism
+            map00642  Ethylbenzene degradation
+            map00760  Nicotinate and nicotinamide metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+            map04973  Carbohydrate digestion and absorption
+            map04974  Protein digestion and absorption
+ENZYME      1.3.1.125       2.7.2.1         2.7.2.15        2.8.3.1         
+            2.8.3.27        3.7.1.-         4.1.3.32        6.2.1.1         
+            6.2.1.13        6.2.1.17
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Monocarboxylic acids
+                C00163  Propionate; Propanoate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0101 Straight chain fatty acids
+                C00163  Propanoic acid
+DBLINKS     CAS: 79-09-4
+            PubChem: 3463
+            ChEBI: 17272 30768
+            LIPIDMAPS: LMFA01010003
+            KNApSAcK: C00044287
+            PDB-CCD: PPI
+            3DMET: B01176
+            NIKKAJI: J1.963A
+ATOM        5
+            1   C6a C    24.7142  -18.7600
+            2   C1b C    25.9258  -19.4624
+            3   O6a O    23.5027  -19.4624
+            4   O6a O    24.7142  -17.3612
+            5   C1a C    27.1373  -18.7600
+BOND        4
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+///

@@ -1,0 +1,91 @@
+ENTRY       D01444                      Drug
+NAME        Bunitrolol hydrochloride (JAN);
+            Betrilol (TN)
+FORMULA     C14H20N2O2. HCl
+EXACT_MASS  284.1292
+MOL_WEIGHT  284.7817
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+EFFICACY    Antihypertensive, Vasodilator, alpha1/beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148+153+154+155)  Salivary secretion
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                D01444  Bunitrolol hydrochloride
+              DG03231  Antihypertensive
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                D01444  Bunitrolol hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D01444  Bunitrolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01444  Bunitrolol hydrochloride (JAN)
+                ADRB
+                 D01444  Bunitrolol hydrochloride (JAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01444
+DBLINKS     CAS: 29876-08-2
+            PubChem: 7848507
+            ChEBI: 31321
+            LigandBox: D01444
+            NIKKAJI: J349.604J
+ATOM        19
+            1   X   Cl   28.0805  -16.6064
+            2   C8x C    23.8210  -17.5700
+            3   C8x C    23.8151  -16.1619
+            4   C8x C    22.6058  -18.2711
+            5   C8y C    22.6058  -15.4608
+            6   C8x C    21.3906  -17.5641
+            7   C8y C    21.3906  -16.1619
+            8   C3b C    20.1755  -15.4608
+            9   N3a N    18.9614  -14.7713
+            10  O2a O    22.6071  -14.0631
+            11  C1b C    23.8183  -13.3656
+            12  C1c C    25.0282  -14.0656
+            13  C1b C    26.2394  -13.3679
+            14  N1b N    27.4491  -14.0682
+            15  C1d C    28.6603  -13.3705
+            16  O1a O    25.0267  -15.4634
+            17  C1a C    29.8702  -14.0705
+            18  C1a C    28.6618  -11.9727
+            19  C1a C    29.8666  -12.6577
+BOND        18
+            1    14  15 1
+            2     7   8 1
+            3     8   9 3
+            4     6   7 2
+            5     5  10 1
+            6     2   3 1
+            7    10  11 1
+            8     2   4 2
+            9    11  12 1
+            10    3   5 2
+            11   12  13 1
+            12    4   6 1
+            13   13  14 1
+            14   16  12 1
+            15   15  17 1
+            16   15  18 1
+            17    5   7 1
+            18   15  19 1
+///

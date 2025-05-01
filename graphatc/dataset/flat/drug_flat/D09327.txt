@@ -1,0 +1,97 @@
+ENTRY       D09327                      Drug
+NAME        Cositecan (USAN);
+            Karenitecin (TN)
+FORMULA     C25H28N2O4Si
+EXACT_MASS  448.1818
+MOL_WEIGHT  448.5863
+CLASS       Antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01526  Topoisomerase I inhibitor
+EFFICACY    Antineoplastic, Topoisomerase I inhibitor
+COMMENT     Camptothecin [CPD:C01897] analog
+TARGET      TOP1 [HSA:7150] [KO:K03163]
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01529  Topoisomerase inhibitor
+               DG01526  Topoisomerase I inhibitor
+                D09327  Cositecan
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP1
+                 D09327  Cositecan (USAN)
+DBLINKS     CAS: 203923-89-1
+            PubChem: 96026007
+            ChEBI: 177492
+ATOM        32
+            1   C8x C    18.0285  -22.7067
+            2   C8x C    18.0285  -24.1109
+            3   C8x C    19.2220  -24.8129
+            4   C8y C    20.4156  -24.1109
+            5   C8y C    20.4156  -22.7067
+            6   C8x C    19.2220  -22.0046
+            7   N5x N    21.6793  -24.8129
+            8   C8y C    22.8728  -24.1109
+            9   C8y C    22.8728  -22.7067
+            10  C8y C    21.6793  -22.0046
+            11  C8y C    24.2067  -24.5321
+            12  N4y N    25.0492  -23.4088
+            13  C1x C    24.2067  -22.2855
+            14  C8y C    26.3832  -23.4088
+            15  C8y C    27.0852  -24.6023
+            16  C8y C    26.4534  -25.7958
+            17  C8x C    24.9790  -25.7958
+            18  C1z C    27.1554  -26.9893
+            19  C7x C    28.4894  -26.9893
+            20  O7x O    29.1212  -25.7958
+            21  C1x C    28.4192  -24.6023
+            22  O5x O    27.0852  -22.1451
+            23  O6a O    29.1914  -28.2531
+            24  C1b C    21.6793  -20.6707
+            25  C1b C    25.7513  -26.9893
+            26  O1a O    27.1554  -28.4637
+            27  C1a C    25.0492  -28.2531
+            28  C1b C    22.8953  -19.9686
+            29  Z   Si   22.8954  -18.5647
+            30  C1a C    24.2995  -18.5647
+            31  C1a C    21.4912  -18.5647
+            32  C1a C    22.8954  -17.1605
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    8  11 1
+            13   11  12 1
+            14   12  13 1
+            15    9  13 1
+            16   12  14 1
+            17   14  15 1
+            18   15  16 2
+            19   16  17 1
+            20   16  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   15  21 1
+            25   17  11 2
+            26   14  22 2
+            27   19  23 2
+            28   10  24 1
+            29   18  25 1 #Down
+            30   18  26 1 #Up
+            31   25  27 1
+            32   24  28 1
+            33   28  29 1
+            34   29  30 1
+            35   29  31 1
+            36   29  32 1
+///

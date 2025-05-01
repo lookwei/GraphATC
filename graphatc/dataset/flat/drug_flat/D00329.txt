@@ -1,0 +1,118 @@
+ENTRY       D00329                      Drug
+NAME        Flurazepam (JAN/INN);
+            Insumin (TN)
+FORMULA     C21H23ClFN3O
+EXACT_MASS  387.1514
+MOL_WEIGHT  387.8782
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+REMARK      ATC code: N05CD01
+            Chemical structure group: DG00919
+            Product (DG00919): D00695<US> D01408<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Benzodiazepines
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CD Benzodiazepine derivatives
+                 N05CD01 Flurazepam
+                  D00329  Flurazepam (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               DG00919  Flurazepam
+                D00329  Flurazepam
+              DG03202  Hypnotic
+               DG00919  Flurazepam
+                D00329  Flurazepam
+              DG01567  GABA-A receptor agonist
+               DG00919  Flurazepam
+                D00329  Flurazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00329  Flurazepam (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               DG00919  Flurazepam
+              DG03202  Hypnotic
+               DG00919  Flurazepam
+              DG01567  GABA-A receptor agonist
+               DG00919  Flurazepam
+DBLINKS     CAS: 17617-23-1
+            PubChem: 7847395
+            ChEBI: 5128
+            PDB-CCD: FL7
+            LigandBox: D00329
+            NIKKAJI: J3.142I
+ATOM        27
+            1   C2y C    16.4531  -16.9578
+            2   C8y C    15.6104  -15.8474
+            3   C8y C    15.9459  -14.4897
+            4   N1y N    17.2077  -13.9111
+            5   N2x N    17.8599  -16.9130
+            6   C5x C    18.4622  -14.5339
+            7   C1x C    18.7489  -15.9036
+            8   C8x C    14.9380  -13.5206
+            9   C8x C    13.5951  -13.9089
+            10  C8y C    13.2597  -15.2667
+            11  C8x C    14.2675  -16.2355
+            12  O5x O    19.5071  -13.5988
+            13  X   Cl   11.8939  -15.6614
+            14  C8y C    15.8182  -18.2084
+            15  C8x C    14.4156  -18.2084
+            16  C8x C    13.7151  -19.4217
+            17  C8x C    14.4156  -20.6350
+            18  C8x C    15.8182  -20.6350
+            19  C8y C    16.5187  -19.4217
+            20  X   F    17.9306  -19.4218
+            21  C1b C    17.2295  -12.5353
+            22  C1b C    18.4478  -11.8573
+            23  N1c N    18.4698  -10.4300
+            24  C1b C    19.7007   -9.7445
+            25  C1b C    17.2758   -9.7159
+            26  C1a C    16.0577  -10.3944
+            27  C1a C    20.8732  -10.4458
+BOND        29
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 2
+            22   19  20 1
+            23    4  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   23  25 1
+            28   25  26 1
+            29   24  27 1
+///

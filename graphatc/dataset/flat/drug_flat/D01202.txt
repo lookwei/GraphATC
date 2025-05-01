@@ -1,0 +1,91 @@
+ENTRY       D01202                      Drug
+NAME        Melinamide (JAN);
+            Artes (TN)
+FORMULA     C26H41NO
+EXACT_MASS  383.3188
+MOL_WEIGHT  383.6098
+EFFICACY    Antihyperlipidemic, Cholesterol acyltransferase (ACAT) inhibitor
+COMMENT     Unsaturated fatty acid
+TARGET      SOAT [HSA:6646 8435] [KO:K00637]
+  PATHWAY   hsa00100(6646+8435)  Steroid biosynthesis
+            hsa04979(6646+8435)  Cholesterol metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Acyltransferases
+                SOAT
+                 D01202  Melinamide (JAN)
+DBLINKS     CAS: 14417-88-0
+            PubChem: 7848265
+            ChEBI: 31814
+            LigandBox: D01202
+            NIKKAJI: J3.443F
+ATOM        28
+            1   C8y C    21.1651  -17.1899
+            2   C8x C    21.1651  -18.5929
+            3   C8x C    19.9471  -19.2944
+            4   C8x C    18.7362  -18.5929
+            5   C8x C    18.7362  -17.1899
+            6   C8x C    19.9471  -16.4884
+            7   C1c C    22.3768  -16.4884
+            8   N1b N    23.5885  -17.1827
+            9   C5a C    24.8002  -16.4812
+            10  C1b C    26.0119  -17.1758
+            11  C1b C    27.2236  -16.4742
+            12  C1b C    28.4353  -17.1686
+            13  C2b C    29.6471  -16.4671
+            14  C1a C    22.3737  -15.0853
+            15  O5a O    24.7971  -15.0782
+            16  C2b C    31.0471  -16.4671
+            17  C1b C    32.2924  -17.1500
+            18  C2b C    33.5049  -16.4500
+            19  C2b C    34.9049  -16.4500
+            20  C1b C    36.1424  -17.1500
+            21  C1b C    37.3549  -16.4500
+            22  C1a C    39.1273  -17.1500
+            23  C1b C    26.0119  -17.1758
+            24  C1b C    27.2236  -16.4742
+            25  C1b C    26.0119  -17.1758
+            26  C1b C    27.2236  -16.4742
+            27  C1b C    36.1424  -17.1500
+            28  C1b C    37.3549  -16.4500
+BOND        28
+            1     1   7 1
+            2     1   2 2
+            3     7   8 1
+            4     2   3 1
+            5     8   9 1
+            6     3   4 2
+            7     4   5 1
+            8     7  14 1
+            9     9  15 2
+            10    5   6 2
+            11    6   1 1
+            12   12  13 1
+            13   13  16 2
+            14   16  17 1
+            15   17  18 1
+            16   18  19 2
+            17    9  10 1
+            18   10  11 1
+            19   11  23 1
+            20   23  24 1
+            21   24  25 1
+            22   25  26 1
+            23   26  12 1
+            24   19  20 1
+            25   20  21 1
+            26   21  27 1
+            27   27  28 1
+            28   28  22 1
+BRACKET     1    25.9000  -18.1300   25.9000  -16.1700
+            1    27.3000  -16.1700   27.3000  -18.1300
+            1  3
+  ORIGINAL  1   10  11
+  REPEAT    1   23  24  25  26
+            2    35.9800  -17.9900   35.9800  -16.1700
+            2    37.4500  -16.1700   37.4500  -17.9900
+            2  2
+  ORIGINAL  2   20  21
+  REPEAT    2   27  28
+///

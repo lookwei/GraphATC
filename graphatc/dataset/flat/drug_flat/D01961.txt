@@ -1,0 +1,103 @@
+ENTRY       D01961                      Drug
+NAME        Cefmatilen hydrochloride hydrate (JAN)
+FORMULA     C15H14N8O5S4. HCl. H2O
+EXACT_MASS  567.9842
+MOL_WEIGHT  569.0585
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01804  Oxyimino beta-lactam
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Cephalosporins
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 D01961  Cefmatilen hydrochloride hydrate
+              DG01804  Oxyimino beta-lactam
+               D01961  Cefmatilen hydrochloride hydrate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D01961  Cefmatilen hydrochloride hydrate (JAN)
+DBLINKS     CAS: 154776-45-1
+            PubChem: 7849023
+            LigandBox: D01961
+ATOM        34
+            1   X   Cl   18.9475  -22.5840
+            2   O0  O    22.7693  -22.5840
+            3   C1y C    24.9642  -18.8244
+            4   N1y N    24.9642  -20.2176
+            5   C2y C    26.1709  -20.9141
+            6   C2y C    27.3774  -20.2176
+            7   C1x C    27.3774  -18.8244
+            8   S2x S    26.1709  -18.1278
+            9   C1y C    23.5709  -18.8244
+            10  C5x C    23.5709  -20.2176
+            11  N1b N    22.3646  -18.1278
+            12  C5a C    21.1579  -18.8244
+            13  O5a O    21.1579  -20.2176
+            14  O5x O    22.3646  -20.9141
+            15  C2c C    19.9513  -18.1278
+            16  S2a S    28.6025  -20.9253
+            17  C8y C    18.7255  -18.8360
+            18  C8x C    17.5918  -18.0031
+            19  S2x S    16.4446  -18.8225
+            20  C8y C    16.8694  -20.2367
+            21  N5x N    18.2790  -20.1782
+            22  N2b N    19.9512  -16.7132
+            23  C6a C    26.1709  -22.3240
+            24  O6a O    27.3881  -23.0267
+            25  O6a O    24.9553  -23.0259
+            26  C1b C    29.7773  -20.2478
+            27  S2a S    30.9814  -20.9437
+            28  C8y C    32.1674  -20.2598
+            29  C8x C    32.1674  -18.8579
+            30  N4x N    33.5006  -20.6930
+            31  N5x N    34.3246  -19.5588
+            32  N5x N    33.5006  -18.4247
+            33  N1a N    16.0634  -21.3682
+            34  O1b O    21.1554  -16.0179
+BOND        35
+            1     3   4 1
+            2     4   5 1
+            3     5   6 2
+            4     6   7 1
+            5     7   8 1
+            6     3   8 1
+            7     3   9 1
+            8     9  10 1
+            9     4  10 1
+            10    9  11 1 #Up
+            11   11  12 1
+            12   12  13 2
+            13   10  14 2
+            14   12  15 1
+            15    6  16 1
+            16   15  17 1
+            17   17  18 2
+            18   18  19 1
+            19   19  20 1
+            20   20  21 2
+            21   17  21 1
+            22   15  22 2
+            23    5  23 1
+            24   23  24 1
+            25   23  25 2
+            26   16  26 1
+            27   26  27 1
+            28   27  28 1
+            29   28  29 2
+            30   28  30 1
+            31   30  31 1
+            32   31  32 2
+            33   29  32 1
+            34   20  33 1
+            35   22  34 1
+///

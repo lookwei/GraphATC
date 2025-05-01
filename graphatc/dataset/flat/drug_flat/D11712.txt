@@ -1,0 +1,145 @@
+ENTRY       D11712                      Drug
+NAME        Pralsetinib (USAN/INN);
+            Gavreto (TN)
+PRODUCT     GAVRETO (Genentech)
+FORMULA     C27H32FN9O2
+EXACT_MASS  533.2663
+MOL_WEIGHT  533.6005
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+REMARK      ATC code: L01EX23
+            Chemical structure group: DG03223
+            Product (DG03223): D11712<US>
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+  DISEASE   Non-small cell lung cancer (RET fusion positive) [DS:H00014]
+            Medullary thyroid cancer (RET mutant) [DS:H01592]
+            Thyroid cancer (RET fusion positive) [DS:H00032]
+COMMENT     Treatment of RET-driven malignacies
+TARGET      RET* [HSA_VAR:5979v1] [HSA:5979] [KO:K05126]
+  PATHWAY   hsa05200(5979)  Pathways in cancer
+            hsa05223(5979)  Non-small cell lung cancer
+            hsa05230(5979)  Central carbon metabolism in cancer
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EX Other protein kinase inhibitors
+                 L01EX23 Pralsetinib
+                  D11712  Pralsetinib (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Pralsetinib
+                D11712  Pralsetinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03223  Pralsetinib
+                D11712  Pralsetinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               RET family
+                RET* [HSA_VAR:5979v1]
+                 D11712  Pralsetinib (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11712
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11712
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D11712
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03223  Pralsetinib
+DBLINKS     CAS: 2097132-94-8
+            PubChem: 405226578
+ATOM        39
+            1   C8y C    24.0100  -15.2600
+            2   N5x N    24.0100  -13.8600
+            3   C8x C    22.8200  -13.1600
+            4   C8y C    21.5600  -13.8600
+            5   C8x C    21.5600  -15.2600
+            6   C8x C    22.8200  -15.9600
+            7   N4y N    25.2000  -15.9600
+            8   C8x C    25.2000  -17.3600
+            9   C8y C    26.4600  -17.8500
+            10  C8x C    27.3700  -16.7300
+            11  N5x N    26.5300  -15.6100
+            12  X   F    26.8800  -19.1800
+            13  C1c C    20.3700  -13.1600
+            14  N1b N    19.1800  -13.8600
+            15  C1a C    20.3700  -11.7600
+            16  C5a C    17.9900  -13.1600
+            17  C1z C    16.8000  -13.8600
+            18  O5a O    17.9900  -11.7600
+            19  C1x C    15.6100  -13.1600
+            20  C1x C    14.3500  -13.8600
+            21  C1y C    14.3500  -15.2600
+            22  C1x C    15.5400  -15.9600
+            23  C1x C    16.8000  -15.2600
+            24  O2a O    16.8000  -12.4600
+            25  C1a C    15.6100  -11.7600
+            26  C8y C    13.1600  -15.9600
+            27  N5x N    11.9700  -15.2600
+            28  C8y C    10.7100  -15.9600
+            29  C8x C    10.7100  -17.3600
+            30  C8y C    11.9000  -18.0600
+            31  N5x N    13.1600  -17.3600
+            32  C1a C    11.9000  -19.4600
+            33  N1b N     9.5200  -15.2600
+            34  C8y C     8.3300  -15.9600
+            35  N5x N     7.0000  -15.5400
+            36  N4x N     6.1600  -16.6600
+            37  C8y C     7.0000  -17.7800
+            38  C8x C     8.3300  -17.3600
+            39  C1a C     6.5800  -19.0400
+BOND        43
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12    7  11 1
+            13    9  12 1
+            14    4  13 1
+            15   13  14 1
+            16   13  15 1 #Up
+            17   14  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   17  23 1
+            26   17  24 1 #Down
+            27   24  25 1
+            28   21  26 1 #Down
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   26  31 1
+            35   30  32 1
+            36   28  33 1
+            37   33  34 1
+            38   34  35 2
+            39   35  36 1
+            40   36  37 1
+            41   37  38 2
+            42   34  38 1
+            43   37  39 1
+///

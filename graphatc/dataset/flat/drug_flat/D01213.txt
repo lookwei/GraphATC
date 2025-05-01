@@ -1,0 +1,173 @@
+ENTRY       D01213                      Drug
+NAME        Tolvaptan (JAN/USAN/INN);
+            Samsca (TN)
+PRODUCT     JYNARQUE (Otsuka America Pharmaceutical)
+            SAMSCA (Otsuka America Pharmaceutical)
+  GENERIC   TOLVAPTAN (Apotex Corp.)
+            TOLVAPTAN (Apotex Corp.)
+            TOLVAPTAN (Ascend Laboratories)
+            TOLVAPTAN (Camber Pharmaceuticals)
+            TOLVAPTAN (Novadoz Pharmaceuticals LLC)
+            TOLVAPTAN (Par Pharmaceutical)
+FORMULA     C26H25ClN2O3
+EXACT_MASS  448.1554
+MOL_WEIGHT  448.9413
+CLASS       Cardiovascular agent
+             DG01506  Arginine vasopressin receptor 2 (AVPR2) antagonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      Therapeutic category: 2139 2499
+            ATC code: C03XA01
+            Chemical structure group: DG03074
+            Product (DG03074): D01213<JP/US> D11659<JP>
+EFFICACY    Diuretic, Vasopressin V2 receptor antagonist
+COMMENT     Treatment of congestive heart failure and hyponatremia
+TARGET      AVPR2 [HSA:554] [KO:K04228]
+  PATHWAY   hsa04080(554)  Neuroactive ligand-receptor interaction
+            hsa04962(554)  Vasopressin-regulated water reabsorption
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03X OTHER DIURETICS
+                C03XA Vasopressin antagonists
+                 C03XA01 Tolvaptan
+                  D01213  Tolvaptan (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Electrolytes/Minerals/Metals/Vitamins
+              Electrolyte/Mineral/Metal Modifiers
+               Tolvaptan
+                D01213  Tolvaptan (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               213  Diuretics
+                2139  Others
+                 D01213  Tolvaptan (JAN/USAN/INN)
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D01213  Tolvaptan (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01506  Arginine vasopressin receptor 2 (AVPR2) antagonist
+               DG03074  Tolvaptan
+                D01213  Tolvaptan
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01213  Tolvaptan
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D01213  Tolvaptan
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D01213  Tolvaptan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Vasopressin
+                AVPR2
+                 D01213  Tolvaptan (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01213
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01213
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01213
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01213
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01213
+             Drug transporters
+              D01213
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01506  Arginine vasopressin receptor 2 (AVPR2) antagonist
+               DG03074  Tolvaptan
+DBLINKS     CAS: 150683-30-0
+            PubChem: 7848276
+            ChEBI: 32246
+            LigandBox: D01213
+ATOM        32
+            1   C1x C    11.2700   -8.8200
+            2   C1x C    10.4300   -7.7000
+            3   C1x C    10.7800   -6.3700
+            4   C1y C    12.0400   -5.8100
+            5   N1y N    12.6700   -8.8200
+            6   C8y C    13.3000   -6.4400
+            7   C8y C    13.5800   -7.7700
+            8   C8x C    14.9100   -8.1900
+            9   C8x C    15.9600   -7.2800
+            10  C8y C    15.6800   -5.8800
+            11  C8x C    14.3500   -5.4600
+            12  O1a O    12.0400   -4.4100
+            13  X   Cl   16.7222   -4.9452
+            14  O5a O    12.6700  -11.2449
+            15  C5a C    13.3700  -10.0324
+            16  C8y C    14.7698  -10.0324
+            17  C8y C    15.4603  -11.2280
+            18  C8x C    16.8603  -11.2278
+            19  C8y C    17.5601  -10.0153
+            20  C8x C    16.8697   -8.8198
+            21  C8x C    15.4697   -8.8199
+            22  C1a C    14.7749  -12.4152
+            23  N1b N    18.9700  -10.0152
+            24  C5a C    19.6721   -8.7988
+            25  C8y C    21.0698   -8.7987
+            26  O5a O    18.9805   -7.6015
+            27  C8y C    21.7793  -10.0270
+            28  C8x C    23.1793  -10.0268
+            29  C8x C    23.8791   -8.8142
+            30  C8x C    23.1696   -7.5859
+            31  C8x C    21.7696   -7.5861
+            32  C1a C    21.0845  -11.2307
+BOND        35
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    6  11 2
+            13    4  12 1 #Up
+            14   10  13 1
+            15   14  15 2
+            16    5  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   16  21 1
+            24   17  22 1
+            25   19  23 1
+            26   23  24 1
+            27   24  25 1
+            28   24  26 2
+            29   25  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   25  31 1
+            35   27  32 1
+///

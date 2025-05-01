@@ -1,0 +1,98 @@
+ENTRY       D07634                      Drug
+NAME        Cefalonium (BAN);
+            Cepravin dry cow (TN)
+FORMULA     C20H18N4O5S2
+EXACT_MASS  458.0719
+MOL_WEIGHT  458.5107
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+EFFICACY    Antibacterial (veterinary), Cell wall biosynthesis inhibitor
+COMMENT     beta-Lactams, cephalosporins
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 D07634  Cefalonium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D07634  Cefalonium (BAN)
+DBLINKS     CAS: 5575-21-3
+            PubChem: 51091938
+            LigandBox: D07634
+            NIKKAJI: J10.564C
+ATOM        31
+            1   C1y C    24.2200  -17.3600
+            2   C5x C    24.2200  -18.7600
+            3   N1y N    25.6200  -18.7600
+            4   C1y C    25.6200  -17.3600
+            5   C2y C    26.8100  -19.4600
+            6   C2y C    28.0700  -18.7600
+            7   C1x C    28.0700  -17.3600
+            8   S2x S    26.8100  -16.6600
+            9   C6a C    26.8100  -20.8600
+            10  O6a O    25.6200  -21.5600
+            11  O6a O    28.0000  -21.5600 #-
+            12  C1b C    29.2600  -19.4600
+            13  N5y N    30.5200  -18.7600 #+
+            14  C8x C    31.7100  -19.4600
+            15  C8x C    32.9000  -18.7600
+            16  C8y C    32.9000  -17.3600
+            17  C8x C    31.7100  -16.6600
+            18  C8x C    30.5200  -17.3600
+            19  C5a C    34.1600  -16.6600
+            20  O5a O    35.3500  -17.3600
+            21  N1a N    34.1600  -15.2600
+            22  O5x O    23.2400  -19.7400
+            23  N1b N    23.0300  -16.6600
+            24  C5a C    21.8400  -17.3600
+            25  C1b C    20.6219  -16.6699
+            26  C8y C    19.4405  -17.3650
+            27  O5a O    21.8514  -18.7600
+            28  S2x S    18.3219  -16.5447
+            29  C8x C    17.2004  -17.3557
+            30  C8x C    17.6252  -18.6729
+            31  C8x C    19.0093  -18.6760
+BOND        34
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 2
+            7     6   7 1
+            8     7   8 1
+            9     4   8 1
+            10    5   9 1
+            11    9  10 2
+            12    9  11 1
+            13    6  12 1
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   13  18 1
+            21   16  19 1
+            22   19  20 2
+            23   19  21 1
+            24    2  22 2
+            25    1  23 1 #Up
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   24  27 2
+            30   26  28 1
+            31   28  29 1
+            32   29  30 2
+            33   30  31 1
+            34   26  31 2
+///

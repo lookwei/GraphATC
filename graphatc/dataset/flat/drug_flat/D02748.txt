@@ -1,0 +1,103 @@
+ENTRY       D02748                      Drug
+NAME        Peginterferon alfa-2b (USAN/INN);
+            Peginterferon alfa-2b (genetical recombination) (JAN);
+            Pegintron (TN);
+            Sylatron (TN)
+FORMULA     C2H3O2R(C2H4O)n
+SEQUENCE    CDLPQTHSLG SRRTLMLLAQ MRRISLFSCL KDRHDFGFPQ EEFGNQFQKA ETIPVLHEMI
+            QQIFNLFSTK DSSAAWDETL LDKFYTELYQ QLNDLEACVI QGVGVTETPL MKEDSILAVR
+            KYFQRITLYL KEKKYSPCAW EVVRAEIMRS FSLSTNLQES LRSKE
+            (Disulfide bridge: 1-98, 29-138; Pegylation site: 1, 31, 121, 134)
+  TYPE      Peptide
+CLASS       Immunological agent
+             DG01752  Interferone
+            Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      ATC code: L03AB10
+EFFICACY    Antiviral, Biological response modifier
+  DISEASE   Melanoma [DS:H00038]
+            Chronic Hepatitis C [DS:H00413]
+COMMENT     R: Interferon alfa-2b [DR:D02745]
+TARGET      IFNAR1 [HSA:3454] [KO:K05130]
+            IFNAR2 [HSA:3455] [KO:K05131]
+  PATHWAY   hsa04060(3454+3455)  Cytokine-cytokine receptor interaction
+            hsa04620(3454+3455)  Toll-like receptor signaling pathway
+            hsa04630(3454+3455)  JAK-STAT signaling pathway
+            hsa04650(3454+3455)  Natural killer cell mediated cytotoxicity
+            hsa05160(3454+3455)  Hepatitis C
+            hsa05200(3454+3455)  Pathways in cancer
+INTERACTION CYP inhibition: CYP1A2 [HSA:1544], CYP2D6 [HSA:1565]
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L03 IMMUNOSTIMULANTS
+               L03A IMMUNOSTIMULANTS
+                L03AB Interferons
+                 L03AB10 Peginterferon alfa-2b
+                  D02748  Peginterferon alfa-2b (USAN/INN)
+            USP drug classification [BR:br08302]
+             Immunological Agents
+              Immunostimulants
+               Interferons
+                Peginterferon Alfa 2b
+                 D02748  Peginterferon alfa-2b (USAN/INN)
+            Drug groups [BR:br08330]
+             Immunological agent
+              DG01752  Interferone
+               D02748  Peginterferon alfa-2b
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               D02748  Peginterferon alfa-2b
+              DG01645  CYP2D6 inhibitor
+               D02748  Peginterferon alfa-2b
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Interferon receptors
+                IFNAR1
+                 D02748  Peginterferon alfa-2b (USAN/INN)
+                IFNAR2
+                 D02748  Peginterferon alfa-2b (USAN/INN)
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               Interferon
+                D02748  Peginterferon alfa-2b (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D02748
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D02748
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02748
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D02748
+DBLINKS     CAS: 215647-85-1
+            PubChem: 47205820
+ATOM        8
+            1   C7a C    23.8000  -25.4800
+            2   R   R    25.0124  -26.1800
+            3   O7a O    22.5876  -26.1800
+            4   O6a O    23.8000  -24.0800
+            5   C1b C    21.3921  -25.4896
+            6   C1b C    20.2047  -26.1751
+            7   O2a O    19.0135  -25.4871
+            8   C1a C    17.8240  -26.1738
+BOND        7
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     3   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+BRACKET     1    18.6900  -27.1600   18.6900  -25.0600
+            1    21.5600  -25.0600   21.5600  -27.1600
+            1  n
+  ORIGINAL  1    5   6   7
+  REPEAT    1 
+///

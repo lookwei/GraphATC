@@ -1,0 +1,93 @@
+ENTRY       D05640                      Drug
+NAME        Prorenoate potassium (USAN/INN)
+FORMULA     C23H31O4. K
+EXACT_MASS  410.1859
+MOL_WEIGHT  410.5881
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01676  Aldosterone antagonist
+             DG01885  Potassium-sparing diuretic
+EFFICACY    Diuretic, Aldosterone antagonist
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01676  Aldosterone antagonist
+                D05640  Prorenoate potassium
+              DG01885  Potassium-sparing diuretic
+               D05640  Prorenoate potassium
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D05640  Prorenoate potassium (USAN/INN)
+DBLINKS     CAS: 49847-97-4
+            PubChem: 47207302
+            LigandBox: D05640
+            NIKKAJI: J37.272B
+ATOM        28
+            1   C1y C    26.5300  -19.5300
+            2   C1y C    25.4800  -18.9000
+            3   C1y C    27.7200  -18.9000
+            4   C1y C    26.5300  -20.9300
+            5   C1z C    24.2200  -19.5300
+            6   C1x C    25.4800  -17.5700
+            7   C1z C    27.7200  -17.5700
+            8   C1x C    30.0300  -18.9000
+            9   C1y C    25.4100  -21.5600
+            10  C2y C    24.2200  -20.8600
+            11  C1x C    23.1000  -18.9000
+            12  C1a C    24.2200  -18.2700
+            13  C1x C    26.6000  -16.8700
+            14  C1z C    28.9100  -16.8700
+            15  C1x C    30.0300  -17.5700
+            16  C2x C    23.1000  -21.5600
+            17  C1x C    21.9100  -19.5300
+            18  C1b C    30.0300  -16.1700
+            19  O1a O    28.9100  -15.2600
+            20  C5x C    21.9100  -20.8600
+            21  O5x O    20.7200  -21.5600
+            22  C1a C    27.7200  -16.1700
+            23  C1b C    31.2662  -16.8271
+            24  C6a C    32.4828  -16.0671
+            25  O6a O    33.7302  -16.7301 #-
+            26  O6a O    32.5050  -14.7007
+            27  C1x C    26.5300  -22.3300
+            28  Z   K    35.5600  -16.8000 #+
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     5  10 1
+            9     5  11 1
+            10    5  12 1 #Up
+            11    6  13 1
+            12    7  14 1
+            13    8  15 1
+            14   10  16 2
+            15   11  17 1
+            16   14  18 1 #Down
+            17   14  19 1 #Up
+            18   16  20 1
+            19   20  21 2
+            20    7  13 1
+            21   14  15 1
+            22   17  20 1
+            23    7  22 1 #Up
+            24    9   4 1
+            25   10   9 1
+            26   18  23 1
+            27   23  24 1
+            28   24  25 1
+            29   24  26 2
+            30    4  27 1
+            31    9  27 1
+///

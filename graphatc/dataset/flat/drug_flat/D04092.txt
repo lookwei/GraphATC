@@ -1,0 +1,71 @@
+ENTRY       D04092                      Drug
+NAME        Etryptamine acetate (USAN)
+FORMULA     C12H16N2. C2H4O2
+EXACT_MASS  248.1525
+MOL_WEIGHT  248.3208
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+EFFICACY    Stimulant (central), Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                D04092  Etryptamine acetate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D04092  Etryptamine acetate (USAN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D04092
+DBLINKS     CAS: 118-68-3
+            PubChem: 17398024
+            LigandBox: D04092
+            NIKKAJI: J300.492I
+ATOM        18
+            1   C8y C    26.7946  -14.0443
+            2   C8y C    28.1277  -14.5354
+            3   C8y C    26.7946  -12.6410
+            4   C8x C    25.6018  -14.7459
+            5   C8x C    28.9697  -13.4128
+            6   N4x N    28.1979  -12.2200
+            7   C8x C    25.6018  -11.9394
+            8   C8x C    24.4090  -14.0443
+            9   C8x C    24.4090  -12.6410
+            10  C1b C    28.1277  -15.9354
+            11  C1c C    29.3600  -16.6467
+            12  C1b C    30.5440  -15.9627
+            13  C1a C    31.7373  -16.6515
+            14  N1a N    29.3606  -18.0597
+            15  C6a C    34.4483  -13.4884
+            16  O6a O    35.6635  -14.1900
+            17  C1a C    33.2331  -14.1900
+            18  O6a O    34.4483  -12.0851
+BOND        18
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     7   9 2
+            9     5   6 1
+            10    8   9 1
+            11    2  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   11  14 1
+            16   15  16 1
+            17   15  17 1
+            18   15  18 2
+///

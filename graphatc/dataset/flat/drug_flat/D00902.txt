@@ -1,0 +1,118 @@
+ENTRY       D00902                      Drug
+NAME        Zanamivir (USP/INN);
+            Relenza (TN)
+PRODUCT     RELENZA (GlaxoSmithKline LLC)
+FORMULA     C12H20N4O7
+EXACT_MASS  332.1332
+MOL_WEIGHT  332.3098
+CLASS       Antiviral
+             DG03029  Anti-influenza virus agent
+              DG02842  Neuraminidase inhibitor
+REMARK      Same as: C08095
+            ATC code: J05AH01
+            Chemical structure group: DG00664
+            Product (DG00664): D00902<US> D01937<JP>
+EFFICACY    Antiviral, Neuraminidase inhibitor
+  DISEASE   Influenza [DS:H00398]
+TARGET      Influenza A/B virus neuraminidase [KO:K19392]
+  PATHWAY   ko03230(K19392)  Viral genome structure
+            ko05164(K19392)  Influenza A
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AH Neuraminidase inhibitors
+                 J05AH01 Zanamivir
+                  D00902  Zanamivir (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-influenza Agents
+               Zanamivir
+                D00902  Zanamivir (USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02842  Neuraminidase inhibitor
+                DG00664  Zanamivir
+                 D00902  Zanamivir
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               D00902  Zanamivir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Virus release inhibitor
+               Neuraminidase inhibitor
+                D00902  Zanamivir (USP/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D00902
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D00902
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02842  Neuraminidase inhibitor
+                DG00664  Zanamivir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Virus release inhibitor
+               Neuraminidase inhibitor
+                DG00664  Zanamivir
+DBLINKS     CAS: 139110-80-8
+            PubChem: 7847966
+            ChEBI: 50663
+            PDB-CCD: ZMR
+            LigandBox: D00902
+            NIKKAJI: J621.505J J680.760G
+ATOM        23
+            1   C2x C    23.0207  -17.2968
+            2   C1y C    23.0207  -18.6980
+            3   C1y C    24.2381  -19.4020
+            4   C1y C    25.4412  -18.6980
+            5   O2x O    25.4412  -17.2968
+            6   C2y C    24.2381  -16.5997
+            7   N1b N    21.8098  -19.4020
+            8   C2c C    20.5986  -18.6980
+            9   N1a N    19.3875  -19.4020
+            10  N2a N    20.5986  -17.2968
+            11  C6a C    24.2397  -15.1985
+            12  O6a O    25.4480  -14.4960
+            13  O6a O    23.0261  -14.4930
+            14  N1b N    24.2397  -21.2232
+            15  C5a C    23.0261  -21.9218
+            16  C1a C    23.0280  -23.3230
+            17  C1c C    26.6469  -19.3949
+            18  C1c C    27.8579  -18.6909
+            19  C1b C    29.0690  -19.3878
+            20  O1a O    30.2801  -18.6838
+            21  O1a O    27.8548  -17.2897
+            22  O1a O    26.6486  -20.7961
+            23  O5a O    21.8111  -21.2262
+BOND        23
+            1    11  12 1
+            2     5   6 1
+            3    11  13 2
+            4     6   1 2
+            5     3  14 1 #Down
+            6    14  15 1
+            7     2   7 1 #Up
+            8    15  16 1
+            9     7   8 1
+            10    4  17 1
+            11    1   2 1
+            12   17  18 1
+            13    8   9 1
+            14   18  19 1
+            15    2   3 1
+            16   19  20 1
+            17    8  10 2
+            18   18  21 1 #Down
+            19    3   4 1
+            20   17  22 1 #Up
+            21    6  11 1
+            22   15  23 2
+            23    4   5 1
+///

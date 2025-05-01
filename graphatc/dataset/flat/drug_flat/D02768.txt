@@ -1,0 +1,82 @@
+ENTRY       D02768                      Drug
+NAME        Adefovir (USAN/INN)
+FORMULA     C8H12N5O4P
+EXACT_MASS  273.0627
+MOL_WEIGHT  273.1857
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+REMARK      Same as: C11277
+            Chemical structure group: DG01224
+            Product (DG01224): D01655<US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HBV reverse transcriptase [KO:K21037]
+  PATHWAY   ko03230(K21037)  Viral genome structure
+            ko03240(K21037)  Viral replication
+            ko05161(K21037)  Hepatitis B
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               DG01224  Adefovir
+                D02768  Adefovir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D02768  Adefovir (USAN/INN)
+            Prodrugs [br08324.html]
+             D02768
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               DG01224  Adefovir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                DG01224  Adefovir
+DBLINKS     CAS: 106941-25-7
+            PubChem: 17396926
+            ChEBI: 2469
+            PDB-CCD: 5HG
+            LigandBox: D02768
+            NIKKAJI: J291.907I
+ATOM        18
+            1   C8y C    30.5268  -18.7216
+            2   C8y C    30.5268  -17.2550
+            3   N4y N    29.1998  -19.1407
+            4   N5x N    31.7839  -19.3502
+            5   N5x N    29.1998  -16.8359
+            6   C8y C    31.7839  -16.6263
+            7   C8x C    28.3617  -18.0232
+            8   C8x C    32.9713  -18.7216
+            9   N5x N    32.9713  -17.2550
+            10  N1a N    31.7839  -15.2295
+            11  C1b C    29.1998  -20.5407
+            12  C1b C    27.9935  -21.2370
+            13  O2a O    26.7745  -20.5331
+            14  C1b C    25.5469  -21.2424
+            15  P1b P    24.3227  -20.5365
+            16  O1c O    23.1102  -19.8365
+            17  O1c O    23.6264  -21.7427
+            18  O1c O    25.0255  -19.3188
+BOND        19
+            1     2   5 1
+            2     2   6 1
+            3     3   7 1
+            4     4   8 2
+            5     6   9 2
+            6     5   7 2
+            7     8   9 1
+            8     1   2 2
+            9     1   3 1
+            10    1   4 1
+            11    6  10 1
+            12    3  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   15  17 1
+            19   15  18 2
+///

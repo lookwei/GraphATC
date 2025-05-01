@@ -1,0 +1,123 @@
+ENTRY       D02572                      Drug
+NAME        Viloxazine hydrochloride (USAN);
+            Qelbree (TN);
+            Vivalan (TN)
+PRODUCT     QELBREE (Supernus Pharmaceuticals)
+FORMULA     C13H19NO3. HCl
+EXACT_MASS  273.1132
+MOL_WEIGHT  273.7558
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG02924  UGT substrate
+              DG03188  UGT1A9 substrate
+              DG03187  UGT2B15 substrate
+REMARK      ATC code: N06AX09
+            Chemical structure group: DG00956
+            Product (DG00956): D02572<US>
+EFFICACY    Antidepressant, Selective noradrenaline reuptake inhibitor (NRI)
+  DISEASE   Attention deficit hyperactivity disorder [DS:H01895]
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530)  Synaptic vesicle cycle
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], UGT1A9 [HSA:54600], UGT2B15 [HSA:7366]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX09 Viloxazine
+                  D02572  Viloxazine hydrochloride (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Central Nervous System Agents
+              Attention Deficit Hyperactivity Disorder Agents, Non-amphetamines
+               Viloxazine
+                D02572  Viloxazine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00956  Viloxazine
+                D02572  Viloxazine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00956  Viloxazine
+                D02572  Viloxazine hydrochloride
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                DG00956  Viloxazine
+                 D02572  Viloxazine hydrochloride
+               DG03187  UGT2B15 substrate
+                DG00956  Viloxazine
+                 D02572  Viloxazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D02572  Viloxazine hydrochloride (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D02572
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D02572
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02572
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00956  Viloxazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00956  Viloxazine
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                DG00956  Viloxazine
+               DG03187  UGT2B15 substrate
+                DG00956  Viloxazine
+DBLINKS     CAS: 35604-67-2
+            PubChem: 17396743
+            LigandBox: D02572
+            NIKKAJI: J262.760D
+ATOM        18
+            1   C8x C    12.6000  -17.0800
+            2   C8x C    12.6000  -15.6800
+            3   C8x C    13.7900  -14.9800
+            4   C8y C    15.0500  -15.6800
+            5   C8y C    15.0500  -17.0800
+            6   C8x C    13.7900  -17.7800
+            7   O2a O    16.2400  -17.7800
+            8   C1b C    17.5000  -17.0800
+            9   C1y C    18.6900  -17.7800
+            10  O2a O    16.2400  -14.9800
+            11  C1b C    17.5000  -15.6800
+            12  C1a C    18.6900  -14.9800
+            13  O2x O    19.8800  -17.0800
+            14  C1x C    21.1400  -17.7800
+            15  C1x C    21.1400  -19.1800
+            16  N1x N    19.8800  -19.8800
+            17  C1x C    18.6900  -19.1800
+            18  X   Cl   24.7800  -16.6600
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    4  10 1
+            11   10  11 1
+            12   11  12 1
+            13    9  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18    9  17 1
+///

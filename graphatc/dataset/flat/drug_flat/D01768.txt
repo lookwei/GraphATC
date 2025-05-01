@@ -1,0 +1,136 @@
+ENTRY       D01768                      Drug
+NAME        Benoxinate hydrochloride (USP);
+            Oxybuprocaine hydrochloride (JP18);
+            Benoxil (TN)
+FORMULA     C17H28N2O3. HCl
+EXACT_MASS  344.1867
+MOL_WEIGHT  344.8768
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+REMARK      Therapeutic category: 1313
+            ATC code: D04AB03 S01HA02
+            Chemical structure group: DG00392
+            Product (DG00392): D01768<JP>
+            Product (mixture): D11645<US>
+EFFICACY    Anesthetic (topical)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07015  Local analgesics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AB Anesthetics for topical use
+                 D04AB03 Oxybuprocaine
+                  D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01H LOCAL ANESTHETICS
+                S01HA Local anesthetics
+                 S01HA02 Oxybuprocaine
+                  D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1313  Ophthalmic local anesthetics
+                 D01768  Benoxinate hydrochloride (USP); Oxybuprocaine hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG00392  Oxybuprocaine
+                 D01768  Benoxinate hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN2A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN3A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN4A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN5A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN8A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN9A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN10A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+                SCN11A
+                 D01768  Benoxinate hydrochloride (USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01768  Oxybuprocaine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG00392  Oxybuprocaine
+DBLINKS     CAS: 5987-82-6
+            PubChem: 7848831
+            ChEBI: 31260
+            LigandBox: D01768
+            NIKKAJI: J231.218B
+ATOM        23
+            1   C8y C    29.6264  -16.7756
+            2   C8y C    29.6264  -15.3737
+            3   C8x C    30.8434  -14.6727
+            4   C8x C    32.0533  -15.3737
+            5   C8y C    32.0533  -16.7756
+            6   C8x C    30.8434  -17.4765
+            7   C7a C    33.2586  -17.4765
+            8   O7a O    34.4693  -16.7756
+            9   C1b C    35.6801  -17.4765
+            10  C1b C    36.8908  -16.7756
+            11  N1c N    38.1015  -17.4765
+            12  C1b C    39.3123  -16.7756
+            13  C1a C    40.5230  -17.4765
+            14  O6a O    33.2572  -18.8784
+            15  C1b C    38.1015  -18.8784
+            16  C1a C    39.3157  -19.5794
+            17  N1a N    28.4126  -14.6720
+            18  O2a O    28.4126  -17.4770
+            19  C1b C    27.1978  -16.7825
+            20  C1b C    25.9870  -17.4835
+            21  C1b C    24.7763  -16.7897
+            22  C1a C    23.5656  -17.4906
+            23  X   Cl   40.0158  -14.7191
+BOND        22
+            1    10  11 1
+            2     4   5 1
+            3    11  12 1
+            4     5   6 2
+            5    12  13 1
+            6     6   1 1
+            7     7  14 2
+            8    11  15 1
+            9     5   7 1
+            10   15  16 1
+            11    2  17 1
+            12    7   8 1
+            13    1  18 1
+            14    1   2 2
+            15   18  19 1
+            16    8   9 1
+            17   19  20 1
+            18    2   3 1
+            19   20  21 1
+            20    9  10 1
+            21   21  22 1
+            22    3   4 2
+///

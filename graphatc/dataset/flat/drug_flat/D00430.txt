@@ -1,0 +1,92 @@
+ENTRY       D00430                      Drug
+NAME        Secobarbital (USP/INN);
+            Seconal (TN)
+FORMULA     C12H18N2O3
+EXACT_MASS  238.1317
+MOL_WEIGHT  238.2829
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+REMARK      ATC code: N05CA06
+            Chemical structure group: DG00917
+            Product (DG00917): D01310<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA06 Secobarbital
+                  D00430  Secobarbital (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00917  Secobarbital
+                D00430  Secobarbital
+              DG01567  GABA-A receptor agonist
+               DG00917  Secobarbital
+                D00430  Secobarbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00430  Secobarbital (USP/INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00430
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00917  Secobarbital
+              DG01567  GABA-A receptor agonist
+               DG00917  Secobarbital
+DBLINKS     CAS: 76-73-3
+            PubChem: 7847496
+            ChEBI: 9073
+            LigandBox: D00430
+            NIKKAJI: J4.551I
+ATOM        17
+            1   C1z C    25.4856  -18.1010
+            2   C5x C    25.4856  -19.5018
+            3   C5x C    24.2717  -17.4006
+            4   C1c C    26.8747  -18.1010
+            5   C1b C    25.4799  -16.7060
+            6   N1x N    24.2717  -20.2079
+            7   O5x O    26.6997  -20.2079
+            8   N1x N    23.0519  -18.1010
+            9   O5x O    24.2717  -15.9998
+            10  C1b C    27.5634  -16.8928
+            11  C1a C    27.5751  -19.3149
+            12  C2b C    26.6938  -16.0056
+            13  C5x C    23.0519  -19.5018
+            14  C1b C    28.9642  -16.8928
+            15  C2a C    26.6938  -14.6108
+            16  O5x O    21.8380  -20.2079
+            17  C1a C    29.6587  -15.6847
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13   10  14 1
+            14   12  15 2
+            15   13  16 2
+            16   14  17 1
+            17    8  13 1
+///

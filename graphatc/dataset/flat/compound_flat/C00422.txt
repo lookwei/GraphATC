@@ -1,0 +1,63 @@
+ENTRY       C00422                      Compound
+NAME        Triacylglycerol;
+            Triglyceride
+FORMULA     C6H5O6R3
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01350 R01369 R02250 R02251 R02694 R04055 R05333
+PATHWAY     map00561  Glycerolipid metabolism
+            map01100  Metabolic pathways
+            map04714  Thermogenesis
+            map04923  Regulation of lipolysis in adipocytes
+            map04931  Insulin resistance
+            map04975  Fat digestion and absorption
+            map04977  Vitamin digestion and absorption
+            map04979  Cholesterol metabolism
+            map05417  Lipid and atherosclerosis
+MODULE      M00089  Triacylglycerol biosynthesis
+            M00098  Acylglycerol degradation
+ENZYME      2.3.1.20        2.3.1.77        2.3.1.158       3.1.1.3         
+            3.1.1.34        3.1.1.79
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Fats
+               Acylglycerols
+                C00422  Triacylglycerol
+            Lipids [BR:br08002]
+             GL  Glycerolipids
+              GL03 Triradylglycerols
+               GL0301 Triacylglycerols
+                C00422  Triacyl-sn-glycerol
+DBLINKS     PubChem: 3712
+            ChEBI: 17855
+ATOM        15
+            1   C1c C    25.4742  -16.5259
+            2   C1b C    25.4684  -15.0908
+            3   C1b C    25.4684  -17.9550
+            4   O7a O    24.0450  -16.5200
+            5   O7a O    26.8975  -15.0908
+            6   O7a O    26.8975  -17.9550
+            7   C7a C    23.0300  -16.5259
+            8   C7a C    28.3383  -15.0908
+            9   C7a C    28.3383  -17.9550
+            10  O6a O    23.0358  -15.1316
+            11  R   R    21.5950  -16.5259
+            12  O6a O    28.3326  -13.6558
+            13  R   R    29.7675  -15.0908
+            14  O6a O    28.3326  -16.5259
+            15  R   R    29.7675  -17.9550
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   9 1
+            9     7  10 2
+            10    7  11 1
+            11    8  12 2
+            12    8  13 1
+            13    9  14 2
+            14    9  15 1
+///

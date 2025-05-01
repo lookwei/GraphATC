@@ -1,0 +1,77 @@
+ENTRY       D03642                      Drug
+NAME        Daltroban (USAN/INN)
+FORMULA     C16H16ClNO4S
+EXACT_MASS  353.0489
+MOL_WEIGHT  353.8205
+CLASS       Anti-allergic agent
+             DG01517  Thromboxane A2 receptor antagonist
+EFFICACY    Immunosuppressant, Thromboxane A2 (TXA2) receptor antagonist
+TARGET      TBXA2R [HSA:6915] [KO:K04264]
+  PATHWAY   hsa04080(6915)  Neuroactive ligand-receptor interaction
+            hsa04611(6915)  Platelet activation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01517  Thromboxane A2 receptor antagonist
+               D03642  Daltroban
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thromboxane
+                TBXA2R
+                 D03642  Daltroban (USAN/INN)
+DBLINKS     CAS: 79094-20-5
+            PubChem: 47205878
+            PDB-CCD: A90
+            LigandBox: D03642
+            NIKKAJI: J153.943D
+ATOM        23
+            1   C8x C     9.0300  -20.2300
+            2   C8y C     9.0300  -21.6300
+            3   C8x C    10.2424  -22.3300
+            4   C8x C    11.4549  -21.6300
+            5   C8y C    11.4549  -20.2300
+            6   C8x C    10.2424  -19.5300
+            7   X   Cl    7.8176  -22.3300
+            8   S4a S    12.6860  -19.5190
+            9   N1b N    13.8912  -20.2147
+            10  C1b C    15.0735  -19.5319
+            11  C1b C    16.2675  -20.2212
+            12  C8y C    17.4554  -19.5352
+            13  C8x C    18.6465  -20.2229
+            14  C8x C    19.8590  -19.5229
+            15  C8y C    19.8590  -18.1229
+            16  C8x C    18.6679  -17.4352
+            17  C8x C    17.4555  -18.1352
+            18  C1b C    21.0840  -17.4155
+            19  C6a C    22.2921  -18.1130
+            20  O6a O    23.4730  -17.4310
+            21  O6a O    22.2926  -19.5296
+            22  O3c O    11.9860  -18.3065
+            23  O3c O    13.3860  -18.3065
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19   15  18 1
+            20   18  19 1
+            21   19  20 1
+            22   19  21 2
+            23    8  22 2
+            24    8  23 2
+///

@@ -1,0 +1,152 @@
+ENTRY       D01390                      Drug
+NAME        Isoproterenol hydrochloride (USP);
+            dl-Isoprenaline hydrochloride (JAN);
+            Isuprel (TN);
+            Proternol-S (TN)
+PRODUCT
+  GENERIC   ISOPROTERENOL (Cipla USA)
+            ISOPROTERENOL HYDROCHLORIDE (Amneal Pharmaceuticals LLC)
+            ISOPROTERENOL HYDROCHLORIDE (Amphastar Pharmaceuticals)
+            ISOPROTERENOL HYDROCHLORIDE (Amring Pharmaceuticals)
+            ISOPROTERENOL HYDROCHLORIDE (Armas Pharmaceuticals)
+            ISOPROTERENOL HYDROCHLORIDE (Athenex Pharmaceutical Division)
+            ISOPROTERENOL HYDROCHLORIDE (AuroMedics Pharma LLC)
+            ISOPROTERENOL HYDROCHLORIDE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            ISOPROTERENOL HYDROCHLORIDE (KVK-Tech)
+            ISOPROTERENOL HYDROCHLORIDE (Micro Labs Limited)
+            ISOPROTERENOL HYDROCHLORIDE (Nexus Pharmaceuticals)
+            ISOPROTERENOL HYDROCHLORIDE (STI Pharma LLC)
+FORMULA     C11H17NO3. HCl
+EXACT_MASS  247.0975
+MOL_WEIGHT  247.7185
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+            Metabolizing enzyme substrate
+             DG01592  COMT substrate
+REMARK      Therapeutic category: 1339 2119 2252
+            ATC code: C01CA02 R03AB02 R03CB01
+            Chemical structure group: DG00211
+            Product (DG00211): D01390<JP/US> D02150<JP>
+EFFICACY    Antivertigo, Cardiotonic, Bronchodilator, beta-Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+METABOLISM  Enzyme: COMT [HSA:1312]
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA02 Isoprenaline
+                  D01390  Isoproterenol hydrochloride (USP) &lt;JP/US&gt;
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AB Non-selective beta-adrenoreceptor agonists
+                 R03AB02 Isoprenaline
+                  D01390  Isoproterenol hydrochloride (USP) &lt;JP/US&gt;
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CB Non-selective beta-adrenoreceptor agonists
+                 R03CB01 Isoprenaline
+                  D01390  Isoproterenol hydrochloride (USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               133  Vertigo agents
+                1339  Others
+                 D01390  Isoproterenol hydrochloride (USP); dl-Isoprenaline hydrochloride (JAN)
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               211  Cardiotonics
+                2119  Others
+                 D01390  Isoproterenol hydrochloride (USP); dl-Isoprenaline hydrochloride (JAN)
+              22  Respiratory organ agents
+               225  Bronchodilators
+                2252  Isoprenalines
+                 D01390  Isoproterenol hydrochloride (USP); dl-Isoprenaline hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00211  Isoprenaline
+                 D01390  Isoproterenol hydrochloride
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG00211  Isoprenaline
+                 D01390  Isoproterenol hydrochloride
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00211  Isoprenaline
+                D01390  Isoproterenol hydrochloride
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00211  Isoprenaline
+                D01390  Isoproterenol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D01390  Isoproterenol hydrochloride (USP) &lt;JP/US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01390
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00211  Isoprenaline
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG00211  Isoprenaline
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00211  Isoprenaline
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00211  Isoprenaline
+DBLINKS     CAS: 51-30-9
+            PubChem: 7848453
+            ChEBI: 31453
+            LigandBox: D01390
+            NIKKAJI: J231.236K
+ATOM        16
+            1   X   Cl   32.4563  -16.2547
+            2   C8y C    22.3615  -15.8607
+            3   C8x C    21.1737  -15.0920
+            4   C8x C    22.3615  -17.2582
+            5   C8y C    19.9159  -15.7908
+            6   C8x C    21.1038  -17.8870
+            7   C8y C    19.9159  -17.1184
+            8   O1a O    18.7280  -15.0222
+            9   O1a O    18.7280  -17.8172
+            10  C1c C    23.6193  -15.1619
+            11  C1b C    24.8072  -15.8607
+            12  N1b N    25.9950  -15.1619
+            13  C1c C    27.2528  -15.8607
+            14  C1a C    28.4407  -15.1619
+            15  O1a O    23.6193  -13.7644
+            16  C1a C    27.2528  -17.2582
+BOND        15
+            1     2   3 1
+            2     2   4 2
+            3     3   5 2
+            4     4   6 1
+            5     5   7 1
+            6     5   8 1
+            7     7   9 1
+            8     6   7 2
+            9     2  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   10  15 1
+            15   13  16 1
+///

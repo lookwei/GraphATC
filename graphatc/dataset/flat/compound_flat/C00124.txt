@@ -1,0 +1,67 @@
+ENTRY       C00124                      Compound
+NAME        D-Galactose;
+            D-Galactopyranose
+FORMULA     C6H12O6
+EXACT_MASS  180.0634
+MOL_WEIGHT  180.1559
+COMMENT     Galactose [CPD:C01582]
+            L-Galactose [CPD:C01825]
+            alpha-D-Galactose [CPD:C00984]
+            beta-D-Galactose [CPD:C00962]
+REACTION    R01093 R01094 R01095 R01096 R01097 R01098 R01099 R01101 
+            R01103 R01104 R01105 R01194 R01329 R01678 R02926 R03355 
+            R03617 R03618 R03634 R04019 R04470 R04633 R05112 R05549 
+            R05961 R05994 R06010 R06070 R06091 R06093 R06094 R06096 
+            R06098 R06099 R06142 R06152 R06202 R07807 R08544 R10619 
+            R10622 R11171 R12979 R13002 R13179
+PATHWAY     map00052  Galactose metabolism
+            map01100  Metabolic pathways
+            map02030  Bacterial chemotaxis
+            map02060  Phosphotransferase system (PTS)
+            map04973  Carbohydrate digestion and absorption
+            map04978  Mineral absorption
+MODULE      M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+NETWORK     nt06023  Galactose degradation
+ENZYME      1.1.1.21        1.1.1.48        1.1.1.120       1.1.1.121       
+            1.1.1.359       1.1.1.360       1.1.3.9         2.4.1.388       
+            2.4.1.389       2.7.1.204       3.1.3.94        3.2.1.22        
+            3.2.1.23        3.2.1.46        3.2.1.108       5.1.3.3
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C00124  D-Galactose
+DBLINKS     CAS: 59-23-4 10257-28-0
+            PubChem: 3424
+            ChEBI: 4139
+            KNApSAcK: C00019681
+            PDB-CCD: GAL GLA
+            3DMET: B04637
+            NIKKAJI: J4.597G
+ATOM        12
+            1   C1y C    20.9181  -13.5272
+            2   C1y C    20.9181  -14.9277
+            3   O2x O    22.1260  -12.8270
+            4   C1b C    19.7043  -12.8270
+            5   C1y C    22.1260  -15.6279
+            6   O1a O    19.7043  -15.6279
+            7   C1y C    23.3455  -13.5272
+            8   O1a O    18.6423  -13.7374
+            9   C1y C    23.3455  -14.9277
+            10  O1a O    22.1260  -17.0283
+            11  O1a O    24.5534  -12.8270
+            12  O1a O    24.5534  -15.6279
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Either
+            11    9  12 1 #Down
+            12    7   9 1
+///

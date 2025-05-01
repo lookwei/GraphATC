@@ -1,0 +1,93 @@
+ENTRY       D07461                      Drug
+NAME        Apraclonidine (INN);
+            Iopidine (TN)
+FORMULA     C9H10Cl2N4
+EXACT_MASS  244.0283
+MOL_WEIGHT  245.1085
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01449  alpha2-Adrenergic receptor agonist
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Same as: C07668
+            ATC code: S01EA03
+            Chemical structure group: DG01130
+            Product (DG01130): D01008<JP/US>
+EFFICACY    Antiglaucoma, Antihypertensive (intraocular), alpha2-Adrenergic receptor agonist
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EA Sympathomimetics in glaucoma therapy
+                 S01EA03 Apraclonidine
+                  D07461  Apraclonidine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG01130  Apraclonidine
+                  D07461  Apraclonidine
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01130  Apraclonidine
+                D07461  Apraclonidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D07461  Apraclonidine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG01130  Apraclonidine
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01130  Apraclonidine
+DBLINKS     CAS: 66711-21-5
+            PubChem: 51091792
+            ChEBI: 2788
+            LigandBox: D07461
+            NIKKAJI: J247.956G
+ATOM        15
+            1   C8x C    18.1300  -16.7300
+            2   C8y C    18.1300  -18.1300
+            3   C8x C    19.3200  -18.8300
+            4   C8y C    20.5800  -18.1300
+            5   C8y C    20.5800  -16.7300
+            6   C8y C    19.3200  -16.0300
+            7   X   Cl   21.7700  -18.8300
+            8   N2x N    22.9600  -18.1300
+            9   C2y C    22.9600  -16.7300
+            10  N1b N    21.7700  -16.0300
+            11  C1x C    24.2900  -18.5500
+            12  C1x C    25.1300  -17.4300
+            13  N1x N    24.2900  -16.3100
+            14  X   Cl   19.3200  -14.6300
+            15  N1a N    16.9400  -18.8300
+BOND        16
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     8   9 2
+            9     9  10 1
+            10    5  10 1
+            11    8  11 1
+            12   11  12 1
+            13   12  13 1
+            14    9  13 1
+            15    6  14 1
+            16    2  15 1
+///

@@ -1,0 +1,71 @@
+ENTRY       D05009                      Drug
+NAME        Metogest (USAN/INN)
+FORMULA     C20H30O2
+EXACT_MASS  302.2246
+MOL_WEIGHT  302.451
+EFFICACY    Menstruation disorder agent, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D05009  Metogest (USAN/INN)
+DBLINKS     CAS: 52279-58-0
+            PubChem: 47206736
+            LigandBox: D05009
+            NIKKAJI: J10.382I
+ATOM        22
+            1   C1x C    22.8911  -19.3218
+            2   C5x C    22.8911  -20.7220
+            3   C2x C    24.1036  -21.4220
+            4   C2y C    25.3163  -20.7220
+            5   C1y C    25.3163  -19.3218
+            6   C1x C    24.1036  -18.6217
+            7   C1x C    26.5288  -21.4220
+            8   C1x C    27.7413  -20.7220
+            9   C1y C    27.7413  -19.3218
+            10  C1y C    26.5288  -18.6217
+            11  C1y C    28.9539  -18.6217
+            12  C1z C    28.9539  -17.2216
+            13  C1x C    27.7413  -16.5215
+            14  C1x C    26.5288  -17.2216
+            15  O5x O    21.6786  -21.4220
+            16  C1a C    28.9539  -15.8214
+            17  C1x C    31.3788  -18.6217
+            18  C1z C    31.3788  -17.2216
+            19  C1y C    30.1664  -16.5216
+            20  O1a O    30.1664  -15.1200
+            21  C1a C    32.5777  -16.5293
+            22  C1a C    32.5764  -17.9131
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18   12  16 1 #Up
+            19   11  17 1
+            20   17  18 1
+            21   18  19 1
+            22   12  19 1
+            23   19  20 1 #Up
+            24   18  21 1
+            25   18  22 1
+///

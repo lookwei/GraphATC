@@ -1,0 +1,161 @@
+ENTRY       D02163                      Drug
+NAME        Fluphenazine maleate (JAN);
+            Flumezin (TN)
+FORMULA     C22H26F3N3OS. C4H4O4
+EXACT_MASS  553.1858
+MOL_WEIGHT  553.5937
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 1172
+            ATC code: N05AB02
+            Chemical structure group: DG00874
+            Product (DG00874): D00791<US> D00793<JP/US> D02163<JP>
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AB Phenothiazines with piperazine structure
+                 N05AB02 Fluphenazine
+                  D02163  Fluphenazine maleate (JAN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              1st Generation/Typical
+               Fluphenazine
+                D02163  Fluphenazine maleate (JAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1172  Phenothiazines
+                 D02163  Fluphenazine maleate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00874  Fluphenazine
+                 D02163  Fluphenazine maleate
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00874  Fluphenazine
+                 D02163  Fluphenazine maleate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00874  Fluphenazine
+                D02163  Fluphenazine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02163  Fluphenazine maleate (JAN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02163
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00874  Fluphenazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00874  Fluphenazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00874  Fluphenazine
+DBLINKS     CAS: 78126-11-1
+            PubChem: 7849224
+            LigandBox: D02163
+ATOM        38
+            1   C8y C    16.7464  -19.7213
+            2   N1y N    17.9613  -19.0204
+            3   C8y C    16.7464  -21.1232
+            4   C8x C    15.5315  -19.0204
+            5   C8y C    19.2230  -19.7213
+            6   C1b C    17.9613  -17.6186
+            7   S2x S    17.9613  -21.7773
+            8   C8x C    15.5315  -21.7773
+            9   C8x C    14.3633  -19.7213
+            10  C8y C    19.2230  -21.0764
+            11  C8x C    20.4380  -19.0204
+            12  C1b C    19.2230  -16.9177
+            13  C8x C    14.3633  -21.0764
+            14  C8x C    20.4380  -21.7773
+            15  C8y C    21.6529  -19.7681
+            16  C1b C    19.2230  -15.4690
+            17  C8x C    21.6529  -21.0764
+            18  N1y N    20.4380  -14.7681
+            19  C1x C    20.4380  -13.4130
+            20  C1x C    21.6062  -15.4690
+            21  C1x C    21.6529  -12.7121
+            22  C1x C    22.8678  -14.7681
+            23  N1y N    22.8678  -13.4130
+            24  C1b C    24.1295  -12.7588
+            25  C1b C    25.3321  -13.4901
+            26  O1a O    26.5577  -12.8192
+            27  C1d C    22.8691  -19.0883
+            28  X   F    24.0800  -18.4100
+            29  X   F    23.5900  -20.3000
+            30  X   F    22.1900  -17.9200
+            31  C2b C    32.7051  -16.3098
+            32  C2b C    31.0687  -16.3098
+            33  C6a C    33.3596  -17.4786
+            34  C6a C    30.4143  -17.4786
+            35  O6a O    32.7051  -18.6475
+            36  O6a O    34.7622  -17.4786
+            37  O6a O    29.0117  -17.4786
+            38  O6a O    31.0687  -18.6475
+BOND        40
+            1    18  19 1
+            2    18  20 1
+            3    19  21 1
+            4    20  22 1
+            5    21  23 1
+            6    23  24 1
+            7     7  10 1
+            8     9  13 1
+            9    15  17 1
+            10   22  23 1
+            11    1   2 1
+            12    1   3 2
+            13    1   4 1
+            14    2   5 1
+            15    2   6 1
+            16    3   7 1
+            17    3   8 1
+            18    4   9 2
+            19    5  10 2
+            20    5  11 1
+            21    6  12 1
+            22    8  13 2
+            23   10  14 1
+            24   11  15 2
+            25   12  16 1
+            26   14  17 2
+            27   16  18 1
+            28   24  25 1
+            29   25  26 1
+            30   15  27 1
+            31   27  28 1
+            32   27  29 1
+            33   27  30 1
+            34   31  32 2
+            35   31  33 1
+            36   32  34 1
+            37   33  35 1
+            38   33  36 2
+            39   34  37 1
+            40   34  38 2
+///

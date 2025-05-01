@@ -1,0 +1,138 @@
+ENTRY       D00551                      Drug
+NAME        Tetracaine (USP/INN);
+            Amethocaine;
+            Amethocaine (TN)
+FORMULA     C15H24N2O2
+EXACT_MASS  264.1838
+MOL_WEIGHT  264.3633
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01674  Esterified local anesthetic
+REMARK      Same as: C07526
+            ATC code: C05AD02 D04AB06 N01BA03 S01HA03
+            Chemical structure group: DG00296
+            Product (DG00296): D00741<JP/US>
+            Product (mixture): D11553<US>
+EFFICACY    Anesthetic (topical)
+COMMENT     Ester-type
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07015  Local analgesics
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C05 VASOPROTECTIVES
+               C05A AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE
+                C05AD Local anesthetics
+                 C05AD02 Tetracaine
+                  D00551  Tetracaine (USP/INN)
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AB Anesthetics for topical use
+                 D04AB06 Tetracaine
+                  D00551  Tetracaine (USP/INN)
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01B ANESTHETICS, LOCAL
+                N01BA Esters of aminobenzoic acid
+                 N01BA03 Tetracaine
+                  D00551  Tetracaine (USP/INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01H LOCAL ANESTHETICS
+                S01HA Local anesthetics
+                 S01HA03 Tetracaine
+                  D00551  Tetracaine (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01674  Esterified local anesthetic
+                 DG00296  Tetracaine
+                  D00551  Tetracaine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D00551  Tetracaine (USP/INN)
+                SCN2A
+                 D00551  Tetracaine (USP/INN)
+                SCN3A
+                 D00551  Tetracaine (USP/INN)
+                SCN4A
+                 D00551  Tetracaine (USP/INN)
+                SCN5A
+                 D00551  Tetracaine (USP/INN)
+                SCN8A
+                 D00551  Tetracaine (USP/INN)
+                SCN9A
+                 D00551  Tetracaine (USP/INN)
+                SCN10A
+                 D00551  Tetracaine (USP/INN)
+                SCN11A
+                 D00551  Tetracaine (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01674  Esterified local anesthetic
+                 DG00296  Tetracaine
+DBLINKS     CAS: 94-24-6
+            PubChem: 7847617
+            ChEBI: 9468
+            PDB-CCD: TE4
+            LigandBox: D00551
+            NIKKAJI: J3.945D
+ATOM        19
+            1   C8y C    25.5212  -17.9670
+            2   C7a C    26.7355  -18.6618
+            3   C8x C    25.5212  -16.5600
+            4   C8x C    24.3067  -18.6677
+            5   O7a O    27.9499  -17.9670
+            6   O6a O    26.7355  -20.0689
+            7   C8x C    24.3067  -15.8535
+            8   C8x C    23.0981  -17.9728
+            9   C1b C    29.1642  -18.6560
+            10  C8y C    23.0923  -16.5600
+            11  C1b C    30.3785  -17.9611
+            12  N1b N    21.8721  -15.8594
+            13  N1c N    31.5930  -18.6501
+            14  C1b C    20.6695  -16.5600
+            15  C1a C    32.7956  -17.9494
+            16  C1a C    31.5930  -20.0513
+            17  C1b C    19.4610  -15.8594
+            18  C1b C    18.2524  -16.5600
+            19  C1a C    17.0497  -15.8594
+BOND        19
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     7  10 1
+            10    9  11 1
+            11   10  12 1
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1
+            16   14  17 1
+            17   17  18 1
+            18   18  19 1
+            19    8  10 2
+///

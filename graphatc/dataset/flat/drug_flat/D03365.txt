@@ -1,0 +1,122 @@
+ENTRY       D03365                      Drug
+NAME        Nicotine (USP);
+            Habitrol (TN)
+PRODUCT     NICOTROL (Pharmacia & Upjohn Company LLC)
+            NICOTROL (Pharmacia & Upjohn Company LLC)
+FORMULA     C10H14N2
+EXACT_MASS  162.1157
+MOL_WEIGHT  162.2316
+CLASS       Metabolizing enzyme substrate
+             DG01638  CYP2A6 substrate
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+REMARK      Same as: C00745
+            Therapeutic category: 7990
+            ATC code: N07BA01
+            Chemical structure group: DG00994
+            Product (DG00994): D03365<JP/US>
+EFFICACY    Smoking cessation adjunct
+TARGET      CHRN [HSA:1134 1135 1136 1137 1138 8973 1139 55584 57053 1140 1141 1142 1143 1144 1145 1146] [KO:K04803 K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04812 K04813 K04814 K04815 K04816 K04817 K04818]
+  PATHWAY   hsa04080(1134+1135+1136+1137+1138+1139+1140+1141+1142+1143+1144+1145+1146+55584+57053+8973)  Neuroactive ligand-receptor interaction
+            hsa04725(1136+1137+1139+1141+1143+8973)  Cholinergic synapse
+            hsa05033(1137+1139+1141+8973)  Nicotine addiction
+METABOLISM  Enzyme: CYP2A6 [HSA:1548]
+INTERACTION CYP induction: CYP1A2 [HSA:1544]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BA Drugs used in nicotine dependence
+                 N07BA01 Nicotine
+                  D03365  Nicotine (USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Anti-Addiction/Substance Abuse Treatment Agents
+              Smoking Cessation Agents
+               Nicotine
+                D03365  Nicotine (USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             7  Agents not mainly for therapeutic purpose
+              79  Other agents not mainly for therapeutic purpose
+               799  Miscellaneous
+                7990  Miscellaneous
+                 D03365  Nicotine (USP)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Stop smoking aid
+              77 Stop smoking aid
+               D03365  Nicotine (USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Nicotine
+                D03365  Nicotine (USP)
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Nicotine
+                D03365  Nicotine (USP)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Nicotine
+                D03365  Nicotine (USP)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG00994  Nicotine
+                D03365  Nicotine
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00994  Nicotine
+                D03365  Nicotine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN
+                 D03365  Nicotine (USP) &lt;JP/US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03365
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D03365
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D03365
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG00994  Nicotine
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00994  Nicotine
+DBLINKS     CAS: 54-11-5
+            PubChem: 17397514
+            ChEBI: 17688
+            PDB-CCD: NCT
+            LigandBox: D03365
+            NIKKAJI: J9.266E
+ATOM        12
+            1   C8x C    29.1341  -17.6496
+            2   C8x C    29.1341  -19.0503
+            3   N5x N    30.3471  -19.7507
+            4   C8x C    31.5602  -19.0503
+            5   C8y C    31.5602  -17.6496
+            6   C8x C    30.3471  -16.9493
+            7   C1y C    32.7920  -16.9383
+            8   C1x C    34.1270  -17.3204
+            9   C1x C    34.9074  -16.1695
+            10  C1x C    34.0540  -15.0718
+            11  N1y N    32.7463  -15.5441
+            12  C1a C    31.5702  -14.7465
+BOND        13
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   5 1 #Up
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    7  11 1
+            13   11  12 1
+///

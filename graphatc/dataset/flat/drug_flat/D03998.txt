@@ -1,0 +1,45 @@
+ENTRY       D03998                      Drug
+NAME        Eniluracil (USAN/INN)
+FORMULA     C6H4N2O2
+EXACT_MASS  136.0273
+MOL_WEIGHT  136.1082
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Uracil [CPD:C00106] analog
+            Ajunct
+TARGET      DPYD [HSA:1806] [KO:K00207]
+  PATHWAY   hsa00983(1806)  Drug metabolism - other enzymes
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                DPYD
+                 D03998  Eniluracil (USAN/INN)
+DBLINKS     CAS: 59989-18-3
+            PubChem: 47205979
+            ChEBI: 177783
+            PDB-CCD: Y3G
+            LigandBox: D03998
+            NIKKAJI: J574.717A
+ATOM        10
+            1   N4x N    16.0300  -17.7800
+            2   C8y C    16.0300  -19.1800
+            3   N4x N    14.8400  -19.8800
+            4   C8x C    13.5800  -19.1800
+            5   C8y C    13.5800  -17.7800
+            6   C8y C    14.8400  -17.0800
+            7   O5x O    14.8400  -15.6800
+            8   O5x O    17.2200  -19.8800
+            9   C3b C    12.3734  -17.0700
+            10  C3a C    11.1609  -16.3700
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     6   7 2
+            8     2   8 2
+            9     5   9 1
+            10    9  10 3
+///

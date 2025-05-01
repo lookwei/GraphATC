@@ -1,0 +1,173 @@
+ENTRY       D00987                      Drug
+NAME        Cabergoline (JP18/USP/INN);
+            Cabaser (TN);
+            Dostinex (TN)
+PRODUCT
+  GENERIC   CABERGOLINE (A-S Medication Solutions)
+            CABERGOLINE (A-S Medication Solutions)
+            CABERGOLINE (Greenstone LLC)
+            CABERGOLINE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            CABERGOLINE (Ingenus Pharmaceuticals)
+            CABERGOLINE (SOLA Pharmaceuticals)
+            CABERGOLINE (Teva Pharmaceuticals USA)
+FORMULA     C26H37N5O2
+EXACT_MASS  451.2947
+MOL_WEIGHT  451.6043
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01964  Ergot alkaloid
+             DG01967  Antiparkinson agent
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C08187
+            Therapeutic category: 1169
+            ATC code: G02CB03 N04BC06
+            Product: D00987<JP/US>
+EFFICACY    Antiparkinsonian, Antidyskinetic, Dopamine D2 receptor agonist, Prolactin inhibitor
+  DISEASE   Hyperprolactinemic [DS:H01388]
+COMMENT     Ergot alkaloid derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            PRL [HSA:5617] [KO:K05439]
+  PATHWAY   hsa04080(1813+5617)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+            hsa04917(5617)  Prolactin signaling pathway
+            hsa05012(1813)  Parkinson disease
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02C OTHER GYNECOLOGICALS
+                G02CB Prolactine inhibitors
+                 G02CB03 Cabergoline
+                  D00987  Cabergoline (JP18/USP/INN) &lt;JP/US&gt;
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BC Dopamine agonists
+                 N04BC06 Cabergoline
+                  D00987  Cabergoline (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Suppressant (Pituitary)
+              Cabergoline
+               D00987  Cabergoline (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               116  Antiparkinsonian agents
+                1169  Others
+                 D00987  Cabergoline (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                D00987  Cabergoline
+              DG01964  Ergot alkaloid
+               D00987  Cabergoline
+              DG01967  Antiparkinson agent
+               D00987  Cabergoline
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00987  Cabergoline
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D00987  Cabergoline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00987  Cabergoline (JP18/USP/INN) &lt;JP/US&gt;
+             Cytokines and receptors
+              Cytokines
+               CSF and other factors
+                PRL
+                 D00987  Cabergoline (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00987  Cabergoline
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00987
+DBLINKS     CAS: 81409-90-7
+            PubChem: 7848050
+            ChEBI: 3286
+            LigandBox: D00987
+            NIKKAJI: J134.029H
+ATOM        33
+            1   C1y C    16.1698  -12.6119
+            2   C8y C    14.9855  -13.3060
+            3   C1y C    17.3599  -13.3003
+            4   C1x C    16.1698  -11.2350
+            5   C8y C    14.9855  -14.6829
+            6   C8x C    13.7895  -12.6176
+            7   N1y N    18.5501  -12.6119
+            8   C1x C    17.3658  -14.6771
+            9   C1y C    17.3599  -10.5524
+            10  C8y C    16.1698  -15.3656
+            11  C8y C    13.7895  -15.3656
+            12  C8x C    12.6052  -13.3060
+            13  C1x C    18.5501  -11.2350
+            14  C1b C    19.7344  -13.2944
+            15  C5a C    17.3482   -9.1755
+            16  C8x C    16.1698  -16.7424
+            17  N4x N    13.7895  -16.7424
+            18  C8x C    12.5993  -14.6829
+            19  C2b C    20.9245  -12.6059
+            20  N1c N    18.5384   -8.4871
+            21  O5a O    16.1581   -8.4871
+            22  C2a C    22.1088  -13.2886
+            23  C5a C    18.5325   -7.1104
+            24  C1b C    19.7227   -9.1698
+            25  N1b N    19.7168   -6.4277
+            26  O5a O    17.3365   -6.4277
+            27  C1b C    20.9187   -8.4813
+            28  C1b C    20.9070   -7.1045
+            29  C1b C    22.1030   -9.1640
+            30  C1a C    22.0913   -6.4220
+            31  N1c N    23.2931   -8.4756
+            32  C1a C    24.4774   -9.1581
+            33  C1a C    23.9698   -7.2796
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    7  14 1
+            14    9  15 1 #Up
+            15   10  16 2
+            16   11  17 1
+            17   11  18 2
+            18   14  19 1
+            19   15  20 1
+            20   15  21 2
+            21   19  22 2
+            22   20  23 1
+            23   20  24 1
+            24   23  25 1
+            25   23  26 2
+            26   24  27 1
+            27   25  28 1
+            28   27  29 1
+            29   28  30 1
+            30   29  31 1
+            31   31  32 1
+            32   31  33 1
+            33    8  10 1
+            34    9  13 1
+            35   12  18 1
+            36   16  17 1
+///

@@ -1,0 +1,83 @@
+ENTRY       C00916                      Compound
+NAME        Cephalosporin C
+FORMULA     C16H21N3O8S
+EXACT_MASS  415.1049
+MOL_WEIGHT  415.4182
+REACTION    R03062 R03063 R03064 R07400
+PATHWAY     map00311  Penicillin and cephalosporin biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map07012  Cephalosporins - parenteral agents
+            map07013  Cephalosporins - oral agents
+ENZYME      1.4.3.3         2.3.1.175       2.6.1.74        3.1.1.41
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              beta-Lactams
+               Cephems
+                C00916  Cephalosporin C
+DBLINKS     CAS: 61-24-5
+            PubChem: 4170
+            ChEBI: 15776
+            PDB-CCD: CSC
+            3DMET: B01351
+            NIKKAJI: J4.815A
+ATOM        28
+            1   N1y N    29.8961  -19.2045
+            2   C1y C    29.8961  -17.8311
+            3   C2y C    31.0805  -19.9163
+            4   C5x C    28.5228  -19.2045
+            5   C1y C    28.5228  -17.8311
+            6   S2x S    31.0805  -17.1446
+            7   C2y C    32.2836  -19.2170
+            8   C6a C    31.0679  -21.2895
+            9   O5x O    27.5528  -20.1682
+            10  N1b N    26.3872  -17.2578
+            11  C1x C    32.2836  -17.8311
+            12  C1b C    33.4680  -19.8975
+            13  O6a O    29.8773  -21.9574
+            14  O6a O    32.2522  -21.9763
+            15  C5a C    25.2031  -16.5775
+            16  O7a O    34.6586  -19.2107
+            17  C1b C    24.0187  -17.2578
+            18  O5a O    25.2031  -15.2042
+            19  C7a C    35.8429  -19.8975
+            20  C1b C    22.8281  -16.5775
+            21  C1a C    37.0273  -19.2107
+            22  O6a O    35.8493  -21.2643
+            23  C1b C    21.6438  -17.2578
+            24  C1c C    20.4594  -16.5775
+            25  C6a C    19.2688  -17.2578
+            26  N1a N    20.4594  -15.2042
+            27  O6a O    18.0845  -16.5713
+            28  O6a O    19.2751  -18.6313
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1 #Up
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    8  14 2
+            14   10  15 1
+            15   12  16 1
+            16   15  17 1
+            17   15  18 2
+            18   16  19 1
+            19   17  20 1
+            20   19  21 1
+            21   19  22 2
+            22   20  23 1
+            23   23  24 1
+            24   24  25 1
+            25   24  26 1 #Down
+            26   25  27 1
+            27   25  28 2
+            28    4   5 1
+            29    7  11 1
+///

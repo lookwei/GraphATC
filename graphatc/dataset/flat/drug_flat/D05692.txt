@@ -1,0 +1,66 @@
+ENTRY       D05692                      Drug
+NAME        Radafaxine hydrochloride (USAN)
+FORMULA     C13H18ClNO2. HCl
+EXACT_MASS  291.0793
+MOL_WEIGHT  292.2015
+CLASS       Neuropsychiatric agent
+             DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+EFFICACY    Antianxiety, Antidepressant, Noradrenaline and dopamine reuptake inhibitor
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531)  Synaptic vesicle cycle
+            hsa04728(6531)  Dopaminergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+               D05692  Radafaxine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D05692  Radafaxine hydrochloride (USAN)
+                SLC6A3 (DAT1)
+                 D05692  Radafaxine hydrochloride (USAN)
+DBLINKS     CAS: 106083-71-0
+            PubChem: 47207353
+            LigandBox: D05692
+ATOM        18
+            1   X   Cl   17.1072  -20.4407
+            2   C1z C    12.8800  -22.6100
+            3   C1y C    12.8800  -24.0100
+            4   N1x N    14.0924  -24.7100
+            5   C1z C    15.3049  -24.0100
+            6   C1x C    15.3049  -22.6100
+            7   O2x O    14.0924  -21.9100
+            8   O1a O    12.8800  -21.2100
+            9   C1a C    11.6676  -24.7100
+            10  C8y C    11.4800  -22.6100
+            11  C8x C    10.7800  -21.3976
+            12  C8y C     9.3800  -21.3976
+            13  C8x C     8.6800  -22.6100
+            14  C8x C     9.3800  -23.8224
+            15  C8x C    10.7800  -23.8224
+            16  X   Cl    8.6896  -20.2021
+            17  C1a C    16.5360  -24.7210
+            18  C1a C    16.5361  -23.2991
+BOND        18
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     2   8 1 #Up
+            8     3   9 1 #Up
+            9     2  10 1 #Down
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   12  16 1
+            17    5  17 1
+            18    5  18 1
+///

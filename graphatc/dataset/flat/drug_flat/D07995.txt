@@ -1,0 +1,61 @@
+ENTRY       D07995                      Drug
+NAME        Fosfomycin calcium;
+            Fosfocin (TN)
+FORMULA     C3H5O4P. Ca
+EXACT_MASS  175.9551
+MOL_WEIGHT  176.1212
+REMARK      Same as: C13964
+            ATC code: J01XX01 S02AA17
+            Chemical structure group: DG00633
+            Product (DG00633): D00925<US> D02187<JP> D02188<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      UDP-N-acetylglucosamine 1-carboxyvinyltransferase [KO:K00790]
+  PATHWAY   ko00550(K00790)  Peptidoglycan biosynthesis
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01X OTHER ANTIBACTERIALS
+                J01XX Other antibacterials
+                 J01XX01 Fosfomycin
+                  D07995  Fosfomycin calcium
+             S SENSORY ORGANS
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA17 Fosfomycin
+                  D07995  Fosfomycin calcium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                D07995  Fosfomycin calcium
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                DG00633  Fosfomycin
+DBLINKS     CAS: 26016-98-8
+            PubChem: 96024689
+            ChEBI: 79400
+            LigandBox: D07995
+            NIKKAJI: J308.372A
+ATOM        9
+            1   C1y C    24.0800  -17.5700
+            2   C1y C    25.4800  -17.5700
+            3   O2x O    24.7800  -16.3800
+            4   P1b P    22.8200  -18.2700
+            5   C1a C    26.6700  -18.2700
+            6   O1c O    21.6300  -18.9700
+            7   O1c O    22.1200  -17.0800 #-
+            8   O1c O    23.5200  -19.5300 #-
+            9   Z   Ca   16.0300  -19.1100 #2+
+BOND        8
+            1     1   2 1
+            2     2   3 1
+            3     3   1 1
+            4     1   4 1 #Up
+            5     2   5 1 #Up
+            6     4   6 2
+            7     4   7 1
+            8     4   8 1
+///

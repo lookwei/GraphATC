@@ -1,0 +1,102 @@
+ENTRY       D05094                      Drug
+NAME        Mycophenolate mofetil hydrochloride (USAN);
+            Cellcept (TN)
+PRODUCT     CELLCEPT (Genentech)
+  GENERIC   MYCOPHENOLATE MOFETIL (BPI Labs LLC)
+FORMULA     C23H31NO7. HCl
+EXACT_MASS  469.1867
+MOL_WEIGHT  469.9557
+REMARK      ATC code: L04AA06
+            Chemical structure group: DG00739
+            Product (DG00739): D00752<JP/US> D05094<US> D05095<US>
+EFFICACY    Immunosuppressant, Inosine monophosphate dehydrogenase inhibitor
+COMMENT     Active form of prodrug: Mycophenolic acid [DR:D05096]
+TARGET      IMPDH [HSA:3614 3615] [KO:K00088]
+  PATHWAY   hsa00230(3614+3615)  Purine metabolism
+STR_MAP     map07046  Immunosuppressive agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA06 Mycophenolic acid
+                  D05094  Mycophenolate mofetil hydrochloride (USAN) &lt;US&gt;
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                IMPDH
+                 D05094  Mycophenolate mofetil hydrochloride (USAN) &lt;US&gt;
+            Prodrugs [br08324.html(DG00739)]
+             DG00739
+DBLINKS     CAS: 116680-01-4
+            PubChem: 47206819
+            LigandBox: D05094
+ATOM        32
+            1   C8y C    32.5108  -17.7327
+            2   C8y C    32.5050  -16.3189
+            3   C8y C    31.2957  -18.4278
+            4   C1x C    33.8487  -18.1650
+            5   C8y C    31.2957  -15.6179
+            6   C7x C    33.8427  -15.8865
+            7   C8y C    30.0805  -17.7327
+            8   C1a C    31.2957  -19.8358
+            9   O7x O    34.6723  -17.0258
+            10  C8y C    30.0805  -16.3189
+            11  O1a O    31.2957  -14.2158
+            12  O6a O    34.2810  -14.5488
+            13  O2a O    28.8654  -18.4278
+            14  C1b C    28.8654  -15.6179
+            15  C1a C    28.8654  -19.8358
+            16  C2b C    27.6504  -16.3132
+            17  C2c C    26.4352  -15.6121
+            18  C1b C    25.2258  -16.3072
+            19  C1a C    26.4411  -14.2100
+            20  C1b C    24.0108  -15.6062
+            21  C7a C    22.7957  -16.2955
+            22  O7a O    21.5805  -15.6005
+            23  O6a O    22.7899  -17.7034
+            24  C1b C    20.3713  -16.2897
+            25  C1b C    19.1620  -15.5944
+            26  N1y N    17.9469  -16.2838
+            27  C1x C    16.7376  -15.5828
+            28  C1x C    17.9410  -17.6802
+            29  C1x C    15.5284  -16.2781
+            30  C1x C    16.7260  -18.3812
+            31  O2x O    15.5225  -17.6743
+            32  X   Cl   37.3800  -19.1800
+BOND        33
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 2
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13   10  14 1
+            14   13  15 1
+            15   14  16 1
+            16   16  17 2
+            17   17  18 1
+            18   17  19 1
+            19   18  20 1
+            20   20  21 1
+            21   21  22 1
+            22   21  23 2
+            23   22  24 1
+            24   24  25 1
+            25   25  26 1
+            26   26  27 1
+            27   26  28 1
+            28   27  29 1
+            29   28  30 1
+            30   29  31 1
+            31    6   9 1
+            32    7  10 1
+            33   30  31 1
+///

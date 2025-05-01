@@ -1,0 +1,160 @@
+ENTRY       D09690                      Drug
+NAME        Varlitinib tosylate (USAN)
+FORMULA     C22H19ClN6O2S. (C7H8O3S)2
+EXACT_MASS  810.1367
+MOL_WEIGHT  811.3465
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+REMARK      Chemical structure group: DG01357
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      EGFR [HSA:1956] [KO:K04361]
+            ERBB2 (HER2, CD340) [HSA:2064] [KO:K05083]
+            ERBB4 (HER4) [HSA:2066] [KO:K05085]
+  PATHWAY   hsa04012(1956+2064+2066)  ErbB signaling pathway
+            hsa05200(1956+2064)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG01357  Varlitinib
+                 D09690  Varlitinib tosylate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR
+                 D09690  Varlitinib tosylate (USAN)
+                ERBB2 (HER2, CD340)
+                 D09690  Varlitinib tosylate (USAN)
+                ERBB4 (HER4)
+                 D09690  Varlitinib tosylate (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG01357  Varlitinib
+DBLINKS     CAS: 1146629-86-8
+            PubChem: 124490430
+            LigandBox: D09690
+ATOM        54
+            1   C8x C    33.3900  -22.9600
+            2   C8x C    33.3900  -24.3600
+            3   C8y C    34.6024  -25.0600
+            4   C8x C    35.8149  -24.3600
+            5   C8x C    35.8149  -22.9600
+            6   C8y C    34.6024  -22.2600
+            7   C1a C    34.6024  -26.4600
+            8   S4a S    34.6024  -20.8600
+            9   O1d O    34.6024  -19.4600
+            10  O1d O    36.0024  -20.8600
+            11  O1d O    33.2024  -20.8600
+            12  C8x C    23.2400  -18.8300
+            13  C8y C    23.2400  -20.2300
+            14  C8x C    22.0500  -20.9300
+            15  C8y C    20.7900  -20.2300
+            16  C8y C    20.7900  -18.8300
+            17  C8x C    22.0500  -18.1300
+            18  C8y C    19.6000  -20.9300
+            19  N5x N    18.4100  -20.2300
+            20  C8x C    18.4100  -18.8300
+            21  N5x N    19.6000  -18.1300
+            22  N1b N    19.6000  -22.3300
+            23  N1b N    24.4300  -20.9300
+            24  C2y C    25.6200  -20.2300
+            25  O2x O    25.6200  -18.8300
+            26  C1x C    26.9500  -18.4100
+            27  C1y C    27.7900  -19.5300
+            28  N2x N    26.9500  -20.6500
+            29  C1a C    29.2600  -19.5300
+            30  C8y C    20.8600  -23.0300
+            31  C8x C    20.8600  -24.4300
+            32  C8y C    22.0500  -25.1300
+            33  C8y C    23.2400  -24.4300
+            34  C8x C    23.2400  -23.0300
+            35  C8x C    22.0500  -22.3300
+            36  X   Cl   22.0500  -26.5300
+            37  O2a O    24.5000  -25.1300
+            38  C1b C    25.6900  -24.4300
+            39  C8y C    26.8800  -25.1300
+            40  S2x S    26.8800  -26.5300
+            41  C8x C    28.2100  -27.0200
+            42  C8x C    29.0500  -25.9000
+            43  N5x N    28.2100  -24.7100
+            44  C8x C    33.3900  -22.9600
+            45  C8x C    33.3900  -24.3600
+            46  C8y C    34.6024  -25.0600
+            47  C8x C    35.8149  -24.3600
+            48  C8x C    35.8149  -22.9600
+            49  C8y C    34.6024  -22.2600
+            50  S4a S    34.6024  -20.8600
+            51  O1d O    34.6024  -19.4600
+            52  O1d O    36.0024  -20.8600
+            53  O1d O    33.2024  -20.8600
+            54  C1a C    34.6024  -26.4600
+BOND        58
+            1    12  13 1
+            2    13  14 2
+            3    14  15 1
+            4    15  16 2
+            5    16  17 1
+            6    12  17 2
+            7    15  18 1
+            8    18  19 2
+            9    19  20 1
+            10   20  21 2
+            11   16  21 1
+            12   18  22 1
+            13   13  23 1
+            14   23  24 1
+            15   24  25 1
+            16   25  26 1
+            17   26  27 1
+            18   27  28 1
+            19   24  28 2
+            20   27  29 1 #Up
+            21   22  30 1
+            22   30  31 2
+            23   31  32 1
+            24   32  33 2
+            25   33  34 1
+            26   34  35 2
+            27   30  35 1
+            28   32  36 1
+            29   33  37 1
+            30   37  38 1
+            31   38  39 1
+            32   39  40 1
+            33   40  41 1
+            34   41  42 2
+            35   42  43 1
+            36   39  43 2
+            37    1   2 2
+            38    2   3 1
+            39    3   4 2
+            40    4   5 1
+            41    5   6 2
+            42    1   6 1
+            43    3   7 1
+            44    6   8 1
+            45    8   9 1
+            46    8  10 2
+            47    8  11 2
+            48   44  45 2
+            49   45  46 1
+            50   46  47 2
+            51   47  48 1
+            52   48  49 2
+            53   44  49 1
+            54   46  54 1
+            55   49  50 1
+            56   50  51 1
+            57   50  52 2
+            58   50  53 2
+BRACKET     1    32.8300  -26.8800   32.8300  -19.0400
+            1    36.3300  -19.0400   36.3300  -26.8800
+            1  2
+  ORIGINAL  1    1   2   3   4   5   6   8   9  10  11   7
+  REPEAT    1   44  45  46  47  48  49  50  51  52  53  54
+///

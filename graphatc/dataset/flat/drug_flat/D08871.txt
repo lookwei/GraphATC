@@ -1,0 +1,130 @@
+ENTRY       D08871                      Drug
+NAME        Berubicin hydrochloride (USAN)
+FORMULA     C34H35NO11. HCl
+EXACT_MASS  669.1977
+MOL_WEIGHT  670.1027
+CLASS       Antineoplastic
+             DG01682  Anthracycline antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+EFFICACY    Antineoplastic, Topoisomerase II inhibitor
+COMMENT     Anthracycline
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               D08871  Berubicin hydrochloride
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                D08871  Berubicin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D08871  Berubicin hydrochloride (USAN)
+DBLINKS     CAS: 293736-67-1
+            PubChem: 96025554
+            LigandBox: D08871
+ATOM        47
+            1   X   Cl   25.5297  -21.0222
+            2   C8x C     8.8200  -19.8800
+            3   C8x C     8.8200  -21.2800
+            4   C8y C    10.0100  -21.9800
+            5   C8y C    11.2700  -21.2800
+            6   C8y C    11.2700  -19.8800
+            7   C8x C    10.0100  -19.1800
+            8   C5x C    12.4600  -21.9800
+            9   C8y C    13.6500  -21.2800
+            10  C8y C    13.6500  -19.8800
+            11  C5x C    12.4600  -19.1800
+            12  C8y C    14.9100  -21.9800
+            13  C8y C    16.1000  -21.2800
+            14  C8y C    16.1000  -19.8800
+            15  C8y C    14.9100  -19.1800
+            16  C1y C    17.3600  -21.9800
+            17  C1x C    18.6200  -21.2800
+            18  C1z C    18.6200  -19.8800
+            19  C1x C    17.3600  -19.1800
+            20  O2a O    10.0100  -23.3800
+            21  C1a C     8.8200  -24.0800
+            22  O5x O    12.4600  -23.3800
+            23  O5x O    12.4600  -17.7800
+            24  O1a O    14.9100  -17.7800
+            25  O1a O    14.9100  -23.3800
+            26  O2a O    17.3600  -23.3800
+            27  C1y C    18.5500  -24.0800
+            28  C5a C    19.8100  -19.1800
+            29  C1b C    21.0000  -19.8800
+            30  O1a O    22.1900  -19.1800
+            31  O5a O    19.8100  -17.7800
+            32  O1a O    19.8100  -20.5800
+            33  C1x C    18.5500  -25.4800
+            34  C1y C    19.8100  -26.1800
+            35  C1y C    21.0000  -25.4800
+            36  C1y C    21.0000  -24.0800
+            37  O2x O    19.8100  -23.3800
+            38  N1a N    19.8100  -27.5800
+            39  C1a C    22.1900  -23.3800
+            40  O2a O    22.1900  -26.1800
+            41  C1b C    23.3800  -25.5500
+            42  C8y C    24.5700  -26.1800
+            43  C8x C    24.5514  -27.5791
+            44  C8x C    25.8587  -28.2341
+            45  C8x C    27.0446  -27.4901
+            46  C8x C    26.9932  -26.0910
+            47  C8x C    25.7559  -25.4360
+BOND        51
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     5   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11    6  11 1
+            12    9  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   10  15 2
+            17   13  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   14  19 1
+            22    4  20 1
+            23   20  21 1
+            24    8  22 2
+            25   11  23 2
+            26   15  24 1
+            27   12  25 1
+            28   27  26 1 #Down
+            29   16  26 1 #Down
+            30   18  28 1 #Up
+            31   28  29 1
+            32   29  30 1
+            33   28  31 2
+            34   18  32 1 #Down
+            35   27  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 1
+            39   36  37 1
+            40   27  37 1
+            41   34  38 1 #Up
+            42   36  39 1 #Up
+            43   35  40 1 #Up
+            44   40  41 1
+            45   41  42 1
+            46   42  43 2
+            47   43  44 1
+            48   44  45 2
+            49   45  46 1
+            50   46  47 2
+            51   42  47 1
+///

@@ -1,0 +1,97 @@
+ENTRY       D02041                      Drug
+NAME        Tropisetron hydrochloride (JAN);
+            Navoban (TN)
+FORMULA     C17H20N2O2. HCl
+EXACT_MASS  320.1292
+MOL_WEIGHT  320.8138
+CLASS       Gastrointestinal agent
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+REMARK      ATC code: A04AA03
+            Chemical structure group: DG00062
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A04 ANTIEMETICS AND ANTINAUSEANTS
+               A04A ANTIEMETICS AND ANTINAUSEANTS
+                A04AA Serotonin (5HT3) antagonists
+                 A04AA03 Tropisetron
+                  D02041  Tropisetron hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG00062  Tropisetron
+                D02041  Tropisetron hydrochloride
+              DG01762  Antiemetic
+               DG00062  Tropisetron
+                D02041  Tropisetron hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D02041  Tropisetron hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG00062  Tropisetron
+              DG01762  Antiemetic
+               DG00062  Tropisetron
+DBLINKS     CAS: 105826-92-4
+            PubChem: 7849103
+            ChEBI: 77570
+            LigandBox: D02041
+            NIKKAJI: J2.209.017H
+ATOM        22
+            1   X   Cl   38.5928  -17.3129
+            2   O7a O    30.1000  -18.9700
+            3   C1y C    28.9800  -18.3400
+            4   C1x C    28.0000  -16.8700
+            5   C1x C    28.0000  -17.8500
+            6   C1y C    26.5300  -16.8700
+            7   C1y C    26.4600  -17.8500
+            8   N1y N    25.6900  -15.8900
+            9   C1x C    25.5500  -17.4300
+            10  C1x C    24.9900  -18.4800
+            11  C1a C    25.6900  -14.5600
+            12  C7a C    31.5000  -18.9700
+            13  C8y C    32.2000  -17.7100
+            14  O6a O    32.2000  -20.2300
+            15  C8y C    33.6000  -17.7100
+            16  C8y C    33.8800  -16.3100
+            17  N4x N    32.6900  -15.6100
+            18  C8x C    31.6400  -16.5200
+            19  C8x C    34.6500  -18.6200
+            20  C8x C    35.9800  -18.2000
+            21  C8x C    36.2600  -16.8700
+            22  C8x C    35.2800  -15.8900
+BOND        24
+            1     3   5 1
+            2     4   6 1
+            3     5   7 1
+            4     6   8 1
+            5     6   9 1
+            6     7  10 1
+            7     7   8 1
+            8     9  10 1
+            9     3   2 1 #Down
+            10    3   4 1
+            11    8  11 1
+            12    2  12 1
+            13   12  13 1
+            14   12  14 2
+            15   13  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   13  18 2
+            20   15  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   16  22 2
+///

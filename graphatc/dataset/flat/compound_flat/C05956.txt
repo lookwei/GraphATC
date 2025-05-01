@@ -1,0 +1,86 @@
+ENTRY       C05956                      Compound
+NAME        Prostaglandin G2;
+            PGG2
+FORMULA     C20H32O6
+EXACT_MASS  368.2199
+MOL_WEIGHT  368.4645
+REACTION    R00073 R01590
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04611  Platelet activation
+            map04726  Serotonergic synapse
+            map07034  Eicosanoids
+ENZYME      1.14.99.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Prostaglandins
+                C05956  Prostaglandin G2
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0301 Prostaglandins
+                C05956  Prostaglandin G2
+DBLINKS     CAS: 51982-36-6
+            PubChem: 8240
+            ChEBI: 27647
+            LIPIDMAPS: LMFA03010009
+            PDB-CCD: PGX
+            3DMET: B01930
+            NIKKAJI: J10.404C
+ATOM        26
+            1   C1y C    22.0797  -15.8003
+            2   C1y C    22.0156  -14.4473
+            3   C1y C    20.8130  -16.2206
+            4   C2b C    23.2544  -16.4741
+            5   C1y C    20.7958  -14.0327
+            6   C1b C    23.4732  -13.2208
+            7   C1x C    20.0070  -15.1324
+            8   O2x O    19.4656  -16.2149
+            9   C2b C    24.4233  -15.8003
+            10  O2x O    19.4484  -14.0327
+            11  C2b C    24.6420  -13.9002
+            12  C1c C    25.5921  -16.4741
+            13  C2b C    25.9779  -13.9002
+            14  C1b C    26.7610  -15.8003
+            15  O2a O    25.5921  -17.8271
+            16  C1b C    27.1411  -13.2208
+            17  C1b C    27.9356  -16.4741
+            18  O1a O    26.7610  -18.4950
+            19  C1b C    28.3041  -13.8887
+            20  C1b C    29.1103  -15.8003
+            21  C1b C    29.4614  -13.2150
+            22  C1b C    30.2733  -16.4741
+            23  C6a C    30.6303  -13.8714
+            24  C1a C    31.4480  -15.8003
+            25  O6a O    31.8165  -13.1747
+            26  O6a O    30.6418  -15.2533
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 2
+            9     5  10 1 #Down
+            10    6  11 1
+            11    9  12 1
+            12   11  13 2
+            13   12  14 1
+            14   12  15 1 #Down
+            15   13  16 1
+            16   14  17 1
+            17   15  18 1
+            18   16  19 1
+            19   17  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   22  24 1
+            24   23  25 1
+            25   23  26 2
+            26    5   7 1
+            27    8  10 1
+///

@@ -1,0 +1,214 @@
+ENTRY       D09348                      Drug
+NAME        Fostamatinib disodium (USAN);
+            Fostamatinib sodium hydrate (JAN);
+            Fostamatinib disodium hexahydrate;
+            Tavalisse (TN)
+PRODUCT     TAVALISSE (Rigel Pharmaceuticals)
+FORMULA     C23H24FN6O9P. 6H2O. 2Na
+EXACT_MASS  732.1756
+MOL_WEIGHT  732.5148
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02862  ABCG2 inhibitor
+REMARK      Therapeutic category: 3999
+            ATC code: B02BX09
+            Chemical structure group: DG01419
+            Product (DG01419): D09348<JP/US>
+EFFICACY    Antineoplastic, Immunomodulator, Tyrosin kinase inhibitor
+  DISEASE   Immune thrombocytopenia [DS:H01240]
+COMMENT     Treatment of rheumatoid arthritis, immune thrombocytopenic purpura, and B-cell lymphoma
+TARGET      SYK [HSA:6850] [KO:K05855]
+  PATHWAY   hsa04064(6850)  NF-kappa B signaling pathway
+            hsa04611(6850)  Platelet activation
+            hsa04662(6850)  B cell receptor signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B02 ANTIHEMORRHAGICS
+               B02B VITAMIN K AND OTHER HEMOSTATICS
+                B02BX Other systemic hemostatics
+                 B02BX09 Fostamatinib
+                  D09348  Fostamatinib disodium (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Blood Products and Modifiers
+              Platelet Modifying Agents
+               Platelet Modifying Agents, Other
+                Fostamatinib
+                 D09348  Fostamatinib disodium (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D09348  Fostamatinib disodium (USAN); Fostamatinib sodium hydrate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01419  Fostamatinib
+                D09348  Fostamatinib disodium
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01419  Fostamatinib
+                 D09348  Fostamatinib disodium
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01419  Fostamatinib
+                D09348  Fostamatinib disodium
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG01419  Fostamatinib
+                D09348  Fostamatinib disodium
+              DG02862  ABCG2 inhibitor
+               DG01419  Fostamatinib
+                D09348  Fostamatinib disodium
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               SYK family
+                SYK
+                 D09348  Fostamatinib disodium (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09348
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09348
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09348
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09348
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09348
+             Drug transporters
+              D09348
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01419  Fostamatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01419  Fostamatinib
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01419  Fostamatinib
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG01419  Fostamatinib
+              DG02862  ABCG2 inhibitor
+               DG01419  Fostamatinib
+DBLINKS     CAS: 914295-16-2
+            PubChem: 96026028
+            LigandBox: D09348
+ATOM        48
+            1   N1b N    18.1871  -24.9940
+            2   C8y C    18.1871  -23.5898
+            3   N5x N    16.9936  -22.8877
+            4   C8x C    16.9936  -21.4836
+            5   C8y C    18.1871  -20.7815
+            6   C8y C    19.4509  -21.4836
+            7   N5x N    19.4509  -22.8877
+            8   X   F    18.1871  -19.3773
+            9   N1b N    20.6444  -20.7815
+            10  C8y C    21.8379  -21.4836
+            11  N5x N    23.0315  -20.7815
+            12  C8y C    24.2952  -21.4836
+            13  C8y C    24.2952  -22.8877
+            14  C8x C    23.1017  -23.5898
+            15  C8x C    21.8379  -22.8877
+            16  N1y N    25.4887  -20.7815
+            17  C5x C    26.6823  -21.4836
+            18  C1z C    26.6823  -22.8877
+            19  O2x O    25.4887  -23.5898
+            20  C1a C    27.8758  -23.5898
+            21  C1a C    27.8758  -22.1856
+            22  O5x O    27.8758  -20.7815
+            23  C1b C    25.4887  -19.3773
+            24  O2b O    26.6823  -18.6753
+            25  P1b P    26.6823  -17.2711
+            26  C8y C    19.3807  -25.6960
+            27  C8x C    19.3807  -27.1002
+            28  C8y C    20.5742  -27.8023
+            29  C8y C    21.8379  -27.1002
+            30  C8y C    21.8379  -25.6960
+            31  C8x C    20.5742  -24.9940
+            32  O2a O    23.0315  -27.8023
+            33  O2a O    23.0315  -24.9940
+            34  O2a O    20.5742  -29.2064
+            35  O1c O    28.0864  -17.2711 #-
+            36  O1c O    25.2781  -17.2711 #-
+            37  O1c O    26.6823  -15.8669
+            38  C1a C    24.2250  -25.6960
+            39  C1a C    24.2250  -27.1002
+            40  C1a C    21.7677  -29.9085
+            41  Z   Na   30.2629  -15.7967 #+
+            42  Z   Na   30.2629  -18.5348 #+
+            43  O0  O    30.3800  -28.8400
+            44  O0  O    30.3800  -28.8400
+            45  O0  O    30.3800  -28.8400
+            46  O0  O    30.3800  -28.8400
+            47  O0  O    30.3800  -28.8400
+            48  O0  O    30.3800  -28.8400
+BOND        43
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     6   7 2
+            7     2   7 1
+            8     5   8 1
+            9     6   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17   12  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   13  19 1
+            22   18  20 1
+            23   18  21 1
+            24   17  22 2
+            25   16  23 1
+            26   23  24 1
+            27   24  25 1
+            28    1  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   26  31 1
+            35   29  32 1
+            36   30  33 1
+            37   28  34 1
+            38   25  35 1
+            39   25  36 1
+            40   25  37 2
+            41   33  38 1
+            42   32  39 1
+            43   34  40 1
+BRACKET     1    28.4200  -29.7500   28.4200  -27.5800
+            1    31.1500  -27.5800   31.1500  -29.7500
+            1  6
+  ORIGINAL  1   43
+  REPEAT    1   44  45  46  47  48
+///

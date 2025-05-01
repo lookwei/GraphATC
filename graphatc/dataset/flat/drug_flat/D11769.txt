@@ -1,0 +1,123 @@
+ENTRY       D11769                      Drug
+NAME        Asenapine (INN);
+            Secuado (TN)
+PRODUCT     SECUADO (Noven Therapeutics)
+FORMULA     C17H16ClNO
+EXACT_MASS  285.092
+MOL_WEIGHT  285.768
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      ATC code: N05AH05
+            Chemical structure group: DG03100
+            Product (DG03100): D11769<US> D02995<JP/US>
+EFFICACY    Antipsychotic
+  DISEASE   Schizophrenia [DS:H01649]
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AH Diazepines, oxazepines, thiazepines and oxepines
+                 N05AH05 Asenapine
+                  D11769  Asenapine (INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              2nd Generation/Atypical
+               Asenapine
+                D11769  Asenapine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG03100  Asenapine
+                 D11769  Asenapine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG03100  Asenapine
+                D11769  Asenapine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG03100  Asenapine
+                D11769  Asenapine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D11769  Asenapine (INN) &lt;US&gt;
+               Serotonin
+                HTR2A
+                 D11769  Asenapine (INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11769
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG03100  Asenapine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG03100  Asenapine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG03100  Asenapine
+DBLINKS     CAS: 65576-45-6
+            PubChem: 405226635
+ATOM        20
+            1   C8y C    17.7185  -15.0536
+            2   C1y C    18.6245  -16.0989
+            3   C1y C    20.0183  -16.0989
+            4   C8y C    20.8546  -14.9839
+            5   C8y C    17.9973  -13.6597
+            6   C8y C    20.5061  -13.6597
+            7   O2x O    19.2517  -13.0325
+            8   C8x C    21.5515  -12.6841
+            9   C8x C    22.8756  -13.0325
+            10  C8x C    23.2241  -14.4263
+            11  C8x C    22.1787  -15.4020
+            12  C8x C    16.3944  -15.4717
+            13  C8y C    15.3490  -14.5657
+            14  C8x C    15.6278  -13.1719
+            15  C8x C    16.9519  -12.7538
+            16  C1x C    20.5061  -17.4231
+            17  N1y N    19.3911  -18.2594
+            18  C1x C    18.2063  -17.4231
+            19  X   Cl   14.0249  -14.9839
+            20  C1a C    19.3911  -19.6532
+BOND        23
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     6   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    4  11 2
+            13    1  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    5  15 2
+            18    3  16 1
+            19   16  17 1
+            20   17  18 1
+            21    2  18 1
+            22   13  19 1
+            23   17  20 1
+///

@@ -1,0 +1,75 @@
+ENTRY       C05402                      Compound
+NAME        Melibiose;
+            6-O-(alpha-D-Galactopyranosyl)-D-glucopyranose;
+            D-Gal-alpha1->6D-Glucose
+FORMULA     C12H22O11
+EXACT_MASS  342.1162
+MOL_WEIGHT  342.2965
+REMARK      Same as: G01275
+REACTION    R01101 R02410 R05549
+PATHWAY     map00052  Galactose metabolism
+            map01100  Metabolic pathways
+            map02010  ABC transporters
+ENZYME      3.2.1.22        3.2.1.26
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Oligosaccharides
+               Disaccharides
+                C05402  Melibiose
+DBLINKS     CAS: 585-99-9
+            PubChem: 7769
+            ChEBI: 28053
+            KNApSAcK: C00001142
+            PDB-CCD: MLB
+            3DMET: B05017
+            NIKKAJI: J6.735K
+ATOM        23
+            1   C1y C    25.2079  -19.5770
+            2   O2x O    23.9859  -18.8822
+            3   O2a O    26.4175  -18.8698
+            4   C1y C    25.2079  -20.9789
+            5   C1y C    22.7700  -19.5770
+            6   C1b C    27.6270  -18.1688
+            7   C1y C    23.9859  -21.6797
+            8   O1a O    26.4236  -21.7497
+            9   C1y C    22.7700  -20.9789
+            10  C1b C    21.5790  -18.8822
+            11  C1y C    28.8429  -18.8698
+            12  O1a O    23.9859  -23.0816
+            13  O1a O    21.5790  -21.6797
+            14  O1a O    20.5059  -19.7817
+            15  C1y C    28.8429  -20.2654
+            16  O2x O    30.0462  -18.1688
+            17  C1y C    30.0462  -20.9664
+            18  O1a O    27.6333  -20.8201
+            19  C1y C    31.2682  -18.8635
+            20  C1y C    31.2682  -20.2654
+            21  O1a O    30.0462  -22.3683
+            22  O1a O    32.4903  -18.1564
+            23  O1a O    32.4840  -20.9664
+BOND        24
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Up
+            10   11   6 1 #Up
+            11    7  12 1 #Up
+            12    9  13 1 #Up
+            13   10  14 1
+            14   11  15 1
+            15   11  16 1
+            16   15  17 1
+            17   15  18 1 #Down
+            18   16  19 1
+            19   17  20 1
+            20   17  21 1 #Up
+            21   19  22 1 #Either
+            22   20  23 1 #Down
+            23    7   9 1
+            24   19  20 1
+///

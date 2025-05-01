@@ -1,0 +1,149 @@
+ENTRY       D00520                      Drug
+NAME        Dimenhydrinate (JP18/USP/INN);
+            Dramamine (TN)
+PRODUCT
+  GENERIC   DIMENHYDRINATE (Fresenius Kabi USA)
+FORMULA     C17H21NO. C7H7ClN4O2
+EXACT_MASS  469.1881
+MOL_WEIGHT  469.9638
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Respiratory system agent
+             DG01616  Xanthine derivative
+REMARK      Therapeutic category: 1331
+            ATC code: R06AA11
+            Chemical structure group: DG00390
+            Product (DG00390): D00300<JP> D00669<JP/US> D03360<JP> D00520<JP/US>
+EFFICACY    Anti-emetic, Antivertigo, H1 receptor antagonist
+COMMENT     Prevention and treatment of nausea, vomiting, or vertigo of motion sickness
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AA Aminoalkyl ethers
+                 R06AA11 Dimenhydrinate
+                  D00520  Dimenhydrinate (JP18/USP/INN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               133  Vertigo agents
+                1331  Dimenhydrinates
+                 D00520  Dimenhydrinate (JP18/USP/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              06 Antivertigo drugs (incl. motion/morning sickness remedies)
+               D00520  Dimenhydrinate (JP18/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Dimenhydrinate
+                D00520  Dimenhydrinate (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00390  Diphenhydramine
+                 D00520  Dimenhydrinate
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               D00520  Dimenhydrinate
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D00520  Dimenhydrinate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D00520  Dimenhydrinate (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00520  Dimenhydrinate
+              D00520  Dimenhydrinate tablets
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00390  Diphenhydramine
+DBLINKS     CAS: 523-87-5
+            PubChem: 7847586
+            ChEBI: 4604
+            LigandBox: D00520
+            NIKKAJI: J252.867C
+ATOM        33
+            1   C8y C    24.0335  -15.5458
+            2   C8y C    24.0335  -16.9748
+            3   C8y C    25.2341  -14.8371
+            4   N4x N    22.7217  -15.1124
+            5   N4y N    25.2341  -17.6599
+            6   N5x N    22.7217  -17.4080
+            7   N4y N    26.4579  -15.5750
+            8   O5x O    25.2341  -13.4551
+            9   C8y C    21.9077  -16.2720
+            10  C8y C    26.4579  -16.9220
+            11  C1a C    25.2341  -19.0946
+            12  C1a C    27.7111  -14.8957
+            13  X   Cl   20.5022  -16.2778
+            14  O5x O    27.7111  -17.6248
+            15  C1c C    13.1842  -16.5304
+            16  C8y C    11.9719  -17.2389
+            17  C8y C    14.4022  -17.2389
+            18  O2a O    13.1900  -15.1308
+            19  C8x C    11.9719  -18.6326
+            20  C8x C    10.7597  -16.5304
+            21  C8x C    14.3965  -18.6326
+            22  C8x C    15.6088  -16.5304
+            23  C1b C    14.4022  -14.4280
+            24  C8x C    10.7597  -19.3296
+            25  C8x C     9.5475  -17.2389
+            26  C8x C    15.6088  -19.3296
+            27  C8x C    16.8209  -17.2389
+            28  C8x C     9.5475  -18.6326
+            29  C8x C    16.8150  -18.6326
+            30  C1b C    15.6064  -15.1220
+            31  N1c N    16.7880  -14.4384
+            32  C1a C    17.9856  -15.1287
+            33  C1a C    16.7870  -13.0368
+BOND        35
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    7  12 1
+            12    9  13 1
+            13   10  14 2
+            14    6   9 2
+            15    7  10 1
+            16   15  16 1
+            17   15  17 1
+            18   15  18 1
+            19   16  19 1
+            20   16  20 2
+            21   17  21 2
+            22   17  22 1
+            23   18  23 1
+            24   19  24 2
+            25   20  25 1
+            26   21  26 1
+            27   22  27 2
+            28   24  28 1
+            29   26  29 2
+            30   25  28 2
+            31   27  29 1
+            32   23  30 1
+            33   30  31 1
+            34   31  32 1
+            35   31  33 1
+///

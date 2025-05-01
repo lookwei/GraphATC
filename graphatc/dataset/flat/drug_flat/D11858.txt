@@ -1,0 +1,54 @@
+ENTRY       D11858            Mixture   Drug
+NAME        Omeprazole magnesium, amoxicillin and rifabutin;
+            Talicia (TN)
+PRODUCT     TALICIA (RedHill Biopharma)
+COMPONENT   Omeprazole magnesium [DR:D05259], (Amoxicillin [DR:D00229] | Amoxicillin [DR:D07452]), Rifabutin [DR:D00424]
+CLASS       Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01933  CYP2C19 inhibitor
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      ATC code: A02BD16
+            Product: D11858<US>
+EFFICACY    Antibacterial
+  DISEASE   Helicobacter pylori infection [DS:H00320]
+COMMENT     Rifabutin is a substrate and an inducer of CYP3A.
+            Omeprazole is a substrate and an inhibitor of CYP2C19, and a substrate of CYP3A4.
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551], CYP2C19 [HSA:1557]
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]
+            CYP inhibition: CYP2C19 [HSA:1557]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BD Combinations for eradication of Helicobacter pylori
+                 A02BD16 Omeprazole, amoxicillin and rifabutin
+                  D11858  Omeprazole magnesium, amoxicillin and rifabutin &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Gastrointestinal Agents, Other
+               Omeprazole Magnesium/ Amoxicillin/ Rifabutin
+                D11858  Omeprazole magnesium, amoxicillin and rifabutin
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D11858  Omeprazole magnesium, amoxicillin and rifabutin
+              DG01633  CYP3A/CYP3A4 substrate
+               D11858  Omeprazole magnesium, amoxicillin and rifabutin
+             Metabolizing enzyme inhibitor
+              DG01933  CYP2C19 inhibitor
+               D11858  Omeprazole magnesium, amoxicillin and rifabutin
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               D11858  Omeprazole magnesium, amoxicillin and rifabutin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D11858  Omeprazole magnesium, amoxicillin and rifabutin &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11858
+///

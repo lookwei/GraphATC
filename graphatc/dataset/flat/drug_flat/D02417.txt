@@ -1,0 +1,94 @@
+ENTRY       D02417                      Drug
+NAME        Flutropium bromide (JAN);
+            Flutropium bromide monohydrate;
+            Flubron (TN)
+FORMULA     C24H29FNO3. Br. H2O
+EXACT_MASS  495.142
+MOL_WEIGHT  496.4096
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+EFFICACY    Bronchodilator, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D02417  Flutropium bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D02417  Flutropium bromide (JAN)
+DBLINKS     PubChem: 7849475
+            ChEBI: 31630
+            LigandBox: D02417
+ATOM        31
+            1   O0  O    34.0872  -14.6179
+            2   C1x C    21.0238  -16.4308
+            3   C1x C    21.3519  -15.2591
+            4   C1y C    22.1955  -16.1496
+            5   C1y C    22.5236  -14.9779
+            6   N2y N    21.2582  -13.6656 #+
+            7   C1x C    24.0702  -16.1496
+            8   C1x C    23.7890  -14.9779
+            9   C1y C    25.1013  -16.7120
+            10  O7a O    26.1793  -17.6025
+            11  C7a C    27.3979  -17.6025
+            12  C1d C    28.0072  -16.5245
+            13  O6a O    28.0072  -18.7273
+            14  C8y C    29.2258  -16.5245
+            15  C8y C    27.3979  -15.4934
+            16  C8x C    29.9320  -17.7482
+            17  C8x C    31.3320  -17.7485
+            18  C8x C    32.0322  -16.5362
+            19  C8x C    31.3261  -15.3125
+            20  C8x C    29.9261  -15.3122
+            21  C1a C    20.5091  -12.4814
+            22  C1b C    20.0289  -14.2783
+            23  C1b C    18.8562  -13.5018
+            24  X   F    17.5790  -14.1385
+            25  C8x C    25.9979  -15.4934
+            26  C8x C    28.0979  -14.2810
+            27  C8x C    27.3979  -13.0685
+            28  C8x C    25.9979  -13.0685
+            29  C8x C    25.2979  -14.2810
+            30  O1a O    29.2672  -14.3321
+            31  X   Br   22.6100  -12.3900 #-
+BOND        32
+            1     2   3 1
+            2     2   4 1
+            3     3   5 1
+            4     4   6 1
+            5     4   7 1
+            6     5   8 1
+            7     7   9 1
+            8     9  10 1 #Down
+            9    10  11 1
+            10   11  12 1
+            11   11  13 2
+            12   12  14 1
+            13   12  15 1
+            14    5   6 1
+            15    8   9 1
+            16   14  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   14  20 1
+            22    6  21 1
+            23    6  22 1
+            24   22  23 1
+            25   23  24 1
+            26   15  25 1
+            27   15  26 2
+            28   26  27 1
+            29   27  28 2
+            30   28  29 1
+            31   25  29 2
+            32   12  30 1
+///

@@ -1,0 +1,90 @@
+ENTRY       D03898                      Drug
+NAME        Doxofylline (USAN/INN);
+            Maxivent (TN)
+FORMULA     C11H14N4O4
+EXACT_MASS  266.1015
+MOL_WEIGHT  266.2533
+CLASS       Respiratory system agent
+             DG01616  Xanthine derivative
+              DG01609  Xanthine-type bronchodilator
+REMARK      ATC code: R03DA11
+EFFICACY    Bronchodilator, Phosphodiesterase inhibitor
+COMMENT     Xanthine derivative
+TARGET      PDE2A [HSA:5138] [KO:K18283]
+            ADORA2A [HSA:135] [KO:K04266]
+  PATHWAY   hsa04022(5138)  cGMP-PKG signaling pathway
+            hsa04024(135)  cAMP signaling pathway
+            hsa04080(135)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03D OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+                R03DA Xanthines
+                 R03DA11 Doxofylline
+                  D03898  Doxofylline (USAN/INN)
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01609  Xanthine-type bronchodilator
+                D03898  Doxofylline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA2A
+                 D03898  Doxofylline (USAN/INN)
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE2A
+                 D03898  Doxofylline (USAN/INN)
+DBLINKS     CAS: 69975-86-6
+            PubChem: 17397982
+            ChEBI: 94714
+            PDB-CCD: 7UH
+            LigandBox: D03898
+            NIKKAJI: J23.295E
+ATOM        19
+            1   N4y N    22.0098  -16.1293
+            2   C8y C    22.0098  -17.5262
+            3   N4y N    20.8224  -18.2246
+            4   C8y C    19.5653  -17.5262
+            5   C8y C    19.5653  -16.1293
+            6   C8y C    20.8224  -15.4309
+            7   N5x N    18.2383  -17.9453
+            8   C8x C    17.4700  -16.8278
+            9   N4y N    18.2383  -15.7103
+            10  O5x O    20.8224  -14.0341
+            11  O5x O    23.1971  -18.2246
+            12  C1b C    17.7839  -14.3894
+            13  C1y C    16.3784  -14.1158
+            14  O2x O    15.7797  -12.8300
+            15  C1x C    14.3717  -13.0021
+            16  C1x C    14.1003  -14.3943
+            17  O2x O    15.3405  -15.0826
+            18  C1a C    20.7693  -19.6120
+            19  C1a C    23.2224  -15.4357
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    6  10 2
+            12    2  11 2
+            13    9  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   13  17 1
+            20    3  18 1
+            21    1  19 1
+///

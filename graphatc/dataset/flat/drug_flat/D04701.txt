@@ -1,0 +1,86 @@
+ENTRY       D04701                      Drug
+NAME        Levalbuterol sulfate (USAN)
+FORMULA     C13H21NO3. H2SO4
+EXACT_MASS  337.1195
+MOL_WEIGHT  337.3892
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01235
+            Product (DG01235): D02281<US> D04703<US>
+EFFICACY    Antiasthmatic, Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01235  Levalbuterol
+                  D04701  Levalbuterol sulfate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D04701  Levalbuterol sulfate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01235  Levalbuterol
+DBLINKS     CAS: 148563-16-0
+            PubChem: 47206532
+            LigandBox: D04701
+ATOM        22
+            1   C8y C     7.6206   -6.6429
+            2   C8x C     6.4311   -7.3426
+            3   C1c C     8.8100   -7.3426
+            4   C8x C     7.6206   -5.2435
+            5   C8y C     5.1716   -6.6429
+            6   C1b C    10.0695   -6.6429
+            7   O1a O     8.8100   -8.7420
+            8   C8x C     6.4311   -4.5438
+            9   C8y C     5.1716   -5.2435
+            10  C1b C     3.9822   -7.3426
+            11  N1b N    11.2590   -7.3426
+            12  O1a O     3.9822   -4.5438
+            13  O1a O     2.7927   -6.6429
+            14  C1d C    12.4485   -6.6429
+            15  C1a C    13.7079   -7.3426
+            16  C1a C    12.4485   -5.2435
+            17  C1a C    13.6603   -5.9432
+            18  S4a S    19.6348   -6.8020
+            19  O1d O    19.6348   -5.4067
+            20  O1d O    19.6348   -8.1973
+            21  O1d O    18.2395   -6.8020
+            22  O1d O    21.0301   -6.8020
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     3   6 1
+            6     3   7 1 #Down
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1
+            10    6  11 1
+            11    9  12 1
+            12   10  13 1
+            13   11  14 1
+            14   14  15 1
+            15   14  16 1
+            16    8   9 2
+            17   14  17 1
+            18   18  19 2
+            19   18  20 2
+            20   18  21 1
+            21   18  22 1
+///

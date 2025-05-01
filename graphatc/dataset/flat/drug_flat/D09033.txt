@@ -1,0 +1,248 @@
+ENTRY       D09033                      Drug
+NAME        Voclosporin (JAN/USAN/INN);
+            Lupkynis (TN)
+PRODUCT     LUPKYNIS (Aurinia Pharma U.S.)
+FORMULA     C63H111N11O12
+EXACT_MASS  1213.8414
+MOL_WEIGHT  1214.6219
+CLASS       Immunological agent
+             DG03129  Calcineurin inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L04AD03
+            Product: D09033<US>
+EFFICACY    Immunosuppressant, Calcineurin inhibitor
+  DISEASE   Lupus nephritis [DS:H01500]
+COMMENT     Cyclosporine [DR:D00184] analog
+TARGET      PPP3C/PPP3R/CHP [HSA:5530 5532 5533 5534 5535 11261 63928] [KO:K04348 K06268 K17610 K17611]
+  PATHWAY   hsa04010(5530+5532+5533+5534+5535)  MAPK signaling pathway
+            hsa04218(5530+5532+5533+5534+5535)  Cellular senescence
+            hsa04380(5530+5532+5533+5534+5535)  Osteoclast differentiation
+            hsa04650(5530+5532+5533+5534+5535)  Natural killer cell mediated cytotoxicity
+            hsa04658(5530+5532+5533+5534+5535)  Th1 and Th2 cell differentiation
+            hsa04659(5530+5532+5533+5534+5535)  Th17 cell differentiation
+            hsa04660(5530+5532+5533+5534+5535)  T cell receptor signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AD Calcineurin inhibitors
+                 L04AD03 Voclosporin
+                  D09033  Voclosporin (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Immunological Agents
+              Immunosuppressants
+               Calcineurin Inhibitors
+                Voclosporin
+                 D09033  Voclosporin (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Immunological agent
+              DG03129  Calcineurin inhibitor
+               D09033  Voclosporin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D09033  Voclosporin
+            Drug classes [BR:br08332]
+             Immunological agent
+              DG03129  Calcineurin inhibitor
+               D09033  Voclosporin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphatases
+                PPP3C/PPP3R/CHP
+                 D09033  Voclosporin (JAN/USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09033
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09033
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09033
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09033
+DBLINKS     CAS: 515814-01-4
+            PubChem: 96025716
+            LigandBox: D09033
+ATOM        86
+            1   C1c C    28.3500  -15.1200
+            2   N1c N    27.3000  -15.7500
+            3   C5a C    29.4700  -15.7500
+            4   C1c C    28.3500  -13.8600
+            5   C5a C    26.1800  -15.1200
+            6   C1a C    27.3000  -17.0100
+            7   N1b N    30.5900  -15.1200
+            8   O5a O    29.4700  -17.0100
+            9   C1c C    29.4700  -13.2300
+            10  O1a O    27.3000  -13.2300
+            11  C1c C    25.1300  -15.7500
+            12  O5a O    26.1800  -13.8600
+            13  C1c C    31.6400  -15.7500
+            14  C1a C    30.5900  -13.8600
+            15  N1c N    24.0100  -15.1200
+            16  C1c C    25.1300  -17.4300
+            17  C5a C    32.7600  -15.1200
+            18  C1b C    31.6400  -17.0100
+            19  C5a C    22.8900  -15.7500
+            20  C1a C    24.0100  -13.8600
+            21  C1a C    24.0800  -18.0600
+            22  C1a C    26.2500  -18.0600
+            23  N1c N    33.8100  -15.7500
+            24  O5a O    32.7600  -13.8600
+            25  C1c C    21.8400  -15.1200
+            26  O5a O    22.8900  -17.0100
+            27  C1b C    33.8100  -17.0100
+            28  C1a C    34.9300  -15.1200
+            29  N1c N    20.7200  -15.7500
+            30  C1b C    21.8400  -13.8600
+            31  C5a C    34.9300  -17.6400
+            32  C5a C    20.7200  -19.1100
+            33  C1a C    19.4600  -15.7500
+            34  C1c C    20.7200  -13.2300
+            35  N1c N    34.9300  -19.2500
+            36  O5a O    36.0500  -17.0100
+            37  C1c C    19.6700  -20.9300
+            38  C1a C    20.7200  -11.9700
+            39  C1a C    19.6700  -13.8600
+            40  C1c C    34.9300  -22.1900
+            41  C1a C    36.1900  -19.2500
+            42  N1c N    19.6700  -22.1900
+            43  C1b C    18.5500  -20.3000
+            44  C5a C    33.8100  -22.8200
+            45  C1b C    36.0500  -22.8200
+            46  C5a C    20.7200  -22.8200
+            47  C1a C    18.5500  -22.8200
+            48  C1c C    17.4300  -20.9300
+            49  N1b N    32.7600  -22.1900
+            50  O5a O    33.8100  -24.0800
+            51  C1c C    37.1000  -22.1900
+            52  C1c C    21.8400  -22.1900
+            53  O5a O    20.7200  -24.0800
+            54  C1a C    16.3800  -20.3000
+            55  C1c C    31.6400  -22.8200
+            56  C1a C    38.2200  -22.8200
+            57  C1a C    37.1000  -20.9300
+            58  N1b N    22.8900  -22.8200
+            59  C1a C    21.8400  -21.0000
+            60  C5a C    30.5900  -22.1900
+            61  C1c C    31.6400  -24.5000
+            62  C5a C    24.0100  -22.1900
+            63  N1c N    29.4700  -22.8200
+            64  O5a O    30.5900  -20.9300
+            65  C1a C    30.5200  -25.4100
+            66  C1a C    32.7600  -25.3400
+            67  C1c C    25.1300  -22.8200
+            68  O5a O    24.0100  -20.9300
+            69  C1c C    28.3500  -22.1900
+            70  C1a C    29.4700  -24.0800
+            71  N1b N    26.1800  -22.1900
+            72  C1a C    25.1300  -24.0800
+            73  C5a C    27.3000  -22.8200
+            74  C1b C    28.3500  -19.8800
+            75  O5a O    27.3000  -24.0800
+            76  C1c C    29.4700  -19.2500
+            77  C1a C    29.4700  -17.9900
+            78  C1a C    30.5900  -19.8800
+            79  C1a C    32.8300  -17.7100
+            80  C1a C    17.4300  -22.3300
+            81  O5a O    21.9100  -19.8100
+            82  C1b C    29.4700  -11.8300
+            83  C2b C    30.6600  -11.1300
+            84  C2b C    31.8500  -11.8300
+            85  C2b C    33.0400  -11.1300
+            86  C2a C    34.2581  -11.8201
+BOND        86
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     4  10 1 #Down
+            10    5  11 1
+            11    5  12 2
+            12    7  13 1
+            13    9  14 1 #Up
+            14   11  15 1
+            15   11  16 1 #Down
+            16   13  17 1
+            17   13  18 1 #Down
+            18   15  19 1
+            19   15  20 1
+            20   16  21 1
+            21   16  22 1
+            22   17  23 1
+            23   17  24 2
+            24   19  25 1
+            25   19  26 2
+            26   23  27 1
+            27   23  28 1
+            28   25  29 1
+            29   25  30 1 #Up
+            30   27  31 1
+            31   29  32 1
+            32   29  33 1
+            33   30  34 1
+            34   31  35 1
+            35   31  36 2
+            36   34  38 1
+            37   34  39 1
+            38   35  40 1
+            39   35  41 1
+            40   37  42 1
+            41   37  43 1 #Up
+            42   40  44 1
+            43   40  45 1 #Up
+            44   42  46 1
+            45   42  47 1
+            46   43  48 1
+            47   44  49 1
+            48   44  50 2
+            49   45  51 1
+            50   46  52 1
+            51   46  53 2
+            52   48  54 1
+            53   49  55 1
+            54   51  56 1
+            55   51  57 1
+            56   52  58 1
+            57   52  59 1 #Up
+            58   55  60 1
+            59   55  61 1 #Up
+            60   58  62 1
+            61   60  63 1
+            62   60  64 2
+            63   61  65 1
+            64   61  66 1
+            65   62  67 1
+            66   62  68 2
+            67   63  69 1
+            68   63  70 1
+            69   67  71 1
+            70   67  72 1 #Up
+            71   69  73 1
+            72   69  74 1 #Down
+            73   73  75 2
+            74   74  76 1
+            75   76  77 1
+            76   76  78 1
+            77   71  73 1
+            78   18  79 1
+            79   48  80 1
+            80   32  81 2
+            81   37  32 1
+            82    9  82 1
+            83   82  83 1
+            84   83  84 2
+            85   84  85 1
+            86   85  86 2
+///

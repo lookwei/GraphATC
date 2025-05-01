@@ -1,0 +1,56 @@
+ENTRY       D06217                      Drug
+NAME        Triampyzine sulfate (USAN)
+FORMULA     C9H15N3. H2SO4
+EXACT_MASS  263.094
+MOL_WEIGHT  263.314
+EFFICACY    Muscarinic acetylcholine receptor antagonist
+COMMENT     Pyrazine derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D06217  Triampyzine sulfate (USAN)
+DBLINKS     CAS: 7082-30-6
+            PubChem: 47207875
+            LigandBox: D06217
+            NIKKAJI: J244.739H
+ATOM        17
+            1   C8y C    19.8339  -15.7440
+            2   C8y C    18.6312  -16.4632
+            3   N5x N    18.6528  -17.8644
+            4   C8y C    19.8770  -18.5464
+            5   C8y C    21.0797  -17.8272
+            6   N5x N    21.0582  -16.4259
+            7   C1a C    22.3254  -19.9103
+            8   N1c N    22.3040  -18.5092
+            9   C1a C    23.5067  -17.7900
+            10  C1a C    19.8986  -19.9499
+            11  C1a C    19.8124  -14.3500
+            12  C1a C    17.3940  -15.7741
+            13  S4a S    28.3178  -17.5797
+            14  O1d O    29.7143  -17.5797
+            15  O1d O    26.9214  -17.5494
+            16  O1d O    28.3806  -18.9762
+            17  O1d O    28.3213  -16.1831
+BOND        16
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     7   8 1
+            8     5   8 1
+            9     8   9 1
+            10    4  10 1
+            11    1  11 1
+            12    2  12 1
+            13   13  14 1
+            14   13  15 1
+            15   13  16 2
+            16   13  17 2
+///

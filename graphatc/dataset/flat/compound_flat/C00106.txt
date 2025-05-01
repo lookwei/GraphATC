@@ -1,0 +1,52 @@
+ENTRY       C00106                      Compound
+NAME        Uracil
+FORMULA     C4H4N2O2
+EXACT_MASS  112.0273
+MOL_WEIGHT  112.0868
+REMARK      Same as: D00027
+REACTION    R00966 R00973 R00974 R00975 R00976 R00977 R00978 R01055 
+            R01080 R01876 R02484 R02486 R03131 R09936 R10838 R12544 
+            R12545 R12955
+PATHWAY     map00240  Pyrimidine metabolism
+            map00410  beta-Alanine metabolism
+            map00770  Pantothenate and CoA biosynthesis
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+MODULE      M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate
+            M00939  Pyrimidine degradation, uracil => 3-hydroxypropanoate
+ENZYME      1.3.1.1         1.3.1.2         1.3.3.7         1.14.11.10      
+            1.14.99.46      1.17.99.4       2.4.2.2         2.4.2.3         
+            2.4.2.4         2.4.2.9         2.4.2.57        2.5.1.53        
+            3.2.2.3         3.2.2.8         3.2.2.10        3.5.4.1         
+            4.1.1.66        4.2.1.70
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Bases
+               Pyrimidines
+                C00106  Uracil (Ura)
+DBLINKS     CAS: 66-22-8
+            PubChem: 3406
+            ChEBI: 17568
+            KNApSAcK: C00001513
+            PDB-CCD: URA
+            3DMET: B00026
+            NIKKAJI: J4.842I
+ATOM        8
+            1   N4x N    25.4793  -18.6495
+            2   C8y C    24.2610  -17.9559
+            3   C8y C    25.4793  -20.0543
+            4   C8x C    23.0602  -18.6554
+            5   O5x O    24.2610  -16.5568
+            6   N4x N    24.2726  -20.7598
+            7   O5x O    26.6977  -20.7481
+            8   C8x C    23.0602  -20.0603
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     3   7 2
+            7     4   8 2
+            8     6   8 1
+///

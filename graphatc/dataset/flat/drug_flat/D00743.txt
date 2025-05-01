@@ -1,0 +1,118 @@
+ENTRY       D00743                      Drug
+NAME        Naphazoline hydrochloride (JP18/USP);
+            Albalon (TN);
+            Vasocon (TN)
+FORMULA     C14H14N2. HCl
+EXACT_MASS  246.0924
+MOL_WEIGHT  246.7353
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+REMARK      Same as: C07898
+            ATC code: R01AA08 R01AB02 S01GA01
+            Chemical structure group: DG01032
+            Product (DG01032): D01021<JP>
+EFFICACY    Vasoconstrictor, alpha1-Adrenergic receptor agonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04970(146+147+148)  Salivary secretion
+INTERACTION  
+STR_MAP     map07114  Naphthalene family
+            map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA08 Naphazoline
+                  D00743  Naphazoline hydrochloride (JP18/USP)
+                R01AB Sympathomimetics, combinations excl. corticosteroids
+                 R01AB02 Naphazoline
+                  D00743  Naphazoline hydrochloride (JP18/USP)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01G DECONGESTANTS AND ANTIALLERGICS
+                S01GA Sympathomimetics used as decongestants
+                 S01GA01 Naphazoline
+                  D00743  Naphazoline hydrochloride (JP18/USP)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for ophthalmologic use
+              62 General eye drops
+               D00743  Naphazoline hydrochloride (JP18/USP)
+             Agents for otolaryngologic use
+              70 Nasal sprays for inflammation
+               D00743  Naphazoline hydrochloride (JP18/USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Naphazoline
+                D00743  Naphazoline hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG01032  Naphazoline
+                  D00743  Naphazoline hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D00743  Naphazoline hydrochloride (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00743  Naphazoline hydrochloride
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00743
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG01032  Naphazoline
+DBLINKS     CAS: 550-99-2
+            PubChem: 7847808
+            ChEBI: 7470
+            LigandBox: D00743
+            NIKKAJI: J262.810D
+ATOM        17
+            1   X   Cl   36.6100  -17.9200
+            2   C8y C    30.0300  -18.4100
+            3   C8y C    31.2200  -17.7100
+            4   C8y C    30.0300  -19.8100
+            5   C8x C    28.8400  -17.7100
+            6   C1b C    31.2200  -16.3100
+            7   C8x C    32.5500  -18.4100
+            8   C8x C    31.2200  -20.5100
+            9   C8x C    28.8400  -20.5100
+            10  C8x C    27.5800  -18.4100
+            11  C2y C    32.4800  -15.6100
+            12  C8x C    32.5500  -19.8100
+            13  C8x C    27.5800  -19.8100
+            14  N1x N    33.8100  -16.1000
+            15  N2x N    32.4800  -14.2800
+            16  C1x C    34.6500  -14.9100
+            17  C1x C    33.8100  -13.7900
+BOND        18
+            1     2   3 1
+            2     2   4 2
+            3     2   5 1
+            4     3   6 1
+            5     3   7 2
+            6     4   8 1
+            7     4   9 1
+            8     5  10 2
+            9     6  11 1
+            10    7  12 1
+            11    9  13 2
+            12   11  14 1
+            13   11  15 2
+            14   14  16 1
+            15   15  17 1
+            16    8  12 2
+            17   10  13 1
+            18   16  17 1
+///

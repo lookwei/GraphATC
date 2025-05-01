@@ -1,0 +1,107 @@
+ENTRY       D04201                      Drug
+NAME        Flucloronide (USAN);
+            Fluclorolone acetonide (INN)
+FORMULA     C24H29Cl2FO5
+EXACT_MASS  486.1376
+MOL_WEIGHT  487.3885
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AC02
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC02 Fluclorolone
+                  D04201  Flucloronide (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                D04201  Flucloronide
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D04201  Flucloronide (USAN)
+DBLINKS     CAS: 3693-39-8
+            PubChem: 47206147
+            LigandBox: D04201
+            NIKKAJI: J8.216C
+ATOM        32
+            1   C2x C    18.7600  -29.1900
+            2   C5x C    18.7600  -30.5200
+            3   C2x C    19.9500  -31.2200
+            4   C2y C    21.1400  -30.5200
+            5   C1z C    21.1400  -29.1900
+            6   C2x C    19.9500  -28.4900
+            7   C1y C    22.3300  -31.2200
+            8   C1x C    23.5200  -30.5200
+            9   C1y C    23.5200  -29.1900
+            10  C1z C    22.3300  -28.4900
+            11  C1y C    24.5700  -28.4900
+            12  C1z C    24.5700  -27.1600
+            13  C1x C    23.5200  -26.4600
+            14  C1y C    22.3300  -27.1600
+            15  C1x C    26.8800  -28.4900
+            16  C1y C    26.8800  -27.1600
+            17  C1z C    25.6900  -26.4600
+            18  O5x O    17.6400  -31.2200
+            19  C1a C    21.1400  -27.7900
+            20  X   Cl   22.3300  -29.8200
+            21  X   Cl   21.1400  -26.4600
+            22  C1a C    24.5700  -25.7600
+            23  C5a C    25.6900  -24.6400
+            24  O2x O    27.0900  -25.5500
+            25  O2x O    28.2800  -27.1600
+            26  C1z C    28.4900  -25.5500
+            27  C1a C    29.8900  -25.5500
+            28  C1a C    28.4900  -24.2900
+            29  X   F    22.3300  -32.6200
+            30  O5a O    26.9024  -23.9400
+            31  C1b C    24.4776  -23.9400
+            32  O1a O    23.2821  -24.6304
+BOND        36
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22    5  19 1 #Up
+            23   10  20 1 #Down
+            24   14  21 1 #Up
+            25   12  22 1 #Up
+            26   17  23 1 #Up
+            27   17  24 1 #Down
+            28   16  25 1 #Down
+            29   24  26 1
+            30   26  25 1
+            31   26  27 1
+            32   26  28 1
+            33    7  29 1 #Down
+            34   23  30 2
+            35   23  31 1
+            36   31  32 1
+///

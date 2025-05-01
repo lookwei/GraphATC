@@ -1,0 +1,139 @@
+ENTRY       D00764                      Drug
+NAME        Pipecuronium bromide (JAN/USAN/INN);
+            Arduan (TN)
+FORMULA     C35H62N4O4. 2Br
+EXACT_MASS  760.3138
+MOL_WEIGHT  762.6992
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01696  Peripherally-acting muscle relaxant
+               DG03117  Nondepolarizing neuromuscular blocking agent
+             DG01742  Quaternary ammonium compound type muscle relaxant
+REMARK      ATC code: M03AC06
+EFFICACY    Neuromuscular blocking agent
+TARGET      CHRN (neuronal type) [HSA:1135 1136 1137 1138 8973 1139 55584 57053 1141 1142 1143] [KO:K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04813 K04814 K04815]
+  PATHWAY   hsa04080(1135+1136+1137+1138+1139+1141+1142+1143+55584+57053+8973)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03A MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS
+                M03AC Other quaternary ammonium compounds
+                 M03AC06 Pipecuronium bromide
+                  D00764  Pipecuronium bromide (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 D00764  Pipecuronium bromide
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               D00764  Pipecuronium bromide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN (neuronal type)
+                 D00764  Pipecuronium bromide (JAN/USAN/INN)
+DBLINKS     CAS: 52212-02-9
+            PubChem: 7847829
+            ChEBI: 8231
+            LigandBox: D00764
+            NIKKAJI: J281.027A
+ATOM        45
+            1   C1y C    26.3513  -19.6618
+            2   C1y C    25.1118  -20.3392
+            3   C1z C    26.2988  -18.3126
+            4   C1x C    28.6265  -19.6906
+            5   C1y C    23.9479  -19.6444
+            6   C1x C    25.1118  -21.6941
+            7   C1y C    27.4799  -17.6525
+            8   C1x C    25.1347  -17.6236
+            9   C1a C    26.3277  -17.0214
+            10  C1y C    28.6438  -18.3416
+            11  C1z C    22.6971  -20.3219
+            12  C1x C    23.9594  -18.2953
+            13  C1x C    23.9363  -22.3658
+            14  O7a O    27.5610  -16.0022
+            15  N1y N    29.8251  -17.6757
+            16  C1y C    22.6909  -21.6885
+            17  C1x C    21.5912  -19.6386
+            18  C1a C    22.6150  -19.0133
+            19  C7a C    26.3913  -15.3016
+            20  C1x C    30.9889  -18.3705
+            21  C1x C    29.8365  -16.3266
+            22  C1x C    21.5912  -22.3600
+            23  C1y C    20.4216  -20.3219
+            24  C1a C    25.2101  -15.9733
+            25  O6a O    26.4087  -13.9467
+            26  C1x C    32.1759  -17.7104
+            27  C1x C    31.0178  -15.6549
+            28  C1y C    20.4216  -21.6885
+            29  N1y N    19.1013  -19.4359
+            30  N2y N    32.1932  -16.3555 #+
+            31  O7a O    19.2403  -22.3600
+            32  C1x C    19.1072  -18.0867
+            33  C1x C    17.9258  -20.1249
+            34  C7a C    19.2403  -23.7151
+            35  C1x C    17.9258  -17.4093
+            36  C1x C    16.7504  -19.4417
+            37  C1a C    18.0592  -24.3983
+            38  O6a O    20.4216  -24.3983
+            39  N2y N    16.7563  -18.0867 #+
+            40  C1a C    15.5458  -17.3855
+            41  C1a C    15.5523  -18.7818
+            42  C1a C    33.6164  -15.6757
+            43  C1a C    33.6058  -17.0506
+            44  X   Br   16.6600  -15.6100 #-
+            45  X   Br   32.2700  -19.4600 #-
+BOND        48
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1 #Up
+            14   10  15 1 #Up
+            15   11  16 1
+            16   11  17 1
+            17   11  18 1 #Up
+            18   14  19 1
+            19   15  20 1
+            20   15  21 1
+            21   16  22 1
+            22   17  23 1
+            23   19  24 1
+            24   19  25 2
+            25   20  26 1
+            26   21  27 1
+            27   22  28 1
+            28   23  29 1 #Up
+            29   26  30 1
+            30   28  31 1 #Down
+            31   29  32 1
+            32   29  33 1
+            33   31  34 1
+            34   32  35 1
+            35   33  36 1
+            36   34  37 1
+            37   34  38 2
+            38   35  39 1
+            39    7  10 1
+            40    8  12 1
+            41   13  16 1
+            42   23  28 1
+            43   27  30 1
+            44   36  39 1
+            45   39  40 1
+            46   39  41 1
+            47   30  42 1
+            48   30  43 1
+///

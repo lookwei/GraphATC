@@ -1,0 +1,130 @@
+ENTRY       D00844                      Drug
+NAME        Oxymorphone hydrochloride (USP);
+            Numorphan (TN);
+            Opana (TN)
+PRODUCT
+  GENERIC   OXYMORPHONE HYDROCHLORIDE (Amneal Pharmaceuticals LLC)
+            OXYMORPHONE HYDROCHLORIDE (Amneal Pharmaceuticals of New York LLC)
+            OXYMORPHONE HYDROCHLORIDE (Aurolife Pharma)
+            OXYMORPHONE HYDROCHLORIDE (Bryant Ranch Prepack)
+            OXYMORPHONE HYDROCHLORIDE (Bryant Ranch Prepack)
+            OXYMORPHONE HYDROCHLORIDE (Camber Pharmaceuticals)
+            OXYMORPHONE HYDROCHLORIDE (Epic Pharma)
+            OXYMORPHONE HYDROCHLORIDE (Hikma Pharmaceuticals USA)
+            OXYMORPHONE HYDROCHLORIDE (KVK-Tech)
+            OXYMORPHONE HYDROCHLORIDE (Lake Erie Medical DBA Quality Care Products LLC)
+            OXYMORPHONE HYDROCHLORIDE (Quality Care Products)
+            OXYMORPHONE HYDROCHLORIDE (XLCare Pharmaceuticals)
+FORMULA     C17H19NO4. HCl
+EXACT_MASS  337.1081
+MOL_WEIGHT  337.798
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      ATC code: N02AA11
+            Chemical structure group: DG01343
+            Product (DG01343): D00844<US>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AA Natural opium alkaloids
+                 N02AA11 Oxymorphone
+                  D00844  Oxymorphone hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Long-acting
+               Oxymorphone
+                D00844  Oxymorphone hydrochloride (USP)
+              Opioid Analgesics, Short-acting
+               Oxymorphone
+                D00844  Oxymorphone hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01343  Oxymorphone
+                 D00844  Oxymorphone hydrochloride
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01343  Oxymorphone
+                D00844  Oxymorphone hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D00844  Oxymorphone hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01343  Oxymorphone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01343  Oxymorphone
+DBLINKS     CAS: 357-07-3
+            PubChem: 7847909
+            ChEBI: 7866
+            LigandBox: D00844
+            NIKKAJI: J219.953J
+ATOM        23
+            1   X   Cl   28.8996  -15.0125
+            2   C1z C    23.5917  -17.6850
+            3   C8y C    23.5857  -16.3337
+            4   C1z C    24.7573  -18.3521
+            5   C1y C    22.4376  -18.3637
+            6   C8y C    22.4201  -15.6610
+            7   C8y C    24.7515  -15.6610
+            8   C1y C    25.9174  -17.6677
+            9   C1x C    24.7630  -19.6859
+            10  O1a O    25.9174  -19.2917
+            11  O2x O    21.7357  -17.0300
+            12  C5x C    22.4433  -19.6975
+            13  C8y C    22.4201  -14.3156
+            14  C1x C    25.9174  -16.3278
+            15  C8x C    24.7515  -14.3156
+            16  N1y N    27.0771  -18.3403
+            17  C1x C    23.6090  -20.3645
+            18  O5x O    21.2660  -20.3586
+            19  C8x C    23.5857  -13.6429
+            20  O1a O    21.2486  -13.6429
+            21  C1a C    28.4226  -18.3403
+            22  C1x C    27.0771  -17.0172
+            23  C1x C    24.7979  -16.9886
+BOND        26
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     3   6 1
+            5     3   7 2
+            6     4   8 1
+            7     4   9 1
+            8     4  10 1 #Up
+            9     5  11 1 #Down
+            10    5  12 1
+            11    6  13 2
+            12    7  14 1
+            13    7  15 1
+            14    8  16 1 #Up
+            15    9  17 1
+            16   12  18 2
+            17   13  19 1
+            18   13  20 1
+            19   16  21 1
+            20    6  11 1
+            21    8  14 1
+            22   12  17 1
+            23   15  19 2
+            24    2  23 1 #Up
+            25   23  22 1
+            26   16  22 1 #Up
+///

@@ -1,0 +1,50 @@
+ENTRY       D12475                      Drug
+NAME        Ulotaront hydrochloride (USAN)
+FORMULA     C9H13NOS. HCl
+EXACT_MASS  219.0485
+MOL_WEIGHT  219.7316
+REMARK      Chemical structure group: DG03247
+EFFICACY    Neuroleptic, Trace amine associated receptor agonist
+TARGET      TAAR1 [HSA:134864] [KO:K05051]
+            HTR1A [HSA:3350] [KO:K04153]
+  PATHWAY   hsa04080(134864+3350)  Neuroactive ligand-receptor interaction
+            hsa04726(3350)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1A
+                 D12475  Ulotaront hydrochloride (USAN)
+               Trace amine
+                TAAR1
+                 D12475  Ulotaront hydrochloride (USAN)
+DBLINKS     CAS: 1310422-41-3
+ATOM        13
+            1   C1x C    15.5977  -14.4836
+            2   C1x C    15.5977  -15.8762
+            3   C8y C    16.8511  -16.5725
+            4   C8y C    18.0348  -15.8762
+            5   C1y C    18.0348  -14.4836
+            6   O2x O    16.8511  -13.7873
+            7   C1b C    19.2185  -13.7873
+            8   N1b N    20.4719  -14.4836
+            9   C1a C    21.6556  -13.7873
+            10  C8x C    17.1296  -17.9652
+            11  C8x C    18.5222  -18.1044
+            12  S2x S    19.0793  -16.8511
+            13  X   Cl   22.6800  -17.7800
+BOND        13
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1 #Up
+            8     7   8 1
+            9     8   9 1
+            10    3  10 1
+            11   10  11 2
+            12   11  12 1
+            13    4  12 1
+///

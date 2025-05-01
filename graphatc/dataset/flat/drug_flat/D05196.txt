@@ -1,0 +1,79 @@
+ENTRY       D05196                      Drug
+NAME        Noberastine (USAN/INN)
+FORMULA     C17H21N5O
+EXACT_MASS  311.1746
+MOL_WEIGHT  311.3815
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+EFFICACY    Antihistaminic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D05196  Noberastine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D05196  Noberastine (USAN/INN)
+DBLINKS     CAS: 110588-56-2
+            PubChem: 47206915
+            LigandBox: D05196
+ATOM        23
+            1   N1x N    26.7030  -19.6775
+            2   C1x C    27.8981  -20.3805
+            3   C1x C    29.1635  -19.6775
+            4   C1y C    29.1635  -18.2715
+            5   C1x C    27.8981  -17.5686
+            6   C1x C    26.7030  -18.2715
+            7   N1b N    30.3586  -17.5686
+            8   C8y C    31.5536  -18.2715
+            9   N5x N    31.5544  -19.6672
+            10  C8y C    32.8952  -20.0901
+            11  C8y C    33.6992  -18.9432
+            12  N4y N    32.8803  -17.8004
+            13  C8x C    33.5166  -21.3917
+            14  C8x C    34.8961  -21.3884
+            15  C8x C    35.7001  -20.3115
+            16  N5x N    35.1246  -18.9580
+            17  C1b C    32.8803  -16.4004
+            18  C8y C    34.1164  -15.6869
+            19  C8x C    34.1164  -14.2869
+            20  O2x O    35.4479  -16.1195
+            21  C8y C    36.2708  -14.9869
+            22  C8x C    35.4479  -13.8543
+            23  C1a C    37.6600  -14.9869
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     9  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12   8 1
+            13    9   8 2
+            14   10  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   12  17 1
+            20   17  18 1
+            21   18  19 2
+            22   18  20 1
+            23   20  21 1
+            24   21  22 2
+            25   19  22 1
+            26   21  23 1
+///

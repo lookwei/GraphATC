@@ -1,0 +1,97 @@
+ENTRY       D01180                      Drug
+NAME        Trilostane (JAN/USAN);
+            Desopan (TN);
+            Modrenal (TN)
+FORMULA     C20H27NO3
+EXACT_MASS  329.1991
+MOL_WEIGHT  329.4333
+REMARK      Same as: C12580
+            Therapeutic category: 2499
+            ATC code: H02CA01
+            Product: D01180<JP>
+EFFICACY    Antisecretory (hormone), Adrenocortical hormone biosynthesis inhibitor
+COMMENT     Androstene derivative
+TARGET      HSD3B [HSA:3283 3284] [KO:K00070]
+  PATHWAY   hsa00140(3283+3284)  Steroid hormone biosynthesis
+            hsa04925(3283+3284)  Aldosterone synthesis and secretion
+            hsa04934(3283+3284)  Cushing syndrome
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02C ANTIADRENAL PREPARATIONS
+                H02CA Anticorticosteroids
+                 H02CA01 Trilostane
+                  D01180  Trilostane (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D01180  Trilostane (JAN/USAN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                HSD3B
+                 D01180  Trilostane (JAN/USAN) &lt;JP&gt;
+DBLINKS     CAS: 13647-35-3
+            PubChem: 7848243
+            ChEBI: 32260
+            LigandBox: D01180
+            NIKKAJI: J108.016D
+ATOM        24
+            1   C2y C    21.9478  -18.5968
+            2   C2y C    21.9478  -19.9662
+            3   C1x C    23.1401  -17.9120
+            4   C1z C    24.3252  -18.5968
+            5   C1x C    25.4984  -20.6561
+            6   C1x C    26.6906  -19.9765
+            7   C1y C    25.5103  -17.9171
+            8   C1y C    26.6906  -18.6100
+            9   C1x C    26.7135  -15.8782
+            10  C1x C    25.4518  -16.5514
+            11  C1z C    27.8869  -16.5712
+            12  C1y C    27.8771  -17.9326
+            13  C1x C    30.2816  -17.9151
+            14  C1x C    30.3217  -16.6003
+            15  C1y C    29.0777  -15.9048
+            16  O1a O    29.0945  -14.5357
+            17  C1a C    27.8845  -15.2013
+            18  C1a C    24.3126  -17.2273
+            19  C1z C    24.3892  -19.9662
+            20  C1y C    23.1392  -20.6513
+            21  O2x O    24.3314  -21.3317
+            22  O1a O    20.7656  -20.6512
+            23  C3b C    20.7658  -17.9113
+            24  N3a N    19.5688  -17.2202
+BOND        28
+            1    19   5 1
+            2     5   6 1
+            3     6   8 1
+            4    11  12 1
+            5    13  14 1
+            6    14  15 1
+            7    15  11 1
+            8    12  13 1
+            9     7   4 1
+            10   15  16 1 #Up
+            11    4   3 1
+            12   11  17 1 #Up
+            13    3   1 1
+            14    1   2 2
+            15    7   8 1
+            16    4  18 1 #Up
+            17    8  12 1
+            18   11   9 1
+            19    9  10 1
+            20   19  20 1
+            21   19  21 1 #Down
+            22   20  21 1 #Down
+            23   10   7 1
+            24    2  22 1
+            25    2  20 1
+            26    1  23 1
+            27    4  19 1
+            28   23  24 3
+///

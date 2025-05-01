@@ -1,0 +1,74 @@
+ENTRY       D03537                      Drug
+NAME        Clevudine (USAN)
+FORMULA     C10H13FN2O5
+EXACT_MASS  260.0809
+MOL_WEIGHT  260.219
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+REMARK      ATC code: J05AF12
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HBV reverse transcriptase [KO:K21037]
+  PATHWAY   ko03230(K21037)  Viral genome structure
+            ko03240(K21037)  Viral replication
+            ko05161(K21037)  Hepatitis B
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF12 Clevudine
+                  D03537  Clevudine (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D03537  Clevudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D03537  Clevudine (USAN)
+DBLINKS     CAS: 163252-36-6
+            PubChem: 47205848
+            LigandBox: D03537
+            NIKKAJI: J945.904I
+ATOM        18
+            1   C1y C    16.6113  -17.4519
+            2   C1y C    17.0318  -18.7836
+            3   C1y C    18.4336  -18.7836
+            4   C1y C    18.8541  -17.4519
+            5   O2x O    17.7327  -16.6108
+            6   C1b C    15.2095  -17.0314
+            7   X   F    19.2045  -19.9050
+            8   O1a O    16.1908  -19.9050
+            9   O1a O    14.1582  -17.9425
+            10  N4y N    20.0844  -16.7626
+            11  C8y C    21.2737  -17.4170
+            12  N4x N    22.4921  -16.7237
+            13  C8y C    22.4773  -15.2806
+            14  C8y C    21.3136  -14.6525
+            15  C8x C    20.0952  -15.3458
+            16  O5x O    21.2538  -18.7992
+            17  O5x O    23.6957  -14.5874
+            18  C1a C    21.3079  -13.2441
+BOND        19
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Down
+            7     3   7 1 #Down
+            8     2   8 1 #Up
+            9     6   9 1
+            10    4  10 1 #Down
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17   11  16 2
+            18   13  17 2
+            19   14  18 1
+///

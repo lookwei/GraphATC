@@ -1,0 +1,101 @@
+ENTRY       D01362                      Drug
+NAME        Tulobuterol hydrochloride (JP18);
+            Hokunalin (TN);
+            Respacal (TN)
+FORMULA     C12H18ClNO. HCl
+EXACT_MASS  263.0844
+MOL_WEIGHT  264.1914
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Same as: C12798
+            Therapeutic category: 2259
+            ATC code: R03AC11 R03CC11
+            Chemical structure group: DG01050
+            Product (DG01050): D02151<JP> D01362<JP>
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC11 Tulobuterol
+                  D01362  Tulobuterol hydrochloride (JP18) &lt;JP&gt;
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CC Selective beta-2-adrenoreceptor agonists
+                 R03CC11 Tulobuterol
+                  D01362  Tulobuterol hydrochloride (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               225  Bronchodilators
+                2259  Others
+                 D01362  Tulobuterol hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01050  Tulobuterol
+                  D01362  Tulobuterol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D01362  Tulobuterol hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01362  Tulobuterol hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01050  Tulobuterol
+DBLINKS     CAS: 56776-01-3
+            PubChem: 7848425
+            ChEBI: 32272
+            LigandBox: D01362
+            NIKKAJI: J215.395E
+ATOM        16
+            1   C8x C    12.2500  -16.1700
+            2   C8x C    12.2500  -14.7700
+            3   C8x C    13.5100  -14.0700
+            4   C8y C    14.7000  -14.7700
+            5   C8y C    14.7000  -16.1700
+            6   C8x C    13.5100  -16.8700
+            7   C1c C    15.8900  -16.8700
+            8   C1b C    17.1500  -16.1700
+            9   O1a O    15.8900  -18.2700
+            10  N1b N    18.3400  -16.8700
+            11  C1d C    19.5300  -16.1700
+            12  C1a C    20.7900  -16.8700
+            13  C1a C    19.5300  -14.7700
+            14  C1a C    20.7200  -15.4700
+            15  X   Cl   15.8900  -14.0700
+            16  X   Cl   24.9900  -16.3100
+BOND        15
+            1     1   2 2
+            2     7   8 1
+            3     2   3 1
+            4     7   9 1
+            5     3   4 2
+            6     8  10 1
+            7     4   5 1
+            8    10  11 1
+            9     5   6 2
+            10   11  12 1
+            11    6   1 1
+            12   11  13 1
+            13   11  14 1
+            14    5   7 1
+            15    4  15 1
+///

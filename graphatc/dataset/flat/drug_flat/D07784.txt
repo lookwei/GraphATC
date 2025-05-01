@@ -1,0 +1,80 @@
+ENTRY       D07784                      Drug
+NAME        Delorazepam (INN);
+            Dadumir (TN)
+FORMULA     C15H10Cl2N2O
+EXACT_MASS  304.017
+MOL_WEIGHT  305.1587
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+EFFICACY    Minor tranquilizer
+COMMENT     Benzodiazepine derivative
+            See Lorazepam [DR:D00365]
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D07784  Delorazepam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D07784  Delorazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D07784  Delorazepam (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D07784
+DBLINKS     CAS: 2894-67-9
+            PubChem: 96024482
+            LigandBox: D07784
+            NIKKAJI: J7.928F
+ATOM        20
+            1   C8y C    19.2939  -13.8384
+            2   N1x N    20.5488  -13.2236
+            3   C5x C    21.8197  -13.8154
+            4   C1x C    22.1454  -15.1685
+            5   C8y C    18.9977  -15.2174
+            6   N2x N    21.2907  -16.2825
+            7   C2y C    19.8880  -16.3002
+            8   C8x C    18.2544  -12.8984
+            9   C8x C    16.9206  -13.3286
+            10  C8y C    16.6243  -14.7076
+            11  C8x C    17.6639  -15.6476
+            12  C8y C    19.3110  -17.5458
+            13  C8x C    17.8890  -17.5396
+            14  C8x C    17.1829  -18.7501
+            15  C8x C    17.8782  -19.9669
+            16  C8x C    19.3002  -19.9733
+            17  C8y C    20.0063  -18.7627
+            18  X   Cl   21.3992  -18.7689
+            19  X   Cl   15.3167  -15.1298
+            20  O5x O    22.8892  -12.9406
+BOND        22
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 2
+            8     1   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    5  11 2
+            13    7  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   12  17 1
+            20   17  18 1
+            21   10  19 1
+            22    3  20 2
+///

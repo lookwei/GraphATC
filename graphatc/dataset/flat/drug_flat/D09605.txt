@@ -1,0 +1,67 @@
+ENTRY       D09605                      Drug
+NAME        Duvoglustat (USAN/INN);
+            1-Deoxynojirimycin
+FORMULA     C6H13NO4
+EXACT_MASS  163.0845
+MOL_WEIGHT  163.1717
+SOURCE      Streptomyces subrutilis [TAX:36818]
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01663  alpha-Glucosidase inhibitor
+REMARK      Same as: C16843
+            Chemical structure group: DG01280
+EFFICACY    Pharmacological chaperone (alpha-glucosidase)
+COMMENT     Pharmacological chaperone
+            Treatment of Pompe disease
+TARGET      GAA [HSA:2548] [KO:K12316]
+  PATHWAY   hsa00052(2548)  Galactose metabolism
+            hsa00500(2548)  Starch and sucrose metabolism
+            hsa04142(2548)  Lysosome
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01663  alpha-Glucosidase inhibitor
+                DG01280  Duvoglustat
+                 D09605  Duvoglustat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Glycosidases
+                GAA
+                 D09605  Duvoglustat (USAN/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01663  alpha-Glucosidase inhibitor
+                DG01280  Duvoglustat
+DBLINKS     CAS: 19130-96-2
+            PubChem: 124490345
+            ChEBI: 44369
+            PDB-CCD: NOJ
+            LigandBox: D09605
+ATOM        11
+            1   C1y C    23.0103  -24.4835
+            2   C1y C    23.0103  -25.8865
+            3   C1y C    24.2028  -26.5880
+            4   C1y C    25.4656  -25.8865
+            5   C1x C    25.4656  -24.4835
+            6   N1x N    24.2028  -23.7819
+            7   C1b C    21.8177  -23.7819
+            8   O1a O    20.6251  -24.4835
+            9   O1a O    21.8177  -26.5880
+            10  O1a O    26.6582  -26.5880
+            11  O1a O    24.2028  -27.9911
+BOND        11
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1 #Up
+            8     7   8 1
+            9     2   9 1 #Down
+            10    4  10 1 #Down
+            11    3  11 1 #Up
+///

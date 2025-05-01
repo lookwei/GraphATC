@@ -1,0 +1,131 @@
+ENTRY       D00289                      Drug
+NAME        Danazol (JP18/USP/INN);
+            Danocrine (TN)
+PRODUCT
+  GENERIC   DANAZOL (Chartwell RX)
+            DANAZOL (Lannett Company)
+            DANAZOL (Proficient Rx LP)
+            DANAZOL (Teva Pharmaceuticals USA)
+FORMULA     C22H27NO2
+EXACT_MASS  337.2042
+MOL_WEIGHT  337.4553
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C06938
+            Therapeutic category: 2499
+            ATC code: G03XA01
+            Product: D00289<JP/US>
+EFFICACY    Anti-endometriosis, Anterior pituitary suppressant
+  DISEASE   Endometriosis [DS:H01639]
+            Hereditary angioedema [DS:H01006]
+COMMENT     antigonadotropin
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+            NR3C3 (PGR) [HSA:5241] [KO:K08556]
+            NR3A1 (ESR1) [HSA:2099] [KO:K08550]
+  PATHWAY   hsa04114(367+5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(2099+5241)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03X OTHER SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+                G03XA Antigonadotropins and similar agents
+                 G03XA01 Danazol
+                  D00289  Danazol (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Androgens
+               Danazol
+                D00289  Danazol (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D00289  Danazol (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               D00289  Danazol
+              DG01666  Progesterone receptor agonist
+               D00289  Danazol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A1 (ESR1)
+                 D00289  Danazol (JP18/USP/INN) &lt;JP/US&gt;
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D00289  Danazol (JP18/USP/INN) &lt;JP/US&gt;
+                NR3C4 (AR)
+                 D00289  Danazol (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00289  Danazol
+DBLINKS     CAS: 17230-88-5
+            PubChem: 7847355
+            ChEBI: 4315
+            PDB-CCD: QA1
+            LigandBox: D00289
+            NIKKAJI: J24.462G
+ATOM        25
+            1   C8y C    11.6900  -13.0200
+            2   C8y C    11.6900  -14.4200
+            3   C2x C    12.9024  -15.1200
+            4   C2y C    14.1149  -14.4200
+            5   C1z C    14.1149  -13.0200
+            6   C1x C    12.9024  -12.3200
+            7   C1x C    15.3273  -15.1200
+            8   C1x C    16.5397  -14.4200
+            9   C1y C    16.5397  -13.0200
+            10  C1y C    15.3273  -12.3200
+            11  C1y C    17.7522  -12.3200
+            12  C1z C    17.7522  -10.9200
+            13  C1x C    16.5397  -10.2200
+            14  C1x C    15.3273  -10.9200
+            15  C1x C    20.1770  -12.3200
+            16  C1x C    20.1770  -10.9200
+            17  C1z C    18.9646  -10.2200
+            18  C8x C    10.3585  -12.5874
+            19  N5x N     9.5356  -13.7200
+            20  O2x O    10.3585  -14.8526
+            21  O1a O    18.9646   -8.8200
+            22  C1a C    14.1149  -11.6200
+            23  C1a C    17.7522   -9.5200
+            24  C3b C    20.1770   -9.5200
+            25  C3a C    21.3895   -8.8200
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    1  18 1
+            22   18  19 2
+            23   19  20 1
+            24    2  20 1
+            25   17  21 1
+            26    5  22 1 #Up
+            27   12  23 1 #Up
+            28   17  24 1 #Down
+            29   24  25 3
+///

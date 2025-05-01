@@ -1,0 +1,64 @@
+ENTRY       D08077                      Drug
+NAME        Indeloxazine (INN)
+FORMULA     C14H17NO2
+EXACT_MASS  231.1259
+MOL_WEIGHT  231.2903
+REMARK      Same as: C10918
+            Chemical structure group: DG02869
+EFFICACY    Antidepressant
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08077  Indeloxazine (INN)
+                SLC6A4 (HTT)
+                 D08077  Indeloxazine (INN)
+DBLINKS     CAS: 60929-23-9
+            PubChem: 96024767
+            ChEBI: 5894
+            LigandBox: D08077
+            NIKKAJI: J23.658F
+ATOM        17
+            1   C8x C    23.6600  -16.1700
+            2   C8x C    23.6600  -17.5700
+            3   C8y C    24.9200  -18.2700
+            4   C8x C    24.9200  -15.4700
+            5   C8y C    26.1100  -16.1700
+            6   C8y C    26.1100  -17.5700
+            7   C1x C    27.4400  -17.9900
+            8   C2x C    28.2800  -16.8700
+            9   C2x C    27.4400  -15.7500
+            10  O2a O    24.9200  -19.6700
+            11  C1b C    23.6600  -20.3700
+            12  C1y C    22.4700  -19.6700
+            13  C1x C    22.4700  -18.2700
+            14  N1x N    21.2800  -17.5700
+            15  C1x C    20.0900  -18.2700
+            16  C1x C    20.0900  -19.6700
+            17  O2x O    21.2800  -20.3700
+BOND        19
+            1     7   8 1
+            2     8   9 2
+            3     9   5 1
+            4     4   1 2
+            5     3  10 1
+            6    10  11 1
+            7     1   2 1
+            8    11  12 1
+            9     2   3 2
+            10    3   6 1
+            11    5   4 1
+            12    5   6 2
+            13    6   7 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  12 1
+///

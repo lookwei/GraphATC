@@ -1,0 +1,77 @@
+ENTRY       D06253                      Drug
+NAME        Tropanserin hydrochloride (USAN)
+FORMULA     C17H23NO2. HCl
+EXACT_MASS  309.1496
+MOL_WEIGHT  309.831
+CLASS       Gastrointestinal agent
+             DG01489  5-HT3-receptor antagonist
+EFFICACY    Antimigraine, Serotonin receptor antagonist
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04080(3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(170572+200909+285242+3356+3357+3358+3359+9177)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               D06253  Tropanserin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2
+                 D06253  Tropanserin hydrochloride (USAN)
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D06253  Tropanserin hydrochloride (USAN)
+DBLINKS     CAS: 85181-38-0
+            PubChem: 47207911
+            LigandBox: D06253
+ATOM        21
+            1   X   Cl   17.5699  -12.3199
+            2   C1x C     6.1838  -10.2008
+            3   C1x C     6.5119   -9.0291
+            4   C1y C     7.3555   -9.9196
+            5   C1y C     7.6836   -8.7479
+            6   N1y N     6.4182   -7.4356
+            7   C1x C     9.2302   -9.9196
+            8   C1x C     8.9490   -8.7479
+            9   C1y C    10.2613  -10.4820
+            10  O7a O    11.3393  -11.3725
+            11  C7a C    12.5579  -11.3725
+            12  C8y C    13.1672  -10.2945
+            13  O6a O    13.1672  -12.4973
+            14  C1a C     5.6691   -6.2514
+            15  C8x C    14.5600  -10.2817
+            16  C8y C    15.2488   -9.0629
+            17  C8x C    14.5377   -7.8570
+            18  C8y C    13.1450   -7.8697
+            19  C8x C    12.4561   -9.0885
+            20  C1a C    12.4246   -6.6487
+            21  C1a C    16.6599   -9.0503
+BOND        22
+            1     2   3 1
+            2     2   4 1
+            3     3   5 1
+            4     4   6 1
+            5     4   7 1
+            6     5   8 1
+            7     7   9 1
+            8     9  10 1
+            9    10  11 1
+            10   11  12 1
+            11   11  13 2
+            12    5   6 1
+            13    8   9 1
+            14    6  14 1
+            15   12  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   12  19 1
+            21   18  20 1
+            22   16  21 1
+///

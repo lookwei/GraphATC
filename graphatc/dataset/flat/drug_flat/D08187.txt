@@ -1,0 +1,102 @@
+ENTRY       D08187                      Drug
+NAME        Metamfetamine (INN);
+            Methamphetamine
+FORMULA     C10H15N
+EXACT_MASS  149.1204
+MOL_WEIGHT  149.2328
+CLASS       Neuropsychiatric agent
+             DG01971  Agents for narcolepsy
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07164
+            ATC code: N06BA03
+            Chemical structure group: DG00968
+            Product (DG00968): D02242<JP/US>
+EFFICACY    Psychostimulant, Stimulant (central)
+TARGET      SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+            SLC18A1 (VMAT1) [HSA:6570] [KO:K08155]
+  PATHWAY   hsa04721(6530+6531+6532+6570+6571)  Synaptic vesicle cycle
+            hsa04726(6532+6570+6571)  Serotonergic synapse
+            hsa04728(6531+6570+6571)  Dopaminergic synapse
+            hsa05031(6531+6570+6571)  Amphetamine addiction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA03 Metamfetamine
+                  D08187  Metamfetamine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01971  Agents for narcolepsy
+               DG00968  Metamfetamine
+                D08187  Metamfetamine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00968  Metamfetamine
+                D08187  Metamfetamine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08187  Metamfetamine (INN)
+                SLC6A3 (DAT1)
+                 D08187  Metamfetamine (INN)
+                SLC6A4 (HTT)
+                 D08187  Metamfetamine (INN)
+               SLC18
+                SLC18A1 (VMAT1)
+                 D08187  Metamfetamine (INN)
+                SLC18A2 (VMAT2)
+                 D08187  Metamfetamine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08187
+            Narcotics and psychotropics in Japan [br08308.html]
+             Stimulants by Control Act Article 2 Appended Table and Cabinet Order
+              D08187
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01971  Agents for narcolepsy
+               DG00968  Metamfetamine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00968  Metamfetamine
+DBLINKS     CAS: 537-46-2
+            PubChem: 96024877
+            ChEBI: 6809
+            PDB-CCD: B40
+            LigandBox: D08187
+            NIKKAJI: J6.362B
+ATOM        11
+            1   C8y C    17.4300  -15.4700
+            2   C1b C    18.6200  -14.7700
+            3   C8x C    16.1700  -14.7700
+            4   C8x C    17.4300  -16.8700
+            5   C1c C    19.8100  -15.4700
+            6   C8x C    14.9800  -15.4700
+            7   C8x C    16.1700  -17.5700
+            8   N1b N    21.0000  -14.7700
+            9   C1a C    19.8100  -16.8700
+            10  C8x C    14.9800  -16.8700
+            11  C1a C    22.2600  -15.4700
+BOND        11
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 2
+            7     5   8 1
+            8     5   9 1 #Up
+            9     6  10 2
+            10    8  11 1
+            11    7  10 1
+///

@@ -1,0 +1,144 @@
+ENTRY       D03822                      Drug
+NAME        Rivastigmine (JAN/USP/INN);
+            Exelon (TN);
+            Prometax (TN)
+PRODUCT     EXELON (Novartis Pharmaceuticals Corporation)
+  GENERIC   RIVASTIGMINE (Amneal Pharmaceuticals LLC)
+            RIVASTIGMINE (Mylan Pharmaceuticals)
+            RIVASTIGMINE (Northstar Rx LLC.)
+            RIVASTIGMINE (Sandoz)
+            RIVASTIGMINE (Zydus Lifesciences Limited)
+            RIVASTIGMINE (Zydus Pharmaceuticals USA)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Adhexpharma)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Alvogen)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Breckenridge Pharmaceutical)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Bryant Ranch Prepack)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Bryant Ranch Prepack)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Bryant Ranch Prepack)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Bryant Ranch Prepack)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Bryant Ranch Prepack)
+            RIVASTIGMINE TRANSDERMAL SYSTEM (Bryant Ranch Prepack)
+FORMULA     C14H22N2O2
+EXACT_MASS  250.1681
+MOL_WEIGHT  250.3367
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+              DG01594  Butyrylcholinesterase inhibitor
+             DG01968  Antidementia agent
+REMARK      Same as: C11766
+            Therapeutic category: 1190
+            ATC code: N06DA03
+            Chemical structure group: DG00984
+            Product (DG00984): D03822<JP/US> D02558<US>
+EFFICACY    Dementia therapeutic agent, Acetylcholinesterase inhibitor
+  DISEASE   Alzheimer's disease [DS:H00056]
+COMMENT     Physostigmine derivative
+TARGET      ACHE [HSA:43] [KO:K01049]
+            BCHE [HSA:590] [KO:K01050]
+  PATHWAY   hsa00564(43)  Glycerophospholipid metabolism
+            hsa04725(43)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07056  Agents for Alzheimer-type dementia
+            map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06D ANTI-DEMENTIA DRUGS
+                N06DA Anticholinesterases
+                 N06DA03 Rivastigmine
+                  D03822  Rivastigmine (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antidementia Agents
+              Cholinesterase Inhibitors
+               Rivastigmine
+                D03822  Rivastigmine (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D03822  Rivastigmine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG00984  Rivastigmine
+                 D03822  Rivastigmine
+               DG01594  Butyrylcholinesterase inhibitor
+                DG00984  Rivastigmine
+                 D03822  Rivastigmine
+              DG01968  Antidementia agent
+               DG00984  Rivastigmine
+                D03822  Rivastigmine
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01968  Antidementia agent
+               D03822  Rivastigmine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D03822  Rivastigmine (JAN/USP/INN) &lt;JP/US&gt;
+                BCHE
+                 D03822  Rivastigmine (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D03822
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D03822
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG00984  Rivastigmine
+               DG01594  Butyrylcholinesterase inhibitor
+                DG00984  Rivastigmine
+              DG01968  Antidementia agent
+               DG00984  Rivastigmine
+DBLINKS     CAS: 123441-03-2
+            PubChem: 17397908
+            ChEBI: 8874
+            LigandBox: D03822
+            NIKKAJI: J982.502I
+ATOM        18
+            1   C8y C    33.4600  -18.9700
+            2   C8x C    34.6500  -18.2700
+            3   C8x C    33.4600  -20.3700
+            4   O7a O    32.2000  -18.2700
+            5   C8y C    35.8400  -18.9700
+            6   C8x C    34.6500  -21.0700
+            7   C7a C    31.0100  -18.9700
+            8   C8x C    35.8400  -20.3700
+            9   N1c N    29.8200  -18.2700
+            10  O6a O    31.0100  -20.3700
+            11  C1a C    28.5600  -18.9700
+            12  C1c C    37.1000  -18.2700
+            13  N1c N    38.2900  -18.9700
+            14  C1a C    37.1000  -16.8700
+            15  C1a C    38.2900  -20.3700
+            16  C1a C    39.4800  -18.2700
+            17  C1b C    29.8200  -16.8700
+            18  C1a C    31.0800  -16.1700
+BOND        18
+            1     5   8 2
+            2     7   9 1
+            3     7  10 2
+            4     9  11 1
+            5     6   8 1
+            6     5  12 1
+            7     1   2 2
+            8    12  13 1
+            9     1   3 1
+            10   12  14 1 #Down
+            11    1   4 1
+            12   13  15 1
+            13    2   5 1
+            14   13  16 1
+            15    3   6 2
+            16    9  17 1
+            17    4   7 1
+            18   17  18 1
+///

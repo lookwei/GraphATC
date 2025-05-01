@@ -1,0 +1,81 @@
+ENTRY       D00314                      Drug
+NAME        Etidronate disodium (JP18/USP);
+            Didronel (TN)
+FORMULA     C2H6O7P2. 2Na
+EXACT_MASS  249.9384
+MOL_WEIGHT  249.9919
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Therapeutic category: 3999
+            ATC code: M05BA01
+            Chemical structure group: DG00780
+            Product (DG00780): D00314<JP>
+EFFICACY    Antiresorptive, Osteoporosis agent
+  DISEASE   Paget's disease of bone [DS:H00437]
+COMMENT     Bisphosphonate
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M05 DRUGS FOR TREATMENT OF BONE DISEASES
+               M05B DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+                M05BA Bisphosphonates
+                 M05BA01 Etidronic acid
+                  D00314  Etidronate disodium (JP18/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D00314  Etidronate disodium (JP18/USP)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00780  Etidronic acid
+                 D00314  Etidronate disodium
+            Drug classes [BR:br08332]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D00314  Etidronate disodium
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00314  Etidronate disodium
+              D00314  Etidronate disodium tablets
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00780  Etidronic acid
+DBLINKS     CAS: 7414-83-7
+            PubChem: 7847380
+            ChEBI: 4906
+            LigandBox: D00314
+            NIKKAJI: J31.845K
+ATOM        13
+            1   C1d C    31.3375  -15.6357
+            2   P1b P    30.0326  -15.6297
+            3   P1b P    32.6071  -15.6357
+            4   C1a C    31.3374  -17.0721
+            5   O1a O    31.3897  -14.1230
+            6   O1c O    30.0326  -17.1309
+            7   O1c O    28.5670  -15.5774 #-
+            8   O1c O    30.0326  -14.1289
+            9   O1c O    32.5953  -17.1309
+            10  O1c O    34.0315  -15.6010 #-
+            11  O1c O    32.6071  -14.1289
+            12  Z   Na   35.3500  -15.5400 #+
+            13  Z   Na   26.3900  -15.6100 #+
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 1
+            7     2   8 2
+            8     3   9 1
+            9     3  10 1
+            10    3  11 2
+///

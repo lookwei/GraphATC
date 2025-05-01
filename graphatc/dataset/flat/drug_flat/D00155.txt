@@ -1,0 +1,95 @@
+ENTRY       D00155                      Drug
+NAME        Pentostatin (JAN/USAN/INN);
+            Nipent (TN)
+PRODUCT     NIPENT (Hospira)
+  GENERIC   PENTOSTATIN (Mylan Institutional LLC)
+FORMULA     C11H16N4O4
+EXACT_MASS  268.1172
+MOL_WEIGHT  268.2691
+SOURCE      Streptomyces antibioticus [TAX:1890]
+CLASS       Antineoplastic
+             DG01500  Adenosine deaminase inhibitor
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+REMARK      Same as: C02267
+            ATC code: L01XX08
+            Product: D00155<US>
+EFFICACY    Antineoplastic, Potentiator
+  DISEASE   Hairy-cell leukemia [DS:H00006]
+TARGET      ADA [HSA:100] [KO:K01488]
+  PATHWAY   hsa00230(100)  Purine metabolism
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX08 Pentostatin
+                  D00155  Pentostatin (JAN/USAN/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01500  Adenosine deaminase inhibitor
+               D00155  Pentostatin
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                D00155  Pentostatin
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D00155  Pentostatin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Adenosine deaminase
+                ADA
+                 D00155  Pentostatin (JAN/USAN/INN) &lt;US&gt;
+DBLINKS     CAS: 53910-25-1
+            PubChem: 7847223
+            ChEBI: 27834
+            PDB-CCD: DCF
+            LigandBox: D00155
+            NIKKAJI: J10.843J
+ATOM        19
+            1   C1y C    24.9687  -16.6452
+            2   C1x C    24.5490  -17.9741
+            3   O2x O    23.8496  -15.8059
+            4   C1y C    22.7305  -16.6452
+            5   C1y C    23.1502  -17.9741
+            6   O1a O    22.3109  -19.0931
+            7   C1b C    21.4016  -16.1556
+            8   O1a O    21.1219  -14.8267
+            9   N4y N    26.2976  -16.2255
+            10  N2x N    27.3456  -18.5668
+            11  C8y C    27.3651  -17.0139
+            12  C8y C    28.4118  -16.1922
+            13  C1y C    29.9137  -16.5040
+            14  C2x C    28.5105  -19.3721
+            15  C1x C    30.4494  -17.7520
+            16  N1x N    29.8792  -19.0081
+            17  N5x N    28.0308  -14.9210
+            18  C8x C    26.5754  -14.9185
+            19  O1a O    30.7191  -15.3391
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     3   4 1
+            4     4   5 1
+            5     2   5 1
+            6     5   6 1 #Down
+            7     4   7 1 #Up
+            8     7   8 1
+            9     1   9 1 #Up
+            10   12  13 1
+            11   10  14 2
+            12   13  15 1
+            13   11  12 2
+            14   14  16 1
+            15   10  11 1
+            16   15  16 1
+            17   12  17 1
+            18   17  18 2
+            19   18   9 1
+            20   11   9 1
+            21   13  19 1 #Down
+///

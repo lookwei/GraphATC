@@ -1,0 +1,93 @@
+ENTRY       C00157                      Compound
+NAME        Phosphatidylcholine;
+            Lecithin;
+            Phosphatidyl-N-trimethylethanolamine;
+            1,2-Diacyl-sn-glycero-3-phosphocholine;
+            Choline phosphatide;
+            3-sn-Phosphatidylcholine
+FORMULA     C10H18NO8PR2
+REMARK      ATC code: A05BA10
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01309 R01310 R01312 R01313 R01314 R01315 R01316 R01317 
+            R01318 R01319 R01320 R01321 R02114 R04227 R04514 R05794 
+            R07064 R07377 R07859 R07860 R08387 R08969
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map00590  Arachidonic acid metabolism
+            map00591  Linoleic acid metabolism
+            map00592  alpha-Linolenic acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04723  Retrograde endocannabinoid signaling
+            map05231  Choline metabolism in cancer
+MODULE      M00090  Phosphatidylcholine (PC) biosynthesis, choline => PC
+            M00091  Phosphatidylcholine (PC) biosynthesis, PE => PC
+ENZYME      2.1.1.16        2.1.1.71        2.3.1.23        2.3.1.43        
+            2.3.1.62        2.3.1.83        2.3.1.135       2.7.8.2         
+            2.7.8.24        2.7.8.27        3.1.1.4         3.1.1.5         
+            3.1.1.32        3.1.4.3         3.1.4.4
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Phospholipids
+               Glycerophospholipids
+                C00157  Phosphatidylcholine; Lecithin
+            Lipids [BR:br08002]
+             GP  Glycerophospholipids
+              GP01 Glycerophosphocholines
+               GP0101 Diacylglycerophosphocholines
+                C00157  1,2-Diacyl-sn-glycero-3-phosphocholine
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A05 BILE AND LIVER THERAPY
+               A05B LIVER THERAPY, LIPOTROPICS
+                A05BA Liver therapy
+                 A05BA10 Phospholipids
+                  C00157  Phosphatidylcholine
+DBLINKS     CAS: 8002-43-5
+            PubChem: 3457
+            ChEBI: 16110 49183
+ATOM        22
+            1   P1b P    22.3185  -17.9800
+            2   O2b O    20.9987  -17.9800
+            3   O2b O    23.6441  -17.9800
+            4   O1c O    22.3126  -19.3173 #-
+            5   O1c O    22.3243  -16.6602
+            6   C1b C    19.6787  -17.9800
+            7   C1b C    24.7888  -17.3260
+            8   C1c C    19.6671  -16.1522
+            9   C1b C    25.9334  -17.9800
+            10  O7a O    18.1137  -16.1813
+            11  C1b C    19.6787  -14.4409
+            12  N1d N    27.0840  -17.3260 #+
+            13  C7a C    16.7879  -16.1813
+            14  O7a O    20.9987  -14.4409
+            15  C1a C    28.8301  -17.8574
+            16  C1a C    27.0840  -16.0062
+            17  C1a C    27.4227  -18.6048
+            18  O6a O    16.7763  -14.8555
+            19  R   R    15.4681  -16.1813
+            20  C7a C    22.3185  -14.4409
+            21  O6a O    22.3126  -13.1211
+            22  R   R    23.6441  -14.4409
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 2
+            5     2   6 1
+            6     3   7 1
+            7     6   8 1
+            8     7   9 1
+            9     8  10 1
+            10    8  11 1
+            11    9  12 1
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   12  16 1
+            16   12  17 1
+            17   13  18 2
+            18   13  19 1
+            19   14  20 1
+            20   20  21 2
+            21   20  22 1
+///

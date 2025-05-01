@@ -1,0 +1,210 @@
+ENTRY       D01160                      Drug
+NAME        Saquinavir mesylate (USP);
+            Saquinavir mesilate (JAN);
+            Invirase (TN)
+PRODUCT     INVIRASE (Genentech)
+FORMULA     C38H50N6O5. CH4SO3
+EXACT_MASS  766.3724
+MOL_WEIGHT  766.9465
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      Same as: C12560
+            ATC code: J05AE01
+            Chemical structure group: DG00653
+            Product (DG00653): D01160<US>
+EFFICACY    Antiviral, HIV protease inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE01 Saquinavir
+                  D01160  Saquinavir mesylate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Protease Inhibitors (PI)
+               Saquinavir
+                D01160  Saquinavir mesylate (USP)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00653  Saquinavir
+                 D01160  Saquinavir mesylate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00653  Saquinavir
+                 D01160  Saquinavir mesylate
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00653  Saquinavir
+                D01160  Saquinavir mesylate
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D01160  Saquinavir mesylate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D01160  Saquinavir mesylate (USP) &lt;US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01160
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01160
+             Drug transporters
+              D01160
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00653  Saquinavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00653  Saquinavir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00653  Saquinavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00653  Saquinavir
+DBLINKS     CAS: 149845-06-7
+            PubChem: 7848223
+            ChEBI: 32121
+            LigandBox: D01160
+            NIKKAJI: J943.253A
+ATOM        54
+            1   S4a S    35.2171  -19.8824
+            2   C1a C    33.8229  -19.8650
+            3   O1d O    36.6116  -19.8767
+            4   O1d O    35.2171  -18.4765
+            5   O1d O    35.2114  -21.2826
+            6   N1y N    27.3631  -17.7501
+            7   C1y C    28.5708  -17.0476
+            8   C1x C    27.3573  -19.1438
+            9   C1b C    26.1552  -17.0476
+            10  C1x C    29.7728  -17.7501
+            11  C5a C    28.5708  -15.6539
+            12  C1y C    28.5650  -19.8289
+            13  C1c C    24.9475  -17.7443
+            14  C1y C    29.7728  -19.1438
+            15  N1b N    29.7786  -14.9630
+            16  O5a O    27.3747  -14.9571
+            17  C1x C    28.5592  -21.2168
+            18  C1c C    23.7396  -17.0418
+            19  O1a O    24.9416  -19.1380
+            20  C1x C    30.9689  -19.8405
+            21  C1d C    30.9865  -15.6598
+            22  C1x C    29.7612  -21.9252
+            23  C1b C    23.7455  -15.6423
+            24  N1b N    22.5319  -17.7328
+            25  C1x C    30.9573  -21.2342
+            26  C8y C    24.9532  -14.9398
+            27  C5a C    21.3356  -17.0359
+            28  C8x C    26.1611  -14.2429
+            29  C8x C    23.7396  -14.2546
+            30  C1c C    20.1279  -17.7211
+            31  O5a O    21.3356  -15.6366
+            32  C8x C    26.1552  -12.8436
+            33  C8x C    23.7339  -12.8551
+            34  N1b N    18.9202  -17.0243
+            35  C1b C    20.1221  -19.4632
+            36  C8x C    24.9359  -12.1468
+            37  C5a C    17.7123  -17.7154
+            38  C5a C    21.3299  -20.1716
+            39  C8y C    16.5103  -17.0243
+            40  O5a O    17.7123  -19.1088
+            41  N1a N    21.3299  -21.5653
+            42  O5a O    22.5376  -19.4805
+            43  N5x N    15.2967  -17.7095
+            44  C8x C    16.5162  -15.6250
+            45  C8y C    14.0887  -17.0127
+            46  C8x C    15.3083  -14.9223
+            47  C8y C    14.1005  -15.6133
+            48  C8x C    12.8927  -17.7095
+            49  C8x C    12.8927  -14.9165
+            50  C8x C    11.6850  -17.0127
+            51  C8x C    11.6850  -15.6133
+            52  C1a C    32.1934  -16.3566
+            53  C1a C    31.6771  -14.4632
+            54  C1a C    30.2838  -16.8771
+BOND        57
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     1   5 2
+            5     6   7 1
+            6     6   8 1
+            7     6   9 1
+            8     7  10 1
+            9     7  11 1 #Down
+            10    8  12 1
+            11    9  13 1
+            12   10  14 1
+            13   11  15 1
+            14   11  16 2
+            15   12  17 1
+            16   13  18 1
+            17   13  19 1 #Up
+            18   14  20 1
+            19   15  21 1
+            20   17  22 1
+            21   18  23 1 #Up
+            22   18  24 1
+            23   20  25 1
+            24   23  26 1
+            25   24  27 1
+            26   26  28 2
+            27   26  29 1
+            28   27  30 1
+            29   27  31 2
+            30   28  32 1
+            31   29  33 2
+            32   30  34 1
+            33   30  35 1 #Down
+            34   32  36 2
+            35   34  37 1
+            36   35  38 1
+            37   37  39 1
+            38   37  40 2
+            39   38  41 1
+            40   38  42 2
+            41   39  43 2
+            42   39  44 1
+            43   43  45 1
+            44   44  46 2
+            45   45  47 1
+            46   45  48 2
+            47   47  49 2
+            48   48  50 1
+            49   49  51 1
+            50   12  14 1
+            51   22  25 1
+            52   33  36 1
+            53   46  47 1
+            54   50  51 2
+            55   21  52 1
+            56   21  53 1
+            57   21  54 1
+///

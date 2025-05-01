@@ -1,0 +1,48 @@
+ENTRY       C02024                      Compound
+NAME        D-Mannuronate;
+            D-Mannuronic acid
+FORMULA     C6H10O7
+EXACT_MASS  194.0427
+MOL_WEIGHT  194.1394
+REACTION    R02455 R02456
+ENZYME      1.1.1.131
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar acids
+                C02024  D-Mannuronic acid
+DBLINKS     CAS: 6906-37-2
+            PubChem: 5119
+            ChEBI: 16224 30624 79047
+            PDB-CCD: BEM MAV
+            3DMET: B04831
+            NIKKAJI: J265.100I
+ATOM        13
+            1   C1y C    24.9381  -15.1496
+            2   C1y C    24.9381  -16.5486
+            3   O2x O    26.1388  -14.4443
+            4   C6a C    23.7256  -14.5143
+            5   C1y C    26.1388  -17.2423
+            6   O1a O    23.7256  -17.2423
+            7   C1y C    27.3571  -15.1496
+            8   O6a O    22.6589  -15.4236
+            9   O6a O    23.7139  -13.0570
+            10  C1y C    27.3571  -16.5486
+            11  O1a O    26.1388  -18.6413
+            12  O1a O    28.5637  -14.4443
+            13  O1a O    28.5637  -17.2423
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Up
+            11    7  12 1 #Either
+            12   10  13 1 #Up
+            13    7  10 1
+///

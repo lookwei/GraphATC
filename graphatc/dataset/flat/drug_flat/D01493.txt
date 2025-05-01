@@ -1,0 +1,43 @@
+ENTRY       D01493                      Drug
+NAME        Nitrogen mustard N-oxide hydrochloride (JAN)
+FORMULA     C5H11Cl2NO. HCl
+EXACT_MASS  206.9984
+MOL_WEIGHT  208.5139
+CLASS       Antineoplastic
+             DG01677  Alkylating agent
+              DG01678  Nitrogen mustard analog
+EFFICACY    Antineoplastic, Alkylating agent
+TARGET      DNA
+INTERACTION  
+STR_MAP     map07040  Antineoplastics - alkylating agents
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01677  Alkylating agent
+               DG01678  Nitrogen mustard analog
+                D01493  Nitrogen mustard N-oxide hydrochloride
+DBLINKS     CAS: 302-70-5
+            PubChem: 7848556
+            ChEBI: 31913
+            LigandBox: D01493
+            NIKKAJI: J539.865G
+ATOM        10
+            1   C1b C    28.2800  -17.1500
+            2   X   Cl   27.0900  -16.4500
+            3   C1b C    29.4700  -16.4500
+            4   N1d N    30.7300  -17.1500 #+
+            5   C1b C    31.9200  -16.4500
+            6   C1b C    33.1100  -17.1500
+            7   X   Cl   34.3700  -16.4500
+            8   O3a O    30.7300  -15.7500 #-
+            9   C1a C    30.7300  -18.5500
+            10  X   Cl   37.3100  -17.7800
+BOND        8
+            1     4   5 1
+            2     5   6 1
+            3     1   3 1
+            4     6   7 1
+            5     3   4 1
+            6     1   2 1
+            7     4   8 1
+            8     4   9 1
+///

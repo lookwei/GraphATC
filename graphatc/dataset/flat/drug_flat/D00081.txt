@@ -1,0 +1,114 @@
+ENTRY       D00081                      Drug
+NAME        Dinoprost (JP18/USAN/INN);
+            Prosmon (TN)
+FORMULA     C20H34O5
+EXACT_MASS  354.2406
+MOL_WEIGHT  354.481
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+REMARK      Same as: C00639
+            Therapeutic category: 2499
+            ATC code: G02AD01
+            Chemical structure group: DG00447
+            Product (DG00447): D00081<JP>
+EFFICACY    Oxytocic, Prostaglandin F receptor agonist
+COMMENT     Prostaglandin derivative
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07035  Prostaglandins
+            map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AD Prostaglandins
+                 G02AD01 Dinoprost
+                  D00081  Dinoprost (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D00081  Dinoprost (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG00447  Dinoprost
+                 D00081  Dinoprost
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D00081  Dinoprost (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00081  Dinoprost
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG00447  Dinoprost
+DBLINKS     CAS: 551-11-1
+            PubChem: 7847149
+            ChEBI: 15553
+            PDB-CCD: UGU
+            LigandBox: D00081
+            NIKKAJI: J9.246K
+ATOM        25
+            1   C1y C    26.2459  -14.3536
+            2   C1y C    26.2400  -15.7232
+            3   C1y C    24.9454  -13.9393
+            4   C1b C    27.6327  -13.1279
+            5   C1y C    24.9626  -16.1432
+            6   C2b C    27.6270  -16.8801
+            7   C1x C    24.1513  -15.0498
+            8   O1a O    24.5023  -12.6101
+            9   C2b C    28.8066  -13.8184
+            10  O1a O    24.5311  -17.4840
+            11  C2b C    28.8010  -16.2069
+            12  C2b C    30.1531  -13.8184
+            13  C1c C    29.9748  -16.8801
+            14  C1b C    31.3213  -13.1279
+            15  C1b C    31.1489  -16.2069
+            16  O1a O    29.9748  -18.2382
+            17  C1b C    32.4837  -13.8013
+            18  C1b C    32.3227  -16.8801
+            19  C1b C    33.6577  -13.1223
+            20  C1b C    33.5138  -16.2069
+            21  C6a C    34.8258  -13.7897
+            22  C1b C    34.6704  -16.8801
+            23  O6a O    36.0226  -13.0818
+            24  O6a O    34.8373  -15.1706
+            25  C1a C    35.8616  -16.2069
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 1
+            9     5  10 1 #Down
+            10    6  11 2
+            11    9  12 2
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1 #Down
+            16   14  17 1
+            17   15  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25    5   7 1
+///

@@ -1,0 +1,136 @@
+ENTRY       D01908                      Drug
+NAME        Nilvadipine (JP18/USAN/INN);
+            Nivadil (TN)
+FORMULA     C19H19N3O6
+EXACT_MASS  385.1274
+MOL_WEIGHT  385.3707
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2149
+            ATC code: C08CA10
+            Product: D01908<JP>
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA10 Nilvadipine
+                  D01908  Nilvadipine (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D01908  Nilvadipine (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                D01908  Nilvadipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D01908  Nilvadipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01908  Nilvadipine
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01928  Dihydropyridine calcium channel blocker
+               D01908  Nilvadipine
+              DG03231  Antihypertensive
+               D01908  Nilvadipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D01908  Nilvadipine (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01908  Nilvadipine
+              D01908  Nilvadipine tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01908
+DBLINKS     CAS: 75530-68-6
+            PubChem: 7848970
+            ChEBI: 31911
+            LigandBox: D01908
+            NIKKAJI: J22.253D
+ATOM        28
+            1   C1y C    25.7019  -15.9679
+            2   C2y C    26.8926  -15.2676
+            3   C2y C    24.4413  -15.2676
+            4   C8y C    25.7019  -17.3687
+            5   C2y C    26.8926  -13.8668
+            6   C7a C    28.0832  -15.9679
+            7   C2y C    24.4413  -13.8668
+            8   C7a C    23.2507  -15.9679
+            9   C8x C    26.8926  -18.0690
+            10  C8x C    24.5113  -18.0690
+            11  N1x N    25.7019  -13.1665
+            12  C3b C    28.0832  -13.1665
+            13  O7a O    29.3439  -15.2676
+            14  O6a O    28.0832  -17.3687
+            15  C1a C    23.2507  -13.1665
+            16  O7a O    22.0600  -15.2676
+            17  O6a O    23.2507  -17.3687
+            18  C8y C    26.8926  -19.4698
+            19  C8x C    24.5113  -19.4698
+            20  C1a C    30.5345  -15.9679
+            21  C1c C    20.7994  -15.9679
+            22  C8x C    25.7019  -20.1701
+            23  N2b N    28.1532  -20.1701 #+
+            24  O3a O    29.6239  -19.2598
+            25  O3a O    28.1532  -21.5709 #-
+            26  C1a C    20.7994  -17.3687
+            27  C1a C    19.6087  -15.2676
+            28  N3a N    29.3439  -12.4661
+BOND        29
+            1     1   4 1
+            2     2   5 2
+            3     2   6 1
+            4     3   7 2
+            5     3   8 1
+            6     4   9 1
+            7     4  10 2
+            8     5  11 1
+            9     5  12 1
+            10    6  13 1
+            11    6  14 2
+            12    7  15 1
+            13    8  16 1
+            14    8  17 2
+            15    9  18 2
+            16   10  19 1
+            17   13  20 1
+            18   16  21 1
+            19   18  22 1
+            20   18  23 1
+            21   23  24 2
+            22   23  25 1
+            23    7  11 1
+            24   19  22 2
+            25   21  26 1
+            26    1   2 1
+            27   21  27 1
+            28    1   3 1
+            29   12  28 3
+///

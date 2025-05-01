@@ -1,0 +1,212 @@
+ENTRY       D02525                      Drug
+NAME        Erythromycin propionate (USAN)
+FORMULA     C40H71NO14
+EXACT_MASS  789.4875
+MOL_WEIGHT  789.99
+CLASS       Antibacterial
+             DG01551  Macrolide antibiotic
+              DG01874  14-membered ring macrolide antibiotic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      ATC code: D10AF02 J01FA01 S01AA17
+            Chemical structure group: DG00436
+            Product (DG00436): D00140<JP/US> D01361<JP/US> D02009<JP/US> D02184<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     Active form of prodrug: Erythromycin [DR:D00140]
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243]
+STR_MAP     map07020  Macrolides and ketolides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AF Antiinfectives for treatment of acne
+                 D10AF02 Erythromycin
+                  D02525  Erythromycin propionate (USAN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01F MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS
+                J01FA Macrolides
+                 J01FA01 Erythromycin
+                  D02525  Erythromycin propionate (USAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA17 Erythromycin
+                  D02525  Erythromycin propionate (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+                 D02525  Erythromycin propionate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+                D02525  Erythromycin propionate
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+                D02525  Erythromycin propionate
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+                D02525  Erythromycin propionate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                D02525  Erythromycin propionate (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02525
+             Drug transporters
+              D02525
+            Prodrugs [br08324.html]
+             D02525
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                DG00436  Erythromycin
+DBLINKS     CAS: 134-36-1
+            PubChem: 17396699
+            LigandBox: D02525
+            NIKKAJI: J5.592A
+ATOM        55
+            1   C1y C    27.5803  -10.5165
+            2   C1z C    27.5803   -9.1533
+            3   C1y C    26.3962  -11.1924
+            4   O2a O    30.1215  -11.5828
+            5   C1x C    26.3962   -8.4717
+            6   O1a O    28.6084   -8.1656
+            7   C1a C    28.8626   -9.5864
+            8   C1y C    26.3962  -12.5556
+            9   C1a C    25.4255  -10.1707
+            10  C1y C    31.3493   -8.8380
+            11  C1y C    26.3962   -7.1027
+            12  O2a O    27.1356  -13.9130
+            13  C1y C    25.2236  -13.2373
+            14  C1y C    32.5174   -9.5292
+            15  O2x O    31.3613   -7.4753
+            16  C5x C    25.2236   -6.4268
+            17  C1a C    27.5803   -6.4268
+            18  C1y C    28.6516  -14.3309
+            19  C7x C    24.0395  -12.5556
+            20  C1a C    25.2236  -14.6003
+            21  C1y C    33.7729   -8.8676
+            22  O7a O    32.5783  -11.7369
+            23  C1y C    32.5517   -6.8110
+            24  C1y C    24.0395   -7.1027
+            25  O5x O    25.2236   -5.0636
+            26  C1x C    28.6516  -15.6884
+            27  O2x O    29.8358  -13.6494
+            28  O7x O    24.0395  -11.1924
+            29  O6a O    22.9824  -13.5029
+            30  C1x C    33.7173   -7.5100
+            31  N1c N    34.8758   -9.5560
+            32  C1a C    32.5714   -5.4505
+            33  C1y C    24.0395   -8.4717
+            34  C1a C    22.8612   -6.4268
+            35  C1z C    29.8358  -16.3758
+            36  C1y C    31.0082  -14.3309
+            37  C1y C    22.8612  -10.5165
+            38  C1z C    22.8612   -9.1533
+            39  O1a O    25.2236   -9.1533
+            40  C1y C    31.0082  -15.6884
+            41  O2a O    29.8358  -17.6986
+            42  C1a C    31.2798  -17.3578
+            43  C1a C    32.1924  -13.6552
+            44  C1b C    21.6827  -11.1924
+            45  C1a C    21.6135   -9.7192
+            46  O1a O    21.6135   -8.4660
+            47  O1a O    32.1924  -16.3758
+            48  C1a C    30.9332  -18.6575
+            49  C1a C    21.7177  -12.3129
+            50  C1a C    36.1221   -8.8485
+            51  C7a C    33.7745  -12.4386
+            52  O6a O    33.7745  -13.8386
+            53  C1b C    34.9542  -11.7630
+            54  C1a C    36.1447  -12.4561
+            55  C1a C    34.8758  -10.9560
+BOND        57
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9    10   4 1 #Down
+            10    5  11 1
+            11    8  12 1 #Down
+            12    8  13 1
+            13   10  14 1
+            14   10  15 1
+            15   11  16 1
+            16   11  17 1 #Down
+            17   18  12 1 #Down
+            18   13  19 1
+            19   13  20 1 #Up
+            20   14  21 1
+            21   14  22 1 #Up
+            22   15  23 1
+            23   16  24 1
+            24   16  25 2
+            25   18  26 1
+            26   18  27 1
+            27   19  28 1
+            28   19  29 2
+            29   21  30 1
+            30   21  31 1 #Down
+            31   23  32 1 #Down
+            32   24  33 1
+            33   24  34 1 #Up
+            34   26  35 1
+            35   27  36 1
+            36   28  37 1
+            37   33  38 1
+            38   33  39 1 #Up
+            39   35  40 1
+            40   35  41 1 #Down
+            41   35  42 1
+            42   36  43 1 #Up
+            43   37  44 1 #Down
+            44   38  45 1 #Down
+            45   38  46 1 #Up
+            46   40  47 1 #Down
+            47   41  48 1
+            48   44  49 1
+            49   23  30 1
+            50   36  40 1
+            51   37  38 1
+            52   31  50 1
+            53   22  51 1
+            54   51  52 2
+            55   51  53 1
+            56   53  54 1
+            57   31  55 1
+///

@@ -1,0 +1,61 @@
+ENTRY       D10519            Mixture   Drug
+NAME        Rabeprazole, amoxicillin and clarithromycin;
+            Rabecure (TN)
+COMPONENT   (Sodium rabeprazole [DR:D00724] | Rabeprazole [DR:D08463]), (Amoxicillin hydrate [DR:D00229] | Amoxicillin [DR:D07452]), Clarithromycin [DR:D00276]
+CLASS       Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      Therapeutic category: 6199
+            ATC code: A02BD12
+            Product: D10519<JP>
+EFFICACY    Antibacterial
+COMMENT     Rabeprazole sodium is a substrate of CYP2C19 and CYP3A4.
+            Clarithromycin is an inhibitor and a substrate of CYP3A4, and it is an inhibitor of P-gp.
+METABOLISM  Enzyme: CYP2C19 [HSA:1557], CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BD Combinations for eradication of Helicobacter pylori
+                 A02BD12 Rabeprazole, amoxicillin and clarithromycin
+                  D10519  Rabeprazole, amoxicillin and clarithromycin &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               619  Miscellaneous
+                6199  Miscellaneous
+                 D10519  Rabeprazole, amoxicillin and clarithromycin
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D10519  Rabeprazole, amoxicillin and clarithromycin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10519  Rabeprazole, amoxicillin and clarithromycin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                D10519  Rabeprazole, amoxicillin and clarithromycin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10519  Rabeprazole, amoxicillin and clarithromycin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D10519  Rabeprazole, amoxicillin and clarithromycin &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10519
+             Drug transporters
+              D10519
+DBLINKS     PubChem: 254741481
+///

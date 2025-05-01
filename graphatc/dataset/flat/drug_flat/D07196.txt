@@ -1,0 +1,69 @@
+ENTRY       D07196                      Drug
+NAME        Tolpropamine (INN)
+FORMULA     C18H23N
+EXACT_MASS  253.1831
+MOL_WEIGHT  253.3819
+REMARK      ATC code: D04AA12
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AA Antihistamines for topical use
+                 D04AA12 Tolpropamine
+                  D07196  Tolpropamine (INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D07196  Tolpropamine (INN)
+DBLINKS     CAS: 5632-44-0
+            PubChem: 51091534
+            LigandBox: D07196
+            NIKKAJI: J8.034I
+ATOM        19
+            1   C8x C    19.6466  -20.3863
+            2   C8x C    18.4340  -21.0860
+            3   C8x C    17.2329  -20.4051
+            4   C8x C    17.2445  -19.0246
+            5   C8y C    18.4571  -18.3248
+            6   C8x C    19.6581  -19.0057
+            7   C1c C    18.4942  -16.8487
+            8   C8y C    17.2932  -16.1678
+            9   C8x C    16.0200  -16.9025
+            10  C8x C    14.8189  -16.2217
+            11  C8y C    14.8655  -14.7805
+            12  C8x C    16.0687  -14.0458
+            13  C8x C    17.3047  -14.7872
+            14  C1b C    19.6462  -16.1839
+            15  C1b C    20.8823  -16.9254
+            16  N1c N    22.0949  -16.2257
+            17  C1a C    22.0714  -14.7845
+            18  C1a C    23.2959  -16.9065
+            19  C1a C    13.5944  -14.0996
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15    7  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   16  18 1
+            20   11  19 1
+///

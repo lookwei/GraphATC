@@ -1,0 +1,42 @@
+ENTRY       C01508                      Compound
+NAME        L-Lyxose
+FORMULA     C5H10O5
+EXACT_MASS  150.0528
+MOL_WEIGHT  150.1299
+COMMENT     D-Lyxose [CPD:C00476]
+REACTION    R01906
+PATHWAY     map00040  Pentose and glucuronate interconversions
+ENZYME      5.3.1.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C01508  L-Lyxose
+DBLINKS     CAS: 1949-78-6
+            PubChem: 4676
+            ChEBI: 28480 62321
+            3DMET: B04799
+            NIKKAJI: J14.174G
+ATOM        10
+            1   C1y C    25.6493  -16.5201
+            2   C1y C    26.8686  -15.8201
+            3   C1y C    24.4477  -15.8201
+            4   O1a O    25.6610  -17.9202
+            5   C1y C    26.8686  -14.4200
+            6   O1a O    28.0821  -16.5201
+            7   C1x C    24.4477  -14.4200
+            8   O1a O    23.2401  -16.5201
+            9   O2x O    25.6493  -13.7142
+            10  O1a O    28.0821  -13.7142
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Up
+            8     5   9 1
+            9     5  10 1 #Either
+            10    7   9 1
+///

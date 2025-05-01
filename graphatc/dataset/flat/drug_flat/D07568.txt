@@ -1,0 +1,65 @@
+ENTRY       D07568                      Drug
+NAME        Aminomethylbenzoic acid;
+            p-Aminomethylbenzoic acid;
+            Gumbix (TN)
+FORMULA     C8H9NO2
+EXACT_MASS  151.0633
+MOL_WEIGHT  151.1626
+CLASS       Blood modifier agent
+             DG02016  Hemostatics
+              DG02012  Antifibrinolytic
+               DG01540  Plasmin inhibitor
+REMARK      ATC code: B02AA03
+EFFICACY    Antifibrinolytic, Plasmin inhibitor
+TARGET      PLG [HSA:5340] [KO:K01315]
+  PATHWAY   hsa04610(5340)  Complement and coagulation cascades
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B02 ANTIHEMORRHAGICS
+               B02A ANTIFIBRINOLYTICS
+                B02AA Amino acids
+                 B02AA03 Aminomethylbenzoic acid
+                  D07568  Aminomethylbenzoic acid
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG02016  Hemostatics
+               DG02012  Antifibrinolytic
+                DG01540  Plasmin inhibitor
+                 D07568  Aminomethylbenzoic acid
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                PLG
+                 D07568  Aminomethylbenzoic acid
+DBLINKS     CAS: 56-91-7
+            PubChem: 51091888
+            PDB-CCD: 4AZ
+            LigandBox: D07568
+            NIKKAJI: J36.120H
+ATOM        11
+            1   C8x C     9.7300  -16.9400
+            2   C8y C     9.7300  -18.3400
+            3   C8x C    10.9424  -19.0400
+            4   C8x C    12.1549  -18.3400
+            5   C8y C    12.1549  -16.9400
+            6   C8x C    10.9424  -16.2400
+            7   C6a C     8.5176  -19.0400
+            8   O6a O     7.3221  -18.3496
+            9   O6a O     8.5175  -20.4398
+            10  C1b C    13.3860  -16.2290
+            11  N1a N    14.5912  -16.9247
+BOND        11
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     7   9 2
+            10    5  10 1
+            11   10  11 1
+///

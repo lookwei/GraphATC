@@ -1,0 +1,116 @@
+ENTRY       D02688                      Drug
+NAME        Tiospirone hydrochloride (USAN)
+FORMULA     C24H32N4O2S. HCl
+EXACT_MASS  476.2013
+MOL_WEIGHT  477.0624
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+EFFICACY    Antipsychotic
+COMMENT     Buspirone derivative
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            DRD2 [HSA:1813] [KO:K04145]
+            HTR1A [HSA:3350] [KO:K04153]
+            HTR6 [HSA:3362] [KO:K04162]
+            SIGMAR1 [HSA:10280] [KO:K20719]
+  PATHWAY   hsa04080(1813+3350+3356+3357+3358+3362)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3356+3357+3358+3362)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                D02688  Tiospirone hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02688  Tiospirone hydrochloride (USAN)
+               Serotonin
+                HTR1A
+                 D02688  Tiospirone hydrochloride (USAN)
+                HTR2
+                 D02688  Tiospirone hydrochloride (USAN)
+                HTR6
+                 D02688  Tiospirone hydrochloride (USAN)
+             Transporters
+              Other transporters
+               Auxiliary transport proteins (TC:8.A)
+                SIGMAR1
+                 D02688  Tiospirone hydrochloride (USAN)
+DBLINKS     CAS: 87691-92-7
+            PubChem: 17396857
+            LigandBox: D02688
+            NIKKAJI: J400.143E
+ATOM        32
+            1   C1x C    12.3110  -16.5074
+            2   N1y N    12.3110  -17.9064
+            3   C1x C    13.5001  -18.6058
+            4   C1x C    14.7591  -17.9064
+            5   N1y N    14.7591  -16.5074
+            6   C1x C    13.5001  -15.8080
+            7   C8y C    11.1220  -18.6058
+            8   C8y C     9.8629  -18.0462
+            9   C8y C     8.8837  -19.0954
+            10  S2x S     9.5832  -20.2845
+            11  N5x N    10.9821  -20.0047
+            12  C8x C     9.3733  -16.7173
+            13  C8x C     8.0443  -16.4375
+            14  C8x C     7.1351  -17.4167
+            15  C8x C     7.5547  -18.7457
+            16  C1b C    15.9482  -15.8080
+            17  C1b C    17.2072  -16.5074
+            18  C1b C    18.3963  -15.8080
+            19  C1b C    19.5854  -16.5074
+            20  N1y N    20.8444  -15.8080
+            21  C5x C    22.0335  -16.5074
+            22  C1x C    23.2925  -15.8080
+            23  C1z C    23.2915  -14.4109
+            24  C1x C    22.0335  -13.7096
+            25  C5x C    20.8444  -14.4091
+            26  C1x C    24.6010  -14.8392
+            27  C1x C    25.4682  -13.6957
+            28  C1x C    24.6512  -12.5841
+            29  C1x C    23.2881  -13.0050
+            30  O5x O    19.6456  -13.7234
+            31  O5x O    22.0159  -17.9196
+            32  X   Cl   24.7572  -19.3774
+BOND        35
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 1
+            12    7  11 2
+            13    8  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17    9  15 1
+            18    5  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   20  25 1
+            29   23  26 1
+            30   26  27 1
+            31   27  28 1
+            32   28  29 1
+            33   23  29 1
+            34   25  30 2
+            35   21  31 2
+///

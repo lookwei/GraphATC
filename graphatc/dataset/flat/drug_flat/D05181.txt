@@ -1,0 +1,152 @@
+ENTRY       D05181                      Drug
+NAME        Aspirin aluminum (JP18)
+FORMULA     (C9H7O4)2. Al. OH
+EXACT_MASS  402.0531
+MOL_WEIGHT  402.2878
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+            Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01909  Anti-inflammatory drug, salicylic acid derivatives
+REMARK      ATC code: A01AD05 B01AC06 N02BA01
+            Chemical structure group: DG00015
+            Product (DG00015): D00109<JP>
+EFFICACY    Analgesic, COX inhibitor
+COMMENT     Salicylic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AD Other agents for local oral treatment
+                 A01AD05 Acetylsalicylic acid
+                  D05181  Aspirin aluminum (JP18)
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC06 Acetylsalicylic acid
+                  D05181  Aspirin aluminum (JP18)
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02B OTHER ANALGESICS AND ANTIPYRETICS
+                N02BA Salicylic acid and derivatives
+                 N02BA01 Acetylsalicylic acid
+                  D05181  Aspirin aluminum (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              01 Cold remedy (oral use)
+               D05181  Aspirin aluminum (JP18)
+              03 Antipyretic analgesic agents
+               D05181  Aspirin aluminum (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Aspirin
+                D05181  Aspirin aluminum (JP18)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Aspirin
+                D05181  Aspirin aluminum (JP18)
+            Animal drugs in Japan [BR:br08331]
+             91  Agents affecting nervous system
+              913  Antipyretics, analgesics and antiinflammatory
+               9131  Salicylic acids, derivatives and preparations
+                D05181  Aspirin aluminum
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG00015  Acetylsalicylic acid
+                 D05181  Aspirin aluminum
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01909  Anti-inflammatory drug, salicylic acid derivatives
+                DG00015  Acetylsalicylic acid
+                 D05181  Aspirin aluminum
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D05181  Aspirin aluminum (JP18)
+                PTGS2 (COX2)
+                 D05181  Aspirin aluminum (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D05181  Aspirin aluminum
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG00015  Acetylsalicylic acid
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01909  Anti-inflammatory drug, salicylic acid derivatives
+                DG00015  Acetylsalicylic acid
+DBLINKS     CAS: 23413-80-1
+            PubChem: 47206905
+            LigandBox: D05181
+            NIKKAJI: J53.499D
+ATOM        28
+            1   O0  O    29.8220  -21.0720 #-
+            2   C6a C    25.5515  -18.9018
+            3   O6a O    26.9517  -18.9018 #-
+            4   O6a O    27.9318  -21.2821
+            5   C7a C    26.9517  -22.2622
+            6   O7a O    25.5515  -22.2622
+            7   C8y C    24.5714  -21.2821
+            8   C8y C    24.5714  -19.8819
+            9   O6a O    24.9915  -17.6417
+            10  C1a C    27.4417  -23.5923
+            11  C8x C    23.3113  -19.1818
+            12  C8x C    22.1212  -19.8819
+            13  C8x C    22.1212  -21.2821
+            14  C8x C    23.3113  -21.9821
+            15  C6a C    33.6024  -20.6520
+            16  O6a O    32.2023  -20.6520 #-
+            17  O6a O    31.2221  -18.2717
+            18  C7a C    32.2023  -17.2916
+            19  O7a O    33.6024  -17.2916
+            20  C8y C    34.5825  -18.2717
+            21  C8y C    34.5825  -19.6719
+            22  O6a O    34.1625  -21.9121
+            23  C1a C    31.7122  -15.9615
+            24  C8x C    35.8426  -20.3720
+            25  C8x C    37.0328  -19.6719
+            26  C8x C    37.0328  -18.2717
+            27  C8x C    35.8426  -17.5717
+            28  Z   Al   28.9819  -19.4619 #3+
+BOND        26
+            1     2   3 1
+            2     4   5 2
+            3     5   6 1
+            4     6   7 1
+            5     7   8 1
+            6     8   2 1
+            7     2   9 2
+            8     5  10 1
+            9     8  11 2
+            10   11  12 1
+            11   12  13 2
+            12   13  14 1
+            13    7  14 2
+            14   15  16 1
+            15   17  18 2
+            16   18  19 1
+            17   19  20 1
+            18   20  21 1
+            19   21  15 1
+            20   15  22 2
+            21   18  23 1
+            22   21  24 2
+            23   24  25 1
+            24   25  26 2
+            25   26  27 1
+            26   20  27 2
+///

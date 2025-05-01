@@ -1,0 +1,99 @@
+ENTRY       D03077                      Drug
+NAME        Benazeprilat (USAN/INN)
+FORMULA     C22H24N2O5
+EXACT_MASS  396.1685
+MOL_WEIGHT  396.4364
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Same as: C21541
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03077  Benazeprilat
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03077  Benazeprilat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03077  Benazeprilat (USAN/INN)
+            Prodrugs [br08324.html]
+             D03077
+DBLINKS     CAS: 86541-78-8
+            PubChem: 17397232
+            ChEBI: 88200
+            LigandBox: D03077
+            NIKKAJI: J227.999A
+ATOM        29
+            1   C1x C    23.1000  -17.4300
+            2   C8y C    22.1900  -16.3100
+            3   C8y C    22.4700  -14.9800
+            4   N1y N    23.7300  -14.3500
+            5   C1x C    24.5000  -17.4300
+            6   C5x C    24.9900  -14.9100
+            7   C1y C    25.3400  -16.2400
+            8   C8x C    21.4200  -14.0000
+            9   C8x C    20.0900  -14.4900
+            10  C8x C    19.8100  -15.8200
+            11  C8x C    20.8600  -16.7300
+            12  O5x O    26.1100  -14.0000
+            13  N1b N    26.7400  -16.2400
+            14  C1c C    27.4400  -17.5000
+            15  C1b C    28.8400  -17.5000
+            16  C6a C    26.7400  -18.6900
+            17  C1b C    29.5400  -16.2400
+            18  C8y C    30.9400  -16.2400
+            19  O6a O    25.3400  -18.6900
+            20  O6a O    27.4400  -19.8800
+            21  C8x C    31.6400  -17.5000
+            22  C8x C    33.0400  -17.5000
+            23  C8x C    33.7400  -16.3100
+            24  C8x C    33.0400  -15.0500
+            25  C8x C    31.6400  -15.0500
+            26  C1b C    23.7300  -12.9500
+            27  C6a C    24.9424  -12.2500
+            28  O6a O    26.1379  -12.9404
+            29  O6a O    24.9425  -10.8502
+BOND        31
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14    7  13 1 #Up
+            15   13  14 1
+            16   14  15 1 #Up
+            17   14  16 1
+            18   15  17 1
+            19   17  18 1
+            20   16  19 2
+            21   16  20 1
+            22   18  21 2
+            23   21  22 1
+            24   22  23 2
+            25   23  24 1
+            26   24  25 2
+            27   18  25 1
+            28    4  26 1
+            29   26  27 1
+            30   27  28 1
+            31   27  29 2
+///

@@ -1,0 +1,111 @@
+ENTRY       D01146                      Drug
+NAME        Iguratimod (JAN/INN)
+FORMULA     C17H14N2O6S
+EXACT_MASS  374.0573
+MOL_WEIGHT  374.3679
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+            Metabolizing enzyme substrate
+             DG02928  NAT substrate
+REMARK      Therapeutic category: 3999
+            Product: D01146<JP>
+EFFICACY    Antirheumatic, NF-kappa B inhibitor
+TARGET      NFKB1 [HSA:4790] [KO:K02580]
+  PATHWAY   hsa04064(4790)  NF-kappa B signaling pathway
+            hsa04380(4790)  Osteoclast differentiation
+METABOLISM  Enzyme: NAT [HSA:9 10]
+INTERACTION  
+STR_MAP     map07050  Antirheumatics - DMARDs and biological agents
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D01146  Iguratimod (JAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D01146  Iguratimod
+             Metabolizing enzyme substrate
+              DG02928  NAT substrate
+               D01146  Iguratimod
+            Drug classes [BR:br08332]
+             Antirheumatic agent
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D01146  Iguratimod
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Signaling molecules
+               Transcription factor
+                NFKB1
+                 D01146  Iguratimod (JAN/INN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01146
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01146
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01146
+DBLINKS     CAS: 123663-49-0
+            PubChem: 7848209
+            ChEBI: 31689
+            LigandBox: D01146
+ATOM        26
+            1   C8x C    25.2173  -17.9350
+            2   C8x C    25.2173  -20.7366
+            3   C8y C    24.0084  -20.0362
+            4   C8y C    24.0143  -18.6354
+            5   C8y C    22.8042  -17.9299
+            6   O2x O    22.7922  -20.7315
+            7   C8x C    21.5821  -20.0259
+            8   C8y C    21.5948  -18.6288
+            9   N1b N    20.3911  -17.9192
+            10  C4a C    19.1749  -18.6069
+            11  C8y C    26.4334  -18.6354
+            12  C8y C    26.4334  -20.0362
+            13  N1b N    27.6464  -20.7366
+            14  O2a O    27.6464  -17.9350
+            15  S4a S    28.8592  -20.0362
+            16  C1a C    30.0721  -20.7370
+            17  C8y C    27.6464  -16.5342
+            18  C8x C    28.8616  -15.8374
+            19  C8x C    28.8616  -14.4366
+            20  C8x C    27.6484  -13.7362
+            21  C8x C    26.4354  -14.4366
+            22  C8x C    26.4354  -15.8374
+            23  O5x O    22.8069  -16.5291
+            24  O4a O    17.9682  -17.8955
+            25  O3c O    30.0627  -19.3289
+            26  O3c O    27.6360  -19.3358
+BOND        28
+            1     5   8 1
+            2    11  12 2
+            3    12  13 1
+            4    13  15 1
+            5    14  11 1
+            6     7   6 1
+            7     6   3 1
+            8    15  16 1
+            9     2  12 1
+            10   14  17 1
+            11   11   1 1
+            12    1   4 2
+            13    7   8 2
+            14    8   9 1
+            15   17  18 2
+            16   18  19 1
+            17   19  20 2
+            18   20  21 1
+            19   21  22 2
+            20   22  17 1
+            21    9  10 1
+            22    5  23 2
+            23    3   2 2
+            24   10  24 2
+            25    3   4 1
+            26   15  25 2
+            27    4   5 1
+            28   15  26 2
+///

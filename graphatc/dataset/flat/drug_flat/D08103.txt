@@ -1,0 +1,108 @@
+ENTRY       D08103                      Drug
+NAME        Ketoprofen sodium;
+            Orudis (TN)
+FORMULA     C16H13O3. Na
+EXACT_MASS  276.0762
+MOL_WEIGHT  276.2624
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+            Transporter inhibitor
+             DG02883  SLC22A7 inhibitor
+REMARK      ATC code: M01AE03 M02AA10
+            Chemical structure group: DG00753
+            Product (DG00753): D00132<JP/US>
+EFFICACY    Analgesic, Anti-inflammatory, Antipyretic, COX inhibitor
+COMMENT     Propionic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION Transporter inhibition: SLC22A7 [HSA:10864]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE03 Ketoprofen
+                  D08103  Ketoprofen sodium
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA10 Ketoprofen
+                  D08103  Ketoprofen sodium
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00753  Ketoprofen
+                 D08103  Ketoprofen sodium
+             Transporter inhibitor
+              DG02883  SLC22A7 inhibitor
+               DG00753  Ketoprofen
+                D08103  Ketoprofen sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D08103  Ketoprofen sodium
+                PTGS2 (COX2)
+                 D08103  Ketoprofen sodium
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D08103
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00753  Ketoprofen
+             Transporter inhibitor
+              DG02883  SLC22A7 inhibitor
+               DG00753  Ketoprofen
+DBLINKS     CAS: 57495-14-4
+            PubChem: 96024793
+            LigandBox: D08103
+            NIKKAJI: J149.250K
+ATOM        20
+            1   C8x C    18.7600  -17.9200
+            2   C8x C    18.7600  -19.3200
+            3   C8x C    19.9500  -20.0200
+            4   C8x C    21.2100  -19.3200
+            5   C8y C    21.2100  -17.9200
+            6   C8x C    19.9500  -17.2200
+            7   C8x C    23.5900  -19.3200
+            8   C8y C    23.5900  -17.9200
+            9   C5a C    22.4000  -17.2200
+            10  C8x C    24.8500  -20.0200
+            11  C8x C    26.0400  -19.3200
+            12  C8y C    26.0400  -17.9200
+            13  C8x C    24.8500  -17.2200
+            14  O5a O    22.4000  -15.8200
+            15  C1c C    27.2300  -17.2200
+            16  C6a C    28.4200  -17.9200
+            17  C1a C    27.2300  -15.8200
+            18  O6a O    29.6100  -17.2200 #-
+            19  O6a O    28.4200  -19.3200
+            20  Z   Na   32.6900  -17.9900 #+
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 2
+            16   12  15 1
+            17   15  16 1
+            18   15  17 1
+            19   16  18 1
+            20   16  19 2
+///

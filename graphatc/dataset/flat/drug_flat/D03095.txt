@@ -1,0 +1,97 @@
+ENTRY       D03095                      Drug
+NAME        Benzylpenicilloyl polylysine (USP);
+            Pre-pen (TN)
+PRODUCT     PRE-PEN (AllerQuest LLC)
+FORMULA     C16H18N2O4S. (C6H14N2O2)x
+REMARK      Product: D03095<US>
+EFFICACY    Diagnostic aid (penicillin sensitivity)
+COMMENT     Detect immunoglobulin E antibodies in people with a history of penicillin allergy
+TARGET      FCER1A [HSA:2205] [KO:K08089]
+            FCER1G [HSA:2207] [KO:K07983]
+  PATHWAY   hsa04664(2205+2207)  Fc epsilon RI signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Organismal systems
+               Immune system
+                FCER1A
+                 D03095  Benzylpenicilloyl polylysine (USP) &lt;US&gt;
+                FCER1G
+                 D03095  Benzylpenicilloyl polylysine (USP) &lt;US&gt;
+DBLINKS     PubChem: 17397250
+            ChEBI: 59297
+            LigandBox: D03095
+ATOM        33
+            1   C1c C    31.9650  -16.5560
+            2   C1b C    33.1802  -15.8782
+            3   C6a C    30.8141  -15.8081
+            4   N1a N    32.0059  -17.9640
+            5   C1b C    34.3897  -16.5911
+            6   O6a O    29.5871  -16.4918
+            7   O6a O    30.8140  -14.4057
+            8   C1b C    35.6169  -15.9073
+            9   C1b C    36.8264  -16.6262
+            10  N1a N    38.0533  -15.9424
+            11  C1y C    21.6100  -14.7326
+            12  C5x C    21.6100  -16.1374
+            13  N1y N    23.0149  -16.1374
+            14  C1y C    23.0149  -14.7326
+            15  C1y C    24.3494  -16.5588
+            16  C1z C    25.1922  -15.4349
+            17  S2x S    24.3494  -14.3110
+            18  C1a C    26.1757  -16.4183
+            19  C1a C    26.1757  -14.4515
+            20  C6a C    24.8411  -17.8933
+            21  O6a O    26.2458  -17.8933
+            22  O6a O    23.9981  -19.0171
+            23  N1b N    20.4159  -14.0301
+            24  C5a C    19.2218  -14.7326
+            25  O5x O    20.4159  -16.8397
+            26  O5a O    19.2218  -16.1374
+            27  C1b C    18.0023  -14.0350
+            28  C8y C    16.8099  -14.7303
+            29  C8x C    15.5963  -14.0296
+            30  C8x C    14.3828  -14.7303
+            31  C8x C    14.3828  -16.1315
+            32  C8x C    15.5963  -16.8321
+            33  C8x C    16.8099  -16.1315
+BOND        34
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     5   8 1
+            8     8   9 1
+            9     9  10 1
+            10   11  12 1
+            11   12  13 1
+            12   13  14 1
+            13   11  14 1
+            14   13  15 1
+            15   15  16 1
+            16   16  17 1
+            17   14  17 1
+            18   16  18 1
+            19   16  19 1
+            20   15  20 1 #Down
+            21   20  21 1
+            22   20  22 2
+            23   11  23 1 #Up
+            24   23  24 1
+            25   12  25 2
+            26   24  26 2
+            27   24  27 1
+            28   27  28 1
+            29   28  29 2
+            30   29  30 1
+            31   30  31 2
+            32   31  32 1
+            33   32  33 2
+            34   28  33 1
+BRACKET     1    28.3500  -18.7600   28.3500  -13.5100
+            1    39.6200  -13.5100   39.6200  -18.7600
+            1  x
+  ORIGINAL  1    1   2   3   4   5   6   7   8   9  10
+  REPEAT    1 
+///

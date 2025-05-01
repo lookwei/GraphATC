@@ -1,0 +1,69 @@
+ENTRY       D00938                      Drug
+NAME        Tricalcium phosphate;
+            Posture (TN)
+FORMULA     2PO4. 3Ca
+EXACT_MASS  309.7946
+MOL_WEIGHT  310.1767
+CLASS       Gastrointestinal agent
+             DG01980  Calcium
+REMARK      Same as: C08136
+            ATC code: A12AA01
+            Chemical structure group: DG00134
+            Product (DG00134): D00937<JP>
+EFFICACY    Supplement (calcium)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A12 MINERAL SUPPLEMENTS
+               A12A CALCIUM
+                A12AA Calcium
+                 A12AA01 Calcium phosphate
+                  D00938  Tricalcium phosphate
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00134  Calcium phosphate
+                D00938  Tricalcium phosphate
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00134  Calcium phosphate
+DBLINKS     CAS: 7758-87-4
+            PubChem: 7848001
+            ChEBI: 9679
+            LigandBox: D00938
+            NIKKAJI: J203.596K J399.762F
+ATOM        13
+            1   P1b P    29.9096  -20.3499
+            2   O1c O    29.9038  -18.9515
+            3   O1c O    28.5112  -20.3440 #-
+            4   O1c O    31.3082  -20.3499 #-
+            5   O1c O    29.9038  -21.7543 #-
+            6   Z   Ca   34.6845  -20.3831 #2+
+            7   P1b P    29.9096  -20.3499
+            8   O1c O    29.9038  -18.9515
+            9   O1c O    28.5112  -20.3440 #-
+            10  O1c O    31.3082  -20.3499 #-
+            11  O1c O    29.9038  -21.7543 #-
+            12  Z   Ca   34.6845  -20.3831 #2+
+            13  Z   Ca   34.6845  -20.3831 #2+
+BOND        8
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     7   8 2
+            6     7   9 1
+            7     7  10 1
+            8     7  11 1
+BRACKET     1    27.9300  -22.3300   27.9300  -18.3400
+            1    31.9900  -18.3400   31.9900  -22.3300
+            1  2
+  ORIGINAL  1    1   2   3   4   5
+  REPEAT    1    7   8   9  10  11
+            2    33.8800  -21.0000   33.8800  -19.5300
+            2    36.5400  -19.5300   36.5400  -21.0000
+            2  3
+  ORIGINAL  2    6
+  REPEAT    2   12  13
+///

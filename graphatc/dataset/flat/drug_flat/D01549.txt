@@ -1,0 +1,138 @@
+ENTRY       D01549                      Drug
+NAME        Imidapril hydrochloride (JP18);
+            Tanatril (TN)
+FORMULA     C20H27N3O6. HCl
+EXACT_MASS  441.1667
+MOL_WEIGHT  441.9058
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Therapeutic category: 2144
+            ATC code: C09AA16
+            Chemical structure group: DG00347
+            Product (DG00347): D01549<JP>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     Active form of prodrug: Imidaprilat [CPD:C21519]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA16 Imidapril
+                  D01549  Imidapril hydrochloride (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2144  Angiotensin converting enzyme inhibitors
+                 D01549  Imidapril hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00347  Imidapril
+                 D01549  Imidapril hydrochloride
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00347  Imidapril
+                 D01549  Imidapril hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01501  Angiotensin-converting enzyme inhibitor
+               D01549  Imidapril hydrochloride
+              DG03231  Antihypertensive
+               D01549  Imidapril hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D01549  Imidapril hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01549  Imidapril hydrochloride
+              D01549  Imidapril hydrochloride tablets
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00347  Imidapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00347  Imidapril
+            Prodrugs [br08324.html(DG00347)]
+             DG00347
+DBLINKS     CAS: 89396-94-1
+            PubChem: 7848612
+            ChEBI: 31691
+            LigandBox: D01549
+            NIKKAJI: J427.891G
+ATOM        30
+            1   X   Cl   38.7644  -14.3286
+            2   C8x C    21.8083  -15.6375
+            3   C8x C    21.8083  -17.0398
+            4   C8x C    23.0228  -17.7410
+            5   C8x C    24.2373  -17.0398
+            6   C8y C    24.2373  -15.6375
+            7   C8x C    23.0228  -14.9363
+            8   C1b C    25.4768  -14.9363
+            9   C1b C    26.6914  -15.6375
+            10  C1c C    27.9058  -14.9363
+            11  N1b N    29.1202  -15.6375
+            12  C1c C    30.3347  -14.9363
+            13  C5a C    31.5491  -15.6375
+            14  N1y N    32.7635  -14.9363
+            15  C7a C    27.9058  -13.5340
+            16  C1a C    30.3347  -13.5343
+            17  O6a O    29.1223  -12.8316
+            18  O7a O    26.6934  -12.8341
+            19  C1b C    25.4969  -13.5250
+            20  C1a C    24.3071  -12.8381
+            21  O5a O    31.5491  -17.0398
+            22  C5x C    33.8906  -15.7472
+            23  N1y N    35.0069  -14.9244
+            24  C1x C    34.5693  -13.6085
+            25  C1y C    33.1826  -13.5481
+            26  O5x O    33.8994  -17.1798
+            27  C1a C    36.2214  -15.6256
+            28  O6a O    33.1659  -11.1893
+            29  C6a C    32.4732  -12.4085
+            30  O6a O    31.0637  -12.4182
+BOND        30
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   10  15 1 #Up
+            15   12  16 1 #Up
+            16   15  17 2
+            17   15  18 1
+            18   18  19 1
+            19   19  20 1
+            20   13  21 2
+            21   14  22 1
+            22   22  23 1
+            23   23  24 1
+            24   24  25 1
+            25   14  25 1
+            26   22  26 2
+            27   23  27 1
+            28   28  29 1
+            29   25  29 1 #Down
+            30   29  30 2
+///

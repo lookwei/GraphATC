@@ -1,0 +1,108 @@
+ENTRY       D08525                      Drug
+NAME        Sotalol (INN);
+            Darob mite (TN)
+FORMULA     C12H20N2O3S
+EXACT_MASS  272.1195
+MOL_WEIGHT  272.3638
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01648  Class III antiarrhythmic agent
+REMARK      Same as: C07309
+            ATC code: C07AA07
+            Chemical structure group: DG00307
+            Product (DG00307): D01026<JP/US>
+EFFICACY    Antiarrhythmic, beta-Adrenergic receptor antagonist, Potassium channel blocker
+COMMENT     Class III antiarrhythmic agent
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+            ADRB2 [HSA:154] [KO:K04142]
+            KCNH2 [HSA:3757] [KO:K04905]
+  PATHWAY   hsa04020(153+154)  Calcium signaling pathway
+            hsa04080(153+154)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07232  Potassium channel blocking and opening drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA07 Sotalol
+                  D08525  Sotalol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00307  Sotalol
+                 D08525  Sotalol
+              DG01653  Antiarrhythmics
+               DG01648  Class III antiarrhythmic agent
+                DG00307  Sotalol
+                 D08525  Sotalol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D08525  Sotalol (INN)
+                ADRB2
+                 D08525  Sotalol (INN)
+             Ion channels
+              Voltage-gated ion channels
+               Potassium channels
+                KCNH2
+                 D08525  Sotalol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00307  Sotalol
+              DG01653  Antiarrhythmics
+               DG01648  Class III antiarrhythmic agent
+                DG00307  Sotalol
+DBLINKS     CAS: 3930-20-9
+            PubChem: 96025210
+            ChEBI: 63622
+            LigandBox: D08525
+            NIKKAJI: J10.583J
+ATOM        18
+            1   C8y C    24.1500  -17.9900
+            2   C1c C    25.3400  -18.6900
+            3   C8x C    24.1500  -16.5200
+            4   C8x C    22.8900  -18.6900
+            5   C1b C    26.5300  -17.9900
+            6   O1a O    25.3400  -20.0900
+            7   C8x C    22.8900  -15.8200
+            8   C8x C    21.7700  -17.9900
+            9   N1b N    27.7900  -18.6900
+            10  C8y C    21.7700  -16.5200
+            11  C1c C    28.9800  -17.9900
+            12  N1b N    20.5800  -15.8200
+            13  C1a C    30.1700  -18.6900
+            14  C1a C    28.9800  -16.5900
+            15  S4a S    19.3200  -16.5200
+            16  C1a C    18.1300  -15.8200
+            17  O3c O    20.5800  -17.2900
+            18  O3c O    18.2700  -17.2900
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     7  10 1
+            10    9  11 1
+            11   10  12 1
+            12   11  13 1
+            13   11  14 1
+            14   12  15 1
+            15   15  16 1
+            16   15  17 2
+            17   15  18 2
+            18    8  10 2
+///

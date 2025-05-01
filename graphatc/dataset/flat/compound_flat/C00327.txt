@@ -1,0 +1,57 @@
+ENTRY       C00327                      Compound
+NAME        L-Citrulline;
+            2-Amino-5-ureidovaleric acid;
+            Citrulline
+FORMULA     C6H13N3O3
+EXACT_MASS  175.0957
+MOL_WEIGHT  175.1857
+REMARK      Same as: D07706
+REACTION    R00111 R00552 R00557 R00665 R01398 R01954 R02513 R09107 
+            R10106 R10108 R11711 R11713
+PATHWAY     map00220  Arginine biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+MODULE      M00029  Urea cycle
+            M00844  Arginine biosynthesis, ornithine => arginine
+            M00845  Arginine biosynthesis, glutamate => acetylcitrulline => arginine
+ENZYME      1.14.13.39      1.14.14.47      2.1.3.3         3.5.1.16        
+            3.5.1.20        3.5.3.6         3.5.3.18        6.3.4.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C00327  L-Citrulline
+DBLINKS     CAS: 372-75-8
+            PubChem: 3621
+            ChEBI: 16349
+            KNApSAcK: C00001348
+            PDB-CCD: CIR
+            3DMET: B01217
+            NIKKAJI: J5.711H
+ATOM        12
+            1   C1b C    24.4033  -15.4998
+            2   C1b C    25.6020  -16.2213
+            3   C1c C    23.1757  -16.1747
+            4   C1b C    26.8298  -15.5463
+            5   C6a C    21.9829  -15.4532
+            6   N1a N    23.1525  -17.5712
+            7   N1b N    28.0283  -16.2679
+            8   O6a O    20.7552  -16.1398
+            9   O6a O    22.0062  -14.0510
+            10  C5a C    29.2503  -15.5870
+            11  N1a N    30.4488  -16.3085
+            12  O5a O    29.2736  -14.1848
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1 #Down
+            6     4   7 1
+            7     5   8 1
+            8     5   9 2
+            9     7  10 1
+            10   10  11 1
+            11   10  12 2
+///

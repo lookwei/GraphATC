@@ -1,0 +1,116 @@
+ENTRY       D08644                      Drug
+NAME        Trimethoprim lactate;
+            Wellcoprim (TN)
+FORMULA     C14H18N4O3. C3H6O3
+EXACT_MASS  380.1696
+MOL_WEIGHT  380.3957
+CLASS       Antibacterial
+             DG01581  Trimethoprim antibacterial
+            Metabolizing enzyme inhibitor
+             DG01641  CYP2C8 inhibitor
+REMARK      ATC code: J01EA01
+            Chemical structure group: DG00595
+            Product (DG00595): D00145<US>
+            Product (mixture): D11086<US>
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+TARGET      dihydrofolate reductase [KO:K13938]
+  PATHWAY   ko00670(K13938)  One carbon pool by folate
+            ko00790(K13938)  Folate biosynthesis
+INTERACTION CYP inhibition: CYP2C8 [HSA:1558]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EA Trimethoprim and derivatives
+                 J01EA01 Trimethoprim
+                  D08644  Trimethoprim lactate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01581  Trimethoprim antibacterial
+               DG00595  Trimethoprim
+                D08644  Trimethoprim lactate
+             Metabolizing enzyme inhibitor
+              DG01641  CYP2C8 inhibitor
+               DG00595  Trimethoprim
+                D08644  Trimethoprim lactate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Trimethoprim
+                D08644  Trimethoprim lactate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08644
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01581  Trimethoprim antibacterial
+               DG00595  Trimethoprim
+             Metabolizing enzyme inhibitor
+              DG01641  CYP2C8 inhibitor
+               DG00595  Trimethoprim
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Trimethoprim
+                DG00595  Trimethoprim
+DBLINKS     CAS: 23256-42-0
+            PubChem: 96025327
+            LigandBox: D08644
+            NIKKAJI: J321.184C
+ATOM        27
+            1   C8y C    20.0900  -18.9700
+            2   C1b C    21.2800  -19.6700
+            3   C8x C    18.9000  -19.6700
+            4   C8x C    20.0900  -17.5700
+            5   C8y C    22.4700  -18.9700
+            6   C8y C    17.6400  -18.9700
+            7   C8y C    18.9000  -16.8700
+            8   C8y C    23.7300  -19.6700
+            9   C8x C    22.4700  -17.5000
+            10  C8y C    17.6400  -17.5700
+            11  O2a O    16.4500  -19.6700
+            12  O2a O    18.9000  -15.4700
+            13  N5x N    24.9200  -18.9700
+            14  N1a N    23.7300  -21.0700
+            15  N5x N    23.7300  -16.8000
+            16  O2a O    16.4500  -16.9400
+            17  C1a C    15.2600  -18.9000
+            18  C1a C    20.0900  -14.7700
+            19  C8y C    24.9200  -17.5000
+            20  C1a C    16.4500  -15.4700
+            21  N1a N    26.1100  -16.8000
+            22  O1a O    30.8700  -17.7800
+            23  C1c C    32.0824  -18.4800
+            24  C6a C    33.2949  -17.7800
+            25  O6a O    34.5073  -18.4800
+            26  C1a C    32.0824  -19.8798
+            27  O6a O    33.2949  -16.3802
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     6  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1
+            14    9  15 2
+            15   10  16 1
+            16   11  17 1
+            17   12  18 1
+            18   13  19 2
+            19   16  20 1
+            20   19  21 1
+            21    7  10 2
+            22   15  19 1
+            23   22  23 1
+            24   23  24 1
+            25   24  25 1
+            26   23  26 1
+            27   24  27 2
+///

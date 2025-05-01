@@ -1,0 +1,72 @@
+ENTRY       D11383                      Drug
+NAME        Blarcamesine (USAN)
+FORMULA     C19H23NO
+EXACT_MASS  281.178
+MOL_WEIGHT  281.392
+REMARK      Chemical structure group: DG03048
+EFFICACY    Anti-amnesic, Muscarinic/sigma receptor agonist
+COMMENT     Treatment of Rett syndrome
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+            SIGMAR1 [HSA:10280] [KO:K20719]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D11383  Blarcamesine (USAN)
+             Transporters
+              Other transporters
+               Auxiliary transport proteins (TC:8.A)
+                SIGMAR1
+                 D11383  Blarcamesine (USAN)
+DBLINKS     CAS: 195615-83-9
+            PubChem: 384585361
+ATOM        21
+            1   C1z C    15.9600  -16.1000
+            2   C8y C    17.1500  -16.8000
+            3   C8y C    14.7700  -16.8000
+            4   C8x C    13.5800  -16.1000
+            5   C8x C    12.3200  -16.8000
+            6   C8x C    12.3200  -18.2000
+            7   C8x C    13.5100  -18.9000
+            8   C8x C    14.7700  -18.2000
+            9   C8x C    17.1500  -18.2000
+            10  C8x C    18.4100  -18.9000
+            11  C8x C    19.6000  -18.2000
+            12  C8x C    19.6000  -16.8000
+            13  C8x C    18.4100  -16.1000
+            14  C1x C    15.2600  -13.9300
+            15  C1y C    14.8400  -15.1900
+            16  O2x O    17.0800  -15.2600
+            17  C1x C    16.6600  -13.9300
+            18  C1b C    13.4958  -15.5814
+            19  N1c N    12.5063  -14.6340
+            20  C1a C    11.1851  -15.0190
+            21  C1a C    12.8412  -13.2650
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     6   7 1
+            7     7   8 2
+            8     3   8 1
+            9     2   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    2  13 1
+            15   14  15 1
+            16   15   1 1
+            17    1  16 1
+            18   16  17 1
+            19   14  17 1
+            20   15  18 1
+            21   18  19 1
+            22   19  20 1
+            23   19  21 1
+///

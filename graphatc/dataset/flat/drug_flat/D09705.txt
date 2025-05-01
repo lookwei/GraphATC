@@ -1,0 +1,102 @@
+ENTRY       D09705                      Drug
+NAME        Bepotastine (USAN/INN)
+FORMULA     C21H25ClN2O3
+EXACT_MASS  388.1554
+MOL_WEIGHT  388.8878
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Chemical structure group: DG01327
+            Product (DG01327): D01654<JP/US>
+EFFICACY    Antiallergic, Antipruritic, H1 receptor antagonist
+COMMENT     second-generation antihistamine drug
+            Treatment of ocular itching
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Drugs requiring guidance
+              New approved switch OTC drugs
+               Bepotastine
+                D09705  Bepotastine (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01327  Bepotastine
+                 D09705  Bepotastine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D09705  Bepotastine (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01327  Bepotastine
+DBLINKS     CAS: 125602-71-3
+            PubChem: 124490445
+            ChEBI: 71204
+            LigandBox: D09705
+ATOM        27
+            1   C1c C    21.4577  -23.2474
+            2   C8y C    20.1907  -23.9513
+            3   C8y C    22.6543  -23.9513
+            4   O2a O    21.4577  -21.8396
+            5   C8x C    20.1907  -25.3591
+            6   C8x C    18.9941  -23.1770
+            7   C1y C    22.7247  -21.1357
+            8   C8x C    18.9237  -26.0630
+            9   C8x C    17.7975  -23.8809
+            10  C8y C    17.7975  -25.2887
+            11  X   Cl   16.5305  -25.9926
+            12  C1x C    23.8510  -21.8396
+            13  C1x C    25.1180  -21.1357
+            14  N1y N    25.1180  -19.7984
+            15  C1x C    23.9214  -19.0945
+            16  C1x C    22.7247  -19.7984
+            17  C1b C    26.3146  -19.0945
+            18  C1b C    27.5112  -19.7280
+            19  C1b C    28.7782  -19.0241
+            20  C6a C    29.9748  -19.7280
+            21  O6a O    31.1714  -19.0241
+            22  O6a O    29.9748  -21.1357
+            23  C8x C    22.6543  -25.4295
+            24  C8x C    23.7806  -26.1334
+            25  C8x C    25.0476  -25.4295
+            26  C8x C    25.0476  -24.0217
+            27  N5x N    23.8510  -23.3178
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 2
+            5     2   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   9 2
+            9     8  10 2
+            10   10  11 1
+            11    9  10 1
+            12    7  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16   7 1
+            18   14  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   20  22 2
+            24    3  23 2
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29    3  27 1
+///

@@ -1,0 +1,71 @@
+ENTRY       D08624                      Drug
+NAME        Tramazoline (INN);
+            Muconasal (TN)
+FORMULA     C13H17N3
+EXACT_MASS  215.1422
+MOL_WEIGHT  215.2942
+REMARK      ATC code: R01AA09
+            Chemical structure group: DG01033
+            Product (DG01033): D01347<JP>
+EFFICACY    Vasoconstrictor, alpha-Adrenergic receptor agonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA09 Tramazoline
+                  D08624  Tramazoline (INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08624  Tramazoline (INN)
+                ADRA2
+                 D08624  Tramazoline (INN)
+DBLINKS     CAS: 1082-57-1
+            PubChem: 96025308
+            LigandBox: D08624
+            NIKKAJI: J7.244C
+ATOM        16
+            1   C1x C    17.5000  -17.9900
+            2   C1x C    17.5000  -19.3900
+            3   C1x C    18.7600  -20.1600
+            4   C8y C    19.9500  -19.3900
+            5   C8y C    19.9500  -17.9900
+            6   C1x C    18.7600  -17.2900
+            7   C8x C    21.1400  -20.1600
+            8   C8x C    22.4000  -19.3900
+            9   C8x C    22.4000  -17.9900
+            10  C8y C    21.1400  -17.2900
+            11  N1b N    21.1400  -15.8900
+            12  C2y C    22.4000  -15.1900
+            13  N1x N    23.7300  -15.6100
+            14  C1x C    24.5000  -14.4900
+            15  C1x C    23.7300  -13.3700
+            16  N2x N    22.4000  -13.7900
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 2
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   12  16 2
+///

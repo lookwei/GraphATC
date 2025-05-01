@@ -1,0 +1,143 @@
+ENTRY       D05261                      Drug
+NAME        Omeprazole sodium injection (JAN);
+            Omeprazole sodium hydrate;
+            Omepral (TN)
+FORMULA     C17H18N3O3S. Na. H2O
+EXACT_MASS  385.1072
+MOL_WEIGHT  385.4132
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01646  Proton pump inhibitor (PPI)
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2329
+            ATC code: A02BC01
+            Chemical structure group: DG00020
+            Product (DG00020): D00455<JP/US> D05261<JP> D05259<US>
+EFFICACY    Antisecretory (gastric acid), Anti-ulcerative, Proton pump inhibitor
+COMMENT     Benzimidazole derivative
+TARGET      ATP4 [HSA:495 496] [KO:K01542 K01543]
+  PATHWAY   hsa04966(495+496)  Collecting duct acid secretion
+            hsa04971(495+496)  Gastric acid secretion
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BC Proton pump inhibitors
+                 A02BC01 Omeprazole
+                  D05261  Omeprazole sodium injection (JAN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Proton Pump Inhibitors
+               Omeprazole
+                D05261  Omeprazole sodium injection (JAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              23  Digestive organ agents
+               232  Peptic ulcer agents
+                2329  Others
+                 D05261  Omeprazole sodium injection (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00020  Omeprazole
+                 D05261  Omeprazole sodium injection
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00020  Omeprazole
+                D05261  Omeprazole sodium injection
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00020  Omeprazole
+                 D05261  Omeprazole sodium injection
+            Drug classes [BR:br08332]
+             Gastrointestinal agent
+              DG01646  Proton pump inhibitor (PPI)
+               D05261  Omeprazole sodium injection
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP4
+                 D05261  Omeprazole sodium injection (JAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D05261
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05261
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00020  Omeprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00020  Omeprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00020  Omeprazole
+DBLINKS     PubChem: 17398263
+            LigandBox: D05261
+ATOM        26
+            1   O0  O    35.3501  -17.9200
+            2   C8x C    22.6100  -20.1600
+            3   C8y C    22.6100  -21.5600
+            4   C8x C    23.8700  -22.2600
+            5   C8y C    25.0600  -21.5600
+            6   C8y C    25.0600  -20.1600
+            7   C8x C    23.8700  -19.4600
+            8   N5x N    26.3900  -21.9800
+            9   C8y C    27.2300  -20.8600
+            10  N4x N    26.3900  -19.7400 #-
+            11  S4a S    28.6300  -20.8600
+            12  O2a O    21.3500  -22.2600
+            13  C1a C    20.1600  -21.5600
+            14  C1b C    29.3300  -22.0500
+            15  O3c O    29.3300  -19.6700
+            16  C8y C    30.7300  -22.0500
+            17  C8y C    31.4300  -23.2400
+            18  C8y C    32.9000  -23.2400
+            19  C8y C    33.6000  -22.0500
+            20  C8x C    32.9000  -20.8600
+            21  N5x N    31.4300  -20.8600
+            22  C1a C    35.0000  -22.0500
+            23  O2a O    33.6000  -24.5000
+            24  C1a C    35.0000  -24.5000
+            25  C1a C    30.7300  -24.4300
+            26  Z   Na   27.5800  -17.7800 #+
+BOND        26
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     5   8 1
+            8     8   9 2
+            9     9  10 1
+            10    6  10 1
+            11    9  11 1
+            12    3  12 1
+            13   12  13 1
+            14   11  14 1
+            15   11  15 2
+            16   14  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22   16  21 1
+            23   19  22 1
+            24   18  23 1
+            25   23  24 1
+            26   17  25 1
+///

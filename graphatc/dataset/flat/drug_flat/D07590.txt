@@ -1,0 +1,84 @@
+ENTRY       D07590                      Drug
+NAME        Bupranolol (INN)
+FORMULA     C14H22ClNO2
+EXACT_MASS  271.1339
+MOL_WEIGHT  271.783
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+REMARK      ATC code: C07AA19
+            Chemical structure group: DG00311
+EFFICACY    Antiglaucoma, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA19 Bupranolol
+                  D07590  Bupranolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00311  Bupranolol
+                 D07590  Bupranolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D07590  Bupranolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00311  Bupranolol
+DBLINKS     CAS: 14556-46-8
+            PubChem: 51091902
+            LigandBox: D07590
+            NIKKAJI: J8.508A
+ATOM        18
+            1   O2a O    18.5500  -15.6800
+            2   C1b C    19.7400  -14.9800
+            3   C1c C    21.0000  -15.6800
+            4   C1b C    22.1900  -14.9800
+            5   O1a O    21.0000  -17.0800
+            6   N1b N    23.3800  -15.6800
+            7   C1d C    24.6400  -14.9800
+            8   C1a C    25.8300  -15.7500
+            9   C1a C    24.6400  -13.5800
+            10  C1a C    25.9000  -14.3500
+            11  C8y C    18.5500  -17.0800
+            12  C8y C    17.3600  -17.7800
+            13  C8x C    17.3600  -19.1800
+            14  C8x C    18.5500  -19.8800
+            15  C8y C    19.7400  -19.2500
+            16  C8x C    19.7400  -17.7800
+            17  X   Cl   16.1700  -17.0800
+            18  C1a C    21.0000  -19.9500
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 1
+            5     4   6 1
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     7  10 1
+            10    1  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 2
+            16   11  16 1
+            17   12  17 1
+            18   15  18 1
+///

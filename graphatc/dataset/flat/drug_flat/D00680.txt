@@ -1,0 +1,163 @@
+ENTRY       D00680                      Drug
+NAME        Methylergonovine maleate (USP);
+            Methylergometrine maleate (JP18);
+            Methergine (TN)
+PRODUCT
+  GENERIC   METHERGINE (Lupin Pharmaceuticals)
+            METHYLERGONOVINE MALEATE (American Health Packaging)
+            METHYLERGONOVINE MALEATE (American Regent)
+            METHYLERGONOVINE MALEATE (Amneal Pharmaceuticals NY LLC)
+            METHYLERGONOVINE MALEATE (Breckenridge Pharmaceutical)
+            METHYLERGONOVINE MALEATE (Bryant Ranch Prepack)
+            METHYLERGONOVINE MALEATE (Granules Pharmaceuticals)
+            METHYLERGONOVINE MALEATE (HF Acquisition Co LLC)
+            METHYLERGONOVINE MALEATE (Lupin Pharmaceuticals)
+            METHYLERGONOVINE MALEATE (Novel Laboratories)
+            METHYLERGONOVINE MALEATE (Pharmacist Pharmaceutical)
+            METHYLERGONOVINE MALEATE (Rising Pharma Holdings)
+            METHYLERGONOVINE MALEATE (Teva Pharmaceuticals USA)
+            METHYLERGONOVINE MALEATE (West-Ward Pharmaceuticals Corp)
+FORMULA     C20H25N3O2. C4H4O4
+EXACT_MASS  455.2056
+MOL_WEIGHT  455.5036
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2531
+            ATC code: G02AB01
+            Chemical structure group: DG00445
+            Product (DG00445): D00680<JP/US>
+EFFICACY    Hemostatic, Oxytocic
+COMMENT     Ergot alkaloid
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04022(146+147+148+150+151+152)  cGMP-PKG signaling pathway
+            hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AB Ergot alkaloids
+                 G02AB01 Methylergometrine
+                  D00680  Methylergonovine maleate (USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              25  Urogenital and anal organ agents
+               253  Oxytocics
+                2531  Ergots
+                 D00680  Methylergonovine maleate (USP); Methylergometrine maleate (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00445  Methylergometrine
+                D00680  Methylergonovine maleate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00445  Methylergometrine
+                 D00680  Methylergonovine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D00680  Methylergonovine maleate (USP) &lt;JP/US&gt;
+                ADRA2
+                 D00680  Methylergonovine maleate (USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00680  Methylergometrine maleate
+              D00680  Methylergometrine maleate tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00680
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00445  Methylergometrine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00445  Methylergometrine
+DBLINKS     CAS: 57432-61-8
+            PubChem: 7847746
+            ChEBI: 6874
+            LigandBox: D00680
+            NIKKAJI: J350.079I
+ATOM        33
+            1   C8y C    16.2515  -18.1993
+            2   C8y C    16.2515  -16.8352
+            3   C8y C    17.4232  -18.8696
+            4   C8y C    15.0681  -18.8696
+            5   C2y C    17.4291  -16.1648
+            6   C8x C    15.0741  -16.1590
+            7   C1x C    18.5949  -18.2110
+            8   C8x C    17.4232  -20.2336
+            9   N4x N    15.0681  -20.2336
+            10  C8x C    13.8965  -18.1993
+            11  C1y C    18.6065  -16.8410
+            12  C2x C    17.4291  -14.8066
+            13  C8x C    13.8965  -16.8352
+            14  N1y N    19.7725  -16.1648
+            15  C1y C    18.6065  -14.1304
+            16  C1x C    19.7725  -14.8066
+            17  C1a C    20.9558  -16.8410
+            18  C5a C    18.6124  -12.7780
+            19  N1b N    19.7899  -12.1019
+            20  O5a O    17.4348  -12.0959
+            21  C1c C    20.9499  -12.7664
+            22  C1b C    22.1216  -12.0959
+            23  C1b C    20.9495  -14.1610
+            24  C1a C    23.3267  -12.7978
+            25  O1a O    22.1572  -14.8585
+            26  C6a C    29.0135  -16.5578
+            27  C2b C    28.3275  -15.3818
+            28  O6a O    28.3333  -17.7394
+            29  O6a O    30.3718  -16.5518
+            30  C2b C    26.6970  -15.3875
+            31  C6a C    26.0238  -16.5693
+            32  O6a O    24.6584  -16.5693
+            33  O6a O    26.7087  -17.7451
+BOND        35
+            1     5  11 1
+            2     5  12 2
+            3     6  13 1
+            4    11  14 1
+            5    12  15 1
+            6    14  16 1
+            7    14  17 1
+            8    15  18 1 #Up
+            9    18  19 1
+            10   18  20 2
+            11   19  21 1
+            12   21  22 1
+            13    7  11 1
+            14    8   9 1
+            15   10  13 2
+            16   15  16 1
+            17   21  23 1 #Up
+            18   22  24 1
+            19    1   2 1
+            20   23  25 1
+            21    1   3 1
+            22    1   4 2
+            23    2   5 1
+            24    2   6 2
+            25    3   7 1
+            26    3   8 2
+            27    4   9 1
+            28    4  10 1
+            29   26  27 1
+            30   26  28 1
+            31   26  29 2
+            32   27  30 2
+            33   30  31 1
+            34   31  32 1
+            35   31  33 2
+///

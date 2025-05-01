@@ -1,0 +1,59 @@
+ENTRY       D05779                      Drug
+NAME        Sabcomeline hydrochloride (USAN)
+FORMULA     C10H15N3O. HCl
+EXACT_MASS  229.0982
+MOL_WEIGHT  229.7065
+CLASS       Neuropsychiatric agent
+             DG01490  Muscarinic cholinergic receptor agonist
+EFFICACY    Dementia therapeutic adjunct, Muscarinic acetylcholine receptor agonist
+COMMENT     Alzheimer's disease treatment
+TARGET      CHRM1 [HSA:1128] [KO:K04129]
+  PATHWAY   hsa04080(1128)  Neuroactive ligand-receptor interaction
+            hsa04725(1128)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               D05779  Sabcomeline hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM1
+                 D05779  Sabcomeline hydrochloride (USAN)
+DBLINKS     CAS: 159912-58-0
+            PubChem: 47207440
+            LigandBox: D05779
+ATOM        15
+            1   C1x C    26.8156  -19.5944
+            2   N1y N    28.2929  -18.7503
+            3   C1x C    28.2929  -17.4840
+            4   C1x C    29.8406  -19.5944
+            5   C1y C    27.5894  -17.7654
+            6   C1x C    27.5894  -16.7805
+            7   C1y C    29.1371  -18.4689
+            8   C1x C    26.1825  -18.6096
+            9   C2c C    30.0642  -17.4105
+            10  N2b N    31.4327  -17.4021
+            11  C3b C    29.6109  -16.0775
+            12  N3a N    29.2468  -14.7185
+            13  O2a O    32.1126  -16.2077
+            14  C1a C    33.5294  -16.2686
+            15  X   Cl   38.0010  -17.9764
+BOND        15
+            1     1   2 1
+            2     2   3 1
+            3     2   4 1
+            4     8   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   6 1
+            8     5   7 1
+            9     1   8 1
+            10    7   9 1
+            11    9  10 2
+            12    9  11 1
+            13   11  12 3
+            14   10  13 1
+            15   13  14 1
+///

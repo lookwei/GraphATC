@@ -1,0 +1,56 @@
+ENTRY       D12449                      Drug
+NAME        Cipepofol (USAN/INN)
+FORMULA     C14H20O
+EXACT_MASS  204.1514
+MOL_WEIGHT  204.308
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+EFFICACY    Anesthetic (intravenous), Sedative, GABA-A receptor agonist
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D12449  Cipepofol
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D12449  Cipepofol (USAN/INN)
+DBLINKS     CAS: 1637741-58-2
+ATOM        15
+            1   C8y C    17.4300  -15.9600
+            2   C8y C    18.6200  -15.2600
+            3   C1c C    16.1700  -15.2600
+            4   C8x C    17.4300  -17.3600
+            5   C8y C    19.8800  -15.9600
+            6   O1a O    18.6200  -13.8600
+            7   C1a C    16.1700  -13.8600
+            8   C1a C    14.9800  -15.9600
+            9   C8x C    18.6200  -18.0600
+            10  C1c C    21.1400  -15.2600
+            11  C8x C    19.8800  -17.3600
+            12  C1y C    22.3300  -15.9600
+            13  C1a C    21.1400  -13.8600
+            14  C1x C    23.7300  -15.9600
+            15  C1x C    23.0300  -17.1500
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11   10  12 1
+            12   10  13 1 #Down
+            13    9  11 2
+            14   12  14 1
+            15   14  15 1
+            16   15  12 1
+///

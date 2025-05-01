@@ -1,0 +1,147 @@
+ENTRY       D11271                      Drug
+NAME        Pexidartinib hydrochloride (JAN/USAN);
+            Turalio (TN)
+PRODUCT     TURALIO (Daiichi Sankyo)
+            TURALIO (Daiichi Sankyo)
+FORMULA     C20H15ClF3N5. HCl
+EXACT_MASS  453.0735
+MOL_WEIGHT  454.2758
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03182  UGT1A4 substrate
+REMARK      ATC code: L01EX15
+            Chemical structure group: DG02960
+            Product (DG02960): D11271<US>
+EFFICACY    Antineoplastic, Macrophage colony-stimulating factor receptor antagonist
+COMMENT     Treatment of tenosynovial giant cell tumor
+TARGET      CSF1R (FMS, CD115) [HSA:1436] [KO:K05090]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+            FLT3* (CD135) [HSA_VAR:2322v2] [HSA:2322] [KO:K05092]
+  PATHWAY   hsa04010(1436+2322+3815)  MAPK signaling pathway
+            hsa04060(1436)  Cytokine-cytokine receptor interaction
+            hsa04151(1436+2322+3815)  PI3K-Akt signaling pathway
+            hsa04380(1436)  Osteoclast differentiation
+            hsa05200(1436+2322+3815)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], UGT1A4 [HSA:54657]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EX Other protein kinase inhibitors
+                 L01EX15 Pexidartinib
+                  D11271  Pexidartinib hydrochloride (JAN/USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Pexidartinib
+                D11271  Pexidartinib hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02960  Pexidartinib
+                 D11271  Pexidartinib hydrochloride
+              DG02924  UGT substrate
+               DG03182  UGT1A4 substrate
+                DG02960  Pexidartinib
+                 D11271  Pexidartinib hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                KIT (CD117)
+                 D11271  Pexidartinib hydrochloride (JAN/USAN) &lt;US&gt;
+                FLT3* (CD135) [HSA_VAR:2322v2]
+                 D11271  Pexidartinib hydrochloride (JAN/USAN) &lt;US&gt;
+             Cytokines and receptors
+              Cytokine receptors
+               CSF and other factor receptors
+                CSF1R (FMS, CD115)
+                 D11271  Pexidartinib hydrochloride (JAN/USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11271
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11271
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11271
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02960  Pexidartinib
+              DG02924  UGT substrate
+               DG03182  UGT1A4 substrate
+                DG02960  Pexidartinib
+DBLINKS     CAS: 2040295-03-0
+            PubChem: 384585249
+ATOM        30
+            1   C8x C    22.5023  -13.8367
+            2   C8y C    22.5023  -15.2344
+            3   C8x C    23.7601  -15.9332
+            4   N5x N    24.9481  -15.2344
+            5   C8y C    24.9481  -13.8367
+            6   C8x C    23.7601  -13.1379
+            7   C1d C    26.1361  -13.1379
+            8   X   F    27.3940  -12.4391
+            9   X   F    25.4373  -11.9499
+            10  X   F    26.8350  -14.3259
+            11  C1b C    21.3143  -15.9332
+            12  N1b N    20.1263  -15.2344
+            13  C8y C    18.9383  -15.9332
+            14  N5x N    17.7503  -15.2344
+            15  C8x C    16.4924  -15.9332
+            16  C8y C    16.4924  -17.3308
+            17  C8x C    17.6804  -18.0297
+            18  C8x C    18.9383  -17.3308
+            19  C1b C    15.3044  -18.0297
+            20  C8y C    14.1164  -17.3308
+            21  C8x C    14.1164  -15.9332
+            22  N4x N    12.7886  -15.4440
+            23  C8y C    11.9500  -16.5621
+            24  C8y C    12.7187  -17.7501
+            25  N5x N    10.5524  -16.7019
+            26  C8x C     9.9234  -17.9598
+            27  C8y C    10.7620  -19.1478
+            28  C8x C    12.1597  -19.0080
+            29  X   Cl   10.1331  -20.3358
+            30  X   Cl   26.3900  -19.8800
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    7  10 1
+            11    2  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   13  18 1
+            20   16  19 1
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   20  24 1
+            27   23  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   24  28 2
+            32   27  29 1
+///

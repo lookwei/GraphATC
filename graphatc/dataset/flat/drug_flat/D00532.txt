@@ -1,0 +1,77 @@
+ENTRY       D00532                      Drug
+NAME        Glutethimide (JAN/INN);
+            Doriden (TN)
+FORMULA     C13H15NO2
+EXACT_MASS  217.1103
+MOL_WEIGHT  217.2637
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+REMARK      Same as: C07489
+            ATC code: N05CE01
+EFFICACY    Sedative-hypnotic
+COMMENT     Piperidinedione derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+STR_MAP     map07032  Hypnotics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CE Piperidinedione derivatives
+                 N05CE01 Glutethimide
+                  D00532  Glutethimide (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D00532  Glutethimide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00532  Glutethimide (JAN/INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00532
+DBLINKS     CAS: 77-21-4
+            PubChem: 7847598
+            ChEBI: 5439
+            LigandBox: D00532
+            NIKKAJI: J1.475C
+ATOM        16
+            1   C1z C    20.2059  -20.5512
+            2   C8y C    21.4101  -19.8440
+            3   C5x C    18.9667  -19.8672
+            4   C1x C    20.2059  -21.9541
+            5   C1b C    21.4042  -21.2467
+            6   C8x C    22.6200  -20.5278
+            7   C8x C    21.3925  -18.4411
+            8   N1x N    17.7624  -20.5512
+            9   O5x O    18.9667  -18.4528
+            10  C1x C    18.9667  -22.6556
+            11  C1a C    22.8071  -21.2467
+            12  C8x C    23.8242  -19.8206
+            13  C8x C    22.5968  -17.7337
+            14  C5x C    17.7624  -21.9541
+            15  C8x C    23.8125  -18.4234
+            16  O5x O    16.5524  -22.6497
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 2
+            13    8  14 1
+            14   12  15 2
+            15   14  16 2
+            16   10  14 1
+            17   13  15 1
+///

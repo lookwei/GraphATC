@@ -1,0 +1,35 @@
+ENTRY       D09576                      Drug
+NAME        Afegostat (USAN/INN)
+FORMULA     C6H13NO3
+EXACT_MASS  147.0895
+MOL_WEIGHT  147.1723
+EFFICACY    Hypoglycemic, Enhancer (beta-glucocerebrosidase)
+COMMENT     Treatment of Gaucher disease
+DBLINKS     CAS: 169105-89-9
+            PubChem: 124490316
+            ChEBI: 194390
+            PDB-CCD: IFM
+            LigandBox: D09576
+ATOM        10
+            1   C1y C    21.6300  -20.3700
+            2   C1y C    21.6300  -21.7700
+            3   C1y C    22.8424  -22.4700
+            4   C1x C    24.0549  -21.7700
+            5   N1x N    24.0549  -20.3700
+            6   C1x C    22.8424  -19.6700
+            7   C1b C    20.4176  -19.6700
+            8   O1a O    19.2221  -20.3604
+            9   O1a O    20.4176  -22.4700
+            10  O1a O    22.8424  -23.8698
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1 #Up
+            8     7   8 1
+            9     2   9 1 #Down
+            10    3  10 1 #Up
+///

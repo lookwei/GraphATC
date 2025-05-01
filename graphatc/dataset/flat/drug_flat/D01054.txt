@@ -1,0 +1,118 @@
+ENTRY       D01054                      Drug
+NAME        Cefluprenam (JAN/INN);
+            E 1077
+FORMULA     C20H25FN8O6S2
+EXACT_MASS  556.1323
+MOL_WEIGHT  556.5909
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01804  Oxyimino beta-lactam
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Semisynthetic cephalosporin: broad spectrum cephalosporin
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 D01054  Cefluprenam
+              DG01804  Oxyimino beta-lactam
+               D01054  Cefluprenam
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D01054  Cefluprenam (JAN/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D01054  Cefluprenam (JAN/INN)
+DBLINKS     CAS: 116853-25-9
+            PubChem: 7848117
+            ChEBI: 3488
+            LigandBox: D01054
+            NIKKAJI: J596.929H
+ATOM        37
+            1   C1y C    24.2268  -18.8162
+            2   N1y N    24.2268  -20.2091
+            3   C2y C    25.4332  -20.9053
+            4   C2y C    26.6393  -20.2091
+            5   C1x C    26.6393  -18.8162
+            6   S2x S    25.4332  -18.1198
+            7   C1y C    22.8337  -18.8162
+            8   C5x C    22.8337  -20.2091
+            9   N1b N    21.6277  -18.1198
+            10  C5a C    20.4212  -18.8162
+            11  O5a O    20.4212  -20.2091
+            12  O5x O    21.6277  -20.9053
+            13  C2c C    19.2149  -18.1198
+            14  C2b C    27.8641  -20.9164
+            15  C8y C    17.9893  -18.8278
+            16  C2b C    29.0754  -20.2175
+            17  N5x N    16.8638  -17.9849
+            18  S2x S    15.7100  -18.7946
+            19  C8y C    16.1234  -20.1420
+            20  N5x N    17.5327  -20.1652
+            21  N2b N    19.2148  -16.7053
+            22  C6a C    25.4332  -22.3210
+            23  O6a O    24.2228  -23.0196
+            24  O6a O    26.6558  -23.0269 #-
+            25  C1b C    30.2949  -20.9217
+            26  N1d N    31.4761  -20.2399 #+
+            27  C1b C    32.6713  -20.9302
+            28  C5a C    33.8598  -20.2443
+            29  N1a N    35.0511  -20.9324
+            30  O5a O    33.8601  -18.8384
+            31  C1b C    31.4764  -18.8384
+            32  C1a C    31.4761  -21.6405
+            33  C1a C    30.2461  -18.1277
+            34  N1a N    15.2664  -21.2823
+            35  O2a O    20.3905  -16.0266
+            36  C1b C    20.3905  -14.6302
+            37  X   F    21.5876  -13.9389
+BOND        39
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16   13  15 1
+            17   14  16 2
+            18   15  17 2
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   13  21 2
+            24    3  22 1
+            25   22  23 2
+            26   22  24 1
+            27   16  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   28  29 1
+            32   28  30 2
+            33   26  31 1
+            34   26  32 1
+            35   31  33 1
+            36   19  34 1
+            37   21  35 1
+            38   35  36 1
+            39   36  37 1
+///

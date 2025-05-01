@@ -1,0 +1,87 @@
+ENTRY       D09749                      Drug
+NAME        Itasetron hydrochloride hydrate (JAN)
+FORMULA     C16H20N4O2. HCl. H2O
+EXACT_MASS  354.1459
+MOL_WEIGHT  354.8318
+CLASS       Gastrointestinal agent
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+REMARK      Chemical structure group: DG01240
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG01240  Itasetron
+                D09749  Itasetron hydrochloride hydrate
+              DG01762  Antiemetic
+               DG01240  Itasetron
+                D09749  Itasetron hydrochloride hydrate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D09749  Itasetron hydrochloride hydrate (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG01240  Itasetron
+              DG01762  Antiemetic
+               DG01240  Itasetron
+DBLINKS     PubChem: 124490489
+            LigandBox: D09749
+ATOM        24
+            1   C1x C    19.8800  -20.9300
+            2   C1x C    20.2300  -19.7400
+            3   C1y C    21.0700  -20.6500
+            4   C1y C    21.4200  -19.4600
+            5   N1y N    20.1600  -18.1300
+            6   C1x C    22.9600  -20.6500
+            7   C1x C    22.6800  -19.4600
+            8   C1y C    24.0100  -21.2100
+            9   N1b N    25.0600  -22.0500
+            10  C5a C    26.2500  -22.0500
+            11  N4y N    26.8800  -21.0000
+            12  O5a O    26.8800  -23.2400
+            13  C8y C    28.1400  -21.0000
+            14  C1a C    19.3900  -16.9400
+            15  C8y C    28.4900  -19.8800
+            16  N4x N    27.5100  -19.1100
+            17  C8y C    26.5300  -19.8800
+            18  O5x O    25.2000  -19.3900
+            19  C8x C    29.0500  -22.0500
+            20  C8x C    30.3800  -21.7700
+            21  C8x C    30.8000  -20.5800
+            22  C8x C    29.8200  -19.5300
+            23  X   Cl   32.8300  -19.1100
+            24  O0  O    33.3200  -20.9300
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 1
+            13    4   5 1
+            14    7   8 1
+            15    5  14 1
+            16   13  15 1
+            17   15  16 1
+            18   16  17 1
+            19   11  17 1
+            20   17  18 2
+            21   13  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   15  22 2
+///

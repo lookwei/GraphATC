@@ -1,0 +1,48 @@
+ENTRY       C02522                      Compound
+NAME        6-Deoxy-D-glucose;
+            D-Quinovose;
+            6-Deoxy-D-glucopyranose;
+            D-Chinovose;
+            D-Glucomethylose;
+            Isorhamnose;
+            D-Epifucose;
+            Isorhodeose
+FORMULA     C6H12O5
+EXACT_MASS  164.0685
+MOL_WEIGHT  164.1565
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Deoxy sugars
+                C02522  D-Quinovose
+DBLINKS     CAS: 7658-08-4
+            PubChem: 5532
+            ChEBI: 28140 42606
+            PDB-CCD: G6D YYK
+            3DMET: B04854
+            NIKKAJI: J14.906C
+ATOM        11
+            1   C1y C    25.6142  -16.5481
+            2   C1y C    24.3958  -15.8452
+            3   C1y C    26.8383  -15.8452
+            4   O1a O    25.6142  -17.9480
+            5   C1y C    24.3958  -14.4394
+            6   O1a O    23.2009  -16.5481
+            7   C1y C    26.8383  -14.4394
+            8   O1a O    28.0508  -16.5481
+            9   O2x O    25.6142  -13.7482
+            10  C1a C    23.2009  -13.7482
+            11  O1a O    28.0508  -13.7482
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Either
+            11    7   9 1
+///

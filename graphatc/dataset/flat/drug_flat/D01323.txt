@@ -1,0 +1,106 @@
+ENTRY       D01323                      Drug
+NAME        Azosemide (JP18/USAN/INN);
+            Diart (TN)
+FORMULA     C12H11ClN6O2S2
+EXACT_MASS  370.0073
+MOL_WEIGHT  370.8377
+CLASS       Cardiovascular agent
+             DG01690  Sulfonamide diuretic
+              DG01747  Furosemide type diuretic
+             DG01748  Loop diuretic
+              DG01747  Furosemide type diuretic
+REMARK      Therapeutic category: 2139
+            Product: D01323<JP>
+EFFICACY    Diuretic, Na-K-Cl cotransporter inhibitor
+COMMENT     loop diuretic
+            Sulfonamide derivative
+TARGET      SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+            SLC12A2 (NKCC1) [HSA:6558] [KO:K10951]
+  PATHWAY   hsa04970(6558)  Salivary secretion
+            hsa04972(6558)  Pancreatic secretion
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07233  Ion transporter inhibitors
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               213  Diuretics
+                2139  Others
+                 D01323  Azosemide (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01690  Sulfonamide diuretic
+               DG01747  Furosemide type diuretic
+                D01323  Azosemide
+              DG01748  Loop diuretic
+               DG01747  Furosemide type diuretic
+                D01323  Azosemide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D01323  Azosemide (JP18/USAN/INN) &lt;JP&gt;
+                SLC12A2 (NKCC1)
+                 D01323  Azosemide (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01323  Azosemide
+              D01323  Azosemide tablets
+DBLINKS     CAS: 27589-33-9
+            PubChem: 7848386
+            ChEBI: 31248
+            PDB-CCD: IWE
+            LigandBox: D01323
+            NIKKAJI: J10.727A
+ATOM        23
+            1   C8x C    17.6727  -20.0852
+            2   C8y C    18.1088  -18.7538
+            3   S2x S    16.9723  -17.9271
+            4   C8x C    15.8359  -18.7538
+            5   C8x C    16.2718  -20.0852
+            6   N5x N    20.1037  -14.6239
+            7   N5x N    18.7096  -14.6247
+            8   N5x N    18.2796  -15.9509
+            9   N4x N    19.4080  -16.7694
+            10  C8y C    20.5352  -15.9494
+            11  C8y C    21.7481  -16.6505
+            12  C8y C    21.7481  -18.0514
+            13  C8x C    22.9643  -18.7519
+            14  C8y C    24.1733  -18.0514
+            15  C8y C    24.1733  -16.6505
+            16  C8x C    22.9643  -15.9501
+            17  N1b N    20.5352  -18.7524
+            18  C1b C    19.3218  -18.0526
+            19  S4a S    25.3871  -15.9509
+            20  X   Cl   25.3871  -18.7509
+            21  O3c O    26.5997  -16.6522
+            22  N1a N    26.5948  -15.2425
+            23  O3c O    24.1679  -15.2496
+BOND        25
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5    11  12 2
+            6    12  13 1
+            7    13  14 2
+            8    14  15 1
+            9    15  16 2
+            10   16  11 1
+            11   11  10 1
+            12    6   7 1
+            13   12  17 1
+            14    7   8 2
+            15   17  18 1
+            16   18   2 1
+            17    8   9 1
+            18   15  19 1
+            19    9  10 1
+            20   14  20 1
+            21   10   6 2
+            22   19  21 2
+            23    5   1 1
+            24   19  22 1
+            25   19  23 2
+///

@@ -1,0 +1,89 @@
+ENTRY       D01526                      Drug
+NAME        Sulfisomidine (JAN);
+            Sulfaisodimidine;
+            Sulfisomidine (TN)
+FORMULA     C12H14N4O2S
+EXACT_MASS  278.0837
+MOL_WEIGHT  278.3302
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01784  Short-acting sulfonamide
+REMARK      ATC code: J01EB01
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EB Short-acting sulfonamides
+                 J01EB01 Sulfaisodimidine
+                  D01526  Sulfisomidine (JAN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for integumentary system
+              56 Purulent skin remedies
+               D01526  Sulfisomidine (JAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Sulfisomidine
+                D01526  Sulfisomidine (JAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                D01526  Sulfisomidine
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Short-acting sulfonamide
+                D01526  Sulfisomidine (JAN)
+DBLINKS     CAS: 515-64-0
+            PubChem: 7848589
+            ChEBI: 32166
+            LigandBox: D01526
+            NIKKAJI: J4.404K
+ATOM        19
+            1   C8x C    14.3500  -17.2200
+            2   C8y C    14.3500  -18.6200
+            3   C8x C    15.6100  -19.3200
+            4   C8x C    16.8000  -18.6200
+            5   C8y C    16.8000  -17.2200
+            6   C8x C    15.6100  -16.5200
+            7   S4a S    17.9900  -16.5200
+            8   N1b N    19.2500  -17.2200
+            9   O3c O    19.1800  -15.8200
+            10  O3c O    16.8000  -15.8200
+            11  C8y C    20.4400  -16.5200
+            12  C8x C    21.6300  -17.2200
+            13  C8y C    22.8200  -16.5200
+            14  N5x N    22.8200  -15.1200
+            15  C8y C    21.6300  -14.4200
+            16  N5x N    20.4400  -15.1200
+            17  C1a C    21.6300  -13.0200
+            18  C1a C    24.0800  -17.2200
+            19  N1a N    13.1600  -19.3200
+BOND        20
+            1     3   4 2
+            2     7  10 2
+            3     4   5 1
+            4     8  11 1
+            5     5   6 2
+            6     6   1 1
+            7     5   7 1
+            8     1   2 2
+            9    11  12 2
+            10   12  13 1
+            11   13  14 2
+            12   14  15 1
+            13   15  16 2
+            14   16  11 1
+            15    7   8 1
+            16   15  17 1
+            17    2   3 1
+            18   13  18 1
+            19    7   9 2
+            20    2  19 1
+///

@@ -1,0 +1,150 @@
+ENTRY       D02764                      Drug
+NAME        Acyclovir sodium (USAN);
+            Zovirax (TN)
+PRODUCT
+  GENERIC   ACYCLOVIR (Fresenius Kabi USA)
+            ACYCLOVIR (Fresenius Kabi USA)
+            ACYCLOVIR (Hikma Pharmaceuticals USA)
+            ACYCLOVIR (Zydus Lifesciences Limited)
+            ACYCLOVIR (Zydus Lifesciences Limited)
+            ACYCLOVIR (Zydus Pharmaceuticals (USA))
+            ACYCLOVIR (Zydus Pharmaceuticals USA)
+            ACYCLOVIR SODIUM (AuroMedics Pharma LLC)
+            ACYCLOVIR SODIUM (Eugia US LLC)
+FORMULA     C8H10N5O3. Na
+EXACT_MASS  247.0681
+MOL_WEIGHT  247.1865
+CLASS       Antiviral
+             DG02840  Anti-herpesvirus agent
+            Transporter substrate
+             DG02858  SLC22A1 substrate
+             DG02859  SLC22A6 substrate
+             DG02860  SLC22A8 substrate
+REMARK      ATC code: D06BB03 J05AB01 S01AD03
+            Chemical structure group: DG00406
+            Product (DG00406): D00222<JP/US> D02764<US>
+EFFICACY    Antiviral, DNA polymerase inhibitor
+  DISEASE   Herpes simplex infection [DS:H00365]
+            Varicella-zoster infections [DS:H00366]
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+METABOLISM  Transporter: SLC22A1 [HSA:6580], SLC22A6 [HSA:9356], SLC22A8 [HSA:9376]
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06B CHEMOTHERAPEUTICS FOR TOPICAL USE
+                D06BB Antivirals
+                 D06BB03 Aciclovir
+                  D02764  Acyclovir sodium (USAN) &lt;US&gt;
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB01 Aciclovir
+                  D02764  Acyclovir sodium (USAN) &lt;US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AD Antivirals
+                 S01AD03 Aciclovir
+                  D02764  Acyclovir sodium (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Antiherpetic Agents
+               Acyclovir
+                D02764  Acyclovir sodium (USAN)
+             Dermatological Agents
+              Topical Anti-infectives
+               Antivirals, dermatological
+                Acyclovir
+                 D02764  Acyclovir sodium (USAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Aciclovir
+                D02764  Acyclovir sodium (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               DG00406  Aciclovir
+                D02764  Acyclovir sodium
+             Transporter substrate
+              DG02858  SLC22A1 substrate
+               DG00406  Aciclovir
+                D02764  Acyclovir sodium
+              DG02859  SLC22A6 substrate
+               DG00406  Aciclovir
+                D02764  Acyclovir sodium
+              DG02860  SLC22A8 substrate
+               DG00406  Aciclovir
+                D02764  Acyclovir sodium
+            Drug classes [BR:br08332]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               D02764  Acyclovir sodium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D02764  Acyclovir sodium (USAN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D02764
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               DG00406  Aciclovir
+             Transporter substrate
+              DG02858  SLC22A1 substrate
+               DG00406  Aciclovir
+              DG02859  SLC22A6 substrate
+               DG00406  Aciclovir
+              DG02860  SLC22A8 substrate
+               DG00406  Aciclovir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00406  Aciclovir
+DBLINKS     CAS: 69657-51-8
+            PubChem: 17396922
+            LigandBox: D02764
+ATOM        17
+            1   C8y C    20.2300  -29.1200
+            2   C8y C    20.2300  -30.5200
+            3   N5x N    21.4424  -31.2200
+            4   C8y C    22.6549  -30.5200
+            5   N4x N    22.6549  -29.1200 #-
+            6   C8y C    21.4424  -28.4200
+            7   N1a N    23.8860  -31.2310
+            8   O5x O    21.4424  -27.0202
+            9   N5x N    18.8985  -28.6874
+            10  C8x C    18.0756  -29.8200
+            11  N4y N    18.8985  -30.9526
+            12  C1b C    18.8985  -32.3526
+            13  O2a O    17.6927  -33.0488
+            14  C1b C    16.4896  -32.3540
+            15  C1b C    15.3060  -33.0372
+            16  O1a O    14.1129  -32.3481
+            17  Z   Na   24.4300  -29.1200 #+
+BOND        17
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     6   8 2
+            9     1   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+///

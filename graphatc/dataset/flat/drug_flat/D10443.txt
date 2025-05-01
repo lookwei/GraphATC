@@ -1,0 +1,84 @@
+ENTRY       D10443                      Drug
+NAME        Liafensine (USAN/INN)
+FORMULA     C24H22N4
+EXACT_MASS  366.1844
+MOL_WEIGHT  366.4583
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D10443  Liafensine (USAN/INN)
+                SLC6A4 (HTT)
+                 D10443  Liafensine (USAN/INN)
+DBLINKS     CAS: 1198790-53-2
+            PubChem: 172232536
+            ChEBI: 177531
+ATOM        28
+            1   C8y C    14.3431  -11.3289
+            2   N5x N    14.3431  -12.7277
+            3   N5x N    15.5545  -13.4271
+            4   C8y C    16.7660  -12.7277
+            5   C8x C    16.7660  -11.3289
+            6   C8x C    15.5545  -10.6295
+            7   C8y C    17.9960  -13.4381
+            8   C8x C    17.9957  -14.8258
+            9   C8x C    19.2070  -15.5255
+            10  C8y C    20.4186  -14.8264
+            11  C8y C    20.4189  -13.4387
+            12  C8x C    19.2076  -12.7390
+            13  C1y C    21.6297  -15.5260
+            14  C1x C    22.8413  -14.8269
+            15  N1y N    22.8416  -13.4392
+            16  C1x C    21.6304  -12.7396
+            17  C1a C    24.0840  -12.7220
+            18  N1a N    13.1318  -10.6295
+            19  C8y C    21.6294  -16.9240
+            20  C8x C    20.4104  -17.6274
+            21  C8y C    20.4100  -19.0274
+            22  C8y C    21.6223  -19.7277
+            23  C8x C    22.8413  -19.0244
+            24  C8x C    22.8417  -17.6244
+            25  C8x C    19.1974  -19.7271
+            26  C8x C    19.1970  -21.1271
+            27  C8x C    20.4093  -21.8274
+            28  C8x C    21.6219  -21.1277
+BOND        32
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14   10  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   11  16 1
+            19   15  17 1
+            20    1  18 1
+            21   13  19 1 #Up
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   19  24 1
+            28   21  25 1
+            29   25  26 2
+            30   26  27 1
+            31   27  28 2
+            32   22  28 1
+///

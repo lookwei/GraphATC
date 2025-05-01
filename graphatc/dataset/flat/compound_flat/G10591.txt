@@ -1,0 +1,25 @@
+ENTRY       G10591                      Glycan
+NAME        Pectin
+COMPOSITION (GalA6Me)1 (*)2
+REMARK      Same as: C00714 D02316
+COMMENT     The degree of substitution (6Me) is 9.5 ~ 11%.
+REACTION    R06250 R06278
+ENZYME      2.4.1.43        3.1.1.11
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Homopolysaccharides
+                G10591  Pectin
+DBLINKS     GlyTouCan: G72929NG
+            JCGGDB: JCGG-STR002711
+NODE        3
+            1   *           9     0
+            2   GalA6Me     0     0
+            3   *          -9     0
+EDGE        2
+            1     2:a1    1    
+            2     3       2:4  
+BRACKET     1  -5.0   2.0  -5.0  -2.0
+            1   5.0  -2.0   5.0   2.0
+            1 n
+///

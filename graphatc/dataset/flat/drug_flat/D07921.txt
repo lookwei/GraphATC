@@ -1,0 +1,130 @@
+ENTRY       D07921                      Drug
+NAME        Estriol sodium succinate (BAN);
+            Estriol 16alpha, 17beta-di (sodium succinate);
+            Styptanon (TN)
+FORMULA     C26H30O9. 2Na
+EXACT_MASS  532.1685
+MOL_WEIGHT  532.4905
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+REMARK      ATC code: G03CA04 G03CC06
+            Chemical structure group: DG00463
+            Product (DG00463): D00185<JP>
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA04 Estriol
+                  D07921  Estriol sodium succinate (BAN)
+                G03CC Estrogens, combinations with other drugs
+                 G03CC06 Estriol
+                  D07921  Estriol sodium succinate (BAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00463  Estriol
+                D07921  Estriol sodium succinate
+              DG01584  Estrogen receptor agonist
+               DG00463  Estriol
+                D07921  Estriol sodium succinate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D07921  Estriol sodium succinate (BAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00463  Estriol
+              DG01584  Estrogen receptor agonist
+               DG00463  Estriol
+DBLINKS     CAS: 113-22-4
+            PubChem: 96024617
+            LigandBox: D07921
+ATOM        37
+            1   C1y C    24.1500  -21.2100
+            2   C1y C    22.8900  -21.9100
+            3   C1z C    24.1500  -19.8100
+            4   C1x C    26.5300  -21.2100
+            5   C1y C    21.7000  -21.2100
+            6   C1x C    22.8900  -23.3100
+            7   C1y C    25.3400  -19.0400
+            8   C1x C    22.8900  -19.1800
+            9   C1a C    24.0800  -18.3400
+            10  C1y C    26.5300  -19.8100
+            11  C8y C    20.4400  -21.9100
+            12  C1x C    21.7000  -19.8100
+            13  C1x C    21.7000  -24.0100
+            14  O7a O    25.3400  -17.4300
+            15  O7a O    27.7900  -19.1800
+            16  C8y C    20.4400  -23.3100
+            17  C8x C    19.3200  -21.2100
+            18  C8x C    19.3200  -24.0100
+            19  C8x C    18.1300  -21.9100
+            20  C8y C    18.1300  -23.3100
+            21  O1a O    16.9400  -24.0100
+            22  C7a C    28.9800  -19.8800
+            23  C1b C    30.1700  -19.2500
+            24  C1b C    31.4300  -20.0200
+            25  C6a C    32.6900  -19.3200
+            26  O6a O    33.9500  -20.0900 #-
+            27  O6a O    32.6900  -17.9200
+            28  O6a O    28.9800  -21.3500
+            29  C7a C    26.5524  -16.7300
+            30  C1b C    27.7479  -17.4204
+            31  O6a O    26.5525  -15.3302
+            32  C1b C    28.9353  -16.7349
+            33  C6a C    30.1265  -17.4229
+            34  O6a O    31.3160  -16.7362 #-
+            35  O6a O    30.1265  -18.8297
+            36  Z   Na   30.9400  -15.4000 #+
+            37  Z   Na   35.7700  -20.2300 #+
+BOND        38
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1 #Up
+            14   10  15 1 #Down
+            15   11  16 2
+            16   11  17 1
+            17   16  18 1
+            18   17  19 2
+            19   18  20 2
+            20   20  21 1
+            21    7  10 1
+            22    8  12 1
+            23   13  16 1
+            24   19  20 1
+            25   15  22 1
+            26   22  23 1
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30   25  27 2
+            31   22  28 2
+            32   14  29 1
+            33   29  30 1
+            34   29  31 2
+            35   30  32 1
+            36   32  33 1
+            37   33  34 1
+            38   33  35 2
+///

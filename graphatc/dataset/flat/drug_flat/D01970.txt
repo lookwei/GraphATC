@@ -1,0 +1,79 @@
+ENTRY       D01970                      Drug
+NAME        Omapatrilat (JAN/USAN/INN);
+            BMS 186716
+FORMULA     C19H24N2O4S2
+EXACT_MASS  408.1177
+MOL_WEIGHT  408.5349
+EFFICACY    Antihypertensive, Neprilysin inhibitor
+COMMENT     Treatment of hypertension and congestive heart failure
+TARGET      MME (CD10) [HSA:4311] [KO:K01389]
+  PATHWAY   hsa04614(4311)  Renin-angiotensin system
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Metallo peptidases
+                MME (CD10)
+                 D01970  Omapatrilat (JAN/USAN/INN)
+DBLINKS     CAS: 167305-00-2
+            PubChem: 7849032
+            PDB-CCD: FT8
+            LigandBox: D01970
+ATOM        27
+            1   C1x C    33.2960  -19.1343
+            2   C1y C    33.6217  -17.7852
+            3   C1x C    34.1799  -20.2507
+            4   C5x C    34.8777  -17.1805
+            5   S2x S    35.5754  -20.2507
+            6   N1y N    36.1337  -17.7852
+            7   C1y C    36.4593  -19.1343
+            8   C1x C    37.8031  -19.5306
+            9   C1x C    38.8182  -18.5649
+            10  C1x C    38.4925  -17.2158
+            11  C1y C    37.1488  -16.8196
+            12  O5x O    34.8748  -15.7799
+            13  N1b N    32.5286  -16.9022
+            14  C5a C    31.3216  -17.5855
+            15  C1c C    30.1239  -16.8752
+            16  C1b C    28.9104  -17.5568
+            17  C8y C    27.7134  -16.8469
+            18  O5a O    31.3050  -18.9988
+            19  S1a S    30.1404  -15.4730
+            20  C8x C    27.7298  -15.4451
+            21  C8x C    26.5249  -14.7305
+            22  C8x C    25.3033  -15.4166
+            23  C8x C    25.2869  -16.8185
+            24  C8x C    26.4920  -17.5332
+            25  C6a C    37.1488  -15.4196
+            26  O6a O    38.3857  -14.7056
+            27  O6a O    35.9441  -14.7238
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1
+            6     5   7 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    6  11 1
+            13    4  12 2
+            14    2  13 1 #Down
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   14  18 2
+            20   15  19 1 #Down
+            21   17  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   17  24 1
+            27   11  25 1 #Down
+            28   25  26 1
+            29   25  27 2
+///

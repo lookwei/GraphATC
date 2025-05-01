@@ -1,0 +1,91 @@
+ENTRY       D07223                      Drug
+NAME        Demegestone (INN)
+FORMULA     C21H28O2
+EXACT_MASS  312.2089
+MOL_WEIGHT  312.4458
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      ATC code: G03DB05
+EFFICACY    Anti-endometriosis, Menstruation disorder agent, Progesterone receptor agonist
+COMMENT     Progestin, pregnadiene derivative
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DB Pregnadien derivatives
+                 G03DB05 Demegestone
+                  D07223  Demegestone (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D07223  Demegestone
+              DG01666  Progesterone receptor agonist
+               D07223  Demegestone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D07223  Demegestone (INN)
+DBLINKS     CAS: 10116-22-0
+            PubChem: 51091561
+            LigandBox: D07223
+            NIKKAJI: J8.981H
+ATOM        23
+            1   C1x C    22.7500  -20.4400
+            2   C5x C    22.7500  -21.8400
+            3   C2x C    23.9400  -22.5400
+            4   C2y C    25.0600  -21.8400
+            5   C2y C    25.0600  -20.4400
+            6   C1x C    23.9400  -19.8100
+            7   C1x C    26.3200  -22.5400
+            8   C1x C    27.5100  -21.8400
+            9   C1y C    27.5100  -20.4400
+            10  C2y C    26.3200  -19.8100
+            11  C1y C    28.7000  -19.8100
+            12  C1z C    28.7000  -18.4800
+            13  C1x C    27.5100  -17.7800
+            14  C1x C    26.3200  -18.4800
+            15  O5x O    21.5600  -22.5400
+            16  C1a C    28.7000  -17.0800
+            17  C1x C    31.0800  -19.8100
+            18  C1x C    31.0800  -18.4800
+            19  C1z C    29.8900  -17.7800
+            20  C5a C    29.8900  -16.3800
+            21  O5a O    28.6300  -15.6800
+            22  C1a C    31.0800  -15.7500
+            23  C1a C    31.1500  -17.2200
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 2
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18   12  16 1 #Up
+            19   11  17 1
+            20   17  18 1
+            21   18  19 1
+            22   12  19 1
+            23   19  20 1 #Up
+            24   20  21 2
+            25   20  22 1
+            26   19  23 1 #Down
+///

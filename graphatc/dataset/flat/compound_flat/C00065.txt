@@ -1,0 +1,92 @@
+ENTRY       C00065                      Compound
+NAME        L-Serine;
+            L-2-Amino-3-hydroxypropionic acid;
+            L-3-Hydroxy-alanine;
+            Serine
+FORMULA     C3H7NO3
+EXACT_MASS  105.0426
+MOL_WEIGHT  105.0926
+REMARK      Same as: D00016
+REACTION    R00220 R00581 R00582 R00584 R00585 R00586 R00588 R00589 
+            R00590 R00674 R00891 R00945 R01281 R01289 R01290 R01800 
+            R02378 R02563 R02722 R02817 R03662 R03923 R04942 R06126 
+            R07376 R07377 R07644 R08218 R09099 R10255 R10441 R10880 
+            R10984 R10985 R10986 R11667 R12342 R12344 R12757 R12779 
+            R12781
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00261  Monobactam biosynthesis
+            map00270  Cysteine and methionine metabolism
+            map00460  Cyanoamino acid metabolism
+            map00470  D-Amino acid metabolism
+            map00564  Glycerophospholipid metabolism
+            map00600  Sphingolipid metabolism
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00680  Methane metabolism
+            map00920  Sulfur metabolism
+            map00970  Aminoacyl-tRNA biosynthesis
+            map00997  Biosynthesis of various other secondary metabolites
+            map00998  Biosynthesis of various antibiotics
+            map01060  Biosynthesis of plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+            map01240  Biosynthesis of cofactors
+            map01502  Vancomycin resistance
+            map02010  ABC transporters
+            map04071  Sphingolipid signaling pathway
+            map04974  Protein digestion and absorption
+            map04978  Mineral absorption
+            map05230  Central carbon metabolism in cancer
+MODULE      M00020  Serine biosynthesis, glycerate-3P => serine
+            M00021  Cysteine biosynthesis, serine => cysteine
+            M00035  Methionine degradation
+            M00094  Ceramide biosynthesis
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine
+            M00346  Formaldehyde assimilation, serine pathway
+            M00532  Photorespiration
+            M00736  Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+            M00785  Cycloserine biosynthesis, arginine/serine => cycloserine
+            M00875  Staphyloferrin B biosynthesis, L-serine => staphyloferrin B
+NETWORK     nt06030  Methionine metabolism
+            nt06033  Glycine, serine and arginine metabolism
+ENZYME      1.1.1.276       1.1.1.387       1.4.1.7         2.1.2.1         
+            2.3.1.30        2.3.1.50        2.6.1.45        2.6.1.51        
+            2.7.1.80        2.7.1.225       2.7.1.226       2.7.8.4         
+            2.7.8.8         2.7.8.29        2.7.8.38        2.8.1.4         
+            3.1.3.3         3.1.4.13        4.1.1.-         4.2.1.20        
+            4.2.1.22        4.2.1.50        4.2.1.122       4.3.1.17        
+            4.3.1.19        5.1.1.10        5.1.1.18        6.1.1.11        
+            6.2.1.72        6.3.2.14
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Common amino acids
+                C00065  Serine (Ser)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00016)]
+             Chemicals
+              D00016  L-Serine
+DBLINKS     CAS: 56-45-1
+            PubChem: 3365
+            ChEBI: 17115
+            KNApSAcK: C00001393
+            PDB-CCD: SER
+            3DMET: B01145
+            NIKKAJI: J1.195I
+ATOM        7
+            1   C1c C    23.5961  -17.5357
+            2   C6a C    22.4445  -16.7873
+            3   C1b C    24.8238  -16.8518
+            4   N1a N    23.6370  -18.9388
+            5   O6a O    21.2226  -17.4714
+            6   O6a O    22.4677  -15.3785
+            7   O1a O    26.0339  -17.5708
+BOND        6
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+///

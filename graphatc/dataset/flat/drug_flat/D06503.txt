@@ -1,0 +1,172 @@
+ENTRY       D06503                      Drug
+NAME        Pemetrexed sodium hydrate (JAN);
+            Pemetrexed disodium heptahydrate;
+            Alimta (TN)
+PRODUCT     ALIMTA (Eli Lilly and Company)
+  GENERIC   PEMETREXED (Baxter Healthcare Corporation)
+            PEMETREXED (Meitheal Pharmaceuticals)
+            PEMETREXED (Waverley Pharma)
+FORMULA     C20H19N5O6. 7H2O. 2Na
+EXACT_MASS  597.187
+MOL_WEIGHT  597.4813
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01978  Folic acid analog
+REMARK      Therapeutic category: 4229
+            ATC code: L01BA04
+            Chemical structure group: DG00682
+            Product (DG00682): D07472<US> D03828<US> D06503<JP/US> D10596<JP/US> D11352<US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Non-small cell lung cancer [DS:H00014]
+            Mesothelioma [DS:H00015]
+TARGET      TYMS [HSA:7298] [KO:K00560]
+            DHFR [HSA:1719 200895] [KO:K00287]
+            GART [HSA:2618] [KO:K11787]
+  PATHWAY   hsa00230(2618)  Purine metabolism
+            hsa00670(1719+200895+2618+7298)  One carbon pool by folate
+            hsa00790(1719+200895)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BA Folic acid analogues
+                 L01BA04 Pemetrexed
+                  D06503  Pemetrexed sodium hydrate (JAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Pemetrexed
+                D06503  Pemetrexed sodium hydrate (JAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               422  Antimetabolites
+                4229  Others
+                 D06503  Pemetrexed sodium hydrate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01978  Folic acid analog
+                DG00682  Pemetrexed
+                 D06503  Pemetrexed sodium hydrate
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D06503  Pemetrexed sodium hydrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dihydrofolate reductase
+                DHFR
+                 D06503  Pemetrexed sodium hydrate (JAN) &lt;JP/US&gt;
+              Transferases (EC2)
+               Methyltransferases
+                TYMS
+                 D06503  Pemetrexed sodium hydrate (JAN) &lt;JP/US&gt;
+              Ligases (EC6)
+               GART
+                GART
+                 D06503  Pemetrexed sodium hydrate (JAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D06503
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D06503
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D06503
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D06503
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01978  Folic acid analog
+                DG00682  Pemetrexed
+DBLINKS     PubChem: 47208159
+            ChEBI: 63723
+            LigandBox: D06503
+ATOM        40
+            1   O0  O    29.6800  -19.5300
+            2   C8x C    15.2816  -15.9943
+            3   C8y C    15.2816  -14.5968
+            4   C8x C    16.4695  -13.8281
+            5   C8x C    17.7273  -14.5968
+            6   C8y C    17.7273  -15.9943
+            7   C8x C    16.4695  -16.6931
+            8   C1b C    14.0937  -13.8281
+            9   C1b C    12.8359  -14.5968
+            10  C8y C    11.6615  -13.8511
+            11  C8y C    10.3457  -13.3958
+            12  C8y C    10.3394  -11.9983
+            13  N4x N    11.6793  -11.6009
+            14  C8x C    12.4950  -12.7293
+            15  C8y C     9.1191  -14.0865
+            16  N4x N     7.9689  -13.2669
+            17  C8y C     7.9771  -11.8971
+            18  N5x N     9.1759  -11.2209
+            19  N1a N     6.8135  -11.1197
+            20  C5a C    18.9152  -16.6931
+            21  N1b N    20.1730  -15.9943
+            22  C1c C    21.3609  -16.6931
+            23  C1b C    22.5488  -15.9943
+            24  C1b C    23.8066  -16.6931
+            25  C6a C    24.9946  -15.9943
+            26  O6a O    26.1825  -16.6931 #-
+            27  O5a O    18.9152  -18.0907
+            28  C6a C    21.3609  -18.0907
+            29  O6a O    22.5488  -18.7894 #-
+            30  O6a O    20.1730  -18.7894
+            31  O6a O    24.9946  -14.5968
+            32  O5x O     9.0692  -15.4423
+            33  Z   Na   24.2259  -18.7894 #+
+            34  Z   Na   27.7198  -16.6931 #+
+            35  O0  O    29.6800  -19.5300
+            36  O0  O    29.6800  -19.5300
+            37  O0  O    29.6800  -19.5300
+            38  O0  O    29.6800  -19.5300
+            39  O0  O    29.6800  -19.5300
+            40  O0  O    29.6800  -19.5300
+BOND        33
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     3   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 1
+            14   10  14 2
+            15   11  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 2
+            19   12  18 1
+            20   17  19 1
+            21    6  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   20  27 2
+            29   22  28 1 #Up
+            30   28  29 1
+            31   28  30 2
+            32   25  31 2
+            33   15  32 2
+BRACKET     1    27.4400  -20.3700   27.4400  -18.5500
+            1    30.4500  -18.5500   30.4500  -20.3700
+            1  7
+  ORIGINAL  1    1
+  REPEAT    1   35  36  37  38  39  40
+///

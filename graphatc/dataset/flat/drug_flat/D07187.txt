@@ -1,0 +1,94 @@
+ENTRY       D07187                      Drug
+NAME        Etofibrate (INN)
+FORMULA     C18H18ClNO5
+EXACT_MASS  363.0874
+MOL_WEIGHT  363.7922
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01733  PPAR alpha agonist
+               DG01547  Fibrate
+REMARK      ATC code: C10AB09
+EFFICACY    Antihyperlipidemic, Triglyceride synthesis inhibitor, Peroxisome proliferator-activated receptor (PPAR) alpha agonist
+COMMENT     Clofibrate derivative
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+  PATHWAY   hsa03320(5465)  PPAR signaling pathway
+            hsa04920(5465)  Adipocytokine signaling pathway
+INTERACTION  
+STR_MAP     map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AB Fibrates
+                 C10AB09 Etofibrate
+                  D07187  Etofibrate (INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 D07187  Etofibrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D07187  Etofibrate (INN)
+DBLINKS     CAS: 31637-97-5
+            PubChem: 51091525
+            LigandBox: D07187
+            NIKKAJI: J19.853F
+ATOM        25
+            1   C8x C    10.5700  -19.2500
+            2   C8y C    10.5700  -20.6500
+            3   C8x C    11.7824  -21.3500
+            4   C8x C    12.9949  -20.6500
+            5   C8y C    12.9949  -19.2500
+            6   C8x C    11.7824  -18.5500
+            7   O2a O    14.2324  -18.5500
+            8   C1d C    15.4449  -19.2500
+            9   C7a C    16.6573  -18.5500
+            10  O7a O    17.8697  -19.2500
+            11  C1b C    19.0822  -18.5500
+            12  C1b C    20.2946  -19.2500
+            13  O7a O    21.5070  -18.5500
+            14  C7a C    22.7195  -19.2500
+            15  C8y C    23.9319  -18.5500
+            16  C8x C    25.1504  -19.2535
+            17  C8x C    26.3628  -18.5535
+            18  C8x C    26.3629  -17.1535
+            19  N5x N    25.1444  -16.4500
+            20  C8x C    23.9319  -17.1500
+            21  O6a O    16.6573  -17.1500
+            22  O6a O    22.7195  -20.6497
+            23  C1a C    14.9549  -20.5324
+            24  C1a C    16.1449  -20.4624
+            25  X   Cl    9.3576  -21.3500
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22    9  21 2
+            23   14  22 2
+            24    8  23 1
+            25    8  24 1
+            26    2  25 1
+///

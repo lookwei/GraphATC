@@ -1,0 +1,131 @@
+ENTRY       D05744                      Drug
+NAME        Roflumilast (JAN/USAN/INN);
+            Daliresp (TN);
+            Zoryve (TN)
+PRODUCT     DALIRESP (AstraZeneca Pharmaceuticals LP)
+            ZORYVE (Arcutis Biotherapeutics)
+  GENERIC   ROFLUMILAST (Aurobindo Pharma Limited)
+            ROFLUMILAST (Camber Pharmaceuticals)
+            ROFLUMILAST (Micro Labs Limited)
+            ROFLUMILAST (Mylan Pharmaceuticals)
+            ROFLUMILAST (Novadoz Pharmaceuticals LLC)
+            ROFLUMILAST (Solco Healthcare US)
+            ROFLUMILAST (Strides Pharma Science Limited)
+            ROFLUMILAST (Torrent Pharmaceuticals Limited)
+            ROFLUMILAST (Zydus Lifesciences Limited)
+            ROFLUMILAST (Zydus Pharmaceuticals USA)
+FORMULA     C17H14Cl2F2N2O3
+EXACT_MASS  402.035
+MOL_WEIGHT  403.2075
+CLASS       Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: R03DX07
+            Product: D05744<US>
+EFFICACY    Antiasthmatic, Phosphodiesterase IV inhibitor
+  DISEASE   Chronic obstructive pulmonary disease [DS:H01714]
+            Plaque psoriasis [DS:H01656]
+TARGET      PDE4 [HSA:5141 5142 5143 5144] [KO:K13293]
+  PATHWAY   hsa04024(5141+5142+5143+5144)  cAMP signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03D OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+                R03DX Other systemic drugs for obstructive airway diseases
+                 R03DX07 Roflumilast
+                  D05744  Roflumilast (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Phosphodiesterase Inhibitors, Airways Disease
+               Roflumilast
+                D05744  Roflumilast (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               D05744  Roflumilast
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D05744  Roflumilast
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE4
+                 D05744  Roflumilast (JAN/USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D05744
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D05744
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D05744
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05744
+DBLINKS     CAS: 162401-32-3
+            PubChem: 47207405
+            ChEBI: 47657
+            PDB-CCD: ROF
+            LigandBox: D05744
+ATOM        26
+            1   C8y C    14.2100  -18.7600
+            2   C8y C    14.2100  -20.1600
+            3   C8x C    15.4000  -20.8600
+            4   C8y C    16.6600  -20.1600
+            5   C8x C    16.6600  -18.7600
+            6   C8x C    15.4000  -18.0600
+            7   O2a O    13.0200  -18.0600
+            8   O2a O    13.0200  -20.8600
+            9   C1c C    13.0200  -16.6600
+            10  X   F    11.8300  -15.9600
+            11  X   F    14.2100  -15.9600
+            12  C1b C    11.8300  -20.1600
+            13  C1y C    10.6400  -20.8600
+            14  C1x C     9.2400  -20.8600
+            15  C1x C     9.9400  -22.0500
+            16  C5a C    17.8666  -20.8700
+            17  N1b N    19.0763  -20.1847
+            18  O5a O    17.8551  -22.2600
+            19  C8y C    20.2966  -20.9030
+            20  C8y C    20.2844  -22.3299
+            21  C8x C    21.4908  -23.0402
+            22  N5x N    22.7792  -22.3506
+            23  C8x C    22.7213  -20.9237
+            24  C8y C    21.5149  -20.2134
+            25  X   Cl   21.4564  -18.8305
+            26  X   Cl   19.0779  -23.0129
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     2   8 1
+            9     7   9 1
+            10    9  10 1
+            11    9  11 1
+            12    8  12 1
+            13   12  13 1
+            14   14  13 1
+            15   13  15 1
+            16   15  14 1
+            17    4  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   24  25 1
+            28   20  26 1
+///

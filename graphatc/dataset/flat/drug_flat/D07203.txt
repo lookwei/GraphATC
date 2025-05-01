@@ -1,0 +1,149 @@
+ENTRY       D07203                      Drug
+NAME        Methylprednisolone aceponate (INN);
+            Advantan (TN)
+FORMULA     C27H36O7
+EXACT_MASS  472.2461
+MOL_WEIGHT  472.5705
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: D07AA01 D07AC14 D10AA02 H02AB04
+            Chemical structure group: DG00410
+            Product (DG00410): D00407<JP/US> D00751<JP/US> D00979<JP/US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AA Corticosteroids, weak (group I)
+                 D07AA01 Methylprednisolone
+                  D07203  Methylprednisolone aceponate (INN)
+                D07AC Corticosteroids, potent (group III)
+                 D07AC14 Methylprednisolone aceponate
+                  D07203  Methylprednisolone aceponate (INN)
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AA Corticosteroids, combinations for treatment of acne
+                 D10AA02 Methylprednisolone
+                  D07203  Methylprednisolone aceponate (INN)
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB04 Methylprednisolone
+                  D07203  Methylprednisolone aceponate (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00410  Methylprednisolone
+                 D07203  Methylprednisolone aceponate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00410  Methylprednisolone
+                 D07203  Methylprednisolone aceponate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07203  Methylprednisolone aceponate (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07203
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00410  Methylprednisolone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00410  Methylprednisolone
+DBLINKS     CAS: 86401-95-8
+            PubChem: 51091541
+            LigandBox: D07203
+            NIKKAJI: J25.810E
+ATOM        34
+            1   C1z C    27.4416  -18.9534
+            2   C1y C    27.4416  -20.3466
+            3   C1x C    29.8101  -20.3466
+            4   C1x C    29.8101  -18.9534
+            5   C1z C    28.6259  -18.2568
+            6   C1x C    26.2574  -18.2568
+            7   C1y C    25.0731  -18.9534
+            8   C1y C    25.0731  -20.3466
+            9   C1y C    26.2574  -21.0433
+            10  C1z C    23.8889  -21.0433
+            11  C2y C    23.8889  -22.3668
+            12  C1y C    25.0731  -22.9938
+            13  C1x C    26.2574  -22.3668
+            14  C2x C    22.7046  -20.3466
+            15  C2x C    21.5204  -21.0433
+            16  C5x C    21.5204  -22.3668
+            17  C2x C    22.7046  -22.9938
+            18  C1a C    27.4416  -17.6298
+            19  O1a O    23.8889  -18.2568
+            20  C1a C    23.8889  -19.6500
+            21  O5x O    20.4058  -22.9938
+            22  C5a C    28.6259  -16.8635
+            23  O7a O    29.8353  -17.5650
+            24  C1b C    29.8324  -16.1669
+            25  O7a O    29.8324  -14.7737
+            26  C7a C    31.0222  -14.0866
+            27  C1a C    31.0222  -12.6934
+            28  C7a C    31.0181  -18.2545
+            29  C1b C    32.2086  -17.5735
+            30  C1a C    33.3841  -18.2587
+            31  O6a O    31.0124  -19.6499
+            32  O5a O    27.4194  -16.1669
+            33  O6a O    32.2037  -14.7688
+            34  C1a C    25.0728  -24.3599
+BOND        37
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13   9 1
+            16   10  14 1
+            17   14  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  11 2
+            21    1  18 1 #Up
+            22    7  19 1 #Up
+            23   10  20 1 #Up
+            24   16  21 2
+            25    5  22 1 #Up
+            26    5  23 1 #Down
+            27   22  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   23  28 1
+            32   28  29 1
+            33   29  30 1
+            34   28  31 2
+            35   22  32 2
+            36   26  33 2
+            37   12  34 1 #Down
+///

@@ -1,0 +1,124 @@
+ENTRY       D07917                      Drug
+NAME        Esomeprazole (INN);
+            Inexium paranova (TN)
+FORMULA     C17H19N3O3S
+EXACT_MASS  345.1147
+MOL_WEIGHT  345.4161
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01646  Proton pump inhibitor (PPI)
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: A02BC05
+            Chemical structure group: DG00023
+            Product (DG00023): D01984<JP/US> D04056<US> D10120<US> D11114<US>
+EFFICACY    Antisecretory (gastric acid), Anti-ulcerative, Proton pump inhibitor
+COMMENT     Benzimidazole derivative
+TARGET      ATP4 [HSA:495 496] [KO:K01542 K01543]
+  PATHWAY   hsa00190(495+496)  Oxidative phosphorylation
+            hsa04966(495+496)  Collecting duct acid secretion
+            hsa04971(495+496)  Gastric acid secretion
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BC Proton pump inhibitors
+                 A02BC05 Esomeprazole
+                  D07917  Esomeprazole (INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00023  Esomeprazole
+                 D07917  Esomeprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00023  Esomeprazole
+                D07917  Esomeprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00023  Esomeprazole
+                 D07917  Esomeprazole
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP4
+                 D07917  Esomeprazole (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07917
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00023  Esomeprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00023  Esomeprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00023  Esomeprazole
+DBLINKS     CAS: 119141-88-7
+            PubChem: 96024613
+            ChEBI: 50275
+            LigandBox: D07917
+ATOM        24
+            1   C8x C    21.3644  -16.5406
+            2   C8y C    21.3644  -17.9366
+            3   C8x C    22.6208  -18.6345
+            4   C8x C    22.6208  -15.8427
+            5   C8y C    23.8073  -16.5406
+            6   C8y C    23.8073  -17.9366
+            7   N5x N    25.1334  -18.4251
+            8   C8y C    25.9710  -17.2386
+            9   N4x N    25.1334  -16.1219
+            10  S4a S    27.3669  -17.2384
+            11  C1b C    28.0649  -18.5647
+            12  C8y C    29.4608  -18.5647
+            13  C8y C    30.1588  -19.7513
+            14  C8y C    31.5547  -19.7513
+            15  C8y C    32.1829  -18.5647
+            16  C8x C    31.5547  -17.3084
+            17  N5x N    30.1588  -17.3084
+            18  C1a C    33.6486  -18.5647
+            19  O2a O    32.2527  -20.9378
+            20  C1a C    33.6486  -20.9378
+            21  C1a C    29.4608  -20.9378
+            22  O3c O    28.0649  -16.1219
+            23  O2a O    20.1778  -18.6345
+            24  C1a C    18.9912  -17.9366
+BOND        26
+            1     2   3 1
+            2    23  24 1
+            3     8  10 1
+            4     3   6 2
+            5    10  11 1 #Up
+            6     5   4 2
+            7    11  12 1
+            8     4   1 1
+            9    12  13 2
+            10   13  14 1
+            11   14  15 2
+            12   15  16 1
+            13   16  17 2
+            14   17  12 1
+            15    1   2 2
+            16   15  18 1
+            17    5   6 1
+            18   14  19 1
+            19    6   7 1
+            20   19  20 1
+            21    7   8 2
+            22   13  21 1
+            23    8   9 1
+            24   10  22 2
+            25    9   5 1
+            26    2  23 1
+///

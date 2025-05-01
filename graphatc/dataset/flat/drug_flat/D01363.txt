@@ -1,0 +1,92 @@
+ENTRY       D01363                      Drug
+NAME        Carboplatin (JP18/USP/INN);
+            Paraplatin (TN)
+PRODUCT
+  GENERIC   CARBOPLATIN (Accord Healthcare)
+            CARBOPLATIN (Apotex Corp.)
+            CARBOPLATIN (BPI Labs)
+            CARBOPLATIN (Eugia US LLC)
+            CARBOPLATIN (Fresenius Kabi USA)
+            CARBOPLATIN (Gland Pharma Limited)
+            CARBOPLATIN (Hospira)
+            CARBOPLATIN (Hospira)
+            CARBOPLATIN (Ingenus Pharmaceuticals)
+            CARBOPLATIN (Meitheal Pharmaceuticals)
+            CARBOPLATIN (Teva Parenteral Medicines)
+            CARBOPLATIN (Teva Parenteral Medicines)
+            CARBOPLATIN (Teyro Labs Private Limited)
+            PARAPLATIN (Accord BioPharma)
+FORMULA     C6H6O4Pt. 2NH3
+EXACT_MASS  371.0445
+MOL_WEIGHT  371.2545
+CLASS       Antineoplastic
+             DG01679  Platinum compound
+REMARK      Therapeutic category: 4291
+            ATC code: L01XA02
+            Product: D01363<JP/US>
+EFFICACY    Antineoplastic, Cell growth inhibitor
+  DISEASE   Ovarian carcinoma [DS:H00027]
+COMMENT     Platinum compound
+            DNA alkylator
+TARGET      DNA
+INTERACTION  
+STR_MAP     map07040  Antineoplastics - alkylating agents
+OTHER_MAP   map01524  Platinum drug resistance
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XA Platinum compounds
+                 L01XA02 Carboplatin
+                  D01363  Carboplatin (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Alkylating Agents
+               Carboplatin
+                D01363  Carboplatin (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D01363  Carboplatin (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01679  Platinum compound
+               D01363  Carboplatin
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01363  Carboplatin
+              D01363  Carboplatin injection
+DBLINKS     CAS: 41575-94-4
+            PubChem: 7848426
+            ChEBI: 31355
+            NIKKAJI: J362.552D
+ATOM        13
+            1   C1x C    19.7997  -13.7249
+            2   C1x C    20.7898  -14.7149
+            3   C1x C    21.7798  -13.7249
+            4   C1z C    20.7898  -12.7348
+            5   O7x O    19.5742  -10.6345
+            6   C7x C    19.5742  -12.0347
+            7   C7x C    21.9982  -12.0347
+            8   O7x O    21.9982  -10.6345
+            9   Z   Pt   20.7198   -9.6544
+            10  O6a O    18.3618  -12.7354
+            11  O6a O    23.2114  -12.7338
+            12  N0  N    25.3024  -10.9880
+            13  N0  N    25.3732  -13.6753
+BOND        12
+            1     1   2 1
+            2     2   3 1
+            3     5   6 1
+            4     6   4 1
+            5     4   7 1
+            6     7   8 1
+            7     8   9 1
+            8     9   5 1
+            9     3   4 1
+            10    6  10 2
+            11    4   1 1
+            12    7  11 2
+///

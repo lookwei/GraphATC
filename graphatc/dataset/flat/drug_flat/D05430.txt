@@ -1,0 +1,57 @@
+ENTRY       D05430                      Drug
+NAME        Pentrinitrol (USAN);
+            Petrin (TN)
+FORMULA     C5H9N3O10
+EXACT_MASS  271.0288
+MOL_WEIGHT  271.1391
+CLASS       Cardiovascular agent
+             DG01657  Nitrovasodilator
+EFFICACY    Vasodilator (coronary)
+COMMENT     Organic nitrate
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01657  Nitrovasodilator
+               D05430  Pentrinitrol
+DBLINKS     CAS: 1607-17-6
+            PubChem: 47207101
+            LigandBox: D05430
+            NIKKAJI: J7.529I
+ATOM        18
+            1   C1d C    24.5777  -19.2568
+            2   C1b C    23.1901  -19.2568
+            3   C1b C    25.9652  -19.2568
+            4   C1b C    24.5706  -17.8693
+            5   C1b C    24.5706  -20.6444
+            6   O2a O    25.7687  -17.1695
+            7   O2a O    26.6589  -20.4585
+            8   O1a O    23.3656  -21.3321
+            9   O2a O    22.4964  -18.0552
+            10  N2b N    25.7617  -15.7820 #+
+            11  N2b N    28.0464  -20.4585 #+
+            12  N2b N    21.1089  -18.0552 #+
+            13  O3a O    27.1679  -14.9434 #-
+            14  O3a O    24.5566  -15.0943
+            15  O3a O    20.4151  -16.8537 #-
+            16  O3a O    20.4151  -19.2568
+            17  O3a O    28.7402  -21.6600 #-
+            18  O3a O    28.7402  -19.2568
+BOND        17
+            1     7  11 1
+            2     4   6 1
+            3     1   2 1
+            4     9  12 1
+            5     3   7 1
+            6    10  13 1
+            7     1   4 1
+            8    10  14 2
+            9     5   8 1
+            10   12  15 1
+            11   12  16 2
+            12    2   9 1
+            13   11  17 1
+            14    1   5 1
+            15   11  18 2
+            16    6  10 1
+            17    1   3 1
+///

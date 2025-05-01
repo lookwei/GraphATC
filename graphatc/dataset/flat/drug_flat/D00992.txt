@@ -1,0 +1,76 @@
+ENTRY       D00992                      Drug
+NAME        Gold sodium thiomalate (USP);
+            Sodium aurothiomalate (JP18);
+            Myochrysine (TN)
+FORMULA     C4H3AuO4S. xNa. (2-x)H
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG01912  Gold preparations
+REMARK      Therapeutic category: 4420
+            ATC code: M01CB01
+            Product: D00992<JP>
+EFFICACY    Antirheumatic
+INTERACTION  
+STR_MAP     map07050  Antirheumatics - DMARDs and biological agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01C SPECIFIC ANTIRHEUMATIC AGENTS
+                M01CB Gold preparations
+                 M01CB01 Sodium aurothiomalate
+                  D00992  Gold sodium thiomalate (USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              44  Allergic agents
+               442  Stimulation therapy agents
+                4420  Stimulation therapy agents
+                 D00992  Gold sodium thiomalate (USP); Sodium aurothiomalate (JP18)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG01912  Gold preparations
+                D00992  Gold sodium thiomalate
+            Drug classes [BR:br08332]
+             Antirheumatic agent
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D00992  Gold sodium thiomalate
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00992  Sodium aurothiomalate
+DBLINKS     CAS: 12244-57-4
+            PubChem: 7848055
+            ChEBI: 5516
+            NIKKAJI: J253.004J
+ATOM        11
+            1   C1c C    17.4192  -17.1543
+            2   C1b C    16.2035  -16.4533
+            3   C6a C    18.6289  -16.4533
+            4   S2a S    17.4192  -18.5570
+            5   C6a C    14.9925  -17.1543
+            6   O6a O    18.6289  -15.0566
+            7   O6a O    19.8444  -17.1543 #-
+            8   Z   Au   18.6289  -19.2533
+            9   O6a O    14.9925  -18.5570
+            10  O6a O    13.7827  -16.4533 #-
+            11  Z   Na   23.1360  -17.1945 #+
+BOND        9
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     3   7 1
+            7     4   8 1
+            8     5   9 2
+            9     5  10 1
+BRACKET     1    22.3300  -18.2700   22.3300  -15.7500
+            1    24.7100  -15.7500   24.7100  -18.2700
+            1  x
+  ORIGINAL  1   11
+  REPEAT    1 
+            2    27.2300  -18.4800   27.2300  -15.8900
+            2    29.4000  -15.8900   29.4000  -18.4800
+            2  2-x
+  ORIGINAL  2   12
+  REPEAT    2 
+///

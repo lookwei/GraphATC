@@ -1,0 +1,29 @@
+ENTRY       G10536                      Glycan
+NAME        Chitosan;
+            beta-1,4-Poly-D-glucosamine
+COMPOSITION (GlcN)1 (*)2
+REMARK      Same as: C00734 C06023
+REACTION    R06175 R06225 R06241
+ENZYME      3.2.1.132       3.2.1.165       3.5.1.41
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Homopolysaccharides
+                G10536  Chitosan
+REFERENCE   1  [PMID:12775215]
+  AUTHORS   Hekmat O, Tokuyasu K, Withers SG.
+  TITLE     Subsite structure of the endo-type chitin deacetylase from a deuteromycete, Colletotrichum lindemuthianum: an investigation using steady-state kinetic analysis and MS.
+  JOURNAL   Biochem J 374:369-80 (2003)
+            DOI:10.1042/BJ20030204
+DBLINKS     GlyTouCan: G82804CF
+NODE        3
+            1   *           8     0
+            2   GlcN        0     0
+            3   *          -8     0
+EDGE        2
+            1     2:b1    1    
+            2     3       2:4  
+BRACKET     1  -5.0   2.0  -5.0  -2.0
+            1   5.0  -2.0   5.0   2.0
+            1 n
+///

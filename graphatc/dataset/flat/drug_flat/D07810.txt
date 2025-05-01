@@ -1,0 +1,122 @@
+ENTRY       D07810                      Drug
+NAME        Diacetylmorphine hydrochloride;
+            Diamorphine hydrochloride;
+            Heroin hydrochloride;
+            Diamorphine (TN)
+FORMULA     C21H23NO5. HCl
+EXACT_MASS  405.1343
+MOL_WEIGHT  405.872
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      ATC code: N07BC06
+            Chemical structure group: DG01003
+EFFICACY    Analgesic, Antitussive, Opioid receptor agonist
+COMMENT     Opioid
+            Active form of prodrug: Morphine [DR:D08233]
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BC Drugs used in opioid dependence
+                 N07BC06 Diamorphine
+                  D07810  Diacetylmorphine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01003  Diamorphine
+                 D07810  Diacetylmorphine hydrochloride
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01003  Diamorphine
+                D07810  Diacetylmorphine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07810  Diacetylmorphine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01003  Diamorphine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01003  Diamorphine
+            Prodrugs [br08324.html(DG01003)]
+             DG01003
+DBLINKS     CAS: 1502-95-0
+            PubChem: 96024507
+            LigandBox: D07810
+            NIKKAJI: J281.212F
+ATOM        28
+            1   C1z C    16.6347  -16.8344
+            2   C8y C    16.6347  -15.5020
+            3   C1y C    15.4425  -17.5357
+            4   C1y C    17.7568  -17.5357
+            5   C1x C    17.7568  -16.2033
+            6   C8y C    15.4425  -14.8708
+            7   C8y C    17.7568  -14.8708
+            8   O2x O    14.3905  -16.1331
+            9   C1y C    15.4425  -18.8682
+            10  C1y C    18.9490  -16.9046
+            11  C2x C    17.7568  -18.8682
+            12  C1x C    20.0711  -16.2033
+            13  C8y C    15.4425  -13.4682
+            14  C1x C    18.9490  -15.5020
+            15  C8x C    17.7568  -13.4682
+            16  C2x C    16.5646  -19.5695
+            17  O7a O    14.2503  -19.5695
+            18  N1y N    20.1412  -17.5357
+            19  C8x C    16.6347  -12.8370
+            20  O7a O    14.2503  -12.8370
+            21  C7a C    13.0581  -18.8682
+            22  C7a C    13.1282  -13.4682
+            23  C1a C    11.9360  -19.4994
+            24  O6a O    13.0581  -17.5357
+            25  C1a C    11.9360  -12.8370
+            26  O6a O    13.1282  -14.8708
+            27  C1a C    21.5412  -17.5357
+            28  X   Cl   25.2607  -18.9383
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1 #Down
+            8     3   9 1
+            9     4  10 1
+            10    4  11 1
+            11    5  12 1
+            12    6  13 2
+            13    7  14 1
+            14    7  15 1
+            15    9  16 1
+            16    9  17 1 #Down
+            17   10  18 1 #Up
+            18   13  19 1
+            19   13  20 1
+            20   17  21 1
+            21   20  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25   22  26 2
+            26    6   8 1
+            27   10  14 1
+            28   11  16 2
+            29   12  18 1
+            30   15  19 2
+            31   18  27 1
+///

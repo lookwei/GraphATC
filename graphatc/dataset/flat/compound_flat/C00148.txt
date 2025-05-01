@@ -1,0 +1,69 @@
+ENTRY       C00148                      Compound
+NAME        L-Proline;
+            2-Pyrrolidinecarboxylic acid
+FORMULA     C5H9NO2
+EXACT_MASS  115.0633
+MOL_WEIGHT  115.1305
+REMARK      Same as: D00035
+REACTION    R00135 R00671 R01246 R01248 R01249 R01251 R01252 R01253 
+            R01255 R03661 R06746 R09572 R09650 R10507 R10661 R11594 
+            R12056
+PATHWAY     map00330  Arginine and proline metabolism
+            map00332  Carbapenem biosynthesis
+            map00333  Prodigiosin biosynthesis
+            map00401  Novobiocin biosynthesis
+            map00404  Staurosporine biosynthesis
+            map00470  D-Amino acid metabolism
+            map00970  Aminoacyl-tRNA biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+            map02010  ABC transporters
+            map04974  Protein digestion and absorption
+            map04978  Mineral absorption
+            map05230  Central carbon metabolism in cancer
+MODULE      M00015  Proline biosynthesis, glutamate => proline
+            M00786  Fumitremorgin alkaloid biosynthesis, tryptophan + proline => fumitremorgin C/A
+            M00837  Prodigiosin biosynthesis, L-proline => prodigiosin
+            M00838  Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
+            M00970  Proline degradation, proline => glutamate
+            M00972  Proline metabolism
+NETWORK     nt06033  Glycine, serine and arginine metabolism
+ENZYME      1.5.1.1         1.5.1.2         1.5.1.21        1.5.1.49        
+            1.5.5.2         1.5.-.-         1.14.11.2       1.14.11.28      
+            1.14.11.56      1.14.11.57      3.4.11.5        3.5.1.101       
+            4.3.1.12        5.1.1.4         6.1.1.15        6.2.1.53
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Common amino acids
+                C00148  Proline (Pro)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00035)]
+             Chemicals
+              D00035  L-Proline
+DBLINKS     CAS: 147-85-3
+            PubChem: 3448
+            ChEBI: 17203
+            KNApSAcK: C00001388
+            PDB-CCD: PRO
+            3DMET: B01173
+            NIKKAJI: J9.117K
+ATOM        8
+            1   C1x C    10.0100  -19.3900
+            2   C1x C    10.4300  -20.6500
+            3   C1x C    11.8300  -20.6500
+            4   C1y C    12.2500  -19.3200
+            5   N1x N    11.1300  -18.4800
+            6   C6a C    13.4400  -18.6200
+            7   O6a O    14.7000  -19.3200
+            8   O6a O    13.4400  -17.2200
+BOND        8
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     4   6 1 #Down
+            7     6   7 1
+            8     6   8 2
+///

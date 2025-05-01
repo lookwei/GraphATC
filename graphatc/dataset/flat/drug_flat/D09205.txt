@@ -1,0 +1,96 @@
+ENTRY       D09205                      Drug
+NAME        Prucalopride (USAN/INN)
+FORMULA     C18H26ClN3O3
+EXACT_MASS  367.1663
+MOL_WEIGHT  367.8703
+CLASS       Gastrointestinal agent
+             DG01770  Laxative
+REMARK      ATC code: A06AX05
+            Chemical structure group: DG00080
+            Product (DG00080): D10152<US>
+EFFICACY    Prokinetic, Serotonin receptor agonist
+COMMENT     Treatment of constipation
+TARGET      HTR4 [HSA:3360] [KO:K04160]
+  PATHWAY   hsa04080(3360)  Neuroactive ligand-receptor interaction
+            hsa04726(3360)  Serotonergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A06 DRUGS FOR CONSTIPATION
+               A06A DRUGS FOR CONSTIPATION
+                A06AX Other drugs for constipation
+                 A06AX05 Prucalopride
+                  D09205  Prucalopride (USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01770  Laxative
+               DG00080  Prucalopride
+                D09205  Prucalopride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR4
+                 D09205  Prucalopride (USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01770  Laxative
+               DG00080  Prucalopride
+DBLINKS     CAS: 179474-81-8
+            PubChem: 96025885
+            LigandBox: D09205
+ATOM        25
+            1   C8y C    12.0400  -16.5200
+            2   C8y C    12.0400  -15.1200
+            3   C8y C    13.2300  -14.4200
+            4   C8y C    14.4900  -15.1200
+            5   C8y C    14.4900  -16.5200
+            6   C8x C    13.2300  -17.2200
+            7   C1x C    13.7900  -13.0200
+            8   C1x C    15.1200  -13.0200
+            9   O2x O    15.6100  -14.2800
+            10  N1a N    10.7800  -14.4200
+            11  X   Cl   10.7800  -17.2200
+            12  C5a C    15.6800  -17.2900
+            13  N1b N    16.9400  -16.5900
+            14  O5a O    15.6800  -18.6900
+            15  C1y C    18.1300  -17.2200
+            16  C1x C    19.3200  -16.5900
+            17  C1x C    20.5100  -17.2900
+            18  N1y N    20.5100  -18.6900
+            19  C1x C    19.3200  -19.3900
+            20  C1x C    18.1300  -18.6900
+            21  C1b C    21.7700  -19.3900
+            22  C1b C    22.9600  -18.6900
+            23  C1b C    24.1500  -19.3900
+            24  O2a O    25.3400  -18.6900
+            25  C1a C    26.5300  -19.3900
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 1
+            8     7   8 1
+            9     8   9 1
+            10    4   9 1
+            11    2  10 1
+            12    1  11 1
+            13    5  12 1
+            14   12  13 1
+            15   12  14 2
+            16   13  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   15  20 1
+            23   18  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+///

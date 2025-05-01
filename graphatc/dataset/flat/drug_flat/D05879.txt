@@ -1,0 +1,94 @@
+ENTRY       D05879                      Drug
+NAME        Solabegron hydrochloride (USAN)
+FORMULA     C23H23ClN2O3. HCl
+EXACT_MASS  446.1164
+MOL_WEIGHT  447.3543
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01453  beta3-Adrenergic receptor agonist
+EFFICACY    Antidiabetic, Overactive bladder agent, beta3-Adrenergic receptor agonist
+TARGET      ADRB3 [HSA:155] [KO:K04143]
+  PATHWAY   hsa04022(155)  cGMP-PKG signaling pathway
+            hsa04080(155)  Neuroactive ligand-receptor interaction
+            hsa04924(155)  Renin secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01453  beta3-Adrenergic receptor agonist
+                 D05879  Solabegron hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB3
+                 D05879  Solabegron hydrochloride (USAN)
+DBLINKS     CAS: 451470-34-1
+            PubChem: 47207540
+            LigandBox: D05879
+ATOM        30
+            1   C8y C    15.3218  -19.6613
+            2   C8x C    15.3218  -18.2620
+            3   C8x C    16.5113  -17.5623
+            4   C8x C    17.7707  -18.2620
+            5   C8y C    17.7707  -19.6613
+            6   C8x C    16.5113  -20.3609
+            7   X   Cl   14.1325  -20.3609
+            8   C1c C    18.9602  -20.3609
+            9   C1b C    20.1776  -19.6712
+            10  N1b N    21.3585  -20.3659
+            11  C1b C    22.5633  -19.6833
+            12  C1b C    23.7339  -20.3718
+            13  N1b N    24.9438  -19.6862
+            14  C8y C    26.1632  -20.4038
+            15  O1a O    18.9488  -21.7603
+            16  C8x C    26.1513  -21.8301
+            17  C8x C    27.3573  -22.5399
+            18  C8x C    28.5750  -21.8504
+            19  C8y C    28.5869  -20.4241
+            20  C8x C    27.3810  -19.7144
+            21  C8y C    29.8050  -19.6940
+            22  C8x C    31.0142  -20.3655
+            23  C8y C    32.2141  -19.6458
+            24  C8x C    32.1909  -18.2467
+            25  C8x C    30.9819  -17.5752
+            26  C8x C    29.8518  -18.2949
+            27  C6a C    33.4204  -20.3161
+            28  O6a O    34.6486  -19.5804
+            29  O6a O    33.3731  -21.6903
+            30  X   Cl   36.9415  -21.6203
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     5   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    8  15 1 #Down
+            16   14  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   14  20 1
+            22   19  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   25  26 2
+            28   21  26 1
+            29   23  27 1
+            30   27  28 1
+            31   27  29 2
+///

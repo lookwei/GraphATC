@@ -1,0 +1,104 @@
+ENTRY       D12172                      Drug
+NAME        Lufotrelvir (USAN)
+FORMULA     C24H33N4O9P
+EXACT_MASS  552.1985
+MOL_WEIGHT  552.514
+CLASS       Antiviral
+             DG03174  Anti-SARS-CoV-2 agent
+EFFICACY    Antiviral
+COMMENT     Treatment of SARS-CoV-2 and other coronavirus infections
+TARGET      SARS coronavirus 3C-like proteinase [KO:K25015]
+  PATHWAY   ko03230(K25015)  Viral genome structure
+            ko05171(K25015)  Coronavirus disease - COVID-19
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03174  Anti-SARS-CoV-2 agent
+               D12172  Lufotrelvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               SARS-CoV 3C protease inhibitor
+                D12172  Lufotrelvir (USAN)
+DBLINKS     CAS: 2468015-78-1
+            PDB-CCD: 80I
+ATOM        38
+            1   N1b N    16.0300  -27.7200
+            2   C1c C    17.2200  -27.0200
+            3   C5a C    18.4800  -27.7200
+            4   N1b N    19.6700  -27.0200
+            5   O5a O    18.4800  -29.1200
+            6   C1b C    17.2200  -25.6200
+            7   C1c C    18.4800  -24.9200
+            8   C1a C    19.6700  -25.6200
+            9   C1a C    18.4800  -23.5200
+            10  C5a C    16.0300  -29.1200
+            11  C8y C    14.8400  -29.8200
+            12  O5a O    17.2200  -29.8200
+            13  C8x C    14.7000  -31.1500
+            14  C8y C    13.3700  -31.4300
+            15  C8y C    12.6700  -30.2400
+            16  N4x N    13.5800  -29.2600
+            17  C8y C    12.7400  -32.6900
+            18  C8x C    11.2700  -32.6900
+            19  C8x C    10.5700  -31.4300
+            20  C8x C    11.2700  -30.2400
+            21  O2a O    13.3000  -33.8800
+            22  C1a C    14.7700  -33.8800
+            23  C1c C    20.8600  -27.7200
+            24  C5a C    20.8600  -29.1200
+            25  C1b C    22.1200  -27.0200
+            26  C1y C    23.3100  -27.7200
+            27  C5x C    23.8000  -29.0500
+            28  N1x N    25.1300  -29.0500
+            29  C1x C    25.5500  -27.7200
+            30  C1x C    24.4300  -26.8800
+            31  O5x O    22.9600  -30.1700
+            32  O5a O    22.0500  -29.8200
+            33  C1b C    19.6700  -29.8200
+            34  O2b O    19.6700  -31.2200
+            35  P1b P    18.4800  -31.9200
+            36  O1c O    17.2200  -32.6200
+            37  O1c O    17.7800  -30.7300
+            38  O1c O    19.1800  -33.1100
+BOND        40
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 2
+            5     2   6 1 #Up
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     1  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 2
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16   11  16 1
+            17   14  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   15  20 2
+            22   17  21 1
+            23   21  22 1
+            24   23   4 1 #Up
+            25   23  24 1
+            26   23  25 1
+            27   26  25 1 #Down
+            28   26  27 1
+            29   27  28 1
+            30   28  29 1
+            31   29  30 1
+            32   26  30 1
+            33   27  31 2
+            34   24  32 2
+            35   24  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 2
+            39   35  37 1
+            40   35  38 1
+///

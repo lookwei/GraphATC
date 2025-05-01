@@ -1,0 +1,49 @@
+ENTRY       C00905                      Compound
+NAME        D-Fructuronate;
+            D-Fructuronic acid
+FORMULA     C6H10O7
+EXACT_MASS  194.0427
+MOL_WEIGHT  194.1394
+REACTION    R01482 R02454 R10848 R11624
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map01100  Metabolic pathways
+MODULE      M00061  D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+ENZYME      1.1.1.57        1.1.1.380       5.1.2.7         5.3.1.12
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar acids
+                C00905  D-Fructuronic acid
+DBLINKS     PubChem: 4160
+            ChEBI: 4126
+            3DMET: B04749
+            NIKKAJI: J2.372.985G
+ATOM        13
+            1   C1z C    26.7106  -15.5867
+            2   C1y C    26.2906  -16.8757
+            3   O2x O    25.5558  -14.7527
+            4   C1b C    27.6904  -14.5953
+            5   O1a O    27.9820  -16.0534
+            6   C1y C    24.8851  -16.8757
+            7   O1a O    27.1072  -18.0130
+            8   C1y C    24.4361  -15.5575
+            9   O1a O    28.9618  -15.1784
+            10  O1a O    24.0685  -18.0187
+            11  C6a C    23.1063  -15.1494
+            12  O6a O    22.2664  -16.2633
+            13  O6a O    23.0887  -13.6446
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Either
+            4     1   5 1
+            5     2   6 1
+            6     2   7 1 #Up
+            7     3   8 1
+            8     4   9 1
+            9     6  10 1 #Down
+            10    8  11 1 #Up
+            11   11  12 1
+            12   11  13 2
+            13    6   8 1
+///

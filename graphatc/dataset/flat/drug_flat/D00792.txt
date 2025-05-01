@@ -1,0 +1,158 @@
+ENTRY       D00792                      Drug
+NAME        Fluphenazine enanthate (JP18/USP);
+            Prolixin enanthate (TN)
+FORMULA     C29H38F3N3O2S
+EXACT_MASS  549.2637
+MOL_WEIGHT  549.6911
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07955
+            ATC code: N05AB02
+            Chemical structure group: DG00874
+            Product (DG00874): D00791<US> D00793<JP/US> D02163<JP>
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+            Active form of prodrug: Fluphenazine [DR:D07977]
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AB Phenothiazines with piperazine structure
+                 N05AB02 Fluphenazine
+                  D00792  Fluphenazine enanthate (JP18/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00874  Fluphenazine
+                 D00792  Fluphenazine enanthate
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00874  Fluphenazine
+                 D00792  Fluphenazine enanthate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00874  Fluphenazine
+                D00792  Fluphenazine enanthate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00792  Fluphenazine enanthate (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00792  Fluphenazine enanthate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00792
+            Prodrugs [br08324.html]
+             D00792
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00874  Fluphenazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00874  Fluphenazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00874  Fluphenazine
+DBLINKS     CAS: 2746-81-8
+            PubChem: 7847857
+            ChEBI: 5125
+            LigandBox: D00792
+            NIKKAJI: J7.903K
+ATOM        38
+            1   C8y C    13.8600  -17.5000
+            2   C8y C    13.8600  -18.9000
+            3   S2x S    15.0500  -19.6000
+            4   C8y C    16.3100  -18.9000
+            5   C8y C    16.3100  -17.5000
+            6   N1y N    15.0500  -16.8000
+            7   C8x C    17.5000  -19.6000
+            8   C8x C    18.6900  -18.9000
+            9   C8y C    18.6900  -17.5000
+            10  C8x C    17.5000  -16.8000
+            11  C8x C    12.6700  -16.8000
+            12  C8x C    11.4100  -17.5000
+            13  C8x C    11.4100  -18.9000
+            14  C8x C    12.6700  -19.6000
+            15  C1d C    19.8800  -16.8000
+            16  X   F    21.0700  -16.1000
+            17  X   F    20.5800  -17.9900
+            18  X   F    19.1800  -15.6100
+            19  C1b C    15.0500  -15.4000
+            20  C1b C    16.2400  -14.7000
+            21  C1b C    16.2400  -13.3000
+            22  N1y N    17.4300  -12.6000
+            23  C1x C    18.6900  -13.2300
+            24  C1x C    19.8800  -12.5300
+            25  N1y N    19.8800  -11.1300
+            26  C1x C    18.6200  -10.4300
+            27  C1x C    17.4300  -11.2000
+            28  C1b C    21.1400  -10.4300
+            29  C1b C    22.3300  -11.0600
+            30  O7a O    23.5200  -10.3600
+            31  C7a C    24.7800  -10.9900
+            32  C1b C    25.9700  -10.2200
+            33  O6a O    24.7800  -12.3900
+            34  C1b C    27.2300  -10.9200
+            35  C1b C    28.3500  -10.1500
+            36  C1b C    29.6100  -10.7800
+            37  C1b C    30.8000  -10.0100
+            38  C1a C    32.0600  -10.7100
+BOND        41
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    1  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16    2  14 1
+            17    9  15 1
+            18   15  16 1
+            19   15  17 1
+            20   15  18 1
+            21    6  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   22  27 1
+            31   25  28 1
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   31  33 2
+            37   32  34 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   37  38 1
+///

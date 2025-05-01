@@ -1,0 +1,166 @@
+ENTRY       C00410                      Compound
+NAME        Progesterone;
+            4-Pregnene-3,20-dione
+FORMULA     C21H30O2
+EXACT_MASS  314.2246
+MOL_WEIGHT  314.4617
+REMARK      Same as: D00066
+REACTION    R02207 R02208 R02209 R02210 R02211 R02212 R02213 R02214 
+            R02215 R02216 R02218 R02219 R09587
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04080  Neuroactive ligand-receptor interaction
+            map04114  Oocyte meiosis
+            map04913  Ovarian steroidogenesis
+            map04914  Progesterone-mediated oocyte maturation
+            map04917  Prolactin signaling pathway
+            map04925  Aldosterone synthesis and secretion
+            map04927  Cortisol synthesis and secretion
+            map04934  Cushing syndrome
+            map05200  Pathways in cancer
+            map05207  Chemical carcinogenesis - receptor activation
+            map05215  Prostate cancer
+            map05224  Breast cancer
+            map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+MODULE      M00107  Steroid hormone biosynthesis, cholesterol => pregnenolone => progesterone
+            M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+            M00109  C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone
+NETWORK     nt06019  Steroid hormone biosynthesis
+            nt06210  ERK signaling (cancer)
+            nt06214  PI3K signaling (cancer)
+            nt06227  Nuclear receptor signaling (cancer)
+            nt06272  Prostate cancer
+ENZYME      1.1.1.145       1.1.1.149       1.3.1.3         1.3.1.22        
+            1.3.99.6        1.14.13.54      1.14.14.16      1.14.14.19      
+            1.14.15.4       1.14.15.8       1.14.99.4       1.14.99.14      
+            5.3.3.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              21-Carbon atoms
+               Pregnane derivatives
+                C00410  Progesterone
+             Hormones and transmitters
+              Steroid hormones
+               Progestagens
+                C00410  Progesterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C00410  Progesterone
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00066)]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DA Pregnen (4) derivatives
+                 G03DA04 Progesterone
+                  D00066  Progesterone (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302(D00066)]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Progestins
+               Progesterone
+                D00066  Progesterone (JP18/USP/INN)
+             Infertility Agents
+              Progesterone
+               D00066  Progesterone (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301(D00066)]
+             2  Agents affecting individual organs
+              24  Hormones
+               247  Estrogen and progesterone preparations
+                2477  Progesterones
+                 D00066  Progesterone (JP18/USP/INN)
+            Animal drugs in Japan [BR:br08331]
+             94  Agents for breeding
+              941  Hormone preparations (except posterior-pituitary hormone and preparations)
+               9415  Luteinizing hormone and preparations
+                C00410  Progesterone
+            Drug groups [BR:br08330(D00066)]
+             Hormonal agent
+              DG02004  Progesterone
+               D00066  Progesterone
+              DG01666  Progesterone receptor agonist
+               D00066  Progesterone
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D00066  Progesterone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00066  Progesterone
+            Drug classes [BR:br08332(D00066)]
+             Endocrine and hormonal agent
+              DG02004  Progesterone
+               D00066  Progesterone
+            Target-based classification of drugs [BR:br08310(D00066)]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D00066  Progesterone (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00066)]
+             Chemicals
+              D00066  Progesterone
+              D00066  Progesterone injection
+            Drug metabolizing enzymes and transporters [br08309.html(D00066)]
+             Drug metabolizing enzymes
+              D00066
+DBLINKS     CAS: 57-83-0
+            PubChem: 3700
+            ChEBI: 17026
+            LIPIDMAPS: LMST02030159
+            KNApSAcK: C00034649
+            PDB-CCD: STR
+            3DMET: B01238
+            NIKKAJI: J2.329I
+ATOM        23
+            1   C1y C    23.0350  -18.9936
+            2   C1y C    24.2088  -19.6769
+            3   C1z C    21.8554  -19.6827
+            4   C1x C    23.0233  -17.6271
+            5   C1y C    25.4002  -18.9819
+            6   C1x C    24.1913  -21.0784
+            7   C2y C    21.8554  -21.0375
+            8   C1x C    20.6873  -19.0112
+            9   C1a C    21.8437  -18.2754
+            10  C1x C    24.2030  -16.9322
+            11  C1z C    25.4060  -17.6097
+            12  C1x C    27.7653  -18.9936
+            13  C1x C    23.0409  -21.7092
+            14  C2x C    20.6873  -21.7150
+            15  C1x C    19.5194  -19.6827
+            16  C1y C    26.5974  -16.9263
+            17  C1a C    25.3943  -16.2081
+            18  C1x C    27.7712  -17.6213
+            19  C5x C    19.5194  -21.0375
+            20  C5a C    26.6032  -15.5948
+            21  O5x O    18.3690  -21.6975
+            22  C1a C    25.3885  -14.8823
+            23  O5a O    27.8121  -14.8882
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 2
+            14    8  15 1
+            15   11  16 1
+            16   11  17 1 #Up
+            17   12  18 1
+            18   14  19 1
+            19   16  20 1 #Up
+            20   19  21 2
+            21   20  22 1
+            22   20  23 2
+            23    7  13 1
+            24   10  11 1
+            25   15  19 1
+            26   16  18 1
+///

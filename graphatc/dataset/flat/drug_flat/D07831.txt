@@ -1,0 +1,155 @@
+ENTRY       D07831                      Drug
+NAME        Dihydrocodeine (INN);
+            Remedacen (TN)
+FORMULA     C18H23NO3
+EXACT_MASS  301.1678
+MOL_WEIGHT  301.3801
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03189  UGT2B4 substrate
+              DG03190  UGT2B7 substrate
+REMARK      ATC code: N02AA08
+            Chemical structure group: DG00814
+            Product (DG00814): D01481<JP>
+EFFICACY    Analgesic (narcotic), Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: UGT2B7 [HSA:7364], UGT2B4 [HSA:7363]; CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AA Natural opium alkaloids
+                 N02AA08 Dihydrocodeine
+                  D07831  Dihydrocodeine (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Dihydrocodeine
+                D07831  Dihydrocodeine (INN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Dihydrocodeine
+                D07831  Dihydrocodeine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00814  Dihydrocodeine
+                 D07831  Dihydrocodeine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00814  Dihydrocodeine
+                D07831  Dihydrocodeine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00814  Dihydrocodeine
+                D07831  Dihydrocodeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00814  Dihydrocodeine
+                 D07831  Dihydrocodeine
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG00814  Dihydrocodeine
+                 D07831  Dihydrocodeine
+               DG03190  UGT2B7 substrate
+                DG00814  Dihydrocodeine
+                 D07831  Dihydrocodeine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07831  Dihydrocodeine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07831
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D07831
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00814  Dihydrocodeine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00814  Dihydrocodeine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00814  Dihydrocodeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00814  Dihydrocodeine
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG00814  Dihydrocodeine
+               DG03190  UGT2B7 substrate
+                DG00814  Dihydrocodeine
+DBLINKS     CAS: 125-28-0
+            PubChem: 96024528
+            LigandBox: D07831
+            NIKKAJI: J5.368F
+ATOM        22
+            1   C1z C    23.5200  -18.5500
+            2   C8y C    23.5200  -17.2900
+            3   C1y C    24.6400  -19.2500
+            4   C1y C    22.4000  -19.2500
+            5   C1x C    24.4300  -17.6400
+            6   C8y C    22.4000  -16.6600
+            7   C8y C    24.6400  -16.6600
+            8   C1y C    25.7600  -18.6200
+            9   C1x C    24.6400  -20.5100
+            10  O2x O    21.1400  -17.9200
+            11  C1y C    22.4000  -20.5100
+            12  C1x C    26.8800  -17.6400
+            13  C8y C    22.4000  -15.3300
+            14  C1x C    25.7600  -17.2900
+            15  C8x C    24.6400  -15.3300
+            16  N1y N    26.8800  -19.2500
+            17  C1x C    23.5200  -21.2100
+            18  C8x C    23.5200  -14.7000
+            19  O2a O    21.2800  -14.7000
+            20  O1a O    21.2800  -21.2100
+            21  C1a C    20.0900  -15.4000
+            22  C1a C    28.2800  -19.2500
+BOND        26
+            1     4  10 1 #Down
+            2     4  11 1
+            3     5  12 1
+            4     6  13 2
+            5     7  14 1
+            6     7  15 1
+            7     8  16 1 #Up
+            8     9  17 1
+            9    13  18 1
+            10   13  19 1
+            11    6  10 1
+            12    8  14 1
+            13   11  17 1
+            14   12  16 1
+            15   15  18 2
+            16   11  20 1 #Down
+            17    1   2 1
+            18    1   3 1
+            19    1   4 1
+            20    1   5 1 #Up
+            21    2   6 1
+            22    2   7 2
+            23    3   8 1
+            24    3   9 1
+            25   19  21 1
+            26   16  22 1
+///

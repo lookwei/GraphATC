@@ -1,0 +1,57 @@
+ENTRY       D00469                      Drug
+NAME        Pralidoxime chloride (USP);
+            Pralidoxime (INN);
+            Protopam (TN)
+PRODUCT     PROTOPAM CHLORIDE (Baxter Healthcare Corporation)
+FORMULA     C7H9N2O. Cl
+EXACT_MASS  172.0403
+MOL_WEIGHT  172.6122
+REMARK      ATC code: V03AB04
+            Chemical structure group: DG01153
+            Product (DG01153): D00469<US> D01572<JP>
+EFFICACY    Antidote (organicphosphorus compound), Acetylcholinesterase (AChE) reactivator
+TARGET      ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa00564(43)  Glycerophospholipid metabolism
+            hsa04725(43)  Cholinergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB04 Pralidoxime
+                  D00469  Pralidoxime chloride (USP) &lt;US&gt;
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D00469  Pralidoxime chloride (USP) &lt;US&gt;
+DBLINKS     CAS: 51-15-0
+            PubChem: 7847535
+            ChEBI: 8355
+            LigandBox: D00469
+            NIKKAJI: J237.755A
+ATOM        11
+            1   C8y C    21.7811  -18.2814
+            2   N5y N    20.5716  -17.5743 #+
+            3   C8x C    21.7811  -19.6779
+            4   C2b C    22.9964  -17.5743
+            5   C8x C    19.3562  -18.2814
+            6   C1a C    20.5716  -16.1895
+            7   C8x C    20.5716  -20.3848
+            8   N2b N    24.1943  -18.2814
+            9   C8x C    19.3562  -19.6779
+            10  O1b O    25.4155  -17.5743
+            11  X   Cl   26.7243  -19.7714 #-
+BOND        10
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     5   9 2
+            9     8  10 1
+            10    7   9 1
+///

@@ -1,0 +1,153 @@
+ENTRY       C06570                      Compound
+NAME        Tetracycline
+FORMULA     C22H24N2O8
+EXACT_MASS  444.1533
+MOL_WEIGHT  444.4346
+REMARK      Same as: D00201
+REACTION    R05459 R11449 R11478
+PATHWAY     map00253  Tetracycline biosynthesis
+            map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04976  Bile secretion
+MODULE      M00780  Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline
+            M00823  Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+ENZYME      1.3.98.4        1.14.13.231     1.14.19.49
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              Polyketides and nonribosomal peptides
+               Tetracyclines
+                C06570  Tetracycline
+            Lipids [BR:br08002]
+             PK  Polyketides
+              PK07 Linear tetracyclines
+               C06570  Tetracycline
+            Secondary metabolites in pathway maps [br08011.html]
+             Biosynthetic pathways and modules of secondary metabolites
+              C06570
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00201)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB13 Tetracycline
+                  D00201  Tetracycline (JAN/USP/INN)
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AA Tetracycline and derivatives
+                 D06AA04 Tetracycline
+                  D00201  Tetracycline (JAN/USP/INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA07 Tetracycline
+                  D00201  Tetracycline (JAN/USP/INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA09 Tetracycline
+                  D00201  Tetracycline (JAN/USP/INN)
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA08 Tetracycline
+                  D00201  Tetracycline (JAN/USP/INN)
+              S03 OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS
+               S03A ANTIINFECTIVES
+                S03AA Antiinfectives
+                 S03AA02 Tetracycline
+                  D00201  Tetracycline (JAN/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312(D00201)]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Tetracycline
+                D00201  Tetracycline (JAN/USP/INN)
+            Drug groups [BR:br08330(D00201)]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00005  Tetracycline
+                D00201  Tetracycline
+            Antimicrobials [BR:br08307(D00201)]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D00201  Tetracycline (JAN/USP/INN)
+DBLINKS     CAS: 60-54-8
+            PubChem: 8799
+            ChEBI: 27902
+            PDB-CCD: TAC
+            3DMET: B02074
+            NIKKAJI: J209.316B
+ATOM        32
+            1   C1y C    26.1816  -17.5899
+            2   C1z C    26.1641  -18.9900
+            3   C1x C    24.9807  -16.8809
+            4   C1y C    27.4061  -16.9103
+            5   C2y C    24.9515  -19.6756
+            6   C5x C    27.3652  -19.7048
+            7   O1a O    26.1465  -20.3845
+            8   C1y C    23.7621  -17.5665
+            9   C2y C    28.6013  -17.6251
+            10  N1c N    27.4236  -15.5100
+            11  C2y C    23.7504  -18.9666
+            12  O1a O    24.9455  -21.0816
+            13  C2y C    28.6538  -19.0252
+            14  O5x O    27.3418  -21.1050
+            15  C1z C    22.5493  -16.8634
+            16  O1a O    29.8258  -16.9455
+            17  C1a C    28.6481  -14.8247
+            18  C1a C    26.2226  -14.7894
+            19  C5x C    22.5376  -19.6639
+            20  C5a C    29.7847  -19.7401
+            21  C8y C    21.3366  -17.5605
+            22  C1a C    22.5551  -15.4632
+            23  C8y C    21.3306  -18.9608
+            24  O5x O    22.5376  -21.0700
+            25  N1a N    31.0092  -19.0605
+            26  O5a O    29.7672  -21.1461
+            27  C8x C    20.1239  -16.8575
+            28  C8y C    20.1239  -19.6639
+            29  C8x C    18.9053  -17.5605
+            30  C8x C    18.9053  -18.9608
+            31  O1a O    20.1296  -21.0641
+            32  O1a O    21.3365  -16.1632
+BOND        35
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Down
+            7     3   8 1
+            8     4   9 1
+            9     4  10 1 #Down
+            10    5  11 2
+            11    5  12 1
+            12    6  13 1
+            13    6  14 2
+            14    8  15 1
+            15    9  16 1
+            16   10  17 1
+            17   10  18 1
+            18   11  19 1
+            19   13  20 1
+            20   15  21 1
+            21   15  22 1 #Down
+            22   19  23 1
+            23   19  24 2
+            24   20  25 1
+            25   20  26 2
+            26   21  27 2
+            27   23  28 2
+            28   27  29 1
+            29   28  30 1
+            30   28  31 1
+            31    8  11 1
+            32    9  13 2
+            33   21  23 1
+            34   29  30 2
+            35   15  32 1 #Up
+///

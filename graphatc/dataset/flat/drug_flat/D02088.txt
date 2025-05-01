@@ -1,0 +1,105 @@
+ENTRY       D02088                      Drug
+NAME        Tocainide hydrochloride (USP);
+            Tonocard (TN)
+FORMULA     C11H16N2O. HCl
+EXACT_MASS  228.1029
+MOL_WEIGHT  228.7185
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01651  Class Ib antiarrhythmic agent
+REMARK      ATC code: C01BB03
+            Chemical structure group: DG00198
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BB Antiarrhythmics, class Ib
+                 C01BB03 Tocainide
+                  D02088  Tocainide hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01651  Class Ib antiarrhythmic agent
+                 DG00198  Tocainide
+                  D02088  Tocainide hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN2A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN3A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN4A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN5A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN8A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN9A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN10A
+                 D02088  Tocainide hydrochloride (USP)
+                SCN11A
+                 D02088  Tocainide hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01651  Class Ib antiarrhythmic agent
+                 DG00198  Tocainide
+DBLINKS     CAS: 35891-93-1
+            PubChem: 7849149
+            LigandBox: D02088
+            NIKKAJI: J540.743E
+ATOM        15
+            1   C8y C    24.4404  -17.9552
+            2   N1b N    23.2290  -17.2622
+            3   C8y C    24.4345  -19.3645
+            4   C8y C    25.6517  -17.2680
+            5   C5a C    22.0178  -17.9494
+            6   C8x C    25.6517  -20.0693
+            7   C1a C    23.2174  -20.0634
+            8   C8x C    26.8572  -17.9611
+            9   C1a C    25.5876  -15.8588
+            10  C1c C    20.8063  -17.2506
+            11  O5a O    22.0818  -19.3471
+            12  C8x C    26.8631  -19.3645
+            13  C1a C    19.5951  -17.9435
+            14  N1a N    20.8063  -15.8471
+            15  X   Cl   30.2865  -18.0600
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 2
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 1
+            12   10  13 1
+            13   10  14 1
+            14    8  12 2
+///

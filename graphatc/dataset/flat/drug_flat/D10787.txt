@@ -1,0 +1,156 @@
+ENTRY       D10787                      Drug
+NAME        Daunorubicin citrate;
+            Daunoxome (TN)
+FORMULA     C27H29NO10. C6H8O7
+EXACT_MASS  719.2061
+MOL_WEIGHT  719.6434
+CLASS       Antineoplastic
+             DG01682  Anthracycline antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+REMARK      ATC code: L01DB02
+            Chemical structure group: DG00697
+            Product (DG00697): D01264<JP/US>
+EFFICACY    Antineoplastic, Topoisomerase II inhibitor
+COMMENT     Treatment of advanced HIV-associated Kaposi's sarcoma
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DB Anthracyclines and related substances
+                 L01DB02 Daunorubicin
+                  D10787  Daunorubicin citrate
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00697  Daunorubicin
+                D10787  Daunorubicin citrate
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00697  Daunorubicin
+                 D10787  Daunorubicin citrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D10787  Daunorubicin citrate
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00697  Daunorubicin
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00697  Daunorubicin
+DBLINKS     CAS: 371770-68-2
+            PubChem: 313046645
+ATOM        51
+            1   C8x C    11.9537  -13.3518
+            2   C8x C    11.9537  -14.7499
+            3   C8y C    13.1421  -15.4489
+            4   C8y C    14.4003  -14.7499
+            5   C8y C    14.4003  -13.3518
+            6   C8x C    13.1421  -12.6527
+            7   C5x C    15.5887  -15.4489
+            8   C8y C    16.7771  -14.7499
+            9   C8y C    16.7771  -13.3518
+            10  C5x C    15.5887  -12.6527
+            11  C8y C    18.0354  -15.4489
+            12  C8y C    19.2238  -14.7499
+            13  C8y C    19.2238  -13.3518
+            14  C8y C    18.0354  -12.6527
+            15  C1y C    20.4121  -15.4489
+            16  C1x C    21.6704  -14.7499
+            17  C1z C    21.6704  -13.3518
+            18  C1x C    20.4121  -12.6527
+            19  O2a O    13.1421  -16.8470
+            20  C1a C    11.9537  -17.5461
+            21  O5x O    15.5887  -16.8470
+            22  O5x O    15.5887  -11.2546
+            23  O1a O    18.0354  -11.2546
+            24  O1a O    18.0354  -16.8470
+            25  O2a O    20.4121  -16.8470
+            26  C1y C    21.6005  -17.5461
+            27  C5a C    22.8588  -12.6527
+            28  C1a C    24.0472  -13.3518
+            29  O5a O    22.8588  -11.2546
+            30  O1a O    22.8588  -14.2605
+            31  C1x C    21.6005  -18.9441
+            32  C1y C    22.8588  -19.6432
+            33  C1y C    24.0472  -18.9441
+            34  C1y C    24.0472  -17.5461
+            35  O2x O    22.8588  -16.8470
+            36  N1a N    22.8588  -21.0413
+            37  C1a C    25.2356  -16.8470
+            38  O1a O    25.2356  -19.6432
+            39  C6a C    30.2648  -16.0461
+            40  C1b C    31.4561  -16.7469
+            41  O6a O    29.0035  -16.7469
+            42  O6a O    30.2648  -14.6446
+            43  C1d C    32.6473  -16.0461
+            44  C1b C    33.8386  -16.7469
+            45  C6a C    33.8386  -18.1483
+            46  O6a O    32.5772  -18.9191
+            47  O6a O    35.0298  -18.8491
+            48  C6a C    33.3480  -14.8549
+            49  O6a O    32.6473  -13.6636
+            50  O6a O    34.7495  -14.8549
+            51  O1a O    31.9466  -14.8549
+BOND        54
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   12  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   13  18 1
+            22    3  19 1
+            23   19  20 1
+            24    7  21 2
+            25   10  22 2
+            26   14  23 1
+            27   11  24 1
+            28   26  25 1 #Down
+            29   15  25 1 #Down
+            30   17  27 1 #Up
+            31   27  28 1
+            32   27  29 2
+            33   17  30 1 #Down
+            34   26  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+            38   34  35 1
+            39   26  35 1
+            40   32  36 1 #Up
+            41   34  37 1 #Up
+            42   33  38 1 #Up
+            43   39  40 1
+            44   39  41 1
+            45   39  42 2
+            46   40  43 1
+            47   43  44 1
+            48   44  45 1
+            49   45  46 2
+            50   45  47 1
+            51   43  48 1
+            52   48  49 1
+            53   48  50 2
+            54   43  51 1
+///

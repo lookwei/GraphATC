@@ -1,0 +1,79 @@
+ENTRY       D01653                      Drug
+NAME        Benserazide hydrochloride (JP18)
+FORMULA     C10H15N3O5. HCl
+EXACT_MASS  293.0778
+MOL_WEIGHT  293.7041
+CLASS       Cardiovascular agent
+             DG01617  Catecholamine synthesis inhibitors
+REMARK      Chemical structure group: DG01296
+            Product (mixture): D02135<JP>
+EFFICACY    Antiparkinsonian, Decarboxylase inhibitor
+COMMENT     Peripheral aromatic L-amino acid decarboxylase inhibitors (DCI)
+TARGET      DDC [HSA:1644] [KO:K01593]
+  PATHWAY   hsa04726(1644)  Serotonergic synapse
+            hsa04728(1644)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01617  Catecholamine synthesis inhibitors
+               DG01296  Benserazide
+                D01653  Benserazide hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Carboxy-lyases
+                DDC
+                 D01653  Benserazide hydrochloride (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01653  Benserazide hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01617  Catecholamine synthesis inhibitors
+               DG01296  Benserazide
+DBLINKS     CAS: 14919-77-8
+            PubChem: 7848716
+            ChEBI: 31262
+            LigandBox: D01653
+            NIKKAJI: J369.099G
+ATOM        19
+            1   C8y C    23.9725  -16.2472
+            2   C8y C    23.9725  -17.6495
+            3   C8x C    25.1899  -18.3506
+            4   C8x C    26.4001  -17.6495
+            5   C8y C    26.4001  -16.2472
+            6   C8y C    25.1899  -15.5461
+            7   O1a O    25.1916  -14.1437
+            8   O1a O    22.7584  -15.5454
+            9   O1a O    22.7584  -18.3513
+            10  C1b C    27.6057  -15.5532
+            11  N1b N    28.8168  -16.2543
+            12  N1b N    30.0278  -15.5602
+            13  C5a C    31.2389  -16.2613
+            14  C1c C    32.4500  -15.5673
+            15  C1b C    33.6610  -16.2685
+            16  O1a O    34.8721  -15.5745
+            17  O5a O    31.2359  -17.6636
+            18  N1a N    32.4530  -14.1649
+            19  X   Cl   34.9641  -18.5135
+BOND        18
+            1     2   9 1
+            2     2   3 1
+            3     5  10 1
+            4     3   4 2
+            5    10  11 1
+            6     4   5 1
+            7    11  12 1
+            8     5   6 2
+            9    12  13 1
+            10    6   1 1
+            11   13  14 1
+            12   14  15 1
+            13    6   7 1
+            14   15  16 1
+            15   13  17 2
+            16    1   8 1
+            17   14  18 1
+            18    1   2 2
+///

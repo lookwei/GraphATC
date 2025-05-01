@@ -1,0 +1,76 @@
+ENTRY       D05205                      Drug
+NAME        Norelgestromin (USP/INN)
+FORMULA     C21H29NO2
+EXACT_MASS  327.2198
+MOL_WEIGHT  327.4605
+REMARK      Product (mixture): D10839<US>
+EFFICACY    Contraceptive
+COMMENT     Progestin
+            Component of Ortho Evra (TN), Xulane (TN)
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D05205  Norelgestromin (USP/INN)
+DBLINKS     CAS: 53016-31-2
+            PubChem: 47206924
+            LigandBox: D05205
+            NIKKAJI: J393.542F
+ATOM        24
+            1   C1x C    38.1698  -26.8652
+            2   C2y C    38.1698  -28.2186
+            3   C2x C    39.3417  -28.8953
+            4   C2y C    40.5138  -28.2186
+            5   C1y C    40.5138  -26.8652
+            6   C1x C    39.3417  -26.1886
+            7   C1x C    41.6858  -28.8953
+            8   C1x C    42.8577  -28.2186
+            9   C1y C    42.8577  -26.8652
+            10  C1y C    41.6858  -26.1886
+            11  C1y C    44.0298  -26.1886
+            12  C1z C    44.0298  -24.8353
+            13  C1x C    42.8577  -24.1587
+            14  C1x C    41.6858  -24.8353
+            15  C1x C    46.3738  -26.1886
+            16  C1x C    46.3738  -24.8353
+            17  C1z C    45.2018  -24.1587
+            18  N2b N    36.9978  -28.8953
+            19  C1b C    44.0298  -23.4819
+            20  O1a O    45.2018  -22.5295
+            21  C3b C    46.3960  -23.4691
+            22  C3a C    47.5904  -22.7796
+            23  C1a C    42.8300  -22.7892
+            24  O1b O    35.7818  -28.1935
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22   12  19 1 #Up
+            23   17  20 1 #Up
+            24   17  21 1 #Down
+            25   21  22 3
+            26   19  23 1
+            27   18  24 1
+///

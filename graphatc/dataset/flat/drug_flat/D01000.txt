@@ -1,0 +1,115 @@
+ENTRY       D01000                      Drug
+NAME        Bethanechol chloride (JP18/USP);
+            Urecholine (TN)
+PRODUCT
+  GENERIC   BETHANECHOL CHLORIDE (American Health Packaging)
+            BETHANECHOL CHLORIDE (American Health Packaging)
+            BETHANECHOL CHLORIDE (Amneal Pharmaceuticals LLC)
+            BETHANECHOL CHLORIDE (Amneal Pharmaceuticals of New York LLC)
+            BETHANECHOL CHLORIDE (Bryant Ranch Prepack)
+            BETHANECHOL CHLORIDE (Bryant Ranch Prepack)
+            BETHANECHOL CHLORIDE (Bryant Ranch Prepack)
+            BETHANECHOL CHLORIDE (Bryant Ranch Prepack)
+            BETHANECHOL CHLORIDE (Bryant Ranch Prepack)
+            BETHANECHOL CHLORIDE (Lannett Company)
+            BETHANECHOL CHLORIDE (Major Pharmaceuticals)
+            BETHANECHOL CHLORIDE (Upsher-Smith Laboratories)
+FORMULA     C7H17N2O2. Cl
+EXACT_MASS  196.0979
+MOL_WEIGHT  196.6751
+CLASS       Neuropsychiatric agent
+             DG01490  Muscarinic cholinergic receptor agonist
+             DG01719  Parasympathomimetic agent
+REMARK      Same as: C08202
+            Therapeutic category: 1231
+            ATC code: N07AB02
+            Chemical structure group: DG00991
+            Product (DG00991): D01000<JP/US>
+EFFICACY    Prokinetic, Muscarinic acetylcholine receptor agonist
+COMMENT     Quaternary ammonium compound
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07A PARASYMPATHOMIMETICS
+                N07AB Choline esters
+                 N07AB02 Bethanechol
+                  D01000  Bethanechol chloride (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Genitourinary Agents
+              Genitourinary Agents, Other
+               Bethanechol
+                D01000  Bethanechol chloride (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              12  Agents affecting peripheral nervous system
+               123  Autonomic nervous system agents
+                1231  Quaternary ammoniums
+                 D01000  Bethanechol chloride (JP18/USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Bethanechol
+                D01000  Bethanechol chloride (JP18/USP)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Bethanechol chloride
+                D01000  Bethanechol chloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               DG00991  Bethanechol
+                D01000  Bethanechol chloride
+              DG01719  Parasympathomimetic agent
+               DG00991  Bethanechol
+                D01000  Bethanechol chloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01000  Bethanechol chloride (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01000  Bethanechol chloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               DG00991  Bethanechol
+              DG01719  Parasympathomimetic agent
+               DG00991  Bethanechol
+DBLINKS     CAS: 590-63-6
+            PubChem: 7848063
+            ChEBI: 3085
+            LigandBox: D01000
+            NIKKAJI: J277.869F
+ATOM        12
+            1   N1d N    20.0900  -17.0100 #+
+            2   C1b C    21.2100  -17.6400
+            3   C1a C    19.3200  -15.5400
+            4   C1a C    18.6200  -17.0100
+            5   C1a C    19.3200  -18.4100
+            6   C1c C    22.3300  -17.0100
+            7   O7a O    23.5200  -17.6400
+            8   C7a C    24.6400  -17.0100
+            9   N1a N    25.7600  -17.6400
+            10  O6a O    24.6400  -15.6800
+            11  C1a C    22.3122  -15.6101
+            12  X   Cl   29.1900  -17.2900 #-
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     8  10 2
+            10    6  11 1
+///

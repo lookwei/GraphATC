@@ -1,0 +1,146 @@
+ENTRY       D10829                      Drug
+NAME        Rasagiline tartrate;
+            Rasagiline (TN)
+FORMULA     (C12H13N)2. C4H6O6
+EXACT_MASS  492.226
+MOL_WEIGHT  492.5635
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01512  Monoamine oxidase B inhibitor
+             DG01967  Antiparkinson agent
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      ATC code: N04BD02
+            Chemical structure group: DG00865
+            Product (DG00865): D02562<JP/US>
+EFFICACY    Antiparkinsonian, Monoamine oxidase B (MAO-B) inhibitor
+TARGET      MAOB [HSA:4129] [KO:K00274]
+  PATHWAY   hsa04726(4129)  Serotonergic synapse
+            hsa04728(4129)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BD Monoamine oxidase B inhibitors
+                 N04BD02 Rasagiline
+                  D10829  Rasagiline tartrate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                DG00865  Rasagiline
+                 D10829  Rasagiline tartrate
+              DG01967  Antiparkinson agent
+               DG00865  Rasagiline
+                D10829  Rasagiline tartrate
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00865  Rasagiline
+                D10829  Rasagiline tartrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOB
+                 D10829  Rasagiline tartrate
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10829
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10829
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                DG00865  Rasagiline
+              DG01967  Antiparkinson agent
+               DG00865  Rasagiline
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00865  Rasagiline
+DBLINKS     CAS: 136236-52-7
+            PubChem: 319902629
+ATOM        36
+            1   C8y C    17.3655  -15.9650
+            2   C8y C    17.3655  -14.5646
+            3   C8x C    16.1751  -13.8644
+            4   C8x C    14.9847  -14.5646
+            5   C8x C    14.9847  -15.9650
+            6   C8x C    16.1751  -16.6653
+            7   C1y C    18.6959  -16.3852
+            8   C1x C    19.5362  -15.2648
+            9   C1x C    18.6959  -14.0744
+            10  N1b N    18.6959  -17.7856
+            11  C1b C    19.9563  -18.4858
+            12  C3b C    21.1467  -17.7856
+            13  C3a C    22.3370  -17.0854
+            14  C6a C    28.0000  -16.1700
+            15  C1c C    29.2124  -16.8700
+            16  O6a O    26.7876  -16.8700
+            17  O6a O    28.0000  -14.7700
+            18  C1c C    30.4079  -16.1796
+            19  C6a C    31.5953  -16.8651
+            20  O6a O    32.7865  -16.1771
+            21  O6a O    31.5955  -18.2698
+            22  O1a O    29.2125  -18.2698
+            23  O1a O    30.4080  -14.7703
+            24  C8y C    17.3655  -15.9650
+            25  C8y C    17.3655  -14.5646
+            26  C8x C    16.1751  -13.8644
+            27  C8x C    14.9847  -14.5646
+            28  C8x C    14.9847  -15.9650
+            29  C8x C    16.1751  -16.6653
+            30  C1x C    18.6959  -14.0744
+            31  C1x C    19.5362  -15.2648
+            32  C1y C    18.6959  -16.3852
+            33  N1b N    18.6959  -17.7856
+            34  C1b C    19.9563  -18.4858
+            35  C3b C    21.1467  -17.7856
+            36  C3a C    22.3370  -17.0854
+BOND        37
+            1    14  15 1
+            2    14  16 1
+            3    14  17 2
+            4    15  18 1
+            5    18  19 1
+            6    19  20 1
+            7    19  21 2
+            8    15  22 1 #Up
+            9    18  23 1 #Up
+            10    1   2 2
+            11    2   3 1
+            12    3   4 2
+            13    4   5 1
+            14    5   6 2
+            15    1   6 1
+            16    1   7 1
+            17    7   8 1
+            18    8   9 1
+            19    2   9 1
+            20    7  10 1 #Up
+            21   10  11 1
+            22   11  12 1
+            23   12  13 3
+            24   24  25 2
+            25   25  26 1
+            26   26  27 2
+            27   27  28 1
+            28   28  29 2
+            29   24  29 1
+            30   24  32 1
+            31   32  31 1
+            32   31  30 1
+            33   25  30 1
+            34   32  33 1 #Up
+            35   33  34 1
+            36   34  35 1
+            37   35  36 3
+BRACKET     1    14.2800  -19.1100   14.2800  -13.2300
+            1    23.8000  -13.2300   23.8000  -19.1100
+            1  2
+  ORIGINAL  1    1   2   3   4   5   6   9   8   7  10  11  12  13
+  REPEAT    1   24  25  26  27  28  29  30  31  32  33  34  35  36
+///

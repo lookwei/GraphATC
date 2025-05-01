@@ -1,0 +1,145 @@
+ENTRY       D09753                      Drug
+NAME        Saxagliptin hydrate (JAN);
+            Onglyza (TN)
+FORMULA     C18H25N3O2. H2O
+EXACT_MASS  333.2052
+MOL_WEIGHT  333.4253
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01601  DPP-4 inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+REMARK      Therapeutic category: 3969
+            ATC code: A10BH03
+            Chemical structure group: DG00119
+            Product (DG00119): D09753<JP> D10262<US>
+            Product (mixture): D10826<US>
+EFFICACY    Antidiabetic, Dipeptidyl peptidase-4 (DPP-4) inhibitor
+COMMENT     Treatment of type II diabetes mellitus and metabolic syndrome
+TARGET      DPP4 (CD26) [HSA:1803] [KO:K01278]
+  PATHWAY   hsa04974(1803)  Protein digestion and absorption
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP3A5 [HSA:1577]
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BH Dipeptidyl peptidase 4 (DPP-4) inhibitors
+                 A10BH03 Saxagliptin
+                  D09753  Saxagliptin hydrate (JAN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Blood Glucose Regulators
+              Antidiabetic Agents
+               Dipeptidyl Peptidase-4 (DPP-4) Inhibitor
+                Saxagliptin
+                 D09753  Saxagliptin hydrate (JAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D09753  Saxagliptin hydrate (JAN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG00119  Saxagliptin
+                 D09753  Saxagliptin hydrate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00119  Saxagliptin
+                 D09753  Saxagliptin hydrate
+              DG02925  CYP3A5 substrate
+               DG00119  Saxagliptin
+                D09753  Saxagliptin hydrate
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01601  DPP-4 inhibitor
+               D09753  Saxagliptin hydrate
+              DG02044  Hypoglycemic agent
+               D09753  Saxagliptin hydrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-peptidases
+                DPP4 (CD26)
+                 D09753  Saxagliptin hydrate (JAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09753
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09753
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG00119  Saxagliptin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00119  Saxagliptin
+              DG02925  CYP3A5 substrate
+               DG00119  Saxagliptin
+DBLINKS     CAS: 945667-22-1
+            PubChem: 124490493
+            ChEBI: 71271
+            LigandBox: D09753
+ATOM        24
+            1   C1z C    23.3800  -20.7900
+            2   C1x C    22.6800  -22.1900
+            3   C1y C    22.6800  -23.4500
+            4   C1y C    22.1900  -22.7500
+            5   C1z C    24.5000  -22.7500
+            6   C1x C    21.1400  -23.8700
+            7   C1x C    23.8000  -24.4300
+            8   C1x C    22.1900  -21.4200
+            9   C1x C    23.3800  -23.3800
+            10  C1x C    24.5000  -21.4200
+            11  C1c C    23.3800  -19.3900
+            12  C5a C    24.5700  -18.7600
+            13  N1a N    22.1900  -18.7600
+            14  N1y N    25.7600  -19.3900
+            15  O5a O    24.5700  -17.3600
+            16  C1y C    26.1800  -20.7200
+            17  C1y C    27.5800  -20.7200
+            18  C1x C    28.0000  -19.3200
+            19  C1y C    26.8100  -18.6200
+            20  C3b C    26.8100  -17.2200
+            21  N3a N    26.8100  -15.8200
+            22  O1a O    25.8300  -22.7500
+            23  C1x C    26.8800  -21.9100
+            24  O0  O    29.1200  -24.3600
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     8   4 1
+            4     4   9 1
+            5     9   5 1
+            6     5  10 1
+            7    10   1 1
+            8     1   8 1
+            9     3   6 1
+            10    3   7 1
+            11    4   6 1
+            12    5   7 1
+            13    1  11 1
+            14   11  12 1
+            15   11  13 1 #Down
+            16   12  14 1
+            17   12  15 2
+            18   14  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   14  19 1
+            23   19  20 1 #Down
+            24   20  21 3
+            25    5  22 1
+            26   17  23 1
+            27   23  16 1
+///

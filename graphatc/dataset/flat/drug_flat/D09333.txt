@@ -1,0 +1,71 @@
+ENTRY       D09333                      Drug
+NAME        Dutogliptin (USAN)
+FORMULA     C10H20BN3O3
+EXACT_MASS  241.1598
+MOL_WEIGHT  241.0951
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01601  DPP-4 inhibitor
+REMARK      Chemical structure group: DG01282
+EFFICACY    Antidiabetic, Dipeptidyl peptidase-4 (DPP-4) inhibitor
+COMMENT     Treatment of type 2 diabetes
+TARGET      DPP4 (CD26) [HSA:1803] [KO:K01278]
+  PATHWAY   hsa04974(1803)  Protein digestion and absorption
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01282  Dutogliptin
+                 D09333  Dutogliptin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-peptidases
+                DPP4 (CD26)
+                 D09333  Dutogliptin (USAN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01282  Dutogliptin
+DBLINKS     CAS: 852329-66-9
+            PubChem: 96026013
+ATOM        17
+            1   N1x N     8.8200  -25.4800
+            2   C1x C     9.2400  -26.7400
+            3   C1x C    10.6400  -26.7400
+            4   C1y C    11.0600  -25.4100
+            5   C1x C     9.9400  -24.5700
+            6   N1b N    12.2500  -24.7100
+            7   C1b C    13.4400  -25.4100
+            8   C5a C    14.6300  -24.7100
+            9   N1y N    15.8200  -25.4100
+            10  O5a O    14.6300  -23.3100
+            11  C1x C    16.1700  -26.8100
+            12  C1x C    17.5700  -26.8100
+            13  C1x C    18.0600  -25.5500
+            14  C1y C    17.0100  -24.6400
+            15  Z   B    17.0378  -23.2434
+            16  O1a O    18.2438  -22.5784
+            17  O1a O    15.8177  -22.5062
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 1
+            7     4   6 1 #Down
+            8     7   8 1
+            9     8   9 1
+            10    8  10 2
+            11    9  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    9  14 1
+            16   14  15 1 #Down
+            17   15  16 1
+            18   15  17 1
+///

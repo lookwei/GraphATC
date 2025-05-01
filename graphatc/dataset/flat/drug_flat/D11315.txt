@@ -1,0 +1,73 @@
+ENTRY       D11315                      Drug
+NAME        Solriamfetol (USAN)
+FORMULA     C10H14N2O2
+EXACT_MASS  194.1055
+MOL_WEIGHT  194.2304
+CLASS       Neuropsychiatric agent
+             DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+REMARK      ATC code: N06BA14
+            Chemical structure group: DG02989
+            Product (DG02989): D11328<US>
+EFFICACY    Wake-promoting agent, Noradrenalin and dopamine reuptake inhibitor
+COMMENT     Wake-promoting agent for the treatment of excessive sleepiness associated with narcolepsy or obstructive sleep apnea
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531)  Synaptic vesicle cycle
+            hsa04728(6531)  Dopaminergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA14 Solriamfetol
+                  D11315  Solriamfetol (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+               DG02989  Sorliamfetol
+                D11315  Solriamfetol
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D11315  Solriamfetol (USAN)
+                SLC6A3 (DAT1)
+                 D11315  Solriamfetol (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+               DG02989  Sorliamfetol
+DBLINKS     CAS: 178429-62-4
+            PubChem: 384585293
+ATOM        14
+            1   C8x C     4.9000  -17.5700
+            2   C8x C     4.9000  -18.9700
+            3   C8x C     6.1124  -19.6700
+            4   C8x C     7.3249  -18.9700
+            5   C8y C     7.3249  -17.5700
+            6   C8x C     6.1124  -16.8700
+            7   C1b C     8.5560  -16.8590
+            8   C1c C     9.7612  -17.5547
+            9   C1b C    10.9435  -16.8719
+            10  O7a O    12.1375  -17.5612
+            11  C7a C    13.3254  -16.8752
+            12  N1a N    14.5165  -17.5629
+            13  O6a O    13.3255  -15.4702
+            14  N1a N     9.7616  -18.9696
+BOND        14
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   11  13 2
+            14    8  14 1 #Down
+///

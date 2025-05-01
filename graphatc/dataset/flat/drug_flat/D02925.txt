@@ -1,0 +1,114 @@
+ENTRY       D02925                      Drug
+NAME        Amoxicillin sodium (USAN)
+FORMULA     C16H18N3O5S. Na
+EXACT_MASS  387.0865
+MOL_WEIGHT  387.386
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      ATC code: J01CA04
+            Chemical structure group: DG00520
+            Product (DG00520): D00229<JP/US>
+            Product (mixture): D06485<JP/US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA04 Amoxicillin
+                  D02925  Amoxicillin sodium (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00520  Amoxicillin
+                  D02925  Amoxicillin sodium
+              DG01780  Extended spectrum penicillin
+               DG00520  Amoxicillin
+                D02925  Amoxicillin sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D02925  Amoxicillin sodium (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00520  Amoxicillin
+              DG01780  Extended spectrum penicillin
+               DG00520  Amoxicillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00520  Amoxicillin
+DBLINKS     CAS: 34642-77-8
+            PubChem: 17397082
+            LigandBox: D02925
+            NIKKAJI: J250.938E
+ATOM        26
+            1   C1y C    25.9451  -14.8660
+            2   C5x C    25.9451  -16.2704
+            3   N1y N    27.3495  -16.2704
+            4   C1y C    27.3495  -14.8660
+            5   C1y C    28.6836  -16.6916
+            6   C1z C    29.5261  -15.5681
+            7   S2x S    28.6836  -14.4446
+            8   C1a C    30.5093  -16.5512
+            9   C1a C    30.5093  -14.5850
+            10  C6a C    29.1751  -18.0257
+            11  O6a O    30.5794  -18.0257 #-
+            12  O6a O    28.3324  -19.1492
+            13  N1b N    24.7514  -14.1638
+            14  C5a C    23.5577  -14.8660
+            15  O5x O    24.7514  -16.9725
+            16  O5a O    23.5577  -16.2704
+            17  C1c C    22.3386  -14.1687
+            18  C8y C    21.1466  -14.8637
+            19  N1a N    22.3386  -12.7679
+            20  C8x C    19.9334  -14.1633
+            21  C8x C    18.7203  -14.8637
+            22  C8y C    18.7203  -16.2645
+            23  C8x C    19.9334  -16.9649
+            24  C8x C    21.1466  -16.2645
+            25  O1a O    17.4981  -16.9703
+            26  Z   Na   32.2700  -18.1300 #+
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1 #Up
+            21   18  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   18  24 1
+            27   22  25 1
+///

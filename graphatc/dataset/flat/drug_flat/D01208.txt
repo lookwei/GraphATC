@@ -1,0 +1,116 @@
+ENTRY       D01208                      Drug
+NAME        Aluminum clofibrate (JAN/INN);
+            Alfibrate (TN)
+FORMULA     C20H21AlCl2O7
+EXACT_MASS  470.048
+MOL_WEIGHT  471.2641
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01733  PPAR alpha agonist
+               DG01547  Fibrate
+REMARK      ATC code: C10AB01 C10AB03
+            Chemical structure group: DG00358
+            Product (DG00358): D00279<JP>
+EFFICACY    Antihyperlipidemic, Triglyceride synthesis inhibitor, Peroxisome proliferator-activated receptor (PPAR) alpha agonist
+COMMENT     Clofibrate derivative
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+  PATHWAY   hsa03320(5465)  PPAR signaling pathway
+            hsa04920(5465)  Adipocytokine signaling pathway
+INTERACTION  
+STR_MAP     map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AB Fibrates
+                 C10AB01 Clofibrate
+                  D01208  Aluminum clofibrate (JAN/INN)
+                 C10AB03 Aluminium clofibrate
+                  D01208  Aluminum clofibrate (JAN/INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 DG00358  Clofibrate
+                  D01208  Aluminum clofibrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D01208  Aluminum clofibrate (JAN/INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 DG00358  Clofibrate
+DBLINKS     CAS: 24818-79-9
+            PubChem: 7848271
+            ChEBI: 31194
+            NIKKAJI: J8.511A
+ATOM        30
+            1   C8y C    15.1737  -17.3526
+            2   O2a O    16.3854  -16.6511
+            3   C1d C    17.5971  -17.3455
+            4   C7a C    18.8087  -16.6440
+            5   O7a O    20.0204  -17.3385
+            6   Z   Al   21.2321  -16.6370
+            7   O7a O    22.4437  -17.3314
+            8   C7a C    23.6554  -16.6299
+            9   C1d C    24.8671  -17.3242
+            10  O2a O    26.0787  -16.6227
+            11  C8y C    27.2904  -17.3172
+            12  C1a C    16.5980  -18.3376
+            13  C1a C    18.5892  -18.3376
+            14  O6a O    18.8057  -15.2410
+            15  O1a O    21.2290  -15.2340
+            16  O6a O    23.6523  -15.2269
+            17  C1a C    23.8680  -18.3163
+            18  C1a C    25.8592  -18.3163
+            19  C8x C    27.2950  -18.7138
+            20  C8x C    28.5067  -19.4081
+            21  C8y C    29.7137  -18.7059
+            22  C8x C    29.7093  -17.3094
+            23  C8x C    28.4977  -16.6151
+            24  C8x C    13.9604  -16.6540
+            25  C8x C    12.7487  -17.3555
+            26  C8y C    12.7504  -18.7556
+            27  C8x C    13.9638  -19.4542
+            28  C8x C    15.1754  -18.7527
+            29  X   Cl   11.5363  -19.4586
+            30  X   Cl   30.9310  -19.4037
+BOND        31
+            1     7   8 1
+            2     8  16 2
+            3     9  17 1
+            4     8   9 1
+            5     9  18 1
+            6     4   5 1
+            7     9  10 1
+            8     2   3 1
+            9    10  11 1
+            10    5   6 1
+            11   11  19 2
+            12   19  20 1
+            13   20  21 2
+            14   21  22 1
+            15   22  23 2
+            16   23  11 1
+            17    3  12 1
+            18    1   2 1
+            19    3  13 1
+            20    6   7 1
+            21    4  14 2
+            22    1  24 2
+            23   24  25 1
+            24   25  26 2
+            25   26  27 1
+            26   27  28 2
+            27   28   1 1
+            28    3   4 1
+            29   26  29 1
+            30    6  15 1
+            31   21  30 1
+///

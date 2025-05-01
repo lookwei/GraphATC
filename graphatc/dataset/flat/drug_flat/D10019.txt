@@ -1,0 +1,160 @@
+ENTRY       D10019                      Drug
+NAME        Panobinostat lactate (JAN);
+            Farydak (TN)
+FORMULA     C21H23N3O2. C3H6O3
+EXACT_MASS  439.2107
+MOL_WEIGHT  439.5042
+CLASS       Antineoplastic
+             DG03133  Histone deacetylase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Therapeutic category: 4291
+            ATC code: L01XH03
+            Chemical structure group: DG01403
+            Product (DG01403): D10019<JP>
+EFFICACY    Antineoplastic, Histone deacetylase inhibitor
+  DISEASE   Multiple myeloma [DS:H00010]
+TARGET      HDAC [HSA:3065 3066 8841 9759 10014 10013 51564 55869 9734 83933 79885] [KO:K06067 K11404 K11406 K11407 K11408 K11405 K11409 K18671 K11418]
+  PATHWAY   hsa04110(3065+3066)  Cell cycle
+            hsa04330(3065+3066)  Notch signaling pathway
+            hsa05200(3065+3066)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XH Histone deacetylase (HDAC) inhibitors
+                 L01XH03 Panobinostat
+                  D10019  Panobinostat lactate (JAN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Panobinostat
+                D10019  Panobinostat lactate (JAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D10019  Panobinostat lactate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03133  Histone deacetylase inhibitor
+               DG01403  Panobinostat
+                D10019  Panobinostat lactate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01403  Panobinostat
+                 D10019  Panobinostat lactate
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01403  Panobinostat
+                D10019  Panobinostat lactate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Histone deacetylase
+                HDAC
+                 D10019  Panobinostat lactate (JAN) &lt;JP&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10019
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10019
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10019
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10019
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10019
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03133  Histone deacetylase inhibitor
+               DG01403  Panobinostat
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01403  Panobinostat
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01403  Panobinostat
+DBLINKS     PubChem: 135626740
+            ChEBI: 85991
+            LigandBox: D10019
+ATOM        32
+            1   C8y C    16.6600  -18.5500
+            2   C8x C    16.6600  -17.1500
+            3   C8x C    17.8500  -16.4500
+            4   C8y C    19.1100  -17.1500
+            5   C8x C    19.1100  -18.5500
+            6   C8x C    17.8500  -19.2500
+            7   C2b C    20.3000  -16.4500
+            8   C2b C    21.4900  -17.1500
+            9   C5a C    22.6800  -16.4500
+            10  N1b N    23.8700  -17.1500
+            11  O5a O    22.6800  -15.0500
+            12  O1b O    25.0600  -16.4500
+            13  C1b C    15.4700  -19.2500
+            14  N1b N    14.2800  -18.5500
+            15  C1b C    13.0900  -19.2500
+            16  C1b C    11.9000  -18.5500
+            17  C8y C    10.7100  -19.2500
+            18  C8y C    10.7100  -20.6500
+            19  N4x N     9.3800  -21.0700
+            20  C8y C     8.5400  -19.9500
+            21  C8y C     9.3800  -18.8300
+            22  C8x C     7.1400  -19.8100
+            23  C8x C     6.5800  -18.4800
+            24  C8x C     7.4200  -17.3600
+            25  C8x C     8.8200  -17.5000
+            26  C1a C    11.8300  -21.4900
+            27  O1a O    26.4600  -19.3900
+            28  C1c C    27.6724  -20.0900
+            29  C6a C    28.8679  -19.3996
+            30  C1a C    27.6725  -21.4898
+            31  O6a O    30.0553  -20.0851
+            32  O6a O    28.8680  -17.9903
+BOND        33
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13    1  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   17  21 1
+            23   20  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   21  25 2
+            28   18  26 1
+            29   27  28 1
+            30   28  29 1
+            31   28  30 1
+            32   29  31 1
+            33   29  32 2
+///

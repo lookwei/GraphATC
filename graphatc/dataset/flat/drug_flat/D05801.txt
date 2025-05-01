@@ -1,0 +1,122 @@
+ENTRY       D05801                      Drug
+NAME        Saprisartan potassium (USAN)
+FORMULA     C25H21BrF3N4O4S. K
+EXACT_MASS  648.0056
+MOL_WEIGHT  649.5212
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01495  Angiotensin II receptor antagonist
+             DG03231  Antihypertensive
+              DG01495  Angiotensin II receptor antagonist
+EFFICACY    Antihypertensive, Angiotensin II receptor antagonist
+COMMENT     Treatment of hypertension and heart failure
+TARGET      AGTR1 [HSA:185] [KO:K04166]
+  PATHWAY   hsa04080(185)  Neuroactive ligand-receptor interaction
+            hsa04261(185)  Adrenergic signaling in cardiomyocytes
+            hsa04270(185)  Vascular smooth muscle contraction
+            hsa04614(185)  Renin-angiotensin system
+            hsa04924(185)  Renin secretion
+            hsa04925(185)  Aldosterone synthesis and secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01495  Angiotensin II receptor antagonist
+                D05801  Saprisartan potassium
+              DG03231  Antihypertensive
+               DG01495  Angiotensin II receptor antagonist
+                D05801  Saprisartan potassium
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Angiotensin
+                AGTR1
+                 D05801  Saprisartan potassium (USAN)
+DBLINKS     CAS: 146613-90-3
+            PubChem: 47207462
+            LigandBox: D05801
+            NIKKAJI: J776.888E
+ATOM        39
+            1   C8y C    14.0362  -19.3830
+            2   C8x C    14.0362  -20.7778
+            3   C8x C    15.2217  -21.4751
+            4   C8x C    16.4073  -20.7778
+            5   C8y C    16.4073  -19.3830
+            6   C8x C    15.2217  -18.6856
+            7   C8y C    17.6626  -18.6856
+            8   N1b N    12.7809  -18.6856 #-
+            9   S4a S    11.5954  -19.3830
+            10  C1d C    10.4099  -18.6856
+            11  O3c O    10.4099  -20.0804
+            12  O3c O    12.7809  -20.0804
+            13  X   F     9.2243  -19.3830
+            14  X   F    10.4099  -17.2909
+            15  X   F     9.2243  -17.9883
+            16  O2x O    18.9178  -19.1738
+            17  C8y C    19.8244  -18.0580
+            18  C8y C    19.0573  -16.8027
+            19  C8y C    17.6626  -17.2212
+            20  C8x C    21.2191  -18.0580
+            21  X   Br   16.5468  -16.3843
+            22  C8x C    21.9863  -16.8725
+            23  C8y C    21.2889  -15.6869
+            24  C8x C    19.8941  -15.6869
+            25  N4y N    23.3810  -14.4317
+            26  C1b C    21.9863  -14.4317
+            27  C8y C    24.2876  -15.5475
+            28  N5x N    25.5429  -15.0593
+            29  C8y C    25.5429  -13.5948
+            30  C8y C    24.1481  -13.2461
+            31  C1y C    26.6587  -12.7580
+            32  C5a C    23.6600  -11.9211
+            33  O5a O    22.2652  -11.7119
+            34  N1a N    24.5665  -10.8751
+            35  C1b C    23.8692  -16.8725
+            36  C1a C    24.8455  -17.8488
+            37  C1x C    28.0534  -12.7580
+            38  C1x C    27.3560  -11.5724
+            39  Z   K    12.7231  -16.1323 #+
+BOND        42
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     1   8 1
+            9     8   9 1
+            10    9  10 1
+            11    9  11 2
+            12    9  12 2
+            13   10  13 1
+            14   10  14 1
+            15   10  15 1
+            16    7  16 1
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20    7  19 2
+            21   17  20 1
+            22   19  21 1
+            23   20  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  18 1
+            27   25  26 1
+            28   23  26 1
+            29   25  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   25  30 1
+            34   29  31 1
+            35   30  32 1
+            36   32  33 2
+            37   32  34 1
+            38   27  35 1
+            39   35  36 1
+            40   31  37 1
+            41   37  38 1
+            42   38  31 1
+///

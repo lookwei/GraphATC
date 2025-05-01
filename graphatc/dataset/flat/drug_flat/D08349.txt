@@ -1,0 +1,78 @@
+ENTRY       D08349                      Drug
+NAME        Phenelzine (BAN)
+FORMULA     C8H12N2
+EXACT_MASS  136.1
+MOL_WEIGHT  136.1943
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      Same as: C07430
+            ATC code: N06AF03
+            Chemical structure group: DG00948
+            Product (DG00948): D00505<US>
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AF Monoamine oxidase inhibitors, non-selective
+                 N06AF03 Phenelzine
+                  D08349  Phenelzine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00948  Phenelzine
+                 D08349  Phenelzine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D08349  Phenelzine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00948  Phenelzine
+DBLINKS     CAS: 51-71-8
+            PubChem: 96025036
+            ChEBI: 8060
+            LigandBox: D08349
+            NIKKAJI: J4.125D
+ATOM        10
+            1   C8y C    23.7300  -17.5700
+            2   C8x C    23.7300  -16.1700
+            3   C8x C    22.4700  -18.2000
+            4   C1b C    24.9200  -18.2000
+            5   C8x C    22.5400  -15.4700
+            6   C8x C    21.2800  -17.5700
+            7   C1b C    26.1100  -17.5700
+            8   C8x C    21.2800  -16.1700
+            9   N1b N    27.3000  -18.2000
+            10  N1a N    28.5600  -17.5700
+BOND        10
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     7   9 1
+            9     9  10 1
+            10    6   8 2
+///

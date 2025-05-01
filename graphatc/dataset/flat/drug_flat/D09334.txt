@@ -1,0 +1,90 @@
+ENTRY       D09334                      Drug
+NAME        Dutogliptin tartrate (USAN)
+FORMULA     C10H20BN3O3. C4H6O6
+EXACT_MASS  391.1762
+MOL_WEIGHT  391.1819
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01601  DPP-4 inhibitor
+REMARK      Chemical structure group: DG01282
+EFFICACY    Antidiabetic, Dipeptidyl peptidase-4 (DPP-4) inhibitor
+COMMENT     Treatment of type 2 diabetes
+TARGET      DPP4 (CD26) [HSA:1803] [KO:K01278]
+  PATHWAY   hsa04974(1803)  Protein digestion and absorption
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01282  Dutogliptin
+                 D09334  Dutogliptin tartrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-peptidases
+                DPP4 (CD26)
+                 D09334  Dutogliptin tartrate (USAN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01282  Dutogliptin
+DBLINKS     CAS: 890402-81-0
+            PubChem: 96026014
+ATOM        27
+            1   N1x N     9.7300  -23.6600
+            2   C1x C    10.1500  -24.9200
+            3   C1x C    11.5500  -24.9200
+            4   C1y C    11.9700  -23.5900
+            5   C1x C    10.8500  -22.7500
+            6   N1b N    13.1600  -22.8900
+            7   C1b C    14.3500  -23.5900
+            8   C5a C    15.5400  -22.8900
+            9   N1y N    16.7300  -23.5900
+            10  O5a O    15.5400  -21.4200
+            11  C1x C    17.0800  -24.9900
+            12  C1x C    18.4800  -24.9900
+            13  C1x C    18.9700  -23.7300
+            14  C1y C    17.9200  -22.8200
+            15  Z   B    17.9200  -21.4200
+            16  O1a O    19.1800  -20.7200
+            17  O1a O    16.7300  -20.6500
+            18  C6a C    23.1700  -22.1200
+            19  C1c C    24.3824  -22.8200
+            20  O6a O    21.9576  -22.8200
+            21  C1c C    25.5779  -22.1296
+            22  C6a C    26.7653  -22.8151
+            23  O6a O    23.1700  -20.7200
+            24  O1a O    25.5780  -20.7203
+            25  O6a O    27.9565  -22.1271
+            26  O6a O    26.7655  -24.2198
+            27  O1a O    24.3825  -24.2198
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 1
+            7     4   6 1 #Down
+            8     7   8 1
+            9     8   9 1
+            10    8  10 2
+            11    9  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    9  14 1
+            16   14  15 1 #Down
+            17   15  16 1
+            18   15  17 1
+            19   18  19 1
+            20   18  20 1
+            21   19  21 1
+            22   21  22 1
+            23   18  23 2
+            24   21  24 1 #Up
+            25   22  25 1
+            26   22  26 2
+            27   19  27 1 #Up
+///

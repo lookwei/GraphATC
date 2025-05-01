@@ -1,0 +1,112 @@
+ENTRY       D00916                      Drug
+NAME        Loracarbef (USP);
+            Loracarbef monohydrate;
+            Lorabid (TN)
+FORMULA     C16H16ClN3O4. H2O
+EXACT_MASS  367.0935
+MOL_WEIGHT  367.7842
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01711  Carbacephem
+             DG01775  Second-generation cephalosporin
+REMARK      Same as: C08109
+            ATC code: J01DC08
+            Chemical structure group: DG00564
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+STR_MAP     map07013  Cephalosporins - oral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DC Second-generation cephalosporins
+                 J01DC08 Loracarbef
+                  D00916  Loracarbef (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01711  Carbacephem
+                 DG00564  Loracarbef
+                  D00916  Loracarbef
+              DG01775  Second-generation cephalosporin
+               DG00564  Loracarbef
+                D00916  Loracarbef
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                D00916  Loracarbef (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01711  Carbacephem
+                 DG00564  Loracarbef
+              DG01775  Second-generation cephalosporin
+               DG00564  Loracarbef
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                DG00564  Loracarbef
+DBLINKS     CAS: 121961-22-6
+            PubChem: 7847979
+            ChEBI: 6537
+            LigandBox: D00916
+ATOM        25
+            1   N1y N    20.2134  -16.5611
+            2   C1y C    20.2134  -15.1547
+            3   C5x C    18.8070  -16.5611
+            4   C2y C    21.4273  -17.2673
+            5   C1y C    18.8070  -15.1547
+            6   C1x C    21.4273  -14.4602
+            7   O5x O    17.8091  -17.5532
+            8   C2y C    22.6353  -16.5611
+            9   C6a C    21.4273  -18.6620
+            10  N1b N    17.5990  -14.4661
+            11  C1x C    22.6353  -15.1547
+            12  X   Cl   23.8434  -17.2673
+            13  O6a O    20.2134  -19.3506
+            14  O6a O    22.6294  -19.3506
+            15  C5a C    16.3853  -15.1664
+            16  C1c C    15.1713  -14.4719
+            17  O5a O    16.3793  -16.5670
+            18  C8y C    13.9633  -15.1722
+            19  N1a N    15.1656  -13.0712
+            20  C8x C    13.9633  -16.5728
+            21  C8x C    12.7496  -14.4719
+            22  C8x C    12.7496  -17.2790
+            23  C8x C    11.5416  -15.1722
+            24  C8x C    11.5416  -16.5728
+            25  O0  O    25.7683  -14.7928
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     4   9 1
+            9     5  10 1 #Up
+            10    6  11 1
+            11    8  12 1
+            12    9  13 1
+            13    9  14 2
+            14   10  15 1
+            15   15  16 1
+            16   15  17 2
+            17   16  18 1
+            18   16  19 1 #Up
+            19   18  20 1
+            20   18  21 2
+            21   20  22 2
+            22   21  23 1
+            23   22  24 1
+            24    3   5 1
+            25    8  11 1
+            26   23  24 2
+///

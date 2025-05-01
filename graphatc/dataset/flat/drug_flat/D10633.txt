@@ -1,0 +1,146 @@
+ENTRY       D10633                      Drug
+NAME        Finerenone (JAN/USAN/INN);
+            Kerendia (TN)
+PRODUCT     KERENDIA (Bayer Healthcare Pharmaceuticals)
+FORMULA     C21H22N4O3
+EXACT_MASS  378.1692
+MOL_WEIGHT  378.4244
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01676  Aldosterone antagonist
+             DG01885  Potassium-sparing diuretic
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2190
+            ATC code: C03DA05
+            Product: D10633<JP/US>
+EFFICACY    Diuretic, Aldosterone antagonist
+  DISEASE   Chronic kidney disease associated with type 2 diabetes [DS:H01456]
+COMMENT     Treatment of chronic heart failure and diabetic nephropathy
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2C8 [HSA:1558]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03D ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+                C03DA Aldosterone antagonists
+                 C03DA05 Finerenone
+                  D10633  Finerenone (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Mineralocorticoid Receptor Antagonist
+               Finerenone
+                D10633  Finerenone (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D10633  Finerenone (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01676  Aldosterone antagonist
+                D10633  Finerenone
+              DG01885  Potassium-sparing diuretic
+               D10633  Finerenone
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               D10633  Finerenone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10633  Finerenone
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01676  Aldosterone antagonist
+               D10633  Finerenone
+              DG03231  Antihypertensive
+               D10633  Finerenone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D10633  Finerenone (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10633
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10633
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10633
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10633
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10633
+DBLINKS     CAS: 1050477-31-0
+            PubChem: 254741594
+ATOM        28
+            1   C8x C    15.0895  -12.3379
+            2   N5x N    15.0895  -13.7090
+            3   C8y C    16.2767  -14.3945
+            4   C8y C    17.4642  -13.7090
+            5   C8y C    17.4642  -12.3379
+            6   C8y C    16.2767  -11.6524
+            7   C1y C    18.6515  -14.3945
+            8   C2y C    19.8388  -13.7090
+            9   C2y C    19.8388  -12.3379
+            10  N1x N    18.6515  -11.6524
+            11  C1a C    16.2767  -10.2814
+            12  C1a C    21.0262  -11.6524
+            13  O2a O    16.2767  -15.7655
+            14  C5a C    21.0262  -14.3945
+            15  N1a N    22.2135  -13.7090
+            16  O5a O    21.0262  -15.6969
+            17  C8y C    18.6515  -16.5880
+            18  C8x C    17.4662  -17.2724
+            19  C8x C    17.4662  -18.6434
+            20  C8y C    18.6534  -19.3289
+            21  C8x C    19.8388  -18.6446
+            22  C8y C    19.8388  -17.2736
+            23  O2a O    21.0260  -16.6687
+            24  C1a C    22.2599  -17.3078
+            25  C3b C    18.6534  -20.7000
+            26  N3a N    18.6534  -22.0710
+            27  C1b C    15.0960  -16.4473
+            28  C1a C    15.0960  -17.8473
+BOND        30
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 1
+            12    6  11 1
+            13    9  12 1
+            14    3  13 1
+            15    8  14 1
+            16   14  15 1
+            17   14  16 2
+            18    7  17 1 #Up
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   22  23 1
+            26   23  24 1
+            27   20  25 1
+            28   25  26 3
+            29   13  27 1
+            30   27  28 1
+///

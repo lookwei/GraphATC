@@ -1,0 +1,89 @@
+ENTRY       D08591                      Drug
+NAME        Tiaprost (INN);
+            Iliren [veterinary] (TN)
+FORMULA     C20H28O6S
+EXACT_MASS  396.1607
+MOL_WEIGHT  396.4977
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+EFFICACY    Luteolytic (veterinary), Prostaglandin F receptor agonist
+COMMENT     synthetic analog of prostaglandin F2alpha [CPD:C00639]
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                D08591  Tiaprost
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D08591  Tiaprost (INN)
+DBLINKS     CAS: 71116-82-0
+            PubChem: 96025275
+            ChEBI: 180617
+            LigandBox: D08591
+            NIKKAJI: J21.704B
+ATOM        27
+            1   C1x C    12.7331  -15.3206
+            2   C1y C    13.5055  -16.4440
+            3   C1y C    14.8396  -15.9525
+            4   C1y C    14.8396  -14.5482
+            5   C1y C    13.5055  -14.1269
+            6   C1b C    16.0332  -13.8461
+            7   C2b C    17.2268  -14.5482
+            8   C2b C    18.6311  -14.5482
+            9   C1b C    19.8247  -13.8461
+            10  C1b C    21.0184  -14.5482
+            11  C1b C    22.2120  -13.8461
+            12  C6a C    23.4057  -14.5482
+            13  O6a O    24.5993  -13.8461
+            14  O6a O    23.4057  -15.9525
+            15  O1a O    13.0140  -12.7929
+            16  O1a O    13.0842  -17.7781
+            17  C2b C    16.0332  -16.6546
+            18  C2b C    17.2268  -15.9525
+            19  C1c C    18.4205  -16.6546
+            20  C1b C    19.6141  -15.9525
+            21  O2a O    20.8077  -16.6546
+            22  O1a O    18.4205  -18.0589
+            23  C8y C    22.0362  -17.3351
+            24  C8x C    21.6064  -18.7044
+            25  S2x S    22.7582  -19.5367
+            26  C8x C    23.9058  -18.6985
+            27  C8x C    23.4631  -17.3480
+BOND        28
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 1
+            7     4   6 1 #Down
+            8     7   8 2
+            9     9  10 1
+            10    9   8 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   12  14 2
+            15    5  15 1 #Down
+            16    2  16 1 #Down
+            17    3  17 1 #Up
+            18   17  18 2
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   19  22 1
+            23   21  23 1
+            24   23  24 2
+            25   24  25 1
+            26   25  26 1
+            27   26  27 2
+            28   23  27 1
+///

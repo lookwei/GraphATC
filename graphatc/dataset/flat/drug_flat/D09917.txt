@@ -1,0 +1,103 @@
+ENTRY       D09917                      Drug
+NAME        Latrepirdine (USAN/INN)
+FORMULA     C21H25N3
+EXACT_MASS  319.2048
+MOL_WEIGHT  319.4433
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+             DG01498  NMDA receptor antagonist
+REMARK      Chemical structure group: DG01379
+EFFICACY    Dementia therapeutic agent, Acetylcholinesterase inhibitor, NMDA receptor antagonist
+COMMENT     Treatment of Alzheimer's disease
+TARGET      ACHE [HSA:43] [KO:K01049]
+            GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+            hsa04725(43)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07056  Agents for Alzheimer-type dementia
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG01379  Latrepirdine
+                 D09917  Latrepirdine
+              DG01498  NMDA receptor antagonist
+               DG01379  Latrepirdine
+                D09917  Latrepirdine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D09917  Latrepirdine (USAN/INN)
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D09917  Latrepirdine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG01379  Latrepirdine
+              DG01498  NMDA receptor antagonist
+               DG01379  Latrepirdine
+DBLINKS     CAS: 3613-73-8
+            PubChem: 135626654
+            LigandBox: D09917
+ATOM        24
+            1   C8y C    19.9065  -28.4433
+            2   C8y C    21.3057  -28.3959
+            3   C8y C    21.6930  -27.0505
+            4   N4y N    20.5331  -26.2664
+            5   C8y C    19.4290  -27.1272
+            6   C8x C    22.2771  -29.4040
+            7   C8y C    23.6359  -29.0667
+            8   C8x C    24.0232  -27.7213
+            9   C8x C    23.0517  -26.7132
+            10  C1x C    18.0505  -26.8826
+            11  C1x C    17.1495  -27.9541
+            12  N1y N    17.6270  -29.2702
+            13  C1x C    19.0054  -29.5148
+            14  C1b C    20.4855  -24.8502
+            15  C1b C    21.6913  -24.0987
+            16  C8y C    21.7134  -22.6811
+            17  C8x C    22.9268  -22.0054
+            18  N5x N    22.9485  -20.6056
+            19  C8y C    21.7470  -19.8869
+            20  C8x C    20.5336  -20.5626
+            21  C8x C    20.5119  -21.9624
+            22  C1a C    21.7687  -18.4800
+            23  C1a C    24.6103  -30.0780
+            24  C1a C    16.7364  -30.3293
+BOND        27
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     2   6 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 2
+            10    3   9 1
+            11    5  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15    1  13 1
+            16    4  14 1
+            17   14  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   16  21 2
+            25   19  22 1
+            26    7  23 1
+            27   12  24 1
+///

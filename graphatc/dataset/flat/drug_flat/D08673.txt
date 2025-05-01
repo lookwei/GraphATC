@@ -1,0 +1,107 @@
+ENTRY       D08673                      Drug
+NAME        Viloxazine (INN)
+FORMULA     C13H19NO3
+EXACT_MASS  237.1365
+MOL_WEIGHT  237.2949
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG02924  UGT substrate
+              DG03188  UGT1A9 substrate
+              DG03187  UGT2B15 substrate
+REMARK      ATC code: N06AX09
+            Chemical structure group: DG00956
+            Product (DG00956): D02572<US>
+EFFICACY    Antidepressant, Selective noradrenaline reuptake inhibitor (NRI)
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530)  Synaptic vesicle cycle
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], UGT1A9 [HSA:54600], UGT2B15 [HSA:7366]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX09 Viloxazine
+                  D08673  Viloxazine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00956  Viloxazine
+                D08673  Viloxazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00956  Viloxazine
+                D08673  Viloxazine
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                DG00956  Viloxazine
+                 D08673  Viloxazine
+               DG03187  UGT2B15 substrate
+                DG00956  Viloxazine
+                 D08673  Viloxazine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08673  Viloxazine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08673
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00956  Viloxazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00956  Viloxazine
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                DG00956  Viloxazine
+               DG03187  UGT2B15 substrate
+                DG00956  Viloxazine
+DBLINKS     CAS: 46817-91-8
+            PubChem: 96025356
+            LigandBox: D08673
+            NIKKAJI: J16.881E
+ATOM        17
+            1   C8x C    19.8800  -17.5700
+            2   C8x C    19.8800  -16.1700
+            3   C8x C    21.0700  -15.4700
+            4   C8y C    22.3300  -16.1700
+            5   C8y C    22.3300  -17.5700
+            6   C8x C    21.0700  -18.2700
+            7   O2a O    23.5200  -18.2700
+            8   C1b C    24.7800  -17.5700
+            9   C1y C    25.9700  -18.2700
+            10  O2a O    23.5200  -15.4700
+            11  C1b C    24.7800  -16.1700
+            12  C1a C    25.9700  -15.4700
+            13  O2x O    27.1600  -17.5700
+            14  C1x C    28.4200  -18.2700
+            15  C1x C    28.4200  -19.6700
+            16  N1x N    27.1600  -20.3700
+            17  C1x C    25.9700  -19.6700
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    4  10 1
+            11   10  11 1
+            12   11  12 1
+            13    9  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18    9  17 1
+///

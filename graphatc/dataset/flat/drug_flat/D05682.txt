@@ -1,0 +1,68 @@
+ENTRY       D05682                      Drug
+NAME        Quinpirole hydrochloride (USAN)
+FORMULA     C13H21N3. HCl
+EXACT_MASS  255.1502
+MOL_WEIGHT  255.7869
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+EFFICACY    Antihypertensive
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            DRD3 [HSA:1814] [KO:K04146]
+  PATHWAY   hsa04024(1813)  cAMP signaling pathway
+            hsa04080(1813+1814)  Neuroactive ligand-receptor interaction
+            hsa04728(1813+1814)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               D05682  Quinpirole hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D05682  Quinpirole hydrochloride (USAN)
+                DRD3
+                 D05682  Quinpirole hydrochloride (USAN)
+DBLINKS     CAS: 85798-08-9
+            PubChem: 47207343
+            LigandBox: D05682
+            NIKKAJI: J276.268D
+ATOM        17
+            1   C1x C    22.6772  -18.6148
+            2   C1x C    22.6772  -20.0144
+            3   N1y N    23.8892  -20.7141
+            4   C1y C    25.1013  -20.0144
+            5   C1y C    25.1013  -18.6148
+            6   C1x C    23.8892  -17.9151
+            7   C1x C    26.3133  -20.7141
+            8   C8y C    27.5253  -20.0144
+            9   C8y C    27.5253  -18.6148
+            10  C1x C    26.3133  -17.9151
+            11  C8x C    28.8564  -20.4468
+            12  N5x N    29.6790  -19.3146
+            13  N4x N    28.8564  -18.1824
+            14  C1b C    23.8892  -22.1135
+            15  C1b C    22.6604  -22.8231
+            16  C1a C    22.6604  -24.2231
+            17  X   Cl   28.8971  -22.6645
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 1
+            12    8  11 1
+            13   11  12 2
+            14   12  13 1
+            15    9  13 1
+            16    3  14 1
+            17   14  15 1
+            18   15  16 1
+///

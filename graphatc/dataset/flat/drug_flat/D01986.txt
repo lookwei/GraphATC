@@ -1,0 +1,125 @@
+ENTRY       D01986                      Drug
+NAME        Estriol tripropionate (JAN);
+            Estriol (TN)
+FORMULA     C27H36O6
+EXACT_MASS  456.2512
+MOL_WEIGHT  456.5711
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+REMARK      ATC code: G03CA04 G03CC06
+            Chemical structure group: DG00463
+            Product (DG00463): D00185<JP>
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA04 Estriol
+                  D01986  Estriol tripropionate (JAN)
+                G03CC Estrogens, combinations with other drugs
+                 G03CC06 Estriol
+                  D01986  Estriol tripropionate (JAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00463  Estriol
+                D01986  Estriol tripropionate
+              DG01584  Estrogen receptor agonist
+               DG00463  Estriol
+                D01986  Estriol tripropionate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D01986  Estriol tripropionate (JAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00463  Estriol
+              DG01584  Estrogen receptor agonist
+               DG00463  Estriol
+DBLINKS     CAS: 2236-31-9
+            PubChem: 7849048
+            ChEBI: 188607
+            LigandBox: D01986
+            NIKKAJI: J21.490F
+ATOM        33
+            1   C1y C    25.4800  -28.0700
+            2   C1y C    24.2900  -28.7700
+            3   C1z C    25.4800  -26.6700
+            4   C1x C    27.8600  -28.0700
+            5   C1y C    23.1000  -28.0700
+            6   C1x C    24.2900  -30.1000
+            7   C1y C    26.6700  -25.9700
+            8   C1x C    24.2900  -26.0400
+            9   C1y C    27.8600  -26.6700
+            10  C8y C    21.9100  -28.7700
+            11  C1x C    23.1000  -26.6700
+            12  C1x C    23.1000  -30.8000
+            13  O7a O    29.0500  -26.0400
+            14  C8y C    21.9100  -30.1000
+            15  C8x C    20.7900  -28.0700
+            16  C8x C    20.7900  -30.8000
+            17  C8x C    19.6000  -28.7700
+            18  C8y C    19.6000  -30.1000
+            19  C1a C    25.4800  -25.2700
+            20  O7a O    26.6700  -24.5700
+            21  C7a C    27.8600  -23.8700
+            22  C1b C    29.0500  -24.5700
+            23  C1a C    30.2400  -23.8700
+            24  O6a O    27.8600  -22.4700
+            25  C7a C    30.2400  -26.7400
+            26  C1b C    31.4300  -26.0400
+            27  O6a O    30.2400  -28.1400
+            28  C1a C    32.6200  -26.7400
+            29  O7a O    18.3847  -30.7951
+            30  C7a C    17.1963  -30.1023
+            31  C1b C    15.9999  -30.7865
+            32  C1a C    14.8187  -30.0981
+            33  O6a O    17.2020  -28.7001
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    9  13 1 #Down
+            13   10  14 2
+            14   10  15 1
+            15   14  16 1
+            16   15  17 2
+            17   16  18 2
+            18    7   9 1
+            19    8  11 1
+            20   12  14 1
+            21   17  18 1
+            22    3  19 1 #Up
+            23    7  20 1 #Up
+            24   20  21 1
+            25   21  22 1
+            26   22  23 1
+            27   21  24 2
+            28   13  25 1
+            29   25  26 1
+            30   25  27 2
+            31   26  28 1
+            32   18  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   30  33 2
+///

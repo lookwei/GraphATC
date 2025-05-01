@@ -1,0 +1,103 @@
+ENTRY       D01634                      Drug
+NAME        Piretanide (JAN/USAN/INN);
+            Arelix (TN)
+FORMULA     C17H18N2O5S
+EXACT_MASS  362.0936
+MOL_WEIGHT  362.4002
+CLASS       Cardiovascular agent
+             DG01690  Sulfonamide diuretic
+              DG01746  Piretanide type diuretic
+             DG01748  Loop diuretic
+              DG01746  Piretanide type diuretic
+REMARK      ATC code: C03CA03
+EFFICACY    Diuretic, Na-K-Cl cotransporter inhibitor
+COMMENT     loop diuretic
+            Sulfonamide derivative
+TARGET      SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+            SLC12A2 (NKCC1) [HSA:6558] [KO:K10951]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03C HIGH-CEILING DIURETICS
+                C03CA Sulfonamides, plain
+                 C03CA03 Piretanide
+                  D01634  Piretanide (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01690  Sulfonamide diuretic
+               DG01746  Piretanide type diuretic
+                D01634  Piretanide
+              DG01748  Loop diuretic
+               DG01746  Piretanide type diuretic
+                D01634  Piretanide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D01634  Piretanide (JAN/USAN/INN)
+                SLC12A2 (NKCC1)
+                 D01634  Piretanide (JAN/USAN/INN)
+DBLINKS     CAS: 55837-27-9
+            PubChem: 7848697
+            ChEBI: 32015
+            LigandBox: D01634
+            NIKKAJI: J3.520C
+ATOM        25
+            1   C1x C    23.9484  -23.0592
+            2   C1x C    24.3859  -21.7234
+            3   N1y N    23.2457  -20.8941
+            4   C1x C    22.1057  -21.7234
+            5   C1x C    22.5430  -23.0592
+            6   C8y C    24.4382  -18.8147
+            7   C8y C    23.2399  -19.5079
+            8   C8y C    24.4324  -17.4342
+            9   O2a O    25.6307  -19.5020
+            10  C8x C    22.0357  -18.8147
+            11  C8x C    23.2339  -16.7410
+            12  S4a S    25.6307  -16.7410
+            13  C8y C    27.0816  -20.2304
+            14  C8y C    22.0357  -17.4342
+            15  C8x C    27.0816  -21.6168
+            16  C8x C    28.2858  -19.5313
+            17  C6a C    20.8432  -16.7352
+            18  C8x C    28.2858  -22.3099
+            19  C8x C    29.4783  -20.2304
+            20  O6a O    19.6389  -17.4342
+            21  O6a O    20.8432  -15.3547
+            22  C8x C    29.4783  -21.6168
+            23  N1a N    26.8439  -16.0286
+            24  O3c O    24.9203  -15.5175
+            25  O3c O    26.3257  -17.9522
+BOND        27
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     6   7 1
+            5     6   8 2
+            6     6   9 1
+            7     7  10 2
+            8     7   3 1
+            9     8  11 1
+            10    8  12 1
+            11    9  13 1
+            12   10  14 1
+            13   13  15 2
+            14   13  16 1
+            15   14  17 1
+            16   15  18 1
+            17   16  19 2
+            18   17  20 1
+            19   17  21 2
+            20   18  22 2
+            21   11  14 2
+            22   19  22 1
+            23    5   1 1
+            24   12  23 1
+            25   12  24 2
+            26    1   2 1
+            27   12  25 2
+///

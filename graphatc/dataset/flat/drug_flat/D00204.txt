@@ -1,0 +1,126 @@
+ENTRY       D00204                      Drug
+NAME        Ampicillin (USP/INN);
+            Anhydrous ampicillin (JP18);
+            Omnipen (TN)
+FORMULA     C16H19N3O4S
+EXACT_MASS  349.1096
+MOL_WEIGHT  349.4048
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      Same as: C06574
+            ATC code: J01CA01 S01AA19
+            Chemical structure group: DG00517
+            Product (DG00517): D01251<JP/US> D02119<JP/US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA01 Ampicillin
+                  D00204  Ampicillin (USP/INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA19 Ampicillin
+                  D00204  Ampicillin (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00517  Ampicillin
+                  D00204  Ampicillin
+              DG01780  Extended spectrum penicillin
+               DG00517  Ampicillin
+                D00204  Ampicillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D00204  Ampicillin (USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00204  Anhydrous ampicillin
+            Prodrugs [br08324.html]
+             D00204
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00517  Ampicillin
+              DG01780  Extended spectrum penicillin
+               DG00517  Ampicillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00517  Ampicillin
+DBLINKS     CAS: 69-53-4
+            PubChem: 7847272
+            ChEBI: 28971
+            PDB-CCD: AIC
+            LigandBox: D00204
+            NIKKAJI: J4.515B
+ATOM        24
+            1   C1y C    28.4025  -14.8702
+            2   C5x C    28.4025  -16.2751
+            3   N1y N    29.8073  -16.2751
+            4   C1y C    29.8073  -14.8702
+            5   C1y C    31.1418  -16.6964
+            6   C1z C    31.9845  -15.5725
+            7   S2x S    31.1418  -14.4487
+            8   C1a C    32.9680  -16.5559
+            9   C1a C    32.9680  -14.5892
+            10  C6a C    31.6334  -18.0309
+            11  O6a O    33.0381  -18.0309
+            12  O6a O    30.7905  -19.1546
+            13  N1b N    27.2084  -14.1678
+            14  C5a C    26.0144  -14.8702
+            15  O5x O    27.2084  -16.9774
+            16  O5a O    26.0144  -16.2751
+            17  C1c C    24.7949  -14.1727
+            18  C8y C    23.6026  -14.8679
+            19  N1a N    24.7949  -12.7715
+            20  C8x C    22.3890  -14.1673
+            21  C8x C    21.1757  -14.8679
+            22  C8x C    21.1757  -16.2692
+            23  C8x C    22.3890  -16.9698
+            24  C8x C    23.6026  -16.2692
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1 #Up
+            21   18  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   18  24 1
+///

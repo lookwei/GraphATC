@@ -1,0 +1,58 @@
+ENTRY       D06255                      Drug
+NAME        Troxacitabine (USAN/INN)
+FORMULA     C8H11N3O4
+EXACT_MASS  213.075
+MOL_WEIGHT  213.1906
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Treatment of leukemias and solid tumors
+            Orphan drug
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 D06255  Troxacitabine
+DBLINKS     CAS: 145918-75-8
+            PubChem: 47207913
+            PDB-CCD: LTT
+            LigandBox: D06255
+            NIKKAJI: J545.190F
+ATOM        15
+            1   C1x C    28.9100  -21.4900
+            2   O2x O    27.4400  -21.4900
+            3   C1y C    27.0900  -20.1600
+            4   O2x O    28.1400  -19.3200
+            5   C1y C    29.2600  -20.1600
+            6   C1b C    25.7600  -19.7400
+            7   O1a O    24.7800  -20.6500
+            8   N4y N    30.5900  -19.7400
+            9   C8y C    33.1100  -18.3400
+            10  N5x N    33.1100  -19.7400
+            11  C8y C    31.8500  -20.5100
+            12  C8x C    30.5900  -18.3400
+            13  C8x C    31.8500  -17.6400
+            14  O5x O    31.8500  -21.9100
+            15  N1a N    34.3000  -17.6400
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     3   6 1 #Down
+            7     6   7 1
+            8     5   8 1 #Down
+            9     9  10 2
+            10   10  11 1
+            11   11   8 1
+            12    8  12 1
+            13   12  13 2
+            14    9  13 1
+            15   11  14 2
+            16    9  15 1
+///

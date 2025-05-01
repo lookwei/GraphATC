@@ -1,0 +1,152 @@
+ENTRY       D01425                      Drug
+NAME        Lopinavir (JAN/USP/INN)
+  ABBR      LPV
+FORMULA     C37H48N4O5
+EXACT_MASS  628.3625
+MOL_WEIGHT  628.8008
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+REMARK      Same as: C12871
+            Product (mixture): D02498<JP/US>
+EFFICACY    Antiviral, HIV protease inhibitor
+COMMENT     Component of Kaletra (TN)
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                D01425  Lopinavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D01425  Lopinavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D01425  Lopinavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D01425  Lopinavir (JAN/USP/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D01425  Lopinavir (JAN/USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01425
+DBLINKS     CAS: 192725-17-0
+            PubChem: 7848488
+            ChEBI: 31781
+            PDB-CCD: AB1
+            LigandBox: D01425
+            NIKKAJI: J1.543.461I
+ATOM        46
+            1   C8x C    26.1306  -22.8115
+            2   C8x C    25.4366  -24.0227
+            3   C8x C    24.0406  -24.0271
+            4   C8x C    23.3387  -22.8205
+            5   C8y C    24.0328  -21.6093
+            6   C8x C    25.4287  -21.6048
+            7   C1b C    23.3276  -20.3970
+            8   C8y C    33.0172  -18.9945
+            9   O2a O    31.8060  -18.2933
+            10  C1b C    30.5948  -18.9945
+            11  C5a C    29.3836  -18.2933
+            12  N1b N    28.1724  -18.9945
+            13  C1c C    26.9612  -18.2933
+            14  C1c C    25.7500  -18.9945
+            15  C1b C    24.5388  -18.2933
+            16  C1c C    23.3276  -18.9945
+            17  N1b N    22.1164  -18.2933
+            18  C5a C    20.9053  -18.9945
+            19  C1c C    19.6941  -18.2933
+            20  N1y N    18.4829  -18.9945
+            21  C8y C    34.2300  -18.2962
+            22  C8x C    35.4412  -18.9974
+            23  C8x C    35.4395  -20.3970
+            24  C8x C    34.2266  -21.0953
+            25  C8y C    33.0155  -20.3941
+            26  C1a C    34.2317  -16.8938
+            27  C1a C    31.8002  -21.0938
+            28  O5a O    29.3836  -16.8909
+            29  C1b C    26.9612  -16.8909
+            30  C8y C    25.7468  -16.1897
+            31  C8x C    24.5407  -16.8902
+            32  C8x C    23.3263  -16.1890
+            33  C8x C    23.3263  -14.7866
+            34  C8x C    24.5407  -14.0854
+            35  C8x C    25.7553  -14.7866
+            36  O1a O    25.7548  -20.3934
+            37  O5a O    20.9053  -20.3970
+            38  C1c C    19.6941  -16.4709
+            39  C1a C    18.4796  -15.7697
+            40  C1a C    20.9087  -15.7697
+            41  C1x C    18.4846  -20.3941
+            42  C1x C    17.2734  -21.0953
+            43  C1x C    16.0605  -20.3970
+            44  N1x N    16.0588  -18.9974
+            45  C5x C    17.2700  -18.2962
+            46  O5x O    17.2685  -16.8938
+BOND        49
+            1    21  22 1
+            2    22  23 2
+            3    23  24 1
+            4    24  25 2
+            5    25   8 1
+            6    12  13 1
+            7    21  26 1
+            8    25  27 1
+            9    13  14 1
+            10   11  28 2
+            11    5   7 1
+            12   13  29 1 #Down
+            13   14  15 1
+            14   29  30 1
+            15    1   2 2
+            16   15  16 1
+            17    2   3 1
+            18   16  17 1
+            19    8   9 1
+            20   30  31 2
+            21   31  32 1
+            22   32  33 2
+            23   33  34 1
+            24   34  35 2
+            25   35  30 1
+            26   14  36 1 #Up
+            27   16   7 1 #Down
+            28   17  18 1
+            29    3   4 2
+            30   18  37 2
+            31   18  19 1
+            32   19  38 1 #Up
+            33    9  10 1
+            34   38  39 1
+            35   19  20 1
+            36   38  40 1
+            37    4   5 1
+            38   10  11 1
+            39    5   6 2
+            40   11  12 1
+            41    6   1 1
+            42   20  41 1
+            43   41  42 1
+            44   42  43 1
+            45   43  44 1
+            46   44  45 1
+            47   45  20 1
+            48    8  21 2
+            49   45  46 2
+///

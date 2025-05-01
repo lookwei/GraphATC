@@ -1,0 +1,104 @@
+ENTRY       C02686                      Compound
+NAME        Galactosylceramide;
+            Galactocerebroside;
+            Cerebroside;
+            D-Galactosyl-N-acylsphingosine;
+            D-Galactosylceramide;
+            beta-D-Galactosyl-N-acylsphingosine
+FORMULA     C25H46NO8R
+REMARK      Same as: G11121
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01500 R03617 R04016 R04017 R04018 R04019 R04856 R12970
+PATHWAY     map00600  Sphingolipid metabolism
+            map01100  Metabolic pathways
+MODULE      M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid
+NETWORK     nt06014(G11121)  Sphingolipid degradation
+ENZYME      2.4.1.47        2.4.1.-         2.8.2.11        3.1.6.1         
+            3.1.6.8         3.2.1.18        3.2.1.22        3.2.1.46        
+            3.2.1.62
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Glycolipids
+               Glycosphingolipids
+                C02686  Galactosylceramide
+            Lipids [BR:br08002(G11121)]
+             SP  Sphingolipids
+              SP05 Neutral glycosphingolipids
+               SP0501 Simple Glc series
+                G11121  Gal-beta1->1'Cer (GalCer)
+DBLINKS     PubChem: 5655
+            ChEBI: 176270 18390 36498
+            NIKKAJI: J1.883.144I
+ATOM        35
+            1   C1y C    16.5901  -16.0713
+            2   O2x O    15.3381  -15.3480
+            3   O2a O    18.0309  -15.4085
+            4   C1y C    16.5843  -17.4993
+            5   C1y C    14.1045  -16.0713
+            6   C1b C    19.2470  -16.1016
+            7   C1y C    15.3381  -18.2225
+            8   O1a O    17.8365  -18.2225
+            9   C1y C    14.1045  -17.4993
+            10  C1b C    12.8769  -15.3480
+            11  C1c C    20.4256  -15.4085
+            12  O1a O    15.3322  -19.6506
+            13  O1a O    12.8639  -18.2225
+            14  O1a O    11.7762  -16.2775
+            15  C1c C    21.6230  -16.1016
+            16  N1b N    20.4256  -14.0410
+            17  C2b C    22.8146  -15.4085
+            18  O1a O    21.6230  -17.4748
+            19  C5a C    21.6045  -13.3597
+            20  C2b C    24.0063  -16.1016
+            21  O5a O    21.6045  -11.9922
+            22  R   R    22.7900  -14.0410
+            23  C1b C    25.1907  -15.4085
+            24  C1b C    26.3764  -16.1016
+            25  C1b C    27.5738  -15.4085
+            26  C1b C    28.7654  -16.1016
+            27  C1b C    29.9500  -15.4085
+            28  C1b C    31.1355  -16.1016
+            29  C1b C    32.3331  -15.4085
+            30  C1b C    33.5117  -16.1016
+            31  C1b C    34.7034  -15.4085
+            32  C1b C    35.9135  -16.1016
+            33  C1b C    37.0922  -15.4085
+            34  C1b C    38.2896  -16.1016
+            35  C1a C    39.4625  -15.4085
+BOND        35
+            1     1   2 1
+            2     1   3 1 #Up
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Up
+            10    6  11 1
+            11    7  12 1 #Up
+            12    9  13 1 #Up
+            13   10  14 1
+            14   11  15 1
+            15   11  16 1 #Down
+            16   15  17 1
+            17   15  18 1 #Up
+            18   16  19 1
+            19   17  20 2
+            20   19  21 2
+            21   19  22 1
+            22   20  23 1
+            23   23  24 1
+            24   24  25 1
+            25   25  26 1
+            26   26  27 1
+            27   27  28 1
+            28   28  29 1
+            29   29  30 1
+            30   30  31 1
+            31   31  32 1
+            32   32  33 1
+            33   33  34 1
+            34   34  35 1
+            35    7   9 1
+///

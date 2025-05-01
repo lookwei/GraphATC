@@ -1,0 +1,183 @@
+ENTRY       D00270                      Drug
+NAME        Chlorpromazine (USP/INN);
+            Thorazine (TN)
+FORMULA     C17H19ClN2S
+EXACT_MASS  318.0957
+MOL_WEIGHT  318.8642
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+            Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG01491  Muscarinic cholinergic receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+            Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Same as: C06906
+            ATC code: N05AA01
+            Chemical structure group: DG00867
+            Product (DG00867): D00789<JP/US> D04034<JP>
+EFFICACY    Antipsychotic, Anti-emetic
+COMMENT     Phenothiazine derivative
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HRH1 [HSA:3269] [KO:K04149]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            DRD2 [HSA:1813] [KO:K04145]
+            CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133+150+151+152+1813+3269+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04726(3356+3357+3358)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+STR_MAP     map07028  Antipsychotics
+            map07029  Antipsychotics - phenothiazines
+            map07048  Antimigraines
+            map07212  Histamine H1 receptor antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AA Phenothiazines with aliphatic side-chain
+                 N05AA01 Chlorpromazine
+                  D00270  Chlorpromazine (USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00867  Chlorpromazine
+                  D00270  Chlorpromazine
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00867  Chlorpromazine
+                 D00270  Chlorpromazine
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00867  Chlorpromazine
+                D00270  Chlorpromazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00867  Chlorpromazine
+                 D00270  Chlorpromazine
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00867  Chlorpromazine
+                 D00270  Chlorpromazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00867  Chlorpromazine
+                D00270  Chlorpromazine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00867  Chlorpromazine
+                D00270  Chlorpromazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00270  Chlorpromazine (USP/INN)
+               Adrenaline
+                ADRA2
+                 D00270  Chlorpromazine (USP/INN)
+               Dopamine
+                DRD2
+                 D00270  Chlorpromazine (USP/INN)
+               Histamine
+                HRH1
+                 D00270  Chlorpromazine (USP/INN)
+               Serotonin
+                HTR2
+                 D00270  Chlorpromazine (USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00270
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00867  Chlorpromazine
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00867  Chlorpromazine
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00867  Chlorpromazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00867  Chlorpromazine
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00867  Chlorpromazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00867  Chlorpromazine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00867  Chlorpromazine
+DBLINKS     CAS: 50-53-3
+            PubChem: 7847336
+            ChEBI: 3647
+            PDB-CCD: Z80
+            LigandBox: D00270
+            NIKKAJI: J2.794D
+ATOM        21
+            1   C8x C     3.4300  -16.7300
+            2   C8x C     3.4300  -18.1300
+            3   C8x C     4.6424  -18.8300
+            4   C8y C     5.8549  -18.1300
+            5   C8y C     5.8549  -16.7300
+            6   C8x C     4.6424  -16.0300
+            7   S2x S     7.0673  -18.8300
+            8   C8y C     8.2797  -18.1300
+            9   C8y C     8.2797  -16.7300
+            10  N4y N     7.0673  -16.0300
+            11  C8x C     9.4922  -18.8300
+            12  C8x C    10.7046  -18.1300
+            13  C8y C    10.7046  -16.7300
+            14  C8x C     9.4922  -16.0300
+            15  C1b C     7.0673  -14.6300
+            16  C1b C     8.2818  -13.9288
+            17  C1b C     9.4783  -14.6198
+            18  N1c N    10.6651  -13.9346
+            19  C1a C    11.8566  -14.6228
+            20  C1a C    10.6653  -12.5302
+            21  X   Cl   11.9211  -16.0277
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   10  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   18  20 1
+            23   13  21 1
+///

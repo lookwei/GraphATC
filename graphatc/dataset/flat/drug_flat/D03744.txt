@@ -1,0 +1,59 @@
+ENTRY       D03744                      Drug
+NAME        Dextromethorphan polistirex (USAN);
+            Delsym (TN)
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: R05DA09
+            Chemical structure group: DG01078
+            Product (DG01078): D00848<JP>
+            Product (mixture): D11647<US>
+EFFICACY    Antitussive
+COMMENT     Opium alkaloid, morphinan, nonnarcotic
+TARGET      SIGMAR1 [HSA:10280] [KO:K20719]
+            GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07235  N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA09 Dextromethorphan
+                  D03744  Dextromethorphan polistirex (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG01078  Dextromethorphan
+                D03744  Dextromethorphan polistirex
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01078  Dextromethorphan
+                D03744  Dextromethorphan polistirex
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D03744  Dextromethorphan polistirex (USAN)
+             Transporters
+              Other transporters
+               Auxiliary transport proteins (TC:8.A)
+                SIGMAR1
+                 D03744  Dextromethorphan polistirex (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03744
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG01078  Dextromethorphan
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01078  Dextromethorphan
+DBLINKS     PubChem: 17397833
+///

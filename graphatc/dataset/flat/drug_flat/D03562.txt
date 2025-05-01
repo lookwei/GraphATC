@@ -1,0 +1,95 @@
+ENTRY       D03562                      Drug
+NAME        Clorazepate monopotassium (USAN)
+FORMULA     C16H10ClN2O3. K
+EXACT_MASS  352.0017
+MOL_WEIGHT  352.8135
+CLASS       Neuropsychiatric agent
+             DG01914  Anxiolytics, benzodiazepine derivatives
+REMARK      ATC code: N05BA05
+            Chemical structure group: DG01218
+            Product (DG01218): D00694<JP/US>
+EFFICACY    Minor tranquilizer
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA05 Potassium clorazepate
+                  D03562  Clorazepate monopotassium (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               DG01218  Clorazepic acid
+                D03562  Clorazepate monopotassium
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D03562  Clorazepate monopotassium (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               DG01218  Clorazepic acid
+DBLINKS     CAS: 5991-71-9
+            PubChem: 17397682
+            ChEBI: 59591
+            LigandBox: D03562
+            NIKKAJI: J8.329A
+ATOM        23
+            1   C2y C    23.6628  -14.2949
+            2   C8y C    22.8204  -13.1849
+            3   C8y C    23.1557  -11.8276
+            4   N1x N    24.4172  -11.2493
+            5   N2x N    25.0692  -14.2501
+            6   C5x C    25.6713  -11.8718
+            7   C1y C    25.9579  -13.2410
+            8   C8x C    22.1482  -10.8588
+            9   C8x C    20.8057  -11.2471
+            10  C8y C    20.4704  -12.6044
+            11  C8x C    21.4779  -13.5729
+            12  X   Cl   19.1051  -12.9989
+            13  C8y C    23.0281  -15.5451
+            14  C8x C    21.6259  -15.5451
+            15  C8x C    20.9257  -16.7581
+            16  C8x C    21.6259  -17.9710
+            17  C8x C    23.0281  -17.9710
+            18  C8x C    23.7284  -16.7581
+            19  C6a C    27.1709  -13.9413
+            20  O6a O    28.3838  -13.2410 #-
+            21  O5x O    26.7809  -11.0138
+            22  O6a O    27.1709  -15.3359
+            23  Z   K    29.8318  -13.3052 #+
+BOND        24
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13   10  12 1
+            14    1  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   13  18 2
+            21    7  19 1
+            22   19  20 1
+            23    6  21 2
+            24   19  22 2
+///

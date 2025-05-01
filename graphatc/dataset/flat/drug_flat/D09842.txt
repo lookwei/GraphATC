@@ -1,0 +1,105 @@
+ENTRY       D09842                      Drug
+NAME        dl-Methylephedrine saccharinate (JAN)
+FORMULA     C7H5NO3S. C11H17NO
+EXACT_MASS  362.13
+MOL_WEIGHT  362.4433
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01229
+            Product (DG01229): D02109<JP>
+EFFICACY    Bronchodilator, Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+            ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148+153+154+155)  Salivary secretion
+INTERACTION  
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Methylephedrine
+                D09842  dl-Methylephedrine saccharinate (JAN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Methylephedrine
+                D09842  dl-Methylephedrine saccharinate (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+                D09842  dl-Methylephedrine saccharinate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D09842  dl-Methylephedrine saccharinate (JAN)
+                ADRA2
+                 D09842  dl-Methylephedrine saccharinate (JAN)
+                ADRB
+                 D09842  dl-Methylephedrine saccharinate (JAN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Stimulants by Control Act Article 2 Appended Table and Cabinet Order
+              D09842
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+DBLINKS     PubChem: 124490581
+            LigandBox: D09842
+ATOM        25
+            1   C8y C    24.4300  -22.3300
+            2   C8y C    24.4300  -23.7300
+            3   S2x S    25.7600  -24.2200
+            4   N1x N    26.6000  -23.0300
+            5   C5x C    25.7600  -21.9100
+            6   C8x C    21.9800  -23.7300
+            7   C8x C    23.2400  -24.4300
+            8   C8x C    23.2400  -21.6300
+            9   C8x C    21.9800  -22.3300
+            10  O5x O    26.1100  -20.5800
+            11  O3c O    24.8500  -25.2700
+            12  O3c O    27.0900  -24.6400
+            13  C8x C    11.5500  -22.5400
+            14  C8x C    11.5500  -23.9400
+            15  C8x C    12.7624  -24.6400
+            16  C8x C    13.9749  -23.9400
+            17  C8y C    13.9749  -22.5400
+            18  C8x C    12.7624  -21.8400
+            19  C1c C    15.2060  -21.8290
+            20  C1c C    16.4112  -22.5247
+            21  O1a O    15.2057  -20.4401
+            22  N1c N    17.5935  -21.8419
+            23  C1a C    16.4116  -23.9396
+            24  C1a C    18.7875  -22.5312
+            25  C1a C    17.5935  -20.4402
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     6   7 2
+            5     7   2 1
+            6     1   8 1
+            7     8   9 2
+            8     9   6 1
+            9     4   5 1
+            10    5  10 2
+            11    5   1 1
+            12    3  11 2
+            13    3  12 2
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   13  18 1
+            20   17  19 1
+            21   19  20 1
+            22   19  21 1
+            23   20  22 1
+            24   20  23 1
+            25   22  24 1
+            26   22  25 1
+///

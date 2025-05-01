@@ -1,0 +1,150 @@
+ENTRY       D07654                      Drug
+NAME        Ceftazidime (INN);
+            CAZ;
+            Ceftazidime (TN);
+            Ceptaz (TN);
+            Fortaz (TN)
+FORMULA     C22H22N6O7S2
+EXACT_MASS  546.0991
+MOL_WEIGHT  546.5761
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01776  Third-generation cephalosporin
+             DG01804  Oxyimino beta-lactam
+REMARK      Same as: C06889
+            ATC code: J01DD02
+            Chemical structure group: DG00571
+            Product (DG00571): D00921<JP/US>
+            Product (mixture): D10779<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07012  Cephalosporins - parenteral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DD Third-generation cephalosporins
+                 J01DD02 Ceftazidime
+                  D07654  Ceftazidime (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00571  Ceftazidime
+                  D07654  Ceftazidime
+              DG01776  Third-generation cephalosporin
+               DG00571  Ceftazidime
+                D07654  Ceftazidime
+              DG01804  Oxyimino beta-lactam
+               DG00571  Ceftazidime
+                D07654  Ceftazidime
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                D07654  Ceftazidime (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00571  Ceftazidime
+              DG01776  Third-generation cephalosporin
+               DG00571  Ceftazidime
+              DG01804  Oxyimino beta-lactam
+               DG00571  Ceftazidime
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                DG00571  Ceftazidime
+DBLINKS     CAS: 72558-82-8
+            PubChem: 51091958
+            ChEBI: 3508
+            LigandBox: D07654
+            NIKKAJI: J117.701J
+ATOM        37
+            1   C1y C    25.0600  -18.6200
+            2   N1y N    25.0600  -20.0200
+            3   C2y C    26.2500  -20.7200
+            4   C2y C    27.4400  -20.0200
+            5   C1x C    27.4400  -18.6200
+            6   S2x S    26.2500  -17.9200
+            7   C1y C    23.6600  -18.6200
+            8   C5x C    23.6600  -20.0200
+            9   N1b N    22.4000  -17.9200
+            10  C5a C    21.2100  -18.6200
+            11  O5a O    21.2100  -20.0200
+            12  O5x O    22.4000  -20.7200
+            13  C2c C    20.0200  -17.9200
+            14  C1b C    28.7000  -20.7200
+            15  C8y C    18.7600  -18.6200
+            16  C8x C    17.7100  -17.7800
+            17  S2x S    16.5200  -18.5500
+            18  C8y C    16.9400  -19.9500
+            19  N5x N    18.3400  -19.9500
+            20  N2b N    20.0200  -16.5200
+            21  C6a C    26.2500  -22.1200
+            22  O6a O    27.4400  -22.8200 #-
+            23  O6a O    24.9900  -22.8200
+            24  N1a N    16.1000  -21.0700
+            25  N5y N    29.8900  -19.9500 #+
+            26  C8x C    31.0800  -20.6500
+            27  C8x C    32.2700  -19.9500
+            28  C8x C    32.2700  -18.5500
+            29  C8x C    31.0800  -17.8500
+            30  C8x C    29.8900  -18.5500
+            31  O2a O    21.2100  -15.8200
+            32  C1d C    21.2100  -14.4200
+            33  C1a C    21.2100  -13.0200
+            34  C6a C    22.6100  -14.4200
+            35  C1a C    19.8100  -14.4200
+            36  O6a O    23.3100  -15.6100
+            37  O6a O    23.3100  -13.2300
+BOND        40
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16   13  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 1
+            20   18  19 2
+            21   15  19 1
+            22   13  20 2
+            23    3  21 1
+            24   21  22 1
+            25   21  23 2
+            26   18  24 1
+            27   14  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   25  30 1
+            34   20  31 1
+            35   31  32 1
+            36   32  33 1
+            37   32  34 1
+            38   32  35 1
+            39   34  36 1
+            40   34  37 2
+///

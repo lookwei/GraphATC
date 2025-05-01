@@ -1,0 +1,96 @@
+ENTRY       D00412                      Drug
+NAME        Zalcitabine (JAN/USP/INN);
+            Hivid (TN)
+  ABBR      ddC
+FORMULA     C9H13N3O3
+EXACT_MASS  211.0957
+MOL_WEIGHT  211.2178
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG01440  Arabinofuranosyl type antiviral
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Transporter substrate
+             DG02859  SLC22A6 substrate
+REMARK      Same as: C07207
+            ATC code: J05AF03
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Transporter: SLC22A6 [HSA:9356]
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+            map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF03 Zalcitabine
+                  D00412  Zalcitabine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D00412  Zalcitabine
+              DG01440  Arabinofuranosyl type antiviral
+               D00412  Zalcitabine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D00412  Zalcitabine
+             Transporter substrate
+              DG02859  SLC22A6 substrate
+               D00412  Zalcitabine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00412  Zalcitabine (JAN/USP/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00412  Zalcitabine (JAN/USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D00412
+DBLINKS     CAS: 7481-89-2
+            PubChem: 7847478
+            ChEBI: 10101
+            LigandBox: D00412
+            NIKKAJI: J277.119E
+ATOM        15
+            1   C1x C    18.1827  -18.2480
+            2   C1y C    18.5900  -16.9111
+            3   O2x O    17.4593  -16.0809
+            4   C1y C    16.3457  -16.9339
+            5   C1x C    16.7800  -18.2622
+            6   N4y N    19.7751  -16.1976
+            7   C8y C    20.9746  -16.8869
+            8   N5x N    22.2298  -16.1727
+            9   C8y C    22.2156  -14.7700
+            10  C8x C    21.0162  -14.0808
+            11  C8x C    19.7609  -14.7950
+            12  O5x O    20.9888  -18.2895
+            13  N1a N    23.4007  -14.0565
+            14  C1b C    15.1463  -16.2446
+            15  O1a O    13.9611  -16.9581
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     2   6 1 #Up
+            7     6   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12    6  11 1
+            13    7  12 2
+            14    9  13 1
+            15    4  14 1 #Up
+            16   14  15 1
+///

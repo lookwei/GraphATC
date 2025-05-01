@@ -1,0 +1,80 @@
+ENTRY       D09645                      Drug
+NAME        Nelotanserin (USAN/INN)
+FORMULA     C18H15BrF2N4O2
+EXACT_MASS  436.0346
+MOL_WEIGHT  437.2381
+EFFICACY    Hypnotic
+COMMENT     Treatment of insomnia
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04020(3356)  Calcium signaling pathway
+            hsa04080(3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2A
+                 D09645  Nelotanserin (USAN/INN)
+DBLINKS     CAS: 839713-36-9
+            PubChem: 124490385
+            ChEBI: 177438
+            LigandBox: D09645
+ATOM        27
+            1   C8y C    15.8200  -24.5000
+            2   C8y C    15.8200  -23.1000
+            3   C8x C    14.6076  -22.4000
+            4   C8x C    13.3951  -23.1000
+            5   C8y C    13.3951  -24.5000
+            6   C8x C    14.6076  -25.2000
+            7   N1b N    17.0324  -22.4000
+            8   C5a C    18.2279  -23.0904
+            9   N1b N    19.4153  -22.4049
+            10  O5a O    18.2280  -24.4997
+            11  C8y C    20.6065  -23.0929
+            12  C8x C    20.6065  -24.4998
+            13  C8x C    21.8189  -25.1998
+            14  C8y C    23.0313  -24.4998
+            15  C8y C    23.0314  -23.0930
+            16  C8x C    21.8190  -22.3929
+            17  C8y C    24.2398  -22.3954
+            18  C8y C    25.5038  -22.9584
+            19  C8x C    26.4299  -21.9302
+            20  N5x N    25.7382  -20.7318
+            21  N4y N    24.3846  -21.0193
+            22  C1a C    23.3212  -20.0614
+            23  X   Br   25.7939  -24.3244
+            24  O2a O    24.2428  -25.1994
+            25  C1a C    24.2428  -26.5994
+            26  X   F    17.0324  -25.2000
+            27  X   F    12.1640  -25.2110
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    8  10 2
+            11    9  11 1
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   11  16 2
+            18   15  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   17  21 1
+            24   21  22 1
+            25   18  23 1
+            26   14  24 1
+            27   24  25 1
+            28    1  26 1
+            29    5  27 1
+///

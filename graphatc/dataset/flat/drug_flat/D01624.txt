@@ -1,0 +1,165 @@
+ENTRY       D01624                      Drug
+NAME        Sarpogrelate hydrochloride (JP18);
+            Anplag (TN)
+FORMULA     C24H31NO6. HCl
+EXACT_MASS  465.1918
+MOL_WEIGHT  465.967
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG02919  CYP2B6 substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 3399
+            Chemical structure group: DG01333
+            Product (DG01333): D01624<JP>
+EFFICACY    Anticoagulant, Platelet aggregation inhibitor, Serotonin 5-HT2 receptor antagonist
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04080(3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544], CYP2B6 [HSA:1555], CYP2C9 [HSA:1559], CYP2C19 [HSA:1557], CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07049  Antithrombosis agents
+            map07211  Serotonin receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              33  Blood and body fluid agents
+               339  Miscellaneous
+                3399  Others
+                 D01624  Sarpogrelate hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01333  Sarpogrelate
+                 D01624  Sarpogrelate hydrochloride
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01333  Sarpogrelate
+                D01624  Sarpogrelate hydrochloride
+              DG02919  CYP2B6 substrate
+               DG01333  Sarpogrelate
+                D01624  Sarpogrelate hydrochloride
+              DG01642  CYP2C9 substrate
+               DG01333  Sarpogrelate
+                D01624  Sarpogrelate hydrochloride
+              DG01639  CYP2C19 substrate
+               DG01333  Sarpogrelate
+                D01624  Sarpogrelate hydrochloride
+              DG01644  CYP2D6 substrate
+               DG01333  Sarpogrelate
+                D01624  Sarpogrelate hydrochloride
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01333  Sarpogrelate
+                 D01624  Sarpogrelate hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2A
+                 D01624  Sarpogrelate hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01624  Sarpogrelate hydrochloride
+              D01624  Sarpogrelate hydrochloride tablets
+              D01624  Sarpogrelate hydrochloride fine granules
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01624
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01333  Sarpogrelate
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01333  Sarpogrelate
+              DG02919  CYP2B6 substrate
+               DG01333  Sarpogrelate
+              DG01642  CYP2C9 substrate
+               DG01333  Sarpogrelate
+              DG01639  CYP2C19 substrate
+               DG01333  Sarpogrelate
+              DG01644  CYP2D6 substrate
+               DG01333  Sarpogrelate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01333  Sarpogrelate
+DBLINKS     CAS: 135159-51-2
+            PubChem: 7848687
+            ChEBI: 32122
+            LigandBox: D01624
+            NIKKAJI: J550.747B
+ATOM        32
+            1   C8y C    20.8521  -17.4758
+            2   O2a O    22.0660  -16.7720
+            3   C8x C    19.6381  -16.7780
+            4   C8y C    20.8521  -18.8773
+            5   C1b C    23.2740  -17.4758
+            6   C8x C    18.4301  -17.4758
+            7   C8x C    19.6441  -19.5753
+            8   C1c C    24.4879  -16.7720
+            9   C8x C    18.4301  -18.8773
+            10  O7a O    25.7019  -17.4758
+            11  C1b C    24.4879  -15.3705
+            12  C7a C    26.9100  -16.7720
+            13  C1b C    28.1240  -17.4758
+            14  C1b C    29.3380  -16.7720
+            15  C6a C    30.5460  -17.4758
+            16  O6a O    31.7599  -16.7720
+            17  O6a O    26.9087  -15.3689
+            18  O6a O    30.5446  -18.8789
+            19  C1b C    22.0614  -19.5687
+            20  C1b C    23.2732  -18.8671
+            21  C8y C    24.4848  -19.5615
+            22  C8x C    24.4893  -20.9581
+            23  C8x C    25.7010  -21.6527
+            24  C8x C    26.9083  -20.9505
+            25  C8y C    26.9039  -19.5539
+            26  C8x C    25.6922  -18.8595
+            27  O2a O    28.1167  -18.8484
+            28  C1a C    29.3341  -19.5460
+            29  N1c N    23.2730  -14.6689
+            30  C1a C    23.2730  -13.2659
+            31  C1a C    22.0579  -15.3705
+            32  X   Cl   33.1159  -19.4624
+BOND        32
+            1    15  16 1
+            2     7   9 1
+            3    12  17 2
+            4    15  18 2
+            5     1   2 1
+            6     4  19 1
+            7     1   3 2
+            8    19  20 1
+            9     1   4 1
+            10   20  21 1
+            11    2   5 1
+            12    3   6 1
+            13    4   7 2
+            14    5   8 1
+            15    6   9 2
+            16   21  22 2
+            17   22  23 1
+            18   23  24 2
+            19   24  25 1
+            20   25  26 2
+            21   26  21 1
+            22    8  10 1
+            23   25  27 1
+            24    8  11 1
+            25   27  28 1
+            26   10  12 1
+            27   11  29 1
+            28   12  13 1
+            29   29  30 1
+            30   13  14 1
+            31   29  31 1
+            32   14  15 1
+///

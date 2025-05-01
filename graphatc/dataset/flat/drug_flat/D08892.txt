@@ -1,0 +1,126 @@
+ENTRY       D08892                      Drug
+NAME        Clevidipine (USAN/INN);
+            Clevidipine butyrate;
+            Cleviprex (TN)
+PRODUCT     CLEVIPREX (Chiesi USA)
+            CLEVIPREX (Fresenius Kabi Austria GmbH)
+FORMULA     C21H23Cl2NO6
+EXACT_MASS  455.0902
+MOL_WEIGHT  456.3164
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+REMARK      ATC code: C08CA16
+            Product: D08892<US>
+EFFICACY    Antihypertensive, Calcium channel blocker
+  DISEASE   High blood pressure [DS:H01633]
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA16 Clevidipine
+                  D08892  Clevidipine (USAN/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                D08892  Clevidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D08892  Clevidipine
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01928  Dihydropyridine calcium channel blocker
+               D08892  Clevidipine
+              DG03231  Antihypertensive
+               D08892  Clevidipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D08892  Clevidipine (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D08892
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D08892
+DBLINKS     CAS: 167221-71-8
+            PubChem: 96025575
+            LigandBox: D08892
+            NIKKAJI: J772.200A
+ATOM        30
+            1   C2y C    22.3404  -13.2197
+            2   C2y C    22.3404  -14.6377
+            3   C1y C    23.5685  -15.3468
+            4   C2y C    24.7966  -14.6377
+            5   C2y C    24.7966  -13.2197
+            6   N1x N    23.5685  -12.5106
+            7   C1a C    26.0436  -12.4995
+            8   C1a C    21.1124  -12.5106
+            9   C7a C    26.0501  -15.3468
+            10  O7a O    27.2783  -14.6377
+            11  C1b C    28.5063  -15.3468
+            12  O7a O    29.7344  -14.6377
+            13  C7a C    30.9625  -15.3468
+            14  C1b C    32.1906  -14.6377
+            15  C1b C    33.4186  -15.3468
+            16  C1a C    34.6468  -14.6377
+            17  C7a C    21.1124  -15.3468
+            18  O7a O    19.9015  -14.6475
+            19  O6a O    21.1123  -16.7646
+            20  O6a O    26.0564  -16.4100
+            21  O6a O    30.9625  -16.7645
+            22  C1a C    18.6987  -15.3418
+            23  C8y C    23.5685  -16.7646
+            24  C8x C    22.3234  -17.4836
+            25  C8x C    22.3235  -18.9017
+            26  C8x C    23.5517  -19.6106
+            27  C8y C    24.7967  -18.8916
+            28  C8y C    24.7966  -17.4736
+            29  X   Cl   26.0438  -19.6117
+            30  X   Cl   25.9537  -17.4611
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     1   8 1
+            9     4   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17    2  17 1
+            18   17  18 1
+            19   17  19 2
+            20    9  20 2
+            21   13  21 2
+            22   18  22 1
+            23    3  23 1
+            24   23  24 2
+            25   24  25 1
+            26   25  26 2
+            27   26  27 1
+            28   27  28 2
+            29   23  28 1
+            30   27  29 1
+            31   28  30 1
+///

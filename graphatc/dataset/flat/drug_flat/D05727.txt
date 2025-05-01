@@ -1,0 +1,99 @@
+ENTRY       D05727                      Drug
+NAME        Ridogrel (USAN/INN)
+FORMULA     C18H17F3N2O3
+EXACT_MASS  366.1191
+MOL_WEIGHT  366.3344
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+               DG01516  Thromboxane A2 synthase inhibitor
+            Anti-allergic agent
+             DG01517  Thromboxane A2 receptor antagonist
+EFFICACY    Antithrombotic, Thromboxane A2 (TXA2) receptor antagonist, Thromboxane synthetase inhibitor
+TARGET      TBXA2R [HSA:6915] [KO:K04264]
+            TBXAS1 (CYP5A1) [HSA:6916] [KO:K01832]
+  PATHWAY   hsa00590(6916)  Arachidonic acid metabolism
+            hsa04020(6915)  Calcium signaling pathway
+            hsa04080(6915)  Neuroactive ligand-receptor interaction
+            hsa04611(6915+6916)  Platelet activation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01516  Thromboxane A2 synthase inhibitor
+                 D05727  Ridogrel
+             Anti-allergic agent
+              DG01517  Thromboxane A2 receptor antagonist
+               D05727  Ridogrel
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thromboxane
+                TBXA2R
+                 D05727  Ridogrel (USAN/INN)
+             Enzymes
+              Isomerases (EC5)
+               Thromboxane-A synthase
+                TBXAS1 (CYP5A1)
+                 D05727  Ridogrel (USAN/INN)
+DBLINKS     CAS: 110140-89-1
+            PubChem: 47207388
+            LigandBox: D05727
+            NIKKAJI: J388.277B
+ATOM        26
+            1   N5x N    28.4358  -35.0758
+            2   C8x C    28.4358  -36.4811
+            3   C8x C    29.6528  -37.1837
+            4   C8x C    30.8698  -36.4811
+            5   C8y C    30.8698  -35.0758
+            6   C8x C    29.6528  -34.3732
+            7   C8x C    33.3037  -36.4811
+            8   C8y C    33.3037  -35.0758
+            9   C2c C    32.0868  -34.3732
+            10  C8y C    34.5208  -37.1837
+            11  C8x C    35.7378  -36.4811
+            12  C8x C    35.7378  -35.0758
+            13  C8x C    34.5208  -34.3732
+            14  N2b N    32.0868  -32.9679
+            15  O2a O    33.3058  -32.2641
+            16  C1b C    34.5068  -32.9577
+            17  C1b C    35.6981  -32.2699
+            18  C1b C    36.8941  -32.9607
+            19  C1b C    38.0880  -32.2714
+            20  C6a C    39.2826  -32.9614
+            21  O6a O    40.4771  -32.2718
+            22  O6a O    39.2825  -34.3730
+            23  C1d C    34.5207  -38.5700
+            24  X   F    33.1207  -38.5700
+            25  X   F    35.9207  -38.5700
+            26  X   F    34.5207  -39.9700
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 2
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   20  22 2
+            24   10  23 1
+            25   23  24 1
+            26   23  25 1
+            27   23  26 1
+///

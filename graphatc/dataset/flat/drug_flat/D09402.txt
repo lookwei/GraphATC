@@ -1,0 +1,88 @@
+ENTRY       D09402                      Drug
+NAME        Darotropium bromide (USAN/INN)
+FORMULA     C24H29N2. Br
+EXACT_MASS  424.1514
+MOL_WEIGHT  425.4045
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+EFFICACY    Bronchodilator, Muscarinic acetylcholine receptor antagonist
+COMMENT     long-acting muscarinic acetylcholine antagonist (LAMA)
+            Atropine [CPD:C01479] derivative
+            Treatment of COPD
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D09402  Darotropium bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D09402  Darotropium bromide (USAN/INN)
+DBLINKS     CAS: 850607-58-8
+            PubChem: 96026082
+            LigandBox: D09402
+ATOM        27
+            1   C1x C    18.7600  -23.7300
+            2   C1x C    19.1100  -22.5400
+            3   C1y C    19.9500  -23.4500
+            4   C1y C    20.3000  -22.2600
+            5   N2y N    19.0400  -20.9300 #+
+            6   C1x C    21.8400  -23.4500
+            7   C1x C    21.5600  -22.2600
+            8   C1y C    22.8900  -24.0100
+            9   C1b C    23.9400  -24.8500
+            10  C1a C    18.2700  -19.7400
+            11  C1a C    17.7800  -21.5600
+            12  C1d C    25.0340  -24.1305
+            13  C8y C    26.3837  -24.7731
+            14  C8y C    25.0942  -22.7540
+            15  C3b C    26.2517  -23.4153
+            16  C8x C    26.3105  -22.1205
+            17  C8x C    26.3013  -20.7218
+            18  C8x C    25.1904  -19.9699
+            19  C8x C    23.9741  -20.6034
+            20  C8x C    23.9133  -22.0020
+            21  C8x C    26.3955  -26.1780
+            22  C8x C    27.6466  -26.8063
+            23  C8x C    28.8163  -26.0369
+            24  C8x C    28.8744  -24.7021
+            25  C8x C    27.4833  -24.0038
+            26  N3a N    27.4642  -22.7153
+            27  X   Br   20.7200  -19.3900 #-
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     8   9 1 #Down
+            9     4   5 1
+            10    7   8 1
+            11    5  10 1
+            12    5  11 1
+            13    9  12 1
+            14   12  13 1
+            15   12  14 1
+            16   12  15 1
+            17   14  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   14  20 1
+            23   13  21 2
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   13  25 1
+            29   15  26 3
+///

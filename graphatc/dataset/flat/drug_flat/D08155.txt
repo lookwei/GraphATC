@@ -1,0 +1,171 @@
+ENTRY       D08155                      Drug
+NAME        Manidipine (INN);
+            Manidipine 6300;
+            Artedil (TN)
+FORMULA     C35H38N4O6
+EXACT_MASS  610.2791
+MOL_WEIGHT  610.6994
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: C08CA11
+            Chemical structure group: DG00324
+            Product (DG00324): D01553<JP>
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA11 Manidipine
+                  D08155  Manidipine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00324  Manidipine
+                 D08155  Manidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00324  Manidipine
+                 D08155  Manidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00324  Manidipine
+                 D08155  Manidipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D08155  Manidipine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08155
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00324  Manidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00324  Manidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00324  Manidipine
+DBLINKS     CAS: 120092-68-4
+            PubChem: 96024845
+            LigandBox: D08155
+ATOM        45
+            1   C8x C    18.1300  -19.6700
+            2   C8x C    18.1300  -18.2700
+            3   C8y C    19.3900  -17.5700
+            4   C8x C    20.5800  -18.2700
+            5   C8y C    20.5800  -19.6700
+            6   C8x C    19.3900  -20.3700
+            7   C1y C    19.3900  -16.1700
+            8   C2y C    18.1300  -15.4700
+            9   C2y C    18.1300  -14.0700
+            10  N1x N    19.3900  -13.3700
+            11  C2y C    20.5800  -14.0700
+            12  C2y C    20.5800  -15.4700
+            13  C7a C    21.7700  -16.1700
+            14  O7a O    23.0300  -15.4700
+            15  C1b C    24.2200  -16.1700
+            16  C1b C    25.4100  -15.4700
+            17  N1y N    26.6700  -16.1700
+            18  C1x C    27.8600  -15.4700
+            19  C1x C    29.0500  -16.1700
+            20  N1y N    29.0500  -17.5700
+            21  C1x C    27.8600  -18.2700
+            22  C1x C    26.6700  -17.5700
+            23  O6a O    21.7700  -17.5700
+            24  C1c C    30.3100  -18.2700
+            25  C8y C    31.5000  -17.5700
+            26  C8y C    30.3100  -19.6700
+            27  C8x C    31.5000  -20.3700
+            28  C8x C    31.5000  -21.7700
+            29  C8x C    30.2400  -22.4700
+            30  C8x C    29.0500  -21.7700
+            31  C8x C    29.0500  -20.3700
+            32  C8x C    31.5000  -16.1700
+            33  C8x C    32.6900  -15.4700
+            34  C8x C    33.8800  -16.1700
+            35  C8x C    33.8800  -17.5700
+            36  C8x C    32.6900  -18.2700
+            37  C1a C    21.7700  -13.3700
+            38  C1a C    16.9400  -13.3700
+            39  C7a C    16.9400  -16.1700
+            40  O6a O    16.9400  -17.5700
+            41  O7a O    15.7500  -15.4700
+            42  C1a C    14.4900  -16.1700
+            43  N2b N    21.7700  -20.3700 #+
+            44  O3a O    23.0300  -19.6700
+            45  O3a O    21.7700  -21.7700 #-
+BOND        49
+            1    21  22 1
+            2    22  17 1
+            3     7   8 1
+            4    13  23 2
+            5     8   9 2
+            6    20  24 1
+            7     9  10 1
+            8    24  25 1
+            9    10  11 1
+            10   24  26 1
+            11   11  12 2
+            12   12   7 1
+            13    4   5 1
+            14   12  13 1
+            15    5   6 2
+            16   26  27 2
+            17   27  28 1
+            18   28  29 2
+            19   29  30 1
+            20   30  31 2
+            21   31  26 1
+            22   13  14 1
+            23    6   1 1
+            24   14  15 1
+            25   15  16 1
+            26   25  32 2
+            27   32  33 1
+            28   33  34 2
+            29   34  35 1
+            30   35  36 2
+            31   36  25 1
+            32    3   7 1
+            33   11  37 1
+            34   16  17 1
+            35    9  38 1
+            36    8  39 1
+            37   39  40 2
+            38    1   2 2
+            39   39  41 1
+            40    2   3 1
+            41   41  42 1
+            42    3   4 2
+            43    5  43 1
+            44   17  18 1
+            45   43  44 2
+            46   18  19 1
+            47   43  45 1
+            48   19  20 1
+            49   20  21 1
+///

@@ -1,0 +1,95 @@
+ENTRY       C01953                      Compound
+NAME        Pregnenolone;
+            5-Pregnen-3beta-ol-20-one;
+            3beta-Hydroxypregn-5-en-20-one
+FORMULA     C21H32O2
+EXACT_MASS  316.2402
+MOL_WEIGHT  316.4776
+REMARK      Same as: D00143
+REACTION    R02216 R02724 R03783 R03784 R03933 R08942 R08943 R08978
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04913  Ovarian steroidogenesis
+            map04925  Aldosterone synthesis and secretion
+            map04927  Cortisol synthesis and secretion
+            map04934  Cushing syndrome
+MODULE      M00107  Steroid hormone biosynthesis, cholesterol => pregnenolone => progesterone
+            M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+NETWORK     nt06019  Steroid hormone biosynthesis
+ENZYME      1.1.1.145       1.14.14.16      1.14.14.19      1.14.14.29      
+            1.14.15.6       2.8.2.2         2.8.2.14        3.1.6.2         
+            5.3.3.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              21-Carbon atoms
+               Pregnane derivatives
+                C01953  Pregnenolone
+             Hormones and transmitters
+              Steroid hormones
+               Progestagens
+                C01953  Pregnenolone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C01953  Pregnenolone
+DBLINKS     CAS: 145-13-1
+            PubChem: 5056
+            ChEBI: 16581
+            LIPIDMAPS: LMST02030088
+            KNApSAcK: C00047082 C00049664
+            PDB-CCD: PLO
+            3DMET: B04827
+            NIKKAJI: J11.381F
+ATOM        23
+            1   C1y C    22.9049  -19.0687
+            2   C1y C    24.0801  -19.7482
+            3   C1z C    21.7419  -19.7542
+            4   C1x C    22.8926  -17.7100
+            5   C1y C    25.2613  -19.0565
+            6   C1x C    24.0923  -21.1070
+            7   C2y C    21.7419  -21.1007
+            8   C1x C    20.5729  -19.0932
+            9   C1x C    24.0739  -17.0183
+            10  C1z C    25.2676  -17.6978
+            11  C1x C    27.6237  -19.0687
+            12  C2x C    22.9170  -21.7803
+            13  C1x C    20.5729  -21.7803
+            14  C1x C    19.4161  -19.7542
+            15  C1y C    26.4488  -17.0123
+            16  C1x C    27.6300  -17.7038
+            17  C1y C    19.4161  -21.1007
+            18  C5a C    26.4488  -15.6413
+            19  O1a O    18.2654  -21.7619
+            20  C1a C    25.2981  -14.8330
+            21  O5a O    27.6056  -14.8330
+            22  C1a C    21.7419  -18.3492
+            23  C1a C    25.2676  -16.2928
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 1
+            14   10  15 1
+            15   11  16 1
+            16   13  17 1
+            17   15  18 1
+            18   17  19 1 #Up
+            19   18  20 1
+            20   18  21 2
+            21    7  12 2
+            22    9  10 1
+            23   14  17 1
+            24   15  16 1
+            25    3  22 1 #Up
+            26   10  23 1 #Up
+///

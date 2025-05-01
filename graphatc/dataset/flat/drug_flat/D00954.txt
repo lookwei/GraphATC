@@ -1,0 +1,91 @@
+ENTRY       D00954                      Drug
+NAME        Norgestrel (JP18/USP/INN);
+            Ovrette (TN)
+FORMULA     C21H28O2
+EXACT_MASS  312.2089
+MOL_WEIGHT  312.4458
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C08153
+            Product (mixture): D04463<JP/US>
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D00954  Norgestrel
+              DG01666  Progesterone receptor agonist
+               D00954  Norgestrel
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D00954  Norgestrel (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00954  Norgestrel
+DBLINKS     CAS: 6533-00-2
+            PubChem: 7848017
+            ChEBI: 6443 7630
+            PDB-CCD: NOG
+            LigandBox: D00954
+            NIKKAJI: J369.045H J448.987J
+ATOM        23
+            1   C1z C    26.8454  -15.9774
+            2   C1y C    26.8978  -17.3426
+            3   C1z C    28.0297  -15.3006
+            4   C1x C    25.6667  -15.2830
+            5   C1b C    26.8337  -14.6121
+            6   C1y C    25.6434  -18.0194
+            7   C1x C    29.1908  -17.3658
+            8   C1x C    29.2082  -16.0006
+            9   C3b C    29.2082  -14.6179
+            10  O1a O    28.0472  -13.7311
+            11  C1x C    24.4066  -15.9598
+            12  C1a C    25.6434  -13.9237
+            13  C1y C    24.4649  -17.3250
+            14  C1x C    25.6434  -19.3845
+            15  C3a C    30.3809  -13.9237
+            16  C1y C    23.2746  -18.0078
+            17  C1x C    24.4532  -20.0615
+            18  C2y C    23.2688  -19.3730
+            19  C1x C    22.1019  -17.3193
+            20  C2x C    22.1019  -20.0556
+            21  C1x C    20.9058  -18.0078
+            22  C5x C    20.9058  -19.3730
+            23  O5x O    19.7157  -20.0498
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1 #Down
+            9     3  10 1 #Up
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    6  14 1
+            14    9  15 3
+            15   13  16 1
+            16   14  17 1
+            17   16  18 1
+            18   16  19 1
+            19   18  20 2
+            20   19  21 1
+            21   20  22 1
+            22   22  23 2
+            23    7   8 1
+            24   11  13 1
+            25   17  18 1
+            26   21  22 1
+///

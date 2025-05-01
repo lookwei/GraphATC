@@ -1,0 +1,112 @@
+ENTRY       D03471                      Drug
+NAME        Chlorothiazide sodium (USP);
+            Diuril (TN)
+PRODUCT     SODIUM DIURIL (Akorn)
+  GENERIC   CHLOROTHIAZIDE (Fresenius Kabi USA)
+            CHLOROTHIAZIDE (Fresenius Kabi USA)
+            CHLOROTHIAZIDE (Fresenius Kabi USA)
+            CHLOROTHIAZIDE SODIUM (Akorn)
+            CHLOROTHIAZIDE SODIUM (American Regent)
+            CHLOROTHIAZIDE SODIUM (Sagent Pharmaceuticals)
+            CHLOROTHIAZIDE SODIUM (Sagent Pharmaceuticals)
+            CHLOROTHIAZIDE SODIUM (Sun Pharmaceutical Industries)
+FORMULA     C7H5ClN3O4S2. Na
+EXACT_MASS  316.9308
+MOL_WEIGHT  317.7051
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01749  Thiazide diuretic
+             DG01690  Sulfonamide diuretic
+              DG01749  Thiazide diuretic
+REMARK      ATC code: C03AA04
+            Chemical structure group: DG00268
+            Product (DG00268): D00519<US> D03471<US>
+EFFICACY    Antihypertensive, Diuretic
+  DISEASE   Nephrotic syndrome [DS:H01657]
+TARGET      SLC12A3 (TSC) [HSA:6559] [KO:K14426]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07055  Sulfonamide derivatives - overview
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03A LOW-CEILING DIURETICS, THIAZIDES
+                C03AA Thiazides, plain
+                 C03AA04 Chlorothiazide
+                  D03471  Chlorothiazide sodium (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Diuretics, Thiazide
+               Chlorothiazide
+                D03471  Chlorothiazide sodium (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+                 D03471  Chlorothiazide sodium
+              DG01690  Sulfonamide diuretic
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+                 D03471  Chlorothiazide sodium
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D03471  Chlorothiazide sodium
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A3 (TSC)
+                 D03471  Chlorothiazide sodium (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+              DG01690  Sulfonamide diuretic
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+DBLINKS     CAS: 7085-44-1
+            PubChem: 17397608
+            LigandBox: D03471
+            NIKKAJI: J8.891I
+ATOM        18
+            1   C8y C    19.8888  -15.0612
+            2   C8y C    19.8945  -16.4185
+            3   C8x C    21.0647  -14.3768
+            4   S2x S    18.7069  -14.3943
+            5   C8x C    21.0704  -17.0913
+            6   N5x N    18.7303  -17.1087
+            7   C8y C    22.2406  -15.0495
+            8   N4x N    17.5370  -15.0846 #-
+            9   O3c O    17.3848  -13.5811
+            10  O3c O    19.9297  -13.5577
+            11  C8y C    22.2464  -16.4068
+            12  C8x C    17.5487  -16.4418
+            13  S4a S    23.4165  -14.3651
+            14  X   Cl   23.4282  -17.0796
+            15  N1a N    24.6567  -13.5168
+            16  O3c O    24.5456  -15.3714
+            17  O3c O    22.3283  -13.3295
+            18  Z   Na   14.0700  -15.1900 #+
+BOND        18
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     4   9 2
+            9     4  10 2
+            10    5  11 2
+            11    6  12 2
+            12    7  13 1
+            13   11  14 1
+            14   13  15 1
+            15   13  16 2
+            16   13  17 2
+            17    7  11 1
+            18    8  12 1
+///

@@ -1,0 +1,79 @@
+ENTRY       D02560                      Drug
+NAME        Brofaromine (INN);
+            Consonar (TN)
+FORMULA     C14H16BrNO2
+EXACT_MASS  309.0364
+MOL_WEIGHT  310.1863
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01558  Monoamine oxidase A inhibitor
+EFFICACY    Antidepressant, Monoamine oxidase A (MAO-A) inhibitor
+TARGET      MAOA [HSA:4128] [KO:K00274]
+  PATHWAY   hsa00260(4128)  Glycine, serine and threonine metabolism
+            hsa00330(4128)  Arginine and proline metabolism
+            hsa00340(4128)  Histidine metabolism
+            hsa00350(4128)  Tyrosine metabolism
+            hsa00360(4128)  Phenylalanine metabolism
+            hsa00380(4128)  Tryptophan metabolism
+            hsa00982(4128)  Drug metabolism - cytochrome P450
+            hsa04726(4128)  Serotonergic synapse
+            hsa04728(4128)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07216  Catecholamine transferase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01558  Monoamine oxidase A inhibitor
+                D02560  Brofaromine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOA
+                 D02560  Brofaromine (INN)
+DBLINKS     CAS: 63638-91-5
+            PubChem: 17396731
+            LigandBox: D02560
+            NIKKAJI: J240.202E
+ATOM        18
+            1   C8y C    14.2800  -14.7700
+            2   C8y C    14.2800  -13.3700
+            3   C8y C    13.0676  -12.6700
+            4   C8x C    11.8551  -13.3700
+            5   C8y C    11.8551  -14.7700
+            6   C8x C    13.0676  -15.4700
+            7   C8x C    15.6115  -15.2026
+            8   C8y C    16.4344  -14.0700
+            9   O2x O    15.6115  -12.9374
+            10  X   Br   13.0676  -11.2702
+            11  O2a O    10.6240  -15.4810
+            12  C1a C     9.4188  -14.7853
+            13  C1y C    17.8500  -14.0700
+            14  C1x C    18.5500  -15.2824
+            15  C1x C    19.9500  -15.2824
+            16  N1x N    20.6500  -14.0700
+            17  C1x C    19.9500  -12.8576
+            18  C1x C    18.5500  -12.8576
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 2
+            9     8   9 1
+            10    2   9 1
+            11    3  10 1
+            12    5  11 1
+            13   11  12 1
+            14    8  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+///

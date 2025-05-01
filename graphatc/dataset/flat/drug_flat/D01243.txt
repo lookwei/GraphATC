@@ -1,0 +1,128 @@
+ENTRY       D01243                      Drug
+NAME        Prilocaine hydrochloride (USP);
+            Propitocaine hydrochloride (JAN);
+            Citanest (TN)
+PRODUCT
+  GENERIC   CITANEST PLAIN (Dentsply Pharmaceutical)
+FORMULA     C13H20N2O. HCl
+EXACT_MASS  256.1342
+MOL_WEIGHT  256.7716
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01573  Calcium channel T type blocker
+            Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01673  Amide type local anesthetic
+REMARK      ATC code: N01BB04
+            Chemical structure group: DG00803
+            Product (DG00803): D01243<US>
+            Product (mixture): D04817<JP> D04818<US>
+EFFICACY    Anesthetic (local)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01B ANESTHETICS, LOCAL
+                N01BB Amides
+                 N01BB04 Prilocaine
+                  D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Dental and Oral Agents
+              Prilocaine
+               D01243  Prilocaine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG00803  Prilocaine
+                 D01243  Prilocaine hydrochloride
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00803  Prilocaine
+                  D01243  Prilocaine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN2A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN3A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN4A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN5A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN8A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN9A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN10A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+                SCN11A
+                 D01243  Prilocaine hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG00803  Prilocaine
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00803  Prilocaine
+DBLINKS     CAS: 1786-81-8
+            PubChem: 7848306
+            ChEBI: 32053
+            LigandBox: D01243
+            NIKKAJI: J352.898G
+ATOM        17
+            1   C8x C    16.3943  -16.8618
+            2   C8x C    16.3943  -18.2644
+            3   C8y C    17.6119  -18.9657
+            4   C8y C    18.8224  -18.2644
+            5   C8x C    18.8224  -16.8618
+            6   C8x C    17.6119  -16.1605
+            7   N1b N    20.0283  -18.9585
+            8   C5a C    21.2396  -18.2572
+            9   C1c C    22.4509  -18.9515
+            10  N1b N    23.6622  -18.2503
+            11  C1b C    24.8736  -18.9444
+            12  C1b C    26.0849  -18.2431
+            13  C1a C    27.2962  -18.9373
+            14  C1a C    17.6685  -20.3682
+            15  C1a C    22.4438  -20.3541
+            16  O5a O    21.2325  -16.8546
+            17  X   Cl   31.3854  -19.1015
+BOND        16
+            1     7   8 1
+            2     1   2 2
+            3     8   9 1
+            4     2   3 1
+            5     9  10 1
+            6     3   4 2
+            7    10  11 1
+            8     4   5 1
+            9    11  12 1
+            10    5   6 2
+            11   12  13 1
+            12    6   1 1
+            13    3  14 1
+            14    9  15 1
+            15    4   7 1
+            16    8  16 2
+///

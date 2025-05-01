@@ -1,0 +1,58 @@
+ENTRY       D05441                      Drug
+NAME        Perfosfamide (USAN/INN);
+            Pergamid (TN)
+FORMULA     C7H15Cl2N2O4P
+EXACT_MASS  292.0146
+MOL_WEIGHT  293.0848
+CLASS       Antineoplastic
+             DG01677  Alkylating agent
+              DG01678  Nitrogen mustard analog
+               DG01720  Isophosphoramide mustard analog
+EFFICACY    Antineoplastic, Alkylating agent
+TARGET      DNA
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01677  Alkylating agent
+               DG01678  Nitrogen mustard analog
+                DG01720  Isophosphoramide mustard analog
+                 D05441  Perfosfamide
+DBLINKS     CAS: 62435-42-1
+            PubChem: 47207111
+            LigandBox: D05441
+            NIKKAJI: J561.971H
+ATOM        16
+            1   C1x C    23.3100  -25.6900
+            2   C1x C    22.0500  -25.0600
+            3   O2x O    22.0500  -23.6600
+            4   P1a P    23.2400  -22.8900
+            5   N1x N    24.5000  -23.5900
+            6   C1y C    24.5000  -24.9900
+            7   O2a O    25.7600  -25.6900
+            8   O3b O    22.0500  -22.1900
+            9   O1a O    26.9500  -24.9200
+            10  N1c N    23.2513  -21.4900
+            11  C1b C    24.4608  -20.8047
+            12  C1b C    22.0362  -20.7753
+            13  C1b C    25.6382  -21.4973
+            14  X   Cl   26.8455  -20.8131
+            15  C1b C    20.8224  -21.4631
+            16  X   Cl   19.6040  -20.7460
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     6   7 1 #Up
+            8     4   8 2
+            9     7   9 1
+            10    4  10 1 #Down
+            11   10  11 1
+            12   10  12 1
+            13   11  13 1
+            14   13  14 1
+            15   12  15 1
+            16   15  16 1
+///

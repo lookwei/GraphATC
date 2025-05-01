@@ -1,0 +1,187 @@
+ENTRY       C01457                      Compound
+NAME        Tylosin
+FORMULA     C46H77NO17
+EXACT_MASS  915.5192
+MOL_WEIGHT  916.1001
+SEQUENCE    0 Mtk  1 Mtd  2 Mtd  3 Man  4 Mte  5 Etk  6 Mtk  7 Man
+  GENE      0-2 tylG [UP:O33954]; 3 tylG [UP:O33955]; 4-5 tylG [UP:O33956];
+            6 tylG [UP:O33957]; 7 tylG [UP:O33958]
+  ORGANISM  Streptomyces fradiae
+  TYPE      PK
+REMARK      Same as: D02490
+REACTION    R02858
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01052  Type I polyketide structures
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00773  Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin
+ENZYME      2.1.1.101
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              Polyketides and nonribosomal peptides
+               Macrolides
+                C01457  Tylosin
+            Lipids [BR:br08002]
+             PK  Polyketides
+              PK04 Macrolides and lactone polyketides
+               C01457  Tylosin
+            Animal drugs in Japan [BR:br08331]
+             97  Agents against pathogenic micro-organisms and parasites (except biological products and disinfectants)
+              976  Antibiotic preparations
+               9762  Antibiotic preparations for peroral and feed additive use
+                C01457  Tylosin
+            Secondary metabolites in pathway maps [br08011.html]
+             Biosynthetic pathways and modules of secondary metabolites
+              C01457
+            Drug groups [BR:br08330(D02490)]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01876  16-Membered ring macrolide antibiotic
+                DG01436  Tylosin
+                 D02490  Tylosin
+            Antimicrobials [BR:br08307(D02490)]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                D02490  Tylosin (USP/INN)
+DBLINKS     CAS: 1401-69-0
+            PubChem: 4634
+            ChEBI: 17658
+            LIPIDMAPS: LMPK04000004
+            PDB-CCD: TYK
+            3DMET: B01453
+            NIKKAJI: J58.426F
+ATOM        64
+            1   C1y C    25.2324  -20.4332
+            2   C1y C    26.3894  -21.1065
+            3   O2a O    24.0878  -21.1065
+            4   C1y C    25.2324  -19.1049
+            5   C1y C    27.5523  -20.4332
+            6   N1c N    26.3894  -22.4348
+            7   C1y C    22.9370  -21.7675
+            8   O2x O    26.3894  -18.4438
+            9   C1a C    24.0940  -18.4438
+            10  C1y C    27.5523  -19.1049
+            11  O1a O    28.7030  -21.1065
+            12  C1a C    27.5400  -23.1020
+            13  C1a C    25.2386  -23.1020
+            14  C1x C    22.9370  -23.0958
+            15  O2x O    21.7742  -21.1065
+            16  O2a O    29.2356  -16.7553
+            17  C1z C    21.7742  -23.7691
+            18  C1y C    20.6172  -21.7675
+            19  C1y C    26.9585  -14.6497
+            20  C1y C    20.6172  -23.0958
+            21  C1a C    20.8744  -25.0424
+            22  O1a O    22.7045  -25.2076
+            23  C1a C    19.4786  -21.1065
+            24  C1y C    26.9525  -13.2846
+            25  C1y C    25.7834  -15.3414
+            26  O1a O    19.4786  -23.7691
+            27  C1x C    25.7649  -12.6175
+            28  C1b C    28.0970  -12.6113
+            29  C1y C    25.7894  -16.7063
+            30  C1a C    24.6266  -14.6864
+            31  C1y C    25.7649  -11.2708
+            32  C4a C    29.2538  -13.2663
+            33  C1x C    24.6021  -17.3918
+            34  O1a O    26.9464  -17.3735
+            35  C5x C    24.5958  -10.6097
+            36  C1a C    26.9157  -10.6037
+            37  O4a O    30.4046  -12.5930
+            38  C7x C    23.3961  -16.7247
+            39  C2x C    23.4451  -11.2708
+            40  O5x O    24.5958   -9.2754
+            41  O7x O    22.1842  -17.3858
+            42  O6a O    23.3961  -15.3964
+            43  C2x C    23.4451  -12.6175
+            44  C1y C    20.9967  -16.6695
+            45  C2y C    22.2700  -13.2846
+            46  C1y C    20.9784  -15.2617
+            47  C1b C    19.8276  -17.3061
+            48  C2x C    22.2515  -14.6312
+            49  C1a C    21.1252  -12.6053
+            50  C1b C    19.9071  -14.5946
+            51  C1a C    19.7909  -18.6406
+            52  O2a O    18.7258  -15.2312
+            53  C1y C    17.5750  -14.5639
+            54  C1y C    17.5750  -13.2356
+            55  O2x O    16.4122  -15.2312
+            56  C1y C    16.4122  -12.5623
+            57  O2a O    18.7258  -12.5623
+            58  C1y C    15.2552  -14.5639
+            59  C1y C    15.2552  -13.2356
+            60  O2a O    16.4122  -11.2342
+            61  C1a C    18.7443  -10.9525
+            62  C1a C    14.1168  -15.2250
+            63  O1a O    14.1168  -12.5623
+            64  C1a C    15.2614  -10.5670
+BOND        67
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     7   3 1 #Up
+            7     4   8 1
+            8     4   9 1 #Up
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1
+            15   10  16 1 #Up
+            16   14  17 1
+            17   15  18 1
+            18   19  16 1 #Down
+            19   17  20 1
+            20   17  21 1 #Down
+            21   17  22 1 #Up
+            22   18  23 1 #Down
+            23   19  24 1
+            24   19  25 1
+            25   20  26 1 #Up
+            26   24  27 1
+            27   24  28 1 #Down
+            28   25  29 1
+            29   25  30 1 #Down
+            30   27  31 1
+            31   28  32 1
+            32   29  33 1
+            33   29  34 1 #Down
+            34   31  35 1
+            35   31  36 1 #Down
+            36   32  37 2
+            37   33  38 1
+            38   35  39 1
+            39   35  40 2
+            40   38  41 1
+            41   38  42 2
+            42   39  43 2
+            43   41  44 1
+            44   43  45 1
+            45   44  46 1
+            46   44  47 1 #Down
+            47   45  48 2
+            48   45  49 1
+            49   46  50 1 #Up
+            50   47  51 1
+            51   50  52 1
+            52   53  52 1 #Down
+            53   53  54 1
+            54   53  55 1
+            55   54  56 1
+            56   54  57 1 #Up
+            57   55  58 1
+            58   56  59 1
+            59   56  60 1 #Up
+            60   57  61 1
+            61   58  62 1 #Down
+            62   59  63 1 #Up
+            63   60  64 1
+            64    8  10 1
+            65   18  20 1
+            66   46  48 1
+            67   58  59 1
+///

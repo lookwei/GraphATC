@@ -1,0 +1,67 @@
+ENTRY       D07239                      Drug
+NAME        Sulfathiourea (INN);
+            Sulphathiourea
+FORMULA     C7H9N3O2S2
+EXACT_MASS  231.0136
+MOL_WEIGHT  231.2953
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01784  Short-acting sulfonamide
+REMARK      ATC code: J01EB08
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EB Short-acting sulfonamides
+                 J01EB08 Sulfathiourea
+                  D07239  Sulfathiourea (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                D07239  Sulfathiourea
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Short-acting sulfonamide
+                D07239  Sulfathiourea (INN)
+DBLINKS     CAS: 515-49-1
+            PubChem: 51091577
+            ChEBI: 131723
+            LigandBox: D07239
+            NIKKAJI: J830C
+ATOM        14
+            1   C8x C    11.4800  -17.0100
+            2   C8y C    11.4800  -18.4100
+            3   C8x C    12.6924  -19.1100
+            4   C8x C    13.9049  -18.4100
+            5   C8y C    13.9049  -17.0100
+            6   C8x C    12.6924  -16.3100
+            7   S4a S    15.1424  -16.3100
+            8   N1b N    16.3549  -17.0100
+            9   C2c C    17.5673  -16.3100
+            10  N1a N    18.7797  -17.0100
+            11  N1a N    10.2676  -19.1100
+            12  S0  S    17.5673  -14.9100
+            13  O3c O    14.4424  -15.0976
+            14  O3c O    16.1210  -15.3312
+BOND        14
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    2  11 1
+            12    9  12 2
+            13    7  13 2
+            14    7  14 2
+///

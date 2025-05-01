@@ -1,0 +1,115 @@
+ENTRY       D02544                      Drug
+NAME        Sisomicin (USAN/INN)
+FORMULA     C19H37N5O7
+EXACT_MASS  447.2693
+MOL_WEIGHT  447.5264
+SOURCE      Micromonospora inyoensis [TAX:47866]
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C00494
+            ATC code: J01GB08
+            Chemical structure group: DG00610
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07021  Aminoglycosides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01G AMINOGLYCOSIDE ANTIBACTERIALS
+                J01GB Other aminoglycosides
+                 J01GB08 Sisomicin
+                  D02544  Sisomicin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00610  Sisomicin
+                D02544  Sisomicin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D02544  Sisomicin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00610  Sisomicin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                DG00610  Sisomicin
+DBLINKS     CAS: 32385-11-8
+            PubChem: 17396715
+            ChEBI: 9169
+            PDB-CCD: SIS
+            LigandBox: D02544
+            NIKKAJI: J342.544D
+ATOM        31
+            1   C1y C    24.5413  -19.3649
+            2   C1y C    25.7993  -20.0638
+            3   C1y C    24.5413  -17.9671
+            4   O2a O    23.3531  -20.0638
+            5   C1x C    26.9875  -19.3649
+            6   N1a N    25.7294  -21.4616
+            7   C1y C    25.7993  -17.2682
+            8   O1a O    23.3531  -17.2682
+            9   C1y C    22.1650  -20.7627
+            10  C1y C    26.9875  -17.9671
+            11  O2a O    25.7993  -15.8703
+            12  C1y C    22.1650  -22.1605
+            13  O2x O    20.9070  -20.0638
+            14  N1a N    28.3154  -17.6176
+            15  C1y C    27.0573  -15.1714
+            16  C1y C    20.9070  -22.8594
+            17  O1a O    23.3531  -22.8594
+            18  C1x C    19.7188  -20.7627
+            19  O2x O    28.2455  -15.8703
+            20  C1y C    27.0573  -13.7736
+            21  C1z C    19.7188  -22.1605
+            22  N1b N    20.9768  -24.2572
+            23  C2y C    29.4336  -15.1714
+            24  C1x C    28.2455  -13.0747
+            25  N1a N    25.7993  -13.0747
+            26  C1a C    19.9285  -25.2357
+            27  C2x C    29.4336  -13.7736
+            28  C1b C    30.6917  -15.8703
+            29  N1a N    30.6917  -17.2682
+            30  C1a C    18.5072  -22.8536
+            31  O1a O    18.5064  -21.4605
+BOND        33
+            1    18  21 1
+            2    24  27 1
+            3     1   2 1
+            4     1   3 1
+            5     1   4 1 #Down
+            6     2   5 1
+            7     2   6 1 #Up
+            8     3   7 1
+            9     3   8 1 #Up
+            10    9   4 1 #Down
+            11    5  10 1
+            12    7  11 1 #Down
+            13    9  12 1
+            14    9  13 1
+            15   10  14 1 #Up
+            16   15  11 1 #Down
+            17   12  16 1
+            18   12  17 1 #Down
+            19   13  18 1
+            20   15  19 1
+            21   15  20 1
+            22   16  21 1
+            23   16  22 1 #Up
+            24   19  23 1
+            25   20  24 1
+            26   20  25 1 #Down
+            27   22  26 1
+            28   23  27 2
+            29   23  28 1
+            30   28  29 1
+            31    7  10 1
+            32   21  30 1 #Down
+            33   21  31 1 #Up
+///

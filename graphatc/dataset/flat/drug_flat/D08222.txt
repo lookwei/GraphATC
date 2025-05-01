@@ -1,0 +1,88 @@
+ENTRY       D08222                      Drug
+NAME        Milnacipran (INN)
+FORMULA     C15H22N2O
+EXACT_MASS  246.1732
+MOL_WEIGHT  246.348
+CLASS       Neuropsychiatric agent
+             DG01658  Serotonin and norepinephrine reuptake inhibitor (SNRI)
+REMARK      ATC code: N06AX17
+            Chemical structure group: DG00960
+            Product (DG00960): D01107<JP/US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+COMMENT     selective serotonin norepinephrine reuptake inhibitor (SNRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX17 Milnacipran
+                  D08222  Milnacipran (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01658  Serotonin and norepinephrine reuptake inhibitor (SNRI)
+               DG00960  Milnacipran
+                D08222  Milnacipran
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08222  Milnacipran (INN)
+                SLC6A4 (HTT)
+                 D08222  Milnacipran (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01658  Serotonin and norepinephrine reuptake inhibitor (SNRI)
+               DG00960  Milnacipran
+DBLINKS     CAS: 92623-85-3
+            PubChem: 96024910
+            PDB-CCD: F0F
+            LigandBox: D08222
+            NIKKAJI: J304.816K
+ATOM        18
+            1   C8x C    20.5100  -15.7500
+            2   C8x C    20.5100  -17.1500
+            3   C8x C    21.7000  -17.8500
+            4   C8y C    22.9600  -17.1500
+            5   C8x C    22.9600  -15.7500
+            6   C8x C    21.7000  -15.0500
+            7   C5a C    24.3600  -17.1500
+            8   C1x C    22.9600  -19.6000
+            9   C1y C    24.3600  -19.6000
+            10  C1z C    23.6600  -18.3400
+            11  C1b C    25.0600  -20.7900
+            12  O5a O    24.3600  -15.7500
+            13  N1c N    25.7600  -17.1500
+            14  C1b C    26.4600  -15.9600
+            15  C1b C    26.4600  -18.3400
+            16  C1a C    27.8600  -18.3400
+            17  C1a C    27.8600  -15.9600
+            18  N1a N    26.4600  -20.7900
+BOND        19
+            1     8  10 1
+            2    10   9 1
+            3     3   4 2
+            4     9  11 1 #Up
+            5    10   4 1 #Down
+            6    10   7 1
+            7     4   5 1
+            8     7  12 2
+            9     5   6 2
+            10    7  13 1
+            11    6   1 1
+            12   13  14 1
+            13   13  15 1
+            14   15  16 1
+            15    1   2 2
+            16   14  17 1
+            17    2   3 1
+            18   11  18 1
+            19    8   9 1
+///

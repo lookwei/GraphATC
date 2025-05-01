@@ -1,0 +1,156 @@
+ENTRY       D01264                      Drug
+NAME        Daunorubicin hydrochloride (JP18/USP);
+            Cerubidine (TN)
+PRODUCT     DAUNORUBICIN HYDROCHLORIDE (Hikma Pharmaceuticals USA)
+  GENERIC   DAUNORUBICIN HYDROCHLORIDE (Hisun Pharmaceuticals USA)
+            DAUNORUBICIN HYDROCHLORIDE (Hisun Pharmaceuticals USA)
+FORMULA     C27H29NO10. HCl
+EXACT_MASS  563.1558
+MOL_WEIGHT  563.9808
+CLASS       Antineoplastic
+             DG01682  Anthracycline antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+REMARK      Therapeutic category: 4235
+            ATC code: L01DB02
+            Chemical structure group: DG00697
+            Product (DG00697): D01264<JP/US>
+EFFICACY    Antineoplastic, Topoisomerase II inhibitor
+  DISEASE   Acute nonlymphocytic leukemia, myelogenous [DS:H00003]
+            Acute lymphocytic leukemia [DS:H00001 H00002]
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DB Anthracyclines and related substances
+                 L01DB02 Daunorubicin
+                  D01264  Daunorubicin hydrochloride (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Daunorubicin
+                D01264  Daunorubicin hydrochloride (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               423  Antibiotics
+                4235  Anthracycline antibiotics
+                 D01264  Daunorubicin hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00697  Daunorubicin
+                D01264  Daunorubicin hydrochloride
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00697  Daunorubicin
+                 D01264  Daunorubicin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D01264  Daunorubicin hydrochloride (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01264  Daunorubicin hydrochloride
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00697  Daunorubicin
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00697  Daunorubicin
+DBLINKS     CAS: 23541-50-6
+            PubChem: 7848327
+            ChEBI: 31456
+            LigandBox: D01264
+            NIKKAJI: J231.607B
+ATOM        39
+            1   C8x C     2.1027   -6.0215
+            2   C8x C     2.1027   -7.4219
+            3   C8y C     3.2931   -8.1221
+            4   C8y C     4.5535   -7.4219
+            5   C8y C     4.5535   -6.0215
+            6   C8x C     3.2931   -5.3213
+            7   C5x C     5.7438   -8.1221
+            8   C8y C     6.9342   -7.4219
+            9   C8y C     6.9342   -6.0215
+            10  C5x C     5.7438   -5.3213
+            11  C8y C     8.1945   -8.1221
+            12  C8y C     9.3850   -7.4219
+            13  C8y C     9.3850   -6.0215
+            14  C8y C     8.1945   -5.3213
+            15  C1y C    10.5753   -8.1221
+            16  C1x C    11.8357   -7.4219
+            17  C1z C    11.8357   -6.0215
+            18  C1x C    10.5753   -5.3213
+            19  O2a O     3.2931   -9.5225
+            20  C1a C     2.1027  -10.2227
+            21  O5x O     5.7438   -9.5225
+            22  O5x O     5.7438   -3.9209
+            23  O1a O     8.1945   -3.9209
+            24  O1a O     8.1945   -9.5225
+            25  O2a O    10.5753   -9.5225
+            26  C1y C    11.7657  -10.2227
+            27  C5a C    13.0261   -5.3213
+            28  C1a C    14.2164   -6.0215
+            29  O5a O    13.0261   -3.9209
+            30  O1a O    13.0261   -6.9317
+            31  C1x C    11.7657  -11.6232
+            32  C1y C    13.0261  -12.3234
+            33  C1y C    14.2164  -11.6232
+            34  C1y C    14.2164  -10.2227
+            35  O2x O    13.0261   -9.5225
+            36  N1a N    13.0433  -13.7237
+            37  C1a C    15.4321   -9.5274
+            38  O1a O    15.4255  -12.3147
+            39  X   Cl    6.4402  -11.8302
+BOND        42
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   12  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   13  18 1
+            22    3  19 1
+            23   19  20 1
+            24    7  21 2
+            25   10  22 2
+            26   14  23 1
+            27   11  24 1
+            28   26  25 1 #Down
+            29   15  25 1 #Down
+            30   17  27 1 #Up
+            31   27  28 1
+            32   27  29 2
+            33   17  30 1 #Down
+            34   26  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+            38   34  35 1
+            39   26  35 1
+            40   32  36 1 #Up
+            41   34  37 1 #Up
+            42   33  38 1 #Up
+///

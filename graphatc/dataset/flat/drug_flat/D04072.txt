@@ -1,0 +1,53 @@
+ENTRY       D04072                      Drug
+NAME        Etafedrine hydrochloride (USAN);
+            Nethamine (TN)
+FORMULA     C12H19NO. HCl
+EXACT_MASS  229.1233
+MOL_WEIGHT  229.7463
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D04072  Etafedrine hydrochloride (USAN)
+DBLINKS     CAS: 5591-29-7
+            PubChem: 47206028
+            LigandBox: D04072
+            NIKKAJI: J244.718E
+ATOM        15
+            1   C8x C     9.5900  -18.9700
+            2   C8x C     9.5900  -20.3700
+            3   C8x C    10.8024  -21.0700
+            4   C8x C    12.0149  -20.3700
+            5   C8y C    12.0149  -18.9700
+            6   C8x C    10.8024  -18.2700
+            7   C1c C    13.2460  -18.2590
+            8   C1c C    14.4512  -18.9547
+            9   O1a O    13.2457  -16.8701
+            10  N1c N    15.6335  -18.2719
+            11  C1a C    14.4516  -20.3696
+            12  C1a C    16.8275  -18.9612
+            13  C1b C    15.6335  -16.8702
+            14  C1a C    16.8283  -16.1802
+            15  X   Cl   21.7000  -19.3200
+BOND        14
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    8  10 1
+            11    8  11 1
+            12   10  12 1
+            13   10  13 1
+            14   13  14 1
+///

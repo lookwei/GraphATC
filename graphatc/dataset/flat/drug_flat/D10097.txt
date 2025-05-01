@@ -1,0 +1,138 @@
+ENTRY       D10097                      Drug
+NAME        Ceftolozane (USAN)
+FORMULA     C23H30N12O8S2
+EXACT_MASS  666.1751
+MOL_WEIGHT  666.6899
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01804  Oxyimino beta-lactam
+REMARK      Chemical structure group: DG01210
+EFFICACY    Antibiotic, Cell wall biosynthesis inhibitor
+COMMENT     beta-Lactam, Cephalosporin
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01210  Ceftolozane
+                  D10097  Ceftolozane
+              DG01804  Oxyimino beta-lactam
+               DG01210  Ceftolozane
+                D10097  Ceftolozane
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D10097  Ceftolozane (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01210  Ceftolozane
+              DG01804  Oxyimino beta-lactam
+               DG01210  Ceftolozane
+DBLINKS     CAS: 689293-68-3
+            PubChem: 135626815
+            LigandBox: D10097
+ATOM        45
+            1   C1y C    22.5755  -21.8799
+            2   N1y N    22.5755  -23.2926
+            3   C2y C    23.7763  -23.9990
+            4   C2y C    25.0477  -23.2926
+            5   C1x C    25.0477  -21.8799
+            6   S2x S    23.7763  -21.1736
+            7   C1y C    21.1628  -21.8799
+            8   C5x C    21.1628  -23.2926
+            9   C6a C    23.7763  -25.4116
+            10  O6a O    22.5755  -26.1180
+            11  O6a O    24.9771  -26.1180 #-
+            12  C1b C    26.2485  -23.9990
+            13  N5y N    27.4492  -23.2926 #+
+            14  N4y N    28.5794  -24.1402
+            15  C8y C    29.7095  -23.3633
+            16  C8y C    29.2857  -22.0212
+            17  C8x C    27.9437  -22.0212
+            18  C1a C    28.5794  -25.5529
+            19  N1a N    30.9103  -24.0696
+            20  N1b N    30.4865  -21.3149
+            21  C5a C    30.4865  -19.9022
+            22  N1b N    31.6873  -19.1959
+            23  O5a O    29.2857  -19.1959
+            24  C1b C    32.8880  -19.9022
+            25  C1b C    34.0888  -19.1959
+            26  N1a N    35.2896  -19.9022
+            27  O5x O    20.1740  -24.2815
+            28  N1b N    19.9621  -21.1736
+            29  C5a C    18.7613  -21.8799
+            30  C2c C    17.5605  -21.1736
+            31  O5a O    18.7613  -23.2926
+            32  N2b N    17.5720  -19.7609
+            33  C8y C    16.3366  -21.8608
+            34  N5x N    15.2198  -21.0455
+            35  S2x S    14.0968  -21.8521
+            36  C8y C    14.5168  -23.1695
+            37  N5x N    15.8995  -23.1771
+            38  N1a N    13.6895  -24.2953
+            39  O2a O    18.7924  -19.0695
+            40  C1d C    18.7924  -17.6569
+            41  C6a C    20.2050  -17.6569
+            42  C1a C    17.3797  -17.6569
+            43  C1a C    18.7924  -16.2442
+            44  O6a O    20.8968  -18.8557
+            45  O6a O    20.9100  -16.4361
+BOND        48
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    3   9 1
+            11    9  10 2
+            12    9  11 1
+            13    4  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   13  17 2
+            20   14  18 1
+            21   15  19 1
+            22   20  16 1
+            23   20  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 1
+            27   24  25 1
+            28   25  26 1
+            29    8  27 2
+            30    7  28 1 #Up
+            31   28  29 1
+            32   29  30 1
+            33   29  31 2
+            34   30  32 2
+            35   30  33 1
+            36   33  34 2
+            37   34  35 1
+            38   35  36 1
+            39   36  37 2
+            40   33  37 1
+            41   36  38 1
+            42   32  39 1
+            43   39  40 1
+            44   40  41 1
+            45   40  42 1
+            46   40  43 1
+            47   41  44 1
+            48   41  45 2
+///

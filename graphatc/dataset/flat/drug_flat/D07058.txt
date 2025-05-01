@@ -1,0 +1,70 @@
+ENTRY       D07058                      Drug
+NAME        Acamprosate (INN);
+            Aotal (TN)
+FORMULA     C5H11NO4S
+EXACT_MASS  181.0409
+MOL_WEIGHT  181.2101
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+REMARK      ATC code: N07BB03
+            Chemical structure group: DG00996
+            Product (DG00996): D02780<JP/US>
+EFFICACY    Antialcohol dependence, NMDA receptor antagonist
+COMMENT     Alcohol withdrawal agent
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+            hsa04728(2903+2904)  Dopaminergic synapse
+            hsa05034(2902+2903+2904+2905+2906)  Alcoholism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BB Drugs used in alcohol dependence
+                 N07BB03 Acamprosate
+                  D07058  Acamprosate (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG00996  Acamprosate
+                D07058  Acamprosate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D07058  Acamprosate (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG00996  Acamprosate
+DBLINKS     CAS: 77337-76-9
+            PubChem: 51091400
+            ChEBI: 51041
+            LigandBox: D07058
+            NIKKAJI: J309.380H
+ATOM        11
+            1   C1a C    26.3833  -17.1326
+            2   C5a C    27.5817  -17.8244
+            3   N1b N    28.7800  -17.1326
+            4   C1b C    29.9783  -17.8244
+            5   C1b C    31.1766  -17.1326
+            6   C1b C    32.3750  -17.8244
+            7   S4a S    33.5734  -17.1326
+            8   O5a O    27.5817  -19.2082
+            9   O1d O    34.7858  -17.8327
+            10  O1d O    34.7858  -16.4326
+            11  O1d O    32.3609  -16.4326
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     2   8 2
+            8     7   9 1
+            9     7  10 2
+            10    7  11 2
+///

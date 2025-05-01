@@ -1,0 +1,83 @@
+ENTRY       D10107                      Drug
+NAME        Dasolampanel (USAN/INN)
+FORMULA     C17H20ClN5O3
+EXACT_MASS  377.1255
+MOL_WEIGHT  377.8254
+EFFICACY    Pain relief, AMPA receptor antagonist, Kainate receptor antagonist
+COMMENT     Treatment of chronic pain
+TARGET      GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+            GRIK [HSA:2897 2898 2899 2900 2901] [KO:K05201 K05202 K05203 K05204 K05205]
+  PATHWAY   hsa04080(2890+2891+2892+2893+2897+2898+2899+2900+2901)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893+2897+2898+2899+2900+2901)  Glutamatergic synapse
+            hsa04728(2890+2891+2892+2893)  Dopaminergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D10107  Dasolampanel (USAN/INN)
+                GRIK
+                 D10107  Dasolampanel (USAN/INN)
+DBLINKS     CAS: 503294-13-1
+            PubChem: 135626825
+            ChEBI: 177544
+            PDB-CCD: SXI
+            LigandBox: D10107
+ATOM        26
+            1   C1y C    20.3112  -21.8514
+            2   N1x N    20.3112  -23.2522
+            3   C1x C    21.5018  -23.9525
+            4   C1y C    22.6925  -23.2522
+            5   C1y C    22.6925  -21.8514
+            6   C1x C    21.5018  -21.1510
+            7   C1x C    23.9532  -23.9525
+            8   C1x C    25.1438  -23.2522
+            9   C1y C    25.1438  -21.8514
+            10  C1x C    23.9532  -21.1510
+            11  C6a C    19.0505  -21.1510
+            12  O2a O    26.3345  -21.1510
+            13  O6a O    17.8598  -21.7814
+            14  O6a O    19.0505  -19.7502
+            15  C8y C    27.5251  -21.8514
+            16  C8x C    27.5251  -23.2522
+            17  C8x C    28.7858  -23.9525
+            18  C8x C    29.9765  -23.2522
+            19  C8y C    29.9765  -21.8514
+            20  C8y C    28.7858  -21.1510
+            21  C8y C    28.7858  -19.7502
+            22  X   Cl   31.1671  -21.1510
+            23  N5x N    27.6652  -18.9798
+            24  N4x N    29.9765  -18.9798
+            25  N5x N    29.5562  -17.6491
+            26  N5x N    28.0854  -17.6491
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    1  11 1 #Down
+            13    9  12 1 #Up
+            14   11  13 1
+            15   11  14 2
+            16   12  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   20  21 1
+            24   19  22 1
+            25   23  21 2
+            26   21  24 1
+            27   24  25 1
+            28   25  26 2
+            29   23  26 1
+///

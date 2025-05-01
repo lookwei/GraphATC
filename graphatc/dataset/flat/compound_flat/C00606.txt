@@ -1,0 +1,45 @@
+ENTRY       C00606                      Compound
+NAME        3-Sulfino-L-alanine;
+            L-Cysteinesulfinic acid;
+            3-Sulphino-L-alanine;
+            3-Sulfinoalanine
+FORMULA     C3H7NO4S
+EXACT_MASS  153.0096
+MOL_WEIGHT  153.157
+REACTION    R00863 R00893 R02434 R02466 R02618 R02619
+PATHWAY     map00270  Cysteine and methionine metabolism
+            map00430  Taurine and hypotaurine metabolism
+            map01100  Metabolic pathways
+ENZYME      1.4.1.-         1.13.11.20      2.6.1.1         4.1.1.12        
+            4.1.1.15        4.1.1.29
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C00606  3-Sulfino-L-alanine
+DBLINKS     CAS: 1115-65-7
+            PubChem: 3881
+            ChEBI: 16345
+            PDB-CCD: CSD
+            3DMET: B01293
+            NIKKAJI: J36.785K
+ATOM        9
+            1   C1c C    26.5518  -21.7180
+            2   C1b C    27.7630  -21.0158
+            3   C6a C    25.3406  -21.0158
+            4   N1a N    26.5518  -23.1163
+            5   S4a S    28.9740  -21.7180
+            6   O6a O    24.1294  -21.7180
+            7   O6a O    25.3406  -19.6175
+            8   O1d O    30.1911  -21.0158
+            9   O1d O    28.9740  -23.1163
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     5   8 1
+            8     5   9 2
+///

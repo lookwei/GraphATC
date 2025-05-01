@@ -1,0 +1,186 @@
+ENTRY       D07471                      Drug
+NAME        Atazanavir (INN);
+            Reyataz (TN)
+FORMULA     C38H52N6O7
+EXACT_MASS  704.3897
+MOL_WEIGHT  704.8555
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+             DG02887  UGT1A1 inhibitor
+REMARK      ATC code: J05AE08
+            Chemical structure group: DG00657
+            Product (DG00657): D01276<JP/US>
+            Product (mixture): D10753<US>
+EFFICACY    Antiviral, HIV protease inhibitor
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+            Enzyme inhibition: UGT1A1 [HSA:54658]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE08 Atazanavir
+                  D07471  Atazanavir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00657  Atazanavir
+                 D07471  Atazanavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00657  Atazanavir
+                 D07471  Atazanavir
+              DG02887  UGT1A1 inhibitor
+               DG00657  Atazanavir
+                D07471  Atazanavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D07471  Atazanavir (INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D07471
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07471
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00657  Atazanavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00657  Atazanavir
+              DG02887  UGT1A1 inhibitor
+               DG00657  Atazanavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00657  Atazanavir
+DBLINKS     CAS: 198904-31-3
+            PubChem: 51091799
+            ChEBI: 37924
+            PDB-CCD: DR7
+            LigandBox: D07471
+            NIKKAJI: J1.006.724C
+ATOM        51
+            1   C1b C    28.7700  -21.7700
+            2   C1a C    17.1500  -24.0800
+            3   O7a O    18.3400  -24.7800
+            4   C7a C    19.4600  -24.0800
+            5   N1b N    20.6500  -24.7800
+            6   C1c C    21.8400  -24.0800
+            7   C5a C    22.9600  -24.7800
+            8   N1b N    24.1500  -24.0800
+            9   C1c C    25.2700  -24.7800
+            10  C1c C    26.4600  -24.0800
+            11  C1b C    27.6500  -24.7800
+            12  N1c N    28.7700  -24.0800
+            13  N1b N    29.9600  -24.7800
+            14  C5a C    31.0800  -24.0800
+            15  C1c C    32.2700  -24.7800
+            16  N1b N    33.3900  -24.0800
+            17  C7a C    34.5800  -24.7800
+            18  O7a O    35.7700  -24.0800
+            19  C1a C    36.8900  -24.7800
+            20  O6a O    19.4600  -22.7500
+            21  C1d C    21.8400  -21.5600
+            22  C1a C    21.8400  -20.2300
+            23  O5a O    22.9600  -26.1100
+            24  C1b C    25.2700  -26.1100
+            25  C8y C    26.4600  -26.7400
+            26  C8x C    26.4600  -28.1400
+            27  C8x C    27.6500  -28.7700
+            28  C8x C    28.7700  -28.1400
+            29  C8x C    28.7700  -26.7400
+            30  C8x C    27.6500  -26.1100
+            31  O1a O    26.4600  -22.7500
+            32  O5a O    31.0800  -22.7500
+            33  C1d C    32.2700  -27.0200
+            34  C1a C    32.2700  -28.4200
+            35  O6a O    34.5800  -26.1100
+            36  C1a C    23.1700  -21.5600
+            37  C1a C    20.4400  -21.5600
+            38  C8y C    29.9600  -21.1400
+            39  C8x C    31.0800  -21.7700
+            40  C8x C    32.2700  -21.0700
+            41  C8y C    32.2700  -19.7400
+            42  C8x C    31.1500  -19.0400
+            43  C8x C    29.9600  -19.7400
+            44  C8y C    33.4600  -19.0400
+            45  N5x N    34.6500  -19.7400
+            46  C8x C    35.8400  -19.0400
+            47  C8x C    35.8400  -17.7100
+            48  C8x C    34.6500  -17.0100
+            49  C8x C    33.4600  -17.7100
+            50  C1a C    33.6000  -27.0200
+            51  C1a C    30.8700  -27.0200
+BOND        53
+            1    21  22 1
+            2     8   9 1
+            3     7  23 2
+            4     9  24 1 #Down
+            5     9  10 1
+            6    24  25 1
+            7    10  11 1
+            8    11  12 1
+            9     2   3 1
+            10   25  26 2
+            11   26  27 1
+            12   27  28 2
+            13   28  29 1
+            14   29  30 2
+            15   30  25 1
+            16   12  13 1
+            17   10  31 1 #Up
+            18   12   1 1
+            19   14  32 2
+            20   13  14 1
+            21   15  33 1 #Up
+            22    3   4 1
+            23   14  15 1
+            24   33  34 1
+            25   15  16 1
+            26   17  35 2
+            27    4   5 1
+            28   16  17 1
+            29   17  18 1
+            30    5   6 1
+            31   18  19 1
+            32    4  20 2
+            33    6   7 1
+            34    6  21 1 #Up
+            35    7   8 1
+            36   21  36 1
+            37   21  37 1
+            38    1  38 1
+            39   38  39 2
+            40   39  40 1
+            41   40  41 2
+            42   41  42 1
+            43   42  43 2
+            44   38  43 1
+            45   41  44 1
+            46   44  45 2
+            47   45  46 1
+            48   46  47 2
+            49   47  48 1
+            50   48  49 2
+            51   44  49 1
+            52   33  50 1
+            53   33  51 1
+///

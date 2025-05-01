@@ -1,0 +1,141 @@
+ENTRY       D08411                      Drug
+NAME        Prazosin (INN);
+            Minipress (TN)
+FORMULA     C19H21N5O4
+EXACT_MASS  383.1594
+MOL_WEIGHT  383.4011
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+             DG01739  Peripherally-acting antiadrenergic
+             DG03231  Antihypertensive
+            Transporter inhibitor
+             DG02881  SLC22A3 inhibitor
+REMARK      Same as: C07368
+            ATC code: C02CA01
+            Chemical structure group: DG00253
+            Product (DG00253): D00609<JP/US>
+EFFICACY    Antihypertensive, Vasodilator (peripheric), alpha1-Adrenergic receptor antagonist
+COMMENT     Prazosin derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION Transporter inhibition: SLC22A3 [HSA:6581]
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02C ANTIADRENERGIC AGENTS, PERIPHERALLY ACTING
+                C02CA Alpha-adrenoreceptor antagonists
+                 C02CA01 Prazosin
+                  D08411  Prazosin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00253  Prazosin
+                  D08411  Prazosin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00253  Prazosin
+                D08411  Prazosin
+              DG03231  Antihypertensive
+               DG00253  Prazosin
+                D08411  Prazosin
+             Transporter inhibitor
+              DG02881  SLC22A3 inhibitor
+               DG00253  Prazosin
+                D08411  Prazosin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08411  Prazosin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D08411
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00253  Prazosin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00253  Prazosin
+              DG03231  Antihypertensive
+               DG00253  Prazosin
+             Transporter inhibitor
+              DG02881  SLC22A3 inhibitor
+               DG00253  Prazosin
+DBLINKS     CAS: 19216-56-9
+            PubChem: 96025097
+            ChEBI: 8364
+            PDB-CCD: XRA
+            LigandBox: D08411
+            NIKKAJI: J10.000E
+ATOM        28
+            1   C8y C    27.1600  -19.6700
+            2   C8y C    27.1600  -18.2700
+            3   C8x C    28.3500  -20.3700
+            4   C8y C    25.9000  -20.3700
+            5   N5x N    25.9000  -17.5700
+            6   C8x C    28.3500  -17.5700
+            7   C8y C    29.5400  -19.6700
+            8   N5x N    24.7100  -19.6700
+            9   N1a N    25.9000  -21.7700
+            10  C8y C    24.7100  -18.2700
+            11  C8y C    29.5400  -18.2700
+            12  O2a O    30.8000  -20.3700
+            13  N1y N    23.5200  -17.5700
+            14  O2a O    30.8000  -17.5700
+            15  C1a C    31.9900  -19.6700
+            16  C1x C    23.5200  -16.2400
+            17  C1x C    22.2600  -18.2700
+            18  C1a C    31.9900  -18.2700
+            19  C1x C    22.2600  -15.4700
+            20  C1x C    21.0700  -17.5700
+            21  N1y N    21.0700  -16.2400
+            22  C5a C    19.8800  -15.4700
+            23  C8y C    18.6200  -16.2400
+            24  O5a O    19.8800  -14.0700
+            25  C8x C    18.2700  -17.5700
+            26  O2x O    17.5000  -15.4000
+            27  C8x C    16.8700  -17.5700
+            28  C8x C    16.3800  -16.3100
+BOND        31
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     4   9 1
+            9     5  10 2
+            10    6  11 2
+            11    7  12 1
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 1
+            16   13  17 1
+            17   14  18 1
+            18   16  19 1
+            19   17  20 1
+            20   19  21 1
+            21   21  22 1
+            22   22  23 1
+            23   22  24 2
+            24   23  25 2
+            25   23  26 1
+            26   25  27 1
+            27   26  28 1
+            28    7  11 1
+            29    8  10 1
+            30   20  21 1
+            31   27  28 2
+///

@@ -1,0 +1,91 @@
+ENTRY       D05804                      Drug
+NAME        Sarizotan hydrochloride (USAN);
+            EMD 128130
+FORMULA     C22H21FN2O. HCl
+EXACT_MASS  384.1405
+MOL_WEIGHT  384.8743
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+EFFICACY    Antiparkinsonian
+COMMENT     Treatment-associated dyskinesia in Parkinson's disease
+TARGET      HTR1A [HSA:3350] [KO:K04153]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813+3350)  Neuroactive ligand-receptor interaction
+            hsa04726(3350)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+            hsa05012(1813)  Parkinson disease
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               D05804  Sarizotan hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D05804  Sarizotan hydrochloride (USAN)
+               Serotonin
+                HTR1A
+                 D05804  Sarizotan hydrochloride (USAN)
+DBLINKS     CAS: 195068-07-6
+            PubChem: 47207465
+            LigandBox: D05804
+ATOM        27
+            1   C8x C    11.2000  -16.6600
+            2   C8x C    11.2000  -18.0600
+            3   C8x C    12.4124  -18.7600
+            4   C8y C    13.6249  -18.0600
+            5   C8y C    13.6249  -16.6600
+            6   C8x C    12.4124  -15.9600
+            7   C1x C    14.8373  -18.7600
+            8   C1x C    16.0497  -18.0600
+            9   C1y C    16.0497  -16.6600
+            10  O2x O    14.8373  -15.9600
+            11  C1b C    17.2473  -15.9685
+            12  N1b N    18.4356  -16.6545
+            13  C1b C    19.6264  -15.9669
+            14  C8y C    20.8160  -16.6537
+            15  C8x C    20.8162  -18.0598
+            16  C8y C    22.0286  -18.7597
+            17  C8x C    23.2410  -18.0596
+            18  N5x N    23.2409  -16.6535
+            19  C8x C    22.0284  -15.9536
+            20  C8y C    22.0288  -20.1598
+            21  C8x C    20.8323  -20.8509
+            22  C8x C    20.8326  -22.2509
+            23  C8y C    22.0452  -22.9507
+            24  C8x C    23.2416  -22.2596
+            25  C8x C    23.2413  -20.8596
+            26  X   F    22.0454  -24.3600
+            27  X   Cl   25.9700  -22.0500
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1 #Up
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   16  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   20  25 1
+            29   23  26 1
+///

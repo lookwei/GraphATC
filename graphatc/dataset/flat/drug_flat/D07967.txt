@@ -1,0 +1,106 @@
+ENTRY       D07967                      Drug
+NAME        Fludrocortisone (INN);
+            Astonin-H (TN)
+FORMULA     C21H29FO5
+EXACT_MASS  380.1999
+MOL_WEIGHT  380.4504
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+REMARK      Same as: C07004
+            ATC code: H02AA02
+            Chemical structure group: DG00506
+            Product (DG00506): D00986<JP/US>
+EFFICACY    Salts metabolic regulator
+COMMENT     mineralocorticoid
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AA Mineralocorticoids
+                 H02AA02 Fludrocortisone
+                  D07967  Fludrocortisone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG00506  Fludrocortisone
+                D07967  Fludrocortisone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D07967  Fludrocortisone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG00506  Fludrocortisone
+DBLINKS     CAS: 127-31-1
+            PubChem: 96024662
+            ChEBI: 50885
+            PDB-CCD: ZK5
+            LigandBox: D07967
+            NIKKAJI: J10.052H
+ATOM        27
+            1   C1x C    22.7500  -19.8800
+            2   C5x C    22.7500  -21.2100
+            3   C2x C    23.9400  -21.9100
+            4   C2y C    25.1300  -21.2100
+            5   C1z C    25.1300  -19.8800
+            6   C1x C    23.9400  -19.1800
+            7   C1x C    26.3200  -21.9100
+            8   C1x C    27.5100  -21.2100
+            9   C1y C    27.5100  -19.8800
+            10  C1z C    26.3200  -19.1800
+            11  C1y C    28.6300  -19.1800
+            12  C1z C    28.6300  -17.7800
+            13  C1x C    27.5100  -17.1500
+            14  C1y C    26.3200  -17.7800
+            15  O5x O    21.6300  -21.9100
+            16  C1a C    25.1300  -18.4800
+            17  O1a O    25.1300  -17.1500
+            18  C1a C    28.6300  -16.4500
+            19  X   F    26.3200  -20.5800
+            20  C1x C    31.0100  -19.1800
+            21  C1x C    31.0100  -17.7800
+            22  C1z C    29.8200  -17.1500
+            23  C5a C    29.8200  -15.5400
+            24  C1b C    28.6300  -14.8400
+            25  O5a O    31.0100  -14.8400
+            26  O1a O    27.4400  -15.5400
+            27  O1a O    31.0100  -16.4500
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18    5  16 1 #Up
+            19   14  17 1 #Up
+            20   12  18 1 #Up
+            21   10  19 1 #Down
+            22   11  20 1
+            23   20  21 1
+            24   21  22 1
+            25   12  22 1
+            26   22  23 1 #Up
+            27   23  24 1
+            28   23  25 2
+            29   24  26 1
+            30   22  27 1 #Down
+///

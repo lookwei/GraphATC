@@ -1,0 +1,170 @@
+ENTRY       D10190                      Drug
+NAME        Tivozanib hydrochloride (USAN);
+            Tivozanib hydrochloride monohydrate;
+            Fotivda (TN)
+PRODUCT     FOTIVDA (AVEO Pharmaceuticals)
+FORMULA     C22H19ClN4O5. HCl. H2O
+EXACT_MASS  508.0916
+MOL_WEIGHT  509.3393
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03203  VEGFR inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01EK03
+            Chemical structure group: DG01375
+            Product (DG01375): D10190<US>
+EFFICACY    Antineoplastic, Angiogenesis inhibitor, Receptor tyrosine kinase inhibitor
+  DISEASE   Renal cell carcinoma [DS:H00021]
+TARGET      VEGFR1 (FLT1) [HSA:2321] [KO:K05096]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            VEGFR3 (FLT4) [HSA:2324] [KO:K05097]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+            PDGFRB [HSA:5159] [KO:K05089]
+  PATHWAY   hsa04010(2321+2324+3791+3815+5159)  MAPK signaling pathway
+            hsa04014(2321+2324+3791+3815+5159)  Ras signaling pathway
+            hsa04015(2321+2324+3791+3815+5159)  Rap1 signaling pathway
+            hsa04151(2321+2324+3791+3815+5159)  PI3K-Akt signaling pathway
+            hsa04370(3791)  VEGF signaling pathway
+            hsa04510(2321+2324+3791+5159)  Focal adhesion
+            hsa05200(2324+3815+5159)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EK Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors
+                 L01EK03 Tivozanib
+                  D10190  Tivozanib hydrochloride (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Tivozanib
+                D10190  Tivozanib hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03203  VEGFR inhibitor
+                 DG01375  Tivozanib
+                  D10190  Tivozanib hydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01375  Tivozanib
+                 D10190  Tivozanib hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFRB
+                 D10190  Tivozanib hydrochloride (USAN) &lt;US&gt;
+                KIT (CD117)
+                 D10190  Tivozanib hydrochloride (USAN) &lt;US&gt;
+               VEGFR family
+                VEGFR1 (FLT1)
+                 D10190  Tivozanib hydrochloride (USAN) &lt;US&gt;
+                VEGFR2 (KDR)
+                 D10190  Tivozanib hydrochloride (USAN) &lt;US&gt;
+                VEGFR3 (FLT4)
+                 D10190  Tivozanib hydrochloride (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10190
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10190
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10190
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10190
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03203  VEGFR inhibitor
+                 DG01375  Tivozanib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01375  Tivozanib
+DBLINKS     CAS: 682745-41-1
+            PubChem: 135626908
+            LigandBox: D10190
+ATOM        34
+            1   C8y C    17.0800  -19.3200
+            2   C8y C    17.0800  -20.7200
+            3   C8x C    18.3400  -21.4200
+            4   C8y C    19.5300  -20.7200
+            5   C8y C    19.5300  -19.3200
+            6   C8x C    18.3400  -18.6200
+            7   C8y C    20.7200  -21.4200
+            8   C8x C    21.9800  -20.7200
+            9   C8x C    21.9800  -19.3200
+            10  N5x N    20.7200  -18.6200
+            11  O2a O    20.7200  -22.8200
+            12  C8y C    21.9800  -23.5200
+            13  O2a O    15.8900  -18.6200
+            14  C1a C    14.7000  -19.2500
+            15  O2a O    15.8900  -21.4200
+            16  C1a C    14.7000  -20.7200
+            17  C8x C    21.9800  -24.9200
+            18  C8y C    23.1700  -25.6200
+            19  C8y C    24.3600  -24.9200
+            20  C8x C    24.3600  -23.5200
+            21  C8x C    23.1700  -22.8200
+            22  N1b N    25.6200  -25.6200
+            23  C5a C    26.8100  -24.9200
+            24  N1b N    28.0000  -25.6200
+            25  C8y C    29.1900  -24.9200
+            26  O5a O    26.8100  -23.5200
+            27  X   Cl   23.1700  -27.0200
+            28  C8x C    29.1900  -23.5200
+            29  N5x N    30.5200  -25.3400
+            30  O2x O    31.3600  -24.2200
+            31  C8y C    30.5200  -23.0300
+            32  C1a C    30.9400  -21.7700
+            33  X   Cl   26.1800  -18.8300
+            34  O0  O    29.4000  -18.8300
+BOND        35
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    7  11 1
+            13   11  12 1
+            14    1  13 1
+            15   13  14 1
+            16    2  15 1
+            17   15  16 1
+            18   12  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   12  21 1
+            24   19  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   23  26 2
+            29   18  27 1
+            30   25  28 1
+            31   25  29 2
+            32   29  30 1
+            33   30  31 1
+            34   28  31 2
+            35   31  32 1
+///

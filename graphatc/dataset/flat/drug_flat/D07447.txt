@@ -1,0 +1,78 @@
+ENTRY       D07447                      Drug
+NAME        Amiloride (INN);
+            Amiclaran (TN)
+FORMULA     C6H8ClN7O
+EXACT_MASS  229.0479
+MOL_WEIGHT  229.627
+CLASS       Cardiovascular agent
+             DG01885  Potassium-sparing diuretic
+REMARK      Same as: C06821
+            ATC code: C03DB01
+            Chemical structure group: DG00275
+            Product (DG00275): D00649<US>
+EFFICACY    Diuretic, Epithelial sodium channel blocker
+COMMENT     potassium-sparing diuretic
+TARGET      SCNN1 [HSA:6337 6338 6340] [KO:K04824 K04825 K04827]
+  PATHWAY   hsa04960(6337+6338+6340)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03D ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+                C03DB Other potassium-sparing agents
+                 C03DB01 Amiloride
+                  D07447  Amiloride (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01885  Potassium-sparing diuretic
+               DG00275  Amiloride
+                D07447  Amiloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Epithelial sodium channel (SCNN)
+                SCNN1
+                 D07447  Amiloride (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01885  Potassium-sparing diuretic
+               DG00275  Amiloride
+DBLINKS     CAS: 2609-46-3
+            PubChem: 51091778
+            ChEBI: 2639
+            PDB-CCD: AMR
+            LigandBox: D07447
+            NIKKAJI: J9.514A
+ATOM        15
+            1   C8y C    23.5900  -17.9200
+            2   C5a C    24.7800  -18.6200
+            3   C8y C    23.5900  -16.5200
+            4   N5x N    22.3300  -18.6200
+            5   N1b N    25.9700  -17.9200
+            6   O5a O    24.7800  -20.0200
+            7   N5x N    22.3300  -15.8200
+            8   N1a N    24.7800  -15.8200
+            9   C8y C    21.1400  -17.9200
+            10  C2c C    27.1600  -18.6200
+            11  C8y C    21.1400  -16.5200
+            12  X   Cl   19.9500  -18.6200
+            13  N1a N    28.4200  -17.9200
+            14  N2a N    27.1600  -20.0200
+            15  N1a N    19.9500  -15.8200
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    7  11 1
+            11    9  12 1
+            12   10  13 1
+            13   10  14 2
+            14   11  15 1
+            15    9  11 2
+///

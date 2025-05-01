@@ -1,0 +1,55 @@
+ENTRY       D09018                      Drug
+NAME        Tilarginine acetate (USAN)
+FORMULA     C7H16N4O2. C2H4O2
+EXACT_MASS  248.1485
+MOL_WEIGHT  248.2795
+EFFICACY    Nitric oxide synthase inhibitor
+COMMENT     Nonselective nitric oxide synthase inhibitor
+            Treatment of cardiogenic shock complicating acute myocardial infarction
+TARGET      NOS [HSA:4842 4843 4846] [KO:K13240 K13241 K13242]
+  PATHWAY   hsa00220(4842+4843+4846)  Arginine biosynthesis
+            hsa00330(4842+4843+4846)  Arginine and proline metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Nitic oxide synthase
+                NOS
+                 D09018  Tilarginine acetate (USAN)
+DBLINKS     CAS: 53308-83-1
+            PubChem: 96025701
+            LigandBox: D09018
+ATOM        17
+            1   C1b C    12.5383  -15.8685
+            2   C1b C    13.8022  -16.5707
+            3   C1c C    11.3447  -16.5005
+            4   C1b C    14.9959  -15.8685
+            5   C6a C    10.1510  -15.7983
+            6   N1a N    11.3447  -17.9048
+            7   N1b N    16.1895  -16.5707
+            8   O6a O     8.9573  -16.4303
+            9   O6a O    10.1510  -14.3940
+            10  C2c C    17.4534  -15.9388
+            11  N1b N    18.6471  -16.6409
+            12  N2a N    17.4534  -14.4642
+            13  C1a C    19.8690  -15.9487
+            14  C6a C    24.8330  -15.7985
+            15  C1a C    26.0491  -16.5007
+            16  O6a O    23.6169  -16.5007
+            17  O6a O    24.8330  -14.3942
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1 #Down
+            6     4   7 1
+            7     5   8 1
+            8     5   9 2
+            9     7  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 1
+            13   14  15 1
+            14   14  16 1
+            15   14  17 2
+///

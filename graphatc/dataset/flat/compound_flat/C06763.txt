@@ -1,0 +1,44 @@
+ENTRY       C06763                      Compound
+NAME        Nojirimycin;
+            5-Amino-5-deoxy-D-glucopyranose
+FORMULA     C6H13NO5
+EXACT_MASS  179.0794
+MOL_WEIGHT  179.1711
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              Others
+               Pure sugars
+                C06763  Nojirimycin
+DBLINKS     CAS: 15218-38-9
+            PubChem: 8983
+            ChEBI: 28945
+            KNApSAcK: C00018724
+            3DMET: B05229
+            NIKKAJI: J15.857G
+ATOM        12
+            1   C1y C    25.0899  -14.6132
+            2   C1y C    25.0899  -16.0004
+            3   N1x N    26.3023  -13.9138
+            4   C1b C    23.8893  -13.9138
+            5   C1y C    26.3023  -16.6882
+            6   O1a O    23.8893  -16.6822
+            7   C1y C    27.4970  -14.6132
+            8   O1a O    22.6361  -14.8230
+            9   C1y C    27.4970  -16.0004
+            10  O1a O    26.2906  -18.0754
+            11  O1a O    28.4704  -13.6281
+            12  O1a O    28.6918  -16.6882
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Either
+            11    9  12 1 #Down
+            12    7   9 1
+///

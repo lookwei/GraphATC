@@ -1,0 +1,56 @@
+ENTRY       D11684                      Drug
+NAME        Verdiperstat (USAN/INN)
+FORMULA     C11H15N3O2S
+EXACT_MASS  253.0885
+MOL_WEIGHT  253.3207
+EFFICACY    Myeloperoxidase inhibitor
+COMMENT     Treatment of multiple system atrophy
+TARGET      MPO [HSA:4353] [KO:K10789]
+  PATHWAY   hsa04145(4353)  Phagosome
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Peroxygenase
+                MPO
+                 D11684  Verdiperstat (USAN/INN)
+DBLINKS     CAS: 890655-80-8
+            PubChem: 405226550
+            PDB-CCD: W4Y
+ATOM        17
+            1   C8y C    11.3157  -12.6597
+            2   C8y C    12.5249  -11.9543
+            3   N4x N    13.7292  -12.6294
+            4   C8y C    13.7595  -14.0705
+            5   N4y N    12.5503  -14.7759
+            6   C8y C    11.3107  -14.0403
+            7   C8x C     9.9603  -14.5040
+            8   C8x C     9.1339  -13.3653
+            9   N4x N    10.0005  -12.2114
+            10  C1b C    12.5453  -16.1565
+            11  C1b C    13.7496  -16.8317
+            12  C1a C    16.1581  -18.1819
+            13  S0  S    14.9638  -14.7456
+            14  O5x O    12.5299  -10.5736
+            15  O2a O    14.9499  -16.1311
+            16  C1c C    16.1742  -16.8306
+            17  C1a C    17.3935  -16.1195
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     6   7 1
+            8     7   8 2
+            9     8   9 1
+            10    1   9 1
+            11    5  10 1
+            12   10  11 1
+            13    4  13 2
+            14    2  14 2
+            15   11  15 1
+            16   15  16 1
+            17   16  17 1
+            18   16  12 1
+///

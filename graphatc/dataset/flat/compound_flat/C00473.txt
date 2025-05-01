@@ -1,0 +1,156 @@
+ENTRY       C00473                      Compound
+NAME        Retinol;
+            all-trans-Retinol;
+            Vitamin A;
+            Vitamin A1
+FORMULA     C20H30O
+EXACT_MASS  286.2297
+MOL_WEIGHT  286.4516
+REMARK      Same as: D06543
+REACTION    R02124 R02366 R02367 R02368 R02369 R07163 R08379 R08387 
+            R11952
+PATHWAY     map00830  Retinol metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+            map04977  Vitamin digestion and absorption
+ENZYME      1.1.1.1         1.1.1.105       1.1.1.300       1.1.1.-         
+            1.3.99.23       1.14.19.53      2.3.1.76        2.3.1.135       
+            3.1.1.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Vitamins
+               Fat-soluble vitamins
+                C00473  Retinol (Vitamin A)
+            Lipids [BR:br08002]
+             PR  Prenol lipids
+              PR01 Isoprenoids
+               PR0109 Retinoids
+                C00473  Retinol
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D06543)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11C VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO
+                A11CA Vitamin A, plain
+                 A11CA01 Retinol (vit A)
+                  D06543  Vitamin A (USP) &lt;JP&gt;
+             D DERMATOLOGICALS
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AD Retinoids for topical use in acne
+                 D10AD02 Retinol
+                  D06543  Vitamin A (USP) &lt;JP&gt;
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AX Other nasal preparations
+                 R01AX02 Retinol
+                  D06543  Vitamin A (USP) &lt;JP&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01X OTHER OPHTHALMOLOGICALS
+                S01XA Other ophthalmologicals
+                 S01XA02 Retinol
+                  D06543  Vitamin A (USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D06543)]
+             3  Agents affecting metabolism
+              31  Vitamins
+               311  Vitamins A and D preparations
+                3111  Synthetic vitamin A preparations
+                 D06543  Vitamin A (USP)
+            Classification of Japanese OTC drugs [BR:br08313(D06543)]
+             Nourishing tonics and health supplements
+              32 Vitamin A based drugs
+               D06543  Vitamin A (USP)
+              39 Vitamin AD based drugs
+               D06543  Vitamin A (USP)
+              43 Vitamin containing supplements
+               D06543  Vitamin A (USP)
+            Risk category of Japanese OTC drugs [BR:br08312(D06543)]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Retinol
+                D06543  Vitamin A (USP)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Vitamin A
+                D06543  Vitamin A (USP)
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Vitamin A
+                D06543  Vitamin A (USP)
+            Animal drugs in Japan [BR:br08331]
+             96  Agents affecting metabolism
+              962  Vitamin preparations
+               9621  Vitamin A, D and preparations
+                C00473  Vitamin A
+            Drug groups [BR:br08330(D06543)]
+             Vitamin and mineral
+              DG01604  Retinol derivative
+               DG00123  Retinol (vit A)
+                D06543  Vitamin A
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00123  Retinol (vit A)
+                D06543  Vitamin A
+            Target-based classification of drugs [BR:br08310(D06543)]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Retinoic acid receptor (RAR)
+                NR1B (RAR)
+                 D06543  Vitamin A (USP) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html(D06543)]
+             Drug metabolizing enzymes
+              D06543
+DBLINKS     CAS: 68-26-8 11103-57-4
+            PubChem: 3756
+            ChEBI: 17336
+            LIPIDMAPS: LMPR01090001
+            KNApSAcK: C00031437
+            PDB-CCD: RTL
+            3DMET: B01255
+            NIKKAJI: J1.417F J203.784J
+ATOM        21
+            1   C1x C    17.6556  -18.6914
+            2   C1x C    17.6556  -20.1003
+            3   C1x C    18.8757  -20.8047
+            4   C2y C    20.0958  -20.1003
+            5   C2y C    20.0958  -18.6914
+            6   C1z C    18.8757  -17.9870
+            7   C1a C    21.3159  -20.8047
+            8   C2b C    22.5360  -18.6914
+            9   C2b C    21.3159  -17.9870
+            10  C2c C    23.7412  -17.9955
+            11  C2b C    24.9370  -18.6859
+            12  C1a C    20.0958  -17.2825
+            13  C1a C    17.6556  -17.2825
+            14  C2b C    26.1354  -17.9939
+            15  C1a C    23.7413  -16.5784
+            16  C2b C    27.3325  -18.6851
+            17  C2c C    28.5301  -17.9935
+            18  C2b C    29.7278  -18.6849
+            19  C1b C    30.9252  -17.9933
+            20  O1a O    32.1229  -18.6849
+            21  C1a C    28.5302  -16.5783
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     8   9 2
+            9     5   9 1
+            10    8  10 1
+            11   10  11 2
+            12    6  12 1
+            13    6  13 1
+            14   11  14 1
+            15   10  15 1
+            16   14  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 1
+            21   17  21 1
+///

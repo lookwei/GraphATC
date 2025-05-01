@@ -1,0 +1,103 @@
+ENTRY       D08469                      Drug
+NAME        Rasagiline (USAN/INN);
+            Azilect (TN)
+FORMULA     C12H13N
+EXACT_MASS  171.1048
+MOL_WEIGHT  171.2383
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01512  Monoamine oxidase B inhibitor
+             DG01967  Antiparkinson agent
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      ATC code: N04BD02
+            Chemical structure group: DG00865
+            Product (DG00865): D02562<JP/US>
+EFFICACY    Antiparkinsonian, Neuroprotectant, Monoamine oxidase B (MAO-B) inhibitor
+COMMENT     Treatment of Parkinson's disease
+TARGET      MAOB [HSA:4129] [KO:K00274]
+  PATHWAY   hsa04726(4129)  Serotonergic synapse
+            hsa04728(4129)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07057  Antiparkinsonian agents
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BD Monoamine oxidase B inhibitors
+                 N04BD02 Rasagiline
+                  D08469  Rasagiline (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                DG00865  Rasagiline
+                 D08469  Rasagiline
+              DG01967  Antiparkinson agent
+               DG00865  Rasagiline
+                D08469  Rasagiline
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00865  Rasagiline
+                D08469  Rasagiline
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOB
+                 D08469  Rasagiline (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D08469
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08469
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                DG00865  Rasagiline
+              DG01967  Antiparkinson agent
+               DG00865  Rasagiline
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00865  Rasagiline
+DBLINKS     CAS: 136236-51-6
+            PubChem: 96025155
+            ChEBI: 63620
+            PDB-CCD: RAU
+            LigandBox: D08469
+            NIKKAJI: J573.894F
+ATOM        13
+            1   C8y C    22.8900  -17.7100
+            2   C8y C    22.8900  -16.3100
+            3   C8x C    21.7000  -15.6100
+            4   C8x C    20.5100  -16.3100
+            5   C8x C    20.5100  -17.7100
+            6   C8x C    21.7000  -18.4100
+            7   C1y C    24.2200  -18.1300
+            8   C1x C    25.0600  -17.0100
+            9   C1x C    24.2200  -15.8200
+            10  N1b N    24.2200  -19.5300
+            11  C1b C    25.4800  -20.2300
+            12  C3b C    26.6700  -19.5300
+            13  C3a C    27.8600  -18.8300
+BOND        14
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    2   9 1
+            11    7  10 1 #Up
+            12   10  11 1
+            13   11  12 1
+            14   12  13 3
+///

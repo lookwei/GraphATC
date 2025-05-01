@@ -1,0 +1,100 @@
+ENTRY       D07060                      Drug
+NAME        Succinylsulfathiazole (INN)
+FORMULA     C13H13N3O5S2
+EXACT_MASS  355.0297
+MOL_WEIGHT  355.3894
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01784  Short-acting sulfonamide
+REMARK      Same as: C11745
+            ATC code: A07AB04
+            Chemical structure group: DG00088
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+COMMENT     Sulfonamide
+            Active form of prodrug: Sulfathiazole [DR:D01047]
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A07 ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS
+               A07A INTESTINAL ANTIINFECTIVES
+                A07AB Sulfonamides
+                 A07AB04 Succinylsulfathiazole
+                  D07060  Succinylsulfathiazole (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                DG00088  Succinylsulfathiazole
+                 D07060  Succinylsulfathiazole
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Short-acting sulfonamide
+                D07060  Succinylsulfathiazole (INN)
+            Prodrugs [br08324.html]
+             D07060
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                DG00088  Succinylsulfathiazole
+            Prodrugs [br08324.html(DG00088)]
+             DG00088
+DBLINKS     CAS: 116-43-8
+            PubChem: 51091402
+            ChEBI: 9309
+            LigandBox: D07060
+            NIKKAJI: J5.280I
+ATOM        23
+            1   O6a O    15.4700  -26.3200
+            2   C6a C    16.6824  -27.0200
+            3   C1b C    17.8779  -26.3296
+            4   O6a O    16.6825  -28.4198
+            5   C1b C    19.0653  -27.0151
+            6   C5a C    20.2565  -26.3271
+            7   N1b N    21.4460  -27.0138
+            8   O5a O    20.2565  -24.9203
+            9   C8y C    22.6361  -26.3265
+            10  C8x C    23.8262  -27.0135
+            11  C8x C    25.0386  -26.3134
+            12  C8y C    25.0385  -24.9134
+            13  C8x C    23.8485  -24.2264
+            14  C8x C    22.6361  -24.9265
+            15  S4a S    26.2640  -24.2056
+            16  N1b N    27.4721  -24.9029
+            17  O3c O    27.4596  -23.5151
+            18  C8y C    28.7135  -24.3358
+            19  N5x N    30.0218  -24.7704
+            20  C8x C    30.8394  -23.6604
+            21  C8x C    30.0364  -22.5398
+            22  S2x S    28.7226  -22.9572
+            23  O3c O    25.2028  -23.2908
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     2   4 2
+            4     3   5 1
+            5     5   6 1
+            6     6   7 1
+            7     6   8 2
+            8     7   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14    9  14 1
+            15   12  15 1
+            16   15  16 1
+            17   15  17 2
+            18   16  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   18  22 1
+            24   15  23 2
+///

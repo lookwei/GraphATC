@@ -1,0 +1,70 @@
+ENTRY       D02835                      Drug
+NAME        Alrestatin sodium (USAN)
+FORMULA     C14H8NO4. Na
+EXACT_MASS  277.0351
+MOL_WEIGHT  277.2074
+CLASS       Antidiabetic agent
+             DG01882  Aldose reductase inhibitor
+EFFICACY    Antidiabetic, Aldose reductase inhibitor
+TARGET      AKR1B1 [HSA:231] [KO:K00011]
+  PATHWAY   hsa00051(231)  Fructose and mannose metabolism
+            hsa00052(231)  Galactose metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01882  Aldose reductase inhibitor
+               D02835  Alrestatin sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                AKR1B1
+                 D02835  Alrestatin sodium (USAN)
+DBLINKS     CAS: 51876-97-2
+            PubChem: 17396992
+            LigandBox: D02835
+            NIKKAJI: J13.101F
+ATOM        20
+            1   Z   Na   27.3569  -16.3450 #+
+            2   C8y C    20.7200  -18.7600
+            3   C8x C    19.5076  -19.4600
+            4   C8x C    19.5076  -20.8600
+            5   C8x C    20.7200  -21.5600
+            6   C8y C    21.9324  -20.8600
+            7   C8y C    21.9324  -19.4600
+            8   C8x C    23.1449  -21.5600
+            9   C8x C    24.3573  -20.8600
+            10  C8x C    24.3573  -19.4600
+            11  C8y C    23.1449  -18.7600
+            12  C5x C    23.1449  -17.3600
+            13  N1y N    21.9324  -16.6600
+            14  C5x C    20.7200  -17.3600
+            15  O5x O    24.3573  -16.6600
+            16  O6a O    24.3573  -15.2600 #-
+            17  C6a C    23.1449  -14.5600
+            18  C1b C    21.9324  -15.2600
+            19  O5x O    19.5076  -16.6600
+            20  O6a O    23.1449  -13.1600
+BOND        21
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 2
+            9     9  10 1
+            10   10  11 2
+            11    7  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    2  14 1
+            16   12  15 2
+            17   16  17 1
+            18   17  18 1
+            19   18  13 1
+            20   14  19 2
+            21   17  20 2
+///

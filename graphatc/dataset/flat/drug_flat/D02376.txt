@@ -1,0 +1,135 @@
+ENTRY       D02376                      Drug
+NAME        Cefepime (USAN/INN)
+FORMULA     C19H24N6O5S2
+EXACT_MASS  480.125
+MOL_WEIGHT  480.5611
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01777  Fourth-generation cephalosporin
+             DG01804  Oxyimino beta-lactam
+REMARK      Same as: C08111
+            ATC code: J01DE01
+            Chemical structure group: DG00586
+            Product (DG00586): D01157<JP/US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DE Fourth-generation cephalosporins
+                 J01DE01 Cefepime
+                  D02376  Cefepime (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00586  Cefepime
+                  D02376  Cefepime
+              DG01777  Fourth-generation cephalosporin
+               DG00586  Cefepime
+                D02376  Cefepime
+              DG01804  Oxyimino beta-lactam
+               DG00586  Cefepime
+                D02376  Cefepime
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Fourth-generation cephalosporin
+                D02376  Cefepime (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00586  Cefepime
+              DG01777  Fourth-generation cephalosporin
+               DG00586  Cefepime
+              DG01804  Oxyimino beta-lactam
+               DG00586  Cefepime
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Fourth-generation cephalosporin
+                DG00586  Cefepime
+DBLINKS     CAS: 88040-23-7
+            PubChem: 7849435
+            ChEBI: 478164
+            PDB-CCD: 9WT
+            LigandBox: D02376
+            NIKKAJI: J39.157C
+ATOM        32
+            1   C1y C    26.1037  -19.5155
+            2   N1y N    26.1037  -20.9081
+            3   C2y C    27.3098  -21.6043
+            4   C2y C    28.5158  -20.9081
+            5   C1x C    28.5158  -19.5155
+            6   S2x S    27.3098  -18.8192
+            7   C1y C    24.7110  -19.5155
+            8   C5x C    24.7110  -20.9081
+            9   N1b N    23.5053  -18.8192
+            10  C5a C    22.2991  -19.5155
+            11  O5a O    22.2991  -20.9081
+            12  O5x O    23.5053  -21.6043
+            13  C2c C    21.0930  -18.8192
+            14  C1b C    29.7404  -21.6154
+            15  C8y C    19.8677  -19.5271
+            16  N2y N    30.9514  -20.9165 #+
+            17  C8x C    18.7560  -18.6662
+            18  S2x S    17.5894  -19.4566
+            19  C8y C    17.9809  -20.8102
+            20  N5x N    19.3891  -20.8565
+            21  N2b N    21.0929  -17.4052
+            22  C6a C    27.3098  -23.0135
+            23  O6a O    28.5265  -23.7159 #-
+            24  O6a O    26.0948  -23.7151
+            25  C1x C    30.9516  -19.5037
+            26  C1x C    32.2950  -21.3532
+            27  C1x C    33.1255  -20.2103
+            28  C1x C    32.2953  -19.0672
+            29  C1a C    30.9514  -22.3205
+            30  N1a N    17.1521  -21.9174
+            31  O2a O    22.2830  -16.7186
+            32  C1a C    22.2833  -15.3385
+BOND        35
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16   13  15 1
+            17   14  16 1
+            18   15  17 2
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   13  21 2
+            24    3  22 1
+            25   22  23 1
+            26   22  24 2
+            27   16  25 1
+            28   16  26 1
+            29   26  27 1
+            30   27  28 1
+            31   25  28 1
+            32   16  29 1
+            33   19  30 1
+            34   21  31 1
+            35   31  32 1
+///

@@ -1,0 +1,107 @@
+ENTRY       D03716                      Drug
+NAME        Parecoxib (USAN/INN)
+FORMULA     C19H18N2O4S
+EXACT_MASS  370.0987
+MOL_WEIGHT  370.4222
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01922  Selective COX2 inhibitor
+               DG01907  Anti-inflammatory drug, coxibs
+REMARK      ATC code: M01AH04
+            Chemical structure group: DG00759
+EFFICACY    Analgesic, Anti-inflammatory, COX-2 inhibitor
+COMMENT     Active form of prodrug: Valdecoxib [DR:D02709]
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AH Coxibs
+                 M01AH04 Parecoxib
+                  D03716  Parecoxib (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01922  Selective COX2 inhibitor
+                DG01907  Anti-inflammatory drug, coxibs
+                 DG00759  Parecoxib
+                  D03716  Parecoxib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS2 (COX2)
+                 D03716  Parecoxib (USAN/INN)
+            Prodrugs [br08324.html]
+             D03716
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01922  Selective COX2 inhibitor
+                DG01907  Anti-inflammatory drug, coxibs
+                 DG00759  Parecoxib
+            Prodrugs [br08324.html(DG00759)]
+             DG00759
+DBLINKS     CAS: 198470-84-7
+            PubChem: 17397807
+            PDB-CCD: PXB
+            LigandBox: D03716
+ATOM        26
+            1   C8y C    36.2600  -19.7400
+            2   C8y C    36.2600  -21.1400
+            3   N5x N    37.5900  -21.5600
+            4   O2x O    38.4300  -20.4400
+            5   C8y C    37.5900  -19.3200
+            6   C8y C    35.1400  -18.9000
+            7   C8y C    32.6900  -17.5000
+            8   C8x C    32.6900  -18.9000
+            9   C8x C    33.8800  -19.6000
+            10  C8x C    35.1400  -17.5000
+            11  C8x C    33.8800  -16.8000
+            12  S4a S    31.5000  -16.8000
+            13  N1b N    30.2400  -16.1000
+            14  O3c O    32.2000  -15.6100
+            15  O3c O    30.8000  -17.9900
+            16  C5a C    29.0500  -16.8000
+            17  C1b C    27.8600  -16.1000
+            18  C1a C    26.6700  -16.8000
+            19  O5a O    29.0500  -18.2000
+            20  C8y C    35.1400  -21.9800
+            21  C8x C    32.6900  -21.9800
+            22  C8x C    32.6900  -23.3800
+            23  C8x C    33.8800  -24.0800
+            24  C8x C    35.1400  -23.3800
+            25  C8x C    33.8800  -21.2800
+            26  C1a C    38.0180  -17.9870
+BOND        28
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     1   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9   6 2
+            10    6  10 1
+            11   10  11 2
+            12    7  11 1
+            13    7  12 1
+            14   12  13 1
+            15   12  14 2
+            16   12  15 2
+            17   13  16 1
+            18   16  17 1
+            19   17  18 1
+            20   16  19 2
+            21    2  20 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   24  20 1
+            26   20  25 2
+            27   21  25 1
+            28    5  26 1
+///

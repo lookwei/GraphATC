@@ -1,0 +1,67 @@
+ENTRY       D07823                      Drug
+NAME        Diethazine (INN)
+FORMULA     C18H22N2S
+EXACT_MASS  298.1504
+MOL_WEIGHT  298.4457
+REMARK      Chemical structure group: DG01921
+EFFICACY    Antiparkinsonian, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D07823  Diethazine (INN)
+DBLINKS     CAS: 60-91-3
+            PubChem: 96024520
+            LigandBox: D07823
+            NIKKAJI: J4.810K
+ATOM        21
+            1   C8y C    25.3400  -19.3200
+            2   C8y C    25.3400  -20.7200
+            3   C8x C    26.5300  -21.4200
+            4   C8x C    27.7900  -20.7200
+            5   C8x C    27.7900  -19.3200
+            6   C8x C    26.5300  -18.6200
+            7   N1y N    24.1500  -18.6200
+            8   C8y C    22.8900  -19.3200
+            9   C8y C    22.8900  -20.7200
+            10  S2x S    24.1500  -21.4200
+            11  C8x C    21.7000  -18.6200
+            12  C8x C    20.5100  -19.3200
+            13  C8x C    20.5100  -20.7200
+            14  C8x C    21.7000  -21.4200
+            15  C1b C    24.1500  -17.2200
+            16  C1b C    25.3400  -16.5200
+            17  N1c N    25.3400  -15.1200
+            18  C1b C    26.5300  -14.4200
+            19  C1b C    24.1500  -14.4200
+            20  C1a C    27.7900  -15.1200
+            21  C1a C    22.9600  -15.1200
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    2  10 1
+            12    8  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16    9  14 1
+            17    7  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   17  19 1
+            22   18  20 1
+            23   19  21 1
+///

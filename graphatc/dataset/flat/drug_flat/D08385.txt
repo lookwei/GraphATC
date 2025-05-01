@@ -1,0 +1,126 @@
+ENTRY       D08385                      Drug
+NAME        Pipotiazine (INN);
+            Piportil (TN)
+FORMULA     C24H33N3O3S2
+EXACT_MASS  475.1963
+MOL_WEIGHT  475.6671
+CLASS       Neuropsychiatric agent
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      ATC code: N05AC04
+            Chemical structure group: DG00884
+EFFICACY    Antipsychotic, Neuroleptic
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            DRD1 [HSA:1812] [KO:K04144]
+            HTR2A [HSA:3356] [KO:K04157]
+            HTR1A [HSA:3350] [KO:K04153]
+  PATHWAY   hsa04080(1812+1813+3350+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3356)  Serotonergic synapse
+            hsa04728(1812+1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AC Phenothiazines with piperidine structure
+                 N05AC04 Pipotiazine
+                  D08385  Pipotiazine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00884  Pipotiazine
+                 D08385  Pipotiazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D08385  Pipotiazine (INN)
+                DRD2
+                 D08385  Pipotiazine (INN)
+               Serotonin
+                HTR1A
+                 D08385  Pipotiazine (INN)
+                HTR2A
+                 D08385  Pipotiazine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00884  Pipotiazine
+DBLINKS     CAS: 39860-99-6
+            PubChem: 96025071
+            LigandBox: D08385
+            NIKKAJI: J16.029F
+ATOM        32
+            1   C8x C    14.2800  -22.4700
+            2   C8x C    15.4700  -21.7700
+            3   C8y C    15.4700  -20.3700
+            4   C8x C    14.2800  -19.6700
+            5   C8y C    13.0900  -21.7700
+            6   C8y C    13.0900  -20.3700
+            7   N1y N    11.9000  -19.6700
+            8   S2x S    11.9000  -22.4700
+            9   C8y C    10.7100  -21.7700
+            10  C8y C    10.7100  -20.3700
+            11  C8x C     9.4500  -19.6700
+            12  C8x C     8.2600  -20.3700
+            13  C8x C     8.2600  -21.7700
+            14  C8x C     9.4500  -22.4700
+            15  C1b C    11.9000  -18.2700
+            16  C1b C    13.0900  -17.5700
+            17  C1b C    13.0900  -16.2400
+            18  N1y N    14.2800  -15.5400
+            19  C1x C    15.4700  -16.1700
+            20  C1x C    16.6600  -15.5400
+            21  C1y C    16.6600  -14.1400
+            22  C1x C    15.4700  -13.4400
+            23  C1x C    14.2800  -14.1400
+            24  C1b C    17.8500  -13.4400
+            25  C1b C    19.1100  -14.1400
+            26  O1a O    20.3000  -13.4400
+            27  S4a S    16.7300  -19.6700
+            28  N1c N    17.9200  -20.3700
+            29  C1a C    19.1100  -19.6700
+            30  C1a C    17.9200  -21.7700
+            31  O3c O    17.7100  -18.6900
+            32  O3c O    15.6800  -18.6900
+BOND        35
+            1    23  18 1
+            2     1   2 2
+            3    21  24 1
+            4     2   3 1
+            5    24  25 1
+            6     9  10 2
+            7    25  26 1
+            8    10  11 1
+            9    11  12 2
+            10   12  13 1
+            11   13  14 2
+            12   14   9 1
+            13    3  27 1
+            14    5   6 2
+            15   27  28 1
+            16    7  15 1
+            17   28  29 1
+            18    6   7 1
+            19   28  30 1
+            20   15  16 1
+            21   27  31 2
+            22    7  10 1
+            23   27  32 2
+            24   16  17 1
+            25    9   8 1
+            26   17  18 1
+            27    8   5 1
+            28    3   4 2
+            29    4   6 1
+            30    5   1 1
+            31   18  19 1
+            32   19  20 1
+            33   20  21 1
+            34   21  22 1
+            35   22  23 1
+///

@@ -1,0 +1,96 @@
+ENTRY       D02850                      Drug
+NAME        Sulukast (USAN/INN)
+FORMULA     C25H36N4O3S
+EXACT_MASS  472.2508
+MOL_WEIGHT  472.6433
+CLASS       Anti-allergic agent
+             DG01541  Cysteinyl leukotriene receptor antagonist
+EFFICACY    Antiasthmatic, Leukotriene receptor antagonist
+COMMENT     Leukotriene analog
+TARGET      CYSLTR1 [HSA:10800] [KO:K04322]
+  PATHWAY   hsa04080(10800)  Neuroactive ligand-receptor interaction
+BRITE       Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01541  Cysteinyl leukotriene receptor antagonist
+               D02850  Sulukast
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Cysteinyl leukotriene
+                CYSLTR1
+                 D02850  Sulukast (USAN/INN)
+DBLINKS     CAS: 98116-53-1
+            PubChem: 17397007
+            ChEBI: 177556
+            LigandBox: D02850
+            NIKKAJI: J356.362F
+ATOM        33
+            1   C8x C    21.6300  -16.9400
+            2   C8y C    21.6300  -18.3400
+            3   C8x C    22.8424  -19.0400
+            4   C8y C    24.0549  -18.3400
+            5   C8x C    24.0549  -16.9400
+            6   C8x C    22.8424  -16.2400
+            7   C8y C    20.4176  -19.0400
+            8   C1c C    25.2860  -19.0510
+            9   N5x N    19.1574  -18.4788
+            10  N5x N    18.2343  -19.5039
+            11  N5x N    18.9239  -20.6986
+            12  N4x N    20.2732  -20.4119
+            13  C1c C    26.4824  -18.3400
+            14  C2b C    27.6949  -19.0400
+            15  C2b C    28.9073  -18.3400
+            16  C2b C    30.1197  -19.0400
+            17  O1a O    25.2945  -20.4398
+            18  S2a S    26.4736  -16.9401
+            19  C1b C    27.6715  -16.2383
+            20  C1b C    28.8727  -16.9219
+            21  C6a C    30.0485  -16.2333
+            22  O6a O    31.2541  -16.9195
+            23  O6a O    30.0398  -14.8400
+            24  C2b C    31.5197  -19.0400
+            25  C1b C    32.7124  -18.3400
+            26  C1b C    33.9249  -19.0400
+            27  C1b C    35.1373  -18.3400
+            28  C1b C    36.3497  -19.0400
+            29  C1b C    37.5622  -18.3400
+            30  C1b C    38.7746  -19.0400
+            31  C1b C    39.9870  -18.3400
+            32  C1b C    41.1995  -19.0400
+            33  C1a C    42.4119  -18.3400
+BOND        34
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     4   8 1
+            9     7   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13    7  12 1
+            14    8  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18    8  17 1 #Up
+            19   13  18 1 #Down
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+            25   16  24 2
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   32  33 1
+///

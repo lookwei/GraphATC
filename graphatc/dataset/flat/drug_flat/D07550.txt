@@ -1,0 +1,118 @@
+ENTRY       D07550                      Drug
+NAME        Bunazosin (INN)
+FORMULA     C19H27N5O3
+EXACT_MASS  373.2114
+MOL_WEIGHT  373.4494
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Chemical structure group: DG01316
+            Product (DG01316): D01887<JP>
+EFFICACY    Antihypertensive, alpha1-Adrenergic receptor antagonist
+COMMENT     Prazosin derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148)  Salivary secretion
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+            map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG01316  Bunazosin
+                  D07550  Bunazosin
+              DG03231  Antihypertensive
+               DG01316  Bunazosin
+                D07550  Bunazosin
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01316  Bunazosin
+                D07550  Bunazosin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D07550  Bunazosin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG01316  Bunazosin
+              DG03231  Antihypertensive
+               DG01316  Bunazosin
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01316  Bunazosin
+DBLINKS     CAS: 80755-51-7
+            PubChem: 51091872
+            LigandBox: D07550
+            NIKKAJI: J32.851K
+ATOM        27
+            1   C8y C    29.2600  -18.8300
+            2   C8y C    29.2600  -20.2300
+            3   C8x C    28.0000  -20.9300
+            4   C8x C    28.0000  -18.1300
+            5   C8y C    26.8100  -18.8300
+            6   C8y C    26.8100  -20.2300
+            7   C8y C    25.6200  -20.9300
+            8   N5x N    24.3600  -20.2300
+            9   C8y C    24.3600  -18.8300
+            10  N5x N    25.6200  -18.1300
+            11  N1y N    23.1700  -18.1300
+            12  C1x C    23.1700  -16.7300
+            13  C1x C    22.1900  -15.8200
+            14  C1x C    21.9800  -18.9700
+            15  N1y N    20.8600  -16.0300
+            16  C1x C    20.6500  -18.5500
+            17  C1x C    20.1600  -17.2200
+            18  C5a C    20.1600  -14.7700
+            19  C1b C    18.7600  -14.7700
+            20  C1b C    18.0600  -13.5800
+            21  C1a C    16.6600  -13.5800
+            22  O5a O    20.8600  -13.5800
+            23  O2a O    30.4500  -18.1300
+            24  C1a C    31.6400  -18.8300
+            25  O2a O    30.4500  -20.9300
+            26  C1a C    31.6400  -20.2300
+            27  N1a N    25.6200  -22.3300
+BOND        29
+            1    12  13 1
+            2     1   2 2
+            3    11  14 1
+            4     2   3 1
+            5    13  15 1
+            6     3   6 2
+            7    14  16 1
+            8     5   4 2
+            9    15  17 1
+            10   16  17 1
+            11    5   6 1
+            12   15  18 1
+            13    6   7 1
+            14   18  19 1
+            15    7   8 2
+            16   19  20 1
+            17    8   9 1
+            18   20  21 1
+            19    9  10 2
+            20   18  22 2
+            21   10   5 1
+            22    1  23 1
+            23    4   1 1
+            24   23  24 1
+            25    9  11 1
+            26    2  25 1
+            27   25  26 1
+            28   11  12 1
+            29    7  27 1
+///

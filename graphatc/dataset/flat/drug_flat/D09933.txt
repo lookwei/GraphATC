@@ -1,0 +1,113 @@
+ENTRY       D09933                      Drug
+NAME        Naronapride (USAN/INN)
+FORMULA     C27H41ClN4O5
+EXACT_MASS  536.2765
+MOL_WEIGHT  537.0912
+CLASS       Gastrointestinal agent
+             DG01763  Propulsive
+REMARK      Chemical structure group: DG01335
+EFFICACY    Prokinetic, Serotonin receptor agonist
+COMMENT     Treatment of gastric disorders
+TARGET      HTR4 [HSA:3360] [KO:K04160]
+  PATHWAY   hsa04020(3360)  Calcium signaling pathway
+            hsa04080(3360)  Neuroactive ligand-receptor interaction
+            hsa04726(3360)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG01335  Naronapride
+                D09933  Naronapride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR4
+                 D09933  Naronapride (USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG01335  Naronapride
+DBLINKS     CAS: 860174-12-5
+            PubChem: 135626667
+            LigandBox: D09933
+ATOM        37
+            1   C1y C    33.7400  -17.2200
+            2   C1x C    34.5800  -16.1700
+            3   C1y C    32.5500  -17.8500
+            4   C1x C    35.1400  -17.5000
+            5   N1y N    34.4400  -18.3400
+            6   C1x C    33.1800  -19.1800
+            7   C1x C    35.8400  -18.6900
+            8   C1x C    34.9300  -16.8700
+            9   C7a C    30.1700  -17.8500
+            10  O7a O    31.3600  -18.5500
+            11  C1b C    28.9519  -18.5401
+            12  O6a O    30.1814  -16.4500
+            13  C1b C    27.7705  -17.8450
+            14  C1b C    26.5651  -18.5280
+            15  C1b C    25.3939  -17.8391
+            16  C1b C    24.1835  -18.5251
+            17  N1y N    22.9634  -17.8071
+            18  C1x C    22.9753  -16.3801
+            19  C1x C    21.7688  -15.6700
+            20  C1y C    20.5505  -16.3598
+            21  C1y C    20.6086  -17.7868
+            22  C1x C    21.7451  -18.4969
+            23  N1b N    19.3580  -15.6968
+            24  O2a O    19.3801  -18.5012
+            25  C5a C    18.1881  -16.3979
+            26  C8y C    16.9661  -15.7186
+            27  O5a O    18.2107  -17.7800
+            28  C1a C    19.3801  -19.9012
+            29  C8y C    16.9433  -14.3500
+            30  C8x C    15.7194  -13.6703
+            31  C8y C    14.5888  -14.3904
+            32  C8y C    14.5416  -15.7590
+            33  C8x C    15.7655  -16.4387
+            34  X   Cl   13.3408  -16.4381
+            35  O2a O    18.1415  -13.6314
+            36  C1a C    18.1415  -12.2314
+            37  N1a N    13.3649  -13.6908
+BOND        40
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     3   6 1
+            5     4   7 1
+            6     5   6 1
+            7     5   7 1
+            8     5   8 1
+            9     2   8 1
+            10    9  10 1
+            11    3  10 1 #Down
+            12    9  11 1
+            13    9  12 2
+            14   11  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   17  22 1
+            25   20  23 1 #Down
+            26   21  24 1 #Down
+            27   23  25 1
+            28   25  26 1
+            29   25  27 2
+            30   24  28 1
+            31   26  29 2
+            32   29  30 1
+            33   30  31 2
+            34   31  32 1
+            35   32  33 2
+            36   26  33 1
+            37   32  34 1
+            38   29  35 1
+            39   35  36 1
+            40   31  37 1
+///

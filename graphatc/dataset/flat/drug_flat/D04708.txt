@@ -1,0 +1,135 @@
+ENTRY       D04708                      Drug
+NAME        Levdobutamine lactobionate (USAN)
+FORMULA     C12H22O12. C18H23NO3
+EXACT_MASS  659.2789
+MOL_WEIGHT  659.676
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01451  beta1-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+EFFICACY    Cardiotonic, beta1-Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04020(153)  Calcium signaling pathway
+            hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                D04708  Levdobutamine lactobionate
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01451  beta1-Adrenergic receptor agonist
+                 D04708  Levdobutamine lactobionate
+              DG01951  Catecholamine adrenergic receptor agonist
+               D04708  Levdobutamine lactobionate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D04708  Levdobutamine lactobionate (USAN)
+DBLINKS     CAS: 129388-07-4
+            PubChem: 47206536
+            LigandBox: D04708
+ATOM        46
+            1   C8y C     7.8400  -16.0300
+            2   C8x C     6.5800  -15.3300
+            3   C8x C     7.8400  -17.4300
+            4   C1b C     9.0300  -15.3300
+            5   C8y C     5.3200  -16.0300
+            6   C8x C     6.6500  -18.1300
+            7   C1b C    10.2200  -16.0300
+            8   C8y C     5.3200  -17.4300
+            9   O1a O     4.2000  -15.3300
+            10  N1b N    11.4800  -15.3300
+            11  O1a O     4.1300  -18.1300
+            12  C1c C    12.6700  -16.0300
+            13  C1b C    13.8600  -15.3300
+            14  C1a C    12.6700  -17.4300
+            15  C1b C    15.0500  -16.0300
+            16  C8y C    16.3100  -15.3300
+            17  C8x C    17.5000  -16.0300
+            18  C8x C    16.3100  -13.9300
+            19  C8x C    18.6900  -15.3300
+            20  C8x C    17.5000  -13.2300
+            21  C8y C    18.6900  -13.9300
+            22  O1a O    19.9500  -13.2300
+            23  C1c C    28.3500  -14.4200
+            24  C1c C    29.5400  -13.7900
+            25  C1c C    27.1600  -13.7200
+            26  C1b C    25.9000  -14.4200
+            27  O1a O    24.7100  -13.7200
+            28  O1a O    27.1600  -12.3200
+            29  C1c C    30.7300  -14.4200
+            30  C6a C    31.9900  -13.7200
+            31  O6a O    33.1800  -14.4200
+            32  O6a O    31.9900  -12.3200
+            33  C1y C    27.1600  -16.5900
+            34  O2x O    25.9700  -15.8900
+            35  C1y C    27.1600  -17.9200
+            36  C1y C    24.7800  -16.5900
+            37  C1y C    25.9700  -18.6200
+            38  O1a O    28.4200  -18.6200
+            39  C1y C    24.7800  -17.9200
+            40  C1b C    23.5200  -15.8900
+            41  O1a O    25.9700  -20.0200
+            42  O1a O    23.5200  -18.6200
+            43  O1a O    22.3300  -16.5900
+            44  O2a O    28.3500  -15.8900
+            45  O1a O    29.5400  -12.3200
+            46  O1a O    30.7300  -15.8900
+BOND        47
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11   10  12 1
+            12   12  13 1
+            13   12  14 1 #Down
+            14   13  15 1
+            15   15  16 1
+            16   16  17 2
+            17   16  18 1
+            18   17  19 1
+            19   18  20 2
+            20   19  21 2
+            21   21  22 1
+            22    6   8 1
+            23   20  21 1
+            24   23  24 1
+            25   23  25 1
+            26   25  26 1
+            27   26  27 1
+            28   25  28 1 #Up
+            29   24  29 1
+            30   29  30 1
+            31   30  31 1
+            32   30  32 2
+            33   33  34 1
+            34   33  35 1
+            35   34  36 1
+            36   35  37 1
+            37   35  38 1 #Down
+            38   36  39 1
+            39   36  40 1 #Up
+            40   37  41 1 #Up
+            41   39  42 1 #Up
+            42   40  43 1
+            43   37  39 1
+            44   33  44 1 #Up
+            45   23  44 1 #Down
+            46   24  45 1 #Down
+            47   29  46 1 #Down
+///

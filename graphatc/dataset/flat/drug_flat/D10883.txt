@@ -1,0 +1,129 @@
+ENTRY       D10883                      Drug
+NAME        Ribociclib (USAN/INN)
+FORMULA     C23H30N8O
+EXACT_MASS  434.2543
+MOL_WEIGHT  434.5373
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01EF02
+            Chemical structure group: DG02084
+            Product (DG02084): D10979<US>
+            Product (mixture): D11068<US>
+EFFICACY    Antineoplastic, Cyclin-dependent kinase (CDK) inhibitor
+TARGET      CDK4/6 [HSA:1019 1021] [KO:K02089 K02091]
+  PATHWAY   hsa04110(1019+1021)  Cell cycle
+            hsa04151(1019+1021)  PI3K-Akt signaling pathway
+            hsa05200(1019+1021)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EF Cyclin-dependent kinase (CDK) inhibitors
+                 L01EF02 Ribociclib
+                  D10883  Ribociclib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG02084  Ribociclib
+                D10883  Ribociclib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02084  Ribociclib
+                 D10883  Ribociclib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK4/6
+                 D10883  Ribociclib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10883
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG02084  Ribociclib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02084  Ribociclib
+DBLINKS     CAS: 1211441-98-3
+            PubChem: 333497492
+            PDB-CCD: 6ZZ
+ATOM        32
+            1   N5x N    10.7100  -11.4800
+            2   C8y C    10.7100  -12.8800
+            3   N5x N     9.5200  -13.5800
+            4   C8y C     8.2600  -12.8800
+            5   C8y C     8.2600  -11.4800
+            6   C8x C     9.5200  -10.7800
+            7   N4y N     6.9300  -13.3000
+            8   C8y C     6.1600  -12.1800
+            9   C8x C     6.9300  -11.0600
+            10  N1b N    11.9000  -13.5800
+            11  C8y C    13.0900  -12.8800
+            12  C8x C    13.0900  -11.4800
+            13  C8x C    14.3500  -10.7800
+            14  C8y C    15.5400  -11.4800
+            15  C8x C    15.5400  -12.8800
+            16  N5x N    14.3500  -13.5800
+            17  N1y N    16.7300  -10.7800
+            18  C1x C    16.7300   -9.3800
+            19  C1x C    17.9900   -8.6800
+            20  N1x N    19.1800   -9.3800
+            21  C1x C    19.1800  -10.7800
+            22  C1x C    17.9900  -11.4800
+            23  C5a C     4.7600  -12.1800
+            24  C1y C     6.5100  -14.6300
+            25  C1x C     7.3500  -15.7500
+            26  C1x C     6.5100  -16.8700
+            27  C1x C     5.1800  -16.4500
+            28  C1x C     5.1800  -15.0500
+            29  O5a O     4.0600  -13.3700
+            30  N1c N     4.0600  -10.9900
+            31  C1a C     2.6600  -10.9900
+            32  C1a C     4.7600   -9.8000
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    2  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   14  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   17  22 1
+            26    8  23 1
+            27    7  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   24  28 1
+            33   23  29 2
+            34   23  30 1
+            35   30  31 1
+            36   30  32 1
+///

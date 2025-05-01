@@ -1,0 +1,83 @@
+ENTRY       D02581                      Drug
+NAME        Cimoxatone (INN)
+FORMULA     C19H18N2O4
+EXACT_MASS  338.1267
+MOL_WEIGHT  338.3572
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01558  Monoamine oxidase A inhibitor
+EFFICACY    Antidepressant, Monoamine oxidase A (MAO-A) inhibitor
+TARGET      MAOA [HSA:4128] [KO:K00274]
+  PATHWAY   hsa04726(4128)  Serotonergic synapse
+            hsa04728(4128)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01558  Monoamine oxidase A inhibitor
+                D02581  Cimoxatone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOA
+                 D02581  Cimoxatone (INN)
+DBLINKS     CAS: 73815-11-9
+            PubChem: 17396752
+            LigandBox: D02581
+            NIKKAJI: J22.667J
+ATOM        25
+            1   C8y C    10.0800  -18.3400
+            2   C8x C    10.0800  -19.7400
+            3   C8x C    11.2700  -20.4400
+            4   C8x C    12.5300  -19.7400
+            5   C8y C    12.5300  -18.3400
+            6   C8x C    11.2700  -17.6400
+            7   C3b C     8.8900  -17.6400
+            8   N3a N     7.7000  -16.9400
+            9   C1b C    13.7200  -17.6400
+            10  O2a O    14.9100  -18.3400
+            11  C8y C    16.1000  -17.6400
+            12  C8x C    17.2900  -18.3400
+            13  C8x C    18.5500  -17.6400
+            14  C8y C    18.5500  -16.2400
+            15  C8x C    17.3600  -15.5400
+            16  C8x C    16.1000  -16.2400
+            17  N1y N    19.7653  -15.5449
+            18  C7x C    19.7653  -14.1449
+            19  C1x C    21.0968  -15.9776
+            20  C1y C    21.9197  -14.8449
+            21  O7x O    21.0968  -13.7123
+            22  O6a O    18.6139  -13.3082
+            23  C1b C    23.3100  -14.8449
+            24  O2a O    24.0121  -13.6288
+            25  C1a C    25.4098  -13.6288
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 3
+            9     5   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   11  16 1
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1
+            21   19  20 1
+            22   20  21 1
+            23   18  21 1
+            24   18  22 2
+            25   20  23 1
+            26   23  24 1
+            27   24  25 1
+///

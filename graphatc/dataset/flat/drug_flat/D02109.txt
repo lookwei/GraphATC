@@ -1,0 +1,113 @@
+ENTRY       D02109                      Drug
+NAME        dl-Methylephedrine hydrochloride (JP18);
+            Methy-F (TN)
+FORMULA     C11H17NO. HCl
+EXACT_MASS  215.1077
+MOL_WEIGHT  215.7197
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+REMARK      Same as: C13639
+            Therapeutic category: 2221
+            Chemical structure group: DG01229
+            Product (DG01229): D02109<JP>
+            Product (mixture): D04313<JP> D04342<JP> D08695<JP>
+EFFICACY    Antitussive, Bronchodilator, Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148+153+154+155)  Salivary secretion
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               222  Antitussives
+                2221  Ephedrines and Ephedra herbs
+                 D02109  dl-Methylephedrine hydrochloride (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              01 Cold remedy (oral use)
+               D02109  dl-Methylephedrine hydrochloride (JP18)
+             Agents for respiratory organs
+              26 Antitussives and expectorants
+               D02109  dl-Methylephedrine hydrochloride (JP18)
+             Agents for  urogenital organs and anus
+              30 Hemorrhoid drugs for external use
+               D02109  dl-Methylephedrine hydrochloride (JP18)
+             Agents for otolaryngologic use
+              69 Oral medicine for nasal inflammation
+               D02109  dl-Methylephedrine hydrochloride (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Methylephedrine
+                D02109  dl-Methylephedrine hydrochloride (JP18)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Methylephedrine
+                D02109  dl-Methylephedrine hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+                D02109  dl-Methylephedrine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D02109  dl-Methylephedrine hydrochloride (JP18) &lt;JP&gt;
+                ADRA2
+                 D02109  dl-Methylephedrine hydrochloride (JP18) &lt;JP&gt;
+                ADRB
+                 D02109  dl-Methylephedrine hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02109  dl-Methylephedrine hydrochloride
+              D02109  10% dl-Methylephedrine hydrochloride powder
+            Narcotics and psychotropics in Japan [br08308.html]
+             Stimulants by Control Act Article 2 Appended Table and Cabinet Order
+              D02109
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+DBLINKS     CAS: 18760-80-0
+            PubChem: 7849170
+            ChEBI: 79398
+            LigandBox: D02109
+            NIKKAJI: J237.399H
+ATOM        14
+            1   C8x C    27.6287  -17.1735
+            2   C8x C    27.6287  -18.5731
+            3   C8x C    28.8416  -19.2728
+            4   C8x C    30.0545  -18.5731
+            5   C8y C    30.0545  -17.1735
+            6   C8x C    28.8416  -16.4738
+            7   C1c C    31.2674  -16.4738
+            8   C1c C    32.4804  -17.1735
+            9   N1c N    33.6933  -16.4738
+            10  C1a C    34.9062  -17.1735
+            11  C1a C    32.4804  -18.5731
+            12  O1a O    31.2674  -15.0743
+            13  C1a C    33.6933  -15.0743
+            14  X   Cl   39.4336  -16.9402
+BOND        13
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    8  11 1
+            12    7  12 1
+            13    9  13 1
+///

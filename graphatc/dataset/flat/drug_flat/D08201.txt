@@ -1,0 +1,94 @@
+ENTRY       D08201                      Drug
+NAME        Methoxamine (BAN)
+FORMULA     C11H17NO3
+EXACT_MASS  211.1208
+MOL_WEIGHT  211.2576
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+REMARK      Same as: C07513
+            ATC code: C01CA10
+            Chemical structure group: DG00219
+EFFICACY    Antihypotensive, alpha1-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA10 Methoxamine
+                  D08201  Methoxamine (BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00219  Methoxamine
+                 D08201  Methoxamine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00219  Methoxamine
+                  D08201  Methoxamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08201  Methoxamine (BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00219  Methoxamine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00219  Methoxamine
+DBLINKS     CAS: 390-28-3
+            PubChem: 96024891
+            ChEBI: 6839
+            LigandBox: D08201
+            NIKKAJI: J5.717G
+ATOM        15
+            1   C8y C    15.0500  -23.6600
+            2   C8x C    15.0500  -25.0600
+            3   C8x C    16.2624  -25.7600
+            4   C8y C    17.4749  -25.0600
+            5   C8y C    17.4749  -23.6600
+            6   C8x C    16.2624  -22.9600
+            7   C1c C    18.7060  -22.9490
+            8   C1c C    19.9112  -23.6447
+            9   O1a O    18.7057  -21.5601
+            10  N1a N    21.0935  -22.9619
+            11  C1a C    19.9116  -25.0596
+            12  O2a O    13.8376  -22.9600
+            13  C1a C    12.6421  -23.6504
+            14  O2a O    18.7060  -25.7710
+            15  C1a C    18.7060  -27.1710
+BOND        15
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    8  10 1
+            11    8  11 1
+            12    1  12 1
+            13   12  13 1
+            14    4  14 1
+            15   14  15 1
+///

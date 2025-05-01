@@ -1,0 +1,110 @@
+ENTRY       C05551                      Compound
+NAME        Penicillin G;
+            Benzylpenicillin
+FORMULA     C16H18N2O4S
+EXACT_MASS  334.0987
+MOL_WEIGHT  334.3901
+REMARK      Same as: D02336
+REACTION    R04103 R04318 R04868
+PATHWAY     map04976  Bile secretion
+ENZYME      2.3.1.164       3.5.1.11        3.5.2.6
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              beta-Lactams
+               Penams
+                C05551  Penicillin G
+            Prodrugs [br08324.html]
+             C05551
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D02336)]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CE Beta-lactamase sensitive penicillins
+                 J01CE01 Benzylpenicillin
+                  D02336  Benzylpenicillin (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA14 Benzylpenicillin
+                  D02336  Benzylpenicillin (INN)
+            Drug groups [BR:br08330(D02336)]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00534  Benzylpenicillin
+                  D02336  Benzylpenicillin
+              DG01778  beta-Lactamase sensitive penicillin
+               DG00534  Benzylpenicillin
+                D02336  Benzylpenicillin
+             Transporter substrate
+              DG02860  SLC22A8 substrate
+               D02336  Benzylpenicillin
+            Antimicrobials [BR:br08307(D02336)]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase sensitive penicillin
+                D02336  Benzylpenicillin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html(D02336)]
+             Drug transporters
+              D02336
+            Prodrugs [br08324.html(D02336)]
+             D02336
+DBLINKS     CAS: 61-33-6
+            PubChem: 7885
+            ChEBI: 18208
+            PDB-CCD: PNN
+            3DMET: B01871
+            NIKKAJI: J2.342F
+ATOM        23
+            1   C1y C    28.4000  -14.5226
+            2   C5x C    28.4000  -15.9274
+            3   N1y N    29.8049  -15.9274
+            4   C1y C    29.8049  -14.5226
+            5   C1y C    31.1394  -16.3488
+            6   C1z C    31.9822  -15.2249
+            7   S2x S    31.1394  -14.1010
+            8   C1a C    32.9657  -16.2083
+            9   C1a C    32.9657  -14.2415
+            10  C6a C    31.6311  -17.6833
+            11  O6a O    33.0358  -17.6833
+            12  O6a O    30.7881  -18.8071
+            13  N1b N    27.2059  -13.8201
+            14  C5a C    26.0118  -14.5226
+            15  O5x O    27.2059  -16.6297
+            16  O5a O    26.0118  -15.9274
+            17  C1b C    24.7923  -13.8250
+            18  C8y C    23.5999  -14.5203
+            19  C8x C    22.3863  -13.8196
+            20  C8x C    21.1728  -14.5203
+            21  C8x C    21.1728  -15.9215
+            22  C8x C    22.3863  -16.6221
+            23  C8x C    23.5999  -15.9215
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   18  23 1
+///

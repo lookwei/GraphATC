@@ -1,0 +1,157 @@
+ENTRY       D00767                      Drug
+NAME        Vecuronium bromide (JAN/USP/INN);
+            Norcuron (TN)
+PRODUCT
+  GENERIC   VECURONIUM BROMIDE (Fresenius Kabi USA)
+            VECURONIUM BROMIDE (Fresenius Kabi USA)
+            VECURONIUM BROMIDE (Gland Pharma Limited)
+            VECURONIUM BROMIDE (HF Acquisition Co LLC)
+            VECURONIUM BROMIDE (HF Acquisition Co LLC)
+            VECURONIUM BROMIDE (Hikma Pharmaceuticals USA)
+            VECURONIUM BROMIDE (Hospira)
+            VECURONIUM BROMIDE (Mylan Institutional LLC)
+            VECURONIUM BROMIDE (Phlow Corp.)
+            VECURONIUM BROMIDE (Sun Pharmaceutical Industries)
+FORMULA     C34H57N2O4. Br
+EXACT_MASS  636.3502
+MOL_WEIGHT  637.7314
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01696  Peripherally-acting muscle relaxant
+               DG03117  Nondepolarizing neuromuscular blocking agent
+             DG01742  Quaternary ammonium compound type muscle relaxant
+REMARK      ATC code: M03AC03
+            Chemical structure group: DG00770
+            Product (DG00770): D00767<US>
+EFFICACY    Skeletal muscle relaxant, Neuromuscular blocking agent, Muscarinic acetylcholine receptor antagonist
+COMMENT     Quaternary ammonium compound
+TARGET      CHRN (neuronal type) [HSA:1135 1136 1137 1138 8973 1139 55584 57053 1141 1142 1143] [KO:K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04813 K04814 K04815]
+  PATHWAY   hsa04080(1135+1136+1137+1138+1139+1141+1142+1143+55584+57053+8973)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03A MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS
+                M03AC Other quaternary ammonium compounds
+                 M03AC03 Vecuronium
+                  D00767  Vecuronium bromide (JAN/USP/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 DG00770  Vecuronium
+                  D00767  Vecuronium bromide
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               DG00770  Vecuronium
+                D00767  Vecuronium bromide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN (neuronal type)
+                 D00767  Vecuronium bromide (JAN/USP/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 DG00770  Vecuronium
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               DG00770  Vecuronium
+DBLINKS     CAS: 50700-72-6
+            PubChem: 7847832
+            ChEBI: 9940
+            LigandBox: D00767
+            NIKKAJI: J356.147J
+ATOM        41
+            1   C1z C    20.4325  -15.3326
+            2   C1y C    20.4151  -16.7073
+            3   C1y C    21.6333  -14.6597
+            4   C1x C    19.2549  -14.6365
+            5   C1a C    20.4211  -13.9577
+            6   C1y C    19.2319  -17.3802
+            7   C1x C    22.7993  -16.7362
+            8   C1y C    22.8109  -15.3615
+            9   O7a O    21.6217  -12.9366
+            10  C1x C    18.0658  -15.3151
+            11  C1y C    18.0543  -16.6841
+            12  C1x C    19.2319  -18.7492
+            13  N2y N    24.0060  -14.6886 #+
+            14  C7a C    20.4325  -12.2520
+            15  C1z C    16.8596  -17.3629
+            16  C1x C    18.0427  -19.4337
+            17  C1x C    25.1951  -15.3731
+            18  C1x C    24.0060  -13.3196
+            19  C1a C    24.0001  -16.0633
+            20  C1a C    19.2433  -12.9366
+            21  O6a O    20.4211  -10.8773
+            22  C1y C    16.8536  -18.7376
+            23  C1x C    15.6701  -16.6783
+            24  C1a C    16.8476  -15.9939
+            25  C1x C    26.3843  -14.6886
+            26  C1x C    25.2009  -12.6350
+            27  C1x C    15.6701  -19.4278
+            28  C1y C    14.4809  -17.3629
+            29  C1x C    26.3843  -13.3196
+            30  C1y C    14.4809  -18.7376
+            31  N1y N    13.2975  -16.6841
+            32  O7a O    13.2860  -19.4164
+            33  C1x C    13.2975  -15.3093
+            34  C1x C    12.1025  -17.3686
+            35  C7a C    13.2860  -20.7852
+            36  C1x C    12.1025  -14.6248
+            37  C1x C    10.9134  -16.6841
+            38  C1a C    12.0967  -21.4640
+            39  O6a O    14.4751  -21.4640
+            40  C1x C    10.9134  -15.3093
+            41  X   Br   23.9581  -17.9438 #-
+BOND        45
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    6  11 1
+            11    6  12 1
+            12    8  13 1 #Up
+            13    9  14 1
+            14   11  15 1
+            15   12  16 1
+            16   13  17 1
+            17   13  18 1
+            18   13  19 1
+            19   14  20 1
+            20   14  21 2
+            21   15  22 1
+            22   15  23 1
+            23   15  24 1 #Up
+            24   17  25 1
+            25   18  26 1
+            26   22  27 1
+            27   23  28 1
+            28   25  29 1
+            29   27  30 1
+            30   28  31 1 #Up
+            31   30  32 1 #Down
+            32   31  33 1
+            33   31  34 1
+            34   32  35 1
+            35   33  36 1
+            36   34  37 1
+            37   35  38 1
+            38   35  39 2
+            39   36  40 1
+            40    7   8 1
+            41   10  11 1
+            42   16  22 1
+            43   26  29 1
+            44   28  30 1
+            45   37  40 1
+///

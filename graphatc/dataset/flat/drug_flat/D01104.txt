@@ -1,0 +1,167 @@
+ENTRY       D01104                      Drug
+NAME        Barnidipine hydrochloride (JAN);
+            Hypoca (TN)
+FORMULA     C27H29N3O6. HCl
+EXACT_MASS  527.1823
+MOL_WEIGHT  527.9966
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2149
+            ATC code: C08CA12
+            Chemical structure group: DG00325
+            Product (DG00325): D01104<JP>
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA12 Barnidipine
+                  D01104  Barnidipine hydrochloride (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D01104  Barnidipine hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00325  Barnidipine
+                 D01104  Barnidipine hydrochloride
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00325  Barnidipine
+                 D01104  Barnidipine hydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00325  Barnidipine
+                 D01104  Barnidipine hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01928  Dihydropyridine calcium channel blocker
+               D01104  Barnidipine hydrochloride
+              DG03231  Antihypertensive
+               D01104  Barnidipine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D01104  Barnidipine hydrochloride (JAN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01104
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00325  Barnidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00325  Barnidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00325  Barnidipine
+DBLINKS     CAS: 104757-53-1
+            PubChem: 7848167
+            ChEBI: 31253
+            LigandBox: D01104
+            NIKKAJI: J323.058I
+ATOM        37
+            1   C1b C    25.6682  -17.6897
+            2   N1y N    24.4554  -16.9903
+            3   C1x C    24.8899  -15.6640
+            4   C1x C    23.7540  -14.8378
+            5   C1y C    22.6182  -15.6640
+            6   C1x C    23.0539  -16.9947
+            7   C2y C    16.5561  -13.5665
+            8   C2y C    16.5561  -14.9666
+            9   C1y C    17.7716  -15.6667
+            10  C2y C    18.9800  -14.9666
+            11  C2y C    18.9800  -13.5665
+            12  N1x N    17.7716  -12.8664
+            13  C8y C    17.7733  -17.0669
+            14  C8x C    16.5678  -17.7636
+            15  C8x C    16.5695  -19.1637
+            16  C8x C    17.7830  -19.8623
+            17  C8y C    18.9948  -19.1607
+            18  C8x C    18.9929  -17.7605
+            19  C7a C    20.1930  -15.6657
+            20  O6a O    20.1942  -17.0659
+            21  O7a O    21.4051  -14.9648
+            22  C1a C    20.1930  -12.8672
+            23  C1a C    15.3438  -12.8657
+            24  C7a C    15.3438  -15.6672
+            25  O7a O    14.1308  -14.9678
+            26  O6a O    15.3445  -17.0674
+            27  C1a C    12.9187  -15.6686
+            28  N2b N    20.2083  -19.8592 #+
+            29  O3a O    20.2100  -21.2594 #-
+            30  O3a O    21.7699  -18.8076
+            31  C8y C    25.6691  -19.0899
+            32  C8x C    24.4548  -19.7857
+            33  C8x C    24.4554  -21.1859
+            34  C8x C    25.6684  -21.8853
+            35  C8x C    26.8807  -21.1846
+            36  C8x C    26.8799  -19.7844
+            37  X   Cl   29.5324  -17.7882
+BOND        39
+            1    17  18 1
+            2    18  13 2
+            3     3   4 1
+            4    10  19 1
+            5     4   5 1
+            6    19  20 2
+            7     7   8 2
+            8    19  21 1
+            9     5  21 1 #Up
+            10    8   9 1
+            11   11  22 1
+            12    9  10 1
+            13    7  23 1
+            14   10  11 2
+            15    8  24 1
+            16   11  12 1
+            17   24  25 1
+            18   12   7 1
+            19   24  26 2
+            20    5   6 1
+            21   25  27 1
+            22    9  13 1 #Up
+            23   17  28 1
+            24    6   2 1
+            25   28  29 1
+            26   28  30 2
+            27    1   2 1
+            28    1  31 1
+            29    2   3 1
+            30   13  14 1
+            31   14  15 2
+            32   15  16 1
+            33   31  32 2
+            34   32  33 1
+            35   33  34 2
+            36   34  35 1
+            37   35  36 2
+            38   36  31 1
+            39   16  17 2
+///

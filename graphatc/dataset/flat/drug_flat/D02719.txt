@@ -1,0 +1,77 @@
+ENTRY       D02719                      Drug
+NAME        Rosaprostol (INN)
+FORMULA     C18H34O3
+EXACT_MASS  298.2508
+MOL_WEIGHT  298.4608
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+EFFICACY    Anti-ulcerative, Prostaglandin F receptor agonist
+COMMENT     prostaglandin derivative
+            Gastric mucosal protectant
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07035  Prostaglandins
+            map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                D02719  Rosaprostol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D02719  Rosaprostol (INN)
+DBLINKS     CAS: 56695-65-9
+            PubChem: 17396886
+            LigandBox: D02719
+            NIKKAJI: J22.207K
+ATOM        21
+            1   C1y C    14.8474  -17.5768
+            2   C1y C    14.8474  -16.1762
+            3   C1y C    13.5153  -15.7434
+            4   C1x C    12.6921  -16.8764
+            5   C1x C    13.5153  -18.0096
+            6   O1a O    13.0864  -14.4233
+            7   C1b C    16.0603  -15.4759
+            8   C1b C    17.2734  -16.1762
+            9   C1b C    18.4863  -15.4759
+            10  C1b C    19.6991  -16.1762
+            11  C1b C    20.9122  -15.4759
+            12  C1b C    22.1251  -16.1762
+            13  C6a C    23.3381  -15.4759
+            14  O6a O    24.5510  -16.1762
+            15  C1b C    16.0603  -18.2771
+            16  C1b C    17.2734  -17.5768
+            17  C1b C    18.4863  -18.2771
+            18  C1b C    19.6991  -17.5768
+            19  C1b C    20.9122  -18.2771
+            20  C1a C    22.1251  -17.5768
+            21  O6a O    23.3381  -14.0753
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     3   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    1  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   13  21 2
+///

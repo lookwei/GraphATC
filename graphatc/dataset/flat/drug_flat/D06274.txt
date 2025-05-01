@@ -1,0 +1,148 @@
+ENTRY       D06274                      Drug
+NAME        Tafluprost (JAN/USAN/INN);
+            Zioptan (TN)
+PRODUCT     ZIOPTAN (Akorn)
+            ZIOPTAN (Thea Pharma)
+  GENERIC   TAFLUPROST (Micro Labs Limited)
+            TAFLUPROST (Sandoz)
+            TAFLUPROST (The Ritedose Corporation)
+            TAFLUPROST OPHTHALMIC (Prasco Laboratories)
+FORMULA     C25H34F2O5
+EXACT_MASS  452.2374
+MOL_WEIGHT  452.5313
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Therapeutic category: 1319
+            ATC code: S01EE05
+            Product: D06274<JP/US>
+            Product (mixture): D10569<JP>
+EFFICACY    Antiglaucoma, Prostaglandin F receptor agonist
+  DISEASE   Open-angle glaucoma [DS:H00612]
+COMMENT     Prostaglandin derivative
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+            map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EE Prostaglandin analogues
+                 S01EE05 Tafluprost
+                  D06274  Tafluprost (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Ophthalmic Agents
+              Intraocular Pressure Lowering Agents
+               Prostaglandin and Prostamide Analogs, Ophthalmic
+                Tafluprost
+                 D06274  Tafluprost (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1319  Others
+                 D06274  Tafluprost (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                D06274  Tafluprost
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D06274  Tafluprost
+            Drug classes [BR:br08332]
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D06274  Tafluprost
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D06274  Tafluprost (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D06274
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D06274
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D06274
+DBLINKS     CAS: 209860-87-7
+            PubChem: 47207932
+            ChEBI: 66899
+            LigandBox: D06274
+ATOM        32
+            1   C1x C    11.4193  -14.3979
+            2   C1y C    12.2620  -15.5917
+            3   C1y C    13.5962  -15.1704
+            4   C1y C    13.5962  -13.7660
+            5   C1y C    12.2620  -13.2744
+            6   C1b C    14.7197  -12.9233
+            7   C2b C    15.9837  -13.5553
+            8   C2b C    17.3881  -13.5553
+            9   C1b C    18.5819  -12.8531
+            10  C1b C    19.8458  -13.5553
+            11  C1b C    21.0397  -12.8531
+            12  C7a C    22.2335  -13.4851
+            13  O7a O    23.4272  -12.8531
+            14  O6a O    22.2335  -14.8895
+            15  C1c C    24.6210  -13.4851
+            16  C1a C    25.8147  -12.8531
+            17  C1a C    24.6210  -14.8895
+            18  C2b C    14.7280  -16.0000
+            19  C2b C    15.9588  -15.3520
+            20  C1d C    17.1397  -16.0966
+            21  C1b C    18.3557  -15.4569
+            22  O2a O    19.5432  -16.2062
+            23  X   F    16.1466  -17.0896
+            24  X   F    18.1328  -17.0896
+            25  C8y C    19.5432  -17.6107
+            26  C8x C    18.3360  -18.3079
+            27  C8x C    18.3360  -19.7123
+            28  C8x C    19.5525  -20.4143
+            29  C8x C    20.7597  -19.7171
+            30  C8x C    20.7595  -18.3127
+            31  O1a O    11.8642  -11.9275
+            32  O1a O    11.8134  -16.9226
+BOND        33
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     4   6 1 #Down
+            7     6   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   12  14 2
+            15   13  15 1
+            16   15  16 1
+            17   15  17 1
+            18    3  18 1 #Up
+            19   18  19 2
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+            23   20  23 1
+            24   20  24 1
+            25   22  25 1
+            26   25  26 2
+            27   26  27 1
+            28   27  28 2
+            29   28  29 1
+            30   29  30 2
+            31   25  30 1
+            32    5  31 1 #Down
+            33    2  32 1 #Down
+///

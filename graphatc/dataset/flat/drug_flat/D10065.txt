@@ -1,0 +1,208 @@
+ENTRY       D10065                      Drug
+NAME        Daclatasvir (USAN)
+FORMULA     C40H50N8O6
+EXACT_MASS  738.3853
+MOL_WEIGHT  738.875
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG01999  HCV NS5A inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+             DG02887  UGT1A1 inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: J05AP07
+            Chemical structure group: DG01669
+EFFICACY    Antiviral, NS5A inhibitor
+COMMENT     Treatment of hepatitis C
+TARGET      HCV NS5A [KO:K22275]
+  PATHWAY   ko03230(K22275)  Viral genome structure
+            ko03240(K22275)  Viral replication
+            ko05160(K22275)  Hepatitis C
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Enzyme inhibition: UGT1A1 [HSA:54658]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP07 Daclatasvir
+                  D10065  Daclatasvir (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                DG01669  Daclatasvir
+                 D10065  Daclatasvir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01669  Daclatasvir
+                 D10065  Daclatasvir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01669  Daclatasvir
+                D10065  Daclatasvir
+              DG02887  UGT1A1 inhibitor
+               DG01669  Daclatasvir
+                D10065  Daclatasvir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01669  Daclatasvir
+                D10065  Daclatasvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10065  Daclatasvir (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10065
+             Drug transporters
+              D10065
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                DG01669  Daclatasvir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01669  Daclatasvir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01669  Daclatasvir
+              DG02887  UGT1A1 inhibitor
+               DG01669  Daclatasvir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01669  Daclatasvir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                DG01669  Daclatasvir
+DBLINKS     PubChem: 135626785
+            ChEBI: 82977
+            LigandBox: D10065
+ATOM        54
+            1   C8x C    19.8800  -21.7700
+            2   C8y C    19.8800  -23.1700
+            3   C8x C    21.0700  -23.8700
+            4   C8x C    22.3300  -23.1700
+            5   C8y C    22.3300  -21.7700
+            6   C8x C    21.0700  -21.0700
+            7   C8y C    23.5200  -21.0700
+            8   C8x C    24.7100  -21.7700
+            9   C8x C    25.9700  -21.0700
+            10  C8y C    25.9700  -19.6700
+            11  C8x C    24.7800  -18.9700
+            12  C8x C    23.5200  -19.6700
+            13  C8y C    18.6900  -23.8700
+            14  C8x C    17.3600  -23.4500
+            15  N5x N    16.5200  -24.5700
+            16  C8y C    17.3600  -25.6900
+            17  N4x N    18.6900  -25.2700
+            18  C8y C    27.1600  -18.9700
+            19  C8x C    28.4900  -19.3900
+            20  N5x N    29.3300  -18.2000
+            21  C8y C    28.4900  -17.0800
+            22  N4x N    27.1600  -17.5700
+            23  C1y C    28.9100  -15.7500
+            24  N1y N    30.2400  -15.3300
+            25  C1x C    30.2400  -13.9300
+            26  C1x C    28.9100  -13.5100
+            27  C1x C    28.0700  -14.6300
+            28  C5a C    31.4300  -16.0300
+            29  O5a O    32.6200  -15.3300
+            30  C1c C    31.4300  -17.4300
+            31  N1b N    30.2400  -18.1300
+            32  C1c C    32.6200  -18.1300
+            33  C7a C    30.2400  -19.5300
+            34  O7a O    29.0500  -20.2300
+            35  O6a O    31.4300  -20.2300
+            36  C1a C    29.0500  -21.6300
+            37  C1a C    33.8100  -17.4300
+            38  C1a C    32.6200  -19.5300
+            39  C1y C    16.9400  -27.0200
+            40  N1y N    15.6100  -27.4400
+            41  C1x C    15.6100  -28.8400
+            42  C1x C    16.9400  -29.2600
+            43  C1x C    17.7800  -28.1400
+            44  C5a C    14.4200  -26.7400
+            45  O5a O    13.2300  -27.4400
+            46  C1c C    14.4200  -25.3400
+            47  C1c C    13.2076  -24.6400
+            48  N1b N    15.6324  -24.6400
+            49  C7a C    15.6324  -23.2400
+            50  O7a O    16.8279  -22.5496
+            51  O6a O    14.4033  -22.5302
+            52  C1a C    16.8279  -21.1496
+            53  C1a C    12.0121  -25.3304
+            54  C1a C    13.2075  -23.2402
+BOND        59
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14    2  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   13  17 1
+            20   10  18 1
+            21   18  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   18  22 1
+            26   23  21 1 #Down
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   23  27 1
+            32   24  28 1
+            33   28  29 2
+            34   28  30 1
+            35   30  31 1
+            36   30  32 1 #Down
+            37   31  33 1
+            38   33  34 1
+            39   33  35 2
+            40   34  36 1
+            41   32  37 1
+            42   32  38 1
+            43   39  16 1 #Down
+            44   39  40 1
+            45   40  41 1
+            46   41  42 1
+            47   42  43 1
+            48   39  43 1
+            49   44  40 1
+            50   44  45 2
+            51   44  46 1
+            52   46  47 1 #Down
+            53   46  48 1
+            54   48  49 1
+            55   49  50 1
+            56   49  51 2
+            57   50  52 1
+            58   47  53 1
+            59   47  54 1
+///

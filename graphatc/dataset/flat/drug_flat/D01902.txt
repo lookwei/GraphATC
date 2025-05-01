@@ -1,0 +1,129 @@
+ENTRY       D01902                      Drug
+NAME        Fonazine mesylate (USAN);
+            Dimetotiazine mesilate (JAN);
+            Banistyl (TN)
+FORMULA     C19H25N3O2S2. CH4SO3
+EXACT_MASS  487.1269
+MOL_WEIGHT  487.6564
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Therapeutic category: 1149
+            ATC code: N02CX05
+            Chemical structure group: DG00843
+            Product (DG00843): D01902<JP>
+EFFICACY    Antimigraine, Serotonin receptor antagonist, H1 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269+3356+3357+3358)  Calcium signaling pathway
+            hsa04080(3269+3356+3357+3358)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CX Other antimigraine preparations
+                 N02CX05 Dimetotiazine
+                  D01902  Fonazine mesylate (USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               114  Antipyretics and analgesics, anti-inflammatory agents
+                1149  Others
+                 D01902  Fonazine mesylate (USAN); Dimetotiazine mesilate (JAN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00843  Dimetotiazine
+                 D01902  Fonazine mesylate
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D01902  Fonazine mesylate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01902  Fonazine mesylate (USAN) &lt;JP&gt;
+               Serotonin
+                HTR2
+                 D01902  Fonazine mesylate (USAN) &lt;JP&gt;
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00843  Dimetotiazine
+DBLINKS     CAS: 7455-39-2
+            PubChem: 7848964
+            ChEBI: 31499
+            LigandBox: D01902
+ATOM        31
+            1   S2x S    20.7043  -19.6995
+            2   N1y N    20.7043  -16.8964
+            3   C8y C    21.9139  -17.5972
+            4   C8y C    21.9080  -18.9987
+            5   C8x C    23.1187  -19.7046
+            6   C8x C    24.3354  -19.0091
+            7   C8y C    24.3415  -17.6076
+            8   C8x C    23.1307  -16.9017
+            9   C8y C    19.4876  -18.9987
+            10  C8y C    19.4876  -17.5972
+            11  C8x C    18.2739  -16.8964
+            12  C8x C    17.0601  -17.5972
+            13  C8x C    17.0601  -18.9987
+            14  C8x C    18.2739  -19.6995
+            15  C1b C    20.7062  -15.4949
+            16  C1c C    21.9209  -14.7957
+            17  C1a C    23.1338  -15.4979
+            18  N1c N    21.9226  -13.3941
+            19  C1a C    23.1372  -12.6948
+            20  C1a C    20.7097  -12.6918
+            21  S4a S    25.5565  -16.9131
+            22  N1c N    26.7726  -17.6220
+            23  O1d O    26.5300  -15.9600
+            24  O1d O    24.5700  -15.9600
+            25  C1a C    27.9556  -16.9455
+            26  C1a C    26.7671  -19.0397
+            27  S4a S    33.5466  -16.9222
+            28  O1d O    33.5302  -15.5676
+            29  O1d O    33.5068  -18.3236
+            30  C1a C    32.1452  -16.9222
+            31  O1d O    34.9479  -16.9222
+BOND        32
+            1     1   4 1
+            2     9  10 2
+            3    10  11 1
+            4    11  12 2
+            5    12  13 1
+            6    13  14 2
+            7    14   9 1
+            8     3   2 1
+            9     2  15 1
+            10    3   4 2
+            11   15  16 1
+            12    4   5 1
+            13    5   6 2
+            14   16  17 1
+            15   16  18 1
+            16    6   7 1
+            17   18  19 1
+            18    7   8 2
+            19   18  20 1
+            20    8   3 1
+            21    2  10 1
+            22    9   1 1
+            23    7  21 1
+            24   21  22 1
+            25   21  23 2
+            26   21  24 2
+            27   22  25 1
+            28   22  26 1
+            29   27  28 2
+            30   27  29 2
+            31   27  30 1
+            32   27  31 1
+///

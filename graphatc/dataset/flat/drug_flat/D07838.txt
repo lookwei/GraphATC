@@ -1,0 +1,302 @@
+ENTRY       D07838                      Drug
+NAME        Dihydroergotamine tartrate;
+            Divegal (TN)
+FORMULA     (C33H37N5O5)2. C4H6O6
+EXACT_MASS  1316.5754
+MOL_WEIGHT  1317.4416
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01964  Ergot alkaloid
+              DG01982  Antimigraine, ergot alkaloid
+            Analgesic
+             DG01518  5-HT1B/1D-receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N02CA01
+            Chemical structure group: DG00833
+            Product (DG00833): D02211<US>
+EFFICACY    Antimigraine, Vasoconstrictor, Serotonin receptor agonist
+COMMENT     Ergot alkaloid
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CA Ergot alkaloids
+                 N02CA01 Dihydroergotamine
+                  D07838  Dihydroergotamine tartrate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00833  Dihydroergotamine
+                 D07838  Dihydroergotamine tartrate
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00833  Dihydroergotamine
+                 D07838  Dihydroergotamine tartrate
+             Analgesic
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00833  Dihydroergotamine
+                D07838  Dihydroergotamine tartrate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00833  Dihydroergotamine
+                 D07838  Dihydroergotamine tartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D07838  Dihydroergotamine tartrate
+                HTR1D
+                 D07838  Dihydroergotamine tartrate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07838
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00833  Dihydroergotamine
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00833  Dihydroergotamine
+             Analgesic
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00833  Dihydroergotamine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00833  Dihydroergotamine
+DBLINKS     CAS: 5989-77-5
+            PubChem: 96024535
+            ChEBI: 59757
+            LigandBox: D07838
+            NIKKAJI: J231.221B
+ATOM        96
+            1   C1z C    24.2900  -15.6800
+            2   N1y N    24.3600  -17.0100
+            3   C1y C    25.4800  -15.0500
+            4   O2x O    23.1700  -15.0500
+            5   O1a O    24.2900  -14.3500
+            6   C1y C    25.4800  -17.6400
+            7   C5x C    21.9800  -17.0100
+            8   N1y N    26.6000  -15.6800
+            9   C1x C    25.4800  -13.7200
+            10  C1z C    21.9800  -15.6800
+            11  C5x C    26.6000  -17.0100
+            12  C1b C    25.4800  -18.9700
+            13  O5x O    21.0700  -17.9200
+            14  C1x C    27.7200  -15.0500
+            15  C1x C    27.7200  -13.7200
+            16  N1b N    20.3000  -14.9100
+            17  C1a C    21.9800  -14.2800
+            18  O5x O    27.7900  -17.7100
+            19  C8y C    26.6000  -19.6700
+            20  C5a C    18.8300  -15.6800
+            21  C8x C    26.6000  -21.0000
+            22  C8x C    27.7900  -18.9700
+            23  C1y C    18.8300  -17.0100
+            24  O5a O    17.6400  -14.9800
+            25  C8x C    27.7200  -21.6300
+            26  C8x C    28.9100  -19.6700
+            27  C1x C    17.6400  -17.6400
+            28  C1x C    19.9500  -17.6400
+            29  C8x C    28.9100  -21.0000
+            30  C1y C    17.6400  -18.9700
+            31  N1y N    19.9500  -18.9700
+            32  C8y C    16.5200  -19.6000
+            33  C1y C    18.8300  -19.6700
+            34  C1a C    21.1400  -19.6700
+            35  C8y C    16.5200  -20.9300
+            36  C8x C    15.4000  -18.9700
+            37  C1x C    18.8300  -21.0000
+            38  C8y C    17.6400  -21.6300
+            39  C8y C    15.4000  -21.6300
+            40  C8x C    14.2100  -19.6000
+            41  C8x C    17.6400  -22.9600
+            42  N4x N    15.4000  -22.9600
+            43  C8x C    14.2100  -20.9300
+            44  O6a O    32.2700  -19.3200
+            45  C6a C    33.4600  -18.6200
+            46  C1c C    34.7200  -19.3200
+            47  C1c C    35.9100  -18.6200
+            48  C6a C    37.1000  -19.3200
+            49  O6a O    38.3600  -18.6200
+            50  O6a O    37.1000  -20.7200
+            51  O6a O    33.4600  -17.2200
+            52  O1a O    34.7200  -20.7200
+            53  O1a O    35.9100  -17.2200
+            54  C1z C    24.2900  -15.6800
+            55  O1a O    24.2900  -14.3500
+            56  N1y N    24.3600  -17.0100
+            57  C1y C    25.4800  -17.6400
+            58  C5x C    26.6000  -17.0100
+            59  O5x O    27.7900  -17.7100
+            60  N1y N    26.6000  -15.6800
+            61  C1y C    25.4800  -15.0500
+            62  C1x C    25.4800  -13.7200
+            63  C1x C    27.7200  -13.7200
+            64  C1x C    27.7200  -15.0500
+            65  C1b C    25.4800  -18.9700
+            66  C8y C    26.6000  -19.6700
+            67  C8x C    26.6000  -21.0000
+            68  C8x C    27.7200  -21.6300
+            69  C8x C    28.9100  -21.0000
+            70  C8x C    28.9100  -19.6700
+            71  C8x C    27.7900  -18.9700
+            72  C5x C    21.9800  -17.0100
+            73  O5x O    21.0700  -17.9200
+            74  C1z C    21.9800  -15.6800
+            75  O2x O    23.1700  -15.0500
+            76  N1b N    20.3000  -14.9100
+            77  C5a C    18.8300  -15.6800
+            78  C1y C    18.8300  -17.0100
+            79  C1x C    17.6400  -17.6400
+            80  C1y C    17.6400  -18.9700
+            81  C8y C    16.5200  -19.6000
+            82  C8y C    16.5200  -20.9300
+            83  C8y C    17.6400  -21.6300
+            84  C8x C    17.6400  -22.9600
+            85  N4x N    15.4000  -22.9600
+            86  C8y C    15.4000  -21.6300
+            87  C8x C    14.2100  -20.9300
+            88  C8x C    14.2100  -19.6000
+            89  C8x C    15.4000  -18.9700
+            90  C1x C    18.8300  -21.0000
+            91  C1y C    18.8300  -19.6700
+            92  N1y N    19.9500  -18.9700
+            93  C1x C    19.9500  -17.6400
+            94  C1a C    21.1400  -19.6700
+            95  O5a O    17.6400  -14.9800
+            96  C1a C    21.9800  -14.2800
+BOND        109
+            1    44  45 1
+            2    45  46 1
+            3    46  47 1
+            4    47  48 1
+            5    48  49 1
+            6    48  50 2
+            7    45  51 2
+            8    46  52 1 #Up
+            9    47  53 1 #Up
+            10    1   5 1 #Down
+            11    2   6 1
+            12    2   7 1
+            13    3   8 1
+            14    3   9 1
+            15    4  10 1
+            16    6  11 1
+            17    6  12 1 #Down
+            18    7  13 2
+            19    8  14 1
+            20    9  15 1
+            21   10  16 1
+            22   10  17 1 #Up
+            23   11  18 2
+            24   12  19 1
+            25   16  20 1
+            26   19  21 2
+            27   19  22 1
+            28   23  20 1 #Up
+            29   20  24 2
+            30   21  25 1
+            31   22  26 2
+            32   23  27 1
+            33   23  28 1
+            34   25  29 2
+            35   27  30 1
+            36   28  31 1
+            37   30  32 1
+            38   30  33 1
+            39   31  34 1
+            40   32  35 1
+            41   32  36 2
+            42   33  37 1
+            43   35  38 1
+            44   35  39 2
+            45   36  40 1
+            46   38  41 2
+            47   39  42 1
+            48   39  43 1
+            49    7  10 1
+            50    8  11 1
+            51   14  15 1
+            52   26  29 1
+            53   31  33 1
+            54   37  38 1
+            55   40  43 2
+            56   41  42 1
+            57    1   2 1
+            58    1   3 1
+            59    1   4 1
+            60   54  55 1 #Down
+            61   56  57 1
+            62   56  72 1
+            63   61  60 1
+            64   61  62 1
+            65   75  74 1
+            66   57  58 1
+            67   57  65 1 #Down
+            68   72  73 2
+            69   60  64 1
+            70   62  63 1
+            71   74  76 1
+            72   74  96 1 #Up
+            73   58  59 2
+            74   65  66 1
+            75   76  77 1
+            76   66  67 2
+            77   66  71 1
+            78   78  77 1 #Up
+            79   77  95 2
+            80   67  68 1
+            81   71  70 2
+            82   78  79 1
+            83   78  93 1
+            84   68  69 2
+            85   79  80 1
+            86   93  92 1
+            87   80  81 1
+            88   80  91 1
+            89   92  94 1
+            90   81  82 1
+            91   81  89 2
+            92   91  90 1
+            93   82  83 1
+            94   82  86 2
+            95   89  88 1
+            96   83  84 2
+            97   86  85 1
+            98   86  87 1
+            99   72  74 1
+            100  60  58 1
+            101  64  63 1
+            102  70  69 1
+            103  92  91 1
+            104  90  83 1
+            105  88  87 2
+            106  84  85 1
+            107  54  56 1
+            108  54  61 1
+            109  54  75 1
+BRACKET     1    13.3000  -23.9400   13.3000  -12.7400
+            1    29.6800  -12.7400   29.6800  -23.9400
+            1  2
+  ORIGINAL  1    1   5   2   6  11  18   8   3   9  15  14  44  12  19  21  25
+            1   29  26  22   7  13  10   4  16  20  23  27  30  32  35  38  41
+            1   42  39  43  40  36  37  33  31  28  34  46  45  24  17
+  REPEAT    1   57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+            1   73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88
+            1   89  90  91  92  93  94  95  96  97  98  99 100 101 102
+///

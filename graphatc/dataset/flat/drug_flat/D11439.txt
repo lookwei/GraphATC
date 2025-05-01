@@ -1,0 +1,50 @@
+ENTRY       D11439                      Drug
+NAME        Lucerastat (JAN/USAN/INN)
+FORMULA     C10H21NO4
+EXACT_MASS  219.1471
+MOL_WEIGHT  219.278
+EFFICACY    Glucosylceramide synthase inhibitor
+COMMENT     Treatment of Fabry disease
+TARGET      UGCG [HSA:7357] [KO:K00720]
+  PATHWAY   hsa00600(7357)  Sphingolipid metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Hexosyltransferases
+                UGCG
+                 D11439  Lucerastat (JAN/USAN/INN)
+DBLINKS     CAS: 141206-42-0
+            PubChem: 384585416
+ATOM        15
+            1   C1y C    11.0778  -21.2631
+            2   C1y C    12.3010  -21.9441
+            3   C1y C    13.5024  -21.2253
+            4   C1x C    13.4806  -19.8255
+            5   N1y N    12.2574  -19.1445
+            6   C1y C    11.0560  -19.8633
+            7   O1a O    14.7255  -21.9062
+            8   O1a O    12.3229  -23.3439
+            9   O1a O     9.8765  -21.9819
+            10  C1b C     9.8330  -19.1823
+            11  O1a O     8.6148  -19.9110
+            12  C1b C    12.2351  -17.7229
+            13  C1b C    13.4291  -17.0084
+            14  C1b C    14.6613  -17.6943
+            15  C1a C    15.8327  -16.9933
+BOND        15
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     3   7 1 #Down
+            8     2   8 1 #Up
+            9     1   9 1 #Up
+            10    6  10 1 #Up
+            11   10  11 1
+            12    5  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+///

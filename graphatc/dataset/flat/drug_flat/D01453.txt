@@ -1,0 +1,147 @@
+ENTRY       D01453                      Drug
+NAME        Caffeine hydrate (JP18);
+            Caffeine monohydrate;
+            Caffeine (TN)
+FORMULA     C8H10N4O2. H2O
+EXACT_MASS  212.0909
+MOL_WEIGHT  212.2059
+SOURCE      Coffea arabica [TAX:13443]
+CLASS       Respiratory system agent
+             DG01616  Xanthine derivative
+              DG01612  Xanthine-type central nervous system stimulant
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG02855  CYP2E1 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2115
+            ATC code: D11AX26 N06BC01
+            Chemical structure group: DG00974
+            Product (DG00974): D00528<JP> D01453<JP> D07603<US>
+            Product (mixture): D12295<US>
+EFFICACY    Stimulant (central), Adenosine receptor antagonist, Phosphodiesterase inhibitor
+COMMENT     Xanthine derivative
+TARGET      ADORA1 [HSA:134] [KO:K04265]
+            ADORA2A [HSA:135] [KO:K04266]
+            PDE [HSA:5153 5138 5139 5140 5141 5142 5143 5144 8654] [KO:K13755 K18283 K19021 K13296 K13293 K13762]
+  PATHWAY   hsa04020(135+5153)  Calcium signaling pathway
+            hsa04024(134+135+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+            hsa04080(134+135)  Neuroactive ligand-receptor interaction
+            hsa04270(135)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]; CYP3A4 [HSA:1576], CYP2E1 [HSA:1571]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D11 OTHER DERMATOLOGICAL PREPARATIONS
+               D11A OTHER DERMATOLOGICAL PREPARATIONS
+                D11AX Other dermatologicals
+                 D11AX26 Caffeine
+                  D01453  Caffeine hydrate (JP18) &lt;JP&gt;
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BC Xanthine derivatives
+                 N06BC01 Caffeine
+                  D01453  Caffeine hydrate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               211  Cardiotonics
+                2115  Caffeines
+                 D01453  Caffeine hydrate (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              05 Alertness drug
+               D01453  Caffeine hydrate (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Anhydrous caffeine
+                D01453  Caffeine hydrate (JP18)
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01612  Xanthine-type central nervous system stimulant
+                DG00974  Caffeine
+                 D01453  Caffeine hydrate
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00974  Caffeine
+                D01453  Caffeine hydrate
+              DG02855  CYP2E1 substrate
+               DG00974  Caffeine
+                D01453  Caffeine hydrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00974  Caffeine
+                 D01453  Caffeine hydrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA1
+                 D01453  Caffeine hydrate (JP18) &lt;JP&gt;
+                ADORA2A
+                 D01453  Caffeine hydrate (JP18) &lt;JP&gt;
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D01453  Caffeine hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01453  Caffeine hydrate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01453
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01612  Xanthine-type central nervous system stimulant
+                DG00974  Caffeine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00974  Caffeine
+              DG02855  CYP2E1 substrate
+               DG00974  Caffeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00974  Caffeine
+DBLINKS     CAS: 5743-12-4
+            PubChem: 7848516
+            ChEBI: 31332
+            LigandBox: D01453
+            NIKKAJI: J244.705C
+ATOM        15
+            1   O0  O    24.1379  -11.5446
+            2   C8y C    16.6622  -10.8171
+            3   C8y C    16.6622  -12.2416
+            4   C8y C    17.8649  -10.1105
+            5   N4y N    15.3601  -10.3850
+            6   N4y N    17.8649  -12.9248
+            7   N5x N    15.3601  -12.6737
+            8   N4y N    19.0852  -10.8462
+            9   O5x O    17.8649   -8.7325
+            10  C8x C    14.5428  -11.5409
+            11  C8y C    19.0852  -12.1892
+            12  C1a C    17.8649  -14.3553
+            13  C1a C    20.3055  -10.1632
+            14  O5x O    20.3347  -12.8898
+            15  C1a C    14.9204   -9.0467
+BOND        15
+            1     2   3 2
+            2     2   4 1
+            3     2   5 1
+            4     3   6 1
+            5     3   7 1
+            6     4   8 1
+            7     4   9 2
+            8     5  10 1
+            9     6  11 1
+            10    6  12 1
+            11    8  13 1
+            12   11  14 2
+            13    7  10 2
+            14    8  11 1
+            15    5  15 1
+///

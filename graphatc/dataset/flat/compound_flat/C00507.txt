@@ -1,0 +1,53 @@
+ENTRY       C00507                      Compound
+NAME        L-Rhamnose;
+            6-Deoxy-L-mannose;
+            L-Mannomethylose;
+            L-Rhamnopyranose
+FORMULA     C6H12O5
+EXACT_MASS  164.0685
+MOL_WEIGHT  164.1565
+COMMENT     alpha-L-Rhamnose [CPD:C02476]
+            beta-L-Rhamnose [CPD:C02338]
+REACTION    R02436 R02437 R02438 R09632 R10098 R10581 R10582 R10788 
+            R10995
+PATHWAY     map00051  Fructose and mannose metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+ENZYME      1.1.1.377       1.1.1.378       2.4.1.247       2.4.1.282       
+            3.2.1.40        3.2.1.189       3.2.1.190       5.3.1.14
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Deoxy sugars
+                C00507  L-Rhamnose
+DBLINKS     CAS: 3615-41-6 73-34-7
+            PubChem: 3790
+            ChEBI: 62345 62346
+            PDB-CCD: RAM RM4
+            3DMET: B04689
+            NIKKAJI: J8.185J
+ATOM        11
+            1   C1y C    25.6257  -16.5469
+            2   C1y C    24.3975  -15.8366
+            3   C1y C    26.8368  -15.8366
+            4   O1a O    25.6257  -17.9499
+            5   C1y C    24.3975  -14.4452
+            6   O1a O    23.1981  -16.5469
+            7   C1y C    26.8368  -14.4452
+            8   O1a O    28.0477  -16.5469
+            9   O2x O    25.6257  -13.7523
+            10  C1a C    23.1923  -13.7466
+            11  O1a O    28.0477  -13.7523
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Down
+            10    7  11 1 #Either
+            11    7   9 1
+///

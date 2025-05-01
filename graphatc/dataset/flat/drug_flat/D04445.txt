@@ -1,0 +1,79 @@
+ENTRY       D04445                      Drug
+NAME        Histamine phosphate (USP);
+            Histamine phosphate (TN)
+PRODUCT     HISTAMINE POSITIVE (ALK-Abello)
+FORMULA     2H3PO4. C5H9N3
+EXACT_MASS  307.0334
+MOL_WEIGHT  307.1354
+REMARK      ATC code: V04CG03
+            Product: D04445<US>
+EFFICACY    Stimulant (gastric secretory)
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+            HRH2 [HSA:3274] [KO:K04150]
+            HRH3 [HSA:11255] [KO:K04151]
+  PATHWAY   hsa04080(11255+3269+3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CG Tests for gastric secretion
+                 V04CG03 Histamine phosphate
+                  D04445  Histamine phosphate (USP) &lt;US&gt;
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D04445  Histamine phosphate (USP) &lt;US&gt;
+                HRH2
+                 D04445  Histamine phosphate (USP) &lt;US&gt;
+                HRH3
+                 D04445  Histamine phosphate (USP) &lt;US&gt;
+DBLINKS     CAS: 51-74-1
+            PubChem: 47206315
+            ChEBI: 51193
+            LigandBox: D04445
+            NIKKAJI: J231.453C
+ATOM        18
+            1   C8x C     5.9385   -4.2843
+            2   C8y C     5.5061   -5.6221
+            3   N4x N     4.8050   -3.4605
+            4   N5x N     4.0982   -5.6221
+            5   C8x C     3.6658   -4.2843
+            6   C1b C     6.7089   -6.3122
+            7   C1b C     7.9160   -5.6133
+            8   N1a N     9.1232   -6.3052
+            9   P1b P    15.1900   -4.3400
+            10  O1c O    15.1900   -2.9400
+            11  O1c O    15.1900   -5.7400
+            12  O1c O    16.6600   -4.3400
+            13  O1c O    13.8600   -4.3400
+            14  P1b P    15.1900   -4.3400
+            15  O1c O    15.1900   -5.7400
+            16  O1c O    16.6600   -4.3400
+            17  O1c O    13.8600   -4.3400
+            18  O1c O    15.1900   -2.9400
+BOND        16
+            1     2   4 1
+            2     3   5 1
+            3     4   5 2
+            4     2   6 1
+            5     1   2 2
+            6     6   7 1
+            7     1   3 1
+            8     7   8 1
+            9     9  11 1
+            10    9  12 1
+            11    9  13 1
+            12    9  10 2
+            13   14  15 1
+            14   14  16 1
+            15   14  17 1
+            16   14  18 2
+BRACKET     1    12.1100   -6.5800   12.1100   -2.3100
+            1    18.2700   -2.3100   18.2700   -6.5800
+            1  2
+  ORIGINAL  1    9  11  12  13  10
+  REPEAT    1   14  15  16  17  18
+///

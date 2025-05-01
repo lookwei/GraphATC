@@ -1,0 +1,86 @@
+ENTRY       D03402                      Drug
+NAME        Carbuterol hydrochloride (USAN)
+FORMULA     C13H21N3O3. HCl
+EXACT_MASS  303.135
+MOL_WEIGHT  303.7851
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      ATC code: R03AC10 R03CC10
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC10 Carbuterol
+                  D03402  Carbuterol hydrochloride (USAN)
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CC Selective beta-2-adrenoreceptor agonists
+                 R03CC10 Carbuterol
+                  D03402  Carbuterol hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 D03402  Carbuterol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D03402  Carbuterol hydrochloride (USAN)
+DBLINKS     CAS: 34866-46-1
+            PubChem: 17397542
+            LigandBox: D03402
+            NIKKAJI: J290.862J
+ATOM        20
+            1   X   Cl   20.7200  -28.4900
+            2   C8y C     8.7500  -26.6000
+            3   C8y C     8.7500  -28.0000
+            4   C8x C     9.9624  -28.7000
+            5   C8y C    11.1749  -28.0000
+            6   C8x C    11.1749  -26.6000
+            7   C8x C     9.9624  -25.9000
+            8   O1a O     7.5376  -25.9000
+            9   N1b N     7.5376  -28.7000
+            10  C5a C     6.3421  -28.0096
+            11  N1a N     5.1547  -28.6951
+            12  O5a O     6.3420  -26.6003
+            13  C1c C    12.4060  -28.7110
+            14  C1b C    13.6112  -28.0153
+            15  O1a O    12.4057  -30.0999
+            16  N1b N    14.7935  -28.6981
+            17  C1d C    15.9875  -28.0088
+            18  C1a C    17.1999  -27.3088
+            19  C1a C    16.6875  -29.2212
+            20  C1a C    15.2875  -26.7964
+BOND        19
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     2   8 1
+            8     3   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12    5  13 1
+            13   13  14 1
+            14   13  15 1
+            15   14  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19   17  20 1
+///

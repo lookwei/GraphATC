@@ -1,0 +1,159 @@
+ENTRY       D11673                      Drug
+NAME        Berotralstat (USAN/INN)
+FORMULA     C30H26F4N6O
+EXACT_MASS  562.2104
+MOL_WEIGHT  562.5607
+CLASS       Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+REMARK      ATC code: B06AC06
+            Chemical structure group: DG03079
+            Product (DG03079): D11674<JP/US>
+EFFICACY    Antiangioedema, Plasma kallikrein inhibitor
+COMMENT     Prevention of angioedema attacks in patients with Hereditary angioedema (HAE)
+TARGET      KLKB1 [HSA:3818] [KO:K01324]
+  PATHWAY   hsa04610(3818)  Complement and coagulation cascades
+METABOLISM  Transporter: ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B06 OTHER HEMATOLOGICAL AGENTS
+               B06A OTHER HEMATOLOGICAL AGENTS
+                B06AC Drugs used in hereditary angioedema
+                 B06AC06 Berotralstat
+                  D11673  Berotralstat (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG03079  Berotralstat
+                D11673  Berotralstat
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG03079  Berotralstat
+                 D11673  Berotralstat
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03079  Berotralstat
+                D11673  Berotralstat
+              DG01913  ABCG2 substrate
+               DG03079  Berotralstat
+                D11673  Berotralstat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                KLKB1
+                 D11673  Berotralstat (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11673
+             Drug transporters
+              D11673
+            Drug groups [BR:br08330]
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG03079  Berotralstat
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG03079  Berotralstat
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03079  Berotralstat
+              DG01913  ABCG2 substrate
+               DG03079  Berotralstat
+DBLINKS     CAS: 1809010-50-1
+            PubChem: 405226540
+            PDB-CCD: 0RI
+ATOM        41
+            1   C8x C    16.0300  -17.3600
+            2   C8y C    15.1900  -18.4800
+            3   N5x N    15.9600  -19.6000
+            4   N4y N    17.3600  -19.2500
+            5   C8y C    17.3600  -17.8500
+            6   C5a C    18.5500  -17.1500
+            7   N1b N    19.7400  -17.8500
+            8   O5a O    18.5500  -15.7500
+            9   C8y C    20.9300  -17.1500
+            10  C8x C    22.1200  -17.8500
+            11  C8y C    23.3800  -17.1500
+            12  C8x C    23.3800  -15.7500
+            13  C8x C    22.1900  -15.0500
+            14  C8y C    20.9300  -15.7500
+            15  X   F    19.7400  -15.0500
+            16  C1c C    24.5700  -17.8500
+            17  C8y C    25.7600  -17.1500
+            18  C8x C    26.9500  -17.8500
+            19  C8x C    28.2100  -17.1500
+            20  C8x C    28.2100  -15.7500
+            21  C8y C    27.0200  -15.0500
+            22  C8x C    25.7600  -15.7500
+            23  C3b C    27.0200  -13.6500
+            24  N3a N    27.0200  -12.2500
+            25  N1b N    24.5700  -19.2500
+            26  C1b C    25.7600  -19.9500
+            27  C8y C    18.5500  -19.9500
+            28  C8x C    18.5500  -21.3500
+            29  C8x C    19.8100  -22.0500
+            30  C8x C    21.0000  -21.3500
+            31  C8y C    21.0000  -19.9500
+            32  C8x C    19.8100  -19.2500
+            33  C1b C    22.1900  -19.2500
+            34  N1a N    23.3800  -19.9500
+            35  C1y C    26.9500  -19.2500
+            36  C1x C    28.3500  -19.2500
+            37  C1x C    27.6500  -18.0600
+            38  C1d C    13.7900  -18.4800
+            39  X   F    12.3900  -18.4800
+            40  X   F    13.7900  -17.0800
+            41  X   F    13.7900  -19.8800
+BOND        45
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     6   7 1
+            7     6   5 1
+            8     6   8 2
+            9     7   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   14  15 1
+            17   11  16 1
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   21  23 1
+            26   23  24 3
+            27   16  25 1 #Up
+            28   25  26 1
+            29    4  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   30  31 1
+            34   31  32 2
+            35   27  32 1
+            36   31  33 1
+            37   33  34 1
+            38   26  35 1
+            39   35  36 1
+            40   36  37 1
+            41   37  35 1
+            42    2  38 1
+            43   38  39 1
+            44   38  40 1
+            45   38  41 1
+///

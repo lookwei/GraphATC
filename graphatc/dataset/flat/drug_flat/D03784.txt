@@ -1,0 +1,81 @@
+ENTRY       D03784                      Drug
+NAME        Liarozole hydrochloride (USAN)
+FORMULA     C17H13ClN4. HCl
+EXACT_MASS  344.0596
+MOL_WEIGHT  345.2259
+CLASS       Antineoplastic
+             DG01596  Aromatase inhibitor
+REMARK      Chemical structure group: DG01293
+EFFICACY    Antineoplastic, Estrogen biosynthesis inhibitor
+COMMENT     Aromatase inhibitor
+TARGET      CYP19A1 (ARO) [HSA:1588] [KO:K07434]
+  PATHWAY   hsa00140(1588)  Steroid hormone biosynthesis
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01596  Aromatase inhibitor
+               DG01293  Liarozole
+                D03784  Liarozole hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Cytochrome P450
+                CYP19A1 (ARO)
+                 D03784  Liarozole hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01596  Aromatase inhibitor
+               DG01293  Liarozole
+DBLINKS     CAS: 145858-50-0
+            PubChem: 17397872
+            LigandBox: D03784
+ATOM        23
+            1   N4y N    31.4006  -17.6661
+            2   C1c C    31.4006  -19.0682
+            3   C8x C    32.5222  -16.8249
+            4   C8x C    32.1016  -15.4929
+            5   N5x N    30.6995  -15.4929
+            6   C8x C    30.2789  -16.8249
+            7   C8y C    30.2088  -19.7692
+            8   C8y C    32.6625  -19.7692
+            9   C8x C    29.0170  -19.0682
+            10  C8y C    27.7552  -19.7692
+            11  C8x C    27.7552  -21.1713
+            12  C8x C    29.0170  -21.8724
+            13  C8x C    30.2088  -21.1713
+            14  C8x C    32.6625  -21.1713
+            15  C8x C    33.8542  -21.8724
+            16  C8y C    35.0460  -21.1713
+            17  C8y C    35.0460  -19.7692
+            18  C8x C    33.8542  -19.0682
+            19  X   Cl   26.5634  -19.0682
+            20  N5x N    36.3780  -21.5919
+            21  C8x C    37.2192  -20.4703
+            22  N4x N    36.3780  -19.3486
+            23  X   Cl   41.5657  -19.7692
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     2   8 1
+            9     7   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    7  13 1
+            15    8  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20    8  18 1
+            21   10  19 1
+            22   16  20 1
+            23   20  21 2
+            24   21  22 1
+            25   17  22 1
+///

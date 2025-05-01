@@ -1,0 +1,130 @@
+ENTRY       D07781                      Drug
+NAME        Delapril (INN);
+            Delaket (TN)
+FORMULA     C26H32N2O5
+EXACT_MASS  452.2311
+MOL_WEIGHT  452.5427
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      ATC code: C09AA12
+            Chemical structure group: DG00343
+            Product (DG00343): D01667<JP>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     Active form of prodrug: Delaprilat [CPD:C21575]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA12 Delapril
+                  D07781  Delapril (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+                 D07781  Delapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+                 D07781  Delapril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D07781  Delapril (INN)
+            Prodrugs [br08324.html]
+             D07781
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+            Prodrugs [br08324.html(DG00343)]
+             DG00343
+DBLINKS     CAS: 83435-66-9
+            PubChem: 96024479
+            LigandBox: D07781
+            NIKKAJI: J239.643B
+ATOM        33
+            1   N1c N    25.8300  -18.2000
+            2   C1b C    25.8300  -16.8000
+            3   N1b N    22.2600  -18.9000
+            4   C1c C    21.0000  -18.2000
+            5   C7a C    21.0000  -16.8000
+            6   C1b C    19.8100  -18.9000
+            7   O6a O    22.2600  -16.1000
+            8   O7a O    19.8100  -16.1000
+            9   C1b C    18.5500  -18.2000
+            10  C8y C    17.3600  -18.9000
+            11  C8x C    17.3600  -20.3000
+            12  C8x C    16.1700  -18.2000
+            13  C8x C    16.1700  -21.0000
+            14  C8x C    14.9100  -18.9000
+            15  C8x C    14.9100  -20.3000
+            16  C1c C    23.4500  -18.2000
+            17  C5a C    24.6400  -18.9000
+            18  O5a O    24.6400  -20.3000
+            19  C1a C    23.4500  -16.8000
+            20  C6a C    27.0900  -16.1000
+            21  O6a O    27.0900  -14.7000
+            22  O6a O    28.2800  -16.8000
+            23  C1y C    27.0900  -18.7600
+            24  C8y C    29.4000  -18.7600
+            25  C8y C    28.9800  -20.0900
+            26  C8x C    29.8200  -21.1400
+            27  C8x C    31.2200  -20.8600
+            28  C8x C    31.6400  -19.5300
+            29  C8x C    30.7300  -18.4800
+            30  C1x C    27.5800  -20.0900
+            31  C1x C    28.2100  -17.9200
+            32  C1b C    18.5500  -16.8000
+            33  C1a C    17.3600  -16.1000
+BOND        35
+            1    10  12 2
+            2    11  13 2
+            3    12  14 1
+            4    13  15 1
+            5    14  15 2
+            6     3  16 1
+            7    16  17 1
+            8    17   1 1
+            9    17  18 2
+            10   16  19 1 #Up
+            11    1   2 1
+            12    2  20 1
+            13   20  21 2
+            14    3   4 1
+            15   20  22 1
+            16    4   5 1 #Up
+            17    1  23 1
+            18    4   6 1
+            19    5   7 2
+            20    5   8 1
+            21    6   9 1
+            22    9  10 1
+            23   24  25 2
+            24   25  26 1
+            25   26  27 2
+            26   27  28 1
+            27   28  29 2
+            28   29  24 1
+            29   10  11 1
+            30   23  30 1
+            31   30  25 1
+            32   24  31 1
+            33   31  23 1
+            34    8  32 1
+            35   32  33 1
+///

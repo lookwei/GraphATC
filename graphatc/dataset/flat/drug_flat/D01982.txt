@@ -1,0 +1,204 @@
+ENTRY       D01982                      Drug
+NAME        Tenofovir disoproxil fumarate (JAN/USAN);
+            Viread (TN)
+  ABBR      TDF
+PRODUCT     VIREAD (Gilead Sciences)
+  GENERIC   TENOFOVIR DISOPROXIL FUMARATE (Apotex Corp.)
+            TENOFOVIR DISOPROXIL FUMARATE (Aurobindo Pharma Limited)
+            TENOFOVIR DISOPROXIL FUMARATE (AvKARE)
+            TENOFOVIR DISOPROXIL FUMARATE (AvPAK)
+            TENOFOVIR DISOPROXIL FUMARATE (Bryant Ranch Prepack)
+            TENOFOVIR DISOPROXIL FUMARATE (Camber Pharmaceuticals)
+            TENOFOVIR DISOPROXIL FUMARATE (Chartwell RX)
+            TENOFOVIR DISOPROXIL FUMARATE (Cipla USA)
+            TENOFOVIR DISOPROXIL FUMARATE (DOH CENTRAL PHARMACY)
+            TENOFOVIR DISOPROXIL FUMARATE (NorthStar RxLLC)
+            TENOFOVIR DISOPROXIL FUMARATE (Quinn Pharmaceuticals)
+            TENOFOVIR DISOPROXIL FUMARATE (REMEDYREPACK)
+            TENOFOVIR DISOPROXIL FUMARATE (Strides Pharma Science Limited)
+            TENOFOVIR DISPROXIL FUMARATE (Macleods Pharmaceuticals Limited)
+            TENOFOVIR DISPROXIL FUMARATE (Major Pharmaceuticals)
+FORMULA     C19H30N5O10P. C4H4O4
+EXACT_MASS  635.184
+MOL_WEIGHT  635.5149
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+REMARK      Therapeutic category: 6250
+            ATC code: J05AF07
+            Chemical structure group: DG01223
+            Product (DG01223): D01982<JP/US> D10605<JP/US>
+            Product (mixture): D02297<JP/US> D10571<US> D10756<US> D10851<US> D11392<US> D11395<US> D11396<US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+            Chronic Hepatitis B [DS:H00412]
+COMMENT     Active form of prodrug: Tenofovir [CPD:C17407]
+TARGET      HBV reverse transcriptase [KO:K21037]
+            HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K21037+K24802)  Viral genome structure
+            ko03240(K21037+K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+            ko05161(K21037)  Hepatitis B
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+            map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF07 Tenofovir disoproxil
+                  D01982  Tenofovir disoproxil fumarate (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-hepatitis B (HBV) Agents
+               Tenofovir
+                D01982  Tenofovir disoproxil fumarate (JAN/USAN)
+              Anti-HIV Agents, Nucleoside and Nucleotide Reverse Transcriptase Inhibitors (NRTI)
+               Tenofovir
+                D01982  Tenofovir disoproxil fumarate (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D01982  Tenofovir disoproxil fumarate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               DG01223  Tenofovir
+                D01982  Tenofovir disoproxil fumarate
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                DG01223  Tenofovir
+                 D01982  Tenofovir disoproxil fumarate
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D01982  Tenofovir disoproxil fumarate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D01982  Tenofovir disoproxil fumarate (JAN/USAN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D01982  Tenofovir disoproxil fumarate (JAN/USAN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01982
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01982
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01982
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01982
+            Prodrugs [br08324.html]
+             D01982
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               DG01223  Tenofovir
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                DG01223  Tenofovir
+DBLINKS     CAS: 202138-50-9
+            PubChem: 7849044
+            ChEBI: 63718
+            LigandBox: D01982
+            NIKKAJI: J1.996.151F
+ATOM        43
+            1   C6a C    30.8992  -18.5945
+            2   C2b C    32.1576  -19.2936
+            3   C2b C    33.3460  -18.5945
+            4   C6a C    34.5345  -19.2936
+            5   O6a O    35.7928  -18.5945
+            6   O6a O    29.7108  -19.2936
+            7   O6a O    30.8992  -17.1963
+            8   O6a O    34.5345  -20.6917
+            9   C8y C    26.5368  -16.8840
+            10  C8y C    26.5368  -15.4243
+            11  N4y N    25.2162  -17.3012
+            12  N5x N    27.7880  -17.5096
+            13  N5x N    25.2162  -15.0073
+            14  C8y C    27.7880  -14.7987
+            15  C8x C    24.3820  -16.1889
+            16  C8x C    28.9697  -16.8840
+            17  N5x N    28.9697  -15.4243
+            18  N1a N    27.7880  -13.4085
+            19  C1b C    25.2162  -18.6945
+            20  C1c C    24.0155  -19.3876
+            21  O2a O    22.8023  -18.6870
+            22  C1b C    21.5805  -19.3928
+            23  P1b P    20.3622  -18.6904
+            24  O2b O    19.1554  -17.9937
+            25  O2b O    19.6691  -19.8908
+            26  O3b O    21.0616  -17.4784
+            27  C1b C    19.1554  -16.5955
+            28  C1b C    19.6691  -21.2890
+            29  O7a O    17.9438  -15.8681
+            30  C7a C    16.7329  -16.5671
+            31  O7a O    15.5220  -15.8681
+            32  C1c C    14.3112  -16.5671
+            33  C1a C    13.1003  -15.8681
+            34  O7a O    18.4331  -22.0200
+            35  C7a C    17.2222  -21.3209
+            36  O7a O    16.0114  -22.0200
+            37  C1c C    14.8006  -21.3209
+            38  C1a C    13.5897  -22.0200
+            39  O6a O    16.7329  -17.9651
+            40  C1a C    14.3112  -17.9652
+            41  O6a O    17.2222  -19.9230
+            42  C1a C    14.8006  -19.9229
+            43  C1a C    24.0154  -20.7900
+BOND        43
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   6 1
+            6     1   7 2
+            7     4   8 2
+            8    10  13 1
+            9    10  14 1
+            10   11  15 1
+            11   12  16 2
+            12   14  17 2
+            13   13  15 2
+            14   16  17 1
+            15    9  10 2
+            16    9  11 1
+            17    9  12 1
+            18   14  18 1
+            19   11  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   23  25 1
+            26   23  26 2
+            27   24  27 1
+            28   25  28 1
+            29   27  29 1
+            30   29  30 1
+            31   30  31 1
+            32   31  32 1
+            33   32  33 1
+            34   28  34 1
+            35   34  35 1
+            36   35  36 1
+            37   36  37 1
+            38   37  38 1
+            39   30  39 2
+            40   32  40 1
+            41   35  41 2
+            42   37  42 1
+            43   20  43 1 #Up
+///

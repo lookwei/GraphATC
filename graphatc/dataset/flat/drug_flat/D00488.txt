@@ -1,0 +1,91 @@
+ENTRY       D00488                      Drug
+NAME        Pyrimethamine (JAN/USP/INN);
+            Daraprim (TN)
+PRODUCT     DARAPRIM (Vyera Pharmaceuticals LLC)
+  GENERIC   PYRIMETHAMINE (Alvogen)
+            PYRIMETHAMINE (Aurobindo Pharma Limited)
+            PYRIMETHAMINE (DR.REDDYS LABORATORIES)
+            PYRIMETHAMINE (OAKRUM PHARMA)
+            PYRIMETHAMINE (Teva Pharmaceuticals)
+FORMULA     C12H13ClN4
+EXACT_MASS  248.0829
+MOL_WEIGHT  248.7114
+CLASS       Antiparasitic
+             DG01932  Antifolate, antiprotozoal
+REMARK      Same as: C07391
+            ATC code: P01BD01
+            Product: D00488<US>
+EFFICACY    Antimalarial
+  DISEASE   Toxoplasmosis [DS:H00435]
+            Malaria [DS:H00361]
+COMMENT     Diaminopyrimidine derivative
+TARGET      dihydrofolate reductase [KO:K13998]
+  PATHWAY   ko00240(K13998)  Pyrimidine metabolism
+            ko00670(K13998)  One carbon pool by folate
+            ko00790(K13998)  Folate biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             P ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS
+              P01 ANTIPROTOZOALS
+               P01B ANTIMALARIALS
+                P01BD Diaminopyrimidines
+                 P01BD01 Pyrimethamine
+                  D00488  Pyrimethamine (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antiparasitics
+              Antiprotozoals
+               Pyrimethamine
+                D00488  Pyrimethamine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antiparasitic
+              DG01932  Antifolate, antiprotozoal
+               D00488  Pyrimethamine
+            Antimicrobials [BR:br08307]
+             Antiparasitics
+              Antmalarials
+               Diaminopyrimidine
+                D00488  Pyrimethamine (JAN/USP/INN) &lt;US&gt;
+DBLINKS     CAS: 58-14-0
+            PubChem: 7847554
+            ChEBI: 8673
+            PDB-CCD: CP6
+            LigandBox: D00488
+            NIKKAJI: J4.589F
+ATOM        17
+            1   C8y C    26.0400  -18.0659
+            2   C8y C    24.8327  -18.7949
+            3   C8y C    27.2938  -18.7892
+            4   C8y C    26.0691  -16.6428
+            5   C8x C    24.8794  -20.2063
+            6   C8x C    23.5787  -18.0776
+            7   N5x N    28.5420  -18.0717
+            8   C1b C    27.2938  -20.2356
+            9   N5x N    27.2938  -15.8846
+            10  N1a N    25.0776  -16.0713
+            11  C8x C    23.5728  -20.9762
+            12  C8x C    22.3539  -18.7892
+            13  C8y C    28.5537  -16.6021
+            14  C8y C    22.3248  -20.2530
+            15  N1a N    29.4868  -15.9780
+            16  X   Cl   21.1933  -20.9470
+            17  C1a C    28.5090  -20.9360
+BOND        18
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 2
+            13   11  14 2
+            14   13  15 1
+            15   14  16 1
+            16    9  13 1
+            17   12  14 1
+            18    8  17 1
+///

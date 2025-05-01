@@ -1,0 +1,161 @@
+ENTRY       D07556                      Drug
+NAME        beta-Acetyldigoxin;
+            Acetyldigoxin beta isomer;
+            Corotal (TN)
+FORMULA     C43H66O15
+EXACT_MASS  822.4402
+MOL_WEIGHT  822.9751
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01698  Cardiac glycoside
+               DG01697  Digitalis cardiac glycoside
+REMARK      Same as: C22190
+EFFICACY    Cardiotonic
+COMMENT     Digitalis glycoside
+TARGET      ATP1A [HSA:476 477 478 480] [KO:K01539]
+  PATHWAY   hsa04260(476+477+478+480)  Cardiac muscle contraction
+            hsa04261(476+477+478+480)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07233  Ion transporter inhibitors
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01698  Cardiac glycoside
+                DG01697  Digitalis cardiac glycoside
+                 D07556  beta-Acetyldigoxin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP1A
+                 D07556  beta-Acetyldigoxin
+DBLINKS     CAS: 5355-48-6
+            PubChem: 51091877
+            LigandBox: D07556
+            NIKKAJI: J15.710D
+ATOM        58
+            1   O2a O    31.2751  -20.3439
+            2   C1y C    32.4675  -19.5723
+            3   C1x C    33.6600  -20.2737
+            4   C1y C    34.8524  -19.5723
+            5   C1z C    34.8524  -18.1694
+            6   C1x C    33.6600  -17.4680
+            7   C1x C    32.4675  -18.1694
+            8   C1x C    36.1150  -20.2737
+            9   C1x C    37.3074  -19.5723
+            10  C1y C    37.3074  -18.1694
+            11  C1y C    36.1150  -17.4680
+            12  C1z C    38.4999  -17.4680
+            13  C1z C    38.4999  -16.0651
+            14  C1y C    37.3074  -15.3636
+            15  C1x C    36.1150  -16.0651
+            16  C1x C    39.8326  -17.8888
+            17  C1x C    40.6743  -16.7665
+            18  C1y C    39.8326  -15.6442
+            19  C2y C    40.2535  -14.3115
+            20  C2x C    41.7265  -14.3115
+            21  C7x C    42.1474  -12.9788
+            22  O7x O    41.0251  -12.1370
+            23  C1x C    39.9028  -12.9086
+            24  O6a O    43.4801  -12.5579
+            25  C1a C    38.4999  -14.6622
+            26  O1a O    38.4999  -18.8708
+            27  C1a C    34.8524  -16.7665
+            28  C1y C    30.0124  -19.7126
+            29  O2x O    30.0124  -18.3097
+            30  C1y C    28.6796  -17.6083
+            31  C1y C    27.4872  -18.3097
+            32  C1y C    27.4872  -19.7126
+            33  C1x C    28.6796  -20.4140
+            34  O2a O    26.2947  -17.6083
+            35  C1y C    25.1023  -18.3097
+            36  O2x O    25.1023  -19.7126
+            37  O1a O    26.2947  -20.4140
+            38  C1x C    23.8397  -17.6083
+            39  C1y C    22.6472  -18.3097
+            40  C1y C    22.6472  -19.7126
+            41  C1y C    23.8397  -20.4140
+            42  O1a O    21.4548  -17.3983
+            43  O2x O    20.1922  -18.3097
+            44  C1y C    20.1922  -19.7126
+            45  O2a O    21.4548  -20.4140
+            46  C1y C    18.9998  -17.6083
+            47  C1y C    17.8073  -18.3097
+            48  C1y C    17.8073  -19.7126
+            49  C1x C    18.9998  -20.4140
+            50  C1a C    28.6796  -16.2054
+            51  C1a C    23.8397  -21.8169
+            52  C1a C    18.9998  -16.2054
+            53  O1a O    37.3074  -13.9608
+            54  O7a O    16.5895  -17.6132
+            55  O1a O    16.5895  -20.4091
+            56  C7a C    15.3987  -18.3074
+            57  C1a C    14.1998  -17.6218
+            58  O6a O    15.4044  -19.5020
+BOND        65
+            1     2   1 1 #Up
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     2   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    5  11 1
+            13   10  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   11  15 1
+            18   12  16 1
+            19   16  17 1
+            20   17  18 1
+            21   13  18 1
+            22   18  19 1 #Up
+            23   19  20 2
+            24   20  21 1
+            25   21  22 1
+            26   22  23 1
+            27   19  23 1
+            28   21  24 2
+            29   13  25 1 #Up
+            30   12  26 1 #Up
+            31    5  27 1 #Up
+            32   28   1 1 #Up
+            33   28  29 1
+            34   29  30 1
+            35   30  31 1
+            36   31  32 1
+            37   32  33 1
+            38   28  33 1
+            39   31  34 1 #Down
+            40   35  34 1 #Down
+            41   35  36 1
+            42   32  37 1 #Down
+            43   35  38 1
+            44   38  39 1
+            45   39  40 1
+            46   40  41 1
+            47   36  41 1
+            48   39  42 1 #Up
+            49   43  44 1
+            50   44  45 1 #Up
+            51   40  45 1 #Up
+            52   43  46 1
+            53   46  47 1
+            54   47  48 1
+            55   48  49 1
+            56   44  49 1
+            57   30  50 1 #Up
+            58   41  51 1 #Down
+            59   46  52 1 #Up
+            60   14  53 1 #Up
+            61   47  54 1 #Down
+            62   48  55 1 #Down
+            63   54  56 1
+            64   56  57 1
+            65   56  58 2
+///

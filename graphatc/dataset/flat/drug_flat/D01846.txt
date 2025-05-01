@@ -1,0 +1,42 @@
+ENTRY       D01846                      Drug
+NAME        Gimeracil (JAN/INN)
+FORMULA     C5H4ClNO2
+EXACT_MASS  144.9931
+MOL_WEIGHT  145.5438
+REMARK      Product (mixture): D06399<JP>
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Gimeracil is used as concomitant drug of Fluorouracil [DR:D00584]
+TARGET      DPYD [HSA:1806] [KO:K00207]
+  PATHWAY   hsa00240(1806)  Pyrimidine metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                DPYD
+                 D01846  Gimeracil (JAN/INN)
+DBLINKS     CAS: 103766-25-2
+            PubChem: 7848908
+            ChEBI: 31652
+            LigandBox: D01846
+            NIKKAJI: J325.895E
+ATOM        9
+            1   C8y C    31.3307  -14.8911
+            2   C8y C    30.1141  -15.5955
+            3   C8x C    32.5418  -15.5955
+            4   O1a O    31.3893  -13.4879
+            5   C8x C    30.1141  -16.9930
+            6   X   Cl   28.8972  -14.8911
+            7   C8y C    32.5418  -16.9930
+            8   N4x N    31.3307  -17.6916
+            9   O5x O    33.7411  -17.6916
+BOND        9
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     5   8 1
+            8     7   9 2
+            9     7   8 1
+///

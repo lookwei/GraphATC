@@ -1,0 +1,123 @@
+ENTRY       D07870                      Drug
+NAME        Dopamine (INN);
+            Medopa (TN)
+FORMULA     C8H11NO2
+EXACT_MASS  153.079
+MOL_WEIGHT  153.1784
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+            Neuropsychiatric agent
+             DG01472  Dopamine agonist
+            Metabolizing enzyme substrate
+             DG01592  COMT substrate
+             DG02917  MAO substrate
+              DG03179  MAOB substrate
+            Transporter substrate
+             DG02854  SLC22A2 substrate
+REMARK      Same as: C03758
+            ATC code: C01CA04
+            Chemical structure group: DG00213
+            Product (DG00213): D00633<JP/US>
+EFFICACY    Cardiotonic, Dopamine receptor agonist
+COMMENT     Catecholamine derivative
+            Precursor of Norepinephrine
+            Neurotransmitter
+TARGET      DRD [HSA:1812 1813 1814 1815 1816] [KO:K04144 K04145 K04146 K04147 K05840]
+  PATHWAY   hsa04020(1812+1816)  Calcium signaling pathway
+            hsa04080(1812+1813+1814+1815+1816)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813+1814+1815+1816)  Dopaminergic synapse
+METABOLISM  Enzyme: MAOB [HSA:4129], COMT [HSA:1312]
+            Transporter: SLC22A2 [HSA:6582]
+INTERACTION  
+STR_MAP     map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA04 Dopamine
+                  D07870  Dopamine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00213  Dopamine
+                 D07870  Dopamine
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00213  Dopamine
+                D07870  Dopamine
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00213  Dopamine
+                D07870  Dopamine
+              DG02917  MAO substrate
+               DG03179  MAOB substrate
+                DG00213  Dopamine
+                 D07870  Dopamine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00213  Dopamine
+                D07870  Dopamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD
+                 D07870  Dopamine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07870
+             Drug transporters
+              D07870
+            Prodrugs [br08324.html]
+             D07870
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00213  Dopamine
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00213  Dopamine
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00213  Dopamine
+              DG02917  MAO substrate
+               DG03179  MAOB substrate
+                DG00213  Dopamine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00213  Dopamine
+DBLINKS     CAS: 51-61-6
+            PubChem: 96024566
+            ChEBI: 18243
+            PDB-CCD: LDP
+            LigandBox: D07870
+            NIKKAJI: J4.120C
+ATOM        11
+            1   C8y C    27.5800  -20.4400
+            2   C8x C    26.3200  -19.7400
+            3   C8x C    27.5800  -21.9100
+            4   C1b C    28.8400  -19.7400
+            5   C8y C    25.1300  -20.4400
+            6   C8x C    26.3200  -22.6100
+            7   C1b C    30.0300  -20.4400
+            8   C8y C    25.1300  -21.9100
+            9   O1a O    23.9400  -19.7400
+            10  N1a N    31.2200  -19.7400
+            11  O1a O    23.9400  -22.5400
+BOND        11
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11    6   8 2
+///

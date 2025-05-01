@@ -1,0 +1,40 @@
+ENTRY       D07773                      Drug
+NAME        Dacisteine (INN);
+            Mucothiol (TN)
+FORMULA     C7H11NO4S
+EXACT_MASS  205.0409
+MOL_WEIGHT  205.2315
+EFFICACY    Mucolytic
+COMMENT     Cysteine derivative
+DBLINKS     CAS: 18725-37-6
+            PubChem: 96024471
+            LigandBox: D07773
+            NIKKAJI: J222.285J
+ATOM        13
+            1   C1a C    22.2600  -15.4700
+            2   C5a C    21.0700  -14.7700
+            3   S2a S    19.8100  -15.4700
+            4   C1b C    18.6200  -14.7700
+            5   C1c C    17.4300  -15.4700
+            6   C6a C    16.1700  -14.7700
+            7   O6a O    14.9800  -15.4700
+            8   N1b N    17.4300  -16.8700
+            9   O6a O    16.1700  -13.3700
+            10  O5a O    21.0700  -13.3700
+            11  C5a C    18.6200  -17.5700
+            12  C1a C    19.8100  -16.8700
+            13  O5a O    18.6200  -18.9700
+BOND        12
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     5   8 1 #Down
+            8     6   9 2
+            9     2  10 2
+            10    8  11 1
+            11   11  12 1
+            12   11  13 2
+///

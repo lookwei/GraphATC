@@ -1,0 +1,116 @@
+ENTRY       D02622                      Drug
+NAME        Pipamperone (USAN/INN);
+            Floropipamide
+FORMULA     C21H30FN3O2
+EXACT_MASS  375.2322
+MOL_WEIGHT  375.4802
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01940  Butyrophenone derivative
+REMARK      ATC code: N05AD05
+            Chemical structure group: DG00889
+            Product (DG00889): D01482<JP>
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Butyrophenone derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07031  Antipsychotics - butyrophenones
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AD Butyrophenone derivatives
+                 N05AD05 Pipamperone
+                  D02622  Pipamperone (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00889  Pipamperone
+                 D02622  Pipamperone
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00889  Pipamperone
+                 D02622  Pipamperone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02622  Pipamperone (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00889  Pipamperone
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00889  Pipamperone
+DBLINKS     CAS: 1893-33-0
+            PubChem: 17396792
+            ChEBI: 78549
+            LigandBox: D02622
+            NIKKAJI: J7.805K
+ATOM        27
+            1   C1z C    26.3900  -16.0300
+            2   C1x C    25.2000  -15.3300
+            3   C1x C    23.9400  -16.0300
+            4   N1y N    23.9400  -17.4300
+            5   C1x C    25.2000  -18.1300
+            6   C1x C    26.3900  -17.4300
+            7   C1b C    22.7500  -18.1300
+            8   C1b C    21.5600  -17.4300
+            9   C1b C    20.3000  -18.1300
+            10  C5a C    19.1100  -17.4300
+            11  C8y C    17.9200  -18.1300
+            12  O5a O    19.1100  -16.0300
+            13  C8x C    16.7300  -17.4300
+            14  C8x C    15.4700  -18.1300
+            15  C8y C    15.4700  -19.5300
+            16  C8x C    16.7300  -20.2300
+            17  C8x C    17.9200  -19.5300
+            18  X   F    14.2800  -20.1600
+            19  N1y N    27.5800  -15.3300
+            20  C1x C    28.8400  -16.0300
+            21  C1x C    30.0300  -15.3300
+            22  C1x C    30.0300  -13.9300
+            23  C1x C    28.8400  -13.2300
+            24  C1x C    27.5800  -13.9300
+            25  C5a C    27.0900  -17.2200
+            26  N1a N    28.4900  -17.2200
+            27  O5a O    26.3900  -18.4100
+BOND        29
+            1     6   1 1
+            2     4   7 1
+            3    11  13 2
+            4    13  14 1
+            5    14  15 2
+            6    15  16 1
+            7    16  17 2
+            8    17  11 1
+            9    15  18 1
+            10    7   8 1
+            11    1  19 1
+            12    8   9 1
+            13    1   2 1
+            14    9  10 1
+            15    2   3 1
+            16   19  20 1
+            17   20  21 1
+            18   21  22 1
+            19   22  23 1
+            20   23  24 1
+            21   24  19 1
+            22   10  11 1
+            23    3   4 1
+            24   10  12 2
+            25    4   5 1
+            26    5   6 1
+            27   25  26 1
+            28   25   1 1
+            29   25  27 2
+///

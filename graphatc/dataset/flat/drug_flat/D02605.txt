@@ -1,0 +1,99 @@
+ENTRY       D02605                      Drug
+NAME        Methoxypromazine maleate
+FORMULA     C18H22N2OS. C4H4O4
+EXACT_MASS  430.1562
+MOL_WEIGHT  430.5172
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04540(1813)  Gap junction
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                D02605  Methoxypromazine maleate
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                D02605  Methoxypromazine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02605  Methoxypromazine maleate
+DBLINKS     CAS: 3403-42-7
+            PubChem: 17396775
+            LigandBox: D02605
+            NIKKAJI: J220.159C
+ATOM        30
+            1   C8x C    22.5471  -19.2822
+            2   C8x C    22.5471  -20.6738
+            3   C8x C    23.7522  -21.3696
+            4   C8y C    24.9574  -20.6738
+            5   C8y C    24.9574  -19.2822
+            6   C8x C    23.7522  -18.5864
+            7   S2x S    26.1626  -21.3696
+            8   C8y C    27.3677  -20.6738
+            9   C8y C    27.3677  -19.2822
+            10  N1y N    26.1626  -18.5864
+            11  C8x C    28.5730  -21.3696
+            12  C8x C    29.7781  -20.6738
+            13  C8y C    29.7781  -19.2822
+            14  C8x C    28.5730  -18.5864
+            15  C1b C    26.1626  -17.1948
+            16  C1b C    27.3698  -16.4978
+            17  C1a C    29.7393  -15.1019
+            18  O2a O    30.9873  -18.5841
+            19  C1a C    32.1776  -19.2715
+            20  C1b C    28.5920  -17.2032
+            21  N1c N    29.7731  -16.5211
+            22  C1a C    30.9677  -17.2108
+            23  C2b C    37.7852  -17.3339
+            24  C2b C    39.5247  -17.3339
+            25  C6a C    37.0894  -18.5391
+            26  C6a C    40.2205  -18.5391
+            27  O6a O    41.6121  -18.5391
+            28  O6a O    35.6978  -18.5391
+            29  O6a O    37.7757  -19.7274
+            30  O6a O    39.5343  -19.7274
+BOND        31
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 1
+            12    8  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16    9  14 1
+            17   10  15 1
+            18   15  16 1
+            19   13  18 1
+            20   18  19 1
+            21   16  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  17 1
+            25   23  24 2
+            26   23  25 1
+            27   24  26 1
+            28   26  27 2
+            29   25  28 1
+            30   25  29 2
+            31   26  30 1
+///

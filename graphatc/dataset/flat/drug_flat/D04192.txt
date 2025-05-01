@@ -1,0 +1,78 @@
+ENTRY       D04192                      Drug
+NAME        Flindokalner (USAN/INN);
+            Maxipost (TN)
+FORMULA     C16H10ClF4NO2
+EXACT_MASS  359.0336
+MOL_WEIGHT  359.7027
+REMARK      Same as: C13830
+EFFICACY    Neuroprotectant, Potassium channel modulator
+COMMENT     opener of large conductance, calcium-activated (maxi-K) K+ channels
+TARGET      KCNQ [HSA:3784 3785 3786 9132 56479] [KO:K04926 K04927 K04928 K04929 K04930]
+            KCNMB1 [HSA:3779] [KO:K04937]
+  PATHWAY   hsa04270(3779)  Vascular smooth muscle contraction
+            hsa04725(3784+3785+3786+56479+9132)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Potassium channels
+                KCNQ
+                 D04192  Flindokalner (USAN/INN)
+                KCNMB1
+                 D04192  Flindokalner (USAN/INN)
+DBLINKS     CAS: 187523-35-9
+            PubChem: 47206138
+            ChEBI: 34548
+            LigandBox: D04192
+ATOM        24
+            1   C8y C    16.1581  -14.1268
+            2   C8x C    16.1581  -15.5293
+            3   C8x C    17.3726  -16.2302
+            4   C8y C    18.5870  -15.5293
+            5   C8y C    18.5870  -14.1268
+            6   C8x C    17.3726  -13.4257
+            7   C1z C    19.9206  -15.9625
+            8   C5x C    20.7449  -14.8280
+            9   N1x N    19.9206  -13.6936
+            10  O5x O    22.1412  -14.8280
+            11  C1d C    14.9437  -13.4257
+            12  X   F    13.7277  -12.7246
+            13  C8y C    19.9206  -17.3606
+            14  C8x C    18.7089  -18.0601
+            15  C8y C    18.7089  -19.4582
+            16  C8x C    19.9197  -20.1572
+            17  C8x C    21.1314  -19.4577
+            18  C8y C    21.1314  -18.0596
+            19  X   F    21.2711  -16.3243
+            20  X   F    15.6433  -12.2130
+            21  X   F    14.2460  -14.6349
+            22  X   Cl   17.5146  -20.1475
+            23  O2a O    22.3767  -17.3407
+            24  C1a C    23.5674  -18.0286
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1
+            11    8  10 2
+            12    1  11 1
+            13   11  12 1
+            14    7  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   13  18 1
+            21    7  19 1 #Down
+            22   11  20 1
+            23   11  21 1
+            24   15  22 1
+            25   18  23 1
+            26   23  24 1
+///

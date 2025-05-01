@@ -1,0 +1,137 @@
+ENTRY       D00953                      Drug
+NAME        Norethindrone acetate (USP);
+            Norethisterone acetate (JAN);
+            Aygestin (TN)
+PRODUCT
+  GENERIC   AYGESTIN (Teva Women's Health)
+            NORETHINDRONE ACETATE (Amneal Pharmaceuticals LLC)
+            NORETHINDRONE ACETATE (AvKARE)
+            NORETHINDRONE ACETATE (Glenmark Pharmaceuticals)
+            NORETHINDRONE ACETATE (Ingenus Pharmaceuticals)
+            NORETHINDRONE ACETATE (Mylan Pharmaceuticals)
+            NORETHINDRONE ACETATE (Rising Pharmaceuticals)
+            NORETHINDRONE ACETATE (Teva Pharmaceuticals USA)
+FORMULA     C22H28O3
+EXACT_MASS  340.2038
+MOL_WEIGHT  340.4559
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C08152
+            ATC code: G03AC01 G03DC02
+            Chemical structure group: DG00456
+            Product (DG00456): D00182<JP/US> D00953<US>
+            Product (mixture): D04483<JP/US> D09188<JP/US> D12137<US> D12226<US>
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+                G03AC Progestogens
+                 G03AC01 Norethisterone
+                  D00953  Norethindrone acetate (USP) &lt;US&gt;
+               G03D PROGESTOGENS
+                G03DC Estren derivatives
+                 G03DC02 Norethisterone
+                  D00953  Norethindrone acetate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Contraceptives
+              Oral Progestins
+               Norethindrone
+                D00953  Norethindrone acetate (USP)
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Progestins
+               Norethindrone
+                D00953  Norethindrone acetate (USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00456  Norethisterone
+                D00953  Norethindrone acetate
+              DG01666  Progesterone receptor agonist
+               DG00456  Norethisterone
+                D00953  Norethindrone acetate
+            Drug classes [BR:br08332]
+             Endocrine and hormonal agent
+              DG02004  Progesterone
+               D00953  Norethindrone acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D00953  Norethindrone acetate (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00456  Norethisterone
+              DG01666  Progesterone receptor agonist
+               DG00456  Norethisterone
+DBLINKS     CAS: 51-98-9
+            PubChem: 7848016
+            ChEBI: 7628
+            LigandBox: D00953
+            NIKKAJI: J1.910K
+ATOM        25
+            1   C1z C    26.8820  -17.0674
+            2   C1z C    28.0682  -16.3895
+            3   C1y C    26.8705  -18.4405
+            4   C1x C    25.7075  -16.3836
+            5   C1a C    26.8762  -15.7000
+            6   C1x C    29.2545  -17.0791
+            7   O7a O    28.0567  -15.0162
+            8   C3b C    29.2487  -15.7000
+            9   C1y C    25.6842  -19.1184
+            10  C1x C    29.2429  -18.3822
+            11  C1x C    24.5155  -17.0557
+            12  C7a C    28.0567  -13.6548
+            13  C3a C    30.4292  -15.0105
+            14  C1y C    24.5038  -18.4231
+            15  C1x C    25.6842  -20.4917
+            16  C1a C    29.2429  -12.9710
+            17  O6a O    26.8762  -12.9769
+            18  C1y C    23.3175  -19.1009
+            19  C1x C    24.4921  -21.1696
+            20  C2y C    23.3118  -20.4800
+            21  C1x C    22.1371  -18.4172
+            22  C2x C    22.1371  -21.1636
+            23  C1x C    20.9508  -19.1009
+            24  C5x C    20.9508  -20.4800
+            25  O5x O    19.7588  -21.1579
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1 #Up
+            7     2   8 1 #Down
+            8     3   9 1
+            9     3  10 1
+            10    4  11 1
+            11    7  12 1
+            12    8  13 3
+            13    9  14 1
+            14    9  15 1
+            15   12  16 1
+            16   12  17 2
+            17   14  18 1
+            18   15  19 1
+            19   18  20 1
+            20   18  21 1
+            21   20  22 2
+            22   21  23 1
+            23   22  24 1
+            24   24  25 2
+            25    6  10 1
+            26   11  14 1
+            27   19  20 1
+            28   23  24 1
+///

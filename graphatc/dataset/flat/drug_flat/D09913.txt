@@ -1,0 +1,54 @@
+ENTRY       D09913                      Drug
+NAME        Iniparib (USAN/INN)
+FORMULA     C7H5IN2O3
+EXACT_MASS  291.9345
+MOL_WEIGHT  292.0307
+CLASS       Antineoplastic
+             DG02942  PARP inhibitor
+EFFICACY    Antineoplastic, PARP1 inhibitor
+TARGET      PARP1 [HSA:142] [KO:K24070]
+  PATHWAY   hsa04210(142)  Apoptosis
+            hsa04217(142)  Necroptosis
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02942  PARP inhibitor
+               D09913  Iniparib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                PARP1
+                 D09913  Iniparib (USAN/INN)
+DBLINKS     CAS: 160003-66-7
+            PubChem: 135626650
+            PDB-CCD: 33E
+            LigandBox: D09913
+ATOM        13
+            1   C8y C    10.3600  -19.5300
+            2   C8x C    10.3600  -20.9300
+            3   C8x C    11.5724  -21.6300
+            4   C8y C    12.7849  -20.9300
+            5   C8x C    12.7849  -19.5300
+            6   C8y C    11.5724  -18.8300
+            7   N2b N    11.5724  -17.4302 #+
+            8   O3a O    10.3432  -16.7203
+            9   O3a O    12.9780  -16.3898 #-
+            10  X   I     9.1476  -18.8300
+            11  C5a C    14.0160  -21.6410
+            12  O5a O    15.2212  -20.9453
+            13  N1a N    14.0157  -23.0299
+BOND        13
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     6   7 1
+            8     7   8 2
+            9     7   9 1
+            10    1  10 1
+            11    4  11 1
+            12   11  12 2
+            13   11  13 1
+///

@@ -1,0 +1,106 @@
+ENTRY       C03205                      Compound
+NAME        11-Deoxycorticosterone;
+            Deoxycorticosterone;
+            Cortexone;
+            21-Hydroxy-4-pregnene-3,20-dione;
+            Desoxycortone;
+            DOC
+FORMULA     C21H30O3
+EXACT_MASS  330.2195
+MOL_WEIGHT  330.4611
+REMARK      Same as: D07792
+REACTION    R02213 R03851 R04163 R04165 R08949 R08954
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04925  Aldosterone synthesis and secretion
+MODULE      M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+ENZYME      1.1.1.145       1.3.1.22        1.14.14.16      1.14.15.4       
+            5.3.1.21        5.3.3.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              21-Carbon atoms
+               Pregnane derivatives
+                C03205  11-Deoxycorticosterone
+             Hormones and transmitters
+              Steroid hormones
+               Mineralocorticoids
+                C03205  11-Deoxycorticosterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C03205  11-Deoxycorticosterone
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D07792)]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AA Mineralocorticoids
+                 H02AA03 Desoxycortone
+                  D07792  Desoxycortone (INN)
+            Target-based classification of drugs [BR:br08310(D07792)]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D07792  Desoxycortone (INN)
+DBLINKS     CAS: 64-85-7
+            PubChem: 6081
+            ChEBI: 16973
+            LIPIDMAPS: LMST02030087
+            PDB-CCD: 1CA
+            3DMET: B01638
+            NIKKAJI: J1.407I
+ATOM        24
+            1   C1y C    27.3191  -16.5320
+            2   C1y C    26.0345  -17.2153
+            3   C1z C    27.2668  -15.1304
+            4   C1y C    24.8257  -16.5086
+            5   C1x C    26.0345  -18.6167
+            6   C1x C    26.0579  -14.4179
+            7   C1z C    23.6109  -17.2036
+            8   C1x C    24.8374  -15.1129
+            9   C1x C    24.8140  -19.3175
+            10  C2y C    23.6051  -18.6110
+            11  C1x C    22.3963  -16.5086
+            12  C1a C    23.5934  -15.8078
+            13  C2x C    22.3963  -19.3175
+            14  C1x C    21.1816  -17.2036
+            15  C5x C    21.1816  -18.6110
+            16  O5x O    19.9669  -19.3175
+            17  C1x C    29.6723  -16.5114
+            18  C1x C    29.6899  -15.0398
+            19  C1y C    28.4522  -14.3856
+            20  C5a C    28.4004  -13.0201
+            21  C1a C    27.2668  -13.7304
+            22  O5a O    27.1776  -12.3746
+            23  C1b C    29.5994  -12.2657
+            24  O1a O    30.8392  -12.9201
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 1
+            8     5   9 1
+            9     7  10 1
+            10    7  11 1
+            11    7  12 1 #Up
+            12   10  13 2
+            13   11  14 1
+            14   13  15 1
+            15   15  16 2
+            16    6   8 1
+            17    9  10 1
+            18   14  15 1
+            19    1  17 1
+            20   17  18 1
+            21   18  19 1
+            22    3  19 1
+            23   19  20 1 #Up
+            24    3  21 1 #Up
+            25   20  22 2
+            26   20  23 1
+            27   23  24 1
+///

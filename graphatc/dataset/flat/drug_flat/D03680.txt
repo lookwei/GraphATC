@@ -1,0 +1,129 @@
+ENTRY       D03680                      Drug
+NAME        Demeclocycline (USP);
+            Demethylchlortetracycline (JAN)
+FORMULA     C21H21ClN2O8
+EXACT_MASS  464.0986
+MOL_WEIGHT  464.853
+SOURCE      Streptomyces aureofaciens [TAX:1894]
+CLASS       Antibacterial
+             DG01197  Tetracycline antibiotic
+REMARK      ATC code: D06AA01 J01AA01
+            Chemical structure group: DG00396
+            Product (DG00396): D00290<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07019  Tetracyclines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AA Tetracycline and derivatives
+                 D06AA01 Demeclocycline
+                  D03680  Demeclocycline (USP)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA01 Demeclocycline
+                  D03680  Demeclocycline (USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Demethylchlortetracycline
+                D03680  Demeclocycline (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00396  Demeclocycline
+                D03680  Demeclocycline
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D03680  Demeclocycline (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00396  Demeclocycline
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                DG00396  Demeclocycline
+DBLINKS     CAS: 127-33-3
+            PubChem: 17397776
+            ChEBI: 4392
+            LigandBox: D03680
+            NIKKAJI: J3.262J
+ATOM        32
+            1   C1y C    35.2619  -18.2923
+            2   C1z C    35.2503  -19.6742
+            3   C1y C    36.4630  -17.6043
+            4   C1x C    34.0550  -17.5927
+            5   C2y C    34.0550  -20.3739
+            6   C5x C    36.4455  -20.3739
+            7   O1a O    35.2503  -21.0676
+            8   C2y C    37.6582  -18.3040
+            9   N1c N    36.4689  -16.2050
+            10  C1y C    32.8481  -18.2923
+            11  C2y C    32.8481  -19.6859
+            12  O1a O    34.0609  -21.7790
+            13  C2y C    37.6524  -19.6917
+            14  O5x O    36.4398  -21.7731
+            15  O1a O    38.8710  -17.6103
+            16  C1a C    37.6875  -15.5113
+            17  C1a C    35.2619  -15.4996
+            18  C1y C    31.6355  -17.5927
+            19  C5x C    31.6472  -20.3913
+            20  C5a C    38.8535  -20.3913
+            21  C8y C    30.4286  -18.3040
+            22  O1a O    31.6355  -16.1234
+            23  C8y C    30.4344  -19.6976
+            24  O5x O    31.6590  -21.7906
+            25  N1a N    40.0720  -19.7033
+            26  O5a O    38.8477  -21.7963
+            27  C8y C    29.2158  -17.6043
+            28  C8y C    29.2333  -20.4030
+            29  C8x C    28.0030  -18.3157
+            30  X   Cl   29.2100  -16.1992
+            31  C8x C    28.0147  -19.7149
+            32  O1a O    29.2450  -21.8080
+BOND        35
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9     4  10 1
+            10    5  11 2
+            11    5  12 1
+            12    6  13 1
+            13    6  14 2
+            14    8  15 1
+            15    9  16 1
+            16    9  17 1
+            17   10  18 1
+            18   11  19 1
+            19   13  20 1
+            20   18  21 1
+            21   18  22 1 #Up
+            22   19  23 1
+            23   19  24 2
+            24   20  25 1
+            25   20  26 2
+            26   21  27 1
+            27   23  28 1
+            28   27  29 2
+            29   27  30 1
+            30   28  31 2
+            31   28  32 1
+            32    8  13 2
+            33   10  11 1
+            34   21  23 2
+            35   29  31 1
+///

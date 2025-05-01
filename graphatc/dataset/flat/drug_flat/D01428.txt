@@ -1,0 +1,117 @@
+ENTRY       D01428                      Drug
+NAME        Fenoterol hydrobromide (JAN);
+            Berotec (TN)
+FORMULA     C17H21NO4. HBr
+EXACT_MASS  383.0732
+MOL_WEIGHT  384.2649
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Therapeutic category: 2252
+            ATC code: G02CA03 R03AC04 R03CC04
+            Chemical structure group: DG00451
+            Product (DG00451): D01428<JP>
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02C OTHER GYNECOLOGICALS
+                G02CA Sympathomimetics, labour repressants
+                 G02CA03 Fenoterol
+                  D01428  Fenoterol hydrobromide (JAN) &lt;JP&gt;
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC04 Fenoterol
+                  D01428  Fenoterol hydrobromide (JAN) &lt;JP&gt;
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CC Selective beta-2-adrenoreceptor agonists
+                 R03CC04 Fenoterol
+                  D01428  Fenoterol hydrobromide (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               225  Bronchodilators
+                2252  Isoprenalines
+                 D01428  Fenoterol hydrobromide (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG00451  Fenoterol
+                  D01428  Fenoterol hydrobromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D01428  Fenoterol hydrobromide (JAN) &lt;JP&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG00451  Fenoterol
+DBLINKS     CAS: 1944-12-3
+            PubChem: 7848491
+            ChEBI: 31601
+            LigandBox: D01428
+            NIKKAJI: J220.066J
+ATOM        23
+            1   X   Br   28.4159  -19.5600
+            2   C8x C    27.0900  -17.4300
+            3   C8y C    27.0900  -16.0300
+            4   C8x C    25.9000  -15.3300
+            5   C8x C    24.6400  -16.0300
+            6   C8y C    24.6400  -17.4300
+            7   C8x C    25.9000  -18.1300
+            8   C1b C    23.4500  -18.1300
+            9   C1c C    22.2600  -17.4300
+            10  N1b N    21.0000  -18.1300
+            11  C1b C    19.8100  -17.4300
+            12  C1c C    18.6200  -18.1300
+            13  C8y C    17.3600  -17.4300
+            14  C1a C    22.2600  -16.0300
+            15  O1a O    18.6200  -19.5300
+            16  C8x C    17.3600  -16.0300
+            17  C8y C    16.1700  -15.3300
+            18  C8x C    14.9800  -16.0300
+            19  C8y C    14.9800  -17.4300
+            20  C8x C    16.1700  -18.1300
+            21  O1a O    13.7200  -18.1300
+            22  O1a O    16.1700  -13.9300
+            23  O1a O    28.2800  -15.3300
+BOND        23
+            1    11  12 1
+            2     5   6 2
+            3    12  13 1
+            4     6   7 1
+            5     9  14 1
+            6     7   2 2
+            7    12  15 1
+            8     6   8 1
+            9     8   9 1
+            10    2   3 1
+            11   13  16 1
+            12   16  17 2
+            13   17  18 1
+            14   18  19 2
+            15   19  20 1
+            16   20  13 2
+            17    9  10 1
+            18   19  21 1
+            19    3   4 2
+            20   17  22 1
+            21   10  11 1
+            22    3  23 1
+            23    4   5 1
+///

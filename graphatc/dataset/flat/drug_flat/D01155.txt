@@ -1,0 +1,134 @@
+ENTRY       D01155                      Drug
+NAME        Gemcitabine hydrochloride (JAN/USP);
+            Gemzar (TN)
+PRODUCT     GEMCITABINE (Accord Healthcare)
+            GEMCITABINE (BluePoint Laboratories)
+            GEMCITABINE (Hospira)
+            GEMCITABINE (Hospira)
+  GENERIC   GEMCITABINE (Armas Pharmaceuticals)
+            GEMCITABINE (Armas Pharmaceuticals)
+            GEMCITABINE (Armas Pharmaceuticals)
+            GEMCITABINE (Athenex Pharmaceutical Division)
+            GEMCITABINE (Dr. Reddy's Laboratories Limited)
+            GEMCITABINE (Fresenius Kabi USA)
+            GEMCITABINE (Fresenius Kabi USA)
+            GEMCITABINE (Fresenius Kabi USA)
+            GEMCITABINE (Hikma Pharmaceuticals USA)
+            GEMCITABINE (Hospira)
+            GEMCITABINE (Hospira)
+            GEMCITABINE (Ingenus Pharmaceuticals)
+            GEMCITABINE (Meitheal Pharmaceuticals)
+            GEMCITABINE (Meitheal Pharmaceuticals)
+            GEMCITABINE (Mylan Institutional LLC)
+            GEMCITABINE (NorthStar Rx LLC)
+            GEMCITABINE (Sagent Pharmaceuticals)
+            GEMCITABINE HYDROCHLORIDE (Accord Healthcare)
+            GEMCITABINE HYDROCHLORIDE (Gland Pharma Limited)
+FORMULA     C9H11F2N3O4. HCl
+EXACT_MASS  299.0484
+MOL_WEIGHT  299.6591
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+REMARK      Therapeutic category: 4224
+            ATC code: L01BC05
+            Chemical structure group: DG00688
+            Product (DG00688): D01155<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Ovarian cancer [DS:H00027]
+            Breast cancer [DS:H00031]
+            Non-small cell lung cancer [DS:H00014]
+            Pancreatic cancer [DS:H00019]
+TARGET      RRM1 [HSA:6240] [KO:K10807]
+  PATHWAY   hsa00230(6240)  Purine metabolism
+            hsa00240(6240)  Pyrimidine metabolism
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC05 Gemcitabine
+                  D01155  Gemcitabine hydrochloride (JAN/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Gemcitabine
+                D01155  Gemcitabine hydrochloride (JAN/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               422  Antimetabolites
+                4224  Cytosines
+                 D01155  Gemcitabine hydrochloride (JAN/USP)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 DG00688  Gemcitabine
+                  D01155  Gemcitabine hydrochloride
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D01155  Gemcitabine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Ribonucleoside-diphosphate reductase
+                RRM1
+                 D01155  Gemcitabine hydrochloride (JAN/USP) &lt;JP/US&gt;
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 DG00688  Gemcitabine
+DBLINKS     CAS: 122111-03-9
+            PubChem: 7848218
+            ChEBI: 31647
+            LigandBox: D01155
+            NIKKAJI: J1.894.035C
+ATOM        19
+            1   X   Cl   23.2764  -19.8780
+            2   C1y C    17.7120  -17.4316
+            3   N4y N    19.0399  -16.3826
+            4   C1z C    17.3620  -18.7617
+            5   O2x O    16.5919  -16.5915
+            6   C8y C    20.2923  -17.0271
+            7   C8x C    19.0366  -15.0038
+            8   C1y C    15.8918  -18.7617
+            9   X   F    17.3620  -20.1618
+            10  X   F    18.6221  -18.7617
+            11  C1y C    15.4718  -17.4316
+            12  N5x N    21.4481  -16.2155
+            13  O5x O    20.2882  -18.2891
+            14  C8x C    20.2624  -14.1922
+            15  O1a O    15.0518  -19.8118
+            16  C1b C    14.2817  -17.0116
+            17  C8y C    21.4448  -14.8367
+            18  O1a O    13.2316  -18.0616
+            19  N1a N    22.6122  -14.0638
+BOND        19
+            1     2   3 1 #Up
+            2     2   4 1
+            3     2   5 1
+            4     3   6 1
+            5     3   7 1
+            6     4   8 1
+            7     4   9 1
+            8     4  10 1
+            9     5  11 1
+            10    6  12 1
+            11    6  13 2
+            12    7  14 2
+            13    8  15 1 #Down
+            14   11  16 1 #Up
+            15   12  17 2
+            16   16  18 1
+            17   17  19 1
+            18    8  11 1
+            19   14  17 1
+///

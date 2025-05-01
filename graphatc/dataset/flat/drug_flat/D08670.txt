@@ -1,0 +1,115 @@
+ENTRY       D08670                      Drug
+NAME        Venlafaxine (INN);
+            Efectin (TN)
+FORMULA     C17H27NO2
+EXACT_MASS  277.2042
+MOL_WEIGHT  277.4018
+CLASS       Neuropsychiatric agent
+             DG01658  Serotonin and norepinephrine reuptake inhibitor (SNRI)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07187
+            ATC code: N06AX16
+            Chemical structure group: DG00959
+            Product (DG00959): D00821<JP/US> D12403<US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+COMMENT     serotonin norepinephrine reuptake inhibitor (SNRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX16 Venlafaxine
+                  D08670  Venlafaxine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01658  Serotonin and norepinephrine reuptake inhibitor (SNRI)
+               DG00959  Venlafaxine
+                D08670  Venlafaxine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00959  Venlafaxine
+                D08670  Venlafaxine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00959  Venlafaxine
+                 D08670  Venlafaxine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08670  Venlafaxine (INN)
+                SLC6A4 (HTT)
+                 D08670  Venlafaxine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08670
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01658  Serotonin and norepinephrine reuptake inhibitor (SNRI)
+               DG00959  Venlafaxine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00959  Venlafaxine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00959  Venlafaxine
+DBLINKS     CAS: 93413-69-5
+            PubChem: 96025353
+            ChEBI: 9943
+            LigandBox: D08670
+ATOM        20
+            1   C8x C    25.1300  -22.1900
+            2   C8y C    25.1300  -23.5900
+            3   C8x C    26.3900  -24.2900
+            4   C8x C    27.5800  -23.5900
+            5   C8y C    27.5800  -22.1900
+            6   C8x C    26.3900  -21.4900
+            7   C1x C    30.0300  -23.5900
+            8   C1z C    30.0300  -22.1900
+            9   C1c C    28.7700  -21.4900
+            10  C1x C    31.2200  -24.2900
+            11  C1x C    32.4100  -23.5900
+            12  C1x C    32.4100  -22.1900
+            13  C1x C    31.2200  -21.4900
+            14  O2a O    23.9400  -24.2900
+            15  C1a C    22.7500  -23.5900
+            16  C1b C    28.7700  -20.0900
+            17  O1a O    30.0300  -20.7900
+            18  N1c N    27.5800  -19.3900
+            19  C1a C    26.3900  -20.0900
+            20  C1a C    27.5800  -17.9900
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15    2  14 1
+            16   14  15 1
+            17    9  16 1
+            18    8  17 1
+            19   16  18 1
+            20   18  19 1
+            21   18  20 1
+///

@@ -1,0 +1,78 @@
+ENTRY       D06656                      Drug
+NAME        Tezampanel (USAN);
+            Tezampanel hydrate
+FORMULA     C13H21N5O2. H2O
+EXACT_MASS  297.1801
+MOL_WEIGHT  297.3534
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG01569  AMPA receptor antagonist
+EFFICACY    Anticonvulsant, Pain relief, AMPA receptor antagonist, Kainate receptor antagonist
+COMMENT     Treatment of migraine, neuropathic pain
+TARGET      GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+            GRIK [HSA:2897 2898 2899 2900 2901] [KO:K05201 K05202 K05203 K05204 K05205]
+  PATHWAY   hsa04080(2890+2891+2892+2893+2897+2898+2899+2900+2901)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893+2897+2898+2899+2900+2901)  Glutamatergic synapse
+            hsa04728(2890+2891+2892+2893)  Dopaminergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG01569  AMPA receptor antagonist
+                D06656  Tezampanel
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D06656  Tezampanel (USAN)
+                GRIK
+                 D06656  Tezampanel (USAN)
+DBLINKS     CAS: 317819-68-4
+            PubChem: 47208307
+            LigandBox: D06656
+ATOM        21
+            1   C1y C    24.8181  -24.4012
+            2   N1x N    24.8181  -25.8049
+            3   C1x C    26.0337  -26.5067
+            4   C1y C    27.2493  -25.8049
+            5   C1y C    27.2493  -24.4012
+            6   C1x C    26.0337  -23.6994
+            7   C1x C    28.4649  -26.5067
+            8   C1x C    29.6804  -25.8049
+            9   C1y C    29.6804  -24.4012
+            10  C1x C    28.4649  -23.6994
+            11  C6a C    23.6026  -23.6994
+            12  C1b C    30.8812  -23.7079
+            13  O6a O    22.4039  -24.3916
+            14  O6a O    23.6025  -22.2959
+            15  C1b C    32.0726  -24.3957
+            16  C8y C    33.2665  -23.7063
+            17  N5x N    34.4024  -24.5276
+            18  N5x N    35.5384  -23.7031
+            19  N5x N    35.1052  -22.3679
+            20  N4x N    33.7016  -22.3673
+            21  O0  O    33.8716  -26.9278
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    1  11 1 #Down
+            13    9  12 1 #Up
+            14   11  13 1
+            15   11  14 2
+            16   12  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   16  20 1
+///

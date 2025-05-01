@@ -1,0 +1,155 @@
+ENTRY       D02233                      Drug
+NAME        Cefozopran hydrochloride (JP18);
+            Firstcin (TN)
+FORMULA     C19H18N9O5S2. Cl
+EXACT_MASS  551.0561
+MOL_WEIGHT  551.9865
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01777  Fourth-generation cephalosporin
+             DG01804  Oxyimino beta-lactam
+REMARK      Therapeutic category: 6132
+            ATC code: J01DE03
+            Chemical structure group: DG00588
+            Product (DG00588): D02233<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DE Fourth-generation cephalosporins
+                 J01DE03 Cefozopran
+                  D02233  Cefozopran hydrochloride (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               613  Acting mainly on gram-positive and gram-negative bacteria
+                6132  Cephem antibioitics
+                 D02233  Cefozopran hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00588  Cefozopran
+                  D02233  Cefozopran hydrochloride
+              DG01777  Fourth-generation cephalosporin
+               DG00588  Cefozopran
+                D02233  Cefozopran hydrochloride
+              DG01804  Oxyimino beta-lactam
+               DG00588  Cefozopran
+                D02233  Cefozopran hydrochloride
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01488  Cephem
+               D02233  Cefozopran hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Fourth-generation cephalosporin
+                D02233  Cefozopran hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02233  Cefozopran hydrochloride
+              D02233  Cefozopran hydrochloride for injection
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00588  Cefozopran
+              DG01777  Fourth-generation cephalosporin
+               DG00588  Cefozopran
+              DG01804  Oxyimino beta-lactam
+               DG00588  Cefozopran
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Fourth-generation cephalosporin
+                DG00588  Cefozopran
+DBLINKS     CAS: 113981-44-5
+            PubChem: 7849292
+            LigandBox: D02233
+ATOM        36
+            1   C1y C    25.4311  -18.8403
+            2   N1y N    25.4311  -20.2356
+            3   C2y C    26.6170  -20.9333
+            4   C2y C    27.8031  -20.2356
+            5   C1x C    27.8031  -18.8403
+            6   S2x S    26.6170  -18.1426
+            7   C1y C    24.0357  -18.8403
+            8   C5x C    24.0357  -20.2356
+            9   N1b N    22.7799  -18.1426
+            10  C5a C    21.5940  -18.8403
+            11  O5a O    21.5940  -20.2356
+            12  O5x O    22.7799  -20.9333
+            13  C2c C    20.4079  -18.1426
+            14  C1b C    29.0589  -20.9333
+            15  C8y C    19.1521  -18.8403
+            16  N5y N    30.2450  -20.2356 #+
+            17  N5x N    18.1056  -18.0030
+            18  S2x S    16.9196  -18.7705
+            19  C8y C    17.3382  -20.1658
+            20  N5x N    18.7334  -20.1658
+            21  N2b N    20.4079  -16.7472
+            22  C6a C    26.6170  -22.3286
+            23  O6a O    27.8031  -23.0263
+            24  O6a O    25.3613  -23.0263
+            25  N1a N    16.5010  -21.2820
+            26  C8y C    31.3910  -21.0359
+            27  N4y N    32.5074  -20.1960
+            28  C8x C    32.0536  -18.8747
+            29  C8x C    30.6567  -18.8980
+            30  C8x C    31.3910  -22.4309
+            31  C8x C    32.5873  -23.1224
+            32  C8x C    33.8268  -22.4078
+            33  N5x N    33.8268  -21.0128
+            34  O2a O    21.6548  -16.0340
+            35  C1a C    21.6605  -14.6303
+            36  X   Cl   30.0299  -17.7099 #-
+BOND        39
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16   13  15 1
+            17   14  16 1
+            18   15  17 2
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   13  21 2
+            24    3  22 1
+            25   22  23 1
+            26   22  24 2
+            27   19  25 1
+            28   16  26 2
+            29   26  27 1
+            30   27  28 1
+            31   28  29 2
+            32   16  29 1
+            33   26  30 1
+            34   30  31 2
+            35   31  32 1
+            36   32  33 2
+            37   33  27 1
+            38   21  34 1
+            39   34  35 1
+///

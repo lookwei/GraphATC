@@ -1,0 +1,179 @@
+ENTRY       D00320                      Drug
+NAME        Fentanyl (JAN/USP/INN);
+            Duragesic (TN);
+            Subsys (TN)
+PRODUCT
+  GENERIC   FENTANYL (Apotex Corp.)
+            FENTANYL (Apotex Corp.)
+            FENTANYL (Bryant Ranch Prepack)
+            FENTANYL (Bryant Ranch Prepack)
+            FENTANYL (Bryant Ranch Prepack)
+            FENTANYL (Mylan Pharmaceuticals)
+            FENTANYL (Quality Care Products)
+            FENTANYL SYSTEM (ALVOGEN)
+            FENTANYL SYSTEM (Lake Erie Medical DBA Quality Care Products LLC)
+            FENTANYL SYSTEM (Quality Care Products)
+            FENTANYL SYSTEM (Quality Care Products)
+            FENTANYL TRANSDERMAL (SpecGx LLC)
+FORMULA     C22H28N2O
+EXACT_MASS  336.2202
+MOL_WEIGHT  336.4705
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG02027  General anesthetics
+               DG02026  Opioid anesthetics
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 8219
+            ATC code: N01AH01 N02AB03
+            Chemical structure group: DG00791
+            Product (DG00791): D00320<JP/US> D01399<JP/US>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     synthetic-opioid
+            Phenylpiperidine derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01A ANESTHETICS, GENERAL
+                N01AH Opioid anesthetics
+                 N01AH01 Fentanyl
+                  D00320  Fentanyl (JAN/USP/INN) &lt;JP/US&gt;
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AB Phenylpiperidine derivatives
+                 N02AB03 Fentanyl
+                  D00320  Fentanyl (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Long-acting
+               Fentanyl
+                D00320  Fentanyl (JAN/USP/INN)
+              Opioid Analgesics, Short-acting
+               Fentanyl
+                D00320  Fentanyl (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             8  Narcotics
+              82  Non-alkaloidal narcotics
+               821  Synthetic narcotics
+                8219  Others
+                 D00320  Fentanyl (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02026  Opioid anesthetics
+                 DG00791  Fentanyl
+                  D00320  Fentanyl
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00791  Fentanyl
+                 D00320  Fentanyl
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00791  Fentanyl
+                D00320  Fentanyl
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00791  Fentanyl
+                 D00320  Fentanyl
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D00320  Fentanyl (JAN/USP/INN) &lt;JP/US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00320
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D00320
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02026  Opioid anesthetics
+                 DG00791  Fentanyl
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00791  Fentanyl
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00791  Fentanyl
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00791  Fentanyl
+DBLINKS     CAS: 437-38-7
+            PubChem: 7847386
+            ChEBI: 119915
+            PDB-CCD: 7V7
+            LigandBox: D00320
+            NIKKAJI: J5.736C
+ATOM        25
+            1   N1c N    28.2800  -14.2100
+            2   C1y C    29.5400  -14.9100
+            3   C8y C    27.0900  -14.9100
+            4   C5a C    28.2800  -12.8100
+            5   C1x C    29.5400  -16.3100
+            6   C1x C    30.7300  -14.2100
+            7   C8x C    25.9000  -14.2100
+            8   C8x C    27.0900  -16.3100
+            9   C1b C    29.5400  -12.1100
+            10  O5a O    27.0900  -12.1100
+            11  C1x C    30.7300  -17.0100
+            12  C1x C    31.9200  -14.9100
+            13  C8x C    24.6400  -14.9100
+            14  C8x C    25.8300  -17.0100
+            15  C1a C    30.7300  -12.8100
+            16  N1y N    31.9200  -16.3100
+            17  C8x C    24.6400  -16.2400
+            18  C1b C    33.1800  -17.0100
+            19  C1b C    34.3700  -16.3100
+            20  C8y C    35.5600  -17.0100
+            21  C8x C    35.5600  -18.4100
+            22  C8x C    36.8200  -16.3100
+            23  C8x C    36.8200  -19.1100
+            24  C8x C    38.0100  -17.0100
+            25  C8x C    38.0100  -18.4100
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     4  10 2
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 2
+            14    9  15 1
+            15   11  16 1
+            16   13  17 2
+            17   16  18 1
+            18   18  19 1
+            19   19  20 1
+            20   20  21 1
+            21   20  22 2
+            22   21  23 2
+            23   22  24 1
+            24   23  25 1
+            25   12  16 1
+            26   14  17 1
+            27   24  25 2
+///

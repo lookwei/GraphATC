@@ -1,0 +1,125 @@
+ENTRY       D00395                      Drug
+NAME        Troglitazone (JAN/USAN/INN);
+            Rezulin (TN)
+FORMULA     C24H27NO5S
+EXACT_MASS  441.161
+MOL_WEIGHT  441.5399
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01795  PPAR gamma agonist
+               DG01683  Thiazolidinedione
+             DG02044  Hypoglycemic agent
+              DG01683  Thiazolidinedione
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      ATC code: A10BG01
+EFFICACY    Antidiabetic, Peroxisome proliferator-activated receptor (PPAR) gamma agonist
+COMMENT     hepatotoxicity
+            Thiazolidinedione derivative
+TARGET      NR1C3 (PPARG) [HSA:5468] [KO:K08530]
+  PATHWAY   hsa03320(5468)  PPAR signaling pathway
+            hsa04152(5468)  AMPK signaling pathway
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07051  Antidiabetics
+            map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BG Thiazolidinediones
+                 A10BG01 Troglitazone
+                  D00395  Troglitazone (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01683  Thiazolidinedione
+                 D00395  Troglitazone
+              DG02044  Hypoglycemic agent
+               DG01683  Thiazolidinedione
+                D00395  Troglitazone
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               D00395  Troglitazone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C3 (PPARG)
+                 D00395  Troglitazone (JAN/USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00395
+DBLINKS     CAS: 97322-87-7
+            PubChem: 7847461
+            ChEBI: 9753
+            LigandBox: D00395
+            NIKKAJI: J550.754E
+ATOM        31
+            1   C8y C    14.4237  -16.8030
+            2   C8y C    14.4237  -18.2037
+            3   C8y C    15.6367  -18.9040
+            4   C8y C    16.8497  -18.2037
+            5   C8y C    16.8497  -16.8030
+            6   C8y C    15.6367  -16.1027
+            7   C1x C    18.0627  -18.9040
+            8   C1x C    19.2757  -18.2037
+            9   C1z C    19.2757  -16.8030
+            10  O2x O    18.0627  -16.1027
+            11  O2a O    21.7017  -16.8030
+            12  C1b C    20.4887  -16.1027
+            13  C8y C    22.9147  -16.1027
+            14  C8x C    22.9147  -14.7020
+            15  C8x C    24.1277  -16.8030
+            16  C8x C    25.3407  -16.1027
+            17  C8y C    25.3407  -14.7020
+            18  C8x C    24.1277  -14.0017
+            19  O5x O    26.5538  -16.8030
+            20  C5x C    27.7668  -16.1027
+            21  C1y C    27.7668  -14.7020
+            22  C1b C    26.5538  -14.0017
+            23  N1x N    29.0989  -16.5355
+            24  C5x C    29.9222  -15.4024
+            25  S2x S    29.0989  -14.2692
+            26  C1a C    15.6367  -14.7022
+            27  C1a C    13.2107  -16.1027
+            28  O1a O    13.2107  -18.9040
+            29  C1a C    15.6367  -20.3045
+            30  O5x O    31.3016  -15.4024
+            31  C1a C    20.4881  -17.5030
+BOND        34
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12   11  12 1
+            13    9  12 1
+            14   11  13 1
+            15   13  14 2
+            16   13  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   14  18 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 1
+            24   17  22 1
+            25   20  23 1
+            26   23  24 1
+            27   24  25 1
+            28   21  25 1
+            29    6  26 1
+            30    1  27 1
+            31    2  28 1
+            32    3  29 1
+            33   24  30 2
+            34    9  31 1
+///

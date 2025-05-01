@@ -1,0 +1,81 @@
+ENTRY       D02876                      Drug
+NAME        Alvameline maleate (USAN)
+FORMULA     C9H15N5. C4H4O4
+EXACT_MASS  309.1437
+MOL_WEIGHT  309.3211
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+             DG01490  Muscarinic cholinergic receptor agonist
+EFFICACY    Dementia therapeutic agent, Muscarinic acetylcholine receptor agonist/antagonist
+TARGET      CHRM1 [HSA:1128] [KO:K04129]
+            CHRM2 [HSA:1129] [KO:K04130]
+            CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04080(1128+1129+1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D02876  Alvameline maleate
+              DG01490  Muscarinic cholinergic receptor agonist
+               D02876  Alvameline maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM1
+                 D02876  Alvameline maleate (USAN)
+                CHRM2
+                 D02876  Alvameline maleate (USAN)
+                CHRM3
+                 D02876  Alvameline maleate (USAN)
+DBLINKS     CAS: 219581-36-9
+            PubChem: 17397033
+            LigandBox: D02876
+ATOM        22
+            1   C2b C    25.2513  -16.9630
+            2   C2b C    23.5507  -16.9630
+            3   C6a C    25.8891  -18.1677
+            4   C6a C    22.9129  -18.1677
+            5   O6a O    25.2513  -19.3015
+            6   O6a O    27.2355  -18.1677
+            7   O6a O    21.4957  -18.1677
+            8   O6a O    23.5507  -19.3015
+            9   N1y N    10.1500  -17.6400
+            10  C1x C    10.1500  -19.0400
+            11  C1x C    11.3400  -19.7400
+            12  C2x C    12.6000  -19.0400
+            13  C2y C    12.6000  -17.6400
+            14  C1x C    11.3400  -16.9400
+            15  C1a C     8.9600  -16.9400
+            16  C8y C    13.7900  -16.9400
+            17  N5x N    14.9100  -17.7800
+            18  N4y N    16.0300  -16.9400
+            19  N5x N    15.6100  -15.6100
+            20  N5x N    14.2100  -15.6100
+            21  C1b C    17.2200  -17.6400
+            22  C1a C    18.4100  -16.9400
+BOND        22
+            1     1   2 2
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 2
+            6     4   7 1
+            7     4   8 2
+            8     9  10 1
+            9    10  11 1
+            10   11  12 1
+            11   12  13 2
+            12   13  14 1
+            13    9  14 1
+            14    9  15 1
+            15   13  16 1
+            16   16  17 2
+            17   17  18 1
+            18   18  19 1
+            19   19  20 2
+            20   16  20 1
+            21   18  21 1
+            22   21  22 1
+///

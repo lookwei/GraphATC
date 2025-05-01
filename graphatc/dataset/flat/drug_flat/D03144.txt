@@ -1,0 +1,81 @@
+ENTRY       D03144                      Drug
+NAME        Bolasterone (USAN/INN)
+FORMULA     C21H32O2
+EXACT_MASS  316.2402
+MOL_WEIGHT  316.4776
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+              DG01605  Anabolic steroid
+REMARK      Same as: C14475
+EFFICACY    Anabolic, Androgen receptor agonist
+COMMENT     Androstene derivative
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                D03144  Bolasterone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D03144  Bolasterone (USAN/INN)
+DBLINKS     CAS: 1605-89-6
+            PubChem: 17397298
+            ChEBI: 34583
+            LigandBox: D03144
+            NIKKAJI: J7.528K
+ATOM        23
+            1   C1x C    15.0231  -14.5759
+            2   C5x C    15.0231  -15.9373
+            3   C2x C    16.2021  -16.6179
+            4   C2y C    17.3810  -15.9373
+            5   C1z C    17.3810  -14.5759
+            6   C1x C    16.2021  -13.8953
+            7   C1x C    18.5599  -16.6179
+            8   C1y C    19.7388  -15.9373
+            9   C1y C    19.7388  -14.5759
+            10  C1y C    18.5599  -13.8953
+            11  C1y C    20.9179  -13.8953
+            12  C1z C    20.9179  -12.5340
+            13  C1x C    19.7388  -11.8534
+            14  C1x C    18.5599  -12.5340
+            15  C1x C    23.2756  -13.8953
+            16  C1x C    23.2756  -12.5340
+            17  C1z C    22.0967  -11.8534
+            18  C1a C    20.9449  -11.1728
+            19  O1a O    22.1019  -10.4921
+            20  C1a C    20.9550  -16.6395
+            21  O5x O    13.8026  -16.6423
+            22  C1a C    17.3780  -13.1754
+            23  C1a C    23.4032  -11.4940
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   12  18 1 #Up
+            22   17  19 1 #Up
+            23    8  20 1 #Down
+            24    2  21 2
+            25    5  22 1 #Up
+            26   17  23 1 #Down
+///

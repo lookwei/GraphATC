@@ -1,0 +1,120 @@
+ENTRY       D00946                      Drug
+NAME        Diethylstilbestrol diphosphate (USP);
+            Fosfestrol (JAN/INN);
+            Stilphostrol (TN)
+FORMULA     C18H22O8P2
+EXACT_MASS  428.079
+MOL_WEIGHT  428.31
+CLASS       Hormonal agent
+             DG01584  Estrogen receptor agonist
+REMARK      Same as: C08145
+            ATC code: G03CB02 G03CC05 L02AA01 L02AA04
+            Chemical structure group: DG00466
+EFFICACY    Antineoplastic, Estrogen receptor agonist
+COMMENT     Active form of prodrug: Diethylstilbestrol [DR:D00577]
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+STR_MAP     map07043  Antineoplastics - hormones
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CB Synthetic estrogens, plain
+                 G03CB02 Diethylstilbestrol
+                  D00946  Diethylstilbestrol diphosphate (USP)
+                G03CC Estrogens, combinations with other drugs
+                 G03CC05 Diethylstilbestrol
+                  D00946  Diethylstilbestrol diphosphate (USP)
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L02 ENDOCRINE THERAPY
+               L02A HORMONES AND RELATED AGENTS
+                L02AA Estrogens
+                 L02AA01 Diethylstilbestrol
+                  D00946  Diethylstilbestrol diphosphate (USP)
+                 L02AA04 Fosfestrol
+                  D00946  Diethylstilbestrol diphosphate (USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01584  Estrogen receptor agonist
+               DG00466  Diethylstilbestrol
+                D00946  Diethylstilbestrol diphosphate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D00946  Diethylstilbestrol diphosphate (USP)
+            Prodrugs [br08324.html]
+             D00946
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01584  Estrogen receptor agonist
+               DG00466  Diethylstilbestrol
+            Prodrugs [br08324.html(DG00466)]
+             DG00466
+DBLINKS     CAS: 522-40-7
+            PubChem: 7848009
+            ChEBI: 4532
+            LigandBox: D00946
+            NIKKAJI: J6.623K
+ATOM        28
+            1   C2c C    17.1859  -16.2286
+            2   C2c C    17.1976  -17.6216
+            3   C8y C    15.9677  -15.5350
+            4   C1b C    18.3983  -15.5234
+            5   C8y C    18.4099  -18.3211
+            6   C1b C    15.9909  -18.3211
+            7   C8x C    14.7553  -16.2286
+            8   C8x C    15.9677  -14.1301
+            9   C1a C    19.6109  -16.2169
+            10  C8x C    18.4099  -19.7201
+            11  C8x C    19.6225  -17.6159
+            12  C1a C    14.7786  -17.6275
+            13  C8x C    13.5428  -15.5350
+            14  C8x C    14.7553  -13.4248
+            15  C8x C    19.6283  -20.4196
+            16  C8x C    20.8408  -18.3153
+            17  C8y C    13.5428  -14.1301
+            18  C8y C    20.8408  -19.7143
+            19  O2b O    12.3244  -13.4248
+            20  O2b O    22.0531  -20.4196
+            21  P1b P    11.1121  -14.1184
+            22  P1b P    23.2539  -19.7143
+            23  O1c O     9.9007  -14.8178
+            24  O1c O    10.4203  -12.9147
+            25  O1c O    11.8144  -15.3404
+            26  O1c O    24.4654  -19.0149
+            27  O1c O    22.5627  -18.5267
+            28  O1c O    23.9699  -20.9445
+BOND        29
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 2
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 2
+            14   10  15 1
+            15   11  16 2
+            16   13  17 2
+            17   15  18 2
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   14  17 1
+            23   16  18 1
+            24   21  23 2
+            25   21  24 1
+            26   21  25 1
+            27   22  26 2
+            28   22  27 1
+            29   22  28 1
+///

@@ -1,0 +1,102 @@
+ENTRY       D01545                      Drug
+NAME        Aceclofenac (JAN/INN);
+            Aceclofenac (TN)
+FORMULA     C16H13Cl2NO4
+EXACT_MASS  353.0222
+MOL_WEIGHT  354.1847
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01906  Anti-inflammatory drug, acetic acid derivatives
+               DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+REMARK      ATC code: M01AB16 M02AA25
+EFFICACY    Anti-inflammatory, COX inhibitor
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+            PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGES [HSA:9536] [KO:K15729]
+  PATHWAY   hsa00590(5742+5743+9536)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AB Acetic acid derivatives and related substances
+                 M01AB16 Aceclofenac
+                  D01545  Aceclofenac (JAN/INN)
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA25 Aceclofenac
+                  D01545  Aceclofenac (JAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+                 D01545  Aceclofenac
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01545  Aceclofenac (JAN/INN)
+                PTGS2 (COX2)
+                 D01545  Aceclofenac (JAN/INN)
+              Isomerases (EC5)
+               Prostaglandin-E synthase
+                PTGES
+                 D01545  Aceclofenac (JAN/INN)
+DBLINKS     CAS: 89796-99-6
+            PubChem: 7848608
+            ChEBI: 31159
+            LigandBox: D01545
+            NIKKAJI: J22.763C
+ATOM        23
+            1   C8x C     4.2700   -9.5900
+            2   C8x C     4.2700  -10.9900
+            3   C8y C     5.4824  -11.6900
+            4   C8y C     6.6949  -10.9900
+            5   C8y C     6.6949   -9.5900
+            6   C8x C     5.4824   -8.8900
+            7   N1b N     7.9260  -11.7010
+            8   C8y C     7.9257  -13.0899
+            9   X   Cl    5.4824  -13.0898
+            10  X   Cl    7.9260   -8.8790
+            11  C8x C     6.7014  -13.7966
+            12  C8x C     6.7012  -15.1966
+            13  C8x C     7.9135  -15.8967
+            14  C8x C     9.1379  -15.1901
+            15  C8y C     9.1381  -13.7901
+            16  C1b C    10.3743  -13.0762
+            17  C7a C    11.5819  -13.7733
+            18  O7a O    12.7631  -13.0912
+            19  O6a O    11.5824  -15.1896
+            20  C1b C    13.9576  -13.7809
+            21  C6a C    15.1454  -13.0951
+            22  O6a O    16.3365  -13.7829
+            23  O6a O    15.1455  -11.6902
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     3   9 1
+            10    5  10 1
+            11    8  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16    8  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   17  19 2
+            21   18  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+///

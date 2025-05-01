@@ -1,0 +1,92 @@
+ENTRY       D04479                      Drug
+NAME        Hyoscyamine hydrobromide (USP)
+FORMULA     C17H23NO3. HBr
+EXACT_MASS  369.094
+MOL_WEIGHT  370.2814
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: A03BA03
+            Chemical structure group: DG00053
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04970(1131)  Salivary secretion
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03B BELLADONNA AND DERIVATIVES, PLAIN
+                A03BA Belladonna alkaloids, tertiary amines
+                 A03BA03 Hyoscyamine
+                  D04479  Hyoscyamine hydrobromide (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00053  Hyoscyamine
+                D04479  Hyoscyamine hydrobromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D04479  Hyoscyamine hydrobromide (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00053  Hyoscyamine
+DBLINKS     CAS: 306-03-6
+            PubChem: 47206331
+            LigandBox: D04479
+            NIKKAJI: J244.809B
+ATOM        22
+            1   C1x C    20.5572  -18.9601
+            2   C1x C    20.8747  -17.7725
+            3   C1y C    21.7506  -18.6484
+            4   C1y C    22.0622  -17.4551
+            5   N1y N    20.8218  -16.1559
+            6   C1x C    23.6201  -18.6542
+            7   C1x C    23.3614  -17.4609
+            8   C1a C    20.7695  -14.7862
+            9   C1y C    24.6429  -19.2010
+            10  O7a O    25.6951  -20.1239
+            11  C7a C    26.9238  -20.1181
+            12  C1c C    27.5293  -19.0482
+            13  O6a O    27.5116  -21.1939
+            14  C8y C    28.7697  -19.0422
+            15  C1b C    26.9120  -17.9841
+            16  C8x C    29.3868  -20.1122
+            17  C8x C    29.3752  -17.9723
+            18  O1a O    27.5234  -16.9143
+            19  C8x C    30.6214  -20.1064
+            20  C8x C    30.6037  -17.9665
+            21  C8x C    31.2269  -19.0364
+            22  X   Br   34.0900  -19.1100
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   9 1
+            9     9  10 1 #Down
+            10   10  11 1
+            11   11  12 1
+            12   11  13 2
+            13   12  14 1
+            14   12  15 1 #Down
+            15   14  16 2
+            16   14  17 1
+            17   15  18 1
+            18   16  19 1
+            19   17  20 2
+            20   19  21 2
+            21    4   5 1
+            22    7   9 1
+            23   20  21 1
+///

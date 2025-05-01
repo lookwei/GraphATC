@@ -1,0 +1,82 @@
+ENTRY       D06021                      Drug
+NAME        Tecastemizole (USAN/INN)
+FORMULA     C19H21FN4
+EXACT_MASS  324.175
+MOL_WEIGHT  324.3952
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+EFFICACY    Anti-inflammatory, H1 receptor antagonist
+COMMENT     Antihistamine used in the treatment of allergic rhinitis
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D06021  Tecastemizole
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D06021  Tecastemizole (USAN/INN)
+DBLINKS     CAS: 75970-99-9
+            PubChem: 47207679
+            LigandBox: D06021
+ATOM        24
+            1   C8y C    12.3200  -17.3600
+            2   C8y C    12.3200  -18.7600
+            3   N4y N    13.6515  -19.1926
+            4   C8y C    14.4744  -18.0600
+            5   N5x N    13.6515  -16.9274
+            6   C8x C    11.1076  -16.6600
+            7   C8x C     9.8951  -17.3600
+            8   C8x C     9.8951  -18.7600
+            9   C8x C    11.1076  -19.4600
+            10  N1b N    15.8900  -18.0600
+            11  C1b C    14.0803  -20.5122
+            12  C8y C    15.4394  -20.8011
+            13  C1y C    16.5900  -16.8476
+            14  C1x C    17.9898  -16.8476
+            15  C1x C    18.6898  -15.6351
+            16  N1x N    17.9898  -14.4227
+            17  C1x C    16.5900  -14.4227
+            18  C1x C    15.8900  -15.6351
+            19  C8x C    15.8716  -22.1312
+            20  C8x C    17.2410  -22.4222
+            21  C8y C    18.1778  -21.3817
+            22  C8x C    17.7456  -20.0517
+            23  C8x C    16.3761  -19.7607
+            24  X   F    19.5615  -21.6762
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     1   6 2
+            7     6   7 1
+            8     7   8 2
+            9     8   9 1
+            10    2   9 2
+            11    4  10 1
+            12    3  11 1
+            13   11  12 1
+            14   10  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+            21   12  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  23 2
+            26   12  23 1
+            27   21  24 1
+///

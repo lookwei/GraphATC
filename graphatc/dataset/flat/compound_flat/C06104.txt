@@ -1,0 +1,56 @@
+ENTRY       C06104                      Compound
+NAME        Adipate;
+            Adipic acid;
+            Hexanedioate;
+            Hexan-1,6-dicarboxylate;
+            Hexanedioic acid
+FORMULA     C6H10O4
+EXACT_MASS  146.0579
+MOL_WEIGHT  146.1412
+REMARK      Same as: D08839
+REACTION    R05099 R06944
+PATHWAY     map00930  Caprolactam degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+ENZYME      1.2.1.4         1.2.1.63        6.2.1.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Dicarboxylic acids
+                C06104  Adipate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0117 Dicarboxylic acids
+                C06104  Hexanedioic acid
+DBLINKS     CAS: 124-04-9
+            PubChem: 8368
+            ChEBI: 30832
+            LIPIDMAPS: LMFA01170048
+            KNApSAcK: C00001178
+            PDB-CCD: 0L1
+            3DMET: B00903
+            NIKKAJI: J10.057I
+ATOM        10
+            1   C6a C    25.8062  -17.2979
+            2   C1b C    27.0209  -16.5939
+            3   O6a O    24.5975  -16.6054
+            4   O6a O    25.8122  -18.7004
+            5   C1b C    28.2356  -17.2921
+            6   C1b C    29.4444  -16.5879
+            7   C1b C    30.6591  -17.2861
+            8   C6a C    31.8738  -16.5821
+            9   O6a O    33.0825  -17.2746
+            10  O6a O    31.8678  -15.1796
+BOND        9
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     8  10 2
+///

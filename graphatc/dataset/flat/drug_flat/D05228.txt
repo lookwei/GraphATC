@@ -1,0 +1,46 @@
+ENTRY       D05228                      Drug
+NAME        Octodrine (USAN/INN)
+FORMULA     C8H19N
+EXACT_MASS  129.1518
+MOL_WEIGHT  129.2432
+EFFICACY    Anesthetic (local), Vasoconstrictor, Adrenergic receptor agonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D05228  Octodrine (USAN/INN)
+                ADRA2
+                 D05228  Octodrine (USAN/INN)
+                ADRB
+                 D05228  Octodrine (USAN/INN)
+DBLINKS     CAS: 543-82-8
+            PubChem: 47206947
+            LigandBox: D05228
+            NIKKAJI: J6.405J
+ATOM        9
+            1   C1a C    23.1700  -16.1000
+            2   C1c C    21.9800  -15.4000
+            3   C1b C    20.7200  -16.1000
+            4   C1b C    19.5300  -15.4000
+            5   C1b C    18.3400  -16.1000
+            6   C1c C    17.0800  -15.4000
+            7   N1a N    21.9800  -14.0000
+            8   C1a C    15.8900  -16.1000
+            9   C1a C    17.0800  -14.0000
+BOND        8
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     2   7 1
+            7     6   8 1
+            8     6   9 1
+///

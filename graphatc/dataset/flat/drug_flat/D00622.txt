@@ -1,0 +1,170 @@
+ENTRY       D00622                      Drug
+NAME        Fosinopril sodium (USP);
+            Monopril (TN)
+PRODUCT
+  GENERIC   FOSINOPRIL SODIUM (A-S Medication Solutions)
+            FOSINOPRIL SODIUM (A-S Medication Solutions)
+            FOSINOPRIL SODIUM (Aurobindo Pharma Limited)
+            FOSINOPRIL SODIUM (Bryant Ranch Prepack)
+            FOSINOPRIL SODIUM (Bryant Ranch Prepack)
+            FOSINOPRIL SODIUM (Bryant Ranch Prepack)
+            FOSINOPRIL SODIUM (Bryant Ranch Prepack)
+            FOSINOPRIL SODIUM (Bryant Ranch Prepack)
+            FOSINOPRIL SODIUM (Chartwell RX)
+            FOSINOPRIL SODIUM (Cipla USA)
+            FOSINOPRIL SODIUM (Exelan Pharmaceuticals)
+            FOSINOPRIL SODIUM (Preferred Pharmaceuticals)
+            FOSINOPRIL SODIUM (Rising Pharma Holdings)
+            FOSINOPRIL SODIUM (Solco Healthcare LLC)
+FORMULA     C30H45NO7P. Na
+EXACT_MASS  585.2831
+MOL_WEIGHT  585.6443
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      ATC code: C09AA09
+            Chemical structure group: DG00341
+            Product (DG00341): D00622<US>
+            Product (mixture): D10280<US>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Active form of prodrug: Fosinoprilat [DR:D03772]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA09 Fosinopril
+                  D00622  Fosinopril sodium (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Angiotensin-converting Enzyme (ACE) Inhibitors
+               Fosinopril
+                D00622  Fosinopril sodium (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00341  Fosinopril
+                 D00622  Fosinopril sodium
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00341  Fosinopril
+                 D00622  Fosinopril sodium
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01501  Angiotensin-converting enzyme inhibitor
+               D00622  Fosinopril sodium
+              DG03231  Antihypertensive
+               D00622  Fosinopril sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D00622  Fosinopril sodium (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00341  Fosinopril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00341  Fosinopril
+            Prodrugs [br08324.html(DG00341)]
+             DG00341
+DBLINKS     CAS: 88889-14-9
+            PubChem: 7847688
+            ChEBI: 5164
+            LigandBox: D00622
+            NIKKAJI: J351.178B
+ATOM        40
+            1   C8x C    10.2582  -15.1697
+            2   C8x C    10.2582  -16.5677
+            3   C8x C    11.4466  -17.2668
+            4   C8x C    12.7048  -16.5677
+            5   C8y C    12.7048  -15.1697
+            6   C8x C    11.4466  -14.4707
+            7   C1b C    13.8932  -14.4707
+            8   C1b C    15.1515  -15.1697
+            9   C1b C    16.3398  -14.4707
+            10  C1b C    17.5282  -15.1697
+            11  P1a P    18.7864  -14.4707
+            12  C1b C    19.9748  -15.1697
+            13  C5a C    21.1631  -14.4707
+            14  N1y N    22.4214  -15.1697
+            15  O3b O    18.7864  -13.0028
+            16  O5a O    21.1631  -13.0727
+            17  C1x C    22.8408  -16.4978
+            18  C1y C    24.2389  -16.4978
+            19  C1x C    24.6583  -15.1697
+            20  C1y C    23.5398  -14.3309
+            21  C1y C    24.9379  -17.7561
+            22  C1x C    24.2389  -18.9444
+            23  C1x C    24.9379  -20.1328
+            24  C1x C    26.3360  -20.1328
+            25  C1x C    27.0350  -18.9444
+            26  C1x C    26.3360  -17.7561
+            27  C6a C    23.5398  -12.9329
+            28  O6a O    24.7282  -12.2338 #-
+            29  O6a O    22.3515  -12.2338
+            30  O2b O    18.7864  -16.0085
+            31  C1c C    18.7864  -17.4066
+            32  O7a O    17.5981  -18.1056
+            33  C1c C    19.9748  -18.1056
+            34  C1a C    21.1631  -17.4066
+            35  C1a C    19.9748  -19.5037
+            36  C7a C    16.4097  -17.4066
+            37  C1b C    15.2214  -18.1056
+            38  O6a O    16.4097  -16.0085
+            39  C1a C    14.0330  -17.4066
+            40  Z   Na   26.2661  -12.2338 #+
+BOND        41
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   11  15 2
+            16   13  16 2
+            17   14  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   14  20 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   24  25 1
+            26   25  26 1
+            27   21  26 1
+            28   18  21 1 #Up
+            29   20  27 1 #Down
+            30   27  28 1
+            31   27  29 2
+            32   11  30 1
+            33   30  31 1
+            34   31  32 1 #Up
+            35   31  33 1
+            36   33  34 1
+            37   33  35 1
+            38   32  36 1
+            39   36  37 1
+            40   36  38 2
+            41   37  39 1
+///

@@ -1,0 +1,91 @@
+ENTRY       D10528                      Drug
+NAME        Aldosterone (INN)
+FORMULA     C21H28O5
+EXACT_MASS  360.1937
+MOL_WEIGHT  360.444
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+REMARK      Same as: C01780
+            ATC code: H02AA01
+EFFICACY    Sodium reabsorption accelerator, Mineralocorticoid receptor agonist
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AA Mineralocorticoids
+                 H02AA01 Aldosterone
+                  D10528  Aldosterone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               D10528  Aldosterone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D10528  Aldosterone (INN)
+DBLINKS     CAS: 52-39-1
+            PubChem: 254741490
+            PDB-CCD: AS4
+ATOM        26
+            1   C1z C    20.4400  -15.4700
+            2   C1y C    20.4400  -16.8700
+            3   C1y C    21.6300  -14.7700
+            4   C1x C    19.2500  -14.7700
+            5   C4a C    20.4400  -14.1400
+            6   C1y C    19.2500  -17.5000
+            7   C1x C    22.7500  -16.8700
+            8   C1x C    22.7500  -15.4700
+            9   C5a C    21.6300  -13.4400
+            10  C1y C    18.0600  -15.4700
+            11  O4a O    19.1800  -13.4400
+            12  C1y C    18.0600  -16.8700
+            13  C1x C    19.2500  -18.9000
+            14  C1b C    22.8200  -12.7400
+            15  O5a O    20.4400  -12.7400
+            16  O1a O    16.8700  -14.7700
+            17  C1z C    16.8700  -17.5000
+            18  C1x C    18.0600  -19.6000
+            19  O1a O    24.0100  -13.4400
+            20  C2y C    16.8700  -18.9000
+            21  C1x C    15.6800  -16.8700
+            22  C1a C    16.8700  -16.0300
+            23  C2x C    15.6800  -19.6000
+            24  C1x C    14.4900  -17.5000
+            25  C5x C    14.4900  -18.9000
+            26  O5x O    13.3000  -19.6000
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 2
+            11    6  12 1
+            12    6  13 1
+            13    9  14 1
+            14    9  15 2
+            15   10  16 1 #Up
+            16   12  17 1
+            17   13  18 1
+            18   14  19 1
+            19   17  20 1
+            20   17  21 1
+            21   17  22 1 #Up
+            22   20  23 2
+            23   21  24 1
+            24   23  25 1
+            25   25  26 2
+            26    7   8 1
+            27   10  12 1
+            28   18  20 1
+            29   24  25 1
+///

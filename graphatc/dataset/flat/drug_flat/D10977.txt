@@ -1,0 +1,74 @@
+ENTRY       D10977                      Drug
+NAME        Remetinostat (USAN/INN)
+FORMULA     C16H21NO6
+EXACT_MASS  323.1369
+MOL_WEIGHT  323.341
+CLASS       Antineoplastic
+             DG03133  Histone deacetylase inhibitor
+EFFICACY    Antineoplastic, Histone deacetylase inhibitor
+COMMENT     Treatment of early-stage cutaneous T-cell lymphoma
+TARGET      HDAC [HSA:3065 3066 8841 9759 10014 10013 51564 55869 9734 83933 79885] [KO:K06067 K11404 K11406 K11407 K11408 K11405 K11409 K18671 K11418]
+  PATHWAY   hsa04110(3065+3066)  Cell cycle
+            hsa04330(3065+3066)  Notch signaling pathway
+            hsa05200(3065+3066)  Pathways in cancer
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03133  Histone deacetylase inhibitor
+               D10977  Remetinostat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Histone deacetylase
+                HDAC
+                 D10977  Remetinostat (USAN/INN)
+DBLINKS     CAS: 946150-57-8
+            PubChem: 342581821
+ATOM        23
+            1   O7a O    14.7700  -12.3200
+            2   C7a C    15.9824  -13.0200
+            3   C1b C    17.1949  -12.3200
+            4   C1b C    18.4073  -13.0200
+            5   C1b C    19.6197  -12.3200
+            6   C1b C    20.8322  -13.0200
+            7   C1b C    22.0446  -12.3200
+            8   C1b C    23.2570  -13.0200
+            9   C5a C    24.4695  -12.3200
+            10  N1b N    25.6819  -13.0200
+            11  O1b O    26.8944  -12.3200
+            12  C8y C    13.5576  -13.0200
+            13  C8x C    12.3621  -12.3296
+            14  C8x C    11.1496  -13.0295
+            15  C8y C    11.1494  -14.4295
+            16  C8x C    12.3449  -15.1199
+            17  C8x C    13.5574  -14.4200
+            18  C7a C     9.9266  -15.1354
+            19  O7a O     8.7177  -14.4374
+            20  O6a O     9.9267  -16.5199
+            21  C1a C     7.5370  -15.1190
+            22  O6a O    15.9824  -14.4198
+            23  O5a O    24.4695  -10.9203
+BOND        23
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11    1  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   15  16 1
+            16   16  17 2
+            17   12  17 1
+            18   15  18 1
+            19   18  19 1
+            20   18  20 2
+            21   19  21 1
+            22    2  22 2
+            23    9  23 2
+///

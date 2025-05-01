@@ -1,0 +1,150 @@
+ENTRY       D00781                      Drug
+NAME        Entacapone (JP18/USP/INN);
+            Comtan (TN)
+PRODUCT     COMTAN (Almatica Pharma LLC)
+            ENTACAPONE (Wockhardt USA LLC.)
+  GENERIC   ENTACAPONE (Ajanta Pharma USA)
+            ENTACAPONE (Alembic Pharmaceuticals Limited)
+            ENTACAPONE (Alembic Pharmaceuticals)
+            ENTACAPONE (American Health Packaging)
+            ENTACAPONE (Aphena Pharma Solutions - Tennessee)
+            ENTACAPONE (Aurobindo Pharma Limited)
+            ENTACAPONE (AvPAK)
+            ENTACAPONE (Lannett Company)
+            ENTACAPONE (Macleods Pharmaceuticals Limited)
+            ENTACAPONE (NCS HealthCare of KY)
+            ENTACAPONE (Sandoz)
+            ENTACAPONE (Sun Pharmaceutical Industries)
+FORMULA     C14H15N3O5
+EXACT_MASS  305.1012
+MOL_WEIGHT  305.286
+CLASS       Neuropsychiatric agent
+             DG01497  Catechol O-methyltransferase inhibitor
+             DG01967  Antiparkinson agent
+              DG02909  COMT inhibitor
+            Metabolizing enzyme inhibitor
+             DG01643  CYP2C9 inhibitor
+REMARK      Same as: C07943
+            Therapeutic category: 1169
+            ATC code: N04BX02
+            Product: D00781<JP/US>
+            Product (mixture): D10293<JP/US>
+EFFICACY    Antiparkinsonian, Antidyskinetic, COMT inhibitor
+  DISEASE   Parkinson disease [DS:H00057]
+COMMENT     Nitrocactechols
+TARGET      COMT [HSA:1312] [KO:K00545]
+  PATHWAY   hsa04728(1312)  Dopaminergic synapse
+INTERACTION CYP inhibition: CYP2C9 [HSA:1559]
+            Enzyme inhibition: COMT [HSA:1312]
+STR_MAP     map07057  Antiparkinsonian agents
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BX Other dopaminergic agents
+                 N04BX02 Entacapone
+                  D00781  Entacapone (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antiparkinson Agents
+              Antiparkinson Agents, Other
+               Entacapone
+                D00781  Entacapone (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               116  Antiparkinsonian agents
+                1169  Others
+                 D00781  Entacapone (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01497  Catechol O-methyltransferase inhibitor
+               D00781  Entacapone
+              DG01967  Antiparkinson agent
+               DG02909  COMT inhibitor
+                D00781  Entacapone
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               D00781  Entacapone
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D00781  Entacapone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                COMT
+                 D00781  Entacapone (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00781  Entacapone
+              D00781  Entacapone tablets
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D00781
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00781
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00781
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D00781
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00781
+DBLINKS     CAS: 130929-57-6
+            PubChem: 7847846
+            ChEBI: 4798
+            PDB-CCD: PD9
+            LigandBox: D00781
+            NIKKAJI: J506.416C
+ATOM        22
+            1   C8y C    31.3202  -14.7134
+            2   C8x C    32.5093  -14.0267
+            3   C2b C    30.1199  -14.0267
+            4   C8x C    31.3146  -16.1044
+            5   C8y C    33.7153  -14.7134
+            6   C2c C    28.9193  -14.7077
+            7   C8y C    32.5093  -16.8027
+            8   C8y C    33.7153  -16.1044
+            9   N2b N    34.9158  -14.0267 #+
+            10  C5a C    27.7247  -14.0208
+            11  C3b C    28.9193  -16.0870
+            12  O1a O    32.4565  -18.1878
+            13  O1a O    34.9216  -16.7969
+            14  O3a O    34.9216  -12.6357
+            15  O3a O    36.1162  -14.7077 #-
+            16  N1c N    26.5244  -14.7019
+            17  O5a O    27.7305  -12.6300
+            18  N3a N    28.8957  -17.8178
+            19  C1b C    25.3297  -14.0093
+            20  C1b C    26.5244  -16.0813
+            21  C1a C    24.1293  -14.6961
+            22  C1a C    25.3297  -16.7795
+BOND        22
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 2
+            7     5   8 2
+            8     5   9 1
+            9     6  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    9  14 2
+            14    9  15 1
+            15   10  16 1
+            16   10  17 2
+            17   11  18 3
+            18   16  19 1
+            19   16  20 1
+            20   19  21 1
+            21   20  22 1
+            22    7   8 1
+///

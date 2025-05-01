@@ -1,0 +1,155 @@
+ENTRY       D12247                      Drug
+NAME        Coblopasvir (INN)
+FORMULA     C41H50N8O8
+EXACT_MASS  782.3752
+MOL_WEIGHT  782.8845
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG01999  HCV NS5A inhibitor
+REMARK      ATC code: J05AP12
+EFFICACY    Antiviral, NS5A inhibitor
+TARGET      HCV NS5A [KO:K22275]
+  PATHWAY   ko03230(K22275)  Viral genome structure
+            ko03240(K22275)  Viral replication
+            ko05160(K22275)  Hepatitis C
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP12 Coblopasvir
+                  D12247  Coblopasvir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                D12247  Coblopasvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D12247  Coblopasvir (INN)
+DBLINKS     CAS: 1312608-46-0
+ATOM        57
+            1   C8x C    35.4306  -21.6403
+            2   C8y C    35.8509  -23.0412
+            3   C8x C    34.0297  -21.3601
+            4   C8y C    33.1192  -22.3408
+            5   C8y C    33.4694  -23.6716
+            6   C8y C    34.8703  -24.0218
+            7   N4x N    29.9671  -20.5897
+            8   C8y C    29.5469  -21.9205
+            9   N5x N    30.6676  -22.7610
+            10  C8y C    31.7883  -21.9205
+            11  C8x C    31.3680  -20.5897
+            12  C1y C    28.2160  -22.3408
+            13  C1x C    26.8852  -21.8505
+            14  C1x C    26.0446  -22.9712
+            15  C1x C    26.8852  -24.1619
+            16  N1y N    28.2160  -23.7417
+            17  C5a C    29.3367  -24.5822
+            18  O5a O    30.5976  -24.0218
+            19  C1c C    29.3367  -25.9831
+            20  C1c C    28.1460  -26.6835
+            21  C1a C    26.9552  -25.9831
+            22  C1a C    28.1460  -28.0844
+            23  N1b N    30.5275  -26.6835
+            24  C7a C    31.7883  -25.9831
+            25  O7a O    32.9791  -26.7536
+            26  O6a O    31.7883  -24.5822
+            27  C1a C    32.9495  -28.1398
+            28  O2x O    32.7034  -24.8957
+            29  C1x C    33.6309  -26.0025
+            30  O2x O    34.9701  -25.4624
+            31  C8y C    37.1955  -23.3801
+            32  C8x C    37.5758  -24.7199
+            33  C8x C    38.9333  -25.0622
+            34  C8y C    39.9085  -24.0577
+            35  C8x C    39.5282  -22.7180
+            36  C8x C    38.1707  -22.3756
+            37  C8y C    41.2642  -24.4006
+            38  N4x N    41.7106  -25.7449
+            39  C8y C    43.1245  -25.7368
+            40  N5x N    43.5537  -24.3895
+            41  C8x C    42.4051  -23.5650
+            42  C1y C    43.9635  -26.8773
+            43  C1x C    43.5377  -28.2148
+            44  C1x C    44.6781  -29.0331
+            45  C1x C    45.8087  -28.2014
+            46  N1y N    45.3671  -26.8691
+            47  C5a C    46.1757  -25.7422
+            48  C1c C    47.5946  -25.7426
+            49  O5a O    45.5492  -24.5205
+            50  N1b N    48.2888  -24.5412
+            51  C1c C    48.3032  -26.9706
+            52  C1a C    49.6998  -26.9709
+            53  C1a C    47.6109  -28.1687
+            54  C7a C    49.6997  -24.5415
+            55  O6a O    50.3878  -23.3506
+            56  O7a O    50.4120  -25.7754
+            57  C1a C    51.7999  -25.7755
+BOND        63
+            1     1   2 1
+            2     1   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     2   6 2
+            7     7   8 1
+            8     8   9 2
+            9     9  10 1
+            10   10  11 2
+            11    7  11 1
+            12   10   4 1
+            13   12   8 1 #Up
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   12  16 1
+            19   16  17 1
+            20   17  18 2
+            21   19  17 1
+            22   19  20 1 #Up
+            23   20  21 1
+            24   20  22 1
+            25   19  23 1
+            26   23  24 1
+            27   24  25 1
+            28   24  26 2
+            29   25  27 1
+            30    5  28 1
+            31   28  29 1
+            32   29  30 1
+            33    6  30 1
+            34    2  31 1
+            35   31  32 2
+            36   32  33 1
+            37   33  34 2
+            38   34  35 1
+            39   35  36 2
+            40   31  36 1
+            41   34  37 1
+            42   37  38 1
+            43   38  39 1
+            44   39  40 2
+            45   40  41 1
+            46   37  41 2
+            47   42  39 1 #Up
+            48   42  43 1
+            49   43  44 1
+            50   44  45 1
+            51   45  46 1
+            52   42  46 1
+            53   46  47 1
+            54   47  48 1
+            55   47  49 2
+            56   48  50 1 #Up
+            57   48  51 1
+            58   51  52 1
+            59   51  53 1
+            60   50  54 1
+            61   54  55 2
+            62   54  56 1
+            63   56  57 1
+///

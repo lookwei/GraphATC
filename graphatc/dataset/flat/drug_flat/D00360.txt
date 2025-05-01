@@ -1,0 +1,56 @@
+ENTRY       D00360                      Drug
+NAME        Lindane (USP/INN);
+            Kwell (TN)
+FORMULA     C6H6Cl6
+EXACT_MASS  287.8601
+MOL_WEIGHT  290.8298
+REMARK      Same as: C07075
+            ATC code: P03AB02
+EFFICACY    Pediculicide, Scabicide
+  DISEASE   Head lice infestation [DS:H01054]
+            Crab lice infestation [DS:H02423]
+COMMENT     Chlorine compound
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             P ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS
+              P03 ECTOPARASITICIDES, INCL. SCABICIDES, INSECTICIDES AND REPELLENTS
+               P03A ECTOPARASITICIDES, INCL. SCABICIDES
+                P03AB Chlorine containing products
+                 P03AB02 Lindane
+                  D00360  Lindane (USP/INN)
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Pediculicides/Scabicides
+               Lindane
+                D00360  Lindane (USP/INN)
+DBLINKS     CAS: 58-89-9
+            PubChem: 7847426
+            ChEBI: 32888
+            LigandBox: D00360
+            NIKKAJI: J5.144F
+ATOM        12
+            1   C1y C    24.4740  -19.7382
+            2   C1y C    25.6900  -20.4421
+            3   C1y C    24.4740  -18.3361
+            4   X   Cl   23.2639  -20.4421
+            5   C1y C    26.9001  -19.7382
+            6   X   Cl   25.6957  -21.8385
+            7   C1y C    25.6900  -17.6436
+            8   X   Cl   23.2639  -17.6436
+            9   C1y C    26.9001  -18.3361
+            10  X   Cl   28.1161  -20.4421
+            11  X   Cl   25.6957  -16.2415
+            12  X   Cl   28.1161  -17.6436
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Down
+            10    7  11 1 #Up
+            11    9  12 1 #Down
+            12    7   9 1
+///

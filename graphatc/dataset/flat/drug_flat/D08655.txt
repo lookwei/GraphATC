@@ -1,0 +1,155 @@
+ENTRY       D08655                      Drug
+NAME        Tubocurarine chloride (INN);
+            Tubaine (TN);
+            Tubocurarine Chloride (TN)
+FORMULA     C37H42N2O6. 2Cl
+EXACT_MASS  680.242
+MOL_WEIGHT  681.6452
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01696  Peripherally-acting muscle relaxant
+               DG03117  Nondepolarizing neuromuscular blocking agent
+             DG01740  Curare alkaloid
+REMARK      ATC code: M03AA02
+            Chemical structure group: DG00767
+EFFICACY    Neuromuscular blocking agent
+TARGET      CHRN (neuronal type) [HSA:1135 1136 1137 1138 8973 1139 55584 57053 1141 1142 1143] [KO:K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04813 K04814 K04815]
+  PATHWAY   hsa04080(1135+1136+1137+1138+1139+1141+1142+1143+55584+57053+8973)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03A MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS
+                M03AA Curare alkaloids
+                 M03AA02 Tubocurarine
+                  D08655  Tubocurarine chloride (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 DG00767  Tubocurarine
+                  D08655  Tubocurarine chloride
+              DG01740  Curare alkaloid
+               DG00767  Tubocurarine
+                D08655  Tubocurarine chloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN (neuronal type)
+                 D08655  Tubocurarine chloride (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 DG00767  Tubocurarine
+              DG01740  Curare alkaloid
+               DG00767  Tubocurarine
+DBLINKS     CAS: 57-94-3
+            PubChem: 96025338
+            LigandBox: D08655
+            NIKKAJI: J237.605I
+ATOM        47
+            1   X   Cl   18.3400  -14.2800 #-
+            2   C8y C    25.2700  -14.1400
+            3   C1y C    24.1500  -14.8400
+            4   C8y C    25.2700  -12.8100
+            5   C8y C    26.4600  -14.8400
+            6   N2y N    22.9600  -14.1400 #+
+            7   C1x C    24.1500  -16.1700
+            8   C8x C    26.4600  -12.1100
+            9   C1x C    24.0800  -12.1100
+            10  C8y C    27.6500  -14.1400
+            11  C1x C    22.9600  -12.8100
+            12  C1a C    21.8400  -13.5100
+            13  C8y C    22.9600  -17.2200
+            14  C8y C    27.6500  -12.8100
+            15  O1a O    28.7700  -14.8400
+            16  C8x C    21.8400  -16.5900
+            17  C8x C    22.9600  -18.5500
+            18  O2a O    28.7700  -12.1100
+            19  C8x C    20.6500  -17.2200
+            20  C8y C    21.9100  -19.2500
+            21  C1a C    29.8900  -12.8100
+            22  C8y C    20.6500  -18.5500
+            23  O1a O    19.4600  -19.2500
+            24  C1a C    21.8400  -14.8400
+            25  O2x O    26.4600  -16.1700
+            26  N2y N    27.8600  -21.7000 #+
+            27  C1y C    26.6700  -21.0000
+            28  C1x C    27.8600  -23.1700
+            29  C8y C    25.4800  -21.7000
+            30  C1x C    28.8400  -20.0900
+            31  C1x C    26.6700  -23.8000
+            32  C8y C    25.4800  -23.1000
+            33  C8x C    24.2900  -21.0700
+            34  C8x C    27.5800  -18.6200
+            35  C8x C    24.2900  -23.8000
+            36  C8y C    23.1000  -21.7000
+            37  C8y C    28.8400  -19.3200
+            38  C8x C    27.5800  -17.2200
+            39  C8y C    23.1000  -23.1000
+            40  O2x O    21.9100  -21.0000
+            41  C8x C    30.0300  -18.6200
+            42  C8y C    28.7700  -16.5200
+            43  O2a O    21.9100  -23.8000
+            44  C8x C    30.0300  -17.1500
+            45  C1a C    20.6500  -23.1700
+            46  C1a C    29.7500  -20.8600
+            47  X   Cl   29.3300  -23.3800 #-
+BOND        51
+            1    22  23 1
+            2     9  11 1
+            3    10  14 1
+            4    20  22 1
+            5    24   6 1
+            6     5  25 1
+            7     2   3 1
+            8     2   4 2
+            9     2   5 1
+            10    3   6 1
+            11    3   7 1
+            12    4   8 1
+            13    4   9 1
+            14    5  10 2
+            15    6  11 1
+            16    6  12 1
+            17    7  13 1
+            18    8  14 2
+            19   10  15 1
+            20   13  16 2
+            21   13  17 1
+            22   14  18 1
+            23   16  19 1
+            24   17  20 2
+            25   18  21 1
+            26   19  22 2
+            27   26  27 1
+            28   26  28 1
+            29   27  29 1
+            30   27  30 1
+            31   28  31 1
+            32   29  32 2
+            33   29  33 1
+            34   32  35 1
+            35   33  36 2
+            36   34  37 2
+            37   34  38 1
+            38   35  39 2
+            39   36  40 1
+            40   37  41 1
+            41   38  42 2
+            42   39  43 1
+            43   41  44 2
+            44   43  45 1
+            45   31  32 1
+            46   36  39 1
+            47   42  44 1
+            48   26  46 1
+            49   25  42 1
+            50   20  40 1
+            51   37  30 1
+///

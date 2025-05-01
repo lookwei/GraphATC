@@ -1,0 +1,133 @@
+ENTRY       D02396                      Drug
+NAME        Hexoprenaline sulfate (USAN);
+            Delaprem (TN)
+FORMULA     C22H32N2O6. H2SO4
+EXACT_MASS  518.1934
+MOL_WEIGHT  518.5778
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+REMARK      ATC code: R03AC06 R03CC05
+            Chemical structure group: DG01047
+EFFICACY    Bronchodilator, Tocolytic, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC06 Hexoprenaline
+                  D02396  Hexoprenaline sulfate (USAN)
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CC Selective beta-2-adrenoreceptor agonists
+                 R03CC05 Hexoprenaline
+                  D02396  Hexoprenaline sulfate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01047  Hexoprenaline
+                  D02396  Hexoprenaline sulfate
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG01047  Hexoprenaline
+                D02396  Hexoprenaline sulfate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D02396  Hexoprenaline sulfate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01047  Hexoprenaline
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG01047  Hexoprenaline
+DBLINKS     CAS: 32266-10-7
+            PubChem: 7849455
+            ChEBI: 31670
+            LigandBox: D02396
+            NIKKAJI: J321.603I
+ATOM        35
+            1   C8y C    22.2069  -15.3036
+            2   C1c C    23.4202  -16.0069
+            3   C8x C    22.2069  -13.9028
+            4   C8x C    20.9997  -16.0069
+            5   C1b C    24.6394  -15.3036
+            6   O1a O    23.4261  -17.4018
+            7   C8y C    20.9997  -13.1995
+            8   C8x C    19.7805  -15.3036
+            9   N1b N    25.8525  -16.0012
+            10  C8y C    19.7805  -13.9028
+            11  O1a O    21.0288  -11.7930
+            12  C1b C    27.0715  -15.2978
+            13  O1a O    18.6200  -13.1995
+            14  C1b C    28.2848  -16.0012
+            15  C1b C    29.4913  -15.2985
+            16  C1b C    30.7024  -15.9996
+            17  C1b C    31.9133  -15.2985
+            18  C1b C    33.1244  -15.9996
+            19  N1b N    34.3396  -15.3000
+            20  C1b C    35.5530  -16.0025
+            21  C1c C    36.7682  -15.3029
+            22  C8y C    38.0285  -16.0054
+            23  O1a O    36.7699  -13.9006
+            24  C8x C    38.0198  -17.4013
+            25  C8y C    39.1867  -18.1037
+            26  C8y C    40.4019  -17.4042
+            27  C8x C    40.4034  -16.0020
+            28  C8x C    39.1901  -15.2993
+            29  O1a O    39.1849  -19.5060
+            30  O1a O    41.6153  -18.1066
+            31  S4a S    20.2744  -18.6383
+            32  O1d O    18.8664  -18.6383
+            33  O1d O    21.6822  -18.6383
+            34  O1d O    20.2686  -17.2245
+            35  O1d O    20.2686  -20.0461
+BOND        35
+            1    16  17 1
+            2     1   3 1
+            3    17  18 1
+            4     1   4 2
+            5    18  19 1
+            6     2   5 1
+            7    19  20 1
+            8     2   6 1
+            9    20  21 1
+            10    3   7 2
+            11   21  22 1
+            12    4   8 1
+            13   21  23 1
+            14    5   9 1
+            15    7  10 1
+            16    7  11 1
+            17    9  12 1
+            18   10  13 1
+            19   22  24 2
+            20   24  25 1
+            21   25  26 2
+            22   26  27 1
+            23   27  28 2
+            24   28  22 1
+            25   12  14 1
+            26   25  29 1
+            27    8  10 2
+            28   26  30 1
+            29   14  15 1
+            30   15  16 1
+            31    1   2 1
+            32   31  32 1
+            33   31  33 1
+            34   31  34 2
+            35   31  35 2
+///

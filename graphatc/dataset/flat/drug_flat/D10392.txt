@@ -1,0 +1,121 @@
+ENTRY       D10392                      Drug
+NAME        Lifitegrast sodium (USAN)
+FORMULA     C29H23Cl2N2O7S. Na
+EXACT_MASS  636.0501
+MOL_WEIGHT  637.4629
+REMARK      ATC code: S01XA25
+            Chemical structure group: DG01389
+            Product (DG01389): D10374<US>
+EFFICACY    Anti-inflammatory, Lymphocyte function-associated antigen-1 antagonist
+COMMENT     Treatment of ocular inflammatory diseases (keratoconjuctivitis sicca)
+TARGET      ITGAL (CD11A) [HSA:3683] [KO:K05718]
+  PATHWAY   hsa04015(3683)  Rap1 signaling pathway
+            hsa04514(3683)  Cell adhesion molecules
+            hsa04650(3683)  Natural killer cell mediated cytotoxicity
+            hsa04670(3683)  Leukocyte transendothelial migration
+            hsa04810(3683)  Regulation of actin cytoskeleton
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01X OTHER OPHTHALMOLOGICALS
+                S01XA Other ophthalmologicals
+                 S01XA25 Lifitegrast
+                  D10392  Lifitegrast sodium (USAN)
+            Target-based classification of drugs [BR:br08310]
+             Cell surface molecules and ligands
+              Cell adhesion molecules: other families
+               Integrins
+                ITGAL (CD11A)
+                 D10392  Lifitegrast sodium (USAN)
+DBLINKS     CAS: 1119276-80-0
+            PubChem: 172232485
+ATOM        42
+            1   C8y C    26.7531  -15.1271
+            2   C8y C    26.7531  -13.7264
+            3   C8x C    25.5626  -13.0261
+            4   C8y C    24.3721  -13.7264
+            5   C8x C    24.3721  -15.1271
+            6   C8x C    25.5626  -15.8274
+            7   C8x C    28.0837  -15.5473
+            8   C8x C    28.9241  -14.4267
+            9   O2x O    28.0837  -13.3062
+            10  C5a C    23.1114  -13.0261
+            11  N1y N    21.8509  -13.7264
+            12  C1x C    20.6603  -13.0261
+            13  C8y C    19.3998  -13.7264
+            14  C8y C    19.3998  -15.1271
+            15  C1x C    20.5903  -15.8274
+            16  C1x C    21.8509  -15.1271
+            17  C8x C    18.2093  -13.0261
+            18  C8y C    17.0187  -13.7264
+            19  C8y C    17.0187  -15.1271
+            20  C8y C    18.2093  -15.8274
+            21  C5a C    15.7582  -15.8274
+            22  N1b N    14.5676  -15.1271
+            23  C1c C    13.3770  -15.8274
+            24  O5a O    23.1114  -11.6255
+            25  X   Cl   18.2093  -17.2280
+            26  X   Cl   15.7582  -13.0261
+            27  O5a O    15.7582  -17.2280
+            28  C1b C    12.1865  -15.1271
+            29  C6a C    13.3770  -17.2280
+            30  O6a O    14.5676  -17.9283 #-
+            31  O6a O    12.1865  -17.9283
+            32  C8y C    10.9960  -15.8274
+            33  C8x C     9.8055  -15.1271
+            34  C8x C     8.5449  -15.8274
+            35  C8x C     8.5449  -17.2280
+            36  C8y C     9.8055  -17.9283
+            37  C8x C    10.9960  -17.2280
+            38  S4a S     9.8055  -19.3289
+            39  O3c O     8.4048  -19.3289
+            40  O3c O    11.2061  -19.3289
+            41  C1a C     9.8055  -20.7296
+            42  Z   Na   14.2102  -20.5802 #+
+BOND        45
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 2
+            9     8   9 1
+            10    2   9 1
+            11    4  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   11  16 1
+            19   13  17 2
+            20   17  18 1
+            21   18  19 2
+            22   19  20 1
+            23   14  20 2
+            24   19  21 1
+            25   21  22 1
+            26   22  23 1
+            27   10  24 2
+            28   20  25 1
+            29   18  26 1
+            30   21  27 2
+            31   23  28 1
+            32   23  29 1 #Down
+            33   29  30 1
+            34   29  31 2
+            35   28  32 1
+            36   32  33 2
+            37   33  34 1
+            38   34  35 2
+            39   35  36 1
+            40   36  37 2
+            41   32  37 1
+            42   36  38 1
+            43   38  39 2
+            44   38  40 2
+            45   38  41 1
+///

@@ -1,0 +1,110 @@
+ENTRY       D01657                      Drug
+NAME        Lormetazepam (JAN/USAN/INN);
+            Loramet (TN)
+FORMULA     C16H12Cl2N2O2
+EXACT_MASS  334.0276
+MOL_WEIGHT  335.1847
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+REMARK      Therapeutic category: 1124
+            ATC code: N05CD06
+            Product: D01657<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+            map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CD Benzodiazepine derivatives
+                 N05CD06 Lormetazepam
+                  D01657  Lormetazepam (JAN/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01657  Lormetazepam (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               D01657  Lormetazepam
+              DG03202  Hypnotic
+               D01657  Lormetazepam
+              DG01567  GABA-A receptor agonist
+               D01657  Lormetazepam
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03202  Hypnotic
+               D01657  Lormetazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01657  Lormetazepam (JAN/USAN/INN) &lt;JP&gt;
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01657
+DBLINKS     CAS: 848-75-9
+            PubChem: 7848720
+            ChEBI: 52993
+            LigandBox: D01657
+            NIKKAJI: J7.142K
+ATOM        22
+            1   C2y C    15.6571  -18.0408
+            2   C8y C    14.8125  -16.9281
+            3   C8y C    15.1487  -15.5674
+            4   N1y N    16.4133  -14.9876
+            5   N2x N    17.0669  -18.0661
+            6   C5x C    17.6705  -15.6117
+            7   C1y C    17.9578  -16.9843
+            8   C8x C    14.1387  -14.5962
+            9   C8x C    12.7928  -14.9854
+            10  C8y C    12.4567  -16.3461
+            11  C8x C    13.4667  -17.3170
+            12  O1a O    19.2928  -17.4227
+            13  O5x O    18.7176  -14.6746
+            14  X   Cl   11.1039  -16.7371
+            15  C8y C    14.9355  -19.2403
+            16  C8x C    13.5358  -19.2403
+            17  C8x C    12.8359  -20.4525
+            18  C8x C    13.5358  -21.6648
+            19  C8x C    14.9355  -21.6648
+            20  C8y C    15.6354  -20.4525
+            21  X   Cl   17.0059  -20.4522
+            22  C1a C    16.3652  -13.5811
+BOND        24
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 1
+            14    6  13 2
+            15   10  14 1
+            16    1  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   15  20 2
+            23   20  21 1
+            24    4  22 1
+///

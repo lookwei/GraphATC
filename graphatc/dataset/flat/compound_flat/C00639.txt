@@ -1,0 +1,137 @@
+ENTRY       C00639                      Compound
+NAME        Prostaglandin F2alpha;
+            (5Z,13E)-(15S)-9alpha,11alpha,15-Trihydroxyprosta-5,13-dienoate;
+            (+)-Prostaglandin F2a;
+            7-[3,5-Dihydroxy-2-(3-hydroxy-1-octenyl)cyclopentyl]-5-heptenoic acid;
+            9a,11a-PGF2;
+            Amoglandin;
+            Cyclosin;
+            Dinoprost;
+            Enzaprost;
+            Enzaprost F;
+            Panacelan;
+            PGF2a;
+            9,11,15-Trihydroxy-(5Z,9a,11a,13E,15S)-prosta-5,13-dien-1-oic acid;
+            Prostaglandin F2a;
+            Prostin F 2 alpha;
+            Protamodin;
+            U 14583;
+            (5Z,9alpha,11alpha,13E,15S)-9,11,15-Trihydroxyprosta-5,13-dienoate
+FORMULA     C20H34O5
+EXACT_MASS  354.2406
+MOL_WEIGHT  354.481
+REMARK      Same as: D00081
+REACTION    R02264 R02581 R02683 R02684 R09506
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04072  Phospholipase D signaling pathway
+            map04080  Neuroactive ligand-receptor interaction
+            map04726  Serotonergic synapse
+            map04913  Ovarian steroidogenesis
+            map04921  Oxytocin signaling pathway
+            map04976  Bile secretion
+ENZYME      1.1.1.141       1.1.1.184       1.1.1.188       1.1.1.189       
+            1.1.1.-         1.11.1.20
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Prostaglandins
+                C00639  Prostaglandin F2alpha
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0301 Prostaglandins
+                C00639  Prostaglandin F2alpha
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00081)]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AD Prostaglandins
+                 G02AD01 Dinoprost
+                  D00081  Dinoprost (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D00081)]
+             2  Agents affecting individual organs
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D00081  Dinoprost (JP18/USAN/INN)
+            Animal drugs in Japan [BR:br08331]
+             94  Agents for breeding
+              941  Hormone preparations (except posterior-pituitary hormone and preparations)
+               9419  Other hormone preparations
+                C00639  Dinoprost
+            Drug groups [BR:br08330(D00081)]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG00447  Dinoprost
+                 D00081  Dinoprost
+            Target-based classification of drugs [BR:br08310(D00081)]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D00081  Dinoprost (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00081)]
+             Chemicals
+              D00081  Dinoprost
+DBLINKS     CAS: 551-11-1
+            PubChem: 3912
+            ChEBI: 15553 187232
+            LIPIDMAPS: LMFA03010002
+            PDB-CCD: UGU
+            3DMET: B01297
+            NIKKAJI: J9.246K
+ATOM        25
+            1   C1y C    26.2679  -14.3734
+            2   C1y C    26.2619  -15.7447
+            3   C1y C    24.9657  -13.9586
+            4   C1b C    27.6563  -13.1462
+            5   C1y C    24.9829  -16.1653
+            6   C2b C    27.6507  -16.8339
+            7   C1x C    24.1706  -15.0705
+            8   O1a O    24.5221  -12.6278
+            9   C2b C    28.8317  -13.8376
+            10  O1a O    24.5508  -17.5078
+            11  C2b C    28.8261  -16.1598
+            12  C2b C    30.1799  -13.8376
+            13  C1c C    30.0014  -16.8339
+            14  C1b C    31.3495  -13.1462
+            15  C1b C    31.1768  -16.1598
+            16  O1a O    30.0014  -18.1936
+            17  C1b C    32.5133  -13.8204
+            18  C1b C    32.3521  -16.8339
+            19  C1b C    33.6887  -13.1406
+            20  C1b C    33.5447  -16.1598
+            21  C6a C    34.8583  -13.8089
+            22  C1b C    34.7027  -16.8339
+            23  O6a O    36.0566  -13.1001
+            24  O6a O    34.8698  -15.1915
+            25  C1a C    35.8954  -16.1598
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 1
+            9     5  10 1 #Down
+            10    6  11 2
+            11    9  12 2
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1 #Down
+            16   14  17 1
+            17   15  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25    5   7 1
+///

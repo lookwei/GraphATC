@@ -1,0 +1,100 @@
+ENTRY       D01806                      Drug
+NAME        Oxprenolol hydrochloride (JP18/USP);
+            Okuspurecol (TN)
+FORMULA     C15H23NO3. HCl
+EXACT_MASS  301.1445
+MOL_WEIGHT  301.809
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+REMARK      ATC code: C07AA02
+            Chemical structure group: DG00304
+EFFICACY    Antiarrhythmic, Vasodilator, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA02 Oxprenolol
+                  D01806  Oxprenolol hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00304  Oxprenolol
+                 D01806  Oxprenolol hydrochloride
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00304  Oxprenolol
+                 D01806  Oxprenolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D01806  Oxprenolol hydrochloride (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01806  Oxprenolol hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00304  Oxprenolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00304  Oxprenolol
+DBLINKS     CAS: 6452-73-9
+            PubChem: 7848868
+            ChEBI: 31949
+            LigandBox: D01806
+            NIKKAJI: J369.034B
+ATOM        20
+            1   X   Cl   18.2097  -28.2160
+            2   O2a O    11.6200  -24.2200
+            3   C1b C    12.8100  -23.5200
+            4   C1c C    14.0700  -24.2200
+            5   C1b C    15.2600  -23.5200
+            6   N1b N    16.4500  -24.2200
+            7   C1c C    17.7100  -23.5200
+            8   C1a C    18.9000  -24.2200
+            9   O1a O    14.0700  -25.6200
+            10  C1a C    17.7100  -22.1200
+            11  C8y C    11.6200  -25.6200
+            12  C8y C    10.4076  -26.3200
+            13  C8x C    10.4076  -27.7200
+            14  C8x C    11.6200  -28.4200
+            15  C8x C    12.8324  -27.7200
+            16  C8x C    12.8324  -26.3200
+            17  O2a O     9.2121  -25.6296
+            18  C1b C     8.0247  -26.3151
+            19  C2b C     6.8335  -25.6271
+            20  C2a C     5.6440  -26.3138
+BOND        19
+            1     4   5 1
+            2     5   6 1
+            3     6   7 1
+            4     7   8 1
+            5     4   9 1
+            6     7  10 1
+            7     2   3 1
+            8     3   4 1
+            9     2  11 1
+            10   11  12 2
+            11   12  13 1
+            12   13  14 2
+            13   14  15 1
+            14   15  16 2
+            15   11  16 1
+            16   12  17 1
+            17   17  18 1
+            18   18  19 1
+            19   19  20 2
+///

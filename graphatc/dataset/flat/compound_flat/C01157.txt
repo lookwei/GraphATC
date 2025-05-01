@@ -1,0 +1,49 @@
+ENTRY       C01157                      Compound
+NAME        Hydroxyproline;
+            L-Hydroxyproline;
+            trans-4-Hydroxy-L-proline
+FORMULA     C5H9NO3
+EXACT_MASS  131.0582
+MOL_WEIGHT  131.1299
+COMMENT     cis-4-Hydroxy-L-proline [CPD:C01015]
+REACTION    R01252 R03291 R03293 R03295 R03296 R11819
+PATHWAY     map00330  Arginine and proline metabolism
+            map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+            map02010  ABC transporters
+MODULE      M00948  Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate
+ENZYME      1.5.1.2         1.5.5.3         1.14.11.2       1.14.11.57      
+            4.2.1.172       5.1.1.8
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C01157  Hydroxyproline
+DBLINKS     CAS: 51-35-4
+            PubChem: 4385
+            ChEBI: 18095
+            KNApSAcK: C00001370
+            PDB-CCD: HYP
+            3DMET: B01395
+            NIKKAJI: J148.015D
+ATOM        9
+            1   C1y C    22.2873  -15.6249
+            2   C1x C    21.1682  -16.4416
+            3   N1x N    23.4256  -16.4416
+            4   C6a C    22.2873  -14.2292
+            5   C1y C    21.5925  -17.7794
+            6   C1x C    22.9948  -17.7794
+            7   O6a O    23.4963  -13.5280
+            8   O6a O    21.0652  -13.5346
+            9   O1a O    20.7629  -18.9113
+BOND        9
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     5   9 1 #Down
+            9     5   6 1
+///

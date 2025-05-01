@@ -1,0 +1,125 @@
+ENTRY       D05601                      Drug
+NAME        Prednicarbate (USP/INN);
+            Dermatop (TN)
+PRODUCT
+  GENERIC   PREDNICARBATE (Fougera Pharmaceuticals)
+FORMULA     C27H36O8
+EXACT_MASS  488.241
+MOL_WEIGHT  488.5699
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AC18
+            Product: D05601<US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC18 Prednicarbate
+                  D05601  Prednicarbate (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Dermatitis and Pruitus Agents
+               Glucocorticoids, Medium Potency
+                Prednicarbate
+                 D05601  Prednicarbate (USP/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                D05601  Prednicarbate
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               D05601  Prednicarbate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D05601  Prednicarbate (USP/INN) &lt;US&gt;
+DBLINKS     CAS: 73771-04-7
+            PubChem: 47207264
+            LigandBox: D05601
+            NIKKAJI: J12.640C
+ATOM        35
+            1   C2x C     6.5451   -9.4485
+            2   C5x C     6.5451  -10.8154
+            3   C2x C     7.7290  -11.4990
+            4   C2y C     8.9128  -10.8154
+            5   C1z C     8.9128   -9.4485
+            6   C2x C     7.7290   -8.7650
+            7   C1x C    10.0967  -11.4990
+            8   C1x C    11.2804  -10.8154
+            9   C1y C    11.2804   -9.4485
+            10  C1y C    10.0967   -8.7650
+            11  C1y C    12.4643   -8.7650
+            12  C1z C    12.4643   -7.3980
+            13  C1x C    11.2804   -6.7145
+            14  C1y C    10.0967   -7.3980
+            15  C1x C    14.8319   -8.7650
+            16  C1x C    14.8319   -7.3980
+            17  C1z C    13.6481   -6.7145
+            18  C5a C    13.6481   -4.9324
+            19  O7a O    14.8319   -6.0311
+            20  C7a C    16.0188   -6.6993
+            21  O6a O    16.0486   -8.0576
+            22  O7a O    17.1802   -5.9943
+            23  C1b C    18.3787   -6.6517
+            24  C1a C    19.5311   -5.9522
+            25  C1a C    12.4643   -6.1678
+            26  O1a O     8.9148   -6.7157
+            27  C1a C     8.9128   -8.0815
+            28  O5x O     5.3613  -11.4990
+            29  C1b C    14.8445   -4.2416
+            30  O5a O    12.4177   -4.2226
+            31  O7a O    16.0539   -4.9401
+            32  C7a C    17.2401   -4.2557
+            33  C1b C    18.4455   -4.9521
+            34  O6a O    17.2405   -2.8929
+            35  C1a C    19.6757   -4.2418
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   17  18 1 #Up
+            22   17  19 1 #Down
+            23   19  20 1
+            24   20  21 2
+            25   20  22 1
+            26   22  23 1
+            27   23  24 1
+            28   12  25 1 #Up
+            29   14  26 1 #Up
+            30    5  27 1 #Up
+            31    2  28 2
+            32   18  29 1
+            33   18  30 2
+            34   29  31 1
+            35   31  32 1
+            36   32  33 1
+            37   32  34 2
+            38   33  35 1
+///

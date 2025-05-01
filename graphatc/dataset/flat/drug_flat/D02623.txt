@@ -1,0 +1,111 @@
+ENTRY       D02623                      Drug
+NAME        Moperone (INN)
+FORMULA     C22H26FNO2
+EXACT_MASS  355.1948
+MOL_WEIGHT  355.4457
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01940  Butyrophenone derivative
+REMARK      ATC code: N05AD04
+            Chemical structure group: DG00888
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Butyrophenone derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04540(1813)  Gap junction
+INTERACTION  
+STR_MAP     map07031  Antipsychotics - butyrophenones
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AD Butyrophenone derivatives
+                 N05AD04 Moperone
+                  D02623  Moperone (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00888  Moperone
+                 D02623  Moperone
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00888  Moperone
+                 D02623  Moperone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02623  Moperone (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00888  Moperone
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00888  Moperone
+DBLINKS     CAS: 1050-79-9
+            PubChem: 17396793
+            LigandBox: D02623
+            NIKKAJI: J7.228A
+ATOM        26
+            1   C1b C    19.8100  -17.5700
+            2   C1b C    21.0700  -16.8700
+            3   C1b C    22.2600  -17.5700
+            4   N1y N    23.4500  -16.8700
+            5   C1x C    23.4500  -15.4700
+            6   C1x C    24.6400  -17.5700
+            7   C1x C    24.6400  -14.7700
+            8   C1x C    25.8300  -16.8700
+            9   C1z C    25.8300  -15.4700
+            10  C8y C    27.0200  -14.7700
+            11  C8x C    27.0200  -13.3700
+            12  C8x C    28.2100  -15.4700
+            13  C8x C    28.2100  -12.6700
+            14  C8x C    29.4000  -14.7700
+            15  C8y C    29.4000  -13.4400
+            16  C1a C    30.5900  -12.6700
+            17  C5a C    18.6200  -16.8000
+            18  C8y C    17.3600  -17.5700
+            19  O5a O    18.6200  -15.4000
+            20  C8x C    17.3600  -18.9700
+            21  C8x C    16.1700  -19.6700
+            22  C8y C    14.9100  -18.9700
+            23  C8x C    14.9100  -17.5700
+            24  C8x C    16.1700  -16.8000
+            25  X   F    13.6500  -19.6700
+            26  O1a O    27.0200  -16.1700
+BOND        28
+            1     9  10 1
+            2    10  11 1
+            3    10  12 2
+            4    11  13 2
+            5    12  14 1
+            6    13  15 1
+            7    15  16 1
+            8     8   9 1
+            9    14  15 2
+            10    1  17 1
+            11    1   2 1
+            12   17  18 1
+            13    2   3 1
+            14   17  19 2
+            15    3   4 1
+            16    4   5 1
+            17    4   6 1
+            18    5   7 1
+            19    6   8 1
+            20   18  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  18 2
+            26    7   9 1
+            27   22  25 1
+            28    9  26 1
+///

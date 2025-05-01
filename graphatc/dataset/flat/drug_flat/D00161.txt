@@ -1,0 +1,104 @@
+ENTRY       D00161                      Drug
+NAME        Mercaptopurine (USP);
+            Mercaptopurine hydrate (JP18);
+            Purinethol (TN);
+            Purixan (TN)
+PRODUCT     PURIXAN (Nova Laboratories)
+  GENERIC   MERCAPTOPURINE (Hikma Pharmaceuticals USA)
+            MERCAPTOPURINE (Mylan Pharmaceuticals)
+            MERCAPTOPURINE (Quinn Pharmaceuticals)
+FORMULA     C5H4N4S. H2O
+EXACT_MASS  170.0262
+MOL_WEIGHT  170.1923
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+REMARK      Therapeutic category: 4221
+            ATC code: L01BB02
+            Chemical structure group: DG00683
+            Product (DG00683): D00161<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Acute lymphoblastic leukemia [DS:H00001 H00002]
+TARGET      HPRT1 [HSA:3251] [KO:K00760]
+  PATHWAY   hsa00230(3251)  Purine metabolism
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+            map07046  Immunosuppressive agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BB Purine analogues
+                 L01BB02 Mercaptopurine
+                  D00161  Mercaptopurine (USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Mercaptopurine
+                D00161  Mercaptopurine (USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               422  Antimetabolites
+                4221  Mercaptopurines
+                 D00161  Mercaptopurine (USP); Mercaptopurine hydrate (JP18)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG00683  Mercaptopurine
+                 D00161  Mercaptopurine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D00161  Mercaptopurine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                HPRT1
+                 D00161  Mercaptopurine (USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00161  Mercaptopurine hydrate
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00161
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00161
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG00683  Mercaptopurine
+DBLINKS     CAS: 6112-76-1
+            PubChem: 7847229
+            ChEBI: 31822
+            LigandBox: D00161
+            NIKKAJI: J237.458G
+ATOM        11
+            1   O0  O    27.8600  -17.0568
+            2   C8y C    22.6100  -16.9400
+            3   C8y C    22.6100  -18.3400
+            4   C8y C    23.8000  -16.2400
+            5   N4x N    23.8000  -19.0400
+            6   N5x N    24.9900  -16.9400
+            7   S0  S    23.8000  -14.8400
+            8   C8x C    24.9900  -18.3400
+            9   N4x N    21.2100  -16.4500
+            10  C8x C    20.4400  -17.6400
+            11  N5x N    21.2100  -18.7600
+BOND        11
+            1     2   3 2
+            2     2   4 1
+            3     3   5 1
+            4     4   6 1
+            5     4   7 2
+            6     5   8 1
+            7     6   8 2
+            8     2   9 1
+            9     9  10 1
+            10   10  11 2
+            11    3  11 1
+///

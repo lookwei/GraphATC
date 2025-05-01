@@ -1,0 +1,122 @@
+ENTRY       D01616                      Drug
+NAME        Sodium prasterone sulfate hydrate (JP18);
+            Mylis (TN)
+FORMULA     C19H27O5S. 2H2O. Na
+EXACT_MASS  426.1688
+MOL_WEIGHT  426.5
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+              DG01605  Anabolic steroid
+REMARK      ATC code: A14AA07 G03XX01
+            Chemical structure group: DG00141
+            Product (DG00141): D08409<US>
+EFFICACY    Accelerator (cervical ripening), Androgen receptor agonist
+COMMENT     Androstan derivative
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+            NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A14 ANABOLIC AGENTS FOR SYSTEMIC USE
+               A14A ANABOLIC STEROIDS
+                A14AA Androstan derivatives
+                 A14AA07 Prasterone
+                  D01616  Sodium prasterone sulfate hydrate (JP18)
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03X OTHER SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+                G03XX Other sex hormones and modulators of the genital system
+                 G03XX01 Prasterone
+                  D01616  Sodium prasterone sulfate hydrate (JP18)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                DG00141  Prasterone
+                 D01616  Sodium prasterone sulfate hydrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D01616  Sodium prasterone sulfate hydrate (JP18)
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D01616  Sodium prasterone sulfate hydrate (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01616  Sodium prasterone sulfate hydrate
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                DG00141  Prasterone
+DBLINKS     CAS: 78590-17-7
+            PubChem: 7848679
+            ChEBI: 32148
+            LigandBox: D01616
+ATOM        28
+            1   O0  O    32.6778  -20.9384
+            2   Z   Na   18.6849  -19.9596 #+
+            3   C1x C    24.8902  -17.8929
+            4   C1y C    24.8902  -19.2616
+            5   C1x C    26.0783  -19.9458
+            6   C1x C    26.0783  -17.2085
+            7   C1z C    27.2595  -17.8929
+            8   C2y C    27.2535  -19.2616
+            9   C2x C    28.4358  -19.9510
+            10  C1x C    29.6241  -19.2716
+            11  C1y C    28.4476  -17.2137
+            12  C1y C    29.6241  -17.9060
+            13  C1x C    29.6465  -15.1758
+            14  C1x C    28.3887  -15.8487
+            15  C1z C    30.8231  -15.8680
+            16  C1y C    30.8066  -17.2289
+            17  C1x C    33.1637  -17.1875
+            18  C1x C    33.1803  -15.8967
+            19  C5x C    32.0099  -15.2019
+            20  C1a C    30.8139  -14.4990
+            21  C1a C    27.2472  -16.5243
+            22  O2a O    23.7052  -19.9465
+            23  S4a S    22.3326  -19.9390
+            24  O1d O    20.9639  -19.9321 #-
+            25  O1d O    22.3397  -18.5704
+            26  O1d O    22.3213  -21.3076
+            27  O5x O    31.9571  -13.7881
+            28  O0  O    32.6778  -20.9384
+BOND        28
+            1    12  16 1
+            2    15  13 1
+            3    13  14 1
+            4    14  11 1
+            5     7   6 1
+            6     6   3 1
+            7    15  16 1
+            8    17  18 1
+            9    18  19 1
+            10   19  15 1
+            11   16  17 1
+            12    7   8 1
+            13   15  20 1 #Up
+            14    8   9 2
+            15    9  10 1
+            16    7  21 1 #Up
+            17   10  12 1
+            18    4  22 1 #Up
+            19   11   7 1
+            20    3   4 1
+            21   22  23 1
+            22    4   5 1
+            23   23  24 1
+            24    5   8 1
+            25   23  25 2
+            26   11  12 1
+            27   23  26 2
+            28   19  27 2
+BRACKET     1    30.4500  -21.7000   30.4500  -20.2300
+            1    33.3200  -20.2300   33.3200  -21.7000
+            1  2
+  ORIGINAL  1    1
+  REPEAT    1   31
+///

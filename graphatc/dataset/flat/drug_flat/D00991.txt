@@ -1,0 +1,59 @@
+ENTRY       D00991                      Drug
+NAME        Aurothioglucose (USP);
+            Solganal (TN)
+FORMULA     C6H11AuO5S
+EXACT_MASS  391.9993
+MOL_WEIGHT  392.1801
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG01912  Gold preparations
+REMARK      Same as: C08193
+            ATC code: M01CB04
+EFFICACY    Antirheumatic
+COMMENT     Gold preparation
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01C SPECIFIC ANTIRHEUMATIC AGENTS
+                M01CB Gold preparations
+                 M01CB04 Aurothioglucose
+                  D00991  Aurothioglucose (USP)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG01912  Gold preparations
+                D00991  Aurothioglucose
+DBLINKS     CAS: 12192-57-3
+            PubChem: 7848054
+            ChEBI: 2930
+            NIKKAJI: J34.142H
+ATOM        13
+            1   C1y C    19.9992  -15.9966
+            2   O2x O    21.2157  -15.2923
+            3   C1y C    19.9992  -17.3937
+            4   C1b C    18.7825  -15.2923
+            5   C1y C    22.4208  -15.9966
+            6   C1y C    21.2157  -18.0923
+            7   O1a O    18.7825  -18.0923
+            8   O1a O    17.5716  -15.9908
+            9   C1y C    22.4208  -17.3937
+            10  S2a S    23.6375  -15.2923
+            11  O1a O    21.2157  -19.4895
+            12  O1a O    23.6375  -18.0923
+            13  Z   Au   24.8425  -15.9966
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1 #Down
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Down
+            10    6  11 1 #Up
+            11    9  12 1 #Down
+            12   10  13 1
+            13    6   9 1
+///

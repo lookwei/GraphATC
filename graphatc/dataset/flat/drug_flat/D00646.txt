@@ -1,0 +1,118 @@
+ENTRY       D00646                      Drug
+NAME        Tolterodine (USAN/INN)
+FORMULA     C22H31NO
+EXACT_MASS  325.2406
+MOL_WEIGHT  325.4876
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07750
+            ATC code: G04BD07
+            Chemical structure group: DG00480
+            Product (DG00480): D01148<JP/US>
+EFFICACY    Overactive bladder agent, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04020(1131)  Calcium signaling pathway
+            hsa04080(1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1131)  Cholinergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BD Drugs for urinary frequency and incontinence
+                 G04BD07 Tolterodine
+                  D00646  Tolterodine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00480  Tolterodine
+                D00646  Tolterodine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00480  Tolterodine
+                D00646  Tolterodine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00480  Tolterodine
+                 D00646  Tolterodine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM3
+                 D00646  Tolterodine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00646
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00480  Tolterodine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00480  Tolterodine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00480  Tolterodine
+DBLINKS     CAS: 124937-51-5
+            PubChem: 7847712
+            ChEBI: 9622
+            LigandBox: D00646
+            NIKKAJI: J561.859B
+ATOM        24
+            1   C1c C    14.3599  -16.8800
+            2   N1c N    15.5739  -17.5809
+            3   C1b C    16.7880  -16.8800
+            4   C1b C    18.0020  -17.5809
+            5   C1c C    19.2160  -16.8800
+            6   C8y C    20.4301  -17.5809
+            7   C8x C    21.6441  -16.8800
+            8   C8y C    22.8582  -17.5809
+            9   C1a C    24.0723  -16.8800
+            10  C1a C    13.1458  -17.5809
+            11  C1a C    14.3599  -15.4781
+            12  C1c C    15.5739  -18.9825
+            13  C1a C    14.3430  -19.6934
+            14  C1a C    16.7711  -19.6739
+            15  C8y C    19.2160  -15.4782
+            16  C8y C    20.4301  -18.9824
+            17  C8x C    22.8582  -18.9826
+            18  C8x C    21.6650  -19.6957
+            19  O1a O    19.2369  -19.6715
+            20  C8x C    20.4152  -14.7858
+            21  C8x C    20.4151  -13.3839
+            22  C8x C    19.2010  -12.6831
+            23  C8x C    18.0018  -13.3755
+            24  C8x C    18.0019  -14.7774
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     5   4 1 #Down
+            5     5   6 1
+            6     6   7 1
+            7     7   8 2
+            8     8   9 1
+            9     1  10 1
+            10    1  11 1
+            11    2  12 1
+            12   12  13 1
+            13   12  14 1
+            14    5  15 1
+            15    6  16 2
+            16    8  17 1
+            17   16  18 1
+            18   18  17 2
+            19   16  19 1
+            20   15  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   15  24 1
+///

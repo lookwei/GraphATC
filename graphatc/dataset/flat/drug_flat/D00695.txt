@@ -1,0 +1,132 @@
+ENTRY       D00695                      Drug
+NAME        Flurazepam hydrochloride (USP);
+            Flurazepam dihydrochloride;
+            Dalmane (TN)
+PRODUCT
+  GENERIC   FLURAZEPAM HYDROCHLORIDE (Chartwell RX)
+FORMULA     C21H23ClFN3O. 2HCl
+EXACT_MASS  459.1047
+MOL_WEIGHT  460.8001
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+REMARK      ATC code: N05CD01
+            Chemical structure group: DG00919
+            Product (DG00919): D00695<US> D01408<JP>
+EFFICACY    Anticonvulsant, Muscle relaxant, Sedative-hypnotic
+COMMENT     Benzodiazepines
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CD Benzodiazepine derivatives
+                 N05CD01 Flurazepam
+                  D00695  Flurazepam hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Sleep Disorder Agents
+              Sleep Promoting Agents
+               Flurazepam
+                D00695  Flurazepam hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               DG00919  Flurazepam
+                D00695  Flurazepam hydrochloride
+              DG03202  Hypnotic
+               DG00919  Flurazepam
+                D00695  Flurazepam hydrochloride
+              DG01567  GABA-A receptor agonist
+               DG00919  Flurazepam
+                D00695  Flurazepam hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00695  Flurazepam hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               DG00919  Flurazepam
+              DG03202  Hypnotic
+               DG00919  Flurazepam
+              DG01567  GABA-A receptor agonist
+               DG00919  Flurazepam
+DBLINKS     CAS: 1172-18-5
+            PubChem: 7847760
+            ChEBI: 5129
+            LigandBox: D00695
+            NIKKAJI: J293.283K
+ATOM        29
+            1   X   Cl   36.4700  -16.9400
+            2   C2y C    31.1500  -17.4300
+            3   C8y C    30.3100  -16.3100
+            4   C8y C    30.6600  -14.9100
+            5   N1y N    31.9200  -14.3500
+            6   N2x N    32.6200  -17.4300
+            7   C5x C    33.1800  -14.9800
+            8   C1x C    33.4600  -16.3800
+            9   C8x C    29.6800  -13.9300
+            10  C8x C    28.3500  -14.3500
+            11  C8y C    28.0000  -15.6800
+            12  C8x C    28.9800  -16.6600
+            13  O5x O    34.1600  -14.0700
+            14  X   Cl   26.6000  -16.1000
+            15  C8y C    30.5200  -18.6900
+            16  C8x C    29.1200  -18.6900
+            17  C8x C    28.4200  -19.8800
+            18  C8x C    29.1200  -21.0700
+            19  C8x C    30.5200  -21.0700
+            20  C8y C    31.2200  -19.8800
+            21  X   F    32.6900  -19.8800
+            22  C1b C    31.9200  -12.9500
+            23  C1b C    33.1100  -12.3200
+            24  N1c N    33.1100  -10.8500
+            25  C1b C    34.3000  -10.1500
+            26  C1b C    31.9200  -10.1500
+            27  C1a C    30.7300  -10.8500
+            28  C1a C    35.4900  -10.8500
+            29  X   Cl   36.4700  -16.9400
+BOND        29
+            1     4   5 1
+            2     2   6 2
+            3     5   7 1
+            4     3   4 1
+            5     6   8 1
+            6     2   3 1
+            7     7   8 1
+            8     4   9 2
+            9     9  10 1
+            10   10  11 2
+            11   11  12 1
+            12    3  12 2
+            13    7  13 2
+            14   11  14 1
+            15    2  15 1
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   15  20 2
+            22   20  21 1
+            23    5  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   24  26 1
+            28   26  27 1
+            29   25  28 1
+BRACKET     1    35.0000  -17.6400   35.0000  -16.2400
+            1    37.2400  -16.2400   37.2400  -17.6400
+            1  2
+  ORIGINAL  1    1
+  REPEAT    1   29
+///

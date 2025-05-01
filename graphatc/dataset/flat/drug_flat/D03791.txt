@@ -1,0 +1,62 @@
+ENTRY       D03791                      Drug
+NAME        Dichlorvos (USAN/INN);
+            Atgard (TN)
+FORMULA     C4H7Cl2O4P
+EXACT_MASS  219.9459
+MOL_WEIGHT  220.9757
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+REMARK      Same as: C14430
+EFFICACY    Anthelmintic, Acetylcholinesterase inhibitor
+COMMENT     Organophosphate compound
+TARGET      acetylcholinesterase (AChE) [KO:K01049]
+  PATHWAY   ko04725(K01049)  Cholinergic synapse
+INTERACTION  
+BRITE       Classification of Japanese OTC drugs [BR:br08313]
+             Agents for sanitation
+              82 Pesticides
+               D03791  Dichlorvos (USAN/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Dichlorvos
+                D03791  Dichlorvos (USAN/INN)
+             Second-class OTC drugs
+              Not used for human
+               Insecticides
+                D03791  Dichlorvos (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                D03791  Dichlorvos
+DBLINKS     CAS: 62-73-7
+            PubChem: 17397879
+            ChEBI: 34690
+            LigandBox: D03791
+            NIKKAJI: J2.352C
+ATOM        11
+            1   O2b O    27.8790  -14.8712
+            2   P1b P    27.8478  -16.2326
+            3   O2b O    29.1266  -16.2326
+            4   O2b O    27.8478  -17.7044
+            5   O3b O    26.2438  -16.2326
+            6   C1a C    29.1212  -18.4321
+            7   C2c C    31.2266  -15.0202
+            8   C2b C    29.8266  -15.0202
+            9   X   Cl   31.9122  -13.8331
+            10  X   Cl   31.9380  -16.2519
+            11  C1a C    26.6551  -14.1272
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     2   4 1
+            4     2   5 2
+            5     4   6 1
+            6     7   8 2
+            7     3   8 1
+            8     7   9 1
+            9     7  10 1
+            10    1  11 1
+///

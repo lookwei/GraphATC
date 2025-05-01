@@ -1,0 +1,181 @@
+ENTRY       D11106                      Drug
+NAME        Filgotinib maleate (JAN/USAN);
+            Jyseleca (TN)
+FORMULA     C21H23N5O3S. C4H4O4
+EXACT_MASS  541.1631
+MOL_WEIGHT  541.5762
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Metabolizing enzyme substrate
+             DG02970  CES substrate
+              DG03241  CES1 substrate
+              DG03192  CES2 substrate
+REMARK      Therapeutic category: 3999
+            ATC code: L04AA45
+            Chemical structure group: DG01991
+            Product (DG01991): D11106<JP>
+EFFICACY    Anti-inflammatory, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of inflammatory conditions and autoimmune diseases
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+            JAK2 [HSA:3717] [KO:K04447]
+            JAK3 [HSA:3718] [KO:K11218]
+            TYK2 [HSA:7297] [KO:K11219]
+  PATHWAY   hsa04630(3716+3717+3718+7297)  JAK-STAT signaling pathway
+            hsa04658(3716+3717+3718+7297)  Th1 and Th2 cell differentiation
+            hsa04659(3716+3717+3718+7297)  Th17 cell differentiation
+METABOLISM  Enzyme: CES1 [HSA:1066], CES2 [HSA:8824]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA45 Filgotinib
+                  D11106  Filgotinib maleate (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D11106  Filgotinib maleate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG01991  Filgotinib
+                 D11106  Filgotinib maleate
+             Metabolizing enzyme substrate
+              DG02970  CES substrate
+               DG03241  CES1 substrate
+                DG01991  Filgotinib
+                 D11106  Filgotinib maleate
+               DG03192  CES2 substrate
+                DG01991  Filgotinib
+                 D11106  Filgotinib maleate
+            Drug classes [BR:br08332]
+             Immunological agent
+              DG02020  JAK inhibitor
+               D11106  Filgotinib maleate
+             Antirheumatic agent
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D11106  Filgotinib maleate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D11106  Filgotinib maleate (JAN/USAN) &lt;JP&gt;
+                JAK2
+                 D11106  Filgotinib maleate (JAN/USAN) &lt;JP&gt;
+                JAK3
+                 D11106  Filgotinib maleate (JAN/USAN) &lt;JP&gt;
+                TYK2
+                 D11106  Filgotinib maleate (JAN/USAN) &lt;JP&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D11106
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11106
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11106
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11106
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG01991  Filgotinib
+             Metabolizing enzyme substrate
+              DG02970  CES substrate
+               DG03241  CES1 substrate
+                DG01991  Filgotinib
+               DG03192  CES2 substrate
+                DG01991  Filgotinib
+DBLINKS     CAS: 1802998-75-9
+            PubChem: 376219030
+ATOM        38
+            1   C8x C    13.9868  -12.3084
+            2   C8x C    13.9868  -10.9097
+            3   C8x C    15.1756  -10.2103
+            4   C8y C    16.4344  -10.9097
+            5   N4y N    16.4344  -12.3084
+            6   C8y C    15.1756  -13.0077
+            7   N5x N    17.7632  -10.4901
+            8   C8y C    18.5325  -11.6090
+            9   N5x N    17.7632  -12.7280
+            10  N1b N    19.9311  -11.6090
+            11  C5a C    20.6305  -12.7979
+            12  C1y C    22.0291  -12.7979
+            13  O5a O    19.9311  -13.9868
+            14  C1x C    23.2880  -12.0985
+            15  C1x C    23.2880  -13.4972
+            16  C8y C    15.1756  -14.4064
+            17  C8x C    16.3645  -15.1057
+            18  C8x C    16.3645  -16.5044
+            19  C8y C    15.1057  -17.2037
+            20  C8x C    13.9168  -16.5044
+            21  C8x C    13.9168  -15.1057
+            22  C1b C    15.1057  -18.6024
+            23  N1y N    16.2946  -19.3017
+            24  C1x C    16.2946  -20.7004
+            25  C1x C    17.5534  -21.3997
+            26  S2x S    18.7423  -20.7004
+            27  C1x C    18.7423  -19.3017
+            28  C1x C    17.4835  -18.6024
+            29  O3c O    18.7423  -22.0991
+            30  O3c O    19.9311  -20.0011
+            31  C2b C    23.5900  -15.5400
+            32  C2b C    24.9900  -15.5400
+            33  C6a C    22.8900  -16.7524
+            34  C6a C    25.6900  -16.7524
+            35  O6a O    27.0898  -16.7524
+            36  O6a O    24.9996  -17.9479
+            37  O6a O    21.4902  -16.7524
+            38  O6a O    23.5804  -17.9479
+BOND        41
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   11  13 2
+            15   12  14 1
+            16   14  15 1
+            17   12  15 1
+            18    6  16 1
+            19   16  17 2
+            20   17  18 1
+            21   18  19 2
+            22   19  20 1
+            23   20  21 2
+            24   16  21 1
+            25   19  22 1
+            26   22  23 1
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   23  28 1
+            33   26  29 2
+            34   26  30 2
+            35   31  32 2
+            36   31  33 1
+            37   32  34 1
+            38   34  35 2
+            39   34  36 1
+            40   33  37 1
+            41   33  38 2
+///

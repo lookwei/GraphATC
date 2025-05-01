@@ -1,0 +1,92 @@
+ENTRY       D07328                      Drug
+NAME        Cinolazepam (INN);
+            Gerodorm (TN)
+FORMULA     C18H13ClFN3O2
+EXACT_MASS  357.068
+MOL_WEIGHT  357.7661
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+REMARK      ATC code: N05CD13
+EFFICACY    Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CD Benzodiazepine derivatives
+                 N05CD13 Cinolazepam
+                  D07328  Cinolazepam (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               D07328  Cinolazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D07328  Cinolazepam (INN)
+DBLINKS     CAS: 75696-02-5
+            PubChem: 51091665
+            ChEBI: 59514
+            LigandBox: D07328
+            NIKKAJI: J69.302B
+ATOM        25
+            1   C2y C    26.9500  -20.2300
+            2   C8y C    26.1100  -19.1100
+            3   C8y C    26.4600  -17.7100
+            4   N1y N    27.7200  -17.1500
+            5   N2x N    28.4200  -20.2300
+            6   C5x C    28.9800  -17.7800
+            7   C1y C    29.2600  -19.1800
+            8   C8x C    25.4800  -16.7300
+            9   C8x C    24.1500  -17.1500
+            10  C8y C    23.8000  -18.4800
+            11  C8x C    24.7800  -19.4600
+            12  O5x O    30.0300  -16.8700
+            13  X   Cl   22.4000  -18.9000
+            14  C8y C    26.3200  -21.4900
+            15  C8x C    24.9200  -21.4900
+            16  C8x C    24.2200  -22.6800
+            17  C8x C    24.9200  -23.8700
+            18  C8x C    26.3200  -23.8700
+            19  C8y C    27.0200  -22.6800
+            20  X   F    28.4900  -22.6800
+            21  C1b C    27.7200  -15.7500
+            22  C1b C    28.9800  -15.1200
+            23  C3b C    28.9800  -13.6500
+            24  O1a O    30.6203  -19.5110
+            25  N3a N    28.9625  -12.2527
+BOND        27
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 2
+            22   19  20 1
+            23    4  21 1
+            24   21  22 1
+            25   22  23 1
+            26    7  24 1
+            27   23  25 3
+///

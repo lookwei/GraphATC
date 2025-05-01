@@ -1,0 +1,111 @@
+ENTRY       D05832                      Drug
+NAME        Sibenadet hydrochloride (USAN);
+            Viozan (TN)
+FORMULA     C22H28N2O5S2. HCl
+EXACT_MASS  500.1206
+MOL_WEIGHT  501.0591
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+            Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist, Dopamine D2 receptor agonist
+COMMENT     Treatment of symptoms of chronic obstructive pulmonary disease
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04024(154+1813)  cAMP signaling pathway
+            hsa04080(154+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 D05832  Sibenadet hydrochloride
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                D05832  Sibenadet hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D05832  Sibenadet hydrochloride (USAN)
+               Dopamine
+                DRD2
+                 D05832  Sibenadet hydrochloride (USAN)
+DBLINKS     CAS: 154189-24-9
+            PubChem: 47207493
+            LigandBox: D05832
+ATOM        32
+            1   C8y C    21.1774  -16.8165
+            2   C8y C    21.1774  -18.2157
+            3   C8x C    22.3901  -18.9154
+            4   C8x C    23.6028  -18.2157
+            5   C8y C    23.6028  -16.8165
+            6   C8y C    22.3901  -16.1168
+            7   C1b C    26.0282  -16.8165
+            8   C1b C    24.8156  -16.1168
+            9   N1b N    27.2408  -16.1168
+            10  C1b C    28.4536  -16.8165
+            11  S2x S    22.0995  -14.7473
+            12  C8y C    20.7071  -14.6005
+            13  N4x N    20.1373  -15.8793
+            14  O5x O    19.9988  -13.3731
+            15  O1a O    19.9963  -18.8979
+            16  C1b C    29.6473  -16.1263
+            17  S4a S    30.8726  -16.8332
+            18  C1b C    32.0971  -16.1260
+            19  C1b C    33.3224  -16.8337
+            20  C1b C    34.5476  -16.1269
+            21  O2a O    35.7717  -16.8347
+            22  C1b C    36.9982  -16.1281
+            23  C1b C    38.2210  -16.8359
+            24  C8y C    39.4187  -16.1467
+            25  C8x C    40.6336  -16.8504
+            26  C8x C    41.8470  -16.1521
+            27  C8x C    41.8489  -14.7521
+            28  C8x C    40.6340  -14.0484
+            29  C8x C    39.4206  -14.7467
+            30  O3c O    29.8827  -17.8232
+            31  O3c O    31.8626  -17.8232
+            32  X   Cl   40.3200  -19.7400
+BOND        33
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     7   8 1
+            8     5   8 1
+            9     7   9 1
+            10    9  10 1
+            11    6  11 1
+            12   11  12 1
+            13   12  13 1
+            14    1  13 1
+            15   12  14 2
+            16    2  15 1
+            17   10  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   27  28 1
+            30   28  29 2
+            31   24  29 1
+            32   17  30 2
+            33   17  31 2
+///

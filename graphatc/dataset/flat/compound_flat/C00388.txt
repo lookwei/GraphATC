@@ -1,0 +1,74 @@
+ENTRY       C00388                      Compound
+NAME        Histamine;
+            1H-Imidazole-4-ethanamine;
+            2-(4-Imidazolyl)ethylamine
+FORMULA     C5H9N3
+EXACT_MASS  111.0796
+MOL_WEIGHT  111.1451
+REMARK      Same as: D08040
+REACTION    R01167 R02150 R02152 R02155 R07643
+PATHWAY     map00340  Histidine metabolism
+            map01065  Biosynthesis of alkaloids derived from histidine and purine
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04080  Neuroactive ligand-receptor interaction
+            map04664  Fc epsilon RI signaling pathway
+            map04721  Synaptic vesicle cycle
+            map04750  Inflammatory mediator regulation of TRP channels
+            map04971  Gastric acid secretion
+            map04974  Protein digestion and absorption
+            map05310  Asthma
+            map07227  Histamine H2/H3 receptor agonists/antagonists
+NETWORK     nt06037  Histidine metabolism
+ENZYME      1.4.3.22        2.1.1.8         2.3.1.-         4.1.1.22        
+            6.3.2.18
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amines
+               Biogenic amines
+                C00388  Histamine
+             Hormones and transmitters
+              Other hormones
+               Histamine
+                C00388  Histamine
+              Neurotransmitters
+               Biogenic amines
+                C00388  Histamine
+            Target-based classification of drugs [BR:br08310(D08040)]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D08040  Histamine (DCF) &lt;US&gt;
+                HRH2
+                 D08040  Histamine (DCF) &lt;US&gt;
+                HRH3
+                 D08040  Histamine (DCF) &lt;US&gt;
+                HRH4
+                 D08040  Histamine (DCF) &lt;US&gt;
+DBLINKS     CAS: 51-45-6
+            PubChem: 3678
+            ChEBI: 18295
+            KNApSAcK: C00001414
+            PDB-CCD: HSM
+            3DMET: B00101
+            NIKKAJI: J4.117C
+ATOM        8
+            1   C8x C    23.1586  -15.5543
+            2   C8y C    22.7262  -16.8922
+            3   N4x N    22.0251  -14.7305
+            4   N5x N    21.3183  -16.8922
+            5   C8x C    20.8859  -15.5543
+            6   C1b C    23.9290  -17.5823
+            7   C1b C    25.1361  -16.8834
+            8   N1a N    26.3433  -17.5753
+BOND        8
+            1     2   4 1
+            2     3   5 1
+            3     4   5 2
+            4     2   6 1
+            5     1   2 2
+            6     6   7 1
+            7     1   3 1
+            8     7   8 1
+///

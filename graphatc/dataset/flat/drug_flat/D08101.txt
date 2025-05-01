@@ -1,0 +1,88 @@
+ENTRY       D08101                      Drug
+NAME        Ketobemidone hydrochloride;
+            Ketogan (TN)
+FORMULA     C15H21NO2. HCl
+EXACT_MASS  283.1339
+MOL_WEIGHT  283.7937
+CLASS       Analgesic
+             DG01984  Opioid analgesics
+REMARK      ATC code: N02AB01
+            Chemical structure group: DG00815
+EFFICACY    Analgesic
+COMMENT     Phenylpiperidine derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+            OPRD1 [HSA:4985] [KO:K04213]
+  PATHWAY   hsa04080(4985+4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AB Phenylpiperidine derivatives
+                 N02AB01 Ketobemidone
+                  D08101  Ketobemidone hydrochloride
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00815  Ketobemidone
+                D08101  Ketobemidone hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D08101  Ketobemidone hydrochloride
+                OPRK1
+                 D08101  Ketobemidone hydrochloride
+                OPRD1
+                 D08101  Ketobemidone hydrochloride
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00815  Ketobemidone
+DBLINKS     CAS: 5965-49-1
+            PubChem: 96024791
+            LigandBox: D08101
+            NIKKAJI: J231.203D
+ATOM        19
+            1   C1z C    24.7800  -18.6900
+            2   C8y C    23.5900  -19.3200
+            3   C5a C    25.9700  -19.3200
+            4   C1x C    23.5900  -17.9200
+            5   C1x C    25.9700  -17.9200
+            6   C8x C    23.5900  -20.7200
+            7   C8x C    22.3300  -18.6200
+            8   C1b C    27.1600  -18.6900
+            9   O5a O    25.9700  -20.7900
+            10  C1x C    23.5900  -16.5900
+            11  C1x C    25.9700  -16.5900
+            12  C8x C    22.3300  -21.4900
+            13  C8y C    21.1400  -19.3200
+            14  N1y N    24.7800  -15.7500
+            15  C8x C    21.1400  -20.7200
+            16  C1a C    24.7800  -14.3500
+            17  O1a O    19.9500  -18.6900
+            18  C1a C    28.4200  -19.3900
+            19  X   Cl   31.1500  -16.9400
+BOND        19
+            1     1   3 1
+            2     1   4 1
+            3     1   5 1
+            4     2   6 1
+            5     2   7 2
+            6     3   8 1
+            7     3   9 2
+            8     4  10 1
+            9     5  11 1
+            10    6  12 2
+            11    7  13 1
+            12   10  14 1
+            13   12  15 1
+            14   14  16 1
+            15   11  14 1
+            16   13  15 2
+            17   13  17 1
+            18    1   2 1
+            19    8  18 1
+///

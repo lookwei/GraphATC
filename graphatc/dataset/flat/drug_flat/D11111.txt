@@ -1,0 +1,144 @@
+ENTRY       D11111                      Drug
+NAME        Difelikefalin (USAN/INN)
+FORMULA     C36H53N7O6
+EXACT_MASS  679.4057
+MOL_WEIGHT  679.8493
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01562  kappa-Opioid receptor agonist
+REMARK      ATC code: V03AX04
+            Chemical structure group: DG02914
+            Product (DG02914): D10890<JP/US>
+EFFICACY    Analgesic, Opioid receptor agonist
+COMMENT     Treatment of moderate to severe acute pain, moderate to severe chronic pain, and moderate to severe pruritus associated with chronic kidney disease
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+  PATHWAY   hsa04080(4986)  Neuroactive ligand-receptor interaction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AX Other therapeutic products
+                 V03AX04 Difelikefalin
+                  D11111  Difelikefalin (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01562  kappa-Opioid receptor agonist
+                DG02914  Difelikefalin
+                 D11111  Difelikefalin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRK1
+                 D11111  Difelikefalin (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01562  kappa-Opioid receptor agonist
+                DG02914  Difelikefalin
+DBLINKS     CAS: 1024828-77-0
+            PubChem: 376219035
+ATOM        49
+            1   C1z C     9.6212  -15.4576
+            2   C1x C     9.6212  -16.8626
+            3   C1x C    10.8155  -17.5652
+            4   N1y N    12.0800  -16.8626
+            5   C1x C    12.0800  -15.4576
+            6   C1x C    10.8155  -14.7551
+            7   N1a N     9.6212  -14.0526
+            8   C6a C     8.4269  -16.1601
+            9   O6a O     7.2326  -15.4576
+            10  O6a O     8.4269  -17.5652
+            11  C5a C    13.2743  -17.5652
+            12  C1c C    14.4685  -16.8626
+            13  O5a O    13.2743  -18.9702
+            14  N1b N    15.6628  -17.5652
+            15  C1b C    14.4685  -15.4576
+            16  C1b C    15.6628  -14.7551
+            17  C1b C    15.6628  -13.3501
+            18  C1b C    16.8571  -12.6475
+            19  C5a C    16.8571  -16.8626
+            20  C1c C    18.0514  -17.5652
+            21  O5a O    16.8571  -15.4576
+            22  N1b N    19.2457  -16.8626
+            23  C1b C    18.0514  -18.9702
+            24  C5a C    20.4399  -17.5652
+            25  C1c C    21.6342  -16.8626
+            26  O5a O    20.4399  -18.9702
+            27  C1c C    16.8571  -19.6727
+            28  N1b N    22.8285  -17.5652
+            29  C1b C    21.6342  -15.4576
+            30  C5a C    24.0228  -16.8626
+            31  C1c C    25.2170  -17.5652
+            32  N1a N    16.8571  -11.2425
+            33  C8y C    20.4399  -14.7551
+            34  C8x C    20.4399  -13.3501
+            35  C8x C    19.1754  -12.6475
+            36  C8x C    17.9811  -13.3501
+            37  C8x C    17.9811  -14.7551
+            38  C8x C    19.1754  -15.4576
+            39  O5a O    24.0228  -15.4576
+            40  C1b C    26.4113  -16.8626
+            41  N1a N    25.2170  -18.9702
+            42  C8y C    27.6056  -17.5652
+            43  C8x C    27.6056  -18.9702
+            44  C8x C    28.8701  -19.6727
+            45  C8x C    30.0644  -18.9702
+            46  C8x C    30.0644  -17.5652
+            47  C8x C    28.8701  -16.8626
+            48  C1a C    15.6628  -18.9702
+            49  C1a C    16.8571  -21.0777
+BOND        51
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     1   8 1
+            9     8   9 1
+            10    8  10 2
+            11    4  11 1
+            12   11  12 1
+            13   11  13 2
+            14   12  14 1
+            15   12  15 1 #Up
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   14  19 1
+            20   19  20 1
+            21   19  21 2
+            22   20  22 1
+            23   20  23 1 #Down
+            24   22  24 1
+            25   24  25 1
+            26   24  26 2
+            27   23  27 1
+            28   25  28 1
+            29   25  29 1 #Up
+            30   28  30 1
+            31   30  31 1
+            32   18  32 1
+            33   29  33 1
+            34   33  34 2
+            35   34  35 1
+            36   35  36 2
+            37   36  37 1
+            38   37  38 2
+            39   33  38 1
+            40   30  39 2
+            41   31  40 1
+            42   31  41 1 #Up
+            43   40  42 1
+            44   42  43 2
+            45   43  44 1
+            46   44  45 2
+            47   45  46 1
+            48   46  47 2
+            49   42  47 1
+            50   27  48 1
+            51   27  49 1
+///

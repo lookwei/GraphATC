@@ -1,0 +1,120 @@
+ENTRY       D00045                      Drug
+NAME        Adenosine (JAN/USP);
+            Adenocard (TN);
+            Adenoscan (TN)
+PRODUCT
+  GENERIC   ADENOSINE (Akorn)
+            ADENOSINE (Akorn)
+            ADENOSINE (Akorn)
+            ADENOSINE (AuroMedics Pharma LLC)
+            ADENOSINE (Fresenius Kabi USA)
+            ADENOSINE (Fresenius Kabi USA)
+            ADENOSINE (Fresenius Kabi USA)
+            ADENOSINE (General Injectables & Vaccines)
+            ADENOSINE (Gland Pharma Limited)
+            ADENOSINE (Gland Pharma Limited)
+            ADENOSINE (HF Acquisition Co LLC)
+            ADENOSINE (HF Acquisition Co LLC)
+            ADENOSINE (HF Acquisition Co LLC)
+            ADENOSINE (HF Acquisition Co LLC)
+            ADENOSINE (HF Acquisition Co LLC)
+            ADENOSINE (Henry Schein)
+            ADENOSINE (Henry Schein)
+            ADENOSINE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            ADENOSINE (Hikma Pharmaceuticals USA)
+            ADENOSINE (Hospira)
+            ADENOSINE (Medical Purchasing Solutions)
+            ADENOSINE (Medical Purchasing Solutions)
+            ADENOSINE (Medical Purchasing Solutions)
+            ADENOSINE (Mylan Institutional LLC)
+            ADENOSINE (Mylan Institutional LLC)
+            ADENOSINE (Mylan Institutional LLC)
+            ADENOSINE (Mylan Institutional LLC)
+            ADENOSINE (NorthStar Rx LLC)
+            ADENOSINE (Sagent Pharmaceuticals)
+            ADENOSINE (Sagent Pharmaceuticals)
+            ADENOSINE INJECTION, 6MG/2ML (3MG/ML) VIAL (HF Acquisition Co. LLC)
+FORMULA     C10H13N5O4
+EXACT_MASS  267.0968
+MOL_WEIGHT  267.2413
+REMARK      Same as: C00212
+            Therapeutic category: 7990
+            ATC code: C01EB10
+            Chemical structure group: DG00243
+            Product (DG00243): D00045<JP/US> D02300<JP>
+EFFICACY    Antiarrhythmic, Cardiac depressant, Diagnostic aid (cardiac stress test), Adenosine receptor agonist
+TARGET      ADORA [HSA:134 135 136 140] [KO:K04265 K04266 K04267 K04268]
+  PATHWAY   hsa04080(134+135+136+140)  Neuroactive ligand-receptor interaction
+            hsa04270(135+136)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01E OTHER CARDIAC PREPARATIONS
+                C01EB Other cardiac preparations
+                 C01EB10 Adenosine
+                  D00045  Adenosine (JAN/USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             7  Agents not mainly for therapeutic purpose
+              79  Other agents not mainly for therapeutic purpose
+               799  Miscellaneous
+                7990  Miscellaneous
+                 D00045  Adenosine (JAN/USP)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA
+                 D00045  Adenosine (JAN/USP) &lt;JP/US&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00045
+DBLINKS     CAS: 58-61-7
+            PubChem: 7847113
+            ChEBI: 16335
+            PDB-CCD: ADN
+            LigandBox: D00045
+            NIKKAJI: J4.501B
+ATOM        19
+            1   N4y N    27.7735  -15.1762
+            2   C8y C    28.7550  -16.0205
+            3   C1y C    26.4808  -15.5916
+            4   C8x C    28.3947  -13.8350
+            5   C8y C    30.0785  -15.2503
+            6   N5x N    28.7377  -17.4480
+            7   O2x O    25.3403  -14.7435
+            8   C1y C    26.0539  -16.8432
+            9   N5x N    29.8363  -13.9950
+            10  C8y C    31.2648  -15.9301
+            11  C8x C    29.9894  -18.1759
+            12  C1y C    24.2407  -15.5331
+            13  C1y C    24.6677  -16.8432
+            14  O1a O    26.4632  -18.1767
+            15  N5x N    31.2695  -17.4246
+            16  N1a N    32.4508  -15.2334
+            17  C1b C    22.9364  -15.1236
+            18  O1a O    24.2231  -18.1709
+            19  O1a O    21.8253  -15.9600
+BOND        21
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   12  17 1 #Up
+            17   13  18 1 #Down
+            18   17  19 1
+            19    5   9 1
+            20   11  15 1
+            21   12  13 1
+///

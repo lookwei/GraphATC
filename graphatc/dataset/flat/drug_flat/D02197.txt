@@ -1,0 +1,223 @@
+ENTRY       D02197                      Drug
+NAME        Vincristine sulfate (JP18/USP);
+            VCR;
+            Marqibo (TN);
+            Oncovin (TN);
+            Vincasar (TN);
+            Vincrex (TN)
+PRODUCT
+  GENERIC   VINCRISTINE SULFATE (Hospira)
+            VINCRISTINE SULFATE (Hospira)
+FORMULA     C46H56N4O10. H2SO4
+EXACT_MASS  922.367
+MOL_WEIGHT  923.0361
+SOURCE      Catharanthus roseus [TAX:4058]
+CLASS       Antineoplastic
+             DG01965  Vinca alkaloid antineoplastic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Same as: C13974
+            Therapeutic category: 4240
+            ATC code: L01CA02
+            Chemical structure group: DG00690
+            Product (DG00690): D02197<JP/US>
+EFFICACY    Antineoplastic, Tubulin polymerization inhibitor
+  DISEASE   Acute lymphoblastic leukemia (Philadelphia chromosome-negative) [DS:H00001 H00002]
+            Hodgkin's disease [DS:H00007]
+            Non–Hodgkin's malignant lymphomas [DS:H02418]
+            Rhabdomyosarcoma [DS:H00037]
+            Neuroblastoma [DS:H00043]
+            Wilms' tumor [DS:H02301]
+COMMENT     Vinca alkaloid
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+            map07046  Immunosuppressive agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CA Vinca alkaloids and analogues
+                 L01CA02 Vincristine
+                  D02197  Vincristine sulfate (JP18/USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               424  Plant extract preparations
+                4240  Plant extract preparations
+                 D02197  Vincristine sulfate (JP18/USP)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00690  Vincristine
+                D02197  Vincristine sulfate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00690  Vincristine
+                D02197  Vincristine sulfate
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D02197  Vincristine sulfate (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02197  Vincristine sulfate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02197
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00690  Vincristine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00690  Vincristine
+DBLINKS     CAS: 2068-78-2
+            PubChem: 7849257
+            ChEBI: 79401
+            LigandBox: D02197
+            NIKKAJI: J300.702B
+ATOM        65
+            1   S4a S    29.0733  -14.7233
+            2   O1d O    29.0733  -13.3233
+            3   O1d O    29.0733  -16.1233
+            4   O1d O    30.4733  -14.7233
+            5   O1d O    27.6733  -14.7233
+            6   C1z C    22.8169  -19.7891
+            7   C1y C    23.9475  -19.1224
+            8   C1y C    22.8227  -21.0939
+            9   C8y C    20.5671  -19.7891
+            10  C1x C    21.9820  -18.7107
+            11  C1z C    25.0900  -19.7834
+            12  N1y N    23.9359  -17.8003
+            13  C1z C    23.9591  -21.7433
+            14  N1y N    21.6862  -21.7433
+            15  C8y C    20.5671  -21.0939
+            16  C8x C    19.4305  -19.1397
+            17  C1x C    22.6430  -17.7950
+            18  C1y C    25.0316  -21.0997
+            19  C2x C    26.2207  -19.1108
+            20  C1b C    26.1859  -20.4155
+            21  C1x C    25.0841  -17.1393
+            22  C7a C    24.8522  -22.9221
+            23  O1a O    23.4663  -23.6453
+            24  C4a C    21.0426  -22.8391
+            25  C8x C    19.4305  -21.7492
+            26  C8y C    18.3230  -19.7834
+            27  O7a O    27.5332  -21.9476
+            28  C2x C    26.2264  -17.7887
+            29  C1a C    27.2991  -19.7777
+            30  O7a O    24.8414  -24.1920
+            31  C8y C    18.3230  -21.0939
+            32  C1z C    15.8281  -17.4039
+            33  C7a C    28.8147  -22.0060
+            34  C1a C    23.6751  -24.9167
+            35  O2a O    17.2097  -21.7317
+            36  C8y C    14.7033  -16.6443
+            37  C1x C    17.0921  -16.6676
+            38  C7a C    15.4686  -18.7029
+            39  C1a C    29.4468  -20.8753
+            40  O6a O    29.4700  -23.1018
+            41  C1a C    16.0965  -21.0822
+            42  C8y C    14.7033  -15.2991
+            43  N4x N    13.5783  -17.3170
+            44  C1y C    17.0921  -15.3803
+            45  O7a O    14.0307  -19.1610
+            46  O6a O    16.2977  -19.7351
+            47  C8y C    12.3896  -15.2991
+            48  C1x C    13.9784  -14.1973
+            49  C8y C    12.3896  -16.6443
+            50  C1x C    15.9557  -14.7657
+            51  C1x C    18.1760  -14.5627
+            52  C1a C    13.1608  -20.5816
+            53  C8x C    11.2473  -14.6324
+            54  C1x C    14.7495  -13.2116
+            55  C8x C    11.2473  -17.3170
+            56  N1y N    15.9557  -13.5247
+            57  C1z C    18.2171  -13.4205
+            58  C8x C    10.1688  -15.2991
+            59  C8x C    10.1688  -16.6443
+            60  C1x C    17.0864  -12.7710
+            61  C1b C    19.7248  -13.9481
+            62  O1a O    19.0579  -12.1273
+            63  C1a C    20.7858  -13.3103
+            64  O6a O    26.1576  -22.3898
+            65  O4a O    19.6700  -22.8285
+BOND        72
+            1     1   2 2
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     6   7 1
+            6     6   8 1
+            7     6   9 1
+            8     6  10 1 #Up
+            9     7  11 1
+            10    7  12 1
+            11    8  13 1
+            12    8  14 1
+            13    9  15 2
+            14    9  16 1
+            15   10  17 1
+            16   11  18 1
+            17   11  19 1
+            18   11  20 1 #Down
+            19   12  21 1
+            20   13  22 1 #Down
+            21   13  23 1 #Up
+            22   14  24 1
+            23   15  25 1
+            24   16  26 2
+            25   18  27 1 #Up
+            26   19  28 2
+            27   20  29 1
+            28   22  30 1
+            29   25  31 2
+            30   32  26 1 #Down
+            31   27  33 1
+            32   30  34 1
+            33   31  35 1
+            34   32  36 1
+            35   32  37 1
+            36   32  38 1 #Up
+            37   33  39 1
+            38   33  40 2
+            39   35  41 1
+            40   36  42 2
+            41   36  43 1
+            42   37  44 1
+            43   38  45 1
+            44   38  46 2
+            45   42  47 1
+            46   42  48 1
+            47   43  49 1
+            48   44  50 1 #Down
+            49   44  51 1
+            50   45  52 1
+            51   47  53 1
+            52   48  54 1
+            53   49  55 1
+            54   56  50 1 #Down
+            55   51  57 1
+            56   53  58 2
+            57   55  59 2
+            58   56  60 1
+            59   57  61 1 #Down
+            60   57  62 1 #Up
+            61   61  63 1
+            62   12  17 1
+            63   13  18 1
+            64   14  15 1
+            65   21  28 1
+            66   26  31 1
+            67   47  49 2
+            68   54  56 1
+            69   57  60 1
+            70   58  59 1
+            71   22  64 2
+            72   24  65 2
+///

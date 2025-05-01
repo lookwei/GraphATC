@@ -1,0 +1,254 @@
+ENTRY       D10605                      Drug
+NAME        Tenofovir alafenamide fumarate (JAN/USAN);
+            Vemlidy (TN)
+  ABBR      TAF
+PRODUCT     VEMLIDY (Gilead Sciences)
+FORMULA     (C21H29N6O5P)2. C4H4O4
+EXACT_MASS  1068.3984
+MOL_WEIGHT  1069.004
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+REMARK      Therapeutic category: 6250
+            ATC code: J05AF13
+            Chemical structure group: DG01223
+            Product (DG01223): D01982<JP/US> D10605<JP/US>
+            Product (mixture): D10755<JP/US> D10835<JP/US> D10836<JP/US> D11039<JP/US> D11382<JP/US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   Chronic hepatitis B virus infection [DS:H00412]
+COMMENT     Active form of prodrug: Tenofovir [CPD:C17407]
+TARGET      HBV reverse transcriptase [KO:K21037]
+  PATHWAY   ko03230(K21037)  Viral genome structure
+            ko03240(K21037)  Viral replication
+            ko05161(K21037)  Hepatitis B
+METABOLISM  Transporter: ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF13 Tenofovir alafenamide
+                  D10605  Tenofovir alafenamide fumarate (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-hepatitis B (HBV) Agents
+               Tenofovir
+                D10605  Tenofovir alafenamide fumarate (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D10605  Tenofovir alafenamide fumarate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               DG01223  Tenofovir
+                D10605  Tenofovir alafenamide fumarate
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                DG01223  Tenofovir
+                 D10605  Tenofovir alafenamide fumarate
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10605  Tenofovir alafenamide fumarate
+              DG01913  ABCG2 substrate
+               D10605  Tenofovir alafenamide fumarate
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10605  Tenofovir alafenamide fumarate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D10605  Tenofovir alafenamide fumarate (JAN/USAN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D10605  Tenofovir alafenamide fumarate (USAN/JAN)
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10605
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D10605
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               DG01223  Tenofovir
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                DG01223  Tenofovir
+DBLINKS     CAS: 1392275-56-7
+            PubChem: 254741567
+            ChEBI: 90923
+ATOM        74
+            1   N5x N    28.2100  -13.7900
+            2   C8x C    28.2100  -15.2600
+            3   N5x N    27.0200  -15.9600
+            4   C8y C    25.8300  -15.2600
+            5   C8y C    25.8300  -13.7900
+            6   C8y C    27.0200  -13.0900
+            7   N4y N    24.5000  -15.6800
+            8   C8x C    23.7300  -14.5600
+            9   N5x N    24.5000  -13.3700
+            10  N1a N    27.0200  -11.7600
+            11  C1b C    24.5000  -17.0800
+            12  C1c C    23.3100  -17.7800
+            13  O2a O    22.0500  -17.0800
+            14  C1b C    21.0000  -17.7800
+            15  P1a P    19.7400  -17.0800
+            16  C1a C    23.3100  -19.1100
+            17  O2b O    18.4800  -16.3800
+            18  O3b O    20.4400  -15.8200
+            19  N1b N    18.6200  -18.2700
+            20  C8y C    17.0800  -16.3800
+            21  C8x C    16.3800  -15.1900
+            22  C8x C    14.9800  -15.1900
+            23  C8x C    14.2800  -16.3800
+            24  C8x C    14.9800  -17.5700
+            25  C8x C    16.3800  -17.5700
+            26  C1c C    18.6200  -19.6700
+            27  C7a C    17.4300  -20.3700
+            28  C1a C    19.8100  -20.3700
+            29  O7a O    16.2400  -19.6700
+            30  O6a O    17.4300  -21.7700
+            31  C1c C    15.0500  -20.3700
+            32  C1a C    13.8600  -19.6700
+            33  C1a C    15.0500  -21.7700
+            34  C6a C    34.5800  -17.5000
+            35  C2b C    35.7924  -18.2000
+            36  O6a O    33.3676  -18.2000
+            37  O6a O    34.5800  -16.1000
+            38  C2b C    36.9879  -17.5096
+            39  C6a C    38.1753  -18.1951
+            40  O6a O    39.3665  -17.5071
+            41  O6a O    38.1755  -19.5998
+            42  N5x N    28.2100  -13.7900
+            43  C8x C    28.2100  -15.2600
+            44  N5x N    27.0200  -15.9600
+            45  C8y C    25.8300  -15.2600
+            46  C8y C    25.8300  -13.7900
+            47  C8y C    27.0200  -13.0900
+            48  N1a N    27.0200  -11.7600
+            49  N5x N    24.5000  -13.3700
+            50  C8x C    23.7300  -14.5600
+            51  N4y N    24.5000  -15.6800
+            52  C1b C    24.5000  -17.0800
+            53  C1c C    23.3100  -17.7800
+            54  O2a O    22.0500  -17.0800
+            55  C1b C    21.0000  -17.7800
+            56  P1a P    19.7400  -17.0800
+            57  O2b O    18.4800  -16.3800
+            58  C8y C    17.0800  -16.3800
+            59  C8x C    16.3800  -15.1900
+            60  C8x C    14.9800  -15.1900
+            61  C8x C    14.2800  -16.3800
+            62  C8x C    14.9800  -17.5700
+            63  C8x C    16.3800  -17.5700
+            64  O3b O    20.4400  -15.8200
+            65  N1b N    18.6200  -18.2700
+            66  C1c C    18.6200  -19.6700
+            67  C7a C    17.4300  -20.3700
+            68  O7a O    16.2400  -19.6700
+            69  C1c C    15.0500  -20.3700
+            70  C1a C    13.8600  -19.6700
+            71  C1a C    15.0500  -21.7700
+            72  O6a O    17.4300  -21.7700
+            73  C1a C    19.8100  -20.3700
+            74  C1a C    23.3100  -19.1100
+BOND        77
+            1    34  35 1
+            2    34  36 1
+            3    34  37 2
+            4    35  38 2
+            5    38  39 1
+            6    39  40 1
+            7    39  41 2
+            8     1   2 2
+            9     2   3 1
+            10    3   4 2
+            11    4   5 1
+            12    5   6 2
+            13    1   6 1
+            14    4   7 1
+            15    7   8 1
+            16    8   9 2
+            17    5   9 1
+            18    6  10 1
+            19    7  11 1
+            20   11  12 1
+            21   12  13 1
+            22   13  14 1
+            23   14  15 1
+            24   12  16 1 #Up
+            25   15  17 1 #Up
+            26   15  18 2
+            27   15  19 1 #Down
+            28   17  20 1
+            29   20  21 2
+            30   21  22 1
+            31   22  23 2
+            32   23  24 1
+            33   24  25 2
+            34   20  25 1
+            35   19  26 1
+            36   26  27 1
+            37   26  28 1 #Up
+            38   27  29 1
+            39   27  30 2
+            40   29  31 1
+            41   31  32 1
+            42   31  33 1
+            43   42  43 2
+            44   43  44 1
+            45   44  45 2
+            46   45  46 1
+            47   46  47 2
+            48   42  47 1
+            49   45  51 1
+            50   51  50 1
+            51   50  49 2
+            52   46  49 1
+            53   47  48 1
+            54   51  52 1
+            55   52  53 1
+            56   53  54 1
+            57   54  55 1
+            58   55  56 1
+            59   53  74 1 #Up
+            60   56  57 1 #Up
+            61   56  64 2
+            62   56  65 1 #Down
+            63   57  58 1
+            64   58  59 2
+            65   59  60 1
+            66   60  61 2
+            67   61  62 1
+            68   62  63 2
+            69   58  63 1
+            70   65  66 1
+            71   66  67 1
+            72   66  73 1 #Up
+            73   67  68 1
+            74   67  72 2
+            75   68  69 1
+            76   69  70 1
+            77   69  71 1
+BRACKET     1    11.2000  -23.2400   11.2000   -9.9400
+            1    29.0500   -9.9400   29.0500  -23.2400
+            1  2
+  ORIGINAL  1    1   2   3   4   5   6  10   9   8   7  11  12  13  14  15  17
+            1   20  21  22  23  24  25  18  19  26  27  29  31  32  33  30  28
+            1   16
+  REPEAT    1   42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57
+            1   58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73
+            1   74
+///

@@ -1,0 +1,141 @@
+ENTRY       D07689                      Drug
+NAME        Chlortetracycline (INN);
+            Aureomycin (TN)
+FORMULA     C22H23ClN2O8
+EXACT_MASS  478.1143
+MOL_WEIGHT  478.8796
+SOURCE      Streptomyces aureofaciens [TAX:1894]
+CLASS       Antibacterial
+             DG01197  Tetracycline antibiotic
+REMARK      Same as: C06571
+            ATC code: A01AB21 D06AA02 J01AA03 S01AA02
+            Chemical structure group: DG00007
+EFFICACY    Antibacterial, Antiprotozoal, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+SYN_MAP     map00253(C06571)  Tetracycline biosynthesis
+            map01057(C06571)  Biosynthesis of type II polyketide products
+STR_MAP     map07019  Tetracyclines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB21 Chlortetracycline
+                  D07689  Chlortetracycline (INN)
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AA Tetracycline and derivatives
+                 D06AA02 Chlortetracycline
+                  D07689  Chlortetracycline (INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA03 Chlortetracycline
+                  D07689  Chlortetracycline (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA02 Chlortetracycline
+                  D07689  Chlortetracycline (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00007  Chlortetracycline
+                D07689  Chlortetracycline
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D07689  Chlortetracycline (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00007  Chlortetracycline
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                DG00007  Chlortetracycline
+DBLINKS     CAS: 57-62-5
+            PubChem: 51091990
+            ChEBI: 27644
+            PDB-CCD: CTC
+            LigandBox: D07689
+            NIKKAJI: J4.583G
+ATOM        33
+            1   C8x C    18.1300  -17.5700
+            2   C8x C    18.1300  -18.9700
+            3   C8y C    19.3200  -19.6700
+            4   C8y C    20.5100  -18.9700
+            5   C8y C    20.5100  -17.5700
+            6   C8y C    19.3200  -16.9400
+            7   C5x C    21.7000  -19.6700
+            8   C2y C    22.8900  -18.9700
+            9   C1y C    22.8900  -17.5700
+            10  C1z C    21.7000  -16.9400
+            11  C2y C    24.1500  -19.6700
+            12  C1z C    25.3400  -18.9700
+            13  C1y C    25.3400  -17.5700
+            14  C1x C    24.1500  -16.9400
+            15  C5x C    26.5300  -19.6700
+            16  C2y C    27.7200  -18.9700
+            17  C2y C    27.7200  -17.5700
+            18  C1y C    26.5300  -16.9400
+            19  X   Cl   19.3200  -15.5400
+            20  O1a O    19.3200  -21.0700
+            21  O5x O    21.7000  -21.0700
+            22  O1a O    24.1500  -21.0700
+            23  O5x O    26.5300  -21.0700
+            24  C5a C    28.9800  -19.6700
+            25  O1a O    28.9800  -16.8700
+            26  N1a N    30.1700  -18.9700
+            27  O5a O    28.9800  -21.0700
+            28  O1a O    20.5100  -16.2400
+            29  C1a C    21.7000  -15.0500
+            30  N1c N    26.5300  -15.5400
+            31  O1a O    25.3400  -20.3700
+            32  C1a C    25.3400  -14.8400
+            33  C1a C    27.7200  -14.8400
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16    9  14 1
+            17   12  15 1
+            18   15  16 1
+            19   16  17 2
+            20   17  18 1
+            21   13  18 1
+            22    6  19 1
+            23    3  20 1
+            24    7  21 2
+            25   11  22 1
+            26   15  23 2
+            27   16  24 1
+            28   17  25 1
+            29   24  26 1
+            30   24  27 2
+            31   10  28 1 #Up
+            32   10  29 1 #Down
+            33   18  30 1 #Down
+            34   12  31 1 #Down
+            35   30  32 1
+            36   30  33 1
+///

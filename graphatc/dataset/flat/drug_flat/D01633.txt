@@ -1,0 +1,124 @@
+ENTRY       D01633                      Drug
+NAME        Enocitabine (JAN/INN);
+            Sunrabin (TN)
+FORMULA     C31H55N3O6
+EXACT_MASS  565.4091
+MOL_WEIGHT  565.7849
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+REMARK      Therapeutic category: 4224
+            Product: D01633<JP>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Acute leukemia [DS:H00003 H00001 H00002]
+COMMENT     Active form of prodrug: Cytarabine [DR:D00168]
+TARGET      DNA polymerase
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               422  Antimetabolites
+                4224  Cytosines
+                 D01633  Enocitabine (JAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 D01633  Enocitabine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D01633  Enocitabine
+            Prodrugs [br08324.html]
+             D01633
+DBLINKS     CAS: 55726-47-1
+            PubChem: 7848696
+            ChEBI: 31537
+            LigandBox: D01633
+            NIKKAJI: J32.363B
+ATOM        40
+            1   C1y C    10.2900  -16.7300
+            2   N4y N    11.6200  -16.6600
+            3   O2x O     9.1000  -15.8900
+            4   C1y C     9.8700  -18.0600
+            5   C8y C    12.8100  -17.3600
+            6   C8x C    11.6200  -15.2600
+            7   C1y C     7.9800  -16.7300
+            8   C1y C     8.4700  -18.0600
+            9   O1a O    10.2900  -19.3900
+            10  N5x N    14.0000  -16.6600
+            11  O5x O    12.8100  -18.7600
+            12  C8x C    12.8100  -14.5600
+            13  C1b C     6.6500  -16.3100
+            14  O1a O     7.9800  -19.3900
+            15  C8y C    14.0000  -15.2600
+            16  O1a O     5.6000  -17.2200
+            17  N1b N    15.1900  -14.5600
+            18  C5a C    16.4500  -15.2600
+            19  C1b C    17.6400  -14.5600
+            20  C1b C    18.8300  -15.2600
+            21  C1b C    20.0200  -14.5600
+            22  C1b C    21.2800  -15.2600
+            23  C1b C    22.4700  -14.5600
+            24  C1b C    23.6600  -15.2600
+            25  C1b C    24.9200  -14.5600
+            26  C1b C    26.1100  -15.2600
+            27  C1b C    27.3000  -14.5600
+            28  C1b C    28.4900  -15.2600
+            29  C1b C    29.7500  -14.5600
+            30  C1b C    30.9400  -15.2600
+            31  C1b C    32.1300  -14.5600
+            32  C1b C    33.3200  -15.2600
+            33  C1b C    34.5800  -14.5600
+            34  O5a O    16.4500  -16.6600
+            35  C1b C    35.7700  -15.2600
+            36  C1b C    36.9600  -14.5600
+            37  C1b C    38.1500  -15.2600
+            38  C1b C    39.4100  -14.5600
+            39  C1b C    40.6000  -15.2600
+            40  C1a C    41.7900  -14.5600
+BOND        41
+            1     1   3 1
+            2     1   4 1
+            3     2   5 1
+            4     2   6 1
+            5     3   7 1
+            6     4   8 1
+            7     4   9 1 #Up
+            8     5  10 1
+            9     5  11 2
+            10    6  12 2
+            11    7  13 1 #Up
+            12    8  14 1 #Down
+            13   10  15 2
+            14   13  16 1
+            15    7   8 1
+            16   12  15 1
+            17    1   2 1 #Up
+            18   15  17 1
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   22  23 1
+            23   23  24 1
+            24   24  25 1
+            25   25  26 1
+            26   26  27 1
+            27   27  28 1
+            28   28  29 1
+            29   29  30 1
+            30   30  31 1
+            31   31  32 1
+            32   32  33 1
+            33   18  34 2
+            34   33  35 1
+            35   35  36 1
+            36   36  37 1
+            37   17  18 1
+            38   37  38 1
+            39   38  39 1
+            40   18  19 1
+            41   39  40 1
+///

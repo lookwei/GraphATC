@@ -1,0 +1,38 @@
+ENTRY       C05688                      Compound
+NAME        L-Selenocysteine
+FORMULA     C3H7NO2Se
+EXACT_MASS  168.9642
+MOL_WEIGHT  168.0532
+REACTION    R03599 R03601 R04930 R04931 R04932 R04933 R04934 R04944 
+            R04945 R04946 R10430
+PATHWAY     map00450  Selenocompound metabolism
+            map01100  Metabolic pathways
+ENZYME      2.1.1.9         2.1.1.280       2.5.1.47        2.5.1.48        
+            4.4.1.1         4.4.1.16
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C05688  Selenocysteine (Sec)
+DBLINKS     CAS: 10236-58-5
+            PubChem: 7995
+            ChEBI: 16633
+            PDB-CCD: SEC
+            3DMET: B05095
+            NIKKAJI: J401.997K
+ATOM        7
+            1   O6a O    28.9037  -25.3348
+            2   C6a C    30.1158  -24.6350
+            3   C1c C    31.3280  -25.3348
+            4   C1b C    32.5401  -24.6350
+            5   O6a O    30.1158  -23.2355
+            6   N1a N    31.3280  -26.7343
+            7   Z   Se   33.7543  -25.3360
+BOND        6
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     2   5 2
+            5     3   6 1 #Down
+            6     4   7 1
+///

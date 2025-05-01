@@ -1,0 +1,87 @@
+ENTRY       D02640                      Drug
+NAME        Indiplon (USAN/INN)
+FORMULA     C20H16N4O2S
+EXACT_MASS  376.0994
+MOL_WEIGHT  376.4316
+CLASS       Neuropsychiatric agent
+             DG01836  Non-benzodiazepine sedative-hypnotics
+EFFICACY    Sedative-hypnotic
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01836  Non-benzodiazepine sedative-hypnotics
+               D02640  Indiplon
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D02640  Indiplon (USAN/INN)
+DBLINKS     CAS: 325715-02-4
+            PubChem: 17396810
+            ChEBI: 188583
+            LigandBox: D02640
+ATOM        27
+            1   C8x C     7.0000  -24.0100
+            2   C8x C     7.0000  -25.4100
+            3   N5x N     8.2124  -26.1100
+            4   C8y C     9.4249  -25.4100
+            5   N4y N     9.4249  -24.0100
+            6   C8y C     8.2124  -23.3100
+            7   C8y C    10.7564  -25.8426
+            8   C8x C    11.5793  -24.7100
+            9   N5x N    10.7564  -23.5774
+            10  C8y C     8.2124  -21.9102
+            11  C8x C     9.4080  -21.2197
+            12  C8y C     9.4078  -19.8197
+            13  C8x C     8.1953  -19.1199
+            14  C8x C     6.9998  -19.8103
+            15  C8x C     6.9999  -21.2103
+            16  N1c N    10.6032  -19.1290
+            17  C1a C    11.7827  -19.8095
+            18  C5a C    10.6032  -17.7104
+            19  O5a O     9.3659  -16.9957
+            20  C1a C    11.7907  -17.0245
+            21  C5a C    11.1875  -27.1694
+            22  C8y C    12.5875  -27.1694
+            23  O5a O    10.3735  -28.2900
+            24  C8x C    13.4102  -28.3017
+            25  C8x C    14.7414  -27.8692
+            26  C8x C    14.7414  -26.4695
+            27  S2x S    13.4102  -26.0370
+BOND        30
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    6  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18   12  16 1
+            19   16  17 1
+            20   16  18 1
+            21   18  19 2
+            22   18  20 1
+            23    7  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   22  27 1
+///

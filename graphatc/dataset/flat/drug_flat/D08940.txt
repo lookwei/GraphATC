@@ -1,0 +1,82 @@
+ENTRY       D08940                      Drug
+NAME        Laropiprant (INN/USAN)
+FORMULA     C21H19ClFNO4S
+EXACT_MASS  435.0707
+MOL_WEIGHT  435.8963
+EFFICACY    Anti-atherosclerotic, Antidyslipidemia, Prostaglandin D2 receptor antagonist
+COMMENT     Treatment of atherosclerosis, dyslipidemia, and conditions when administered with niacin
+TARGET      PTGDR [HSA:5729] [KO:K04332]
+  PATHWAY   hsa04080(5729)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGDR
+                 D08940  Laropiprant (INN/USAN)
+DBLINKS     CAS: 571170-77-9
+            PubChem: 96025623
+            LigandBox: D08940
+ATOM        29
+            1   C8y C    15.6800  -13.2300
+            2   C8x C    15.6800  -14.6300
+            3   C8y C    16.8924  -15.3300
+            4   C8y C    18.1049  -14.6300
+            5   C8y C    18.1049  -13.2300
+            6   C8x C    16.8924  -12.5300
+            7   N4y N    19.4364  -15.0626
+            8   C8y C    20.2593  -13.9300
+            9   C8y C    19.4364  -12.7974
+            10  C1y C    21.5908  -13.4974
+            11  C1x C    21.5908  -12.0974
+            12  C1x C    20.2593  -11.6647
+            13  X   F    14.4676  -12.5300
+            14  S4a S    16.8924  -16.7298
+            15  C1a C    16.8924  -18.1298
+            16  O3c O    15.4700  -16.7298
+            17  O3c O    18.2700  -16.7298
+            18  C1b C    19.8675  -16.3894
+            19  C8y C    21.2469  -16.6827
+            20  C8x C    21.6761  -18.0028
+            21  C8x C    23.0455  -18.2937
+            22  C8y C    23.9821  -17.2531
+            23  C8x C    23.5529  -15.9330
+            24  C8x C    22.1835  -15.6421
+            25  X   Cl   25.3709  -17.5486
+            26  C1b C    22.7088  -14.3101
+            27  C6a C    23.9744  -13.7466
+            28  O6a O    25.0719  -14.5439
+            29  O6a O    24.1236  -12.3321
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14    9  12 1
+            15    1  13 1
+            16    3  14 1
+            17   14  15 1
+            18   14  16 2
+            19   14  17 2
+            20    7  18 1
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   19  24 1
+            28   22  25 1
+            29   10  26 1 #Down
+            30   26  27 1
+            31   27  28 1
+            32   27  29 2
+///

@@ -1,0 +1,53 @@
+ENTRY       D10805            Mixture   Drug
+NAME        Telmisartan, amlodipine and hydrochlorothiazide;
+            Micatrio (TN)
+COMPONENT   Telmisartan [DR:D00627], (Amlodipine besylate [DR:D00615] | Amlodipine maleate [DR:D02914] | Amlodipine [DR:D07450]), Hydrochlorothiazide [DR:D00340]
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+             DG03231  Antihypertensive
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+REMARK      Therapeutic category: 2149
+            ATC code: C09DX08
+            Product: D10805<JP>
+EFFICACY    Antihypertensive
+COMMENT     Telmisartan is primarily metabolized by UDP-glucuronosyltransferase (UGT).
+            Amlodipine is primarily metabolized by CYP3A4.
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], UGT [KO:K00699]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09D ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS
+                C09DX Angiotensin II receptor blockers (ARBs), other combinations
+                 C09DX08 Telmisartan, amlodipine and hydrochlorothiazide
+                  D10805  Telmisartan, amlodipine and hydrochlorothiazide &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D10805  Telmisartan, amlodipine and hydrochlorothiazide
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               D10805  Telmisartan, amlodipine and hydrochlorothiazide
+              DG03231  Antihypertensive
+               D10805  Telmisartan, amlodipine and hydrochlorothiazide
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10805  Telmisartan, amlodipine and hydrochlorothiazide
+              DG02924  UGT substrate
+               D10805  Telmisartan, amlodipine and hydrochlorothiazide
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D10805  Telmisartan, amlodipine and hydrochlorothiazide
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10805
+DBLINKS     PubChem: 319075065
+///

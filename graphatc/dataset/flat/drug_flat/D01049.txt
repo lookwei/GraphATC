@@ -1,0 +1,87 @@
+ENTRY       D01049                      Drug
+NAME        Nimesulide (JAN/INN)
+FORMULA     C13H12N2O5S
+EXACT_MASS  308.0467
+MOL_WEIGHT  308.3098
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+REMARK      ATC code: M01AX17 M02AA26
+EFFICACY    Analgesic, Anti-inflammatory, Antipyretic, COX-2 inhibitor
+COMMENT     Sulfonamide derivative
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AX Other antiinflammatory and antirheumatic agents, non-steroids
+                 M01AX17 Nimesulide
+                  D01049  Nimesulide (JAN/INN)
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA26 Nimesulide
+                  D01049  Nimesulide (JAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               D01049  Nimesulide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS2 (COX2)
+                 D01049  Nimesulide (JAN/INN)
+DBLINKS     CAS: 51803-78-2
+            PubChem: 7848112
+            ChEBI: 44445
+            PDB-CCD: NIM
+            LigandBox: D01049
+            NIKKAJI: J12.917H
+ATOM        21
+            1   C8y C    25.6724  -16.9148
+            2   C8x C    25.6724  -18.3147
+            3   C8y C    26.8886  -19.0112
+            4   C8x C    28.0978  -18.3147
+            5   C8x C    28.0978  -16.9148
+            6   C8y C    26.8886  -16.2114
+            7   C8x C    20.8395  -16.9217
+            8   C8x C    20.8395  -18.3217
+            9   C8x C    22.0556  -19.0181
+            10  C8x C    23.2648  -18.3217
+            11  C8y C    23.2648  -16.9217
+            12  C8x C    22.0556  -16.2183
+            13  O2a O    24.4695  -16.2114
+            14  N1b N    26.8752  -14.8114
+            15  S4a S    28.0853  -14.1079
+            16  C1a C    29.2953  -13.3972
+            17  O3c O    28.7817  -15.3179
+            18  O3c O    27.3817  -12.8907
+            19  N2b N    26.8752  -20.4112 #+
+            20  O3a O    25.5883  -21.1775 #-
+            21  O3a O    28.0853  -21.1146
+BOND        22
+            1     9  10 2
+            2    10  11 1
+            3    11  12 2
+            4    12   7 1
+            5     6   1 1
+            6    11  13 1
+            7    13   1 1
+            8     6  14 1
+            9     1   2 2
+            10   14  15 1
+            11    2   3 1
+            12   15  16 1
+            13    3   4 2
+            14   15  17 2
+            15    4   5 1
+            16   15  18 2
+            17    5   6 2
+            18    3  19 1
+            19    7   8 2
+            20   19  20 1
+            21    8   9 1
+            22   19  21 2
+///

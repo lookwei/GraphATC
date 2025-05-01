@@ -1,0 +1,117 @@
+ENTRY       D00380                      Drug
+NAME        Tolbutamide (JP18/USP/INN);
+            Orinase (TN)
+FORMULA     C12H18N2O3S
+EXACT_MASS  270.1038
+MOL_WEIGHT  270.3479
+CLASS       Antidiabetic agent
+             DG01508  Sulfonylurea receptor agonist
+              DG01734  Sulfonylurea
+             DG02044  Hypoglycemic agent
+              DG01734  Sulfonylurea
+REMARK      Same as: C07148
+            ATC code: A10BB03 V04CA01
+            Chemical structure group: DG00115
+EFFICACY    Antidiabetic, Hypoglycemic, Sulfonylurea receptor agonist
+  DISEASE   Non-insulin-dependent diabetes mellitus, type II [DS:H00409]
+COMMENT     Sulfonylurea
+TARGET      ABCC8(SUR1)/KCNJ11(KIR6.2) [HSA:6833 3767] [KO:K05032 K05004]
+  PATHWAY   hsa02010(6833)  ABC transporters
+            hsa04911(3767+6833)  Insulin secretion
+            hsa04930(3767+6833)  Type II diabetes mellitus
+INTERACTION  
+STR_MAP     map07018  Sulfonamide derivatives - hypoglycemic agents
+            map07051  Antidiabetics
+            map07055  Sulfonamide derivatives - overview
+            map07232  Potassium channel blocking and opening drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BB Sulfonylureas
+                 A10BB03 Tolbutamide
+                  D00380  Tolbutamide (JP18/USP/INN)
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CA Tests for diabetes
+                 V04CA01 Tolbutamide
+                  D00380  Tolbutamide (JP18/USP/INN)
+            USP drug classification [BR:br08302]
+             Blood Glucose Regulators
+              Antidiabetic Agents
+               Sulfonylureas
+                Tolbutamide
+                 D00380  Tolbutamide (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01734  Sulfonylurea
+                DG00115  Tolbutamide
+                 D00380  Tolbutamide
+              DG02044  Hypoglycemic agent
+               DG01734  Sulfonylurea
+                DG00115  Tolbutamide
+                 D00380  Tolbutamide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8(SUR1)/KCNJ11(KIR6.2)
+                 D00380  Tolbutamide (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00380  Tolbutamide
+              D00380  Tolbutamide tablets
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01734  Sulfonylurea
+                DG00115  Tolbutamide
+              DG02044  Hypoglycemic agent
+               DG01734  Sulfonylurea
+                DG00115  Tolbutamide
+DBLINKS     CAS: 64-77-7
+            PubChem: 7847446
+            ChEBI: 27999
+            LigandBox: D00380
+            NIKKAJI: J1.406K
+ATOM        18
+            1   C8y C    33.3200  -19.6700
+            2   S4a S    34.4400  -18.9700
+            3   C8x C    32.0600  -19.0400
+            4   C8x C    33.3200  -21.0700
+            5   N1b N    35.9800  -19.7400
+            6   O3c O    35.2800  -17.7800
+            7   O3c O    33.4600  -17.7100
+            8   C8x C    30.8700  -19.6700
+            9   C8x C    32.1300  -21.7700
+            10  C5a C    37.1000  -19.0400
+            11  C8y C    30.8700  -21.0700
+            12  N1b N    38.3600  -19.6700
+            13  O5a O    37.1000  -17.6400
+            14  C1a C    29.6800  -21.7700
+            15  C1b C    39.4800  -18.9700
+            16  C1b C    40.6700  -19.6000
+            17  C1b C    41.7900  -18.9000
+            18  C1a C    42.9100  -19.5300
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    8  11 1
+            11   10  12 1
+            12   10  13 2
+            13   11  14 1
+            14   12  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18    9  11 2
+///

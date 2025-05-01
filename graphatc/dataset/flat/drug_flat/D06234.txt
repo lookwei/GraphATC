@@ -1,0 +1,123 @@
+ENTRY       D06234                      Drug
+NAME        Trimazosin hydrochloride (USAN);
+            Trimazosin hydrochloride monohydrate
+FORMULA     C20H29N5O6. HCl. H2O
+EXACT_MASS  489.199
+MOL_WEIGHT  489.9504
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+             DG01739  Peripherally-acting antiadrenergic
+REMARK      ATC code: C02CA03
+            Chemical structure group: DG00255
+EFFICACY    Antihypertensive, alpha1-Adrenergic receptor antagonist
+COMMENT     Prazosin derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02C ANTIADRENERGIC AGENTS, PERIPHERALLY ACTING
+                C02CA Alpha-adrenoreceptor antagonists
+                 C02CA03 Trimazosin
+                  D06234  Trimazosin hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00255  Trimazosin
+                  D06234  Trimazosin hydrochloride
+              DG01739  Peripherally-acting antiadrenergic
+               DG00255  Trimazosin
+                D06234  Trimazosin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D06234  Trimazosin hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00255  Trimazosin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00255  Trimazosin
+DBLINKS     CAS: 53746-46-6
+            PubChem: 47207892
+            LigandBox: D06234
+ATOM        33
+            1   C8y C    26.0129  -19.6598
+            2   C8y C    26.0129  -18.2529
+            3   C8x C    27.2389  -20.3662
+            4   C8y C    24.8044  -20.3662
+            5   N5x N    24.8044  -17.5697
+            6   C8y C    27.2389  -17.5697
+            7   C8y C    28.4415  -19.6598
+            8   N5x N    23.5958  -19.6598
+            9   N1a N    24.8044  -21.7674
+            10  C8y C    23.5958  -18.2529
+            11  C8y C    28.4415  -18.2529
+            12  O2a O    29.6734  -20.3662
+            13  N1y N    22.3873  -17.5697
+            14  O2a O    29.6734  -17.5697
+            15  C1a C    30.8762  -19.6539
+            16  C1x C    22.3873  -16.1744
+            17  C1x C    21.1671  -18.2529
+            18  C1a C    30.8762  -18.2644
+            19  C1x C    21.1671  -15.4679
+            20  C1x C    19.9585  -17.5697
+            21  N1y N    19.9585  -16.1744
+            22  C7a C    18.7326  -15.4679
+            23  O7a O    17.5181  -16.1744
+            24  O6a O    18.7326  -14.0609
+            25  O2a O    27.2446  -16.1701
+            26  C1a C    28.4489  -15.4813
+            27  C1b C    16.2879  -15.4694
+            28  C1d C    15.0941  -16.1640
+            29  C1a C    13.9009  -16.8583
+            30  O1a O    14.3995  -14.9696
+            31  C1a C    15.8071  -17.3898
+            32  X   Cl   18.4800  -19.6700
+            33  O0  O    18.9000  -21.2800
+BOND        33
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     4   9 1
+            9     5  10 2
+            10    6  11 2
+            11    7  12 1
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 1
+            16   13  17 1
+            17   14  18 1
+            18   16  19 1
+            19   17  20 1
+            20   19  21 1
+            21   21  22 1
+            22   22  23 1
+            23   22  24 2
+            24    7  11 1
+            25    8  10 1
+            26   20  21 1
+            27    6  25 1
+            28   25  26 1
+            29   23  27 1
+            30   27  28 1
+            31   28  29 1
+            32   28  30 1
+            33   28  31 1
+///

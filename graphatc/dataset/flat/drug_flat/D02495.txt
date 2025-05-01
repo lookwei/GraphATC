@@ -1,0 +1,106 @@
+ENTRY       D02495                      Drug
+NAME        Valganciclovir (INN)
+FORMULA     C14H22N6O5
+EXACT_MASS  354.1652
+MOL_WEIGHT  354.3617
+CLASS       Antiviral
+             DG01937  Anti-cytomegalovirus agent
+REMARK      ATC code: J05AB14
+            Chemical structure group: DG00649
+            Product (DG00649): D03256<JP/US>
+EFFICACY    Antiviral, DNA polymerase ihibitor
+COMMENT     Active form of prodrug: Ganciclovir [DR:D00333]
+            Acyclovir type
+TARGET      HCMV DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB14 Valganciclovir
+                  D02495  Valganciclovir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01937  Anti-cytomegalovirus agent
+               DG00649  Valganciclovir
+                D02495  Valganciclovir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D02495  Valganciclovir (INN)
+            Prodrugs [br08324.html]
+             D02495
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01937  Anti-cytomegalovirus agent
+               DG00649  Valganciclovir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00649  Valganciclovir
+            Prodrugs [br08324.html(DG00649)]
+             DG00649
+DBLINKS     CAS: 175865-60-8
+            PubChem: 47205808
+            ChEBI: 63635
+            PDB-CCD: F9E
+            LigandBox: D02495
+ATOM        25
+            1   C8y C    25.9159  -13.2779
+            2   C8y C    25.9037  -11.8862
+            3   N4y N    24.6925  -13.8432
+            4   N4x N    27.2142  -13.9737
+            5   N5x N    24.5569  -11.5468
+            6   C8y C    27.0457  -11.1204
+            7   C8x C    23.7876  -12.7095
+            8   C8y C    28.3556  -13.2037
+            9   N5x N    28.3394  -11.7424
+            10  O5x O    27.0335   -9.7288
+            11  N1a N    29.6498  -13.8297
+            12  C1b C    24.6925  -15.2432
+            13  O2a O    23.4862  -15.9399
+            14  C1c C    22.3078  -15.2597
+            15  C1b C    21.1120  -15.9503
+            16  C1b C    22.3076  -13.8602
+            17  O7a O    19.9247  -15.2650
+            18  C7a C    18.7336  -15.9531
+            19  C1c C    17.5439  -15.2664
+            20  C1c C    16.3540  -15.9538
+            21  O1a O    21.1119  -13.1699
+            22  O6a O    18.7337  -17.3598
+            23  C1a C    15.1637  -15.2667
+            24  C1a C    16.3541  -17.3598
+            25  N1a N    17.5435  -13.8603
+BOND        26
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     6   9 1
+            9     6  10 2
+            10    8  11 1
+            11    5   7 2
+            12    8   9 2
+            13    3  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   14  16 1
+            18   15  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   16  21 1
+            23   18  22 2
+            24   20  23 1
+            25   20  24 1
+            26   19  25 1 #Down
+///

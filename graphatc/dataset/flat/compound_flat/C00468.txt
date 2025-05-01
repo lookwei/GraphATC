@@ -1,0 +1,124 @@
+ENTRY       C00468                      Compound
+NAME        Estrone;
+            3-Hydroxy-1,3,5(10)-estratrien-17-one
+FORMULA     C18H22O2
+EXACT_MASS  270.162
+MOL_WEIGHT  270.3661
+REMARK      Same as: D00067
+REACTION    R02347 R02349 R02350 R02351 R02352 R02353 R02354 R02355 
+            R02356 R02358 R03980 R10515
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04913  Ovarian steroidogenesis
+            map04917  Prolactin signaling pathway
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+MODULE      M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+NETWORK     nt06019  Steroid hormone biosynthesis
+ENZYME      1.1.1.51        1.1.1.62        1.1.1.148       1.14.14.1       
+            1.14.14.14      1.14.14.-       2.4.1.17        2.8.2.4         
+            2.8.2.15        3.1.6.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              18-Carbon atoms
+               Estrane derivatives
+                C00468  Estrone
+             Hormones and transmitters
+              Steroid hormones
+               Estrogens
+                C00468  Estrone (E1)
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0201 C18 steroids (estrogens) and derivatives
+                C00468  Estrone
+            Phytochemical compounds [BR:br08003]
+             Terpenoids
+              Steroids
+               Estrane
+                C00468  Estrone
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00067)]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA07 Estrone
+                  D00067  Estrone (JAN/USP/INN)
+                G03CC Estrogens, combinations with other drugs
+                 G03CC04 Estrone
+                  D00067  Estrone (JAN/USP/INN)
+            Drug groups [BR:br08330(D00067)]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00464  Estrone
+                D00067  Estrone
+              DG01584  Estrogen receptor agonist
+               DG00464  Estrone
+                D00067  Estrone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00464  Estrone
+                 D00067  Estrone
+            Target-based classification of drugs [BR:br08310(D00067)]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D00067  Estrone (JAN/USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html(D00067)]
+             Drug metabolizing enzymes
+              D00067
+DBLINKS     CAS: 53-16-7
+            PubChem: 3751
+            ChEBI: 17263
+            LIPIDMAPS: LMST02010004
+            KNApSAcK: C00003663
+            PDB-CCD: J3Z
+            3DMET: B01252
+            NIKKAJI: J9.114F
+ATOM        20
+            1   C1y C    24.0876  -17.2937
+            2   C1y C    22.9083  -17.9877
+            3   C1z C    24.0937  -15.9241
+            4   C1x C    26.4583  -17.3060
+            5   C1y C    21.7230  -17.3060
+            6   C1x C    22.8837  -19.3390
+            7   C1x C    22.8961  -15.2485
+            8   C5x C    25.2853  -15.2425
+            9   C1a C    24.0015  -14.4686
+            10  C1x C    26.4643  -15.9363
+            11  C8y C    20.5560  -17.9939
+            12  C1x C    21.7106  -15.9426
+            13  C1x C    21.7353  -20.0207
+            14  O5x O    25.2853  -13.9732
+            15  C8y C    20.5560  -19.3451
+            16  C8x C    19.3829  -17.3244
+            17  C8x C    19.3829  -20.0269
+            18  C8x C    18.2282  -17.9939
+            19  C8y C    18.2282  -19.3451
+            20  O1a O    17.0675  -20.0084
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    8  14 2
+            14   11  15 2
+            15   11  16 1
+            16   15  17 1
+            17   16  18 2
+            18   17  19 2
+            19   19  20 1
+            20    7  12 1
+            21    8  10 1
+            22   13  15 1
+            23   18  19 1
+///

@@ -1,0 +1,146 @@
+ENTRY       D01568                      Drug
+NAME        Cefpimizole sodium (JAN/USAN);
+            Ajicef (TN)
+FORMULA     C28H25N6O10S2. Na
+EXACT_MASS  692.0971
+MOL_WEIGHT  692.6521
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+REMARK      Same as: C13024
+            Chemical structure group: DG01207
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Semisynthetic cephalosporin: broad spectrum cephalosporin
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07012  Cephalosporins - parenteral agents
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01207  Cefpimizole
+                  D01568  Cefpimizole sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D01568  Cefpimizole sodium (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01207  Cefpimizole
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                DG01207  Cefpimizole
+DBLINKS     CAS: 85287-61-2
+            PubChem: 7848631
+            ChEBI: 31376
+            LigandBox: D01568
+            NIKKAJI: J20.584B
+ATOM        47
+            1   Z   Na   27.4400  -26.2500 #+
+            2   C1y C    15.8200  -23.0300
+            3   N1y N    15.8200  -24.3600
+            4   C2y C    17.0100  -25.0600
+            5   C2y C    18.2700  -24.3600
+            6   C1x C    18.2700  -23.0300
+            7   S2x S    17.0100  -22.2600
+            8   C1y C    14.4200  -23.0300
+            9   C5x C    14.4200  -24.3600
+            10  N1b N    13.2300  -22.2600
+            11  C5a C    12.0400  -23.0300
+            12  O5a O    12.0400  -24.3600
+            13  O5x O    13.2300  -25.0600
+            14  C1c C    10.8500  -22.2600
+            15  C1b C    19.5300  -25.0600
+            16  C6a C    17.0100  -26.4600
+            17  O6a O    15.8200  -27.1600
+            18  O6a O    18.2700  -27.1600 #-
+            19  N1b N     9.6600  -23.0300
+            20  C5a C     8.4700  -22.2600
+            21  O5a O     8.4700  -20.8600
+            22  N5y N    20.7200  -24.3600 #+
+            23  C8x C    21.9800  -25.0600
+            24  C8x C    23.1700  -24.3600
+            25  C8y C    23.1700  -22.9600
+            26  C8x C    21.9800  -22.1900
+            27  C8x C    20.7200  -22.9600
+            28  C1b C    24.4300  -22.1900
+            29  C1b C    25.6200  -22.9600
+            30  S4a S    26.8100  -22.1900
+            31  O1d O    28.0000  -21.4900 #-
+            32  O1d O    27.5100  -23.5200
+            33  O1d O    26.1100  -21.0000
+            34  C8y C    10.8500  -20.7900
+            35  C8x C    12.0400  -20.0900
+            36  C8x C    12.0400  -18.6900
+            37  C8x C    10.8500  -17.9900
+            38  C8x C     9.6600  -18.6900
+            39  C8x C     9.6600  -20.0900
+            40  C8y C     7.2100  -23.0300
+            41  N4x N     6.0900  -22.1200
+            42  C8x C     4.9000  -23.0300
+            43  N5x N     5.3900  -24.3600
+            44  C8y C     6.7900  -24.3600
+            45  C6a C     7.6300  -25.4800
+            46  O6a O     9.0300  -25.4800
+            47  O6a O     7.0000  -26.7400
+BOND        50
+            1     2   3 1
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     2   8 1
+            8     8   9 1
+            9     3   9 1
+            10    8  10 1 #Up
+            11   10  11 1
+            12   11  12 2
+            13    9  13 2
+            14   11  14 1
+            15    5  15 1
+            16    4  16 1
+            17   16  17 2
+            18   16  18 1
+            19   14  19 1
+            20   19  20 1
+            21   20  21 2
+            22   15  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  25 2
+            26   25  26 1
+            27   26  27 2
+            28   22  27 1
+            29   25  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33   30  32 2
+            34   30  33 2
+            35   14  34 1 #Down
+            36   34  35 2
+            37   35  36 1
+            38   36  37 2
+            39   37  38 1
+            40   38  39 2
+            41   34  39 1
+            42   20  40 1
+            43   40  41 1
+            44   41  42 1
+            45   42  43 2
+            46   43  44 1
+            47   40  44 2
+            48   44  45 1
+            49   45  46 1
+            50   45  47 2
+///

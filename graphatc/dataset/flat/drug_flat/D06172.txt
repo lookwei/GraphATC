@@ -1,0 +1,105 @@
+ENTRY       D06172                      Drug
+NAME        Tocainide (USAN/INN)
+FORMULA     C11H16N2O
+EXACT_MASS  192.1263
+MOL_WEIGHT  192.2575
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01651  Class Ib antiarrhythmic agent
+REMARK      Same as: C07142
+            ATC code: C01BB03
+            Chemical structure group: DG00198
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BB Antiarrhythmics, class Ib
+                 C01BB03 Tocainide
+                  D06172  Tocainide (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01651  Class Ib antiarrhythmic agent
+                 DG00198  Tocainide
+                  D06172  Tocainide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D06172  Tocainide (USAN/INN)
+                SCN2A
+                 D06172  Tocainide (USAN/INN)
+                SCN3A
+                 D06172  Tocainide (USAN/INN)
+                SCN4A
+                 D06172  Tocainide (USAN/INN)
+                SCN5A
+                 D06172  Tocainide (USAN/INN)
+                SCN8A
+                 D06172  Tocainide (USAN/INN)
+                SCN9A
+                 D06172  Tocainide (USAN/INN)
+                SCN10A
+                 D06172  Tocainide (USAN/INN)
+                SCN11A
+                 D06172  Tocainide (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01651  Class Ib antiarrhythmic agent
+                 DG00198  Tocainide
+DBLINKS     CAS: 41708-72-9
+            PubChem: 47207830
+            ChEBI: 9611
+            LigandBox: D06172
+            NIKKAJI: J16.873D
+ATOM        14
+            1   C8y C    26.1204  -17.9085
+            2   N1b N    24.9090  -17.2156
+            3   C8y C    26.1145  -19.3179
+            4   C8y C    27.3317  -17.2213
+            5   C5a C    23.6978  -17.9028
+            6   C8x C    27.3317  -20.0226
+            7   C1a C    24.8974  -20.0167
+            8   C8x C    28.5372  -17.9144
+            9   C1a C    27.2676  -15.8121
+            10  C1c C    22.4863  -17.2039
+            11  O5a O    23.7618  -19.3005
+            12  C8x C    28.5431  -19.3179
+            13  C1a C    21.2751  -17.8969
+            14  N1a N    22.4863  -15.8005
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 2
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 1
+            12   10  13 1
+            13   10  14 1
+            14    8  12 2
+///

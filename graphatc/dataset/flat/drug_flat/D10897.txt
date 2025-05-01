@@ -1,0 +1,70 @@
+ENTRY       D10897            Mixture   Drug
+NAME        Teneligliptin and canagliflozin;
+            Teneligliptin and canagliflozin;
+            Canalia (TN)
+COMPONENT   (Teneligliptin hydrobromide hydrate [DR:D09756] | Teneligliptin [DR:D08616]), Canagliflozin [DR:D09592]
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG03035  Combination of DPP-4 inhibitor and SGLT2 inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG03191  FMO1 substrate
+             DG02950  FMO3 substrate
+             DG02924  UGT substrate
+              DG03188  UGT1A9 substrate
+              DG03189  UGT2B4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      Therapeutic category: 3969
+            Product: D10897<JP>
+EFFICACY    Antidiabetic
+COMMENT     Teneligliptin is a substrate of CYP3A4, FMO1 and FMO3.
+            Canagliflozin is a substrate of UGT1A9 and UGT2B4.
+            Teneligliptin and Canagliflozin are inhibitor and substrate of P-gp.
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], FMO1 [HSA:2326], FMO3 [HSA:2328], UGT1A9 [HSA:54600], UGT2B4 [HSA:7363]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D10897  Teneligliptin and canagliflozin
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG03035  Combination of DPP-4 inhibitor and SGLT2 inhibitor
+                D10897  Teneligliptin and canagliflozin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10897  Teneligliptin and canagliflozin
+              DG03191  FMO1 substrate
+               D10897  Teneligliptin and canagliflozin
+              DG02950  FMO3 substrate
+               D10897  Teneligliptin and canagliflozin
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                D10897  Teneligliptin and canagliflozin
+               DG03189  UGT2B4 substrate
+                D10897  Teneligliptin and canagliflozin
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10897  Teneligliptin and canagliflozin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10897  Teneligliptin and canagliflozin
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               D10897  Teneligliptin and canagliflozin
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10897
+             Drug transporters
+              D10897
+DBLINKS     PubChem: 340650301
+///

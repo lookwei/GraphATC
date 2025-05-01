@@ -1,0 +1,82 @@
+ENTRY       C00206                      Compound
+NAME        dADP;
+            2'-Deoxyadenosine 5'-diphosphate
+FORMULA     C10H15N5O9P2
+EXACT_MASS  411.0345
+MOL_WEIGHT  411.2017
+REACTION    R01137 R01138 R01139 R01140 R01330 R01547 R01965 R02017 
+            R02850 R02868
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+ENZYME      1.17.4.1        2.7.1.1         2.7.1.40        2.7.4.3         
+            2.7.4.6         2.7.4.11
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Deoxyribonucleotides
+                C00206  dADP
+DBLINKS     CAS: 2793-06-8
+            PubChem: 3506
+            ChEBI: 16174
+            PDB-CCD: DAT
+            3DMET: B01188
+            NIKKAJI: J247.700I
+ATOM        26
+            1   N4y N    29.0838  -15.0255
+            2   C8y C    30.1412  -15.7617
+            3   C1y C    27.7985  -15.4403
+            4   C8x C    29.5628  -13.6293
+            5   C8y C    31.3739  -14.8561
+            6   N5x N    30.2755  -17.1813
+            7   O2x O    26.6591  -14.5931
+            8   C1x C    27.3602  -16.6907
+            9   N5x N    31.0117  -13.6350
+            10  C8y C    32.6301  -15.4054
+            11  C8x C    31.6018  -17.7714
+            12  C1y C    25.5492  -15.3820
+            13  C1y C    25.9814  -16.6907
+            14  N5x N    32.7936  -16.8892
+            15  N1a N    33.7400  -14.5815
+            16  C1b C    24.2288  -14.9554
+            17  O1a O    25.5316  -18.0168
+            18  O2b O    23.1889  -15.8903
+            19  P1b P    21.7925  -15.8903
+            20  O2c O    20.3962  -15.8903
+            21  O1c O    21.7867  -17.2865
+            22  O1c O    21.7867  -14.4939
+            23  P1b P    18.9998  -15.8844
+            24  O1c O    18.9883  -17.2806
+            25  O1c O    17.5978  -15.8844
+            26  O1c O    18.9883  -14.4881
+BOND        28
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13   10  14 2
+            14   10  15 1
+            15   12  16 1 #Up
+            16   13  17 1 #Down
+            17   16  18 1
+            18   18  19 1
+            19   19  20 1
+            20   19  21 1
+            21   19  22 2
+            22   20  23 1
+            23   23  24 1
+            24   23  25 1
+            25   23  26 2
+            26    5   9 1
+            27   11  14 1
+            28   12  13 1
+///

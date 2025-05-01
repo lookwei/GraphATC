@@ -1,0 +1,71 @@
+ENTRY       D08073                      Drug
+NAME        Incadronic acid (INN)
+FORMULA     C8H19NO6P2
+EXACT_MASS  287.0688
+MOL_WEIGHT  287.1871
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Chemical structure group: DG01266
+EFFICACY    Antiresorptive, Farnesylpyrophosphate synthetase inhibitor
+COMMENT     Bisphosphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG01266  Incadronic acid
+                 D08073  Incadronic acid
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D08073  Incadronic acid (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG01266  Incadronic acid
+DBLINKS     CAS: 124351-85-5
+            PubChem: 51092065
+            LigandBox: D08073
+ATOM        17
+            1   C1x C    21.9883   -8.5934
+            2   C1x C    23.0850   -7.7298
+            3   C1x C    24.4503   -8.0412
+            4   C1y C    25.0521   -9.2943
+            5   C1x C    21.9883  -10.0023
+            6   C1x C    24.4512  -10.5615
+            7   C1x C    23.0850  -10.8731
+            8   N1b N    26.4579   -9.2908
+            9   C1c C    27.1688  -10.5147
+            10  P1b P    28.5578  -10.5111
+            11  P1b P    26.4762  -11.7213
+            12  O1c O    25.7763  -12.9336
+            13  O1c O    25.2639  -11.0214
+            14  O1c O    27.6885  -12.4213
+            15  O1c O    29.9577  -10.5111
+            16  O1c O    28.5578   -9.1112
+            17  O1c O    28.5578  -11.9110
+BOND        17
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11    9  11 1
+            12   11  12 1
+            13   11  13 1
+            14   11  14 2
+            15   10  15 1
+            16   10  16 1
+            17   10  17 2
+///

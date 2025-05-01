@@ -1,0 +1,85 @@
+ENTRY       D03807                      Drug
+NAME        Zenarestat (USAN/INN)
+FORMULA     C17H11BrClFN2O4
+EXACT_MASS  439.9575
+MOL_WEIGHT  441.6356
+CLASS       Antidiabetic agent
+             DG01882  Aldose reductase inhibitor
+EFFICACY    Hypoglycemic, Aldose reductase inhibitor
+COMMENT     Treatment of diabetic neuropathy
+TARGET      AKR1B1 [HSA:231] [KO:K00011]
+  PATHWAY   hsa00051(231)  Fructose and mannose metabolism
+            hsa00052(231)  Galactose metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01882  Aldose reductase inhibitor
+               D03807  Zenarestat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                AKR1B1
+                 D03807  Zenarestat (USAN/INN)
+DBLINKS     CAS: 112733-06-9
+            PubChem: 17397895
+            PDB-CCD: ZES
+            LigandBox: D03807
+            NIKKAJI: J248.078F
+ATOM        26
+            1   C8y C    31.6822  -18.9530
+            2   C8y C    31.6822  -20.3518
+            3   N4y N    32.8712  -18.2536
+            4   C8x C    30.4933  -18.2536
+            5   C8y C    32.8712  -21.0511
+            6   C8x C    30.4933  -21.0511
+            7   C8y C    34.0601  -18.9530
+            8   C1b C    32.8712  -16.8549
+            9   C8y C    29.2344  -18.9530
+            10  N4y N    34.0601  -20.3518
+            11  O5x O    32.8712  -22.4499
+            12  C8x C    29.2344  -20.3518
+            13  C6a C    34.0601  -16.1555
+            14  O6a O    35.3190  -16.8549
+            15  O6a O    34.0601  -14.7568
+            16  C1b C    35.3190  -21.0511
+            17  C8y C    36.5079  -20.3518
+            18  C8y C    37.6968  -21.0511
+            19  C8x C    38.9557  -20.3518
+            20  C8y C    38.9557  -18.9530
+            21  C8x C    37.6968  -18.2536
+            22  C8x C    36.5079  -18.9530
+            23  X   F    37.6968  -22.4499
+            24  X   Br   40.1446  -18.2536
+            25  X   Cl   28.0289  -18.2436
+            26  O5x O    35.2743  -18.2585
+BOND        28
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12    8  13 1
+            13   13  14 1
+            14   13  15 2
+            15    7  10 1
+            16    9  12 1
+            17   10  16 1
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   18  23 1
+            26   20  24 1
+            27    9  25 1
+            28    7  26 2
+///

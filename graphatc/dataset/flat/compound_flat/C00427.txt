@@ -1,0 +1,90 @@
+ENTRY       C00427                      Compound
+NAME        Prostaglandin H2;
+            (5Z,13E)-(15S)-9alpha,11alpha-Epidioxy-15-hydroxyprosta-5,13-dienoate;
+            (5Z,13E,15S)-9alpha,11alpha-Epidioxy-15-hydroxyprosta-5,13-dienoate;
+            PGH2;
+            (5Z,9alpha,11alpha,13E,15S)-9,11-Epidioxy-15-hydroxy-prosta-5,13-dienoate
+FORMULA     C20H32O5
+EXACT_MASS  352.225
+MOL_WEIGHT  352.4651
+REACTION    R00073 R01599 R02264 R02265 R02266 R02267 R02268 R09506
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04611  Platelet activation
+            map04723  Retrograde endocannabinoid signaling
+            map04726  Serotonergic synapse
+            map04921  Oxytocin signaling pathway
+            map07034  Eicosanoids
+            map07035  Prostaglandins
+ENZYME      1.1.1.-         1.11.1.20       1.14.99.1       5.3.99.2        
+            5.3.99.3        5.3.99.4        5.3.99.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Prostaglandins
+                C00427  Prostaglandin H2
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0301 Prostaglandins
+                C00427  Prostaglandin H2
+DBLINKS     CAS: 42935-17-1
+            PubChem: 3717
+            ChEBI: 15554
+            LIPIDMAPS: LMFA03010010
+            3DMET: B01243
+            NIKKAJI: J16.429A
+ATOM        25
+            1   C1y C    22.0683  -14.7876
+            2   C1y C    22.0626  -16.1406
+            3   C1y C    20.7794  -14.3736
+            4   C1b C    23.4504  -13.5629
+            5   C1y C    20.7911  -16.5665
+            6   C2b C    23.2348  -16.8114
+            7   C1x C    19.9921  -15.4758
+            8   O2x O    19.4381  -14.3736
+            9   C2b C    24.6110  -14.2452
+            10  O2x O    19.4497  -16.5605
+            11  C2b C    24.4011  -16.1406
+            12  C2b C    25.9466  -14.2452
+            13  C1c C    25.5676  -16.8114
+            14  C1b C    27.1071  -13.5629
+            15  C1b C    26.7339  -16.1406
+            16  O1a O    25.5676  -18.1585
+            17  C1b C    28.2677  -14.2335
+            18  C1b C    27.9003  -16.8114
+            19  C1b C    29.4282  -13.5570
+            20  C1b C    29.0783  -16.1406
+            21  C6a C    30.5888  -14.2219
+            22  C1b C    30.2331  -16.8114
+            23  O6a O    31.7786  -13.5163
+            24  O6a O    30.6005  -15.5925
+            25  C1a C    31.4111  -16.1406
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 1
+            9     5  10 1 #Down
+            10    6  11 2
+            11    9  12 2
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1 #Down
+            16   14  17 1
+            17   15  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25    5   7 1
+            26    8  10 1
+///

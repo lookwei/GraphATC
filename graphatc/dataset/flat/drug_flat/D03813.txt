@@ -1,0 +1,121 @@
+ENTRY       D03813                      Drug
+NAME        Diflucortolone pivalate (USAN)
+FORMULA     C27H36F2O5
+EXACT_MASS  478.2531
+MOL_WEIGHT  478.5685
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AC06 D07XC04
+            Chemical structure group: DG00417
+            Product (DG00417): D01764<JP>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC06 Diflucortolone
+                  D03813  Diflucortolone pivalate (USAN)
+               D07X CORTICOSTEROIDS, OTHER COMBINATIONS
+                D07XC Corticosteroids, potent, other combinations
+                 D07XC04 Diflucortolone
+                  D03813  Diflucortolone pivalate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00417  Diflucortolone
+                 D03813  Diflucortolone pivalate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D03813  Diflucortolone pivalate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00417  Diflucortolone
+DBLINKS     CAS: 15845-96-2
+            PubChem: 17397901
+            LigandBox: D03813
+            NIKKAJI: J9.016F
+ATOM        34
+            1   C1b C    35.7858  -14.7872
+            2   O7a O    34.6295  -15.4743
+            3   C7a C    33.4596  -14.8214
+            4   C1d C    32.3033  -15.5083
+            5   C1a C    31.1335  -14.8553
+            6   O6a O    33.4415  -13.4748
+            7   C5a C    36.9558  -15.4402
+            8   C2x C    29.9337  -20.5349
+            9   C5x C    29.9337  -21.8816
+            10  C2x C    31.1027  -22.5550
+            11  C2x C    31.1027  -19.8615
+            12  C1z C    32.2650  -20.5349
+            13  C2y C    32.2591  -21.8816
+            14  C1y C    33.4226  -22.5601
+            15  C1x C    34.5918  -21.8916
+            16  C1z C    33.4342  -19.8666
+            17  C1y C    34.5918  -20.5478
+            18  C1x C    34.6139  -17.8614
+            19  C1y C    33.4451  -18.5235
+            20  C1z C    35.7716  -18.5423
+            21  C1y C    35.7555  -19.8816
+            22  C1x C    38.0747  -19.9097
+            23  C1y C    38.0911  -18.5706
+            24  C1y C    36.9394  -17.8870
+            25  C1a C    35.7626  -17.1953
+            26  O1a O    32.2845  -17.8404
+            27  C1a C    32.2529  -19.1881
+            28  C1a C    39.2654  -17.9113
+            29  X   F    33.4230  -21.2083
+            30  X   F    33.4091  -23.9017
+            31  O5x O    28.7677  -22.5557
+            32  O5a O    38.1228  -14.7825
+            33  C1a C    32.2524  -16.9146
+            34  C1a C    31.1068  -16.2213
+BOND        37
+            1     3   4 1
+            2     1   2 1
+            3     4   5 1
+            4     7   1 1
+            5    16  17 1
+            6    17  21 1
+            7    20  18 1
+            8    18  19 1
+            9    19  16 1
+            10    8   9 1
+            11    9  10 1
+            12   10  13 2
+            13   12  11 1
+            14   20  21 1
+            15   22  23 1
+            16   23  24 1
+            17   24  20 1
+            18   21  22 1
+            19   24   7 1 #Up
+            20   11   8 2
+            21   20  25 1 #Up
+            22    2   3 1
+            23    3   6 2
+            24   19  26 1 #Up
+            25   12  27 1 #Up
+            26   23  28 1 #Down
+            27   12  13 1
+            28   13  14 1
+            29   16  29 1 #Down
+            30   14  15 1
+            31   14  30 1 #Down
+            32   15  17 1
+            33    9  31 2
+            34   16  12 1
+            35    7  32 2
+            36    4  33 1
+            37    4  34 1
+///

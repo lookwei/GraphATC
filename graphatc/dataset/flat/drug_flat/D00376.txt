@@ -1,0 +1,88 @@
+ENTRY       D00376                      Drug
+NAME        Meprobamate (JAN/USP/INN);
+            Equanil (TN);
+            Miltown (TN)
+PRODUCT
+  GENERIC   MEPROBAMATE (Alembic Pharmaceuticals Limited)
+            MEPROBAMATE (Alembic Pharmaceuticals)
+            MEPROBAMATE (Cipla USA)
+            MEPROBAMATE (Taro Pharmaceuticals U.S.A.)
+FORMULA     C9H18N2O4
+EXACT_MASS  218.1267
+MOL_WEIGHT  218.2502
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG02007  Antianxiety, carbamate derivatives
+REMARK      ATC code: N05BC01
+            Product: D00376<US>
+EFFICACY    Antianxiety, Sedative-hypnotic
+COMMENT     Carbamate derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BC Carbamates
+                 N05BC01 Meprobamate
+                  D00376  Meprobamate (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Anxiolytics
+              Anxiolytics, Other
+               Meprobamate
+                D00376  Meprobamate (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D00376  Meprobamate
+              DG02007  Antianxiety, carbamate derivatives
+               D00376  Meprobamate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00376  Meprobamate (JAN/USP/INN) &lt;US&gt;
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00376
+DBLINKS     CAS: 57-53-4
+            PubChem: 7847442
+            ChEBI: 6761
+            LigandBox: D00376
+            NIKKAJI: J4.475J
+ATOM        15
+            1   C1d C    25.7132  -18.3690
+            2   C1b C    26.9190  -17.6699
+            3   C1b C    24.5072  -17.6699
+            4   C1b C    25.7132  -19.7615
+            5   C1a C    25.6723  -16.8951
+            6   O7a O    28.1309  -18.3690
+            7   O7a O    23.3012  -18.3690
+            8   C1b C    24.5072  -20.4606
+            9   C7a C    29.3369  -17.6699
+            10  C7a C    22.0952  -17.6699
+            11  C1a C    24.5072  -21.8530
+            12  N1a N    29.3369  -16.2775
+            13  O6a O    30.5429  -18.3690
+            14  N1a N    20.8833  -18.3690
+            15  O6a O    22.0952  -16.2775
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     6   9 1
+            9     7  10 1
+            10    8  11 1
+            11    9  12 1
+            12    9  13 2
+            13   10  14 1
+            14   10  15 2
+///

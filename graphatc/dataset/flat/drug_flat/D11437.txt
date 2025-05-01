@@ -1,0 +1,104 @@
+ENTRY       D11437                      Drug
+NAME        Parsaclisib (USAN/INN)
+FORMULA     C20H22ClFN6O2
+EXACT_MASS  432.1477
+MOL_WEIGHT  432.8791
+CLASS       Antineoplastic
+             DG03139  PI3K inhibitor
+REMARK      ATC code: L01EM05
+            Chemical structure group: DG03025
+EFFICACY    Antineoplastic, Phosphatidylinositol 3-kinase inhibitor
+TARGET      PIK3CD [HSA:5293] [KO:K00922]
+  PATHWAY   hsa04151(5293)  PI3K-Akt signaling pathway
+            hsa04662(5293)  B cell receptor signaling pathway
+            hsa05200(5293)  Pathways in cancer
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EM Phosphatidylinositol-3-kinase (Pi3K) inhibitors
+                 L01EM05 Parsaclisib
+                  D11437  Parsaclisib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03139  PI3K inhibitor
+               DG03025  Parsaclisib
+                D11437  Parsaclisib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Phosphotransferase
+                PIK3CD
+                 D11437  Parsaclisib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03139  PI3K inhibitor
+               DG03025  Parsaclisib
+DBLINKS     CAS: 1426698-88-5
+            PubChem: 384585414
+ATOM        30
+            1   N5x N     6.8600  -15.4000
+            2   C8x C     6.8600  -16.8000
+            3   N5x N     8.0500  -17.5000
+            4   C8y C     9.3100  -16.8000
+            5   C8y C     9.3100  -15.4000
+            6   C8y C     8.0500  -14.7000
+            7   N4y N    10.6400  -17.2200
+            8   N5x N    11.4100  -16.1000
+            9   C8y C    10.6400  -14.9800
+            10  C1c C    11.8300  -17.9200
+            11  C8y C    13.0200  -17.2200
+            12  C8y C    14.2381  -17.9101
+            13  C8y C    15.3748  -17.2003
+            14  C8y C    15.4334  -15.8003
+            15  C8y C    14.2153  -15.1102
+            16  C8x C    13.0086  -15.8200
+            17  C1a C    11.8300  -19.3200
+            18  N1a N     8.0328  -13.3001
+            19  C1a C    11.0954  -13.6561
+            20  X   Cl   14.2040  -13.7200
+            21  X   F    16.6067  -15.1102
+            22  O2a O    14.1984  -19.3188
+            23  C1y C    16.6121  -17.9205
+            24  C1x C    16.7532  -19.3105
+            25  N1x N    18.1187  -19.6058
+            26  C5x C    18.8215  -18.3984
+            27  C1x C    17.8904  -17.3569
+            28  O5x O    20.2215  -18.2563
+            29  C1b C    15.3996  -20.0582
+            30  C1a C    15.3658  -21.4896
+BOND        33
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    7  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   10  17 1 #Down
+            20    6  18 1
+            21    9  19 1
+            22   15  20 1
+            23   14  21 1
+            24   12  22 1
+            25   23  13 1 #Up
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   23  27 1
+            31   26  28 2
+            32   22  29 1
+            33   29  30 1
+///

@@ -1,0 +1,206 @@
+ENTRY       D00879                      Drug
+NAME        Rifapentine (USAN/INN);
+            Priftin (TN)
+  ABBR      RFP
+PRODUCT     PRIFTIN (A-S Medication Solutions)
+            PRIFTIN (RPK Pharmaceuticals)
+            PRIFTIN (sanofi-aventis U.S. LLC)
+FORMULA     C47H64N4O12
+EXACT_MASS  876.4521
+MOL_WEIGHT  877.0307
+CLASS       Antibacterial
+             DG01966  Antitubercular
+              DG01598  Rifamycin antibiotic
+            Metabolizing enzyme inducer
+             DG01640  CYP2C8 inducer
+             DG02886  CYP2C9 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      Same as: C08059
+            ATC code: J04AB05
+            Product: D00879<US>
+EFFICACY    Antibacterial, RNA polymerase inhibitor
+  DISEASE   Active pulmonary tuberculosis [DS:H00342]
+COMMENT     Rifamycin derivative
+TARGET      DNA-directed RNA polymerase subunit beta [KO:K03043 K03046]
+  PATHWAY   ko03020(K03043+K03046)  RNA polymerase
+INTERACTION CYP induction: CYP3A4 [HSA:1576], CYP2C8 [HSA:1558], CYP2C9 [HSA:1559]
+STR_MAP     map07023  Rifamycins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J04 ANTIMYCOBACTERIALS
+               J04A DRUGS FOR TREATMENT OF TUBERCULOSIS
+                J04AB Antibiotics
+                 J04AB05 Rifapentine
+                  D00879  Rifapentine (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antimycobacterials
+              Antituberculars
+               Rifapentine
+                D00879  Rifapentine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01966  Antitubercular
+               DG01598  Rifamycin antibiotic
+                D00879  Rifapentine
+             Metabolizing enzyme inducer
+              DG01640  CYP2C8 inducer
+               D00879  Rifapentine
+              DG02886  CYP2C9 inducer
+               D00879  Rifapentine
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                D00879  Rifapentine
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Nucleic acid synthesis inhibitor
+               Rifamycin
+                D00879  Rifapentine (USAN/INN) &lt;US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Nucleic acid synthesis inhibitor
+               Rifamycin
+                D00879  Rifapentine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00879
+DBLINKS     CAS: 61379-65-5
+            PubChem: 7847943
+            ChEBI: 45304
+            PDB-CCD: RPT
+            LigandBox: D00879
+            NIKKAJI: J18.479I
+ATOM        63
+            1   C1c C    20.3018  -19.3312
+            2   C1c C    20.3018  -20.7483
+            3   O1a O    22.6637  -20.6809
+            4   C1c C    22.6637  -19.3312
+            5   C1c C    21.4490  -18.6564
+            6   C2b C    24.9581  -19.3312
+            7   C1c C    23.8109  -18.6564
+            8   C5a C    26.1727  -21.4232
+            9   C2c C    27.3200  -20.7483
+            10  C2b C    27.3200  -19.3312
+            11  C2b C    26.1727  -18.6564
+            12  C1a C    23.8109  -17.3067
+            13  C1a C    21.4490  -17.3067
+            14  O1a O    19.1546  -18.6564
+            15  C1a C    28.4672  -21.4232
+            16  O5a O    25.0255  -20.7483
+            17  N1b N    26.1727  -23.0428
+            18  C1c C    19.1546  -21.4232
+            19  O7a O    18.0074  -20.7483
+            20  C1c C    19.1546  -23.0428
+            21  C8y C    25.0255  -23.7176
+            22  C8y C    25.0255  -25.0673
+            23  C8y C    23.8109  -23.0428
+            24  C8y C    22.6637  -23.7176
+            25  C8y C    22.6637  -25.0673
+            26  C8y C    23.8109  -25.7421
+            27  C8y C    21.5164  -23.0428
+            28  C8y C    20.3018  -23.7176
+            29  C8y C    20.3018  -25.0673
+            30  C8y C    21.5164  -25.7421
+            31  O1a O    23.8109  -21.6931
+            32  O1a O    21.5164  -21.6931
+            33  C1a C    19.1546  -19.6687
+            34  C7a C    16.7926  -20.0735
+            35  C1a C    15.6454  -20.7483
+            36  O6a O    16.7926  -18.7238
+            37  C1c C    18.0074  -23.7176
+            38  O2a O    16.8601  -23.0428
+            39  C2b C    18.0074  -25.0673
+            40  C1a C    18.0074  -22.0980
+            41  C1a C    15.7129  -23.7176
+            42  C2b C    16.8601  -25.7421
+            43  O2a O    16.8601  -27.0918
+            44  O2x O    19.1546  -25.7421
+            45  C1z C    19.1546  -27.0918
+            46  C5x C    21.5164  -27.0918
+            47  C1a C    19.1546  -28.4414
+            48  C1a C    20.3018  -22.3679
+            49  O1a O    23.8109  -27.0918
+            50  O5x O    22.5962  -27.7666
+            51  C2b C    26.2037  -25.7610
+            52  N2b N    27.3990  -25.0842
+            53  N1y N    28.5704  -25.7736
+            54  C1x C    28.5586  -27.1608
+            55  C1x C    29.7620  -27.8692
+            56  N1y N    30.9773  -27.1814
+            57  C1x C    30.9890  -25.7942
+            58  C1x C    29.7857  -25.0857
+            59  C1y C    32.1862  -27.8932
+            60  C1x C    32.1862  -29.2932
+            61  C1x C    33.5177  -29.7258
+            62  C1x C    34.3406  -28.5932
+            63  C1x C    33.5177  -27.4605
+BOND        68
+            1     1   2 1
+            2     4   3 1 #Down
+            3     4   5 1
+            4     1   5 1
+            5     6   7 1
+            6     4   7 1
+            7     8   9 1
+            8     9  10 2
+            9    10  11 1
+            10    6  11 2
+            11    7  12 1 #Up
+            12    5  13 1 #Down
+            13    1  14 1 #Down
+            14    9  15 1
+            15    8  16 2
+            16    8  17 1
+            17    2  18 1
+            18   18  19 1 #Up
+            19   18  20 1
+            20   17  21 1
+            21   21  22 1
+            22   21  23 2
+            23   23  24 1
+            24   24  25 1
+            25   25  26 1
+            26   24  27 2
+            27   27  28 1
+            28   28  29 2
+            29   29  30 1
+            30   25  30 2
+            31   23  31 1
+            32   27  32 1
+            33    2  33 1 #Up
+            34   19  34 1
+            35   34  35 1
+            36   34  36 2
+            37   26  22 2
+            38   20  37 1
+            39   37  38 1 #Down
+            40   37  39 1
+            41   20  40 1 #Down
+            42   38  41 1
+            43   39  42 2
+            44   42  43 1
+            45   29  44 1
+            46   44  45 1
+            47   43  45 1
+            48   30  46 1
+            49   45  46 1
+            50   45  47 1 #Down
+            51   28  48 1
+            52   26  49 1
+            53   50  46 2
+            54   22  51 1
+            55   51  52 2
+            56   52  53 1
+            57   53  54 1
+            58   54  55 1
+            59   55  56 1
+            60   56  57 1
+            61   57  58 1
+            62   53  58 1
+            63   56  59 1
+            64   59  60 1
+            65   60  61 1
+            66   61  62 1
+            67   62  63 1
+            68   59  63 1
+///

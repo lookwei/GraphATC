@@ -1,0 +1,74 @@
+ENTRY       D10894                      Drug
+NAME        Valtorcitabine (INN)
+FORMULA     C14H22N4O5
+EXACT_MASS  326.159
+MOL_WEIGHT  326.3483
+REMARK      Chemical structure group: DG02199
+EFFICACY    Antiviral
+COMMENT     Active form of prodrug: Torcitabine [DR:D06196]
+            Treatment of Hepatitis B
+TARGET      HBV reverse transcriptase [KO:K21037]
+  PATHWAY   ko03230(K21037)  Viral genome structure
+            ko03240(K21037)  Viral replication
+            ko05161(K21037)  Hepatitis B
+BRITE       Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D10894  Valtorcitabine (INN)
+            Prodrugs [br08324.html]
+             D10894
+            Prodrugs [br08324.html(DG02199)]
+             DG02199
+DBLINKS     CAS: 380886-95-3
+            PubChem: 340125672
+ATOM        23
+            1   C1x C    19.4219  -16.4556
+            2   C1y C    18.0091  -16.4556
+            3   C1y C    17.5852  -15.1134
+            4   O2x O    18.7155  -14.2657
+            5   C1y C    19.8457  -15.1134
+            6   C1b C    16.2430  -14.6896
+            7   O1a O    15.1834  -15.5373
+            8   O7a O    17.1614  -17.6565
+            9   C7a C    15.7485  -17.6565
+            10  C1c C    15.0421  -18.8574
+            11  O6a O    15.0421  -16.5262
+            12  C1c C    13.5587  -18.8574
+            13  N1a N    15.7485  -20.0583
+            14  C1a C    12.8522  -17.5859
+            15  C1a C    12.9229  -20.0583
+            16  C8x C    20.7641  -12.9942
+            17  N4y N    20.7641  -14.4070
+            18  C8y C    21.9876  -15.1134
+            19  N5x N    23.2112  -14.4070
+            20  C8y C    23.2112  -12.9942
+            21  C8x C    21.9876  -12.2878
+            22  O5x O    21.9876  -16.5260
+            23  N1a N    24.4536  -12.2767
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     3   6 1 #Down
+            7     6   7 1
+            8     2   8 1 #Up
+            9     8   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13   10  13 1 #Up
+            14   12  14 1
+            15   12  15 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19   19  20 2
+            20   20  21 1
+            21   16  21 2
+            22    5  17 1 #Down
+            23   18  22 2
+            24   20  23 1
+///

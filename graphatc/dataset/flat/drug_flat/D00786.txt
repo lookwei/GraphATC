@@ -1,0 +1,110 @@
+ENTRY       D00786                      Drug
+NAME        Tolcapone (JAN/USP/INN);
+            Tasmar (TN)
+PRODUCT     TASMAR (Bausch Health US LLC)
+  GENERIC   TOLCAPONE (Ingenus Pharmaceuticals)
+            TOLCAPONE (Oceanside Pharmaceuticals)
+FORMULA     C14H11NO5
+EXACT_MASS  273.0637
+MOL_WEIGHT  273.2408
+CLASS       Neuropsychiatric agent
+             DG01497  Catechol O-methyltransferase inhibitor
+             DG01967  Antiparkinson agent
+              DG02909  COMT inhibitor
+REMARK      Same as: C07949
+            ATC code: N04BX01
+            Product: D00786<US>
+EFFICACY    Antiparkinsonian, COMT inhibitor
+  DISEASE   Idiopathic Parkinson disease [DS:H01600]
+            Parkinson disease [DS:H00057]
+COMMENT     Nitrocatechols
+TARGET      COMT [HSA:1312] [KO:K00545]
+  PATHWAY   hsa04728(1312)  Dopaminergic synapse
+INTERACTION Enzyme inhibition: COMT [HSA:1312]
+STR_MAP     map07057  Antiparkinsonian agents
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BX Other dopaminergic agents
+                 N04BX01 Tolcapone
+                  D00786  Tolcapone (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antiparkinson Agents
+              Antiparkinson Agents, Other
+               Tolcapone
+                D00786  Tolcapone (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01497  Catechol O-methyltransferase inhibitor
+               D00786  Tolcapone
+              DG01967  Antiparkinson agent
+               DG02909  COMT inhibitor
+                D00786  Tolcapone
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D00786  Tolcapone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                COMT
+                 D00786  Tolcapone (JAN/USP/INN) &lt;US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00786
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00786
+DBLINKS     CAS: 134308-13-7
+            PubChem: 7847851
+            ChEBI: 63630
+            PDB-CCD: TCW
+            LigandBox: D00786
+            NIKKAJI: J459.846F
+ATOM        20
+            1   C8x C     9.9400   -9.8000
+            2   C8y C     9.9400  -11.2000
+            3   C8x C    11.1524  -11.9000
+            4   C8x C    12.3649  -11.2000
+            5   C8y C    12.3649   -9.8000
+            6   C8x C    11.1524   -9.1000
+            7   C8x C    14.7897  -11.2000
+            8   C8y C    14.7897   -9.8000
+            9   C5a C    13.5773   -9.1000
+            10  C8y C    16.0022  -11.9000
+            11  C8y C    17.2146  -11.2000
+            12  C8y C    17.2146   -9.8000
+            13  C8x C    16.0022   -9.1000
+            14  C1a C     8.7276  -11.9000
+            15  O5a O    13.5773   -7.7000
+            16  O1a O    16.0022  -13.2997
+            17  O1a O    18.4311  -11.9023
+            18  N2b N    18.4311   -9.0977 #+
+            19  O3a O    19.6286   -9.7892 #-
+            20  O3a O    18.4311   -7.7002
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    2  14 1
+            16    9  15 2
+            17   10  16 1
+            18   11  17 1
+            19   12  18 1
+            20   18  19 1
+            21   18  20 2
+///

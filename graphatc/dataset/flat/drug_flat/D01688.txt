@@ -1,0 +1,87 @@
+ENTRY       D01688                      Drug
+NAME        Epalrestat (JP18/INN);
+            Kinedak (TN)
+FORMULA     C15H13NO3S2
+EXACT_MASS  319.0337
+MOL_WEIGHT  319.3986
+CLASS       Antidiabetic agent
+             DG01882  Aldose reductase inhibitor
+REMARK      Therapeutic category: 3999
+            Product: D01688<JP>
+EFFICACY    Hypoglycemic, Aldose reductase inhibitor
+COMMENT     Use for treatment of accumulation of Sorbitol [CPD:C00794] harm cells.
+TARGET      AKR1B1 [HSA:231] [KO:K00011]
+  PATHWAY   hsa00051(231)  Fructose and mannose metabolism
+            hsa00052(231)  Galactose metabolism
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D01688  Epalrestat (JP18/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01882  Aldose reductase inhibitor
+               D01688  Epalrestat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                AKR1B1
+                 D01688  Epalrestat (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01688  Epalrestat
+              D01688  Epalrestat tablets
+DBLINKS     CAS: 82159-09-9
+            PubChem: 7848751
+            ChEBI: 31539
+            LigandBox: D01688
+            NIKKAJI: J211.576J
+ATOM        21
+            1   C8x C    15.2303  -16.8093
+            2   C8x C    15.2303  -18.2105
+            3   C8x C    16.4476  -18.9075
+            4   C8x C    17.6576  -18.2105
+            5   C8y C    17.6576  -16.8093
+            6   C8x C    16.4476  -16.1051
+            7   C2b C    18.8726  -16.1061
+            8   C2c C    20.0864  -16.8111
+            9   C2b C    21.3014  -16.1078
+            10  C1a C    20.0854  -18.2122
+            11  C2y C    22.3935  -16.8924
+            12  C2y C    24.2355  -18.2245
+            13  N1y N    24.6694  -16.8924
+            14  C5x C    23.5315  -16.0629
+            15  S2x S    22.8344  -18.2245
+            16  O5x O    23.5313  -14.6618
+            17  S0  S    25.0537  -19.3604
+            18  C1b C    25.8761  -16.1756
+            19  C6a C    27.0979  -16.8667
+            20  O6a O    28.3048  -16.1497
+            21  O6a O    27.1129  -18.2678
+BOND        22
+            1     4   5 1
+            2     9  11 2
+            3     5   6 2
+            4     6   1 1
+            5     5   7 1
+            6    12  13 1
+            7    13  14 1
+            8    14  11 1
+            9    11  15 1
+            10   15  12 1
+            11    1   2 2
+            12   14  16 2
+            13    7   8 2
+            14   12  17 2
+            15    2   3 1
+            16   13  18 1
+            17    8   9 1
+            18   18  19 1
+            19    3   4 2
+            20   19  20 2
+            21    8  10 1
+            22   19  21 1
+///

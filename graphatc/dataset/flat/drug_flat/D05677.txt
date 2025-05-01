@@ -1,0 +1,77 @@
+ENTRY       D05677                      Drug
+NAME        Quinelorane hydrochloride (USAN)
+FORMULA     C14H22N4. 2HCl
+EXACT_MASS  318.1378
+MOL_WEIGHT  319.2732
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+EFFICACY    Antihypertensive, Antiparkinsonian
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04024(1813)  cAMP signaling pathway
+            hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                D05677  Quinelorane hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D05677  Quinelorane hydrochloride (USAN)
+DBLINKS     CAS: 97548-97-5
+            PubChem: 47207338
+            LigandBox: D05677
+            NIKKAJI: J549.464H
+ATOM        20
+            1   N5x N    18.2700  -21.2800
+            2   C8y C    18.2700  -19.8800
+            3   N5x N    17.0800  -19.1800
+            4   C8y C    15.8200  -19.8800
+            5   C8y C    15.8200  -21.2800
+            6   C8x C    17.0800  -21.9800
+            7   C1x C    14.6300  -19.1800
+            8   C1y C    13.4400  -19.8800
+            9   C1y C    13.4400  -21.2800
+            10  C1x C    14.6300  -21.9800
+            11  C1x C    12.1800  -19.1800
+            12  C1x C    10.9900  -19.8800
+            13  C1x C    10.9900  -21.2800
+            14  N1y N    12.1800  -21.9800
+            15  N1a N    19.4853  -19.1849
+            16  C1b C    12.1628  -23.3799
+            17  C1b C    13.3792  -24.1024
+            18  C1a C    13.3620  -25.4800
+            19  X   Cl   20.6500  -23.5900
+            20  X   Cl   20.6500  -23.5900
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16    9  14 1
+            17    2  15 1
+            18   14  16 1
+            19   16  17 1
+            20   17  18 1
+BRACKET     1    18.9700  -24.4300   18.9700  -22.7500
+            1    21.5600  -22.7500   21.5600  -24.4300
+            1  2
+  ORIGINAL  1   21
+  REPEAT    1   22
+///

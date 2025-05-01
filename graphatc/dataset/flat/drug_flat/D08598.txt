@@ -1,0 +1,84 @@
+ENTRY       D08598                      Drug
+NAME        Tilisolol (INN)
+FORMULA     C17H24N2O3
+EXACT_MASS  304.1787
+MOL_WEIGHT  304.3841
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+REMARK      Chemical structure group: DG01322
+EFFICACY    Anti-anginal, Antihypertensive, beta-Adrenergic receptor antagonist
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01322  Tilisolol
+                 D08598  Tilisolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D08598  Tilisolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01322  Tilisolol
+DBLINKS     CAS: 85136-71-6
+            PubChem: 96025282
+            LigandBox: D08598
+            NIKKAJI: J372.135C
+ATOM        22
+            1   C8x C    17.9900  -19.6700
+            2   C8x C    17.9900  -18.2700
+            3   C8x C    19.1800  -17.5700
+            4   C8x C    19.1800  -20.3700
+            5   C8y C    20.3700  -19.6700
+            6   C8y C    20.3700  -18.2700
+            7   C8y C    21.6300  -17.5700
+            8   C8x C    22.8200  -18.2700
+            9   N4y N    22.8200  -19.6700
+            10  C8y C    21.6300  -20.3700
+            11  O5x O    21.6300  -21.7700
+            12  O2a O    21.6300  -16.1700
+            13  C1b C    22.8200  -15.4700
+            14  C1c C    24.0100  -16.1700
+            15  C1b C    25.2700  -15.4700
+            16  N1b N    26.4600  -16.1700
+            17  C1d C    27.6500  -15.5400
+            18  O1a O    24.0100  -17.5700
+            19  C1a C    27.6500  -14.1400
+            20  C1a C    28.9100  -16.2400
+            21  C1a C    28.9100  -14.8400
+            22  C1a C    24.0800  -20.3700
+BOND        23
+            1     4   1 1
+            2    10  11 2
+            3     7  12 1
+            4    12  13 1
+            5     1   2 2
+            6    13  14 1
+            7     2   3 1
+            8    14  15 1
+            9     3   6 2
+            10   15  16 1
+            11    5   4 2
+            12   16  17 1
+            13    5   6 1
+            14   14  18 1
+            15    6   7 1
+            16   17  19 1
+            17    7   8 2
+            18   17  20 1
+            19    8   9 1
+            20   17  21 1
+            21    9  10 1
+            22    9  22 1
+            23   10   5 1
+///

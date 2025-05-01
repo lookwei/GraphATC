@@ -1,0 +1,123 @@
+ENTRY       D06517                      Drug
+NAME        Pirmenol hydrochloride (USAN);
+            Pirmavar (TN)
+FORMULA     C22H30N2O. HCl
+EXACT_MASS  374.2125
+MOL_WEIGHT  374.9473
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+REMARK      Chemical structure group: DG01381
+            Product (DG01381): D01785<JP>
+EFFICACY    Antiarrhythmic, Cardiac depressant
+COMMENT     Class I antiarrhythmic agent (Ia)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG01381  Pirmenol
+                  D06517  Pirmenol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN2A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN3A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN4A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN5A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN8A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN9A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN10A
+                 D06517  Pirmenol hydrochloride (USAN)
+                SCN11A
+                 D06517  Pirmenol hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG01381  Pirmenol
+DBLINKS     CAS: 61477-94-9
+            PubChem: 47208173
+            LigandBox: D06517
+            NIKKAJI: J354.310B
+ATOM        26
+            1   C8x C    26.8663  -19.6226
+            2   C8x C    26.8663  -21.0243
+            3   C8x C    28.0831  -21.7251
+            4   C8x C    29.2928  -21.0243
+            5   C8y C    29.2928  -19.6226
+            6   C8x C    28.0831  -18.9218
+            7   C1d C    30.5072  -18.9228
+            8   C8y C    31.7206  -19.6245
+            9   C8x C    31.7140  -21.0241
+            10  C8x C    32.9274  -21.7260
+            11  C8x C    34.1417  -21.0260
+            12  C8x C    34.1427  -19.6243
+            13  N5x N    32.9295  -18.9226
+            14  C1b C    30.5050  -17.5273
+            15  C1b C    31.7155  -16.8265
+            16  C1b C    31.7155  -15.4319
+            17  N1y N    32.9261  -14.7311
+            18  C1y C    34.1383  -15.4290
+            19  C1x C    35.3489  -14.7282
+            20  C1x C    35.3472  -13.3294
+            21  C1x C    34.1349  -12.6315
+            22  C1y C    32.9244  -13.3323
+            23  C1a C    31.7096  -12.6328
+            24  C1a C    34.1400  -16.8307
+            25  O1a O    29.2948  -18.2228
+            26  X   Cl   37.2767  -18.6182
+BOND        27
+            1    11  12 1
+            2    12  13 2
+            3    13   8 1
+            4     6   1 1
+            5     7  14 1
+            6    14  15 1
+            7     5   7 1
+            8    15  16 1
+            9    16  17 1
+            10    7   8 1
+            11    1   2 2
+            12    2   3 1
+            13    3   4 2
+            14    4   5 1
+            15    5   6 2
+            16   17  18 1
+            17   18  19 1
+            18   19  20 1
+            19   20  21 1
+            20   21  22 1
+            21   22  17 1
+            22    8   9 2
+            23   22  23 1 #Down
+            24    9  10 1
+            25   18  24 1 #Down
+            26   10  11 2
+            27    7  25 1
+///

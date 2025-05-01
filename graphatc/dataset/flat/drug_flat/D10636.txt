@@ -1,0 +1,102 @@
+ENTRY       D10636                      Drug
+NAME        Glasdegib (USAN/INN)
+FORMULA     C21H22N6O
+EXACT_MASS  374.1855
+MOL_WEIGHT  374.439
+CLASS       Antineoplastic
+             DG01566  Hedgehog signaling inhibitor
+REMARK      ATC code: L01XJ03
+            Chemical structure group: DG02912
+            Product (DG02912): D11107<US>
+EFFICACY    Antineoplastic, Smoothened receptor antagonist
+COMMENT     Headgehog singaling inhibitor
+TARGET      SMO [HSA:6608] [KO:K06226]
+  PATHWAY   hsa04340(6608)  Hedgehog signaling pathway
+            hsa05200(6608)  Pathways in cancer
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XJ Hedgehog pathway inhibitors
+                 L01XJ03 Glasdegib
+                  D10636  Glasdegib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01566  Hedgehog signaling inhibitor
+               DG02912  Glasdegib
+                D10636  Glasdegib
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Frizzled / Smoothened family
+               Smoothened
+                SMO
+                 D10636  Glasdegib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01566  Hedgehog signaling inhibitor
+               DG02912  Glasdegib
+DBLINKS     CAS: 1095173-27-5
+            PubChem: 254741597
+            ChEBI: 145428
+ATOM        28
+            1   C1y C    17.9200  -15.5400
+            2   C8x C    12.1800  -14.8400
+            3   C8x C    12.1800  -16.2400
+            4   C8x C    13.3700  -16.9400
+            5   C8y C    14.6300  -16.2400
+            6   C8y C    14.6300  -14.8400
+            7   C8x C    13.3700  -14.1400
+            8   N4x N    15.9600  -16.6600
+            9   C8y C    16.7300  -15.5400
+            10  N5x N    15.9600  -14.4200
+            11  C1x C    18.6200  -16.7300
+            12  C1y C    20.0200  -16.7300
+            13  C1x C    20.7200  -15.5400
+            14  C1x C    20.0200  -14.3500
+            15  N1y N    18.6200  -14.3500
+            16  N1b N    20.7200  -17.9900
+            17  C5a C    22.1200  -17.9900
+            18  O5a O    22.8200  -16.7300
+            19  N1b N    22.8200  -19.1800
+            20  C8y C    24.2200  -19.1800
+            21  C8x C    24.9200  -20.3700
+            22  C8x C    26.3200  -20.3700
+            23  C8y C    27.0200  -19.1800
+            24  C8x C    26.3200  -17.9900
+            25  C8x C    24.9200  -17.9900
+            26  C3b C    28.4200  -19.1800
+            27  N3a N    29.8200  -19.1800
+            28  C1a C    17.9200  -13.0900
+BOND        31
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     5   8 1
+            8     8   9 1
+            9     9  10 2
+            10    6  10 1
+            11    1   9 1 #Down
+            12    1  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17    1  15 1
+            18   12  16 1 #Up
+            19   16  17 1
+            20   17  18 2
+            21   17  19 1
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   20  25 1
+            29   23  26 1
+            30   26  27 3
+            31   15  28 1
+///

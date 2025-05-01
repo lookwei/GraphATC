@@ -1,0 +1,105 @@
+ENTRY       D11061                      Drug
+NAME        Osilodrostat (USAN/INN)
+FORMULA     C13H10FN3
+EXACT_MASS  227.0859
+MOL_WEIGHT  227.237
+CLASS       Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+REMARK      ATC code: H02CA02
+            Chemical structure group: DG02839
+            Product (DG02839): D11062<JP/US>
+EFFICACY    Antihypertensive, Steroid 11-beta-hydroxylase inhibitor
+COMMENT     Treatment of Cushing's syndrome
+TARGET      CYP11B2 [HSA:1585] [KO:K07433]
+  PATHWAY   hsa00140(1585)  Steroid hormone biosynthesis
+            hsa04925(1585)  Aldosterone synthesis and secretion
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2B6 [HSA:1555], CYP2D6 [HSA:1565], UGT [KO:K00699]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02C ANTIADRENAL PREPARATIONS
+                H02CA Anticorticosteroids
+                 H02CA02 Osilodrostat
+                  D11061  Osilodrostat (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG02839  Osilodrostat
+                D11061  Osilodrostat
+              DG01644  CYP2D6 substrate
+               DG02839  Osilodrostat
+                D11061  Osilodrostat
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02839  Osilodrostat
+                 D11061  Osilodrostat
+              DG02924  UGT substrate
+               DG02839  Osilodrostat
+                D11061  Osilodrostat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Cytochrome P450
+                CYP11B2
+                 D11061  Osilodrostat (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11061
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG02839  Osilodrostat
+              DG01644  CYP2D6 substrate
+               DG02839  Osilodrostat
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02839  Osilodrostat
+              DG02924  UGT substrate
+               DG02839  Osilodrostat
+DBLINKS     CAS: 928134-65-0
+            PubChem: 363669774
+            PDB-CCD: YSY
+ATOM        17
+            1   C8x C    13.7900  -12.3200
+            2   C8y C    13.7900  -13.7200
+            3   C8y C    15.0024  -14.4200
+            4   C8x C    16.2149  -13.7200
+            5   C8x C    16.2149  -12.3200
+            6   C8y C    15.0024  -11.6200
+            7   C3b C    15.0024  -10.2202
+            8   N3a N    15.0024   -8.8202
+            9   X   F    12.5776  -14.4200
+            10  C1y C    15.0024  -15.8198
+            11  C1x C    13.8552  -16.6535
+            12  C1x C    14.2936  -18.0023
+            13  C8y C    15.7118  -18.0021
+            14  N4y N    16.1499  -16.6533
+            15  C8x C    16.8593  -18.8356
+            16  N5x N    18.0065  -18.0018
+            17  C8x C    17.5681  -16.6531
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 3
+            9     2   9 1
+            10   10   3 1 #Down
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   10  14 1
+            16   13  15 2
+            17   15  16 1
+            18   16  17 2
+            19   14  17 1
+///

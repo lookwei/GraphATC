@@ -1,0 +1,118 @@
+ENTRY       D08534                      Drug
+NAME        Sulbenicillin (INN)
+FORMULA     C16H18N2O7S2
+EXACT_MASS  414.0555
+MOL_WEIGHT  414.4533
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      Same as: C11170
+            ATC code: J01CA16
+            Chemical structure group: DG00530
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+            map07012  Cephalosporins - parenteral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA16 Sulbenicillin
+                  D08534  Sulbenicillin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00530  Sulbenicillin
+                  D08534  Sulbenicillin
+              DG01780  Extended spectrum penicillin
+               DG00530  Sulbenicillin
+                D08534  Sulbenicillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D08534  Sulbenicillin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00530  Sulbenicillin
+              DG01780  Extended spectrum penicillin
+               DG00530  Sulbenicillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00530  Sulbenicillin
+DBLINKS     CAS: 34779-28-7
+            PubChem: 96025219
+            ChEBI: 9322
+            LigandBox: D08534
+            NIKKAJI: J20.454D
+ATOM        27
+            1   C1y C    24.9900  -18.2700
+            2   C5x C    24.9900  -19.6700
+            3   N1y N    26.3200  -19.6700
+            4   C1y C    26.3200  -18.2700
+            5   C1y C    27.6500  -20.0900
+            6   C1z C    28.4900  -18.9700
+            7   S2x S    27.6500  -17.9200
+            8   C1a C    29.4700  -19.9500
+            9   C1a C    29.4700  -18.0600
+            10  C6a C    28.1400  -21.4900
+            11  O6a O    29.5400  -21.4900
+            12  O6a O    27.3000  -22.6100
+            13  N1b N    23.8000  -17.6400
+            14  C5a C    22.6100  -18.2700
+            15  O5x O    23.8000  -20.3700
+            16  O5a O    22.6100  -19.6700
+            17  C1c C    21.3500  -17.6400
+            18  S4a S    20.1600  -18.3400
+            19  C8y C    21.3500  -16.1700
+            20  C8x C    22.6100  -15.4700
+            21  C8x C    22.5400  -14.0000
+            22  C8x C    21.2800  -13.3000
+            23  C8x C    20.0900  -14.0700
+            24  C8x C    20.0900  -15.4700
+            25  O1d O    20.1600  -19.7400
+            26  O1d O    20.1600  -16.9400
+            27  O1d O    18.7600  -18.3400
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   18  25 2
+            28   18  26 2
+            29   18  27 1
+///

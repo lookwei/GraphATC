@@ -1,0 +1,68 @@
+ENTRY       D09774                      Drug
+NAME        Imitrodast sodium (JAN);
+            RS 5186
+FORMULA     C13H11N2O2S. Na
+EXACT_MASS  282.0439
+MOL_WEIGHT  282.2934
+CLASS       Anti-allergic agent
+             DG01517  Thromboxane A2 receptor antagonist
+EFFICACY    Antiasthmatic, Thromboxane A2 (TXA2) receptor antagonist
+TARGET      TBXA2R [HSA:6915] [KO:K04264]
+  PATHWAY   hsa04020(6915)  Calcium signaling pathway
+            hsa04080(6915)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01517  Thromboxane A2 receptor antagonist
+               D09774  Imitrodast sodium
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thromboxane
+                TBXA2R
+                 D09774  Imitrodast sodium (JAN)
+DBLINKS     CAS: 113817-57-5
+            PubChem: 124490514
+            LigandBox: D09774
+ATOM        19
+            1   C2y C    15.2600  -20.4400
+            2   C1x C    15.2600  -21.8400
+            3   C1x C    16.4724  -22.5400
+            4   C8y C    17.6849  -21.8400
+            5   C8y C    17.6849  -20.4400
+            6   C2x C    16.4724  -19.7400
+            7   C8x C    19.0164  -22.2726
+            8   C8y C    19.8393  -21.1400
+            9   S2x S    19.0164  -20.0074
+            10  C6a C    14.0476  -19.7400
+            11  O6a O    12.8521  -20.4304 #-
+            12  O6a O    14.0475  -18.3402
+            13  C1b C    21.2100  -21.1400
+            14  N4y N    21.9100  -19.9276
+            15  C8x C    23.3100  -19.9276
+            16  C8x C    23.7426  -18.5961
+            17  N5x N    22.6100  -17.7732
+            18  C8x C    21.4774  -18.5961
+            19  Z   Na   10.7100  -20.4400 #+
+BOND        20
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    1  10 1
+            12   10  11 1
+            13   10  12 2
+            14    8  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   14  18 1
+///

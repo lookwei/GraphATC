@@ -1,0 +1,117 @@
+ENTRY       D01468                      Drug
+NAME        Nemonapride (JAN/INN);
+            Emilace (TN)
+FORMULA     C21H26ClN3O2
+EXACT_MASS  387.1714
+MOL_WEIGHT  387.903
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01941  Benzamide antipsychotic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C12915
+            Therapeutic category: 1179
+            Product: D01468<JP>
+EFFICACY    Antipsychotic, Dopamine receptor antagonist
+COMMENT     Benzamide derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07213  Dopamine receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1179  Others
+                 D01468  Nemonapride (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                D01468  Nemonapride
+              DG03200  Antipsychotic agent
+               DG01941  Benzamide antipsychotic
+                D01468  Nemonapride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01468  Nemonapride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D01468  Nemonapride (JAN/INN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01468
+DBLINKS     CAS: 75272-39-8
+            PubChem: 7848531
+            ChEBI: 31899 64219
+            PDB-CCD: AQD
+            LigandBox: D01468
+            NIKKAJI: J259.346G
+ATOM        27
+            1   C1y C    32.7589  -18.1959
+            2   C1x C    33.1864  -19.5720
+            3   C1x C    34.5731  -19.5913
+            4   N1y N    35.0196  -18.2783
+            5   C1y C    33.9091  -17.4477
+            6   C8y C    29.1082  -17.5095
+            7   C8y C    29.1082  -16.1033
+            8   C8x C    27.9062  -18.2037
+            9   C5a C    30.3276  -18.2037
+            10  C8x C    27.9062  -15.3974
+            11  O2a O    30.3276  -15.3974
+            12  C8y C    26.6868  -17.5095
+            13  N1b N    31.5410  -17.5035
+            14  O5a O    30.3276  -19.6097
+            15  C8y C    26.6868  -16.1033
+            16  X   Cl   25.4734  -18.2037
+            17  N1b N    25.4734  -15.3974
+            18  C1a C    24.2622  -16.0914
+            19  C1b C    36.1985  -17.6066
+            20  C8y C    37.4141  -18.2932
+            21  C8x C    37.3542  -19.6860
+            22  C8x C    38.6394  -20.3726
+            23  C8x C    39.8417  -19.6632
+            24  C8x C    39.8284  -18.2674
+            25  C8x C    38.6131  -17.5808
+            26  C1a C    30.3290  -13.9734
+            27  C1a C    33.9558  -16.0321
+BOND        29
+            1     8  12 1
+            2     9  13 1
+            3     9  14 2
+            4    10  15 1
+            5    12  16 1
+            6     1  13 1 #Up
+            7    15  17 1
+            8    12  15 2
+            9     6   7 1
+            10    6   8 2
+            11   17  18 1
+            12    6   9 1
+            13    2   3 1
+            14    4  19 1
+            15    3   4 1
+            16   19  20 1
+            17    4   5 1
+            18    5   1 1
+            19    1   2 1
+            20    7  10 2
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  25 2
+            26   25  20 1
+            27    7  11 1
+            28   11  26 1
+            29    5  27 1 #Up
+///

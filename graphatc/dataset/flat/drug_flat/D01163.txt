@@ -1,0 +1,140 @@
+ENTRY       D01163                      Drug
+NAME        Ergonovine maleate (USP);
+            Ergometrine maleate (JP18);
+            Ergometrine (TN)
+FORMULA     C19H23N3O2. C4H4O4
+EXACT_MASS  441.19
+MOL_WEIGHT  441.477
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G02AB03
+            Chemical structure group: DG00446
+EFFICACY    Hemostatic, Oxytocic
+COMMENT     Ergot alkaloid
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04022(146+147+148+150+151+152)  cGMP-PKG signaling pathway
+            hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AB Ergot alkaloids
+                 G02AB03 Ergometrine
+                  D01163  Ergonovine maleate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00446  Ergometrine
+                D01163  Ergonovine maleate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00446  Ergometrine
+                 D01163  Ergonovine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01163  Ergonovine maleate (USP)
+                ADRA2
+                 D01163  Ergonovine maleate (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01163  Ergometrine maleate
+              D01163  Ergometrine maleate tablets
+              D01163  Ergometrine maleate injection
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01163
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00446  Ergometrine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00446  Ergometrine
+DBLINKS     CAS: 129-51-1
+            PubChem: 7848226
+            ChEBI: 31554
+            LigandBox: D01163
+            NIKKAJI: J257.276A
+ATOM        32
+            1   C8x C    21.3905  -16.1433
+            2   C8x C    21.3905  -17.5095
+            3   C8x C    22.5765  -15.4603
+            4   C8y C    23.7556  -16.1433
+            5   C1x C    26.1159  -17.5196
+            6   C2y C    24.9417  -15.4653
+            7   C1y C    26.1161  -16.1562
+            8   N1y N    27.3016  -15.4845
+            9   C1y C    26.1385  -13.4312
+            10  C2x C    24.9528  -14.1026
+            11  C8y C    23.7498  -17.5095
+            12  C8y C    22.5732  -18.1867
+            13  N4x N    22.5716  -19.5443
+            14  C8x C    24.9230  -19.5472
+            15  C8y C    24.9246  -18.1897
+            16  C5a C    26.0796  -12.0650
+            17  N1b N    27.2683  -11.3917
+            18  O5a O    24.9022  -11.3722
+            19  C1c C    28.4457  -12.0844
+            20  C1b C    29.6345  -11.4111
+            21  C1a C    28.4791  -16.1774
+            22  C1x C    27.3159  -14.1239
+            23  O1a O    30.8223  -12.1102
+            24  C1a C    28.4344  -13.5099
+            25  C6a C    37.4774  -17.5583
+            26  C2b C    36.7961  -16.3829
+            27  O6a O    36.8023  -18.7398
+            28  O6a O    38.8405  -17.5519
+            29  C2b C    35.1644  -16.3890
+            30  C6a C    34.4892  -17.5706
+            31  O6a O    33.1261  -17.5706
+            32  O6a O    35.1769  -18.7460
+BOND        34
+            1    16  17 1
+            2     4   3 2
+            3    16  18 2
+            4     3   1 1
+            5    17  19 1
+            6    19  20 1
+            7     6   7 1
+            8     8  21 1
+            9     7   8 1
+            10    8  22 1
+            11   22   9 1
+            12    9  10 1
+            13   10   6 2
+            14    4  11 1
+            15   15   5 1
+            16    5   7 1
+            17    6   4 1
+            18   11  12 2
+            19   12  13 1
+            20   14  15 2
+            21   15  11 1
+            22   13  14 1
+            23    1   2 2
+            24    9  16 1 #Up
+            25    2  12 1
+            26   20  23 1
+            27   19  24 1 #Down
+            28   25  26 1
+            29   25  27 1
+            30   25  28 2
+            31   26  29 2
+            32   29  30 1
+            33   30  31 1
+            34   30  32 2
+///

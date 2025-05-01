@@ -1,0 +1,179 @@
+ENTRY       D08427                      Drug
+NAME        Proglumetacin (INN);
+            Bruxel (TN)
+FORMULA     C46H58ClN5O8
+EXACT_MASS  843.3974
+MOL_WEIGHT  844.4344
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01906  Anti-inflammatory drug, acetic acid derivatives
+               DG01899  Anti-inflammatory drug, indoleacetic acid derivatives
+REMARK      ATC code: M01AB14
+            Chemical structure group: DG00750
+            Product (DG00750): D01765<JP>
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+COMMENT     Indole acetic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AB Acetic acid derivatives and related substances
+                 M01AB14 Proglumetacin
+                  D08427  Proglumetacin (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01899  Anti-inflammatory drug, indoleacetic acid derivatives
+                 DG00750  Proglumetacin
+                  D08427  Proglumetacin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D08427  Proglumetacin (INN)
+                PTGS2 (COX2)
+                 D08427  Proglumetacin (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01899  Anti-inflammatory drug, indoleacetic acid derivatives
+                 DG00750  Proglumetacin
+DBLINKS     CAS: 57132-53-3
+            PubChem: 96025113
+            ChEBI: 76263
+            LigandBox: D08427
+            NIKKAJI: J14.535A
+ATOM        60
+            1   C8y C    14.8400  -17.2900
+            2   C8y C    14.8400  -18.7600
+            3   C1a C    16.1000  -19.4600
+            4   C7a C    17.3600  -17.3600
+            5   C1b C    16.1000  -16.5900
+            6   C8y C    12.5300  -18.6200
+            7   C8y C    12.5300  -17.2900
+            8   N4y N    13.6500  -19.3200
+            9   C8x C    11.3400  -19.3200
+            10  C8x C    11.3400  -16.6600
+            11  C8x C    10.2200  -18.6200
+            12  C8y C    10.2200  -17.2900
+            13  O2a O     9.0300  -16.6600
+            14  C1a C     7.9100  -17.3600
+            15  O7a O    18.6200  -16.5900
+            16  C1b C    19.8800  -17.3600
+            17  C1b C    21.0700  -16.5900
+            18  N1y N    22.3300  -17.3600
+            19  C1x C    22.3300  -18.7600
+            20  C1x C    23.5900  -19.5300
+            21  N1y N    24.8500  -18.7600
+            22  C1x C    24.8500  -17.3600
+            23  C1x C    23.5900  -16.5900
+            24  C1b C    26.0400  -19.4600
+            25  C1b C    27.2300  -18.7600
+            26  C1b C    28.4200  -19.4600
+            27  O7a O    29.6100  -18.7600
+            28  C7a C    30.8000  -19.4600
+            29  C1b C    31.9900  -18.7600
+            30  C1b C    33.1800  -19.4600
+            31  C1c C    34.3700  -18.7600
+            32  C5a C    35.5600  -19.4600
+            33  N1c N    36.8200  -18.7600
+            34  C1b C    38.0100  -19.4600
+            35  C1b C    39.2000  -18.7600
+            36  O6a O    30.8000  -20.8600
+            37  N1b N    34.3700  -17.4300
+            38  C5a C    33.1800  -16.7300
+            39  C8y C    33.1800  -15.3300
+            40  C8x C    34.3700  -14.6300
+            41  C8x C    34.3700  -13.3000
+            42  C8x C    33.1800  -12.6000
+            43  C8x C    31.9900  -13.3000
+            44  C8x C    31.9900  -14.6300
+            45  O5a O    31.9900  -17.4300
+            46  O5a O    35.5600  -20.8600
+            47  C1a C    40.3900  -19.4600
+            48  C1b C    36.8200  -17.4300
+            49  C1b C    38.0100  -16.7300
+            50  C1a C    38.0100  -15.3300
+            51  O6a O    17.3600  -18.6900
+            52  C5a C    13.6500  -20.6500
+            53  C8y C    12.5300  -21.2800
+            54  C8x C    11.3400  -20.5800
+            55  C8x C    10.0800  -21.2800
+            56  C8y C    10.0800  -22.6800
+            57  C8x C    11.3400  -23.3800
+            58  C8x C    12.5300  -22.6800
+            59  X   Cl    8.9600  -23.3800
+            60  O5a O    14.9800  -21.2800
+BOND        64
+            1    25  26 1
+            2     9  11 2
+            3    26  27 1
+            4    10  12 2
+            5    27  28 1
+            6    28  29 1
+            7    29  30 1
+            8    12  13 1
+            9    30  31 1
+            10   31  32 1
+            11   32  33 1
+            12   13  14 1
+            13   33  34 1
+            14   34  35 1
+            15   28  36 2
+            16   31  37 1
+            17   37  38 1
+            18   11  12 1
+            19   38  39 1
+            20    4   5 1
+            21    4  15 1
+            22    5   1 1
+            23   39  40 2
+            24   40  41 1
+            25   41  42 2
+            26   42  43 1
+            27   43  44 2
+            28   44  39 1
+            29   38  45 2
+            30   15  16 1
+            31   32  46 2
+            32   35  47 1
+            33   16  17 1
+            34   33  48 1
+            35    1   2 2
+            36   48  49 1
+            37   17  18 1
+            38   49  50 1
+            39    2   3 1
+            40    6   7 2
+            41    6   8 1
+            42    6   9 1
+            43    7   1 1
+            44   18  19 1
+            45   19  20 1
+            46   20  21 1
+            47   21  22 1
+            48   22  23 1
+            49   23  18 1
+            50    7  10 1
+            51   21  24 1
+            52    8   2 1
+            53   24  25 1
+            54    4  51 2
+            55    8  52 1
+            56   52  53 1
+            57   53  54 2
+            58   54  55 1
+            59   55  56 2
+            60   56  57 1
+            61   57  58 2
+            62   53  58 1
+            63   56  59 1
+            64   52  60 2
+///

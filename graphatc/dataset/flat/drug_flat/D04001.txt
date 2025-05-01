@@ -1,0 +1,63 @@
+ENTRY       D04001                      Drug
+NAME        Enloplatin (USAN/INN)
+FORMULA     Pt. C7H16N2O. C6H6O4
+EXACT_MASS  481.1176
+MOL_WEIGHT  481.4082
+CLASS       Antineoplastic
+             DG01679  Platinum compound
+EFFICACY    Antineoplastic, Cell growth inhibitor
+COMMENT     Platinum compound
+            DNA alkylator
+TARGET      DNA
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01679  Platinum compound
+               D04001  Enloplatin
+DBLINKS     CAS: 111523-41-2
+            PubChem: 47205982
+            LigandBox: D04001
+ATOM        21
+            1   C1x C    13.5800  -19.7400
+            2   C1x C    14.9800  -19.7400
+            3   C1z C    15.6800  -18.5276
+            4   C1x C    14.9800  -17.3151
+            5   C1x C    13.5800  -17.3151
+            6   O2x O    12.8800  -18.5276
+            7   C1b C    16.3800  -19.7400
+            8   N1a N    17.7800  -19.7400
+            9   N1a N    17.7800  -17.3151
+            10  C1b C    16.3800  -17.3151
+            11  O6a O    22.4700  -19.7400 #-
+            12  C6a C    23.8700  -19.7400
+            13  C1z C    24.5700  -18.5276
+            14  C6a C    23.8700  -17.3151
+            15  O6a O    22.4700  -17.3151 #-
+            16  C1x C    25.5599  -19.5175
+            17  C1x C    26.5499  -18.5276
+            18  C1x C    25.5599  -17.5376
+            19  O6a O    24.5810  -16.0840
+            20  O6a O    24.5700  -20.9524
+            21  Z   Pt   20.1600  -18.6900 #2+
+BOND        20
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     3   7 1
+            8     7   8 1
+            9     9  10 1
+            10    3  10 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   13  16 1
+            16   16  17 1
+            17   17  18 1
+            18   13  18 1
+            19   14  19 2
+            20   12  20 2
+///

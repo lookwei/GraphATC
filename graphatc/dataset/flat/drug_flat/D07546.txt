@@ -1,0 +1,119 @@
+ENTRY       D07546                      Drug
+NAME        Bucladesine (INN)
+FORMULA     C18H24N5O8P
+EXACT_MASS  469.1362
+MOL_WEIGHT  469.3856
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+REMARK      ATC code: C01CE04
+            Chemical structure group: DG00230
+            Product (DG00230): D01238<JP>
+EFFICACY    Cardiotonic, Phosphodiesterase inhibitor
+COMMENT     Cyclic AMP derivative
+TARGET      PDE [HSA:10846 27115 50940 5136 5137 5138 5139 5140 5141 5142 5143 5144 5150 5151 5153 8622] [KO:K18438 K18436 K13298 K13755 K18283 K19021 K13296 K13293 K18437]
+  PATHWAY   hsa04020(5136+5137+5153)  Calcium signaling pathway
+            hsa04022(5138+5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(10846+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+            hsa04371(5140)  Apelin signaling pathway
+            hsa04910(5140)  Insulin signaling pathway
+            hsa04922(5140)  Glucagon signaling pathway
+            hsa04923(5140)  Regulation of lipolysis in adipocytes
+            hsa04925(5138)  Aldosterone synthesis and secretion
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CE Phosphodiesterase inhibitors
+                 C01CE04 Bucladesine
+                  D07546  Bucladesine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG00230  Bucladesine
+                D07546  Bucladesine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D07546  Bucladesine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG00230  Bucladesine
+DBLINKS     CAS: 362-74-3
+            PubChem: 51091868
+            ChEBI: 50095
+            LigandBox: D07546
+            NIKKAJI: J33.134A
+ATOM        32
+            1   C8y C    26.8800  -15.4000
+            2   N5x N    27.5800  -16.6600
+            3   C1b C    29.6800  -15.4000
+            4   C5a C    28.9800  -14.2100
+            5   N1b N    27.5800  -14.2100
+            6   C1y C    20.3000  -18.0600
+            7   C1y C    19.9500  -16.6600
+            8   C1x C    18.5500  -16.3100
+            9   O2x O    17.5700  -17.3600
+            10  P1b P    17.9200  -18.6900
+            11  O2x O    19.3200  -19.0400
+            12  C1y C    21.7000  -18.0600
+            13  C1y C    22.1200  -16.6600
+            14  O2x O    21.0000  -15.8900
+            15  C8y C    24.7800  -16.6600
+            16  N5x N    25.4800  -17.8500
+            17  C8x C    26.8800  -17.8500
+            18  C8y C    25.4800  -15.4000
+            19  C8x C    23.4500  -14.8400
+            20  N4y N    23.4500  -16.2400
+            21  N5x N    24.7800  -14.4200
+            22  O1c O    16.5200  -18.6900
+            23  O1c O    17.9200  -20.0900
+            24  O7a O    22.4000  -19.2500
+            25  O5a O    29.6800  -12.9500
+            26  C7a C    21.7000  -20.5100
+            27  C1b C    22.4000  -21.7000
+            28  O6a O    20.3000  -20.5100
+            29  C1b C    23.8000  -21.7000
+            30  C1a C    24.5000  -22.8900
+            31  C1b C    31.0800  -15.4000
+            32  C1a C    31.7800  -16.5900
+BOND        35
+            1     6   7 1
+            2    15  16 1
+            3    16  17 2
+            4    17   2 1
+            5     1  18 1
+            6    18  15 2
+            7     7   8 1 #Up
+            8     8   9 1
+            9     9  10 1
+            10   19  20 1
+            11   20  15 1
+            12   18  21 1
+            13   21  19 2
+            14   13  20 1 #Up
+            15   10  11 1
+            16   10  22 2
+            17    6  11 1 #Down
+            18   10  23 1
+            19   12  24 1 #Down
+            20    4  25 2
+            21    1   2 2
+            22   12  13 1
+            23   13  14 1
+            24   24  26 1
+            25   14   7 1
+            26   26  27 1
+            27    6  12 1
+            28    3   4 1
+            29    4   5 1
+            30   26  28 2
+            31    5   1 1
+            32   27  29 1
+            33   29  30 1
+            34    3  31 1
+            35   31  32 1
+///

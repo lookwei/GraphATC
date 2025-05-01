@@ -1,0 +1,117 @@
+ENTRY       D08279                      Drug
+NAME        Tozasertib (USAN)
+FORMULA     C23H28N8OS
+EXACT_MASS  464.2107
+MOL_WEIGHT  464.5864
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+REMARK      Chemical structure group: DG01365
+EFFICACY    Antineoplastic, Aurora kinase (serine/threonine kinase) inhibitor
+TARGET      AURK [HSA:6790 9212 6795] [KO:K11481 K11479 K11480]
+            BCR-ABL [HSA:25] [KO:K06619]
+            FLT3 (CD135) [HSA:2322] [KO:K05092]
+  PATHWAY   hsa04010(2322)  MAPK signaling pathway
+            hsa04012(25)  ErbB signaling pathway
+            hsa04014(2322+25)  Ras signaling pathway
+            hsa04151(2322)  PI3K-Akt signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01365  Tozasertib
+                D08279  Tozasertib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               AGC group
+                AURK
+                 D08279  Tozasertib (USAN)
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                FLT3 (CD135)
+                 D08279  Tozasertib (USAN)
+              Non-receptor tyrosine kinases
+               ABL family
+                BCR-ABL
+                 D08279  Tozasertib (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01365  Tozasertib
+DBLINKS     CAS: 639089-54-6
+            PubChem: 96024966
+            PDB-CCD: VX6
+            LigandBox: D08279
+ATOM        33
+            1   C8x C    12.3900  -18.6200
+            2   C8y C    12.3900  -20.0200
+            3   C8x C    13.5800  -20.7200
+            4   C8x C    14.8400  -20.0200
+            5   C8y C    14.8400  -18.6200
+            6   C8x C    13.5800  -17.9200
+            7   S2a S    16.0300  -17.9200
+            8   C8y C    17.2200  -18.6200
+            9   N5x N    17.2200  -20.0200
+            10  C8y C    18.4800  -20.7200
+            11  C8x C    19.6700  -20.0200
+            12  C8y C    19.6700  -18.6200
+            13  N5x N    18.4800  -17.9200
+            14  N1b N    20.8600  -17.9200
+            15  C8y C    22.0500  -18.6200
+            16  N1y N    18.4800  -22.1200
+            17  C1x C    17.2900  -22.8200
+            18  C1x C    17.2900  -24.2200
+            19  N1y N    18.4800  -24.9200
+            20  C1x C    19.6700  -24.2200
+            21  C1x C    19.6700  -22.8200
+            22  C1a C    18.4800  -26.3200
+            23  N1b N    11.2000  -20.7200
+            24  C5a C    10.0100  -20.0200
+            25  C1y C     8.8200  -20.7200
+            26  O5a O    10.0100  -18.6200
+            27  C1x C     7.4395  -20.7056
+            28  C1x C     8.1367  -21.9197
+            29  N5x N    22.4782  -19.9529
+            30  N4x N    23.8783  -19.9575
+            31  C8y C    24.3153  -18.6274
+            32  C8x C    23.1853  -17.8008
+            33  C1a C    25.6273  -18.2057
+BOND        37
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   12  14 1
+            16   14  15 1
+            17   10  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   16  21 1
+            24   19  22 1
+            25    2  23 1
+            26   23  24 1
+            27   24  25 1
+            28   24  26 2
+            29   27  28 1
+            30   28  25 1
+            31   25  27 1
+            32   15  29 2
+            33   29  30 1
+            34   30  31 1
+            35   31  32 2
+            36   15  32 1
+            37   31  33 1
+///

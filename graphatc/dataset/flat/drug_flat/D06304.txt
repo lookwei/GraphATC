@@ -1,0 +1,176 @@
+ENTRY       D06304                      Drug
+NAME        Vindesine (USAN/INN)
+FORMULA     C43H55N5O7
+EXACT_MASS  753.4101
+MOL_WEIGHT  753.9261
+CLASS       Antineoplastic
+             DG01965  Vinca alkaloid antineoplastic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      ATC code: L01CA03
+            Chemical structure group: DG00691
+            Product (DG00691): D01769<JP>
+EFFICACY    Antineoplastic, Tubulin polymerization inhibitor
+COMMENT     Semisynthetic vinblastine derivative
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CA Vinca alkaloids and analogues
+                 L01CA03 Vindesine
+                  D06304  Vindesine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00691  Vindesine
+                D06304  Vindesine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00691  Vindesine
+                D06304  Vindesine
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D06304  Vindesine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D06304
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00691  Vindesine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00691  Vindesine
+DBLINKS     CAS: 53643-48-4
+            PubChem: 47207961
+            LigandBox: D06304
+            NIKKAJI: J24.547J
+ATOM        55
+            1   C1z C    22.0469  -23.5691
+            2   C1y C    23.1775  -22.9024
+            3   C1y C    22.0527  -24.8739
+            4   C8y C    19.7971  -23.5691
+            5   C1x C    21.2120  -22.4907
+            6   C1z C    24.3200  -23.5634
+            7   N1y N    23.1659  -21.5803
+            8   C1z C    23.1891  -25.5233
+            9   N1y N    20.9162  -25.5233
+            10  C8y C    19.7971  -24.8739
+            11  C8x C    18.6605  -22.9197
+            12  C1x C    21.8730  -21.5750
+            13  C1y C    24.2616  -24.8797
+            14  C2x C    25.4507  -22.8908
+            15  C1b C    25.4159  -24.1955
+            16  C1x C    24.3141  -20.9193
+            17  C5a C    24.0822  -26.7021
+            18  O1a O    22.6963  -27.4253
+            19  C1a C    20.9026  -26.8991
+            20  C8x C    18.6605  -25.5292
+            21  C8y C    17.5530  -23.5634
+            22  O1a O    26.7632  -25.7276
+            23  C2x C    25.4564  -21.5687
+            24  C1a C    26.5291  -23.5577
+            25  N1a N    24.0714  -27.9720
+            26  C8y C    17.5530  -24.8739
+            27  C1z C    15.1281  -21.3939
+            28  O2a O    16.4397  -25.5117
+            29  C8y C    14.0033  -20.6343
+            30  C1x C    16.3921  -20.6576
+            31  C7a C    14.7686  -22.6929
+            32  C1a C    15.3265  -24.8622
+            33  C8y C    14.0033  -19.2891
+            34  N4x N    12.8783  -21.3070
+            35  C1y C    16.3921  -19.3703
+            36  O7a O    13.3307  -23.1510
+            37  O6a O    15.5977  -23.7251
+            38  C8y C    11.6896  -19.2891
+            39  C1x C    13.2784  -18.1873
+            40  C8y C    11.6896  -20.6343
+            41  C1x C    15.2557  -18.7557
+            42  C1x C    17.4760  -18.5527
+            43  C1a C    12.4608  -24.5716
+            44  C8x C    10.5473  -18.6224
+            45  C1x C    14.0495  -17.2016
+            46  C8x C    10.5473  -21.3070
+            47  N1y N    15.2557  -17.5147
+            48  C1z C    17.5171  -17.4105
+            49  C8x C     9.4688  -19.2891
+            50  C8x C     9.4688  -20.6343
+            51  C1x C    16.3864  -16.7610
+            52  C1b C    19.0248  -17.9381
+            53  O1a O    18.3579  -16.1173
+            54  C1a C    20.0858  -17.3003
+            55  O5a O    25.3876  -26.1698
+BOND        63
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 2
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    6  14 1
+            14    6  15 1 #Down
+            15    7  16 1
+            16    8  17 1 #Down
+            17    8  18 1 #Up
+            18    9  19 1
+            19   10  20 1
+            20   11  21 2
+            21   13  22 1 #Up
+            22   14  23 2
+            23   15  24 1
+            24   17  25 1
+            25   20  26 2
+            26   27  21 1 #Down
+            27   26  28 1
+            28   27  29 1
+            29   27  30 1
+            30   27  31 1 #Up
+            31   28  32 1
+            32   29  33 2
+            33   29  34 1
+            34   30  35 1
+            35   31  36 1
+            36   31  37 2
+            37   33  38 1
+            38   33  39 1
+            39   34  40 1
+            40   35  41 1 #Down
+            41   35  42 1
+            42   36  43 1
+            43   38  44 1
+            44   39  45 1
+            45   40  46 1
+            46   47  41 1 #Down
+            47   42  48 1
+            48   44  49 2
+            49   46  50 2
+            50   47  51 1
+            51   48  52 1 #Down
+            52   48  53 1 #Up
+            53   52  54 1
+            54    7  12 1
+            55    8  13 1
+            56    9  10 1
+            57   16  23 1
+            58   21  26 1
+            59   38  40 2
+            60   45  47 1
+            61   48  51 1
+            62   49  50 1
+            63   17  55 2
+///

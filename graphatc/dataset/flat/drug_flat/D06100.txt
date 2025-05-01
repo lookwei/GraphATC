@@ -1,0 +1,71 @@
+ENTRY       D06100                      Drug
+NAME        Tezacitabine (USAN);
+            Tezacitabine monohydrate
+FORMULA     C10H12FN3O4. H2O
+EXACT_MASS  275.0917
+MOL_WEIGHT  275.2337
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+EFFICACY    Antineoplastic, Antimetabolite
+TARGET      RRM1 [HSA:6240] [KO:K10807]
+  PATHWAY   hsa00230(6240)  Purine metabolism
+            hsa00240(6240)  Pyrimidine metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 D06100  Tezacitabine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Ribonucleoside-diphosphate reductase
+                RRM1
+                 D06100  Tezacitabine (USAN)
+DBLINKS     CAS: 171176-43-5
+            PubChem: 47207758
+            LigandBox: D06100
+ATOM        19
+            1   C1y C    31.3641  -16.6552
+            2   O2x O    30.2453  -15.8508
+            3   C1y C    29.0727  -16.6787
+            4   C1y C    29.5154  -17.9855
+            5   C2y C    30.9422  -17.9965
+            6   C2b C    31.7699  -19.1691
+            7   X   F    31.2253  -20.4134
+            8   O1a O    28.7110  -19.1043
+            9   N5x N    35.1128  -16.1543
+            10  C8y C    35.1465  -14.7557
+            11  C8x C    33.9395  -14.0871
+            12  C8x C    32.6989  -14.8190
+            13  N4y N    32.6709  -16.2126
+            14  C8y C    33.9419  -16.8844
+            15  O5x O    33.9782  -18.2831
+            16  N1a N    36.3173  -14.0256
+            17  C1b C    27.7314  -16.2568
+            18  O1a O    26.6816  -17.1816
+            19  O0  O    36.4479  -19.7258
+BOND        19
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     5   6 2
+            7     6   7 1
+            8     4   8 1 #Down
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 1
+            14    9  14 1
+            15   14  15 2
+            16   10  16 1
+            17    1  13 1 #Up
+            18    3  17 1 #Up
+            19   17  18 1
+///

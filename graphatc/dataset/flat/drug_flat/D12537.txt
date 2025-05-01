@@ -1,0 +1,115 @@
+ENTRY       D12537                      Drug
+NAME        Catequentinib hydrochloride (USAN)
+FORMULA     C23H22FN3O3. 2HCl
+EXACT_MASS  479.1179
+MOL_WEIGHT  480.3594
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+REMARK      Chemical structure group: DG03258
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+TARGET      VEGFR1 (FLT1) [HSA:2321] [KO:K05096]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            VEGFR3 (FLT4) [HSA:2324] [KO:K05097]
+            FGFR [HSA:2260 2263 2261 2264] [KO:K04362 K05093 K05094 K05095]
+            PDGFR [HSA:5156 5159] [KO:K04363 K05089]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+  PATHWAY   hsa04010(2260+2261+2263+2264+2321+2324+3791+3815+5156+5159)  MAPK signaling pathway
+            hsa04151(2260+2261+2263+2264+2321+2324+3791+3815+5156+5159)  PI3K-Akt signaling pathway
+            hsa05200(2260+2261+2263+2264+2324+3815+5156+5159)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03258  Catequentinib
+                D12537  Catequentinib hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFR
+                 D12537  Catequentinib hydrochloride (USAN)
+                KIT (CD117)
+                 D12537  Catequentinib hydrochloride (USAN)
+               FGFR family
+                FGFR
+                 D12537  Catequentinib hydrochloride (USAN)
+               VEGFR family
+                VEGFR1 (FLT1)
+                 D12537  Catequentinib hydrochloride (USAN)
+                VEGFR2 (KDR)
+                 D12537  Catequentinib hydrochloride (USAN)
+                VEGFR3 (FLT4)
+                 D12537  Catequentinib hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03258  Catequentinib
+ATOM        32
+            1   C8x C    24.0607  -16.5767
+            2   C8y C    24.0607  -17.9056
+            3   C8x C    22.8017  -15.8073
+            4   C8y C    21.6127  -16.5767
+            5   C8y C    21.6127  -17.9056
+            6   C8y C    22.8017  -18.6051
+            7   O2a O    20.4236  -15.8073
+            8   C8y C    20.4236  -14.4084
+            9   C8x C    21.6127  -13.7090
+            10  C8x C    21.6127  -12.3101
+            11  N5x N    20.4236  -11.6107
+            12  C8y C    19.1646  -12.3101
+            13  C8y C    19.1646  -13.7090
+            14  C8x C    17.9756  -11.6107
+            15  C8y C    16.7865  -12.3101
+            16  C8y C    16.7865  -13.7090
+            17  C8x C    17.9756  -14.4084
+            18  O2a O    15.5975  -11.6107
+            19  C1b C    14.4084  -12.3101
+            20  C1z C    13.2194  -11.6107
+            21  O2a O    15.5975  -14.4084
+            22  C1a C    14.4084  -13.7090
+            23  N1a N    12.0303  -12.3101
+            24  C1x C    13.9188  -10.4216
+            25  C1x C    12.5200  -10.4216
+            26  X   F    20.4236  -18.6051
+            27  C8x C    23.0815  -20.0739
+            28  C8y C    24.4804  -20.2138
+            29  N4x N    25.1098  -18.8848
+            30  C1a C    25.1798  -21.4728
+            31  X   Cl   13.5800  -21.3500
+            32  X   Cl   13.5800  -20.0200
+BOND        34
+            1     1   2 2
+            2     1   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     2   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   12  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   13  17 1
+            20   15  18 1
+            21   18  19 1
+            22   19  20 1
+            23   16  21 1
+            24   21  22 1
+            25   20  23 1
+            26   24  25 1
+            27   25  20 1
+            28   20  24 1
+            29    5  26 1
+            30    6  27 1
+            31   27  28 2
+            32   28  29 1
+            33    2  29 1
+            34   28  30 1
+///

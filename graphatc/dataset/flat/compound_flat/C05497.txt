@@ -1,0 +1,82 @@
+ENTRY       C05497                      Compound
+NAME        21-Deoxycortisol;
+            4-Pregnene-11beta,17alpha-diol-3,20-dione;
+            11beta,17alpha-Dihydroxyprogesterone
+FORMULA     C21H30O4
+EXACT_MASS  346.2144
+MOL_WEIGHT  346.4605
+REACTION    R02838 R03329 R04852
+PATHWAY     map00140  Steroid hormone biosynthesis
+ENZYME      1.14.14.16      1.14.14.19      1.14.15.4
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Steroid hormones
+               Glucocorticoids
+                C05497  21-Deoxycortisol
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C05497  21-Deoxycortisol
+DBLINKS     CAS: 641-77-0
+            PubChem: 7850
+            ChEBI: 180960 28697
+            LIPIDMAPS: LMST02030195
+            3DMET: B05063
+            NIKKAJI: J205.915K
+ATOM        25
+            1   C1y C    19.8292  -17.5614
+            2   C1y C    21.0257  -16.8611
+            3   C1y C    18.6444  -16.8844
+            4   C1x C    19.8350  -18.9389
+            5   C1z C    21.0315  -15.4894
+            6   C1x C    23.4127  -16.8026
+            7   C1z C    17.4654  -17.5731
+            8   C1y C    18.6328  -15.5070
+            9   C1x C    18.6502  -19.6100
+            10  C1z C    22.2222  -14.8007
+            11  C1x C    19.8233  -14.8066
+            12  C1a C    21.0257  -14.1412
+            13  C1x C    23.4127  -15.5011
+            14  C2y C    17.4654  -18.9330
+            15  C1x C    16.2805  -16.9018
+            16  C1a C    17.4537  -16.2248
+            17  O1a O    17.4186  -14.8183
+            18  C5a C    22.1579  -13.4582
+            19  O1a O    23.2726  -13.9894
+            20  C2x C    16.2805  -19.6159
+            21  C1x C    15.1191  -17.5731
+            22  C1a C    23.3894  -12.7929
+            23  O5a O    21.0608  -12.7812
+            24  C5x C    15.1191  -18.9330
+            25  O5x O    13.9517  -19.5983
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1 #Up
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1
+            15    7  16 1 #Up
+            16    8  17 1 #Up
+            17   10  18 1
+            18   10  19 1 #Down
+            19   14  20 2
+            20   15  21 1
+            21   18  22 1
+            22   18  23 2
+            23   20  24 1
+            24   24  25 2
+            25    8  11 1
+            26    9  14 1
+            27   10  13 1
+            28   21  24 1
+///

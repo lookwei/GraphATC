@@ -1,0 +1,129 @@
+ENTRY       D08356                      Drug
+NAME        Phenobarbital diethylamine;
+            Gratusminal (TN)
+FORMULA     C12H12N2O3. C4H11N
+EXACT_MASS  305.1739
+MOL_WEIGHT  305.3721
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG03199  Antiepileptic agent
+              DG01904  Barbiturate antiepileptic
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+             DG02891  CYP2B6 inducer
+             DG02886  CYP2C9 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      ATC code: N03AA02
+            Chemical structure group: DG00845
+            Product (DG00845): D00506<JP> D00701<JP/US>
+EFFICACY    Anticonvulsant, Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]; CYP1A2 [HSA:1544], CYP2B6 [HSA:1555], CYP2C9 [HSA:1559]
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AA Barbiturates and derivatives
+                 N03AA02 Phenobarbital
+                  D08356  Phenobarbital diethylamine
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               DG00845  Phenobarbital
+                D08356  Phenobarbital diethylamine
+              DG03199  Antiepileptic agent
+               DG01904  Barbiturate antiepileptic
+                DG00845  Phenobarbital
+                 D08356  Phenobarbital diethylamine
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00845  Phenobarbital
+                D08356  Phenobarbital diethylamine
+              DG02891  CYP2B6 inducer
+               DG00845  Phenobarbital
+                D08356  Phenobarbital diethylamine
+              DG02886  CYP2C9 inducer
+               DG00845  Phenobarbital
+                D08356  Phenobarbital diethylamine
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00845  Phenobarbital
+                D08356  Phenobarbital diethylamine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D08356  Phenobarbital diethylamine
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08356
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               DG00845  Phenobarbital
+              DG03199  Antiepileptic agent
+               DG01904  Barbiturate antiepileptic
+                DG00845  Phenobarbital
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00845  Phenobarbital
+              DG02891  CYP2B6 inducer
+               DG00845  Phenobarbital
+              DG02886  CYP2C9 inducer
+               DG00845  Phenobarbital
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00845  Phenobarbital
+DBLINKS     PubChem: 96025043
+            LigandBox: D08356
+ATOM        22
+            1   C1z C    19.9500  -18.3400
+            2   C8y C    21.1400  -17.6400
+            3   C5x C    18.6900  -17.6400
+            4   C5x C    19.9500  -19.7400
+            5   C1b C    21.1400  -19.0400
+            6   C8x C    22.3300  -18.2700
+            7   C8x C    21.1400  -16.2400
+            8   N1x N    17.5000  -18.3400
+            9   O5x O    18.6900  -16.2400
+            10  N1x N    18.6900  -20.4400
+            11  O5x O    21.1400  -20.4400
+            12  C1a C    22.5400  -19.0400
+            13  C8x C    23.5900  -17.5700
+            14  C8x C    22.3300  -15.4700
+            15  C5x C    17.5000  -19.7400
+            16  C8x C    23.5900  -16.1700
+            17  O5x O    16.3100  -20.4400
+            18  C1a C    27.4400  -19.1100
+            19  C1b C    28.6524  -18.4100
+            20  N1b N    29.8649  -19.1100
+            21  C1b C    31.0773  -18.4100
+            22  C1a C    32.2897  -19.1100
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 2
+            11    5  12 1
+            12    6  13 1
+            13    7  14 2
+            14    8  15 1
+            15   13  16 2
+            16   15  17 2
+            17   10  15 1
+            18   14  16 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+///

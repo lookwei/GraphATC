@@ -1,0 +1,57 @@
+ENTRY       D08521                      Drug
+NAME        Sodium aurothiosulfate (INN);
+            Gold sodium thiosulfate, dihydrate;
+            Crytioro (TN)
+FORMULA     AuS4O6. 3Na. 2H2O
+EXACT_MASS  525.8148
+MOL_WEIGHT  526.2228
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG01912  Gold preparations
+REMARK      ATC code: M01CB02
+EFFICACY    Antirheumatic
+COMMENT     Gold preparation
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01C SPECIFIC ANTIRHEUMATIC AGENTS
+                M01CB Gold preparations
+                 M01CB02 Sodium aurotiosulfate
+                  D08521  Sodium aurothiosulfate (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG01912  Gold preparations
+                D08521  Sodium aurothiosulfate
+DBLINKS     CAS: 10210-36-3
+            PubChem: 96025206
+ATOM        16
+            1   S4a S    24.5179  -18.4372
+            2   S3a S    25.7033  -17.7527
+            3   Z   Au   26.8204  -18.7109 #-
+            4   S3a S    28.0742  -17.7527
+            5   S4a S    29.2596  -18.4372
+            6   O1d O    23.8335  -17.2518
+            7   O1d O    23.3325  -19.1216
+            8   O1d O    30.2275  -17.4693
+            9   O1d O    30.2275  -19.4050
+            10  O1d O    25.2024  -19.6225 #-
+            11  O1d O    28.5752  -19.6225 #-
+            12  Z   Na   26.5883  -15.9904 #+
+            13  Z   Na   24.5647  -21.5854 #+
+            14  Z   Na   28.1188  -21.5170 #+
+            15  O0  O    33.4600  -17.7800
+            16  O0  O    33.4600  -19.3200
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   6 2
+            6     1   7 2
+            7     5   8 2
+            8     5   9 2
+            9     1  10 1
+            10    5  11 1
+///

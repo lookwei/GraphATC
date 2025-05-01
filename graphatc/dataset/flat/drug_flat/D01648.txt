@@ -1,0 +1,99 @@
+ENTRY       D01648                      Drug
+NAME        Hyoscyamine methylbromide (JAN)
+FORMULA     C18H26NO3. Br
+EXACT_MASS  383.1096
+MOL_WEIGHT  384.3079
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      Same as: C13109
+            ATC code: A03BA03
+            Chemical structure group: DG00053
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04970(1131)  Salivary secretion
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03B BELLADONNA AND DERIVATIVES, PLAIN
+                A03BA Belladonna alkaloids, tertiary amines
+                 A03BA03 Hyoscyamine
+                  D01648  Hyoscyamine methylbromide (JAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Hyoscyamine methylbromide
+                D01648  Hyoscyamine methylbromide (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00053  Hyoscyamine
+                D01648  Hyoscyamine methylbromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01648  Hyoscyamine methylbromide (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00053  Hyoscyamine
+DBLINKS     PubChem: 7848711
+            ChEBI: 31681
+            LigandBox: D01648
+ATOM        23
+            1   C1x C    28.3306  -36.1582
+            2   C1x C    28.6501  -35.0172
+            3   C1y C    29.4716  -35.8843
+            4   C1y C    29.7911  -34.7434
+            5   N2y N    28.5589  -33.4655 #+
+            6   C1x C    31.2971  -35.8843
+            7   C1x C    31.0233  -34.7434
+            8   C1y C    32.3012  -36.4320
+            9   O7a O    33.3509  -37.2991
+            10  C7a C    34.5375  -37.2991
+            11  C1c C    35.1308  -36.2494
+            12  O6a O    35.1308  -38.3944
+            13  C8y C    36.3175  -36.2494
+            14  C1b C    34.5375  -35.2453
+            15  O1a O    35.1308  -34.1957
+            16  C8x C    37.0052  -37.4410
+            17  C8x C    38.3684  -37.4413
+            18  C8x C    39.0503  -36.2608
+            19  C8x C    38.3627  -35.0692
+            20  C8x C    36.9994  -35.0689
+            21  C1a C    27.8294  -32.3124
+            22  C1a C    27.3618  -34.0621
+            23  X   Br   32.2610  -32.4960 #-
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 1
+            13   11  14 1 #Down
+            14   14  15 1
+            15    4   5 1
+            16    7   8 1
+            17   13  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   13  20 1
+            23    5  21 1
+            24    5  22 1
+///

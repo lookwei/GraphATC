@@ -1,0 +1,205 @@
+ENTRY       D00291                      Drug
+NAME        Desmopressin (INN)
+FORMULA     C46H64N14O12S2
+EXACT_MASS  1068.427
+MOL_WEIGHT  1069.217
+CLASS       Cardiovascular agent
+             DG01952  Vasopressin analog
+REMARK      Same as: C06944
+            ATC code: H01BA02
+            Chemical structure group: DG00497
+            Product (DG00497): D02235<JP/US>
+EFFICACY    Antidiuretic, Arginine vasopressin receptor agonist
+COMMENT     Arg-vasopressin [DR:D02983] derivative
+TARGET      AVPR2 [HSA:554] [KO:K04228]
+            F8 [HSA:2157] [KO:K03899]
+  PATHWAY   hsa04080(554)  Neuroactive ligand-receptor interaction
+            hsa04610(2157)  Complement and coagulation cascades
+            hsa04962(554)  Vasopressin-regulated water reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H01 PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES
+               H01B POSTERIOR PITUITARY LOBE HORMONES
+                H01BA Vasopressin and analogues
+                 H01BA02 Desmopressin
+                  D00291  Desmopressin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01952  Vasopressin analog
+               DG00497  Desmopressin
+                D00291  Desmopressin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Vasopressin
+                AVPR2
+                 D00291  Desmopressin (INN)
+             Not elsewhere classified
+              Organismal systems
+               Complement and coagulation
+                F8
+                 D00291  Desmopressin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01952  Vasopressin analog
+               DG00497  Desmopressin
+DBLINKS     CAS: 16679-58-6
+            PubChem: 7847357
+            ChEBI: 4450
+            LigandBox: D00291
+            NIKKAJI: J10.349G
+ATOM        74
+            1   N1y N    17.3970  -17.6248
+            2   C1y C    17.8214  -18.8689
+            3   C5a C    17.3970  -16.3108
+            4   C1x C    16.0714  -17.6480
+            5   C5a C    18.9611  -19.5260
+            6   C1x C    16.7632  -19.6654
+            7   C1y C    18.5367  -15.6480
+            8   O5a O    16.2574  -15.6480
+            9   C1x C    15.6877  -18.9097
+            10  N1b N    20.1006  -18.8689
+            11  O5a O    18.9611  -20.8516
+            12  N1x N    18.5367  -14.3281
+            13  C1x C    19.6705  -16.3108
+            14  C1c C    21.2460  -19.5260
+            15  C5x C    19.6821  -13.6712
+            16  S3x S    20.8157  -15.6480
+            17  C5a C    21.2460  -20.8516
+            18  C1b C    22.3855  -18.8689
+            19  C1y C    19.6821  -12.3514
+            20  O5x O    20.8157  -14.3281
+            21  S3x S    21.9552  -16.3108
+            22  N1b N    22.3855  -21.5085
+            23  O5a O    20.1006  -21.5085
+            24  C1b C    23.5251  -19.5260
+            25  N1x N    18.5367  -11.6942
+            26  C1b C    20.8157  -11.6942
+            27  C1x C    23.0948  -15.6480
+            28  C1b C    23.5251  -20.8516
+            29  C1b C    24.6704  -18.8689
+            30  C5x C    18.5367  -10.3803
+            31  C5a C    21.9552  -12.3514
+            32  C1x C    24.2401  -16.3108
+            33  C1y C    20.5483   -9.6536
+            34  O5x O    17.3970   -9.7175
+            35  N1a N    23.0948  -11.6942
+            36  O5a O    21.9552  -13.6712
+            37  C5x C    25.3798  -15.6480
+            38  N1x N    22.4087  -10.3862
+            39  C1b C    20.5657   -7.9370
+            40  N1x N    26.5192  -16.3108
+            41  O5x O    25.3798  -14.3281
+            42  C5x C    24.2809   -9.6536
+            43  C1b C    19.4378   -7.2542
+            44  C1y C    27.6648  -15.6480
+            45  C1y C    26.5425  -10.3862
+            46  O5x O    24.2926   -8.3397
+            47  C5a C    18.2867   -7.9016
+            48  C1b C    28.8042  -16.3108
+            49  C5x C    27.6648  -13.9081
+            50  C1b C    27.8158   -9.7234
+            51  N1x N    26.5192  -13.2512
+            52  N1a N    17.1529   -7.2272
+            53  O5a O    18.2691   -9.2176
+            54  C8y C    29.9438  -15.6480
+            55  O5x O    28.8042  -13.2512
+            56  C8y C    29.0136  -10.3164
+            57  C8x C    31.0777  -16.3049
+            58  C8x C    29.9379  -14.3224
+            59  C8x C    29.0136  -11.6362
+            60  C8x C    30.1591   -9.6594
+            61  C8x C    32.2230  -15.6480
+            62  C8x C    31.0777  -13.6712
+            63  C8x C    30.1591  -12.2932
+            64  C8x C    31.2928  -10.3164
+            65  C8y C    32.2230  -14.3224
+            66  C8x C    31.2928  -11.6362
+            67  O1a O    33.3626  -13.6712
+            68  C5a C    24.7323  -21.5497
+            69  N1a N    25.9527  -20.8462
+            70  O5a O    24.7314  -22.9458
+            71  N1b N    25.8596  -19.5598
+            72  C2c C    27.0791  -18.8602
+            73  N1a N    28.2844  -19.5604
+            74  N2a N    27.0830  -17.4551
+BOND        77
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    7  12 1
+            12    7  13 1
+            13   10  14 1
+            14   12  15 1
+            15   13  16 1
+            16   14  17 1
+            17   14  18 1
+            18   15  19 1
+            19   15  20 2
+            20   16  21 1
+            21   17  22 1
+            22   17  23 2
+            23   18  24 1
+            24   19  25 1
+            25   19  26 1
+            26   21  27 1
+            27   22  28 1
+            28   24  29 1
+            29   25  30 1
+            30   26  31 1
+            31   27  32 1
+            32   30  33 1
+            33   30  34 2
+            34   31  35 1
+            35   31  36 2
+            36   32  37 1
+            37   33  38 1
+            38   33  39 1
+            39   37  40 1
+            40   37  41 2
+            41   38  42 1
+            42   39  43 1
+            43   40  44 1
+            44   42  45 1
+            45   42  46 2
+            46   43  47 1
+            47   44  48 1
+            48   44  49 1
+            49   45  50 1
+            50   45  51 1
+            51   47  52 1
+            52   47  53 2
+            53   48  54 1
+            54   49  55 2
+            55   50  56 1
+            56   54  57 2
+            57   54  58 1
+            58   56  59 2
+            59   56  60 1
+            60   57  61 1
+            61   58  62 2
+            62   59  63 1
+            63   60  64 2
+            64   61  65 2
+            65   63  66 2
+            66   65  67 1
+            67    6   9 1
+            68   49  51 1
+            69   62  65 1
+            70   64  66 1
+            71   28  68 1
+            72   68  69 1
+            73   68  70 2
+            74   29  71 1
+            75   71  72 1
+            76   72  73 1
+            77   72  74 2
+///

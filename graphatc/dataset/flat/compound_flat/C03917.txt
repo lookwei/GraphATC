@@ -1,0 +1,110 @@
+ENTRY       C03917                      Compound
+NAME        Dihydrotestosterone;
+            17beta-Hydroxyandrostan-3-one;
+            Androstanolone;
+            17beta-Hydroxy-5alpha-androstan-3-one
+FORMULA     C19H30O2
+EXACT_MASS  290.2246
+MOL_WEIGHT  290.4403
+REMARK      Same as: D07456
+REACTION    R02497 R04330 R04344 R08963
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map05200  Pathways in cancer
+            map05215  Prostate cancer
+NETWORK     nt06019  Steroid hormone biosynthesis
+            nt06227  Nuclear receptor signaling (cancer)
+            nt06272  Prostate cancer
+ENZYME      1.1.1.50        1.1.1.53        1.1.1.210       1.3.1.22
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              19-Carbon atoms
+               Androstane derivatives
+                C03917  Dihydrotestosterone
+             Hormones and transmitters
+              Steroid hormones
+               Androgens
+                C03917  Dihydrotestosterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0202 C19 steroids (androgens) and derivatives
+                C03917  17beta-Hydroxy-5alpha-androstan-3-one
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D07456)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A14 ANABOLIC AGENTS FOR SYSTEMIC USE
+               A14A ANABOLIC STEROIDS
+                A14AA Androstan derivatives
+                 A14AA01 Androstanolone
+                  D07456  Androstanolone (INN)
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03B ANDROGENS
+                G03BB 5-androstanon (3) derivatives
+                 G03BB02 Androstanolone
+                  D07456  Androstanolone (INN)
+            Drug groups [BR:br08330(D07456)]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                D07456  Androstanolone
+            Target-based classification of drugs [BR:br08310(D07456)]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D07456  Androstanolone (INN)
+DBLINKS     CAS: 521-18-6
+            PubChem: 6646
+            ChEBI: 16330
+            LIPIDMAPS: LMST02020042
+            PDB-CCD: DHT
+            3DMET: B01699
+            NIKKAJI: J39.503J
+ATOM        21
+            1   C1y C    30.0164  -17.6466
+            2   C1y C    28.8410  -16.9672
+            3   C1y C    31.1979  -16.9550
+            4   C1x C    30.0226  -19.0056
+            5   C1z C    27.7515  -17.6528
+            6   C1x C    28.8167  -15.5775
+            7   C1z C    31.1979  -15.5897
+            8   C1x C    33.5548  -16.9672
+            9   C1x C    28.8472  -19.6730
+            10  C1y C    27.7515  -18.9811
+            11  C1x C    26.5025  -16.9855
+            12  C1a C    27.5862  -16.1591
+            13  C1x C    30.0104  -14.9164
+            14  C1y C    32.3856  -14.9102
+            15  C1a C    31.1551  -14.0287
+            16  C1x C    33.5610  -15.6020
+            17  C1x C    26.5025  -19.6792
+            18  C1x C    25.3516  -17.6528
+            19  O1a O    32.3856  -13.5819
+            20  C5x C    25.3516  -18.9996
+            21  O5x O    24.1946  -19.6607
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1 #Up
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1 #Up
+            15    8  16 1
+            16   10  17 1
+            17   11  18 1
+            18   14  19 1 #Up
+            19   17  20 1
+            20   20  21 2
+            21    7  13 1
+            22    9  10 1
+            23   14  16 1
+            24   18  20 1
+///

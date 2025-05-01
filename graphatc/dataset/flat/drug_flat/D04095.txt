@@ -1,0 +1,111 @@
+ENTRY       D04095                      Drug
+NAME        Etidocaine (USAN/INN)
+FORMULA     C17H28N2O
+EXACT_MASS  276.2202
+MOL_WEIGHT  276.417
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01673  Amide type local anesthetic
+REMARK      Same as: C07530
+            ATC code: N01BB07
+            Chemical structure group: DG00804
+EFFICACY    Anesthetic (local)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01B ANESTHETICS, LOCAL
+                N01BB Amides
+                 N01BB07 Etidocaine
+                  D04095  Etidocaine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00804  Etidocaine
+                  D04095  Etidocaine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D04095  Etidocaine (USAN/INN)
+                SCN2A
+                 D04095  Etidocaine (USAN/INN)
+                SCN3A
+                 D04095  Etidocaine (USAN/INN)
+                SCN4A
+                 D04095  Etidocaine (USAN/INN)
+                SCN5A
+                 D04095  Etidocaine (USAN/INN)
+                SCN8A
+                 D04095  Etidocaine (USAN/INN)
+                SCN9A
+                 D04095  Etidocaine (USAN/INN)
+                SCN10A
+                 D04095  Etidocaine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00804  Etidocaine
+DBLINKS     CAS: 36637-18-0
+            PubChem: 47206048
+            ChEBI: 4904
+            LigandBox: D04095
+            NIKKAJI: J369.232I
+ATOM        20
+            1   C8y C    28.2027  -15.3185
+            2   N1b N    29.4372  -16.0323
+            3   C8y C    26.9742  -16.0381
+            4   C8y C    28.2027  -13.8969
+            5   C5a C    30.6658  -15.3126
+            6   C8x C    25.7455  -15.3185
+            7   C1a C    26.9800  -17.4539
+            8   C8x C    26.9742  -13.1889
+            9   C1a C    29.4255  -13.1889
+            10  C1c C    31.8945  -16.0323
+            11  O5a O    30.6542  -14.2362
+            12  C8x C    25.7455  -13.8969
+            13  N1c N    33.1290  -15.3126
+            14  C1b C    31.8885  -17.4248
+            15  C1b C    34.3635  -16.0323
+            16  C1b C    33.1290  -13.8969
+            17  C1a C    33.0939  -18.1209
+            18  C1b C    35.5803  -15.3126
+            19  C1a C    34.3635  -13.1831
+            20  C1a C    36.7972  -15.9972
+BOND        20
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12   10  13 1
+            13   10  14 1
+            14   13  15 1
+            15   13  16 1
+            16   14  17 1
+            17   15  18 1
+            18   16  19 1
+            19   18  20 1
+            20    8  12 1
+///

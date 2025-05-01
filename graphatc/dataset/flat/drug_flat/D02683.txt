@@ -1,0 +1,103 @@
+ENTRY       D02683                      Drug
+NAME        Remoxipride hydrochloride (USAN)
+FORMULA     C16H23BrN2O3. HCl. H2O
+EXACT_MASS  424.0764
+MOL_WEIGHT  425.7456
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01941  Benzamide antipsychotic
+REMARK      ATC code: N05AL04
+            Chemical structure group: DG00902
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Benzamide derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04540(1813)  Gap junction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AL Benzamides
+                 N05AL04 Remoxipride
+                  D02683  Remoxipride hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00902  Remoxipride
+                 D02683  Remoxipride hydrochloride
+              DG03200  Antipsychotic agent
+               DG01941  Benzamide antipsychotic
+                DG00902  Remoxipride
+                 D02683  Remoxipride hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02683  Remoxipride hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00902  Remoxipride
+              DG03200  Antipsychotic agent
+               DG01941  Benzamide antipsychotic
+                DG00902  Remoxipride
+DBLINKS     CAS: 117591-79-4
+            PubChem: 17396852
+            LigandBox: D02683
+            NIKKAJI: J2.194.809H
+ATOM        24
+            1   X   Cl   24.7219  -15.1553
+            2   O0  O    25.0625  -17.1860
+            3   C8y C    12.2671  -16.4735
+            4   C8x C    12.2671  -15.0716
+            5   C8x C    13.5289  -14.3706
+            6   C8y C    13.5289  -17.1744
+            7   C8y C    14.7205  -16.4735
+            8   C8y C    14.7205  -15.0716
+            9   O2a O    15.9121  -14.3706
+            10  C5a C    15.9121  -17.1744
+            11  N1b N    17.1739  -16.4735
+            12  C1b C    18.3655  -17.1744
+            13  O5a O    15.9121  -18.5763
+            14  C1a C    15.9121  -12.9687
+            15  C1y C    19.6272  -16.5436
+            16  N1y N    20.7487  -17.3146
+            17  C1x C    21.8703  -16.4735
+            18  C1x C    21.3796  -15.2117
+            19  C1x C    20.0478  -15.2117
+            20  C1b C    20.7487  -18.6464
+            21  C1a C    22.0806  -19.4175
+            22  O2a O    13.5289  -18.5763
+            23  C1a C    12.3372  -19.3474
+            24  X   Br   11.0583  -17.1848
+BOND        23
+            1    11  10 1
+            2    10   7 1
+            3     3   4 2
+            4     4   5 1
+            5    12  11 1
+            6     5   8 2
+            7     7   6 2
+            8     6   3 1
+            9    10  13 2
+            10    7   8 1
+            11    8   9 1
+            12    9  14 1
+            13   15  12 1 #Down
+            14   15  16 1
+            15   16  17 1
+            16   17  18 1
+            17   18  19 1
+            18   15  19 1
+            19   16  20 1
+            20   20  21 1
+            21    6  22 1
+            22   22  23 1
+            23    3  24 1
+///

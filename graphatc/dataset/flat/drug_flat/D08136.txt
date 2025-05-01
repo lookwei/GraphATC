@@ -1,0 +1,51 @@
+ENTRY       D08136                      Drug
+NAME        Lithium gluconate;
+            Lithioderm (TN)
+FORMULA     C6H11O7. Li
+EXACT_MASS  202.0665
+MOL_WEIGHT  202.0883
+REMARK      ATC code: N05AN01
+            Chemical structure group: DG00903
+            Product (DG00903): D00801<JP/US> D04749<US>
+EFFICACY    Anti-inflammatory (topical)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AN Lithium
+                 N05AN01 Lithium
+                  D08136  Lithium gluconate
+DBLINKS     CAS: 60816-70-8
+            PubChem: 96024826
+            LigandBox: D08136
+            NIKKAJI: J268.297D
+ATOM        14
+            1   O1a O    12.6700  -15.2600
+            2   C1b C    13.8824  -14.5600
+            3   C1c C    15.0949  -15.2600
+            4   C1c C    16.3073  -14.5600
+            5   C1c C    17.5197  -15.2600
+            6   C1c C    18.7322  -14.5600
+            7   C6a C    19.9446  -15.2600
+            8   O6a O    21.1570  -14.5600 #-
+            9   O1a O    15.0949  -16.6598
+            10  O1a O    16.3073  -13.1600
+            11  O1a O    17.5197  -16.6599
+            12  O1a O    18.7322  -13.1603
+            13  O6a O    19.9446  -16.6600
+            14  Z   Li   25.0600  -15.1200 #+
+BOND        12
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     3   9 1 #Down
+            9     4  10 1 #Up
+            10    5  11 1 #Up
+            11    6  12 1 #Up
+            12    7  13 2
+///

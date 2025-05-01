@@ -1,0 +1,135 @@
+ENTRY       D02644                      Drug
+NAME        Carphenazine maleate (USAN);
+            Proketazine (TN)
+FORMULA     C24H31N3O2S. (C4H4O4)2
+EXACT_MASS  657.2356
+MOL_WEIGHT  657.7312
+CLASS       Neuropsychiatric agent
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+EFFICACY    Antipsychotic, Dopamine receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                D02644  Carphenazine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D02644  Carphenazine maleate (USAN)
+                DRD2
+                 D02644  Carphenazine maleate (USAN)
+DBLINKS     CAS: 2975-34-0
+            PubChem: 17396814
+            ChEBI: 51241
+            LigandBox: D02644
+            NIKKAJI: J220.106B
+ATOM        46
+            1   C8y C    16.9006  -19.8188
+            2   C8y C    16.9006  -18.4230
+            3   C8x C    15.7142  -17.6554
+            4   C8x C    14.5279  -18.4230
+            5   C8x C    14.5279  -19.8188
+            6   C8x C    15.7142  -20.5166
+            7   S2x S    18.0870  -20.5166
+            8   C8y C    19.2733  -19.8188
+            9   C8y C    19.2733  -18.4230
+            10  N1y N    18.0870  -17.6554
+            11  C8x C    20.5295  -20.5166
+            12  C8x C    21.7158  -19.8188
+            13  C8y C    21.7158  -18.4230
+            14  C8x C    20.5295  -17.6554
+            15  C1b C    18.0870  -16.2597
+            16  C1b C    19.2733  -15.7014
+            17  C1b C    19.2733  -14.2359
+            18  N1y N    20.4597  -13.6078
+            19  C1x C    21.6460  -14.2359
+            20  C1x C    22.8324  -13.5380
+            21  N1y N    22.8324  -12.1423
+            22  C1x C    21.6460  -11.4445
+            23  C1x C    20.4597  -12.2121
+            24  C1b C    24.0188  -11.4445
+            25  C5a C    22.9022  -17.6554
+            26  C1b C    24.0188  -18.4230
+            27  C1a C    25.2749  -17.6554
+            28  O5a O    22.9022  -16.2597
+            29  C1b C    25.2331  -12.1324
+            30  O1a O    26.4109  -11.4395
+            31  C6a C    32.9185  -15.2462
+            32  C2b C    32.2434  -14.0815
+            33  O6a O    32.3189  -16.4864
+            34  O6a O    34.2691  -15.2399
+            35  C2b C    30.6265  -14.0877
+            36  C6a C    29.9575  -15.2585
+            37  O6a O    28.6069  -15.2585
+            38  O6a O    30.6390  -16.4925
+            39  C6a C    32.9185  -15.2462
+            40  C2b C    32.2434  -14.0815
+            41  C2b C    30.6265  -14.0877
+            42  C6a C    29.9575  -15.2585
+            43  O6a O    28.6069  -15.2585
+            44  O6a O    30.6390  -16.4925
+            45  O6a O    32.3189  -16.4864
+            46  O6a O    34.2691  -15.2399
+BOND        47
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    2  10 1
+            12    8  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16    9  14 1
+            17   10  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   18  23 1
+            27   21  24 1
+            28   13  25 1
+            29   25  26 1
+            30   26  27 1
+            31   25  28 2
+            32   24  29 1
+            33   29  30 1
+            34   31  32 1
+            35   31  33 1
+            36   31  34 2
+            37   32  35 2
+            38   35  36 1
+            39   36  37 1
+            40   36  38 2
+            41   39  40 1
+            42   39  45 1
+            43   39  46 2
+            44   40  41 2
+            45   41  42 1
+            46   42  43 1
+            47   42  44 2
+BRACKET     1    27.4400  -17.0800   27.4400  -13.3700
+            1    34.8600  -13.3700   34.8600  -17.0800
+            1  2
+  ORIGINAL  1   31  32  35  36  37  38  33  34
+  REPEAT    1   39  40  41  42  43  44  45  46
+///

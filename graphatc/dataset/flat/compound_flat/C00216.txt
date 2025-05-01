@@ -1,0 +1,48 @@
+ENTRY       C00216                      Compound
+NAME        D-Arabinose;
+            D-Arabinopyranose
+FORMULA     C5H10O5
+EXACT_MASS  150.0528
+MOL_WEIGHT  150.1299
+REACTION    R01573 R01574 R01575 R01576 R01577 R12824
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map00053  Ascorbate and aldarate metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+            map01250  Biosynthesis of nucleotide sugars
+ENZYME      1.1.1.116       1.1.1.117       1.1.1.427       2.7.1.54        
+            2.7.1.-         4.1.2.23        5.3.1.3
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C00216  D-Arabinose
+DBLINKS     CAS: 10323-20-3 28697-53-2
+            PubChem: 3516
+            ChEBI: 17108 46994
+            PDB-CCD: 64K SEJ
+            3DMET: B04650
+            NIKKAJI: J15.056H
+ATOM        10
+            1   C1y C    25.6491  -16.5200
+            2   C1y C    26.8684  -15.8200
+            3   C1y C    24.4475  -15.8200
+            4   O1a O    25.6608  -17.9201
+            5   C1y C    26.8684  -14.4199
+            6   O1a O    28.0819  -16.5200
+            7   C1x C    24.4475  -14.4199
+            8   O1a O    23.2399  -16.5200
+            9   O2x O    25.6491  -13.7141
+            10  O1a O    28.0819  -13.7141
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Either
+            10    7   9 1
+///

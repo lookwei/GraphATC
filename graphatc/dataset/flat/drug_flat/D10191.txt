@@ -1,0 +1,167 @@
+ENTRY       D10191                      Drug
+NAME        Safinamide mesylate (USAN);
+            Safinamide mesilate (JAN);
+            Safinamide methanesulfonate;
+            Xadago (TN);
+            Equfina (TN)
+PRODUCT     XADAGO (MDD US Operations LLC)
+FORMULA     C17H19FN2O2. CH4SO3
+EXACT_MASS  398.1312
+MOL_WEIGHT  398.449
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01512  Monoamine oxidase B inhibitor
+             DG01967  Antiparkinson agent
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02917  MAO substrate
+              DG03178  MAOA substrate
+REMARK      Therapeutic category: 1169
+            ATC code: N04BD03
+            Chemical structure group: DG01260
+            Product (DG01260): D10191<JP/US>
+EFFICACY    Antiparkinsonian, Monoamine oxidase B (MAO-B) inhibitor
+  DISEASE   Parkinson's disease [DS:H00057]
+COMMENT     Treatment of Parkinson's disease
+TARGET      MAOB [HSA:4129] [KO:K00274]
+  PATHWAY   hsa04726(4129)  Serotonergic synapse
+            hsa04728(4129)  Dopaminergic synapse
+METABOLISM  Enzyme: MAOA [HSA:4128]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BD Monoamine oxidase B inhibitors
+                 N04BD03 Safinamide
+                  D10191  Safinamide mesylate (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antiparkinson Agents
+              Monoamine Oxidase B (MAO-B) Inhibitors
+               Safinamide
+                D10191  Safinamide mesylate (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               116  Antiparkinsonian agents
+                1169  Others
+                 D10191  Safinamide mesylate (USAN); Safinamide mesilate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                DG01260  Safinamide
+                 D10191  Safinamide mesylate
+              DG01967  Antiparkinson agent
+               DG01260  Safinamide
+                D10191  Safinamide mesylate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01260  Safinamide
+                 D10191  Safinamide mesylate
+              DG02917  MAO substrate
+               DG03178  MAOA substrate
+                DG01260  Safinamide
+                 D10191  Safinamide mesylate
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D10191  Safinamide mesylate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOB
+                 D10191  Safinamide mesylate (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10191
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10191
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10191
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10191
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10191
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                DG01260  Safinamide
+              DG01967  Antiparkinson agent
+               DG01260  Safinamide
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01260  Safinamide
+              DG02917  MAO substrate
+               DG03178  MAOA substrate
+                DG01260  Safinamide
+DBLINKS     CAS: 202825-46-5
+            PubChem: 135626909
+            LigandBox: D10191
+ATOM        27
+            1   C8x C     6.0200  -24.5000
+            2   C8x C     6.0200  -23.1000
+            3   C8x C     7.2100  -22.4000
+            4   C8y C     8.4700  -23.1000
+            5   C8x C     8.4700  -24.5000
+            6   C8y C     7.2100  -25.2000
+            7   C1b C     9.6600  -22.4000
+            8   O2a O    10.8500  -23.1000
+            9   C8y C    12.0400  -22.4000
+            10  C8x C    12.0400  -21.0000
+            11  C8x C    13.3700  -20.3000
+            12  C8y C    14.5600  -21.0000
+            13  C8x C    14.5600  -22.4000
+            14  C8x C    13.3700  -23.1000
+            15  C1b C    15.7500  -20.3000
+            16  N1b N    16.9400  -21.0000
+            17  C1c C    18.1300  -20.3000
+            18  C5a C    19.3200  -21.0000
+            19  N1a N    20.5100  -20.3000
+            20  O5a O    19.3200  -22.4000
+            21  C1a C    18.1300  -18.9000
+            22  X   F     7.2100  -26.6000
+            23  S4a S    21.9800  -25.1300
+            24  O1d O    21.9800  -23.7300
+            25  O1d O    21.9800  -26.5300
+            26  C1a C    20.5800  -25.1300
+            27  O1d O    23.3800  -25.1300
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   12  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   18  20 2
+            22   17  21 1 #Up
+            23    6  22 1
+            24   23  24 2
+            25   23  25 2
+            26   23  26 1
+            27   23  27 1
+///

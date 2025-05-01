@@ -1,0 +1,116 @@
+ENTRY       D02241                      Drug
+NAME        Ticarcillin disodium (USP);
+            Ticarcillin sodium (JAN);
+            Ticar (TN)
+FORMULA     C15H14N2O6S2. 2Na
+EXACT_MASS  428.0089
+MOL_WEIGHT  428.391
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      Same as: C14021
+            ATC code: J01CA13
+            Chemical structure group: DG00527
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA13 Ticarcillin
+                  D02241  Ticarcillin disodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00527  Ticarcillin
+                  D02241  Ticarcillin disodium
+              DG01780  Extended spectrum penicillin
+               DG00527  Ticarcillin
+                D02241  Ticarcillin disodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D02241  Ticarcillin disodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00527  Ticarcillin
+              DG01780  Extended spectrum penicillin
+               DG00527  Ticarcillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00527  Ticarcillin
+DBLINKS     CAS: 4697-14-7
+            PubChem: 7849300
+            ChEBI: 35017
+            LigandBox: D02241
+ATOM        27
+            1   C1y C    32.6364  -17.4894
+            2   C5x C    32.6364  -18.8778
+            3   N1y N    34.0248  -18.8778
+            4   C1y C    34.0248  -17.4894
+            5   C1y C    35.3439  -19.2942
+            6   C1z C    36.1767  -18.1836
+            7   S2x S    35.3439  -17.0729
+            8   C1a C    37.1486  -19.1555
+            9   C1a C    37.1486  -17.2117
+            10  C6a C    35.8297  -20.6827
+            11  O6a O    37.2180  -20.6827 #-
+            12  O6a O    34.9966  -21.7935
+            13  N1b N    31.4563  -16.7951
+            14  C5a C    30.2761  -17.4894
+            15  O5x O    31.4563  -19.5720
+            16  O5a O    30.2761  -18.8778
+            17  C1c C    29.0266  -16.7951
+            18  C6a C    27.8122  -17.5232
+            19  C8y C    29.0730  -15.3677
+            20  O6a O    26.5680  -16.8320 #-
+            21  O6a O    27.7656  -18.9295
+            22  C8x C    30.2109  -14.5117
+            23  C8x C    29.7484  -13.1650
+            24  S2x S    28.3247  -13.1887
+            25  C8x C    27.9072  -14.5500
+            26  Z   Na   24.6182  -16.8635 #+
+            27  Z   Na   38.6334  -20.7611 #+
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1 #Down
+            20   17  19 1
+            21   18  20 1
+            22   18  21 2
+            23   19  22 1
+            24   22  23 2
+            25   23  24 1
+            26   24  25 1
+            27   19  25 2
+///

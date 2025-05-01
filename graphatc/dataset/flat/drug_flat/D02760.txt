@@ -1,0 +1,95 @@
+ENTRY       D02760                      Drug
+NAME        Acrivastine (USAN/INN)
+FORMULA     C22H24N2O2
+EXACT_MASS  348.1838
+MOL_WEIGHT  348.4382
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: R06AX18
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AX Other antihistamines for systemic use
+                 R06AX18 Acrivastine
+                  D02760  Acrivastine (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D02760  Acrivastine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D02760  Acrivastine (USAN/INN)
+DBLINKS     CAS: 87848-99-5
+            PubChem: 17396918
+            ChEBI: 83168
+            LigandBox: D02760
+            NIKKAJI: J22.097C
+ATOM        26
+            1   C2b C    18.1776  -14.7000
+            2   C8y C    19.3900  -16.8000
+            3   C8x C    19.3900  -18.2000
+            4   C8x C    20.5800  -18.9000
+            5   C8x C    21.8400  -18.2000
+            6   C8y C    21.8400  -16.8000
+            7   N5x N    20.5800  -16.1000
+            8   C2b C    23.0300  -16.1000
+            9   C2b C    24.2200  -16.8000
+            10  C6a C    25.4800  -16.1000
+            11  O6a O    26.6700  -16.8000
+            12  O6a O    25.4800  -14.7000
+            13  C2c C    18.1776  -16.1000
+            14  C8y C    16.9651  -16.8000
+            15  C8x C    16.9651  -18.2000
+            16  C8x C    15.7527  -16.1000
+            17  C8x C    14.5403  -16.8000
+            18  C8y C    14.5403  -18.2000
+            19  C8x C    15.7527  -18.9000
+            20  C1a C    13.3278  -18.9000
+            21  C1b C    16.9651  -14.0000
+            22  N1y N    16.9651  -12.6000
+            23  C1x C    18.1070  -11.7879
+            24  C1x C    17.6898  -10.4515
+            25  C1x C    16.2898  -10.4353
+            26  C1x C    15.8419  -11.7618
+BOND        28
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 2
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12    2  13 1
+            13   13  14 1
+            14   14  15 1
+            15   14  16 2
+            16   16  17 1
+            17   17  18 2
+            18   18  19 1
+            19   19  15 2
+            20   18  20 1
+            21    1  13 2
+            22    1  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   22  26 1
+///

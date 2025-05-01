@@ -1,0 +1,56 @@
+ENTRY       C02656                      Compound
+NAME        Pimelate;
+            Pimelic acid;
+            Heptanedioic acid;
+            6-Carboxyhexanoate
+FORMULA     C7H12O4
+EXACT_MASS  160.0736
+MOL_WEIGHT  160.1678
+REACTION    R03209
+PATHWAY     map00780  Biotin metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+MODULE      M00577  Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+ENZYME      6.2.1.14
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Dicarboxylic acids
+                C02656  Pimelate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0117 Dicarboxylic acids
+                C02656  Heptanedioic acid
+DBLINKS     CAS: 111-16-0
+            PubChem: 5629
+            ChEBI: 30531
+            LIPIDMAPS: LMFA01170051
+            KNApSAcK: C00001199
+            PDB-CCD: PML
+            3DMET: B00476
+            NIKKAJI: J5.105E
+ATOM        11
+            1   C6a C    22.0480  -15.1256
+            2   C1b C    20.8374  -15.8275
+            3   O6a O    22.0414  -13.7283
+            4   O6a O    23.2585  -15.8275
+            5   C1b C    19.6205  -15.1256
+            6   C1b C    18.4100  -15.8275
+            7   C1b C    17.1995  -15.1256
+            8   C1b C    15.9826  -15.8275
+            9   C6a C    14.7720  -15.1256
+            10  O6a O    13.5615  -15.8275
+            11  O6a O    14.7720  -13.7283
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10    9  11 2
+///

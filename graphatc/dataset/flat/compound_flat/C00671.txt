@@ -1,0 +1,61 @@
+ENTRY       C00671                      Compound
+NAME        (S)-3-Methyl-2-oxopentanoic acid;
+            (S)-3-Methyl-2-oxopentanoate;
+            (3S)-3-Methyl-2-oxopentanoic acid;
+            (3S)-3-Methyl-2-oxopentanoate
+FORMULA     C6H10O3
+EXACT_MASS  130.063
+MOL_WEIGHT  130.1418
+REACTION    R02196 R02197 R02199 R02200 R03171 R03894 R04225 R05070 
+            R07603 R08567
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00785  Lipoic acid metabolism
+            map00966  Glucosinolate biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+            M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
+NETWORK     nt06024  Valine, leucine and isoleucine degradation
+            nt06032  Lipoic acid metabolism
+ENZYME      1.2.1.25        1.2.4.4         1.2.7.7         1.4.1.9         
+            1.4.3.2         2.6.1.32        2.6.1.42        4.1.1.72        
+            4.2.1.9
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C00671  (S)-3-Methyl-2-oxopentanoic acid
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0102 Branched fatty acids
+                C00671  (3S)-3-Methyl-2-oxopentanoic acid
+DBLINKS     PubChem: 3940
+            ChEBI: 15614 35146
+            LIPIDMAPS: LMFA01020275
+            PDB-CCD: 1QQ
+            3DMET: B01307
+            NIKKAJI: J264.814H
+ATOM        9
+            1   C5a C    28.1304  -18.8852
+            2   C1c C    26.9115  -18.1795
+            3   C6a C    29.3428  -18.1795
+            4   O5a O    28.1239  -20.2836
+            5   C1b C    25.6926  -18.8852
+            6   C1a C    26.9052  -16.7874
+            7   O6a O    30.5488  -18.8852
+            8   O6a O    29.3364  -16.7746
+            9   C1a C    24.4868  -18.1987
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 2
+            8     5   9 1
+///

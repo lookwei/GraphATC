@@ -1,0 +1,130 @@
+ENTRY       C05441                      Compound
+NAME        Vitamin D2;
+            Ergocalciferol
+FORMULA     C28H44O
+EXACT_MASS  396.3392
+MOL_WEIGHT  396.6484
+REMARK      Same as: D00187
+REACTION    R03677
+PATHWAY     map00100  Steroid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00102  Ergocalciferol biosynthesis, squalene 2,3-epoxide => ergosterol/ergocalciferol
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Vitamins
+               Fat-soluble vitamins
+                C05441  Ergocalciferol (Vitamin D2)
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST03 Secosteroids
+               ST0301 Vitamin D2 and derivatives
+                C05441  Vitamin D2
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00187)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11C VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO
+                A11CC Vitamin D and analogues
+                 A11CC01 Ergocalciferol
+                  D00187  Ergocalciferol (JP18/USP) &lt;US&gt;
+            USP drug classification [BR:br08302(D00187)]
+             Electrolytes/Minerals/Metals/Vitamins
+              Vitamins
+               Ergocalciferol
+                D00187  Ergocalciferol (JP18/USP)
+            Classification of Japanese OTC drugs [BR:br08313(D00187)]
+             Nourishing tonics and health supplements
+              39 Vitamin AD based drugs
+               D00187  Ergocalciferol (JP18/USP)
+            Risk category of Japanese OTC drugs [BR:br08312(D00187)]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Ergocalciferol or Cholecalciferol
+                D00187  Ergocalciferol (JP18/USP)
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Ergocalciferol
+                D00187  Ergocalciferol (JP18/USP)
+            Drug groups [BR:br08330(D00187)]
+             Gastrointestinal agent
+              DG01607  Vitamin D derivatives
+               D00187  Ergocalciferol
+            Target-based classification of drugs [BR:br08310(D00187)]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Vitamin D3 like receptor
+                NR1I1 (VDR)
+                 D00187  Ergocalciferol (JP18/USP) &lt;US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00187)]
+             Chemicals
+              D00187  Ergocalciferol
+DBLINKS     CAS: 50-14-6
+            PubChem: 7803
+            ChEBI: 28934
+            LIPIDMAPS: LMST03010001
+            PDB-CCD: D2V
+            3DMET: B01857
+            NIKKAJI: J1.907K
+ATOM        29
+            1   C1z C    26.0840  -19.2948
+            2   C1y C    26.0781  -20.6545
+            3   C1y C    27.2642  -18.6237
+            4   C1x C    24.9210  -18.6179
+            5   C1a C    26.0724  -17.9411
+            6   C2y C    24.9210  -21.3314
+            7   C1x C    28.4331  -20.6603
+            8   C1x C    28.4447  -19.3065
+            9   C1c C    27.2526  -17.2640
+            10  C1x C    23.7405  -19.2948
+            11  C2b C    24.9210  -22.6855
+            12  C1x C    23.7405  -20.6545
+            13  C2b C    28.4272  -16.5755
+            14  C1a C    26.0724  -16.5928
+            15  C2b C    23.7464  -23.3681
+            16  C2b C    29.6018  -17.2409
+            17  C1c C    30.7763  -16.5525
+            18  C1c C    31.9508  -17.2236
+            19  C1a C    30.7647  -15.1986
+            20  C1a C    33.1253  -16.5350
+            21  C1a C    31.9623  -18.5775
+            22  C2y C    23.7464  -24.7648
+            23  C1x C    22.5242  -25.4702
+            24  C1y C    22.5240  -26.8669
+            25  C1x C    23.7335  -27.5655
+            26  C1x C    24.9557  -26.8600
+            27  C2y C    24.9559  -25.4633
+            28  C2a C    26.1656  -24.7649
+            29  O1a O    21.3143  -27.5653
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1
+            10    6  11 2
+            11    6  12 1
+            12    9  13 1
+            13    9  14 1 #Down
+            14   11  15 1
+            15   13  16 2
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1 #Down
+            19   18  20 1
+            20   18  21 1
+            21    7   8 1
+            22   10  12 1
+            23   15  22 2
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   22  27 1
+            30   27  28 2
+            31   24  29 1 #Down
+///

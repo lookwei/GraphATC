@@ -1,0 +1,85 @@
+ENTRY       C03070                      Compound
+NAME        3-Oxo-5beta-cholanate;
+            3-Oxo-5beta-cholan-24-oate
+FORMULA     C24H38O3
+EXACT_MASS  374.2821
+MOL_WEIGHT  374.5567
+REACTION    R04139 R11144 R11145 R11146
+ENZYME      1.1.1.52        1.1.1.391       1.1.1.392       1.1.1.393
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              24-Carbon atoms
+               Cholane derivatives
+                C03070  3-Oxo-5beta-cholanate
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST04 Bile acids and derivatives
+               ST0401 C24 bile acids, alcohols, and derivatives
+                C03070  3-Oxo-5beta-cholanic acid
+DBLINKS     CAS: 1553-56-6
+            PubChem: 5970
+            ChEBI: 17639
+            LIPIDMAPS: LMST04010127
+            PDB-CCD: 3KL
+            3DMET: B01628
+            NIKKAJI: J39.835G
+ATOM        27
+            1   C1y C    19.2671  -17.2199
+            2   C1y C    18.0125  -17.8919
+            3   C1z C    19.2197  -15.8531
+            4   C1y C    16.8394  -17.2029
+            5   C1x C    18.0125  -19.2701
+            6   C1x C    18.0353  -15.1356
+            7   C1z C    15.6433  -17.8919
+            8   C1x C    16.8508  -15.8304
+            9   C1x C    16.8394  -19.9536
+            10  C1y C    15.6433  -19.2701
+            11  C1x C    14.4530  -17.2029
+            12  C1a C    15.6433  -16.5309
+            13  C1x C    14.4530  -19.9536
+            14  C1x C    13.2855  -17.8919
+            15  C5x C    13.2855  -19.2701
+            16  O5x O    12.0896  -19.9763
+            17  C1x C    21.6338  -17.1906
+            18  C1x C    21.5880  -15.8922
+            19  C1y C    20.4151  -15.1890
+            20  C1a C    19.2197  -14.4855
+            21  C1c C    20.4151  -13.8214
+            22  C1b C    21.5875  -13.1441
+            23  C1a C    19.2018  -13.1212
+            24  C1b C    22.7836  -13.8348
+            25  C6a C    23.9807  -13.1439
+            26  O6a O    25.1764  -13.8353
+            27  O6a O    23.9807  -11.7504
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 1
+            8     5   9 1
+            9     7  10 1
+            10    7  11 1
+            11    7  12 1 #Up
+            12   10  13 1
+            13   11  14 1
+            14   13  15 1
+            15   15  16 2
+            16    6   8 1
+            17    9  10 1
+            18   14  15 1
+            19    1  17 1
+            20   17  18 1
+            21   18  19 1
+            22    3  19 1
+            23    3  20 1 #Up
+            24   19  21 1
+            25   21  22 1
+            26   21  23 1 #Down
+            27   22  24 1
+            28   24  25 1
+            29   25  26 1
+            30   25  27 2
+///

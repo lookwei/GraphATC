@@ -1,0 +1,155 @@
+ENTRY       D01904                      Drug
+NAME        Cefpiramide sodium (JP18/USAN);
+            CPM;
+            Suncefal (TN)
+FORMULA     C25H23N8O7S2. Na
+EXACT_MASS  634.1029
+MOL_WEIGHT  634.6193
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01776  Third-generation cephalosporin
+REMARK      Same as: C13376
+            ATC code: J01DD11
+            Chemical structure group: DG00580
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07012  Cephalosporins - parenteral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DD Third-generation cephalosporins
+                 J01DD11 Cefpiramide
+                  D01904  Cefpiramide sodium (JP18/USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00580  Cefpiramide
+                  D01904  Cefpiramide sodium
+              DG01776  Third-generation cephalosporin
+               DG00580  Cefpiramide
+                D01904  Cefpiramide sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                D01904  Cefpiramide sodium (JP18/USAN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01904  Cefpiramide sodium
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00580  Cefpiramide
+              DG01776  Third-generation cephalosporin
+               DG00580  Cefpiramide
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                DG00580  Cefpiramide
+DBLINKS     CAS: 74849-93-7
+            PubChem: 7848966
+            ChEBI: 31377
+            LigandBox: D01904
+            NIKKAJI: J23.602K
+ATOM        43
+            1   C1y C    29.1222  -17.0668
+            2   N1y N    29.1222  -18.4497
+            3   C2y C    30.3199  -19.1409
+            4   C2y C    31.5174  -18.4497
+            5   C1x C    31.5174  -17.0668
+            6   S2x S    30.3199  -16.3754
+            7   C1y C    27.7393  -17.0668
+            8   C5x C    27.7393  -18.4497
+            9   N1b N    26.5420  -16.3754
+            10  C5a C    25.3444  -17.0668
+            11  O5a O    25.3444  -18.4497
+            12  O5x O    26.5420  -19.1409
+            13  C1c C    24.1468  -16.3754
+            14  C1b C    32.7332  -19.1520
+            15  C6a C    30.3199  -20.5236
+            16  O6a O    29.1056  -21.2247
+            17  O6a O    31.5006  -21.2053 #-
+            18  N1b N    22.9300  -17.0784
+            19  C5a C    21.7338  -16.3878
+            20  S2a S    33.9355  -18.4579
+            21  C8y C    35.1328  -19.1495
+            22  N5x N    35.6025  -20.5196
+            23  N5x N    36.9856  -20.4774
+            24  N5x N    37.3732  -19.0785
+            25  N4y N    36.2295  -18.2996
+            26  C1a C    36.2295  -16.8915
+            27  C8y C    20.5039  -17.0976
+            28  C8y C    24.1465  -14.9285
+            29  C8x C    25.3767  -14.2179
+            30  C8x C    25.3764  -12.8024
+            31  C8y C    24.1505  -12.0950
+            32  C8x C    22.9202  -12.8057
+            33  C8x C    22.9205  -14.2211
+            34  O1a O    24.1502  -10.6822
+            35  O5a O    21.7342  -14.9994
+            36  C8y C    19.2660  -16.3822
+            37  C8x C    18.0399  -17.0894
+            38  C8y C    18.0393  -18.5049
+            39  N5x N    19.2772  -19.2203
+            40  C8x C    20.5034  -18.5130
+            41  O1a O    19.2666  -14.9993
+            42  C1a C    16.8197  -19.2086
+            43  Z   Na   32.8999  -21.2100 #+
+BOND        46
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16    3  15 1
+            17   15  16 2
+            18   15  17 1
+            19   13  18 1
+            20   18  19 1
+            21   14  20 1
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   21  25 1
+            28   25  26 1
+            29   19  27 1
+            30   13  28 1 #Down
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   31  32 1
+            35   32  33 2
+            36   28  33 1
+            37   31  34 1
+            38   19  35 2
+            39   27  36 2
+            40   36  37 1
+            41   37  38 2
+            42   38  39 1
+            43   39  40 2
+            44   27  40 1
+            45   36  41 1
+            46   38  42 1
+///

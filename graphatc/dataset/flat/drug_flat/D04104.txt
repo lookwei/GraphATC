@@ -1,0 +1,112 @@
+ENTRY       D04104                      Drug
+NAME        Etonogestrel (USAN/INN);
+            Implanon (TN);
+            Nexplanon (TN)
+PRODUCT     NEXPLANON (Organon LLC)
+FORMULA     C22H28O2
+EXACT_MASS  324.2089
+MOL_WEIGHT  324.4565
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      ATC code: G03AC08
+            Product: D04104<US>
+            Product (mixture): D11655<US>
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+            NR3A1 (ESR1) [HSA:2099] [KO:K08550]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(2099+5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+                G03AC Progestogens
+                 G03AC08 Etonogestrel
+                  D04104  Etonogestrel (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Contraceptives
+              Contraceptives, Other
+               Etonogestrel
+                D04104  Etonogestrel (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D04104  Etonogestrel
+              DG01666  Progesterone receptor agonist
+               D04104  Etonogestrel
+            Drug classes [BR:br08332]
+             Endocrine and hormonal agent
+              DG02004  Progesterone
+               D04104  Etonogestrel
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A1 (ESR1)
+                 D04104  Etonogestrel (USAN/INN) &lt;US&gt;
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D04104  Etonogestrel (USAN/INN) &lt;US&gt;
+DBLINKS     CAS: 54048-10-1
+            PubChem: 47206056
+            ChEBI: 50777
+            LigandBox: D04104
+            NIKKAJI: J76.212A
+ATOM        24
+            1   C1y C    20.6893  -17.8182
+            2   C1y C    21.8970  -17.1214
+            3   C1y C    19.5278  -17.1214
+            4   C1x C    20.6893  -19.1654
+            5   C1z C    21.8970  -15.7740
+            6   C1x C    24.2663  -17.1214
+            7   C1y C    18.3200  -17.8182
+            8   C2y C    19.5278  -15.7740
+            9   C1x C    19.5278  -19.8623
+            10  C1z C    23.1049  -15.1237
+            11  C1x C    20.7357  -15.0772
+            12  C1b C    21.8970  -14.3575
+            13  C1x C    24.2663  -15.8205
+            14  C2y C    18.3200  -19.1654
+            15  C1x C    17.1585  -17.1214
+            16  C3b C    24.2200  -14.3340
+            17  O1a O    23.1049  -13.5899
+            18  C2x C    17.1585  -19.8623
+            19  C1x C    15.9507  -17.8182
+            20  C3a C    25.3349  -13.5441
+            21  C5x C    15.9507  -19.1654
+            22  O5x O    14.7892  -19.8623
+            23  C1a C    20.7067  -13.6345
+            24  C2a C    18.3068  -15.0690
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1 #Up
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1
+            15   10  16 1 #Down
+            16   10  17 1 #Up
+            17   14  18 2
+            18   15  19 1
+            19   16  20 3
+            20   18  21 1
+            21   21  22 2
+            22    8  11 1
+            23    9  14 1
+            24   10  13 1
+            25   19  21 1
+            26   12  23 1
+            27    8  24 2
+///

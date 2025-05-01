@@ -1,0 +1,102 @@
+ENTRY       D11537                      Drug
+NAME        Brepocitinib (USAN)
+FORMULA     C18H21F2N7O
+EXACT_MASS  389.1776
+MOL_WEIGHT  389.4024
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+REMARK      Chemical structure group: DG03044
+EFFICACY    Anti-inflammatory, Tyrosine kinase inhibitor
+COMMENT     Treatment of immunological disorders
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+            TYK2 [HSA:7297] [KO:K11219]
+  PATHWAY   hsa04630(3716+7297)  JAK-STAT signaling pathway
+            hsa04658(3716+7297)  Th1 and Th2 cell differentiation
+            hsa04659(3716+7297)  Th17 cell differentiation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03044  Brepocitinib
+                 D11537  Brepocitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D11537  Brepocitinib (USAN)
+                TYK2
+                 D11537  Brepocitinib (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03044  Brepocitinib
+DBLINKS     CAS: 1883299-62-4
+            PubChem: 384585513
+            PDB-CCD: G4J
+ATOM        28
+            1   C8y C    12.5300  -14.9100
+            2   N5x N    12.5300  -16.3100
+            3   C8x C    13.7200  -17.0100
+            4   C8x C    14.9800  -16.3100
+            5   C8y C    14.9800  -14.9100
+            6   N5x N    13.7200  -14.2100
+            7   N1y N    16.1700  -14.2100
+            8   C1x C    17.3600  -14.9100
+            9   C1y C    18.6200  -14.2100
+            10  N1y N    18.6200  -12.8100
+            11  C1y C    17.4300  -12.1100
+            12  C1x C    16.1700  -12.8100
+            13  C5a C    19.8100  -12.1100
+            14  C1y C    21.0000  -12.8100
+            15  O5a O    19.8100  -10.7100
+            16  C1x C    21.7000  -14.0700
+            17  C1z C    22.4000  -12.8100
+            18  X   F    23.6066  -12.1000
+            19  X   F    22.0321  -11.4592
+            20  N1b N    11.3147  -14.2149
+            21  C8y C    10.1263  -14.9077
+            22  C8x C     8.8048  -14.5221
+            23  N5x N     8.0269  -15.6587
+            24  N4y N     8.8674  -16.7498
+            25  C8x C    10.1649  -16.2876
+            26  C1a C     8.4798  -18.0686
+            27  C1x C    16.7877  -13.2523
+            28  C1x C    17.2200  -14.2100
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    7  12 1
+            14   10  13 1
+            15   14  13 1 #Up
+            16   13  15 2
+            17   16  17 1
+            18   17  14 1
+            19   14  16 1
+            20   17  18 1
+            21   17  19 1
+            22    1  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 1
+            28   21  25 2
+            29   24  26 1
+            30   11  27 1
+            31    9  28 1
+            32   28  27 1
+///

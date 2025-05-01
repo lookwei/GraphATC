@@ -1,0 +1,143 @@
+ENTRY       D02340                      Drug
+NAME        Loxapine (USAN/INN);
+            Adasuve (TN)
+PRODUCT     ADASUVE (Alexza Pharmaceuticals)
+FORMULA     C18H18ClN3O
+EXACT_MASS  327.1138
+MOL_WEIGHT  327.808
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07104
+            ATC code: N05AH01
+            Chemical structure group: DG00897
+            Product (DG00897): D02340<US> D00794<US>
+EFFICACY    Minor tranquilizer, Dopamine D2 receptor antagonist, Serotonin receptor antagonist
+  DISEASE   Schizophrenia [DS:H01649]
+            Bipolar I disorder [DS:H01653]
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04080(1813+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544], CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AH Diazepines, oxazepines, thiazepines and oxepines
+                 N05AH01 Loxapine
+                  D02340  Loxapine (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              1st Generation/Typical
+               Loxapine
+                D02340  Loxapine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00897  Loxapine
+                 D02340  Loxapine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00897  Loxapine
+                D02340  Loxapine
+              DG01644  CYP2D6 substrate
+               DG00897  Loxapine
+                D02340  Loxapine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00897  Loxapine
+                 D02340  Loxapine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02340  Loxapine (USAN/INN) &lt;US&gt;
+               Serotonin
+                HTR2A
+                 D02340  Loxapine (USAN/INN) &lt;US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D02340
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02340
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00897  Loxapine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00897  Loxapine
+              DG01644  CYP2D6 substrate
+               DG00897  Loxapine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00897  Loxapine
+DBLINKS     CAS: 1977-10-2
+            PubChem: 7849399
+            ChEBI: 50841
+            LigandBox: D02340
+            NIKKAJI: J22.645I
+ATOM        23
+            1   C2y C    14.6234  -16.0394
+            2   C8y C    13.7813  -14.9298
+            3   C8y C    14.1165  -13.5730
+            4   O2x O    15.3775  -12.9949
+            5   N2x N    16.0292  -16.0646
+            6   C8y C    16.6311  -13.6172
+            7   C8y C    16.9176  -14.9859
+            8   C8x C    13.1094  -12.6046
+            9   C8x C    11.7674  -12.9927
+            10  C8y C    11.4322  -14.3495
+            11  C8x C    12.4393  -15.3176
+            12  C8x C    18.2488  -15.4230
+            13  C8x C    19.2930  -14.4886
+            14  C8x C    19.0066  -13.1199
+            15  C8x C    17.6752  -12.6828
+            16  X   Cl   10.0674  -14.7439
+            17  N1y N    13.9889  -17.2891
+            18  C1x C    12.5873  -17.2891
+            19  C1x C    11.8865  -18.5029
+            20  N1y N    12.5873  -19.7169
+            21  C1x C    13.9889  -19.7169
+            22  C1x C    14.6897  -18.5029
+            23  C1a C    11.8803  -20.9409
+BOND        26
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18   10  16 1
+            19    1  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   17  22 1
+            26   20  23 1
+///

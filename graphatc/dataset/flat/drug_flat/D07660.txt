@@ -1,0 +1,112 @@
+ENTRY       D07660                      Drug
+NAME        Celiprolol (INN);
+            Celiprolol PCH (TN)
+FORMULA     C20H33N3O4
+EXACT_MASS  379.2471
+MOL_WEIGHT  379.4937
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+               DG01461  beta1-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+REMARK      ATC code: C07AB08
+            Chemical structure group: DG00317
+            Product (DG00317): D01741<JP>
+EFFICACY    Antihypertensive, Vasodilator, beta1-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AB Beta blocking agents, selective
+                 C07AB08 Celiprolol
+                  D07660  Celiprolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00317  Celiprolol
+                  D07660  Celiprolol
+              DG03231  Antihypertensive
+               DG00317  Celiprolol
+                D07660  Celiprolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D07660  Celiprolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00317  Celiprolol
+              DG03231  Antihypertensive
+               DG00317  Celiprolol
+DBLINKS     CAS: 56980-93-9
+            PubChem: 51091964
+            LigandBox: D07660
+            NIKKAJI: J11.825G
+ATOM        27
+            1   C8y C    22.8900  -16.4500
+            2   C8y C    21.7000  -17.1500
+            3   C8x C    24.1500  -17.1500
+            4   O2a O    22.8900  -15.0500
+            5   C5a C    20.5100  -16.5200
+            6   C8x C    24.1500  -18.5500
+            7   C1b C    24.0800  -14.3500
+            8   C8y C    22.9600  -19.2500
+            9   C1a C    19.3200  -17.2200
+            10  O5a O    20.5100  -15.1200
+            11  C1c C    25.3400  -15.0500
+            12  N1b N    22.9600  -20.7200
+            13  C1b C    26.5300  -14.2800
+            14  O1a O    25.3400  -16.4500
+            15  C5a C    21.7700  -21.4200
+            16  N1b N    27.7900  -14.9800
+            17  N1c N    20.5100  -20.7900
+            18  O5a O    21.7700  -22.8200
+            19  C1d C    28.9800  -14.2800
+            20  C1b C    19.3900  -21.4900
+            21  C1a C    18.1300  -20.7900
+            22  C1a C    30.1700  -13.5800
+            23  C1b C    20.5100  -19.3200
+            24  C8x C    21.7000  -18.5500
+            25  C1a C    19.3200  -18.6200
+            26  C1a C    29.6800  -15.4700
+            27  C1a C    28.2800  -13.0900
+BOND        27
+            1     2  24 2
+            2     2   5 1
+            3     3   6 1
+            4     4   7 1
+            5    24   8 1
+            6     5   9 1
+            7     5  10 2
+            8     7  11 1
+            9     8  12 1
+            10   11  13 1
+            11   11  14 1
+            12   12  15 1
+            13   13  16 1
+            14   15  17 1
+            15   15  18 2
+            16   16  19 1
+            17   17  20 1
+            18   20  21 1
+            19    6   8 2
+            20   19  22 1
+            21   17  23 1
+            22    1   2 1
+            23    1   3 2
+            24   23  25 1
+            25    1   4 1
+            26   19  26 1
+            27   19  27 1
+///

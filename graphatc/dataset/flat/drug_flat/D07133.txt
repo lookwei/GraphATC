@@ -1,0 +1,175 @@
+ENTRY       D07133                      Drug
+NAME        Raltegravir potassium (JAN/USAN);
+            Isentress (TN)
+PRODUCT     ISENTRESS (A-S Medication Solutions)
+            ISENTRESS (DIRECT RX)
+            ISENTRESS (Direct_Rx)
+            ISENTRESS (Merck Sharp & Dohme LLC)
+            ISENTRESS (NuCare Pharmaceuticals)
+            ISENTRESS (Pharmasource Meds)
+            ISENTRESS (Proficient Rx LP)
+            ISENTRESS (RPK Pharmaceuticals)
+            ISENTRESS (RedPharm Drug)
+FORMULA     C20H20FN6O5. K
+EXACT_MASS  482.1116
+MOL_WEIGHT  482.5067
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG03135  HIV integrase inhibitor
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+              DG03183  UGT1A1 substrate
+REMARK      Therapeutic category: 6250
+            ATC code: J05AJ01
+            Chemical structure group: DG00666
+            Product (DG00666): D07133<JP/US>
+EFFICACY    Antiviral, HIV integrase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 integrase [KO:K24803]
+  PATHWAY   ko03230(K24803)  Viral genome structure
+            ko03240(K24803)  Viral replication
+            ko03250(K24803)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: UGT1A1 [HSA:54658]
+INTERACTION  
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AJ Integrase inhibitors
+                 J05AJ01 Raltegravir
+                  D07133  Raltegravir potassium (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Integrase Inhibitors (INSTI)
+               Raltegravir
+                D07133  Raltegravir potassium (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D07133  Raltegravir potassium (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG03135  HIV integrase inhibitor
+                DG00666  Raltegravir
+                 D07133  Raltegravir potassium
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                DG00666  Raltegravir
+                 D07133  Raltegravir potassium
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D07133  Raltegravir potassium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                D07133  Raltegravir potassium (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D07133
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D07133
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D07133
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D07133
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07133
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG03135  HIV integrase inhibitor
+                DG00666  Raltegravir
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                DG00666  Raltegravir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                DG00666  Raltegravir
+DBLINKS     CAS: 871038-72-1
+            PubChem: 51091472
+            LigandBox: D07133
+            NIKKAJI: J2.601.657F
+ATOM        33
+            1   C8y C    20.8600  -17.7100
+            2   C5a C    22.0500  -17.0100
+            3   N1b N    23.2400  -17.7100
+            4   C1d C    24.5000  -17.0100
+            5   C8y C    25.6900  -17.7100
+            6   N5x N    26.8800  -17.0100
+            7   C8y C    28.1400  -17.7100
+            8   C5a C    29.3300  -17.0100
+            9   N1b N    30.5200  -17.7100
+            10  C1b C    31.7800  -17.0100
+            11  C8y C    32.9700  -17.7100
+            12  C8x C    34.1600  -17.0100
+            13  C8x C    35.3500  -17.7100
+            14  N4y N    25.6900  -19.1100
+            15  C8y C    26.8800  -19.8100
+            16  C8y C    28.1400  -19.1100
+            17  C8x C    32.9700  -19.1100
+            18  C8x C    34.1600  -19.8100
+            19  C8y C    35.3500  -19.1100
+            20  O5a O    29.3300  -15.6100
+            21  O5x O    26.8800  -21.2100
+            22  C1a C    24.5000  -19.8100
+            23  O1a O    29.3300  -19.8100 #-
+            24  C1a C    23.6600  -15.8900
+            25  C1a C    25.2000  -15.8200
+            26  O5a O    22.0500  -15.6100
+            27  O2x O    19.6700  -16.8700
+            28  C8y C    18.5500  -17.7100
+            29  N5x N    19.0400  -19.0400
+            30  N5x N    20.4400  -19.0400
+            31  C1a C    17.2200  -17.2900
+            32  X   F    36.5400  -19.8100
+            33  Z   K    30.9192  -19.8135 #+
+BOND        34
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 2
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13    5  14 1
+            14   14  15 1
+            15   15  16 1
+            16   16   7 2
+            17   11  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  13 2
+            21    8  20 2
+            22   15  21 2
+            23   14  22 1
+            24   16  23 1
+            25    4  24 1
+            26    4  25 1
+            27    2  26 2
+            28    1  27 1
+            29   27  28 1
+            30   28  29 2
+            31   29  30 1
+            32    1  30 2
+            33   28  31 1
+            34   19  32 1
+///

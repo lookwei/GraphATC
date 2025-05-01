@@ -1,0 +1,67 @@
+ENTRY       D04788                      Drug
+NAME        Lubazodone hydrochloride (USAN)
+FORMULA     C14H18FNO2. HCl
+EXACT_MASS  287.1088
+MOL_WEIGHT  287.7576
+EFFICACY    Antidepressant
+COMMENT     selective serotonine (5-HT) reuptake inhibitor and 5-HT2A antagonist
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04080(3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+6532)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2A
+                 D04788  Lubazodone hydrochloride (USAN)
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A4 (HTT)
+                 D04788  Lubazodone hydrochloride (USAN)
+DBLINKS     CAS: 161178-10-5
+            PubChem: 47206598
+            LigandBox: D04788
+ATOM        19
+            1   C1y C    40.9536  -28.1100
+            2   O2x O    39.7219  -28.8216
+            3   C1x C    39.7223  -30.2197
+            4   C1x C    40.9332  -30.9184
+            5   N1x N    42.1650  -30.2068
+            6   C1x C    42.1645  -28.8087
+            7   C8x C    38.5487  -22.5180
+            8   C8x C    38.5487  -23.9161
+            9   C8y C    39.7594  -24.6151
+            10  C8y C    40.9703  -23.9161
+            11  C8y C    40.9703  -22.5180
+            12  C8y C    39.7594  -21.8190
+            13  C1x C    42.2999  -24.3481
+            14  C1x C    43.1217  -23.2171
+            15  C1x C    42.2999  -22.0860
+            16  O2a O    39.7594  -26.0130
+            17  X   F    39.7594  -20.4211
+            18  C1b C    40.9534  -26.7025
+            19  X   Cl   44.7701  -26.9919
+BOND        20
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12    7  12 1
+            13   10  13 1
+            14   13  14 1
+            15   14  15 1
+            16   11  15 1
+            17    9  16 1
+            18   12  17 1
+            19   16  18 1
+            20    1  18 1 #Down
+///

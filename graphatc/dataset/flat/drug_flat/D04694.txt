@@ -1,0 +1,99 @@
+ENTRY       D04694                      Drug
+NAME        Lergotrile mesylate (USAN)
+FORMULA     C17H18ClN3. CH4SO3
+EXACT_MASS  395.107
+MOL_WEIGHT  395.9036
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01964  Ergot alkaloid
+REMARK      Chemical structure group: DG01319
+EFFICACY    Antiparkinsonian, Dopamine receptor agonist
+COMMENT     Ergot alkaloid
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG01319  Lergotrile
+                 D04694  Lergotrile mesylate
+              DG01964  Ergot alkaloid
+               DG01319  Lergotrile
+                D04694  Lergotrile mesylate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D04694  Lergotrile mesylate (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG01319  Lergotrile
+              DG01964  Ergot alkaloid
+               DG01319  Lergotrile
+DBLINKS     CAS: 51473-23-5
+            PubChem: 47206527
+            LigandBox: D04694
+            NIKKAJI: J268.973A
+ATOM        26
+            1   C8x C    34.4150  -26.1239
+            2   C8x C    34.4150  -27.5066
+            3   C8y C    35.6124  -28.1979
+            4   C8y C    36.8099  -27.5066
+            5   C8y C    36.8099  -26.1239
+            6   C8x C    35.6124  -25.4325
+            7   C8y C    38.0074  -28.1979
+            8   C1x C    39.2048  -27.5066
+            9   C1y C    39.2048  -26.1239
+            10  C1y C    38.0074  -25.4325
+            11  N1y N    40.4024  -25.4325
+            12  C1x C    40.4024  -24.0498
+            13  C1y C    39.2048  -23.3585
+            14  C1x C    38.0074  -24.0498
+            15  N4x N    36.1374  -29.6950
+            16  C8y C    37.5125  -29.6887
+            17  C1a C    41.6203  -26.1359
+            18  C1b C    39.2048  -21.9758
+            19  C3b C    40.3877  -21.2929
+            20  N3a N    41.5852  -20.6015
+            21  X   Cl   38.3434  -30.8343
+            22  O1d O    47.4810  -25.0302
+            23  S4a S    47.4810  -26.4282
+            24  C1a C    46.0832  -26.4282
+            25  O1d O    48.8789  -26.4282
+            26  O1d O    47.4810  -27.8259
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    3  15 1
+            18   15  16 1
+            19    7  16 2
+            20   11  17 1
+            21   13  18 1 #Up
+            22   18  19 1
+            23   19  20 3
+            24   16  21 1
+            25   22  23 2
+            26   23  24 1
+            27   23  25 1
+            28   23  26 2
+///

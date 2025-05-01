@@ -1,0 +1,111 @@
+ENTRY       D00403                      Drug
+NAME        Methotrimeprazine (USP);
+            Levomepromazine (USAN/INN);
+            Levoprome (TN)
+FORMULA     C19H24N2OS
+EXACT_MASS  328.1609
+MOL_WEIGHT  328.4717
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      Same as: C07192
+            ATC code: N05AA02
+            Chemical structure group: DG00868
+            Product (DG00868): D01520<JP> D02248<JP>
+EFFICACY    Analgesic
+COMMENT     Phenothiazine derivative
+            Central nervous system depressant
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AA Phenothiazines with aliphatic side-chain
+                 N05AA02 Levomepromazine
+                  D00403  Methotrimeprazine (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00868  Levomepromazine
+                 D00403  Methotrimeprazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00868  Levomepromazine
+                 D00403  Methotrimeprazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00403  Methotrimeprazine (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00868  Levomepromazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00868  Levomepromazine
+DBLINKS     CAS: 60-99-1
+            PubChem: 7847469
+            ChEBI: 6838
+            LigandBox: D00403
+            NIKKAJI: J76.892H
+ATOM        23
+            1   C8x C    20.8420  -21.1249
+            2   C8x C    20.8420  -22.5291
+            3   C8x C    22.1058  -23.2312
+            4   C8x C    22.1058  -20.4228
+            5   C8y C    23.2993  -21.1249
+            6   C8y C    23.2993  -22.5291
+            7   S2x S    24.4929  -23.2312
+            8   N1y N    24.4929  -20.4228
+            9   C8y C    25.6865  -21.1249
+            10  C8y C    25.6865  -22.5291
+            11  C8x C    26.8099  -23.2312
+            12  C8x C    28.0737  -22.5291
+            13  C8y C    28.0737  -21.1249
+            14  C8x C    26.8801  -20.4228
+            15  C1b C    24.4929  -19.0186
+            16  C1c C    25.6865  -18.3165
+            17  C1b C    25.6865  -16.9123
+            18  C1a C    26.8801  -19.0186
+            19  N1c N    26.8801  -16.2102
+            20  C1a C    26.8801  -14.8060
+            21  C1a C    28.1439  -16.9123
+            22  O2a O    29.3374  -20.4228
+            23  C1a C    30.5310  -21.1249
+BOND        25
+            1    14   9 1
+            2     2   3 2
+            3     5   6 2
+            4     6   7 1
+            5     8  15 1
+            6     7  10 1
+            7    15  16 1
+            8     9   8 1
+            9    16  17 1
+            10    8   5 1
+            11   16  18 1 #Up
+            12    3   6 1
+            13   17  19 1
+            14    5   4 1
+            15   19  20 1
+            16    4   1 2
+            17   19  21 1
+            18    1   2 1
+            19    9  10 2
+            20   10  11 1
+            21   11  12 2
+            22   12  13 1
+            23   13  14 2
+            24   13  22 1
+            25   22  23 1
+///

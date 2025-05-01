@@ -1,0 +1,120 @@
+ENTRY       D08682                      Drug
+NAME        Warfarin (INN);
+            Warfarine;
+            Choice (TN)
+FORMULA     C19H16O4
+EXACT_MASS  308.1049
+MOL_WEIGHT  308.3279
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01708  Coumarin anticoagulant
+               DG01760  Warfarin and analog
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      Same as: C01541
+            ATC code: B01AA03
+            Chemical structure group: DG00149
+            Product (DG00149): D00564<US> D01280<JP>
+EFFICACY    Anticoagulant, Vitamin K antagonist
+COMMENT     Coumarin derivative
+TARGET      VKORC1 [HSA:79001] [KO:K05357]
+            NQO1 [HSA:1728] [KO:K00355]
+  PATHWAY   hsa00130(1728+79001)  Ubiquinone and other terpenoid-quinone biosynthesis
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+STR_MAP     map07049  Antithrombosis agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AA Vitamin K antagonists
+                 B01AA03 Warfarin
+                  D08682  Warfarin (INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01708  Coumarin anticoagulant
+                DG01760  Warfarin and analog
+                 DG00149  Warfarin
+                  D08682  Warfarin
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00149  Warfarin
+                D08682  Warfarin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               NAD(P)H dehydrogenase
+                NQO1
+                 D08682  Warfarin (INN)
+               Vitamin-K-epoxide reductase
+                VKORC1
+                 D08682  Warfarin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08682
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01708  Coumarin anticoagulant
+                DG01760  Warfarin and analog
+                 DG00149  Warfarin
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00149  Warfarin
+DBLINKS     CAS: 81-81-2
+            PubChem: 96025365
+            ChEBI: 10033
+            LigandBox: D08682
+            NIKKAJI: J3.862H J489.785D
+ATOM        23
+            1   C8y C    24.1500  -16.5900
+            2   C1c C    25.4100  -17.2900
+            3   C8y C    22.9600  -17.2900
+            4   C8y C    24.1500  -15.1900
+            5   C8y C    25.4100  -18.6200
+            6   C1b C    26.6000  -16.5900
+            7   C8y C    21.7700  -16.5900
+            8   O1a O    22.9600  -18.7600
+            9   O7x O    22.9600  -14.4200
+            10  O6a O    25.3400  -14.4900
+            11  C8x C    24.1500  -19.3200
+            12  C8x C    26.6000  -19.3200
+            13  C5a C    27.7900  -17.2200
+            14  C8y C    21.7700  -15.1900
+            15  C8x C    20.5100  -17.2900
+            16  C8x C    24.1500  -20.7200
+            17  C8x C    26.6000  -20.7200
+            18  C1a C    27.7900  -18.7600
+            19  O5a O    28.9800  -16.5900
+            20  C8x C    20.5100  -14.4900
+            21  C8x C    19.3200  -16.5900
+            22  C8x C    25.4100  -21.4200
+            23  C8x C    19.3200  -15.1900
+BOND        25
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     4  10 2
+            10    5  11 2
+            11    5  12 1
+            12    6  13 1
+            13    7  14 2
+            14    7  15 1
+            15   11  16 1
+            16   12  17 2
+            17   13  18 1
+            18   13  19 2
+            19   14  20 1
+            20   15  21 2
+            21   16  22 2
+            22   20  23 2
+            23    9  14 1
+            24   17  22 1
+            25   21  23 1
+///

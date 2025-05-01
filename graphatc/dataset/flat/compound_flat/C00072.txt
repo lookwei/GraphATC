@@ -1,0 +1,121 @@
+ENTRY       C00072                      Compound
+NAME        Ascorbate;
+            Ascorbic acid;
+            L-Ascorbate;
+            L-Ascorbic acid;
+            Vitamin C
+FORMULA     C6H8O6
+EXACT_MASS  176.0321
+MOL_WEIGHT  176.1241
+REMARK      Same as: D00018
+REACTION    R00068 R00095 R00640 R00643 R00644 R00645 R00646 R00647 
+            R01108 R02535 R03147 R03186 R03912 R07178 R07179 R07214 
+            R07671 R07679 R08358 R09540 R09739 R10053 R10055
+PATHWAY     map00053  Ascorbate and aldarate metabolism
+            map00480  Glutathione metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01240  Biosynthesis of cofactors
+            map02060  Phosphotransferase system (PTS)
+            map04066  HIF-1 signaling pathway
+            map04977  Vitamin digestion and absorption
+MODULE      M00114  Ascorbate biosynthesis, plants, fructose-6P => ascorbate
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+            M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
+ENZYME      1.1.3.8         1.3.2.3         1.3.3.12        1.6.5.4         
+            1.8.5.1         1.10.3.3        1.11.1.11       1.14.17.1       
+            1.14.17.3       1.14.17.4       1.14.-.-        1.23.5.1        
+            2.7.1.194       7.2.1.3
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Vitamins
+               Water-soluble vitamins
+                C00072  Ascorbic acid (Vitamin C)
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00018)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11G ASCORBIC ACID (VITAMIN C), INCL. COMBINATIONS
+                A11GA Ascorbic acid (vitamin C), plain
+                 A11GA01 Ascorbic acid (vit C)
+                  D00018  Ascorbic acid (JP18/USP/INN) &lt;JP/US&gt;
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G01 GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+               G01A ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS
+                G01AD Organic acids
+                 G01AD03 Ascorbic acid
+                  D00018  Ascorbic acid (JP18/USP/INN) &lt;JP/US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01X OTHER OPHTHALMOLOGICALS
+                S01XA Other ophthalmologicals
+                 S01XA15 Ascorbic acid
+                  D00018  Ascorbic acid (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302(D00018)]
+             Electrolytes/Minerals/Metals/Vitamins
+              Vitamins
+               Ascorbic Acid
+                D00018  Ascorbic acid (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301(D00018)]
+             3  Agents affecting metabolism
+              31  Vitamins
+               314  Vitamin C preparations
+                3140  Vitamin C preparations
+                 D00018  Ascorbic acid (JP18/USP/INN)
+            Classification of Japanese OTC drugs [BR:br08313(D00018)]
+             Nourishing tonics and health supplements
+              38 Vitamin C based drugs
+               D00018  Ascorbic acid (JP18/USP/INN)
+              41 Vitamin EC based drugs
+               D00018  Ascorbic acid (JP18/USP/INN)
+              43 Vitamin containing supplements
+               D00018  Ascorbic acid (JP18/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312(D00018)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Ascorbic acid
+                D00018  Ascorbic acid (JP18/USP/INN)
+            Animal drugs in Japan [BR:br08331]
+             96  Agents affecting metabolism
+              962  Vitamin preparations
+               9624  Vitamin C and preparations
+                C00072  Ascorbate
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00018)]
+             Chemicals
+              D00018  Ascorbic acid
+              D00018  Ascorbic acid powder
+              D00018  Ascorbic acid injection
+DBLINKS     CAS: 50-81-7
+            PubChem: 3372
+            ChEBI: 29073 38290
+            KNApSAcK: C00001179
+            PDB-CCD: ASC
+            3DMET: B01147
+            NIKKAJI: J2.301I
+ATOM        12
+            1   C1y C    28.9431  -22.0676
+            2   C2y C    29.3912  -23.3888
+            3   O7x O    30.0780  -21.2526
+            4   C2y C    30.7940  -23.3888
+            5   C7x C    31.2131  -22.0850
+            6   O1a O    31.6263  -24.5181
+            7   O6a O    32.1968  -21.0897
+            8   C1c C    27.7354  -21.3704
+            9   C1b C    26.5276  -22.0676
+            10  O1a O    28.5753  -24.5274
+            11  O1a O    27.7351  -19.9591
+            12  O1a O    25.2940  -21.3555
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     2   4 2
+            4     3   5 1
+            5     4   6 1
+            6     5   7 2
+            7     4   5 1
+            8     1   8 1
+            9     8   9 1
+            10    2  10 1
+            11    8  11 1 #Down
+            12    9  12 1
+///

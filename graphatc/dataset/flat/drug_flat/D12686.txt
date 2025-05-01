@@ -1,0 +1,84 @@
+ENTRY       D12686                      Drug
+NAME        Hydromorphinol (INN)
+FORMULA     C17H21NO4
+EXACT_MASS  303.1471
+MOL_WEIGHT  303.3529
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+            hsa05032(4988)  Morphine addiction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12686  Hydromorphinol
+             Analgesic
+              DG01984  Opioid analgesics
+               D12686  Hydromorphinol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12686  Hydromorphinol (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12686
+DBLINKS     CAS: 2183-56-4
+ATOM        22
+            1   C1z C    17.5314  -16.6232
+            2   C8y C    17.5314  -15.2962
+            3   C1z C    18.7187  -17.2518
+            4   C1y C    16.3440  -17.1820
+            5   C1x C    18.7187  -15.9946
+            6   C8y C    16.3440  -14.6675
+            7   C8y C    18.7187  -14.6675
+            8   C1y C    19.8363  -16.6232
+            9   C1x C    18.7187  -18.5090
+            10  O2x O    15.0169  -15.9248
+            11  C1y C    16.3440  -18.5090
+            12  C1x C    20.8839  -15.9946
+            13  C8y C    16.3440  -13.3405
+            14  C1x C    19.8363  -15.3660
+            15  C8x C    18.7187  -13.3405
+            16  N1y N    20.8839  -17.2518
+            17  C1x C    17.5314  -19.2075
+            18  C8x C    17.6012  -12.7119
+            19  O1a O    15.2265  -12.7119
+            20  O1a O    19.9760  -18.1598
+            21  C1a C    22.2809  -17.2518
+            22  O1a O    15.1316  -19.2090
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 1
+            17   13  18 2
+            18   13  19 1
+            19    6  10 1
+            20    8  14 1
+            21   11  17 1
+            22   12  16 1
+            23   15  18 1
+            24    3  20 1 #Up
+            25   16  21 1
+            26   11  22 1 #Down
+///

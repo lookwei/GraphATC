@@ -1,0 +1,99 @@
+ENTRY       D02906                      Drug
+NAME        Aminobenzoate potassium (USP);
+            Potaba (TN)
+FORMULA     C7H6NO2. K
+EXACT_MASS  175.0036
+MOL_WEIGHT  175.2263
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01674  Esterified local anesthetic
+REMARK      ATC code: D02BA01 D11AX23
+            Chemical structure group: DG00379
+            Product (DG00379): D00552<JP>
+EFFICACY    Analgesic
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D02 EMOLLIENTS AND PROTECTIVES
+               D02B PROTECTIVES AGAINST UV-RADIATION
+                D02BA Protectives against UV-radiation for topical use
+                 D02BA01 Aminobenzoic acid
+                  D02906  Aminobenzoate potassium (USP)
+              D11 OTHER DERMATOLOGICAL PREPARATIONS
+               D11A OTHER DERMATOLOGICAL PREPARATIONS
+                D11AX Other dermatologicals
+                 D11AX23 Aminobenzoate potassium
+                  D02906  Aminobenzoate potassium (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01674  Esterified local anesthetic
+                 DG00379  Aminobenzoic acid
+                  D02906  Aminobenzoate potassium
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN2A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN3A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN4A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN5A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN8A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN9A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN10A
+                 D02906  Aminobenzoate potassium (USP)
+                SCN11A
+                 D02906  Aminobenzoate potassium (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01674  Esterified local anesthetic
+                 DG00379  Aminobenzoic acid
+DBLINKS     CAS: 138-84-1
+            PubChem: 17397063
+            LigandBox: D02906
+            NIKKAJI: J5.637E
+ATOM        11
+            1   C8x C    20.5800  -14.7700
+            2   C8y C    20.5800  -16.1700
+            3   C8x C    19.3900  -16.8700
+            4   C8x C    18.1300  -16.1700
+            5   C8y C    18.1300  -14.7700
+            6   C8x C    19.3900  -14.0700
+            7   N1a N    16.9400  -14.0700
+            8   C6a C    21.7700  -16.8700
+            9   O6a O    22.9600  -16.1700 #-
+            10  O6a O    21.7700  -18.2700
+            11  Z   K    24.6400  -16.1700 #+
+BOND        10
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     2   8 1
+            9     8   9 1
+            10    8  10 2
+///

@@ -1,0 +1,87 @@
+ENTRY       D06084                      Drug
+NAME        Tesmilifene hydrochloride (USAN)
+FORMULA     C19H25NO. HCl
+EXACT_MASS  319.1703
+MOL_WEIGHT  319.8688
+CLASS       Antineoplastic
+             DG01585  Estrogen receptor antagonist
+              DG01620  Tamoxifene-type antineoplastic
+            Hormonal agent
+             DG01619  Estrogen receptor antagonist/modulator
+EFFICACY    Antineoplastic, Antihistaminic
+COMMENT     tamoxifen derivative
+            Chemopotentiator used in the treatment of patients with malignant solid tumors
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+            ABCB1 (CD243) [HSA:5243] [KO:K05658]
+  PATHWAY   hsa02010(5243)  ABC transporters
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01585  Estrogen receptor antagonist
+               DG01620  Tamoxifene-type antineoplastic
+                D06084  Tesmilifene hydrochloride
+             Hormonal agent
+              DG01619  Estrogen receptor antagonist/modulator
+               D06084  Tesmilifene hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D06084  Tesmilifene hydrochloride (USAN)
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ABCB1 (CD243)
+                 D06084  Tesmilifene hydrochloride (USAN)
+DBLINKS     CAS: 92981-78-7
+            PubChem: 47207742
+            LigandBox: D06084
+ATOM        22
+            1   C8x C    17.6899  -17.2304
+            2   C8x C    17.6899  -18.6365
+            3   C8x C    18.9076  -19.3396
+            4   C8x C    20.1254  -18.6365
+            5   C8y C    20.1254  -17.2304
+            6   C8x C    18.9076  -16.5273
+            7   C8y C    22.5609  -17.2304
+            8   C1b C    21.3432  -16.5273
+            9   C8x C    22.5609  -18.6364
+            10  C8x C    23.7787  -19.3395
+            11  C8y C    24.9965  -18.6364
+            12  C8x C    24.9965  -17.2304
+            13  C8x C    23.7787  -16.5273
+            14  O2a O    26.2183  -19.3418
+            15  C1b C    27.4211  -18.6473
+            16  C1b C    28.6126  -19.3352
+            17  N1c N    29.8097  -18.6439
+            18  C1b C    31.0041  -19.3335
+            19  C1b C    29.8097  -17.2307
+            20  C1a C    31.0073  -16.5389
+            21  C1a C    32.1996  -18.6430
+            22  X   Cl   30.8000  -21.2100
+BOND        22
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     5   8 1
+            9     7   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    7  13 1
+            15   11  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   17  19 1
+            21   19  20 1
+            22   18  21 1
+///

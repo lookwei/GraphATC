@@ -1,0 +1,98 @@
+ENTRY       D01310                      Drug
+NAME        Secobarbital sodium (JAN/USP);
+            Seconal sodium (TN)
+FORMULA     C12H17N2O3. Na
+EXACT_MASS  260.1137
+MOL_WEIGHT  260.2647
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+REMARK      Therapeutic category: 1125
+            ATC code: N05CA06
+            Chemical structure group: DG00917
+            Product (DG00917): D01310<JP>
+EFFICACY    Sedative-hypnotic
+  DISEASE   Insomnia [DS:H01609]
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA06 Secobarbital
+                  D01310  Secobarbital sodium (JAN/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1125  Barbiturates and thiobarbiturates
+                 D01310  Secobarbital sodium (JAN/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00917  Secobarbital
+                D01310  Secobarbital sodium
+              DG01567  GABA-A receptor agonist
+               DG00917  Secobarbital
+                D01310  Secobarbital sodium
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01310  Secobarbital sodium (JAN/USP) &lt;JP&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00917  Secobarbital
+              DG01567  GABA-A receptor agonist
+               DG00917  Secobarbital
+DBLINKS     CAS: 309-43-3
+            PubChem: 7848373
+            ChEBI: 32124
+            LigandBox: D01310
+            NIKKAJI: J5.656A
+ATOM        18
+            1   Z   Na   29.6499  -20.4862 #+
+            2   C1z C    25.4921  -17.8486
+            3   C5x C    25.4921  -19.2487
+            4   C5x C    24.2767  -17.1486
+            5   N1x N    23.0684  -17.8486
+            6   C5x C    23.0684  -19.2487
+            7   N1x N    24.2767  -19.9487 #-
+            8   O5x O    21.8554  -19.9478
+            9   O5x O    26.7043  -19.9494
+            10  O5x O    24.2750  -15.7485
+            11  C1b C    25.4850  -16.4485
+            12  C2b C    26.6940  -15.7424
+            13  C2a C    26.6801  -14.3414
+            14  C1c C    26.8922  -17.8486
+            15  C1b C    27.5922  -16.6362
+            16  C1a C    27.5922  -19.0611
+            17  C1b C    28.9923  -16.6362
+            18  C1a C    29.6923  -15.4237
+BOND        17
+            1     3   9 2
+            2     3   2 1
+            3     4  10 2
+            4     2   4 1
+            5     2  11 1
+            6     4   5 1
+            7    11  12 1
+            8     5   6 1
+            9    12  13 2
+            10    6   7 1
+            11    2  14 1
+            12    7   3 1
+            13   14  15 1
+            14   14  16 1
+            15    6   8 2
+            16   15  17 1
+            17   17  18 1
+///

@@ -1,0 +1,153 @@
+ENTRY       D07509                      Drug
+NAME        Benidipine (INN)
+FORMULA     C28H31N3O6
+EXACT_MASS  505.2213
+MOL_WEIGHT  505.5622
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: C08CA15
+            Chemical structure group: DG00327
+            Product (DG00327): D02045<JP>
+EFFICACY    Antihypertensive, Vasodilator, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA15 Benidipine
+                  D07509  Benidipine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00327  Benidipine
+                 D07509  Benidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00327  Benidipine
+                 D07509  Benidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00327  Benidipine
+                 D07509  Benidipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D07509  Benidipine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07509
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00327  Benidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00327  Benidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00327  Benidipine
+DBLINKS     CAS: 105979-17-7
+            PubChem: 51091833
+            LigandBox: D07509
+            NIKKAJI: J277.858K
+ATOM        37
+            1   C2y C    19.3900  -14.4900
+            2   C2y C    19.3900  -15.8900
+            3   C1y C    20.5800  -16.5900
+            4   C2y C    21.7700  -15.8900
+            5   C2y C    21.7700  -14.4900
+            6   N1x N    20.5800  -13.7900
+            7   C1a C    18.2000  -13.7900
+            8   C1a C    22.9600  -13.7900
+            9   C8y C    20.5800  -17.9200
+            10  C8x C    19.3900  -18.6200
+            11  C8x C    19.3900  -20.0200
+            12  C8x C    20.5800  -20.7200
+            13  C8y C    21.7700  -20.0200
+            14  C8x C    21.7700  -18.6200
+            15  N2b N    22.9600  -20.7200 #+
+            16  O3a O    24.5000  -19.6700
+            17  O3a O    22.9600  -22.1200 #-
+            18  C7a C    22.9600  -16.5900
+            19  O7a O    24.2200  -15.8900
+            20  O6a O    22.9600  -17.9200
+            21  C1y C    25.4100  -16.5900
+            22  C1x C    25.4100  -17.9200
+            23  C1x C    26.6000  -18.6200
+            24  C1x C    27.7900  -17.9200
+            25  N1y N    27.7900  -16.5900
+            26  C1x C    26.6000  -15.8900
+            27  C1b C    28.9800  -15.8900
+            28  C8y C    30.2400  -16.5900
+            29  C7a C    18.2000  -16.5900
+            30  O7a O    16.9400  -15.8900
+            31  O6a O    18.2000  -17.9200
+            32  C1a C    15.7500  -16.5900
+            33  C8x C    30.2400  -17.9200
+            34  C8x C    31.4300  -18.6200
+            35  C8x C    32.6200  -17.9200
+            36  C8x C    32.6200  -16.5900
+            37  C8x C    31.4300  -15.8900
+BOND        40
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     5   8 1
+            9     3   9 1 #Down
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   13  15 1
+            17   15  16 2
+            18   15  17 1
+            19    4  18 1
+            20   18  19 1
+            21   18  20 2
+            22   21  19 1 #Up
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   21  26 1
+            29   25  27 1
+            30   27  28 1
+            31    2  29 1
+            32   29  30 1
+            33   29  31 2
+            34   30  32 1
+            35   28  33 2
+            36   33  34 1
+            37   34  35 2
+            38   35  36 1
+            39   36  37 2
+            40   28  37 1
+///

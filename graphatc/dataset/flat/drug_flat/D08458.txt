@@ -1,0 +1,135 @@
+ENTRY       D08458                      Drug
+NAME        Quinidine (BAN);
+            Kinidin (TN)
+FORMULA     C20H24N2O2
+EXACT_MASS  324.1838
+MOL_WEIGHT  324.4168
+SOURCE      Cinchona calisaya [TAX:153742], Cinchona succirubra, Cinchona calisaya
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+REMARK      Same as: C06527
+            ATC code: C01BA01
+            Chemical structure group: DG00192
+            Product (DG00192): D00642<US> D02272<JP/US>
+EFFICACY    Antiarrhythmic, Antimalarial, Sodium channel blocker
+COMMENT     Cinchona lkaloid
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07025  Quinolines
+            map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA01 Quinidine
+                  D08458  Quinidine (BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00192  Quinidine
+                  D08458  Quinidine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D08458  Quinidine (BAN)
+                SCN2A
+                 D08458  Quinidine (BAN)
+                SCN3A
+                 D08458  Quinidine (BAN)
+                SCN4A
+                 D08458  Quinidine (BAN)
+                SCN5A
+                 D08458  Quinidine (BAN)
+                SCN8A
+                 D08458  Quinidine (BAN)
+                SCN9A
+                 D08458  Quinidine (BAN)
+                SCN10A
+                 D08458  Quinidine (BAN)
+                SCN11A
+                 D08458  Quinidine (BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00192  Quinidine
+DBLINKS     CAS: 56-54-2
+            PubChem: 96025144
+            ChEBI: 182417 28593
+            PDB-CCD: QDN
+            LigandBox: D08458
+            NIKKAJI: J4.570E
+ATOM        24
+            1   C8y C    25.2071  -26.8235
+            2   C8y C    26.4637  -26.1254
+            3   C8y C    25.2071  -28.2197
+            4   C8x C    24.0203  -26.1254
+            5   C1c C    26.4637  -24.7292
+            6   C8x C    27.6505  -26.8235
+            7   C8x C    24.0203  -28.9178
+            8   N5x N    26.3939  -28.9178
+            9   C8y C    22.7637  -26.8235
+            10  C1y C    27.6505  -24.0311
+            11  O1a O    25.2071  -24.0311
+            12  C8x C    27.6505  -28.2197
+            13  C8x C    22.7637  -28.2197
+            14  O2a O    21.5769  -26.1254
+            15  N1y N    29.1165  -23.1235
+            16  C1x C    26.9524  -22.9839
+            17  C1a C    21.5769  -24.7292
+            18  C1x C    29.1165  -21.8669
+            19  C1x C    30.5825  -23.9613
+            20  C1y C    28.3486  -22.1462
+            21  C1y C    28.3486  -21.1688
+            22  C1x C    29.8844  -22.8443
+            23  C2b C    27.7901  -19.8424
+            24  C2a C    28.6976  -18.7254
+BOND        27
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    7  13 2
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1
+            16   14  17 1
+            17   15  18 1
+            18   15  19 1
+            19   16  20 1
+            20   18  21 1
+            21   19  22 1
+            22   21  23 1 #Up
+            23   23  24 2
+            24    8  12 2
+            25    9  13 1
+            26   20  21 1
+            27   20  22 1
+///

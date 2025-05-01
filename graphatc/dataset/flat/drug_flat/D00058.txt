@@ -1,0 +1,80 @@
+ENTRY       D00058                      Drug
+NAME        gamma-Aminobutyric acid (JAN);
+            Gammalon (TN)
+FORMULA     C4H9NO2
+EXACT_MASS  103.0633
+MOL_WEIGHT  103.1198
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01565  GABA-B receptor agonist
+             DG03199  Antiepileptic agent
+              DG02037  GABA mimetic antiepileptic
+REMARK      Same as: C00334
+            Therapeutic category: 2190
+            ATC code: N03AG03
+            Product: D00058<JP>
+EFFICACY    Brain metabolism enhancer, Neurotransmitter
+COMMENT     Fatty acid derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+            GABBR [HSA:2550 9568] [KO:K04615]
+  PATHWAY   hsa04080(2550+2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879+9568)  Neuroactive ligand-receptor interaction
+            hsa04727(2550+2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879+9568)  GABAergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AG Fatty acid derivatives
+                 N03AG03 Aminobutyric acid
+                  D00058  gamma-Aminobutyric acid (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D00058  gamma-Aminobutyric acid (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D00058  gamma-Aminobutyric acid
+              DG01565  GABA-B receptor agonist
+               D00058  gamma-Aminobutyric acid
+              DG03199  Antiepileptic agent
+               DG02037  GABA mimetic antiepileptic
+                D00058  gamma-Aminobutyric acid
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D00058  gamma-Aminobutyric acid
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               GABA (metabotropic)
+                GABBR
+                 D00058  gamma-Aminobutyric acid (JAN) &lt;JP&gt;
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00058  gamma-Aminobutyric acid (JAN) &lt;JP&gt;
+DBLINKS     CAS: 56-12-2
+            PubChem: 7847126
+            ChEBI: 16865
+            PDB-CCD: ABU
+            LigandBox: D00058
+            NIKKAJI: J1.375G
+ATOM        7
+            1   C1b C    21.8376  -18.3787
+            2   C6a C    23.0478  -17.6770
+            3   C1b C    20.6274  -17.6770
+            4   O6a O    24.2580  -18.3850
+            5   O6a O    23.0478  -16.2803
+            6   C1b C    19.4108  -18.3787
+            7   N1a N    18.2006  -17.6770
+BOND        6
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     6   7 1
+///

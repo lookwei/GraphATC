@@ -1,0 +1,162 @@
+ENTRY       D08111                      Drug
+NAME        Lercanidipine (INN);
+            Lercanil (TN)
+FORMULA     C36H41N3O6
+EXACT_MASS  611.2995
+MOL_WEIGHT  611.7272
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      ATC code: C08CA13
+            Chemical structure group: DG00326
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA13 Lercanidipine
+                  D08111  Lercanidipine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG00326  Lercanidipine
+                D08111  Lercanidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00326  Lercanidipine
+                 D08111  Lercanidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00326  Lercanidipine
+                D08111  Lercanidipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D08111  Lercanidipine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08111
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG00326  Lercanidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00326  Lercanidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00326  Lercanidipine
+DBLINKS     CAS: 100427-26-7
+            PubChem: 96024801
+            LigandBox: D08111
+            NIKKAJI: J248.074C
+ATOM        45
+            1   C1y C    19.3200  -17.5000
+            2   C8y C    19.3200  -18.8300
+            3   C2y C    20.5100  -16.8000
+            4   C2y C    18.1300  -16.8000
+            5   C8x C    20.5100  -19.5300
+            6   C8x C    18.1300  -19.5300
+            7   C2y C    20.5100  -15.4000
+            8   C7a C    21.7000  -17.5000
+            9   C2y C    18.1300  -15.4000
+            10  C7a C    16.9400  -17.5000
+            11  C8y C    20.5100  -20.9300
+            12  C8x C    18.1300  -20.9300
+            13  N1x N    19.3200  -14.7000
+            14  C1a C    21.7000  -14.7000
+            15  O7a O    22.8900  -16.8000
+            16  O6a O    21.7000  -18.8300
+            17  C1a C    16.9400  -14.7000
+            18  O7a O    15.7500  -16.8000
+            19  O6a O    16.9400  -18.8300
+            20  C8x C    19.3200  -21.6300
+            21  N2b N    21.7000  -21.6300 #+
+            22  C1d C    24.0800  -17.5000
+            23  C1a C    14.5600  -17.5000
+            24  O3a O    23.2400  -20.6500
+            25  O3a O    21.7000  -23.3100 #-
+            26  C1b C    25.2700  -16.8000
+            27  N1c N    26.4600  -17.5000
+            28  C1b C    27.7200  -16.8000
+            29  C1a C    26.4600  -18.8300
+            30  C1b C    28.9100  -17.5000
+            31  C1c C    30.1000  -16.8000
+            32  C8y C    31.2900  -17.5000
+            33  C8y C    30.1000  -15.4000
+            34  C8x C    31.2900  -14.7000
+            35  C8x C    31.2900  -13.3000
+            36  C8x C    30.1000  -12.6000
+            37  C8x C    28.9100  -13.3000
+            38  C8x C    28.9100  -14.7000
+            39  C8x C    31.2900  -18.8300
+            40  C8x C    32.4800  -19.5300
+            41  C8x C    33.7400  -18.8300
+            42  C8x C    33.7400  -17.4300
+            43  C8x C    32.4800  -16.8000
+            44  C1a C    23.3800  -18.6900
+            45  C1a C    24.7800  -18.6900
+BOND        48
+            1     8  15 1
+            2     8  16 2
+            3     9  17 1
+            4    10  18 1
+            5    10  19 2
+            6    11  20 1
+            7    11  21 1
+            8    15  22 1
+            9    18  23 1
+            10   21  24 2
+            11   21  25 1
+            12   22  26 1
+            13   26  27 1
+            14   27  28 1
+            15   27  29 1
+            16   28  30 1
+            17    9  13 1
+            18   12  20 2
+            19   30  31 1
+            20   31  32 1
+            21    1   2 1
+            22   31  33 1
+            23    1   3 1
+            24    1   4 1
+            25    2   5 1
+            26    2   6 2
+            27    3   7 2
+            28   33  34 1
+            29   34  35 2
+            30   35  36 1
+            31   36  37 2
+            32   37  38 1
+            33   38  33 2
+            34    3   8 1
+            35    4   9 2
+            36    4  10 1
+            37    5  11 2
+            38    6  12 1
+            39   32  39 1
+            40   39  40 2
+            41   40  41 1
+            42   41  42 2
+            43   42  43 1
+            44   43  32 2
+            45    7  13 1
+            46   22  44 1
+            47    7  14 1
+            48   22  45 1
+///

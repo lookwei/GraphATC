@@ -1,0 +1,65 @@
+ENTRY       C00109                      Compound
+NAME        2-Oxobutanoate;
+            2-Ketobutyric acid;
+            2-Oxobutyric acid;
+            2-Oxobutyrate;
+            2-Oxobutanoic acid;
+            alpha-Ketobutyric acid;
+            alpha-Ketobutyrate
+FORMULA     C4H6O3
+EXACT_MASS  102.0317
+MOL_WEIGHT  102.0886
+REACTION    R00654 R00993 R00994 R00995 R00996 R00997 R00998 R00999 
+            R01000 R01001 R01199 R01283 R04673 R04770 R04930 R05840 
+            R06987 R08637 R08648 R10991 R10992 R10996 R11098
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00640  Propanoate metabolism
+            map00660  C5-Branched dibasic acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+            M00535  Isoleucine biosynthesis, pyruvate => 2-oxobutanoate
+            M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
+ENZYME      1.1.1.27        1.1.1.85        1.2.3.-         1.2.4.4         
+            1.2.7.1         2.2.1.6         2.3.1.54        2.3.3.6         
+            2.5.1.48        2.6.1.42        2.6.1.44        3.5.99.7        
+            3.5.99.10       4.1.1.112       4.3.1.19        4.4.1.1         
+            4.4.1.2         4.4.1.11
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C00109  2-Oxobutanoate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0106 Oxo fatty acids
+                C00109  2-Oxobutanoic acid
+DBLINKS     CAS: 600-18-0
+            PubChem: 3409
+            ChEBI: 16763 30831
+            LIPIDMAPS: LMFA01060002
+            KNApSAcK: C00019675
+            PDB-CCD: 2KT
+            3DMET: B00028
+            NIKKAJI: J2.726J
+ATOM        7
+            1   C5a C    22.1561  -16.5428
+            2   C6a C    23.3734  -15.8406
+            3   C1b C    20.9451  -15.8406
+            4   O5a O    22.2196  -18.0740
+            5   O6a O    24.5844  -16.5428
+            6   O6a O    23.3671  -14.5065
+            7   C1a C    19.7342  -16.5428
+BOND        6
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+///

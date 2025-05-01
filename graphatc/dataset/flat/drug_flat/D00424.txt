@@ -1,0 +1,214 @@
+ENTRY       D00424                      Drug
+NAME        Rifabutin (JAN/USP/INN);
+            Mycobutin (TN)
+  ABBR      RFB
+PRODUCT     MYCOBUTIN (Pfizer Laboratories Div Pfizer)
+            MYCOBUTIN (REMEDYREPACK)
+  GENERIC   RIFABUTIN (Greenstone LLC)
+            RIFABUTIN (Marlex Pharmaceuticals)
+            RIFABUTIN (Novitium Pharma LLC)
+FORMULA     C46H62N4O11
+EXACT_MASS  846.4415
+MOL_WEIGHT  847.0047
+CLASS       Antibacterial
+             DG01966  Antitubercular
+              DG01598  Rifamycin antibiotic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      Same as: C07235
+            Therapeutic category: 6169
+            ATC code: J04AB04
+            Product: D00424<JP/US>
+            Product (mixture): D11858<US>
+EFFICACY    Antibacterial (antimycobacterial), RNA polymerase inhibitor
+COMMENT     Rifamycin derivative
+TARGET      DNA-directed RNA polymerase [KO:K03040 K03043 K03046]
+  PATHWAY   ko03020(K03040+K03043+K03046)  RNA polymerase
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07023  Rifamycins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J04 ANTIMYCOBACTERIALS
+               J04A DRUGS FOR TREATMENT OF TUBERCULOSIS
+                J04AB Antibiotics
+                 J04AB04 Rifabutin
+                  D00424  Rifabutin (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antimycobacterials
+              Antimycobacterials, Other
+               Rifabutin
+                D00424  Rifabutin (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               616  Acting mainly on acid-fast bacteria
+                6169  Others
+                 D00424  Rifabutin (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01966  Antitubercular
+               DG01598  Rifamycin antibiotic
+                D00424  Rifabutin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00424  Rifabutin
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               D00424  Rifabutin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Nucleic acid synthesis inhibitor
+               Rifamycin
+                D00424  Rifabutin (JAN/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Nucleic acid synthesis inhibitor
+               Rifamycin
+                D00424  Rifabutin (JAN/USP/INN)
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00424
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00424
+DBLINKS     CAS: 72559-06-9
+            PubChem: 7847490
+            ChEBI: 45367
+            PDB-CCD: RBT
+            LigandBox: D00424
+            NIKKAJI: J342.306I
+ATOM        61
+            1   C1c C    21.8400   -4.9000
+            2   C1c C    21.8400   -6.3700
+            3   O1a O    24.2900   -6.3000
+            4   C1c C    24.2900   -4.9000
+            5   C1c C    23.0300   -4.2000
+            6   C2b C    26.6700   -4.9000
+            7   C1c C    25.4800   -4.2000
+            8   C5a C    27.9300   -7.0700
+            9   C2c C    29.1200   -6.3700
+            10  C2b C    29.1200   -4.9000
+            11  C2b C    27.9300   -4.2000
+            12  C1a C    25.4800   -2.8000
+            13  C1a C    23.0300   -2.8000
+            14  O1a O    20.6500   -4.2000
+            15  C1a C    30.3100   -7.0700
+            16  O5a O    26.7400   -6.3700
+            17  N1b N    27.9300   -8.7500
+            18  C1c C    20.6500   -7.0700
+            19  O7a O    19.4600   -6.3700
+            20  C1c C    20.6500   -8.7500
+            21  C2y C    26.7400   -9.4500
+            22  C2y C    26.7400  -10.8500
+            23  C5x C    25.4800   -8.7500
+            24  C8y C    24.2900   -9.4500
+            25  C8y C    24.2900  -10.8500
+            26  C2y C    25.4800  -11.5500
+            27  C8y C    23.1000   -8.7500
+            28  C8y C    21.8400   -9.4500
+            29  C8y C    21.8400  -10.8500
+            30  C8y C    23.1000  -11.5500
+            31  O5x O    25.4800   -7.3500
+            32  O1a O    23.1000   -7.3500
+            33  C1a C    20.6500   -5.2500
+            34  C7a C    18.2000   -5.6700
+            35  C1a C    17.0100   -6.3700
+            36  O6a O    18.2000   -4.2700
+            37  N2x N    25.4800  -12.9500
+            38  C1z C    28.0000  -12.9500
+            39  N1x N    28.0000  -11.5500
+            40  C1x C    28.0000  -14.3500
+            41  C1x C    29.2124  -15.0500
+            42  N1y N    30.4249  -14.3500
+            43  C1x C    30.4249  -12.9500
+            44  C1x C    29.2124  -12.2500
+            45  C1b C    31.6560  -15.0610
+            46  C1c C    32.8612  -14.3653
+            47  C1a C    34.0435  -15.0481
+            48  C1a C    32.8616  -12.9504
+            49  C1c C    19.4376   -9.4500
+            50  O2a O    18.2421   -8.7596
+            51  C2b C    19.4375  -10.8498
+            52  C1a C    19.4376   -7.7700
+            53  C1a C    17.0547   -9.4451
+            54  C2b C    18.2419  -11.5402
+            55  O2a O    18.2419  -12.9402
+            56  O2x O    20.6334  -11.5600
+            57  C1z C    20.6334  -12.9600
+            58  C5x C    23.1000  -12.9500
+            59  O5x O    24.0919  -13.9379
+            60  C1a C    20.6334  -14.3600
+            61  C1a C    21.8400   -8.0500
+BOND        66
+            1     1   2 1
+            2     4   3 1 #Down
+            3     4   5 1
+            4     1   5 1
+            5     6   7 1
+            6     4   7 1
+            7     8   9 1
+            8     9  10 2
+            9    10  11 1
+            10    6  11 2
+            11    7  12 1 #Up
+            12    5  13 1 #Down
+            13    1  14 1 #Down
+            14    9  15 1
+            15    8  16 2
+            16    8  17 1
+            17    2  18 1
+            18   18  19 1 #Up
+            19   18  20 1
+            20   17  21 1
+            21   21  22 2
+            22   21  23 1
+            23   23  24 1
+            24   24  25 1
+            25   25  26 1
+            26   24  27 2
+            27   27  28 1
+            28   28  29 2
+            29   29  30 1
+            30   25  30 2
+            31   23  31 2
+            32   27  32 1
+            33    2  33 1 #Up
+            34   19  34 1
+            35   34  35 1
+            36   34  36 2
+            37   37  38 1
+            38   38  39 1
+            39   39  22 1
+            40   26  37 2
+            41   26  22 1
+            42   38  40 1
+            43   40  41 1
+            44   41  42 1
+            45   42  43 1
+            46   43  44 1
+            47   38  44 1
+            48   42  45 1
+            49   45  46 1
+            50   46  47 1
+            51   46  48 1
+            52   20  49 1
+            53   49  50 1 #Down
+            54   49  51 1
+            55   20  52 1 #Down
+            56   50  53 1
+            57   51  54 2
+            58   54  55 1
+            59   29  56 1
+            60   56  57 1
+            61   55  57 1
+            62   30  58 1
+            63   57  58 1
+            64   58  59 2
+            65   57  60 1 #Down
+            66   28  61 1
+///

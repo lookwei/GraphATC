@@ -1,0 +1,108 @@
+ENTRY       D07097                      Drug
+NAME        Isometheptene mucate (USP)
+FORMULA     (C9H19N)2. C6H10O8
+EXACT_MASS  492.3411
+MOL_WEIGHT  492.6465
+REMARK      ATC code: A03AX10
+EFFICACY    Vasoconstrictor
+TARGET      ADRA1A [HSA:148] [KO:K04135]
+            SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+  PATHWAY   hsa04020(148)  Calcium signaling pathway
+            hsa04080(148)  Neuroactive ligand-receptor interaction
+            hsa04270(148)  Vascular smooth muscle contraction
+            hsa04726(6571)  Serotonergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AX Other drugs for functional gastrointestinal disorders
+                 A03AX10 Isometheptene
+                  D07097  Isometheptene mucate (USP)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1A
+                 D07097  Isometheptene mucate (USP)
+             Transporters
+              Solute carrier family
+               SLC18
+                SLC18A2 (VMAT2)
+                 D07097  Isometheptene mucate (USP)
+DBLINKS     CAS: 7492-31-1
+            PubChem: 51091438
+            LigandBox: D07097
+            NIKKAJI: J280.988E
+ATOM        34
+            1   C1a C    10.8503  -19.3207
+            2   C2c C    12.0628  -18.6207
+            3   C2b C    13.2753  -19.3207
+            4   C1b C    14.4878  -18.6207
+            5   C1b C    15.7002  -19.3207
+            6   C1c C    16.9128  -18.6207
+            7   N1b N    18.1253  -19.3207
+            8   C1a C    19.3377  -18.6207
+            9   C1a C    12.0628  -17.2208
+            10  C1a C    16.9128  -17.2209
+            11  C6a C    25.8300  -18.4800
+            12  C1c C    27.0424  -19.1800
+            13  O6a O    24.6176  -19.1800
+            14  C1c C    28.2379  -18.4896
+            15  C1c C    29.4253  -19.1751
+            16  C1c C    30.6165  -18.4871
+            17  C6a C    31.8060  -19.1738
+            18  O6a O    32.9961  -18.4865
+            19  O6a O    25.8300  -17.0800
+            20  O6a O    31.8062  -20.5798
+            21  O1a O    30.6165  -17.0803
+            22  O1a O    29.4255  -20.5798
+            23  O1a O    28.2380  -17.0803
+            24  O1a O    27.0425  -20.5798
+            25  C1a C    10.8503  -19.3207
+            26  C2c C    12.0628  -18.6207
+            27  C2b C    13.2753  -19.3207
+            28  C1b C    14.4878  -18.6207
+            29  C1b C    15.7002  -19.3207
+            30  C1c C    16.9128  -18.6207
+            31  N1b N    18.1253  -19.3207
+            32  C1a C    19.3377  -18.6207
+            33  C1a C    16.9128  -17.2209
+            34  C1a C    12.0628  -17.2208
+BOND        31
+            1    11  12 1
+            2    11  13 1
+            3    12  14 1
+            4    14  15 1
+            5    15  16 1
+            6    16  17 1
+            7    17  18 1
+            8    11  19 2
+            9    17  20 2
+            10   16  21 1 #Down
+            11   15  22 1 #Down
+            12   14  23 1 #Up
+            13   12  24 1 #Up
+            14    1   2 1
+            15    2   3 2
+            16    3   4 1
+            17    4   5 1
+            18    5   6 1
+            19    6   7 1
+            20    7   8 1
+            21    2   9 1
+            22    6  10 1
+            23   25  26 1
+            24   26  27 2
+            25   27  28 1
+            26   28  29 1
+            27   29  30 1
+            28   30  31 1
+            29   31  32 1
+            30   26  34 1
+            31   30  33 1
+BRACKET     1     8.9600  -21.3500    8.9600  -15.6800
+            1    21.2100  -15.6800   21.2100  -21.3500
+            1  2
+  ORIGINAL  1    1   2   3   4   5   6   7   8  10   9
+  REPEAT    1   25  26  27  28  29  30  31  32  33  34
+///

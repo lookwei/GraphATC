@@ -1,0 +1,47 @@
+ENTRY       C06472                      Compound
+NAME        L-Iduronic acid
+FORMULA     C6H10O7
+EXACT_MASS  194.0427
+MOL_WEIGHT  194.1394
+REACTION    R07813 R07822
+ENZYME      3.2.1.76
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar acids
+                C06472  L-Iduronic acid
+DBLINKS     CAS: 2073-35-0
+            PubChem: 8704
+            ChEBI: 47903
+            PDB-CCD: IDR
+            3DMET: B05205
+            NIKKAJI: J1.047.082J
+ATOM        13
+            1   C1y C    25.0073  -15.1022
+            2   C1y C    25.0073  -16.5086
+            3   O2x O    26.2269  -14.4020
+            4   C6a C    23.7995  -14.4020
+            5   C1y C    26.2269  -17.2088
+            6   O1a O    23.7995  -17.2088
+            7   C1y C    27.4405  -15.1022
+            8   O6a O    22.5916  -15.0965
+            9   O6a O    23.8052  -13.0018
+            10  C1y C    27.4405  -16.5086
+            11  O1a O    26.2326  -18.6033
+            12  O1a O    28.6483  -14.4020
+            13  O1a O    28.6483  -17.2088
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Up
+            11    7  12 1 #Either
+            12   10  13 1 #Down
+            13    7  10 1
+///

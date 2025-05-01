@@ -1,0 +1,40 @@
+ENTRY       D11064            Mixture   Drug
+NAME        Sitagliptin and ipragliflozin;
+            Sujanu (TN)
+COMPONENT   (Sitagliptin phosphate [DR:D06645] | Sitagliptin [DR:D08516] | Sitagliptin phosphate [DR:D12294]), (Ipragliflozin [DR:D10196] | Ipragliflozin L-proline [DR:D10200])
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG03035  Combination of DPP-4 inhibitor and SGLT2 inhibitor
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+              DG03190  UGT2B7 substrate
+REMARK      Therapeutic category: 3969
+            Product: D11064<JP>
+EFFICACY    Antidiabetic
+COMMENT     Ipragliflozin is primarily metabolized by UGT2B7.
+METABOLISM  Enzyme: UGT2B7 [HSA:7364]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D11064  Sitagliptin and ipragliflozin
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG03035  Combination of DPP-4 inhibitor and SGLT2 inhibitor
+                D11064  Sitagliptin and ipragliflozin
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03190  UGT2B7 substrate
+                D11064  Sitagliptin and ipragliflozin
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               D11064  Sitagliptin and ipragliflozin
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11064
+DBLINKS     PubChem: 375581011
+///

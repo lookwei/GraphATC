@@ -1,0 +1,178 @@
+ENTRY       D10576                      Drug
+NAME        Ombitasvir (USAN/INN)
+FORMULA     C50H67N7O8
+EXACT_MASS  893.5051
+MOL_WEIGHT  894.1091
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG01999  HCV NS5A inhibitor
+REMARK      Chemical structure group: DG01819
+EFFICACY    Antiviral, NS5A inhibitor
+COMMENT     Treatment of hepatitis C
+            Ombitasvir is metabolized by P-gp.
+TARGET      HCV NS5A [KO:K22275]
+  PATHWAY   ko03230(K22275)  Viral genome structure
+            ko03240(K22275)  Viral replication
+            ko05160(K22275)  Hepatitis C
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                DG01819  Ombitasvir
+                 D10576  Ombitasvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10576  Ombitasvir (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                DG01819  Ombitasvir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                DG01819  Ombitasvir
+DBLINKS     CAS: 1258226-87-7
+            PubChem: 254741538
+            ChEBI: 85183
+ATOM        65
+            1   C8x C    17.3924  -13.9642
+            2   C8x C    17.3924  -15.3609
+            3   C8y C    18.5796  -16.0593
+            4   C8x C    19.8367  -15.3609
+            5   C8x C    19.8367  -13.9642
+            6   C8y C    18.5796  -13.2658
+            7   N1y N    18.5796  -17.4560
+            8   C1d C    18.5796  -11.8691
+            9   C1a C    18.5796  -10.4723
+            10  C1a C    17.1829  -11.8691
+            11  C1a C    19.9764  -11.8691
+            12  C1y C    17.4622  -18.2941
+            13  C1x C    17.8813  -19.6210
+            14  C1x C    19.2780  -19.6210
+            15  C1y C    19.7669  -18.2941
+            16  C8x C    20.9541  -16.1990
+            17  C8y C    20.9541  -17.5957
+            18  C8x C    22.1413  -18.2941
+            19  C8x C    23.3984  -17.5957
+            20  C8y C    23.3984  -16.1990
+            21  C8x C    22.1413  -15.5006
+            22  C8y C    13.8307  -16.1990
+            23  C8x C    13.8307  -17.5957
+            24  C8x C    15.0179  -18.2941
+            25  C8y C    16.2750  -17.5957
+            26  C8x C    16.2750  -16.1990
+            27  C8x C    15.0179  -15.5006
+            28  N1b N    12.6435  -15.5006
+            29  C5a C    11.4562  -16.1990
+            30  C1y C    10.2690  -15.5006
+            31  O5a O    11.4562  -17.5957
+            32  N1y N     9.0818  -16.3387
+            33  C1x C     7.9644  -15.5006
+            34  C1x C     8.3834  -14.1737
+            35  C1x C     9.7801  -14.1737
+            36  C5a C     9.0818  -17.7354
+            37  C1c C     7.8247  -18.4338
+            38  O5a O    10.2690  -18.4338
+            39  C1c C     6.6375  -17.6656
+            40  C1a C     5.4502  -18.3639
+            41  C1a C     6.6375  -16.2688
+            42  N1b N     7.8247  -19.8305
+            43  C7a C     6.6375  -20.5289
+            44  O7a O     5.4502  -19.8305
+            45  C1a C     4.1932  -20.5289
+            46  O6a O     6.6375  -21.9256
+            47  N1b N    24.5856  -15.5006
+            48  C5a C    25.7729  -16.1990
+            49  C1y C    26.9601  -15.5006
+            50  O5a O    25.7729  -17.5957
+            51  N1y N    28.1473  -16.3387
+            52  C1x C    29.2647  -15.5006
+            53  C1x C    28.8457  -14.1737
+            54  C1x C    27.4490  -14.1737
+            55  C5a C    28.1473  -17.7354
+            56  C1c C    29.4044  -18.4338
+            57  O5a O    26.9601  -18.4338
+            58  C1c C    30.5916  -17.6656
+            59  C1a C    31.7789  -18.3639
+            60  C1a C    30.5916  -16.2688
+            61  N1b N    29.4044  -19.8305
+            62  C7a C    30.5916  -20.5289
+            63  O7a O    31.7789  -19.8305
+            64  C1a C    33.0359  -20.5289
+            65  O6a O    30.5916  -21.9256
+BOND        70
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 1
+            8     6   8 1
+            9     8   9 1
+            10    8  10 1
+            11    8  11 1
+            12    7  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16    7  15 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22   16  21 1
+            23   15  17 1 #Down
+            24   22  23 2
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   22  27 1
+            30   12  25 1 #Up
+            31   22  28 1
+            32   28  29 1
+            33   30  29 1 #Up
+            34   29  31 2
+            35   32  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  30 1
+            39   32  30 1
+            40   32  36 1
+            41   36  37 1
+            42   36  38 2
+            43   37  39 1
+            44   39  40 1
+            45   39  41 1
+            46   37  42 1 #Up
+            47   42  43 1
+            48   43  44 1
+            49   44  45 1
+            50   43  46 2
+            51   47  48 1
+            52   49  48 1 #Down
+            53   48  50 2
+            54   51  52 1
+            55   52  53 1
+            56   53  54 1
+            57   54  49 1
+            58   51  49 1
+            59   51  55 1
+            60   55  56 1
+            61   55  57 2
+            62   56  58 1
+            63   58  59 1
+            64   58  60 1
+            65   56  61 1 #Down
+            66   61  62 1
+            67   62  63 1
+            68   63  64 1
+            69   62  65 2
+            70   47  20 1
+///

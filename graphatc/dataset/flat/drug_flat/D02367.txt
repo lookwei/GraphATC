@@ -1,0 +1,99 @@
+ENTRY       D02367                      Drug
+NAME        Desogestrel (USAN/INN)
+FORMULA     C22H30O
+EXACT_MASS  310.2297
+MOL_WEIGHT  310.473
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C07629
+            ATC code: G03AC09
+            Product (mixture): D04484<JP/US>
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+            NR3A1 (ESR1) [HSA:2099] [KO:K08550]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(2099+5241)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+                G03AC Progestogens
+                 G03AC09 Desogestrel
+                  D02367  Desogestrel (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D02367  Desogestrel
+              DG01666  Progesterone receptor agonist
+               D02367  Desogestrel
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A1 (ESR1)
+                 D02367  Desogestrel (USAN/INN)
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D02367  Desogestrel (USAN/INN)
+DBLINKS     CAS: 54024-22-5
+            PubChem: 7849426
+            ChEBI: 4453
+            LigandBox: D02367
+            NIKKAJI: J12.635G
+ATOM        23
+            1   C1x C    19.6000  -28.7000
+            2   C1x C    19.6000  -30.1000
+            3   C2x C    20.7900  -30.8000
+            4   C2y C    21.9800  -30.1000
+            5   C1y C    21.9800  -28.7000
+            6   C1x C    20.7900  -28.0000
+            7   C1x C    23.1700  -30.8000
+            8   C1x C    24.3600  -30.1000
+            9   C1y C    24.3600  -28.7000
+            10  C1y C    23.1700  -28.0000
+            11  C1y C    25.5500  -28.0000
+            12  C1z C    25.5500  -26.6700
+            13  C1x C    24.3600  -25.9700
+            14  C2y C    23.1700  -26.6700
+            15  C1x C    27.9300  -28.0000
+            16  C1x C    27.9300  -26.6700
+            17  C1z C    26.7400  -25.9700
+            18  C1b C    25.5500  -25.2700
+            19  O1a O    26.7400  -24.6400
+            20  C3b C    27.9300  -25.2700
+            21  C3a C    29.1200  -24.6400
+            22  C1a C    24.3600  -24.6400
+            23  C2a C    21.9547  -25.9749
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   12  18 1 #Up
+            22   17  19 1 #Up
+            23   17  20 1 #Down
+            24   20  21 3
+            25   18  22 1
+            26   14  23 2
+///

@@ -1,0 +1,81 @@
+ENTRY       D06335                      Drug
+NAME        Xemilofiban hydrochloride (USAN)
+FORMULA     C18H22N4O4. HCl
+EXACT_MASS  394.1408
+MOL_WEIGHT  394.8526
+CLASS       Blood modifier agent
+             DG01811  Fibrinogen receptor antagonist
+EFFICACY    Platelet aggregation inhibitor, Glycoprotein IIb/IIIa receptor antagonist
+COMMENT     Prevention of post-recanalization reocclusion of coronary vessels, Treatment of unstable angina
+TARGET      ITGA2B/ITGB3 [HSA:3674 3690] [KO:K06476 K06493]
+  PATHWAY   hsa04611(3674+3690)  Platelet activation
+            hsa04640(3674+3690)  Hematopoietic cell lineage
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01811  Fibrinogen receptor antagonist
+               D06335  Xemilofiban hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Cell surface molecules and ligands
+              Cell adhesion molecules: other families
+               Integrins
+                ITGA2B/ITGB3
+                 D06335  Xemilofiban hydrochloride (USAN)
+DBLINKS     CAS: 156586-91-3
+            PubChem: 47207992
+            LigandBox: D06335
+ATOM        27
+            1   C8x C     9.1000  -11.3400
+            2   C8y C     9.1000  -12.7400
+            3   C8x C    10.3124  -13.4400
+            4   C8x C    11.5249  -12.7400
+            5   C8y C    11.5249  -11.3400
+            6   C8x C    10.3124  -10.6400
+            7   C2c C     7.8876  -13.4400
+            8   N1b N    12.7560  -10.6290
+            9   C5a C    13.9612  -11.3247
+            10  N1a N     6.6921  -12.7496
+            11  N2a N     7.8875  -14.8398
+            12  C1b C    15.1435  -10.6419
+            13  O5a O    13.9616  -12.7396
+            14  C1b C    16.3375  -11.3312
+            15  C5a C    17.5254  -10.6452
+            16  N1b N    18.7165  -11.3329
+            17  C1c C    19.9059  -10.6461
+            18  C1b C    21.0962  -11.3334
+            19  O5a O    17.5255   -9.2402
+            20  C3b C    19.9060   -9.2402
+            21  C7a C    22.2861  -10.6463
+            22  O7a O    23.4762  -11.3335
+            23  C3a C    19.9060   -7.8402
+            24  O6a O    22.2861   -9.2402
+            25  C1b C    24.6661  -10.6464
+            26  C1a C    25.8562  -11.3335
+            27  X   Cl   22.6800  -14.3500
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     8   9 1
+            10    7  10 1
+            11    7  11 2
+            12    9  12 1
+            13    9  13 2
+            14   12  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   15  19 2
+            20   17  20 1 #Down
+            21   18  21 1
+            22   21  22 1
+            23   20  23 3
+            24   21  24 2
+            25   22  25 1
+            26   25  26 1
+///

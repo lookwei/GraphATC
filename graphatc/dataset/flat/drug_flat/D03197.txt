@@ -1,0 +1,112 @@
+ENTRY       D03197                      Drug
+NAME        Butorphanol (USAN/INN)
+FORMULA     C21H29NO2
+EXACT_MASS  327.2198
+MOL_WEIGHT  327.4605
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      Same as: C06863
+            ATC code: N02AF01
+            Chemical structure group: DG00821
+            Product (DG00821): D00837<US>
+EFFICACY    Analgesic, Antitussive, Opioid receptor agonist/antagonist
+COMMENT     Opioid alkaloid, morphinan
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+            OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AF Morphinan derivatives
+                 N02AF01 Butorphanol
+                  D03197  Butorphanol (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00821  Butorphanol
+                D03197  Butorphanol
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00821  Butorphanol
+                D03197  Butorphanol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D03197  Butorphanol (USAN/INN)
+                OPRK1
+                 D03197  Butorphanol (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00821  Butorphanol
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00821  Butorphanol
+DBLINKS     CAS: 42408-82-2
+            PubChem: 17397351
+            ChEBI: 3242
+            LigandBox: D03197
+            NIKKAJI: J16.487I
+ATOM        24
+            1   C1z C    31.7771  -18.9290
+            2   C1z C    32.9418  -19.6104
+            3   C8y C    31.7771  -17.5721
+            4   C1x C    33.0640  -18.0555
+            5   C1x C    30.5949  -19.5929
+            6   C1y C    34.1299  -18.8766
+            7   C1x C    32.9418  -20.9616
+            8   O1a O    34.1182  -20.3676
+            9   C8y C    32.9477  -16.8966
+            10  C8x C    30.5890  -16.8966
+            11  C1x C    35.3121  -18.0496
+            12  C1x C    30.5832  -20.9499
+            13  N1y N    35.3121  -19.5346
+            14  C1x C    34.1940  -17.5838
+            15  C1x C    31.7595  -21.6255
+            16  C8x C    32.9477  -15.5395
+            17  C8y C    30.5890  -15.5395
+            18  C1b C    36.6632  -19.5346
+            19  C8x C    31.7828  -14.8582
+            20  O1a O    29.4184  -14.8582
+            21  C1y C    37.3445  -20.7111
+            22  C1x C    36.9951  -22.0215
+            23  C1x C    38.6666  -21.0546
+            24  C1x C    38.3113  -22.3650
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     1   5 1
+            5     2   6 1
+            6     2   7 1
+            7     2   8 1 #Up
+            8     3   9 2
+            9     3  10 1
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1 #Up
+            13    6  14 1
+            14    7  15 1
+            15    9  16 1
+            16   10  17 2
+            17   13  18 1
+            18   16  19 2
+            19   17  20 1
+            20   18  21 1
+            21   21  22 1
+            22   21  23 1
+            23   22  24 1
+            24    9  14 1
+            25   13  11 1 #Up
+            26   12  15 1
+            27   17  19 1
+            28   23  24 1
+///

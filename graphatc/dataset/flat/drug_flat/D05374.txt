@@ -1,0 +1,161 @@
+ENTRY       D05374                      Drug
+NAME        Paroxetine hydrochloride (USP);
+            Paxil (TN)
+PRODUCT
+  GENERIC   PAROXETINE (Aphena Pharma Solutions - Tennessee)
+            PAROXETINE (Aphena Pharma Solutions - Tennessee)
+            PAROXETINE (Apotex Corp.)
+            PAROXETINE (Cardinal Health 107)
+            PAROXETINE (DIRECT RX)
+            PAROXETINE (DirectRX)
+            PAROXETINE (Golden State Medical Supply)
+            PAROXETINE (Major Pharmaceuticals)
+            PAROXETINE (NuCare Pharmaceuticals)
+            PAROXETINE (REMEDYREPACK)
+            PAROXETINE (REMEDYREPACK)
+            PAROXETINE (REMEDYREPACK)
+            PAROXETINE (REMEDYREPACK)
+            PAROXETINE (Westminster Pharmaceuticals)
+            PAROXETINE HYDROCHLORIDE (Bryant Ranch Prepack)
+            PAROXETINE HYDROCHLORIDE (Lannett Company)
+            PAROXETINE HYDROCHLORIDE (Oxford Pharmaceuticals)
+FORMULA     C19H20FNO3. HCl
+EXACT_MASS  365.1194
+MOL_WEIGHT  365.8263
+CLASS       Neuropsychiatric agent
+             DG01659  Selective serotonin reuptake inhibitor (SSRI)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      ATC code: N06AB05
+            Chemical structure group: DG00944
+            Product (DG00944): D02260<JP/US> D05374<US> D05375<US>
+EFFICACY    Antidepressant, Selective serotonin reuptake inhibitor (SSRI)
+  DISEASE   Major depressive disorder [DS:H01646]
+            Obsessive compulsive disorder [DS:H01450]
+            Panic disorder [DS:H01664]
+            Social anxiety disorder [DS:H01670]
+            Generalized anxiety disorder [DS:H01662]
+COMMENT     Fluoxetine derivative
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AB Selective serotonin reuptake inhibitors
+                 N06AB05 Paroxetine
+                  D05374  Paroxetine hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antidepressants
+              SSRIs/SNRIs (Selective Serotonin Reuptake Inhibitors/Serotonin and Norepinephrine Reuptake Inhibitors)
+               Paroxetine
+                D05374  Paroxetine hydrochloride (USP)
+             Anxiolytics
+              SSRIs/SNRIs (Selective Serotonin Reuptake Inhibitors/Serotonin and Norepinephrine Reuptake Inhibitors)
+               Paroxetine
+                D05374  Paroxetine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01659  Selective serotonin reuptake inhibitor (SSRI)
+               DG00944  Paroxetine
+                D05374  Paroxetine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00944  Paroxetine
+                D05374  Paroxetine hydrochloride
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00944  Paroxetine
+                D05374  Paroxetine hydrochloride
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01659  Selective serotonin reuptake inhibitor (SSRI)
+               D05374  Paroxetine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A4 (HTT)
+                 D05374  Paroxetine hydrochloride (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05374
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D05374
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01659  Selective serotonin reuptake inhibitor (SSRI)
+               DG00944  Paroxetine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00944  Paroxetine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00944  Paroxetine
+DBLINKS     CAS: 78246-49-8
+            PubChem: 47207050
+            ChEBI: 7944
+            LigandBox: D05374
+            NIKKAJI: J345.197F
+ATOM        25
+            1   C1y C    25.2966  -20.5661
+            2   C1y C    24.0856  -21.2622
+            3   C8y C    25.3023  -19.1620
+            4   C1x C    26.5074  -21.2622
+            5   C1b C    22.8746  -20.5661
+            6   C1x C    24.0856  -22.6663
+            7   C8x C    26.5133  -18.4659
+            8   C8x C    24.0913  -18.4659
+            9   C1x C    26.5074  -22.6663
+            10  O2a O    21.6576  -21.2622
+            11  N1x N    25.2966  -23.3626
+            12  C8x C    26.5133  -17.0677
+            13  C8x C    24.0913  -17.0619
+            14  C8y C    20.4465  -20.5601
+            15  C8y C    25.3023  -16.3657
+            16  C8x C    20.4525  -19.1679
+            17  C8x C    19.2415  -21.2681
+            18  X   F    25.2381  -14.9675
+            19  C8y C    19.2472  -18.4659
+            20  C8x C    18.0305  -20.5661
+            21  C8y C    18.0305  -19.1679
+            22  O2x O    18.9607  -17.0911
+            23  O2x O    16.9891  -18.2260
+            24  C1x C    17.5624  -16.9391
+            25  X   Cl   29.5912  -22.1540
+BOND        27
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1 #Up
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 2
+            13   10  14 1
+            14   12  15 2
+            15   14  16 2
+            16   14  17 1
+            17   15  18 1
+            18   16  19 1
+            19   17  20 2
+            20   19  21 2
+            21   19  22 1
+            22   21  23 1
+            23   22  24 1
+            24    9  11 1
+            25   13  15 1
+            26   20  21 1
+            27   23  24 1
+///

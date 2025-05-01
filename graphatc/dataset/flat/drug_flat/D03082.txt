@@ -1,0 +1,74 @@
+ENTRY       D03082                      Drug
+NAME        Benserazide (USAN/INN)
+FORMULA     C10H15N3O5
+EXACT_MASS  257.1012
+MOL_WEIGHT  257.2432
+CLASS       Cardiovascular agent
+             DG01617  Catecholamine synthesis inhibitors
+REMARK      Chemical structure group: DG01296
+EFFICACY    Antiparkinsonian, Decarboxylase inhibitor
+COMMENT     Peripheral aromatic L-amino acid decarboxylase inhibitors (DCI)
+TARGET      DDC [HSA:1644] [KO:K01593]
+  PATHWAY   hsa04726(1644)  Serotonergic synapse
+            hsa04728(1644)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01617  Catecholamine synthesis inhibitors
+               DG01296  Benserazide
+                D03082  Benserazide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Carboxy-lyases
+                DDC
+                 D03082  Benserazide (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01617  Catecholamine synthesis inhibitors
+               DG01296  Benserazide
+DBLINKS     CAS: 322-35-0
+            PubChem: 17397237
+            ChEBI: 64187
+            LigandBox: D03082
+            NIKKAJI: J276.221H
+ATOM        18
+            1   C8y C    20.1225  -25.1372
+            2   C8y C    20.1225  -26.5395
+            3   C8x C    21.3399  -27.2406
+            4   C8x C    22.5501  -26.5395
+            5   C8y C    22.5501  -25.1372
+            6   C8y C    21.3399  -24.4361
+            7   O1a O    21.3416  -23.0337
+            8   O1a O    18.9084  -24.4354
+            9   O1a O    18.9084  -27.2413
+            10  C1b C    23.7557  -24.4432
+            11  N1b N    24.9668  -25.1443
+            12  N1b N    26.1778  -24.4502
+            13  C5a C    27.3889  -25.1513
+            14  C1c C    28.6000  -24.4573
+            15  C1b C    29.8110  -25.1585
+            16  O1a O    31.0221  -24.4645
+            17  O5a O    27.3859  -26.5536
+            18  N1a N    28.6030  -23.0549
+BOND        18
+            1     2   9 1
+            2     2   3 1
+            3     5  10 1
+            4     3   4 2
+            5    10  11 1
+            6     4   5 1
+            7    11  12 1
+            8     5   6 2
+            9    12  13 1
+            10    6   1 1
+            11   13  14 1
+            12   14  15 1
+            13    6   7 1
+            14   15  16 1
+            15   13  17 2
+            16    1   8 1
+            17   14  18 1
+            18    1   2 2
+///

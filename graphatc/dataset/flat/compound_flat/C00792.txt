@@ -1,0 +1,49 @@
+ENTRY       C00792                      Compound
+NAME        D-Arginine;
+            D-2-Amino-5-guanidinovaleric acid
+FORMULA     C6H14N4O2
+EXACT_MASS  174.1117
+MOL_WEIGHT  174.201
+REACTION    R00567 R02458 R02923 R02924 R11016 R11018
+PATHWAY     map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+MODULE      M00947  D-Arginine racemization, D-arginine => L-arginine
+ENZYME      1.4.3.3         1.4.99.6        2.6.1.21        3.5.3.10        
+            5.1.1.9         5.1.1.10
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C00792  D-Arginine
+DBLINKS     CAS: 157-06-2
+            PubChem: 4050
+            ChEBI: 15816
+            PDB-CCD: DAR
+            3DMET: B01331
+            NIKKAJI: J9.186C
+ATOM        12
+            1   C1b C    24.1085  -18.0306
+            2   C1b C    25.3110  -18.7488
+            3   C1c C    22.8766  -18.7137
+            4   C1b C    26.5369  -18.0657
+            5   C6a C    21.7324  -17.9664
+            6   N1a N    22.9232  -20.1148
+            7   N1b N    27.7453  -18.7779
+            8   O6a O    20.5065  -18.6494
+            9   O6a O    21.6856  -16.5596
+            10  C2c C    28.9714  -18.1007
+            11  N1a N    30.1739  -18.8129
+            12  N2a N    28.9888  -16.6938
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1 #Up
+            6     4   7 1
+            7     5   8 1
+            8     5   9 2
+            9     7  10 1
+            10   10  11 1
+            11   10  12 2
+///

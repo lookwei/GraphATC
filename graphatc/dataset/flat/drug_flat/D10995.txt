@@ -1,0 +1,152 @@
+ENTRY       D10995                      Drug
+NAME        Upadacitinib tartrate (USAN)
+FORMULA     C17H19F3N6O. C4H6O6. 4H2O
+EXACT_MASS  602.2159
+MOL_WEIGHT  602.5155
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L04AA44
+            Chemical structure group: DG02829
+            Product (DG02829): D10994<US> D11048<JP>
+EFFICACY    Antirheumatic, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of rheumatoid arthritis and Crohn's disease
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+  PATHWAY   hsa04630(3716)  JAK-STAT signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA44 Upadacitinib
+                  D10995  Upadacitinib tartrate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG02829  Upadacitinib
+                 D10995  Upadacitinib tartrate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG02829  Upadacitinib
+                D10995  Upadacitinib tartrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02829  Upadacitinib
+                 D10995  Upadacitinib tartrate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D10995  Upadacitinib tartrate (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10995
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG02829  Upadacitinib
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG02829  Upadacitinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02829  Upadacitinib
+DBLINKS     CAS: 1607431-21-9
+            PubChem: 342581835
+ATOM        41
+            1   C8y C    12.0864  -19.4258
+            2   C8x C    12.0864  -20.8228
+            3   N5x N    13.2963  -21.5214
+            4   C8y C    14.5062  -20.8228
+            5   C8y C    14.5062  -19.4258
+            6   N4y N    13.2963  -18.7272
+            7   N4x N    15.8350  -21.2545
+            8   C8x C    16.6562  -20.1243
+            9   C8x C    15.8350  -18.9941
+            10  C8y C    13.0059  -17.3607
+            11  C8x C    11.6164  -17.2146
+            12  N5x N    11.0482  -18.4909
+            13  C1y C    13.9549  -16.3142
+            14  C1y C    15.3695  -16.2763
+            15  C1x C    15.7706  -14.9193
+            16  N1y N    14.6038  -14.1184
+            17  C1x C    13.4817  -14.9806
+            18  C1b C    16.2409  -17.4103
+            19  C1a C    17.6212  -17.2274
+            20  C5a C    14.6038  -12.7213
+            21  O5a O    15.8124  -12.0236
+            22  N1b N    13.3912  -12.0212
+            23  C1b C    12.1983  -12.7102
+            24  C1d C    11.0133  -12.0261
+            25  X   F     9.8035  -11.3275
+            26  X   F    11.7119  -10.8162
+            27  X   F    10.3148  -13.2361
+            28  O6a O    21.4206  -14.7008
+            29  C6a C    22.6331  -14.0007
+            30  C1c C    23.8456  -14.7008
+            31  C1c C    25.0582  -14.0007
+            32  C6a C    26.2706  -14.7008
+            33  O6a O    27.4832  -14.0007
+            34  O6a O    22.6331  -12.6009
+            35  O6a O    26.2706  -16.1007
+            36  O1a O    25.0582  -12.6007
+            37  O1a O    23.8456  -16.1006
+            38  O0  O    24.9900  -19.6700
+            39  O0  O    24.9900  -19.6700
+            40  O0  O    24.9900  -19.6700
+            41  O0  O    24.9900  -19.6700
+BOND        39
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    6  10 1
+            12   10  11 2
+            13   11  12 1
+            14    1  12 2
+            15   13  10 1 #Up
+            16   13  14 1
+            17   14  15 1
+            18   15  16 1
+            19   16  17 1
+            20   13  17 1
+            21   14  18 1 #Up
+            22   18  19 1
+            23   16  20 1
+            24   20  21 2
+            25   20  22 1
+            26   22  23 1
+            27   23  24 1
+            28   24  25 1
+            29   24  26 1
+            30   24  27 1
+            31   28  29 1
+            32   29  30 1
+            33   30  31 1
+            34   31  32 1
+            35   32  33 1
+            36   29  34 2
+            37   32  35 2
+            38   31  36 1 #Up
+            39   30  37 1 #Up
+BRACKET     1    22.4700  -20.6500   22.4700  -18.6200
+            1    26.3200  -18.6200   26.3200  -20.6500
+            1  4
+  ORIGINAL  1   38
+  REPEAT    1   39  40  41
+///

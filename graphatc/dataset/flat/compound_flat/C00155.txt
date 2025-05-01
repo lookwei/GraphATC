@@ -1,0 +1,58 @@
+ENTRY       C00155                      Compound
+NAME        L-Homocysteine;
+            L-2-Amino-4-mercaptobutyric acid;
+            Homocysteine
+FORMULA     C4H9NO2S
+EXACT_MASS  135.0354
+MOL_WEIGHT  135.1848
+COMMENT     Homocysteine (generic) [CPD:C05330]
+REACTION    R00192 R00650 R00946 R01283 R01286 R01287 R01288 R01289 
+            R01290 R01291 R01292 R02026 R02821 R04153 R04405 R08633 
+            R10305 R11063 R12505 R12588
+PATHWAY     map00270  Cysteine and methionine metabolism
+            map00920  Sulfur metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+            map01523  Antifolate resistance
+            map04621  NOD-like receptor signaling pathway
+MODULE      M00017  Methionine biosynthesis, aspartate => homoserine => methionine
+            M00035  Methionine degradation
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine
+            M00609  Cysteine biosynthesis, methionine => cysteine
+NETWORK     nt06030  Methionine metabolism
+ENZYME      1.8.4.1         2.1.1.3         2.1.1.5         2.1.1.10        
+            2.1.1.13        2.1.1.14        2.5.1.48        2.5.1.49        
+            2.5.1.134       2.5.1.-         2.8.1.16        3.13.1.9        
+            3.13.2.1        4.2.1.22        4.4.1.2         4.4.1.13        
+            4.4.1.21
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C00155  L-Homocysteine
+DBLINKS     CAS: 6027-13-0
+            PubChem: 3455
+            ChEBI: 17588
+            KNApSAcK: C00001365
+            PDB-CCD: HCS
+            3DMET: B01174
+            NIKKAJI: J228C
+ATOM        8
+            1   O6a O    18.9700  -15.1200
+            2   C6a C    20.1824  -14.4200
+            3   C1c C    21.3949  -15.1200
+            4   C1b C    22.6073  -14.4200
+            5   C1b C    23.8197  -15.1200
+            6   S1a S    25.0322  -14.4200
+            7   O6a O    20.1824  -13.0202
+            8   N1a N    21.3949  -16.5198
+BOND        7
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     2   7 2
+            7     3   8 1 #Down
+///

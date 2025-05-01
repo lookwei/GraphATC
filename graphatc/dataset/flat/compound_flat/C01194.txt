@@ -1,0 +1,108 @@
+ENTRY       C01194                      Compound
+NAME        1-Phosphatidyl-D-myo-inositol;
+            1-Phosphatidyl-1D-myo-inositol;
+            1-Phosphatidyl-myo-inositol;
+            Phosphatidyl-1D-myo-inositol;
+            (3-Phosphatidyl)-1-D-inositol;
+            1,2-Diacyl-sn-glycero-3-phosphoinositol;
+            Phosphatidylinositol
+FORMULA     C11H17O13PR2
+REMARK      ATC code: A05BA10
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01802 R02654 R03332 R03360 R03361 R03362 R03363 R03364 
+            R05916 R09034 R10951 R11680 R11702 R12038 R12795
+PATHWAY     map00562  Inositol phosphate metabolism
+            map00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+            map00564  Glycerophospholipid metabolism
+            map00571  Lipoarabinomannan (LAM) biosynthesis
+            map01100  Metabolic pathways
+            map04070  Phosphatidylinositol signaling system
+            map04136  Autophagy - other
+            map04138  Autophagy - yeast
+            map04140  Autophagy - animal
+            map05132  Salmonella infection
+            map05152  Tuberculosis
+MODULE      M00065  GPI-anchor biosynthesis, core oligosaccharide
+            M00130  Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4
+NETWORK     nt06018  GPI-anchor biosynthesis
+            nt06532  Autophagy
+ENZYME      2.3.1.-         2.4.1.198       2.4.1.345       2.7.1.67        
+            2.7.1.137       2.7.1.150       2.7.1.154       2.7.8.11        
+            3.1.1.52        3.1.1.118       3.1.3.64        3.1.3.67        
+            3.1.3.-         3.1.4.3         3.1.4.11        4.6.1.13
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Phospholipids
+               Glycerophospholipids
+                C01194  Phosphatidylinositol
+            Lipids [BR:br08002]
+             GP  Glycerophospholipids
+              GP06 Glycerophosphoinositols
+               GP0601 Diacylglycerophosphoinositols
+                C01194  1,2-Diacyl-sn-glycero-3-phosphoinositol
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A05 BILE AND LIVER THERAPY
+               A05B LIVER THERAPY, LIPOTROPICS
+                A05BA Liver therapy
+                 A05BA10 Phospholipids
+                  C01194  1-Phosphatidyl-D-myo-inositol
+DBLINKS     PubChem: 4419
+            ChEBI: 16749
+ATOM        27
+            1   C1y C    16.8149  -22.4936
+            2   C1y C    18.0299  -21.7925
+            3   C1y C    16.8149  -23.9073
+            4   C1y C    19.2626  -22.4936
+            5   O1a O    18.0242  -20.3964
+            6   C1y C    18.0299  -24.6257
+            7   O1a O    15.6115  -24.5966
+            8   C1y C    19.2626  -23.9073
+            9   O1a O    20.4659  -21.7925
+            10  O1a O    18.0242  -26.0220
+            11  O1a O    20.4659  -24.5966
+            12  C1b C    11.4100  -18.9700
+            13  C1c C    11.4100  -20.3700
+            14  C1b C    11.4100  -21.7700
+            15  O7a O    10.0100  -20.3700
+            16  C7a C     8.6100  -20.3700
+            17  R   R     7.2100  -20.3700
+            18  O6a O     8.6100  -18.9700
+            19  O7a O    12.8100  -18.9700
+            20  C7a C    14.2100  -18.9700
+            21  R   R    15.6100  -18.9700
+            22  O6a O    14.2100  -17.5700
+            23  O2b O    12.8100  -21.7700
+            24  P1b P    14.2100  -21.7700
+            25  O2b O    15.6100  -21.7700
+            26  O1c O    14.2100  -20.3700
+            27  O1c O    14.2100  -23.1700
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1 #Down
+            5     3   6 1
+            6     3   7 1 #Up
+            7     4   8 1
+            8     4   9 1 #Up
+            9     6  10 1 #Up
+            10    8  11 1 #Down
+            11    6   8 1
+            12   12  13 1
+            13   13  14 1
+            14   13  15 1
+            15   15  16 1
+            16   16  17 1
+            17   16  18 2
+            18   12  19 1
+            19   19  20 1
+            20   20  21 1
+            21   20  22 2
+            22   14  23 1
+            23   23  24 1
+            24   24  25 1
+            25   24  26 2
+            26   24  27 1
+            27    1  25 1 #Up
+///

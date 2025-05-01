@@ -1,0 +1,163 @@
+ENTRY       D08616                      Drug
+NAME        Teneligliptin (INN)
+FORMULA     C22H30N6OS
+EXACT_MASS  426.2202
+MOL_WEIGHT  426.5782
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01601  DPP-4 inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG03191  FMO1 substrate
+             DG02950  FMO3 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+             DG02951  FMO inhibitor
+REMARK      ATC code: A10BH08
+            Chemical structure group: DG01283
+            Product (DG01283): D09756<JP>
+            Product (mixture): D10897<JP>
+EFFICACY    Antidiabetic, Dipeptidyl peptidase-4 (DPP-4) inhibitor
+TARGET      DPP4 (CD26) [HSA:1803] [KO:K01278]
+  PATHWAY   hsa04974(1803)  Protein digestion and absorption
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], FMO1 [HSA:2326], FMO3 [HSA:2328]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576], FMO [HSA:2326 2327 2328 2329 2330]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BH Dipeptidyl peptidase 4 (DPP-4) inhibitors
+                 A10BH08 Teneligliptin
+                  D08616  Teneligliptin (INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01283  Teneligliptin
+                 D08616  Teneligliptin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01283  Teneligliptin
+                 D08616  Teneligliptin
+              DG03191  FMO1 substrate
+               DG01283  Teneligliptin
+                D08616  Teneligliptin
+              DG02950  FMO3 substrate
+               DG01283  Teneligliptin
+                D08616  Teneligliptin
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01283  Teneligliptin
+                D08616  Teneligliptin
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG01283  Teneligliptin
+                 D08616  Teneligliptin
+              DG02951  FMO inhibitor
+               DG01283  Teneligliptin
+                D08616  Teneligliptin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-peptidases
+                DPP4 (CD26)
+                 D08616  Teneligliptin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08616
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01283  Teneligliptin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01283  Teneligliptin
+              DG03191  FMO1 substrate
+               DG01283  Teneligliptin
+              DG02950  FMO3 substrate
+               DG01283  Teneligliptin
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01283  Teneligliptin
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG01283  Teneligliptin
+              DG02951  FMO inhibitor
+               DG01283  Teneligliptin
+DBLINKS     CAS: 760937-92-6
+            PubChem: 96025300
+            PDB-CCD: M51
+            LigandBox: D08616
+ATOM        30
+            1   C1x C    15.6800  -16.5900
+            2   N1y N    15.6800  -17.9900
+            3   C1x C    16.8700  -18.6900
+            4   C1x C    18.1300  -17.9900
+            5   N1y N    18.1300  -16.5900
+            6   C1x C    16.8700  -15.8900
+            7   C8y C    14.4900  -18.6900
+            8   C1y C    19.3200  -15.8900
+            9   N4y N    13.3000  -17.9200
+            10  N5x N    12.2500  -18.7600
+            11  C8y C    12.6700  -20.0200
+            12  C8x C    14.0700  -20.0200
+            13  C1a C    11.9000  -21.2100
+            14  C8y C    13.3000  -16.5200
+            15  C8x C    14.4900  -15.8200
+            16  C8x C    14.4900  -14.4200
+            17  C8x C    13.2300  -13.7200
+            18  C8x C    12.0400  -14.4200
+            19  C8x C    12.0400  -15.8200
+            20  C1x C    20.4400  -16.6600
+            21  C1y C    21.5600  -15.8900
+            22  N1x N    21.1400  -14.5600
+            23  C1x C    19.7400  -14.5600
+            24  C5a C    22.7500  -16.5900
+            25  N1y N    23.9400  -15.8900
+            26  O5a O    22.7500  -17.9900
+            27  C1x C    25.0612  -16.7284
+            28  S2x S    26.2050  -15.9211
+            29  C1x C    25.7907  -14.5838
+            30  C1x C    24.3909  -14.5646
+BOND        34
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     2   7 1
+            8     8   5 1 #Down
+            9     7   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13    7  12 2
+            14   11  13 1
+            15    9  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22    8  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26    8  23 1
+            27   21  24 1 #Down
+            28   24  25 1
+            29   24  26 2
+            30   25  27 1
+            31   27  28 1
+            32   28  29 1
+            33   29  30 1
+            34   25  30 1
+///

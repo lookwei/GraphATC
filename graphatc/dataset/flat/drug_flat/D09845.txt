@@ -1,0 +1,88 @@
+ENTRY       D09845                      Drug
+NAME        Montirelin hydrate (JAN)
+FORMULA     C17H24N6O4S. 4H2O
+EXACT_MASS  480.2002
+MOL_WEIGHT  480.5364
+REMARK      Chemical structure group: DG01347
+EFFICACY    Thyrotropin-releasing hormone receptor agonist
+COMMENT     Thyrotropin-releasing hormone
+TARGET      TRHR [HSA:7201] [KO:K04282]
+  PATHWAY   hsa04080(7201)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thyrotropin-releasing hormone
+                TRHR
+                 D09845  Montirelin hydrate (JAN)
+DBLINKS     PubChem: 124490584
+            LigandBox: D09845
+ATOM        32
+            1   C8y C    30.1700  -27.5100
+            2   C8x C    31.5700  -27.5100
+            3   N5x N    31.9900  -26.1800
+            4   C8x C    30.8700  -25.3400
+            5   N4x N    29.7500  -26.1800
+            6   C1x C    33.1800  -28.2800
+            7   C1x C    33.6700  -29.6100
+            8   C1y C    32.4800  -30.4500
+            9   N1y N    31.3600  -29.6100
+            10  C1x C    31.7800  -28.2800
+            11  C5a C    30.1700  -30.3100
+            12  C1c C    28.9800  -29.6100
+            13  N1b N    27.7200  -30.3100
+            14  C5a C    26.5300  -29.6100
+            15  C1y C    25.3400  -30.3100
+            16  N1x N    24.0800  -29.6100
+            17  C5x C    22.8900  -30.3100
+            18  C1y C    22.8900  -31.7100
+            19  S2x S    24.0800  -32.4100
+            20  C1x C    25.3400  -31.7100
+            21  O5a O    26.5300  -28.2100
+            22  C1b C    28.9800  -28.2100
+            23  C5a C    32.4800  -31.8500
+            24  O5a O    31.2900  -32.5500
+            25  N1a N    33.7400  -32.5500
+            26  O5a O    30.1700  -31.7100
+            27  O5x O    21.7000  -29.6100
+            28  C1a C    21.7000  -32.4100
+            29  O0  O    25.2700  -25.4100
+            30  O0  O    25.2700  -25.4100
+            31  O0  O    25.2700  -25.4100
+            32  O0  O    25.2700  -25.4100
+BOND        30
+            1    13  14 1
+            2     3   4 2
+            3    15  14 1 #Down
+            4     4   5 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 1
+            8     9  10 1
+            9    15  16 1
+            10   16  17 1
+            11   17  18 1
+            12   18  19 1
+            13   19  20 1
+            14   20  15 1
+            15   10   6 1
+            16   14  21 2
+            17    5   1 1
+            18   12  22 1 #Up
+            19   22   1 1
+            20    9  11 1
+            21    8  23 1 #Up
+            22   23  24 2
+            23   11  12 1
+            24   23  25 1
+            25    1   2 2
+            26   11  26 2
+            27   12  13 1
+            28   17  27 2
+            29    2   3 1
+            30   18  28 1 #Down
+BRACKET     1    23.5200  -25.9700   23.5200  -24.8500
+            1    25.7600  -24.8500   25.7600  -25.9700
+            1  4
+  ORIGINAL  1   29
+  REPEAT    1   30  31  32
+///

@@ -1,0 +1,103 @@
+ENTRY       D05719                      Drug
+NAME        Resocortol butyrate (USAN)
+FORMULA     C26H38O5
+EXACT_MASS  430.2719
+MOL_WEIGHT  430.5769
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      Chemical structure group: DG01545
+EFFICACY    Anti-inflammatory (topical), Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG01545  Resocortol
+                 D05719  Resocortol butyrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D05719  Resocortol butyrate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG01545  Resocortol
+DBLINKS     CAS: 76738-96-0
+            PubChem: 47207380
+            ChEBI: 177627
+            LigandBox: D05719
+            NIKKAJI: J309.318B
+ATOM        31
+            1   C1z C    24.5720  -20.1684
+            2   C1y C    24.5897  -21.5305
+            3   C1z C    25.7521  -19.4755
+            4   C1x C    23.4153  -19.4932
+            5   C1y C    23.4330  -22.2175
+            6   C1x C    26.9557  -21.5771
+            7   C1x C    26.9440  -20.1449
+            8   C5a C    25.7404  -18.1075
+            9   O7a O    27.1026  -19.1879
+            10  C1y C    22.2234  -20.1861
+            11  C1y C    22.1594  -21.5422
+            12  C1x C    23.4330  -23.5797
+            13  C1b C    26.9852  -17.4499
+            14  O5a O    24.5132  -17.3970
+            15  O1a O    21.0022  -19.4815
+            16  C1z C    21.0727  -22.2233
+            17  C1x C    22.2528  -24.2666
+            18  C1a C    28.1947  -18.1955
+            19  C2y C    21.0845  -23.5915
+            20  C1x C    19.8866  -21.5540
+            21  C2x C    19.8984  -24.2843
+            22  C1x C    18.7006  -22.2350
+            23  C5x C    18.6829  -23.6735
+            24  O5x O    17.4910  -24.3136
+            25  C7a C    28.3127  -19.8865
+            26  C1b C    29.5258  -19.1842
+            27  C1b C    30.7391  -19.8865
+            28  C1a C    31.9522  -19.1842
+            29  O6a O    28.3135  -21.2913
+            30  C1a C    24.5169  -18.9013
+            31  C1a C    21.1105  -20.9577
+BOND        34
+            1     3   8 1 #Up
+            2     3   9 1 #Down
+            3     4  10 1
+            4     5  11 1
+            5     5  12 1
+            6     8  13 1
+            7     8  14 2
+            8    10  15 1 #Up
+            9    11  16 1
+            10   12  17 1
+            11   13  18 1
+            12   16  19 1
+            13   16  20 1
+            14   19  21 2
+            15   20  22 1
+            16   21  23 1
+            17   23  24 2
+            18    6   7 1
+            19   10  11 1
+            20   17  19 1
+            21   22  23 1
+            22    9  25 1
+            23    1   2 1
+            24   25  26 1
+            25    1   3 1
+            26   26  27 1
+            27    1   4 1
+            28   27  28 1
+            29    2   5 1
+            30   25  29 2
+            31    2   6 1
+            32    1  30 1 #Up
+            33    3   7 1
+            34   16  31 1 #Up
+///

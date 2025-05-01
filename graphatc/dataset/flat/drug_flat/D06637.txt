@@ -1,0 +1,149 @@
+ENTRY       D06637                      Drug
+NAME        Romidepsin (JAN/USAN/INN);
+            Istodax (TN)
+PRODUCT     ISTODAX (Celgene Corporation)
+            ROMIDEPSIN (Teva Parenteral Medicines)
+  GENERIC   ROMIDEPSIN (Fresenius Kabi USA)
+FORMULA     C24H36N4O6S2
+EXACT_MASS  540.2076
+MOL_WEIGHT  540.6958
+CLASS       Antineoplastic
+             DG03133  Histone deacetylase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01XH02
+            Product: D06637<JP/US>
+EFFICACY    Antineoplastic, Histone deacetylase inhibitor
+  DISEASE   Peripheral T-cell lymphoma [DS:H01892]
+            Cutaneous T-Cell Lymphoma [DS:H01463]
+TARGET      HDAC [HSA:3065 3066 8841 9759 10014 10013 51564 55869 9734 83933 79885] [KO:K06067 K11404 K11406 K11407 K11408 K11405 K11409 K18671 K11418]
+  PATHWAY   hsa04110(3065+3066)  Cell cycle
+            hsa04330(3065+3066)  Notch signaling pathway
+            hsa05200(3065+3066)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XH Histone deacetylase (HDAC) inhibitors
+                 L01XH02 Romidepsin
+                  D06637  Romidepsin (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Romidepsin
+                D06637  Romidepsin (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D06637  Romidepsin (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03133  Histone deacetylase inhibitor
+               D06637  Romidepsin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D06637  Romidepsin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Histone deacetylase
+                HDAC
+                 D06637  Romidepsin (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D06637
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D06637
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D06637
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D06637
+DBLINKS     CAS: 128517-07-7
+            PubChem: 47208288
+            ChEBI: 61080
+            LigandBox: D06637
+            NIKKAJI: J575.851C
+ATOM        36
+            1   S3x S    18.9000  -16.8000
+            2   S3x S    18.9000  -18.2000
+            3   C1x C    20.6724  -18.9000
+            4   C1x C    22.5149  -18.2000
+            5   C2x C    22.5149  -16.8000
+            6   N1x N    18.9000  -14.0000
+            7   C1y C    17.6876  -14.7000
+            8   C1x C    17.6876  -16.1000
+            9   C2x C    23.7273  -16.1000
+            10  C5x C    18.9000  -12.6000
+            11  C1y C    20.1124  -11.9000
+            12  O5x O    17.6876  -11.9000
+            13  N1x N    21.5124  -11.9000
+            14  C1c C    20.1124  -10.5000
+            15  C1a C    21.3079   -9.8096
+            16  C1a C    18.8833   -9.7902
+            17  C5x C    22.5373  -12.6700
+            18  O5x O    23.7518  -11.9688
+            19  C1x C    22.5373  -14.0700
+            20  C1y C    23.7518  -14.7712
+            21  C5x C    16.2876  -14.7000
+            22  N1x N    16.2876  -21.3500
+            23  O5x O    15.3090  -13.7212
+            24  O7x O    25.5018  -14.7712
+            25  C2y C    18.0767  -22.0598
+            26  C5x C    19.8407  -21.3646
+            27  C2b C    18.0766  -23.4499
+            28  C1a C    16.8517  -24.1571
+            29  N1x N    21.5838  -22.0477
+            30  O5x O    19.8411  -19.9503
+            31  C1y C    23.3373  -21.3584
+            32  C7x C    25.5056  -22.0445
+            33  C1c C    23.3374  -19.9503
+            34  C1a C    24.5293  -19.2620
+            35  C1a C    22.1045  -19.2382
+            36  O6a O    26.3265  -23.1651
+BOND        37
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     6   7 1
+            6     7   8 1
+            7     1   8 1
+            8     5   9 2
+            9     6  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 1
+            13   11  14 1 #Up
+            14   14  15 1
+            15   14  16 1
+            16   17  18 2
+            17   13  17 1
+            18   17  19 1
+            19   19  20 1
+            20   20   9 1
+            21    7  21 1
+            22   21  22 1
+            23   21  23 2
+            24   20  24 1
+            25   22  25 1
+            26   25  26 1
+            27   25  27 2
+            28   27  28 1
+            29   26  29 1
+            30   26  30 2
+            31   29  31 1
+            32   31  32 1
+            33   31  33 1 #Up
+            34   33  34 1
+            35   33  35 1
+            36   24  32 1
+            37   32  36 2
+///

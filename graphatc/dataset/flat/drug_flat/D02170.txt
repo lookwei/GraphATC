@@ -1,0 +1,63 @@
+ENTRY       D02170                      Drug
+NAME        Indeloxazine hydrochloride (JAN/USAN)
+FORMULA     C14H17NO2. HCl
+EXACT_MASS  267.1026
+MOL_WEIGHT  267.7512
+REMARK      Chemical structure group: DG02869
+EFFICACY    Antidepressant
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D02170  Indeloxazine hydrochloride (JAN/USAN)
+                SLC6A4 (HTT)
+                 D02170  Indeloxazine hydrochloride (JAN/USAN)
+DBLINKS     CAS: 65043-22-3
+            PubChem: 7849231
+            LigandBox: D02170
+            NIKKAJI: J304.815B
+ATOM        18
+            1   C8x C    21.5367  -15.4919
+            2   C8x C    21.5367  -16.8933
+            3   C8y C    22.7513  -17.5940
+            4   C8x C    22.7513  -14.7912
+            5   C8y C    23.9660  -15.4919
+            6   C8y C    23.9660  -16.8933
+            7   C1x C    25.3207  -17.3137
+            8   C2x C    26.1615  -16.1926
+            9   C2x C    25.3207  -15.0715
+            10  O2a O    22.7514  -18.9955
+            11  C1b C    21.5368  -19.6962
+            12  C1y C    20.3222  -18.9955
+            13  C1x C    20.3222  -17.6407
+            14  N1x N    19.1076  -16.9400
+            15  C1x C    17.8930  -17.6407
+            16  C1x C    17.8930  -19.0422
+            17  O2x O    19.1076  -19.6962
+            18  X   Cl   30.0776  -17.8736
+BOND        19
+            1     7   8 1
+            2     8   9 2
+            3     9   5 1
+            4     4   1 2
+            5     3  10 1
+            6    10  11 1
+            7     1   2 1
+            8    11  12 1
+            9     2   3 2
+            10    3   6 1
+            11    5   4 1
+            12    5   6 2
+            13    6   7 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  12 1
+///

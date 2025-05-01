@@ -1,0 +1,125 @@
+ENTRY       D01790                      Drug
+NAME        Oxaliplatin (JAN/USP/INN);
+            Eloxatin (TN)
+PRODUCT     OXALIPLATIN (Teva Parenteral Medicines)
+  GENERIC   OXALIPLATIN (Accord Healthcare)
+            OXALIPLATIN (Actavis Pharma)
+            OXALIPLATIN (Apotex Corp.)
+            OXALIPLATIN (Baxter Healthcare Corporation)
+            OXALIPLATIN (BluePoint Laboratories)
+            OXALIPLATIN (Eugia US LLC)
+            OXALIPLATIN (FOSUN PHARMA USA)
+            OXALIPLATIN (Fosun Pharma USA)
+            OXALIPLATIN (Fresenius Kabi USA)
+            OXALIPLATIN (Gland Pharma Limited)
+            OXALIPLATIN (Gland Pharma Limited)
+            OXALIPLATIN (Hospira)
+            OXALIPLATIN (Ingenus Pharmaceuticals)
+            OXALIPLATIN (Meitheal Pharmaceuticals)
+            OXALIPLATIN (Meitheal Pharmaceuticals)
+            OXALIPLATIN (Mylan Institutional LLC)
+            OXALIPLATIN (Nextgen Pharmaceuticals LLC)
+            OXALIPLATIN (NorthStar Rx LLC)
+            OXALIPLATIN (Qilu Pharmaceutical)
+            OXALIPLATIN (Qilu Pharmaceutical)
+            OXALIPLATIN (Sagent Pharmaceuticals)
+            OXALIPLATIN (Sandoz)
+            OXALIPLATIN (Sandoz)
+            OXALIPLATIN (Winthrop U.S.)
+            OXALIPLATIN (Winthrop U.S.)
+FORMULA     Pt. C6H14N2. C2O4
+EXACT_MASS  397.0601
+MOL_WEIGHT  397.2918
+CLASS       Antineoplastic
+             DG01679  Platinum compound
+            Transporter substrate
+             DG02858  SLC22A1 substrate
+             DG02854  SLC22A2 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01XA03
+            Product: D01790<JP/US>
+EFFICACY    Antineoplastic, Cell growth inhibitor
+  DISEASE   Colon cancer [DS:H00020]
+            Colorectal cancer [DS:H00020]
+COMMENT     Platinum compound
+            DNA alkylator
+TARGET      DNA
+METABOLISM  Transporter: SLC22A2 [HSA:6582], SLC22A1 [HSA:6580]
+INTERACTION  
+STR_MAP     map07040  Antineoplastics - alkylating agents
+OTHER_MAP   map01524  Platinum drug resistance
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XA Platinum compounds
+                 L01XA03 Oxaliplatin
+                  D01790  Oxaliplatin (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Alkylating Agents
+               Oxaliplatin
+                D01790  Oxaliplatin (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D01790  Oxaliplatin (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01679  Platinum compound
+               D01790  Oxaliplatin
+             Transporter substrate
+              DG02858  SLC22A1 substrate
+               D01790  Oxaliplatin
+              DG02854  SLC22A2 substrate
+               D01790  Oxaliplatin
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01790
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01790
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01790
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D01790
+DBLINKS     CAS: 61825-94-3
+            PubChem: 7848852
+            ChEBI: 31941
+            LigandBox: D01790
+            NIKKAJI: J2.108.891I
+ATOM        15
+            1   O6a O    27.6304  -16.6769 #-
+            2   C6a C    28.8402  -17.3773
+            3   C6a C    30.0500  -16.6769
+            4   O6a O    31.2599  -17.3773 #-
+            5   O6a O    28.8402  -18.7782
+            6   O6a O    30.0500  -15.2761
+            7   C1x C    18.8079  -16.6698
+            8   C1x C    18.8079  -18.0706
+            9   C1x C    20.0240  -18.7710
+            10  C1y C    21.2329  -18.0706
+            11  C1y C    21.2329  -16.6698
+            12  C1x C    20.0240  -15.9694
+            13  N1a N    22.4327  -15.9781
+            14  N1a N    22.4241  -18.7572
+            15  Z   Pt   24.9608  -17.2359 #2+
+BOND        13
+            1     2   3 1
+            2     3   4 1
+            3     2   5 2
+            4     1   2 1
+            5     3   6 2
+            6     7   8 1
+            7     8   9 1
+            8     9  10 1
+            9    10  11 1
+            10   11  12 1
+            11   12   7 1
+            12   11  13 1 #Up
+            13   10  14 1 #Down
+///

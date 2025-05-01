@@ -1,0 +1,98 @@
+ENTRY       D09410                      Drug
+NAME        Laninamivir (INN)
+FORMULA     C13H22N4O7
+EXACT_MASS  346.1488
+MOL_WEIGHT  346.3364
+CLASS       Antiviral
+             DG03029  Anti-influenza virus agent
+              DG02842  Neuraminidase inhibitor
+REMARK      Same as: C21557
+            ATC code: J05AH04
+            Chemical structure group: DG01201
+            Product (DG01201): D09547<JP>
+EFFICACY    Antiviral, Neuraminidase inhibitor
+TARGET      Influenza A/B virus neuraminidase [KO:K19392]
+  PATHWAY   ko03230(K19392)  Viral genome structure
+            ko05164(K19392)  Influenza A
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AH Neuraminidase inhibitors
+                 J05AH04 Laninamivir
+                  D09410  Laninamivir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02842  Neuraminidase inhibitor
+                DG01201  Laninamivir
+                 D09410  Laninamivir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Virus release inhibitor
+               Neuraminidase inhibitor
+                D09410  Laninamivir (INN)
+            Prodrugs [br08324.html]
+             D09410
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02842  Neuraminidase inhibitor
+                DG01201  Laninamivir
+DBLINKS     CAS: 203120-17-6
+            PubChem: 96026090
+            ChEBI: 177801
+            PDB-CCD: LNV
+            LigandBox: D09410
+ATOM        24
+            1   C2x C    15.1200  -23.8700
+            2   C1y C    15.1200  -25.2700
+            3   C1y C    16.3100  -25.9700
+            4   C1y C    17.5700  -25.2700
+            5   O2x O    17.5700  -23.8700
+            6   C2y C    16.3100  -23.1700
+            7   C6a C    16.3100  -21.7700
+            8   O6a O    15.1200  -21.0700
+            9   O6a O    17.5000  -21.0700
+            10  N1b N    13.9047  -25.9651
+            11  C2c C    12.7163  -25.2723
+            12  N1a N    11.5199  -25.9565
+            13  N2a N    12.7220  -23.8701
+            14  N1b N    16.2928  -27.7899
+            15  C5a C    15.0849  -28.4676
+            16  O5a O    13.8658  -27.7432
+            17  C1a C    15.0678  -29.8899
+            18  C1c C    18.7766  -25.9800
+            19  C1c C    19.9863  -25.2947
+            20  C1b C    21.2066  -26.0130
+            21  O2a O    18.7651  -27.3700
+            22  C1a C    19.9679  -28.0778
+            23  O1a O    19.9976  -23.8702
+            24  O1a O    22.4158  -25.3287
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     6   7 1
+            8     7   8 2
+            9     7   9 1
+            10    2  10 1 #Up
+            11   10  11 1
+            12   11  12 1
+            13   11  13 2
+            14    3  14 1 #Down
+            15   14  15 1
+            16   15  16 2
+            17   15  17 1
+            18    4  18 1
+            19   18  19 1
+            20   19  20 1
+            21   18  21 1 #Up
+            22   21  22 1
+            23   19  23 1 #Down
+            24   20  24 1
+///

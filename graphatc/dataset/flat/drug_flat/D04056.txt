@@ -1,0 +1,143 @@
+ENTRY       D04056                      Drug
+NAME        Esomeprazole sodium (USAN);
+            Nexium IV (TN)
+PRODUCT     NEXIUM (AstraZeneca Pharmaceuticals LP)
+  GENERIC   ESOMEPRAZOLE SODIUM (Accord Healthcare)
+            ESOMEPRAZOLE SODIUM (Eugia US LLC)
+            ESOMEPRAZOLE SODIUM (Gland Pharma Limited)
+            ESOMEPRAZOLE SODIUM (Hainan Poly Pharm.)
+            ESOMEPRAZOLE SODIUM (Slate Run Pharmaceuticals)
+FORMULA     C17H18N3O3S. Na
+EXACT_MASS  367.0967
+MOL_WEIGHT  367.3979
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01646  Proton pump inhibitor (PPI)
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: A02BC05
+            Chemical structure group: DG00023
+            Product (DG00023): D01984<JP/US> D04056<US> D10120<US> D11114<US>
+EFFICACY    Antisecretory (gastric acid), Anti-ulcerative, Proton pump inhibitor
+  DISEASE   Gastroesophageal reflux disease [DS:H01602]
+            Gastric or duodenal ulcers [DS:H01634]
+COMMENT     Benzimidazole derivative
+TARGET      ATP4 [HSA:495 496] [KO:K01542 K01543]
+  PATHWAY   hsa04966(495+496)  Collecting duct acid secretion
+            hsa04971(495+496)  Gastric acid secretion
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BC Proton pump inhibitors
+                 A02BC05 Esomeprazole
+                  D04056  Esomeprazole sodium (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Proton Pump Inhibitors
+               Esomeprazole
+                D04056  Esomeprazole sodium (USAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00023  Esomeprazole
+                 D04056  Esomeprazole sodium
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00023  Esomeprazole
+                D04056  Esomeprazole sodium
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00023  Esomeprazole
+                 D04056  Esomeprazole sodium
+            Drug classes [BR:br08332]
+             Gastrointestinal agent
+              DG01646  Proton pump inhibitor (PPI)
+               D04056  Esomeprazole sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP4
+                 D04056  Esomeprazole sodium (USAN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04056
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D04056
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00023  Esomeprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00023  Esomeprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00023  Esomeprazole
+DBLINKS     CAS: 161796-78-7
+            PubChem: 17398018
+            LigandBox: D04056
+ATOM        25
+            1   C8x C    22.6302  -20.2561
+            2   C8y C    22.6302  -21.6581
+            3   C8x C    23.8480  -22.3555
+            4   C8x C    23.8480  -19.5516
+            5   C8y C    25.0590  -20.2561
+            6   C8y C    25.0531  -21.6615
+            7   N5x N    26.3882  -22.0992
+            8   C8y C    27.2216  -20.9643
+            9   N4x N    26.3975  -19.8226 #-
+            10  S4a S    28.6112  -20.9607
+            11  C1b C    29.3087  -22.2423
+            12  C8y C    30.7035  -22.2423
+            13  C8y C    31.4043  -23.4514
+            14  C8y C    32.7992  -23.4514
+            15  C8y C    33.4933  -22.2423
+            16  C8x C    32.7992  -21.0334
+            17  N5x N    31.4043  -21.0334
+            18  C1a C    34.8950  -22.2423
+            19  O2a O    33.4966  -24.6663
+            20  C1a C    34.8986  -24.6663
+            21  C1a C    30.6999  -24.6663
+            22  O3c O    29.3063  -19.8142
+            23  O2a O    21.4225  -22.3560
+            24  C1a C    20.2072  -21.6593
+            25  Z   Na   26.3882  -17.7090 #+
+BOND        26
+            1     2   3 1
+            2    23  24 1
+            3     8  10 1
+            4     3   6 2
+            5    10  11 1 #Up
+            6     5   4 2
+            7    11  12 1
+            8     4   1 1
+            9    12  13 2
+            10   13  14 1
+            11   14  15 2
+            12   15  16 1
+            13   16  17 2
+            14   17  12 1
+            15    1   2 2
+            16   15  18 1
+            17    5   6 1
+            18   14  19 1
+            19    6   7 1
+            20   19  20 1
+            21    7   8 2
+            22   13  21 1
+            23    8   9 1
+            24   10  22 2
+            25    9   5 1
+            26    2  23 1
+///

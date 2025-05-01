@@ -1,0 +1,90 @@
+ENTRY       D07406                      Drug
+NAME        Pimethixene (INN);
+            Calmixene (TN)
+FORMULA     C19H19NS
+EXACT_MASS  293.1238
+MOL_WEIGHT  293.4259
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: R06AX23
+EFFICACY    Antiallergic, Antianxiety, Sedative-hypnotic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AX Other antihistamines for systemic use
+                 R06AX23 Pimethixene
+                  D07406  Pimethixene (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D07406  Pimethixene
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D07406  Pimethixene
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D07406  Pimethixene (INN)
+DBLINKS     CAS: 314-03-4
+            PubChem: 51091742
+            LigandBox: D07406
+            NIKKAJI: J11.609B
+ATOM        21
+            1   C8x C    15.7500  -18.9700
+            2   C8x C    15.7500  -20.3700
+            3   C8x C    16.9624  -21.0700
+            4   C8y C    18.1749  -20.3700
+            5   C8y C    18.1749  -18.9700
+            6   C8x C    16.9624  -18.2700
+            7   S2x S    19.3873  -21.0700
+            8   C8y C    20.5997  -20.3700
+            9   C8y C    20.5997  -18.9700
+            10  C8y C    19.3873  -18.2700
+            11  C8x C    21.8122  -21.0700
+            12  C8x C    23.0246  -20.3700
+            13  C8x C    23.0246  -18.9700
+            14  C8x C    21.8122  -18.2700
+            15  C2y C    19.3873  -16.8700
+            16  C1x C    20.6018  -16.1688
+            17  C1x C    20.6018  -14.7688
+            18  N1y N    19.3893  -14.0688
+            19  C1x C    18.1749  -14.7700
+            20  C1x C    18.1749  -16.1700
+            21  C1a C    19.3893  -12.6700
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   10  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   15  20 1
+            24   18  21 1
+///

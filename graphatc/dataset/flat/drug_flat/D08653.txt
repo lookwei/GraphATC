@@ -1,0 +1,101 @@
+ENTRY       D08653                      Drug
+NAME        Tropatepine hydrochloride;
+            Lepticur (TN)
+FORMULA     C22H23NS. HCl
+EXACT_MASS  369.1318
+MOL_WEIGHT  369.9507
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+              DG01745  Anticholinergic antiparkinson agent
+REMARK      ATC code: N04AA12
+            Chemical structure group: DG00858
+EFFICACY    Antiparkinsonian, Muscarinic acetylcholine receptor antagonist
+COMMENT     Atropine [CPD:C01479] derivative; Tricyclic compound
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04A ANTICHOLINERGIC AGENTS
+                N04AA Tertiary amines
+                 N04AA12 Tropatepine
+                  D08653  Tropatepine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01745  Anticholinergic antiparkinson agent
+                DG00858  Tropatepine
+                 D08653  Tropatepine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D08653  Tropatepine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01745  Anticholinergic antiparkinson agent
+                DG00858  Tropatepine
+DBLINKS     CAS: 27574-25-0
+            PubChem: 96025336
+            LigandBox: D08653
+            NIKKAJI: J262.605E
+ATOM        25
+            1   X   Cl   27.4851  -17.6694
+            2   C1x C    17.2176  -14.7680
+            3   C1x C    17.4976  -13.6482
+            4   C1y C    18.3374  -14.3481
+            5   C1y C    18.6874  -13.2282
+            6   N1y N    17.5676  -11.8984
+            7   C1x C    20.0872  -14.3481
+            8   C1x C    19.8772  -13.2282
+            9   C2y C    21.0671  -14.9080
+            10  C1a C    16.8676  -10.7086
+            11  C2y C    21.0671  -16.3778
+            12  C8y C    22.2569  -16.9377
+            13  C8y C    22.5369  -18.1976
+            14  S2x S    21.6970  -19.2474
+            15  C8y C    19.8773  -16.9377
+            16  C1x C    20.4372  -19.2474
+            17  C8y C    19.5973  -18.1976
+            18  C8x C    18.9674  -16.0279
+            19  C8x C    17.7075  -16.3778
+            20  C8x C    17.3576  -17.7076
+            21  C8x C    18.3375  -18.5475
+            22  C8x C    23.7967  -18.6175
+            23  C8x C    24.7766  -17.7776
+            24  C8x C    24.4966  -16.4478
+            25  C8x C    23.2368  -16.0978
+BOND        28
+            1     2   3 1
+            2     2   4 1
+            3     3   5 1
+            4     4   6 1
+            5     4   7 1
+            6     5   8 1
+            7     7   9 1
+            8     5   6 1
+            9     8   9 1
+            10    6  10 1
+            11   13  14 1
+            12   11  15 1
+            13   14  16 1
+            14   12  13 1
+            15   15  17 1
+            16   11  12 1
+            17   16  17 1
+            18   15  18 2
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   17  21 2
+            23   13  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   12  25 2
+            28    9  11 2
+///

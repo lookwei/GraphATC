@@ -1,0 +1,124 @@
+ENTRY       D04301                      Drug
+NAME        Ganciclovir sodium (USAN);
+            Cytovene IV (TN)
+PRODUCT
+  GENERIC   GANCICLOVIR (Fresenius Kabi USA)
+            GANCICLOVIR (Fresenius Kabi USA)
+            GANCICLOVIR (Hikma Pharmaceuticals USA)
+            GANCICLOVIR (Par Pharmaceutical)
+            GANCICLOVIR (Pharmascience)
+            GANCICLOVIR (Sagent Pharmaceuticals)
+            GANCICLOVIR (Slate Run Pharmaceuticals)
+FORMULA     C9H12N5O4. Na
+EXACT_MASS  277.0787
+MOL_WEIGHT  277.2124
+CLASS       Antiviral
+             DG02840  Anti-herpesvirus agent
+             DG01937  Anti-cytomegalovirus agent
+REMARK      ATC code: J05AB06 S01AD09
+            Chemical structure group: DG00646
+            Product (DG00646): D00333<JP/US> D04301<US>
+EFFICACY    Antiviral, DNA polymerase inhibitor
+  DISEASE   CMV retinitis [DS:H00368]
+TARGET      HCMV DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB06 Ganciclovir
+                  D04301  Ganciclovir sodium (USAN) &lt;US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AD Antivirals
+                 S01AD09 Ganciclovir
+                  D04301  Ganciclovir sodium (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-cytomegalovirus (CMV) Agents
+               Ganciclovir
+                D04301  Ganciclovir sodium (USAN)
+             Ophthalmic Agents
+              Ophthalmic Anti-Infectives
+               Antiviral, Ophthalmic
+                Ganciclovir
+                 D04301  Ganciclovir sodium (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               DG00646  Ganciclovir
+                D04301  Ganciclovir sodium
+              DG01937  Anti-cytomegalovirus agent
+               DG00646  Ganciclovir
+                D04301  Ganciclovir sodium
+            Drug classes [BR:br08332]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               D04301  Ganciclovir sodium
+              DG01937  Anti-cytomegalovirus agent
+               D04301  Ganciclovir sodium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D04301  Ganciclovir sodium (USAN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               DG00646  Ganciclovir
+              DG01937  Anti-cytomegalovirus agent
+               DG00646  Ganciclovir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00646  Ganciclovir
+DBLINKS     CAS: 107910-75-8
+            PubChem: 47206231
+            LigandBox: D04301
+            NIKKAJI: J399.156C
+ATOM        19
+            1   N4y N    17.7005  -17.0904
+            2   C8y C    18.9563  -16.6020
+            3   C8y C    18.9563  -15.2067
+            4   N5x N    17.6307  -14.8578
+            5   C8x C    16.8633  -15.9741
+            6   N5x N    20.3516  -17.2997
+            7   C8y C    21.3981  -16.5322
+            8   N5x N    21.3981  -15.1369
+            9   C8y C    20.1423  -14.5090
+            10  O1a O    20.1423  -13.1137 #-
+            11  N1a N    22.6539  -17.2299
+            12  C1b C    17.7005  -18.5554
+            13  O2a O    16.5145  -19.2531
+            14  C1c C    15.2587  -18.5554
+            15  C1b C    14.1424  -19.2531
+            16  C1b C    15.2587  -17.0904
+            17  O1a O    14.0726  -16.3927
+            18  O1a O    12.8866  -18.5554
+            19  Z   Na   21.9480  -12.8288 #+
+BOND        19
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     2   6 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 2
+            10    3   9 1
+            11    9  10 1
+            12    7  11 1
+            13    1  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   14  16 1
+            18   16  17 1
+            19   15  18 1
+///

@@ -1,0 +1,143 @@
+ENTRY       D00138                      Drug
+NAME        Scopolamine (INN);
+            Transderm scop (TN)
+PRODUCT     TRANSDERM SCOP (Baxter Healthcare Corporation)
+  GENERIC   SCOPOLAMINE (A-S Medication Solutions)
+            SCOPOLAMINE (Actavis Pharma)
+            SCOPOLAMINE (Ingenus Pharmaceuticals)
+            SCOPOLAMINE (Mylan Pharmaceuticals)
+            SCOPOLAMINE TRANDERMAL SYSTEM (Bryant Ranch Prepack)
+            SCOPOLAMINE TRANDERMAL SYSTEM (Bryant Ranch Prepack)
+            SCOPOLAMINE TRANDERMAL SYSTEM (Bryant Ranch Prepack)
+            SCOPOLAMINE TRANDERMAL SYSTEM (Bryant Ranch Prepack)
+            SCOPOLAMINE TRANDERMAL SYSTEM (Padagis Israel Pharmaceuticals)
+FORMULA     C17H21NO4
+EXACT_MASS  303.1471
+MOL_WEIGHT  303.3529
+SOURCE      Atropa belladonna [TAX:33113]
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Gastrointestinal agent
+             DG01762  Antiemetic
+REMARK      Same as: C01851
+            ATC code: A04AD01 N05CM05 S01FA02
+            Chemical structure group: DG00065
+            Product (DG00065): D00138<US> D02071<JP>
+EFFICACY    Antiemetic, Mydriatic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A04 ANTIEMETICS AND ANTINAUSEANTS
+               A04A ANTIEMETICS AND ANTINAUSEANTS
+                A04AD Other antiemetics
+                 A04AD01 Scopolamine
+                  D00138  Scopolamine (INN) &lt;US&gt;
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CM Other hypnotics and sedatives
+                 N05CM05 Scopolamine
+                  D00138  Scopolamine (INN) &lt;US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FA Anticholinergics
+                 S01FA02 Scopolamine
+                  D00138  Scopolamine (INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antiemetics
+              Antiemetics, Other
+               Scopolamine
+                D00138  Scopolamine (INN)
+             Gastrointestinal Agents
+              Antispasmodics, Gastrointestinal
+               Scopolamine
+                D00138  Scopolamine (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Scopolamine
+                D00138  Scopolamine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00065  Scopolamine
+                D00138  Scopolamine
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               DG00065  Scopolamine
+                D00138  Scopolamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00138  Scopolamine (INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00065  Scopolamine
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               DG00065  Scopolamine
+DBLINKS     CAS: 51-34-3
+            PubChem: 7847206
+            ChEBI: 16794 182414
+            LigandBox: D00138
+            NIKKAJI: J47.151H
+ATOM        22
+            1   C1y C    27.2691  -18.1297
+            2   C1y C    27.5838  -16.9522
+            3   C1y C    28.4522  -17.8207
+            4   O2x O    26.2433  -16.7249
+            5   C1y C    28.7612  -16.6375
+            6   N1y N    27.5314  -15.3494
+            7   C1x C    30.3057  -17.8264
+            8   C1x C    30.0493  -16.6433
+            9   C1a C    27.4790  -13.9915
+            10  C1y C    31.3199  -18.3685
+            11  O7a O    32.3631  -19.2836
+            12  C7a C    33.7631  -19.2836
+            13  O6a O    34.4427  -20.4609
+            14  C1c C    34.4721  -18.0566
+            15  C8y C    35.8400  -18.0572
+            16  C8x C    36.5407  -19.2720
+            17  C8x C    37.9407  -19.2726
+            18  C8x C    38.6412  -18.0604
+            19  C8x C    37.9405  -16.8456
+            20  C8x C    36.5405  -16.8451
+            21  C1b C    33.7664  -16.8327
+            22  O1a O    34.4744  -15.6081
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1
+            7     5   8 1
+            8     6   9 1
+            9     7  10 1
+            10   10  11 1 #Down
+            11    2   4 1
+            12    5   6 1
+            13    8  10 1
+            14   11  12 1
+            15   12  13 2
+            16   12  14 1
+            17   14  15 1
+            18   15  16 2
+            19   16  17 1
+            20   17  18 2
+            21   18  19 1
+            22   19  20 2
+            23   15  20 1
+            24   14  21 1 #Down
+            25   21  22 1
+///

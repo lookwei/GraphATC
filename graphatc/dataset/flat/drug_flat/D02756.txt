@@ -1,0 +1,180 @@
+ENTRY       D02756                      Drug
+NAME        Aclarubicin (USAN/INN);
+            Aclacinomycin A;
+            ACM
+FORMULA     C42H53NO15
+EXACT_MASS  811.3415
+MOL_WEIGHT  811.8679
+SOURCE      Streptomyces galilaeus [TAX:33899]
+CLASS       Antineoplastic
+             DG01682  Anthracycline antineoplastic
+             DG01529  Topoisomerase inhibitor
+REMARK      Same as: C18638 G09914
+            ATC code: L01DB04
+            Chemical structure group: DG00699
+            Product (DG00699): D01911<JP>
+EFFICACY    Antineoplastic, Topoisomerase inhibitor
+TARGET      TOP1 [HSA:7150] [KO:K03163]
+            TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+SYN_MAP     map01057(C18638)  Biosynthesis of type II polyketide products
+STR_MAP     map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DB Anthracyclines and related substances
+                 L01DB04 Aclarubicin
+                  D02756  Aclarubicin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00699  Aclarubicin
+                D02756  Aclarubicin
+              DG01529  Topoisomerase inhibitor
+               DG00699  Aclarubicin
+                D02756  Aclarubicin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP1
+                 D02756  Aclarubicin (USAN/INN)
+                TOP2
+                 D02756  Aclarubicin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00699  Aclarubicin
+              DG01529  Topoisomerase inhibitor
+               DG00699  Aclarubicin
+DBLINKS     CAS: 57576-44-0
+            PubChem: 17396914
+            ChEBI: 74619
+            LigandBox: D02756
+            NIKKAJI: J14.540H
+ATOM        58
+            1   C1y C    32.6900  -22.1200
+            2   C1x C    32.6900  -23.5200
+            3   C1x C    33.8800  -24.1500
+            4   C5x C    35.1400  -23.4500
+            5   C1y C    35.1400  -22.0500
+            6   O2x O    33.8800  -21.4200
+            7   C1a C    36.2600  -21.3500
+            8   C1y C    28.0000  -19.5300
+            9   O2x O    29.1900  -18.8300
+            10  C1y C    30.3800  -19.5300
+            11  C1y C    30.3800  -20.9300
+            12  C1y C    29.1900  -21.6300
+            13  C1x C    28.0000  -20.9300
+            14  O1a O    29.1900  -23.0300
+            15  O2a O    31.5700  -21.6300
+            16  C1a C    31.5700  -18.8300
+            17  O2a O    21.8400  -15.9600
+            18  C1y C    23.1700  -16.9400
+            19  C1x C    23.1700  -18.2700
+            20  O2x O    24.2900  -16.2400
+            21  C1y C    24.2900  -18.9700
+            22  C1y C    25.4800  -16.8700
+            23  C1y C    25.4800  -18.2700
+            24  N1c N    24.2900  -20.3000
+            25  C1a C    26.6000  -16.2400
+            26  O2a O    26.6000  -18.9000
+            27  C1z C    23.0300  -12.0400
+            28  O1a O    24.0800  -13.2300
+            29  C1b C    24.0800  -11.4100
+            30  C8x C    19.5300  -11.3400
+            31  C8x C    13.5100  -12.0400
+            32  C8x C    14.7700  -11.3400
+            33  C8y C    15.9600  -12.0400
+            34  C5x C    17.1500  -11.3400
+            35  C8y C    18.3400  -12.0400
+            36  C8x C    13.5100  -13.6500
+            37  C8y C    20.7200  -12.0400
+            38  C1y C    21.9100  -11.4100
+            39  C8y C    14.7700  -14.2800
+            40  C8y C    15.9600  -13.6500
+            41  C5x C    17.0800  -14.2800
+            42  C8y C    18.3400  -13.6500
+            43  C8y C    19.4600  -14.3500
+            44  C8y C    20.7200  -13.6500
+            45  C1y C    21.8400  -14.3500
+            46  C1x C    23.0300  -13.6500
+            47  O1a O    14.7700  -15.6800
+            48  O5x O    17.0800  -15.6800
+            49  O1a O    19.4600  -15.6800
+            50  O5x O    17.1500  -10.0100
+            51  C7a C    21.9100  -10.0100
+            52  O6a O    20.7200   -9.4500
+            53  O7a O    22.9600   -9.4500
+            54  O5x O    36.3300  -24.0800
+            55  C1a C    25.5500  -21.0000
+            56  C1a C    23.1700  -21.0000
+            57  C1a C    25.3400  -12.1800
+            58  C1a C    24.1500  -10.1500
+BOND        64
+            1    12  14 1 #Up
+            2    11  15 1 #Up
+            3     5   7 1 #Up
+            4    10  16 1 #Up
+            5     1  15 1 #Down
+            6     1   2 1
+            7     2   3 1
+            8     3   4 1
+            9     4   5 1
+            10    5   6 1
+            11    8   9 1
+            12    9  10 1
+            13   10  11 1
+            14   11  12 1
+            15   18  19 1
+            16   18  20 1
+            17   19  21 1
+            18   20  22 1
+            19   21  23 1
+            20   21  24 1 #Up
+            21   22  25 1 #Up
+            22   23  26 1 #Up
+            23   22  23 1
+            24   18  17 1 #Down
+            25   31  36 1
+            26   30  37 2
+            27   37  38 1
+            28   38  27 1
+            29   27  28 1 #Down
+            30   36  39 2
+            31   39  40 1
+            32   27  29 1 #Up
+            33   40  41 1
+            34   41  42 1
+            35   42  43 1
+            36   43  44 2
+            37   44  45 1
+            38   45  46 1
+            39   31  32 2
+            40   39  47 1
+            41   41  48 2
+            42   32  33 1
+            43   43  49 1
+            44   33  40 2
+            45   35  42 2
+            46   37  44 1
+            47   34  50 2
+            48   27  46 1
+            49   33  34 1
+            50   38  51 1 #Up
+            51   51  52 2
+            52   34  35 1
+            53   51  53 1
+            54   35  30 1
+            55   45  17 1 #Down
+            56    8  26 1 #Down
+            57    4  54 2
+            58   12  13 1
+            59   24  55 1
+            60   13   8 1
+            61   24  56 1
+            62    6   1 1
+            63   29  57 1
+            64   53  58 1
+///

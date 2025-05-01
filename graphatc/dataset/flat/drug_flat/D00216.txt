@@ -1,0 +1,182 @@
+ENTRY       D00216                      Drug
+NAME        Acarbose (JAN/USAN/INN);
+            Precose (TN)
+PRODUCT
+  GENERIC   ACARBOSE (A-S Medication Solutions)
+            ACARBOSE (Aphena Pharma Solutions - Tennessee)
+            ACARBOSE (AvKARE)
+            ACARBOSE (Bryant Ranch Prepack)
+            ACARBOSE (Bryant Ranch Prepack)
+            ACARBOSE (Bryant Ranch Prepack)
+            ACARBOSE (Chartwell RX)
+            ACARBOSE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            ACARBOSE (Hikma Pharmaceuticals USA)
+            ACARBOSE (PD-Rx Pharmaceuticals)
+            ACARBOSE (Proficient Rx LP)
+            ACARBOSE (Strides Pharma Science Limited)
+            ACARBOSE (Virtus Pharmaceuticals LLC)
+FORMULA     C25H43NO18
+EXACT_MASS  645.248
+MOL_WEIGHT  645.6048
+SOURCE      Actinoplanes [TAX:1865]
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01663  alpha-Glucosidase inhibitor
+REMARK      Same as: C06802
+            Therapeutic category: 3969
+            ATC code: A10BF01
+            Product: D00216<JP/US>
+EFFICACY    Antidiabetic, alpha-Glucosidase inhibitor
+  DISEASE   Type 2 diabetes mellitus [DS:H00409]
+TARGET      GAA [HSA:2548] [KO:K12316]
+            GANC [HSA:2595] [KO:K12317]
+            MGAM [HSA:8972] [KO:K12047]
+            AMY [HSA:279 280] [KO:K01176]
+  PATHWAY   hsa00052(2548+2595+8972)  Galactose metabolism
+            hsa00500(2548+2595+279+280+8972)  Starch and sucrose metabolism
+            hsa04972(279+280)  Pancreatic secretion
+            hsa04973(279+280+8972)  Carbohydrate digestion and absorption
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BF Alpha glucosidase inhibitors
+                 A10BF01 Acarbose
+                  D00216  Acarbose (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Blood Glucose Regulators
+              Antidiabetic Agents
+               Glucose Control Agents, Other
+                Acarbose
+                 D00216  Acarbose (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D00216  Acarbose (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01663  alpha-Glucosidase inhibitor
+                D00216  Acarbose
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01663  alpha-Glucosidase inhibitor
+               D00216  Acarbose
+              DG02044  Hypoglycemic agent
+               D00216  Acarbose
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Glycosidases
+                AMY
+                 D00216  Acarbose (JAN/USAN/INN) &lt;JP/US&gt;
+                GAA
+                 D00216  Acarbose (JAN/USAN/INN) &lt;JP/US&gt;
+                GANC
+                 D00216  Acarbose (JAN/USAN/INN) &lt;JP/US&gt;
+                MGAM
+                 D00216  Acarbose (JAN/USAN/INN) &lt;JP/US&gt;
+DBLINKS     CAS: 56180-94-0
+            PubChem: 7847283
+            ChEBI: 2376
+            PDB-CCD: ACR QPS
+            LigandBox: D00216
+            NIKKAJI: J33.395F
+ATOM        44
+            1   C1y C    18.1630   -9.4066
+            2   C1y C    18.1630  -10.8090
+            3   C1y C    19.4251  -11.5102
+            4   C1y C    20.6172  -10.8090
+            5   C2x C    20.6172   -9.4066
+            6   C2y C    19.4251   -8.7054
+            7   C1b C    19.4251   -7.3031
+            8   O1a O    20.6172   -6.6019
+            9   O1a O    16.9709  -11.5102
+            10  O1a O    19.4251  -12.9126
+            11  O1a O    16.9709   -8.7054
+            12  N1b N    21.8793  -11.5102
+            13  C1y C    23.0713  -10.8090
+            14  C1y C    24.2634  -11.5102
+            15  C1y C    25.4554  -10.8090
+            16  C1y C    25.4554   -9.4066
+            17  O2x O    24.2634   -8.7054
+            18  C1y C    23.0713   -9.4066
+            19  O2a O    26.7175   -8.7054
+            20  O1a O    24.2634  -12.9126
+            21  O1a O    26.6474  -11.5102
+            22  C1a C    21.8092   -8.7054
+            23  C1y C    27.9096   -6.6019
+            24  C1y C    27.9096   -8.0043
+            25  C1y C    29.1016   -8.7054
+            26  C1y C    30.3638   -8.0043
+            27  C1y C    30.3638   -6.6019
+            28  O2x O    29.1016   -5.9007
+            29  C1b C    26.7175   -5.9007
+            30  O1a O    29.1016  -10.1078
+            31  O1a O    31.5558   -8.7054
+            32  O2a O    31.5558   -5.9007
+            33  O1a O    25.5255   -6.6019
+            34  C1y C    32.7478   -3.7971
+            35  C1y C    32.7478   -5.1995
+            36  C1y C    33.9399   -5.9007
+            37  C1y C    35.2020   -5.1995
+            38  C1y C    35.2020   -3.7971
+            39  O2x O    33.9399   -3.0959
+            40  C1b C    31.5558   -3.0959
+            41  O1a O    33.9399   -7.3031
+            42  O1a O    36.3940   -3.0959
+            43  O1a O    36.3940   -5.9007
+            44  O1a O    30.3638   -3.7971
+BOND        47
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     2   9 1 #Up
+            10    3  10 1 #Down
+            11    1  11 1 #Down
+            12    4  12 1 #Down
+            13   13  12 1 #Down
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   13  18 1
+            20   16  19 1 #Down
+            21   14  20 1 #Up
+            22   15  21 1 #Down
+            23   18  22 1 #Up
+            24   23  24 1
+            25   24  25 1
+            26   25  26 1
+            27   26  27 1
+            28   27  28 1
+            29   23  28 1
+            30   23  29 1 #Up
+            31   25  30 1 #Up
+            32   24  19 1 #Down
+            33   26  31 1 #Down
+            34   27  32 1 #Down
+            35   29  33 1
+            36   34  35 1
+            37   35  36 1
+            38   36  37 1
+            39   37  38 1
+            40   38  39 1
+            41   34  39 1
+            42   34  40 1 #Up
+            43   36  41 1 #Up
+            44   38  42 1 #Either
+            45   37  43 1 #Down
+            46   35  32 1 #Down
+            47   40  44 1
+///

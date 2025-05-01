@@ -1,0 +1,109 @@
+ENTRY       D09376                      Drug
+NAME        Retaspimycin hydrochloride (USAN)
+FORMULA     C31H45N3O8. HCl
+EXACT_MASS  623.2973
+MOL_WEIGHT  624.1652
+REMARK      Chemical structure group: DG01880
+EFFICACY    Antineoplastic, Hsp 90 inhibitor
+COMMENT     Geldanamycin [CPD:C11222] derivative
+TARGET      HSP90 [HSA:3320 3326 7184] [KO:K04079 K09487]
+  PATHWAY   hsa04151(3320+3326+7184)  PI3K-Akt signaling pathway
+            hsa04915(3320+3326+7184)  Estrogen signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Signaling molecules
+               Chaperone and folding catalyst
+                HSP90
+                 D09376  Retaspimycin hydrochloride (USAN)
+DBLINKS     PubChem: 96026056
+            ChEBI: 71956
+            LigandBox: D09376
+ATOM        43
+            1   C1x C    21.0700  -23.3100
+            2   C1y C    21.0700  -25.4100
+            3   C1x C    22.6100  -26.1100
+            4   N1x N    25.7600  -23.3100
+            5   C5x C    26.9500  -22.6100
+            6   C2y C    28.0700  -23.3100
+            7   C2x C    30.4500  -25.4100
+            8   C2x C    30.4500  -23.3100
+            9   C2x C    29.2600  -22.6100
+            10  C1y C    29.2600  -26.1100
+            11  C2y C    28.0700  -28.0700
+            12  C1y C    29.2600  -27.4400
+            13  C1y C    24.6400  -27.3700
+            14  C1y C    25.7600  -28.0700
+            15  C2x C    26.9500  -27.3700
+            16  C1a C    28.0700  -29.4000
+            17  O7a O    30.4500  -28.0700
+            18  O2a O    27.8600  -26.1100
+            19  C1a C    26.8100  -26.7400
+            20  C1a C    28.0700  -24.6400
+            21  C1y C    23.3100  -27.3700
+            22  C1a C    19.8800  -26.0400
+            23  C8y C    22.2600  -22.6100
+            24  C8y C    23.4500  -23.3100
+            25  C8y C    24.5700  -22.6100
+            26  C8x C    24.5700  -21.2100
+            27  C8y C    23.4500  -20.5100
+            28  C8y C    22.2600  -21.2100
+            29  O1a O    23.4500  -19.1800
+            30  O1a O    23.4500  -24.6400
+            31  O5x O    26.9500  -21.2100
+            32  C7a C    31.7100  -27.3700
+            33  O6a O    32.8300  -28.2100
+            34  N1a N    31.7100  -25.9000
+            35  O2a O    22.6100  -28.4900
+            36  C1a C    23.2400  -29.6800
+            37  O1a O    24.6400  -26.0400
+            38  C1a C    25.7600  -29.4700
+            39  N1b N    21.0000  -20.5800
+            40  C1b C    19.8100  -21.2100
+            41  C2b C    18.6200  -20.5800
+            42  C2a C    17.4300  -21.2800
+            43  X   Cl   31.1500  -20.2300
+BOND        43
+            1    15  11 2
+            2     3  21 1
+            3    11  12 1
+            4     2  22 1 #Down
+            5    23  24 2
+            6     1  23 1
+            7     2   3 1
+            8     4  25 1
+            9     1   2 1
+            10   13  14 1
+            11   23  28 1
+            12   24  25 1
+            13   25  26 2
+            14   26  27 1
+            15   27  28 2
+            16   14  15 1
+            17   27  29 1
+            18    6   9 2
+            19   24  30 1
+            20   11  16 1
+            21    5  31 2
+            22   10   7 1
+            23   12  17 1 #Up
+            24    7   8 2
+            25   17  32 1
+            26   10  18 1 #Up
+            27   32  33 2
+            28    8   9 1
+            29   32  34 1
+            30   18  19 1
+            31    6  20 1
+            32   21  35 1 #Up
+            33    4   5 1
+            34   35  36 1
+            35    6   5 1
+            36   13  37 1 #Down
+            37   13  21 1
+            38   10  12 1
+            39   14  38 1 #Down
+            40   28  39 1
+            41   39  40 1
+            42   40  41 1
+            43   41  42 2
+///

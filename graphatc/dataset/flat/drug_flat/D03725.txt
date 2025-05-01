@@ -1,0 +1,250 @@
+ENTRY       D03725                      Drug
+NAME        Hydrocodone bitartrate (USP);
+            Hydrocodone bitartrate hemipentahydrate;
+            Dicodid (TN)
+PRODUCT     HYSINGLA ER (Purdue Pharma LP)
+  GENERIC   HYDROCODONE BITARTRATE (Alvogen)
+            HYDROCODONE BITARTRATE (Alvogen)
+FORMULA     (C18H21NO3)2. (C4H6O6)2. 5H2O
+EXACT_MASS  988.39
+MOL_WEIGHT  988.9786
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: R05DA03
+            Chemical structure group: DG01075
+            Product (DG01075): D03725<US>
+            Product (mixture): D00846<US> D02152<US> D11075<US> D11076<US> D11087<US>
+EFFICACY    Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565], CYP2B6 [HSA:1555], CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA03 Hydrocodone
+                  D03725  Hydrocodone bitartrate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Long-acting
+               Hydrocodone
+                D03725  Hydrocodone bitartrate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01075  Hydrocodone
+                 D03725  Hydrocodone bitartrate
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG01075  Hydrocodone
+                D03725  Hydrocodone bitartrate
+              DG01639  CYP2C19 substrate
+               DG01075  Hydrocodone
+                D03725  Hydrocodone bitartrate
+              DG01644  CYP2D6 substrate
+               DG01075  Hydrocodone
+                D03725  Hydrocodone bitartrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01075  Hydrocodone
+                 D03725  Hydrocodone bitartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D03725  Hydrocodone bitartrate (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03725
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01075  Hydrocodone
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG01075  Hydrocodone
+              DG01639  CYP2C19 substrate
+               DG01075  Hydrocodone
+              DG01644  CYP2D6 substrate
+               DG01075  Hydrocodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01075  Hydrocodone
+DBLINKS     CAS: 34195-34-1
+            PubChem: 47205889
+            ChEBI: 5780
+            LigandBox: D03725
+ATOM        69
+            1   C1z C    25.7578  -16.0286
+            2   C8y C    25.7578  -14.6988
+            3   C1y C    26.9476  -16.7286
+            4   C1y C    24.6379  -16.6586
+            5   C1x C    26.9476  -15.3987
+            6   C8y C    24.6379  -14.0688
+            7   C8y C    26.9476  -14.0688
+            8   C1y C    28.0675  -16.0286
+            9   C1x C    26.9476  -17.9885
+            10  O2x O    23.3780  -15.3287
+            11  C5x C    24.6379  -17.9885
+            12  C1x C    29.1874  -15.3987
+            13  C8y C    24.6379  -12.7389
+            14  C1x C    28.0675  -14.7688
+            15  C8x C    26.9476  -12.7389
+            16  N1y N    29.1874  -16.7286
+            17  C1x C    25.7578  -18.6884
+            18  O5x O    23.5880  -18.6884
+            19  C8x C    25.8277  -12.1090
+            20  O2a O    23.5880  -12.1090
+            21  C1a C    22.3981  -12.7389
+            22  C1a C    30.5873  -16.7286
+            23  O6a O    34.5301  -13.5792
+            24  C6a C    35.7425  -14.2791
+            25  C1c C    36.9549  -13.5792
+            26  C1c C    38.1672  -14.2791
+            27  C6a C    39.3797  -13.5792
+            28  O6a O    40.5920  -14.2791
+            29  O6a O    35.7425  -15.6789
+            30  O1a O    36.9549  -12.1792
+            31  O1a O    38.1672  -15.6790
+            32  O6a O    39.3797  -12.1795
+            33  O0  O    38.2200  -18.0600
+            34  C1z C    25.7578  -16.0286
+            35  C8y C    25.7578  -14.6988
+            36  C8y C    24.6379  -14.0688
+            37  C8y C    24.6379  -12.7389
+            38  C8x C    25.8277  -12.1090
+            39  C8x C    26.9476  -12.7389
+            40  C8y C    26.9476  -14.0688
+            41  C1x C    28.0675  -14.7688
+            42  C1y C    28.0675  -16.0286
+            43  C1y C    26.9476  -16.7286
+            44  C1x C    26.9476  -17.9885
+            45  C1x C    25.7578  -18.6884
+            46  C5x C    24.6379  -17.9885
+            47  C1y C    24.6379  -16.6586
+            48  O2x O    23.3780  -15.3287
+            49  O5x O    23.5880  -18.6884
+            50  N1y N    29.1874  -16.7286
+            51  C1x C    29.1874  -15.3987
+            52  C1x C    26.9476  -15.3987
+            53  C1a C    30.5873  -16.7286
+            54  O2a O    23.5880  -12.1090
+            55  C1a C    22.3981  -12.7389
+            56  O6a O    34.5301  -13.5792
+            57  C6a C    35.7425  -14.2791
+            58  C1c C    36.9549  -13.5792
+            59  C1c C    38.1672  -14.2791
+            60  C6a C    39.3797  -13.5792
+            61  O6a O    40.5920  -14.2791
+            62  O6a O    39.3797  -12.1795
+            63  O1a O    38.1672  -15.6790
+            64  O1a O    36.9549  -12.1792
+            65  O6a O    35.7425  -15.6789
+            66  O0  O    38.2200  -18.0600
+            67  O0  O    38.2200  -18.0600
+            68  O0  O    38.2200  -18.0600
+            69  O0  O    38.2200  -18.0600
+BOND        70
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 1
+            17   11  18 2
+            18   13  19 2
+            19   13  20 1
+            20   20  21 1
+            21    6  10 1
+            22    8  14 1
+            23   11  17 1
+            24   12  16 1
+            25   15  19 1
+            26   16  22 1
+            27   34  35 1
+            28   34  43 1
+            29   34  47 1
+            30   34  52 1 #Up
+            31   35  36 2
+            32   35  40 1
+            33   43  42 1
+            34   43  44 1
+            35   47  48 1 #Down
+            36   47  46 1
+            37   52  51 1
+            38   36  37 1
+            39   40  41 1
+            40   40  39 2
+            41   42  50 1 #Up
+            42   44  45 1
+            43   46  49 2
+            44   37  38 2
+            45   37  54 1
+            46   54  55 1
+            47   36  48 1
+            48   42  41 1
+            49   46  45 1
+            50   51  50 1
+            51   39  38 1
+            52   50  53 1
+            53   23  24 1
+            54   24  25 1
+            55   25  26 1
+            56   26  27 1
+            57   27  28 1
+            58   24  29 2
+            59   25  30 1 #Down
+            60   26  31 1 #Down
+            61   27  32 2
+            62   56  57 1
+            63   57  58 1
+            64   58  59 1
+            65   59  60 1
+            66   60  61 1
+            67   57  65 2
+            68   58  64 1 #Down
+            69   59  63 1 #Down
+            70   60  62 2
+BRACKET     1    20.5100  -19.2500   20.5100  -11.2700
+            1    32.1300  -11.2700   32.1300  -19.2500
+            1  2
+  ORIGINAL  1    1   2   6  13  19  15   7  14   8   3   9  17  11   4  10  18
+            1   22  16  12   5  23  20  21
+  REPEAT    1   35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50
+            1   51  52  53  54  55  56  57
+            2    33.2500  -16.2400   33.2500  -11.3400
+            2    41.8600  -11.3400   41.8600  -16.2400
+            2  2
+  ORIGINAL  2   24  25  26  27  28  29  33  32  31  30
+  REPEAT    2   58  59  60  61  62  63  64  65  66  67
+            3    36.1900  -19.0400   36.1900  -17.1500
+            3    38.9200  -17.1500   38.9200  -19.0400
+            3  5
+  ORIGINAL  3   34
+  REPEAT    3   68  69  70  71
+///

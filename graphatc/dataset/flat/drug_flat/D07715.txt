@@ -1,0 +1,107 @@
+ENTRY       D07715                      Drug
+NAME        Clobetasol (INN);
+            Clobecort Amex (TN)
+FORMULA     C22H28ClFO4
+EXACT_MASS  410.166
+MOL_WEIGHT  410.9067
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AD01
+            Chemical structure group: DG00422
+            Product (DG00422): D01272<JP/US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AD Corticosteroids, very potent (group IV)
+                 D07AD01 Clobetasol
+                  D07715  Clobetasol (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00422  Clobetasol
+                 D07715  Clobetasol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07715  Clobetasol (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00422  Clobetasol
+DBLINKS     CAS: 25122-41-2
+            PubChem: 51092011
+            ChEBI: 205919
+            LigandBox: D07715
+            NIKKAJI: J19.393C
+ATOM        28
+            1   C1z C    25.6900  -17.2200
+            2   C1z C    24.5000  -17.9200
+            3   C1y C    26.8800  -17.9200
+            4   O1a O    26.8800  -16.5900
+            5   C5a C    25.6900  -15.8900
+            6   C1y C    24.5000  -19.2500
+            7   C1x C    23.3800  -17.2200
+            8   C1a C    24.5000  -16.5900
+            9   C1x C    26.8800  -19.2500
+            10  C1b C    26.8800  -15.1900
+            11  O5a O    24.5000  -15.1900
+            12  C1y C    23.3800  -19.9500
+            13  C1y C    22.1900  -17.9200
+            14  X   Cl   26.8800  -13.8600
+            15  C1z C    22.1900  -19.2500
+            16  C1x C    23.3800  -21.2800
+            17  O1a O    21.0000  -17.2200
+            18  C1z C    21.0000  -19.9500
+            19  X   F    22.1900  -20.6500
+            20  C1x C    22.1900  -21.9800
+            21  C2y C    21.0000  -21.2800
+            22  C2x C    19.8100  -19.2500
+            23  C1a C    21.0000  -18.6200
+            24  C2x C    19.8100  -21.9800
+            25  C2x C    18.6900  -19.9500
+            26  C5x C    18.6900  -21.2800
+            27  O5x O    17.5000  -21.9800
+            28  C1a C    28.2100  -17.9200
+BOND        31
+            1     1   5 1 #Up
+            2     2   6 1
+            3     2   7 1
+            4     2   8 1 #Up
+            5     3   9 1
+            6     5  10 1
+            7     5  11 2
+            8     6  12 1
+            9     7  13 1
+            10   10  14 1
+            11   12  15 1
+            12   12  16 1
+            13   13  17 1 #Up
+            14   15  18 1
+            15   15  19 1 #Down
+            16   16  20 1
+            17   18  21 1
+            18   18  22 1
+            19   18  23 1 #Up
+            20   21  24 2
+            21   22  25 2
+            22   24  26 1
+            23   26  27 2
+            24    6   9 1
+            25   13  15 1
+            26   20  21 1
+            27   25  26 1
+            28    3  28 1 #Up
+            29    1   2 1
+            30    1   3 1
+            31    1   4 1 #Down
+///

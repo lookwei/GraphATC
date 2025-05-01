@@ -1,0 +1,92 @@
+ENTRY       D01600                      Drug
+NAME        Diphenylpiperidinomethyldioxolan iodide (JAN);
+            Anacolin;
+            Gastrophyllin-A (TN)
+FORMULA     C22H28NO2. I
+EXACT_MASS  465.1165
+MOL_WEIGHT  465.3677
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+EFFICACY    Antispasmodic
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Diphenylpiperidinomethyldioxolan iodide
+                D01600  Diphenylpiperidinomethyldioxolan iodide (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D01600  Diphenylpiperidinomethyldioxolan iodide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01600  Diphenylpiperidinomethyldioxolan iodide (JAN)
+DBLINKS     CAS: 21216-78-4
+            PubChem: 7848663
+            ChEBI: 31507
+            LigandBox: D01600
+ATOM        26
+            1   X   I    11.7622  -25.4134 #-
+            2   O2x O    14.6300  -22.0500
+            3   C1y C    13.4976  -22.8732
+            4   C1x C    13.9307  -24.2046
+            5   O2x O    15.3307  -24.2042
+            6   C1z C    15.7629  -22.8726
+            7   C8y C    15.7629  -21.4726
+            8   C8y C    16.9753  -23.5726
+            9   C1b C    12.2976  -22.1900
+            10  N2y N    11.0851  -22.8900 #+
+            11  C1x C     9.8727  -22.1900
+            12  C1x C     8.6603  -22.8900
+            13  C1x C     8.6603  -24.2900
+            14  C1x C     9.8727  -24.9900
+            15  C1x C    11.0851  -24.2900
+            16  C1a C    11.0851  -21.4900
+            17  C8x C    16.9581  -20.7826
+            18  C8x C    16.9583  -19.3826
+            19  C8x C    15.7459  -18.6825
+            20  C8x C    14.5506  -19.3725
+            21  C8x C    14.5505  -20.7725
+            22  C8x C    16.9753  -24.9726
+            23  C8x C    18.1878  -25.6726
+            24  C8x C    19.4002  -24.9726
+            25  C8x C    19.4002  -23.5726
+            26  C8x C    18.1878  -22.8726
+BOND        28
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     2   6 1
+            6     6   7 1
+            7     6   8 1
+            8     3   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  10 1
+            16   10  16 1
+            17    7  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22    7  21 1
+            23    8  22 2
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   25  26 2
+            28    8  26 1
+///

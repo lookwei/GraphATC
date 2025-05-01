@@ -1,0 +1,83 @@
+ENTRY       D02435                      Drug
+NAME        Sulfamerazine (INN)
+FORMULA     C11H12N4O2S
+EXACT_MASS  264.0681
+MOL_WEIGHT  264.3036
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01786  Long-acting sulfonamide
+REMARK      ATC code: D06BA06 J01ED07
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+COMMENT     Sulfonamide
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06B CHEMOTHERAPEUTICS FOR TOPICAL USE
+                D06BA Sulfonamides
+                 D06BA06 Sulfamerazine
+                  D02435  Sulfamerazine (INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01ED Long-acting sulfonamides
+                 J01ED07 Sulfamerazine
+                  D02435  Sulfamerazine (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01786  Long-acting sulfonamide
+                D02435  Sulfamerazine
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Long-acting sulfonamide
+                D02435  Sulfamerazine (INN)
+DBLINKS     CAS: 127-79-7
+            PubChem: 7849493
+            ChEBI: 102130
+            LigandBox: D02435
+            NIKKAJI: J5.402J
+ATOM        18
+            1   C8y C    24.3854  -17.0962
+            2   S4a S    25.6033  -16.3936
+            3   C8x C    24.3854  -18.5014
+            4   C8x C    23.2144  -16.3936
+            5   N1b N    26.8212  -17.0962
+            6   O3c O    26.5869  -15.4099
+            7   O3c O    24.6196  -15.4099
+            8   C8x C    23.2144  -19.2041
+            9   C8x C    21.9965  -17.0962
+            10  C8y C    28.0391  -16.3936
+            11  C8y C    21.9965  -18.5014
+            12  N5x N    28.0391  -14.9883
+            13  N5x N    29.2569  -17.0962
+            14  N1a N    20.7787  -19.2041
+            15  C8x C    29.2569  -14.2857
+            16  C8y C    30.4748  -16.3936
+            17  C8x C    30.4748  -14.9883
+            18  C1a C    31.6917  -17.0964
+BOND        19
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    8  11 2
+            11   10  12 2
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 2
+            16   15  17 2
+            17    9  11 1
+            18   16  17 1
+            19   16  18 1
+///

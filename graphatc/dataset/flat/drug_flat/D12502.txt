@@ -1,0 +1,105 @@
+ENTRY       D12502                      Drug
+NAME        Golidocitinib (USAN/INN)
+FORMULA     C25H31N9O2
+EXACT_MASS  489.2601
+MOL_WEIGHT  489.5727
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+EFFICACY    Anti-inflammatory, Antineoplastic, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of autoimmune diseases and advanced cancers
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+  PATHWAY   hsa04151(3716)  PI3K-Akt signaling pathway
+            hsa04630(3716)  JAK-STAT signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                D12502  Golidocitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D12502  Golidocitinib (USAN/INN)
+DBLINKS     CAS: 2091134-68-6
+ATOM        36
+            1   C8x C    21.5019  -16.8926
+            2   C8x C    21.5019  -15.4965
+            3   C8y C    20.3152  -14.7985
+            4   C8y C    19.0588  -15.4965
+            5   C8y C    19.0588  -16.8926
+            6   C8x C    20.3152  -17.5906
+            7   N4x N    17.7326  -15.0777
+            8   C8x C    16.9647  -16.1945
+            9   C8y C    17.7326  -17.3114
+            10  N1b N    20.3152  -13.4024
+            11  C5a C    21.5019  -12.7044
+            12  C1c C    22.6885  -13.4024
+            13  O5a O    21.5019  -11.3084
+            14  N1y N    23.8752  -12.7044
+            15  C1x C    25.0618  -13.4024
+            16  C1x C    26.3182  -12.7044
+            17  N1y N    26.3182  -11.3084
+            18  C1x C    25.1316  -10.6104
+            19  C1x C    23.8752  -11.3084
+            20  C1a C    27.5049  -10.6104
+            21  C1a C    22.6885  -14.7985
+            22  C8y C    17.3137  -18.6376
+            23  N5x N    15.9177  -18.9168
+            24  C8y C    15.4989  -20.2431
+            25  N5x N    16.4761  -21.2901
+            26  C8x C    17.8024  -21.0109
+            27  C8x C    18.2910  -19.6847
+            28  N1b N    14.1726  -20.5921
+            29  C8y C    13.2652  -19.5450
+            30  C8x C    13.5444  -18.1490
+            31  N4y N    12.2880  -17.4510
+            32  N5x N    11.2409  -18.4282
+            33  C8y C    11.7994  -19.6847
+            34  O2a O    11.1013  -20.9411
+            35  C1a C     9.7053  -20.9411
+            36  C1a C    12.1484  -16.0549
+BOND        40
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    3  10 1
+            12   10  11 1
+            13   11  12 1
+            14   11  13 2
+            15   12  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   14  19 1
+            22   17  20 1
+            23   12  21 1 #Down
+            24    9  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   22  27 1
+            31   24  28 1
+            32   28  29 1
+            33   29  30 2
+            34   30  31 1
+            35   31  32 1
+            36   32  33 2
+            37   29  33 1
+            38   33  34 1
+            39   34  35 1
+            40   31  36 1
+///

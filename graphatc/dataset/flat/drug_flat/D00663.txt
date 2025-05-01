@@ -1,0 +1,106 @@
+ENTRY       D00663                      Drug
+NAME        Brompheniramine maleate (USP);
+            Dimetane (TN)
+FORMULA     C16H19BrN2. C4H4O4
+EXACT_MASS  434.0841
+MOL_WEIGHT  435.3116
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: R06AB01
+            Chemical structure group: DG01097
+            Product (mixture): D11647<US>
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AB Substituted alkylamines
+                 R06AB01 Brompheniramine
+                  D00663  Brompheniramine maleate (USP)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01097  Brompheniramine
+                 D00663  Brompheniramine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D00663  Brompheniramine maleate (USP)
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00663
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01097  Brompheniramine
+DBLINKS     CAS: 980-71-2
+            PubChem: 7847729
+            ChEBI: 3184
+            LigandBox: D00663
+            NIKKAJI: J300.656E
+ATOM        27
+            1   C1c C    18.0996  -18.1067
+            2   C8y C    16.8914  -18.8188
+            3   C8y C    19.3078  -18.7954
+            4   C1b C    18.1053  -16.7002
+            5   C8x C    15.6716  -18.1241
+            6   C8x C    16.9031  -20.2136
+            7   C8x C    19.3078  -20.2020
+            8   N5x N    20.5158  -18.0891
+            9   C1b C    19.3078  -16.0115
+            10  C8x C    14.4692  -18.8362
+            11  C8x C    15.6949  -20.9200
+            12  C8x C    20.5158  -20.8966
+            13  C8x C    21.7356  -18.7954
+            14  N1c N    19.3018  -14.6107
+            15  C8y C    14.4808  -20.2370
+            16  C8x C    21.7356  -20.2020
+            17  C1a C    18.0879  -13.9044
+            18  C1a C    20.5158  -13.8927
+            19  X   Br   13.2669  -20.9433
+            20  C2b C    27.0527  -16.2332
+            21  C2b C    25.4185  -16.2389
+            22  C6a C    27.7297  -17.4063
+            23  C6a C    24.7415  -17.4180
+            24  O6a O    27.0586  -18.5795
+            25  O6a O    29.0955  -17.3946
+            26  O6a O    23.3815  -17.4180
+            27  O6a O    25.4302  -18.5911
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 2
+            10    6  11 1
+            11    7  12 2
+            12    8  13 1
+            13    9  14 1
+            14   10  15 1
+            15   12  16 1
+            16   14  17 1
+            17   14  18 1
+            18   15  19 1
+            19   11  15 2
+            20   13  16 2
+            21   20  21 2
+            22   20  22 1
+            23   21  23 1
+            24   22  24 1
+            25   22  25 2
+            26   23  26 1
+            27   23  27 2
+///

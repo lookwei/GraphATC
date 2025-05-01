@@ -1,0 +1,115 @@
+ENTRY       D05538                      Drug
+NAME        Mozenavir (INN)
+FORMULA     C33H36N4O3
+EXACT_MASS  536.2787
+MOL_WEIGHT  536.6639
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+EFFICACY    Antiviral, HIV protease inhibitor
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+INTERACTION  
+STR_MAP     map07218  HIV protease inhibitors
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                D05538  Mozenavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D05538  Mozenavir (INN)
+DBLINKS     CAS: 174391-92-5
+            PubChem: 17398305
+            PDB-CCD: DMQ
+            LigandBox: D05538
+ATOM        40
+            1   N1y N    30.7716  -15.2837
+            2   C5x C    32.0329  -14.6764
+            3   N1y N    33.3019  -15.2778
+            4   C1y C    33.6189  -16.6354
+            5   C1y C    30.4656  -16.6630
+            6   C1y C    32.7552  -17.7455
+            7   C1y C    31.3500  -17.7537
+            8   O1a O    30.7447  -19.0331
+            9   O1a O    33.3846  -19.0227
+            10  C1b C    29.6962  -14.4314
+            11  C1b C    34.3879  -14.4021
+            12  O5x O    32.0287  -13.2752
+            13  C1b C    29.0656  -16.6630
+            14  C8y C    28.3631  -17.8799
+            15  C8x C    26.9631  -17.8799
+            16  C8x C    26.2631  -19.0923
+            17  C8x C    26.9631  -20.3048
+            18  C8x C    28.3631  -20.3048
+            19  C8x C    29.0631  -19.0923
+            20  C1b C    35.0189  -16.6354
+            21  C8y C    35.7249  -17.8577
+            22  C8x C    37.1249  -17.8577
+            23  C8x C    35.0249  -19.0701
+            24  C8x C    35.7249  -20.2826
+            25  C8x C    37.1249  -20.2826
+            26  C8x C    37.8249  -19.0701
+            27  C8y C    28.3846  -14.9509
+            28  C8x C    28.3846  -16.3509
+            29  C8x C    27.1721  -14.2509
+            30  C8y C    25.9597  -14.9509
+            31  C8x C    25.9597  -16.3509
+            32  C8x C    27.1721  -17.0509
+            33  N1a N    24.7675  -14.2630
+            34  C8y C    35.6841  -14.9029
+            35  C8x C    35.6841  -16.3029
+            36  C8x C    36.8965  -17.0029
+            37  C8x C    38.1090  -16.3029
+            38  C8y C    38.1090  -14.9029
+            39  C8x C    36.8965  -14.2029
+            40  N1a N    39.2965  -14.2171
+BOND        44
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     7   8 1 #Up
+            9     6   9 1 #Down
+            10    1  10 1
+            11    3  11 1
+            12    2  12 2
+            13    5  13 1 #Up
+            14   13  14 1
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   14  19 2
+            21    4  20 1 #Down
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   22  26 2
+            29   10  27 1
+            30   27  28 1
+            31   27  29 2
+            32   29  30 1
+            33   30  31 2
+            34   31  32 1
+            35   28  32 2
+            36   30  33 1
+            37   11  34 1
+            38   34  35 1
+            39   35  36 2
+            40   36  37 1
+            41   37  38 2
+            42   38  39 1
+            43   34  39 2
+            44   38  40 1
+///

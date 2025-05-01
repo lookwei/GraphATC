@@ -1,0 +1,172 @@
+ENTRY       D08363                      Drug
+NAME        Phenylbutazone calcium;
+            Peralgin (TN)
+FORMULA     (C19H19N2O2)2. Ca
+EXACT_MASS  654.2519
+MOL_WEIGHT  654.8107
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01947  Anti-inflammatory drug, pyrazolone
+               DG01949  Anti-inflammatory drug, phenylbutazones
+            Metabolizing enzyme inhibitor
+             DG01643  CYP2C9 inhibitor
+REMARK      ATC code: M01AA01 M02AA01
+            Chemical structure group: DG00745
+EFFICACY    Analgesic, Anti-inflammatory, Antipyretic, Antirheumatic, COX inhibitor
+COMMENT     Pyrazolon derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION CYP inhibition: CYP2C9 [HSA:1559]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AA Butylpyrazolidines
+                 M01AA01 Phenylbutazone
+                  D08363  Phenylbutazone calcium
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA01 Phenylbutazone
+                  D08363  Phenylbutazone calcium
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01947  Anti-inflammatory drug, pyrazolone
+                DG01949  Anti-inflammatory drug, phenylbutazones
+                 DG00745  Phenylbutazone
+                  D08363  Phenylbutazone calcium
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               DG00745  Phenylbutazone
+                D08363  Phenylbutazone calcium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D08363  Phenylbutazone calcium
+                PTGS2 (COX2)
+                 D08363  Phenylbutazone calcium
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08363
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01947  Anti-inflammatory drug, pyrazolone
+                DG01949  Anti-inflammatory drug, phenylbutazones
+                 DG00745  Phenylbutazone
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               DG00745  Phenylbutazone
+DBLINKS     CAS: 70145-60-7
+            PubChem: 96025049
+ATOM        47
+            1   C1y C    20.7900  -17.9200 #-
+            2   C1b C    22.1900  -17.9200
+            3   C5x C    19.9500  -16.8000
+            4   N1y N    18.6200  -17.2200
+            5   N1y N    18.6200  -18.6900
+            6   C5x C    19.9500  -19.1100
+            7   O5x O    20.4400  -20.3700
+            8   O5x O    20.4400  -15.5400
+            9   C8x C    14.9800  -15.1200
+            10  C8x C    14.9800  -16.5200
+            11  C8x C    16.1700  -17.2200
+            12  C8y C    17.4300  -16.5200
+            13  C8x C    17.4300  -15.1200
+            14  C8x C    16.1700  -14.4200
+            15  C8x C    14.9800  -19.3900
+            16  C8x C    14.9800  -20.7900
+            17  C8x C    16.1700  -21.4900
+            18  C8x C    17.4300  -20.7900
+            19  C8y C    17.4300  -19.3900
+            20  C8x C    16.1700  -18.6900
+            21  C1b C    22.8900  -16.7300
+            22  C1b C    24.2900  -16.7300
+            23  C1a C    24.9900  -15.5400
+            24  Z   Ca   29.9600  -17.5700 #2+
+            25  C1y C    20.7900  -17.9200 #-
+            26  C1b C    22.1900  -17.9200
+            27  C1b C    22.8900  -16.7300
+            28  C1b C    24.2900  -16.7300
+            29  C1a C    24.9900  -15.5400
+            30  C5x C    19.9500  -16.8000
+            31  N1y N    18.6200  -17.2200
+            32  N1y N    18.6200  -18.6900
+            33  C5x C    19.9500  -19.1100
+            34  O5x O    20.4400  -20.3700
+            35  C8y C    17.4300  -19.3900
+            36  C8x C    17.4300  -20.7900
+            37  C8x C    16.1700  -21.4900
+            38  C8x C    14.9800  -20.7900
+            39  C8x C    14.9800  -19.3900
+            40  C8x C    16.1700  -18.6900
+            41  C8y C    17.4300  -16.5200
+            42  C8x C    16.1700  -17.2200
+            43  C8x C    14.9800  -16.5200
+            44  C8x C    14.9800  -15.1200
+            45  C8x C    16.1700  -14.4200
+            46  C8x C    17.4300  -15.1200
+            47  O5x O    20.4400  -15.5400
+BOND        50
+            1     1   2 1
+            2     1   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     6   7 2
+            8     3   8 2
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14    9  14 1
+            15   12   4 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22   19   5 1
+            23    2  21 1
+            24   21  22 1
+            25   22  23 1
+            26   25  26 1
+            27   25  30 1
+            28   30  31 1
+            29   31  32 1
+            30   32  33 1
+            31   25  33 1
+            32   33  34 2
+            33   30  47 2
+            34   44  43 2
+            35   43  42 1
+            36   42  41 2
+            37   41  46 1
+            38   46  45 2
+            39   44  45 1
+            40   41  31 1
+            41   39  38 2
+            42   38  37 1
+            43   37  36 2
+            44   36  35 1
+            45   35  40 2
+            46   39  40 1
+            47   35  32 1
+            48   26  27 1
+            49   27  28 1
+            50   28  29 1
+BRACKET     1    12.9500  -22.1200   12.9500  -13.3000
+            1    27.2300  -13.3000   27.2300  -22.1200
+            1  2
+  ORIGINAL  1    1   2  21  22  23   3   4   5   6   7  19  18  17  16  15  20
+            1   12  11  10   9  14  13   8
+  REPEAT    1   25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40
+            1   41  42  43  44  45  46  47
+///

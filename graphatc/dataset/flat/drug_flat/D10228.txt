@@ -1,0 +1,62 @@
+ENTRY       D10228                      Drug
+NAME        Amifampridine (USAN/INN);
+            Ruzurgi (TN)
+FORMULA     C5H7N3
+EXACT_MASS  109.064
+MOL_WEIGHT  109.1292
+REMARK      ATC code: N07XX05
+            Chemical structure group: DG02003
+            Product (DG02003): D10689<US>
+EFFICACY    Autoimmune disease treatment, Potassium channel blocker
+  DISEASE   Lambert-Eaton myasthenic syndrome [DS:H01596]
+COMMENT     Symptomatic treatment of Lambert-Eaton myasthenic syndrome (LEMS) in adults
+TARGET      KCNA [HSA:3736 3737 3738 3739 3741 3742 3743 3744] [KO:K04874 K04875 K04876 K04877 K04878 K04879 K04880 K04881]
+            KCNB [HSA:3745 9312] [KO:K04885 K04886]
+            KCNC [HSA:3746 3747 3748 3749] [KO:K04887 K04888 K04889 K04890]
+            KCND [HSA:3750 3751 3752] [KO:K04891 K04892 K04893]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07X OTHER NERVOUS SYSTEM DRUGS
+                N07XX Other nervous system drugs
+                 N07XX05 Amifampridine
+                  D10228  Amifampridine (USAN/INN)
+            USP drug classification [BR:br08302]
+             Central Nervous System Agents
+              Central Nervous System, Other
+               Amifampridine
+                D10228  Amifampridine (USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Potassium channels
+                KCNA
+                 D10228  Amifampridine (USAN/INN)
+                KCNB
+                 D10228  Amifampridine (USAN/INN)
+                KCNC
+                 D10228  Amifampridine (USAN/INN)
+                KCND
+                 D10228  Amifampridine (USAN/INN)
+DBLINKS     CAS: 54-96-6
+            PubChem: 163312259
+            PDB-CCD: L89
+ATOM        8
+            1   C8y C    11.0600  -18.8300
+            2   C8x C    11.0600  -20.2300
+            3   N5x N    12.2724  -20.9300
+            4   C8x C    13.4849  -20.2300
+            5   C8x C    13.4849  -18.8300
+            6   C8y C    12.2724  -18.1300
+            7   N1a N    12.2724  -16.7302
+            8   N1a N     9.8476  -18.1300
+BOND        8
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     1   8 1
+///

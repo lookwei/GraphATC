@@ -1,0 +1,107 @@
+ENTRY       D01758                      Drug
+NAME        Haloxazolam (JP18/INN);
+            Somelin (TN)
+FORMULA     C17H14BrFN2O2
+EXACT_MASS  376.0223
+MOL_WEIGHT  377.2077
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+REMARK      Therapeutic category: 1124
+            Product: D01758<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01758  Haloxazolam (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               D01758  Haloxazolam
+              DG03202  Hypnotic
+               D01758  Haloxazolam
+              DG01567  GABA-A receptor agonist
+               D01758  Haloxazolam
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03202  Hypnotic
+               D01758  Haloxazolam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01758  Haloxazolam (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01758  Haloxazolam
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01758
+DBLINKS     CAS: 59128-97-1
+            PubChem: 7848821
+            ChEBI: 31666
+            LigandBox: D01758
+            NIKKAJI: J3.200J
+ATOM        23
+            1   C1z C    16.5473  -15.5610
+            2   C8y C    15.7133  -14.4620
+            3   C8y C    16.0453  -13.1184
+            4   N1x N    17.2941  -12.5457
+            5   N1y N    17.9395  -15.5166
+            6   C5x C    18.5356  -13.1621
+            7   C1x C    18.8194  -14.5177
+            8   C8x C    15.0478  -12.1593
+            9   C8x C    13.7188  -12.5436
+            10  C8y C    13.3868  -13.8873
+            11  C8x C    14.3842  -14.8461
+            12  O5x O    19.5697  -12.2367
+            13  X   Br   12.0352  -14.2780
+            14  O2x O    16.1592  -16.8988
+            15  C1x C    17.3116  -17.6813
+            16  C1x C    18.4119  -16.8271
+            17  C8y C    14.8624  -16.2537
+            18  C8x C    13.6625  -15.5610
+            19  C8x C    12.4626  -16.2537
+            20  C8x C    12.4626  -17.6393
+            21  C8x C    13.6625  -18.3321
+            22  C8y C    14.8624  -17.6393
+            23  X   F    16.0688  -18.3359
+BOND        26
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 1
+            18    5  16 1
+            19    1  17 1
+            20   17  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   17  22 1
+            26   22  23 1
+///

@@ -1,0 +1,262 @@
+ENTRY       D08071                      Drug
+NAME        Imipramine pamoate (USP);
+            Imipramine embonate;
+            Tofranil-pm (TN)
+PRODUCT
+  GENERIC   IMIPRAMINE PAMOATE (Hikma Pharmaceuticals USA)
+            IMIPRAMINE PAMOATE (Lupin Pharmaceuticals)
+FORMULA     (C19H24N2)2. C23H16O6
+EXACT_MASS  948.4826
+MOL_WEIGHT  949.1841
+CLASS       Neuropsychiatric agent
+             DG01730  Non-selective monoamine reuptake inhibitor
+             DG01728  Tricyclic antidepressant
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N06AA02
+            Chemical structure group: DG00928
+            Product (DG00928): D00815<JP/US> D08071<US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+  DISEASE   Depression [DS:H01646]
+COMMENT     Active form of prodrug: Desipramine [DR:D07791]
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]; CYP1A2 [HSA:1544], CYP3A4 [HSA:1576], CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AA Non-selective monoamine reuptake inhibitors
+                 N06AA02 Imipramine
+                  D08071  Imipramine pamoate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antidepressants
+              Tricyclics
+               Imipramine
+                D08071  Imipramine pamoate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00928  Imipramine
+                D08071  Imipramine pamoate
+              DG01728  Tricyclic antidepressant
+               DG00928  Imipramine
+                D08071  Imipramine pamoate
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00928  Imipramine
+                D08071  Imipramine pamoate
+              DG01639  CYP2C19 substrate
+               DG00928  Imipramine
+                D08071  Imipramine pamoate
+              DG01644  CYP2D6 substrate
+               DG00928  Imipramine
+                D08071  Imipramine pamoate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00928  Imipramine
+                 D08071  Imipramine pamoate
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               D08071  Imipramine pamoate
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08071  Imipramine pamoate (USP) &lt;US&gt;
+                SLC6A4 (HTT)
+                 D08071  Imipramine pamoate (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08071
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00928  Imipramine
+              DG01728  Tricyclic antidepressant
+               DG00928  Imipramine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00928  Imipramine
+              DG01639  CYP2C19 substrate
+               DG00928  Imipramine
+              DG01644  CYP2D6 substrate
+               DG00928  Imipramine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00928  Imipramine
+            Prodrugs [br08324.html(DG00928)]
+             DG00928
+DBLINKS     CAS: 10075-24-8
+            PubChem: 96024762
+            LigandBox: D08071
+            NIKKAJI: J245.438F
+ATOM        71
+            1   C1x C    19.6700  -22.5400
+            2   C8y C    18.8300  -21.4200
+            3   C8y C    19.1800  -20.0200
+            4   N1y N    20.4400  -19.4600
+            5   C1x C    21.0700  -22.5400
+            6   C8y C    21.7000  -20.0900
+            7   C8y C    21.9800  -21.4900
+            8   C8x C    18.1300  -19.0400
+            9   C8x C    16.8000  -19.4600
+            10  C8x C    16.4500  -20.7900
+            11  C8x C    17.5000  -21.8400
+            12  C8x C    23.3100  -21.9100
+            13  C8x C    24.3600  -21.0000
+            14  C8x C    24.0800  -19.5300
+            15  C8x C    22.7500  -19.1100
+            16  C1b C    20.4400  -18.0600
+            17  C1b C    21.6300  -17.3600
+            18  C1b C    22.8200  -18.0600
+            19  N1c N    24.0800  -17.4300
+            20  C1a C    25.2700  -18.1300
+            21  C1a C    24.0800  -16.0300
+            22  C8x C    29.6800  -20.6500
+            23  C8x C    29.6800  -21.9800
+            24  C8x C    30.8700  -22.6800
+            25  C8x C    32.0600  -21.9800
+            26  C8y C    32.0600  -20.6500
+            27  C8y C    30.8700  -19.9500
+            28  C8y C    33.2500  -19.9500
+            29  C8y C    33.2500  -18.5500
+            30  C8y C    32.0600  -17.9200
+            31  C8x C    30.8700  -18.5500
+            32  C1b C    35.0700  -20.7900
+            33  C8y C    36.6800  -19.9500
+            34  C8y C    37.8700  -20.6500
+            35  C8y C    39.0600  -19.9500
+            36  C8x C    39.0600  -18.5500
+            37  C8y C    37.8700  -17.9200
+            38  C8y C    36.6800  -18.6200
+            39  C8x C    37.8700  -21.9800
+            40  C8x C    39.0600  -22.6800
+            41  C8x C    40.2500  -21.9800
+            42  C8x C    40.2500  -20.6500
+            43  C6a C    32.0600  -16.5200
+            44  O6a O    33.2500  -15.8200
+            45  O6a O    30.8700  -15.8200
+            46  C6a C    37.8700  -16.5200
+            47  O6a O    36.6800  -15.8200
+            48  O6a O    39.0600  -15.8200
+            49  O1a O    34.4400  -17.9200
+            50  O1a O    35.4900  -17.9200
+            51  C1x C    19.6700  -22.5400
+            52  C1x C    21.0700  -22.5400
+            53  C8y C    21.9800  -21.4900
+            54  C8y C    21.7000  -20.0900
+            55  N1y N    20.4400  -19.4600
+            56  C8y C    19.1800  -20.0200
+            57  C8y C    18.8300  -21.4200
+            58  C8x C    17.5000  -21.8400
+            59  C8x C    16.4500  -20.7900
+            60  C8x C    16.8000  -19.4600
+            61  C8x C    18.1300  -19.0400
+            62  C1b C    20.4400  -18.0600
+            63  C1b C    21.6300  -17.3600
+            64  C1b C    22.8200  -18.0600
+            65  N1c N    24.0800  -17.4300
+            66  C1a C    25.2700  -18.1300
+            67  C1a C    24.0800  -16.0300
+            68  C8x C    22.7500  -19.1100
+            69  C8x C    24.0800  -19.5300
+            70  C8x C    24.3600  -21.0000
+            71  C8x C    23.3100  -21.9100
+BOND        78
+            1    22  23 2
+            2    23  24 1
+            3    24  25 2
+            4    25  26 1
+            5    26  27 2
+            6    22  27 1
+            7    26  28 1
+            8    28  29 2
+            9    29  30 1
+            10   30  31 2
+            11   27  31 1
+            12   28  32 1
+            13   32  33 1
+            14   33  34 1
+            15   34  35 2
+            16   35  36 1
+            17   36  37 2
+            18   37  38 1
+            19   33  38 2
+            20   34  39 1
+            21   39  40 2
+            22   40  41 1
+            23   41  42 2
+            24   35  42 1
+            25   30  43 1
+            26   43  44 2
+            27   43  45 1
+            28   37  46 1
+            29   46  47 2
+            30   46  48 1
+            31   29  49 1
+            32   38  50 1
+            33    3   4 1
+            34    1   5 1
+            35    4   6 1
+            36    2   3 1
+            37    5   7 1
+            38    1   2 1
+            39    6   7 1
+            40    3   8 2
+            41    8   9 1
+            42    9  10 2
+            43   10  11 1
+            44    2  11 2
+            45    7  12 2
+            46   12  13 1
+            47   13  14 2
+            48   14  15 1
+            49    6  15 2
+            50    4  16 1
+            51   16  17 1
+            52   17  18 1
+            53   18  19 1
+            54   19  20 1
+            55   19  21 1
+            56   56  55 1
+            57   51  52 1
+            58   55  54 1
+            59   57  56 1
+            60   52  53 1
+            61   51  57 1
+            62   54  53 1
+            63   56  61 2
+            64   61  60 1
+            65   60  59 2
+            66   59  58 1
+            67   57  58 2
+            68   53  71 2
+            69   71  70 1
+            70   70  69 2
+            71   69  68 1
+            72   54  68 2
+            73   55  62 1
+            74   62  63 1
+            75   63  64 1
+            76   64  65 1
+            77   65  66 1
+            78   65  67 1
+BRACKET     1    15.0500  -23.1000   15.0500  -15.2600
+            1    26.9500  -15.2600   26.9500  -23.1000
+            1  2
+  ORIGINAL  1    1   5   7   6   4   3   2  11  10   9   8  16  17  18  19  20
+            1   21  15  14  13  12
+  REPEAT    1   51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66
+            1   67  68  69  70  71
+///

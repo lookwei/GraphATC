@@ -1,0 +1,114 @@
+ENTRY       D00079                      Drug
+NAME        Dinoprostone (JAN/USP/INN);
+            Cervidil (TN);
+            Prepidil (TN);
+            Prostin E2 (TN)
+PRODUCT     CERVIDIL (Ferring Pharmaceuticals)
+            PREPIDIL (Pharmacia and Upjohn Company LLC)
+FORMULA     C20H32O5
+EXACT_MASS  352.225
+MOL_WEIGHT  352.4651
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01959  Prostaglandin E2 derivative
+REMARK      Same as: C00584
+            Therapeutic category: 2499
+            ATC code: G02AD02
+            Chemical structure group: DG00448
+            Product (DG00448): D00079<JP/US>
+EFFICACY    Oxytocic, Prostaglandin E2 receptor agonist
+COMMENT     Prostaglandin derivative
+TARGET      PTGER2 [HSA:5732] [KO:K04259]
+  PATHWAY   hsa04080(5732)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07035  Prostaglandins
+            map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AD Prostaglandins
+                 G02AD02 Dinoprostone
+                  D00079  Dinoprostone (JAN/USP/INN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D00079  Dinoprostone (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01959  Prostaglandin E2 derivative
+                DG00448  Dinoprostone
+                 D00079  Dinoprostone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGER2
+                 D00079  Dinoprostone (JAN/USP/INN) &lt;JP/US&gt;
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01959  Prostaglandin E2 derivative
+                DG00448  Dinoprostone
+DBLINKS     CAS: 363-24-6
+            PubChem: 7847147
+            ChEBI: 15551
+            PDB-CCD: P2E
+            LigandBox: D00079
+            NIKKAJI: J9.243F
+ATOM        25
+            1   C1y C    26.2804  -14.5224
+            2   C1y C    26.2745  -15.8992
+            3   C5x C    24.9670  -14.1058
+            4   C1b C    27.6803  -12.8017
+            5   C1y C    24.9902  -16.3216
+            6   C2b C    27.4605  -16.9945
+            7   C1x C    24.1745  -15.2223
+            8   O5x O    24.5274  -12.7696
+            9   C2b C    28.8604  -13.4959
+            10  O1a O    24.5563  -17.6696
+            11  C2b C    28.6406  -16.3177
+            12  C2b C    30.2084  -13.4959
+            13  C1c C    29.8150  -16.9945
+            14  C1b C    31.3828  -12.8017
+            15  C1b C    31.0010  -16.3177
+            16  O1a O    29.8150  -18.3598
+            17  C1b C    32.5513  -13.4786
+            18  C1b C    32.1810  -16.9945
+            19  C1b C    33.7315  -12.7961
+            20  C1b C    33.3785  -16.3177
+            21  C6a C    34.9058  -13.4670
+            22  C1b C    34.5471  -16.9945
+            23  O6a O    36.1149  -12.7555
+            24  O6a O    34.9180  -14.8553
+            25  C1a C    35.7388  -16.3177
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1 #Down
+            10    6  11 2
+            11    9  12 2
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1 #Down
+            16   14  17 1
+            17   15  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25    5   7 1
+///

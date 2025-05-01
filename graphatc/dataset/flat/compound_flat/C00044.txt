@@ -1,0 +1,135 @@
+ENTRY       C00044                      Compound
+NAME        GTP;
+            Guanosine 5'-triphosphate
+FORMULA     C10H16N5O14P3
+EXACT_MASS  522.9907
+MOL_WEIGHT  523.1804
+REACTION    R00012 R00330 R00335 R00394 R00424 R00425 R00426 R00428 
+            R00429 R00430 R00431 R00432 R00434 R00441 R00517 R00885 
+            R00954 R00968 R01135 R01232 R01517 R01951 R02020 R02405 
+            R03318 R03378 R03828 R05222 R06558 R07306 R08057 R09394 
+            R09397 R09399 R09400 R09772 R10348 R10462 R10537 R10823 
+            R11229 R11402 R11581 R11633 R12608 R12646 R12647 R12747 
+            R12825
+PATHWAY     map00230  Purine metabolism
+            map00740  Riboflavin metabolism
+            map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01232  Nucleotide metabolism
+            map01240  Biosynthesis of cofactors
+            map02025  Biofilm formation - Pseudomonas aeruginosa
+            map04014  Ras signaling pathway
+            map04015  Rap1 signaling pathway
+            map04122  Sulfur relay system
+            map04137  Mitophagy - animal
+            map04140  Autophagy - animal
+            map04144  Endocytosis
+            map05111  Biofilm formation - Vibrio cholerae
+MODULE      M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+            M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+            M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+            M00842  Tetrahydrobiopterin biosynthesis, GTP => BH4
+            M00843  L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4
+            M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
+            M00911  Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+NETWORK     nt06016  Phenylalanine and tyrosine metabolism
+            nt06025  Molybdenum cofactor biosynthesis
+            nt06028  Dopamine and serotonin metabolism
+ENZYME      1.1.98.6        1.17.4.2        2.7.1.40        2.7.1.48        
+            2.7.1.81        2.7.1.156       2.7.1.190       2.7.1.237       
+            2.7.2.10        2.7.4.6         2.7.4.34        2.7.6.5         
+            2.7.7.6         2.7.7.13        2.7.7.28        2.7.7.30        
+            2.7.7.34        2.7.7.45        2.7.7.48        2.7.7.50        
+            2.7.7.62        2.7.7.65        2.7.7.68        2.7.7.71        
+            2.7.7.77        2.7.7.86        2.7.7.91        2.7.7.105       
+            2.7.7.106       2.7.7.-         3.5.4.16        3.5.4.25        
+            3.5.4.29        3.5.4.39        3.6.1.5         3.6.1.9         
+            3.6.1.17        3.6.5.1         3.6.5.2         3.6.5.3         
+            3.6.5.4         3.6.5.5         3.6.5.6         4.1.1.32        
+            4.1.99.22       4.6.1.1         4.6.1.2         6.2.1.4         
+            6.2.1.10        6.3.2.31        6.3.2.34        6.3.4.4         
+            6.5.1.5         6.5.1.7
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Ribonucleotides
+                C00044  GTP
+DBLINKS     CAS: 86-01-1
+            PubChem: 3346
+            ChEBI: 15996
+            KNApSAcK: C00007223
+            PDB-CCD: GTP
+            3DMET: B01137
+            NIKKAJI: J40.055F
+ATOM        32
+            1   N4y N    30.4819  -14.4881
+            2   C8y C    31.5402  -15.2362
+            3   C1y C    29.1900  -14.9148
+            4   C8x C    30.9497  -13.0968
+            5   C8y C    32.7735  -14.3186
+            6   N5x N    31.6746  -16.6569
+            7   O2x O    28.0500  -14.0555
+            8   C1y C    28.7575  -16.1658
+            9   N5x N    32.3993  -13.1025
+            10  C8y C    34.0246  -14.8797
+            11  C8y C    33.0015  -17.2357
+            12  C1y C    26.9452  -14.8563
+            13  C1y C    27.3778  -16.1658
+            14  O1a O    29.4941  -17.4340
+            15  N4x N    34.1882  -16.3646
+            16  O5x O    35.1295  -14.0495
+            17  N1a N    33.1536  -18.6211
+            18  C1b C    25.6240  -14.4179
+            19  O1a O    26.7877  -17.4112
+            20  O2b O    24.5835  -15.3474
+            21  P1b P    23.1864  -15.3474
+            22  O2c O    21.7833  -15.3474
+            23  O1c O    23.1747  -16.7445
+            24  O1c O    23.1747  -13.9502
+            25  P1b P    20.3860  -15.3415
+            26  O2c O    18.9889  -15.3415
+            27  O1c O    20.3803  -16.7388
+            28  O1c O    20.3803  -13.9385
+            29  P1b P    17.5918  -15.3298
+            30  O1c O    17.5801  -16.7329
+            31  O1c O    16.1888  -15.3241
+            32  O1c O    17.5801  -13.9327
+BOND        34
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 1
+            15   10  16 2
+            16   11  17 1
+            17   12  18 1 #Up
+            18   13  19 1 #Down
+            19   18  20 1
+            20   20  21 1
+            21   21  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25   25  26 1
+            26   25  27 1
+            27   25  28 2
+            28   26  29 1
+            29   29  30 1
+            30   29  31 1
+            31   29  32 2
+            32    5   9 1
+            33   11  15 1
+            34   12  13 1
+///

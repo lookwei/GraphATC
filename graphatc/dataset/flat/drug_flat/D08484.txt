@@ -1,0 +1,86 @@
+ENTRY       D08484                      Drug
+NAME        Risedronic acid (INN);
+            Ridron (TN)
+FORMULA     C7H11NO7P2
+EXACT_MASS  283.0011
+MOL_WEIGHT  283.1123
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Same as: C08233
+            ATC code: M05BA07
+            Chemical structure group: DG00786
+            Product (DG00786): D00942<US> D03234<JP/US> D11570<US>
+EFFICACY    Antiresorptive, Farnesylpyrophosphate synthetase inhibitor
+COMMENT     Bisphosphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M05 DRUGS FOR TREATMENT OF BONE DISEASES
+               M05B DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+                M05BA Bisphosphonates
+                 M05BA07 Risedronic acid
+                  D08484  Risedronic acid (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00786  Risedronic acid
+                 D08484  Risedronic acid
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D08484  Risedronic acid (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00786  Risedronic acid
+DBLINKS     CAS: 105462-24-6
+            PubChem: 96025170
+            ChEBI: 8869
+            PDB-CCD: RIS
+            LigandBox: D08484
+            NIKKAJI: J476.065D
+ATOM        17
+            1   C1d C    23.2181  -23.8391
+            2   P1b P    24.3996  -24.5341
+            3   P1b P    22.0366  -24.5341
+            4   C1b C    23.2181  -22.5186
+            5   C8y C    24.3996  -21.8236
+            6   C8x C    25.5811  -22.5186
+            7   N5x N    26.7626  -21.8236
+            8   C8x C    26.7626  -20.4337
+            9   C8x C    25.5811  -19.7387
+            10  C8x C    24.3996  -20.4337
+            11  O1c O    20.8552  -23.8391
+            12  O1c O    22.0366  -25.9241
+            13  O1c O    20.5077  -25.5071
+            14  O1c O    25.5811  -23.8391
+            15  O1c O    24.3996  -25.9241
+            16  O1c O    25.5811  -25.2291
+            17  O1a O    23.2181  -25.2391
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     4   5 1
+            5     5   6 2
+            6     6   7 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10    5  10 1
+            11    3  11 2
+            12    3  12 1
+            13    3  13 1
+            14    2  14 2
+            15    2  15 1
+            16    2  16 1
+            17    1  17 1
+///

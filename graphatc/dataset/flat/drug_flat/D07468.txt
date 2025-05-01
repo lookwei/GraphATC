@@ -1,0 +1,111 @@
+ENTRY       D07468                      Drug
+NAME        Articaine (INN);
+            Carticaine
+FORMULA     C13H20N2O3S
+EXACT_MASS  284.1195
+MOL_WEIGHT  284.3745
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01673  Amide type local anesthetic
+REMARK      ATC code: N01BB08
+            Chemical structure group: DG00805
+EFFICACY    Anesthetic (local)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01B ANESTHETICS, LOCAL
+                N01BB Amides
+                 N01BB08 Articaine
+                  D07468  Articaine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00805  Articaine
+                  D07468  Articaine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D07468  Articaine (INN)
+                SCN2A
+                 D07468  Articaine (INN)
+                SCN3A
+                 D07468  Articaine (INN)
+                SCN4A
+                 D07468  Articaine (INN)
+                SCN5A
+                 D07468  Articaine (INN)
+                SCN8A
+                 D07468  Articaine (INN)
+                SCN9A
+                 D07468  Articaine (INN)
+                SCN10A
+                 D07468  Articaine (INN)
+                SCN11A
+                 D07468  Articaine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00805  Articaine
+DBLINKS     CAS: 23964-58-1
+            PubChem: 51091796
+            LigandBox: D07468
+            NIKKAJI: J342.299B
+ATOM        19
+            1   C8y C    20.2300  -17.3600
+            2   C8y C    21.7000  -17.3600
+            3   C8y C    22.1200  -16.0300
+            4   S2x S    21.0000  -15.1900
+            5   C8x C    19.8100  -16.0300
+            6   N1b N    22.5400  -18.4800
+            7   C7a C    23.5200  -15.6100
+            8   O6a O    24.4300  -16.3800
+            9   O7a O    23.8000  -14.2100
+            10  C1a C    25.1300  -13.7900
+            11  C1a C    19.3900  -18.4800
+            12  C5a C    24.0100  -18.4800
+            13  C1c C    24.7100  -19.7400
+            14  N1b N    26.1100  -19.7400
+            15  O5a O    24.7100  -17.2900
+            16  C1a C    24.0100  -20.9300
+            17  C1b C    26.8100  -20.9300
+            18  C1b C    28.2100  -20.9300
+            19  C1a C    28.9100  -22.1200
+BOND        19
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     2   6 1
+            7     3   7 1
+            8     7   8 2
+            9     7   9 1
+            10    9  10 1
+            11    1  11 1
+            12    6  12 1
+            13   12  13 1
+            14   13  14 1
+            15   12  15 2
+            16   13  16 1
+            17   14  17 1
+            18   17  18 1
+            19   18  19 1
+///

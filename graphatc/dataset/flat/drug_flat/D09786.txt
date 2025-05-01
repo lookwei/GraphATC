@@ -1,0 +1,89 @@
+ENTRY       D09786                      Drug
+NAME        Topiroxostat (JAN/INN);
+            Uriadec (TN)
+FORMULA     C13H8N6
+EXACT_MASS  248.081
+MOL_WEIGHT  248.2428
+CLASS       Cardiovascular agent
+             DG01503  Xanthine dehydrogenase inhibitor
+            Musculo-skeletal system agent
+             DG03130  Xanthin oxidase inhibitor
+REMARK      Therapeutic category: 3949
+            Product: D09786<JP>
+EFFICACY    Gout suppressant, Uric acid biosynthesis inhibitor, Xanthine oxidase inhibitor
+TARGET      XDH [HSA:7498] [KO:K00106]
+  PATHWAY   hsa00230(7498)  Purine metabolism
+            hsa00232(7498)  Caffeine metabolism
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               394  Gout preparations
+                3949  Others
+                 D09786  Topiroxostat (JAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01503  Xanthine dehydrogenase inhibitor
+               D09786  Topiroxostat
+             Musculo-skeletal system agent
+              DG03130  Xanthin oxidase inhibitor
+               D09786  Topiroxostat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Xanthine dehydrogenase/oxidase
+                XDH
+                 D09786  Topiroxostat (JAN/INN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09786
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09786
+DBLINKS     CAS: 577778-58-6
+            PubChem: 124490526
+            PDB-CCD: FYX
+            LigandBox: D09786
+ATOM        19
+            1   C8x C    18.9000  -19.9500
+            2   N5x N    18.9000  -21.3500
+            3   C8y C    20.1124  -22.0500
+            4   C8x C    21.3249  -21.3500
+            5   C8y C    21.3249  -19.9500
+            6   C8x C    20.1124  -19.2500
+            7   C3b C    20.1124  -23.4498
+            8   N3a N    20.1124  -24.8498
+            9   C8y C    22.5560  -19.2390
+            10  N5x N    23.8865  -19.6332
+            11  C8y C    24.6750  -18.4888
+            12  N4x N    23.8302  -17.3852
+            13  N5x N    22.5197  -17.8477
+            14  C8y C    26.1097  -18.4531
+            15  C8x C    26.8519  -19.6672
+            16  C8x C    28.2515  -19.7022
+            17  N5x N    28.9209  -18.4026
+            18  C8x C    28.1787  -17.1884
+            19  C8x C    26.7791  -17.2235
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 1
+            8     7   8 3
+            9     5   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 1
+            14    9  13 2
+            15   11  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+///

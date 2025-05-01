@@ -1,0 +1,99 @@
+ENTRY       D02252                      Drug
+NAME        Amobarbital sodium (JAN/USP);
+            Amytal sodium (TN)
+FORMULA     C11H17N2O3. Na
+EXACT_MASS  248.1137
+MOL_WEIGHT  248.254
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      ATC code: N05CA02
+            Chemical structure group: DG00916
+            Product (DG00916): D00555<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA02 Amobarbital
+                  D02252  Amobarbital sodium (JAN/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00916  Amobarbital
+                D02252  Amobarbital sodium
+              DG01567  GABA-A receptor agonist
+               DG00916  Amobarbital
+                D02252  Amobarbital sodium
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00916  Amobarbital
+                D02252  Amobarbital sodium
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D02252  Amobarbital sodium (JAN/USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02252
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00916  Amobarbital
+              DG01567  GABA-A receptor agonist
+               DG00916  Amobarbital
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00916  Amobarbital
+DBLINKS     CAS: 64-43-7
+            PubChem: 7849311
+            LigandBox: D02252
+            NIKKAJI: J95.719D
+ATOM        17
+            1   C1z C    21.8287  -17.3774
+            2   C5x C    21.8287  -18.7879
+            3   C5x C    20.6106  -16.6723
+            4   C1b C    23.3150  -17.3833
+            5   C1b C    21.8171  -16.0252
+            6   N1x N    20.6106  -19.4933
+            7   O5x O    23.0411  -19.4933
+            8   N2x N    19.3867  -17.3774
+            9   O5x O    20.6106  -15.2677
+            10  C1b C    24.0203  -16.3809
+            11  C1a C    23.0295  -15.3141
+            12  C2y C    19.3867  -18.7879
+            13  C1c C    25.4540  -16.3866
+            14  O1a O    18.1625  -19.4933 #-
+            15  C1a C    26.1593  -17.6048
+            16  C1a C    26.1593  -15.1685
+            17  Z   Na   16.0533  -19.5067 #+
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12   10  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1
+            16    8  12 2
+///

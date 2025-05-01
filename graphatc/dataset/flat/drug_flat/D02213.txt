@@ -1,0 +1,165 @@
+ENTRY       D02213                      Drug
+NAME        Metoclopramide hydrochloride (JAN);
+            Metoclopramide dihydrochloride monohydrate;
+            Primperan (TN);
+            Reglan (TN)
+FORMULA     C14H22ClN3O2. 2HCl. H2O
+EXACT_MASS  389.104
+MOL_WEIGHT  390.7335
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Gastrointestinal agent
+             DG01763  Propulsive
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+              DG01783  Benzamide type antiemetic
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Therapeutic category: 2399
+            ATC code: A03FA01
+            Chemical structure group: DG00055
+            Product (DG00055): D00726<JP> D02213<JP> D05008<US>
+EFFICACY    Anti-emetic, Prokinetic, Dopamine D2 receptor antagonist
+COMMENT     Benzamide derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+STR_MAP     map07028  Antipsychotics
+            map07048  Antimigraines
+            map07211  Serotonin receptor agonists/antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03F PROPULSIVES
+                A03FA Propulsives
+                 A03FA01 Metoclopramide
+                  D02213  Metoclopramide hydrochloride (JAN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Antiemetics
+              Antiemetics, Other
+               Metoclopramide
+                D02213  Metoclopramide hydrochloride (JAN)
+             Gastrointestinal Agents
+              Gastrointestinal Agents, Other
+               Metoclopramide
+                D02213  Metoclopramide hydrochloride (JAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              23  Digestive organ agents
+               239  Miscellaneous
+                2399  Others
+                 D02213  Metoclopramide hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00055  Metoclopramide
+                 D02213  Metoclopramide hydrochloride
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG00055  Metoclopramide
+                D02213  Metoclopramide hydrochloride
+              DG01489  5-HT3-receptor antagonist
+               DG00055  Metoclopramide
+                D02213  Metoclopramide hydrochloride
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                DG00055  Metoclopramide
+                 D02213  Metoclopramide hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00055  Metoclopramide
+                D02213  Metoclopramide hydrochloride
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00055  Metoclopramide
+                D02213  Metoclopramide hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02213  Metoclopramide hydrochloride (JAN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02213
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00055  Metoclopramide
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG00055  Metoclopramide
+              DG01489  5-HT3-receptor antagonist
+               DG00055  Metoclopramide
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                DG00055  Metoclopramide
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00055  Metoclopramide
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00055  Metoclopramide
+DBLINKS     CAS: 5581-45-3
+            PubChem: 7849273
+            ChEBI: 60906
+            LigandBox: D02213
+ATOM        23
+            1   C8y C    26.6059  -16.8048
+            2   C8y C    26.6059  -15.4045
+            3   C8x C    25.4156  -17.5050
+            4   C5a C    27.8662  -17.5050
+            5   C8x C    25.4156  -14.7044
+            6   O2a O    27.8662  -14.7044
+            7   C8y C    24.2255  -16.8048
+            8   N1b N    29.0566  -16.8048
+            9   O5a O    27.8662  -18.9053
+            10  C8y C    24.2255  -15.4045
+            11  C1a C    29.0566  -15.4045
+            12  X   Cl   23.0352  -17.5050
+            13  C1b C    30.3168  -17.5050
+            14  N1a N    23.0352  -14.7044
+            15  C1b C    31.5071  -16.8048
+            16  N1c N    32.6974  -17.5050
+            17  C1b C    33.9577  -16.8048
+            18  C1b C    32.6974  -18.9053
+            19  C1a C    35.1479  -17.5050
+            20  C1a C    33.9577  -19.6054
+            21  X   Cl   39.5501  -15.7501
+            22  O0  O    39.9701  -18.0601
+            23  X   Cl   39.5501  -15.7501
+BOND        20
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13   10  14 1
+            14   13  15 1
+            15   15  16 1
+            16   16  17 1
+            17   16  18 1
+            18   17  19 1
+            19   18  20 1
+            20    7  10 2
+BRACKET     1    38.0100  -16.7300   38.0100  -14.8400
+            1    40.3900  -14.8400   40.3900  -16.7300
+            1  2
+  ORIGINAL  1   21
+  REPEAT    1   23
+///

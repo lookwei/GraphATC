@@ -1,0 +1,99 @@
+ENTRY       D07496                      Drug
+NAME        Befunolol (INN)
+FORMULA     C16H21NO4
+EXACT_MASS  291.1471
+MOL_WEIGHT  291.3422
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      ATC code: S01ED06
+            Chemical structure group: DG01138
+EFFICACY    Antiglaucoma, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01ED Beta blocking agents
+                 S01ED06 Befunolol
+                  D07496  Befunolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01138  Befunolol
+                 D07496  Befunolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01138  Befunolol
+                D07496  Befunolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D07496  Befunolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01138  Befunolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01138  Befunolol
+DBLINKS     CAS: 39552-01-7
+            PubChem: 51091821
+            LigandBox: D07496
+            NIKKAJI: J16.631F
+ATOM        21
+            1   O2a O    20.0200  -19.4600
+            2   C1b C    21.2800  -18.7600
+            3   C1c C    22.4700  -19.4600
+            4   C1b C    23.6600  -18.7600
+            5   N1b N    24.9200  -19.4600
+            6   C1c C    26.1100  -18.7600
+            7   C1a C    27.3000  -19.4600
+            8   C1a C    26.1100  -17.3600
+            9   O1a O    22.4700  -20.8600
+            10  C8y C    20.0200  -20.8600
+            11  C8y C    18.8300  -21.5600
+            12  C8y C    18.8300  -22.9600
+            13  C8x C    20.0200  -23.6600
+            14  C8x C    21.2100  -22.9600
+            15  C8x C    21.2100  -21.5600
+            16  O2x O    17.5000  -21.1400
+            17  C8y C    16.6600  -22.2600
+            18  C8x C    17.5000  -23.3800
+            19  C5a C    15.2600  -22.2600
+            20  C1a C    14.5600  -21.0700
+            21  O5a O    14.5600  -23.4500
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     6   8 1
+            8     3   9 1
+            9     1  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   11  16 1
+            17   16  17 1
+            18   17  18 2
+            19   12  18 1
+            20   17  19 1
+            21   19  20 1
+            22   19  21 2
+///

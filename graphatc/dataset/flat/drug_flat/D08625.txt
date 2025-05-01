@@ -1,0 +1,80 @@
+ENTRY       D08625                      Drug
+NAME        Tranylcypromine (INN);
+            Parnate (TN)
+FORMULA     C9H11N
+EXACT_MASS  133.0891
+MOL_WEIGHT  133.1903
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      Same as: C07155
+            ATC code: N06AF04
+            Chemical structure group: DG00949
+            Product (DG00949): D00826<US>
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AF Monoamine oxidase inhibitors, non-selective
+                 N06AF04 Tranylcypromine
+                  D08625  Tranylcypromine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00949  Tranylcypromine
+                 D08625  Tranylcypromine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D08625  Tranylcypromine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00949  Tranylcypromine
+DBLINKS     CAS: 155-09-9
+            PubChem: 96025309
+            ChEBI: 182949 9652
+            LigandBox: D08625
+            NIKKAJI: J252.803G
+ATOM        10
+            1   C1y C    24.7100  -17.1500
+            2   C8y C    23.5200  -17.8500
+            3   C1y C    26.1100  -17.1500
+            4   C1x C    25.4100  -15.8900
+            5   C8x C    22.2600  -17.1500
+            6   C8x C    23.5200  -19.2500
+            7   N1a N    27.3000  -17.8500
+            8   C8x C    21.0700  -17.8500
+            9   C8x C    22.2600  -19.9500
+            10  C8x C    21.0700  -19.2500
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1 #Up
+            7     5   8 1
+            8     6   9 2
+            9     8  10 2
+            10    3   4 1
+            11    9  10 1
+///

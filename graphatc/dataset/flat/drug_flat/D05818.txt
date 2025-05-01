@@ -1,0 +1,80 @@
+ENTRY       D05818                      Drug
+NAME        Selodenoson (USAN/INN)
+FORMULA     C17H24N6O4
+EXACT_MASS  376.1859
+MOL_WEIGHT  376.4103
+EFFICACY    Antiarrhythmic, Adenosine A1 receptor agonist
+COMMENT     Adenosine derivative
+            Management of atrial fibrillation and atrial flutter
+TARGET      ADORA1 [HSA:134] [KO:K04265]
+  PATHWAY   hsa04080(134)  Neuroactive ligand-receptor interaction
+            hsa04924(134)  Renin secretion
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA1
+                 D05818  Selodenoson (USAN/INN)
+DBLINKS     CAS: 110299-05-3
+            PubChem: 47207479
+            LigandBox: D05818
+ATOM        27
+            1   N4y N    32.1666  -16.3792
+            2   C8y C    33.1642  -17.2118
+            3   C1y C    30.8674  -16.7967
+            4   C8x C    32.7697  -15.0208
+            5   C8y C    34.4828  -16.4181
+            6   N5x N    33.1679  -18.6466
+            7   O2x O    29.7211  -15.9443
+            8   C1y C    30.4383  -18.0547
+            9   N5x N    34.2208  -15.1602
+            10  C8y C    35.6850  -17.0837
+            11  C8x C    34.4366  -19.3595
+            12  C1y C    28.6159  -16.7379
+            13  C1y C    29.0451  -18.0547
+            14  O1a O    30.8497  -19.3949
+            15  N5x N    35.7120  -18.5855
+            16  N1b N    36.8667  -16.3659
+            17  O1a O    28.5982  -19.3891
+            18  C1y C    38.0962  -17.0398
+            19  C1x C    38.0455  -18.4222
+            20  C1x C    39.3439  -18.8921
+            21  C1x C    40.1921  -17.8024
+            22  C1x C    39.4179  -16.6590
+            23  C5a C    27.2959  -16.3055
+            24  N1b N    26.0716  -16.9815
+            25  O5a O    27.3235  -14.9102
+            26  C1b C    24.8647  -16.2540
+            27  C1a C    23.6341  -16.9339
+BOND        30
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   13  17 1 #Down
+            17    5   9 1
+            18   11  15 1
+            19   12  13 1
+            20   16  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   18  22 1
+            26   12  23 1 #Up
+            27   23  24 1
+            28   23  25 2
+            29   24  26 1
+            30   26  27 1
+///

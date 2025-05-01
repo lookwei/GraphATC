@@ -1,0 +1,73 @@
+ENTRY       D02564                      Drug
+NAME        Pargyline hydrochloride (USAN);
+            Eutonyl (TN)
+FORMULA     C11H13N. HCl
+EXACT_MASS  195.0815
+MOL_WEIGHT  195.6886
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      ATC code: C02KC01
+            Chemical structure group: DG00264
+EFFICACY    Antidepressant, Antihypertensive, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02K OTHER ANTIHYPERTENSIVES
+                C02KC MAO inhibitors
+                 C02KC01 Pargyline
+                  D02564  Pargyline hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00264  Pargyline
+                 D02564  Pargyline hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D02564  Pargyline hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00264  Pargyline
+DBLINKS     CAS: 306-07-0
+            PubChem: 17396735
+            LigandBox: D02564
+            NIKKAJI: J268.733J
+ATOM        13
+            1   C8y C    11.6200  -15.4700
+            2   C1b C    12.8100  -14.7700
+            3   C8x C    11.6200  -16.8700
+            4   C8x C    10.4300  -14.7700
+            5   N1c N    14.0700  -15.4700
+            6   C8x C    10.4300  -17.5700
+            7   C8x C     9.2400  -15.4700
+            8   C1b C    15.2600  -14.7700
+            9   C1a C    14.0700  -16.8700
+            10  C8x C     9.2400  -16.8700
+            11  C3b C    16.4500  -15.4700
+            12  C3a C    17.7100  -16.1700
+            13  X   Cl   22.6100  -16.1700
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 1
+            8     5   9 1
+            9     6  10 1
+            10    8  11 1
+            11   11  12 3
+            12    7  10 2
+///

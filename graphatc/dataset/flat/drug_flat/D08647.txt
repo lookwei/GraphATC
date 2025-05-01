@@ -1,0 +1,105 @@
+ENTRY       D08647                      Drug
+NAME        Triphosadenine disodium salt;
+            Adenosine triphosphate disodium;
+            Atenen (TN)
+FORMULA     C10H14N5O13P3. 2Na
+EXACT_MASS  550.9596
+MOL_WEIGHT  551.1447
+REMARK      ATC code: C01EB10
+            Chemical structure group: DG00243
+            Product (DG00243): D00045<JP/US> D02300<JP>
+EFFICACY    Vasodilator
+TARGET      ADORA [HSA:134 135 136 140] [KO:K04265 K04266 K04267 K04268]
+  PATHWAY   hsa04080(134+135+136+140)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01E OTHER CARDIAC PREPARATIONS
+                C01EB Other cardiac preparations
+                 C01EB10 Adenosine
+                  D08647  Triphosadenine disodium salt
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Adenosinetriphosphoric acid
+                D08647  Triphosadenine disodium salt
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA
+                 D08647  Triphosadenine disodium salt
+DBLINKS     CAS: 987-65-5
+            PubChem: 96025330
+            LigandBox: D08647
+            NIKKAJI: J356.135F J53.503F
+ATOM        33
+            1   N4y N    34.3003  -19.8101
+            2   C8y C    35.3503  -20.5101
+            3   C1y C    33.0402  -20.2301
+            4   C8x C    34.7903  -18.4101
+            5   C8y C    36.6103  -19.6001
+            6   N5x N    35.4903  -21.9101
+            7   O2x O    31.9202  -19.3201
+            8   C1y C    32.6202  -21.4201
+            9   N5x N    36.2603  -18.4101
+            10  C8y C    37.8703  -20.1601
+            11  C8x C    36.8203  -22.5401
+            12  C1y C    30.8002  -20.1601
+            13  C1y C    31.2202  -21.4201
+            14  O1a O    33.3903  -22.6101
+            15  N5x N    38.0103  -21.6301
+            16  N1a N    38.9903  -19.3201
+            17  C1b C    29.4702  -19.7401
+            18  O1a O    30.8002  -22.7501
+            19  O2b O    28.4201  -20.6501
+            20  P1b P    27.0201  -20.6501
+            21  O2c O    25.6201  -20.6501
+            22  O1c O    27.0201  -22.0501
+            23  O1c O    27.0201  -19.2501
+            24  P1b P    24.2201  -20.6501
+            25  O2c O    22.8201  -20.6501
+            26  O1c O    24.2201  -22.0501
+            27  O1c O    24.2201  -19.2501
+            28  P1b P    21.4201  -20.6501
+            29  O1c O    21.4201  -22.0501 #-
+            30  O1c O    20.0201  -20.6501 #-
+            31  O1c O    21.4201  -19.2501
+            32  Z   Na   20.8601  -23.5901 #+
+            33  Z   Na   17.5000  -20.6500 #+
+BOND        33
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   12  17 1 #Up
+            17   13  18 1 #Down
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21   20  22 1
+            22   20  23 2
+            23   21  24 1
+            24   24  25 1
+            25   24  26 1
+            26   24  27 2
+            27   25  28 1
+            28   28  29 1
+            29   28  30 1
+            30   28  31 2
+            31    5   9 1
+            32   11  15 1
+            33   12  13 1
+///

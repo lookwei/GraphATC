@@ -1,0 +1,85 @@
+ENTRY       D03080                      Drug
+NAME        Benoxaprofen (USAN/INN);
+            Oraflex (TN)
+FORMULA     C16H12ClNO3
+EXACT_MASS  301.0506
+MOL_WEIGHT  301.7244
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+REMARK      ATC code: M01AE06
+EFFICACY    Analgesic, Anti-inflammatory
+COMMENT     Propionic acid derivative
+TARGET      ALOX5 [HSA:240] [KO:K00461]
+  PATHWAY   hsa00590(240)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE06 Benoxaprofen
+                  D03080  Benoxaprofen (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                D03080  Benoxaprofen
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dioxygenases
+                ALOX5
+                 D03080  Benoxaprofen (USAN/INN)
+DBLINKS     CAS: 51234-28-7
+            PubChem: 17397235
+            ChEBI: 76114
+            LigandBox: D03080
+            NIKKAJI: J11.186D
+ATOM        21
+            1   C8y C    32.2700  -24.7800
+            2   C8x C    32.2700  -26.1800
+            3   C8x C    31.0800  -26.8800
+            4   C8y C    29.8900  -26.1800
+            5   C8y C    29.8900  -24.7800
+            6   C8x C    31.0800  -24.0800
+            7   O2x O    28.4900  -26.6000
+            8   C8y C    27.7200  -25.4800
+            9   N5x N    28.4900  -24.3600
+            10  C8y C    26.3200  -25.4800
+            11  C8x C    25.6200  -26.6700
+            12  C8x C    24.2200  -26.6700
+            13  C8y C    23.5200  -25.4800
+            14  C8x C    24.2200  -24.2900
+            15  C8x C    25.6200  -24.2900
+            16  C1c C    33.5300  -24.0800
+            17  X   Cl   22.1200  -25.4800
+            18  C6a C    34.7200  -24.7800
+            19  C1a C    33.5300  -22.6800
+            20  O6a O    35.9100  -24.0800
+            21  O6a O    34.7200  -26.1800
+BOND        23
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    8  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18    1  16 1
+            19   13  17 1
+            20   16  18 1
+            21   16  19 1
+            22   18  20 1
+            23   18  21 2
+///

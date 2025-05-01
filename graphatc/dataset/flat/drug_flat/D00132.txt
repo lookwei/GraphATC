@@ -1,0 +1,156 @@
+ENTRY       D00132                      Drug
+NAME        Ketoprofen (JP18/USP/INN);
+            Orudis (TN)
+PRODUCT
+  GENERIC   KETOPROFEN (Medsource Pharmaceuticals)
+            KETOPROFEN (Misemer Pharmaceuticals)
+            KETOPROFEN (Mylan Pharmaceuticals)
+            KETOPROFEN (Proficient Rx LP)
+FORMULA     C16H14O3
+EXACT_MASS  254.0943
+MOL_WEIGHT  254.2806
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+            Transporter inhibitor
+             DG02883  SLC22A7 inhibitor
+REMARK      Same as: C01716
+            Therapeutic category: 1149 2649
+            ATC code: M01AE03 M02AA10
+            Chemical structure group: DG00753
+            Product (DG00753): D00132<JP/US>
+EFFICACY    Analgesic, Anti-inflammatory, Antipyretic, COX inhibitor
+COMMENT     Propionic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION Transporter inhibition: SLC22A7 [HSA:10864]
+STR_MAP     map07219  Cyclooxygenase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE03 Ketoprofen
+                  D00132  Ketoprofen (JP18/USP/INN) &lt;JP/US&gt;
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA10 Ketoprofen
+                  D00132  Ketoprofen (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Nonsteroidal Anti-inflammatory Drugs
+               Ketoprofen
+                D00132  Ketoprofen (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               114  Antipyretics and analgesics, anti-inflammatory agents
+                1149  Others
+                 D00132  Ketoprofen (JP18/USP/INN)
+             2  Agents affecting individual organs
+              26  Epidermides
+               264  Analgesics, anti-itchings, astringents, anti-inflammatory agents
+                2649  Others
+                 D00132  Ketoprofen (JP18/USP/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for integumentary system
+              57 Analgesic, antipruritic, astringent, and anti-inflammatory remedies (incl. gel patches)
+               D00132  Ketoprofen (JP18/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Ketoprofen
+                D00132  Ketoprofen (JP18/USP/INN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Ketoprofen
+                D00132  Ketoprofen (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00753  Ketoprofen
+                 D00132  Ketoprofen
+             Transporter inhibitor
+              DG02883  SLC22A7 inhibitor
+               DG00753  Ketoprofen
+                D00132  Ketoprofen
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               D00132  Ketoprofen
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D00132  Ketoprofen (JP18/USP/INN) &lt;JP/US&gt;
+                PTGS2 (COX2)
+                 D00132  Ketoprofen (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00132  Ketoprofen
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D00132
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00132
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D00132
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00753  Ketoprofen
+             Transporter inhibitor
+              DG02883  SLC22A7 inhibitor
+               DG00753  Ketoprofen
+DBLINKS     CAS: 22071-15-4
+            PubChem: 7847200
+            ChEBI: 6128
+            LigandBox: D00132
+            NIKKAJI: J3.468A
+ATOM        19
+            1   C8x C     6.4400  -15.7500
+            2   C8x C     6.4400  -17.1500
+            3   C8x C     7.6524  -17.8500
+            4   C8x C     8.8649  -17.1500
+            5   C8y C     8.8649  -15.7500
+            6   C8x C     7.6524  -15.0500
+            7   C8x C    11.2897  -17.1500
+            8   C8y C    11.2897  -15.7500
+            9   C5a C    10.0773  -15.0500
+            10  C8x C    12.5022  -17.8500
+            11  C8x C    13.7146  -17.1500
+            12  C8y C    13.7146  -15.7500
+            13  C8x C    12.5022  -15.0500
+            14  O5a O    10.0773  -13.6500
+            15  C1c C    14.9311  -15.0477
+            16  C6a C    16.1286  -15.7392
+            17  C1a C    14.9311  -13.6502
+            18  O6a O    17.3149  -15.0543
+            19  O6a O    16.1287  -17.1497
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 2
+            16   12  15 1
+            17   15  16 1
+            18   15  17 1
+            19   16  18 1
+            20   16  19 2
+///

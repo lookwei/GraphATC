@@ -1,0 +1,119 @@
+ENTRY       D07892                      Drug
+NAME        Enalapril (INN);
+            Enalapril (TN)
+FORMULA     C20H28N2O5
+EXACT_MASS  376.1998
+MOL_WEIGHT  376.4467
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Same as: C06977
+            ATC code: C09AA02
+            Chemical structure group: DG00335
+            Product (DG00335): D00621<JP/US>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     Active form of prodrug: Enalaprilat [CPD:C11720]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA02 Enalapril
+                  D07892  Enalapril (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00335  Enalapril
+                 D07892  Enalapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00335  Enalapril
+                 D07892  Enalapril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D07892  Enalapril (INN)
+            Prodrugs [br08324.html]
+             D07892
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00335  Enalapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00335  Enalapril
+            Prodrugs [br08324.html(DG00335)]
+             DG00335
+DBLINKS     CAS: 75847-73-3
+            PubChem: 96024588
+            ChEBI: 4784
+            LigandBox: D07892
+            NIKKAJI: J240.110J
+ATOM        27
+            1   N1y N    30.4941  -17.9740
+            2   C1x C    30.4941  -16.5752
+            3   C5a C    29.3052  -18.6733
+            4   C1y C    31.8229  -18.3236
+            5   C1x C    31.8229  -16.0857
+            6   C1c C    28.1163  -17.9740
+            7   O5a O    29.3052  -20.0720
+            8   C1x C    32.6621  -17.2047
+            9   N1b N    26.9274  -18.6733
+            10  C1a C    28.0463  -16.5752
+            11  C1c C    25.6685  -17.9740
+            12  C1b C    24.4796  -18.7432
+            13  C7a C    25.6685  -16.5752
+            14  C1b C    23.2907  -18.0439
+            15  O7a O    24.4796  -15.9458
+            16  O6a O    26.8574  -15.8759
+            17  C8y C    22.1018  -18.7432
+            18  C8x C    20.8429  -18.0439
+            19  C8x C    19.6540  -18.7432
+            20  C8x C    19.6541  -20.1420
+            21  C8x C    20.9129  -20.8413
+            22  C8x C    22.1018  -20.1420
+            23  C1b C    23.2208  -16.6452
+            24  C1a C    22.0318  -16.0157
+            25  C6a C    31.8229  -19.7224
+            26  O6a O    30.5640  -20.4916
+            27  O6a O    33.0118  -20.4217
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     6   9 1
+            9     6  10 1 #Up
+            10    9  11 1
+            11   11  12 1
+            12   11  13 1 #Up
+            13   12  14 1
+            14   13  15 1
+            15   13  16 2
+            16   14  17 1
+            17    5   8 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   17  22 1
+            24   15  23 1
+            25   23  24 1
+            26    4  25 1 #Up
+            27   25  26 2
+            28   25  27 1
+///

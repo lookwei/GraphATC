@@ -1,0 +1,147 @@
+ENTRY       D00353                      Drug
+NAME        Lamivudine (JAN/USP/INN);
+            Epivir (TN)
+  ABBR      3TC
+PRODUCT     EPIVIR (GlaxoSmithKline LLC)
+            EPIVIR (ViiV Healthcare Company)
+  GENERIC   LAMIVUDINE (American Health Packaging)
+            LAMIVUDINE (Apotex Corp.)
+            LAMIVUDINE (Apotex Corp.)
+            LAMIVUDINE (Aurobindo Pharma Limited)
+            LAMIVUDINE (Aurobindo Pharma Limited)
+            LAMIVUDINE (Camber Pharmaceuticals)
+            LAMIVUDINE (Camber Pharmaceuticals)
+            LAMIVUDINE (Camber Pharmaceuticals)
+            LAMIVUDINE (Chartwell RX)
+            LAMIVUDINE (Cipla USA)
+            LAMIVUDINE (Golden State Medical Supply)
+            LAMIVUDINE (Ingenus Pharmaceuticals)
+            LAMIVUDINE (Lannett Company)
+            LAMIVUDINE (Lupin Pharmaceuticals)
+            LAMIVUDINE (Macleods Pharmaceuticals Limited)
+            LAMIVUDINE (Major Pharmaceuticals)
+            LAMIVUDINE (Prasco Laboratories)
+            LAMIVUDINE (Rising Health)
+            LAMIVUDINE (Strides Pharma Science Limited)
+FORMULA     C8H11N3O3S
+EXACT_MASS  229.0521
+MOL_WEIGHT  229.2562
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Transporter substrate
+             DG02859  SLC22A6 substrate
+REMARK      Same as: C07065
+            Therapeutic category: 6250
+            ATC code: J05AF05
+            Product: D00353<JP/US>
+            Product (mixture): D07507<JP/US> D08775<JP/US> D10600<JP/US> D10838<US> D11392<US> D11395<US> D11396<US> D11522<JP/US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+            Hepatitis B [DS:H00412]
+TARGET      HBV reverse transcriptase [KO:K21037]
+            HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K21037+K24802)  Viral genome structure
+            ko03240(K21037+K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+            ko05161(K21037)  Hepatitis B
+METABOLISM  Transporter: SLC22A6 [HSA:9356]
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+            map07053  Anti-HIV agents
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF05 Lamivudine
+                  D00353  Lamivudine (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-hepatitis B (HBV) Agents
+               Lamivudine
+                D00353  Lamivudine (JAN/USP/INN)
+              Anti-HIV Agents, Nucleoside and Nucleotide Reverse Transcriptase Inhibitors (NRTI)
+               Lamivudine
+                D00353  Lamivudine (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D00353  Lamivudine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D00353  Lamivudine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D00353  Lamivudine
+             Transporter substrate
+              DG02859  SLC22A6 substrate
+               D00353  Lamivudine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00353  Lamivudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D00353  Lamivudine (JAN/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D00353  Lamivudine (JAN/USP/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00353
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00353
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D00353
+DBLINKS     CAS: 134678-17-4
+            PubChem: 7847419
+            ChEBI: 63577
+            PDB-CCD: 3TC
+            LigandBox: D00353
+            NIKKAJI: J457.051K
+ATOM        15
+            1   C1y C    19.1100  -17.9200
+            2   O2x O    17.9900  -17.0800
+            3   C1x C    18.6900  -19.2500
+            4   C1y C    16.8700  -17.9200
+            5   S2x S    17.2900  -19.2500
+            6   C1b C    15.6800  -17.2900
+            7   O1a O    14.3500  -18.1300
+            8   C8x C    20.3000  -15.8200
+            9   N4y N    20.3000  -17.2200
+            10  C8y C    21.4900  -17.9200
+            11  N5x N    22.7500  -17.2200
+            12  C8y C    22.7500  -15.8200
+            13  C8x C    21.4900  -15.1200
+            14  O5x O    21.4900  -19.3200
+            15  N1a N    23.9400  -15.1200
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1 #Down
+            6     6   7 1
+            7     4   5 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13    8  13 2
+            14    1   9 1 #Down
+            15   10  14 2
+            16   12  15 1
+///

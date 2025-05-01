@@ -1,0 +1,125 @@
+ENTRY       D01410                      Drug
+NAME        Benzydamine hydrochloride (JAN/USAN);
+            Tantum (TN)
+FORMULA     C19H23N3O. HCl
+EXACT_MASS  345.1608
+MOL_WEIGHT  345.8664
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+REMARK      ATC code: A01AD02 G02CC03 M01AX07 M02AA05 R02AX03
+            Chemical structure group: DG00014
+EFFICACY    Analgesic, Anti-inflammatory, Antipyretic, COX inhibitor
+COMMENT     Benzimidazole derivative
+            Nonsteroidal anti-inflammatory drug (NSAID), basic
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+            ALOX5 [HSA:240] [KO:K00461]
+  PATHWAY   hsa00590(240+5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AD Other agents for local oral treatment
+                 A01AD02 Benzydamine
+                  D01410  Benzydamine hydrochloride (JAN/USAN)
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02C OTHER GYNECOLOGICALS
+                G02CC Antiinflammatory products for vaginal administration
+                 G02CC03 Benzydamine
+                  D01410  Benzydamine hydrochloride (JAN/USAN)
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AX Other antiinflammatory and antirheumatic agents, non-steroids
+                 M01AX07 Benzydamine
+                  D01410  Benzydamine hydrochloride (JAN/USAN)
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA05 Benzydamine
+                  D01410  Benzydamine hydrochloride (JAN/USAN)
+             R RESPIRATORY SYSTEM
+              R02 THROAT PREPARATIONS
+               R02A THROAT PREPARATIONS
+                R02AX Other throat preparations
+                 R02AX03 Benzydamine
+                  D01410  Benzydamine hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG00014  Benzydamine
+                D01410  Benzydamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dioxygenases
+                ALOX5
+                 D01410  Benzydamine hydrochloride (JAN/USAN)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01410  Benzydamine hydrochloride (JAN/USAN)
+                PTGS2 (COX2)
+                 D01410  Benzydamine hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG00014  Benzydamine
+DBLINKS     CAS: 132-69-4
+            PubChem: 7848473
+            ChEBI: 31266
+            LigandBox: D01410
+            NIKKAJI: J363.278D
+ATOM        24
+            1   X   Cl   33.1118  -17.5903
+            2   C8x C    22.8597  -19.7214
+            3   C8x C    21.6482  -19.0196
+            4   C8x C    21.6482  -17.6158
+            5   C8x C    22.8597  -16.9140
+            6   C8y C    24.0784  -19.0196
+            7   C8y C    24.0816  -17.6153
+            8   N4y N    25.4181  -17.1845
+            9   N5x N    26.2406  -18.3225
+            10  C8y C    25.4129  -19.4565
+            11  C1b C    26.2421  -16.0479
+            12  C8y C    27.6457  -16.0479
+            13  C8x C    28.3477  -17.2632
+            14  C8x C    29.7513  -17.2632
+            15  C8x C    30.4530  -16.0475
+            16  C8x C    29.7511  -14.8321
+            17  C8x C    28.3474  -14.8321
+            18  O2a O    25.4129  -20.8603
+            19  C1b C    26.6181  -21.5561
+            20  C1b C    27.8273  -20.8578
+            21  C1b C    29.0128  -21.5421
+            22  N1c N    30.2098  -20.8507
+            23  C1a C    31.4013  -21.5385
+            24  C1a C    30.2097  -19.4387
+BOND        25
+            1     6   2 1
+            2     2   3 2
+            3    11   8 1
+            4     3   4 1
+            5     4   5 2
+            6     6   7 2
+            7    11  12 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10   6 1
+            12    5   7 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  12 1
+            19   10  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   22  24 1
+///

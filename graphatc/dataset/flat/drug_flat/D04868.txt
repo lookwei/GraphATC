@@ -1,0 +1,109 @@
+ENTRY       D04868                      Drug
+NAME        Mebeverine hydrochloride (USAN)
+FORMULA     C25H35NO5. HCl
+EXACT_MASS  465.2282
+MOL_WEIGHT  466.01
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: A03AA04
+            Chemical structure group: DG00030
+EFFICACY    Antispasmodic, Smooth muscle relaxant, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AA Synthetic anticholinergics, esters with tertiary amino group
+                 A03AA04 Mebeverine
+                  D04868  Mebeverine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00030  Mebeverine
+                D04868  Mebeverine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D04868  Mebeverine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00030  Mebeverine
+DBLINKS     CAS: 2753-45-9
+            PubChem: 47206639
+            LigandBox: D04868
+            NIKKAJI: J310.936D
+ATOM        32
+            1   C8y C    15.8900  -20.0200
+            2   C8y C    15.8900  -18.6200
+            3   C8x C    17.0800  -17.9200
+            4   C8y C    18.3400  -18.6200
+            5   C8x C    18.3400  -20.0200
+            6   C8x C    17.0800  -20.7200
+            7   O2a O    14.7000  -20.7200
+            8   C1a C    13.4400  -20.0200
+            9   C1a C    13.4400  -18.6200
+            10  O2a O    14.7000  -17.9200
+            11  C7a C    19.5300  -17.9200
+            12  O7a O    20.7200  -18.6200
+            13  O6a O    19.5300  -16.5200
+            14  C1b C    21.9381  -17.9299
+            15  C1b C    23.1195  -18.6250
+            16  C1b C    24.3249  -17.9420
+            17  C1b C    25.4961  -18.6309
+            18  N1c N    26.7065  -17.9449
+            19  C1c C    27.9266  -18.6629
+            20  C1b C    29.1357  -17.9784
+            21  C1a C    27.9146  -20.0899
+            22  C1b C    26.7175  -16.5202
+            23  C1a C    27.9523  -15.8198
+            24  C8y C    30.3354  -18.6848
+            25  C8x C    30.3236  -20.0899
+            26  C8x C    31.5300  -20.8002
+            27  C8y C    32.7483  -20.1104
+            28  C8x C    32.7602  -18.7053
+            29  C8x C    31.5537  -17.9951
+            30  O2a O    33.9544  -20.8204
+            31  C1a C    35.1822  -20.1255
+            32  X   Cl   30.8000  -22.4000
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     9  10 1
+            10    2  10 1
+            11    4  11 1
+            12   11  12 1
+            13   11  13 2
+            14   12  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   19  21 1
+            22   18  22 1
+            23   22  23 1
+            24   20  24 1
+            25   24  25 2
+            26   25  26 1
+            27   26  27 2
+            28   27  28 1
+            29   28  29 2
+            30   24  29 1
+            31   27  30 1
+            32   30  31 1
+///

@@ -1,0 +1,115 @@
+ENTRY       D02322                      Drug
+NAME        Apramycin (USAN/INN)
+  ABBR      APR
+FORMULA     C21H41N5O11
+EXACT_MASS  539.2803
+MOL_WEIGHT  539.5771
+SOURCE      Streptomyces tenebrarius [TAX:1933]
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C01555
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+SYN_MAP     map00524(C01555)  Neomycin, kanamycin and gentamicin biosynthesis
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               D02322  Apramycin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D02322  Apramycin (USAN/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D02322  Apramycin (USAN/INN)
+DBLINKS     CAS: 37321-09-8
+            PubChem: 7849381
+            ChEBI: 2790
+            PDB-CCD: AM2
+            LigandBox: D02322
+            NIKKAJI: J139.315D
+ATOM        37
+            1   O1a O    19.4682  -23.1525
+            2   C1y C    20.7357  -22.4483
+            3   C1y C    21.9328  -23.1525
+            4   C1x C    23.2002  -22.4483
+            5   C1y C    23.2002  -21.0400
+            6   C1y C    21.9328  -20.3359
+            7   C1y C    20.7357  -21.0400
+            8   N1a N    21.9328  -24.5608
+            9   O1a O    19.5387  -20.3359
+            10  N1a N    24.3973  -20.3359
+            11  O2a O    21.9328  -18.9276
+            12  C1y C    23.1298  -18.2234
+            13  O2x O    24.3269  -18.9276
+            14  C1y C    25.5944  -18.2234
+            15  C1y C    25.5944  -16.8151
+            16  C1x C    24.3973  -16.1110
+            17  C1y C    23.1298  -16.8151
+            18  N1a N    21.9328  -16.1110
+            19  C1y C    26.7914  -18.9276
+            20  C1y C    27.9885  -18.2234
+            21  C1y C    27.9885  -16.8151
+            22  O2x O    26.7914  -16.1110
+            23  O2a O    29.1855  -16.1110
+            24  N1b N    29.1855  -18.9276
+            25  O1a O    26.7914  -20.3359
+            26  C1a C    30.3826  -18.2234
+            27  C1y C    30.3826  -13.9985
+            28  C1y C    30.3826  -15.4068
+            29  O2x O    31.5797  -16.1110
+            30  C1y C    32.8471  -15.4068
+            31  C1y C    32.8471  -13.9985
+            32  C1y C    31.5797  -13.2944
+            33  O1a O    29.1855  -13.2944
+            34  N1a N    34.0442  -13.2944
+            35  O1a O    31.5797  -11.8861
+            36  C1b C    34.0442  -16.1110
+            37  O1a O    35.2412  -15.4068
+BOND        40
+            1     2   1 1 #Down
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     2   7 1
+            8     3   8 1 #Up
+            9     7   9 1 #Up
+            10    5  10 1 #Up
+            11    6  11 1 #Down
+            12   12  11 1 #Down
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   12  17 1
+            19   17  18 1 #Down
+            20   14  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   15  22 1
+            25   21  23 1 #Down
+            26   20  24 1 #Up
+            27   19  25 1 #Up
+            28   24  26 1
+            29   27  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   27  32 1
+            35   28  23 1 #Down
+            36   27  33 1 #Down
+            37   31  34 1 #Down
+            38   32  35 1 #Up
+            39   30  36 1 #Up
+            40   36  37 1
+///

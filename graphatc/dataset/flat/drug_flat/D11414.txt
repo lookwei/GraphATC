@@ -1,0 +1,86 @@
+ENTRY       D11414                      Drug
+NAME        Troriluzole (USAN)
+FORMULA     C15H16F3N5O4S
+EXACT_MASS  419.0875
+MOL_WEIGHT  419.3789
+REMARK      Chemical structure group: DG03011
+EFFICACY    Neuroprotectant
+COMMENT     Treatment of spinocerebellar ataxia (SCA)
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+            GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+            GRIK [HSA:2897 2898 2899 2900 2901] [KO:K05201 K05202 K05203 K05204 K05205]
+  PATHWAY   hsa04080(2890+2891+2892+2893+2897+2898+2899+2900+2901+2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893+2897+2898+2899+2900+2901+2902+2903+2904+2905+2906)  Glutamatergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D11414  Troriluzole (USAN)
+                GRIK
+                 D11414  Troriluzole (USAN)
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D11414  Troriluzole (USAN)
+DBLINKS     CAS: 1926203-09-9
+            PubChem: 384585392
+ATOM        28
+            1   C1d C     7.8572  -27.3177
+            2   O2a O     9.0486  -26.6169
+            3   X   F     6.6658  -26.6169
+            4   X   F     7.8572  -28.7193
+            5   X   F     6.6658  -28.0185
+            6   C8y C    10.3100  -27.3177
+            7   C8x C    11.5014  -26.6169
+            8   C8x C    10.3100  -28.7193
+            9   C8y C    12.6927  -27.3177
+            10  C8x C    11.5014  -29.4201
+            11  C8y C    12.6927  -28.7193
+            12  S2x S    14.0242  -26.8271
+            13  N5x N    14.0242  -29.1398
+            14  C8y C    14.8652  -27.9484
+            15  N1b N    16.2668  -27.9484
+            16  C5a C    16.9518  -29.1355
+            17  C1b C    18.3399  -29.1357
+            18  O5a O    16.2554  -30.3412
+            19  N1c N    19.0469  -27.9116
+            20  C5a C    20.4399  -27.9119
+            21  C1a C    18.3533  -26.7100
+            22  C1b C    21.1324  -26.7132
+            23  O5a O    21.1475  -29.1381
+            24  N1b N    22.5397  -26.7135
+            25  C5a C    23.2288  -25.5211
+            26  C1b C    24.6397  -25.5214
+            27  O5a O    22.5443  -24.3351
+            28  N1a N    25.3278  -24.3306
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     6   7 2
+            7     6   8 1
+            8     7   9 1
+            9     8  10 2
+            10    9  11 2
+            11    9  12 1
+            12   11  13 1
+            13   12  14 1
+            14   14  15 1
+            15   10  11 1
+            16   13  14 2
+            17   15  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 1
+            22   19  21 1
+            23   20  22 1
+            24   20  23 2
+            25   22  24 1
+            26   24  25 1
+            27   25  26 1
+            28   25  27 2
+            29   26  28 1
+///

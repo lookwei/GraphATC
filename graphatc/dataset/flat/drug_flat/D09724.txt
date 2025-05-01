@@ -1,0 +1,143 @@
+ENTRY       D09724                      Drug
+NAME        Afatinib (USAN/INN)
+FORMULA     C24H25ClFN5O3
+EXACT_MASS  485.163
+MOL_WEIGHT  485.9384
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03162  EGFR inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: L01EB03
+            Chemical structure group: DG00717
+            Product (DG00717): D09733<JP/US>
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      EGFR [HSA:1956] [KO:K04361]
+            ERBB2 (HER2, CD340) [HSA:2064] [KO:K05083]
+            ERBB4 (HER4) [HSA:2066] [KO:K05085]
+  PATHWAY   hsa04010(1956+2064+2066)  MAPK signaling pathway
+            hsa04012(1956+2064+2066)  ErbB signaling pathway
+            hsa05200(1956+2064)  Pathways in cancer
+METABOLISM  Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EB Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors
+                 L01EB03 Afatinib
+                  D09724  Afatinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG00717  Afatinib
+                  D09724  Afatinib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00717  Afatinib
+                D09724  Afatinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR
+                 D09724  Afatinib (USAN/INN)
+                ERBB2 (HER2, CD340)
+                 D09724  Afatinib (USAN/INN)
+                ERBB4 (HER4)
+                 D09724  Afatinib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D09724
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG00717  Afatinib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00717  Afatinib
+DBLINKS     CAS: 850140-72-6
+            PubChem: 124490464
+            ChEBI: 61390
+            PDB-CCD: 0WM
+            LigandBox: D09724
+ATOM        34
+            1   C8x C     9.5325  -10.7238
+            2   N5x N     9.5325  -12.1252
+            3   C8y C    10.7938  -12.8260
+            4   C8y C    11.9851  -12.1252
+            5   C8y C    11.9851  -10.7238
+            6   N5x N    10.7938  -10.0230
+            7   C8x C    13.1763  -12.8260
+            8   C8y C    14.3676  -12.1252
+            9   C8y C    14.3676  -10.7238
+            10  C8x C    13.1763  -10.0230
+            11  N1b N    10.7938  -14.2274
+            12  C8y C    11.9851  -14.9281
+            13  C8x C    11.9851  -16.2595
+            14  C8y C    13.1763  -16.9603
+            15  C8y C    14.3676  -16.2595
+            16  C8x C    14.3676  -14.9281
+            17  C8x C    13.1763  -14.2274
+            18  X   F    15.6289  -16.9603
+            19  X   Cl   13.1763  -18.4318
+            20  N1b N    15.5631  -12.8089
+            21  C5a C    16.7548  -12.1141
+            22  C2b C    17.9496  -12.7974
+            23  O5a O    16.7490  -10.7101
+            24  C2b C    19.1315  -12.1084
+            25  C1b C    20.3312  -12.7946
+            26  N1c N    21.5107  -12.1071
+            27  C1a C    22.7116  -12.7940
+            28  C1a C    21.5050  -10.7101
+            29  O2a O    15.5753  -10.0328
+            30  C1y C    15.5753   -8.6328
+            31  C1x C    16.7415   -7.7855
+            32  C1x C    16.2960   -6.4146
+            33  O2x O    14.8545   -6.4147
+            34  C1x C    14.4091   -7.7856
+BOND        37
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 2
+            12    3  11 1
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   12  17 1
+            20   15  18 1
+            21   14  19 1
+            22    8  20 1
+            23   20  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 2
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   26  28 1
+            31    9  29 1
+            32   30  29 1 #Down
+            33   30  31 1
+            34   31  32 1
+            35   32  33 1
+            36   33  34 1
+            37   30  34 1
+///

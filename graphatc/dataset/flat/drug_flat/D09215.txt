@@ -1,0 +1,137 @@
+ENTRY       D09215                      Drug
+NAME        Eslicarbazepine (USAN/INN)
+FORMULA     C15H14N2O2
+EXACT_MASS  254.1055
+MOL_WEIGHT  254.2839
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02034  Carboxamide antiepileptic
+            Metabolizing enzyme inhibitor
+             DG01933  CYP2C19 inhibitor
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      ATC code: N03AF04
+            Chemical structure group: DG00848
+            Product (DG00848): D09612<US>
+EFFICACY    Anticonvulsant, Antiepileptic
+COMMENT     Carboxamide derivative
+            Active metabolite of oxcarbazepine [DR:D00533]
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION CYP inhibition: CYP2C19 [HSA:1557]
+            CYP induction: CYP3A4 [HSA:1576]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AF Carboxamide derivatives
+                 N03AF04 Eslicarbazepine
+                  D09215  Eslicarbazepine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02034  Carboxamide antiepileptic
+                DG00848  Eslicarbazepine
+                 D09215  Eslicarbazepine
+             Metabolizing enzyme inhibitor
+              DG01933  CYP2C19 inhibitor
+               DG00848  Eslicarbazepine
+                D09215  Eslicarbazepine
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00848  Eslicarbazepine
+                 D09215  Eslicarbazepine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN2A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN3A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN4A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN5A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN8A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN9A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN10A
+                 D09215  Eslicarbazepine (USAN/INN)
+                SCN11A
+                 D09215  Eslicarbazepine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09215
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02034  Carboxamide antiepileptic
+                DG00848  Eslicarbazepine
+             Metabolizing enzyme inhibitor
+              DG01933  CYP2C19 inhibitor
+               DG00848  Eslicarbazepine
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00848  Eslicarbazepine
+DBLINKS     CAS: 104746-04-5
+            PubChem: 96025895
+            ChEBI: 174358
+            LigandBox: D09215
+ATOM        19
+            1   C8y C    26.3200  -20.6500
+            2   N1y N    27.5800  -20.0200
+            3   C8y C    28.8400  -20.6500
+            4   C8y C    29.1200  -21.9800
+            5   C8y C    26.0400  -22.0500
+            6   C1x C    28.2800  -23.1000
+            7   C1y C    26.8800  -23.1000
+            8   C8x C    25.2700  -19.6700
+            9   C8x C    23.9400  -20.1600
+            10  C8x C    23.6600  -21.4900
+            11  C8x C    24.7100  -22.4700
+            12  C8x C    30.5200  -22.3300
+            13  C8x C    31.5000  -21.3500
+            14  C8x C    31.1500  -20.0200
+            15  C8x C    29.7500  -19.6000
+            16  C5a C    27.5800  -18.6200
+            17  O5a O    26.3900  -17.9200
+            18  N1a N    28.7700  -17.9200
+            19  O1a O    26.2500  -24.3600
+BOND        21
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     1   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    5  11 2
+            13    4  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15   3 2
+            18    2  16 1
+            19   16  17 2
+            20   16  18 1
+            21    7  19 1 #Down
+///

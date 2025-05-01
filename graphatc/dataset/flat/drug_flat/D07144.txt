@@ -1,0 +1,162 @@
+ENTRY       D07144                      Drug
+NAME        Dabigatran etexilate (USAN/INN);
+            Pradaxa (TN)
+FORMULA     C34H41N7O5
+EXACT_MASS  627.3169
+MOL_WEIGHT  627.7332
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01511  Thrombin inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: B01AE07
+            Chemical structure group: DG00164
+            Product (DG00164): D07082<JP/US>
+EFFICACY    Anticoagulant, Thrombin inhibitor
+COMMENT     Active form of prodrug: Dabigatran [DR:D09707]
+            Deep vein thrombosis after surgery, venous thromboembolic events, stroke prevention in atrial fibrillation
+TARGET      F2 [HSA:2147] [KO:K01313]
+  PATHWAY   hsa04080(2147)  Neuroactive ligand-receptor interaction
+            hsa04610(2147)  Complement and coagulation cascades
+METABOLISM  Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+STR_MAP     map07049  Antithrombosis agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AE Direct thrombin inhibitors
+                 B01AE07 Dabigatran etexilate
+                  D07144  Dabigatran etexilate (USAN/INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01511  Thrombin inhibitor
+                DG00164  Dabigatran
+                 D07144  Dabigatran etexilate
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00164  Dabigatran
+                D07144  Dabigatran etexilate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                F2
+                 D07144  Dabigatran etexilate (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D07144
+            Prodrugs [br08324.html]
+             D07144
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01511  Thrombin inhibitor
+                DG00164  Dabigatran
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00164  Dabigatran
+DBLINKS     CAS: 211915-06-9
+            PubChem: 51091483
+            ChEBI: 70746
+            LigandBox: D07144
+            NIKKAJI: J2.566.951G
+ATOM        46
+            1   C1b C    34.3000  -17.2200
+            2   C1a C    35.4900  -17.9200
+            3   O7a O    33.0400  -17.9200
+            4   C7a C    31.8500  -17.2200
+            5   C1b C    30.6600  -17.9200
+            6   C1b C    29.4700  -17.2200
+            7   N1c N    28.2800  -17.9200
+            8   C5a C    27.0900  -17.2200
+            9   C8y C    25.9000  -17.9200
+            10  O5a O    27.0900  -15.8200
+            11  C8x C    24.6400  -17.2200
+            12  C8y C    23.4500  -17.9200
+            13  C8y C    23.4500  -19.3200
+            14  C8x C    24.6400  -20.0200
+            15  C8x C    25.9000  -19.3200
+            16  O6a O    31.8500  -15.8200
+            17  N5x N    22.1200  -17.5000
+            18  C8y C    21.2800  -18.6200
+            19  N4y N    22.1200  -19.8100
+            20  C1a C    21.7000  -21.1400
+            21  C1b C    19.9500  -18.6200
+            22  N1b N    19.1800  -19.8800
+            23  C8y C    17.7800  -19.8800
+            24  C8x C    17.0800  -18.6200
+            25  C8x C    15.6800  -18.6200
+            26  C8y C    14.9800  -19.8100
+            27  C8x C    15.6800  -21.0700
+            28  C8x C    17.0800  -21.0700
+            29  C2c C    13.5800  -19.8100
+            30  N1a N    12.8800  -21.0700
+            31  N2b N    12.8800  -18.6200
+            32  C7a C    13.5800  -17.4300
+            33  O7a O    14.9800  -17.4300
+            34  O6a O    12.8800  -16.2400
+            35  C1b C    15.6800  -16.2400
+            36  C1b C    17.0800  -16.2400
+            37  C1b C    17.7800  -15.0500
+            38  C1b C    19.1800  -15.0500
+            39  C1b C    19.8800  -13.7900
+            40  C1a C    21.3500  -13.7900
+            41  C8y C    28.2800  -19.3200
+            42  N5x N    27.0900  -20.0200
+            43  C8x C    27.0900  -21.4200
+            44  C8x C    28.2800  -22.1200
+            45  C8x C    29.4700  -21.4200
+            46  C8x C    29.4700  -20.0200
+BOND        49
+            1     1   2 1
+            2     1   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     8  10 2
+            10    9  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15    9  15 1
+            16    4  16 2
+            17   12  17 1
+            18   17  18 2
+            19   18  19 1
+            20   13  19 1
+            21   19  20 1
+            22   18  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   25  26 2
+            28   26  27 1
+            29   27  28 2
+            30   23  28 1
+            31   26  29 1
+            32   29  30 1
+            33   29  31 2
+            34   31  32 1
+            35   32  33 1
+            36   32  34 2
+            37   33  35 1
+            38   35  36 1
+            39   36  37 1
+            40   37  38 1
+            41   38  39 1
+            42   39  40 1
+            43    7  41 1
+            44   41  42 2
+            45   42  43 1
+            46   43  44 2
+            47   44  45 1
+            48   45  46 2
+            49   41  46 1
+///

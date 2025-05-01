@@ -1,0 +1,77 @@
+ENTRY       D04041                      Drug
+NAME        Equilin (USP)
+FORMULA     C18H20O2
+EXACT_MASS  268.1463
+MOL_WEIGHT  268.3502
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+REMARK      Same as: C14392
+EFFICACY    Replenisher (estrogen), Estrogen receptor agonist
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               D04041  Equilin
+              DG01584  Estrogen receptor agonist
+               D04041  Equilin
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D04041  Equilin (USP)
+DBLINKS     CAS: 474-86-2
+            PubChem: 47206005
+            ChEBI: 42309
+            PDB-CCD: EQI
+            LigandBox: D04041
+            NIKKAJI: J5.967F
+ATOM        20
+            1   C8x C    18.3132  -18.0007
+            2   C8y C    18.3132  -19.3569
+            3   C8x C    19.4876  -20.0349
+            4   C8y C    20.6620  -19.3569
+            5   C8y C    20.6620  -18.0007
+            6   C8x C    19.4876  -17.3228
+            7   C1x C    21.8364  -20.0349
+            8   C2x C    23.0108  -19.3569
+            9   C2y C    23.0108  -18.0007
+            10  C1y C    21.8364  -17.3228
+            11  C1y C    24.1853  -17.3228
+            12  C1z C    24.1853  -15.9666
+            13  C1x C    23.0108  -15.2886
+            14  C1x C    21.8364  -15.9666
+            15  C1x C    26.5340  -17.3228
+            16  C1x C    26.5340  -15.9666
+            17  C5x C    25.3596  -15.2886
+            18  C1a C    24.1421  -14.6107
+            19  O5x O    25.3648  -13.9325
+            20  O1a O    17.0973  -20.0591
+BOND        23
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   12  18 1 #Up
+            22   17  19 2
+            23    2  20 1
+///

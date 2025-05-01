@@ -1,0 +1,72 @@
+ENTRY       D02890                      Drug
+NAME        Amdoxovir (USAN/INN)
+FORMULA     C9H12N6O3
+EXACT_MASS  252.0971
+MOL_WEIGHT  252.23
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+INTERACTION  
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D02890  Amdoxovir
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D02890  Amdoxovir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D02890  Amdoxovir (USAN/INN)
+DBLINKS     CAS: 145514-04-1
+            PubChem: 17397047
+            LigandBox: D02890
+ATOM        18
+            1   C1y C    18.1323  -18.1323
+            2   C8y C    22.5428  -16.4521
+            3   N5x N    21.3527  -17.1521
+            4   C8y C    20.0925  -16.4521
+            5   C8y C    20.0925  -15.0519
+            6   C8y C    21.3527  -14.3518
+            7   N5x N    22.5428  -15.0519
+            8   N4y N    18.7623  -16.8721
+            9   C8x C    17.9222  -15.7520
+            10  N5x N    18.7623  -14.6318
+            11  N1a N    21.3527  -12.9516
+            12  N1a N    23.7330  -17.1521
+            13  C1x C    17.7122  -19.4624
+            14  O2x O    16.3120  -19.4624
+            15  C1y C    15.8920  -18.1323
+            16  O2x O    17.0121  -17.2922
+            17  C1b C    14.5618  -17.7122
+            18  O1a O    13.5117  -18.6223
+BOND        20
+            1     2   3 2
+            2     3   4 1
+            3     5   6 1
+            4     6   7 2
+            5     2   7 1
+            6     5   4 2
+            7     4   8 1
+            8     8   9 1
+            9     9  10 2
+            10    5  10 1
+            11    6  11 1
+            12    2  12 1
+            13    1   8 1 #Up
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16   1 1
+            18   13   1 1
+            19   15  17 1 #Up
+            20   17  18 1
+///

@@ -1,0 +1,77 @@
+ENTRY       C01346                      Compound
+NAME        dUDP;
+            2'-Deoxyuridine 5'-diphosphate
+FORMULA     C9H14N2O11P2
+EXACT_MASS  388.0073
+MOL_WEIGHT  388.1618
+REACTION    R02018 R02098 R02330 R02331
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+ENZYME      1.17.4.1        2.7.4.4         2.7.4.6         2.7.4.9         
+            3.6.1.39
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Deoxyribonucleotides
+                C01346  dUDP
+DBLINKS     CAS: 4208-67-7
+            PubChem: 4551
+            ChEBI: 28850
+            PDB-CCD: DUD
+            3DMET: B01441
+            NIKKAJI: J699.272B
+ATOM        24
+            1   N4y N    30.2073  -20.0430
+            2   C1y C    28.8707  -20.4807
+            3   C8y C    31.2580  -20.9769
+            4   C8x C    30.4991  -18.6711
+            5   O2x O    27.7792  -19.6811
+            6   C1x C    28.4563  -21.8524
+            7   N4x N    32.5948  -20.5332
+            8   O5x O    30.9838  -22.3428
+            9   C8x C    31.8242  -18.2217
+            10  C1y C    26.6350  -20.5158
+            11  C1y C    27.0554  -21.8524
+            12  C8y C    32.8807  -19.1615
+            13  C1b C    25.2983  -20.0838
+            14  O1a O    26.2264  -22.9732
+            15  O5x O    34.2175  -18.7238
+            16  O2b O    24.3119  -21.0586
+            17  P1b P    22.9109  -21.0586
+            18  O2c O    21.5158  -21.0586
+            19  O1c O    22.9050  -22.4537
+            20  O1c O    22.9050  -19.6635
+            21  P1b P    20.1207  -21.0527
+            22  O1c O    20.1150  -22.4479
+            23  O1c O    18.7257  -21.0527
+            24  O1c O    20.1150  -19.6518
+BOND        25
+            1     2   1 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 2
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12   10  13 1 #Up
+            13   11  14 1 #Down
+            14   12  15 2
+            15   13  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19   17  20 2
+            20   18  21 1
+            21   21  22 1
+            22   21  23 1
+            23   21  24 2
+            24    9  12 1
+            25   10  11 1
+///

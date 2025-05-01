@@ -1,0 +1,68 @@
+ENTRY       D09791                      Drug
+NAME        Arbaclofen (USAN)
+FORMULA     C10H12ClNO2
+EXACT_MASS  213.0557
+MOL_WEIGHT  213.6608
+CLASS       Neuropsychiatric agent
+             DG01565  GABA-B receptor agonist
+REMARK      Same as: C21605
+            Chemical structure group: DG01354
+EFFICACY    Muscle relaxant, GABA-B receptor agonist
+COMMENT     Treatment of fragile X syndrome and autism
+TARGET      GABBR [HSA:2550 9568] [KO:K04615]
+  PATHWAY   hsa04024(2550+9568)  cAMP signaling pathway
+            hsa04080(2550+9568)  Neuroactive ligand-receptor interaction
+            hsa04727(2550+9568)  GABAergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01565  GABA-B receptor agonist
+               DG01354  Arbaclofen
+                D09791  Arbaclofen
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               GABA (metabotropic)
+                GABBR
+                 D09791  Arbaclofen (USAN)
+            Prodrugs [br08324.html]
+             D09791
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01565  GABA-B receptor agonist
+               DG01354  Arbaclofen
+DBLINKS     CAS: 69308-37-8
+            PubChem: 124490531
+            ChEBI: 190735
+            PDB-CCD: 2C0
+            LigandBox: D09791
+ATOM        14
+            1   C8y C    25.6900  -19.0400
+            2   C1c C    25.6900  -17.6400
+            3   C8x C    24.5000  -19.7400
+            4   C8x C    26.8800  -19.7400
+            5   C1b C    24.5000  -16.9400
+            6   C1b C    26.8800  -16.9400
+            7   C8x C    24.5000  -21.1400
+            8   C8x C    26.8800  -21.1400
+            9   C6a C    23.3100  -17.6400
+            10  N1a N    28.1400  -17.6400
+            11  C8y C    25.6900  -21.8400
+            12  O6a O    22.0500  -16.9400
+            13  O6a O    23.3100  -19.0400
+            14  X   Cl   25.6900  -23.2400
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    7  11 1
+            11    9  12 1
+            12    9  13 2
+            13   11  14 1
+            14    8  11 2
+///

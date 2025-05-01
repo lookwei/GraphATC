@@ -1,0 +1,102 @@
+ENTRY       D07064                      Drug
+NAME        Acenocoumarol (INN);
+            Acenocoumarin;
+            Mini-sintrom (TN)
+FORMULA     C19H15NO6
+EXACT_MASS  353.0899
+MOL_WEIGHT  353.3255
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01708  Coumarin anticoagulant
+               DG01759  Dicumarol type coumarin derivative
+REMARK      ATC code: B01AA07
+EFFICACY    Anticoagulant, Vitamin K antagonist
+COMMENT     Coumarin derivative
+TARGET      VKORC1 [HSA:79001] [KO:K05357]
+            NQO1 [HSA:1728] [KO:K00355]
+  PATHWAY   hsa00130(1728+79001)  Ubiquinone and other terpenoid-quinone biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AA Vitamin K antagonists
+                 B01AA07 Acenocoumarol
+                  D07064  Acenocoumarol (INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01708  Coumarin anticoagulant
+                DG01759  Dicumarol type coumarin derivative
+                 D07064  Acenocoumarol
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               NAD(P)H dehydrogenase
+                NQO1
+                 D07064  Acenocoumarol (INN)
+               Vitamin-K-epoxide reductase
+                VKORC1
+                 D07064  Acenocoumarol (INN)
+DBLINKS     CAS: 152-72-7
+            PubChem: 51091406
+            ChEBI: 53766
+            LigandBox: D07064
+            NIKKAJI: J5.869F
+ATOM        26
+            1   C8x C    12.6000  -17.9200
+            2   C8x C    12.6000  -16.5200
+            3   C8x C    13.7900  -15.8200
+            4   C8y C    15.0500  -16.5200
+            5   C8y C    15.0500  -17.9200
+            6   C8x C    13.7900  -18.6200
+            7   C8y C    16.2400  -15.8200
+            8   C8y C    17.4300  -16.5200
+            9   C8y C    17.4300  -17.9200
+            10  O7x O    16.2400  -18.6200
+            11  C1c C    18.6900  -15.8200
+            12  C8y C    19.8800  -16.5200
+            13  C8x C    19.8800  -17.9200
+            14  O6a O    18.6900  -18.6200
+            15  C8x C    21.0700  -15.8200
+            16  C8x C    22.2600  -16.5200
+            17  C8y C    22.2600  -17.9200
+            18  C8x C    21.0700  -18.6200
+            19  O1a O    16.2400  -14.4200
+            20  C1b C    18.6900  -14.4200
+            21  C5a C    19.8800  -13.7200
+            22  C1a C    21.0700  -14.4200
+            23  O5a O    19.8800  -12.3200
+            24  N2b N    23.5200  -18.6200 #+
+            25  O3a O    24.7100  -17.9200 #-
+            26  O3a O    23.5200  -20.0200
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 1
+            13   11  12 1
+            14   12  13 1
+            15    9  14 2
+            16   12  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   13  18 2
+            21    7  19 1
+            22   11  20 1
+            23   20  21 1
+            24   21  22 1
+            25   21  23 2
+            26   17  24 1
+            27   24  25 1
+            28   24  26 2
+///

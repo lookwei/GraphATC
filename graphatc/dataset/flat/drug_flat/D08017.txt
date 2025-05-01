@@ -1,0 +1,184 @@
+ENTRY       D08017                      Drug
+NAME        Flucloxacillin magnesium;
+            Floxapen (TN)
+FORMULA     (C19H16ClFN3O5S)2. Mg
+EXACT_MASS  928.0817
+MOL_WEIGHT  930.0327
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01779  beta-Lactamase resistant penicillin
+REMARK      ATC code: J01CF05
+            Chemical structure group: DG00543
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CF Beta-lactamase resistant penicillins
+                 J01CF05 Flucloxacillin
+                  D08017  Flucloxacillin magnesium
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00543  Flucloxacillin
+                  D08017  Flucloxacillin magnesium
+              DG01779  beta-Lactamase resistant penicillin
+               DG00543  Flucloxacillin
+                D08017  Flucloxacillin magnesium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                D08017  Flucloxacillin magnesium
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00543  Flucloxacillin
+              DG01779  beta-Lactamase resistant penicillin
+               DG00543  Flucloxacillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                DG00543  Flucloxacillin
+DBLINKS     PubChem: 96024710
+            LigandBox: D08017
+ATOM        61
+            1   C1y C    19.0400   -9.8000
+            2   C5x C    19.0400  -11.1300
+            3   N1y N    20.3700  -11.1300
+            4   C1y C    20.3700   -9.8000
+            5   C1y C    21.7000  -11.5500
+            6   C1z C    22.4700  -10.5000
+            7   S2x S    21.7000   -9.3800
+            8   C1a C    23.4500  -11.4100
+            9   C1a C    23.4500   -9.5200
+            10  C6a C    22.1200  -12.9500
+            11  O6a O    21.5600  -14.2100 #-
+            12  N1b N    17.8500   -9.1000
+            13  C5a C    16.6600   -9.8000
+            14  O5a O    16.6600  -11.1300
+            15  C8y C    15.4700   -9.1000
+            16  C8y C    15.4700   -7.7700
+            17  O2x O    14.1400   -7.3500
+            18  N5x N    13.3700   -8.4000
+            19  C8y C    14.1400   -9.5200
+            20  C8y C    14.1400  -12.1100
+            21  C8y C    13.0200  -12.8100
+            22  C8x C    13.0200  -14.1400
+            23  C8x C    14.1400  -14.8400
+            24  C8x C    15.3300  -14.1400
+            25  C8y C    15.3300  -12.8100
+            26  C1a C    16.5900   -6.9300
+            27  X   Cl   11.8300  -12.1100
+            28  X   F    16.5200  -12.1100
+            29  O5x O    17.9101  -13.1699
+            30  O6a O    23.4997  -13.1877
+            31  C5x C    19.2500  -20.1600
+            32  C1y C    19.2500  -21.5600
+            33  C1y C    20.6500  -21.5600
+            34  N1y N    20.6500  -20.1600
+            35  S2x S    21.9815  -21.9926
+            36  C1z C    22.8044  -20.8600
+            37  C1y C    21.9815  -19.7274
+            38  C1a C    23.7943  -19.8701
+            39  C1a C    23.7943  -21.8499
+            40  C6a C    22.4103  -18.4078
+            41  O6a O    21.6801  -17.1535 #-
+            42  O6a O    23.7694  -18.1189
+            43  N1b N    18.0376  -22.2600
+            44  C5a C    16.8421  -21.5696
+            45  O5a O    16.8420  -20.1603
+            46  C8y C    15.5929  -22.1634
+            47  C8y C    14.2841  -21.7422
+            48  N5x N    13.4791  -22.8569
+            49  O2x O    14.2904  -23.9669
+            50  C8y C    15.5968  -23.5383
+            51  C1a C    16.7316  -24.3578
+            52  C8y C    14.2841  -19.1522
+            53  C8y C    15.4814  -18.4613
+            54  C8x C    15.4817  -17.0613
+            55  C8x C    14.2694  -16.3610
+            56  C8x C    13.0720  -17.0520
+            57  C8y C    13.0718  -18.4520
+            58  X   F    16.6931  -19.1612
+            59  X   Cl   11.8612  -19.1508
+            60  O5x O    18.1201  -17.9801
+            61  Z   Mg   18.9000  -15.5400 #2+
+BOND        66
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13    1  12 1 #Up
+            14   12  13 1
+            15   13  14 2
+            16   13  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 1
+            20   18  19 2
+            21   15  19 1
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   20  25 1
+            29   16  26 1
+            30   21  27 1
+            31   25  28 1
+            32    2  29 2
+            33   10  30 2
+            34   31  32 1
+            35   32  33 1
+            36   33  34 1
+            37   31  34 1
+            38   33  35 1
+            39   35  36 1
+            40   36  37 1
+            41   34  37 1
+            42   36  38 1
+            43   36  39 1
+            44   37  40 1 #Up
+            45   40  41 1
+            46   40  42 2
+            47   32  43 1 #Down
+            48   43  44 1
+            49   44  45 2
+            50   46  47 1
+            51   47  48 2
+            52   48  49 1
+            53   49  50 1
+            54   46  50 2
+            55   44  46 1
+            56   50  51 1
+            57   47  52 1
+            58   52  53 2
+            59   53  54 1
+            60   54  55 2
+            61   55  56 1
+            62   56  57 2
+            63   52  57 1
+            64   53  58 1
+            65   57  59 1
+            66   31  60 2
+///

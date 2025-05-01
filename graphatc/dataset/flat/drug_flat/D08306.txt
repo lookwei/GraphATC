@@ -1,0 +1,99 @@
+ENTRY       D08306                      Drug
+NAME        Oseltamivir (INN);
+            Agucort (TN)
+FORMULA     C16H28N2O4
+EXACT_MASS  312.2049
+MOL_WEIGHT  312.4045
+CLASS       Antiviral
+             DG03029  Anti-influenza virus agent
+              DG02842  Neuraminidase inhibitor
+REMARK      Same as: C08092
+            ATC code: J05AH02
+            Chemical structure group: DG00665
+            Product (DG00665): D00900<JP/US>
+EFFICACY    Antiviral, Neuraminidase inhibitor
+TARGET      Influenza A/B virus neuraminidase [KO:K19392]
+  PATHWAY   ko03230(K19392)  Viral genome structure
+            ko05164(K19392)  Influenza A
+STR_MAP     map07044  Antiviral agents
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AH Neuraminidase inhibitors
+                 J05AH02 Oseltamivir
+                  D08306  Oseltamivir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02842  Neuraminidase inhibitor
+                DG00665  Oseltamivir
+                 D08306  Oseltamivir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Virus release inhibitor
+               Neuraminidase inhibitor
+                D08306  Oseltamivir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02842  Neuraminidase inhibitor
+                DG00665  Oseltamivir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Virus release inhibitor
+               Neuraminidase inhibitor
+                DG00665  Oseltamivir
+DBLINKS     CAS: 196618-13-0
+            PubChem: 96024993
+            ChEBI: 7798
+            LigandBox: D08306
+            NIKKAJI: J871.765F
+ATOM        22
+            1   C1x C    20.8600  -15.5400
+            2   C1y C    20.8600  -16.9400
+            3   C1y C    22.0500  -17.6400
+            4   C1y C    23.3100  -16.9400
+            5   C2x C    23.3100  -15.5400
+            6   C2y C    22.0500  -14.8400
+            7   N1b N    22.0500  -19.0400
+            8   C5a C    20.8600  -19.7400
+            9   O5a O    19.6700  -19.0400
+            10  C1a C    20.8600  -21.1400
+            11  N1a N    19.6700  -17.6400
+            12  O2a O    24.5000  -17.6400
+            13  C1c C    25.7600  -16.9400
+            14  C1b C    26.9500  -17.6400
+            15  C1a C    28.1400  -16.9400
+            16  C1b C    25.7600  -15.5400
+            17  C1a C    26.9500  -14.8400
+            18  C7a C    22.0500  -13.4400
+            19  O6a O    20.8600  -12.7400
+            20  O7a O    23.2400  -12.7400
+            21  C1b C    24.4300  -13.4400
+            22  C1a C    25.6200  -12.7400
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 1 #Down
+            8     7   8 1
+            9     8   9 2
+            10    8  10 1
+            11    2  11 1 #Up
+            12    4  12 1 #Up
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   13  16 1
+            17   16  17 1
+            18    6  18 1
+            19   18  19 2
+            20   18  20 1
+            21   20  21 1
+            22   21  22 1
+///

@@ -1,0 +1,91 @@
+ENTRY       D02368                      Drug
+NAME        Gemcitabine (USAN/INN)
+FORMULA     C9H11F2N3O4
+EXACT_MASS  263.0718
+MOL_WEIGHT  263.1981
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+REMARK      Same as: C07650
+            ATC code: L01BC05
+            Chemical structure group: DG00688
+            Product (DG00688): D01155<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+TARGET      RRM1 [HSA:6240] [KO:K10807]
+  PATHWAY   hsa00230(6240)  Purine metabolism
+            hsa00240(6240)  Pyrimidine metabolism
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC05 Gemcitabine
+                  D02368  Gemcitabine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 DG00688  Gemcitabine
+                  D02368  Gemcitabine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Ribonucleoside-diphosphate reductase
+                RRM1
+                 D02368  Gemcitabine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 DG00688  Gemcitabine
+DBLINKS     CAS: 95058-81-4
+            PubChem: 7849427
+            ChEBI: 175901
+            PDB-CCD: GEO
+            LigandBox: D02368
+            NIKKAJI: J357.909C
+ATOM        18
+            1   C1y C    19.0557  -17.4176
+            2   N4y N    20.4356  -16.3930
+            3   C1z C    18.6979  -18.7435
+            4   O2x O    17.9211  -16.5985
+            5   C8y C    21.6236  -16.9735
+            6   C8x C    20.4467  -14.9188
+            7   C1y C    17.2276  -18.7482
+            8   X   F    18.6880  -20.1778
+            9   X   F    19.9297  -18.7465
+            10  C1y C    16.7916  -17.4248
+            11  N5x N    22.8007  -16.2338
+            12  O5x O    21.6514  -18.2899
+            13  C8x C    21.5224  -14.1604
+            14  O1a O    16.3677  -19.8363
+            15  C1b C    15.5996  -17.0434
+            16  C8y C    22.8433  -14.8413
+            17  O1a O    14.5701  -18.0792
+            18  N1a N    23.9337  -13.9931
+BOND        19
+            1     1   2 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1
+            10    5  11 1
+            11    5  12 2
+            12    6  13 2
+            13    7  14 1 #Down
+            14   10  15 1 #Up
+            15   11  16 2
+            16   15  17 1
+            17   16  18 1
+            18    7  10 1
+            19   13  16 1
+///

@@ -1,0 +1,54 @@
+ENTRY       D00971                      Drug
+NAME        Sodium thiosalicylate;
+            Thiosalicylic acid sodium salt;
+            Rexolate (TN)
+FORMULA     C7H5O2S. Na
+EXACT_MASS  175.9908
+MOL_WEIGHT  176.1682
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01909  Anti-inflammatory drug, salicylic acid derivatives
+REMARK      Same as: C08171
+            Chemical structure group: DG01920
+EFFICACY    Analgesic, Anti-inflammatory
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01909  Anti-inflammatory drug, salicylic acid derivatives
+                DG01920  Thiosalicylic acid
+                 D00971  Sodium thiosalicylate
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01909  Anti-inflammatory drug, salicylic acid derivatives
+                DG01920  Thiosalicylic acid
+DBLINKS     CAS: 134-23-6
+            PubChem: 7848034
+            ChEBI: 9182
+            LigandBox: D00971
+            NIKKAJI: J26.962J
+ATOM        11
+            1   C8y C    -0.3621    0.1862
+            2   C8y C     0.3483   -0.2241
+            3   C8x C    -1.0828   -0.2241
+            4   C6a C    -0.3621    1.0172
+            5   C8x C     0.3483   -1.0552
+            6   S1a S     1.0690    0.1862
+            7   C8x C    -1.0828   -1.0552
+            8   O6a O    -1.0793    1.4345
+            9   O6a O     0.3517    1.4310 #-
+            10  C8x C    -0.3621   -1.4724
+            11  Z   Na    2.2172   -0.2276 #+
+BOND        10
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     4   9 1
+            9     5  10 2
+            10    7  10 1
+///

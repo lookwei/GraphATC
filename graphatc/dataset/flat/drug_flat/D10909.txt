@@ -1,0 +1,108 @@
+ENTRY       D10909                      Drug
+NAME        Bictegravir (USAN/INN)
+FORMULA     C21H18F3N3O5
+EXACT_MASS  449.1199
+MOL_WEIGHT  449.3799
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG03135  HIV integrase inhibitor
+REMARK      Chemical structure group: DG02404
+            Product (mixture): D11039<JP/US>
+EFFICACY    Antiviral, HIV integrase inhibitor
+COMMENT     Treatment of HIV-1 infection
+TARGET      HIV-1 integrase [KO:K24803]
+  PATHWAY   ko03230(K24803)  Viral genome structure
+            ko03240(K24803)  Viral replication
+            ko03250(K24803)  Viral life cycle - HIV-1
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG03135  HIV integrase inhibitor
+                DG02404  Bictegravir
+                 D10909  Bictegravir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                D10909  Bictegravir (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG03135  HIV integrase inhibitor
+                DG02404  Bictegravir
+DBLINKS     CAS: 1611493-60-7
+            PubChem: 342581766
+            ChEBI: 172943
+            PDB-CCD: KLQ
+ATOM        32
+            1   C8y C    17.0517  -11.1812
+            2   N4y N    17.0517   -9.7778
+            3   C8x C    18.2447   -9.0760
+            4   C8y C    19.5078   -9.7778
+            5   C8y C    19.5078  -11.1812
+            6   C8y C    18.2447  -11.8829
+            7   C5x C    15.8588  -11.8829
+            8   N1y N    14.5957  -11.1812
+            9   C1y C    14.5957   -9.7778
+            10  C1x C    15.8588   -9.0760
+            11  C1y C    13.4028  -11.8829
+            12  C1x C    12.2099  -11.1812
+            13  C1y C    12.2099   -9.7778
+            14  O2x O    13.4028   -9.0760
+            15  O5x O    15.8588  -13.2864
+            16  O1a O    18.2447  -13.2864
+            17  O5x O    20.7007  -11.8829
+            18  C5a C    20.7007   -9.0760
+            19  N1b N    21.8936   -9.7778
+            20  O5a O    20.7007   -7.6726
+            21  C1b C    23.0865   -9.0760
+            22  C8y C    24.2794   -9.7778
+            23  C8y C    25.4724   -9.0760
+            24  C8x C    26.7355   -9.7778
+            25  C8y C    26.7355  -11.1812
+            26  C8x C    25.5425  -11.8829
+            27  C8y C    24.2794  -11.1812
+            28  X   F    23.0865  -11.8829
+            29  X   F    27.9284  -11.8829
+            30  C1x C    10.9975  -10.4778
+            31  C1x C    12.1904  -12.5829
+            32  X   F    25.4724   -7.6760
+BOND        36
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    2  10 1
+            12    8  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16    9  14 1
+            17    7  15 2
+            18    6  16 1
+            19    5  17 2
+            20    4  18 1
+            21   18  19 1
+            22   18  20 2
+            23   19  21 1
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   22  27 1
+            31   27  28 1
+            32   25  29 1
+            33   13  30 1 #Up
+            34   11  31 1 #Up
+            35   30  31 1
+            36   23  32 1
+///

@@ -1,0 +1,114 @@
+ENTRY       D01230                      Drug
+NAME        Flunitrazepam (JP18/USAN/INN);
+            Rohypnol (TN)
+FORMULA     C16H12FN3O3
+EXACT_MASS  313.0863
+MOL_WEIGHT  313.2832
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+REMARK      Therapeutic category: 1124
+            ATC code: N05CD03
+            Product: D01230<JP>
+EFFICACY    Anesthetic (intravenous), Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CD Benzodiazepine derivatives
+                 N05CD03 Flunitrazepam
+                  D01230  Flunitrazepam (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01230  Flunitrazepam (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               D01230  Flunitrazepam
+              DG03202  Hypnotic
+               D01230  Flunitrazepam
+              DG01567  GABA-A receptor agonist
+               D01230  Flunitrazepam
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03202  Hypnotic
+               D01230  Flunitrazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01230  Flunitrazepam (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01230  Flunitrazepam
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01230
+DBLINKS     CAS: 1622-62-4
+            PubChem: 7848293
+            ChEBI: 31622
+            LigandBox: D01230
+            NIKKAJI: J3.675G
+ATOM        23
+            1   C2y C    18.2031  -15.9778
+            2   C8y C    17.3604  -14.8674
+            3   C8y C    17.6959  -13.5097
+            4   N1y N    18.9577  -12.9311
+            5   N2x N    19.6099  -15.9330
+            6   C5x C    20.2122  -13.5539
+            7   C1x C    20.4989  -14.9236
+            8   C8x C    16.6880  -12.5406
+            9   C8x C    15.3451  -12.9289
+            10  C8y C    15.0097  -14.2867
+            11  C8x C    16.0175  -15.2555
+            12  O5x O    21.2571  -12.6188
+            13  N2b N    13.6439  -14.6814 #+
+            14  C8y C    17.5682  -17.2284
+            15  C8x C    16.1656  -17.2284
+            16  C8x C    15.4651  -18.4417
+            17  C8x C    16.1656  -19.6550
+            18  C8x C    17.5682  -19.6550
+            19  C8y C    18.2687  -18.4417
+            20  X   F    19.6806  -18.4418
+            21  C1a C    18.9795  -11.5553
+            22  O3a O    13.6439  -16.0814
+            23  O3a O    12.5377  -13.8498 #-
+BOND        25
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 2
+            22   19  20 1
+            23    4  21 1
+            24   13  22 2
+            25   13  23 1
+///

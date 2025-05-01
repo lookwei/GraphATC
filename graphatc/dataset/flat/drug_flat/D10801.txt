@@ -1,0 +1,190 @@
+ENTRY       D10801                      Drug
+NAME        Letermovir (JAN/USAN/INN);
+            Prevymis (TN)
+PRODUCT     PREVYMIS (Merck Sharp & Dohme LLC)
+FORMULA     C29H28F4N4O4
+EXACT_MASS  572.2047
+MOL_WEIGHT  572.5506
+CLASS       Antiviral
+             DG01937  Anti-cytomegalovirus agent
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Metabolizing enzyme inducer
+             DG02886  CYP2C9 inducer
+             DG02885  CYP2C19 inducer
+            Transporter substrate
+             DG02856  SLCO1B1 substrate
+             DG02932  SLCO1B3 substrate
+            Transporter inhibitor
+             DG02862  ABCG2 inhibitor
+             DG02865  SLCO1B1 inhibitor
+             DG02907  SLCO1B3 inhibitor
+REMARK      Therapeutic category: 6250
+            ATC code: J05AX18
+            Product: D10801<JP/US>
+EFFICACY    Antiviral
+  DISEASE   Cytomegalovirus infection [DS:H00368]
+COMMENT     Treatment of human cytomegalovirus infection
+TARGET      HCMV DNA terminase complex [KO:K26103 K26104 K26105]
+METABOLISM  Transporter: SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+INTERACTION CYP induction: CYP2C9 [HSA:1559], CYP2C19 [HSA:1557]
+            CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCG2 [HSA:9429], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AX Other antivirals
+                 J05AX18 Letermovir
+                  D10801  Letermovir (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-cytomegalovirus (CMV) Agents
+               Letermovir
+                D10801  Letermovir (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D10801  Letermovir (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01937  Anti-cytomegalovirus agent
+               D10801  Letermovir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D10801  Letermovir
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               D10801  Letermovir
+              DG02885  CYP2C19 inducer
+               D10801  Letermovir
+             Transporter substrate
+              DG02856  SLCO1B1 substrate
+               D10801  Letermovir
+              DG02932  SLCO1B3 substrate
+               D10801  Letermovir
+             Transporter inhibitor
+              DG02862  ABCG2 inhibitor
+               D10801  Letermovir
+              DG02865  SLCO1B1 inhibitor
+               D10801  Letermovir
+              DG02907  SLCO1B3 inhibitor
+               D10801  Letermovir
+            Drug classes [BR:br08332]
+             Antiviral
+              DG01937  Anti-cytomegalovirus agent
+               D10801  Letermovir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Other inhibitor
+                D10801  Letermovir (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10801
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10801
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10801
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10801
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10801
+             Drug transporters
+              D10801
+DBLINKS     PubChem: 316933537
+ATOM        41
+            1   C8x C     4.3400  -15.4700
+            2   C8x C     4.3400  -16.8700
+            3   C8x C     5.5524  -17.5700
+            4   C8y C     6.7649  -16.8700
+            5   C8y C     6.7649  -15.4700
+            6   C8y C     5.5524  -14.7700
+            7   C1y C     7.9773  -17.5700
+            8   N1y N     9.1897  -16.8700
+            9   C2y C     9.1897  -15.4700
+            10  N2x N     7.9773  -14.7700
+            11  N1y N    10.3873  -14.7785
+            12  C1x C    11.5756  -15.4645
+            13  C1x C    12.7880  -14.7645
+            14  N1y N    12.7880  -13.3645
+            15  C1x C    11.5997  -12.6785
+            16  C1x C    10.3873  -13.3785
+            17  C8y C    14.0144  -12.6563
+            18  C8x C    15.2219  -13.3533
+            19  C8y C    16.4343  -12.6532
+            20  C8x C    16.4342  -11.2532
+            21  C8x C    15.2267  -10.5562
+            22  C8x C    14.0143  -11.2563
+            23  O2a O    17.6659  -13.3640
+            24  C1a C    18.8561  -12.6764
+            25  C8y C    10.3873  -17.5615
+            26  C1b C     7.9773  -18.9700
+            27  C6a C     6.7599  -19.6565
+            28  C8y C    10.3873  -18.9697
+            29  C8x C    11.5998  -19.6697
+            30  C8x C    12.8122  -18.9697
+            31  C8y C    12.8122  -17.5615
+            32  C8x C    11.5997  -16.8615
+            33  O2a O     9.1545  -19.6818
+            34  C1a C     9.1545  -21.0818
+            35  O6a O     5.5829  -18.9609
+            36  O6a O     6.8152  -21.0693
+            37  X   F     5.5524  -13.3702
+            38  C1d C    14.0193  -16.8645
+            39  X   F    15.2317  -16.1645
+            40  X   F    13.3193  -15.6521
+            41  X   F    14.7193  -18.0770
+BOND        45
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   11  16 1
+            19   14  17 1
+            20   17  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   17  22 1
+            26   19  23 1
+            27   23  24 1
+            28    8  25 1
+            29    7  26 1 #Up
+            30   26  27 1
+            31   25  28 2
+            32   28  29 1
+            33   29  30 2
+            34   30  31 1
+            35   31  32 2
+            36   25  32 1
+            37   28  33 1
+            38   33  34 1
+            39   27  35 1
+            40   27  36 2
+            41    6  37 1
+            42   31  38 1
+            43   38  39 1
+            44   38  40 1
+            45   38  41 1
+///

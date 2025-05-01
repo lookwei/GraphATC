@@ -1,0 +1,128 @@
+ENTRY       D04774                      Drug
+NAME        Lorajmine hydrochloride (USAN)
+FORMULA     C22H27ClN2O3. HCl
+EXACT_MASS  438.1477
+MOL_WEIGHT  439.3753
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+REMARK      ATC code: C01BA12
+EFFICACY    Antiarrhythmic
+COMMENT     Ajmaline [DR:D00199] derivative
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA12 Lorajmine
+                  D04774  Lorajmine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 D04774  Lorajmine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN2A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN3A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN4A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN5A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN8A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN9A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN10A
+                 D04774  Lorajmine hydrochloride (USAN)
+                SCN11A
+                 D04774  Lorajmine hydrochloride (USAN)
+DBLINKS     CAS: 40819-93-0
+            PubChem: 47206586
+            LigandBox: D04774
+            NIKKAJI: J244.499B
+ATOM        29
+            1   X   Cl   33.7903  -40.0023
+            2   C8x C    18.6200  -40.8100
+            3   C8x C    18.6200  -42.2100
+            4   C8x C    19.8100  -42.9100
+            5   C8y C    21.0700  -42.2100
+            6   C8y C    21.0700  -40.8100
+            7   C8x C    19.8100  -40.1100
+            8   N1y N    22.4000  -42.6300
+            9   C1y C    23.1700  -41.5100
+            10  C1z C    22.4000  -40.3900
+            11  C1y C    24.5700  -41.3700
+            12  N1y N    25.1300  -40.1100
+            13  C1y C    24.3600  -38.9200
+            14  C1x C    22.9600  -39.1300
+            15  C1x C    25.5500  -42.3500
+            16  C1y C    26.6700  -39.4800
+            17  C1y C    27.8600  -40.3900
+            18  C1y C    26.3200  -40.8800
+            19  C1b C    29.2600  -40.6000
+            20  C1y C    25.0600  -37.3800
+            21  C1y C    22.4000  -37.3800
+            22  O7a O    21.4200  -36.4000
+            23  C7a C    20.2300  -35.7000
+            24  C1b C    18.9700  -36.4000
+            25  X   Cl   17.7800  -35.7000
+            26  O6a O    20.2300  -34.3000
+            27  C1a C    22.4000  -44.0300
+            28  C1a C    29.7724  -41.9029
+            29  O1a O    27.6599  -38.4901
+BOND        33
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     5   8 1
+            8     8   9 1
+            9     9  10 1
+            10    6  10 1
+            11    9  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   10  14 1 #Down
+            16   11  15 1
+            17   12  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  15 1
+            21   17  19 1 #Up
+            22   13  20 1 #Up
+            23   18  20 1 #Up
+            24   20  21 1
+            25   21  10 1
+            26   21  22 1 #Down
+            27   22  23 1
+            28   23  24 1
+            29   24  25 1
+            30   23  26 2
+            31    8  27 1
+            32   19  28 1
+            33   16  29 1 #Down
+///

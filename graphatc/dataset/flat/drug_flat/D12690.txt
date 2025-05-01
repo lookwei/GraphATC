@@ -1,0 +1,84 @@
+ENTRY       D12690                      Drug
+NAME        Metopon (BAN);
+            Methyldihydromorphinone
+FORMULA     C18H21NO3
+EXACT_MASS  299.1521
+MOL_WEIGHT  299.3642
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12690  Metopon
+             Analgesic
+              DG01984  Opioid analgesics
+               D12690  Metopon
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12690  Metopon (BAN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12690
+DBLINKS     CAS: 143-52-2
+ATOM        22
+            1   C1z C    17.4413  -16.5934
+            2   C8y C    17.4413  -15.3225
+            3   C1y C    18.6416  -17.2995
+            4   C1z C    16.3116  -17.2289
+            5   C1x C    18.6416  -15.9580
+            6   C8y C    16.3116  -14.6870
+            7   C8y C    18.6416  -14.6870
+            8   C1y C    19.7007  -16.5934
+            9   C1x C    18.6416  -18.5703
+            10  O2x O    14.9701  -15.8874
+            11  C5x C    16.3116  -18.5703
+            12  C1x C    20.8304  -15.9580
+            13  C8y C    16.3116  -13.3455
+            14  C1x C    19.7007  -15.3931
+            15  C8x C    18.6416  -13.3455
+            16  N1y N    20.8304  -17.2995
+            17  C1x C    17.4413  -19.2765
+            18  O5x O    15.1819  -19.2765
+            19  C8x C    17.5119  -12.7100
+            20  O1a O    15.1819  -12.7100
+            21  C1a C    22.2425  -17.2995
+            22  C1a C    15.1456  -17.7942
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 1
+            17   11  18 2 #Down
+            18   13  19 2
+            19   13  20 1
+            20    6  10 1
+            21    8  14 1
+            22   11  17 1
+            23   12  16 1
+            24   15  19 1
+            25   16  21 1
+            26    4  22 1
+///

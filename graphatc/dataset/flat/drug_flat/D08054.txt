@@ -1,0 +1,107 @@
+ENTRY       D08054                      Drug
+NAME        Hydroxyzine (INN);
+            Marex (TN)
+FORMULA     C21H27ClN2O2
+EXACT_MASS  374.1761
+MOL_WEIGHT  374.9043
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Same as: C07045
+            ATC code: N05BB01
+            Chemical structure group: DG00912
+            Product (DG00912): D00672<JP/US> D01096<JP/US>
+EFFICACY    Tranquilizer, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+            map07032  Hypnotics
+            map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BB Diphenylmethane derivatives
+                 N05BB01 Hydroxyzine
+                  D08054  Hydroxyzine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00912  Hydroxyzine
+                 D08054  Hydroxyzine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D08054  Hydroxyzine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00912  Hydroxyzine
+DBLINKS     CAS: 68-88-2
+            PubChem: 96024747
+            ChEBI: 5818
+            LigandBox: D08054
+            NIKKAJI: J4.860G
+ATOM        26
+            1   C8x C    21.0700  -18.2700
+            2   C8y C    21.0700  -19.6700
+            3   C8x C    22.2600  -20.3700
+            4   C8x C    23.5200  -19.6700
+            5   C8y C    23.5200  -18.2700
+            6   C8x C    22.2600  -17.5700
+            7   C8x C    25.9000  -19.6700
+            8   C8y C    25.9000  -18.2700
+            9   C1c C    24.7100  -17.5700
+            10  N1y N    24.7100  -16.1700
+            11  C1x C    25.9000  -15.4700
+            12  C1x C    25.9000  -14.0700
+            13  N1y N    24.7100  -13.3700
+            14  C1x C    23.5200  -14.0700
+            15  C1x C    23.5200  -15.4700
+            16  C8x C    27.1600  -20.3700
+            17  C8x C    28.3500  -19.6700
+            18  C8x C    28.3500  -18.2700
+            19  C8x C    27.1600  -17.5700
+            20  X   Cl   19.8800  -20.3700
+            21  C1b C    24.7100  -11.9700
+            22  C1b C    25.9000  -11.2700
+            23  O2a O    27.0900  -11.9700
+            24  C1b C    28.2800  -11.2700
+            25  C1b C    29.4700  -11.9700
+            26  O1a O    30.6600  -11.2700
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   10  15 1
+            17    7  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21    8  19 2
+            22    2  20 1
+            23   13  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+///

@@ -1,0 +1,116 @@
+ENTRY       D00417                      Drug
+NAME        Milrinone (JAN/USP/INN);
+            Milrila (TN)
+FORMULA     C12H9N3O
+EXACT_MASS  211.0746
+MOL_WEIGHT  211.2194
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01757  Amrinone type cardiotonic
+             DG01507  Phosphodiesterase III inhibitor
+              DG01757  Amrinone type cardiotonic
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+REMARK      Same as: C07224
+            Therapeutic category: 2119
+            ATC code: C01CE02
+            Chemical structure group: DG00229
+            Product (DG00229): D00417<JP> D02085<US>
+EFFICACY    Cardiotonic, Phosphodiesterase 3 inhibitor
+COMMENT     Amrinone derivative
+TARGET      PDE3 [HSA:5139 5140] [KO:K19021 K13296]
+  PATHWAY   hsa00230(5139+5140)  Purine metabolism
+            hsa04022(5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(5139+5140)  cAMP signaling pathway
+            hsa04371(5140)  Apelin signaling pathway
+METABOLISM  Enzyme: UGT [KO:K00699]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CE Phosphodiesterase inhibitors
+                 C01CE02 Milrinone
+                  D00417  Milrinone (JAN/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               211  Cardiotonics
+                2119  Others
+                 D00417  Milrinone (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01757  Amrinone type cardiotonic
+                DG00229  Milrinone
+                 D00417  Milrinone
+              DG01507  Phosphodiesterase III inhibitor
+               DG01757  Amrinone type cardiotonic
+                DG00229  Milrinone
+                 D00417  Milrinone
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG00229  Milrinone
+                D00417  Milrinone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE3
+                 D00417  Milrinone (JAN/USP/INN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00417
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01757  Amrinone type cardiotonic
+                DG00229  Milrinone
+              DG01507  Phosphodiesterase III inhibitor
+               DG01757  Amrinone type cardiotonic
+                DG00229  Milrinone
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG00229  Milrinone
+DBLINKS     CAS: 78415-72-2
+            PubChem: 7847483
+            ChEBI: 50693
+            PDB-CCD: MIL
+            LigandBox: D00417
+            NIKKAJI: J23.655A
+ATOM        16
+            1   C8y C    25.7072  -17.3482
+            2   C8y C    26.9190  -16.6491
+            3   C8x C    24.5013  -16.6491
+            4   C8y C    25.7072  -18.7463
+            5   C8x C    28.1309  -17.3482
+            6   C8x C    26.9190  -15.2508
+            7   C8y C    23.2836  -17.3482
+            8   N4x N    24.5013  -19.4514
+            9   C1a C    26.9132  -19.4455
+            10  C8x C    29.3485  -16.6608
+            11  C8x C    28.1366  -14.5517
+            12  C8y C    23.2836  -18.7463
+            13  C3b C    22.0719  -16.6491
+            14  N5x N    29.3485  -15.2508
+            15  O5x O    22.0719  -19.4514
+            16  N3a N    20.8600  -15.9500
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    7  13 1
+            13   10  14 2
+            14   12  15 2
+            15   13  16 3
+            16    8  12 1
+            17   11  14 1
+///

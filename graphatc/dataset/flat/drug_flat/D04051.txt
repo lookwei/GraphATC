@@ -1,0 +1,79 @@
+ENTRY       D04051                      Drug
+NAME        Erythrityl tetranitrate (USAN);
+            Eritrityl tetranitrate (INN);
+            Cardilate (TN)
+FORMULA     C4H6N4O12
+EXACT_MASS  301.9982
+MOL_WEIGHT  302.11
+CLASS       Cardiovascular agent
+             DG01657  Nitrovasodilator
+REMARK      ATC code: C01DA13
+EFFICACY    Vasodilator (coronary), Atrial natriuretic peptide receptor agonist
+COMMENT     Organic nitrate
+TARGET      NPR [HSA:4881 4882] [KO:K12323 K12324]
+  PATHWAY   hsa04270(4881+4882)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01D VASODILATORS USED IN CARDIAC DISEASES
+                C01DA Organic nitrates
+                 C01DA13 Eritrityl tetranitrate
+                  D04051  Erythrityl tetranitrate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01657  Nitrovasodilator
+               D04051  Erythrityl tetranitrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Phosphorus-oxygen lyases
+                NPR
+                 D04051  Erythrityl tetranitrate (USAN)
+DBLINKS     CAS: 7297-25-8
+            PubChem: 47206013
+            ChEBI: 60072
+            LigandBox: D04051
+            NIKKAJI: J8.922B
+ATOM        20
+            1   C1b C    19.9787  -16.2946
+            2   C1c C    21.1890  -16.9952
+            3   C1c C    22.3992  -16.3017
+            4   C1b C    23.6095  -17.0024
+            5   O2a O    24.8197  -16.3087
+            6   N2b N    26.0299  -17.0094 #+
+            7   O2a O    18.7642  -16.9937
+            8   O3a O    27.2444  -16.3102 #-
+            9   N2b N    17.5516  -16.2917 #+
+            10  O3a O    16.3371  -16.9908 #-
+            11  O3a O    17.5531  -14.8903
+            12  O2a O    21.1855  -18.4151
+            13  O2a O    22.4023  -14.9004
+            14  N2b N    23.6174  -14.2022 #+
+            15  O3a O    23.6205  -12.8009
+            16  O3a O    24.8167  -14.8983 #-
+            17  O3a O    26.0281  -18.4153
+            18  N2b N    22.4122  -19.1275 #+
+            19  O3a O    23.9746  -18.5015 #-
+            20  O3a O    22.4086  -20.5100
+BOND        19
+            1     7   9 1
+            2     3   4 1
+            3     9  10 1
+            4     9  11 2
+            5     1   2 1
+            6     1   7 1
+            7     4   5 1
+            8     5   6 1
+            9     2   3 1
+            10    6   8 1
+            11    2  12 1 #Up
+            12   13  14 1
+            13   14  15 2
+            14    3  13 1 #Down
+            15   14  16 1
+            16    6  17 2
+            17   12  18 1
+            18   18  19 1
+            19   18  20 2
+///

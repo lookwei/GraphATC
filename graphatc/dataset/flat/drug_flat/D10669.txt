@@ -1,0 +1,135 @@
+ENTRY       D10669                      Drug
+NAME        Sotagliflozin (USAN/INN);
+            Inpefa (TN)
+PRODUCT     INPEFA (Lexicon Pharmaceuticals)
+FORMULA     C21H25ClO5S
+EXACT_MASS  424.1111
+MOL_WEIGHT  424.9382
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01794  SGLT2 inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03188  UGT1A9 substrate
+REMARK      ATC code: A10BK06
+            Product: D10669<US>
+EFFICACY    SGLT inhibitor
+COMMENT     Phlorizin derivative
+            Treatment of heart failure
+TARGET      SLC5A1 (SGLT1) [HSA:6523] [KO:K14158]
+            SLC5A2 (SGLT2) [HSA:6524] [KO:K14382]
+  PATHWAY   hsa04973(6523)  Carbohydrate digestion and absorption
+            hsa04976(6523)  Bile secretion
+            hsa04978(6523)  Mineral absorption
+METABOLISM  Enzyme: UGT1A9 [HSA:54600]; CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BK Sodium-glucose co-transporter 2 (SGLT2) inhibitors
+                 A10BK06 Sotagliflozin
+                  D10669  Sotagliflozin (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Sodium-Glucose Co-Transporter 2 Inhibitors (SGLT2i)
+               Sotagliflozin
+                D10669  Sotagliflozin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01794  SGLT2 inhibitor
+                D10669  Sotagliflozin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10669  Sotagliflozin
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                D10669  Sotagliflozin
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC5
+                SLC5A1 (SGLT1)
+                 D10669  Sotagliflozin (USAN/INN) &lt;US&gt;
+                SLC5A2 (SGLT2)
+                 D10669  Sotagliflozin (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10669
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10669
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10669
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10669
+DBLINKS     CAS: 1018899-04-1
+            PubChem: 254741630
+            PDB-CCD: LFL
+ATOM        28
+            1   C1y C    14.4200  -16.8000
+            2   O2x O    14.4200  -15.4000
+            3   C1y C    13.1600  -14.7000
+            4   C1y C    11.9700  -15.4000
+            5   C1y C    11.9700  -16.8000
+            6   C1y C    13.1600  -17.5000
+            7   C8x C    21.6300  -19.7400
+            8   C8y C    22.8200  -19.0400
+            9   C8x C    22.8200  -17.6400
+            10  C8x C    21.7000  -16.9400
+            11  C8y C    20.4400  -17.6400
+            12  C8x C    20.4400  -18.9700
+            13  C8y C    18.0600  -18.9700
+            14  C8y C    18.0600  -17.5700
+            15  C8x C    16.8700  -16.8000
+            16  C8y C    15.6100  -17.5000
+            17  C8x C    15.6100  -18.9000
+            18  C8x C    16.8000  -19.6700
+            19  C1b C    19.2500  -16.8700
+            20  O2a O    24.0800  -19.7400
+            21  C1b C    25.2700  -19.0400
+            22  C1a C    26.4600  -19.7400
+            23  X   Cl   19.3200  -19.6700
+            24  S2a S    13.1600  -13.3000
+            25  C1a C    14.4200  -12.6000
+            26  O1a O    10.7800  -14.7000
+            27  O1a O    10.7800  -17.5000
+            28  O1a O    13.1600  -18.9000
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12    7  12 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 2
+            16   16  17 1
+            17   17  18 2
+            18   13  18 1
+            19   14  19 1
+            20   11  19 1
+            21    8  20 1
+            22   20  21 1
+            23   21  22 1
+            24   13  23 1
+            25    1  16 1 #Up
+            26    3  24 1 #Up
+            27   24  25 1
+            28    4  26 1 #Down
+            29    5  27 1 #Up
+            30    6  28 1 #Down
+///

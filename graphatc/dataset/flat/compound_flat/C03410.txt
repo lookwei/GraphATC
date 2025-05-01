@@ -1,0 +1,67 @@
+ENTRY       C03410                      Compound
+NAME        N-Glycoloyl-neuraminate;
+            N-Glycolylneuraminate;
+            Neu5Gc
+FORMULA     C11H19NO10
+EXACT_MASS  325.1009
+MOL_WEIGHT  325.2693
+REACTION    R01803 R04215
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+ENZYME      1.14.18.2       2.7.7.43
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Amino sugars
+                C03410  N-Glycoloyl-neuraminate
+DBLINKS     PubChem: 6239
+            ChEBI: 146193 29025
+            PDB-CCD: NGC NGE
+            3DMET: B04895
+            NIKKAJI: J2.742.226H
+ATOM        22
+            1   C1y C    25.0254  -15.8323
+            2   C1y C    25.0254  -17.2301
+            3   O2x O    26.2427  -15.1333
+            4   C1c C    23.8138  -15.1333
+            5   C1y C    26.2427  -17.9350
+            6   N1b N    23.8138  -17.9350
+            7   C1z C    27.4542  -15.8323
+            8   C1c C    23.8138  -13.7354
+            9   O1a O    22.6024  -15.8323
+            10  C1x C    27.4542  -17.2301
+            11  O1a O    26.2485  -19.3386
+            12  C5a C    23.8198  -19.3327
+            13  C6a C    28.4386  -14.8305
+            14  O1a O    28.7997  -16.1934
+            15  C1b C    22.6024  -13.0307
+            16  O1a O    25.0312  -13.0307
+            17  C1b C    22.6141  -20.0317
+            18  O5a O    25.0254  -20.0259
+            19  O6a O    29.7956  -15.1916
+            20  O6a O    28.0658  -13.4792
+            21  O1a O    22.6024  -11.6271
+            22  O1a O    21.4025  -19.3386
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1 #Down
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    7  13 1 #Either
+            13    7  14 1
+            14    8  15 1
+            15    8  16 1 #Up
+            16   12  17 1
+            17   12  18 2
+            18   13  19 1
+            19   13  20 2
+            20   15  21 1
+            21   17  22 1
+            22    7  10 1
+///

@@ -1,0 +1,174 @@
+ENTRY       D02268                      Drug
+NAME        Ergoloid mesylates (USP);
+            Dihydroergotoxine mesilate (JP18);
+            Circanol (TN);
+            Hydergine (TN);
+            Inorter (TN)
+FORMULA     C28H34N5O5R. CH4SO3
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+              DG01963  Vasodilator, ergot alkaloid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C14055
+            ATC code: C04AE01
+            Chemical structure group: DG01977
+EFFICACY    Nootropic, Vasodilator, alpha-Adrenergic receptor antagonist
+COMMENT     Dihydroergocornine (R = -CH(CH3)2) [CPD:C14053]
+            Dihydroergocristine (R = -CH2C6H5) [CPD:C13168]
+            Dihydro-alpha-ergocryptine (R = -CH2CH(CH3)2) [CPD:C13167]
+            Dihydro-beta-ergocryptine (R = -CH(CH3)CH2CH3) [CPD:C14054]
+            ergot alkaloid derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AE Ergot alkaloids
+                 C04AE01 Ergoloid mesylates
+                  D02268  Ergoloid mesylates (USP)
+            USP drug classification [BR:br08302]
+             Antidementia Agents
+              Antidementia Agents, Other
+               Ergoloid Mesylates
+                D02268  Ergoloid mesylates (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG01977  Dihydroergotoxine
+                 D02268  Ergoloid mesylates
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01977  Dihydroergotoxine
+                 D02268  Ergoloid mesylates
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D02268  Ergoloid mesylates (USP)
+                ADRA2
+                 D02268  Ergoloid mesylates (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02268  Dihydroergotoxine mesilate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02268
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG01977  Dihydroergotoxine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01977  Dihydroergotoxine
+DBLINKS     CAS: 8067-24-1
+            PubChem: 7849327
+            ChEBI: 34706
+            NIKKAJI: J323.057K
+ATOM        44
+            1   C1z C    21.0670  -14.5003
+            2   N1y N    21.0670  -15.8037
+            3   C1y C    22.1842  -13.8021
+            4   O2x O    19.9033  -13.8021
+            5   O1a O    21.0205  -12.6603
+            6   C1y C    22.1842  -16.4553
+            7   C5x C    18.7395  -15.8037
+            8   N1y N    23.3479  -14.5003
+            9   C1x C    22.1842  -12.4986
+            10  C1z C    18.7395  -14.5003
+            11  C5x C    23.3479  -15.7571
+            12  O5x O    17.8551  -16.6882
+            13  C1x C    24.4186  -13.8486
+            14  C1x C    24.4186  -12.4986
+            15  N1b N    17.1102  -13.7555
+            16  C1c C    18.7395  -12.0072
+            17  O5x O    24.4186  -16.4553
+            18  C5a C    15.6206  -14.4537
+            19  C1y C    15.6206  -15.8037
+            20  O5a O    14.4569  -13.8021
+            21  C1x C    14.4569  -16.4553
+            22  C1x C    16.7379  -16.4553
+            23  C1y C    14.4569  -17.7588
+            24  N1y N    16.7379  -17.7588
+            25  C8y C    13.3397  -18.3640
+            26  C1y C    15.6206  -18.4105
+            27  C1a C    17.9016  -18.4105
+            28  C8y C    13.3397  -19.7139
+            29  C8x C    12.2225  -17.7588
+            30  C1x C    15.6206  -19.7139
+            31  C8y C    14.4569  -20.3656
+            32  C8y C    12.2225  -20.3656
+            33  C8x C    11.1053  -18.3640
+            34  C8x C    14.4569  -21.6690
+            35  N4x N    12.2225  -21.6690
+            36  C8x C    11.1053  -19.7139
+            37  C1a C    19.9498  -11.3090
+            38  C1a C    17.5757  -11.3090
+            39  R   R    22.1927  -17.8508
+            40  S4a S    31.0356  -16.5909
+            41  C1a C    29.6355  -16.5909
+            42  O1d O    32.4357  -16.5909
+            43  O1d O    31.0356  -15.1909
+            44  O1d O    31.0356  -17.9910
+BOND        49
+            1     4  10 1
+            2     6  11 1
+            3     7  12 2
+            4     8  13 1
+            5     9  14 1
+            6    10  15 1
+            7    10  16 1 #Up
+            8    11  17 2
+            9    15  18 1
+            10   19  18 1 #Up
+            11   18  20 2
+            12   19  21 1
+            13   19  22 1
+            14   21  23 1
+            15   22  24 1
+            16   23  25 1
+            17   23  26 1
+            18   24  27 1
+            19   25  28 1
+            20   25  29 2
+            21   26  30 1
+            22   28  31 1
+            23   28  32 2
+            24   29  33 1
+            25   31  34 2
+            26   32  35 1
+            27   32  36 1
+            28    7  10 1
+            29    8  11 1
+            30   13  14 1
+            31   24  26 1
+            32   30  31 1
+            33   33  36 2
+            34   34  35 1
+            35   16  37 1
+            36   16  38 1
+            37    1   2 1
+            38    1   3 1
+            39    1   4 1
+            40    1   5 1 #Down
+            41    2   6 1
+            42    2   7 1
+            43    3   8 1
+            44    3   9 1
+            45    6  39 1 #Down
+            46   40  41 1
+            47   40  42 1
+            48   40  43 2
+            49   40  44 2
+///

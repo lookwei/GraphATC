@@ -1,0 +1,99 @@
+ENTRY       C00075                      Compound
+NAME        UTP;
+            Uridine 5'-triphosphate;
+            Uridine triphosphate
+FORMULA     C9H15N2O15P3
+EXACT_MASS  483.9685
+MOL_WEIGHT  484.1411
+REACTION    R00156 R00157 R00159 R00289 R00416 R00443 R00502 R00571 
+            R00573 R00659 R00662 R00769 R00969 R01381 R01471 R02023 
+            R02634 R03077 R03238 R04733 R08845 R10183 R11025 R11635 
+            R12998
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+            map01240  Biosynthesis of cofactors
+            map04080  Neuroactive ligand-receptor interaction
+            map04148  Efferocytosis
+MODULE      M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+NETWORK     nt06535  Efferocytosis
+ENZYME      1.1.98.6        1.17.4.2        2.7.1.11        2.7.1.40        
+            2.7.4.6         2.7.4.10        2.7.7.6         2.7.7.9         
+            2.7.7.10        2.7.7.11        2.7.7.23        2.7.7.44        
+            2.7.7.48        2.7.7.52        2.7.7.59        2.7.7.64        
+            2.7.7.83        2.7.7.99        2.7.7.-         3.6.1.5         
+            3.6.1.9         3.6.1.17        3.6.1.39        3.6.1.-         
+            4.6.1.26        6.3.4.2
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Ribonucleotides
+                C00075  UTP
+DBLINKS     CAS: 63-39-8
+            PubChem: 3375
+            ChEBI: 15713
+            PDB-CCD: UTP
+            3DMET: B01149
+            NIKKAJI: J4.827E
+ATOM        29
+            1   C1y C    27.7237  -16.8464
+            2   N4y N    29.2154  -16.4786
+            3   O2x O    26.6316  -16.0464
+            4   C1y C    27.3149  -18.2186
+            5   C8y C    30.4554  -17.1512
+            6   C8x C    29.1970  -15.0744
+            7   C1y C    25.4930  -16.8814
+            8   C1y C    25.9077  -18.2186
+            9   O1a O    28.1383  -19.3457
+            10  N4x N    31.6585  -16.4181
+            11  O5x O    30.4194  -18.5458
+            12  C8x C    30.3818  -14.3395
+            13  C1b C    24.1558  -16.4493
+            14  O1a O    25.0784  -19.3398
+            15  C8y C    31.6288  -15.0167
+            16  O2b O    23.1631  -17.4245
+            17  O5x O    32.8277  -14.2906
+            18  P1b P    21.7674  -17.4245
+            19  O2c O    20.3718  -17.4245
+            20  O1c O    21.7616  -18.8201
+            21  O1c O    21.7616  -16.0288
+            22  P1b P    18.9703  -17.4186
+            23  O2c O    17.5747  -17.4186
+            24  O1c O    18.9646  -18.8143
+            25  O1c O    18.9646  -16.0171
+            26  P1b P    16.1790  -17.4069
+            27  O1c O    16.1732  -18.8084
+            28  O1c O    14.7834  -17.4011
+            29  O1c O    16.1732  -16.0113
+BOND        30
+            1     1   2 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1 #Down
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12    7  13 1 #Up
+            13    8  14 1 #Down
+            14   10  15 1
+            15   13  16 1
+            16   15  17 2
+            17   16  18 1
+            18   18  19 1
+            19   18  20 1
+            20   18  21 2
+            21   19  22 1
+            22   22  23 1
+            23   22  24 1
+            24   22  25 2
+            25   23  26 1
+            26   26  27 1
+            27   26  28 1
+            28   26  29 2
+            29    7   8 1
+            30   12  15 1
+///

@@ -1,0 +1,38 @@
+ENTRY       D05479                      Drug
+NAME        Pimagedine hydrochloride (USAN);
+            Aminoguanidine hydrochloride
+FORMULA     CH6N4. HCl
+EXACT_MASS  110.0359
+MOL_WEIGHT  110.5461
+EFFICACY    Diamine oxidase inhbitor, Nitric oxide synthase inhibitor
+COMMENT     Inhibitor (advanced glycosylation end-product formation)
+            Treatment of diabetic nephropathy
+TARGET      AOC1 (DAO) [HSA:26] [KO:K11182]
+            NOS [HSA:4842 4843 4846] [KO:K13240 K13241 K13242]
+  PATHWAY   hsa04020(4842+4843+4846)  Calcium signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                AOC1 (DAO)
+                 D05479  Pimagedine hydrochloride (USAN)
+               Nitic oxide synthase
+                NOS
+                 D05479  Pimagedine hydrochloride (USAN)
+DBLINKS     CAS: 1937-19-5
+            PubChem: 47207148
+            LigandBox: D05479
+            NIKKAJI: J220.058I
+ATOM        6
+            1   N1a N    23.5489  -19.5003
+            2   N1b N    22.3433  -18.8071
+            3   C2c C    21.1262  -19.5003
+            4   N1a N    19.9147  -18.8071
+            5   N2a N    21.1262  -20.9038
+            6   X   Cl   27.3332  -19.6130
+BOND        4
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 2
+///

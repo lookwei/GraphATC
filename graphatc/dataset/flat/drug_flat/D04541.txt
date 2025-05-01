@@ -1,0 +1,25 @@
+ENTRY       D04541            Mixture   Drug
+NAME        Insulin human, isophane (USP)
+COMPONENT   Insulin human [DR:D03230], Isophane insulin [DR:D04547]
+CLASS       Antidiabetic agent
+             DG01636  Insulin preparation
+              DG01802  Human insulin
+EFFICACY    Antidiabetic, Insulin receptor agonist
+COMMENT     Component of Humulin 70/30 (TN)
+TARGET      INSR (CD220) [HSA:3643] [KO:K04527]
+  PATHWAY   hsa04910(3643)  Insulin signaling pathway
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01636  Insulin preparation
+               DG01802  Human insulin
+                D04541  Insulin human, isophane
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               INSR family
+                INSR (CD220)
+                 D04541  Insulin human, isophane (USP)
+DBLINKS     PubChem: 47206387
+///

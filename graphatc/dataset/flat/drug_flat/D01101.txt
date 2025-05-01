@@ -1,0 +1,137 @@
+ENTRY       D01101                      Drug
+NAME        Bromperidol (JAN/USAN/INN);
+            Impromen (TN)
+FORMULA     C21H23BrFNO2
+EXACT_MASS  419.0896
+MOL_WEIGHT  420.3152
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01940  Butyrophenone derivative
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 1179
+            ATC code: N05AD06
+            Chemical structure group: DG00890
+            Product (DG00890): D01101<JP>
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Butyrophenone derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07031  Antipsychotics - butyrophenones
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AD Butyrophenone derivatives
+                 N05AD06 Bromperidol
+                  D01101  Bromperidol (JAN/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1179  Others
+                 D01101  Bromperidol (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00890  Bromperidol
+                 D01101  Bromperidol
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00890  Bromperidol
+                 D01101  Bromperidol
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00890  Bromperidol
+                 D01101  Bromperidol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D01101  Bromperidol (JAN/USAN/INN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01101
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00890  Bromperidol
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00890  Bromperidol
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00890  Bromperidol
+DBLINKS     CAS: 10457-90-6
+            PubChem: 7848164
+            ChEBI: 31305
+            LigandBox: D01101
+            NIKKAJI: J10.460D
+ATOM        26
+            1   C1b C    19.8100  -17.5700
+            2   C1b C    21.0000  -16.8700
+            3   C1b C    22.1900  -17.5700
+            4   N1y N    23.4500  -16.8700
+            5   C1x C    23.4500  -15.4700
+            6   C1x C    24.6400  -17.5700
+            7   C1x C    24.6400  -14.7700
+            8   C1x C    25.8300  -16.8700
+            9   C1z C    25.8300  -15.4700
+            10  C8y C    27.0200  -14.7700
+            11  C8x C    27.0200  -13.4400
+            12  C8x C    28.2100  -15.4700
+            13  C8x C    28.2100  -12.7400
+            14  C8x C    29.4000  -14.7700
+            15  C8y C    29.4000  -13.4400
+            16  X   Br   30.6600  -12.7400
+            17  C5a C    18.5500  -16.8700
+            18  C8y C    17.3600  -17.5700
+            19  O5a O    18.5500  -15.4000
+            20  C8x C    17.3600  -18.9700
+            21  C8x C    16.1000  -19.6700
+            22  C8y C    14.9100  -18.9700
+            23  C8x C    14.9100  -17.5700
+            24  C8x C    16.1000  -16.8700
+            25  X   F    13.6500  -19.6700
+            26  O1a O    27.0424  -16.1700
+BOND        28
+            1     9  10 1
+            2    10  11 1
+            3    10  12 2
+            4    11  13 2
+            5    12  14 1
+            6    13  15 1
+            7    15  16 1
+            8     8   9 1
+            9    14  15 2
+            10    1  17 1
+            11    1   2 1
+            12   17  18 1
+            13    2   3 1
+            14   17  19 2
+            15    3   4 1
+            16    4   5 1
+            17    4   6 1
+            18    5   7 1
+            19    6   8 1
+            20   18  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  18 2
+            26    7   9 1
+            27   22  25 1
+            28    9  26 1
+///

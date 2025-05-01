@@ -1,0 +1,66 @@
+ENTRY       D04628                      Drug
+NAME        Isomazole hydrochloride (USAN)
+FORMULA     C14H13N3O2S. HCl
+EXACT_MASS  323.0495
+MOL_WEIGHT  323.7979
+EFFICACY    Cardiotonic
+TARGET      PDE3 [HSA:5139 5140] [KO:K19021 K13296]
+  PATHWAY   hsa00230(5139+5140)  Purine metabolism
+            hsa04022(5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(5139+5140)  cAMP signaling pathway
+            hsa04371(5140)  Apelin signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE3
+                 D04628  Isomazole hydrochloride (USAN)
+DBLINKS     CAS: 87359-33-9
+            PubChem: 47206471
+            LigandBox: D04628
+ATOM        21
+            1   C8y C    23.1193  -16.4372
+            2   C8y C    23.1136  -15.0477
+            3   N4x N    21.7998  -16.8732
+            4   C8x C    24.3286  -17.1347
+            5   N5x N    21.7939  -14.6233
+            6   C8x C    24.3286  -14.3500
+            7   C8y C    20.9742  -15.7453
+            8   C8x C    25.5261  -16.4372
+            9   N5x N    25.5261  -15.0477
+            10  C8y C    19.6000  -15.7460
+            11  C8x C    18.9011  -14.5369
+            12  C8x C    17.5011  -14.5377
+            13  C8y C    16.8017  -15.7505
+            14  C8x C    17.5006  -16.9596
+            15  C8y C    18.9006  -16.9588
+            16  O2a O    19.5930  -18.1564
+            17  C1a C    18.9068  -19.3463
+            18  S4a S    15.4000  -15.7512
+            19  O3c O    14.6988  -14.5382
+            20  C1a C    14.7012  -16.9631
+            21  X   Cl   28.4200  -15.7500
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 1
+            8     6   9 1
+            9     5   7 2
+            10    8   9 2
+            11    7  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18   15  16 1
+            19   16  17 1
+            20   13  18 1
+            21   18  19 2
+            22   18  20 1
+///

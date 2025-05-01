@@ -1,0 +1,73 @@
+ENTRY       D10340                      Drug
+NAME        Avibactam sodium (JAN)
+  ABBR      AVI
+FORMULA     C7H10N3O6S. Na
+EXACT_MASS  287.0188
+MOL_WEIGHT  287.2256
+CLASS       Antibacterial
+             DG01479  beta-Lactamase inhibitor
+REMARK      Chemical structure group: DG03242
+            Product (mixture): D10779<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor, beta-Lactamase inhibitor
+TARGET      beta-lactamases
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01479  beta-Lactamase inhibitor
+               DG03242  Avibactam
+                D10340  Avibactam sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                D10340  Avibactam sodium (JAN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                D10340  Avibactam sodium (JAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01479  beta-Lactamase inhibitor
+               DG03242  Avibactam
+DBLINKS     CAS: 1192491-61-4
+            PubChem: 172232434
+            ChEBI: 85982
+ATOM        18
+            1   N1y N    17.9200  -16.4500
+            2   C1x C    19.3200  -14.9100
+            3   N1y N    18.8300  -17.4300
+            4   C1y C    19.6700  -16.2400
+            5   C5x C    17.5000  -17.7100
+            6   C1x C    20.5800  -16.5200
+            7   C1y C    19.8800  -17.4300
+            8   C1x C    21.6300  -18.5500
+            9   O5x O    16.3800  -18.5500
+            10  C5a C    19.3900  -19.0400
+            11  O5a O    18.0600  -19.3900
+            12  N1a N    20.3700  -20.0200
+            13  O2a O    17.0800  -15.3300
+            14  S4a S    17.0800  -13.9300
+            15  O1d O    15.6800  -13.9300
+            16  O1d O    18.4800  -13.9300
+            17  O1d O    17.0800  -12.5300 #-
+            18  Z   Na   18.8300  -12.3900 #+
+BOND        18
+            1     2   3 1
+            2     2   4 1
+            3     1   4 1
+            4     1   5 1
+            5     5   3 1
+            6     4   6 1
+            7     3   7 1
+            8     7   8 1
+            9     6   8 1
+            10    5   9 2
+            11    7  10 1 #Up
+            12   10  11 2
+            13   10  12 1
+            14    1  13 1
+            15   13  14 1
+            16   14  15 2
+            17   14  16 2
+            18   14  17 1
+///

@@ -1,0 +1,113 @@
+ENTRY       D03728                      Drug
+NAME        Napsagatran (USAN)
+FORMULA     C26H34N6O6S. H2O
+EXACT_MASS  576.2366
+MOL_WEIGHT  576.665
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01511  Thrombin inhibitor
+EFFICACY    Anticoagulant, Thrombin inhibitor
+TARGET      F2 [HSA:2147] [KO:K01313]
+  PATHWAY   hsa04080(2147)  Neuroactive ligand-receptor interaction
+            hsa04610(2147)  Complement and coagulation cascades
+            hsa04810(2147)  Regulation of actin cytoskeleton
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01511  Thrombin inhibitor
+                D03728  Napsagatran
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                F2
+                 D03728  Napsagatran (USAN)
+DBLINKS     CAS: 159668-20-9
+            PubChem: 17397817
+            LigandBox: D03728
+ATOM        40
+            1   C1y C    38.8917  -20.7435
+            2   C1x C    38.8917  -22.1449
+            3   C1x C    40.0829  -22.8457
+            4   C1x C    41.3442  -22.1449
+            5   N1y N    41.3442  -20.7435
+            6   C1x C    40.0829  -20.0427
+            7   C2c C    42.5355  -20.0427
+            8   N1a N    43.7267  -20.7435
+            9   N2a N    42.5355  -18.6413
+            10  C1b C    37.7004  -20.0427
+            11  N1b N    36.4391  -20.7435
+            12  C5a C    35.2479  -20.0427
+            13  C1b C    34.0566  -20.7435
+            14  C1c C    32.7953  -20.0427
+            15  O5a O    35.2479  -18.6413
+            16  N1b N    31.6041  -20.7435
+            17  S4a S    30.3428  -20.0427
+            18  C8y C    29.1515  -20.8135
+            19  C8x C    27.9603  -20.1128
+            20  C8y C    26.7690  -20.8135
+            21  C8y C    26.7690  -22.2150
+            22  C8x C    27.9603  -22.9157
+            23  C8x C    29.1515  -22.2150
+            24  C8x C    25.5077  -20.1128
+            25  C8x C    24.3165  -20.8135
+            26  C8x C    24.3165  -22.2150
+            27  C8x C    25.5077  -22.9157
+            28  C5a C    32.7953  -18.6413
+            29  O5a O    33.9866  -17.9405
+            30  N1c N    31.6041  -17.9405
+            31  C1b C    31.6041  -16.5391
+            32  C1y C    30.2026  -17.9405
+            33  C1x C    29.0114  -17.2398
+            34  C1x C    29.0114  -18.6413
+            35  C6a C    30.3904  -15.8384
+            36  O6a O    30.3904  -14.4369
+            37  O6a O    29.1937  -16.5295
+            38  O3c O    31.5564  -19.3420
+            39  O3c O    29.1291  -19.3420
+            40  O0  O    49.2100  -20.7200
+BOND        42
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 2
+            10    1  10 1 #Up
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   12  15 2
+            16   14  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   18  23 1
+            25   20  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   21  27 1
+            30   14  28 1 #Down
+            31   28  29 2
+            32   28  30 1
+            33   30  31 1
+            34   30  32 1
+            35   33  34 1
+            36   34  32 1
+            37   33  32 1
+            38   31  35 1
+            39   35  36 1
+            40   35  37 2
+            41   17  38 2
+            42   17  39 2
+///

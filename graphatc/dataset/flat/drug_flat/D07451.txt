@@ -1,0 +1,113 @@
+ENTRY       D07451                      Drug
+NAME        Amosulalol (INN)
+FORMULA     C18H24N2O5S
+EXACT_MASS  380.1406
+MOL_WEIGHT  380.4586
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+REMARK      Chemical structure group: DG01302
+            Product (DG01302): D01469<JP>
+EFFICACY    Antihypertansive, alpha1/beta-Adrenergic receptor antagonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRB1 [HSA:153] [KO:K04141]
+            ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(146+147+148+153+154)  Calcium signaling pathway
+            hsa04022(146+147+148+153+154)  cGMP-PKG signaling pathway
+            hsa04024(153+154)  cAMP signaling pathway
+            hsa04080(146+147+148+153+154)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+            map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG01302  Amosulalol
+                 D07451  Amosulalol
+              DG03231  Antihypertensive
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG01302  Amosulalol
+                 D07451  Amosulalol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D07451  Amosulalol (INN)
+                ADRB1
+                 D07451  Amosulalol (INN)
+                ADRB2
+                 D07451  Amosulalol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG01302  Amosulalol
+              DG03231  Antihypertensive
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG01302  Amosulalol
+DBLINKS     CAS: 85320-68-9
+            PubChem: 51091782
+            LigandBox: D07451
+            NIKKAJI: J369.630H
+ATOM        26
+            1   C8y C    18.1300  -17.5700
+            2   C8x C    18.1300  -18.9700
+            3   C8x C    19.3900  -19.6700
+            4   C8y C    20.5800  -18.9700
+            5   C8x C    20.5800  -17.5700
+            6   C8y C    19.3900  -16.8700
+            7   C1a C    16.9400  -16.8700
+            8   S4a S    19.3900  -15.4700
+            9   N1a N    19.3900  -14.0700
+            10  O3c O    17.9200  -15.4700
+            11  O3c O    20.7200  -15.4700
+            12  C1c C    21.8400  -19.6700
+            13  C1b C    23.0300  -18.9700
+            14  O1a O    21.8400  -21.0700
+            15  N1b N    24.2200  -19.6700
+            16  C1b C    25.4100  -18.9700
+            17  C1b C    26.6000  -19.6700
+            18  O2a O    27.7900  -18.9700
+            19  C8y C    28.9800  -19.6700
+            20  C8y C    28.9800  -21.0700
+            21  C8x C    30.2400  -21.7700
+            22  C8x C    31.4300  -21.0700
+            23  C8x C    31.4300  -19.6700
+            24  C8x C    30.2400  -18.9700
+            25  O2a O    27.7900  -21.8400
+            26  C1a C    26.5300  -21.1400
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     6   8 1
+            9     8   9 1
+            10    8  10 2
+            11    8  11 2
+            12    4  12 1
+            13   12  13 1
+            14   12  14 1
+            15   13  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   19  24 1
+            26   20  25 1
+            27   25  26 1
+///

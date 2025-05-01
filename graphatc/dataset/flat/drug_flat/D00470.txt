@@ -1,0 +1,101 @@
+ENTRY       D00470                      Drug
+NAME        Prazepam (JP18/USAN/INN);
+            Centrax (TN)
+FORMULA     C19H17ClN2O
+EXACT_MASS  324.1029
+MOL_WEIGHT  324.8041
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+REMARK      Same as: C07366
+            ATC code: N05BA11
+EFFICACY    Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA11 Prazepam
+                  D00470  Prazepam (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D00470  Prazepam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D00470  Prazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00470  Prazepam (JP18/USAN/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00470  Prazepam
+              D00470  Prazepam tablets
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00470
+DBLINKS     CAS: 2955-38-6
+            PubChem: 7847536
+            ChEBI: 8362
+            LigandBox: D00470
+            NIKKAJI: J3.397I
+ATOM        23
+            1   C2y C    18.4100  -14.9800
+            2   C8y C    17.5700  -13.8600
+            3   C8y C    17.9200  -12.5300
+            4   N1y N    19.1800  -11.9700
+            5   N2x N    19.8100  -14.9800
+            6   C5x C    20.4400  -12.6000
+            7   C1x C    20.7200  -13.9300
+            8   C8x C    16.8700  -11.5500
+            9   C8x C    15.5400  -11.9700
+            10  C8y C    15.1900  -13.3000
+            11  C8x C    16.2400  -14.2800
+            12  O5x O    21.4900  -11.6200
+            13  X   Cl   13.8600  -13.7200
+            14  C8y C    17.7800  -16.2400
+            15  C8x C    16.3800  -16.2400
+            16  C1b C    19.1800  -10.5700
+            17  C1y C    20.3700   -9.8700
+            18  C8x C    15.6800  -17.4300
+            19  C8x C    16.3800  -18.6900
+            20  C8x C    17.7800  -18.6900
+            21  C8x C    18.4800  -17.4300
+            22  C1x C    22.0500   -9.8700
+            23  C1x C    21.2100   -8.4000
+BOND        26
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17    4  16 1
+            18   16  17 1
+            19   15  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   14  21 2
+            24   17  22 1
+            25   17  23 1
+            26   22  23 1
+///

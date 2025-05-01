@@ -1,0 +1,24 @@
+ENTRY       G04981                      Glycan
+NAME        Inulin
+COMPOSITION (Fruf)3 (Glc)1
+MASS        666.6
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Homopolysaccharides
+                G04981  Inulin
+DBLINKS     CCSD: 23336
+            GlyTouCan: G22876US
+NODE        4
+            1   Fruf      9.7   3.4
+            2   Glc       9.7  -2.6
+            3   Fruf     -0.3   3.4
+            4   Fruf    -10.3   3.4
+EDGE        3
+            1     2:a1    1:b2 
+            2     3:b2    1:1  
+            3     4:b2    3:1  
+BRACKET     1  -4.3   5.4  -4.3   1.4
+            1   4.7   1.4   4.7   5.4
+            1 n
+///

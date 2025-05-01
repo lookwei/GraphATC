@@ -1,0 +1,146 @@
+ENTRY       D01007                      Drug
+NAME        Propiverine hydrochloride (JP18);
+            Bup-4 (TN);
+            Mictonorm (TN)
+FORMULA     C23H29NO3. HCl
+EXACT_MASS  403.1914
+MOL_WEIGHT  403.9422
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2590
+            ATC code: G04BD06
+            Chemical structure group: DG00479
+            Product (DG00479): D01007<JP>
+EFFICACY    Antipollakisuria, Overactive bladder agent, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+            CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(1128+1129+1131+1133+775+776+778+779)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133+775+776+778+779)  Cholinergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BD Drugs for urinary frequency and incontinence
+                 G04BD06 Propiverine
+                  D01007  Propiverine hydrochloride (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              25  Urogenital and anal organ agents
+               259  Miscellaneous
+                2590  Miscellaneous
+                 D01007  Propiverine hydrochloride (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Drugs requiring guidance
+              New approved switch OTC drugs
+               Propiverine hydrochloride
+                D01007  Propiverine hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00479  Propiverine
+                D01007  Propiverine hydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00479  Propiverine
+                 D01007  Propiverine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01007  Propiverine hydrochloride (JP18) &lt;JP&gt;
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D01007  Propiverine hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01007  Propiverine hydrochloride
+              D01007  Propiverine hydrochloride tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01007
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D01007
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00479  Propiverine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00479  Propiverine
+DBLINKS     CAS: 54556-98-8
+            PubChem: 7848070
+            ChEBI: 8494
+            LigandBox: D01007
+            NIKKAJI: J282.959B
+ATOM        28
+            1   X   Cl   31.6971  -21.2255
+            2   C1x C    19.9430  -20.7678
+            3   N1y N    19.9430  -22.1663
+            4   C1x C    21.1541  -22.8656
+            5   C1x C    22.3654  -22.1663
+            6   C1y C    22.3654  -20.7678
+            7   C1x C    21.1541  -20.0686
+            8   O7a O    23.6015  -20.0686
+            9   C7a C    24.8128  -20.7678
+            10  C1d C    26.0239  -20.0686
+            11  C8y C    27.2350  -20.7678
+            12  C8x C    28.4462  -20.0686
+            13  C8x C    29.6573  -20.7678
+            14  C8y C    26.0239  -18.6701
+            15  C8x C    27.2371  -17.9696
+            16  C8x C    27.2371  -16.5711
+            17  C8x C    26.0259  -15.8718
+            18  C8x C    24.8128  -16.5723
+            19  C8x C    24.8128  -17.9708
+            20  C8x C    27.2350  -22.1663
+            21  C8x C    28.4462  -22.8656
+            22  C8x C    29.6573  -22.1663
+            23  O2a O    27.2350  -19.3693
+            24  C1b C    28.4462  -18.6701
+            25  C1b C    29.6780  -19.3815
+            26  C1a C    30.8829  -18.6860
+            27  O6a O    24.8128  -22.1661
+            28  C1a C    18.7319  -22.8656
+BOND        29
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 2
+            13   10  14 1
+            14   14  15 1
+            15   15  16 2
+            16   16  17 1
+            17   17  18 2
+            18   18  19 1
+            19   14  19 2
+            20   11  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  13 1
+            24   10  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28    9  27 2
+            29    3  28 1
+///

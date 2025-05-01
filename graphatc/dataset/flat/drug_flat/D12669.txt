@@ -1,0 +1,97 @@
+ENTRY       D12669                      Drug
+NAME        Etonitazene (INN)
+FORMULA     C22H28N4O3
+EXACT_MASS  396.2161
+MOL_WEIGHT  396.4827
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Benzimidazole derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+            hsa05032(4988)  Morphine addiction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12669  Etonitazene
+             Analgesic
+              DG01984  Opioid analgesics
+               D12669  Etonitazene
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12669  Etonitazene (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12669
+DBLINKS     CAS: 911-65-9
+ATOM        29
+            1   C8x C    14.4383  -15.4900
+            2   C8y C    14.4383  -16.8918
+            3   C8x C    15.6299  -17.5927
+            4   C8y C    16.8916  -16.8918
+            5   C8y C    16.8916  -15.4900
+            6   C8x C    15.6299  -14.7891
+            7   N5x N    18.2233  -17.3123
+            8   C8y C    18.9944  -16.1909
+            9   N4y N    18.2233  -15.0694
+            10  C1b C    20.3962  -16.1909
+            11  C8y C    21.0970  -17.3825
+            12  C8x C    20.3962  -18.6441
+            13  C8x C    21.0970  -19.8356
+            14  C8y C    22.4989  -19.8356
+            15  C8x C    23.1998  -18.6441
+            16  C8x C    22.4989  -17.3825
+            17  N2b N    13.2468  -17.5927 #+
+            18  O3a O    11.9851  -16.8918 #-
+            19  O3a O    13.2468  -18.9946
+            20  O2a O    23.1998  -21.0272
+            21  C1b C    18.5738  -13.6676
+            22  C1b C    19.9055  -13.3171
+            23  N1c N    20.2560  -11.9854
+            24  C1b C    24.6024  -21.0272
+            25  C1a C    25.3037  -22.2419
+            26  C1b C    21.6181  -11.6138
+            27  C1b C    19.2690  -11.0072
+            28  C1a C    21.9667  -10.2877
+            29  C1a C    19.6261   -9.6498
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19    2  17 1
+            20   17  18 1
+            21   17  19 2
+            22   14  20 1
+            23    9  21 1
+            24   21  22 1
+            25   22  23 1
+            26   20  24 1
+            27   24  25 1
+            28   23  26 1
+            29   23  27 1
+            30   26  28 1
+            31   27  29 1
+///

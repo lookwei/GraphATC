@@ -1,0 +1,87 @@
+ENTRY       D10946                      Drug
+NAME        Lanabecestat (USAN/INN)
+FORMULA     C26H28N4O
+EXACT_MASS  412.2263
+MOL_WEIGHT  412.5267
+REMARK      Chemical structure group: DG02834
+EFFICACY    Dementia therapeutic agent, beta-Secretase inhibitor
+COMMENT     Treatment of Alzheimer's disease
+TARGET      BACE1 [HSA:23621] [KO:K04521]
+  PATHWAY   hsa05010(23621)  Alzheimer disease
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Aspartic peptidases
+                BACE1
+                 D10946  Lanabecestat (USAN/INN)
+DBLINKS     CAS: 1383982-64-6
+            PubChem: 342581799
+ATOM        31
+            1   C8y C    18.0600  -16.0300
+            2   C8y C    18.0600  -17.4300
+            3   C1x C    19.3915  -17.8626
+            4   C1z C    20.2144  -16.7300
+            5   C1z C    19.3915  -15.5974
+            6   C8x C    16.8476  -15.3300
+            7   C8y C    15.6351  -16.0300
+            8   C8x C    15.6351  -17.4300
+            9   C8x C    16.8476  -18.1300
+            10  C8y C    14.4040  -15.3190
+            11  C8x C    14.4043  -13.9301
+            12  N5x N    13.1920  -13.2298
+            13  C8x C    11.9794  -13.9295
+            14  C8y C    11.9791  -15.3184
+            15  C8x C    13.1914  -16.0187
+            16  C1x C    20.9144  -17.9424
+            17  C1x C    22.3144  -17.9424
+            18  C1y C    23.0144  -16.7300
+            19  C1x C    22.3144  -15.5176
+            20  C1x C    20.9144  -15.5176
+            21  O2a O    24.4300  -16.7300
+            22  C1a C    25.1300  -17.9424
+            23  N2x N    20.6039  -14.8974
+            24  C2y C    20.3128  -13.5280
+            25  C2y C    18.9205  -13.3816
+            26  N2x N    18.3511  -14.6606
+            27  N1a N    18.2105  -12.1515
+            28  C1a C    21.2527  -12.4842
+            29  C3b C    10.7547  -16.0249
+            30  C3b C     9.5422  -16.7249
+            31  C1a C     8.3298  -17.4249
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     4   3 1 #Down
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 2
+            10    2   9 1
+            11    7  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18    4  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23    4  20 1
+            24   18  21 1 #Down
+            25   21  22 1
+            26    5  23 1 #Up
+            27   23  24 2
+            28   24  25 1
+            29   25  26 2
+            30    5  26 1 #Down
+            31   25  27 1
+            32   24  28 1
+            33   14  29 1
+            34   29  30 3
+            35   30  31 1
+///

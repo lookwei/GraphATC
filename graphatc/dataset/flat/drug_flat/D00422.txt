@@ -1,0 +1,142 @@
+ENTRY       D00422                      Drug
+NAME        Ranitidine (USAN/INN);
+            Ranitidine (TN)
+FORMULA     C13H22N4O3S
+EXACT_MASS  314.1413
+MOL_WEIGHT  314.4038
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter substrate
+             DG02854  SLC22A2 substrate
+            Transporter inhibitor
+             DG02863  SLC22A2 inhibitor
+REMARK      ATC code: A02BA02
+            Chemical structure group: DG00018
+            Product (DG00018): D00673<US>
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04020(3274)  Calcium signaling pathway
+            hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+METABOLISM  Transporter: SLC22A2 [HSA:6582]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565], CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: SLC22A2 [HSA:6582]
+STR_MAP     map07038  Antiulcer drugs
+            map07227  Histamine H2/H3 receptor agonists/antagonists
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BA H2-receptor antagonists
+                 A02BA02 Ranitidine
+                  D00422  Ranitidine (USAN/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Ranitidine
+                D00422  Ranitidine (USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                DG00018  Ranitidine
+                 D00422  Ranitidine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00018  Ranitidine
+                D00422  Ranitidine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00018  Ranitidine
+                D00422  Ranitidine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00018  Ranitidine
+                D00422  Ranitidine
+             Transporter inhibitor
+              DG02863  SLC22A2 inhibitor
+               DG00018  Ranitidine
+                D00422  Ranitidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D00422  Ranitidine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00422
+             Drug transporters
+              D00422
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00422
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                DG00018  Ranitidine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00018  Ranitidine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00018  Ranitidine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00018  Ranitidine
+             Transporter inhibitor
+              DG02863  SLC22A2 inhibitor
+               DG00018  Ranitidine
+DBLINKS     CAS: 66357-35-5
+            PubChem: 7847488
+            ChEBI: 8776
+            LigandBox: D00422
+            NIKKAJI: J19.096I
+ATOM        21
+            1   C8y C    19.0765  -23.1392
+            2   O2x O    20.1949  -23.9781
+            3   C8x C    19.4959  -21.8111
+            4   C1b C    17.8182  -23.8382
+            5   C8y C    21.3133  -23.1392
+            6   C8x C    20.8939  -21.8111
+            7   N1c N    16.6298  -23.1392
+            8   C1b C    22.5017  -23.8382
+            9   C1a C    15.4415  -23.8382
+            10  C1a C    16.6298  -21.7412
+            11  S2a S    23.6900  -23.1392
+            12  C1b C    24.9482  -23.8382
+            13  C1b C    26.1366  -23.1392
+            14  N1b N    27.3249  -23.8382
+            15  C2c C    28.5831  -23.1392
+            16  C2b C    29.7715  -23.8382
+            17  N1b N    28.5831  -21.7412
+            18  N2b N    30.9599  -23.1392 #+
+            19  C1a C    27.3249  -21.0422
+            20  O3a O    30.9599  -21.7412 #-
+            21  O3a O    32.2181  -23.8382
+BOND        21
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     7   9 1
+            9     7  10 1
+            10    8  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 2
+            16   15  17 1
+            17   16  18 1
+            18   17  19 1
+            19   18  20 1
+            20   18  21 2
+            21    5   6 2
+///

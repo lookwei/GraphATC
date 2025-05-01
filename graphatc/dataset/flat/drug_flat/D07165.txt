@@ -1,0 +1,125 @@
+ENTRY       D07165                      Drug
+NAME        Ivabradine (USAN/INN)
+FORMULA     C27H36N2O5
+EXACT_MASS  468.2624
+MOL_WEIGHT  468.5851
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: C01EB17
+            Chemical structure group: DG00246
+            Product (DG00246): D08095<JP/US>
+EFFICACY    Cardiotonic
+TARGET      HCN [HSA:348980 610 57657 10021] [KO:K04954 K04955 K04956 K04957]
+  PATHWAY   hsa04024(10021+610)  cAMP signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01E OTHER CARDIAC PREPARATIONS
+                C01EB Other cardiac preparations
+                 C01EB17 Ivabradine
+                  D07165  Ivabradine (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00246  Ivabradine
+                 D07165  Ivabradine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Other ion channels
+               Hyperpolarization-activated ion channel
+                HCN
+                 D07165  Ivabradine (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D07165
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07165
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00246  Ivabradine
+DBLINKS     CAS: 155974-00-8
+            PubChem: 51091504
+            ChEBI: 85966
+            LigandBox: D07165
+            NIKKAJI: J582.018I
+ATOM        34
+            1   C8y C    35.1428  -20.0452
+            2   C8y C    35.1428  -18.6423
+            3   C8x C    33.9503  -17.9408
+            4   C8y C    32.6876  -18.6423
+            5   C8y C    32.6876  -20.0452
+            6   C8x C    33.9503  -20.7467
+            7   C1y C    31.2846  -18.6423
+            8   C1x C    31.2846  -20.0452
+            9   O2a O    36.3353  -20.7467
+            10  O2a O    36.3353  -17.9408
+            11  C1b C    30.1623  -17.8005
+            12  N1c N    28.9698  -18.5020
+            13  C1b C    27.7773  -17.8005
+            14  C1a C    28.9698  -19.9049
+            15  C1a C    37.5278  -18.6423
+            16  C1a C    37.5278  -20.0452
+            17  C1b C    26.5848  -18.5020
+            18  C1b C    25.3922  -17.8005
+            19  N1y N    24.1997  -18.5020
+            20  C8y C    21.1132  -17.8005
+            21  C1x C    22.2356  -16.8886
+            22  C5x C    23.5684  -17.2393
+            23  C8y C    21.1132  -19.2035
+            24  C1x C    23.5684  -19.7646
+            25  C1x C    22.2356  -20.0452
+            26  O5x O    24.4530  -16.1504
+            27  C8x C    19.8983  -17.0990
+            28  C8y C    18.6832  -17.8005
+            29  C8y C    18.6832  -19.2035
+            30  C8x C    19.8983  -19.9049
+            31  O2a O    17.4495  -17.0880
+            32  C1a C    16.2418  -17.7852
+            33  O2a O    17.4495  -19.9160
+            34  C1a C    16.2418  -19.2188
+BOND        37
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     5   8 1
+            10    1   9 1
+            11    2  10 1
+            12    7  11 1 #Down
+            13   11  12 1
+            14   12  13 1
+            15   12  14 1
+            16   10  15 1
+            17    9  16 1
+            18   13  17 1
+            19   17  18 1
+            20   18  19 1
+            21   22  19 1
+            22   20  23 1
+            23   19  24 1
+            24   21  22 1
+            25   23  25 1
+            26   20  21 1
+            27   24  25 1
+            28   22  26 2
+            29   20  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   23  30 2
+            34   28  31 1
+            35   31  32 1
+            36   29  33 1
+            37   33  34 1
+///

@@ -1,0 +1,139 @@
+ENTRY       D11062                      Drug
+NAME        Osilodrostat phosphate (JAN/USAN);
+            Isturisa (TN)
+PRODUCT     ISTURISA (Recordati Rare Diseases)
+FORMULA     C13H10FN3. H3PO4
+EXACT_MASS  325.0628
+MOL_WEIGHT  325.2322
+CLASS       Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+REMARK      Therapeutic category: 2499
+            ATC code: H02CA02
+            Chemical structure group: DG02839
+            Product (DG02839): D11062<JP/US>
+EFFICACY    Antihypertensive, Steroid 11-beta-hydroxylase inhibitor
+  DISEASE   Cushing's disease [DS:H01431]
+COMMENT     Treatment of Cushing's syndrome
+TARGET      CYP11B2 [HSA:1585] [KO:K07433]
+  PATHWAY   hsa00140(1585)  Steroid hormone biosynthesis
+            hsa04925(1585)  Aldosterone synthesis and secretion
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2B6 [HSA:1555], CYP2D6 [HSA:1565], UGT [KO:K00699]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02C ANTIADRENAL PREPARATIONS
+                H02CA Anticorticosteroids
+                 H02CA02 Osilodrostat
+                  D11062  Osilodrostat phosphate (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Suppressant (Pituitary)
+              Osilodrostat
+               D11062  Osilodrostat phosphate (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               249  Miscellaneous
+                2499  Others
+                 D11062  Osilodrostat phosphate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG02839  Osilodrostat
+                D11062  Osilodrostat phosphate
+              DG01644  CYP2D6 substrate
+               DG02839  Osilodrostat
+                D11062  Osilodrostat phosphate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02839  Osilodrostat
+                 D11062  Osilodrostat phosphate
+              DG02924  UGT substrate
+               DG02839  Osilodrostat
+                D11062  Osilodrostat phosphate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Cytochrome P450
+                CYP11B2
+                 D11062  Osilodrostat phosphate (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11062
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D11062
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11062
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11062
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11062
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG02839  Osilodrostat
+              DG01644  CYP2D6 substrate
+               DG02839  Osilodrostat
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02839  Osilodrostat
+              DG02924  UGT substrate
+               DG02839  Osilodrostat
+DBLINKS     CAS: 1315449-72-9
+            PubChem: 405226449
+ATOM        22
+            1   C8x C    17.1471  -14.6975
+            2   C8y C    17.1471  -16.0973
+            3   C8y C    18.3369  -16.7972
+            4   C8x C    19.5267  -16.0973
+            5   C8x C    19.5267  -14.6975
+            6   C8y C    18.3369  -13.9976
+            7   C3b C    18.3369  -12.5979
+            8   N3a N    18.3369  -11.1981
+            9   X   F    15.9573  -16.7972
+            10  C1y C    18.3369  -18.1969
+            11  C1x C    17.2171  -18.9668
+            12  C1x C    17.6370  -20.3666
+            13  C8y C    19.0368  -20.3666
+            14  N4y N    19.4567  -18.9668
+            15  C8x C    20.1566  -21.1364
+            16  N5x N    21.3464  -20.3666
+            17  C8x C    20.8565  -18.9668
+            18  P1b P    24.0800  -16.8000
+            19  O1c O    22.6800  -16.8000
+            20  O1c O    25.4800  -16.8000
+            21  O1c O    24.0800  -18.2000
+            22  O1c O    24.0800  -15.4000
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 3
+            9     2   9 1
+            10   10   3 1 #Down
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   10  14 1
+            16   13  15 2
+            17   15  16 1
+            18   16  17 2
+            19   14  17 1
+            20   18  19 1
+            21   18  20 1
+            22   18  21 1
+            23   18  22 2
+///

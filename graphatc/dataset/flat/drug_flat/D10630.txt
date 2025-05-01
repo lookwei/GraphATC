@@ -1,0 +1,150 @@
+ENTRY       D10630                      Drug
+NAME        Fedratinib (USAN/INN)
+FORMULA     C27H36N6O3S
+EXACT_MASS  524.257
+MOL_WEIGHT  524.6781
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02950  FMO3 substrate
+REMARK      ATC code: L01EJ02
+            Chemical structure group: DG02968
+            Product (DG02968): D11296<US>
+EFFICACY    Antineoplastic, Janus kinase (JAK) inhibitor
+TARGET      JAK2 [HSA:3717] [KO:K04447]
+  PATHWAY   hsa04630(3717)  JAK-STAT signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2C19 [HSA:1557], FMO3 [HSA:2328]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EJ Janus-associated kinase (JAK) inhibitors
+                 L01EJ02 Fedratinib
+                  D10630  Fedratinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG02968  Fedratinib
+                 D10630  Fedratinib
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG02968  Fedratinib
+                D10630  Fedratinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02968  Fedratinib
+                 D10630  Fedratinib
+              DG02950  FMO3 substrate
+               DG02968  Fedratinib
+                D10630  Fedratinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK2
+                 D10630  Fedratinib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10630
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG02968  Fedratinib
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG02968  Fedratinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02968  Fedratinib
+              DG02950  FMO3 substrate
+               DG02968  Fedratinib
+DBLINKS     CAS: 936091-26-8
+            PubChem: 254741591
+            PDB-CCD: 2TA
+ATOM        37
+            1   C8y C    13.1882  -18.5864
+            2   C8x C    13.1882  -19.9592
+            3   C8x C    14.3769  -20.6455
+            4   C8x C    15.5659  -19.9592
+            5   C8y C    15.5659  -18.5864
+            6   C8x C    14.3769  -17.9000
+            7   N1b N    16.7547  -17.9000
+            8   S4a S    11.9993  -17.9000
+            9   N1b N    10.8105  -17.2136
+            10  O3c O    11.3130  -19.0888
+            11  O3c O    12.6857  -16.7111
+            12  C8y C    16.7547  -16.5273
+            13  N5x N    17.9455  -15.8397
+            14  C8y C    17.9455  -14.4669
+            15  N5x N    16.7566  -13.7806
+            16  C8x C    15.5659  -14.4681
+            17  C8y C    15.5659  -15.8408
+            18  C1a C    14.3769  -16.5273
+            19  N1b N    19.1344  -13.7806
+            20  C8y C    20.3232  -14.4669
+            21  C8x C    20.3232  -15.8408
+            22  C8x C    21.5121  -16.5273
+            23  C8y C    22.7010  -15.8408
+            24  C8x C    22.7010  -14.4669
+            25  C8x C    21.5121  -13.7806
+            26  O2a O    23.8897  -16.5273
+            27  C1b C    25.0786  -15.8408
+            28  C1b C    25.0786  -14.4681
+            29  C1d C     9.6217  -16.4573
+            30  C1a C    10.2375  -15.4084
+            31  C1a C     8.5027  -15.7708
+            32  C1a C     8.9217  -17.6697
+            33  N1y N    26.2911  -13.7681
+            34  C1x C    27.6024  -14.3517
+            35  C1x C    28.5627  -13.2849
+            36  C1x C    27.8448  -12.0419
+            37  C1x C    26.4409  -12.3406
+BOND        40
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     5   7 1
+            8     1   8 1
+            9     8   9 1
+            10    8  10 2
+            11    8  11 2
+            12    7  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19   17  18 1
+            20   14  19 1
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   23  24 1
+            26   24  25 2
+            27   20  25 1
+            28   23  26 1
+            29   26  27 1
+            30   27  28 1
+            31    9  29 1
+            32   29  30 1
+            33   29  31 1
+            34   29  32 1
+            35   28  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 1
+            39   36  37 1
+            40   33  37 1
+///

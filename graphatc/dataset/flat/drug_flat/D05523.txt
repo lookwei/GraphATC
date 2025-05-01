@@ -1,0 +1,82 @@
+ENTRY       D05523                      Drug
+NAME        Pizotyline (USAN);
+            Pizotifen (INN);
+            Sandomigran (TN)
+FORMULA     C19H21NS
+EXACT_MASS  295.1395
+MOL_WEIGHT  295.4417
+REMARK      ATC code: N02CX01
+            Chemical structure group: DG00842
+EFFICACY    Anabolic, Antidepressant, Antimigraine, Serotonin receptor antagonist
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HTR1 [HSA:3350 3351 3352 3354 3355] [KO:K04153]
+  PATHWAY   hsa04080(3350+3351+3352+3354+3355+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3351+3352+3354+3355+3356+3357+3358)  Serotonergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CX Other antimigraine preparations
+                 N02CX01 Pizotifen
+                  D05523  Pizotyline (USAN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1
+                 D05523  Pizotyline (USAN)
+                HTR2
+                 D05523  Pizotyline (USAN)
+DBLINKS     CAS: 15574-96-6
+            PubChem: 47207192
+            ChEBI: 50212
+            LigandBox: D05523
+            NIKKAJI: J9.608C
+ATOM        21
+            1   C1x C    43.7952  -19.7173
+            2   C8y C    42.9508  -18.6047
+            3   C8y C    43.2869  -17.2442
+            4   C2y C    44.5514  -16.6645
+            5   C1x C    45.2048  -19.7426
+            6   C8y C    45.8083  -17.2885
+            7   C8y C    46.0956  -18.6610
+            8   C8x C    42.2770  -16.2731
+            9   C8x C    40.9314  -16.6623
+            10  C8x C    40.5953  -18.0228
+            11  C8x C    41.6051  -18.9936
+            12  S2x S    47.4898  -18.6718
+            13  C8x C    48.0641  -17.5326
+            14  C8x C    47.0249  -16.5911
+            15  C2y C    44.5514  -15.2645
+            16  C1x C    45.7419  -14.5767
+            17  C1x C    45.7416  -13.1767
+            18  N1y N    44.5290  -12.4770
+            19  C1x C    43.3385  -13.1648
+            20  C1x C    43.3388  -14.5648
+            21  C1a C    44.5287  -11.0600
+BOND        24
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 2
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 1
+            14   12  13 1
+            15   13  14 2
+            16    6  14 1
+            17    4  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   15  20 1
+            24   18  21 1
+///

@@ -1,0 +1,168 @@
+ENTRY       D10979                      Drug
+NAME        Ribociclib succinate (USAN);
+            Kisqali (TN)
+PRODUCT     KISQALI (Novartis Pharmaceuticals Corporation)
+FORMULA     C23H30N8O. C4H6O4
+EXACT_MASS  552.2809
+MOL_WEIGHT  552.6253
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01EF02
+            Chemical structure group: DG02084
+            Product (DG02084): D10979<US>
+            Product (mixture): D11068<US>
+EFFICACY    Antineoplastic, Cyclin-dependent kinase (CDK) inhibitor
+  DISEASE   Breast cancer (HR-positive, HER2-negative) [DS:H00031]
+TARGET      CDK4/6 [HSA:1019 1021] [KO:K02089 K02091]
+  PATHWAY   hsa04110(1019+1021)  Cell cycle
+            hsa04151(1019+1021)  PI3K-Akt signaling pathway
+            hsa05200(1019+1021)  Pathways in cancer
+            hsa05224(1019+1021)  Breast cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EF Cyclin-dependent kinase (CDK) inhibitors
+                 L01EF02 Ribociclib
+                  D10979  Ribociclib succinate (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Ribociclib
+                D10979  Ribociclib succinate (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG02084  Ribociclib
+                D10979  Ribociclib succinate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02084  Ribociclib
+                 D10979  Ribociclib succinate
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               D10979  Ribociclib succinate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK4/6
+                 D10979  Ribociclib succinate (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10979
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10979
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10979
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10979
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D10979
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG02084  Ribociclib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02084  Ribociclib
+DBLINKS     CAS: 1374639-75-4
+            PubChem: 342581823
+ATOM        40
+            1   N5x N    18.4296  -14.9311
+            2   C8y C    18.4296  -16.3336
+            3   N5x N    17.2375  -17.0349
+            4   C8y C    15.9752  -16.3336
+            5   C8y C    15.9752  -14.9311
+            6   C8x C    17.2375  -14.2298
+            7   N4y N    14.6427  -16.7544
+            8   C8y C    13.8713  -15.6323
+            9   C8x C    14.6427  -14.5103
+            10  N1b N    19.6218  -17.0349
+            11  C8y C    20.8140  -16.3336
+            12  C8x C    20.8140  -14.9311
+            13  C8x C    22.0763  -14.2298
+            14  C8y C    23.2685  -14.9311
+            15  C8x C    23.2685  -16.3336
+            16  N5x N    22.0763  -17.0349
+            17  N1y N    24.4607  -14.2298
+            18  C1x C    24.4607  -12.8272
+            19  C1x C    25.7230  -12.1259
+            20  N1x N    26.9152  -12.8272
+            21  C1x C    26.9152  -14.2298
+            22  C1x C    25.7230  -14.9311
+            23  C5a C    12.4687  -15.6323
+            24  C1y C    14.2219  -18.0868
+            25  C1x C    15.0635  -19.2089
+            26  C1x C    14.2219  -20.3309
+            27  C1x C    12.8895  -19.9102
+            28  C1x C    12.8895  -18.5076
+            29  O5a O    11.7674  -16.8245
+            30  N1c N    11.7674  -14.4402
+            31  C1a C    10.3649  -14.4402
+            32  C1a C    12.4687  -13.2480
+            33  O6a O    27.5100  -18.8300
+            34  C6a C    28.7224  -18.1300
+            35  C1b C    29.9349  -18.8300
+            36  C1b C    31.1473  -18.1300
+            37  C6a C    32.3597  -18.8300
+            38  O6a O    33.5722  -18.1300
+            39  O6a O    28.7224  -16.7302
+            40  O6a O    32.3597  -20.2299
+BOND        43
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    2  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   14  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   17  22 1
+            26    8  23 1
+            27    7  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   24  28 1
+            33   23  29 2
+            34   23  30 1
+            35   30  31 1
+            36   30  32 1
+            37   33  34 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   37  38 1
+            42   34  39 2
+            43   37  40 2
+///

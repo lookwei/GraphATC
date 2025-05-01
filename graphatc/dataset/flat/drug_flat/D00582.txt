@@ -1,0 +1,111 @@
+ENTRY       D00582                      Drug
+NAME        Sodium stibogluconate (INN);
+            Pentostam (TN)
+FORMULA     C12H20O17Sb2. 9H2O. 3Na
+EXACT_MASS  908.9421
+MOL_WEIGHT  910.9038
+REMARK      Same as: C07638
+            ATC code: P01CB02
+EFFICACY    Antiprotozoal
+COMMENT     Antimony compound
+            Treatment of leishmaniasis
+TARGET      protein tyrosine phosphatase [KO:K05697]
+  PATHWAY   ko05140(K05697)  Leishmaniasis
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             P ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS
+              P01 ANTIPROTOZOALS
+               P01C AGENTS AGAINST LEISHMANIASIS AND TRYPANOSOMIASIS
+                P01CB Antimony compounds
+                 P01CB02 Sodium stibogluconate
+                  D00582  Sodium stibogluconate (INN)
+            Antimicrobials [BR:br08307]
+             Antiparasitics
+              Agents against Leishmaniasis and Trypanosomiasis
+               Antimony compounds
+                D00582  Sodium stibogluconate (INN)
+DBLINKS     CAS: 16037-91-5
+            PubChem: 7847648
+            ChEBI: 28148
+ATOM        43
+            1   C1y C    17.7800  -19.8100
+            2   C1y C    17.7800  -21.2100
+            3   O2x O    18.9700  -21.9100
+            4   Z   Sb   20.2300  -21.2100
+            5   O2x O    20.2300  -19.8100
+            6   C1y C    18.9700  -19.1100
+            7   C6a C    18.9700  -17.7100
+            8   O1a O    16.5900  -19.1100
+            9   C1c C    16.5900  -21.9100
+            10  C1b C    15.4000  -21.2100
+            11  O1a O    14.2100  -21.9100
+            12  O1a O    16.5900  -23.3100
+            13  O2a O    21.8400  -21.9100
+            14  Z   Sb   23.1700  -21.2100
+            15  O2x O    24.3600  -21.9100
+            16  C1y C    25.6200  -21.2100
+            17  C1y C    25.6200  -19.8100
+            18  C1y C    24.4300  -19.1100
+            19  O2x O    23.1700  -19.8100
+            20  C1c C    26.8100  -21.9100
+            21  C1b C    28.0000  -21.2100
+            22  O1a O    29.1900  -21.9100
+            23  O1a O    26.8100  -23.3100
+            24  O1a O    26.8100  -19.1100
+            25  C6a C    24.4300  -17.7100
+            26  O6a O    23.2400  -17.0100
+            27  O6a O    25.6200  -17.0100
+            28  O6a O    17.7800  -17.0100
+            29  O6a O    20.1600  -17.0100
+            30  O0  O    20.2300  -22.6100
+            31  O0  O    23.1700  -22.6100
+            32  Z   Na   32.7600  -16.9400
+            33  Z   Na   32.7600  -18.2700
+            34  Z   Na   32.7600  -19.6700
+            35  O0  O    34.3000  -22.4000
+            36  O0  O    34.3000  -22.4000
+            37  O0  O    34.3000  -22.4000
+            38  O0  O    34.3000  -22.4000
+            39  O0  O    34.3000  -22.4000
+            40  O0  O    34.3000  -22.4000
+            41  O0  O    34.3000  -22.4000
+            42  O0  O    34.3000  -22.4000
+            43  O0  O    34.3000  -22.4000
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     6   7 1 #Down
+            8     1   8 1 #Down
+            9     2   9 1
+            10    9  10 1
+            11   10  11 1
+            12    9  12 1 #Down
+            13    4  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   14  19 1
+            21   16  20 1
+            22   20  21 1
+            23   21  22 1
+            24   20  23 1 #Up
+            25   17  24 1 #Up
+            26   18  25 1 #Up
+            27   25  26 2
+            28   25  27 1
+            29    7  28 1
+            30    7  29 2
+            31    4  30 2
+            32   14  31 2
+BRACKET     1    32.2000  -23.3100   32.2000  -21.5600
+            1    35.2800  -21.5600   35.2800  -23.3100
+            1  9
+  ORIGINAL  1   37
+  REPEAT    1   38  39  40  41  42  43  44  45
+///

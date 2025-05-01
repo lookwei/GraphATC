@@ -1,0 +1,101 @@
+ENTRY       D01767                      Drug
+NAME        Tenoxicam (JAN/USAN/INN);
+            Tilcotil (TN)
+FORMULA     C13H11N3O4S2
+EXACT_MASS  337.0191
+MOL_WEIGHT  337.3741
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01910  Anti-inflammatory drug, oxicams
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      ATC code: M01AC02
+EFFICACY    Anti-inflammatory, COX inhibitor
+COMMENT     Oxicams
+            Nonsteroidal anti-inflammatory drug (NSAID)
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+            PTGS1 (COX1) [HSA:5742] [KO:K00509]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+STR_MAP     map07219  Cyclooxygenase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AC Oxicams
+                 M01AC02 Tenoxicam
+                  D01767  Tenoxicam (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01910  Anti-inflammatory drug, oxicams
+                D01767  Tenoxicam
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D01767  Tenoxicam
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01767  Tenoxicam (JAN/USAN/INN)
+                PTGS2 (COX2)
+                 D01767  Tenoxicam (JAN/USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01767
+DBLINKS     CAS: 59804-37-4
+            PubChem: 7848830
+            ChEBI: 32192
+            LigandBox: D01767
+            NIKKAJI: J18.532I
+ATOM        22
+            1   S2x S    22.9655  -19.9925
+            2   N4y N    24.1749  -19.2919
+            3   C8y C    24.1749  -17.8906
+            4   C8y C    22.9655  -17.1899
+            5   C5a C    25.3797  -17.1899
+            6   N1b N    26.5899  -17.8906
+            7   C8y C    27.8001  -17.1899
+            8   O5a O    25.3783  -15.7886
+            9   N5x N    29.0120  -17.8877
+            10  C8x C    30.2222  -17.1870
+            11  C8x C    30.2205  -15.7886
+            12  C8x C    29.0086  -15.0909
+            13  C8x C    27.7984  -15.7915
+            14  O3c O    21.7421  -20.6861
+            15  O3c O    24.1695  -20.6932
+            16  C8y C    21.7490  -19.2919
+            17  C8y C    21.7458  -17.8901
+            18  S2x S    20.4116  -17.4600
+            19  C8x C    19.5905  -18.5960
+            20  C8x C    20.4170  -19.7282
+            21  O1a O    22.9682  -15.7886
+            22  C1a C    25.3890  -19.9917
+BOND        24
+            1    16   1 1
+            2     7   9 2
+            3     9  10 1
+            4    10  11 2
+            5    11  12 1
+            6    12  13 2
+            7    13   7 1
+            8     5   6 1
+            9     1  14 2
+            10    1   2 1
+            11    1  15 2
+            12    6   7 1
+            13    2   3 1
+            14    5   8 2
+            15    3   4 2
+            16    4  17 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 1
+            20   19  20 2
+            21   20  16 1
+            22    4  21 1
+            23    3   5 1
+            24    2  22 1
+///

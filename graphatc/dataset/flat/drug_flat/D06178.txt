@@ -1,0 +1,66 @@
+ENTRY       D06178                      Drug
+NAME        Tolevamer potassium sodium (USAN)
+FORMULA     (C8H7O3S)n. aNa. (n-a)K
+REMARK      ATC code: V03AE01
+            Chemical structure group: DG01160
+            Product (DG01160): D03263<JP/US> D03270<JP>
+EFFICACY    Antidiarrheal
+COMMENT     Treatment of Clostridium difficile associated diarrhea
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AE Drugs for treatment of hyperkalemia and hyperphosphatemia
+                 V03AE01 Polystyrene sulfonate
+                  D06178  Tolevamer potassium sodium (USAN)
+DBLINKS     CAS: 81998-90-5
+            PubChem: 47207836
+ATOM        16
+            1   C8x C    25.9700  -16.2400
+            2   C8x C    25.9700  -17.6400
+            3   C8y C    27.1824  -18.3400
+            4   C8x C    28.3949  -17.6400
+            5   C8x C    28.3949  -16.2400
+            6   C8y C    27.1824  -15.5400
+            7   C1b C    27.1824  -14.1402
+            8   C1a C    25.9532  -13.4303
+            9   Z   *    30.5480  -13.3798
+            10  Z   *    23.0692  -14.6854
+            11  S4a S    27.1824  -19.7398
+            12  O1d O    27.1824  -21.1398 #-
+            13  O1d O    25.7600  -19.7398
+            14  O1d O    28.5600  -19.7398
+            15  Z   Na   32.2000  -16.0300 #+
+            16  Z   K    32.4100  -19.3200 #+
+BOND        14
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     7   9 1
+            10    8  10 1
+            11    3  11 1
+            12   11  12 1
+            13   11  13 2
+            14   11  14 2
+BRACKET     1    24.3600  -21.6300   24.3600  -12.9500
+            1    29.4000  -12.9500   29.4000  -21.6300
+            1  n
+  ORIGINAL  1    1   2   3   4   5   6   7   8  11  12  13  14
+  REPEAT    1 
+            2    31.3600  -16.8000   31.3600  -15.1900
+            2    33.6700  -15.1900   33.6700  -16.8000
+            2  a
+  ORIGINAL  2   15
+  REPEAT    2 
+            3    31.2900  -20.0200   31.2900  -18.6200
+            3    33.8800  -18.6200   33.8800  -20.0200
+            3  n-a
+  ORIGINAL  3   16
+  REPEAT    3 
+///

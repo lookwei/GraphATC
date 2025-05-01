@@ -1,0 +1,104 @@
+ENTRY       D07916                      Drug
+NAME        Esmolol (INN)
+FORMULA     C16H25NO4
+EXACT_MASS  295.1784
+MOL_WEIGHT  295.374
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+               DG01461  beta1-Adrenergic receptor antagonist
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+REMARK      Same as: C06980
+            ATC code: C07AB09
+            Chemical structure group: DG00318
+            Product (DG00318): D00644<JP/US>
+EFFICACY    Antiarrhythmic, beta1-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AB Beta blocking agents, selective
+                 C07AB09 Esmolol
+                  D07916  Esmolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00318  Esmolol
+                  D07916  Esmolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00318  Esmolol
+                 D07916  Esmolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D07916  Esmolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00318  Esmolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00318  Esmolol
+DBLINKS     CAS: 103598-03-4
+            PubChem: 96024612
+            ChEBI: 4856
+            LigandBox: D07916
+ATOM        21
+            1   C1c C    25.0600  -24.2900
+            2   C1a C    26.2724  -24.9900
+            3   N1b N    23.8476  -24.9900
+            4   C1a C    25.0600  -22.8900
+            5   C1b C    22.6521  -24.2996
+            6   C1c C    21.4647  -24.9851
+            7   C1b C    20.2735  -24.2971
+            8   O1a O    21.4645  -26.3898
+            9   O2a O    19.0840  -24.9838
+            10  C8y C    19.0840  -26.3838
+            11  C8x C    17.8886  -27.0742
+            12  C8x C    17.8889  -28.4742
+            13  C8y C    19.1014  -29.1740
+            14  C8x C    20.2968  -28.4836
+            15  C8x C    20.2966  -27.0836
+            16  C1b C    19.1016  -30.5900
+            17  C1b C    17.8955  -31.2865
+            18  C7a C    16.7030  -30.5980
+            19  O7a O    15.5144  -31.2844
+            20  O6a O    16.7028  -29.1903
+            21  C1a C    14.3236  -30.5969
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     3   5 1
+            5     5   6 1
+            6     6   7 1
+            7     6   8 1
+            8     7   9 1
+            9     9  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   13  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   18  20 2
+            21   19  21 1
+///

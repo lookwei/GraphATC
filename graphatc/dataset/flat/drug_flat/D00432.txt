@@ -1,0 +1,154 @@
+ENTRY       D00432                      Drug
+NAME        Nadolol (JP18/USP/INN);
+            Corgard (TN)
+PRODUCT     CORGARD (USWM)
+  GENERIC   NADOLOL (Alembic Pharmaceuticals Limited)
+            NADOLOL (Alembic Pharmaceuticals)
+            NADOLOL (American Health Packaging)
+            NADOLOL (Amneal Pharmaceuticals NY LLC)
+            NADOLOL (Aurobindo Pharma Limited)
+            NADOLOL (Bayshore Pharmaceuticals LLC)
+            NADOLOL (BluePoint Laboratories)
+            NADOLOL (Bryant Ranch Prepack)
+            NADOLOL (Bryant Ranch Prepack)
+            NADOLOL (Bryant Ranch Prepack)
+            NADOLOL (Cipla USA)
+            NADOLOL (Exelan Pharmaceuticals)
+            NADOLOL (Greenstone LLC)
+            NADOLOL (InvaGen Pharmaceuticals)
+            NADOLOL (Major Pharmaceuticals)
+            NADOLOL (Marlex Pharmaceuticals)
+            NADOLOL (Mylan Pharmaceuticals)
+            NADOLOL (REMEDYREPACK)
+            NADOLOL (REMEDYREPACK)
+            NADOLOL (Sandoz)
+            NADOLOL (VGYAAN Pharmaceuticals LLC)
+            NADOLOL (Zydus Lifesciences Limited)
+            NADOLOL (Zydus Pharmaceuticals USA)
+FORMULA     C17H27NO4
+EXACT_MASS  309.194
+MOL_WEIGHT  309.4006
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+             DG03231  Antihypertensive
+REMARK      Therapeutic category: 2123 2149
+            ATC code: C07AA12
+            Product: D00432<JP/US>
+EFFICACY    Antiarrhythmic, Antihypertensive, Vasodilator, beta-Adrenergic receptor antagonist
+  DISEASE   Angina Pectoris [DS:H01632]
+            Hypertension [DS:H01633]
+COMMENT     Propranolol derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+            ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(153+154)  Calcium signaling pathway
+            hsa04022(153+154)  cGMP-PKG signaling pathway
+            hsa04024(153+154)  cAMP signaling pathway
+            hsa04080(153+154)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA12 Nadolol
+                  D00432  Nadolol (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Beta-adrenergic Blocking Agents
+               Non-Selective
+                Nadolol
+                 D00432  Nadolol (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               212  Antiarrhythmic agents
+                2123  Beta blockers
+                 D00432  Nadolol (JP18/USP/INN)
+               214  Antihypertensives
+                2149  Others
+                 D00432  Nadolol (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                D00432  Nadolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                D00432  Nadolol
+              DG03231  Antihypertensive
+               D00432  Nadolol
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00432  Nadolol
+              DG01653  Antiarrhythmics
+               D00432  Nadolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D00432  Nadolol (JP18/USP/INN) &lt;JP/US&gt;
+                ADRB2
+                 D00432  Nadolol (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00432  Nadolol
+DBLINKS     CAS: 42200-33-9
+            PubChem: 7847498
+            ChEBI: 7444
+            LigandBox: D00432
+            NIKKAJI: J16.444E
+ATOM        22
+            1   O2a O    25.1300  -25.3400
+            2   C1b C    26.3200  -24.6400
+            3   C1c C    27.5800  -25.3400
+            4   C1b C    28.7700  -24.6400
+            5   O1a O    27.5800  -26.8100
+            6   N1b N    29.9600  -25.3400
+            7   C1d C    31.2200  -24.6400
+            8   C1a C    32.4800  -25.3400
+            9   C1a C    31.2200  -23.4500
+            10  C1a C    32.4800  -23.9400
+            11  C8y C    25.1300  -26.7400
+            12  C8y C    23.9400  -27.4400
+            13  C8y C    23.9400  -28.8400
+            14  C8x C    25.1300  -29.5400
+            15  C8x C    26.3200  -28.8400
+            16  C8x C    26.3200  -27.4400
+            17  C1x C    22.7276  -26.7400
+            18  C1y C    21.5151  -27.4400
+            19  C1y C    21.5151  -28.8400
+            20  C1x C    22.7276  -29.5400
+            21  O1a O    20.2840  -26.7290
+            22  O1a O    20.2840  -29.5510
+BOND        23
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 1
+            5     4   6 1
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     7  10 1
+            10    1  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 2
+            16   11  16 1
+            17   12  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   13  20 1
+            22   18  21 1 #Up
+            23   19  22 1 #Up
+///

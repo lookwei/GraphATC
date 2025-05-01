@@ -1,0 +1,85 @@
+ENTRY       C02537                      Compound
+NAME        Estradiol-17alpha;
+            17alpha-Estradiol
+FORMULA     C18H24O2
+EXACT_MASS  272.1776
+MOL_WEIGHT  272.382
+REMARK      Same as: D07121
+REACTION    R02347 R02349
+PATHWAY     map00140  Steroid hormone biosynthesis
+ENZYME      1.1.1.148
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              18-Carbon atoms
+               Estrane derivatives
+                C02537  Estradiol-17alpha
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0201 C18 steroids (estrogens) and derivatives
+                C02537  Estradiol-17alpha
+            Target-based classification of drugs [BR:br08310(D07121)]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D07121  Alfatradiol (INN)
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SRD5A1
+                 D07121  Alfatradiol (INN)
+                SRD5A2
+                 D07121  Alfatradiol (INN)
+DBLINKS     CAS: 57-91-0
+            PubChem: 5544
+            ChEBI: 17160
+            LIPIDMAPS: LMST02010029
+            3DMET: B01587
+            NIKKAJI: J4.586A
+ATOM        20
+            1   C1y C    31.1532  -17.4922
+            2   C1y C    29.9968  -18.1631
+            3   C1z C    31.1532  -16.1562
+            4   C1x C    33.4595  -17.4981
+            5   C1y C    28.8467  -17.5042
+            6   C1x C    30.0029  -19.4930
+            7   C1x C    29.9909  -15.4972
+            8   C1y C    32.3153  -15.4852
+            9   C1a C    31.1052  -14.7724
+            10  C1x C    33.4655  -16.1622
+            11  C8y C    27.7023  -18.1751
+            12  C1x C    28.8707  -16.1202
+            13  C1x C    28.8526  -20.1520
+            14  O1a O    32.3033  -13.7719
+            15  C8y C    27.7023  -19.4871
+            16  C8x C    26.5581  -17.5220
+            17  C8x C    26.5581  -20.1581
+            18  C8x C    25.4320  -18.1751
+            19  C8y C    25.4320  -19.4871
+            20  O1a O    24.2996  -20.1341
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    8  14 1 #Down
+            14   11  15 2
+            15   11  16 1
+            16   15  17 1
+            17   16  18 2
+            18   17  19 2
+            19   19  20 1
+            20    7  12 1
+            21    8  10 1
+            22   13  15 1
+            23   18  19 1
+///

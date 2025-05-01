@@ -1,0 +1,135 @@
+ENTRY       D03654                      Drug
+NAME        Darifenacin (USAN/INN)
+FORMULA     C28H30N2O2
+EXACT_MASS  426.2307
+MOL_WEIGHT  426.55
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G04BD10
+            Chemical structure group: DG00482
+            Product (DG00482): D01699<US>
+EFFICACY    Overactive bladder agent, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04020(1131)  Calcium signaling pathway
+            hsa04080(1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1131)  Cholinergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BD Drugs for urinary frequency and incontinence
+                 G04BD10 Darifenacin
+                  D03654  Darifenacin (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00482  Darifenacin
+                D03654  Darifenacin
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00482  Darifenacin
+                D03654  Darifenacin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00482  Darifenacin
+                 D03654  Darifenacin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM3
+                 D03654  Darifenacin (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03654
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00482  Darifenacin
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00482  Darifenacin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00482  Darifenacin
+DBLINKS     CAS: 133099-04-4
+            PubChem: 17397751
+            ChEBI: 391960
+            LigandBox: D03654
+ATOM        32
+            1   C1x C    25.0600  -22.1200
+            2   C1x C    26.4600  -22.1200
+            3   C1y C    26.8926  -20.7885
+            4   C1x C    25.7600  -19.9656
+            5   N1y N    24.6274  -20.7885
+            6   C1b C    23.4276  -20.0900
+            7   C1b C    22.2151  -20.7900
+            8   C8y C    21.0027  -20.0900
+            9   C8x C    19.7903  -20.7900
+            10  C8y C    18.5778  -20.0900
+            11  C1d C    28.0924  -20.0900
+            12  C8y C    29.3049  -20.7900
+            13  C8y C    28.0899  -18.6901
+            14  C8x C    29.2861  -17.9965
+            15  C8x C    29.2835  -16.5965
+            16  C8x C    28.0697  -15.8988
+            17  C8x C    26.8735  -16.5924
+            18  C8x C    26.8761  -17.9924
+            19  C8x C    29.3049  -22.1900
+            20  C8x C    30.5173  -22.8900
+            21  C8x C    31.7297  -22.1900
+            22  C8x C    31.7297  -20.7900
+            23  C8x C    30.5173  -20.0900
+            24  C8x C    21.0027  -18.6900
+            25  C8x C    19.7903  -17.9900
+            26  C8y C    18.5778  -18.6900
+            27  O2x O    17.2463  -18.2574
+            28  C1x C    16.4234  -19.3900
+            29  C1x C    17.2463  -20.5226
+            30  C5a C    31.1249  -18.4800
+            31  O5a O    32.3296  -19.2341
+            32  N1a N    31.1747  -17.0802
+BOND        36
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     5   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    3  11 1 #Down
+            12   11  12 1
+            13   11  13 1
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   13  18 2
+            20   12  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   12  23 1
+            26    8  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  10 2
+            30   26  27 1
+            31   27  28 1
+            32   28  29 1
+            33   10  29 1
+            34   11  30 1
+            35   30  31 2
+            36   30  32 1
+///

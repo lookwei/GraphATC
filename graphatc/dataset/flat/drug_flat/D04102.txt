@@ -1,0 +1,96 @@
+ENTRY       D04102                      Drug
+NAME        Etofenamate (USAN/INN)
+FORMULA     C18H18F3NO4
+EXACT_MASS  369.1188
+MOL_WEIGHT  369.335
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01911  Anti-inflammatory drug, fenamic acid derivatives
+REMARK      ATC code: M02AA06
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+COMMENT     Fenamic acid derivative
+            Nonsteroidal anti-inflammatory drug (NSAID)
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA06 Etofenamate
+                  D04102  Etofenamate (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01911  Anti-inflammatory drug, fenamic acid derivatives
+                D04102  Etofenamate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D04102  Etofenamate (USAN/INN)
+                PTGS2 (COX2)
+                 D04102  Etofenamate (USAN/INN)
+DBLINKS     CAS: 30544-47-9
+            PubChem: 47206054
+            LigandBox: D04102
+            NIKKAJI: J20.314I
+ATOM        26
+            1   C8x C    18.0935  -15.9862
+            2   C8x C    18.0935  -17.3873
+            3   C8x C    19.3097  -18.0878
+            4   C8x C    20.5189  -17.3873
+            5   C8y C    20.5189  -15.9862
+            6   C8y C    19.3097  -15.2857
+            7   N1b N    21.7327  -15.2866
+            8   C8y C    22.9454  -15.9879
+            9   C8x C    22.9390  -17.3871
+            10  C8y C    24.1517  -18.0884
+            11  C8x C    25.3655  -17.3888
+            12  C8x C    25.3665  -15.9878
+            13  C8x C    24.1537  -15.2864
+            14  C1d C    24.1433  -19.4888
+            15  X   F    25.5443  -19.4888
+            16  X   F    22.7423  -19.4816
+            17  C7a C    19.3114  -13.8847
+            18  O7a O    20.5257  -13.1857
+            19  O6a O    18.0991  -13.1827
+            20  X   F    24.1362  -20.8898
+            21  C1b C    21.7305  -13.8847
+            22  C1b C    22.9405  -13.1842
+            23  O2a O    24.1505  -13.8847
+            24  C1b C    25.3604  -13.1842
+            25  C1b C    26.5480  -13.8677
+            26  O1a O    27.7492  -13.1718
+BOND        27
+            1     9  10 1
+            2    10  11 2
+            3    11  12 1
+            4    12  13 2
+            5    13   8 1
+            6    10  14 1
+            7     5   7 1
+            8    14  15 1
+            9     1   2 2
+            10   14  16 1
+            11    7   8 1
+            12    6  17 1
+            13    2   3 1
+            14   17  18 1
+            15    3   4 2
+            16   17  19 2
+            17    4   5 1
+            18   14  20 1
+            19   18  21 1
+            20    5   6 2
+            21   21  22 1
+            22    6   1 1
+            23   22  23 1
+            24    8   9 2
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+///

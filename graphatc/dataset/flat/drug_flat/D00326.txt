@@ -1,0 +1,144 @@
+ENTRY       D00326                      Drug
+NAME        Fluoxetine (USAN/INN);
+            Fluoxetine (TN)
+FORMULA     C17H18F3NO
+EXACT_MASS  309.134
+MOL_WEIGHT  309.3261
+CLASS       Neuropsychiatric agent
+             DG01659  Selective serotonin reuptake inhibitor (SSRI)
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01644  CYP2D6 substrate
+            Metabolizing enzyme inhibitor
+             DG01933  CYP2C19 inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      ATC code: N06AB03
+            Chemical structure group: DG00942
+            Product (DG00942): D00823<US>
+EFFICACY    Antidepressant, Selective serotonin reuptake inhibitor (SSRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP2C19 [HSA:1557], CYP2D6 [HSA:1565], CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243]
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AB Selective serotonin reuptake inhibitors
+                 N06AB03 Fluoxetine
+                  D00326  Fluoxetine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01659  Selective serotonin reuptake inhibitor (SSRI)
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+              DG01644  CYP2D6 substrate
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+             Metabolizing enzyme inhibitor
+              DG01933  CYP2C19 inhibitor
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+              DG01645  CYP2D6 inhibitor
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00942  Fluoxetine
+                D00326  Fluoxetine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A4 (HTT)
+                 D00326  Fluoxetine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00326
+             Drug transporters
+              D00326
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01659  Selective serotonin reuptake inhibitor (SSRI)
+               DG00942  Fluoxetine
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00942  Fluoxetine
+              DG01644  CYP2D6 substrate
+               DG00942  Fluoxetine
+             Metabolizing enzyme inhibitor
+              DG01933  CYP2C19 inhibitor
+               DG00942  Fluoxetine
+              DG01645  CYP2D6 inhibitor
+               DG00942  Fluoxetine
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00942  Fluoxetine
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00942  Fluoxetine
+DBLINKS     CAS: 54910-89-3
+            PubChem: 7847392
+            ChEBI: 5118
+            LigandBox: D00326
+            NIKKAJI: J244.937D
+ATOM        22
+            1   C1c C    19.5445  -17.2645
+            2   C8y C    19.5445  -18.6727
+            3   O2a O    20.7718  -16.5573
+            4   C1b C    18.3175  -16.5573
+            5   C8x C    18.3117  -19.3799
+            6   C8x C    20.7658  -19.3799
+            7   C8y C    21.9931  -17.2645
+            8   C1b C    17.1021  -17.2585
+            9   C8x C    18.3117  -20.7938
+            10  C8x C    20.7658  -20.7938
+            11  C8x C    21.9931  -18.6727
+            12  C8x C    23.2144  -16.5573
+            13  N1b N    15.8748  -16.5515
+            14  C8x C    19.5445  -21.5010
+            15  C8x C    23.2085  -19.3799
+            16  C8x C    24.4357  -17.2645
+            17  C1a C    14.6535  -17.2585
+            18  C8y C    24.4357  -18.6786
+            19  C1d C    25.6568  -19.3856
+            20  X   F    26.9717  -20.0226
+            21  X   F    26.2471  -18.3863
+            22  X   F    24.9673  -20.5193
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 1
+            8     5   9 2
+            9     6  10 1
+            10    7  11 2
+            11    7  12 1
+            12    8  13 1
+            13    9  14 1
+            14   11  15 1
+            15   12  16 2
+            16   13  17 1
+            17   15  18 2
+            18   18  19 1
+            19   19  20 1
+            20   19  21 1
+            21   19  22 1
+            22   10  14 2
+            23   16  18 1
+///

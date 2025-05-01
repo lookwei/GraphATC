@@ -1,0 +1,35 @@
+ENTRY       D04690                      Drug
+NAME        Lenercept (USAN/INN)
+FORMULA     C1993H3112N562O624S34
+EXACT_MASS  45989.9562
+MOL_WEIGHT  46019.6354
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG01936  TNF inhibitor
+EFFICACY    Anti-inflammatory, Immunomodulator, TNF inhibitor
+COMMENT     recombinant humanised fusion protein of TNF-R1 and IgG1 heave chain
+TARGET      TNF (TNFA, TNFSF2) [HSA:7124] [KO:K03156]
+            LTA (TNFB, TNFSF1) [HSA:4049] [KO:K05468]
+            LTB (TNFC, TNFSF3) [HSA:4050] [KO:K03157]
+  PATHWAY   hsa04060(4049+4050+7124)  Cytokine-cytokine receptor interaction
+            hsa04064(4049+4050+7124)  NF-kappa B signaling pathway
+            hsa04668(4049+7124)  TNF signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG01936  TNF inhibitor
+                D04690  Lenercept
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokines
+               Tumor necrosis factors
+                TNF (TNFA, TNFSF2)
+                 D04690  Lenercept (USAN/INN)
+                LTA (TNFB, TNFSF1)
+                 D04690  Lenercept (USAN/INN)
+                LTB (TNFC, TNFSF3)
+                 D04690  Lenercept (USAN/INN)
+DBLINKS     CAS: 156679-34-4
+            PubChem: 47206524
+///

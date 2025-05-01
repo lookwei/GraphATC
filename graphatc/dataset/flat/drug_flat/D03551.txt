@@ -1,0 +1,86 @@
+ENTRY       D03551                      Drug
+NAME        Clometherone (USAN/INN)
+FORMULA     C22H31ClO2
+EXACT_MASS  362.2013
+MOL_WEIGHT  362.9333
+CLASS       Antineoplastic
+             DG01591  Androgen receptor antagonist
+EFFICACY    Androgen receptor antagonist, Estrogen receptor antagonist
+COMMENT     progestin
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+            NR3C4 (AR) [HSA:367] [KO:K08557]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               D03551  Clometherone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D03551  Clometherone (USAN/INN)
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D03551  Clometherone (USAN/INN)
+DBLINKS     CAS: 5591-27-5
+            PubChem: 47205858
+            ChEBI: 188511
+            LigandBox: D03551
+            NIKKAJI: J8.019E
+ATOM        25
+            1   C1y C    21.2685  -12.2684
+            2   C1z C    20.1501  -12.8989
+            3   C1y C    22.3760  -12.9155
+            4   C5a C    21.2576  -10.9746
+            5   C1y C    20.1444  -14.1875
+            6   C1x C    19.0480  -12.2520
+            7   C1a C    20.1337  -11.6106
+            8   C1x C    22.3707  -14.1984
+            9   C1a C    20.1282  -10.3221
+            10  O5a O    22.3707  -10.3165
+            11  C1y C    19.0261  -14.8290
+            12  C1x C    17.9240  -12.8826
+            13  C1y C    17.9131  -14.1709
+            14  C1x C    19.0261  -16.1175
+            15  C1z C    16.7944  -14.8180
+            16  C1y C    17.9021  -16.7645
+            17  C2y C    16.7891  -16.1066
+            18  C1x C    15.6817  -14.1656
+            19  C1a C    16.7837  -13.5240
+            20  C2x C    15.6817  -16.7589
+            21  C1x C    14.5577  -14.8180
+            22  C5x C    14.5577  -16.1066
+            23  O5x O    13.4209  -16.7612
+            24  C1a C    23.5247  -12.2594
+            25  X   Cl   17.8947  -18.1335
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Up
+            7     3   8 1
+            8     4   9 1
+            9     4  10 2
+            10    5  11 1
+            11    6  12 1
+            12   11  13 1
+            13   11  14 1
+            14   13  15 1
+            15   14  16 1
+            16   15  17 1
+            17   15  18 1
+            18   15  19 1 #Up
+            19   17  20 2
+            20   18  21 1
+            21   20  22 1
+            22    5   8 1
+            23   12  13 1
+            24   16  17 1
+            25   21  22 1
+            26   22  23 2 #Up
+            27    3  24 1 #Down
+            28   16  25 1 #Down
+///

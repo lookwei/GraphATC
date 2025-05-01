@@ -1,0 +1,92 @@
+ENTRY       D00485                      Drug
+NAME        Pseudoephedrine hydrochloride (USP);
+            Sudafed (TN)
+FORMULA     C10H15NO. HCl
+EXACT_MASS  201.092
+MOL_WEIGHT  201.6931
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+REMARK      ATC code: R01BA02
+            Chemical structure group: DG01042
+            Product (mixture): D10252<JP> D11647<US>
+EFFICACY    Vasoconstrictor, Adrenergic receptor agonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01B NASAL DECONGESTANTS FOR SYSTEMIC USE
+                R01BA Sympathomimetics
+                 R01BA02 Pseudoephedrine
+                  D00485  Pseudoephedrine hydrochloride (USP)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for otolaryngologic use
+              69 Oral medicine for nasal inflammation
+               D00485  Pseudoephedrine hydrochloride (USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Pseudoephedrine
+                D00485  Pseudoephedrine hydrochloride (USP)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Pseudoephedrine
+                D00485  Pseudoephedrine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01042  Pseudoephedrine
+                D00485  Pseudoephedrine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D00485  Pseudoephedrine hydrochloride (USP)
+                ADRA2
+                 D00485  Pseudoephedrine hydrochloride (USP)
+                ADRB
+                 D00485  Pseudoephedrine hydrochloride (USP)
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00485
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01042  Pseudoephedrine
+DBLINKS     CAS: 345-78-8
+            PubChem: 7847551
+            ChEBI: 8604
+            LigandBox: D00485
+            NIKKAJI: J364.873G
+ATOM        13
+            1   X   Cl   31.6713  -29.5074
+            2   C8x C    21.1400  -29.6100
+            3   C8x C    21.1400  -31.0100
+            4   C8x C    22.3524  -31.7100
+            5   C8x C    23.5649  -31.0100
+            6   C8y C    23.5649  -29.6100
+            7   C8x C    22.3524  -28.9100
+            8   C1c C    24.7960  -28.8990
+            9   C1c C    26.0012  -29.5947
+            10  O1a O    24.7957  -27.5101
+            11  N1b N    27.1835  -28.9119
+            12  C1a C    26.0016  -31.0096
+            13  C1a C    28.3775  -29.6012
+BOND        12
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     8  10 1 #Down
+            10    9  11 1
+            11    9  12 1 #Up
+            12   11  13 1
+///

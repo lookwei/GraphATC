@@ -1,0 +1,160 @@
+ENTRY       D12005                      Drug
+NAME        Treprostinil palmitil (USAN/INN)
+FORMULA     C39H66O5
+EXACT_MASS  614.491
+MOL_WEIGHT  614.9383
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+            Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01810  Prostacycline derivative
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+REMARK      ATC code: B01AC21
+            Chemical structure group: DG00161
+            Product (DG00161): D06213<JP/US> D10430<US>
+EFFICACY    Antihypertensive, Prostaglandin I2 receptor agonist
+COMMENT     Treatment of pulmonary arterial hypertension
+TARGET      PTGIR [HSA:5739] [KO:K04263]
+  PATHWAY   hsa04080(5739)  Neuroactive ligand-receptor interaction
+            hsa04270(5739)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP2C8 [HSA:1558]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC21 Treprostinil
+                  D12005  Treprostinil palmitil (USAN/INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG00161  Treprostinil
+                 D12005  Treprostinil palmitil
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01810  Prostacycline derivative
+                DG00161  Treprostinil
+                 D12005  Treprostinil palmitil
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00161  Treprostinil
+                D12005  Treprostinil palmitil
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostacyclin
+                PTGIR
+                 D12005  Treprostinil palmitil (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D12005
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG00161  Treprostinil
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01810  Prostacycline derivative
+                DG00161  Treprostinil
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00161  Treprostinil
+DBLINKS     CAS: 1706528-83-7
+ATOM        44
+            1   C1x C    16.0976  -18.1794
+            2   C1y C    16.8638  -19.4331
+            3   C1y C    18.1871  -18.9456
+            4   C1y C    18.1871  -17.5526
+            5   C1y C    16.8638  -17.0650
+            6   C1b C    19.3712  -19.7117
+            7   C1b C    20.5552  -18.9456
+            8   C1c C    21.7393  -19.7117
+            9   C1b C    22.9233  -18.9456
+            10  O1a O    21.7393  -21.1047
+            11  C1b C    24.1770  -19.7117
+            12  C1b C    25.3611  -18.9456
+            13  C1b C    26.5451  -19.7117
+            14  C1a C    27.7292  -18.9456
+            15  O1a O    16.3762  -20.7565
+            16  C1x C    19.2319  -16.6471
+            17  C8y C    19.0229  -15.2541
+            18  C8y C    17.6996  -14.7666
+            19  C1x C    16.6548  -15.6720
+            20  C8x C    20.0677  -14.4183
+            21  C8x C    19.8587  -13.0253
+            22  C8x C    18.5354  -12.5377
+            23  C8y C    17.4906  -13.4432
+            24  O2a O    16.3066  -12.7467
+            25  C1b C    15.1225  -13.4432
+            26  C7a C    13.9384  -12.7467
+            27  O7a O    12.6847  -13.4432
+            28  O6a O    13.9384  -11.3537
+            29  C1b C    11.4718  -12.7159
+            30  C1b C    10.2442  -13.3978
+            31  C1b C     9.0134  -12.6600
+            32  C1b C     7.7982  -13.3354
+            33  C1b C     6.5925  -12.6126
+            34  C1b C     5.3647  -13.2950
+            35  C1b C     4.1848  -12.5876
+            36  C1b C     2.9675  -13.2640
+            37  C1b C     2.9675  -14.6640
+            38  C1b C     4.1448  -15.3431
+            39  C1b C     5.3514  -14.6457
+            40  C1b C     6.5338  -15.3277
+            41  C1b C     7.7270  -14.6380
+            42  C1b C     8.9160  -15.3237
+            43  C1b C    10.1059  -14.6359
+            44  C1a C    11.2966  -15.3227
+BOND        46
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     3   6 1 #Up
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    8  10 1 #Down
+            11    9  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    2  15 1 #Down
+            16    4  16 1 #Down
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20    5  19 1 #Down
+            21   17  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   18  23 2
+            26   24  23 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   26  28 2
+            31   27  29 1
+            32   29  30 1
+            33   30  31 1
+            34   31  32 1
+            35   32  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 1
+            39   36  37 1
+            40   37  38 1
+            41   38  39 1
+            42   39  40 1
+            43   40  41 1
+            44   41  42 1
+            45   42  43 1
+            46   43  44 1
+///

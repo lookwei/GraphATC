@@ -1,0 +1,112 @@
+ENTRY       D06300                      Drug
+NAME        Vidarabine sodium phosphate (USAN)
+FORMULA     C10H12N5O7P. 2Na
+EXACT_MASS  391.027
+MOL_WEIGHT  391.1849
+CLASS       Antiviral
+             DG01440  Arabinofuranosyl type antiviral
+             DG02840  Anti-herpesvirus agent
+REMARK      ATC code: J05AB03 S01AD06
+            Chemical structure group: DG00645
+            Product (DG00645): D06298<JP>
+EFFICACY    Antiviral, DNA polymerase ihibitor
+COMMENT     Arabinofuranosyl derivative
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+            map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB03 Vidarabine
+                  D06300  Vidarabine sodium phosphate (USAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AD Antivirals
+                 S01AD06 Vidarabine
+                  D06300  Vidarabine sodium phosphate (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               DG00645  Vidarabine
+                D06300  Vidarabine sodium phosphate
+              DG02840  Anti-herpesvirus agent
+               DG00645  Vidarabine
+                D06300  Vidarabine sodium phosphate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D06300  Vidarabine sodium phosphate (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               DG00645  Vidarabine
+              DG02840  Anti-herpesvirus agent
+               DG00645  Vidarabine
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00645  Vidarabine
+DBLINKS     CAS: 71002-10-3
+            PubChem: 47207957
+            LigandBox: D06300
+            NIKKAJI: J19.191D
+ATOM        25
+            1   N4y N    26.9305  -17.8935
+            2   C8y C    27.9744  -18.6590
+            3   C1y C    25.6084  -18.3110
+            4   C8x C    27.3481  -16.5017
+            5   C8y C    29.1574  -17.7544
+            6   N5x N    28.1135  -20.0508
+            7   O2x O    24.4950  -17.4760
+            8   C1y C    25.1909  -19.5636
+            9   N5x N    28.8094  -16.5017
+            10  C8y C    30.4100  -18.3110
+            11  C8x C    29.4358  -20.6075
+            12  C1y C    23.3815  -18.2415
+            13  C1y C    23.7991  -19.5636
+            14  N5x N    30.6188  -19.7724
+            15  N1a N    31.5234  -17.4760
+            16  C1b C    22.0594  -17.8239
+            17  O1a O    23.3815  -20.8858
+            18  O2b O    21.0155  -18.7981
+            19  P1b P    19.6238  -18.7981
+            20  O1c O    18.2320  -18.7981 #-
+            21  O1c O    19.6238  -20.1899 #-
+            22  O1c O    19.6238  -17.3368
+            23  O1a O    26.0185  -20.7126
+            24  Z   Na   19.2500  -21.4900 #+
+            25  Z   Na   15.8900  -18.7600 #+
+BOND        25
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13   10  14 2
+            14   10  15 1
+            15   12  16 1 #Up
+            16   13  17 1 #Down
+            17   16  18 1
+            18   18  19 1
+            19   19  20 1
+            20   19  21 1
+            21   19  22 2
+            22    5   9 1
+            23   11  14 1
+            24   12  13 1
+            25    8  23 1 #Up
+///

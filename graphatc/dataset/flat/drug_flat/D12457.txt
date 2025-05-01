@@ -1,0 +1,119 @@
+ENTRY       D12457                      Drug
+NAME        Tuxobertinib (USAN/INN)
+FORMULA     C29H29ClN6O4
+EXACT_MASS  560.1939
+MOL_WEIGHT  561.0314
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03162  EGFR inhibitor
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+COMMENT     Treatment of malignant tumors
+TARGET      EGFR [HSA:1956] [KO:K04361]
+            ERBB2 (HER2, CD340) [HSA:2064] [KO:K05083]
+  PATHWAY   hsa04010(1956+2064)  MAPK signaling pathway
+            hsa04012(1956+2064)  ErbB signaling pathway
+            hsa05200(1956+2064)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 D12457  Tuxobertinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR
+                 D12457  Tuxobertinib (USAN/INN)
+                ERBB2 (HER2, CD340)
+                 D12457  Tuxobertinib (USAN/INN)
+DBLINKS     CAS: 2414572-47-5
+ATOM        40
+            1   C8x C    13.1982  -15.2450
+            2   N5x N    13.1982  -16.6498
+            3   C8y C    14.4147  -17.3522
+            4   C8y C    15.6313  -16.6498
+            5   C8y C    15.6313  -15.2450
+            6   N5x N    14.4147  -14.5427
+            7   C8x C    16.8478  -17.3522
+            8   C8y C    18.0643  -16.6498
+            9   C8y C    18.0643  -15.2450
+            10  C8x C    16.8478  -14.5427
+            11  O2a O    19.2660  -14.5512
+            12  N1b N    19.2660  -17.3436
+            13  N1b N    14.4147  -18.7567
+            14  C8y C    15.6144  -19.4494
+            15  C8x C    15.6145  -20.8637
+            16  C8y C    16.8311  -21.5660
+            17  C8y C    18.0476  -20.8635
+            18  C8x C    18.0475  -19.4492
+            19  C8x C    16.8309  -18.7470
+            20  X   Cl   16.8312  -22.9710
+            21  O2a O    19.2621  -21.5647
+            22  C1b C    20.4601  -20.8726
+            23  C8y C    21.6524  -21.5609
+            24  N5x N    21.6526  -22.9709
+            25  C8x C    22.8693  -23.6731
+            26  C8x C    24.0857  -22.9705
+            27  C8x C    24.0855  -21.5605
+            28  C8x C    22.8688  -20.8583
+            29  C5a C    20.4583  -16.6553
+            30  C2b C    21.6532  -17.3452
+            31  C2a C    22.8468  -16.6561
+            32  O5a O    20.4584  -15.2452
+            33  C1b C    19.2660  -13.1465
+            34  C1b C    20.4653  -12.4536
+            35  N1y N    21.6614  -13.1442
+            36  C1x C    21.6617  -14.5596
+            37  C1x C    22.8742  -15.2594
+            38  O2x O    24.0865  -14.5592
+            39  C1x C    24.0863  -13.1438
+            40  C1x C    22.8737  -12.4440
+BOND        44
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    9  11 1
+            13    8  12 1
+            14    3  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   16  20 1
+            23   17  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   23  28 1
+            32   12  29 1
+            33   29  30 1
+            34   30  31 2
+            35   29  32 2
+            36   11  33 1
+            37   33  34 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   37  38 1
+            42   38  39 1
+            43   39  40 1
+            44   35  40 1
+///

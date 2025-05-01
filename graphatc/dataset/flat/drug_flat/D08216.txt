@@ -1,0 +1,153 @@
+ENTRY       D08216                      Drug
+NAME        Mianserin (INN);
+            Tolvon (TN)
+FORMULA     C18H20N2
+EXACT_MASS  264.1626
+MOL_WEIGHT  264.3648
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+            Neuropsychiatric agent
+             DG01729  Tetracyclic antidepressant
+             DG03077  Noradrenergic and specific serotonergic antidepressant (NaSSA)
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N06AX03
+            Chemical structure group: DG00951
+            Product (DG00951): D01358<JP>
+EFFICACY    Antidepressant
+COMMENT     tetracyclic antidepressants
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            HTR2A [HSA:3356] [KO:K04157]
+            HTR2C [HSA:3358] [KO:K04157]
+            HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+            HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(150+151+152+3269+3356+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(170572+200909+285242+3356+3358+3359+9177)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP1A2 [HSA:1544], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX03 Mianserin
+                  D08216  Mianserin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00951  Mianserin
+                  D08216  Mianserin
+             Neuropsychiatric agent
+              DG01729  Tetracyclic antidepressant
+               DG00951  Mianserin
+                D08216  Mianserin
+              DG03077  Noradrenergic and specific serotonergic antidepressant (NaSSA)
+               D08216  Mianserin
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00951  Mianserin
+                D08216  Mianserin
+              DG01644  CYP2D6 substrate
+               DG00951  Mianserin
+                D08216  Mianserin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00951  Mianserin
+                 D08216  Mianserin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D08216  Mianserin (INN)
+               Histamine
+                HRH1
+                 D08216  Mianserin (INN)
+               Serotonin
+                HTR2A
+                 D08216  Mianserin (INN)
+                HTR2C
+                 D08216  Mianserin (INN)
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D08216  Mianserin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08216
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00951  Mianserin
+             Neuropsychiatric agent
+              DG01729  Tetracyclic antidepressant
+               DG00951  Mianserin
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00951  Mianserin
+              DG01644  CYP2D6 substrate
+               DG00951  Mianserin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00951  Mianserin
+DBLINKS     CAS: 24219-97-4
+            PubChem: 96024904
+            LigandBox: D08216
+            NIKKAJI: J16.389I
+ATOM        20
+            1   C8y C    20.1600  -15.0500
+            2   N1y N    19.2500  -16.1000
+            3   C1y C    17.8500  -16.1000
+            4   C8y C    17.0100  -14.9800
+            5   C8y C    19.8800  -13.6500
+            6   C8y C    17.3600  -13.6500
+            7   C1x C    18.6200  -13.0200
+            8   C8x C    16.3800  -12.6700
+            9   C8x C    14.9800  -13.0900
+            10  C8x C    14.7000  -14.4200
+            11  C8x C    15.6800  -15.4000
+            12  C8x C    21.4900  -15.4700
+            13  C8x C    22.5400  -14.5600
+            14  C8x C    22.2600  -13.1600
+            15  C8x C    20.9300  -12.7400
+            16  C1x C    17.1500  -17.2900
+            17  N1y N    17.8500  -18.5500
+            18  C1x C    19.2500  -18.5500
+            19  C1x C    19.9500  -17.3600
+            20  C1a C    17.1500  -19.7400
+BOND        23
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     6   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    4  11 2
+            13    1  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    5  15 2
+            18    3  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22    2  19 1
+            23   17  20 1
+///

@@ -1,0 +1,103 @@
+ENTRY       D03399                      Drug
+NAME        Carboprost methyl (USAN)
+FORMULA     C22H38O5
+EXACT_MASS  382.2719
+MOL_WEIGHT  382.5341
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+REMARK      ATC code: G02AD04
+            Chemical structure group: DG00449
+            Product (DG00449): D00682<US>
+EFFICACY    Oxytocic, Prostaglandin F receptor agonist
+COMMENT     Prostaglandin derivative
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AD Prostaglandins
+                 G02AD04 Carboprost
+                  D03399  Carboprost methyl (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG00449  Carboprost
+                 D03399  Carboprost methyl
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D03399  Carboprost methyl (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG00449  Carboprost
+DBLINKS     CAS: 35700-21-1
+            PubChem: 17397539
+            ChEBI: 191260
+            LigandBox: D03399
+ATOM        27
+            1   C1b C    28.2749  -13.9736
+            2   C1b C    29.4679  -14.6624
+            3   C1b C    30.6609  -13.9736
+            4   C7a C    31.8540  -14.6624
+            5   O7a O    33.0470  -13.9736
+            6   C1y C    23.2740  -16.4533
+            7   C1y C    23.2740  -15.0757
+            8   C1y C    21.9653  -14.6624
+            9   C1x C    21.1388  -15.7645
+            10  C1y C    21.9653  -16.8666
+            11  O1a O    21.5442  -13.3508
+            12  O1a O    21.5442  -18.1783
+            13  C1b C    24.4670  -13.9736
+            14  C2b C    25.5913  -14.6624
+            15  C2b C    27.1755  -14.6624
+            16  O6a O    31.8540  -16.0397
+            17  C2b C    24.4670  -17.6243
+            18  C2b C    25.6601  -16.9355
+            19  C1d C    26.8531  -17.6243
+            20  C1b C    28.0461  -16.9355
+            21  C1b C    29.2392  -17.6243
+            22  C1b C    30.4322  -16.9355
+            23  C1b C    31.6252  -17.6243
+            24  C1a C    25.8791  -18.5983
+            25  O1a O    27.8273  -18.5983
+            26  C1a C    32.8056  -16.9427
+            27  C1a C    34.2655  -14.6769
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 1
+            8     9  10 1
+            9     6  10 1
+            10    8  11 1 #Down
+            11   10  12 1 #Down
+            12    7  13 1 #Down
+            13   13  14 1
+            14   14  15 2
+            15    1  15 1
+            16    4  16 2
+            17    6  17 1 #Up
+            18   17  18 2
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+            23   22  23 1
+            24   19  24 1 #Up
+            25   19  25 1 #Down
+            26   23  26 1
+            27    5  27 1
+///

@@ -1,0 +1,229 @@
+ENTRY       D03580                      Drug
+NAME        Codeine sulfate (USP);
+            Codeine sulfate trihydrate;
+            Codeine sulfate (TN)
+PRODUCT     CODEINE SULFATE (Hikma Pharmaceuticals USA)
+  GENERIC   CODEINE SULFATE (Lannett Company)
+FORMULA     (C18H21NO3)2. H2SO4. 3H2O
+EXACT_MASS  750.3034
+MOL_WEIGHT  750.8528
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03189  UGT2B4 substrate
+              DG03190  UGT2B7 substrate
+REMARK      ATC code: R05DA04
+            Chemical structure group: DG01076
+            Product (DG01076): D02101<JP> D03580<US>
+EFFICACY    Analgesic (narcotic), Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+            Active form of prodrug: Morphine [DR:D08233]
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: UGT2B7 [HSA:7364], UGT2B4 [HSA:7363]; CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA04 Codeine
+                  D03580  Codeine sulfate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Short-acting
+               Codeine
+                D03580  Codeine sulfate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01076  Codeine
+                 D03580  Codeine sulfate
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01076  Codeine
+                D03580  Codeine sulfate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01076  Codeine
+                D03580  Codeine sulfate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01076  Codeine
+                 D03580  Codeine sulfate
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG01076  Codeine
+                 D03580  Codeine sulfate
+               DG03190  UGT2B7 substrate
+                DG01076  Codeine
+                 D03580  Codeine sulfate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D03580  Codeine sulfate (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03580
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D03580
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01076  Codeine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01076  Codeine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01076  Codeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01076  Codeine
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG01076  Codeine
+               DG03190  UGT2B7 substrate
+                DG01076  Codeine
+            Prodrugs [br08324.html(DG01076)]
+             DG01076
+DBLINKS     CAS: 6854-40-6
+            PubChem: 47205864
+            LigandBox: D03580
+ATOM        52
+            1   O0  O    29.9570  -18.1983
+            2   C1z C    18.8310  -16.9590
+            3   C8y C    18.8310  -15.6336
+            4   C1y C    20.0168  -17.6566
+            5   C1y C    17.7147  -17.5868
+            6   C1x C    20.0168  -16.3312
+            7   C8y C    17.7147  -15.0057
+            8   C8y C    20.0168  -15.0057
+            9   C1y C    21.1330  -16.9590
+            10  C2x C    20.0168  -18.9123
+            11  O2x O    16.3893  -16.2614
+            12  C1y C    17.7147  -18.9123
+            13  C1x C    22.2491  -16.3312
+            14  C8y C    17.7147  -13.6802
+            15  C1x C    21.1330  -15.7033
+            16  C8x C    20.0168  -13.6802
+            17  N1y N    22.2491  -17.6566
+            18  C2x C    18.8310  -19.6099
+            19  O1a O    16.5985  -19.6099
+            20  C8x C    18.9007  -13.0524
+            21  O2a O    16.5985  -13.0524
+            22  C1a C    15.4127  -13.6802
+            23  C1a C    23.6491  -17.6566
+            24  S4a S    28.9520  -14.8100
+            25  O1d O    28.9520  -13.4100
+            26  O1d O    28.9520  -16.2100
+            27  O1d O    27.5519  -14.8100
+            28  O1d O    30.3519  -14.8100
+            29  O0  O    29.9570  -18.1983
+            30  O0  O    29.9570  -18.1983
+            31  C1z C    18.8310  -16.9590
+            32  C8y C    18.8310  -15.6336
+            33  C8y C    17.7147  -15.0057
+            34  C8y C    17.7147  -13.6802
+            35  C8x C    18.9007  -13.0524
+            36  C8x C    20.0168  -13.6802
+            37  C8y C    20.0168  -15.0057
+            38  C1x C    21.1330  -15.7033
+            39  C1y C    21.1330  -16.9590
+            40  C1y C    20.0168  -17.6566
+            41  C2x C    20.0168  -18.9123
+            42  C2x C    18.8310  -19.6099
+            43  C1y C    17.7147  -18.9123
+            44  C1y C    17.7147  -17.5868
+            45  O2x O    16.3893  -16.2614
+            46  O1a O    16.5985  -19.6099
+            47  N1y N    22.2491  -17.6566
+            48  C1x C    22.2491  -16.3312
+            49  C1x C    20.0168  -16.3312
+            50  C1a C    23.6491  -17.6566
+            51  O2a O    16.5985  -13.0524
+            52  C1a C    15.4127  -13.6802
+BOND        56
+            1    24  25 2
+            2    24  26 2
+            3    24  27 1
+            4    24  28 1
+            5     2   3 1
+            6     2   4 1
+            7     2   5 1
+            8     2   6 1 #Up
+            9     3   7 2
+            10    3   8 1
+            11    4   9 1
+            12    4  10 1
+            13    5  11 1 #Down
+            14    5  12 1
+            15    6  13 1
+            16    7  14 1
+            17    8  15 1
+            18    8  16 2
+            19    9  17 1 #Up
+            20   10  18 2
+            21   12  19 1 #Down
+            22   14  20 2
+            23   14  21 1
+            24   21  22 1
+            25    7  11 1
+            26    9  15 1
+            27   12  18 1
+            28   13  17 1
+            29   16  20 1
+            30   17  23 1
+            31   31  32 1
+            32   31  40 1
+            33   31  44 1
+            34   31  49 1 #Up
+            35   32  33 2
+            36   32  37 1
+            37   40  39 1
+            38   40  41 1
+            39   44  45 1 #Down
+            40   44  43 1
+            41   49  48 1
+            42   33  34 1
+            43   37  38 1
+            44   37  36 2
+            45   39  47 1 #Up
+            46   41  42 2
+            47   43  46 1 #Down
+            48   34  35 2
+            49   34  51 1
+            50   51  52 1
+            51   33  45 1
+            52   39  38 1
+            53   43  42 1
+            54   48  47 1
+            55   36  35 1
+            56   47  50 1
+BRACKET     1    27.7200  -18.9700   27.7200  -17.2900
+            1    30.5200  -17.2900   30.5200  -18.9700
+            1  3
+  ORIGINAL  1    1
+  REPEAT    1   30  31
+            2    13.4400  -20.3000   13.4400  -12.0400
+            2    25.0600  -12.0400   25.0600  -20.3000
+            2  2
+  ORIGINAL  2    2   3   7  14  20  16   8  15   9   4  10  18  12   5  11  19
+            2   23  17  13   6  24  21  22
+  REPEAT    2   32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47
+            2   48  49  50  51  52  53  54
+///

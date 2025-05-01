@@ -1,0 +1,115 @@
+ENTRY       D03584                      Drug
+NAME        Colforsin (USAN/INN)
+FORMULA     C22H34O7
+EXACT_MASS  410.2305
+MOL_WEIGHT  410.5012
+CLASS       Cardiovascular agent
+             DG01499  Adenylate cyclase activator
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Same as: C09076
+            Chemical structure group: DG02877
+            Product (DG02877): D01697<JP>
+EFFICACY    Antiglaucoma
+TARGET      ADCY [HSA:107 108 109 196883 111 112 113 114 115 55811] [KO:K08041 K08042 K08043 K08044 K08045 K08046 K08047 K08048 K08049 K11265]
+  PATHWAY   hsa04020(107+108+109+113+114+115+196883)  Calcium signaling pathway
+            hsa04024(107+108+109+111+112+113+114+115+196883+55811)  cAMP signaling pathway
+            hsa04270(107+108+109+111+112+113+114+115+196883)  Vascular smooth muscle contraction
+            hsa04725(107+108+109+111+112+113+114+115+196883)  Cholinergic synapse
+            hsa04727(107+108+109+111+112+113+114+115+196883)  GABAergic synapse
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01499  Adenylate cyclase activator
+               DG02877  Colforsin
+                D03584  Colforsin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02877  Colforsin
+                D03584  Colforsin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Phosphorus-oxygen lyases
+                ADCY
+                 D03584  Colforsin (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03584
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01499  Adenylate cyclase activator
+               DG02877  Colforsin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02877  Colforsin
+DBLINKS     CAS: 66575-29-9
+            PubChem: 17397698
+            ChEBI: 42471
+            PDB-CCD: FOK
+            LigandBox: D03584
+            NIKKAJI: J22.273I
+ATOM        29
+            1   C1x C    20.4569  -14.2084
+            2   C1x C    20.4569  -15.7398
+            3   C1z C    21.6068  -16.4019
+            4   C1y C    21.6068  -13.5461
+            5   C1z C    22.7497  -14.2084
+            6   C1y C    22.7440  -15.7398
+            7   C1y C    23.8882  -16.4067
+            8   C1y C    25.0378  -15.7497
+            9   C1z C    23.8994  -13.5508
+            10  C1z C    25.0378  -14.2207
+            11  O2x O    26.1873  -13.5696
+            12  C1z C    26.1983  -11.5217
+            13  C1x C    25.0597  -10.8518
+            14  C5x C    23.8404  -11.5030
+            15  C2b C    27.3398  -10.8590
+            16  C2a C    28.4837  -11.5147
+            17  O1a O    23.8824  -17.7312
+            18  O7a O    26.1835  -16.4141
+            19  C1a C    25.0256  -12.8905
+            20  C1a C    22.7378  -12.8840
+            21  O1a O    21.5940  -12.2216
+            22  O1a O    23.8855  -14.8703
+            23  O5x O    22.6879  -10.8390
+            24  C1a C    21.6113  -18.0761
+            25  C1a C    20.4502  -17.0575
+            26  C7a C    27.3319  -15.7545
+            27  O6a O    27.3348  -14.4300
+            28  C1a C    28.4538  -16.3849
+            29  C1a C    26.1983   -9.9117
+BOND        31
+            1     7   8 1
+            2     7  17 1 #Up
+            3     8  10 1
+            4     8  18 1 #Up
+            5     9   5 1
+            6    10  19 1 #Up
+            7     3   6 1
+            8     5  20 1 #Up
+            9     5   4 1
+            10    4  21 1 #Down
+            11    4   1 1
+            12    9  22 1 #Down
+            13   14  23 2
+            14    1   2 1
+            15    3  24 1
+            16    9  10 1
+            17    3  25 1
+            18   10  11 1
+            19   11  12 1
+            20   12  13 1
+            21   13  14 1
+            22   14   9 1
+            23   18  26 1
+            24   26  28 1
+            25    2   3 1
+            26   26  27 2
+            27   12  15 1
+            28    5   6 1
+            29   15  16 2
+            30    6   7 1
+            31   12  29 1 #Up
+///

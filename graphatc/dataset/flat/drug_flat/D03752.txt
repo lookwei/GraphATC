@@ -1,0 +1,129 @@
+ENTRY       D03752                      Drug
+NAME        Quinapril (INN)
+FORMULA     C25H30N2O5
+EXACT_MASS  438.2155
+MOL_WEIGHT  438.5161
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Same as: C07398
+            ATC code: C09AA06
+            Chemical structure group: DG00338
+            Product (DG00338): D00459<US>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     Active form of prodrug: Quinaprilat [DR:D03773]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA06 Quinapril
+                  D03752  Quinapril (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00338  Quinapril
+                 D03752  Quinapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00338  Quinapril
+                 D03752  Quinapril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03752  Quinapril (INN)
+            Prodrugs [br08324.html]
+             D03752
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00338  Quinapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00338  Quinapril
+            Prodrugs [br08324.html(DG00338)]
+             DG00338
+DBLINKS     CAS: 85441-61-8
+            PubChem: 17397841
+            ChEBI: 8713
+            LigandBox: D03752
+            NIKKAJI: J39.673G
+ATOM        32
+            1   C1x C    38.2900  -20.0200
+            2   C8y C    39.4800  -19.3200
+            3   N1y N    37.1000  -19.3200
+            4   C8y C    39.4800  -17.9200
+            5   C8x C    40.7400  -20.0200
+            6   C1y C    37.1000  -17.9200
+            7   C1x C    38.2900  -17.2200
+            8   C8x C    40.7400  -17.2200
+            9   C8x C    41.9300  -19.3200
+            10  C8x C    41.9300  -17.9200
+            11  N1b N    33.4600  -20.0200
+            12  C1c C    32.2700  -19.3200
+            13  C7a C    32.2700  -17.9200
+            14  C1b C    31.0100  -20.0200
+            15  O7a O    33.4600  -17.2200
+            16  O6a O    31.0100  -17.2200
+            17  C1b C    29.8200  -19.3200
+            18  C1b C    33.4600  -15.8200
+            19  C8y C    28.6300  -20.0200
+            20  C1a C    32.2000  -15.1200
+            21  C8x C    28.6300  -21.4200
+            22  C8x C    27.3700  -19.3200
+            23  C8x C    27.3700  -22.1200
+            24  C8x C    26.1800  -20.0200
+            25  C8x C    26.1800  -21.4200
+            26  C1c C    34.6500  -19.3200
+            27  C5a C    35.8400  -20.0200
+            28  O5a O    35.8400  -21.4200
+            29  C1a C    34.6500  -17.9200
+            30  C6a C    37.1000  -16.5200
+            31  O6a O    38.2900  -15.7500
+            32  O6a O    35.8400  -15.8200
+BOND        34
+            1     6   7 1
+            2     9  10 1
+            3     1   2 1
+            4     1   3 1
+            5    11  12 1
+            6    12  13 1 #Up
+            7    12  14 1
+            8    13  15 1
+            9    13  16 2
+            10   14  17 1
+            11   15  18 1
+            12   17  19 1
+            13   18  20 1
+            14   19  21 1
+            15   19  22 2
+            16   21  23 2
+            17   22  24 1
+            18   23  25 1
+            19   24  25 2
+            20    2   4 2
+            21   11  26 1
+            22    2   5 1
+            23   26  27 1
+            24   27   3 1
+            25    3   6 1
+            26   27  28 2
+            27    4   7 1
+            28   26  29 1 #Up
+            29    4   8 1
+            30    6  30 1 #Down
+            31    5   9 2
+            32   30  31 1
+            33    8  10 2
+            34   30  32 2
+///

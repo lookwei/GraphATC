@@ -1,0 +1,64 @@
+ENTRY       D00495                      Drug
+NAME        Paramethadione (INN);
+            Paradione (TN)
+FORMULA     C7H11NO3
+EXACT_MASS  157.0739
+MOL_WEIGHT  157.1671
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02032  Oxazolidine antiepileptic
+REMARK      Same as: C07411
+            ATC code: N03AC01
+EFFICACY    Anticonvulsant
+COMMENT     Oxazolidine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04010(775+776+778+779)  MAPK signaling pathway
+            hsa04020(775+776+778+779)  Calcium signaling pathway
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AC Oxazolidine derivatives
+                 N03AC01 Paramethadione
+                  D00495  Paramethadione (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02032  Oxazolidine antiepileptic
+                D00495  Paramethadione
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D00495  Paramethadione (INN)
+DBLINKS     CAS: 115-67-3
+            PubChem: 7847561
+            ChEBI: 7921
+            LigandBox: D00495
+            NIKKAJI: J5.271J
+ATOM        11
+            1   C1z C    24.5242  -19.9618
+            2   C5x C    25.6546  -19.1462
+            3   O7x O    24.9611  -21.2844
+            4   C1b C    23.3240  -20.6552
+            5   C1a C    23.4640  -18.9012
+            6   N1y N    26.7790  -19.9618
+            7   O5x O    25.6546  -17.7595
+            8   C7x C    26.3478  -21.2844
+            9   C1a C    22.1296  -19.9501
+            10  C1a C    28.1017  -19.5365
+            11  O6a O    27.1636  -22.4031
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     4   9 1
+            9     6  10 1
+            10    8  11 2
+            11    6   8 1
+///

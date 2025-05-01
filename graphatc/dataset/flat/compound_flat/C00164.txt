@@ -1,0 +1,60 @@
+ENTRY       C00164                      Compound
+NAME        Acetoacetate;
+            3-Oxobutanoic acid;
+            beta-Ketobutyric acid;
+            Acetoacetic acid
+FORMULA     C4H6O3
+EXACT_MASS  102.0317
+MOL_WEIGHT  102.0886
+REACTION    R00410 R01357 R01358 R01359 R01360 R01361 R01364 R01365 
+            R01366 R01367 R03225 R05713 R05735 R10564
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00310  Lysine degradation
+            map00350  Tyrosine metabolism
+            map00643  Styrene degradation
+            map00650  Butanoate metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map02020  Two-component system
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA
+            M00044  Tyrosine degradation, tyrosine => homogentisate
+            M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+NETWORK     nt06016  Phenylalanine and tyrosine metabolism
+ENZYME      1.1.1.30        1.1.99.24       1.8.1.5         2.3.1.247       
+            2.8.3.5         2.8.3.8         2.8.3.9         3.1.2.11        
+            3.7.1.2         4.1.1.4         4.1.3.4         4.2.1.27        
+            6.2.1.16        6.4.1.6
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               3-Oxocarboxylic acids
+                C00164  Acetoacetate; 3-Oxobutanoate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0106 Oxo fatty acids
+                C00164  3-Oxobutanoic acid
+DBLINKS     CAS: 541-50-4
+            PubChem: 3464
+            ChEBI: 13705 15344
+            LIPIDMAPS: LMFA01060003
+            KNApSAcK: C00007458
+            PDB-CCD: AAE
+            3DMET: B00047
+            NIKKAJI: J4.508J
+ATOM        7
+            1   C5a C    25.2700  -21.0000
+            2   C1b C    26.4600  -21.6300
+            3   C1a C    24.0100  -21.7000
+            4   O5a O    25.2700  -19.6000
+            5   C6a C    27.6500  -20.9300
+            6   O6a O    27.6500  -19.5300
+            7   O6a O    28.9100  -21.6300
+BOND        6
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     5   6 2
+            6     5   7 1
+///

@@ -1,0 +1,108 @@
+ENTRY       D07937                      Drug
+NAME        Etorphine (INN)
+FORMULA     C25H33NO4
+EXACT_MASS  411.241
+MOL_WEIGHT  411.5338
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      Same as: C11793
+EFFICACY    Analgesic, Anesthetic, Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+            OPRD1 [HSA:4985] [KO:K04213]
+  PATHWAY   hsa04080(4985+4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               D07937  Etorphine
+             Analgesic
+              DG01984  Opioid analgesics
+               D07937  Etorphine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07937  Etorphine (INN)
+                OPRK1
+                 D07937  Etorphine (INN)
+                OPRD1
+                 D07937  Etorphine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D07937
+DBLINKS     CAS: 14521-96-1
+            PubChem: 96024632
+            ChEBI: 4912
+            LigandBox: D07937
+ATOM        30
+            1   C1z C    18.1124  -15.6040
+            2   C1z C    19.2968  -16.3007
+            3   C1y C    16.9282  -16.3007
+            4   C8y C    18.1124  -14.2803
+            5   C1x C    19.2968  -14.9074
+            6   C1y C    20.4811  -15.6736
+            7   C1x C    19.2968  -17.6940
+            8   C2x C    18.7395  -17.3456
+            9   C1z C    16.9282  -17.6243
+            10  O2x O    16.2315  -14.7680
+            11  C8y C    16.9282  -13.5836
+            12  C8y C    19.2968  -13.5836
+            13  C1x C    21.6653  -14.9073
+            14  N1y N    21.6653  -16.3007
+            15  C1x C    20.4811  -14.2803
+            16  C1y C    18.1124  -18.3209
+            17  C2x C    17.5551  -16.6490
+            18  O2a O    15.5349  -17.6243
+            19  C8y C    16.9281  -12.1903
+            20  C8x C    19.2968  -12.1903
+            21  C1a C    22.8497  -15.6736
+            22  C1d C    18.1124  -19.7142
+            23  C1a C    14.4202  -18.5996
+            24  C8x C    18.1821  -11.4937
+            25  O1a O    15.7438  -11.4937
+            26  C1b C    19.2271  -20.4109
+            27  O1a O    16.8585  -20.3412
+            28  C1a C    16.8585  -19.0176
+            29  C1b C    20.4114  -19.7142
+            30  C1a C    21.5958  -20.4109
+BOND        35
+            1     1   3 1
+            2     1   4 1
+            3     1   5 1 #Up
+            4     2   6 1
+            5     2   7 1
+            6     2   8 1 #Down
+            7     3   9 1
+            8     3  10 1 #Down
+            9     4  11 1
+            10    4  12 2
+            11    5  13 1
+            12    6  14 1 #Up
+            13    6  15 1
+            14    7  16 1
+            15    8  17 2
+            16    9  18 1
+            17   11  19 2
+            18   12  20 1
+            19   14  21 1
+            20   16  22 1
+            21   18  23 1
+            22   19  24 1
+            23   19  25 1
+            24   22  26 1
+            25   22  27 1 #Up
+            26   22  28 1 #Down
+            27   26  29 1
+            28    9  16 1
+            29    9  17 1 #Down
+            30   10  11 1
+            31   12  15 1
+            32   14  13 1 #Up
+            33   20  24 2
+            34   29  30 1
+            35    1   2 1
+///

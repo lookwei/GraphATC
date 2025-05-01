@@ -1,0 +1,28 @@
+ENTRY       D12430                      Drug
+NAME        Retatrutide (USAN)
+FORMULA     C221H342N46O68
+EXACT_MASS  4728.4718
+MOL_WEIGHT  4731.3476
+SEQUENCE    YXQGTFTSDY SILLDKKAQX AFIEYLLEGG PSSGAPPPS
+  TYPE      Peptide
+EFFICACY    Antidiabetic, Antiobesity
+COMMENT     Glycemic control and obesity
+TARGET      GCGR [HSA:2642] [KO:K04583]
+            GIPR [HSA:2696] [KO:K04580]
+            GLP1R [HSA:2740] [KO:K04581]
+  PATHWAY   hsa04080(2642+2696+2740)  Neuroactive ligand-receptor interaction
+            hsa04911(2740)  Insulin secretion
+            hsa04922(2642)  Glucagon signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Secretin receptor family
+               Glucagon
+                GLP1R
+                 D12430  Retatrutide (USAN)
+                GCGR
+                 D12430  Retatrutide (USAN)
+               Gastric inhibitory polypeptide
+                GIPR
+                 D12430  Retatrutide (USAN)
+DBLINKS     CAS: 2381089-83-2
+///

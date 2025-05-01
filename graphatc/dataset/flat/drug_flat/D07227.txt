@@ -1,0 +1,190 @@
+ENTRY       D07227                      Drug
+NAME        Ornipressin (INN);
+            POR 8 Sandoz (TN)
+FORMULA     C45H63N13O12S2
+EXACT_MASS  1041.4161
+MOL_WEIGHT  1042.1916
+CLASS       Cardiovascular agent
+             DG01952  Vasopressin analog
+REMARK      ATC code: H01BA05
+EFFICACY    Vasoconstrictor, Arginine vasopressin receptor agonist
+TARGET      AVPR1 [HSA:552 553] [KO:K04226 K04227]
+            AVPR2 [HSA:554] [KO:K04228]
+  PATHWAY   hsa04020(552+553)  Calcium signaling pathway
+            hsa04080(552+553+554)  Neuroactive ligand-receptor interaction
+            hsa04270(552+553)  Vascular smooth muscle contraction
+            hsa04962(554)  Vasopressin-regulated water reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H01 PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES
+               H01B POSTERIOR PITUITARY LOBE HORMONES
+                H01BA Vasopressin and analogues
+                 H01BA05 Ornipressin
+                  D07227  Ornipressin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01952  Vasopressin analog
+               D07227  Ornipressin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Vasopressin
+                AVPR1
+                 D07227  Ornipressin (INN)
+                AVPR2
+                 D07227  Ornipressin (INN)
+DBLINKS     CAS: 3397-23-7
+            PubChem: 51091565
+            LigandBox: D07227
+            NIKKAJI: J9.858B
+ATOM        72
+            1   N1y N    19.8125  -21.0028
+            2   C1y C    20.2326  -22.2629
+            3   C5a C    19.8125  -19.6725
+            4   C1x C    18.4824  -21.0028
+            5   C5a C    21.3528  -22.8930
+            6   C1x C    19.1125  -23.0329
+            7   C1y C    20.9326  -19.0424
+            8   O5a O    18.6224  -19.0424
+            9   C1x C    18.0623  -22.2629
+            10  N1b N    22.4729  -22.2629
+            11  O5a O    21.3528  -24.2231
+            12  N1x N    20.9326  -17.7123
+            13  C1x C    22.0528  -19.6725
+            14  C1c C    23.6630  -22.8930
+            15  C5x C    22.0528  -17.0122
+            16  S3x S    23.1729  -19.0424
+            17  C5a C    23.6630  -24.2231
+            18  C1b C    24.7831  -22.2629
+            19  C1y C    22.0528  -15.6820
+            20  O5x O    23.1729  -17.7123
+            21  S3x S    24.3632  -19.6725
+            22  N1b N    24.7831  -24.8532
+            23  O5a O    22.4729  -24.8532
+            24  C1b C    25.9033  -22.8930
+            25  N1x N    20.9326  -15.0520
+            26  C1b C    23.1729  -15.0520
+            27  C1x C    25.4833  -19.0424
+            28  C1b C    25.9033  -24.2231
+            29  C1b C    27.0234  -22.2629
+            30  C5x C    20.9326  -13.7218
+            31  C1y C    26.6035  -19.6725
+            32  C1y C    22.9630  -13.0217
+            33  O5x O    19.8125  -13.0917
+            34  C5x C    27.7935  -19.0424
+            35  N1x N    24.7831  -13.7218
+            36  C1b C    22.9630  -11.2715
+            37  N1x N    28.9137  -19.6725
+            38  O5x O    27.7935  -17.7123
+            39  C5x C    26.6734  -13.0217
+            40  C1b C    21.8429  -10.6414
+            41  C1y C    30.0338  -19.0424
+            42  C1y C    28.9137  -13.7218
+            43  O5x O    26.6734  -11.6916
+            44  C5a C    20.6527  -11.2715
+            45  C1b C    31.1540  -19.6725
+            46  C5x C    30.0338  -17.4322
+            47  C1b C    30.1739  -13.0917
+            48  N1x N    28.9137  -16.7321
+            49  N1a N    19.5325  -10.5714
+            50  O5a O    20.6527  -12.6016
+            51  C8y C    32.3441  -19.0424
+            52  O5x O    31.1540  -16.7321
+            53  C8y C    31.3640  -13.6518
+            54  C8x C    33.4643  -19.6725
+            55  C8x C    32.3441  -17.7123
+            56  C8x C    31.3640  -14.9819
+            57  C8x C    32.5541  -13.0217
+            58  C8x C    34.5845  -19.0424
+            59  C8x C    33.4643  -17.0122
+            60  C8x C    32.5541  -15.6820
+            61  C8x C    33.6743  -13.6518
+            62  C8y C    34.5845  -17.7123
+            63  C8x C    33.6743  -14.9819
+            64  O1a O    35.7746  -17.0122
+            65  C5a C    27.0934  -24.9232
+            66  N1a N    28.3537  -24.2231
+            67  O5a O    27.0934  -26.3234
+            68  N1a N    28.2137  -22.8930
+            69  N1a N    26.6035  -21.0727
+            70  C5a C    24.3784  -15.7421
+            71  N1a N    25.5512  -15.0592
+            72  O5a O    24.3841  -17.1544
+BOND        75
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1 #Down
+            5     2   6 1
+            6     7   3 1 #Up
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    7  12 1
+            12    7  13 1
+            13   10  14 1
+            14   12  15 1
+            15   13  16 1
+            16   14  17 1 #Up
+            17   14  18 1
+            18   15  19 1
+            19   15  20 2
+            20   16  21 1
+            21   17  22 1
+            22   17  23 2
+            23   18  24 1
+            24   19  25 1
+            25   19  26 1 #Up
+            26   21  27 1
+            27   22  28 1
+            28   24  29 1
+            29   25  30 1
+            30   27  31 1
+            31   30  32 1
+            32   30  33 2
+            33   31  34 1
+            34   32  35 1
+            35   32  36 1 #Down
+            36   34  37 1
+            37   34  38 2
+            38   35  39 1
+            39   36  40 1
+            40   37  41 1
+            41   39  42 1
+            42   39  43 2
+            43   40  44 1
+            44   41  45 1 #Down
+            45   41  46 1
+            46   42  47 1 #Up
+            47   42  48 1
+            48   44  49 1
+            49   44  50 2
+            50   45  51 1
+            51   46  52 2
+            52   47  53 1
+            53   51  54 2
+            54   51  55 1
+            55   53  56 2
+            56   53  57 1
+            57   54  58 1
+            58   55  59 2
+            59   56  60 1
+            60   57  61 2
+            61   58  62 2
+            62   60  63 2
+            63   62  64 1
+            64    6   9 1
+            65   46  48 1
+            66   59  62 1
+            67   61  63 1
+            68   28  65 1
+            69   65  66 1
+            70   65  67 2
+            71   29  68 1
+            72   31  69 1 #Up
+            73   26  70 1
+            74   70  71 1
+            75   70  72 2
+///

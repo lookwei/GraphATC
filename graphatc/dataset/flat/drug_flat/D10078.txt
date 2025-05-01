@@ -1,0 +1,69 @@
+ENTRY       D10078                      Drug
+NAME        Peginterferon lambda-1a (USAN)
+FORMULA     C875H1408N254O251S5(C2H4O)n
+SEQUENCE    *MKPTTTGKGC HIGRFKSLSP QELASFKKAR DALEESLKLK NWSCSSPVFP
+            GNWDLRLLQV RERPVALEAE LALTLKVLEA AAGPALEDVL DQPLHTLHHI LSQLQACIQP
+            QPTAGPRPRG RLHHWLHRLQ EAPKKESAGC LEASVTFNLF RLLTRDLKYV ADGNLSLRTS
+            THPEST
+            (*M=modified residue)
+  TYPE      Peptide
+CLASS       Immunological agent
+             DG01752  Interferone
+EFFICACY    Antiviral, Biological response modifier
+COMMENT     Treatment of chronic hepatitis C infection
+TARGET      IFNLR1 [HSA:163702] [KO:K05140]
+  PATHWAY   hsa04060(163702)  Cytokine-cytokine receptor interaction
+            hsa04630(163702)  JAK-STAT signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Immunological agent
+              DG01752  Interferone
+               D10078  Peginterferon lambda-1a
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Interferon receptors
+                IFNLR1
+                 D10078  Peginterferon lambda-1a (USAN)
+DBLINKS     PubChem: 135626798
+ATOM        17
+            1   O2a O     9.2400  -17.5000
+            2   C1b C    10.4524  -18.2000
+            3   C1a C     7.5376  -18.3400
+            4   C1b C    11.6479  -17.5096
+            5   O2a O    12.8353  -18.1951
+            6   C1b C    14.0265  -17.5071
+            7   C1b C    15.2160  -18.1938
+            8   C1b C    16.4061  -17.5065
+            9   N1b N    17.5962  -18.1935
+            10  C1c C    18.7860  -17.5063
+            11  C4a C    19.9762  -18.1934
+            12  Z   *    21.1660  -17.5062
+            13  O4a O    19.9765  -19.5997
+            14  C1b C    18.7860  -16.1002
+            15  C1b C    17.5541  -15.3888
+            16  S2a S    16.3488  -16.0846
+            17  C1a C    15.1665  -15.4018
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   11  13 2
+            13   10  14 1 #Up
+            14   14  15 1
+            15   15  16 1
+            16   16  17 1
+BRACKET     1     8.6100  -19.5300    8.6100  -16.3100
+            1    11.7600  -16.3100   11.7600  -19.5300
+            1  n
+  ORIGINAL  1    1   2   4
+  REPEAT    1 
+///

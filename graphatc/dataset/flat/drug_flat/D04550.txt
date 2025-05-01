@@ -1,0 +1,31 @@
+ENTRY       D04550                      Drug
+NAME        Insulin zinc, prompt (USP);
+            Semilente iletin (TN)
+CLASS       Antidiabetic agent
+             DG01636  Insulin preparation
+              DG01802  Human insulin
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+EFFICACY    Antidiabetic, Insulin receptor agonist
+TARGET      INSR (CD220) [HSA:3643] [KO:K04527]
+  PATHWAY   hsa04910(3643)  Insulin signaling pathway
+INTERACTION CYP induction: CYP1A2 [HSA:1544]
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01636  Insulin preparation
+               DG01802  Human insulin
+                D04550  Insulin zinc, prompt
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               D04550  Insulin zinc, prompt
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               INSR family
+                INSR (CD220)
+                 D04550  Insulin zinc, prompt (USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04550
+DBLINKS     PubChem: 47206395
+///

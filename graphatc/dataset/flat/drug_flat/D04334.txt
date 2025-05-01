@@ -1,0 +1,50 @@
+ENTRY       D04334                      Drug
+NAME        Glucosamine (USAN/INN);
+            D-Glucosamine
+FORMULA     C6H13NO5
+EXACT_MASS  179.0794
+MOL_WEIGHT  179.1711
+REMARK      Same as: C00329
+            ATC code: M01AX05
+            Chemical structure group: DG00760
+EFFICACY    Dietary supplement
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AX Other antiinflammatory and antirheumatic agents, non-steroids
+                 M01AX05 Glucosamine
+                  D04334  Glucosamine (USAN/INN)
+DBLINKS     CAS: 3416-24-8
+            PubChem: 47206254
+            ChEBI: 47977
+            PDB-CCD: GCS PA1
+            LigandBox: D04334
+            NIKKAJI: J10.582A
+ATOM        12
+            1   C1y C    20.9195  -13.5285
+            2   C1y C    20.9195  -14.9267
+            3   O2x O    22.1254  -12.8237
+            4   C1b C    19.7136  -12.8237
+            5   C1y C    22.1254  -15.6316
+            6   O1a O    19.7136  -15.6316
+            7   C1y C    23.3430  -13.5285
+            8   O1a O    18.6474  -13.7325
+            9   C1y C    23.3430  -14.9267
+            10  O1a O    22.1312  -17.0298
+            11  O1a O    24.5546  -12.8237
+            12  N1a N    24.5546  -15.6316
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Either
+            11    9  12 1 #Down
+            12    7   9 1
+///

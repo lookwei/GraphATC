@@ -1,0 +1,138 @@
+ENTRY       D00457                      Drug
+NAME        Quazepam (JAN/USP/INN);
+            Doral (TN)
+PRODUCT     DORAL (Galt Pharmaceuticals)
+  GENERIC   QUAZEPAM (Atland Pharmaceuticals)
+FORMULA     C17H11ClF4N2S
+EXACT_MASS  386.0268
+MOL_WEIGHT  386.7943
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07336
+            Therapeutic category: 1124
+            ATC code: N05CD10
+            Product: D00457<JP/US>
+EFFICACY    Sedative-hypnotic
+  DISEASE   Insomnia [DS:H01609]
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CD Benzodiazepine derivatives
+                 N05CD10 Quazepam
+                  D00457  Quazepam (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Sleep Disorder Agents
+              Sleep Promoting Agents
+               Quazepam
+                D00457  Quazepam (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D00457  Quazepam (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               D00457  Quazepam
+              DG03202  Hypnotic
+               D00457  Quazepam
+              DG01567  GABA-A receptor agonist
+               D00457  Quazepam
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D00457  Quazepam
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00457  Quazepam
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03202  Hypnotic
+               D00457  Quazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00457  Quazepam (JAN/USP/INN) &lt;JP/US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00457
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00457
+DBLINKS     CAS: 36735-22-5
+            PubChem: 7847523
+            ChEBI: 8694
+            LigandBox: D00457
+            NIKKAJI: J17.787C
+ATOM        25
+            1   C2y C    14.2831  -12.8278
+            2   C8y C    13.4404  -11.7174
+            3   C8y C    13.7759  -10.3597
+            4   N1y N    15.0377   -9.7811
+            5   N2x N    15.6899  -12.7830
+            6   C2y C    16.2922  -10.4039
+            7   C1x C    16.5789  -11.7736
+            8   C8x C    12.7680   -9.3906
+            9   C8x C    11.4251   -9.7789
+            10  C8y C    11.0897  -11.1367
+            11  C8x C    12.0975  -12.1055
+            12  S0  S    17.3371   -9.4688
+            13  X   Cl    9.7239  -11.5314
+            14  C8y C    13.6482  -14.0784
+            15  C8x C    12.2456  -14.0784
+            16  C8x C    11.5451  -15.2917
+            17  C8x C    12.2456  -16.5050
+            18  C8x C    13.6482  -16.5050
+            19  C8y C    14.3487  -15.2917
+            20  X   F    15.7606  -15.2918
+            21  C1b C    15.0595   -8.0553
+            22  C1d C    16.2778   -7.3773
+            23  X   F    17.4902   -6.6773
+            24  X   F    16.9643   -8.5877
+            25  X   F    15.5836   -6.1532
+BOND        27
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 2
+            22   19  20 1
+            23    4  21 1
+            24   21  22 1
+            25   22  23 1
+            26   22  24 1
+            27   22  25 1
+///

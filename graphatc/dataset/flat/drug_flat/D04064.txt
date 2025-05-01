@@ -1,0 +1,126 @@
+ENTRY       D04064                      Drug
+NAME        Estradiol enanthate (USAN)
+FORMULA     C25H36O3
+EXACT_MASS  384.2664
+MOL_WEIGHT  384.5515
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G03CA03
+            Chemical structure group: DG00462
+            Product (DG00462): D00105<JP/US> D01413<JP/US> D04061<US> D04063<US> D07918<US>
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA03 Estradiol
+                  D04064  Estradiol enanthate (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00462  Estradiol
+                D04064  Estradiol enanthate
+              DG01584  Estrogen receptor agonist
+               DG00462  Estradiol
+                D04064  Estradiol enanthate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00462  Estradiol
+                 D04064  Estradiol enanthate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D04064  Estradiol enanthate (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04064
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00462  Estradiol
+              DG01584  Estrogen receptor agonist
+               DG00462  Estradiol
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00462  Estradiol
+DBLINKS     CAS: 4956-37-0
+            PubChem: 47206021
+            LigandBox: D04064
+            NIKKAJI: J13.812F
+ATOM        28
+            1   C8x C    15.3591  -19.1390
+            2   C8y C    15.3591  -20.4708
+            3   C8x C    16.5507  -21.1718
+            4   C8y C    17.7425  -20.4708
+            5   C8y C    17.7425  -19.1390
+            6   C8x C    16.5507  -18.4380
+            7   C1x C    18.9340  -21.1718
+            8   C1x C    20.1257  -20.4708
+            9   C1y C    20.1257  -19.1390
+            10  C1y C    18.9340  -18.4380
+            11  C1y C    21.3173  -18.4380
+            12  C1z C    21.3173  -17.1062
+            13  C1x C    20.1257  -16.4053
+            14  C1x C    18.9340  -17.1062
+            15  C1x C    23.6305  -18.4380
+            16  C1x C    23.6305  -17.1062
+            17  C1y C    22.4388  -16.4053
+            18  O7a O    22.4388  -15.0734
+            19  C1a C    21.3173  -15.7043
+            20  O1a O    14.1675  -21.1718
+            21  C7a C    23.6305  -14.3725
+            22  C1b C    24.8221  -15.0734
+            23  O6a O    23.6305  -12.9705
+            24  C1b C    26.0138  -14.3725
+            25  C1b C    27.2054  -15.0734
+            26  C1b C    28.4522  -14.3672
+            27  C1b C    29.6274  -15.0587
+            28  C1a C    30.8360  -14.3740
+BOND        31
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   17  18 1 #Up
+            22   12  19 1 #Up
+            23    2  20 1
+            24   18  21 1
+            25   21  22 1
+            26   21  23 2
+            27   22  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+///

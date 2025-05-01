@@ -1,0 +1,91 @@
+ENTRY       D10371                      Drug
+NAME        Methylsamidorphan (USAN)
+FORMULA     C22H29N2O4
+EXACT_MASS  385.2127
+MOL_WEIGHT  385.4767
+CLASS       Analgesic
+             DG01586  Opioid receptor antagonist
+REMARK      Chemical structure group: DG01830
+EFFICACY    Laxative, Opioid receptor antagonist
+COMMENT     Opioid induced constipation
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+BRITE       Drug groups [BR:br08330]
+             Analgesic
+              DG01586  Opioid receptor antagonist
+               DG01830  Methylsamidorphan
+                D10371  Methylsamidorphan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D10371  Methylsamidorphan (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01586  Opioid receptor antagonist
+               DG01830  Methylsamidorphan
+DBLINKS     CAS: 1119361-12-4
+            PubChem: 172232464
+ATOM        28
+            1   C1x C    20.4400  -18.6200
+            2   C5x C    20.4400  -19.9500
+            3   C1x C    21.6300  -20.6500
+            4   C1x C    22.8900  -19.9500
+            5   C1z C    22.8900  -18.6200
+            6   C1z C    21.6300  -17.9200
+            7   C1y C    24.0100  -17.9200
+            8   C1x C    24.0100  -16.5200
+            9   C8y C    22.8900  -15.8200
+            10  C8y C    21.6300  -16.5200
+            11  C8x C    22.8900  -14.4900
+            12  C8x C    21.6300  -13.7900
+            13  C8y C    20.4400  -14.4900
+            14  C8y C    20.4400  -15.8200
+            15  O5x O    19.2500  -20.6500
+            16  O1a O    24.0100  -19.2500
+            17  N2y N    25.2000  -18.6200 #+
+            18  C1x C    22.8900  -17.2200
+            19  C1x C    25.2000  -17.2200
+            20  C1b C    26.6000  -18.6200
+            21  C1y C    27.2300  -19.7400
+            22  C1x C    28.3500  -20.3000
+            23  C1x C    27.2300  -21.0700
+            24  O1a O    19.2500  -16.5200
+            25  C5a C    19.2500  -13.7900
+            26  O5a O    18.0600  -14.4900
+            27  N1a N    19.2500  -12.3900
+            28  C1a C    26.3900  -16.8224
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11    6  10 1
+            12    9  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   10  14 1
+            17    2  15 2
+            18    5  16 1 #Up
+            19    7  17 1
+            20    6  18 1 #Up
+            21   17  19 1
+            22   18  19 1
+            23   17  20 1 #Up
+            24   20  21 1
+            25   22  21 1
+            26   21  23 1
+            27   22  23 1
+            28   14  24 1
+            29   13  25 1
+            30   25  26 2
+            31   25  27 1
+            32   17  28 1 #Down
+///

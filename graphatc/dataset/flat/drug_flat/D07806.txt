@@ -1,0 +1,74 @@
+ENTRY       D07806                      Drug
+NAME        Dexmethylphenidate (INN)
+FORMULA     C14H19NO2
+EXACT_MASS  233.1416
+MOL_WEIGHT  233.3062
+REMARK      ATC code: N06BA11
+            Chemical structure group: DG00972
+            Product (DG00972): D03721<US>
+            Product (mixture): D11989<US>
+EFFICACY    Stimulant (central)
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04721(6530+6531+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+            hsa04728(6531)  Dopaminergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA11 Dexmethylphenidate
+                  D07806  Dexmethylphenidate (INN)
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D07806  Dexmethylphenidate (INN)
+                SLC6A3 (DAT1)
+                 D07806  Dexmethylphenidate (INN)
+                SLC6A4 (HTT)
+                 D07806  Dexmethylphenidate (INN)
+DBLINKS     CAS: 40431-64-9
+            PubChem: 96024503
+            LigandBox: D07806
+ATOM        17
+            1   C1c C    24.7100  -17.2200
+            2   C1y C    23.5200  -16.5200
+            3   C7a C    25.9700  -16.5900
+            4   C1x C    22.3300  -17.2200
+            5   N1x N    23.5200  -15.1200
+            6   O7a O    25.9700  -15.1900
+            7   O6a O    27.1600  -17.2900
+            8   C1x C    21.1400  -16.5200
+            9   C1x C    22.3300  -14.4200
+            10  C1a C    27.1600  -14.4900
+            11  C1x C    21.1400  -15.1200
+            12  C8y C    24.7100  -18.6200
+            13  C8x C    23.5200  -19.3200
+            14  C8x C    25.9000  -19.3900
+            15  C8x C    23.5200  -20.7200
+            16  C8x C    25.9000  -20.7900
+            17  C8x C    24.7100  -21.4200
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    8  11 1
+            11    9  11 1
+            12   12  13 2
+            13   12  14 1
+            14   13  15 1
+            15   14  16 2
+            16   15  17 2
+            17   16  17 1
+            18    1  12 1 #Down
+///

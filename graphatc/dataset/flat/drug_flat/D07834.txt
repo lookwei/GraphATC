@@ -1,0 +1,148 @@
+ENTRY       D07834                      Drug
+NAME        Dihydroergocristine (BAN)
+FORMULA     C35H41N5O5
+EXACT_MASS  611.3108
+MOL_WEIGHT  611.7305
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+              DG01963  Vasodilator, ergot alkaloid
+REMARK      ATC code: C04AE04
+            Chemical structure group: DG00284
+EFFICACY    Vasodilator (peripheral)
+COMMENT     Ergot alkaloid derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AE Ergot alkaloids
+                 C04AE04 Dihydroergocristine
+                  D07834  Dihydroergocristine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG00284  Dihydroergocristine
+                 D07834  Dihydroergocristine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D07834  Dihydroergocristine (BAN)
+                ADRA2
+                 D07834  Dihydroergocristine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG00284  Dihydroergocristine
+DBLINKS     CAS: 17479-19-5
+            PubChem: 96024531
+            ChEBI: 59912
+            LigandBox: D07834
+            NIKKAJI: J984I
+ATOM        45
+            1   C1z C    26.8800  -15.9600
+            2   N1y N    26.8800  -17.2200
+            3   C1y C    28.0000  -15.3300
+            4   O2x O    25.7600  -15.3300
+            5   O1a O    26.8800  -14.0000
+            6   C1y C    28.0000  -17.9200
+            7   C5x C    24.6400  -17.2900
+            8   N1y N    29.1200  -15.9600
+            9   C1x C    28.0000  -14.0000
+            10  C1z C    24.6400  -15.9600
+            11  C5x C    29.1200  -17.2200
+            12  C1b C    28.0000  -19.1800
+            13  O5x O    23.6600  -18.2000
+            14  C1x C    30.2400  -15.3300
+            15  C1x C    30.2400  -14.0000
+            16  N1b N    22.9600  -15.2600
+            17  C1c C    24.6400  -13.5100
+            18  O5x O    30.2400  -17.9200
+            19  C8y C    29.0500  -19.8800
+            20  C5a C    21.4900  -15.9600
+            21  C8x C    29.0500  -21.1400
+            22  C8x C    30.1700  -19.1800
+            23  C1y C    21.4900  -17.2200
+            24  O5a O    20.3700  -15.2600
+            25  C8x C    30.1700  -21.7700
+            26  C8x C    31.2900  -19.8800
+            27  C1x C    20.3700  -17.9200
+            28  C1x C    22.6100  -17.9200
+            29  C8x C    31.2900  -21.1400
+            30  C1y C    20.3700  -19.1800
+            31  N1y N    22.6100  -19.1800
+            32  C8y C    19.2500  -19.8100
+            33  C1y C    21.4900  -19.8100
+            34  C1a C    23.7300  -19.8100
+            35  C8y C    19.2500  -21.1400
+            36  C8x C    18.1300  -19.1800
+            37  C1x C    21.4900  -21.1400
+            38  C8y C    20.3700  -21.7700
+            39  C8y C    18.1300  -21.7700
+            40  C8x C    17.0100  -19.8100
+            41  C8x C    20.3700  -23.1000
+            42  N4x N    18.1300  -23.1000
+            43  C8x C    17.0100  -21.1400
+            44  C1a C    25.8300  -12.8100
+            45  C1a C    23.4500  -12.8100
+BOND        52
+            1     4  10 1
+            2     6  11 1
+            3     6  12 1 #Down
+            4     7  13 2
+            5     8  14 1
+            6     9  15 1
+            7    10  16 1
+            8    10  17 1 #Up
+            9    11  18 2
+            10   12  19 1
+            11   16  20 1
+            12   19  21 2
+            13   19  22 1
+            14   23  20 1 #Up
+            15   20  24 2
+            16   21  25 1
+            17   22  26 2
+            18   23  27 1
+            19   23  28 1
+            20   25  29 2
+            21   27  30 1
+            22   28  31 1
+            23   30  32 1
+            24   30  33 1
+            25   31  34 1
+            26   32  35 1
+            27   32  36 2
+            28   33  37 1
+            29   35  38 1
+            30   35  39 2
+            31   36  40 1
+            32   38  41 2
+            33   39  42 1
+            34   39  43 1
+            35    7  10 1
+            36    8  11 1
+            37   14  15 1
+            38   26  29 1
+            39   31  33 1
+            40   37  38 1
+            41   40  43 2
+            42   41  42 1
+            43   17  44 1
+            44   17  45 1
+            45    1   2 1
+            46    1   3 1
+            47    1   4 1
+            48    1   5 1 #Down
+            49    2   6 1
+            50    2   7 1
+            51    3   8 1
+            52    3   9 1
+///

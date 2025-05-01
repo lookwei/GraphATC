@@ -1,0 +1,216 @@
+ENTRY       D10625                      Drug
+NAME        Elbasvir (JAN/USAN/INN);
+            Erelsa (TN)
+  ABBR      EBR
+FORMULA     C49H55N9O7
+EXACT_MASS  881.4224
+MOL_WEIGHT  882.0171
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG01999  HCV NS5A inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02862  ABCG2 inhibitor
+REMARK      ATC code: J05AP10
+            Product (mixture): D10778<US>
+EFFICACY    Antiviral, NS5A inhibitor
+COMMENT     Treatment of Hepatis C
+TARGET      HCV NS5A [KO:K22275]
+  PATHWAY   ko03230(K22275)  Viral genome structure
+            ko03240(K22275)  Viral replication
+            ko05160(K22275)  Hepatitis C
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION Transporter inhibition: ABCG2 [HSA:9429], ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP10 Elbasvir
+                  D10625  Elbasvir (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01999  HCV NS5A inhibitor
+                D10625  Elbasvir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D10625  Elbasvir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10625  Elbasvir
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10625  Elbasvir
+              DG02862  ABCG2 inhibitor
+               D10625  Elbasvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10625  Elbasvir (JAN/USAN/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10625  Elbasvir (JAN/USAN/INN)
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10625
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10625
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10625
+             Drug transporters
+              D10625
+DBLINKS     CAS: 1370468-36-2
+            PubChem: 254741586
+            ChEBI: 132967
+ATOM        65
+            1   C1y C    13.2300  -23.8000
+            2   N1y N    11.9000  -24.2200
+            3   C1x C    11.9000  -25.6200
+            4   C1x C    13.2300  -26.0400
+            5   C1x C    14.0700  -24.9200
+            6   C8y C    14.9800  -20.5800
+            7   C8x C    13.6500  -20.1600
+            8   N5x N    12.8100  -21.3500
+            9   C8y C    13.6500  -22.4700
+            10  N4x N    14.9800  -22.0500
+            11  C8y C    16.1000  -19.8800
+            12  C8x C    17.2900  -20.5800
+            13  C8x C    18.5500  -19.8800
+            14  C8y C    18.5500  -18.4800
+            15  C8y C    17.3600  -17.7800
+            16  C8x C    16.1000  -18.4800
+            17  N4y N    19.5300  -17.5700
+            18  C8y C    18.9700  -16.3100
+            19  C8x C    17.6400  -16.4500
+            20  C1y C    20.9300  -17.7100
+            21  O2x O    21.7700  -16.5900
+            22  C8y C    21.2100  -15.3300
+            23  C8y C    19.8100  -15.1200
+            24  C8x C    22.0500  -14.1400
+            25  C8y C    21.4900  -12.9500
+            26  C8x C    20.0900  -12.8100
+            27  C8x C    19.2500  -13.8600
+            28  C8y C    21.4900  -18.9700
+            29  C8x C    22.8900  -19.1100
+            30  C8x C    20.7200  -20.0900
+            31  C8x C    21.2800  -21.3500
+            32  C8x C    22.6800  -21.5600
+            33  C8x C    23.4500  -20.3700
+            34  C2y C    22.4700  -11.9700
+            35  C1x C    23.8700  -12.1800
+            36  N2x N    24.5000  -10.9200
+            37  C2y C    23.5200   -9.9400
+            38  N2x N    22.2600  -10.5700
+            39  C1y C    23.8700   -8.6100
+            40  N1y N    25.1300   -8.0500
+            41  C1x C    25.1300   -6.6500
+            42  C1x C    23.7300   -6.3000
+            43  C1x C    22.9600   -7.4900
+            44  C5a C    10.7100  -23.5200
+            45  C1c C     9.5200  -24.2200
+            46  O5a O    10.7100  -22.1200
+            47  N1b N     8.3300  -23.5200
+            48  C1c C     9.5200  -25.6200
+            49  C1a C    10.7100  -26.3200
+            50  C1a C     8.3300  -26.3200
+            51  C7a C     7.1400  -24.2200
+            52  O6a O     5.9500  -23.5200
+            53  O7a O     7.1400  -25.6200
+            54  C1a C     5.9500  -26.3200
+            55  C5a C    26.3200   -8.7500
+            56  C1c C    27.5100   -8.0500
+            57  O5a O    26.3200  -10.1500
+            58  N1b N    28.7281   -8.7401
+            59  C1c C    27.4986   -6.6500
+            60  C1a C    26.2892   -5.9648
+            61  C1a C    28.7138   -5.9352
+            62  C7a C    29.9095   -8.0450
+            63  O6a O    31.1149   -8.7280
+            64  O7a O    29.8981   -6.6500
+            65  C1a C    31.1083   -5.9603
+BOND        73
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 2
+            7     7   8 1
+            8     8   9 2
+            9     9  10 1
+            10    6  10 1
+            11    6  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   11  16 1
+            18   14  17 1
+            19   17  18 1
+            20   18  19 2
+            21   15  19 1
+            22   17  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 2
+            26   18  23 1
+            27   22  24 1
+            28   24  25 2
+            29   25  26 1
+            30   26  27 2
+            31   23  27 1
+            32   28  29 1
+            33   28  30 2
+            34   30  31 1
+            35   31  32 2
+            36   32  33 1
+            37   29  33 2
+            38   20  28 1 #Up
+            39   25  34 1
+            40   34  35 1
+            41   35  36 1
+            42   36  37 2
+            43   37  38 1
+            44   34  38 2
+            45    1   9 1 #Down
+            46   39  40 1
+            47   40  41 1
+            48   41  42 1
+            49   42  43 1
+            50   39  43 1
+            51   39  37 1 #Down
+            52   44   2 1
+            53   44  45 1
+            54   44  46 2
+            55   45  47 1 #Down
+            56   45  48 1
+            57   48  49 1
+            58   48  50 1
+            59   47  51 1
+            60   51  52 2
+            61   51  53 1
+            62   53  54 1
+            63   40  55 1
+            64   55  56 1
+            65   55  57 2
+            66   56  58 1 #Down
+            67   56  59 1
+            68   59  60 1
+            69   59  61 1
+            70   58  62 1
+            71   62  63 2
+            72   62  64 1
+            73   64  65 1
+///

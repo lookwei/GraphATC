@@ -1,0 +1,106 @@
+ENTRY       D02754                      Drug
+NAME        Acitretin (USP/INN);
+            Soriatane (TN)
+PRODUCT
+  GENERIC   ACITRETIN (Amneal Pharmaceuticals of New York LLC)
+            ACITRETIN (AvKARE)
+            ACITRETIN (Mylan Pharmaceuticals)
+            ACITRETIN (Sigmapharm Laboratories)
+            ACITRETIN (Teva Pharmaceuticals USA)
+FORMULA     C21H26O3
+EXACT_MASS  326.1882
+MOL_WEIGHT  326.4293
+CLASS       Vitamin and mineral
+             DG01604  Retinol derivative
+REMARK      ATC code: D05BB02
+            Product: D02754<US>
+EFFICACY    Antipsoriatic, Retinoic acid receptor agonist
+  DISEASE   Psoriasis [DS:H01656]
+COMMENT     Vitamin A derivative
+TARGET      NR1B (RAR) [HSA:5914 5915 5916] [KO:K08527 K08528 K08529]
+            NR2B (RXR) [HSA:6256 6257 6258] [KO:K08524 K08525 K08526]
+  PATHWAY   hsa04659(5914+6256+6257+6258)  Th17 cell differentiation
+STR_MAP     map07223  Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D05 ANTIPSORIATICS
+               D05B ANTIPSORIATICS FOR SYSTEMIC USE
+                D05BB Retinoids for treatment of psoriasis
+                 D05BB02 Acitretin
+                  D02754  Acitretin (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Acne and Rosacea Agents
+               Retinoids
+                Acitretin
+                 D02754  Acitretin (USP/INN)
+            Drug groups [BR:br08330]
+             Vitamin and mineral
+              DG01604  Retinol derivative
+               D02754  Acitretin
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Retinoic acid receptor (RAR)
+                NR1B (RAR)
+                 D02754  Acitretin (USP/INN) &lt;US&gt;
+              Hepatocyte nuclear factor 4 like receptors
+               Retinoid X receptor (RXR)
+                NR2B (RXR)
+                 D02754  Acitretin (USP/INN) &lt;US&gt;
+DBLINKS     CAS: 55079-83-9
+            PubChem: 17396912
+            ChEBI: 50173
+            LigandBox: D02754
+            NIKKAJI: J23.289K
+ATOM        24
+            1   C8y C    21.1622  -16.4882
+            2   C8y C    21.1622  -17.8979
+            3   C8y C    19.9639  -15.7834
+            4   C2b C    22.4309  -15.7834
+            5   C8x C    19.9639  -18.6028
+            6   C8y C    18.7657  -16.4882
+            7   C1a C    19.9639  -14.3736
+            8   C2b C    23.6292  -16.4882
+            9   C8y C    18.7657  -17.8979
+            10  C2c C    24.8274  -15.7834
+            11  C2b C    26.0257  -16.4882
+            12  C1a C    24.8274  -14.3736
+            13  C2b C    27.2239  -15.7834
+            14  C2b C    28.4222  -16.4882
+            15  C2c C    29.6204  -15.7834
+            16  C2b C    30.8187  -16.4177
+            17  C1a C    29.6204  -14.3736
+            18  C6a C    32.0169  -15.7834
+            19  O6a O    33.2857  -16.4177
+            20  O6a O    32.0169  -14.3736
+            21  C1a C    17.5392  -15.7933
+            22  O2a O    17.5449  -18.6028
+            23  C1a C    22.4057  -18.6028
+            24  C1a C    16.3183  -17.9079
+BOND        24
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     8  10 1
+            10   10  11 2
+            11   10  12 1
+            12   11  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 2
+            16   15  17 1
+            17   16  18 1
+            18   18  19 1
+            19   18  20 2
+            20    6   9 2
+            21    6  21 1
+            22    9  22 1
+            23   23   2 1
+            24   24  22 1
+///

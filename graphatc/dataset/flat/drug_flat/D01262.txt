@@ -1,0 +1,110 @@
+ENTRY       D01262                      Drug
+NAME        Cephacetrile sodium (USAN);
+            Cefacetrile sodium (JAN);
+            Celtol (TN)
+FORMULA     C13H12N3O6S. Na
+EXACT_MASS  361.0345
+MOL_WEIGHT  361.3056
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01774  First-generation cephalosporin
+REMARK      Same as: C12691
+            ATC code: J01DB10
+            Chemical structure group: DG00554
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DB First-generation cephalosporins
+                 J01DB10 Cefacetrile
+                  D01262  Cephacetrile sodium (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00554  Cefacetrile
+                  D01262  Cephacetrile sodium
+              DG01774  First-generation cephalosporin
+               DG00554  Cefacetrile
+                D01262  Cephacetrile sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               First-generation cephalosporin
+                D01262  Cephacetrile sodium (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00554  Cefacetrile
+              DG01774  First-generation cephalosporin
+               DG00554  Cefacetrile
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               First-generation cephalosporin
+                DG00554  Cefacetrile
+DBLINKS     CAS: 23239-41-0
+            PubChem: 7848325
+            ChEBI: 31364
+            LigandBox: D01262
+            NIKKAJI: J15.821F
+ATOM        24
+            1   C1y C    27.1957  -14.2175
+            2   N1y N    27.1957  -15.6192
+            3   C2y C    28.4096  -16.3200
+            4   C2y C    29.6236  -15.6192
+            5   C1x C    29.6236  -14.2175
+            6   S2x S    28.4096  -13.5166
+            7   C1y C    25.7940  -14.2175
+            8   C5x C    25.7940  -15.6192
+            9   N1b N    24.5801  -13.5166
+            10  C5a C    23.3661  -14.2175
+            11  O5a O    23.3661  -15.6192
+            12  O5x O    24.5801  -16.3200
+            13  C1b C    22.1523  -13.5166
+            14  C3b C    20.9384  -14.2175
+            15  C1b C    30.8562  -16.3311
+            16  O7a O    32.0628  -15.6345
+            17  C7a C    33.2466  -16.3181
+            18  C1a C    34.4421  -15.6280
+            19  O6a O    33.2466  -17.7216
+            20  C6a C    28.4096  -17.7216
+            21  O6a O    27.1789  -18.4323
+            22  O6a O    29.6066  -18.4128 #-
+            23  N3a N    19.7244  -14.9183
+            24  Z   Na   31.0100  -18.4100 #+
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15   13  14 1
+            16    4  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   17  19 2
+            21    3  20 1
+            22   20  21 2
+            23   20  22 1
+            24   14  23 3
+///

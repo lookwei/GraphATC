@@ -1,0 +1,171 @@
+ENTRY       D09347                      Drug
+NAME        Fostamatinib (USAN)
+FORMULA     C23H26FN6O9P
+EXACT_MASS  580.1483
+MOL_WEIGHT  580.4595
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02862  ABCG2 inhibitor
+REMARK      ATC code: B02BX09
+            Chemical structure group: DG01419
+            Product (DG01419): D09348<JP/US>
+EFFICACY    Antineoplastic, Immunomodulator, Tyrosin kinase inhibitor
+COMMENT     Treatment of rheumatoid arthritis, immune thrombocytopenic purpura, and B-cell lymphoma
+TARGET      SYK [HSA:6850] [KO:K05855]
+  PATHWAY   hsa04064(6850)  NF-kappa B signaling pathway
+            hsa04662(6850)  B cell receptor signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B02 ANTIHEMORRHAGICS
+               B02B VITAMIN K AND OTHER HEMOSTATICS
+                B02BX Other systemic hemostatics
+                 B02BX09 Fostamatinib
+                  D09347  Fostamatinib (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01419  Fostamatinib
+                D09347  Fostamatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01419  Fostamatinib
+                 D09347  Fostamatinib
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01419  Fostamatinib
+                D09347  Fostamatinib
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG01419  Fostamatinib
+                D09347  Fostamatinib
+              DG02862  ABCG2 inhibitor
+               DG01419  Fostamatinib
+                D09347  Fostamatinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               SYK family
+                SYK
+                 D09347  Fostamatinib (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09347
+             Drug transporters
+              D09347
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01419  Fostamatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01419  Fostamatinib
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01419  Fostamatinib
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG01419  Fostamatinib
+              DG02862  ABCG2 inhibitor
+               DG01419  Fostamatinib
+DBLINKS     CAS: 901119-35-5
+            PubChem: 96026027
+            PDB-CCD: 2RC
+            LigandBox: D09347
+ATOM        40
+            1   N1b N    19.2868  -25.2551
+            2   C8y C    19.2868  -23.8526
+            3   N5x N    18.0947  -23.1513
+            4   C8x C    18.0947  -21.7488
+            5   C8y C    19.2868  -21.0475
+            6   C8y C    20.5491  -21.7488
+            7   N5x N    20.5491  -23.1513
+            8   X   F    19.2868  -19.6450
+            9   N1b N    21.7413  -21.0475
+            10  C8y C    22.9334  -21.7488
+            11  N5x N    24.1256  -21.0475
+            12  C8y C    25.3879  -21.7488
+            13  C8y C    25.3879  -23.1513
+            14  C8x C    24.1957  -23.8526
+            15  C8x C    22.9334  -23.1513
+            16  N1y N    26.5800  -21.0475
+            17  C5x C    27.7722  -21.7488
+            18  C1z C    27.7722  -23.1513
+            19  O2x O    26.5800  -23.8526
+            20  C1a C    28.9644  -23.8526
+            21  C1a C    28.9644  -22.4500
+            22  O5x O    28.9644  -21.0475
+            23  C1b C    26.5800  -19.6450
+            24  O2b O    27.7722  -18.9437
+            25  P1b P    27.7722  -17.5412
+            26  C8y C    20.5014  -25.9564
+            27  C8x C    20.5014  -27.3587
+            28  C8y C    21.7161  -28.0600
+            29  C8y C    22.9307  -27.3587
+            30  C8y C    22.9307  -25.9564
+            31  C8x C    21.7161  -25.2551
+            32  O2a O    24.1474  -28.0612
+            33  O2a O    24.1474  -25.2539
+            34  O2a O    21.7161  -29.4625
+            35  O1c O    29.1747  -17.5412
+            36  O1c O    26.3697  -17.5412
+            37  O1c O    27.7722  -16.1386
+            38  C1a C    25.3688  -25.9589
+            39  C1a C    25.3580  -27.3623
+            40  C1a C    22.9196  -30.1575
+BOND        43
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     6   7 2
+            7     2   7 1
+            8     5   8 1
+            9     6   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17   12  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   13  19 1
+            22   18  20 1
+            23   18  21 1
+            24   17  22 2
+            25   16  23 1
+            26   23  24 1
+            27   24  25 1
+            28    1  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   26  31 1
+            35   29  32 1
+            36   30  33 1
+            37   28  34 1
+            38   25  35 1
+            39   25  36 1
+            40   25  37 2
+            41   33  38 1
+            42   32  39 1
+            43   34  40 1
+///

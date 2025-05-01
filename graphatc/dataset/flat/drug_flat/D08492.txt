@@ -1,0 +1,136 @@
+ENTRY       D08492                      Drug
+NAME        Rosuvastatin (INN);
+            Creston (TN)
+FORMULA     C22H28FN3O6S
+EXACT_MASS  481.1683
+MOL_WEIGHT  481.5376
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01660  HMG-CoA reductase inhibitor
+            Transporter substrate
+             DG01913  ABCG2 substrate
+             DG02856  SLCO1B1 substrate
+REMARK      ATC code: C10AA07
+            Chemical structure group: DG00357
+            Product (DG00357): D01915<JP/US>
+            Product (mixture): D11520<JP/US>
+EFFICACY    Antihyperlipidemic, HMG-CoA reductase inhibitor
+TARGET      HMGCR [HSA:3156] [KO:K00021]
+  PATHWAY   hsa00900(3156)  Terpenoid backbone biosynthesis
+METABOLISM  Transporter: SLCO1B1 [HSA:10599], ABCG2 [HSA:9429]
+INTERACTION  
+STR_MAP     map07024  HMG-CoA reductase inhibitors
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AA HMG CoA reductase inhibitors
+                 C10AA07 Rosuvastatin
+                  D08492  Rosuvastatin (INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00357  Rosuvastatin
+                 D08492  Rosuvastatin
+             Transporter substrate
+              DG01913  ABCG2 substrate
+               DG00357  Rosuvastatin
+                D08492  Rosuvastatin
+              DG02856  SLCO1B1 substrate
+               DG00357  Rosuvastatin
+                D08492  Rosuvastatin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                HMGCR
+                 D08492  Rosuvastatin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D08492
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00357  Rosuvastatin
+             Transporter substrate
+              DG01913  ABCG2 substrate
+               DG00357  Rosuvastatin
+              DG02856  SLCO1B1 substrate
+               DG00357  Rosuvastatin
+DBLINKS     CAS: 287714-41-4
+            PubChem: 96025178
+            ChEBI: 38545
+            LigandBox: D08492
+ATOM        33
+            1   C8y C    24.1500  -19.4600
+            2   N5x N    24.1500  -20.8600
+            3   C8y C    25.3400  -21.5600
+            4   N5x N    26.6000  -20.8600
+            5   C8y C    26.6000  -19.4600
+            6   C8y C    25.3400  -18.7600
+            7   C1c C    27.7900  -18.7600
+            8   C1a C    28.9800  -19.4600
+            9   C1a C    27.7900  -17.3600
+            10  C2b C    25.3400  -17.3600
+            11  C2b C    26.6000  -16.6600
+            12  C1c C    26.6000  -15.2600
+            13  O1a O    27.7900  -14.5600
+            14  C1b C    25.3400  -14.5600
+            15  C1c C    25.3400  -13.1600
+            16  O1a O    24.1500  -12.4600
+            17  C1b C    26.6000  -12.4600
+            18  C6a C    28.0000  -12.4600
+            19  O6a O    28.7000  -11.2700
+            20  O6a O    28.7000  -13.6500
+            21  N1c N    25.3400  -22.9600
+            22  S4a S    26.6000  -23.6600
+            23  C1a C    24.1500  -23.6600
+            24  C1a C    27.7900  -22.9600
+            25  O3c O    25.6200  -24.6400
+            26  O3c O    27.5800  -24.6400
+            27  C8y C    22.9600  -18.7600
+            28  C8x C    22.9600  -17.3600
+            29  C8x C    21.7000  -16.6600
+            30  C8y C    20.5100  -17.3600
+            31  C8x C    20.5100  -18.7600
+            32  C8x C    21.7000  -19.4600
+            33  X   F    19.3200  -16.6600
+BOND        34
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    6  10 1
+            11   10  11 2
+            12   12  11 1 #Down
+            13   12  13 1
+            14   12  14 1
+            15   14  15 1
+            16   15  16 1 #Up
+            17   15  17 1
+            18   17  18 1
+            19   18  19 2
+            20   18  20 1
+            21    3  21 1
+            22   21  22 1
+            23   21  23 1
+            24   22  24 1
+            25   22  25 2
+            26   22  26 2
+            27    1  27 1
+            28   27  28 2
+            29   28  29 1
+            30   29  30 2
+            31   30  31 1
+            32   31  32 2
+            33   27  32 1
+            34   30  33 1
+///

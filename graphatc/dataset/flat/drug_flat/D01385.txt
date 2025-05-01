@@ -1,0 +1,117 @@
+ENTRY       D01385                      Drug
+NAME        Ibudilast (JP18/INN);
+            Ketas (TN)
+FORMULA     C14H18N2O
+EXACT_MASS  230.1419
+MOL_WEIGHT  230.3055
+CLASS       Cardiovascular agent
+             DG01507  Phosphodiesterase III inhibitor
+            Anti-allergic agent
+             DG01541  Cysteinyl leukotriene receptor antagonist
+REMARK      Therapeutic category: 1319 2190 4490
+            ATC code: R03DC04
+            Product: D01385<JP>
+EFFICACY    Antiallergic, Bronchodilator, Vasodilator, Phosphodiesterase inhibitor, Leukotriene receptor antagonist
+TARGET      PDE3 [HSA:5139 5140] [KO:K19021 K13296]
+            PDE4 [HSA:5141 5142 5143 5144] [KO:K13293]
+            CYSLTR1 [HSA:10800] [KO:K04322]
+            PTGIR [HSA:5739] [KO:K04263]
+  PATHWAY   hsa04022(5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+            hsa04080(10800+5739)  Neuroactive ligand-receptor interaction
+            hsa04270(5739)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03D OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+                R03DC Leukotriene receptor antagonists
+                 R03DC04 Ibudilast
+                  D01385  Ibudilast (JP18/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1319  Others
+                 D01385  Ibudilast (JP18/INN)
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D01385  Ibudilast (JP18/INN)
+             4  Agents affecting cellular function
+              44  Allergic agents
+               449  Miscellaneous
+                4490  Miscellaneous
+                 D01385  Ibudilast (JP18/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01507  Phosphodiesterase III inhibitor
+               D01385  Ibudilast
+             Anti-allergic agent
+              DG01541  Cysteinyl leukotriene receptor antagonist
+               D01385  Ibudilast
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Cysteinyl leukotriene
+                CYSLTR1
+                 D01385  Ibudilast (JP18/INN) &lt;JP&gt;
+               Prostacyclin
+                PTGIR
+                 D01385  Ibudilast (JP18/INN) &lt;JP&gt;
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE3
+                 D01385  Ibudilast (JP18/INN) &lt;JP&gt;
+                PDE4
+                 D01385  Ibudilast (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01385  Ibudilast
+DBLINKS     CAS: 50847-11-5
+            PubChem: 7848448
+            ChEBI: 31684
+            PDB-CCD: AVL
+            LigandBox: D01385
+            NIKKAJI: J22.219D
+ATOM        17
+            1   C8y C    30.7566  -13.8910
+            2   C8x C    27.0075  -12.0480
+            3   C8x C    27.0075  -13.4486
+            4   C8x C    28.2235  -14.1489
+            5   C8x C    28.2235  -11.3477
+            6   N4y N    29.4322  -12.0480
+            7   C8y C    29.4263  -13.4520
+            8   C8y C    31.5895  -12.7592
+            9   N5x N    30.7693  -11.6199
+            10  C1c C    32.9902  -12.7663
+            11  C1a C    33.6842  -13.9831
+            12  C1a C    33.6968  -11.5570
+            13  C5a C    30.7566  -15.2910
+            14  O5a O    29.5382  -15.9946
+            15  C1c C    31.9358  -15.9713
+            16  C1a C    33.1409  -15.2749
+            17  C1a C    31.9362  -17.3599
+BOND        18
+            1     1   8 1
+            2     8   9 2
+            3     9   6 1
+            4     6   5 1
+            5     8  10 1
+            6     5   2 2
+            7     2   3 1
+            8     3   4 2
+            9     4   7 1
+            10    6   7 1
+            11   10  11 1
+            12    7   1 2
+            13   10  12 1
+            14    1  13 1
+            15   13  14 2
+            16   13  15 1
+            17   15  16 1
+            18   15  17 1
+///

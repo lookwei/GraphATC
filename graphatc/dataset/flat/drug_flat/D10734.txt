@@ -1,0 +1,162 @@
+ENTRY       D10734                      Drug
+NAME        Temsavir (USAN/INN)
+  ABBR      TMR
+FORMULA     C24H23N7O4
+EXACT_MASS  473.1812
+MOL_WEIGHT  473.4839
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+            Transporter inhibitor
+             DG02862  ABCG2 inhibitor
+             DG02865  SLCO1B1 inhibitor
+             DG02907  SLCO1B3 inhibitor
+REMARK      Same as: C21558
+            Chemical structure group: DG01860
+            Product (DG01860): D10708<US>
+EFFICACY    Antiviral
+COMMENT     HIV-1 attachment inhibitor
+            Treatment of HIV
+TARGET      HIV-1 gp120 [KO:K24266]
+  PATHWAY   ko03230(K24266)  Viral genome structure
+            ko03250(K24266)  Viral life cycle - HIV-1
+            ko03260(K24266)  Virion - Human immunodeficiency virus
+            ko04061(K24266)  Viral protein interaction with cytokine and cytokine receptor
+            ko05170(K24266)  Human immunodeficiency virus 1 infection
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+            Transporter: ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+INTERACTION Transporter inhibition: ABCG2 [HSA:9429], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+BRITE       Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG01860  Temsavir
+                D10734  Temsavir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01860  Temsavir
+                D10734  Temsavir
+              DG01913  ABCG2 substrate
+               DG01860  Temsavir
+                D10734  Temsavir
+             Transporter inhibitor
+              DG02862  ABCG2 inhibitor
+               DG01860  Temsavir
+                D10734  Temsavir
+              DG02865  SLCO1B1 inhibitor
+               DG01860  Temsavir
+                D10734  Temsavir
+              DG02907  SLCO1B3 inhibitor
+               DG01860  Temsavir
+                D10734  Temsavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               HIV gp41/gp120
+                D10734  Temsavir (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10734
+             Drug transporters
+              D10734
+            Prodrugs [br08324.html]
+             D10734
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG01860  Temsavir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01860  Temsavir
+              DG01913  ABCG2 substrate
+               DG01860  Temsavir
+             Transporter inhibitor
+              DG02862  ABCG2 inhibitor
+               DG01860  Temsavir
+              DG02865  SLCO1B1 inhibitor
+               DG01860  Temsavir
+              DG02907  SLCO1B3 inhibitor
+               DG01860  Temsavir
+            Prodrugs [br08324.html(DG01860)]
+             DG01860
+DBLINKS     CAS: 701213-36-7
+            PubChem: 254741695
+            PDB-CCD: 83J
+ATOM        35
+            1   N5x N    16.9400  -18.2700
+            2   C8x C    18.1300  -18.9700
+            3   C8y C    19.3900  -18.2700
+            4   C8y C    19.3900  -16.8700
+            5   C8y C    18.1300  -16.1700
+            6   C8y C    16.9400  -16.8700
+            7   C8y C    20.3700  -15.8900
+            8   C8x C    19.8100  -14.6300
+            9   N4x N    18.4100  -14.7700
+            10  N4y N    15.7500  -16.1700
+            11  C8x C    15.5400  -14.7700
+            12  N5x N    14.2100  -14.4900
+            13  C8y C    13.5100  -15.7500
+            14  N5x N    14.4900  -16.7300
+            15  C1a C    12.1100  -15.7500
+            16  O2a O    20.5800  -18.9700
+            17  C1a C    20.5800  -20.3700
+            18  C5a C    21.7700  -16.0300
+            19  O5a O    22.7500  -15.1900
+            20  C5a C    22.4700  -17.5000
+            21  O5a O    21.4900  -18.4800
+            22  N1y N    23.8000  -17.8500
+            23  C1x C    24.1500  -19.1800
+            24  C1x C    25.5500  -19.5300
+            25  N1y N    26.5300  -18.5500
+            26  C1x C    26.1800  -17.2200
+            27  C1x C    24.7800  -16.8000
+            28  C8x C    27.2300  -21.2100
+            29  C8y C    28.2800  -20.2300
+            30  C5a C    27.8600  -18.9000
+            31  C8x C    27.6500  -22.6100
+            32  C8x C    28.9800  -22.9600
+            33  C8x C    29.9600  -21.9100
+            34  C8x C    29.6100  -20.5800
+            35  O5a O    28.8400  -17.9200
+BOND        39
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    6  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   10  14 1
+            17   13  15 1
+            18    3  16 1
+            19   16  17 1
+            20    7  18 1
+            21   18  19 2
+            22   18  20 1
+            23   20  21 2
+            24   20  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   22  27 1
+            31   28  29 2
+            32   29  30 1
+            33   25  30 1
+            34   28  31 1
+            35   31  32 2
+            36   32  33 1
+            37   33  34 2
+            38   29  34 1
+            39   30  35 2
+///

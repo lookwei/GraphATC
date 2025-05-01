@@ -1,0 +1,135 @@
+ENTRY       D08443                      Drug
+NAME        Propranolol (INN);
+            Propranolol (TN)
+FORMULA     C16H21NO2
+EXACT_MASS  259.1572
+MOL_WEIGHT  259.3434
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+             DG03231  Antihypertensive
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07407
+            ATC code: C07AA05
+            Chemical structure group: DG00305
+            Product (DG00305): D00483<JP/US>
+EFFICACY    Antiarrhythmic, Antihypertensive, beta-Adrenergic receptor antagonist
+COMMENT     Class II antiarrhythmic agent
+            Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP1A2 [HSA:1544], CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07048  Antimigraines
+            map07114  Naphthalene family
+            map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA05 Propranolol
+                  D08443  Propranolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00305  Propranolol
+                 D08443  Propranolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00305  Propranolol
+                 D08443  Propranolol
+              DG03231  Antihypertensive
+               DG00305  Propranolol
+                D08443  Propranolol
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00305  Propranolol
+                D08443  Propranolol
+              DG01639  CYP2C19 substrate
+               DG00305  Propranolol
+                D08443  Propranolol
+              DG01644  CYP2D6 substrate
+               DG00305  Propranolol
+                D08443  Propranolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D08443  Propranolol (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08443
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00305  Propranolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00305  Propranolol
+              DG03231  Antihypertensive
+               DG00305  Propranolol
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00305  Propranolol
+              DG01639  CYP2C19 substrate
+               DG00305  Propranolol
+              DG01644  CYP2D6 substrate
+               DG00305  Propranolol
+DBLINKS     CAS: 525-66-6
+            PubChem: 96025129
+            ChEBI: 8499
+            LigandBox: D08443
+            NIKKAJI: J6.653B
+ATOM        19
+            1   C8y C    21.0700  -18.9700
+            2   C8y C    22.3300  -18.2700
+            3   C8y C    21.0700  -20.3700
+            4   C8x C    19.8800  -18.2700
+            5   O2a O    22.3300  -16.8700
+            6   C8x C    23.5200  -18.9700
+            7   C8x C    22.2600  -21.0700
+            8   C8x C    19.8800  -21.0700
+            9   C8x C    18.6900  -18.9700
+            10  C1b C    23.5200  -16.1700
+            11  C8x C    23.5200  -20.3700
+            12  C8x C    18.6900  -20.3700
+            13  C1c C    24.7100  -16.8700
+            14  C1b C    25.9700  -16.1700
+            15  O1a O    24.7100  -18.2700
+            16  N1b N    27.1600  -16.8700
+            17  C1c C    28.3500  -16.1700
+            18  C1a C    29.6100  -16.8700
+            19  C1a C    28.3500  -14.7700
+BOND        20
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 1
+            11    8  12 2
+            12   10  13 1
+            13   13  14 1
+            14   13  15 1
+            15   14  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19    7  11 2
+            20    9  12 1
+///

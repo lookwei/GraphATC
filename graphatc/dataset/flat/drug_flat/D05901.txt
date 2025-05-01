@@ -1,0 +1,83 @@
+ENTRY       D05901                      Drug
+NAME        Picoprazole (INN)
+FORMULA     C17H17N3O3S
+EXACT_MASS  343.0991
+MOL_WEIGHT  343.4002
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01646  Proton pump inhibitor (PPI)
+EFFICACY    Antisecretory (gastric acid), Proton pump inhibitor
+COMMENT     Benzimidazole derivative
+TARGET      ATP4 [HSA:495 496] [KO:K01542 K01543]
+  PATHWAY   hsa04966(495+496)  Collecting duct acid secretion
+            hsa04971(495+496)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                D05901  Picoprazole
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP4
+                 D05901  Picoprazole (INN)
+DBLINKS     CAS: 78090-11-6
+            PubChem: 17398309
+            LigandBox: D05901
+            NIKKAJI: J126.216E
+ATOM        24
+            1   C8y C    15.0494  -15.0568
+            2   C8y C    15.0494  -16.4624
+            3   C8x C    16.2667  -17.1652
+            4   C8y C    17.4841  -16.4624
+            5   C8y C    17.4841  -15.0568
+            6   C8x C    16.2667  -14.3539
+            7   N5x N    18.8210  -16.8968
+            8   C8y C    19.6472  -15.7596
+            9   N4x N    18.8210  -14.6224
+            10  S4a S    21.0234  -15.7596
+            11  C1b C    21.7262  -16.9769
+            12  C8y C    23.1317  -16.9769
+            13  O3c O    21.7262  -14.5423
+            14  C8y C    23.8250  -18.1773
+            15  C8x C    25.2306  -18.1771
+            16  C8x C    25.9332  -16.9597
+            17  C8x C    25.2401  -15.7594
+            18  N5x N    23.8344  -15.7595
+            19  C1a C    23.1368  -19.3693
+            20  C1a C    13.8321  -17.1652
+            21  C7a C    13.8321  -14.3539
+            22  O7a O    12.6318  -15.0471
+            23  O6a O    13.8320  -12.9485
+            24  C1a C    11.4396  -14.3589
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   10  13 2
+            15   12  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   12  18 1
+            21   14  19 1
+            22    2  20 1
+            23    1  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 1
+///

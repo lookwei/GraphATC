@@ -1,0 +1,140 @@
+ENTRY       D07981                      Drug
+NAME        Fluticasone (INN);
+            Fluticaps (TN)
+FORMULA     C22H27F3O4S
+EXACT_MASS  444.1582
+MOL_WEIGHT  444.5076
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07815
+            ATC code: D07AC17 R01AD08 R03BA05
+            Chemical structure group: DG00420
+            Product (DG00420): D01708<JP/US> D06315<JP/US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC17 Fluticasone
+                  D07981  Fluticasone (INN)
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AD Corticosteroids
+                 R01AD08 Fluticasone
+                  D07981  Fluticasone (INN)
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03B OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES, INHALANTS
+                R03BA Glucocorticoids
+                 R03BA05 Fluticasone
+                  D07981  Fluticasone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00420  Fluticasone
+                 D07981  Fluticasone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00420  Fluticasone
+                 D07981  Fluticasone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07981  Fluticasone (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07981
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00420  Fluticasone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00420  Fluticasone
+DBLINKS     CAS: 90566-53-3
+            PubChem: 96024676
+            ChEBI: 5134
+            LigandBox: D07981
+            NIKKAJI: J22.755B
+ATOM        30
+            1   C2x C    19.5739  -28.3860
+            2   C5x C    19.5739  -29.7339
+            3   C2x C    20.7799  -30.4434
+            4   C2y C    21.9150  -29.7339
+            5   C1z C    21.9150  -28.3860
+            6   C2x C    20.7799  -27.7475
+            7   C1y C    23.1211  -30.4434
+            8   C1x C    24.3271  -29.7339
+            9   C1y C    24.3271  -28.3860
+            10  C1z C    23.1211  -27.7475
+            11  C1y C    25.3913  -27.7475
+            12  C1z C    25.3913  -26.3996
+            13  C1x C    24.3271  -25.6901
+            14  C1y C    23.1211  -26.3996
+            15  C1x C    27.7324  -27.7475
+            16  C1y C    27.7324  -26.3996
+            17  C1z C    26.5264  -25.6901
+            18  O5x O    18.4388  -30.4434
+            19  C1a C    21.9150  -27.0381
+            20  X   F    23.1211  -29.0245
+            21  O1a O    21.9150  -25.6901
+            22  C1a C    25.3913  -24.9807
+            23  O1a O    27.9452  -24.7679
+            24  C1a C    29.1513  -26.3996
+            25  X   F    23.1211  -31.8622
+            26  C5a C    26.5264  -24.2713
+            27  O5a O    27.7551  -23.5618
+            28  S2a S    25.2976  -23.5618
+            29  C1b C    24.0860  -24.2615
+            30  X   F    22.8826  -23.5668
+BOND        33
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22    5  19 1 #Up
+            23   10  20 1 #Down
+            24   14  21 1 #Up
+            25   12  22 1 #Up
+            26   17  23 1 #Down
+            27   16  24 1 #Down
+            28    7  25 1 #Down
+            29   17  26 1 #Up
+            30   26  27 2
+            31   26  28 1
+            32   28  29 1
+            33   29  30 1
+///

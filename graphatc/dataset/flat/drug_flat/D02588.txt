@@ -1,0 +1,82 @@
+ENTRY       D02588                      Drug
+NAME        Montirelin (INN)
+FORMULA     C17H24N6O4S
+EXACT_MASS  408.158
+MOL_WEIGHT  408.4753
+REMARK      Chemical structure group: DG01347
+EFFICACY    Thyrotropin-releasing hormone receptor agonist
+COMMENT     Thyrotropin-releasing hormone
+TARGET      TRHR [HSA:7201] [KO:K04282]
+  PATHWAY   hsa04080(7201)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thyrotropin-releasing hormone
+                TRHR
+                 D02588  Montirelin (INN)
+DBLINKS     CAS: 90243-66-6
+            PubChem: 17396759
+            ChEBI: 31864
+            LigandBox: D02588
+            NIKKAJI: J596.952B
+ATOM        28
+            1   C8y C    24.5700  -14.7700
+            2   C8x C    25.9700  -14.7700
+            3   N5x N    26.3900  -13.4400
+            4   C8x C    25.2700  -12.6000
+            5   N4x N    24.1500  -13.4400
+            6   C1x C    27.5800  -15.5400
+            7   C1x C    28.0700  -16.8700
+            8   C1y C    26.8800  -17.7100
+            9   N1y N    25.7600  -16.8700
+            10  C1x C    26.1800  -15.5400
+            11  C5a C    24.5700  -17.5700
+            12  C1c C    23.3800  -16.8700
+            13  N1b N    22.1200  -17.5700
+            14  C5a C    20.9300  -16.8700
+            15  C1y C    19.7400  -17.5700
+            16  N1x N    18.4800  -16.8700
+            17  C5x C    17.2900  -17.5700
+            18  C1y C    17.2900  -18.9700
+            19  S2x S    18.4800  -19.6700
+            20  C1x C    19.7400  -18.9700
+            21  O5a O    20.9300  -15.4700
+            22  C1b C    23.3800  -15.4700
+            23  C5a C    26.8800  -19.1100
+            24  O5a O    25.6900  -19.8100
+            25  N1a N    28.1400  -19.8100
+            26  O5a O    24.5700  -18.9700
+            27  O5x O    16.1000  -16.8700
+            28  C1a C    16.1000  -19.6700
+BOND        30
+            1    13  14 1
+            2     3   4 2
+            3    15  14 1 #Down
+            4     4   5 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 1
+            8     9  10 1
+            9    15  16 1
+            10   16  17 1
+            11   17  18 1
+            12   18  19 1
+            13   19  20 1
+            14   20  15 1
+            15   10   6 1
+            16   14  21 2
+            17    5   1 1
+            18   12  22 1 #Up
+            19   22   1 1
+            20    9  11 1
+            21    8  23 1 #Up
+            22   23  24 2
+            23   11  12 1
+            24   23  25 1
+            25    1   2 2
+            26   11  26 2
+            27   12  13 1
+            28   17  27 2
+            29    2   3 1
+            30   18  28 1 #Down
+///

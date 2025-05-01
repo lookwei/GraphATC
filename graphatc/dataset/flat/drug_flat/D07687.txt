@@ -1,0 +1,105 @@
+ENTRY       D07687                      Drug
+NAME        Chlorprothixene citrate;
+            Truxal (TN)
+FORMULA     C18H18ClNS. C6H8O7
+EXACT_MASS  507.1119
+MOL_WEIGHT  507.9837
+REMARK      ATC code: N05AF03
+            Chemical structure group: DG00894
+EFFICACY    Antipsychotic, Neuroleptic, Dopamine receptor antagonist
+COMMENT     Thioxanthene derivative
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813)  Dopaminergic synapse
+STR_MAP     map07028  Antipsychotics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AF Thioxanthene derivatives
+                 N05AF03 Chlorprothixene
+                  D07687  Chlorprothixene citrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D07687  Chlorprothixene citrate
+                DRD2
+                 D07687  Chlorprothixene citrate
+DBLINKS     CAS: 861959-57-1
+            PubChem: 51091988
+            LigandBox: D07687
+ATOM        34
+            1   C8x C     5.0039  -11.0921
+            2   C8x C     5.0039  -12.4945
+            3   C8x C     6.1959  -13.2658
+            4   C8y C     7.4581  -12.4945
+            5   C8y C     7.4581  -11.0921
+            6   C8x C     6.1959  -10.3909
+            7   S2x S     8.6501  -13.2658
+            8   C8y C     9.9123  -12.4945
+            9   C8y C     9.9123  -11.0921
+            10  C8y C     8.6501  -10.3909
+            11  C8x C    11.0342  -13.2658
+            12  C8x C    12.2262  -12.4945
+            13  C8y C    12.2262  -11.0921
+            14  C8x C    11.0342  -10.3909
+            15  C2b C     8.6501   -8.9886
+            16  C1b C     9.9123   -8.2874
+            17  C1b C    11.0342   -8.9886
+            18  N1c N    12.2262   -8.2874
+            19  C1a C    13.4182   -8.9886
+            20  C1a C    12.2262   -6.9551
+            21  X   Cl   13.4883  -10.3909
+            22  C1d C    20.2300   -9.8700
+            23  C1b C    19.0400  -10.5700
+            24  C1b C    21.4200  -10.5700
+            25  C6a C    20.9300   -8.6800
+            26  O1a O    19.5300   -8.6800
+            27  C6a C    17.8500   -9.9400
+            28  C6a C    21.4200  -11.9700
+            29  O6a O    20.2300   -7.4900
+            30  O6a O    22.3300   -8.6800
+            31  O6a O    16.5900  -10.6400
+            32  O6a O    17.8500   -8.5400
+            33  O6a O    22.6800  -12.6700
+            34  O6a O    20.2300  -12.6700
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   10  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   18  20 1
+            23   13  21 1
+            24   22  23 1
+            25   22  24 1
+            26   22  25 1
+            27   22  26 1
+            28   23  27 1
+            29   24  28 1
+            30   25  29 1
+            31   25  30 2
+            32   27  31 1
+            33   27  32 2
+            34   28  33 1
+            35   28  34 2
+///

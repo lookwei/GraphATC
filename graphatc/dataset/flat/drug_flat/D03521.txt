@@ -1,0 +1,81 @@
+ENTRY       D03521                      Drug
+NAME        Ciprofibrate (USAN/INN)
+FORMULA     C13H14Cl2O3
+EXACT_MASS  288.032
+MOL_WEIGHT  289.1545
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01733  PPAR alpha agonist
+               DG01547  Fibrate
+REMARK      ATC code: C10AB08
+EFFICACY    Antihyperlipidemic, Triglyceride synthesis inhibitor, Peroxisome proliferator-activated receptor (PPAR) alpha agonist
+COMMENT     Clofibrate derivative
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+  PATHWAY   hsa03320(5465)  PPAR signaling pathway
+            hsa04920(5465)  Adipocytokine signaling pathway
+INTERACTION  
+STR_MAP     map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AB Fibrates
+                 C10AB08 Ciprofibrate
+                  D03521  Ciprofibrate (USAN/INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 D03521  Ciprofibrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D03521  Ciprofibrate (USAN/INN)
+DBLINKS     CAS: 52214-84-3
+            PubChem: 17397655
+            ChEBI: 50867
+            LigandBox: D03521
+            NIKKAJI: J10.383G
+ATOM        18
+            1   C8x C    13.1600  -16.7300
+            2   C8y C    13.1600  -18.1300
+            3   C8x C    14.3500  -18.8300
+            4   C8x C    15.6100  -18.1300
+            5   C8y C    15.6100  -16.7300
+            6   C8x C    14.3500  -16.0300
+            7   O2a O    16.8000  -16.0300
+            8   C1d C    17.9900  -16.7300
+            9   C1y C    11.9700  -18.8300
+            10  C6a C    19.1800  -16.0300
+            11  O6a O    20.3700  -16.7300
+            12  O6a O    19.1800  -14.6300
+            13  C1a C    16.8000  -17.4300
+            14  C1a C    19.2500  -17.4300
+            15  C1z C    10.5700  -18.8300
+            16  C1x C    11.2700  -20.0200
+            17  X   Cl    9.3547  -18.1349
+            18  X   Cl    9.5861  -19.8260
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     2   9 1
+            10    8  10 1
+            11   10  11 1
+            12   10  12 2
+            13    8  13 1
+            14    8  14 1
+            15   15   9 1
+            16    9  16 1
+            17   16  15 1
+            18   15  17 1
+            19   15  18 1
+///

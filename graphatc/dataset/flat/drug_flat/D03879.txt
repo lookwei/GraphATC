@@ -1,0 +1,117 @@
+ENTRY       D03879                      Drug
+NAME        Dobutamine (USAN/INN)
+FORMULA     C18H23NO3
+EXACT_MASS  301.1678
+MOL_WEIGHT  301.3801
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01451  beta1-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+REMARK      Same as: C06967
+            ATC code: C01CA07
+            Chemical structure group: DG00216
+            Product (DG00216): D00632<JP/US>
+EFFICACY    Cardiotonic, beta1-Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04020(153)  Calcium signaling pathway
+            hsa04022(153)  cGMP-PKG signaling pathway
+            hsa04024(153)  cAMP signaling pathway
+            hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA07 Dobutamine
+                  D03879  Dobutamine (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00216  Dobutamine
+                 D03879  Dobutamine
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01451  beta1-Adrenergic receptor agonist
+                 DG00216  Dobutamine
+                  D03879  Dobutamine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00216  Dobutamine
+                D03879  Dobutamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D03879  Dobutamine (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00216  Dobutamine
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01451  beta1-Adrenergic receptor agonist
+                 DG00216  Dobutamine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00216  Dobutamine
+DBLINKS     CAS: 34368-04-2
+            PubChem: 17397963
+            ChEBI: 4670
+            LigandBox: D03879
+            NIKKAJI: J244.475E
+ATOM        22
+            1   C8y C    14.4200  -16.4500
+            2   C8x C    13.2300  -15.8200
+            3   C8x C    14.4200  -17.8500
+            4   C1b C    15.6100  -15.8200
+            5   C8y C    12.0400  -16.5200
+            6   C8x C    13.2300  -18.6200
+            7   C1b C    16.8700  -16.4500
+            8   C8y C    12.0400  -17.9200
+            9   O1a O    10.7800  -15.8200
+            10  N1b N    18.0600  -15.8200
+            11  O1a O    10.7100  -18.6200
+            12  C1c C    19.2500  -16.5200
+            13  C1b C    20.5100  -15.8200
+            14  C1a C    19.2500  -17.8500
+            15  C1b C    21.7000  -16.5200
+            16  C8y C    22.8900  -15.8200
+            17  C8x C    24.0800  -16.5200
+            18  C8x C    22.8900  -14.4200
+            19  C8x C    25.3400  -15.8200
+            20  C8x C    24.0800  -13.7200
+            21  C8y C    25.3400  -14.4200
+            22  O1a O    26.5300  -13.7200
+BOND        23
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11   10  12 1
+            12   12  13 1
+            13   12  14 1
+            14   13  15 1
+            15   15  16 1
+            16   16  17 2
+            17   16  18 1
+            18   17  19 1
+            19   18  20 2
+            20   19  21 2
+            21   21  22 1
+            22    6   8 1
+            23   20  21 1
+///

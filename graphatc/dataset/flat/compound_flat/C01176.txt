@@ -1,0 +1,110 @@
+ENTRY       C01176                      Compound
+NAME        17alpha-Hydroxyprogesterone;
+            17alpha-Hydroxy-4-pregnene-3,20-dione;
+            Pregn-4-ene-3,20-dione-17-ol;
+            17alpha-Hydroxy-progesterone
+FORMULA     C21H30O3
+EXACT_MASS  330.2195
+MOL_WEIGHT  330.4611
+REMARK      Same as: D08052
+REACTION    R02211 R03325 R03326 R03327 R03329 R08206 R08518
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04913  Ovarian steroidogenesis
+            map04927  Cortisol synthesis and secretion
+            map04934  Cushing syndrome
+MODULE      M00109  C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone
+ENZYME      1.1.1.145       1.1.1.149       1.14.13.54      1.14.14.16      
+            1.14.14.19      1.14.14.32      1.14.15.4       5.3.3.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Steroid hormones
+               Progestagens
+                C01176  17alpha-Hydroxyprogesterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C01176  17alpha-Hydroxyprogesterone
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D08052)]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DA Pregnen (4) derivatives
+                 G03DA03 Hydroxyprogesterone
+                  D08052  Hydroxyprogesterone (INN)
+            Drug groups [BR:br08330(D08052)]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00467  Hydroxyprogesterone
+                D08052  Hydroxyprogesterone
+              DG01666  Progesterone receptor agonist
+               DG00467  Hydroxyprogesterone
+                D08052  Hydroxyprogesterone
+            Target-based classification of drugs [BR:br08310(D08052)]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D08052  Hydroxyprogesterone (INN)
+DBLINKS     CAS: 68-96-2
+            PubChem: 4403
+            ChEBI: 17252
+            LIPIDMAPS: LMST02030161
+            PDB-CCD: 3QZ
+            3DMET: B01402
+            NIKKAJI: J4.862C
+ATOM        24
+            1   C1x C    22.8200  -19.8100
+            2   C5x C    22.8200  -21.1400
+            3   C2x C    24.0100  -21.7700
+            4   C2y C    25.1300  -21.1400
+            5   C1z C    25.1300  -19.8100
+            6   C1x C    24.0100  -19.1100
+            7   C1x C    26.3200  -21.7700
+            8   C1x C    27.5800  -21.1400
+            9   C1y C    27.5800  -19.8100
+            10  C1y C    26.3200  -19.1100
+            11  C1y C    28.7000  -19.1100
+            12  C1z C    28.7000  -17.7100
+            13  C1x C    27.5800  -17.0800
+            14  C1x C    26.3200  -17.7100
+            15  O5x O    21.6300  -21.7700
+            16  C1a C    25.1300  -18.4100
+            17  C1a C    28.7000  -16.3800
+            18  C1x C    31.0800  -19.1100
+            19  C1x C    31.0800  -17.7100
+            20  C1z C    29.8900  -17.0800
+            21  C5a C    29.8900  -15.6800
+            22  O5a O    28.7000  -14.9800
+            23  C1a C    31.0800  -14.9800
+            24  O1a O    31.0800  -16.3800
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18    5  16 1 #Up
+            19   12  17 1 #Up
+            20   11  18 1
+            21   18  19 1
+            22   19  20 1
+            23   12  20 1
+            24   20  21 1 #Up
+            25   21  22 2
+            26   21  23 1
+            27   20  24 1 #Down
+///

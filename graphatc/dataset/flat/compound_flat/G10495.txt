@@ -1,0 +1,29 @@
+ENTRY       G10495                      Glycan
+NAME        1,4-alpha-D-Glucan;
+            1,4-alpha-Glucan;
+            Amylose;
+            Maltodextrin
+COMPOSITION (Glc)1 (*)2
+REMARK      Same as: C00718 C01935 D02329
+REACTION    R06049 R06050 R06051 R06052 R06069 R06158 R06160 R06184 
+            R06185 R06186 R06243
+ENZYME      2.4.1.1         2.4.1.2         2.4.1.4         2.4.1.11        
+            2.4.1.18        2.4.1.21        2.4.1.25        3.2.1.33        
+            3.2.1.54        5.4.99.15
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Homopolysaccharides
+                G10495  Amylose
+DBLINKS     GlyTouCan: G05740LL
+NODE        3
+            1   *           8     0
+            2   Glc         0     0
+            3   *          -8     0
+EDGE        2
+            1     2:a1    1    
+            2     3       2:4  
+BRACKET     1  -4.0   2.0  -4.0  -2.0
+            1   5.0  -2.0   5.0   2.0
+            1 n
+///

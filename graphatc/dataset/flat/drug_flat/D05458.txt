@@ -1,0 +1,89 @@
+ENTRY       D05458                      Drug
+NAME        Phentermine (USAN/INN)
+FORMULA     C10H15N
+EXACT_MASS  149.1204
+MOL_WEIGHT  149.2328
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+REMARK      Same as: C07438
+            ATC code: A08AA01
+            Chemical structure group: DG00102
+            Product (DG00102): D05459<US>
+            Product (mixture): D11710<US>
+EFFICACY    Appetite suppressant
+COMMENT     Component of Ionamin (TN)
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa04721(6530+6531+6532)  Synaptic vesicle cycle
+            hsa04726(4128+4129+6532)  Serotonergic synapse
+            hsa04728(4128+4129+6531)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A08 ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+               A08A ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+                A08AA Centrally acting antiobesity products
+                 A08AA01 Phentermine
+                  D05458  Phentermine (USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00102  Phentermine
+                 D05458  Phentermine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D05458  Phentermine (USAN/INN)
+                SLC6A3 (DAT1)
+                 D05458  Phentermine (USAN/INN)
+                SLC6A4 (HTT)
+                 D05458  Phentermine (USAN/INN)
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D05458  Phentermine (USAN/INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D05458
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00102  Phentermine
+DBLINKS     CAS: 122-09-8
+            PubChem: 47207127
+            ChEBI: 8080
+            LigandBox: D05458
+            NIKKAJI: J5.348A
+ATOM        11
+            1   C8y C    18.0600  -15.8900
+            2   C1b C    19.2500  -15.1900
+            3   C8x C    18.0600  -17.2900
+            4   C8x C    16.8700  -15.1900
+            5   C1d C    20.4400  -15.8900
+            6   C8x C    16.8700  -17.9900
+            7   C8x C    15.6800  -15.8900
+            8   C1a C    20.4400  -14.3500
+            9   C1a C    20.4400  -17.2900
+            10  N1a N    21.6300  -15.1900
+            11  C8x C    15.6800  -17.2900
+BOND        11
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 2
+            7     5   8 1
+            8     5   9 1
+            9     5  10 1
+            10    6  11 2
+            11    7  11 1
+///

@@ -1,0 +1,118 @@
+ENTRY       D02556                      Drug
+NAME        Ravuconazole (prop.INN)
+FORMULA     C22H17F2N5OS
+EXACT_MASS  437.1122
+MOL_WEIGHT  437.4651
+CLASS       Antifungal
+             DG01523  Triazole antifungal
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+REMARK      Chemical structure group: DG02844
+            Product (DG02844): D10762<JP>
+EFFICACY    Antifungal, Ergosterol biosynthesis inhibitor
+COMMENT     Triazole derivative
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+  PATHWAY   ko00100(K05917)  Steroid biosynthesis
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07026  Antifungal agents
+BRITE       Drug groups [BR:br08330]
+             Antifungal
+              DG01523  Triazole antifungal
+               DG02844  Ravuconazole
+                D02556  Ravuconazole (prop.INN)
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG02844  Ravuconazole
+                D02556  Ravuconazole (prop.INN)
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Triazole
+                D02556  Ravuconazole (prop.INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02556
+            Drug groups [BR:br08330]
+             Antifungal
+              DG01523  Triazole antifungal
+               DG02844  Ravuconazole
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG02844  Ravuconazole
+            Antimicrobials abbreviations [BR:br08327]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Triazole
+                DG02844  Ravuconazole
+DBLINKS     CAS: 182760-06-1
+            PubChem: 17396727
+            ChEBI: 143825
+            LigandBox: D02556
+ATOM        31
+            1   C8y C    33.7417  -16.4663
+            2   C1c C    34.9355  -15.7641
+            3   C1d C    36.1995  -16.4663
+            4   C1a C    34.9355  -14.3597
+            5   S2x S    33.3204  -17.8005
+            6   C8x C    31.9159  -17.8005
+            7   C8y C    31.4946  -16.4663
+            8   N5x N    32.6181  -15.6237
+            9   C8x C    27.8430  -15.7641
+            10  C8y C    27.8430  -14.3597
+            11  C8x C    29.0368  -13.6575
+            12  C8x C    30.3008  -14.3597
+            13  C8y C    30.3008  -15.7641
+            14  C8x C    29.0368  -16.4663
+            15  C3b C    26.6493  -13.6575
+            16  N3a N    25.4555  -12.9552
+            17  C8y C    36.1995  -17.8708
+            18  C1b C    37.3932  -15.7641
+            19  N4y N    37.3932  -14.3597
+            20  N5x N    36.2697  -13.5872
+            21  C8x C    36.6910  -12.2530
+            22  N5x N    38.0954  -12.2530
+            23  C8x C    38.5168  -13.5170
+            24  C8y C    37.4634  -18.5730
+            25  C8x C    37.4634  -19.9774
+            26  C8y C    36.2697  -20.6796
+            27  C8x C    35.0057  -19.9774
+            28  C8x C    35.0057  -18.5730
+            29  X   F    36.2697  -22.0841
+            30  X   F    38.6572  -17.8005
+            31  O1a O    37.4634  -16.8877
+BOND        34
+            1     1   2 1
+            2     2   3 1
+            3     2   4 1 #Down
+            4     5   6 1
+            5     6   7 2
+            6     7   8 1
+            7     8   1 2
+            8     5   1 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14    9  14 1
+            15   13   7 1
+            16   10  15 1
+            17   15  16 3
+            18    3  17 1
+            19    3  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   19  23 1
+            26   17  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   17  28 1
+            32   26  29 1
+            33   24  30 1
+            34    3  31 1 #Up
+///

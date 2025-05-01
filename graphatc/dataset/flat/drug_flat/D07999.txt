@@ -1,0 +1,133 @@
+ENTRY       D07999                      Drug
+NAME        Sodium furosemide;
+            Frosemide sodium;
+            Lasix (TN)
+FORMULA     C12H10ClN2O5S. Na
+EXACT_MASS  351.9897
+MOL_WEIGHT  352.726
+CLASS       Cardiovascular agent
+             DG01690  Sulfonamide diuretic
+              DG01747  Furosemide type diuretic
+             DG01748  Loop diuretic
+              DG01747  Furosemide type diuretic
+            Transporter substrate
+             DG02920  ABCC4 substrate
+             DG02859  SLC22A6 substrate
+             DG02860  SLC22A8 substrate
+REMARK      ATC code: C03CA01
+            Chemical structure group: DG00272
+            Product (DG00272): D00331<JP/US>
+EFFICACY    Diuretic, Na-K-Cl cotransporter inhibitor
+COMMENT     loop diuretic
+            Sulufonamide derivative
+TARGET      SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+            SLC12A2 (NKCC1) [HSA:6558] [KO:K10951]
+METABOLISM  Transporter: SLC22A6 [HSA:9356], SLC22A8 [HSA:9376], ABCC4 [HSA:10257]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07055  Sulfonamide derivatives - overview
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03C HIGH-CEILING DIURETICS
+                C03CA Sulfonamides, plain
+                 C03CA01 Furosemide
+                  D07999  Sodium furosemide
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01690  Sulfonamide diuretic
+               DG01747  Furosemide type diuretic
+                DG00272  Furosemide
+                 D07999  Sodium furosemide
+              DG01748  Loop diuretic
+               DG01747  Furosemide type diuretic
+                DG00272  Furosemide
+                 D07999  Sodium furosemide
+             Transporter substrate
+              DG02920  ABCC4 substrate
+               DG00272  Furosemide
+                D07999  Sodium furosemide
+              DG02859  SLC22A6 substrate
+               DG00272  Furosemide
+                D07999  Sodium furosemide
+              DG02860  SLC22A8 substrate
+               DG00272  Furosemide
+                D07999  Sodium furosemide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D07999  Sodium furosemide
+                SLC12A2 (NKCC1)
+                 D07999  Sodium furosemide
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D07999
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01690  Sulfonamide diuretic
+               DG01747  Furosemide type diuretic
+                DG00272  Furosemide
+              DG01748  Loop diuretic
+               DG01747  Furosemide type diuretic
+                DG00272  Furosemide
+             Transporter substrate
+              DG02920  ABCC4 substrate
+               DG00272  Furosemide
+              DG02859  SLC22A6 substrate
+               DG00272  Furosemide
+              DG02860  SLC22A8 substrate
+               DG00272  Furosemide
+DBLINKS     CAS: 41733-55-5
+            PubChem: 96024692
+            LigandBox: D07999
+            NIKKAJI: J278.262F
+ATOM        22
+            1   C8y C    25.8300  -16.8700
+            2   C8y C    24.5700  -17.5700
+            3   C8x C    27.0200  -17.5700
+            4   C6a C    25.8300  -15.4700
+            5   C8x C    24.5700  -18.9700
+            6   N1b N    23.3800  -16.8700
+            7   C8y C    27.0200  -18.9700
+            8   O6a O    24.6400  -14.7700
+            9   O6a O    27.0200  -14.7700 #-
+            10  C8y C    25.8300  -19.6700
+            11  C1b C    22.1900  -17.5700
+            12  S4a S    28.2100  -19.6700
+            13  X   Cl   25.8300  -21.0700
+            14  C8y C    21.0000  -16.8000
+            15  N1a N    29.4700  -20.3700
+            16  O3c O    27.5100  -20.8600
+            17  O3c O    28.9800  -18.4800
+            18  O2x O    21.0000  -15.4000
+            19  C8x C    19.6700  -14.9800
+            20  C8x C    18.8300  -16.1000
+            21  C8x C    19.6700  -17.2900
+            22  Z   Na   30.0300  -14.5600 #+
+BOND        22
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     4   9 1
+            9     5  10 2
+            10    6  11 1
+            11    7  12 1
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   12  16 2
+            16   12  17 2
+            17    7  10 1
+            18   14  18 1
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   14  21 2
+///

@@ -1,0 +1,97 @@
+ENTRY       D09923                      Drug
+NAME        Letaxaban (USAN/INN)
+FORMULA     C22H26ClN3O5S
+EXACT_MASS  479.1282
+MOL_WEIGHT  479.9769
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01662  Factor Xa inhibitor
+EFFICACY    Anticoagulant, Factor Xa inhibitor
+TARGET      F10 [HSA:2159] [KO:K01314]
+  PATHWAY   hsa04610(2159)  Complement and coagulation cascades
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01662  Factor Xa inhibitor
+                D09923  Letaxaban
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                F10
+                 D09923  Letaxaban (USAN/INN)
+DBLINKS     CAS: 870262-90-1
+            PubChem: 135626660
+            PDB-CCD: 443
+            LigandBox: D09923
+ATOM        32
+            1   C1x C     7.1400  -29.3300
+            2   C1x C     7.1400  -30.7300
+            3   N1x N     8.3524  -31.4300
+            4   C5x C     9.5649  -30.7300
+            5   N1y N     9.5649  -29.3300
+            6   C1x C     8.3524  -28.6300
+            7   C1y C    10.7960  -28.6190
+            8   C1x C    12.0012  -29.3147
+            9   C1x C    13.2135  -28.6146
+            10  N1y N    13.2135  -27.2146
+            11  C1x C    12.0083  -26.5189
+            12  C1x C    10.7959  -27.2190
+            13  C5a C    14.4314  -26.5112
+            14  C1c C    15.6434  -27.2107
+            15  O5a O    14.4311  -25.1300
+            16  C1b C    16.8223  -26.5298
+            17  S4a S    18.0181  -27.2202
+            18  C8y C    19.2051  -26.5347
+            19  O1a O    15.6440  -28.6296
+            20  C8x C    20.3967  -27.2226
+            21  C8y C    21.6091  -26.5226
+            22  C8y C    21.6091  -25.1226
+            23  C8x C    20.4175  -24.4347
+            24  C8x C    19.2051  -25.1347
+            25  C8x C    22.8215  -27.2226
+            26  C8x C    24.0340  -26.5226
+            27  C8y C    24.0339  -25.1226
+            28  C8x C    22.8215  -24.4226
+            29  X   Cl   25.2251  -24.4347
+            30  O3c O    18.7181  -28.4326
+            31  O3c O    17.3181  -28.4326
+            32  O5x O    10.7960  -31.4410
+BOND        35
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    7  12 1
+            14   10  13 1
+            15   13  14 1
+            16   13  15 2
+            17   14  16 1
+            18   16  17 1
+            19   17  18 1
+            20   14  19 1 #Up
+            21   18  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   18  24 1
+            27   21  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   22  28 1
+            32   27  29 1
+            33   17  30 2
+            34   17  31 2
+            35    4  32 2
+///

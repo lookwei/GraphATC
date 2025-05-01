@@ -1,0 +1,94 @@
+ENTRY       D01334                      Drug
+NAME        Cyclacillin (USAN);
+            Ciclacillin (JP18/INN);
+            Cyclapen-W (TN);
+            Vastcillin (TN)
+FORMULA     C15H23N3O4S
+EXACT_MASS  341.1409
+MOL_WEIGHT  341.4258
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+REMARK      Same as: C12766
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     beta-Lactam, penicillin, Semisynthetic penicillin: moderate spectrum penicillin
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 D01334  Cyclacillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other penicillin
+                D01334  Cyclacillin (USAN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other penicillin
+                D01334  Cyclacillin (USAN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01334  Ciclacillin
+DBLINKS     CAS: 3485-14-1
+            PubChem: 7848397
+            ChEBI: 31444
+            LigandBox: D01334
+            NIKKAJI: J3.403G
+ATOM        23
+            1   C1y C    27.7658  -15.2155
+            2   C5x C    27.7658  -16.6200
+            3   N1y N    29.1702  -16.6200
+            4   C1y C    29.1702  -15.2155
+            5   C1y C    30.5042  -17.0412
+            6   C1z C    31.3467  -15.9176
+            7   S2x S    30.5042  -14.7942
+            8   C1a C    32.3299  -16.9007
+            9   C1a C    32.3299  -14.9346
+            10  C6a C    30.9957  -18.3752
+            11  O6a O    32.3999  -18.3752
+            12  O6a O    30.1530  -19.4986
+            13  N1b N    26.5721  -14.5134
+            14  C5a C    25.3784  -15.2155
+            15  O5x O    26.5721  -17.3221
+            16  O5a O    25.3784  -16.6200
+            17  C1z C    24.1593  -14.5183
+            18  N1a N    24.1593  -13.1183
+            19  C1x C    22.9469  -13.8183
+            20  C1x C    21.7345  -14.5183
+            21  C1x C    21.7345  -15.9183
+            22  C1x C    22.9469  -16.6183
+            23  C1x C    24.1593  -15.9183
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   17  23 1
+///

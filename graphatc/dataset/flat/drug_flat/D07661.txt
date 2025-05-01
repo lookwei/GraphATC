@@ -1,0 +1,138 @@
+ENTRY       D07661                      Drug
+NAME        Cerivastatin (INN)
+FORMULA     C26H34FNO5
+EXACT_MASS  459.2421
+MOL_WEIGHT  459.5503
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01660  HMG-CoA reductase inhibitor
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07966
+            ATC code: C10AA06
+            Chemical structure group: DG00356
+EFFICACY    Antihyperlipidemic, HMG-CoA reductase inhibitor
+TARGET      HMGCR [HSA:3156] [KO:K00021]
+  PATHWAY   hsa00900(3156)  Terpenoid backbone biosynthesis
+METABOLISM  Enzyme: CYP2C8 [HSA:1558], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07024  HMG-CoA reductase inhibitors
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AA HMG CoA reductase inhibitors
+                 C10AA06 Cerivastatin
+                  D07661  Cerivastatin (INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00356  Cerivastatin
+                 D07661  Cerivastatin
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00356  Cerivastatin
+                D07661  Cerivastatin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00356  Cerivastatin
+                 D07661  Cerivastatin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                HMGCR
+                 D07661  Cerivastatin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07661
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00356  Cerivastatin
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00356  Cerivastatin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00356  Cerivastatin
+DBLINKS     CAS: 145599-86-6
+            PubChem: 51091965
+            ChEBI: 3558
+            LigandBox: D07661
+            NIKKAJI: J934.489F
+ATOM        33
+            1   C8y C    21.7700  -17.8500
+            2   C8y C    21.7700  -19.3200
+            3   C8y C    20.5100  -17.2200
+            4   C8y C    22.9600  -17.1500
+            5   C8y C    20.5100  -20.0200
+            6   C2b C    22.9600  -19.9500
+            7   C8y C    19.3200  -17.9200
+            8   C1b C    20.5100  -15.7500
+            9   C8x C    24.1500  -17.8500
+            10  C8x C    22.9600  -15.7500
+            11  N5x N    19.3200  -19.3200
+            12  C1c C    20.5100  -21.4200
+            13  C2b C    24.1500  -19.2500
+            14  C1c C    18.1300  -17.2200
+            15  O2a O    19.3200  -15.1200
+            16  C8x C    25.3400  -17.1500
+            17  C8x C    24.1500  -15.0500
+            18  C1a C    19.3200  -22.1200
+            19  C1a C    21.7700  -22.1200
+            20  C1c C    25.3400  -19.9500
+            21  C1a C    18.1300  -15.7500
+            22  C1a C    16.8700  -17.9200
+            23  C1a C    19.3200  -13.7200
+            24  C8y C    25.3400  -15.7500
+            25  C1b C    26.6000  -19.2500
+            26  O1a O    25.3400  -21.3500
+            27  X   F    26.6000  -15.0500
+            28  C1c C    27.7900  -19.9500
+            29  C1b C    28.9800  -19.2500
+            30  O1a O    27.7900  -21.3500
+            31  C6a C    30.2400  -19.9500
+            32  O6a O    30.2400  -21.3500
+            33  O6a O    31.4300  -19.2500
+BOND        34
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 2
+            13    7  14 1
+            14    8  15 1
+            15    9  16 1
+            16   10  17 2
+            17   12  18 1
+            18   12  19 1
+            19   13  20 1
+            20   14  21 1
+            21   14  22 1
+            22   15  23 1
+            23   16  24 2
+            24   20  25 1
+            25   20  26 1 #Down
+            26   24  27 1
+            27   25  28 1
+            28   28  29 1
+            29   28  30 1 #Down
+            30   29  31 1
+            31   31  32 2
+            32   31  33 1
+            33    7  11 2
+            34   17  24 1
+///

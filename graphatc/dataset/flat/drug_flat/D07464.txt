@@ -1,0 +1,109 @@
+ENTRY       D07464                      Drug
+NAME        Paramethasone (INN);
+            Dillar (TN)
+FORMULA     C22H29FO5
+EXACT_MASS  392.1999
+MOL_WEIGHT  392.4611
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      Same as: C07413
+            ATC code: H02AB05
+            Chemical structure group: DG00508
+EFFICACY    Anti-inflammatory, Immunosuppressant, Glucocorticoid receptor agonist
+COMMENT     fluorinated steroid
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB05 Paramethasone
+                  D07464  Paramethasone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00508  Paramethasone
+                 D07464  Paramethasone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07464  Paramethasone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00508  Paramethasone
+DBLINKS     CAS: 53-33-8
+            PubChem: 96024431
+            ChEBI: 7922
+            LigandBox: D07464
+            NIKKAJI: J10.689E
+ATOM        28
+            1   C2x C    18.8300  -28.6300
+            2   C5x C    18.8300  -29.9600
+            3   C2x C    20.0200  -30.6600
+            4   C2y C    21.1400  -29.9600
+            5   C1z C    21.1400  -28.6300
+            6   C2x C    20.0200  -28.0000
+            7   C1y C    22.3300  -30.6600
+            8   C1x C    23.5200  -29.9600
+            9   C1y C    23.5200  -28.6300
+            10  C1y C    22.3300  -28.0000
+            11  C1y C    24.5700  -28.0000
+            12  C1z C    24.5700  -26.6700
+            13  C1x C    23.5200  -25.9700
+            14  C1y C    22.3300  -26.6700
+            15  C1x C    26.8800  -28.0000
+            16  C1y C    26.8800  -26.6700
+            17  C1z C    25.6900  -25.9700
+            18  O5x O    17.7100  -30.6600
+            19  C1a C    21.1400  -27.3000
+            20  O1a O    21.1400  -25.9700
+            21  C1a C    24.5700  -25.2700
+            22  C5a C    25.6900  -24.1500
+            23  O1a O    27.0900  -25.0600
+            24  C1a C    28.2800  -26.6700
+            25  X   F    22.3300  -32.0600
+            26  O5a O    26.8800  -23.4500
+            27  C1b C    24.5000  -23.4500
+            28  O1a O    23.3100  -24.1500
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22    5  19 1 #Up
+            23   14  20 1 #Up
+            24   12  21 1 #Up
+            25   17  22 1 #Up
+            26   17  23 1 #Down
+            27   16  24 1 #Down
+            28    7  25 1 #Down
+            29   22  26 2
+            30   22  27 1
+            31   27  28 1
+///

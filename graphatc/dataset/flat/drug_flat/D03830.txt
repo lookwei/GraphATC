@@ -1,0 +1,163 @@
+ENTRY       D03830                      Drug
+NAME        Diltiazem malate (USAN);
+            Tiamate (TN)
+FORMULA     C22H26N2O4S. C4H6O5
+EXACT_MASS  548.1829
+MOL_WEIGHT  548.6053
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG01653  Antiarrhythmics
+             DG03231  Antihypertensive
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: C05AE03 C08DB01
+            Chemical structure group: DG00331
+            Product (DG00331): D00616<JP/US>
+EFFICACY    Antiarrhythmic, Antihypertensive, Vasodilator (coronary), Calcium channel blocker
+COMMENT     Benzothiazepine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04024(775+776+778+779)  cAMP signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+            map07037  Antiarrhythmic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C05 VASOPROTECTIVES
+               C05A AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE
+                C05AE Muscle relaxants
+                 C05AE03 Diltiazem
+                  D03830  Diltiazem malate (USAN)
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08D SELECTIVE CALCIUM CHANNEL BLOCKERS WITH DIRECT CARDIAC EFFECTS
+                C08DB Benzothiazepine derivatives
+                 C08DB01 Diltiazem
+                  D03830  Diltiazem malate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00331  Diltiazem
+                 D03830  Diltiazem malate
+              DG01653  Antiarrhythmics
+               DG00331  Diltiazem
+                D03830  Diltiazem malate
+              DG03231  Antihypertensive
+               DG00331  Diltiazem
+                D03830  Diltiazem malate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00331  Diltiazem
+                 D03830  Diltiazem malate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D03830  Diltiazem malate (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03830
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00331  Diltiazem
+              DG01653  Antiarrhythmics
+               DG00331  Diltiazem
+              DG03231  Antihypertensive
+               DG00331  Diltiazem
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00331  Diltiazem
+DBLINKS     CAS: 144604-00-2
+            PubChem: 17397916
+            LigandBox: D03830
+            NIKKAJI: J2.207.575F
+ATOM        38
+            1   O6a O    34.0743  -12.2942
+            2   C6a C    35.2673  -12.9960
+            3   C1c C    36.4603  -12.2942
+            4   C1b C    37.6533  -12.9960
+            5   O1a O    36.4603  -10.8907
+            6   C6a C    38.8463  -12.2942
+            7   O6a O    40.0393  -12.9960
+            8   O6a O    38.8463  -10.8907
+            9   O6a O    35.2673  -14.3995
+            10  C5x C    27.3293  -15.0813
+            11  C1y C    26.4860  -13.9702
+            12  C1y C    26.8217  -12.6115
+            13  S2x S    28.0844  -12.0327
+            14  N1y N    28.7370  -15.0366
+            15  C8y C    29.3397  -12.6558
+            16  C8y C    29.6266  -14.0264
+            17  C8x C    30.9596  -14.4641
+            18  C8x C    32.0052  -13.5284
+            19  C8x C    31.7185  -12.1578
+            20  C8x C    30.3852  -11.7201
+            21  O5x O    26.6066  -16.2826
+            22  C1b C    29.4160  -16.3330
+            23  C8y C    25.8132  -11.6418
+            24  C8x C    25.8132  -10.2399
+            25  C8x C    24.5991   -9.5390
+            26  C8y C    23.3850  -10.2399
+            27  C8x C    23.3850  -11.6418
+            28  C8x C    24.5991  -12.3428
+            29  O2a O    22.1882   -9.5487
+            30  C1a C    21.0032  -10.2327
+            31  O7a O    25.1254  -14.2508
+            32  C7a C    24.6867  -15.5726
+            33  C1a C    23.3018  -15.8579
+            34  O6a O    25.6068  -16.6076
+            35  C1b C    30.8405  -16.2886
+            36  N1c N    31.5091  -17.5659
+            37  C1a C    32.9435  -17.5909
+            38  C1a C    30.7826  -18.7741
+BOND        39
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 1 #Up
+            5     4   6 1
+            6     6   7 1
+            7     6   8 2
+            8     2   9 2
+            9    12  13 1
+            10   10  14 1
+            11   13  15 1
+            12   11  12 1
+            13   14  16 1
+            14   10  11 1
+            15   15  16 1
+            16   16  17 2
+            17   17  18 1
+            18   18  19 2
+            19   19  20 1
+            20   15  20 2
+            21   10  21 2
+            22   14  22 1
+            23   23  24 2
+            24   24  25 1
+            25   25  26 2
+            26   26  27 1
+            27   27  28 2
+            28   23  28 1
+            29   12  23 1 #Down
+            30   26  29 1
+            31   29  30 1
+            32   11  31 1 #Down
+            33   31  32 1
+            34   32  33 1
+            35   32  34 2
+            36   22  35 1
+            37   35  36 1
+            38   36  37 1
+            39   36  38 1
+///

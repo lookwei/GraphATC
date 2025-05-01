@@ -1,0 +1,174 @@
+ENTRY       D10514                      Drug
+NAME        Dacomitinib (USAN);
+            Dacomitinib hydrate (JAN);
+            Vizimpro (TN)
+PRODUCT     VIZIMPRO (Pfizer Laboratories Div Pfizer)
+            VIZIMPRO (U.S. Pharmaceuticals)
+FORMULA     C24H25ClFN5O2. H2O
+EXACT_MASS  487.1786
+MOL_WEIGHT  487.9543
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03162  EGFR inhibitor
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Therapeutic category: 4291
+            ATC code: L01EB07
+            Chemical structure group: DG01793
+            Product (DG01793): D10514<JP/US>
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+  DISEASE   Non-small cell lung cancer (EGFR mutation positive) [DS:H00014]
+TARGET      EGFR* [HSA_VAR:1956v2] [HSA:1956] [KO:K04361]
+            ERBB2 (HER2, CD340) [HSA:2064] [KO:K05083]
+            ERBB4 (HER4) [HSA:2066] [KO:K05085]
+  PATHWAY   hsa04012(1956+2064+2066)  ErbB signaling pathway
+            hsa04020(1956+2064+2066)  Calcium signaling pathway
+            hsa05205(1956+2064+2066)  Proteoglycans in cancer
+            hsa05223(1956+2064)  Non-small cell lung cancer
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EB Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors
+                 L01EB07 Dacomitinib
+                  D10514  Dacomitinib (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Dacomitinib
+                D10514  Dacomitinib (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D10514  Dacomitinib (USAN); Dacomitinib hydrate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG01793  Dacomitinib
+                  D10514  Dacomitinib
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01793  Dacomitinib
+                D10514  Dacomitinib
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03162  EGFR inhibitor
+               D10514  Dacomitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR* [HSA_VAR:1956v2]
+                 D10514  Dacomitinib (USAN) &lt;JP/US&gt;
+                ERBB2 (HER2, CD340)
+                 D10514  Dacomitinib (USAN) &lt;JP/US&gt;
+                ERBB4 (HER4)
+                 D10514  Dacomitinib (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10514
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10514
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10514
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10514
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10514
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D10514
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG01793  Dacomitinib
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01793  Dacomitinib
+DBLINKS     CAS: 1042385-75-0
+            PubChem: 172232607
+ATOM        34
+            1   C8y C    16.1544  -13.1441
+            2   C8y C    16.1544  -14.5430
+            3   C8x C    14.9654  -15.2424
+            4   C8y C    13.7763  -14.5430
+            5   C8y C    13.7763  -13.1441
+            6   C8x C    14.9654  -12.4447
+            7   C8y C    12.5174  -15.2424
+            8   N5x N    11.3283  -14.5430
+            9   C8x C    11.3283  -13.1441
+            10  N5x N    12.5174  -12.4447
+            11  N1b N    17.4134  -15.2424
+            12  O2a O    17.4134  -12.4447
+            13  N1b N    12.5174  -16.6413
+            14  C1a C    17.4134  -11.0458
+            15  C5a C    18.6024  -14.5430
+            16  C2b C    19.8614  -15.2424
+            17  O5a O    18.6024  -13.1441
+            18  C2b C    20.9805  -14.5430
+            19  C1b C    22.2395  -15.2424
+            20  N1y N    23.4285  -14.4730
+            21  C1x C    24.6175  -15.1725
+            22  C1x C    25.8065  -14.4730
+            23  C1x C    25.8066  -13.0742
+            24  C1x C    24.6175  -12.3747
+            25  C1x C    23.4285  -13.0742
+            26  C8y C    13.7064  -17.3407
+            27  C8x C    13.7064  -18.7396
+            28  C8y C    14.9654  -19.4390
+            29  C8y C    16.1544  -18.7396
+            30  C8x C    16.1544  -17.3407
+            31  C8x C    14.9654  -16.6413
+            32  X   Cl   14.9654  -20.8379
+            33  X   F    17.3434  -19.4390
+            34  O0  O    23.9400  -19.2500
+BOND        36
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    2  11 1
+            13    1  12 1
+            14    7  13 1
+            15   12  14 1
+            16   11  15 1
+            17   15  16 1
+            18   15  17 2
+            19   16  18 2
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   20  25 1
+            28   13  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   26  31 1
+            35   28  32 1
+            36   29  33 1
+///

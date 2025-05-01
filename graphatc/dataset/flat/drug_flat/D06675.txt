@@ -1,0 +1,90 @@
+ENTRY       D06675                      Drug
+NAME        Telbivudine (USAN/INN);
+            Tyzeka (TN)
+  ABBR      LdT
+FORMULA     C10H14N2O5
+EXACT_MASS  242.0903
+MOL_WEIGHT  242.2286
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+REMARK      ATC code: J05AF11
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   Chronic hepatitis B [DS:H00412]
+TARGET      HBV reverse transcriptase [KO:K21037]
+  PATHWAY   ko03230(K21037)  Viral genome structure
+            ko03240(K21037)  Viral replication
+            ko05161(K21037)  Hepatitis B
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF11 Telbivudine
+                  D06675  Telbivudine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D06675  Telbivudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D06675  Telbivudine (USAN/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D06675  Telbivudine (USAN/INN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D06675
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D06675
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D06675
+DBLINKS     CAS: 3424-98-4
+            PubChem: 47208326
+            ChEBI: 63624
+            PDB-CCD: LLT
+            LigandBox: D06675
+ATOM        17
+            1   C1y C    21.6300  -29.5400
+            2   C1x C    23.0300  -29.5400
+            3   C1y C    23.4500  -28.2800
+            4   O2x O    22.3300  -27.4400
+            5   C1y C    21.2100  -28.2800
+            6   O1a O    20.7900  -30.6600
+            7   C1b C    19.8800  -27.8600
+            8   O1a O    18.8300  -28.7700
+            9   N4y N    24.6400  -27.5800
+            10  C8y C    25.9000  -26.8800
+            11  N4x N    25.9000  -25.4800
+            12  C8y C    24.7100  -24.7800
+            13  C8y C    23.4500  -25.4800
+            14  C8x C    23.4500  -26.8800
+            15  O5x O    27.1066  -27.5900
+            16  O5x O    24.7272  -23.3801
+            17  C1a C    22.2434  -24.7700
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Up
+            7     5   7 1 #Down
+            8     7   8 1
+            9     3   9 1 #Down
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   10  15 2
+            17   12  16 2
+            18   13  17 1
+///

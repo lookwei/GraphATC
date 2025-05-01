@@ -1,0 +1,106 @@
+ENTRY       D00697                      Drug
+NAME        Flumazenil (JAN/USP/INN);
+            Romazicon (TN)
+PRODUCT
+  GENERIC   FLUMAZENIL (Baxter Healthcare Corporation)
+            FLUMAZENIL (Fresenius Kabi USA)
+            FLUMAZENIL (General Injectables and Vaccines)
+            FLUMAZENIL (General Injectables and Vaccines)
+            FLUMAZENIL (HF Acquisition Co LLC)
+            FLUMAZENIL (HF Acquisition Co. LLC)
+            FLUMAZENIL (HF Acquisition Co. LLC)
+            FLUMAZENIL (Henry Schein)
+            FLUMAZENIL (Henry Schein)
+            FLUMAZENIL (Hikma Pharmaceuticals USA)
+            FLUMAZENIL (Medical Purchasing Solutions)
+            FLUMAZENIL (Medical Purchasing Solutions)
+            FLUMAZENIL (Medical Purchasing Solutions)
+            FLUMAZENIL (REMEDYREPACK)
+            FLUMAZENIL (West-Ward Pharmaceuticals Corp)
+FORMULA     C15H14FN3O3
+EXACT_MASS  303.1019
+MOL_WEIGHT  303.2884
+REMARK      Same as: C07825
+            Therapeutic category: 2219
+            ATC code: V03AB25
+            Product: D00697<JP/US>
+EFFICACY    Antidote (benzodiazepines), Respiratory stimulant
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB25 Flumazenil
+                  D00697  Flumazenil (JAN/USP/INN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               221  Respiratory stimulants
+                2219  Others
+                 D00697  Flumazenil (JAN/USP/INN)
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00697  Flumazenil (JAN/USP/INN) &lt;JP/US&gt;
+DBLINKS     CAS: 78755-81-4
+            PubChem: 7847762
+            ChEBI: 5103
+            PDB-CCD: FYP
+            LigandBox: D00697
+            NIKKAJI: J23.594F
+ATOM        22
+            1   C5x C    10.4234  -11.5594
+            2   C8y C     9.5813  -10.4498
+            3   C8y C     9.9165   -9.0930
+            4   N4y N    11.1775   -8.5149
+            5   N1y N    11.8292  -11.5846
+            6   C8y C    12.4311   -9.1372
+            7   C1x C    12.7176  -10.5059
+            8   C8x C     8.9094   -8.1246
+            9   C8x C     7.5674   -8.5127
+            10  C8y C     7.2322   -9.8695
+            11  C8x C     8.2393  -10.8376
+            12  X   F     5.8674  -10.2639
+            13  O5x O     9.7889  -12.8091
+            14  C1a C    12.4025  -12.8276
+            15  C8y C    13.4103   -8.1372
+            16  N5x N    12.7619   -6.8969
+            17  C8x C    11.3820   -7.1303
+            18  C7a C    14.8103   -8.1372
+            19  O7a O    15.5101   -9.3492
+            20  O6a O    15.5248   -6.8989
+            21  C1b C    16.9396   -9.3485
+            22  C1a C    17.6542  -10.5842
+BOND        24
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13   10  12 1
+            14    1  13 2
+            15    5  14 1
+            16    6  15 2
+            17   15  16 1
+            18   16  17 2
+            19    4  17 1
+            20   15  18 1
+            21   18  19 1
+            22   18  20 2
+            23   19  21 1
+            24   21  22 1
+///

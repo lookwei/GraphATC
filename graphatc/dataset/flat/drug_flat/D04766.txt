@@ -1,0 +1,99 @@
+ENTRY       D04766                      Drug
+NAME        Lometrexol sodium (USAN)
+FORMULA     C21H23N5O6. 2Na
+EXACT_MASS  487.1444
+MOL_WEIGHT  487.4168
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01978  Folic acid analog
+EFFICACY    Antineoplastic, Antimetabolite
+TARGET      GART [HSA:2618] [KO:K11787]
+  PATHWAY   hsa00230(2618)  Purine metabolism
+            hsa00670(2618)  One carbon pool by folate
+INTERACTION  
+OTHER_MAP   map01523  Antifolate resistance
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01978  Folic acid analog
+                D04766  Lometrexol sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Ligases (EC6)
+               GART
+                GART
+                 D04766  Lometrexol sodium (USAN)
+DBLINKS     CAS: 120408-07-3
+            PubChem: 47206581
+            LigandBox: D04766
+ATOM        34
+            1   C8y C     5.8100  -16.0300
+            2   N5x N     5.8100  -17.4300
+            3   C8y C     7.0224  -18.1300
+            4   C8y C     8.2349  -17.4300
+            5   C8y C     8.2349  -16.0300
+            6   N4x N     7.0224  -15.3300
+            7   C1x C     9.4473  -18.1300
+            8   C1y C    10.6597  -17.4300
+            9   C1x C    10.6597  -16.0300
+            10  N1x N     9.4473  -15.3300
+            11  O5x O     7.0224  -19.5298
+            12  N1a N     4.5976  -15.3300
+            13  C1b C    11.8573  -18.1215
+            14  C1b C    13.0456  -17.4355
+            15  C8y C    14.2364  -18.1231
+            16  C8x C    14.2364  -19.5298
+            17  C8x C    15.4488  -20.2298
+            18  C8y C    16.6612  -19.5298
+            19  C8x C    16.6612  -18.1232
+            20  C8x C    15.4488  -17.4231
+            21  C5a C    17.8728  -20.2293
+            22  N1b N    19.0677  -19.5393
+            23  O5a O    17.8729  -21.6298
+            24  C1c C    20.2554  -20.2249
+            25  C1b C    21.4465  -19.5370
+            26  C1b C    22.6360  -20.2238
+            27  C6a C    20.2555  -21.6298
+            28  O6a O    21.4489  -22.3188 #-
+            29  O6a O    19.0240  -22.3411
+            30  C6a C    23.8262  -19.5365
+            31  O6a O    25.0161  -20.2236 #-
+            32  O6a O    23.8263  -18.1302
+            33  Z   Na   23.4500  -22.4000 #+
+            34  Z   Na   26.8100  -20.1600 #+
+BOND        34
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    3  11 2
+            13    1  12 1
+            14    8  13 1 #Down
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   18  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 1
+            27   24  25 1
+            28   25  26 1
+            29   24  27 1 #Up
+            30   27  28 1
+            31   27  29 2
+            32   26  30 1
+            33   30  31 1
+            34   30  32 2
+///

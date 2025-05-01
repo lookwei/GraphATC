@@ -1,0 +1,92 @@
+ENTRY       D04721                      Drug
+NAME        Levotofisopam (USAN/INN)
+FORMULA     C22H26N2O4
+EXACT_MASS  382.1893
+MOL_WEIGHT  382.4528
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+EFFICACY    Antianxiety
+COMMENT     Benzodiazepine derivative
+            See Tofisopam [DR:D01254]
+            Autonomic instability
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D04721  Levotofisopam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D04721  Levotofisopam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D04721  Levotofisopam (USAN/INN)
+DBLINKS     CAS: 82059-51-6
+            PubChem: 47206546
+            LigandBox: D04721
+ATOM        28
+            1   C2y C    10.2652  -15.3773
+            2   C8y C     9.4208  -14.2647
+            3   C8y C     9.7569  -12.9042
+            4   C1y C    11.0214  -12.3245
+            5   N2x N    11.6748  -15.4026
+            6   C2y C    12.2783  -12.9485
+            7   N2x N    12.5656  -14.3210
+            8   C8x C     8.7470  -11.9331
+            9   C8y C     7.4014  -12.3223
+            10  C8y C     7.0653  -13.6828
+            11  C8x C     8.0751  -14.6536
+            12  C1a C    13.3253  -12.0115
+            13  O2a O     6.3922  -11.3519
+            14  C1a C     5.0473  -11.7407
+            15  C1a C     4.7112  -13.1012
+            16  O2a O     5.7203  -14.0715
+            17  C1b C    11.0432  -10.9210
+            18  C1a C    12.2796  -10.2325
+            19  C8y C     9.5436  -16.5769
+            20  C8x C     8.1436  -16.5769
+            21  C8y C     7.4436  -17.7894
+            22  C8y C     8.1436  -19.0018
+            23  C8x C     9.5436  -19.0018
+            24  C8x C    10.2436  -17.7894
+            25  O2a O     6.0436  -17.7894
+            26  C1a C     5.3436  -19.0019
+            27  C1a C     6.0436  -20.2143
+            28  O2a O     7.4436  -20.2142
+BOND        30
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 2
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 1
+            14    9  13 1
+            15   13  14 1
+            16   15  16 1
+            17   10  16 1
+            18    4  17 1 #Down
+            19   17  18 1
+            20    1  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   21  25 1
+            28   25  26 1
+            29   27  28 1
+            30   22  28 1
+///

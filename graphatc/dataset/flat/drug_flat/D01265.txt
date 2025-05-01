@@ -1,0 +1,79 @@
+ENTRY       D01265                      Drug
+NAME        Epitiostanol (JAN/INN)
+FORMULA     C19H30OS
+EXACT_MASS  306.2017
+MOL_WEIGHT  306.5059
+CLASS       Antineoplastic
+             DG01585  Estrogen receptor antagonist
+REMARK      Same as: C12694
+EFFICACY    Antineoplastic, Estrogen receptor antagonist
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+STR_MAP     map07043  Antineoplastics - hormones
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01585  Estrogen receptor antagonist
+               D01265  Epitiostanol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D01265  Epitiostanol (JAN/INN)
+            Prodrugs [br08324.html]
+             D01265
+DBLINKS     CAS: 2363-58-8
+            PubChem: 7848328
+            ChEBI: 31546
+            LigandBox: D01265
+            NIKKAJI: J3.708G
+ATOM        21
+            1   C1z C    24.1749  -15.6995
+            2   C1y C    24.1749  -17.0654
+            3   C1x C    26.5395  -17.0654
+            4   C1x C    26.5395  -15.6995
+            5   C1y C    25.3607  -15.0165
+            6   O1a O    25.3625  -13.6506
+            7   C1x C    19.4348  -19.7695
+            8   C1x C    19.4348  -17.0377
+            9   C1z C    20.6136  -17.7207
+            10  C1y C    20.6078  -19.0866
+            11  C1x C    21.7878  -19.7745
+            12  C1x C    22.9736  -19.0967
+            13  C1y C    21.7996  -17.0429
+            14  C1y C    22.9738  -17.7336
+            15  C1x C    22.9961  -15.0091
+            16  C1x C    21.8107  -15.6804
+            17  C1y C    18.2490  -19.0866
+            18  C1y C    18.2490  -17.7207
+            19  S2x S    17.0653  -18.4112
+            20  C1a C    20.6016  -16.3548
+            21  C1a C    24.1612  -14.3335
+BOND        25
+            1     1   2 1
+            2    14   2 1
+            3     1  15 1
+            4    15  16 1
+            5    16  13 1
+            6     9   8 1
+            7     9  10 1
+            8    10  11 1
+            9    11  12 1
+            10   12  14 1
+            11   13   9 1
+            12    8  18 1
+            13   17   7 1
+            14    7  10 1
+            15   13  14 1
+            16   17  18 1
+            17   17  19 1 #Down
+            18   18  19 1 #Down
+            19    3   4 1
+            20    4   5 1
+            21    5   1 1
+            22    2   3 1
+            23    9  20 1 #Up
+            24    5   6 1 #Up
+            25    1  21 1 #Up
+///

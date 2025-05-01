@@ -1,0 +1,151 @@
+ENTRY       D05768                      Drug
+NAME        Rotigotine (JAN/USAN/INN);
+            Neupro (TN)
+PRODUCT     NEUPRO (UCB)
+FORMULA     C19H25NOS
+EXACT_MASS  315.1657
+MOL_WEIGHT  315.4729
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01967  Antiparkinson agent
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01639  CYP2C19 substrate
+             DG02971  SULT substrate
+             DG02924  UGT substrate
+              DG03188  UGT1A9 substrate
+              DG03187  UGT2B15 substrate
+REMARK      Therapeutic category: 1169 1190
+            ATC code: N04BC09
+            Product: D05768<JP/US>
+EFFICACY    Antiparkinsonian, Dopamine D2 receptor agonist
+  DISEASE   Parkinson disease [DS:H00057]
+            Restless legs syndrome [DS:H01597]
+COMMENT     Treatment of early and advanced Parkinson's disease and restless legs syndrome
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+            hsa05012(1813)  Parkinson disease
+METABOLISM  Enzyme: SULT [HSA:6817 6799 6818 6783], UGT1A9 [HSA:54600], UGT2B15 [HSA:7366], CYP2C19 [HSA:1557], CYP1A2 [HSA:1544]
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BC Dopamine agonists
+                 N04BC09 Rotigotine
+                  D05768  Rotigotine (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antiparkinson Agents
+              Dopamine Agonists
+               Rotigotine
+                D05768  Rotigotine (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               116  Antiparkinsonian agents
+                1169  Others
+                 D05768  Rotigotine (JAN/USAN/INN)
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D05768  Rotigotine (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                D05768  Rotigotine
+              DG01967  Antiparkinson agent
+               D05768  Rotigotine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               D05768  Rotigotine
+              DG01639  CYP2C19 substrate
+               D05768  Rotigotine
+              DG02971  SULT substrate
+               D05768  Rotigotine
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                D05768  Rotigotine
+               DG03187  UGT2B15 substrate
+                D05768  Rotigotine
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D05768  Rotigotine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D05768  Rotigotine (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D05768
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D05768
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D05768
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D05768
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05768
+DBLINKS     CAS: 99755-59-6
+            PubChem: 47207429
+            PDB-CCD: R5F
+            LigandBox: D05768
+            NIKKAJI: J285.097D
+ATOM        22
+            1   C8x C    26.0995  -16.8025
+            2   C8x C    26.0995  -18.2078
+            3   C8y C    27.3165  -18.9104
+            4   C8y C    28.5336  -18.2078
+            5   C8y C    28.5336  -16.8025
+            6   C8x C    27.3165  -16.0998
+            7   C1x C    29.7506  -18.9104
+            8   C1x C    30.9676  -18.2078
+            9   C1y C    30.9676  -16.8025
+            10  C1x C    29.7506  -16.0998
+            11  N1c N    32.1697  -16.1083
+            12  O1a O    27.3165  -20.3155
+            13  C1b C    33.3625  -16.7970
+            14  C1b C    32.1698  -14.6948
+            15  C1b C    33.3662  -14.0039
+            16  C1a C    34.5560  -14.6908
+            17  C1b C    34.5578  -16.1067
+            18  C8y C    35.7519  -16.7961
+            19  C8x C    35.8030  -18.2026
+            20  C8x C    37.1574  -18.5894
+            21  C8x C    37.9438  -17.4208
+            22  S2x S    37.0754  -16.3117
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1 #Up
+            13    3  12 1
+            14   11  13 1
+            15   11  14 1
+            16   14  15 1
+            17   15  16 1
+            18   13  17 1
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   18  22 1
+///

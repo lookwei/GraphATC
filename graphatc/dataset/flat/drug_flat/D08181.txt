@@ -1,0 +1,119 @@
+ENTRY       D08181                      Drug
+NAME        Mepivacaine (INN);
+            Carboplyin Dental (TN)
+FORMULA     C15H22N2O
+EXACT_MASS  246.1732
+MOL_WEIGHT  246.348
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01673  Amide type local anesthetic
+REMARK      Same as: C07528
+            ATC code: N01BB03
+            Chemical structure group: DG00802
+            Product (DG00802): D00738<JP/US>
+EFFICACY    Anesthetic (topical)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01B ANESTHETICS, LOCAL
+                N01BB Amides
+                 N01BB03 Mepivacaine
+                  D08181  Mepivacaine (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Mepivacaine
+                D08181  Mepivacaine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00802  Mepivacaine
+                  D08181  Mepivacaine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D08181  Mepivacaine (INN)
+                SCN2A
+                 D08181  Mepivacaine (INN)
+                SCN3A
+                 D08181  Mepivacaine (INN)
+                SCN4A
+                 D08181  Mepivacaine (INN)
+                SCN5A
+                 D08181  Mepivacaine (INN)
+                SCN8A
+                 D08181  Mepivacaine (INN)
+                SCN9A
+                 D08181  Mepivacaine (INN)
+                SCN10A
+                 D08181  Mepivacaine (INN)
+                SCN11A
+                 D08181  Mepivacaine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01673  Amide type local anesthetic
+                 DG00802  Mepivacaine
+DBLINKS     CAS: 96-88-8
+            PubChem: 96024871
+            ChEBI: 6759
+            LigandBox: D08181
+            NIKKAJI: J4.726K
+ATOM        18
+            1   C8y C    22.3300  -17.6400
+            2   N1b N    23.5200  -18.3400
+            3   C8y C    21.0700  -18.3400
+            4   C8y C    22.3300  -16.1700
+            5   C5a C    24.7800  -17.5700
+            6   C8x C    19.8800  -17.6400
+            7   C1a C    21.0700  -19.7400
+            8   C8x C    21.0700  -15.4700
+            9   C1a C    23.5200  -15.4700
+            10  C1y C    25.9700  -18.3400
+            11  O5a O    24.7800  -16.5200
+            12  C8x C    19.8800  -16.1700
+            13  N1y N    25.9700  -19.7400
+            14  C1x C    27.2300  -17.6400
+            15  C1x C    27.2300  -20.4400
+            16  C1a C    24.7800  -20.4400
+            17  C1x C    28.4200  -18.3400
+            18  C1x C    28.4200  -19.7400
+BOND        19
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12   10  13 1
+            13   10  14 1
+            14   13  15 1
+            15   13  16 1
+            16   14  17 1
+            17   15  18 1
+            18    8  12 1
+            19   17  18 1
+///

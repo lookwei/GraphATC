@@ -1,0 +1,54 @@
+ENTRY       C02515                      Compound
+NAME        3-Iodo-L-tyrosine
+FORMULA     C9H10INO3
+EXACT_MASS  306.9705
+MOL_WEIGHT  307.0851
+REACTION    R03539 R03953 R03973 R09521 R09522
+PATHWAY     map00350  Tyrosine metabolism
+            map01100  Metabolic pathways
+            map04918  Thyroid hormone synthesis
+MODULE      M00043  Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine
+NETWORK     nt06322  TRH-TSH-TH signaling
+ENZYME      1.11.1.8        1.21.1.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C02515  3-Iodo-L-tyrosine
+DBLINKS     CAS: 70-78-0
+            PubChem: 5525
+            ChEBI: 27847
+            PDB-CCD: IYR
+            3DMET: B01585
+            NIKKAJI: J4.880A
+ATOM        14
+            1   C8y C    26.1342  -16.7596
+            2   C8y C    26.1342  -18.1570
+            3   C8x C    24.9289  -16.0609
+            4   X   I    27.3509  -16.0609
+            5   C8x C    24.9289  -18.8616
+            6   O1a O    27.3509  -18.8616
+            7   C8y C    23.7121  -16.7596
+            8   C8x C    23.7121  -18.1570
+            9   C1b C    22.4952  -16.0609
+            10  C1c C    21.2840  -16.7596
+            11  C6a C    20.0671  -16.0609
+            12  N1a N    21.2840  -18.1570
+            13  O6a O    18.8561  -16.7596
+            14  O6a O    20.0671  -14.6635
+BOND        14
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     5   8 1
+            8     7   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 1 #Down
+            12   11  13 1
+            13   11  14 2
+            14    7   8 2
+///

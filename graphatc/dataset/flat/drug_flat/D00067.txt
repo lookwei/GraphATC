@@ -1,0 +1,115 @@
+ENTRY       D00067                      Drug
+NAME        Estrone (JAN/USP/INN);
+            Estrone (TN)
+FORMULA     C18H22O2
+EXACT_MASS  270.162
+MOL_WEIGHT  270.3661
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C00468
+            ATC code: G03CA07 G03CC04
+            Chemical structure group: DG00464
+EFFICACY    Replenisher (estrogen), Estrogen receptor agonist
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA07 Estrone
+                  D00067  Estrone (JAN/USP/INN)
+                G03CC Estrogens, combinations with other drugs
+                 G03CC04 Estrone
+                  D00067  Estrone (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00464  Estrone
+                D00067  Estrone
+              DG01584  Estrogen receptor agonist
+               DG00464  Estrone
+                D00067  Estrone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00464  Estrone
+                 D00067  Estrone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D00067  Estrone (JAN/USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00067
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00464  Estrone
+              DG01584  Estrogen receptor agonist
+               DG00464  Estrone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00464  Estrone
+DBLINKS     CAS: 53-16-7
+            PubChem: 7847135
+            ChEBI: 17263
+            PDB-CCD: J3Z
+            LigandBox: D00067
+            NIKKAJI: J9.114F
+ATOM        20
+            1   C1y C    24.1346  -17.3254
+            2   C1y C    22.9531  -18.0207
+            3   C1z C    24.1407  -15.9531
+            4   C1x C    26.5099  -17.3377
+            5   C1y C    21.7655  -17.3377
+            6   C1x C    22.9284  -19.3746
+            7   C1x C    22.9408  -15.2762
+            8   C5x C    25.3346  -15.2702
+            9   C1a C    24.0484  -14.4948
+            10  C1x C    26.5159  -15.9654
+            11  C8y C    20.5962  -18.0269
+            12  C1x C    21.7531  -15.9717
+            13  C1x C    21.7778  -20.0576
+            14  O5x O    25.3346  -13.9285
+            15  C8y C    20.5962  -19.3807
+            16  C8x C    19.4209  -17.3561
+            17  C8x C    19.4209  -20.0638
+            18  C8x C    18.2640  -18.0269
+            19  C8y C    18.2640  -19.3807
+            20  O1a O    17.1010  -20.0453
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    8  14 2
+            14   11  15 2
+            15   11  16 1
+            16   15  17 1
+            17   16  18 2
+            18   17  19 2
+            19   19  20 1
+            20    7  12 1
+            21    8  10 1
+            22   13  15 1
+            23   18  19 1
+///

@@ -1,0 +1,157 @@
+ENTRY       D11053                      Drug
+NAME        Encorafenib (JAN/USAN/INN);
+            Braftovi (TN)
+PRODUCT     BRAFTOVI (Array BioPharma)
+FORMULA     C22H27ClFN7O4S
+EXACT_MASS  539.1518
+MOL_WEIGHT  540.0107
+CLASS       Antineoplastic
+             DG03159  BRAF inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01EC03
+            Product: D11053<JP/US>
+EFFICACY    Antineoplastic, BRAF kinase inhibitor
+  DISEASE   Melanoma (BRAF mutation positive) [DS:H00038]
+            Colorectal cancer (BRAF mutation positive) [DS:H00020]
+TARGET      BRAF* [HSA_VAR:673v1] [HSA:673] [KO:K04365]
+  PATHWAY   hsa04010(673)  MAPK signaling pathway
+            hsa04012(673)  ErbB signaling pathway
+            hsa05200(673)  Pathways in cancer
+            hsa05218(673)  Melanoma
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EC B-Raf serine-threonine kinase (BRAF) inhibitors
+                 L01EC03 Encorafenib
+                  D11053  Encorafenib (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Encorafenib
+                D11053  Encorafenib (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D11053  Encorafenib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               D11053  Encorafenib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D11053  Encorafenib
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               D11053  Encorafenib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               TKL group
+                BRAF* [HSA_VAR:673v1]
+                 D11053  Encorafenib (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11053
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D11053
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11053
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11053
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11053
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D11053
+DBLINKS     PubChem: 363669766
+ATOM        36
+            1   C8x C    13.0900  -16.2400
+            2   C8x C    13.0900  -17.6400
+            3   C8y C    14.2800  -18.3400
+            4   N5x N    15.5400  -17.6400
+            5   C8y C    15.5400  -16.2400
+            6   N5x N    14.2800  -15.5400
+            7   N1b N    16.7300  -15.5400
+            8   C1b C    17.9200  -16.2400
+            9   C1c C    19.1100  -15.5400
+            10  N1b N    20.3000  -16.2400
+            11  C7a C    21.4900  -15.5400
+            12  O7a O    22.6800  -16.2400
+            13  C1a C    23.8700  -15.5400
+            14  O6a O    21.4900  -14.1400
+            15  C1a C    19.1100  -14.1400
+            16  C8y C    14.2800  -19.7400
+            17  C8y C    13.1600  -20.5800
+            18  N5x N    13.5800  -21.9100
+            19  N4y N    14.9800  -21.9100
+            20  C8x C    15.4700  -20.5800
+            21  C8x C     9.5200  -18.4800
+            22  C8y C     9.5200  -19.8800
+            23  C8y C    10.7100  -20.5800
+            24  C8y C    11.9700  -19.8800
+            25  C8x C    11.9700  -18.4800
+            26  C8y C    10.7100  -17.7800
+            27  X   F    10.7100  -21.9800
+            28  X   Cl   10.7100  -16.3800
+            29  N1b N     8.3300  -20.5800
+            30  S4a S     7.1400  -19.8800
+            31  C1a C     5.9500  -20.5800
+            32  O3c O     8.1200  -18.9000
+            33  O3c O     6.0900  -18.9000
+            34  C1c C    15.7808  -23.0584
+            35  C1a C    17.1472  -23.0109
+            36  C1a C    15.1922  -24.3141
+BOND        38
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   11  14 2
+            15    9  15 1 #Down
+            16    3  16 1
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 1
+            21   16  20 2
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   24  25 1
+            26   25  26 2
+            27   21  26 1
+            28   24  17 1
+            29   23  27 1
+            30   26  28 1
+            31   22  29 1
+            32   29  30 1
+            33   30  31 1
+            34   30  32 2
+            35   30  33 2
+            36   19  34 1
+            37   34  35 1
+            38   34  36 1
+///

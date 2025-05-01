@@ -1,0 +1,100 @@
+ENTRY       D11181                      Drug
+NAME        Vilaprisan (JAN/USAN/INN)
+FORMULA     C27H29F5O4S
+EXACT_MASS  544.1707
+MOL_WEIGHT  544.5738
+EFFICACY    Progesterone receptor modulator
+COMMENT     Treatment of uterine fibroids and endometriosis
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D11181  Vilaprisan (JAN/USAN/INN)
+DBLINKS     CAS: 1262108-14-4
+            PubChem: 376219105
+ATOM        37
+            1   C1x C    15.0743  -18.2993
+            2   C5x C    15.0743  -19.6315
+            3   C2x C    16.2662  -20.3326
+            4   C2y C    17.4581  -19.6315
+            5   C2y C    17.4581  -18.2993
+            6   C1x C    16.2662  -17.5982
+            7   C1x C    18.6500  -20.3326
+            8   C1x C    19.8419  -19.6315
+            9   C1y C    19.8419  -18.2993
+            10  C2y C    18.6500  -17.5982
+            11  C1y C    21.0338  -17.5982
+            12  C1z C    21.0338  -16.1960
+            13  C1x C    19.8419  -15.5650
+            14  C1y C    18.6500  -16.1960
+            15  C1x C    23.3475  -17.5982
+            16  C1x C    23.3475  -16.1960
+            17  C1z C    22.2257  -15.5650
+            18  O1a O    22.2257  -13.8823
+            19  C1d C    23.3475  -14.8638
+            20  X   F    24.5395  -15.5650
+            21  C1d C    23.3475  -13.4616
+            22  X   F    24.5395  -14.1627
+            23  X   F    24.5395  -12.7605
+            24  X   F    22.1556  -12.7605
+            25  X   F    23.3475  -12.1294
+            26  C8y C    17.4581  -15.5650
+            27  C8x C    17.4581  -14.1627
+            28  C8x C    16.2662  -13.4616
+            29  C8y C    15.0743  -14.1627
+            30  C8x C    15.0743  -15.5650
+            31  C8x C    16.2662  -16.1960
+            32  S4a S    13.8824  -13.4616
+            33  C1a C    12.6905  -14.1627
+            34  O5x O    13.8824  -20.3326
+            35  C1a C    21.0338  -14.8638
+            36  O3c O    15.0948  -12.7616
+            37  O3c O    12.6699  -12.7616
+BOND        41
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 2
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   17  18 1 #Up
+            22   19  20 1
+            23   17  19 1 #Down
+            24   19  21 1
+            25   19  22 1
+            26   21  23 1
+            27   21  24 1
+            28   21  25 1
+            29   14  26 1 #Up
+            30   26  27 2
+            31   27  28 1
+            32   28  29 2
+            33   29  30 1
+            34   30  31 2
+            35   26  31 1
+            36   29  32 1
+            37   32  33 1
+            38    2  34 2
+            39   12  35 1 #Up
+            40   32  36 2
+            41   32  37 2
+///

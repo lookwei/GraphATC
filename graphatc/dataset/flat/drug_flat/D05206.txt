@@ -1,0 +1,153 @@
+ENTRY       D05206                      Drug
+NAME        Norepinephrine bitartrate (USP);
+            Levophed (TN)
+PRODUCT     LEVOPHED (Hospira)
+            LEVOPHED(R) NOREPINEPHRINE BITARTRATE (HF Acquisition Co LLC)
+            NOREPINEPHRINE BITARTRATE (Baxter Healthcare Corporation)
+            NOREPINEPHRINE BITARTRATE (Par Pharmaceutical)
+            NOREPINEPHRINE BITARTRATE (WG Critical Care)
+  GENERIC   NOREPINEPHRINE BITARTRATE (Amneal Pharmaceuticals LLC)
+            NOREPINEPHRINE BITARTRATE (Baxter Healthcare Corporation)
+            NOREPINEPHRINE BITARTRATE (Baxter Healthcare Corporation)
+            NOREPINEPHRINE BITARTRATE (Breckenridge Pharmaceutical)
+            NOREPINEPHRINE BITARTRATE (Caplin Steriles Limited)
+            NOREPINEPHRINE BITARTRATE (Civica)
+            NOREPINEPHRINE BITARTRATE (Fresenius Kabi USA)
+            NOREPINEPHRINE BITARTRATE (Fresenius Kabi USA)
+            NOREPINEPHRINE BITARTRATE (Gland Pharma Limited)
+            NOREPINEPHRINE BITARTRATE (HF Acquisition Co LLC)
+            NOREPINEPHRINE BITARTRATE (Hikma Pharmaceuticals USA)
+            NOREPINEPHRINE BITARTRATE (Mylan Institutional LLC)
+            NOREPINEPHRINE BITARTRATE (Mylan Institutional LLC)
+            NOREPINEPHRINE BITARTRATE (Sagent Pharmaceuticals)
+            NOREPINEPHRINE BITARTRATE (Sandoz)
+            NOREPINEPHRINE BITARTRATE (Sun Pharmaceutical Industries)
+FORMULA     C8H11NO3. C4H6O6. H2O
+EXACT_MASS  337.1009
+MOL_WEIGHT  337.28
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+            Metabolizing enzyme substrate
+             DG01592  COMT substrate
+             DG02917  MAO substrate
+REMARK      ATC code: C01CA03
+            Chemical structure group: DG00212
+            Product (DG00212): D00076<JP> D05206<US>
+EFFICACY    Antihypotensive, Vasoconstrictor, Adrenergic receptor agonist
+  DISEASE   Myocardial infarction [DS:H01730]
+COMMENT     Catecholamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: COMT [HSA:1312], MAO [HSA:4128 4129]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA03 Norepinephrine
+                  D05206  Norepinephrine bitartrate (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00212  Norepinephrine
+                 D05206  Norepinephrine bitartrate
+              DG01456  Adrenergic receptor agonist
+               DG00212  Norepinephrine
+                D05206  Norepinephrine bitartrate
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00212  Norepinephrine
+                D05206  Norepinephrine bitartrate
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00212  Norepinephrine
+                D05206  Norepinephrine bitartrate
+              DG02917  MAO substrate
+               DG00212  Norepinephrine
+                D05206  Norepinephrine bitartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D05206  Norepinephrine bitartrate (USP) &lt;US&gt;
+                ADRA2
+                 D05206  Norepinephrine bitartrate (USP) &lt;US&gt;
+                ADRB
+                 D05206  Norepinephrine bitartrate (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05206
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00212  Norepinephrine
+              DG01456  Adrenergic receptor agonist
+               DG00212  Norepinephrine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00212  Norepinephrine
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00212  Norepinephrine
+              DG02917  MAO substrate
+               DG00212  Norepinephrine
+DBLINKS     CAS: 69815-49-2
+            PubChem: 47206925
+            LigandBox: D05206
+ATOM        23
+            1   C8y C    35.0700  -25.6900
+            2   C8x C    35.0700  -27.0900
+            3   C8x C    33.8100  -24.9900
+            4   C1c C    36.2600  -24.9900
+            5   C8x C    33.8100  -27.7900
+            6   C8y C    32.6200  -25.6900
+            7   C1b C    37.4500  -25.6900
+            8   O1a O    36.2600  -23.5900
+            9   C8y C    32.6200  -27.0900
+            10  N1a N    38.6400  -24.9900
+            11  O1a O    31.4300  -27.7900
+            12  O1a O    31.4300  -24.9900
+            13  O6a O    41.7200  -26.1100
+            14  C6a C    42.9800  -25.4100
+            15  C1c C    44.1700  -26.1100
+            16  C1c C    45.3600  -25.4100
+            17  C6a C    46.6200  -26.1100
+            18  O6a O    47.8100  -25.4100
+            19  O6a O    42.9800  -24.0100
+            20  O1a O    44.1700  -27.5100
+            21  O1a O    45.3600  -24.0100
+            22  O6a O    46.6200  -27.5100
+            23  O0  O    51.8700  -26.3200
+BOND        21
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     4   8 1 #Up
+            8     5   9 2
+            9     7  10 1
+            10    9  11 1
+            11    6   9 1
+            12    6  12 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   14  19 2
+            19   15  20 1 #Up
+            20   16  21 1 #Up
+            21   17  22 2
+///

@@ -1,0 +1,106 @@
+ENTRY       D08517                      Drug
+NAME        Sitaxentan sodium (USAN);
+            Thelin (TN)
+FORMULA     C18H15ClN2O6S2. Na
+EXACT_MASS  476.9958
+MOL_WEIGHT  477.8943
+CLASS       Cardiovascular agent
+             DG01502  Endothelin receptor antagonist
+REMARK      ATC code: C02KX03
+            Chemical structure group: DG00267
+EFFICACY    Antihypertensive, Endothelin receptor type A antagonist
+COMMENT     Treatment of congestive heart failure, ischemic deficits in patients with subarachnoid, treatment of hypertension, and treatment of prostate cancer
+TARGET      EDNRA [HSA:1909] [KO:K04197]
+  PATHWAY   hsa04080(1909)  Neuroactive ligand-receptor interaction
+            hsa04270(1909)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02K OTHER ANTIHYPERTENSIVES
+                C02KX Antihypertensives for pulmonary arterial hypertension
+                 C02KX03 Sitaxentan
+                  D08517  Sitaxentan sodium (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               DG00267  Sitaxentan
+                D08517  Sitaxentan sodium
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Endothelin
+                EDNRA
+                 D08517  Sitaxentan sodium (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               DG00267  Sitaxentan
+DBLINKS     CAS: 210421-74-2
+            PubChem: 96025202
+            LigandBox: D08517
+ATOM        30
+            1   C8y C    18.2700  -17.6400
+            2   C8y C    18.2700  -19.0400
+            3   C8x C    19.5300  -19.7400
+            4   C8y C    20.7200  -19.0400
+            5   C8y C    20.7200  -17.6400
+            6   C8x C    19.5300  -16.9400
+            7   O2x O    16.9400  -17.2900
+            8   C1x C    16.1700  -18.4800
+            9   O2x O    17.0800  -19.5300
+            10  C1a C    21.9100  -20.1600
+            11  C1b C    21.9100  -16.9400
+            12  C5a C    23.1700  -17.6400
+            13  C8y C    24.3600  -16.9400
+            14  C8y C    25.6200  -17.5000
+            15  C8x C    26.5300  -16.4500
+            16  C8x C    25.9000  -15.2600
+            17  S2x S    24.5000  -15.5400
+            18  S4a S    25.9000  -18.8300
+            19  O3c O    24.5700  -19.1100
+            20  O3c O    26.2500  -20.2300
+            21  N1b N    27.2300  -18.5500
+            22  C8y C    28.6300  -19.1100
+            23  O2x O    28.9100  -20.4400
+            24  N5x N    30.3100  -20.5800
+            25  C8y C    30.8000  -19.3200
+            26  C8y C    29.7500  -18.4100
+            27  X   Cl   29.8900  -17.0100
+            28  C1a C    32.2000  -19.0400
+            29  O5a O    23.1700  -19.0400
+            30  Z   Na   27.9300  -13.7900
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    4  10 1
+            12    5  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   13  17 1
+            20   14  18 1
+            21   18  19 2
+            22   18  20 2
+            23   18  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   22  26 2
+            30   26  27 1
+            31   25  28 1
+            32   12  29 2
+///

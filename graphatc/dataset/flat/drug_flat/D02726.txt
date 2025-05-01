@@ -1,0 +1,78 @@
+ENTRY       D02726                      Drug
+NAME        Meteneprost (USAN/INN)
+FORMULA     C23H38O4
+EXACT_MASS  378.277
+MOL_WEIGHT  378.5454
+EFFICACY    Oxytocic
+COMMENT     Prostaglandin derivative
+TARGET      PTGER2 [HSA:5732] [KO:K04259]
+  PATHWAY   hsa04080(5732)  Neuroactive ligand-receptor interaction
+STR_MAP     map07035  Prostaglandins
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGER2
+                 D02726  Meteneprost (USAN/INN)
+DBLINKS     CAS: 61263-35-2
+            PubChem: 17396893
+            ChEBI: 165325
+            LigandBox: D02726
+            NIKKAJI: J18.321K
+ATOM        27
+            1   C1y C    21.7692  -19.5520
+            2   C1y C    21.7692  -18.1421
+            3   C2y C    20.4283  -17.7065
+            4   C1x C    19.5997  -18.8471
+            5   C1y C    20.4283  -19.9876
+            6   C2b C    22.9901  -20.8869
+            7   C2b C    24.2111  -20.1820
+            8   C1c C    25.4321  -20.8869
+            9   C1d C    26.6530  -20.1820
+            10  C1b C    27.8740  -20.8869
+            11  C1b C    29.0949  -20.1820
+            12  C1b C    30.3158  -20.8869
+            13  C1a C    31.5369  -20.1820
+            14  C1b C    22.9901  -16.4572
+            15  C2b C    24.2111  -17.1621
+            16  C2a C    19.9965  -16.3776
+            17  C2b C    25.6210  -17.1621
+            18  C1b C    26.8672  -16.4572
+            19  C1b C    28.0882  -17.1621
+            20  C1b C    29.3091  -16.4572
+            21  C6a C    30.5300  -17.1621
+            22  O6a O    31.7510  -16.4572
+            23  O6a O    30.5300  -18.5014
+            24  O1a O    25.4321  -22.2967
+            25  O1a O    19.9965  -21.3165
+            26  C1a C    27.6429  -19.1920
+            27  C1a C    25.6630  -19.1920
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Up
+            7     6   7 2
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    2  14 1 #Down
+            15   14  15 1
+            16    3  16 2
+            17   15  17 2
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+            23   21  23 2
+            24    8  24 1 #Down
+            25    5  25 1 #Down
+            26    9  26 1
+            27    9  27 1
+///

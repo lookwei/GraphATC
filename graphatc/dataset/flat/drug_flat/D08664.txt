@@ -1,0 +1,103 @@
+ENTRY       D08664                      Drug
+NAME        Valaciclovir (INN);
+            Valacyclovir;
+            Valtrex (TN)
+FORMULA     C13H20N6O4
+EXACT_MASS  324.1546
+MOL_WEIGHT  324.3357
+CLASS       Antiviral
+             DG02840  Anti-herpesvirus agent
+REMARK      ATC code: J05AB11
+            Chemical structure group: DG00647
+            Product (DG00647): D00398<JP/US> D10518<JP/US>
+EFFICACY    Antiviral, DNA polymerase inhibitor
+COMMENT     Active form of prodrug: Aciclovir [DR:D00222]
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB11 Valaciclovir
+                  D08664  Valaciclovir (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               DG00647  Valaciclovir
+                D08664  Valaciclovir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D08664  Valaciclovir (INN)
+            Prodrugs [br08324.html]
+             D08664
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               DG00647  Valaciclovir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00647  Valaciclovir
+            Prodrugs [br08324.html(DG00647)]
+             DG00647
+DBLINKS     CAS: 124832-26-4
+            PubChem: 96025347
+            PDB-CCD: TXC
+            LigandBox: D08664
+            NIKKAJI: J480.132F
+ATOM        23
+            1   N4y N    23.8700  -17.9200
+            2   C8y C    25.1300  -17.4300
+            3   C8y C    25.1300  -16.0300
+            4   N5x N    23.8000  -15.6800
+            5   C8x C    23.0300  -16.8000
+            6   N5x N    26.3900  -18.1300
+            7   C8y C    27.5800  -17.4300
+            8   N4x N    27.5800  -16.0300
+            9   C8y C    26.3200  -15.3300
+            10  O5x O    26.3200  -13.9300
+            11  N1a N    28.8400  -18.0600
+            12  C1b C    23.8700  -19.3200
+            13  O2a O    22.6100  -20.0200
+            14  C1b C    21.4200  -19.3200
+            15  C1b C    20.1600  -20.0200
+            16  O7a O    18.9700  -19.3200
+            17  C7a C    17.7519  -20.0101
+            18  C1c C    16.5705  -19.3150
+            19  C1c C    15.3651  -19.9980
+            20  C1a C    14.1939  -19.3091
+            21  C1a C    15.4231  -21.4192
+            22  O6a O    17.8102  -21.4194
+            23  N1a N    16.5819  -17.9200
+BOND        24
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     2   6 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 1
+            10    3   9 1
+            11    9  10 2
+            12    7  11 1
+            13    1  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   19  21 1
+            23   17  22 2
+            24   18  23 1 #Down
+///

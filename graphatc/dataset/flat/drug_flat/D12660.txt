@@ -1,0 +1,89 @@
+ENTRY       D12660                      Drug
+NAME        Alphacetylmethadol (INN)
+FORMULA     C23H31NO2
+EXACT_MASS  353.2355
+MOL_WEIGHT  353.4977
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+            hsa05032(4988)  Morphine addiction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12660  Alphacetylmethadol
+             Analgesic
+              DG01984  Opioid analgesics
+               D12660  Alphacetylmethadol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12660  Alphacetylmethadol (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12660
+DBLINKS     CAS: 17199-58-5
+ATOM        26
+            1   C8x C    15.5065  -17.6113
+            2   C8x C    15.5065  -18.9444
+            3   C8x C    16.6993  -19.6461
+            4   C8x C    17.8921  -18.9444
+            5   C8y C    17.8921  -17.6113
+            6   C8x C    16.6993  -16.9096
+            7   C8x C    20.2777  -18.9444
+            8   C8y C    20.2777  -17.6113
+            9   C1d C    19.0849  -16.9096
+            10  C8x C    21.4004  -19.6461
+            11  C8x C    22.5932  -18.9444
+            12  C8x C    22.5932  -17.6113
+            13  C8x C    21.4004  -16.9096
+            14  C1b C    19.0849  -15.5063
+            15  C1c C    20.2777  -14.8749
+            16  C1c C    17.0501  -15.7870
+            17  C1a C    21.4004  -15.5063
+            18  C1b C    15.8573  -16.4886
+            19  C1a C    14.7347  -15.7870
+            20  O7a O    17.0501  -14.4539
+            21  C7a C    15.8573  -13.7522
+            22  C1a C    14.6645  -14.4539
+            23  O6a O    15.8573  -12.3489
+            24  N1c N    20.2777  -13.4716
+            25  C1a C    21.4004  -12.7699
+            26  C1a C    19.0148  -12.7699
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 1
+            16   14  15 1
+            17    9  16 1
+            18   15  17 1
+            19   16  18 1
+            20   18  19 1
+            21   20  21 1
+            22   21  22 1
+            23   21  23 2
+            24   16  20 1 #Up
+            25   24  25 1
+            26   24  26 1
+            27   15  24 1 #Down
+///

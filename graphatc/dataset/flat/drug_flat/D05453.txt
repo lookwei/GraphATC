@@ -1,0 +1,70 @@
+ENTRY       D05453                      Drug
+NAME        Phencyclidine hydrochloride (USAN);
+            PCP
+FORMULA     C17H25N. HCl
+EXACT_MASS  279.1754
+MOL_WEIGHT  279.848
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+EFFICACY    Anesthetic
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+INTERACTION  
+STR_MAP     map07235  N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               D05453  Phencyclidine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D05453  Phencyclidine hydrochloride (USAN)
+DBLINKS     CAS: 956-90-1
+            PubChem: 47207122
+            LigandBox: D05453
+            NIKKAJI: J281.186C
+ATOM        19
+            1   C1z C    24.5700  -19.2039
+            2   C8y C    23.3642  -19.9089
+            3   N1y N    25.7815  -19.9089
+            4   C1x C    25.7815  -18.4933
+            5   C1x C    23.3525  -18.5049
+            6   C8x C    23.3642  -21.3069
+            7   C8x C    22.1584  -19.2039
+            8   C1x C    25.7815  -21.3069
+            9   C1x C    26.9933  -19.2039
+            10  C1x C    25.7758  -17.0895
+            11  C1x C    23.3468  -17.1011
+            12  C8x C    22.1584  -22.0059
+            13  C8x C    20.9409  -19.9089
+            14  C1x C    26.9933  -22.0000
+            15  C1x C    28.2048  -19.9089
+            16  C1x C    24.5583  -16.4021
+            17  C8x C    20.9409  -21.3069
+            18  C1x C    28.2048  -21.3069
+            19  X   Cl   29.8200  -17.9900
+BOND        20
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    8  14 1
+            14    9  15 1
+            15   10  16 1
+            16   12  17 1
+            17   14  18 1
+            18   11  16 1
+            19   13  17 2
+            20   15  18 1
+///

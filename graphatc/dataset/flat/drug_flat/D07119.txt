@@ -1,0 +1,79 @@
+ENTRY       D07119                      Drug
+NAME        Alendronic acid (INN)
+FORMULA     C4H13NO7P2
+EXACT_MASS  249.0167
+MOL_WEIGHT  249.096
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Same as: C07752
+            ATC code: M05BA04
+            Chemical structure group: DG00783
+            Product (DG00783): D00939<JP/US>
+            Product (mixture): D10841<US>
+EFFICACY    Antiresorptive, Farnesylpyrophosphate synthetase inhibitor
+COMMENT     Bishposphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M05 DRUGS FOR TREATMENT OF BONE DISEASES
+               M05B DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+                M05BA Bisphosphonates
+                 M05BA04 Alendronic acid
+                  D07119  Alendronic acid (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00783  Alendronic acid
+                 D07119  Alendronic acid
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D07119  Alendronic acid (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00783  Alendronic acid
+DBLINKS     CAS: 66376-36-1
+            PubChem: 51091458
+            ChEBI: 2567
+            PDB-CCD: 212 AHD
+            LigandBox: D07119
+            NIKKAJI: J363.022F
+ATOM        14
+            1   P1b P    20.5100  -20.4400
+            2   C1d C    21.9100  -20.4400
+            3   C1b C    21.9100  -18.5500
+            4   O1a O    21.9100  -21.8400
+            5   P1b P    23.3100  -20.4400
+            6   O1c O    24.7100  -20.4400
+            7   O1c O    19.1100  -20.4400
+            8   O1c O    20.5100  -19.0400
+            9   O1c O    23.3100  -19.0400
+            10  C1b C    23.1224  -17.8500
+            11  C1b C    23.1225  -16.4502
+            12  N1a N    24.3181  -15.7598
+            13  O1c O    20.5100  -21.8400
+            14  O1c O    23.3100  -21.8400
+BOND        13
+            1     1   2 1
+            2     2   3 1
+            3     2   4 1
+            4     2   5 1
+            5     5   6 1
+            6     1   7 1
+            7     1   8 2
+            8     5   9 2
+            9     3  10 1
+            10   10  11 1
+            11   11  12 1
+            12    1  13 1
+            13    5  14 1
+///

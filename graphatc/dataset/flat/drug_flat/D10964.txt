@@ -1,0 +1,131 @@
+ENTRY       D10964                      Drug
+NAME        Omaveloxolone (USAN/INN);
+            Skyclarys (TN)
+PRODUCT     SKYCLARYS (Reata Pharmaceuticals)
+FORMULA     C33H44F2N2O3
+EXACT_MASS  554.332
+MOL_WEIGHT  554.7109
+CLASS       Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG02954  CYP2J2 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Product: D10964<US>
+EFFICACY    Anti-inflammatory, Nuclear factor erythroid 2-related factor 2 stimulant
+  DISEASE   Friedreich's ataxia [DS:H00067]
+COMMENT     Treatment of conditions involving oxidative stress and inflammation
+TARGET      NFE2L2 [HSA:4780] [KO:K05638]
+  PATHWAY   hsa04141(4780)  Protein processing in endoplasmic reticulum
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]; CYP2C8 [HSA:1558], CYP2J2 [HSA:1573]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               D10964  Omaveloxolone
+              DG02954  CYP2J2 substrate
+               D10964  Omaveloxolone
+              DG01633  CYP3A/CYP3A4 substrate
+               D10964  Omaveloxolone
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Signaling molecules
+               Transcription factor
+                NFE2L2
+                 D10964  Omaveloxolone (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10964
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10964
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10964
+DBLINKS     CAS: 1474034-05-3
+            PubChem: 342581813
+ATOM        40
+            1   C2y C    14.3530  -17.6122
+            2   C5x C    14.3530  -19.0181
+            3   C1z C    15.5705  -19.7211
+            4   C1y C    16.7882  -19.0181
+            5   C1z C    16.7882  -17.6122
+            6   C2x C    15.5705  -16.9092
+            7   C1x C    18.0057  -19.7211
+            8   C1x C    19.2233  -19.0181
+            9   C1z C    19.2233  -17.6122
+            10  C2y C    18.0057  -16.9092
+            11  C1z C    20.4409  -16.9092
+            12  C1y C    20.4409  -15.5033
+            13  C5x C    19.2233  -14.8003
+            14  C2x C    18.0057  -15.5033
+            15  C1x C    21.6584  -17.6122
+            16  C1x C    22.8760  -16.9092
+            17  C1z C    22.8760  -15.5033
+            18  C1y C    21.6584  -14.8003
+            19  C1x C    24.0936  -14.8003
+            20  C1x C    24.0936  -13.3944
+            21  C1z C    22.8760  -12.6914
+            22  C1x C    21.6584  -13.3944
+            23  C1a C    22.1730  -11.4739
+            24  C1a C    23.5789  -11.4739
+            25  N1b N    24.0936  -16.2062
+            26  C1a C    19.2233  -16.4874
+            27  C1a C    20.4409  -18.3151
+            28  C1a C    16.7882  -16.2062
+            29  O5x O    19.2233  -13.3944
+            30  O5x O    13.1355  -19.7211
+            31  C3b C    13.1355  -16.9092
+            32  N3a N    11.9178  -16.2062
+            33  C1a C    14.8676  -20.9386
+            34  C1a C    16.2735  -20.9386
+            35  C5a C    25.2924  -15.5400
+            36  C1d C    26.5049  -16.2400
+            37  C1a C    27.7173  -15.5400
+            38  O5a O    25.3039  -14.1404
+            39  X   F    25.8049  -17.4524
+            40  X   F    27.2049  -17.4524
+BOND        44
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 2
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   12  18 1
+            22   17  19 1
+            23   19  20 1
+            24   20  21 1
+            25   21  22 1
+            26   18  22 1
+            27   21  23 1
+            28   21  24 1
+            29   17  25 1 #Up
+            30    9  26 1 #Up
+            31   11  27 1 #Down
+            32    5  28 1 #Up
+            33   13  29 2
+            34    2  30 2
+            35    1  31 1
+            36   31  32 3
+            37    3  33 1
+            38    3  34 1
+            39   25  35 1
+            40   35  36 1
+            41   36  37 1
+            42   35  38 2
+            43   36  39 1
+            44   36  40 1
+///

@@ -1,0 +1,65 @@
+ENTRY       D02441                      Drug
+NAME        Ethoxzolamide;
+            Cardrase (TN)
+FORMULA     C9H10N2O3S2
+EXACT_MASS  258.0133
+MOL_WEIGHT  258.3173
+CLASS       Cardiovascular agent
+             DG01534  Carbonic anhydrase inhibitor
+EFFICACY    Antiglaucoma, Diuretic, Carbonic anhydrase inhibitor
+TARGET      CA [HSA:759 760 761 762 763 11238 765 766 767 768 771 377677 23632] [KO:K01672 K18245 K18246]
+  PATHWAY   hsa04964(760+762)  Proximal tubule bicarbonate reclamation
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01534  Carbonic anhydrase inhibitor
+               D02441  Ethoxzolamide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Aldehyde-lyases
+                CA
+                 D02441  Ethoxzolamide
+DBLINKS     CAS: 452-35-7
+            PubChem: 7849499
+            ChEBI: 101096
+            PDB-CCD: EZL
+            LigandBox: D02441
+            NIKKAJI: J5.754A
+ATOM        16
+            1   C8y C    18.1025  -15.5397
+            2   C8y C    18.1025  -16.9334
+            3   C8x C    19.2871  -17.6302
+            4   C8x C    20.5414  -16.9334
+            5   C8y C    20.5414  -15.5397
+            6   C8x C    19.2871  -14.8429
+            7   S2x S    16.7785  -15.1216
+            8   C8y C    15.9423  -16.2365
+            9   N5x N    16.7785  -17.3515
+            10  S4a S    14.5486  -16.2365
+            11  O3c O    14.5486  -14.8429
+            12  N1a N    14.5486  -17.6302
+            13  O3c O    13.1550  -16.2365
+            14  O2a O    21.7260  -14.7732
+            15  C1b C    22.9106  -15.4700
+            16  C1a C    24.1649  -14.7035
+BOND        17
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    2   9 1
+            11    8  10 1
+            12   10  11 2
+            13   10  12 1
+            14   10  13 2
+            15    5  14 1
+            16   14  15 1
+            17   15  16 1
+///

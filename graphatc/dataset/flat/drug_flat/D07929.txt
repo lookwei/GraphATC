@@ -1,0 +1,123 @@
+ENTRY       D07929                      Drug
+NAME        Ethylmorphine (BAN)
+FORMULA     C19H23NO3
+EXACT_MASS  313.1678
+MOL_WEIGHT  313.3908
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07537
+            ATC code: R05DA01 S01XA06
+            Chemical structure group: DG01074
+EFFICACY    Analgesic (narcotic), Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA01 Ethylmorphine
+                  D07929  Ethylmorphine (BAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01X OTHER OPHTHALMOLOGICALS
+                S01XA Other ophthalmologicals
+                 S01XA06 Ethylmorphine
+                  D07929  Ethylmorphine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01074  Ethylmorphine
+                 D07929  Ethylmorphine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01074  Ethylmorphine
+                 D07929  Ethylmorphine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07929  Ethylmorphine (BAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07929
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D07929
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01074  Ethylmorphine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01074  Ethylmorphine
+DBLINKS     CAS: 76-58-4
+            PubChem: 96024624
+            ChEBI: 4902
+            LigandBox: D07929
+            NIKKAJI: J4.179C
+ATOM        23
+            1   C1z C    24.0800  -18.6200
+            2   C8y C    24.0800  -17.2900
+            3   C1y C    25.2000  -19.3200
+            4   C1y C    22.9600  -19.2500
+            5   C1x C    25.2000  -17.9900
+            6   C8y C    22.9600  -16.6600
+            7   C8y C    25.2000  -16.6600
+            8   C1y C    26.3200  -18.6200
+            9   C2x C    25.2000  -20.5800
+            10  O2x O    21.6300  -17.9200
+            11  C1y C    22.9600  -20.5800
+            12  C1x C    27.4400  -17.9900
+            13  C8y C    22.9600  -15.3300
+            14  C1x C    26.3200  -17.3600
+            15  C8x C    25.2000  -15.3300
+            16  N1y N    27.4400  -19.3200
+            17  C2x C    24.0800  -21.2800
+            18  O1a O    21.8400  -21.2800
+            19  C8x C    24.1500  -14.7000
+            20  O2a O    21.8400  -14.7000
+            21  C1b C    20.6500  -15.3300
+            22  C1a C    28.8400  -19.3200
+            23  C1a C    19.4600  -14.6300
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 2
+            17   11  18 1 #Down
+            18   13  19 2
+            19   13  20 1
+            20   20  21 1
+            21    6  10 1
+            22    8  14 1
+            23   11  17 1
+            24   12  16 1
+            25   15  19 1
+            26   16  22 1
+            27   21  23 1
+///

@@ -1,0 +1,145 @@
+ENTRY       D05312                      Drug
+NAME        Oxycodone (USAN/INN)
+PRODUCT     XTAMPZA (Collegium Pharmaceutical)
+FORMULA     C18H21NO4
+EXACT_MASS  315.1471
+MOL_WEIGHT  315.3636
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C08018
+            ATC code: N02AA05
+            Chemical structure group: DG00813
+            Product (DG00813): D05312<US> D00847<US> D05462<JP>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+            OPRD1 [HSA:4985] [KO:K04213]
+  PATHWAY   hsa04080(4985+4986+4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AA Natural opium alkaloids
+                 N02AA05 Oxycodone
+                  D05312  Oxycodone (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Long-acting
+               Oxycodone
+                D05312  Oxycodone (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00813  Oxycodone
+                D05312  Oxycodone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00813  Oxycodone
+                D05312  Oxycodone
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00813  Oxycodone
+                D05312  Oxycodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00813  Oxycodone
+                 D05312  Oxycodone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D05312  Oxycodone (USAN/INN) &lt;US&gt;
+                OPRK1
+                 D05312  Oxycodone (USAN/INN) &lt;US&gt;
+                OPRD1
+                 D05312  Oxycodone (USAN/INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05312
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D05312
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00813  Oxycodone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00813  Oxycodone
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00813  Oxycodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00813  Oxycodone
+DBLINKS     CAS: 76-42-6
+            PubChem: 47207011
+            ChEBI: 7852
+            PDB-CCD: OOX
+            LigandBox: D05312
+            NIKKAJI: J9.316E
+ATOM        23
+            1   C1z C    23.8762  -18.4036
+            2   C8y C    23.8702  -17.0454
+            3   C1z C    25.0479  -19.0741
+            4   C1y C    22.7161  -19.0858
+            5   C8y C    22.6985  -16.3692
+            6   C8y C    25.0420  -16.3692
+            7   C1y C    26.2139  -18.3862
+            8   C1x C    25.0536  -20.4149
+            9   O1a O    26.2139  -20.0187
+            10  O2x O    22.0106  -17.7452
+            11  C5x C    22.7219  -20.4265
+            12  C8y C    22.6985  -15.0168
+            13  C1x C    26.2139  -17.0395
+            14  C8x C    25.0420  -15.0168
+            15  N1y N    27.3797  -19.0624
+            16  C1x C    23.8936  -21.0970
+            17  O5x O    21.5385  -21.0911
+            18  C8x C    23.8702  -14.3406
+            19  O2a O    21.5211  -14.3406
+            20  C1a C    28.7321  -19.0624
+            21  C1x C    27.3797  -17.7324
+            22  C1x C    25.0886  -17.7036
+            23  C1a C    20.2830  -15.0594
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 2
+            12    6  13 1
+            13    6  14 1
+            14    7  15 1 #Up
+            15    8  16 1
+            16   11  17 2
+            17   12  18 1
+            18   12  19 1
+            19   15  20 1
+            20    5  10 1
+            21    7  13 1
+            22   11  16 1
+            23   14  18 2
+            24   15  21 1
+            25    1  22 1 #Up
+            26   22  21 1
+            27   19  23 1
+///

@@ -1,0 +1,132 @@
+ENTRY       C05443                      Compound
+NAME        Vitamin D3;
+            Cholecalciferol;
+            Calciol
+FORMULA     C27H44O
+EXACT_MASS  384.3392
+MOL_WEIGHT  384.6377
+REMARK      Same as: D00188
+REACTION    R03311 R03611 R11458
+PATHWAY     map00100  Steroid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04977  Vitamin digestion and absorption
+            map05323  Rheumatoid arthritis
+MODULE      M00103  Cholecalciferol biosynthesis
+ENZYME      1.14.14.24      1.14.15.22
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Vitamins
+               Fat-soluble vitamins
+                C05443  Cholecalciferol (Vitamin D3)
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST03 Secosteroids
+               ST0302 Vitamin D3 and derivatives
+                C05443  Vitamin D3
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00188)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11C VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO
+                A11CC Vitamin D and analogues
+                 A11CC05 Colecalciferol
+                  D00188  Cholecalciferol (JP18/USP)
+            Classification of Japanese OTC drugs [BR:br08313(D00188)]
+             Nourishing tonics and health supplements
+              33 Vitamin D based drugs
+               D00188  Cholecalciferol (JP18/USP)
+            Risk category of Japanese OTC drugs [BR:br08312(D00188)]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Ergocalciferol or Cholecalciferol
+                D00188  Cholecalciferol (JP18/USP)
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Ergocalciferol
+                D00188  Cholecalciferol (JP18/USP)
+            Animal drugs in Japan [BR:br08331]
+             96  Agents affecting metabolism
+              962  Vitamin preparations
+               9621  Vitamin A, D and preparations
+                C05443  Vitamin D3
+            Drug groups [BR:br08330(D00188)]
+             Gastrointestinal agent
+              DG01607  Vitamin D derivatives
+               D00188  Cholecalciferol
+            Target-based classification of drugs [BR:br08310(D00188)]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Vitamin D3 like receptor
+                NR1I1 (VDR)
+                 D00188  Cholecalciferol (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00188)]
+             Chemicals
+              D00188  Cholecalciferol
+DBLINKS     CAS: 67-97-0
+            PubChem: 7805
+            ChEBI: 28940
+            LIPIDMAPS: LMST03020001
+            KNApSAcK: C00041217
+            3DMET: B01859
+            NIKKAJI: J2.367A
+ATOM        28
+            1   C1z C    26.6024  -20.0553
+            2   C1y C    26.5965  -21.4109
+            3   C1y C    27.7842  -19.3832
+            4   C1x C    25.4321  -19.3775
+            5   C1a C    26.5909  -18.6939
+            6   C2y C    25.4321  -22.0887
+            7   C1x C    28.9545  -21.4224
+            8   C1x C    28.9603  -20.0668
+            9   C1c C    27.7842  -17.9928
+            10  C1x C    24.2503  -20.0553
+            11  C2b C    25.4380  -23.4502
+            12  C1x C    24.2503  -21.4109
+            13  C1b C    28.9430  -17.3267
+            14  C1a C    26.5850  -17.3498
+            15  C2b C    24.2561  -24.1338
+            16  C1b C    30.1247  -17.9987
+            17  C1b C    31.2951  -17.3092
+            18  C1c C    32.4768  -17.9755
+            19  C1a C    33.6472  -17.2860
+            20  C1a C    32.4884  -19.3369
+            21  C2y C    24.2561  -25.5338
+            22  C1x C    23.0626  -26.2234
+            23  C1y C    23.0631  -27.6234
+            24  C1x C    24.2757  -28.3230
+            25  C1x C    25.4692  -27.6334
+            26  C2y C    25.4688  -26.2334
+            27  C2a C    26.6812  -25.5334
+            28  O1a O    21.8506  -28.3234
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1
+            10    6  11 2
+            11    6  12 1
+            12    9  13 1
+            13    9  14 1 #Down
+            14   11  15 1
+            15   13  16 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19   18  20 1
+            20    7   8 1
+            21   10  12 1
+            22   15  21 2
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   21  26 1
+            29   26  27 2
+            30   23  28 1 #Down
+///

@@ -1,0 +1,170 @@
+ENTRY       D01896                      Drug
+NAME        Cilostazol (JP18/USP/INN);
+            Pletal (TN)
+PRODUCT
+  GENERIC   CILOSTAZOL (A-S Medication Solutions)
+            CILOSTAZOL (A-S Medication Solutions)
+            CILOSTAZOL (Aphena Pharma Solutions - Tennessee)
+            CILOSTAZOL (Apotex Corp.)
+            CILOSTAZOL (AvKARE)
+            CILOSTAZOL (AvPAK)
+            CILOSTAZOL (Bryant Ranch Prepack)
+            CILOSTAZOL (Bryant Ranch Prepack)
+            CILOSTAZOL (REMEDYREPACK)
+            CILOSTAZOL (REMEDYREPACK)
+            CILOSTAZOL (Slate Run Pharmaceuticals)
+            CILOSTAZOL (Teva Pharmaceuticals USA)
+            CILOSTAZOL (West-Ward Pharmaceuticals Corp.)
+            CILOSTAZOL (direct rx)
+FORMULA     C20H27N5O2
+EXACT_MASS  369.2165
+MOL_WEIGHT  369.4607
+CLASS       Cardiovascular agent
+             DG01507  Phosphodiesterase III inhibitor
+            Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 3399
+            ATC code: B01AC23
+            Product: D01896<JP/US>
+EFFICACY    Vasodilator, Platelet aggregation inhibitor, Phosphodiesterase inhibitor
+TARGET      PDE3 [HSA:5139 5140] [KO:K19021 K13296]
+            TBXA2R [HSA:6915] [KO:K04264]
+  PATHWAY   hsa00230(5139+5140)  Purine metabolism
+            hsa04022(5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(5139+5140)  cAMP signaling pathway
+            hsa04611(6915)  Platelet activation
+            hsa04910(5140)  Insulin signaling pathway
+            hsa04922(5140)  Glucagon signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565], CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07049  Antithrombosis agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC23 Cilostazol
+                  D01896  Cilostazol (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Blood Products and Modifiers
+              Platelet Modifying Agents
+               Platelet Modifying Agents, Other
+                Cilostazol
+                 D01896  Cilostazol (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              33  Blood and body fluid agents
+               339  Miscellaneous
+                3399  Others
+                 D01896  Cilostazol (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01507  Phosphodiesterase III inhibitor
+               D01896  Cilostazol
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                D01896  Cilostazol
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D01896  Cilostazol
+              DG01644  CYP2D6 substrate
+               D01896  Cilostazol
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01896  Cilostazol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thromboxane
+                TBXA2R
+                 D01896  Cilostazol (JP18/USP/INN) &lt;JP/US&gt;
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE3
+                 D01896  Cilostazol (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01896  Cilostazol
+              D01896  Cilostazol tablets
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01896
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01896
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01896
+DBLINKS     CAS: 73963-72-1
+            PubChem: 7848958
+            ChEBI: 31401
+            LigandBox: D01896
+            NIKKAJI: J23.223H
+ATOM        27
+            1   C1y C    21.6291  -13.6161
+            2   C1x C    21.6291  -15.0158
+            3   C1x C    20.4140  -15.7157
+            4   C1x C    19.2060  -15.0158
+            5   C1x C    19.2060  -13.6161
+            6   C1x C    20.4140  -12.9162
+            7   N4y N    22.8410  -12.9155
+            8   C8y C    22.8310  -11.5237
+            9   N5x N    24.1537  -11.0795
+            10  N5x N    24.9846  -12.2002
+            11  N5x N    24.1756  -13.3370
+            12  C8y C    13.1531  -11.4954
+            13  C8y C    13.1600  -12.9021
+            14  N1x N    11.9445  -13.6081
+            15  C5x C    10.7217  -12.9144
+            16  C1x C    10.7146  -11.5078
+            17  C1x C    11.9303  -10.7947
+            18  C8y C    15.5755  -11.5086
+            19  C8x C    15.5771  -12.9086
+            20  C8x C    14.3572  -13.6076
+            21  C8x C    14.3592  -10.7940
+            22  O5x O     9.5059  -13.6203
+            23  O2a O    16.7868  -10.8096
+            24  C1b C    17.9956  -11.5095
+            25  C1b C    19.2045  -10.8167
+            26  C1b C    20.4133  -11.5166
+            27  C1b C    21.6222  -10.8239
+BOND        30
+            1     1   7 1
+            2     1   2 1
+            3     2   3 1
+            4     3   4 1
+            5     4   5 1
+            6     7   8 1
+            7     8   9 2
+            8     9  10 1
+            9    13  14 1
+            10   18  19 1
+            11   19  20 2
+            12   20  13 1
+            13   12  21 1
+            14   21  18 2
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  12 1
+            19   12  13 2
+            20   15  22 2
+            21   10  11 2
+            22   18  23 1
+            23   11   7 1
+            24   23  24 1
+            25    5   6 1
+            26   24  25 1
+            27    6   1 1
+            28   25  26 1
+            29   26  27 1
+            30   27   8 1
+///

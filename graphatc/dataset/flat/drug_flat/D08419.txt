@@ -1,0 +1,95 @@
+ENTRY       D08419                      Drug
+NAME        Pridinol hydrochloride;
+            Pridinol (TN)
+FORMULA     C20H25NO. HCl
+EXACT_MASS  331.1703
+MOL_WEIGHT  331.8795
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01974  Centrally acting muscle relaxant
+REMARK      ATC code: M03BX03
+            Chemical structure group: DG00774
+            Product (DG00774): D02064<JP>
+EFFICACY    Antiparkinsonian, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03B MUSCLE RELAXANTS, CENTRALLY ACTING AGENTS
+                M03BX Other centrally acting agents
+                 M03BX03 Pridinol
+                  D08419  Pridinol hydrochloride
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01974  Centrally acting muscle relaxant
+                DG00774  Pridinol
+                 D08419  Pridinol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D08419  Pridinol hydrochloride
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01974  Centrally acting muscle relaxant
+                DG00774  Pridinol
+DBLINKS     CAS: 968-58-1
+            PubChem: 96025105
+            LigandBox: D08419
+            NIKKAJI: J300.659J
+ATOM        23
+            1   C8x C    20.5800  -20.4400
+            2   C8x C    20.5800  -21.7700
+            3   C8x C    21.7700  -22.4700
+            4   C8x C    22.9600  -21.7700
+            5   C8y C    22.9600  -20.4400
+            6   C8x C    21.7700  -19.7400
+            7   C8x C    25.4100  -21.7700
+            8   C8y C    25.4100  -20.4400
+            9   C1d C    24.1500  -19.7400
+            10  C8x C    26.6000  -22.4700
+            11  C8x C    27.7900  -21.7700
+            12  C8x C    27.7900  -20.4400
+            13  C8x C    26.6000  -19.7400
+            14  C1b C    24.1500  -18.3400
+            15  C1b C    25.4100  -17.6400
+            16  O1a O    22.9600  -19.0400
+            17  N1y N    25.4100  -16.2400
+            18  C1x C    26.6000  -15.5400
+            19  C1x C    26.6000  -14.1400
+            20  C1x C    25.4100  -13.4400
+            21  C1x C    24.1500  -14.1400
+            22  C1x C    24.1500  -15.5400
+            23  X   Cl   30.8700  -19.0400
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 1
+            16   14  15 1
+            17    9  16 1
+            18   15  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   17  22 1
+///

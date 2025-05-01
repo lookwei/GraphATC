@@ -1,0 +1,37 @@
+ENTRY       D04695                      Drug
+NAME        Leridistim (USAN/INN)
+FORMULA     C1550H2463N425O462S12
+EXACT_MASS  34806.8949
+MOL_WEIGHT  34828.4915
+SEQUENCE    ANCSNMIDEI ITHLKQPPLP LLDFNNLNGE DQDILMDNNL RRPNLEAFNR AVKSLQNASA
+            IESILKNLLP CLPLATAAPT RHPIHIKDGD WNEFRRKLTF YLKTLENAQA QQYVEGGGGS
+            PGEPSGPIST INPSPPSKES HKSPNMATPL GPASSLPQSF LLKSLEQVRK IQGDGAALQE
+            KLCATYKLCH PEELVLLGHS LGIPWAPLSS CPSQALQLAG CLSQLHSGLF LYQGLLQALE
+            GISPELGPTL DTLQLDVADF ATTIWQQMEE LGMAPALQPT QGAMPAFASA FQRRAGGVLV
+            ASHLQSFLEV SYRVLRHLAQ P
+  TYPE      Peptide
+CLASS       Immunological agent
+             DG01753  Colony stimulating factor
+EFFICACY    Antineutropenic, Antithrombocytopenia
+COMMENT     Treatment of chemotherapy-induced neutropenia and thrombocytopenia (multifunctional agonist that activates both interleukin-3 and G-CSF receptors)
+TARGET      CSF3R (GCSFR, CD114) [HSA:1441] [KO:K05061]
+            IL3RA (CD123) [HSA:3563] [KO:K04737]
+  PATHWAY   hsa04060(1441+3563)  Cytokine-cytokine receptor interaction
+            hsa04630(1441+3563)  JAK-STAT signaling pathway
+            hsa04640(1441+3563)  Hematopoietic cell lineage
+BRITE       Drug groups [BR:br08330]
+             Immunological agent
+              DG01753  Colony stimulating factor
+               D04695  Leridistim
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Interleukin receptors
+                IL3RA (CD123)
+                 D04695  Leridistim (USAN/INN)
+               CSF and other factor receptors
+                CSF3R (GCSFR, CD114)
+                 D04695  Leridistim (USAN/INN)
+DBLINKS     CAS: 193700-51-5
+            PubChem: 47206528
+///

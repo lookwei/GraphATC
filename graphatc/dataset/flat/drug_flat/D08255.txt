@@ -1,0 +1,173 @@
+ENTRY       D08255                      Drug
+NAME        Naratriptan (INN);
+            Naramig (TN)
+FORMULA     C17H25N3O2S
+EXACT_MASS  335.1667
+MOL_WEIGHT  335.4643
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+            Analgesic
+             DG01484  5-HT1B-receptor agonist
+             DG01485  5-HT1D-receptor agonist
+             DG01518  5-HT1B/1D-receptor agonist
+             DG01943  Triptan
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01642  CYP2C9 substrate
+             DG01644  CYP2D6 substrate
+             DG02855  CYP2E1 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+REMARK      Same as: C07792
+            ATC code: N02CC02
+            Chemical structure group: DG00837
+            Product (DG00837): D00674<JP/US>
+EFFICACY    Antimigraine, Vasoconstrictor, Serotonin receptor agonist
+COMMENT     Sumatriptan derivative
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544], CYP2C9 [HSA:1559], CYP2D6 [HSA:1565], CYP2E1 [HSA:1571], CYP3A4 [HSA:1576], CYP3A5 [HSA:1577]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CC Selective serotonin (5HT1) agonists
+                 N02CC02 Naratriptan
+                  D08255  Naratriptan (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG00837  Naratriptan
+                D08255  Naratriptan
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG01943  Triptan
+               DG00837  Naratriptan
+                D08255  Naratriptan
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG01642  CYP2C9 substrate
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG01644  CYP2D6 substrate
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG02855  CYP2E1 substrate
+               DG00837  Naratriptan
+                D08255  Naratriptan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00837  Naratriptan
+                 D08255  Naratriptan
+              DG02925  CYP3A5 substrate
+               DG00837  Naratriptan
+                D08255  Naratriptan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D08255  Naratriptan (INN)
+                HTR1D
+                 D08255  Naratriptan (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08255
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG00837  Naratriptan
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00837  Naratriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00837  Naratriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00837  Naratriptan
+              DG01943  Triptan
+               DG00837  Naratriptan
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00837  Naratriptan
+              DG01642  CYP2C9 substrate
+               DG00837  Naratriptan
+              DG01644  CYP2D6 substrate
+               DG00837  Naratriptan
+              DG02855  CYP2E1 substrate
+               DG00837  Naratriptan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00837  Naratriptan
+              DG02925  CYP3A5 substrate
+               DG00837  Naratriptan
+DBLINKS     CAS: 121679-13-8
+            PubChem: 96024943
+            ChEBI: 7478
+            LigandBox: D08255
+            NIKKAJI: J550.688C
+ATOM        23
+            1   C8y C    27.1600  -19.9500
+            2   C8y C    28.4900  -19.4600
+            3   C8y C    27.1600  -21.3500
+            4   C8x C    25.9000  -19.2500
+            5   C8x C    29.3300  -20.6500
+            6   N4x N    28.4900  -21.7700
+            7   C8x C    25.9000  -22.0500
+            8   C8y C    24.7100  -19.9500
+            9   C8x C    24.7100  -21.3500
+            10  C1b C    23.5200  -19.2500
+            11  C1b C    22.3300  -19.9500
+            12  S4a S    21.0700  -19.2500
+            13  N1b N    19.8800  -19.9500
+            14  O3c O    22.3300  -18.5500
+            15  O3c O    19.8800  -18.5500
+            16  C1a C    18.6900  -19.2500
+            17  C1y C    28.4900  -18.0600
+            18  C1x C    29.6800  -17.3600
+            19  C1x C    29.6800  -15.9600
+            20  N1y N    28.4900  -15.2600
+            21  C1x C    27.3000  -15.9600
+            22  C1x C    27.3000  -17.3600
+            23  C1a C    28.4900  -13.8600
+BOND        25
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     7   9 2
+            9     8  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   12  14 2
+            14   12  15 2
+            15   13  16 1
+            16    5   6 1
+            17    8   9 1
+            18    2  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   17  22 1
+            25   20  23 1
+///

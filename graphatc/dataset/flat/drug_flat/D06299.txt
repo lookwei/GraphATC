@@ -1,0 +1,110 @@
+ENTRY       D06299                      Drug
+NAME        Vidarabine phosphate (USAN)
+FORMULA     C10H14N5O7P
+EXACT_MASS  347.0631
+MOL_WEIGHT  347.2212
+CLASS       Antiviral
+             DG01440  Arabinofuranosyl type antiviral
+             DG02840  Anti-herpesvirus agent
+REMARK      ATC code: J05AB03 S01AD06
+            Chemical structure group: DG00645
+            Product (DG00645): D06298<JP>
+EFFICACY    Antiviral, DNA polymerase ihibitor
+COMMENT     Arabinofuranosyl derivative
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB03 Vidarabine
+                  D06299  Vidarabine phosphate (USAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AD Antivirals
+                 S01AD06 Vidarabine
+                  D06299  Vidarabine phosphate (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               DG00645  Vidarabine
+                D06299  Vidarabine phosphate
+              DG02840  Anti-herpesvirus agent
+               DG00645  Vidarabine
+                D06299  Vidarabine phosphate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D06299  Vidarabine phosphate (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               DG00645  Vidarabine
+              DG02840  Anti-herpesvirus agent
+               DG00645  Vidarabine
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00645  Vidarabine
+DBLINKS     CAS: 29984-33-6
+            PubChem: 47207956
+            PDB-CCD: A5O
+            LigandBox: D06299
+            NIKKAJI: J17.878K
+ATOM        23
+            1   N4y N    26.9105  -17.9268
+            2   C8y C    27.9563  -18.6937
+            3   C1y C    25.5859  -18.3451
+            4   C8x C    27.3288  -16.5324
+            5   C8y C    29.1415  -17.7874
+            6   N5x N    28.0957  -20.0881
+            7   O2x O    24.4704  -17.5085
+            8   C1y C    25.1676  -19.6000
+            9   N5x N    28.7929  -16.5324
+            10  C8y C    30.3964  -18.3451
+            11  C8x C    29.4204  -20.6458
+            12  C1y C    23.3549  -18.2754
+            13  C1y C    23.7732  -19.6000
+            14  N5x N    30.6056  -19.8092
+            15  N1a N    31.5119  -17.5085
+            16  C1b C    22.0303  -17.8571
+            17  O1a O    23.3549  -20.9247
+            18  O2b O    20.9845  -18.8331
+            19  P1b P    19.5902  -18.8331
+            20  O1c O    18.1958  -18.8331
+            21  O1c O    19.5902  -20.2275
+            22  O1c O    19.5902  -17.3691
+            23  O1a O    25.9968  -20.7511
+BOND        25
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13   10  14 2
+            14   10  15 1
+            15   12  16 1 #Up
+            16   13  17 1 #Down
+            17   16  18 1
+            18   18  19 1
+            19   19  20 1
+            20   19  21 1
+            21   19  22 2
+            22    5   9 1
+            23   11  14 1
+            24   12  13 1
+            25    8  23 1 #Up
+///

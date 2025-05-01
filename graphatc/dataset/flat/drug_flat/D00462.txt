@@ -1,0 +1,101 @@
+ENTRY       D00462                      Drug
+NAME        Oxandrolone (JAN/USP/INN);
+            Oxandrin (TN)
+PRODUCT
+  GENERIC   OXANDROLONE (Bryant Ranch Prepack)
+            OXANDROLONE (Par Pharmaceutical)
+            OXANDROLONE (Upsher-Smith Laboratories)
+            OXANDROLONE (Upsher-Smith Laboratories)
+FORMULA     C19H30O3
+EXACT_MASS  306.2195
+MOL_WEIGHT  306.4397
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+              DG01605  Anabolic steroid
+REMARK      Same as: C07346
+            ATC code: A14AA08
+            Product: D00462<US>
+EFFICACY    Anabolic, Androgen receptor agonist
+  DISEASE   Osteoporosis [DS:H01593]
+COMMENT     Androstan derivative
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A14 ANABOLIC AGENTS FOR SYSTEMIC USE
+               A14A ANABOLIC STEROIDS
+                A14AA Androstan derivatives
+                 A14AA08 Oxandrolone
+                  D00462  Oxandrolone (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Anabolic Steroids
+               Oxandrolone
+                D00462  Oxandrolone (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                D00462  Oxandrolone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D00462  Oxandrolone (JAN/USP/INN) &lt;US&gt;
+DBLINKS     CAS: 53-39-4
+            PubChem: 7847528
+            ChEBI: 7820
+            LigandBox: D00462
+            NIKKAJI: J1.367F
+ATOM        22
+            1   C1y C    26.1861  -17.6636
+            2   C1y C    25.0132  -16.9750
+            3   C1y C    27.3706  -16.9984
+            4   C1x C    26.1861  -19.0231
+            5   C1z C    23.8228  -17.6519
+            6   C1x C    25.0249  -15.6153
+            7   C1z C    27.3706  -15.6387
+            8   C1x C    29.7280  -16.9984
+            9   C1x C    25.0016  -19.7000
+            10  C1y C    23.8170  -19.0114
+            11  C1x C    22.6558  -16.9691
+            12  C1a C    23.8111  -16.4149
+            13  C1x C    26.2035  -14.9501
+            14  C1z C    28.5493  -14.9618
+            15  C1a C    27.3997  -14.2734
+            16  C1x C    29.7280  -15.6387
+            17  C1x C    22.6558  -19.6942
+            18  O7x O    21.4713  -17.6519
+            19  C1a C    29.7922  -14.4017
+            20  O1a O    28.5493  -13.5323
+            21  C7x C    21.4713  -19.0114
+            22  O6a O    20.2925  -19.6942
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1 #Up
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1 #Up
+            15    8  16 1
+            16   10  17 1
+            17   11  18 1
+            18   14  19 1 #Down
+            19   14  20 1 #Up
+            20   17  21 1
+            21   21  22 2
+            22    7  13 1
+            23    9  10 1
+            24   14  16 1
+            25   18  21 1
+///

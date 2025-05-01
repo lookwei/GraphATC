@@ -1,0 +1,85 @@
+ENTRY       D10426                      Drug
+NAME        Pimasertib (USAN/INN)
+FORMULA     C15H15FIN3O3
+EXACT_MASS  431.0142
+MOL_WEIGHT  431.2008
+CLASS       Antineoplastic
+             DG03137  MEK inhibitor
+REMARK      Chemical structure group: DG01410
+EFFICACY    Antineoplastic, Mitogen-activated extracellular signal-regulated kinase (MEK) inhibitor
+TARGET      MAP2K1 (MEK1) [HSA:5604] [KO:K04368]
+            MAP2K2 (MEK2) [HSA:5605] [KO:K04369]
+  PATHWAY   hsa04010(5604+5605)  MAPK signaling pathway
+            hsa04012(5604+5605)  ErbB signaling pathway
+            hsa04370(5604+5605)  VEGF signaling pathway
+            hsa05200(5604+5605)  Pathways in cancer
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03137  MEK inhibitor
+               DG01410  Pimasertib
+                D10426  Pimasertib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               STE group
+                MAP2K1 (MEK1)
+                 D10426  Pimasertib (USAN/INN)
+                MAP2K2 (MEK2)
+                 D10426  Pimasertib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03137  MEK inhibitor
+               DG01410  Pimasertib
+DBLINKS     CAS: 1236699-92-5
+            PubChem: 172232519
+            PDB-CCD: QOA
+ATOM        23
+            1   C8x C    16.2704  -13.3901
+            2   C8x C    16.2704  -14.7939
+            3   C8y C    17.4861  -15.4957
+            4   C8y C    18.7018  -14.7939
+            5   C8x C    18.7018  -13.3901
+            6   C8y C    17.4861  -12.6882
+            7   X   I    17.4861  -11.2847
+            8   N1b N    17.4861  -16.8993
+            9   C8y C    16.2536  -17.6111
+            10  C8x C    15.0463  -16.9141
+            11  N5x N    13.8307  -17.6160
+            12  C8x C    13.8308  -19.0198
+            13  C8x C    15.0379  -19.7167
+            14  C8y C    16.2536  -19.0148
+            15  C5a C    17.4776  -19.7215
+            16  N1b N    18.6890  -19.0222
+            17  C1b C    19.8732  -19.7059
+            18  C1c C    21.0709  -19.0142
+            19  C1b C    22.2619  -19.7019
+            20  O1a O    23.4562  -19.0121
+            21  O5a O    17.4774  -21.1107
+            22  X   F    19.9362  -15.5068
+            23  O1a O    21.0710  -17.6017
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     3   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   15  21 2
+            23    4  22 1
+            24   18  23 1 #Down
+///

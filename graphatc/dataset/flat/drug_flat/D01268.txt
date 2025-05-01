@@ -1,0 +1,108 @@
+ENTRY       D01268                      Drug
+NAME        Cloxazolam (JP18/INN);
+            Sepazon (TN)
+FORMULA     C17H14Cl2N2O2
+EXACT_MASS  348.0432
+MOL_WEIGHT  349.2113
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+REMARK      Therapeutic category: 1124
+            ATC code: N05BA22
+            Product: D01268<JP>
+EFFICACY    Antianxiety, Minor tranquilizer, Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA22 Cloxazolam
+                  D01268  Cloxazolam (JP18/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01268  Cloxazolam (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D01268  Cloxazolam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D01268  Cloxazolam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01268  Cloxazolam (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01268  Cloxazolam
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01268
+DBLINKS     CAS: 24166-13-0
+            PubChem: 7848331
+            ChEBI: 31426
+            LigandBox: D01268
+            NIKKAJI: J3.158E
+ATOM        23
+            1   C1z C    29.3673  -18.9577
+            2   C8y C    28.5306  -17.8552
+            3   C8y C    28.8637  -16.5071
+            4   N1x N    30.1166  -15.9327
+            5   N1y N    30.7641  -18.9827
+            6   C5x C    31.3621  -16.5510
+            7   C1x C    31.6468  -17.9110
+            8   C8x C    27.8630  -15.5449
+            9   C8x C    26.5296  -15.9306
+            10  C8y C    26.1966  -17.2786
+            11  C8x C    27.1972  -18.2405
+            12  O5x O    32.3995  -15.6226
+            13  X   Cl   24.8406  -17.6705
+            14  O2x O    28.9118  -20.2784
+            15  C1x C    30.0272  -21.1197
+            16  C1x C    31.1719  -20.3189
+            17  C8y C    27.6759  -19.6654
+            18  C8y C    27.6759  -21.0565
+            19  C8x C    26.4712  -18.9699
+            20  C8x C    25.2666  -19.6654
+            21  C8x C    25.2666  -21.0565
+            22  C8x C    26.4712  -21.7520
+            23  X   Cl   28.8923  -21.7591
+BOND        26
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 1
+            18    5  16 1
+            19    1  17 1
+            20   17  18 1
+            21   17  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   18  22 2
+            26   18  23 1
+///

@@ -1,0 +1,82 @@
+ENTRY       D01325                      Drug
+NAME        Tiaprofenic acid (JAN/INN);
+            Surgam (TN)
+FORMULA     C14H12O3S
+EXACT_MASS  260.0507
+MOL_WEIGHT  260.3083
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+REMARK      ATC code: M01AE11
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+COMMENT     Propionic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+STR_MAP     map07219  Cyclooxygenase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE11 Tiaprofenic acid
+                  D01325  Tiaprofenic acid (JAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                D01325  Tiaprofenic acid
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01325  Tiaprofenic acid (JAN/INN)
+                PTGS2 (COX2)
+                 D01325  Tiaprofenic acid (JAN/INN)
+DBLINKS     CAS: 33005-95-7
+            PubChem: 7848388
+            ChEBI: 32221
+            LigandBox: D01325
+            NIKKAJI: J3.176C
+ATOM        18
+            1   C8y C    26.6788  -17.9072
+            2   C1c C    27.8898  -17.2080
+            3   C6a C    29.1008  -17.9072
+            4   C1a C    27.8898  -15.8098
+            5   O6a O    29.1008  -19.3054
+            6   O6a O    30.3116  -17.2080
+            7   S2x S    25.5444  -17.0823
+            8   C8y C    24.4031  -17.9072
+            9   C8x C    24.8382  -19.2432
+            10  C8x C    26.2436  -19.2432
+            11  C8x C    19.5607  -17.9053
+            12  C8x C    19.5607  -19.3036
+            13  C8x C    20.7746  -20.0027
+            14  C8x C    21.9813  -19.3036
+            15  C8y C    21.9813  -17.9053
+            16  C8x C    20.7746  -17.2062
+            17  C5a C    23.1928  -17.2072
+            18  O5a O    23.1938  -15.8089
+BOND        19
+            1     9  10 1
+            2    10   1 2
+            3     1   7 1
+            4     2   3 1
+            5     3   6 1
+            6     8   9 2
+            7     1   2 1
+            8     2   4 1
+            9    11  12 2
+            10   12  13 1
+            11   13  14 2
+            12   14  15 1
+            13   15  16 2
+            14   16  11 1
+            15    3   5 2
+            16   15  17 1
+            17   17   8 1
+            18    7   8 1
+            19   17  18 2
+///

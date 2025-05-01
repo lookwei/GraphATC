@@ -1,0 +1,114 @@
+ENTRY       C01780                      Compound
+NAME        Aldosterone;
+            11beta,21-Dihydroxy-3,20-dioxo-4-pregnen-18-al
+FORMULA     C21H28O5
+EXACT_MASS  360.1937
+MOL_WEIGHT  360.444
+REMARK      Same as: D10528
+REACTION    R03263 R03713 R03714 R08949 R08953
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04925  Aldosterone synthesis and secretion
+            map04960  Aldosterone-regulated sodium reabsorption
+            map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+MODULE      M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+NETWORK     nt06019  Steroid hormone biosynthesis
+            nt06310  CRH-ACTH-cortisol signaling
+            nt06316  Renin-angiotensin-aldosterone signaling
+ENZYME      1.3.1.3         1.14.15.4       1.14.15.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              21-Carbon atoms
+               Pregnane derivatives
+                C01780  Aldosterone
+             Hormones and transmitters
+              Steroid hormones
+               Mineralocorticoids
+                C01780  Aldosterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C01780  Aldosterone
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D10528)]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AA Mineralocorticoids
+                 H02AA01 Aldosterone
+                  D10528  Aldosterone (INN)
+            Drug groups [BR:br08330(D10528)]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               D10528  Aldosterone
+            Target-based classification of drugs [BR:br08310(D10528)]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D10528  Aldosterone (INN)
+DBLINKS     CAS: 52-39-1
+            PubChem: 4910
+            ChEBI: 27584
+            LIPIDMAPS: LMST02030026
+            PDB-CCD: AS4
+            3DMET: B01497
+            NIKKAJI: J4.130K
+ATOM        26
+            1   C1z C    27.5594  -21.6461
+            2   C1y C    27.5594  -23.0076
+            3   C1y C    28.7457  -20.9622
+            4   C1x C    26.3790  -20.9622
+            5   C4a C    27.5537  -20.2843
+            6   C1y C    26.3790  -23.6855
+            7   C1x C    29.9204  -23.0076
+            8   C1x C    29.9204  -21.6461
+            9   C5a C    28.7517  -19.5714
+            10  C1y C    25.1927  -21.6461
+            11  O4a O    26.3497  -19.5891
+            12  C1y C    25.1927  -23.0076
+            13  C1x C    26.3731  -25.0530
+            14  C1b C    29.9555  -18.8818
+            15  O5a O    27.5477  -18.8761
+            16  O1a O    24.0121  -20.9622
+            17  C1z C    24.0064  -23.6855
+            18  C1x C    25.1927  -25.7369
+            19  O1a O    31.1594  -19.5774
+            20  C2y C    24.0064  -25.0530
+            21  C1x C    22.8375  -23.0076
+            22  C1a C    23.9947  -22.3240
+            23  C2x C    22.8375  -25.7369
+            24  C1x C    21.6511  -23.6855
+            25  C5x C    21.6511  -25.0530
+            26  O5x O    20.4707  -25.7369
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 2
+            11    6  12 1
+            12    6  13 1
+            13    9  14 1
+            14    9  15 2
+            15   10  16 1 #Up
+            16   12  17 1
+            17   13  18 1
+            18   14  19 1
+            19   17  20 1
+            20   17  21 1
+            21   17  22 1 #Up
+            22   20  23 2
+            23   21  24 1
+            24   23  25 1
+            25   25  26 2
+            26    7   8 1
+            27   10  12 1
+            28   18  20 1
+            29   24  25 1
+///

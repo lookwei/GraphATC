@@ -1,0 +1,55 @@
+ENTRY       D03690                      Drug
+NAME        Desciclovir (USAN/INN)
+FORMULA     C8H11N5O2
+EXACT_MASS  209.0913
+MOL_WEIGHT  209.2052
+EFFICACY    Antiviral, DNA polymerase inhibitor
+COMMENT     Acyclovir type
+            Active form of prodrug: Aciclovir [DR:D00222]
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+BRITE       Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D03690  Desciclovir (USAN/INN)
+            Prodrugs [br08324.html]
+             D03690
+DBLINKS     CAS: 84408-37-7
+            PubChem: 17397784
+            LigandBox: D03690
+            NIKKAJI: J22.040J
+ATOM        15
+            1   N4y N    24.1398  -15.4872
+            2   C8y C    25.3861  -15.0123
+            3   C8y C    25.4112  -13.6136
+            4   N5x N    24.0671  -13.2241
+            5   C8x C    23.2813  -14.3821
+            6   N5x N    26.6897  -15.6726
+            7   C8y C    27.8785  -14.9345
+            8   N5x N    27.8336  -13.5359
+            9   C8x C    26.5999  -12.8756
+            10  N1a N    29.1221  -15.5998
+            11  C1b C    24.1398  -16.8872
+            12  O2a O    22.9424  -17.5784
+            13  C1b C    21.7397  -16.8837
+            14  C1b C    20.5559  -17.5670
+            15  O1a O    19.3630  -16.8780
+BOND        16
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     2   6 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 2
+            10    3   9 1
+            11    7  10 1
+            12    1  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+///

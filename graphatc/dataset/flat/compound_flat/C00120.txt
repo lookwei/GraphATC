@@ -1,0 +1,91 @@
+ENTRY       C00120                      Compound
+NAME        Biotin;
+            D-Biotin;
+            Vitamin H;
+            Coenzyme R
+FORMULA     C10H16N2O3S
+EXACT_MASS  244.0882
+MOL_WEIGHT  244.3106
+REMARK      Same as: D00029
+REACTION    R01074 R01075 R01076 R01077 R01078 R04562 R04563 R04582 
+            R04604 R10127
+PATHWAY     map00780  Biotin metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+            map02010  ABC transporters
+            map04977  Vitamin digestion and absorption
+MODULE      M00123  Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+            M00573  Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin
+            M00577  Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+            M00950  Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin
+ENZYME      1.-.-.-         2.8.1.6         3.5.1.12        6.2.1.11        
+            6.3.4.9         6.3.4.10        6.3.4.11        6.3.4.15
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Cofactors
+               Coenzymes
+                C00120  Biotin
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00029)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11H OTHER PLAIN VITAMIN PREPARATIONS
+                A11HA Other plain vitamin preparations
+                 A11HA05 Biotin
+                  D00029  Biotin (JP18/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D00029)]
+             3  Agents affecting metabolism
+              31  Vitamins
+               319  Miscellaneous vitamins
+                3190  Miscellaneous vitamins
+                 D00029  Biotin (JP18/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312(D00029)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Biotin
+                D00029  Biotin (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00029)]
+             Chemicals
+              D00029  Biotin
+DBLINKS     CAS: 58-85-5
+            PubChem: 3420
+            ChEBI: 15956
+            KNApSAcK: C00000756
+            PDB-CCD: BTN
+            3DMET: B01165
+            NIKKAJI: J94.599D
+ATOM        16
+            1   C1y C    18.7455  -17.4465
+            2   C1y C    17.3492  -17.4348
+            3   C1y C    19.1779  -18.7728
+            4   N1x N    19.1896  -16.1086
+            5   N1x N    16.9110  -16.1086
+            6   C1x C    16.9110  -18.7611
+            7   S2x S    18.0444  -19.5907
+            8   C1b C    20.3931  -19.4680
+            9   C5x C    18.0503  -15.2789
+            10  C1b C    21.6025  -18.7728
+            11  O5x O    18.0503  -13.8709
+            12  C1b C    22.8119  -19.4680
+            13  C1b C    24.0214  -18.7728
+            14  C6a C    25.2308  -19.4680
+            15  O6a O    26.4402  -18.7728
+            16  O6a O    25.2308  -20.8702
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 1
+            9     8  10 1
+            10    9  11 2
+            11   10  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   14  16 2
+            16    5   9 1
+            17    6   7 1
+///

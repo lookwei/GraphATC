@@ -1,0 +1,83 @@
+ENTRY       D03760                      Drug
+NAME        Pentopril (USAN/INN)
+FORMULA     C18H23NO5
+EXACT_MASS  333.1576
+MOL_WEIGHT  333.3789
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03760  Pentopril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03760  Pentopril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03760  Pentopril (USAN/INN)
+DBLINKS     CAS: 82924-03-6
+            PubChem: 17397849
+            LigandBox: D03760
+            NIKKAJI: J33.162G
+ATOM        24
+            1   N1y N    37.7300  -19.2500
+            2   C8y C    38.9900  -19.8100
+            3   C1y C    37.8700  -17.8500
+            4   C5a C    36.4700  -19.9500
+            5   C8y C    39.9000  -18.8300
+            6   C1x C    39.2000  -17.5700
+            7   C6a C    37.8700  -16.4500
+            8   C1c C    35.2800  -19.2500
+            9   O5a O    36.4700  -21.3500
+            10  O6a O    39.0600  -15.7500
+            11  O6a O    36.6100  -15.8200
+            12  C1b C    34.0900  -19.9500
+            13  C1a C    35.2800  -17.8500
+            14  C1c C    32.8300  -19.2500
+            15  C7a C    31.6400  -20.0200
+            16  C1a C    32.8300  -17.9200
+            17  C8x C    39.4021  -21.1480
+            18  C8x C    40.7669  -21.4600
+            19  C8x C    41.6769  -20.4800
+            20  C8x C    41.2648  -19.1420
+            21  O7a O    30.3936  -19.3824
+            22  O6a O    31.6410  -21.4182
+            23  C1b C    29.2051  -20.1514
+            24  C1a C    27.9504  -19.5093
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1 #Down
+            7     4   8 1
+            8     4   9 2
+            9     7  10 1
+            10    7  11 2
+            11    8  12 1
+            12    8  13 1 #Up
+            13   12  14 1
+            14   14  15 1
+            15   14  16 1 #Down
+            16    5   6 1
+            17    2  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21    5  20 2
+            22   15  21 1
+            23   15  22 2
+            24   21  23 1
+            25   23  24 1
+///

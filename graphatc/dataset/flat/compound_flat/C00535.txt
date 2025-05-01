@@ -1,0 +1,138 @@
+ENTRY       C00535                      Compound
+NAME        Testosterone;
+            17beta-Hydroxy-4-androsten-3-one
+FORMULA     C19H28O2
+EXACT_MASS  288.2089
+MOL_WEIGHT  288.4244
+REMARK      Same as: D00075
+REACTION    R01836 R01838 R02497 R02498 R02499 R02501 R02502 R02503 
+            R10511 R11349
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map00984  Steroid degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01522  Endocrine resistance
+            map04913  Ovarian steroidogenesis
+            map04929  GnRH secretion
+            map05200  Pathways in cancer
+            map05215  Prostate cancer
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+NETWORK     nt06019  Steroid hormone biosynthesis
+            nt06227  Nuclear receptor signaling (cancer)
+            nt06272  Prostate cancer
+ENZYME      1.1.1.51        1.1.1.64        1.1.1.145       1.1.1.239       
+            1.3.1.3         1.3.1.22        1.14.14.1       1.14.14.14      
+            1.14.15.19      2.4.1.17        5.3.3.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              19-Carbon atoms
+               Androstane derivatives
+                C00535  Testosterone
+             Hormones and transmitters
+              Steroid hormones
+               Androgens
+                C00535  Testosterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0202 C19 steroids (androgens) and derivatives
+                C00535  17beta-Hydroxy-4-androsten-3-one
+            Phytochemical compounds [BR:br08003]
+             Terpenoids
+              Steroids
+               Androstane
+                C00535  Testosterone
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00075)]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03B ANDROGENS
+                G03BA 3-oxoandrosten (4) derivatives
+                 G03BA03 Testosterone
+                  D00075  Testosterone (JAN/USP) &lt;US&gt;
+            USP drug classification [BR:br08302(D00075)]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Androgens
+               Testosterone
+                D00075  Testosterone (JAN/USP)
+            Classification of Japanese OTC drugs [BR:br08313(D00075)]
+             Agents for  urogenital organs and anus
+              31 Other drugs for  urogenital organs and anus
+               D00075  Testosterone (JAN/USP)
+             Agents for integumentary system
+              61 Other agents for integumentary system
+               D00075  Testosterone (JAN/USP)
+            Risk category of Japanese OTC drugs [BR:br08312(D00075)]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Testosterone
+                D00075  Testosterone (JAN/USP)
+            Drug groups [BR:br08330(D00075)]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG00460  Testosterone
+                D00075  Testosterone
+              DG02006  Testosterone
+               DG00460  Testosterone
+                D00075  Testosterone
+            Target-based classification of drugs [BR:br08310(D00075)]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D00075  Testosterone (JAN/USP) &lt;US&gt;
+DBLINKS     CAS: 58-22-0
+            PubChem: 3817
+            ChEBI: 17347
+            LIPIDMAPS: LMST02020002
+            KNApSAcK: C00003675
+            PDB-CCD: TES
+            3DMET: B01283
+            NIKKAJI: J4.590J
+ATOM        21
+            1   C1x C    28.4900  -18.2000
+            2   C5x C    28.4900  -19.6000
+            3   C2x C    29.6800  -20.2300
+            4   C2y C    30.8700  -19.6000
+            5   C1z C    30.8700  -18.2000
+            6   C1x C    29.6800  -17.5000
+            7   C1x C    32.0600  -20.2300
+            8   C1x C    33.1800  -19.6000
+            9   C1y C    33.1800  -18.2000
+            10  C1y C    32.0600  -17.5000
+            11  C1y C    34.4400  -17.5000
+            12  C1z C    34.4400  -16.1700
+            13  C1x C    33.1800  -15.4700
+            14  C1x C    32.0600  -16.1700
+            15  O5x O    27.3700  -20.2300
+            16  C1a C    34.4400  -14.8400
+            17  C1a C    30.8700  -16.8700
+            18  C1x C    36.8200  -17.5000
+            19  C1x C    36.8200  -16.1700
+            20  C1y C    35.6300  -15.4700
+            21  O1a O    35.6300  -14.1400
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18   12  16 1 #Up
+            19    5  17 1 #Up
+            20   11  18 1
+            21   18  19 1
+            22   19  20 1
+            23   12  20 1
+            24   20  21 1 #Up
+///

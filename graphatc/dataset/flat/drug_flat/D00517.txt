@@ -1,0 +1,76 @@
+ENTRY       D00517                      Drug
+NAME        Amyl nitrite (JP18/USP);
+            Aspiral (TN);
+            Vaporole (TN)
+FORMULA     C5H11NO2
+EXACT_MASS  117.079
+MOL_WEIGHT  117.1463
+CLASS       Cardiovascular agent
+             DG01657  Nitrovasodilator
+REMARK      Same as: C07457
+            Therapeutic category: 2179 3929
+            ATC code: V03AB22
+            Product: D00517<JP>
+EFFICACY    Antidote (cyanide), Vasodilator, Guanylate cyclase activator
+  DISEASE   Angina pectoris [DS:H01632]
+COMMENT     Antidote (cyanide poisoning)
+TARGET      GUCY1A [HSA:2977 2982] [KO:K12318]
+            GUCY1B [HSA:2983] [KO:K12319]
+  PATHWAY   hsa04270(2977+2982+2983)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB22 Amyl nitrite
+                  D00517  Amyl nitrite (JP18/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               217  Vasodilators
+                2179  Others
+                 D00517  Amyl nitrite (JP18/USP)
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               392  Antidotes
+                3929  Others
+                 D00517  Amyl nitrite (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01657  Nitrovasodilator
+               D00517  Amyl nitrite
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Phosphorus-oxygen lyases
+                GUCY1A
+                 D00517  Amyl nitrite (JP18/USP) &lt;JP&gt;
+                GUCY1B
+                 D00517  Amyl nitrite (JP18/USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00517  Amyl nitrite
+DBLINKS     CAS: 110-46-3
+            PubChem: 7847583
+            ChEBI: 2691
+            LigandBox: D00517
+            NIKKAJI: J5.092J
+ATOM        8
+            1   C1b C    20.0224  -18.4495
+            2   C1b C    21.2325  -17.7455
+            3   C1c C    18.8120  -17.7455
+            4   O2a O    22.4429  -18.4495
+            5   C1a C    17.6018  -18.4495
+            6   C1a C    18.8120  -16.3431
+            7   N2b N    23.6531  -17.7455
+            8   O3a O    24.8633  -18.4436
+BOND        7
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     7   8 2
+///

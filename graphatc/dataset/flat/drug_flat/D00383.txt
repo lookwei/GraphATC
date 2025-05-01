@@ -1,0 +1,140 @@
+ENTRY       D00383                      Drug
+NAME        Trandolapril (JAN/USP/INN);
+            Mavik (TN)
+PRODUCT
+  GENERIC   TRANDOLAPRIL (Aurobindo Pharma Limited)
+            TRANDOLAPRIL (Bryant Ranch Prepack)
+            TRANDOLAPRIL (Bryant Ranch Prepack)
+            TRANDOLAPRIL (Epic Pharma)
+            TRANDOLAPRIL (Lupin Pharmaceuticals)
+            TRANDOLAPRIL (Rising Health)
+FORMULA     C24H34N2O5
+EXACT_MASS  430.2468
+MOL_WEIGHT  430.5372
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Therapeutic category: 2144
+            ATC code: C09AA10
+            Product: D00383<JP/US>
+            Product (mixture): D10282<US>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Active form of prodrug: Trandolaprilat [CPD:C21515]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA10 Trandolapril
+                  D00383  Trandolapril (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Angiotensin-converting Enzyme (ACE) Inhibitors
+               Trandolapril
+                D00383  Trandolapril (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2144  Angiotensin converting enzyme inhibitors
+                 D00383  Trandolapril (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D00383  Trandolapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D00383  Trandolapril
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01501  Angiotensin-converting enzyme inhibitor
+               D00383  Trandolapril
+              DG03231  Antihypertensive
+               D00383  Trandolapril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D00383  Trandolapril (JAN/USP/INN) &lt;JP/US&gt;
+            Prodrugs [br08324.html]
+             D00383
+DBLINKS     CAS: 87679-37-6
+            PubChem: 7847449
+            ChEBI: 9649
+            LigandBox: D00383
+            NIKKAJI: J33.158I
+ATOM        31
+            1   N1y N    28.3850  -18.5792
+            2   C1y C    29.6683  -19.1392
+            3   C1y C    28.5425  -17.1850
+            4   C5a C    27.1775  -19.2850
+            5   C1y C    30.6075  -18.1008
+            6   C1x C    30.1000  -20.4692
+            7   C1x C    29.9134  -16.8933
+            8   C6a C    28.5308  -15.7792
+            9   C1c C    25.9642  -18.5850
+            10  O5a O    27.1834  -20.6850
+            11  C1x C    31.9784  -18.3984
+            12  C1x C    31.4709  -20.7667
+            13  O6a O    29.7326  -15.0675
+            14  O6a O    27.3116  -15.0908
+            15  N1b N    24.7508  -19.2850
+            16  C1a C    25.9699  -17.1850
+            17  C1x C    32.4042  -19.7284
+            18  C1c C    23.5432  -18.5909
+            19  C1b C    22.3300  -19.2967
+            20  C7a C    23.5375  -17.1909
+            21  C1b C    21.1167  -18.6083
+            22  O7a O    24.7508  -16.4909
+            23  O6a O    22.3183  -16.4966
+            24  C8y C    19.9092  -19.2967
+            25  C1b C    24.7450  -15.0908
+            26  C8x C    19.9092  -20.7084
+            27  C8x C    18.7074  -18.6083
+            28  C1a C    23.5317  -14.3966
+            29  C8x C    18.7074  -21.4141
+            30  C8x C    17.4883  -19.2967
+            31  C8x C    17.4883  -20.7084
+BOND        33
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 1
+            9     4  10 2
+            10    5  11 1
+            11    6  12 1
+            12    8  13 1
+            13    8  14 2
+            14    9  15 1
+            15    9  16 1 #Up
+            16   11  17 1
+            17   15  18 1
+            18   18  19 1
+            19   18  20 1 #Up
+            20   19  21 1
+            21   20  22 1
+            22   20  23 2
+            23   21  24 1
+            24   22  25 1
+            25   24  26 1
+            26   24  27 2
+            27   25  28 1
+            28   26  29 2
+            29   27  30 1
+            30   29  31 1
+            31    5   7 1
+            32   12  17 1
+            33   30  31 2
+///

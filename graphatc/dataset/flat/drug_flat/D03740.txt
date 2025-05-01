@@ -1,0 +1,100 @@
+ENTRY       D03740                      Drug
+NAME        Dextroamphetamine (USAN);
+            Dexamfetamine (INN);
+            Xelstrym (TN)
+PRODUCT     XELSTRYM (Noven Therapeutics)
+FORMULA     C9H13N
+EXACT_MASS  135.1048
+MOL_WEIGHT  135.2062
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07884
+            ATC code: N06BA02
+            Chemical structure group: DG00967
+            Product (DG00967): D03740<US> D02078<US>
+EFFICACY    Stimulant (central)
+  DISEASE   Attention deficit hyperactivity disorder [DS:H01895]
+COMMENT     Compoment of Biphetamine (TN)
+TARGET      SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531+6571)  Synaptic vesicle cycle
+            hsa04726(6571)  Serotonergic synapse
+            hsa04728(6531+6571)  Dopaminergic synapse
+            hsa05031(6531+6571)  Amphetamine addiction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA02 Dexamfetamine
+                  D03740  Dextroamphetamine (USAN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00967  Dexamfetamine
+                D03740  Dextroamphetamine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00967  Dexamfetamine
+                D03740  Dextroamphetamine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D03740  Dextroamphetamine (USAN) &lt;US&gt;
+                SLC6A3 (DAT1)
+                 D03740  Dextroamphetamine (USAN) &lt;US&gt;
+               SLC18
+                SLC18A2 (VMAT2)
+                 D03740  Dextroamphetamine (USAN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03740
+            Prodrugs [br08324.html]
+             D03740
+            Narcotics and psychotropics in Japan [br08308.html]
+             Stimulants by Control Act Article 2 Appended Table and Cabinet Order
+              D03740
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00967  Dexamfetamine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00967  Dexamfetamine
+DBLINKS     CAS: 51-64-9
+            PubChem: 17397829
+            ChEBI: 4469
+            PDB-CCD: 1WE
+            LigandBox: D03740
+            NIKKAJI: J4.121A
+ATOM        10
+            1   C8y C    18.0875  -15.2739
+            2   C8x C    16.8262  -14.5732
+            3   C8x C    18.0875  -16.6754
+            4   C1b C    19.2786  -14.5732
+            5   C8x C    15.6350  -15.2739
+            6   C8x C    16.8262  -17.3761
+            7   C1c C    20.4698  -15.2739
+            8   C8x C    15.6350  -16.6754
+            9   N1a N    21.6609  -14.5732
+            10  C1a C    20.4695  -16.6597
+BOND        10
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     7   9 1
+            9     6   8 1
+            10    7  10 1 #Up
+///

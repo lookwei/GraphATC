@@ -1,0 +1,228 @@
+ENTRY       D02165                      Drug
+NAME        Docetaxel (USP);
+            Docetaxel hydrate (JP18);
+            Docetaxel trihydrate;
+            Taxotere (TN)
+PRODUCT     DOCETAXEL (Actavis Pharma)
+            DOCETAXEL (Baxter Healthcare Corporation)
+            DOCETAXEL (Hospira)
+            DOCETAXEL (Hospira)
+            DOCETAXEL (Hospira)
+            DOCETAXEL (Sandoz)
+            DOCETAXEL (Sandoz)
+  GENERIC   DOCETAXEL (Armas Pharmaceuticals)
+            DOCETAXEL (Armas Pharmaceuticals)
+            DOCETAXEL (Armas Pharmaceuticals)
+            DOCETAXEL (Dr. Reddy's Laboratories)
+            DOCETAXEL (Dr. Reddy's Laboratories)
+            DOCETAXEL (Hikma Pharmaceuticals USA)
+            DOCETAXEL (Jiangsu Hengrui Pharmaceuticals)
+            DOCETAXEL (Mylan Institutional LLC)
+            DOCETAXEL (Sagent Pharmaceuticals)
+            DOCETAXEL (Winthrop U.S.)
+FORMULA     C43H53NO14. 3H2O
+EXACT_MASS  861.3783
+MOL_WEIGHT  861.9251
+SOURCE      Taxus baccata [TAX:25629]
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 4240
+            ATC code: L01CD02
+            Chemical structure group: DG00694
+            Product (DG00694): D07866<JP/US> D02165<JP/US>
+EFFICACY    Antineoplastic, Tubulin depolymerization inhibitor
+  DISEASE   Breast cancer [DS:H00031]
+            Non-small cell lung cancer [DS:H00014]
+            Prostate cancer [DS:H00024]
+            Gastric adenocarcinoma [DS:H00018]
+            Head and neck cancer [DS:H02420]
+COMMENT     Taxane derivative
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CD Taxanes
+                 L01CD02 Docetaxel
+                  D02165  Docetaxel (USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antineoplastics, Other
+               Docetaxel
+                D02165  Docetaxel (USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               424  Plant extract preparations
+                4240  Plant extract preparations
+                 D02165  Docetaxel (USP); Docetaxel hydrate (JP18)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00694  Docetaxel
+                 D02165  Docetaxel
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D02165  Docetaxel (USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02165  Docetaxel hydrate
+              D02165  Docetaxel injection
+              D02165  Docetaxel for injection
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D02165
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02165
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00694  Docetaxel
+DBLINKS     CAS: 148408-66-6
+            PubChem: 7849226
+            ChEBI: 59809
+            LigandBox: D02165
+            NIKKAJI: J1.641.058F
+ATOM        61
+            1   C1y C    32.5742  -13.7808
+            2   C1z C    33.6910  -14.4208
+            3   C1y C    31.7651  -14.6598
+            4   C1z C    32.5742  -12.4833
+            5   C1y C    34.8147  -13.7808
+            6   C1x C    34.8615  -15.1657
+            7   O7a O    33.6795  -16.7333
+            8   C1z C    29.2634  -14.6424
+            9   O7a O    31.7828  -17.0106
+            10  C5x C    30.8758  -11.4004
+            11  C1y C    33.6910  -11.8433
+            12  C1a C    32.2419  -11.1918
+            13  O2x O    35.9026  -14.5198
+            14  C1x C    34.8147  -12.4833
+            15  C7a C    34.8907  -17.4372
+            16  C1z C    29.2634  -13.3449
+            17  C1x C    28.1397  -15.2940
+            18  O1a O    29.2458  -15.9047
+            19  C7a C    30.6542  -17.6390
+            20  C1y C    28.1456  -11.4061
+            21  O5x O    30.8921   -9.9875
+            22  O1a O    33.6968  -10.5459
+            23  C1a C    36.1065  -16.7564
+            24  O6a O    34.8790  -18.8398
+            25  C2y C    28.1397  -12.7048
+            26  C1a C    30.3453  -12.3493
+            27  C1a C    30.3397  -13.8451
+            28  C1y C    27.0229  -14.6424
+            29  C8y C    30.6367  -18.9363
+            30  O6a O    29.5423  -16.9756
+            31  O1a O    27.0287  -10.7547
+            32  C2y C    27.0229  -13.3449
+            33  O7a O    25.5388  -15.3814
+            34  C1a C    25.9062  -12.4257
+            35  C7a C    24.3811  -14.7122
+            36  C1c C    23.2119  -15.3874
+            37  O6a O    24.3811  -13.3683
+            38  C1c C    22.0416  -14.7122
+            39  O1a O    23.2119  -16.7313
+            40  C8y C    20.8780  -15.3874
+            41  N1b N    22.0416  -13.3683
+            42  C8x C    19.7089  -14.7122
+            43  C8x C    20.8780  -16.7313
+            44  C7a C    20.8723  -12.6990
+            45  C8x C    18.5384  -15.3874
+            46  C8x C    19.7089  -17.4122
+            47  O7a O    20.8723  -11.3548
+            48  O6a O    19.7089  -13.3683
+            49  C8x C    18.5384  -16.7313
+            50  C1d C    19.6786  -10.6644
+            51  C1a C    19.6786   -9.2840
+            52  C1a C    18.4780  -11.3548
+            53  C1a C    18.4683   -9.9687
+            54  C8x C    29.4189  -19.6179
+            55  C8x C    29.4002  -21.0177
+            56  C8x C    30.6031  -21.7339
+            57  C8x C    31.8209  -21.0524
+            58  C8x C    31.8397  -19.6525
+            59  O0  O    24.2860  -20.1298
+            60  O0  O    24.2860  -20.1298
+            61  O0  O    24.2860  -20.1298
+BOND        63
+            1     2   7 1 #Down
+            2     3   8 1
+            3     3   9 1 #Down
+            4     4  10 1
+            5     4  11 1
+            6     4  12 1 #Up
+            7     5  13 1 #Up
+            8     5  14 1
+            9     7  15 1
+            10    8  16 1
+            11    8  17 1
+            12    8  18 1 #Up
+            13    9  19 1
+            14   10  20 1
+            15   10  21 2
+            16   11  22 1 #Up
+            17   15  23 1
+            18   15  24 2
+            19   16  25 1
+            20   16  26 1
+            21   16  27 1
+            22   17  28 1
+            23   19  29 1
+            24   19  30 2
+            25   20  31 1 #Up
+            26   25  32 2
+            27   28  33 1 #Down
+            28   32  34 1
+            29   33  35 1
+            30   35  36 1
+            31   35  37 2
+            32   36  38 1
+            33   36  39 1 #Down
+            34   38  40 1
+            35   38  41 1 #Down
+            36   40  42 2
+            37   40  43 1
+            38   41  44 1
+            39   42  45 1
+            40   43  46 2
+            41   44  47 1
+            42   44  48 2
+            43   45  49 2
+            44    6  13 1
+            45   11  14 1
+            46   20  25 1
+            47   28  32 1
+            48   46  49 1
+            49   47  50 1
+            50    1   2 1
+            51   50  51 1
+            52    1   3 1
+            53   50  52 1
+            54    1   4 1
+            55   50  53 1
+            56    2   5 1
+            57    2   6 1 #Up
+            58   29  54 2
+            59   54  55 1
+            60   55  56 2
+            61   56  57 1
+            62   57  58 2
+            63   29  58 1
+BRACKET     1    22.6800  -21.0700   22.6800  -19.1800
+            1    24.7100  -19.1800   24.7100  -21.0700
+            1  3
+  ORIGINAL  1   60
+  REPEAT    1   61  62
+///

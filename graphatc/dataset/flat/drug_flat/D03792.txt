@@ -1,0 +1,99 @@
+ENTRY       D03792                      Drug
+NAME        Dicirenone (USAN)
+FORMULA     C26H36O5
+EXACT_MASS  428.2563
+MOL_WEIGHT  428.561
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01676  Aldosterone antagonist
+EFFICACY    Antihypertensive, Aldosterone antagonist
+COMMENT     Spironolactone derivative
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01676  Aldosterone antagonist
+                D03792  Dicirenone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D03792  Dicirenone (USAN)
+DBLINKS     CAS: 41020-79-5
+            PubChem: 17397880
+            ChEBI: 177715
+            LigandBox: D03792
+            NIKKAJI: J32.843J
+ATOM        31
+            1   C1z C    26.1100  -22.1200
+            2   C1z C    24.8500  -22.8200
+            3   C1x C    27.2300  -22.8200
+            4   O7x O    27.2300  -21.3500
+            5   C1x C    24.9900  -21.3500
+            6   C1y C    24.8500  -24.1500
+            7   C1x C    23.7300  -22.1200
+            8   C1a C    24.2200  -21.2800
+            9   C1x C    27.2300  -24.1500
+            10  C7x C    26.8100  -20.0200
+            11  C1x C    25.4100  -20.0200
+            12  C1y C    23.7300  -24.8500
+            13  C1x C    22.5400  -22.8200
+            14  O6a O    27.5800  -18.9700
+            15  C1y C    22.5400  -24.1500
+            16  C1y C    23.7300  -26.2500
+            17  C1z C    21.3500  -24.8500
+            18  C1x C    22.5400  -26.8800
+            19  C7a C    24.8500  -26.8800
+            20  C2y C    21.3500  -26.1800
+            21  C1x C    20.1600  -24.1500
+            22  C1a C    21.3500  -23.4500
+            23  O7a O    26.0400  -26.2500
+            24  C2x C    20.1600  -26.8800
+            25  C1x C    18.9700  -24.8500
+            26  C1c C    27.2300  -26.8800
+            27  C5x C    18.9700  -26.1800
+            28  O5x O    17.7800  -26.8800
+            29  O6a O    24.8322  -28.2799
+            30  C1a C    28.4159  -26.1360
+            31  C1a C    27.2114  -28.2791
+BOND        35
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     1   5 1 #Down
+            5     2   6 1
+            6     2   7 1
+            7     2   8 1 #Up
+            8     3   9 1
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13   10  14 2
+            14   12  15 1
+            15   12  16 1
+            16   15  17 1
+            17   16  18 1
+            18   16  19 1 #Down
+            19   17  20 1
+            20   17  21 1
+            21   17  22 1 #Up
+            22   19  23 1
+            23   20  24 2
+            24   21  25 1
+            25   23  26 1
+            26   24  27 1
+            27   27  28 2
+            28    6   9 1
+            29   10  11 1
+            30   13  15 1
+            31   18  20 1
+            32   25  27 1
+            33   19  29 2
+            34   26  30 1
+            35   26  31 1
+///

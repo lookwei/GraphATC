@@ -1,0 +1,98 @@
+ENTRY       D02888                      Drug
+NAME        Amdinocillin (USAN);
+            Mecillinam (INN);
+            Coactin (TN)
+FORMULA     C15H23N3O3S
+EXACT_MASS  325.146
+MOL_WEIGHT  325.4264
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      Same as: C21545
+            ATC code: J01CA11
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA11 Mecillinam
+                  D02888  Amdinocillin (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 D02888  Amdinocillin
+              DG01780  Extended spectrum penicillin
+               D02888  Amdinocillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D02888  Amdinocillin (USAN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D02888  Amdinocillin (USAN)
+            Prodrugs [br08324.html]
+             D02888
+DBLINKS     CAS: 32887-01-7
+            PubChem: 17397045
+            LigandBox: D02888
+            NIKKAJI: J19.342I
+ATOM        22
+            1   C1y C    25.3355  -15.1827
+            2   C5x C    25.3355  -16.5822
+            3   N1y N    26.7350  -16.5822
+            4   C1y C    26.7350  -15.1827
+            5   C1y C    28.0645  -17.0020
+            6   C1z C    28.9042  -15.8824
+            7   S2x S    28.0645  -14.7628
+            8   C1a C    29.8839  -16.8621
+            9   C1a C    29.8839  -14.9028
+            10  C6a C    28.5543  -18.3316
+            11  O6a O    29.9539  -18.3316
+            12  O6a O    27.7146  -19.5212
+            13  N2b N    24.1459  -14.4829
+            14  C2b C    22.9563  -15.1827
+            15  O5x O    24.1459  -17.2819
+            16  N1y N    21.6967  -14.4829
+            17  C1x C    21.6967  -13.0834
+            18  C1x C    20.5771  -12.1737
+            19  C1x C    19.2476  -12.5236
+            20  C1x C    18.6178  -13.7832
+            21  C1x C    19.2476  -15.0427
+            22  C1x C    20.5771  -15.3226
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 2
+            16    2  15 2
+            17   14  16 1
+            18   19  20 1
+            19   20  21 1
+            20   18  19 1
+            21   17  18 1
+            22   21  22 1
+            23   22  16 1
+            24   17  16 1
+///

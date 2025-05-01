@@ -1,0 +1,74 @@
+ENTRY       D12692                      Drug
+NAME        Norlevorphanol (INN)
+FORMULA     C16H21NO
+EXACT_MASS  243.1623
+MOL_WEIGHT  243.344
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12692  Norlevorphanol
+             Analgesic
+              DG01984  Opioid analgesics
+               D12692  Norlevorphanol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12692  Norlevorphanol (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12692
+DBLINKS     CAS: 1531-12-0
+ATOM        18
+            1   C1z C    17.3568  -16.6569
+            2   C1y C    18.5466  -17.3568
+            3   C8y C    17.3568  -15.3272
+            4   C1x C    18.5466  -16.0270
+            5   C1x C    16.2370  -17.3568
+            6   C1y C    19.7364  -16.6569
+            7   C1x C    18.5466  -18.6866
+            8   C8y C    18.5466  -14.6273
+            9   C8x C    16.1670  -14.6273
+            10  C1x C    16.2370  -18.6866
+            11  C1x C    19.7364  -15.3272
+            12  N1x N    20.9261  -17.3568
+            13  C1x C    17.4268  -19.3864
+            14  C8x C    18.5466  -13.2975
+            15  C8y C    16.1670  -13.2975
+            16  C8x C    17.3568  -12.5977
+            17  O1a O    15.0472  -12.5977
+            18  C1x C    20.9260  -15.9461
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     1   5 1
+            5     2   6 1
+            6     2   7 1
+            7     3   8 2
+            8     3   9 1
+            9     5  10 1
+            10    6  11 1
+            11    6  12 1 #Up
+            12    7  13 1
+            13    8  14 1
+            14    9  15 2
+            15   14  16 2
+            16   15  17 1
+            17    8  11 1
+            18   10  13 1
+            19   15  16 1
+            20   12  18 1
+            21    4  18 1
+///

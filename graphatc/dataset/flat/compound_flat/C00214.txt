@@ -1,0 +1,70 @@
+ENTRY       C00214                      Compound
+NAME        Thymidine;
+            Deoxythymidine
+FORMULA     C10H14N2O5
+EXACT_MASS  242.0903
+MOL_WEIGHT  242.2286
+REMARK      Same as: D12466
+REACTION    R01567 R01568 R01569 R01570 R01571 R02806
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+ENZYME      2.4.2.2         2.4.2.4         2.4.2.6         2.7.1.21        
+            2.7.1.114       2.7.1.118       2.7.1.145       3.1.3.5         
+            3.1.3.35        3.1.3.89        3.1.3.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleosides
+               Deoxyribonucleosides
+                C00214  Deoxythymidine (dT)
+            Target-based classification of drugs [BR:br08310(D12466)]
+             Enzymes
+              Transferases (EC2)
+               Phosphotransferase
+                TK2
+                 D12466  Doxribtimine (USAN/INN)
+DBLINKS     CAS: 50-89-5
+            PubChem: 3514
+            ChEBI: 17748
+            KNApSAcK: C00019698
+            PDB-CCD: THM
+            3DMET: B01191
+            NIKKAJI: J4.548I
+ATOM        17
+            1   C1y C    25.2810  -16.2578
+            2   O2x O    24.1363  -15.3876
+            3   C1x C    24.8664  -17.5542
+            4   C1y C    23.0093  -16.2285
+            5   C1y C    23.4472  -17.5542
+            6   C1b C    21.6778  -15.8081
+            7   O1a O    23.0150  -18.9207
+            8   O1a O    20.6442  -16.7482
+            9   N4y N    26.5577  -15.9483
+            10  C8y C    27.7528  -16.6465
+            11  C8x C    26.5645  -14.5573
+            12  N4x N    28.9743  -15.9612
+            13  O5x O    27.6855  -18.0533
+            14  C8y C    27.7765  -13.8560
+            15  C8y C    28.9710  -14.5783
+            16  C1a C    27.7833  -12.4650
+            17  O5x O    30.1856  -13.8887
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1 #Up
+            6     5   7 1 #Down
+            7     6   8 1
+            8     4   5 1
+            9     9  10 1
+            10    9  11 1
+            11   10  12 1
+            12   10  13 2
+            13   11  14 2
+            14   12  15 1
+            15   14  16 1
+            16   15  17 2
+            17   14  15 1
+            18    1   9 1 #Up
+///

@@ -1,0 +1,88 @@
+ENTRY       D03579                      Drug
+NAME        Codeine polistirex (USAN)
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03189  UGT2B4 substrate
+              DG03190  UGT2B7 substrate
+REMARK      ATC code: R05DA04
+            Chemical structure group: DG01076
+            Product (DG01076): D02101<JP> D03580<US>
+EFFICACY    Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+            Active form of prodrug: Morphine [DR:D08233]
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: UGT2B7 [HSA:7364], UGT2B4 [HSA:7363]; CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA04 Codeine
+                  D03579  Codeine polistirex (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01076  Codeine
+                 D03579  Codeine polistirex
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01076  Codeine
+                D03579  Codeine polistirex
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01076  Codeine
+                D03579  Codeine polistirex
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01076  Codeine
+                 D03579  Codeine polistirex
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG01076  Codeine
+                 D03579  Codeine polistirex
+               DG03190  UGT2B7 substrate
+                DG01076  Codeine
+                 D03579  Codeine polistirex
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D03579  Codeine polistirex (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03579
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01076  Codeine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01076  Codeine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01076  Codeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01076  Codeine
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG01076  Codeine
+               DG03190  UGT2B7 substrate
+                DG01076  Codeine
+            Prodrugs [br08324.html(DG01076)]
+             DG01076
+DBLINKS     PubChem: 47205863
+///

@@ -1,0 +1,110 @@
+ENTRY       D00587                      Drug
+NAME        Sulfadiazine (JAN/USP/INN);
+            Sulfapyrimidine;
+            Sulfadiazine (TN)
+PRODUCT
+  GENERIC   SULFADIAZINE (EPIC PHARMA)
+            SULFADIAZINE (Eon Labs)
+FORMULA     C10H10N4O2S
+EXACT_MASS  250.0524
+MOL_WEIGHT  250.277
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01785  Intermediate-acting sulfonamide
+REMARK      Same as: C07658
+            ATC code: J01EC02
+            Chemical structure group: DG00599
+            Product (DG00599): D00587<US> D00433<JP/US>
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+  DISEASE   Chancroid [DS:H00305]
+            Trachoma [DS:H00439]
+            Nocardiosis [DS:H00345]
+            Toxoplasmosis encephalitis [DS:H00435]
+            Malaria [DS:H00361]
+            Meningococcal meningitis [DS:H00314]
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EC Intermediate-acting sulfonamides
+                 J01EC02 Sulfadiazine
+                  D00587  Sulfadiazine (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antibacterials
+              Sulfonamides
+               Sulfadiazine
+                D00587  Sulfadiazine (JAN/USP/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for integumentary system
+              54 Disinfectants (incl. special bandages)
+               D00587  Sulfadiazine (JAN/USP/INN)
+              56 Purulent skin remedies
+               D00587  Sulfadiazine (JAN/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Sulfadiazine
+                D00587  Sulfadiazine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01785  Intermediate-acting sulfonamide
+                DG00599  Sulfadiazine
+                 D00587  Sulfadiazine
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Intermediate-acting sulfonamide
+                D00587  Sulfadiazine (JAN/USP/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01785  Intermediate-acting sulfonamide
+                DG00599  Sulfadiazine
+DBLINKS     CAS: 68-35-9
+            PubChem: 7847653
+            ChEBI: 9328
+            LigandBox: D00587
+            NIKKAJI: J1.418D
+ATOM        17
+            1   C8y C    25.0333  -17.0983
+            2   S4a S    26.2436  -16.3966
+            3   C8x C    25.0392  -18.4959
+            4   C8x C    23.8288  -16.3966
+            5   N1b N    27.4540  -17.0983
+            6   O3c O    27.2259  -15.4086
+            7   O3c O    25.2439  -15.4086
+            8   C8x C    23.8288  -19.1976
+            9   C8x C    22.6184  -17.0866
+            10  C8y C    28.6703  -16.3966
+            11  C8y C    22.6125  -18.4959
+            12  N5x N    28.7344  -14.9935
+            13  N5x N    29.8748  -17.0983
+            14  N1a N    21.4021  -19.1916
+            15  C8x C    29.8748  -14.2918
+            16  C8x C    31.0851  -16.4026
+            17  C8x C    31.0909  -14.9935
+BOND        18
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    8  11 2
+            11   10  12 2
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 2
+            16   15  17 2
+            17    9  11 1
+            18   16  17 1
+///

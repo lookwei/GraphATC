@@ -1,0 +1,102 @@
+ENTRY       D03772                      Drug
+NAME        Fosinoprilat (USAN/INN)
+FORMULA     C23H34NO5P
+EXACT_MASS  435.2175
+MOL_WEIGHT  435.4935
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Same as: C21542
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03772  Fosinoprilat
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03772  Fosinoprilat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03772  Fosinoprilat (USAN/INN)
+            Prodrugs [br08324.html]
+             D03772
+DBLINKS     CAS: 95399-71-6
+            PubChem: 17397861
+            ChEBI: 116962
+            PDB-CCD: KS8
+            LigandBox: D03772
+            NIKKAJI: J261.896F
+ATOM        30
+            1   C8x C    22.8900  -14.6300
+            2   C8x C    22.8900  -16.0300
+            3   C8x C    24.0800  -16.7300
+            4   C8x C    25.3400  -16.0300
+            5   C8y C    25.3400  -14.6300
+            6   C8x C    24.0800  -13.9300
+            7   C1b C    26.5300  -13.9300
+            8   C1b C    27.7900  -14.6300
+            9   C1b C    28.9800  -13.9300
+            10  C1b C    30.1700  -14.6300
+            11  P1a P    31.4300  -13.9300
+            12  C1b C    32.6200  -14.6300
+            13  C5a C    33.8100  -13.9300
+            14  N1y N    35.0700  -14.6300
+            15  O3b O    31.4300  -12.4600
+            16  O5a O    33.8100  -12.5300
+            17  C1x C    35.4900  -15.9600
+            18  C1y C    36.8900  -15.9600
+            19  C1x C    37.3100  -14.6300
+            20  C1y C    36.1900  -13.7900
+            21  C1y C    37.5900  -17.2200
+            22  C1x C    36.8900  -18.4100
+            23  C1x C    37.5900  -19.6000
+            24  C1x C    38.9900  -19.6000
+            25  C1x C    39.6900  -18.4100
+            26  C1x C    38.9900  -17.2200
+            27  C6a C    36.1900  -12.3900
+            28  O6a O    37.3800  -11.6900
+            29  O6a O    35.0000  -11.6900
+            30  O1c O    31.4300  -15.4700
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   11  15 2
+            16   13  16 2
+            17   14  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   14  20 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   24  25 1
+            26   25  26 1
+            27   21  26 1
+            28   18  21 1 #Up
+            29   20  27 1 #Down
+            30   27  28 1
+            31   27  29 2
+            32   11  30 1
+///

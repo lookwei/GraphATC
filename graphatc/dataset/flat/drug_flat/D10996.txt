@@ -1,0 +1,103 @@
+ENTRY       D10996                      Drug
+NAME        Uprifosbuvir (USAN/INN)
+FORMULA     C22H29ClN3O9P
+EXACT_MASS  545.133
+MOL_WEIGHT  545.9071
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG02000  HCV NS5B polymerase inhibitor
+EFFICACY    Antiviral, NS5B polymerase inhibitor
+COMMENT     Treatment of hepatitis C
+TARGET      HCV NS5B polymerase [KO:K22472]
+  PATHWAY   ko03230(K22472)  Viral genome structure
+            ko03240(K22472)  Viral replication
+            ko05160(K22472)  Hepatitis C
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG02000  HCV NS5B polymerase inhibitor
+                D10996  Uprifosbuvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10996  Uprifosbuvir (USAN/INN)
+DBLINKS     CAS: 1496551-77-9
+            PubChem: 342581836
+ATOM        36
+            1   C1a C     8.9600  -23.1700
+            2   C1c C    10.2200  -23.8700
+            3   O7a O    11.4100  -23.1700
+            4   C7a C    12.6000  -23.8700
+            5   C1c C    13.8600  -23.1700
+            6   N1b N    15.0500  -23.8700
+            7   P1b P    16.5200  -23.1700
+            8   C1a C    10.2200  -25.2700
+            9   O6a O    12.6000  -25.2700
+            10  C1a C    13.8600  -21.7700
+            11  O2b O    17.9900  -23.8700
+            12  O2b O    17.7800  -22.4700
+            13  O3b O    15.3300  -22.4700
+            14  C8y C    17.7800  -21.0700
+            15  C8x C    18.9700  -20.3700
+            16  C8x C    18.9700  -18.9700
+            17  C8x C    17.7800  -18.2700
+            18  C8x C    16.5200  -18.9700
+            19  C8x C    16.5200  -20.3700
+            20  C1b C    19.1800  -23.1700
+            21  C1y C    20.3700  -23.8700
+            22  C1y C    20.7900  -25.2000
+            23  C1z C    22.1900  -25.2000
+            24  C1y C    22.6100  -23.8700
+            25  O2x O    21.4900  -23.0300
+            26  O1a O    19.9624  -26.3292
+            27  C1a C    23.5423  -25.5623
+            28  X   Cl   21.8277  -26.5523
+            29  N4y N    23.9430  -23.4420
+            30  C8x C    25.1554  -24.1420
+            31  C8x C    26.3678  -23.4420
+            32  C8y C    26.3678  -22.0420
+            33  N4x N    25.1554  -21.3420
+            34  C8y C    23.9430  -22.0420
+            35  O5x O    22.7318  -21.3427
+            36  O5x O    27.5932  -21.3343
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     7   6 1 #Down
+            7     2   8 1
+            8     4   9 2
+            9     5  10 1 #Up
+            10    7  11 1 #Up
+            11    7  12 1
+            12    7  13 2
+            13   12  14 1
+            14   14  15 2
+            15   15  16 1
+            16   16  17 2
+            17   17  18 1
+            18   18  19 2
+            19   14  19 1
+            20   11  20 1
+            21   21  20 1 #Up
+            22   22  23 1
+            23   23  24 1
+            24   24  25 1
+            25   25  21 1
+            26   21  22 1
+            27   22  26 1 #Down
+            28   23  27 1 #Up
+            29   23  28 1 #Down
+            30   24  29 1 #Up
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   32  33 1
+            35   33  34 1
+            36   29  34 1
+            37   34  35 2
+            38   32  36 2
+///

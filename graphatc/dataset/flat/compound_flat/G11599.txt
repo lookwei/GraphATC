@@ -1,0 +1,31 @@
+ENTRY       G11599                      Glycan
+NAME        Galactoglucomannan
+COMPOSITION (Gal)2 (Glc)3 (Man)1 (*)2
+COMMENT     The ratio of Man:Glc:Gal is 3:1:1.
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G11599  Galactoglucomannan
+DBLINKS     GlyTouCan: G06554IG
+NODE        8
+            1   *          19    -2
+            2   Glc        12    -2
+            3   Glc         4    -2
+            4   Gal        -2     2
+            5   Man        -4    -2
+            6   Gal       -11     2
+            7   Glc       -12    -2
+            8   *         -19    -2
+EDGE        7
+            1     2:b1    1    
+            2     3:b1    2:4  
+            3     4:a1    3:6  
+            4     5:b1    3:4  
+            5     6:a1    5:6  
+            6     7:b1    5:4  
+            7     8       7:4  
+BRACKET     1 -15.0   4.0 -15.0  -5.0
+            1  15.0  -5.0  15.0   4.0
+            1 n
+///

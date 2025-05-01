@@ -1,0 +1,83 @@
+ENTRY       D10628                      Drug
+NAME        Esuberaprost (USAN/INN)
+FORMULA     C24H30O5
+EXACT_MASS  398.2093
+MOL_WEIGHT  398.492
+REMARK      Chemical structure group: DG01839
+EFFICACY    Antihypertensive, Prostaglandin I2 receptor agonist
+COMMENT     Prostacycline derivative
+            Treatment of pulmonary arterial hypertension
+TARGET      PTGIR [HSA:5739] [KO:K04263]
+  PATHWAY   hsa04080(5739)  Neuroactive ligand-receptor interaction
+            hsa04270(5739)  Vascular smooth muscle contraction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostacyclin
+                PTGIR
+                 D10628  Esuberaprost (USAN/INN)
+DBLINKS     CAS: 94132-88-4
+            PubChem: 254741589
+ATOM        29
+            1   C1y C    15.0500  -20.0200
+            2   C1b C    21.0000  -20.8600
+            3   C3b C    22.2600  -20.0900
+            4   C3b C    23.5200  -19.2500
+            5   C2b C    16.1000  -20.8600
+            6   C2b C    17.4300  -20.0900
+            7   C1c C    18.6200  -20.8600
+            8   O1a O    18.6200  -22.2600
+            9   C1c C    19.8100  -20.0900
+            10  C1a C    19.8100  -19.0400
+            11  C1y C    15.0500  -18.6200
+            12  C1y C    13.7200  -18.2000
+            13  C1x C    12.8800  -19.3200
+            14  C1y C    13.7200  -20.4400
+            15  O1a O    13.3700  -21.8400
+            16  C1a C    25.2000  -18.2000
+            17  C8y C    15.8900  -17.5000
+            18  C8y C    15.0500  -16.3800
+            19  O2x O    13.7200  -16.8000
+            20  C8x C    17.2900  -17.3600
+            21  C8x C    17.8500  -16.0300
+            22  C8x C    17.0100  -14.9100
+            23  C8y C    15.6100  -15.0500
+            24  C1b C    14.7700  -13.9300
+            25  C1b C    13.3700  -13.9300
+            26  C1b C    12.6000  -12.8576
+            27  C6a C    11.2000  -12.8576
+            28  O6a O    10.2200  -11.6451
+            29  O6a O    10.5000  -14.0700
+BOND        31
+            1     2   3 1
+            2     3   4 3
+            3     5   6 2
+            4     6   7 1
+            5     7   8 1 #Down
+            6     7   9 1
+            7     2   9 1
+            8     9  10 1 #Up
+            9     1   5 1 #Up
+            10    1  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14    1  14 1
+            15   14  15 1 #Down
+            16    4  16 1
+            17   17  18 1
+            18   18  19 1
+            19   11  17 1 #Down
+            20   12  19 1 #Down
+            21   17  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   18  23 2
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   27  29 2
+///

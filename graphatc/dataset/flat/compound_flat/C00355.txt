@@ -1,0 +1,126 @@
+ENTRY       C00355                      Compound
+NAME        3,4-Dihydroxy-L-phenylalanine;
+            L-Dopa;
+            3-Hydroxy-L-tyrosine;
+            L-beta-(3,4-Dihydroxyphenyl)alanine;
+            Levodopa;
+            Dihydroxy-L-phenylalanine
+FORMULA     C9H11NO4
+EXACT_MASS  197.0688
+MOL_WEIGHT  197.1879
+REMARK      Same as: D00059
+REACTION    R00031 R00045 R00731 R01815 R02075 R02076 R02077 R02078 
+            R02080 R03672 R07212 R08443 R08827 R08836 R08846 R08920 
+            R11916 R12541 R12611 R13031 R13032
+PATHWAY     map00350  Tyrosine metabolism
+            map00950  Isoquinoline alkaloid biosynthesis
+            map00965  Betalain biosynthesis
+            map01060  Biosynthesis of plant secondary metabolites
+            map01063  Biosynthesis of alkaloids derived from shikimate pathway
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04728  Dopaminergic synapse
+            map04917  Prolactin signaling pathway
+            map05012  Parkinson disease
+            map05030  Cocaine addiction
+            map05031  Amphetamine addiction
+            map05034  Alcoholism
+MODULE      M00042  Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline
+            M00961  Betacyanin biosynthesis, L-tyrosine => amaranthin
+NETWORK     nt06028  Dopamine and serotonin metabolism
+            nt06463  Parkinson disease
+ENZYME      1.10.3.1        1.11.2.6        1.13.11.29      1.13.11.30      
+            1.13.11.-       1.13.12.15      1.14.16.2       1.14.18.1       
+            1.14.-.-        2.6.1.49        4.1.1.25        4.1.1.28        
+            4.1.1.107       4.3.1.22
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C00355  3,4-Dihydroxy-L-phenylalanine
+             Hormones and transmitters
+              Neurotransmitters
+               Amino acids
+                C00355  Dopa
+            Prodrugs [br08324.html]
+             C00355
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00059)]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BA Dopa and dopa derivatives
+                 N04BA01 Levodopa
+                  D00059  Levodopa (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302(D00059)]
+             Antiparkinson Agents
+              Dopamine Precursors and/or L-Amino Acid Decarboxylase Inhibitors
+               Levodopa
+                D00059  Levodopa (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301(D00059)]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               116  Antiparkinsonian agents
+                1164  Levodopas
+                 D00059  Levodopa (JP18/USP/INN)
+            Drug groups [BR:br08330(D00059)]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               D00059  Levodopa
+              DG01967  Antiparkinson agent
+               D00059  Levodopa
+            Drug classes [BR:br08332(D00059)]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D00059  Levodopa
+            Target-based classification of drugs [BR:br08310(D00059)]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD
+                 D00059  Levodopa (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00059)]
+             Chemicals
+              D00059  Levodopa
+            New drug approvals in Europe [br08329.html(D00059)]
+             European public assessment reports (EPAR) authorised medicine
+              D00059
+            Prodrugs [br08324.html(D00059)]
+             D00059
+DBLINKS     CAS: 59-92-7
+            PubChem: 3648
+            ChEBI: 15765
+            KNApSAcK: C00001357
+            PDB-CCD: DAH
+            3DMET: B01224
+            NIKKAJI: J9.225H
+ATOM        14
+            1   C8y C    22.9600  -19.2500
+            2   C8y C    22.9600  -20.6500
+            3   C8x C    24.1500  -18.5500
+            4   O1a O    21.7000  -18.5500
+            5   C8x C    24.1500  -21.3500
+            6   O1a O    21.7000  -21.3500
+            7   C8y C    25.3400  -19.2500
+            8   C8x C    25.3400  -20.6500
+            9   C1b C    26.6000  -18.6200
+            10  C1c C    27.7900  -19.2500
+            11  C6a C    28.9800  -18.6200
+            12  N1a N    27.7900  -20.6500
+            13  O6a O    30.2400  -19.2500
+            14  O6a O    28.9800  -17.2200
+BOND        14
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     5   8 1
+            8     7   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 1 #Up
+            12   11  13 1
+            13   11  14 2
+            14    7   8 2
+///

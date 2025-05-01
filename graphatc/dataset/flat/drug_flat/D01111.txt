@@ -1,0 +1,159 @@
+ENTRY       D01111                      Drug
+NAME        Nateglinide (JP18/USP/INN);
+            Starsis (TN)
+PRODUCT
+  GENERIC   NATEGLINIDE (Actavis Pharma)
+            NATEGLINIDE (American Health Packaging)
+            NATEGLINIDE (American Health Packaging)
+            NATEGLINIDE (Cadila Pharmaceuticals Limited)
+            NATEGLINIDE (Dr. Reddy's Laboratories Limited)
+            NATEGLINIDE (Golden State Medical Supply)
+            NATEGLINIDE (Golden State Medical Supply)
+            NATEGLINIDE (Modavar Pharmaceuticals LLC)
+            NATEGLINIDE (Nivagen Pharmaceuticals)
+            NATEGLINIDE (Par Pharmaceutical)
+            NATEGLINIDE (Rising Pharmaceuticals)
+            NATEGLINIDE (Strides Pharma Science Limited)
+            NATEGLINIDE (Zydus Lifesciences Limited)
+            NATEGLINIDE (Zydus Pharmaceuticals (USA))
+FORMULA     C19H27NO3
+EXACT_MASS  317.1991
+MOL_WEIGHT  317.4226
+CLASS       Antidiabetic agent
+             DG01508  Sulfonylurea receptor agonist
+              DG01735  Glinide
+             DG02044  Hypoglycemic agent
+              DG01735  Glinide
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      Same as: C12508
+            Therapeutic category: 3969
+            ATC code: A10BX03
+            Product: D01111<JP/US>
+EFFICACY    Antidiabetic, Hypoglycemic, Sulfonylurea receptor agonist
+  DISEASE   Type 2 diabetes mellitus [DS:H00409]
+COMMENT     Glinide derivative
+            Treatment of Type II diabetes mellitus
+TARGET      ABCC8(SUR1)/KCNJ11(KIR6.2) [HSA:6833 3767] [KO:K05032 K05004]
+  PATHWAY   hsa02010(6833)  ABC transporters
+            hsa04911(3767+6833)  Insulin secretion
+            hsa04930(3767+6833)  Type II diabetes mellitus
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BX Other blood glucose lowering drugs, excl. insulins
+                 A10BX03 Nateglinide
+                  D01111  Nateglinide (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Blood Glucose Regulators
+              Antidiabetic Agents
+               Glucose Control Agents, Other
+                Nateglinide
+                 D01111  Nateglinide (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D01111  Nateglinide (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01735  Glinide
+                D01111  Nateglinide
+              DG02044  Hypoglycemic agent
+               DG01735  Glinide
+                D01111  Nateglinide
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D01111  Nateglinide
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01735  Glinide
+               D01111  Nateglinide
+              DG02044  Hypoglycemic agent
+               D01111  Nateglinide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8(SUR1)/KCNJ11(KIR6.2)
+                 D01111  Nateglinide (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01111  Nateglinide
+              D01111  Nateglinide tablets
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01111
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01111
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01111
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01111
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D01111
+DBLINKS     CAS: 105816-04-4
+            PubChem: 7848174
+            ChEBI: 31897
+            LigandBox: D01111
+            NIKKAJI: J259.863I J263.263B
+ATOM        23
+            1   C1b C    21.1279  -14.8259
+            2   C1c C    21.1279  -16.2406
+            3   C6a C    22.3304  -16.9480
+            4   O6a O    22.3304  -18.3627
+            5   O6a O    23.4622  -16.3114
+            6   N1b N    19.8547  -16.9480
+            7   C8y C    22.3304  -14.1186
+            8   C8x C    22.3304  -12.7039
+            9   C8x C    23.4622  -11.9965
+            10  C8x C    24.7354  -12.7039
+            11  C8x C    24.7354  -14.1186
+            12  C8x C    23.5329  -14.8259
+            13  C5a C    18.6522  -16.2406
+            14  C1y C    17.3789  -16.8772
+            15  O5a O    18.6522  -14.8259
+            16  C1x C    17.3789  -18.2919
+            17  C1x C    16.1764  -18.9993
+            18  C1y C    14.9740  -18.2212
+            19  C1x C    14.9740  -16.8772
+            20  C1x C    16.1764  -16.1699
+            21  C1c C    13.7715  -18.9286
+            22  C1a C    12.5690  -18.2212
+            23  C1a C    13.7715  -20.3433
+BOND        24
+            1     2   6 1
+            2     2   1 1 #Down
+            3     2   3 1
+            4     3   4 2
+            5     3   5 1
+            6     1   7 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12    7  12 1
+            13    6  13 1
+            14   14  13 1 #Down
+            15   13  15 2
+            16   14  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   14  20 1
+            22   18  21 1 #Up
+            23   21  22 1
+            24   21  23 1
+///

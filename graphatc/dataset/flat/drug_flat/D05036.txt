@@ -1,0 +1,38 @@
+ENTRY       D05036                      Drug
+NAME        Milodistim (USAN/INN);
+            Pixykine (TN)
+FORMULA     C1336H2116N362O410S13
+EXACT_MASS  30207.2225
+MOL_WEIGHT  30226.1206
+SEQUENCE    APARSPSPST QPWEHVNAIQ EALRLLDLSR DTAAEMNEEV EVISEMFDLQ EPTCLQTRLE
+            LYKQGLRGSL TKLKGPLTMM ASHYKQHCPP TPETSCATQI ITFESFKENL KDFLLVIPFD
+            CWEPVQEGGG GSGGGGGSAP MTQTTPLKTS WVDCSNMIDE IITHLKQPPL PLLDFNNLNG
+            EDQDILMENN LRRPNLEAFN RAVKSLQDAS AIESILKNLL PCLPLATAAP TRHPIHIKDG
+            DWNEFRRKLT FYLKTLENAQ AQQTTLSLAI F
+  TYPE      Peptide
+CLASS       Immunological agent
+             DG01753  Colony stimulating factor
+EFFICACY    Antineutropenic, Hematopoietic stimulant
+COMMENT     A recombinant fusion protein (GM-CSF [HSA:1440] [KO:K05423] /IL3 [HSA:3562] [KO:K04736])
+TARGET      CSF3R (GCSFR, CD114) [HSA:1441] [KO:K05061]
+            IL3RA (CD123) [HSA:3563] [KO:K04737]
+  PATHWAY   hsa04060(1441+3563)  Cytokine-cytokine receptor interaction
+            hsa04151(1441+3563)  PI3K-Akt signaling pathway
+            hsa04630(1441+3563)  JAK-STAT signaling pathway
+            hsa04640(1441+3563)  Hematopoietic cell lineage
+BRITE       Drug groups [BR:br08330]
+             Immunological agent
+              DG01753  Colony stimulating factor
+               D05036  Milodistim
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Interleukin receptors
+                IL3RA (CD123)
+                 D05036  Milodistim (USAN/INN)
+               CSF and other factor receptors
+                CSF3R (GCSFR, CD114)
+                 D05036  Milodistim (USAN/INN)
+DBLINKS     CAS: 137463-76-4
+            PubChem: 47206763
+///

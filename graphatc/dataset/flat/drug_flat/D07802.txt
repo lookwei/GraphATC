@@ -1,0 +1,197 @@
+ENTRY       D07802                      Drug
+NAME        Dexamethasone phosphate;
+            Decadron-phosphate (TN)
+FORMULA     C22H30FO8P
+EXACT_MASS  472.1662
+MOL_WEIGHT  472.441
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      ATC code: A01AC02 C05AA09 D07AB19 D07XB05 D10AA03 H02AB02 R01AD03 S01BA01 S01CB01 S02BA06 S03BA01
+            Chemical structure group: DG00011
+            Product (DG00011): D00292<JP/US> D00975<JP/US> D01510<JP> D01615<JP> D01632<JP> D01948<JP> D07073<JP>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP induction: CYP3A4 [HSA:1576]
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AC Corticosteroids for local oral treatment
+                 A01AC02 Dexamethasone
+                  D07802  Dexamethasone phosphate
+             C CARDIOVASCULAR SYSTEM
+              C05 VASOPROTECTIVES
+               C05A AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE
+                C05AA Corticosteroids
+                 C05AA09 Dexamethasone
+                  D07802  Dexamethasone phosphate
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AB Corticosteroids, moderately potent (group II)
+                 D07AB19 Dexamethasone
+                  D07802  Dexamethasone phosphate
+               D07X CORTICOSTEROIDS, OTHER COMBINATIONS
+                D07XB Corticosteroids, moderately potent, other combinations
+                 D07XB05 Dexamethasone
+                  D07802  Dexamethasone phosphate
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AA Corticosteroids, combinations for treatment of acne
+                 D10AA03 Dexamethasone
+                  D07802  Dexamethasone phosphate
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB02 Dexamethasone
+                  D07802  Dexamethasone phosphate
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AD Corticosteroids
+                 R01AD03 Dexamethasone
+                  D07802  Dexamethasone phosphate
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01B ANTIINFLAMMATORY AGENTS
+                S01BA Corticosteroids, plain
+                 S01BA01 Dexamethasone
+                  D07802  Dexamethasone phosphate
+               S01C ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION
+                S01CB Corticosteroids/antiinfectives/mydriatics in combination
+                 S01CB01 Dexamethasone
+                  D07802  Dexamethasone phosphate
+              S02 OTOLOGICALS
+               S02B CORTICOSTEROIDS
+                S02BA Corticosteroids
+                 S02BA06 Dexamethasone
+                  D07802  Dexamethasone phosphate
+              S03 OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS
+               S03B CORTICOSTEROIDS
+                S03BA Corticosteroids
+                 S03BA01 Dexamethasone
+                  D07802  Dexamethasone phosphate
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00011  Dexamethasone
+                 D07802  Dexamethasone phosphate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00011  Dexamethasone
+                 D07802  Dexamethasone phosphate
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00011  Dexamethasone
+                 D07802  Dexamethasone phosphate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07802  Dexamethasone phosphate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07802
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00011  Dexamethasone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00011  Dexamethasone
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00011  Dexamethasone
+DBLINKS     CAS: 312-93-6
+            PubChem: 96024499
+            PDB-CCD: 3T5
+            LigandBox: D07802
+            NIKKAJI: J5.658H
+ATOM        32
+            1   C1y C    23.5200  -19.2500
+            2   C1y C    22.3300  -19.9500
+            3   C1z C    23.5200  -17.8500
+            4   C1x C    25.9000  -19.2500
+            5   C1z C    21.1400  -19.2500
+            6   C1x C    22.3300  -21.2800
+            7   C1z C    24.7100  -17.2200
+            8   C1x C    22.3300  -17.2200
+            9   C1a C    23.5200  -16.5200
+            10  C1y C    25.9000  -17.9200
+            11  C1z C    19.9500  -19.9500
+            12  C1y C    21.1400  -17.8500
+            13  X   F    21.1400  -20.5800
+            14  C1x C    21.1400  -21.9800
+            15  C5a C    24.7100  -15.8200
+            16  O1a O    26.0400  -16.8000
+            17  C1a C    27.2300  -17.7100
+            18  C2y C    19.9500  -21.2800
+            19  C2x C    18.7600  -19.2500
+            20  C1a C    19.9500  -18.5500
+            21  O1a O    19.9500  -17.1500
+            22  C1b C    25.9000  -15.1200
+            23  O5a O    23.5200  -15.1200
+            24  C2x C    18.7600  -21.9800
+            25  C2x C    17.5700  -19.9500
+            26  O2b O    27.0900  -15.8200
+            27  C5x C    17.5700  -21.2800
+            28  P1b P    28.2100  -15.0500
+            29  O5x O    16.3800  -21.9800
+            30  O1c O    29.4000  -14.2800
+            31  O1c O    27.4400  -13.8600
+            32  O1c O    28.9100  -16.2624
+BOND        35
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    5  13 1 #Down
+            13    6  14 1
+            14    7  15 1 #Up
+            15    7  16 1 #Down
+            16   10  17 1 #Down
+            17   11  18 1
+            18   11  19 1
+            19   11  20 1 #Up
+            20   12  21 1 #Up
+            21   15  22 1
+            22   15  23 2
+            23   18  24 2
+            24   19  25 2
+            25   22  26 1
+            26   24  27 1
+            27   26  28 1
+            28   27  29 2
+            29   28  30 1
+            30   28  31 1
+            31    7  10 1
+            32    8  12 1
+            33   14  18 1
+            34   25  27 1
+            35   28  32 2
+///

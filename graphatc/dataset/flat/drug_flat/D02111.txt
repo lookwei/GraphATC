@@ -1,0 +1,114 @@
+ENTRY       D02111                      Drug
+NAME        Pentazocine lactate (USP);
+            Talwin (TN)
+FORMULA     C19H27NO. C3H6O3
+EXACT_MASS  375.241
+MOL_WEIGHT  375.5017
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      ATC code: N02AD01
+            Chemical structure group: DG00819
+            Product (DG00819): D00498<JP> D02227<JP>
+EFFICACY    Analgesic, Opioid receptor agonist/antagonist
+COMMENT     Benzomorphan derivative
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+            OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AD Benzomorphan derivatives
+                 N02AD01 Pentazocine
+                  D02111  Pentazocine lactate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00819  Pentazocine
+                D02111  Pentazocine lactate
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00819  Pentazocine
+                D02111  Pentazocine lactate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D02111  Pentazocine lactate (USP)
+                OPRK1
+                 D02111  Pentazocine lactate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00819  Pentazocine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00819  Pentazocine
+DBLINKS     CAS: 17146-95-1
+            PubChem: 7849172
+            LigandBox: D02111
+            NIKKAJI: J349.622H
+ATOM        27
+            1   O1a O    36.9967  -17.3156
+            2   C1c C    38.2132  -18.0180
+            3   C6a C    39.4297  -17.3156
+            4   O6a O    40.6462  -18.0180
+            5   C1a C    38.2132  -19.4227
+            6   O6a O    39.4297  -15.9109
+            7   C1z C    27.3967  -19.1883
+            8   C8y C    27.3967  -17.8418
+            9   C1y C    28.6015  -19.8969
+            10  C1a C    26.2628  -19.8261
+            11  C1x C    28.6015  -18.5505
+            12  C8x C    26.2628  -17.2040
+            13  C8y C    28.6015  -17.2040
+            14  C1y C    29.7354  -19.1883
+            15  C1x C    30.8692  -18.5505
+            16  C8y C    26.2628  -15.8575
+            17  C1x C    29.7354  -17.9126
+            18  C8x C    28.6015  -15.8575
+            19  N1y N    30.8692  -19.8969
+            20  C8x C    27.4676  -15.2197
+            21  O1a O    25.1289  -15.2197
+            22  C1b C    32.2919  -19.8969
+            23  C2b C    33.0069  -21.1349
+            24  C1a C    28.6213  -21.3455
+            25  C2c C    34.4244  -21.1348
+            26  C1a C    35.1357  -22.3668
+            27  C1a C    35.1378  -19.8989
+BOND        28
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     2   5 1
+            5     3   6 2
+            6     7   8 1
+            7     7   9 1
+            8     7  10 1
+            9     7  11 1 #Up
+            10    8  12 2
+            11    8  13 1
+            12    9  14 1
+            13   11  15 1
+            14   12  16 1
+            15   13  17 1
+            16   13  18 2
+            17   14  19 1 #Up
+            18   16  20 2
+            19   16  21 1
+            20   14  17 1
+            21   15  19 1
+            22   18  20 1
+            23   19  22 1
+            24   22  23 1
+            25    9  24 1 #Down
+            26   23  25 2
+            27   25  26 1
+            28   25  27 1
+///

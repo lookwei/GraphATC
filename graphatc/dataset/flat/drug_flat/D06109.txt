@@ -1,0 +1,92 @@
+ENTRY       D06109                      Drug
+NAME        Thioguanine (USP);
+            Thioguanine hydrate;
+            Tabloid (TN);
+            Thioguanine (TN)
+PRODUCT     TABLOID (Aspen Global)
+            TABLOID (Waylis Therapeutics LLC)
+            TABLOID (Woodward Pharma Services LLC)
+FORMULA     C5H5N5S. xH2O
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+REMARK      ATC code: L01BB03
+            Chemical structure group: DG00684
+            Product (DG00684): D06109<US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Chronic myelogenous leukemia [DS:H00004]
+            Acute nonlymphocytic leukemias [DS:H00003]
+TARGET      HPRT1 [HSA:3251] [KO:K00760]
+  PATHWAY   hsa00230(3251)  Purine metabolism
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BB Purine analogues
+                 L01BB03 Tioguanine
+                  D06109  Thioguanine (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Thioguanine
+                D06109  Thioguanine (USP)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG00684  Tioguanine
+                 D06109  Thioguanine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D06109  Thioguanine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                HPRT1
+                 D06109  Thioguanine (USP) &lt;US&gt;
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D06109
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG00684  Tioguanine
+DBLINKS     PubChem: 47207767
+            LigandBox: D06109
+ATOM        12
+            1   C8y C    10.4632  -17.7007
+            2   C8y C    10.3989  -16.2968
+            3   N5x N    11.6740  -18.3967
+            4   N4x N     9.1353  -18.1276
+            5   C8y C    11.6740  -15.6007
+            6   N5x N     9.1353  -15.8639
+            7   C8y C    12.8906  -17.7007
+            8   C8x C     8.3106  -16.9987
+            9   N5x N    12.8906  -16.2968
+            10  S1a S    11.6798  -14.1968
+            11  N1a N    14.1074  -18.3909
+            12  O0  O    19.1800  -17.0100
+BOND        12
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 2
+            9     5  10 1
+            10    7  11 1
+            11    6   8 2
+            12    7   9 1
+BRACKET     1    17.0100  -17.9200   17.0100  -16.0300
+            1    19.8100  -16.0300   19.8100  -17.9200
+            1  x
+  ORIGINAL  1   12
+  REPEAT    1 
+///

@@ -1,0 +1,30 @@
+ENTRY       G11624                      Glycan
+NAME        4-O-Methylglucuronoarabinoxylan
+COMPOSITION (GlcA4Me)1 (LAraf)1 (Xyl)4 (*)2
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G11624  4-O-Methylglucuronoarabinoxylran
+DBLINKS     GlyTouCan: G88298AZ
+NODE        8
+            1   *          20     3
+            2   Xyl        12     3
+            3   Xyl         4     3
+            4   LAraf      -2    -2
+            5   Xyl        -4     3
+            6   GlcA4Me   -12    -2
+            7   Xyl       -13     3
+            8   *         -21     3
+EDGE        7
+            1     2:b1    1    
+            2     3:b1    2:4  
+            3     4:a1    3:3  
+            4     5:b1    3:4  
+            5     6:a1    5:2  
+            6     7:b1    5:4  
+            7     8       7:4  
+BRACKET     1 -17.0   6.0 -17.0  -4.0
+            1  16.0  -4.0  16.0   6.0
+            1 n
+///

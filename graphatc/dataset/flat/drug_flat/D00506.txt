@@ -1,0 +1,157 @@
+ENTRY       D00506                      Drug
+NAME        Phenobarbital (JP18/USP/INN);
+            Luminal (TN)
+FORMULA     C12H12N2O3
+EXACT_MASS  232.0848
+MOL_WEIGHT  232.2353
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG03199  Antiepileptic agent
+              DG01904  Barbiturate antiepileptic
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+             DG02891  CYP2B6 inducer
+             DG02886  CYP2C9 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      Same as: C07434
+            Therapeutic category: 1125 1134
+            ATC code: N03AA02
+            Chemical structure group: DG00845
+            Product (DG00845): D00506<JP> D00701<JP/US>
+            Product (mixture): D04059<JP> D07583<JP>
+EFFICACY    Antianxiety, Anticonvulsant, Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]; CYP1A2 [HSA:1544], CYP2B6 [HSA:1555], CYP2C9 [HSA:1559]
+STR_MAP     map07032  Hypnotics
+            map07033  Anticonvulsants
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AA Barbiturates and derivatives
+                 N03AA02 Phenobarbital
+                  D00506  Phenobarbital (JP18/USP/INN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Gamma-aminobutyric Acid (GABA) Augmenting Agents
+               Barbituates
+                Phenobarbital
+                 D00506  Phenobarbital (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1125  Barbiturates and thiobarbiturates
+                 D00506  Phenobarbital (JP18/USP/INN)
+               113  Antiepileptics
+                1134  Barbiturates
+                 D00506  Phenobarbital (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               DG00845  Phenobarbital
+                D00506  Phenobarbital
+              DG03199  Antiepileptic agent
+               DG01904  Barbiturate antiepileptic
+                DG00845  Phenobarbital
+                 D00506  Phenobarbital
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00845  Phenobarbital
+                D00506  Phenobarbital
+              DG02891  CYP2B6 inducer
+               DG00845  Phenobarbital
+                D00506  Phenobarbital
+              DG02886  CYP2C9 inducer
+               DG00845  Phenobarbital
+                D00506  Phenobarbital
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00845  Phenobarbital
+                D00506  Phenobarbital
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D00506  Phenobarbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00506  Phenobarbital (JP18/USP/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00506  Phenobarbital
+              D00506  Phenobarbital tablets
+              D00506  10% Phenobarbital powder
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00506
+            Prodrugs [br08324.html]
+             D00506
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Control Act Article 2 Table 31 (10 substances)
+              D00506
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               DG00845  Phenobarbital
+              DG03199  Antiepileptic agent
+               DG01904  Barbiturate antiepileptic
+                DG00845  Phenobarbital
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00845  Phenobarbital
+              DG02891  CYP2B6 inducer
+               DG00845  Phenobarbital
+              DG02886  CYP2C9 inducer
+               DG00845  Phenobarbital
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00845  Phenobarbital
+DBLINKS     CAS: 50-06-6
+            PubChem: 7847572
+            ChEBI: 8069
+            PDB-CCD: UQA
+            LigandBox: D00506
+            NIKKAJI: J4.499G
+ATOM        17
+            1   C1z C    24.5688  -19.5768
+            2   C8y C    25.7739  -18.8690
+            3   C5x C    23.3288  -18.8924
+            4   C5x C    24.5688  -20.9807
+            5   C1b C    25.7679  -20.2728
+            6   C8x C    26.9847  -19.5534
+            7   C8x C    25.7562  -17.4653
+            8   N1x N    22.1238  -19.5768
+            9   O5x O    23.3288  -17.4770
+            10  N1x N    23.3288  -21.6826
+            11  O5x O    25.7621  -21.6826
+            12  C1a C    27.1718  -20.2728
+            13  C8x C    28.1895  -18.8457
+            14  C8x C    26.9612  -16.7574
+            15  C5x C    22.1238  -20.9807
+            16  C8x C    28.1778  -17.4476
+            17  O5x O    20.9130  -21.6766
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 2
+            11    5  12 1
+            12    6  13 1
+            13    7  14 2
+            14    8  15 1
+            15   13  16 2
+            16   15  17 2
+            17   10  15 1
+            18   14  16 1
+///

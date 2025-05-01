@@ -1,0 +1,113 @@
+ENTRY       D04208                      Drug
+NAME        Flumethasone (USAN);
+            Flumetasone (INN)
+FORMULA     C22H28F2O5
+EXACT_MASS  410.1905
+MOL_WEIGHT  410.4515
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      Same as: C14479
+            ATC code: D07AB03 D07XB01
+            Chemical structure group: DG00412
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AB Corticosteroids, moderately potent (group II)
+                 D07AB03 Flumetasone
+                  D04208  Flumethasone (USAN)
+               D07X CORTICOSTEROIDS, OTHER COMBINATIONS
+                D07XB Corticosteroids, moderately potent, other combinations
+                 D07XB01 Flumetasone
+                  D04208  Flumethasone (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00412  Flumetasone
+                 D04208  Flumethasone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D04208  Flumethasone (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00412  Flumetasone
+DBLINKS     CAS: 2135-17-3
+            PubChem: 47206154
+            ChEBI: 34764
+            LigandBox: D04208
+            NIKKAJI: J7.332F
+ATOM        29
+            1   C2x C    19.6700  -29.2600
+            2   C5x C    19.6700  -30.6600
+            3   C2x C    20.8600  -31.2900
+            4   C2y C    22.0500  -30.6600
+            5   C1z C    22.0500  -29.2600
+            6   C2x C    20.8600  -28.6300
+            7   C1y C    23.1700  -31.2900
+            8   C1x C    24.3600  -30.6600
+            9   C1y C    24.3600  -29.2600
+            10  C1z C    23.1700  -28.6300
+            11  C1y C    25.5500  -28.6300
+            12  C1z C    25.5500  -27.2300
+            13  C1x C    24.3600  -26.6000
+            14  C1y C    23.1700  -27.2300
+            15  C1x C    27.9300  -28.6300
+            16  C1y C    27.9300  -27.2300
+            17  C1z C    26.7400  -26.6000
+            18  C1a C    22.0500  -27.9300
+            19  O1a O    22.0500  -26.6000
+            20  C1a C    25.5500  -25.9000
+            21  C1a C    29.0500  -26.6000
+            22  C5a C    26.7400  -24.8500
+            23  X   F    23.1700  -29.9600
+            24  O1a O    27.9300  -25.6900
+            25  O5x O    18.4800  -31.2900
+            26  O5a O    27.9300  -24.2200
+            27  C1b C    25.5500  -24.2200
+            28  O1a O    24.4300  -24.8500
+            29  X   F    23.1522  -32.6899
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    5  18 1 #Up
+            22   14  19 1 #Up
+            23   12  20 1 #Up
+            24   16  21 1 #Down
+            25   17  22 1 #Up
+            26   10  23 1 #Down
+            27   17  24 1 #Down
+            28    2  25 2
+            29   22  26 2
+            30   22  27 1
+            31   27  28 1
+            32    7  29 1 #Down
+///

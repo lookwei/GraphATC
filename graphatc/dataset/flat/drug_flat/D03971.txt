@@ -1,0 +1,91 @@
+ENTRY       D03971                      Drug
+NAME        Elarofiban (USAN)
+FORMULA     C22H32N4O4. H2O
+EXACT_MASS  434.2529
+MOL_WEIGHT  434.5292
+CLASS       Blood modifier agent
+             DG01811  Fibrinogen receptor antagonist
+EFFICACY    Platelet aggregation inhibitor, Glycoprotein IIb/IIIa receptor antagonist
+COMMENT     Treatment of thrombotic disorders
+TARGET      ITGA2B/ITGB3 [HSA:3674 3690] [KO:K06476 K06493]
+  PATHWAY   hsa04611(3674+3690)  Platelet activation
+            hsa04640(3674+3690)  Hematopoietic cell lineage
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01811  Fibrinogen receptor antagonist
+               D03971  Elarofiban
+            Target-based classification of drugs [BR:br08310]
+             Cell surface molecules and ligands
+              Cell adhesion molecules: other families
+               Integrins
+                ITGA2B/ITGB3
+                 D03971  Elarofiban (USAN)
+DBLINKS     CAS: 221005-96-5
+            PubChem: 47205956
+            LigandBox: D03971
+ATOM        31
+            1   C1x C     9.8000  -16.2400
+            2   N1x N     9.8000  -17.6400
+            3   C1x C    11.0124  -18.3400
+            4   C1x C    12.2249  -17.6400
+            5   C1y C    12.2249  -16.2400
+            6   C1x C    11.0124  -15.5400
+            7   C1b C    13.4560  -15.5290
+            8   C1b C    14.6612  -16.2247
+            9   C5a C    15.8435  -15.5419
+            10  N1y N    17.0375  -16.2312
+            11  O5a O    15.8435  -14.1402
+            12  C1x C    17.0376  -17.6397
+            13  C1x C    18.2501  -18.3396
+            14  C1x C    19.4625  -17.6395
+            15  C1y C    19.4623  -16.2309
+            16  C1x C    18.2498  -15.5311
+            17  C5a C    20.6690  -15.5341
+            18  N1b N    21.8697  -16.2273
+            19  O5a O    20.6689  -14.1401
+            20  C1c C    23.0543  -15.5433
+            21  C1b C    24.2470  -16.2320
+            22  C6a C    25.4357  -15.5457
+            23  C8y C    23.0544  -14.1402
+            24  C8x C    24.2485  -13.4506
+            25  N5x N    24.2484  -12.0506
+            26  C8x C    23.0359  -11.3507
+            27  C8x C    21.8417  -12.0403
+            28  C8x C    21.8419  -13.4403
+            29  O6a O    26.6263  -16.2332
+            30  O6a O    25.4358  -14.1402
+            31  O0  O    24.2900  -19.0400
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   10  16 1
+            18   15  17 1 #Down
+            19   17  18 1
+            20   17  19 2
+            21   18  20 1
+            22   20  21 1
+            23   21  22 1
+            24   20  23 1 #Down
+            25   23  24 2
+            26   24  25 1
+            27   25  26 2
+            28   26  27 1
+            29   27  28 2
+            30   23  28 1
+            31   22  29 1
+            32   22  30 2
+///

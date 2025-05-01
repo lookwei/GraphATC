@@ -1,0 +1,80 @@
+ENTRY       D03447                      Drug
+NAME        Cetaben sodium (USAN)
+FORMULA     C23H38NO2. Na
+EXACT_MASS  383.28
+MOL_WEIGHT  383.5431
+EFFICACY    Antidyslipidemia (hyperlipoproteinemic), Cholesterol acyltransferase (ACAT) inhibitor
+TARGET      SOAT [HSA:6646 8435] [KO:K00637]
+  PATHWAY   hsa00100(6646+8435)  Steroid biosynthesis
+            hsa04979(6646+8435)  Cholesterol metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Acyltransferases
+                SOAT
+                 D03447  Cetaben sodium (USAN)
+DBLINKS     CAS: 64059-66-1
+            PubChem: 17397587
+            LigandBox: D03447
+            NIKKAJI: J19.291K
+ATOM        27
+            1   C8y C    35.8974  -15.9898
+            2   C8x C    35.8974  -14.5874
+            3   C8x C    34.7053  -13.8862
+            4   C8y C    33.4431  -14.5874
+            5   C8x C    33.4431  -15.9898
+            6   C8x C    34.7053  -16.6910
+            7   C6a C    37.0895  -16.6910
+            8   O6a O    38.2816  -15.9898 #-
+            9   O6a O    37.0895  -18.0935
+            10  N1b N    32.2510  -13.8862
+            11  C1b C    31.0590  -14.5874
+            12  C1b C    29.8387  -13.8961
+            13  C1b C    28.6524  -14.5874
+            14  C1a C    27.4377  -13.8862
+            15  Z   Na   39.9730  -16.0313 #+
+            16  C1b C    31.0590  -14.5874
+            17  C1b C    29.8387  -13.8961
+            18  C1b C    31.0590  -14.5874
+            19  C1b C    29.8387  -13.8961
+            20  C1b C    31.0590  -14.5874
+            21  C1b C    29.8387  -13.8961
+            22  C1b C    31.0590  -14.5874
+            23  C1b C    29.8387  -13.8961
+            24  C1b C    31.0590  -14.5874
+            25  C1b C    29.8387  -13.8961
+            26  C1b C    31.0590  -14.5874
+            27  C1b C    29.8387  -13.8961
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     7   9 2
+            10    4  10 1
+            11   13  14 1
+            12   10  11 1
+            13   11  12 1
+            14   12  16 1
+            15   16  17 1
+            16   17  18 1
+            17   18  19 1
+            18   19  20 1
+            19   20  21 1
+            20   21  22 1
+            21   22  23 1
+            22   23  24 1
+            23   24  25 1
+            24   25  26 1
+            25   26  27 1
+            26   27  13 1
+BRACKET     1    29.5400  -15.5400   29.5400  -13.3700
+            1    31.2200  -13.3700   31.2200  -15.5400
+            1  7
+  ORIGINAL  1   11  12
+  REPEAT    1   16  17  18  19  20  21  22  23  24  25  26  27
+///

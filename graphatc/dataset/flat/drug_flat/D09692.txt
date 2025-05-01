@@ -1,0 +1,76 @@
+ENTRY       D09692                      Drug
+NAME        Veliparib (JAN/USAN/INN)
+FORMULA     C13H16N4O
+EXACT_MASS  244.1324
+MOL_WEIGHT  244.2923
+CLASS       Antineoplastic
+             DG02942  PARP inhibitor
+REMARK      ATC code: L01XK05
+EFFICACY    Antineoplastic (enhancer), PARP inhibitor
+TARGET      PARP [HSA:142 10038 10039 143] [KO:K24070 K10798]
+  PATHWAY   hsa04210(10038+10039+142+143)  Apoptosis
+            hsa04217(10038+10039+142+143)  Necroptosis
+OTHER_MAP   map04212  Longevity regulating pathway - worm
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XK Poly (ADP-ribose) polymerase (PARP) inhibitors
+                 L01XK05 Veliparib
+                  D09692  Veliparib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02942  PARP inhibitor
+               D09692  Veliparib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                PARP
+                 D09692  Veliparib (JAN/USAN/INN)
+DBLINKS     CAS: 912444-00-9
+            PubChem: 124490432
+            ChEBI: 62880
+            PDB-CCD: 78P
+            LigandBox: D09692
+ATOM        18
+            1   C8x C    19.6153  -26.2758
+            2   C8x C    19.6153  -27.6772
+            3   C8x C    20.8290  -28.3780
+            4   C8y C    22.0428  -27.6772
+            5   C8y C    22.0428  -26.2758
+            6   C8y C    20.8290  -25.5750
+            7   N4x N    23.3757  -28.1103
+            8   C8y C    24.1994  -26.9765
+            9   N5x N    23.3757  -25.8427
+            10  C1z C    25.5716  -26.9765
+            11  N1x N    26.3953  -28.1103
+            12  C1x C    27.7282  -27.6772
+            13  C1x C    27.7282  -26.2758
+            14  C1x C    26.3953  -25.8427
+            15  C5a C    20.8290  -24.1738
+            16  O5a O    19.5985  -23.4631
+            17  N1a N    22.0258  -23.4826
+            18  C1a C    24.8708  -25.7628
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11   10   8 1 #Up
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    6  15 1
+            18   15  16 2
+            19   15  17 1
+            20   10  18 1 #Down
+///

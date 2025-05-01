@@ -1,0 +1,140 @@
+ENTRY       D07887                      Drug
+NAME        Eletriptan (INN)
+FORMULA     C22H26N2O2S
+EXACT_MASS  382.1715
+MOL_WEIGHT  382.519
+CLASS       Analgesic
+             DG01484  5-HT1B-receptor agonist
+             DG01485  5-HT1D-receptor agonist
+             DG01518  5-HT1B/1D-receptor agonist
+             DG01943  Triptan
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N02CC06
+            Chemical structure group: DG00840
+            Product (DG00840): D01973<JP/US> D11617<US>
+EFFICACY    Antimigraine, Vasoconstrictor, Serotonin receptor agonist
+COMMENT     Sumatriptan derivative
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CC Selective serotonin (5HT1) agonists
+                 N02CC06 Eletriptan
+                  D07887  Eletriptan (INN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00840  Eletriptan
+                D07887  Eletriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00840  Eletriptan
+                D07887  Eletriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00840  Eletriptan
+                D07887  Eletriptan
+              DG01943  Triptan
+               DG00840  Eletriptan
+                D07887  Eletriptan
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00840  Eletriptan
+                 D07887  Eletriptan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D07887  Eletriptan (INN)
+                HTR1D
+                 D07887  Eletriptan (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07887
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00840  Eletriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00840  Eletriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00840  Eletriptan
+              DG01943  Triptan
+               DG00840  Eletriptan
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00840  Eletriptan
+DBLINKS     CAS: 143322-58-1
+            PubChem: 96024583
+            ChEBI: 50922
+            LigandBox: D07887
+ATOM        27
+            1   C1y C    29.1900  -16.6600
+            2   N1y N    29.1900  -15.2600
+            3   C1a C    27.9300  -14.5600
+            4   C1x C    30.5200  -17.0800
+            5   C1x C    31.2900  -15.9600
+            6   C1x C    30.5200  -14.8400
+            7   C8x C    24.1500  -20.5800
+            8   C8y C    24.1500  -19.1800
+            9   C8x C    25.4100  -18.4800
+            10  C8y C    26.6000  -19.1800
+            11  C8y C    26.6000  -20.5800
+            12  C8x C    25.4100  -21.2800
+            13  C8y C    27.9300  -18.7600
+            14  C8x C    28.7700  -19.8800
+            15  N4x N    27.9300  -21.0000
+            16  C1b C    22.9600  -18.4800
+            17  C1b C    21.7700  -19.1800
+            18  S4a S    20.5800  -18.4800
+            19  C8y C    19.3200  -19.1800
+            20  C8x C    19.3200  -20.5800
+            21  C8x C    18.1300  -21.2800
+            22  C8x C    16.9400  -20.5800
+            23  C8x C    16.9400  -19.1800
+            24  C8x C    18.1300  -18.4800
+            25  C1b C    27.9300  -17.3600
+            26  O3c O    21.5600  -17.5000
+            27  O3c O    19.6000  -17.5000
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     1   4 1
+            4     4   5 1
+            5     5   6 1
+            6     2   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12    7  12 1
+            13   10  13 1
+            14   13  14 2
+            15   14  15 1
+            16   11  15 1
+            17    8  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   13  25 1
+            28    1  25 1 #Down
+            29   18  26 2
+            30   18  27 2
+///

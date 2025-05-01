@@ -1,0 +1,61 @@
+ENTRY       D10246            Mixture   Drug
+NAME        Omeprazole, clarithromycin and amoxicillin;
+            Omeclamox-pak (TN)
+PRODUCT     OMECLAMOX-PAK (Cumberland Pharmaceuticals)
+COMPONENT   Omeprazole [DR:D00455], Clarithromycin [DR:D00276], (Amoxicillin hydrate [DR:D00229] | Amoxicillin [DR:D07452])
+CLASS       Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      ATC code: A02BD05
+            Product: D10246<US>
+EFFICACY    Antibacterial
+  DISEASE   Helicobacter pylori infection [DS:H00320]
+COMMENT     Omeprazole is metabolized by CYP2C19 with some contribution from CYP3A4.
+            Clarithromycin is an inhibitor and a substrate of CYP3A4, and it is an inhibitor of P-gp.
+METABOLISM  Enzyme: CYP2C19 [HSA:1557], CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BD Combinations for eradication of Helicobacter pylori
+                 A02BD05 Omeprazole, amoxicillin and clarithromycin
+                  D10246  Omeprazole, clarithromycin and amoxicillin &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Gastrointestinal Agents, Other
+               Omeprazole/ Clarithromycin/ Amoxicillin
+                D10246  Omeprazole, clarithromycin and amoxicillin
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D10246  Omeprazole, clarithromycin and amoxicillin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10246  Omeprazole, clarithromycin and amoxicillin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                D10246  Omeprazole, clarithromycin and amoxicillin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10246  Omeprazole, clarithromycin and amoxicillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D10246  Omeprazole, clarithromycin and amoxicillin &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10246
+             Drug transporters
+              D10246
+DBLINKS     PubChem: 163312277
+///

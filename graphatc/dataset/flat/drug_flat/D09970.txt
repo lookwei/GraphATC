@@ -1,0 +1,129 @@
+ENTRY       D09970                      Drug
+NAME        Tofacitinib (USAN);
+            Tasocitinib
+FORMULA     C16H20N6O
+EXACT_MASS  312.1699
+MOL_WEIGHT  312.3696
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L04AA29
+            Chemical structure group: DG00742
+            Product (DG00742): D09783<JP/US>
+EFFICACY    Antirheumatic, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of immunological disorders
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+            JAK2 [HSA:3717] [KO:K04447]
+            JAK3 [HSA:3718] [KO:K11218]
+            TYK2 [HSA:7297] [KO:K11219]
+  PATHWAY   hsa04062(3717+3718)  Chemokine signaling pathway
+            hsa04630(3716+3717+3718+7297)  JAK-STAT signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2C19 [HSA:1557]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA29 Tofacitinib
+                  D09970  Tofacitinib (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG00742  Tofacitinib
+                 D09970  Tofacitinib
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00742  Tofacitinib
+                D09970  Tofacitinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00742  Tofacitinib
+                 D09970  Tofacitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D09970  Tofacitinib (USAN)
+                JAK2
+                 D09970  Tofacitinib (USAN)
+                JAK3
+                 D09970  Tofacitinib (USAN)
+                TYK2
+                 D09970  Tofacitinib (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09970
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG00742  Tofacitinib
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00742  Tofacitinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00742  Tofacitinib
+DBLINKS     CAS: 477600-75-2
+            PubChem: 135626691
+            ChEBI: 71200
+            PDB-CCD: MI1
+            LigandBox: D09970
+ATOM        23
+            1   C1x C    28.9800  -24.6400
+            2   N1y N    28.9800  -26.0400
+            3   C1x C    30.2400  -26.7400
+            4   C1y C    31.4300  -26.0400
+            5   C1y C    31.4300  -24.6400
+            6   C1x C    30.2400  -23.9400
+            7   C5a C    27.7900  -26.7400
+            8   C1b C    26.6000  -26.0400
+            9   C3b C    25.4100  -26.7400
+            10  O5a O    27.7900  -28.1400
+            11  N3a N    24.2200  -27.4400
+            12  C1a C    32.6900  -23.9400
+            13  N1c N    32.6900  -26.8100
+            14  C1a C    33.8800  -26.1100
+            15  C8y C    32.6900  -28.1400
+            16  N5x N    31.4300  -28.8400
+            17  C8x C    31.4300  -30.3100
+            18  N5x N    32.6900  -31.0100
+            19  C8y C    33.8800  -30.2400
+            20  C8y C    33.8800  -28.8400
+            21  N4x N    35.2100  -30.7300
+            22  C8x C    36.0500  -29.5400
+            23  C8x C    35.2100  -28.4200
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    7  10 2
+            11    9  11 3
+            12    5  12 1 #Up
+            13    4  13 1 #Up
+            14   13  14 1
+            15   13  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22   19  21 1
+            23   21  22 1
+            24   22  23 2
+            25   20  23 1
+///

@@ -1,0 +1,44 @@
+ENTRY       C01684                      Compound
+NAME        D-Rhamnose;
+            6-Deoxy-D-mannose;
+            D-Mannomethylose
+FORMULA     C6H12O5
+EXACT_MASS  164.0685
+MOL_WEIGHT  164.1565
+PATHWAY     map02010  ABC transporters
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Deoxy sugars
+                C01684  D-Rhamnose
+DBLINKS     CAS: 634-74-2
+            PubChem: 4826
+            ChEBI: 28029 63152
+            PDB-CCD: XXR
+            3DMET: B01478
+            NIKKAJI: J253.373A
+ATOM        11
+            1   C1y C    22.1137  -16.8955
+            2   C1y C    20.9038  -16.1940
+            3   C1y C    23.3362  -16.1940
+            4   O1a O    22.1137  -18.2920
+            5   C1y C    20.9038  -14.7977
+            6   O1a O    19.7002  -16.8955
+            7   C1y C    23.3362  -14.7977
+            8   O1a O    24.5527  -16.8955
+            9   O2x O    22.1137  -14.0961
+            10  C1a C    19.7002  -14.0961
+            11  O1a O    24.5527  -14.0961
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Up
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Down
+            11    7   9 1
+///

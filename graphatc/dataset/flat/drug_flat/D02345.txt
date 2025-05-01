@@ -1,0 +1,121 @@
+ENTRY       D02345                      Drug
+NAME        Cefoxitin (USAN/INN)
+FORMULA     C16H17N3O7S2
+EXACT_MASS  427.0508
+MOL_WEIGHT  427.4521
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01775  Second-generation cephalosporin
+REMARK      Same as: C06887
+            ATC code: J01DC01
+            Chemical structure group: DG00557
+            Product (DG00557): D00913<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07012  Cephalosporins - parenteral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DC Second-generation cephalosporins
+                 J01DC01 Cefoxitin
+                  D02345  Cefoxitin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00557  Cefoxitin
+                  D02345  Cefoxitin
+              DG01775  Second-generation cephalosporin
+               DG00557  Cefoxitin
+                D02345  Cefoxitin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                D02345  Cefoxitin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00557  Cefoxitin
+              DG01775  Second-generation cephalosporin
+               DG00557  Cefoxitin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                DG00557  Cefoxitin
+DBLINKS     CAS: 35607-66-0
+            PubChem: 7849404
+            ChEBI: 209807
+            PDB-CCD: CFX
+            LigandBox: D02345
+            NIKKAJI: J17.441F
+ATOM        28
+            1   C1y C    29.4154  -15.3449
+            2   N1y N    29.4154  -16.7127
+            3   C2y C    30.6000  -17.3964
+            4   C2y C    31.7845  -16.7127
+            5   C1x C    31.7845  -15.3449
+            6   S2x S    30.6000  -14.6611
+            7   C1z C    28.0476  -15.3449
+            8   C5x C    28.0476  -16.7127
+            9   N1b N    26.8633  -14.6611
+            10  C5a C    25.6788  -15.3449
+            11  O5a O    25.6788  -16.7127
+            12  O5x O    26.8633  -17.3964
+            13  C1b C    24.4943  -14.6611
+            14  C1b C    32.9871  -17.4074
+            15  C6a C    30.6000  -18.7640
+            16  O6a O    29.3990  -19.4575
+            17  O6a O    31.7678  -19.4383
+            18  O2a O    28.0476  -13.1561
+            19  C1a C    29.2296  -12.4736
+            20  O7a O    34.1771  -16.7209
+            21  C7a C    35.3803  -17.4162
+            22  N1a N    36.5643  -16.7333
+            23  O6a O    35.3800  -18.8297
+            24  C8y C    23.2996  -15.3504
+            25  S2x S    22.1731  -14.5147
+            26  C8x C    21.0322  -15.3260
+            27  C8x C    21.4512  -16.6618
+            28  C8x C    22.8511  -16.6761
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16    3  15 1
+            17   15  16 2
+            18   15  17 1
+            19    7  18 1 #Down
+            20   18  19 1
+            21   14  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+            25   13  24 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 2
+            29   27  28 1
+            30   24  28 2
+///

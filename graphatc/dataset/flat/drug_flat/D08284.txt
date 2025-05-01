@@ -1,0 +1,113 @@
+ENTRY       D08284                      Drug
+NAME        Norepinephrine hydrochoride;
+            (-)-Noradrenaline hydrochloride;
+            Arterenol (TN)
+FORMULA     C8H11NO3. HCl
+EXACT_MASS  205.0506
+MOL_WEIGHT  205.6388
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+            Metabolizing enzyme substrate
+             DG01592  COMT substrate
+             DG02917  MAO substrate
+REMARK      ATC code: C01CA03
+            Chemical structure group: DG00212
+            Product (DG00212): D00076<JP> D05206<US>
+EFFICACY    Antihypotensive, Vasoconstrictor, Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: COMT [HSA:1312], MAO [HSA:4128 4129]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA03 Norepinephrine
+                  D08284  Norepinephrine hydrochoride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00212  Norepinephrine
+                 D08284  Norepinephrine hydrochoride
+              DG01456  Adrenergic receptor agonist
+               DG00212  Norepinephrine
+                D08284  Norepinephrine hydrochoride
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00212  Norepinephrine
+                D08284  Norepinephrine hydrochoride
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00212  Norepinephrine
+                D08284  Norepinephrine hydrochoride
+              DG02917  MAO substrate
+               DG00212  Norepinephrine
+                D08284  Norepinephrine hydrochoride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08284  Norepinephrine hydrochoride
+                ADRA2
+                 D08284  Norepinephrine hydrochoride
+                ADRB
+                 D08284  Norepinephrine hydrochoride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08284
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00212  Norepinephrine
+              DG01456  Adrenergic receptor agonist
+               DG00212  Norepinephrine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00212  Norepinephrine
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00212  Norepinephrine
+              DG02917  MAO substrate
+               DG00212  Norepinephrine
+DBLINKS     CAS: 329-56-6
+            PubChem: 96024971
+            LigandBox: D08284
+ATOM        13
+            1   C8y C    24.2200  -17.9200
+            2   C8x C    24.2200  -19.3200
+            3   C8x C    22.9600  -17.2200
+            4   C1c C    25.4100  -17.2200
+            5   C8x C    22.9600  -20.0200
+            6   C8y C    21.7700  -17.9200
+            7   C1b C    26.6000  -17.9200
+            8   O1a O    25.4100  -15.8200
+            9   C8y C    21.7700  -19.3200
+            10  N1a N    27.7900  -17.2200
+            11  O1a O    20.5800  -20.0200
+            12  O1a O    20.5800  -17.2200
+            13  X   Cl   30.3100  -19.5300
+BOND        12
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     4   8 1 #Up
+            8     5   9 2
+            9     7  10 1
+            10    9  11 1
+            11    6   9 1
+            12    6  12 1
+///

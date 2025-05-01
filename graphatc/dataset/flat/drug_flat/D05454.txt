@@ -1,0 +1,64 @@
+ENTRY       D05454                      Drug
+NAME        Phenmetrazine hydrochloride (USP);
+            Preludin (TN)
+FORMULA     C11H15NO. HCl
+EXACT_MASS  213.092
+MOL_WEIGHT  213.7038
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+EFFICACY    Appetite suppressant, Monoamine releaser
+TARGET      SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6531)  Synaptic vesicle cycle
+            hsa04728(6531)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                D05454  Phenmetrazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D05454  Phenmetrazine hydrochloride (USP)
+                SLC6A3 (DAT1)
+                 D05454  Phenmetrazine hydrochloride (USP)
+DBLINKS     CAS: 1707-14-8
+            PubChem: 47207123
+            ChEBI: 8068
+            LigandBox: D05454
+            NIKKAJI: J473.008I
+ATOM        14
+            1   X   Cl   19.3382  -23.5832
+            2   C8x C    10.3600  -22.8900
+            3   C8x C    10.3600  -24.2900
+            4   C8x C    11.5724  -24.9900
+            5   C8x C    12.7849  -24.2900
+            6   C8y C    12.7849  -22.8900
+            7   C8x C    11.5724  -22.1900
+            8   C1y C    14.0160  -22.1790
+            9   C1y C    15.2212  -22.8747
+            10  N1x N    16.4335  -22.1746
+            11  C1x C    16.4335  -20.7746
+            12  C1x C    15.2283  -20.0789
+            13  O2x O    14.0159  -20.7790
+            14  C1a C    15.2216  -24.2896
+BOND        14
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13    8  13 1
+            14    9  14 1
+///

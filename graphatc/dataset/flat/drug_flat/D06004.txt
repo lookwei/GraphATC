@@ -1,0 +1,72 @@
+ENTRY       D06004                      Drug
+NAME        Tandamine hydrochloride (USAN)
+FORMULA     C18H26N2S. HCl
+EXACT_MASS  338.1583
+MOL_WEIGHT  338.9384
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+EFFICACY    Antidepressant
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530)  Synaptic vesicle cycle
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               D06004  Tandamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D06004  Tandamine hydrochloride (USAN)
+DBLINKS     CAS: 58167-78-5
+            PubChem: 47207662
+            LigandBox: D06004
+ATOM        22
+            1   C8y C    29.4835  -18.3486
+            2   C8y C    30.8847  -18.3486
+            3   C8y C    31.3177  -17.0160
+            4   N4y N    30.1841  -16.1924
+            5   C8y C    29.0506  -17.0160
+            6   C8x C    27.6800  -16.7247
+            7   C8x C    26.7425  -17.7659
+            8   C8x C    27.1754  -19.0985
+            9   C8x C    28.5460  -19.3899
+            10  C1x C    31.8223  -19.3899
+            11  C1x C    33.1928  -19.0985
+            12  S2x S    33.6258  -17.7659
+            13  C1z C    32.6882  -16.7247
+            14  C1b C    30.1841  -14.7757
+            15  C1a C    28.9707  -14.0751
+            16  C1b C    34.0416  -16.3621
+            17  C1b C    35.2607  -17.0676
+            18  N1c N    36.4538  -16.3822
+            19  C1a C    37.6584  -17.0812
+            20  C1a C    36.4567  -14.9976
+            21  C1a C    32.6882  -15.3247
+            22  X   Cl   37.0495  -19.4002
+BOND        23
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     5   6 2
+            7     6   7 1
+            8     7   8 2
+            9     8   9 1
+            10    1   9 2
+            11    2  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15    3  13 1
+            16    4  14 1
+            17   14  15 1
+            18   13  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   18  20 1
+            23   13  21 1
+///

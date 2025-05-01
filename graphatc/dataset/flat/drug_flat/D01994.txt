@@ -1,0 +1,168 @@
+ENTRY       D01994                      Drug
+NAME        Mosapride citrate hydrate (JP18);
+            Mosapride citrate dihydrate;
+            Gasmotin (TN)
+FORMULA     C21H25ClFN3O3. C6H8O7. 2H2O
+EXACT_MASS  649.205
+MOL_WEIGHT  650.047
+CLASS       Gastrointestinal agent
+             DG01763  Propulsive
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C13494
+            Therapeutic category: 2399
+            ATC code: A03FA09
+            Chemical structure group: DG01285
+            Product (DG01285): D01994<JP>
+EFFICACY    Prokinetic, Serotonin receptor agonist
+TARGET      HTR4 [HSA:3360] [KO:K04160]
+  PATHWAY   hsa04080(3360)  Neuroactive ligand-receptor interaction
+            hsa04726(3360)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03F PROPULSIVES
+                A03FA Propulsives
+                 A03FA09 Mosapride
+                  D01994  Mosapride citrate hydrate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              23  Digestive organ agents
+               239  Miscellaneous
+                2399  Others
+                 D01994  Mosapride citrate hydrate (JP18)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG01285  Mosapride
+                D01994  Mosapride citrate hydrate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01285  Mosapride
+                 D01994  Mosapride citrate hydrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR4
+                 D01994  Mosapride citrate hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01994  Mosapride citrate hydrate
+              D01994  Mosapride citrate tablets
+              D01994  Mosapride citrate powder
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01994
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG01285  Mosapride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01285  Mosapride
+DBLINKS     CAS: 636582-62-2
+            PubChem: 7849056
+            ChEBI: 31867
+            LigandBox: D01994
+ATOM        44
+            1   C1d C    22.8158  -18.4544
+            2   C1b C    21.6014  -19.1548
+            3   C1b C    24.0300  -19.1548
+            4   C6a C    23.5163  -17.2400
+            5   O1a O    22.1152  -17.2400
+            6   C6a C    20.3871  -18.5010
+            7   C6a C    24.0300  -20.5560
+            8   O6a O    22.8158  -16.0258
+            9   O6a O    24.9173  -17.2400
+            10  O6a O    19.1729  -19.2016
+            11  O6a O    20.3871  -17.1000
+            12  O6a O    25.2443  -21.2565
+            13  O6a O    22.8158  -21.2565
+            14  O0  O    14.7000  -18.8300
+            15  C8y C    10.7100  -13.1600
+            16  C8y C    10.7100  -11.7600
+            17  C8x C    11.9700  -11.0600
+            18  C8y C    13.1600  -11.7600
+            19  C8y C    13.1600  -13.1600
+            20  C8x C    11.9700  -13.8600
+            21  C5a C    14.3500  -13.8600
+            22  N1b N    15.6100  -13.1600
+            23  C1b C    16.8000  -13.8600
+            24  C1y C    17.9900  -13.1600
+            25  O2x O    17.9900  -11.7600
+            26  C1x C    19.2500  -11.0600
+            27  C1x C    20.4400  -11.7600
+            28  N1y N    20.4400  -13.1600
+            29  C1x C    19.2500  -13.8600
+            30  O2a O    14.3500  -11.0600
+            31  C1b C    15.6100  -11.7600
+            32  C1a C    16.8000  -11.0600
+            33  X   Cl    9.5200  -13.8600
+            34  N1a N     9.5200  -11.0600
+            35  O5a O    14.3500  -15.2600
+            36  C1b C    21.6300  -13.8600
+            37  C8y C    22.8900  -13.1600
+            38  C8x C    22.8900  -11.7600
+            39  C8x C    24.0800  -11.0600
+            40  C8y C    25.2700  -11.7600
+            41  C8x C    25.2700  -13.1600
+            42  C8x C    24.0800  -13.8600
+            43  X   F    26.5300  -11.0600
+            44  O0  O    14.7000  -18.8300
+BOND        43
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     6  10 1
+            10    6  11 2
+            11    7  12 1
+            12    7  13 2
+            13   15  16 2
+            14   16  17 1
+            15   17  18 2
+            16   18  19 1
+            17   19  20 2
+            18   15  20 1
+            19   19  21 1
+            20   21  22 1
+            21   22  23 1
+            22   23  24 1
+            23   24  25 1
+            24   25  26 1
+            25   26  27 1
+            26   27  28 1
+            27   28  29 1
+            28   24  29 1
+            29   18  30 1
+            30   30  31 1
+            31   31  32 1
+            32   15  33 1
+            33   16  34 1
+            34   21  35 2
+            35   28  36 1
+            36   36  37 1
+            37   37  38 2
+            38   38  39 1
+            39   39  40 2
+            40   40  41 1
+            41   41  42 2
+            42   37  42 1
+            43   40  43 1
+BRACKET     1    12.3200  -19.8800   12.3200  -17.8500
+            1    15.4700  -17.8500   15.4700  -19.8800
+            1  2
+  ORIGINAL  1   14
+  REPEAT    1   44
+///

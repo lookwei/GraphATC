@@ -1,0 +1,145 @@
+ENTRY       D01447                      Drug
+NAME        Thioproperazine mesilate (JAN);
+            Thioproperazine mesylate
+FORMULA     C22H30N4O2S2. (CH4SO3)2
+EXACT_MASS  638.1572
+MOL_WEIGHT  638.8405
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      ATC code: N05AB08
+            Chemical structure group: DG00879
+EFFICACY    Antipsychotic, Neuroleptic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AB Phenothiazines with piperazine structure
+                 N05AB08 Thioproperazine
+                  D01447  Thioproperazine mesilate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00879  Thioproperazine
+                 D01447  Thioproperazine mesilate
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00879  Thioproperazine
+                 D01447  Thioproperazine mesilate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D01447  Thioproperazine mesilate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00879  Thioproperazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00879  Thioproperazine
+DBLINKS     CAS: 2347-80-0
+            PubChem: 7848510
+            ChEBI: 32218
+            LigandBox: D01447
+            NIKKAJI: J561.942D
+ATOM        40
+            1   S2x S    15.9131  -20.7714
+            2   N1y N    15.9131  -17.9714
+            3   C8y C    17.1213  -18.6715
+            4   C8y C    17.1154  -20.0715
+            5   C8x C    18.3248  -20.7765
+            6   C8x C    19.5402  -20.0818
+            7   C8y C    19.5463  -18.6819
+            8   C8x C    18.3369  -17.9768
+            9   C8y C    14.6978  -20.0715
+            10  C8y C    14.6978  -18.6715
+            11  C8x C    13.4856  -17.9714
+            12  C8x C    12.2732  -18.6715
+            13  C8x C    12.2732  -20.0715
+            14  C8x C    13.4856  -20.7714
+            15  C1b C    15.9150  -16.5715
+            16  C1b C    17.1283  -15.8731
+            17  C1b C    17.1300  -14.4024
+            18  N1y N    18.3434  -13.7040
+            19  C1x C    19.5497  -14.4077
+            20  C1x C    20.7630  -13.7094
+            21  N1y N    20.7646  -12.3094
+            22  C1x C    19.5532  -11.6079
+            23  C1x C    18.3400  -12.3064
+            24  C1a C    21.9779  -11.6110
+            25  S4a S    20.7572  -17.9898
+            26  N1c N    21.9668  -18.6953
+            27  O1d O    21.7265  -17.0271
+            28  O1d O    19.7645  -17.0271
+            29  C1a C    23.1945  -17.9936
+            30  C1a C    21.9607  -20.0899
+            31  S4a S    30.1825  -18.0986
+            32  O1d O    30.1896  -16.6986
+            33  O1d O    30.1896  -19.4985
+            34  C1a C    28.7825  -18.0986
+            35  O1d O    31.5824  -18.0986
+            36  S4a S    30.1825  -18.0986
+            37  O1d O    30.1896  -16.6986
+            38  O1d O    30.1896  -19.4985
+            39  C1a C    28.7825  -18.0986
+            40  O1d O    31.5824  -18.0986
+BOND        41
+            1    17  18 1
+            2     6   7 1
+            3     7   8 2
+            4     8   3 1
+            5     2  10 1
+            6    18  19 1
+            7    19  20 1
+            8    20  21 1
+            9    21  22 1
+            10   22  23 1
+            11   23  18 1
+            12   21  24 1
+            13    9   1 1
+            14    1   4 1
+            15    9  10 2
+            16   10  11 1
+            17   11  12 2
+            18   12  13 1
+            19   13  14 2
+            20   14   9 1
+            21    3   2 1
+            22    2  15 1
+            23    3   4 2
+            24   15  16 1
+            25    4   5 1
+            26   16  17 1
+            27    5   6 2
+            28    7  25 1
+            29   25  26 1
+            30   25  27 2
+            31   25  28 2
+            32   26  29 1
+            33   26  30 1
+            34   31  32 2
+            35   31  33 2
+            36   31  34 1
+            37   31  35 1
+            38   36  37 2
+            39   36  38 2
+            40   36  39 1
+            41   36  40 1
+BRACKET     1    26.7400  -20.0200   26.7400  -15.3300
+            1    32.9700  -15.3300   32.9700  -20.0200
+            1  2
+  ORIGINAL  1   31  32  33  34  35
+  REPEAT    1   36  37  38  39  40
+///

@@ -1,0 +1,110 @@
+ENTRY       D06064                      Drug
+NAME        Temocillin (USAN)
+FORMULA     C16H18N2O7S2
+EXACT_MASS  414.0555
+MOL_WEIGHT  414.4533
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      ATC code: J01CA17
+            Chemical structure group: DG00531
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA17 Temocillin
+                  D06064  Temocillin (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00531  Temocillin
+                  D06064  Temocillin
+              DG01780  Extended spectrum penicillin
+               DG00531  Temocillin
+                D06064  Temocillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D06064  Temocillin (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00531  Temocillin
+              DG01780  Extended spectrum penicillin
+               DG00531  Temocillin
+DBLINKS     CAS: 66148-78-5
+            PubChem: 47207722
+            ChEBI: 51817
+            LigandBox: D06064
+            NIKKAJI: J21.367E
+ATOM        27
+            1   C1z C    36.8364   -6.6394
+            2   C5x C    36.8364   -8.0278
+            3   N1y N    38.2248   -8.0278
+            4   C1y C    38.2248   -6.6394
+            5   C1y C    39.5439   -8.4442
+            6   C1z C    40.3767   -7.3336
+            7   S2x S    39.5439   -6.2229
+            8   C1a C    41.3486   -8.3055
+            9   C1a C    41.3486   -6.3617
+            10  C6a C    40.0297   -9.8327
+            11  O6a O    41.4180   -9.8327
+            12  O6a O    39.1966  -10.9435
+            13  N1b N    35.6563   -5.9451
+            14  C5a C    34.4761   -6.6394
+            15  O5x O    35.6563   -8.7220
+            16  O5a O    34.4761   -8.0278
+            17  C1c C    33.2266   -5.9451
+            18  C6a C    32.0122   -6.6732
+            19  C8y C    33.2730   -4.5177
+            20  O6a O    30.7680   -5.9820
+            21  O6a O    31.9656   -8.0795
+            22  C8x C    34.4109   -3.6617
+            23  C8x C    33.9484   -2.3150
+            24  S2x S    32.5247   -2.3387
+            25  C8x C    32.1072   -3.7000
+            26  O2a O    36.8364   -4.8194
+            27  C1a C    38.0320   -4.1292
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1
+            21   18  20 1
+            22   18  21 2
+            23   19  22 1
+            24   22  23 2
+            25   23  24 1
+            26   24  25 1
+            27   19  25 2
+            28    1  26 1 #Down
+            29   26  27 1
+///

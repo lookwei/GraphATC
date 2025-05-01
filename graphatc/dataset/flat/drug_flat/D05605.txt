@@ -1,0 +1,91 @@
+ENTRY       D05605                      Drug
+NAME        Premafloxacin (USAN/INN)
+FORMULA     C21H26FN3O4
+EXACT_MASS  403.1907
+MOL_WEIGHT  403.4472
+CLASS       Antibacterial
+             DG01550  Quinolone
+              DG01549  Fluoroquinolone
+EFFICACY    Antibacterial (veterinary), Nucleic acid biosynthesis inhibitor
+COMMENT     Fluoroquinolones
+TARGET      DNA gyrase [KO:K02469 K02470]
+            topoisomerase IV [KO:K02621 K02622]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01550  Quinolone
+               DG01549  Fluoroquinolone
+                D05605  Premafloxacin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Nucleic acid synthesis inhibitor
+               Fluoroquinolone
+                D05605  Premafloxacin (USAN/INN)
+DBLINKS     CAS: 143383-65-7
+            PubChem: 47207268
+            ChEBI: 188832
+            LigandBox: D05605
+ATOM        29
+            1   C8y C    31.9571  -17.3194
+            2   C8y C    31.9571  -15.9173
+            3   C8x C    33.1488  -15.2163
+            4   C8y C    34.4107  -15.9173
+            5   C8y C    34.4107  -17.3194
+            6   C8y C    33.1488  -18.0204
+            7   C8y C    35.6024  -15.2163
+            8   C8y C    36.7941  -15.9173
+            9   C8x C    36.7941  -17.3194
+            10  N4y N    35.6024  -18.0204
+            11  C6a C    37.9859  -15.2163
+            12  O6a O    39.1776  -15.9173
+            13  O6a O    37.9859  -13.8143
+            14  O5x O    35.6024  -13.8143
+            15  X   F    30.6953  -15.2163
+            16  N1y N    30.6953  -18.0204
+            17  C1x C    30.3185  -19.3731
+            18  C1x C    28.8893  -19.4156
+            19  C1y C    28.3970  -18.1236
+            20  C1x C    29.4710  -17.2389
+            21  O2a O    33.1488  -19.4224
+            22  C1a C    31.9571  -20.1234
+            23  C1x C    34.9014  -20.5440
+            24  C1x C    36.3034  -20.5440
+            25  C1y C    35.6024  -19.3523
+            26  C1c C    27.1846  -17.4236
+            27  C1a C    25.9721  -18.1236
+            28  N1b N    27.1844  -16.0302
+            29  C1a C    25.9537  -15.3195
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 1
+            12    8  11 1
+            13   11  12 1
+            14   11  13 2
+            15    7  14 2
+            16    2  15 1
+            17    1  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   16  20 1
+            23    6  21 1
+            24   21  22 1
+            25   23  24 1
+            26   24  25 1
+            27   25  23 1
+            28   10  25 1
+            29   19  26 1
+            30   26  27 1
+            31   26  28 1 #Down
+            32   28  29 1
+///

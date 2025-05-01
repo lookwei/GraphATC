@@ -1,0 +1,71 @@
+ENTRY       D00699                      Drug
+NAME        Butabarbital sodium (USP);
+            Secbutabarbital sodium (INN);
+            Butabarb (TN);
+            Butisol sodium (TN)
+FORMULA     C10H15N2O3. Na
+EXACT_MASS  234.098
+MOL_WEIGHT  234.2275
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+REMARK      Chemical structure group: DG01308
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG01308  Butabarbital
+                D00699  Butabarbital sodium
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00699  Butabarbital sodium (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG01308  Butabarbital
+DBLINKS     CAS: 143-81-7
+            PubChem: 7847764
+            ChEBI: 3229
+            LigandBox: D00699
+            NIKKAJI: J9.745D
+ATOM        16
+            1   C1z C    19.2437  -11.5501
+            2   C5x C    19.2437  -12.9660
+            3   C5x C    18.0494  -10.8685
+            4   C1c C    20.6363  -11.5443
+            5   C1b C    19.2322  -10.1402
+            6   N1x N    18.0494  -13.6652
+            7   O5x O    20.4614  -13.6652
+            8   N2x N    16.8258  -11.5501
+            9   O5x O    18.0494   -9.4701
+            10  C1b C    21.3238  -10.3325
+            11  C1a C    21.3355  -12.7562
+            12  C1a C    20.4440   -9.4294
+            13  C2y C    16.8258  -12.9660
+            14  C1a C    22.7163  -10.3325
+            15  O1a O    15.6080  -13.6652 #-
+            16  Z   Na   14.3728  -12.1153 #+
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13   10  14 1
+            14   13  15 1
+            15    8  13 2
+///

@@ -1,0 +1,114 @@
+ENTRY       D00561                      Drug
+NAME        Sertindole (USAN/INN);
+            SerLect (TN)
+FORMULA     C24H26ClFN4O
+EXACT_MASS  440.1779
+MOL_WEIGHT  440.9408
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+REMARK      Same as: C07567
+            ATC code: N05AE03
+EFFICACY    Antipsychotic, Neuroleptic
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07028  Antipsychotics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AE Indole derivatives
+                 N05AE03 Sertindole
+                  D00561  Sertindole (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                D00561  Sertindole
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00561  Sertindole (USAN/INN)
+               Serotonin
+                HTR2A
+                 D00561  Sertindole (USAN/INN)
+DBLINKS     CAS: 106516-24-9
+            PubChem: 7847627
+            ChEBI: 9122
+            LigandBox: D00561
+            NIKKAJI: J380.356B
+ATOM        31
+            1   C8y C     6.0200  -19.6000
+            2   C8x C     6.0200  -21.0000
+            3   C8x C     7.2324  -21.7000
+            4   C8y C     8.4449  -21.0000
+            5   C8y C     8.4449  -19.6000
+            6   C8x C     7.2324  -18.9000
+            7   N4y N     9.6573  -21.7000
+            8   C8x C    10.8698  -21.0000
+            9   C8y C    10.8698  -19.6000
+            10  C8y C     9.6573  -23.1000
+            11  C8x C     8.4469  -23.7988
+            12  C8x C     8.4469  -25.1988
+            13  C8y C     9.6593  -25.8988
+            14  C8x C    10.8698  -25.2000
+            15  C8x C    10.8698  -23.8000
+            16  X   Cl    4.8076  -18.9000
+            17  X   F     9.6593  -27.3000
+            18  C1y C    12.0822  -18.9000
+            19  C1x C    13.3153  -19.6122
+            20  C1x C    14.5279  -18.9124
+            21  N1y N    14.5281  -17.5124
+            22  C1x C    13.2950  -16.8002
+            23  C1x C    12.0824  -17.5000
+            24  C1b C    15.7699  -16.7956
+            25  C1b C    16.9691  -17.4883
+            26  N1y N    18.1547  -16.8040
+            27  C5x C    19.2982  -17.6133
+            28  N1x N    20.4193  -16.7747
+            29  C1x C    19.9682  -15.4494
+            30  C1x C    18.5683  -15.4688
+            31  O5x O    19.3165  -19.0400
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    7  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18    1  16 1
+            19   13  17 1
+            20    9  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   18  23 1
+            27   21  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   28  29 1
+            33   29  30 1
+            34   26  30 1
+            35   27  31 2
+///

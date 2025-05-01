@@ -1,0 +1,57 @@
+ENTRY       D08899                      Drug
+NAME        Deferitrin (USAN/INN)
+FORMULA     C11H11NO4S
+EXACT_MASS  253.0409
+MOL_WEIGHT  253.2743
+CLASS       Vitamin and mineral
+             DG01692  Chelator
+              DG01691  Iron chelator
+EFFICACY    Antidote (iron), Chelating agent
+COMMENT     Tridentate oral chelator intended for use in the primary treatment of iron overload resulting from transfusion therapy
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Vitamin and mineral
+              DG01692  Chelator
+               DG01691  Iron chelator
+                D08899  Deferitrin
+DBLINKS     CAS: 239101-33-8
+            PubChem: 96025582
+            LigandBox: D08899
+ATOM        17
+            1   C8x C    19.0507  -16.1078
+            2   C8y C    19.0507  -17.5085
+            3   C8x C    20.2637  -18.2089
+            4   C8y C    21.4768  -17.5085
+            5   C8y C    21.4768  -16.1078
+            6   C8x C    20.2637  -15.4075
+            7   C2y C    22.7085  -15.3965
+            8   S2x S    23.9788  -15.9620
+            9   C1x C    24.9091  -14.9285
+            10  C1z C    24.2139  -13.7244
+            11  N2x N    22.8538  -14.0136
+            12  C1a C    23.8513  -12.3714
+            13  C6a C    25.5236  -13.1818
+            14  O6a O    26.6088  -14.0144
+            15  O6a O    25.7081  -11.7822
+            16  O1a O    17.8377  -18.2089
+            17  O1a O    22.7085  -18.2199
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    7  11 2
+            13   10  12 1 #Down
+            14   10  13 1 #Up
+            15   13  14 1
+            16   13  15 2
+            17    2  16 1
+            18    4  17 1
+///

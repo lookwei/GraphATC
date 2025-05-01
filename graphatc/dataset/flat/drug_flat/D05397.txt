@@ -1,0 +1,117 @@
+ENTRY       D05397                      Drug
+NAME        Peliglitazar (USAN)
+FORMULA     C30H30N2O7
+EXACT_MASS  530.2053
+MOL_WEIGHT  530.5684
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01795  PPAR gamma agonist
+               DG01732  Non-thiazolidinedione type PPAR agonist
+EFFICACY    Antidiabetic, Antidyslipidemia, Peroxisome proliferator-activated receptor (PPAR) agonist
+COMMENT     Treatment of Type II diabetes mellitus, mixed dyslipidemia, atherosclerosis, and metabolic syndrome
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+            NR1C3 (PPARG) [HSA:5468] [KO:K08530]
+  PATHWAY   hsa03320(5465+5468)  PPAR signaling pathway
+            hsa04152(5468)  AMPK signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01732  Non-thiazolidinedione type PPAR agonist
+                 D05397  Peliglitazar
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D05397  Peliglitazar (USAN)
+                NR1C3 (PPARG)
+                 D05397  Peliglitazar (USAN)
+DBLINKS     CAS: 331744-64-0
+            PubChem: 47207073
+            LigandBox: D05397
+ATOM        39
+            1   C8x C    28.4900  -15.1200
+            2   C8y C    28.4900  -13.7200
+            3   C8x C    27.3000  -13.0200
+            4   C8x C    26.0400  -13.7200
+            5   C8y C    26.0400  -15.1200
+            6   C8x C    27.3000  -15.8200
+            7   O2a O    29.6800  -13.0200
+            8   C1a C    30.8700  -13.7200
+            9   O7a O    24.8500  -15.8200
+            10  C7a C    23.5900  -15.1200
+            11  N1c N    22.4000  -15.8200
+            12  O6a O    23.5900  -13.7200
+            13  C1c C    21.2100  -15.1200
+            14  C1b C    22.4000  -17.2200
+            15  C8y C    20.0200  -15.8200
+            16  C1a C    21.2100  -13.7200
+            17  C6a C    23.6600  -17.9200
+            18  O6a O    24.8500  -17.2200
+            19  O6a O    23.6600  -19.3200
+            20  C8x C    18.8300  -15.1200
+            21  C8x C    17.6400  -15.8200
+            22  C8y C    17.6400  -17.2200
+            23  C8x C    18.8300  -17.9200
+            24  C8x C    20.0200  -17.2200
+            25  O2a O    16.3800  -17.9200
+            26  C1b C    15.1900  -17.2200
+            27  C1b C    14.0000  -17.9200
+            28  C8y C    12.8100  -17.2200
+            29  C8y C    12.8100  -15.8200
+            30  O2x O    11.4800  -15.4000
+            31  C8y C    10.6400  -16.5200
+            32  N5x N    11.4800  -17.6400
+            33  C1a C    13.9300  -14.9800
+            34  C8y C     9.2400  -16.5200
+            35  C8x C     8.5400  -15.3300
+            36  C8x C     7.1400  -15.3300
+            37  C8x C     6.4400  -16.5900
+            38  C8x C     7.1400  -17.7800
+            39  C8x C     8.5400  -17.7800
+BOND        42
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     5   9 1
+            10    9  10 1
+            11   10  11 1
+            12   10  12 2
+            13   11  13 1
+            14   11  14 1
+            15   13  15 1
+            16   13  16 1 #Down
+            17   14  17 1
+            18   17  18 1
+            19   17  19 2
+            20   15  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   15  24 1
+            26   22  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30   28  29 2
+            31   29  30 1
+            32   30  31 1
+            33   31  32 2
+            34   28  32 1
+            35   29  33 1
+            36   31  34 1
+            37   34  35 2
+            38   35  36 1
+            39   36  37 2
+            40   37  38 1
+            41   38  39 2
+            42   34  39 1
+///

@@ -1,0 +1,186 @@
+ENTRY       D04112                      Drug
+NAME        Etravirine (JAN/USAN/INN);
+            Intelence (TN)
+  ABBR      ETR
+PRODUCT     INTELENCE (Janssen Products LP)
+  GENERIC   ETRAVIRINE (Amneal Pharmaceuticals NY LLC)
+            ETRAVIRINE (Amneal Pharmaceuticals NY LLC)
+            ETRAVIRINE (AvKARE)
+            ETRAVIRINE (Carnegie Pharmaceuticals LLC)
+            ETRAVIRINE (Leading Pharma)
+FORMULA     C20H15BrN6O
+EXACT_MASS  434.0491
+MOL_WEIGHT  435.2767
+CLASS       Antiviral
+             DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01643  CYP2C9 inhibitor
+             DG01933  CYP2C19 inhibitor
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      Therapeutic category: 6250
+            ATC code: J05AG04
+            Product: D04112<JP/US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2C9 [HSA:1559], CYP2C19 [HSA:1557]
+INTERACTION CYP inhibition: CYP2C9 [HSA:1559], CYP2C19 [HSA:1557]
+            CYP induction: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243]
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AG Non-nucleoside reverse transcriptase inhibitors
+                 J05AG04 Etravirine
+                  D04112  Etravirine (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Non-nucleoside Reverse Transcriptase Inhibitors (NNRTI)
+               Etravirine
+                D04112  Etravirine (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D04112  Etravirine (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+               D04112  Etravirine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D04112  Etravirine
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D04112  Etravirine
+              DG01639  CYP2C19 substrate
+               D04112  Etravirine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D04112  Etravirine
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               D04112  Etravirine
+              DG01933  CYP2C19 inhibitor
+               D04112  Etravirine
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                D04112  Etravirine
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D04112  Etravirine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D04112  Etravirine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D04112  Etravirine (JAN/USAN/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D04112  Etravirine (JAN/USAN/INN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D04112
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D04112
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D04112
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D04112
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04112
+             Drug transporters
+              D04112
+DBLINKS     CAS: 269055-15-4
+            PubChem: 47206062
+            ChEBI: 63589
+            PDB-CCD: 65B
+            LigandBox: D04112
+ATOM        28
+            1   O2a O    26.3574  -14.2326
+            2   C8y C    28.2546  -13.5413
+            3   N5x N    29.4434  -14.2276
+            4   C8y C    30.6574  -13.5268
+            5   N5x N    30.6575  -12.1249
+            6   C8y C    29.4687  -11.4385
+            7   C8y C    28.2547  -12.1394
+            8   X   Br   27.0154  -11.4238
+            9   N1a N    29.4686  -10.0270
+            10  N1b N    31.8902  -14.2386
+            11  C8y C    33.0928  -13.5444
+            12  C8x C    34.2788  -14.2292
+            13  C8x C    35.4928  -13.5284
+            14  C8y C    35.4929  -12.1265
+            15  C8x C    34.3069  -11.4416
+            16  C8x C    33.0929  -12.1425
+            17  C3b C    36.7229  -11.4163
+            18  N3a N    37.9369  -10.7154
+            19  C8y C    24.4602  -13.5409
+            20  C8y C    24.4613  -12.1104
+            21  C8x C    23.2494  -11.4094
+            22  C8y C    22.0364  -12.1085
+            23  C8x C    22.0354  -13.5391
+            24  C8y C    23.2473  -14.2400
+            25  C3b C    20.8354  -11.4138
+            26  N3a N    19.6229  -10.7138
+            27  C1a C    23.2461  -15.6100
+            28  C1a C    25.6507  -11.4246
+BOND        30
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     6   7 2
+            7     2   7 1
+            8     7   8 1
+            9     6   9 1
+            10    4  10 1
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   11  16 1
+            18   14  17 1
+            19   17  18 3
+            20    1  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   22  25 1
+            28   25  26 3
+            29   24  27 1
+            30   20  28 1
+///

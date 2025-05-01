@@ -1,0 +1,144 @@
+ENTRY       D08890                      Drug
+NAME        Choline fenofibrate (USAN/INN);
+            Trilipix (TN)
+PRODUCT     TRILIPIX (AbbVie)
+  GENERIC   FENOFIBRIC ACID (Alembic Pharmaceuticals Limited)
+            FENOFIBRIC ACID (Alembic Pharmaceuticals)
+            FENOFIBRIC ACID (Amneal Pharmaceuticals of New York LLC)
+            FENOFIBRIC ACID (Aurobindo Pharma Limited)
+            FENOFIBRIC ACID (Leading Pharma)
+            FENOFIBRIC ACID (Micro Labs Limited)
+            FENOFIBRIC ACID (Slate Run Pharmaceuticals)
+            FENOFIBRIC ACID (TWi Pharmaceuticals)
+            FENOFIBRIC ACID DELAYED-RELEASE (Graviti Pharmaceuticals Private Limited)
+            FENOFIBRIC ACID DELAYED-RELEASE (Laurus Labs Limited)
+FORMULA     C17H14ClO4. C5H14NO
+EXACT_MASS  421.1656
+MOL_WEIGHT  421.9144
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01733  PPAR alpha agonist
+               DG01547  Fibrate
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+REMARK      ATC code: C10AB11
+            Chemical structure group: DG01548
+            Product (DG01548): D00565<JP/US> D08890<US>
+EFFICACY    Antihyperlipidemic, Triglyceride synthesis inhibitor, Peroxisome proliferator-activated receptor (PPAR) alpha agonist
+  DISEASE   Hypertriglyceridemia [DS:H01637]
+            Primary hypercholesterolemia or mixed dyslipidemia [DS:H01635]
+COMMENT     Clofibrate derivative
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+  PATHWAY   hsa03320(5465)  PPAR signaling pathway
+            hsa04920(5465)  Adipocytokine signaling pathway
+METABOLISM  Enzyme: UGT [KO:K00699]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AB Fibrates
+                 C10AB11 Choline fenofibrate
+                  D08890  Choline fenofibrate (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Dyslipidemics, Fibric Acid Derivatives
+               Choline Fenofibrate
+                D08890  Choline fenofibrate (USAN/INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 DG01548  Fenofibrate
+                  D08890  Choline fenofibrate
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG01548  Fenofibrate
+                D08890  Choline fenofibrate
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01946  Hypolipidemic agent
+               D08890  Choline fenofibrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D08890  Choline fenofibrate (USAN/INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08890
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 DG01548  Fenofibrate
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG01548  Fenofibrate
+DBLINKS     CAS: 856676-23-8
+            PubChem: 96025573
+            LigandBox: D08890
+ATOM        29
+            1   C8y C    18.3598  -16.7433
+            2   C5a C    17.1689  -17.4439
+            3   C8x C    19.6208  -17.4439
+            4   C8x C    18.3598  -15.3422
+            5   C8y C    15.9779  -16.7433
+            6   O5a O    17.1689  -18.8450
+            7   C8x C    20.8118  -16.7433
+            8   C8x C    19.6208  -14.6417
+            9   C8x C    14.7169  -17.4439
+            10  C8x C    15.9779  -15.3422
+            11  C8y C    20.8118  -15.3422
+            12  C8x C    13.5260  -16.7433
+            13  C8x C    14.7169  -14.6417
+            14  O2a O    22.0027  -14.6417
+            15  C8y C    13.5260  -15.3422
+            16  C1d C    23.2637  -15.3422
+            17  X   Cl   12.3350  -14.6417
+            18  C6a C    24.4547  -14.6417
+            19  O6a O    25.6456  -15.3422 #-
+            20  O6a O    24.4547  -13.2406
+            21  C1a C    22.5632  -16.5332
+            22  C1a C    23.9643  -16.5332
+            23  C1a C    29.8900  -16.7300
+            24  N1d N    31.0800  -16.0300 #+
+            25  C1b C    32.3400  -16.7300
+            26  C1b C    33.5300  -16.0300
+            27  O1a O    34.7200  -16.7300
+            28  C1a C    31.0800  -14.6300
+            29  C1a C    31.0800  -17.4300
+BOND        29
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 2
+            8     5   9 2
+            9     5  10 1
+            10    7  11 2
+            11    9  12 1
+            12   10  13 2
+            13   11  14 1
+            14   12  15 2
+            15   14  16 1
+            16   15  17 1
+            17   16  18 1
+            18   18  19 1
+            19   18  20 2
+            20    8  11 1
+            21   13  15 1
+            22   16  21 1
+            23   16  22 1
+            24   23  24 1
+            25   24  25 1
+            26   25  26 1
+            27   26  27 1
+            28   24  28 1
+            29   24  29 1
+///

@@ -1,0 +1,91 @@
+ENTRY       D00499                      Drug
+NAME        Pentobarbital (USP/INN);
+            Nembutal (TN)
+FORMULA     C11H18N2O3
+EXACT_MASS  226.1317
+MOL_WEIGHT  226.2722
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+REMARK      Same as: C07422
+            ATC code: N05CA01
+            Chemical structure group: DG00915
+            Product (DG00915): D00500<US> D02253<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA01 Pentobarbital
+                  D00499  Pentobarbital (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00915  Pentobarbital
+                D00499  Pentobarbital
+              DG01567  GABA-A receptor agonist
+               DG00915  Pentobarbital
+                D00499  Pentobarbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00499  Pentobarbital (USP/INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Control Act Article 2 Table 31 (10 substances)
+              D00499
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00915  Pentobarbital
+              DG01567  GABA-A receptor agonist
+               DG00915  Pentobarbital
+DBLINKS     CAS: 76-74-4
+            PubChem: 7847565
+            ChEBI: 7983
+            LigandBox: D00499
+            NIKKAJI: J4.552G
+ATOM        16
+            1   C1z C    24.3484  -19.3667
+            2   C5x C    23.1527  -18.6842
+            3   C5x C    24.3484  -20.7840
+            4   C1c C    25.7366  -19.3608
+            5   C1b C    24.3367  -17.9610
+            6   N1x N    21.9277  -19.3667
+            7   O5x O    23.1527  -17.2902
+            8   N1x N    23.1527  -21.4840
+            9   O5x O    25.5616  -21.4840
+            10  C1b C    26.4307  -18.1476
+            11  C1a C    26.4424  -20.5741
+            12  C1a C    25.5442  -17.2435
+            13  C5x C    21.9277  -20.7840
+            14  C1b C    27.8247  -18.1476
+            15  O5x O    20.7086  -21.4840
+            16  C1a C    28.5246  -16.9402
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13   10  14 1
+            14   13  15 2
+            15   14  16 1
+            16    8  13 1
+///

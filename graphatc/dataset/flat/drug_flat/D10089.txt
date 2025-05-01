@@ -1,0 +1,61 @@
+ENTRY       D10089                      Drug
+NAME        Amitifadine hydrochloride (USAN)
+FORMULA     C11H11Cl2N. HCl
+EXACT_MASS  263.0035
+MOL_WEIGHT  264.5787
+REMARK      Chemical structure group: DG01386
+EFFICACY    Antidepressant
+COMMENT     Treatment of depression
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+            hsa04728(6531)  Dopaminergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D10089  Amitifadine hydrochloride (USAN)
+                SLC6A3 (DAT1)
+                 D10089  Amitifadine hydrochloride (USAN)
+                SLC6A4 (HTT)
+                 D10089  Amitifadine hydrochloride (USAN)
+DBLINKS     CAS: 410074-74-7
+            PubChem: 135626808
+            LigandBox: D10089
+ATOM        15
+            1   C8x C    27.0200  -20.8600
+            2   C8y C    27.0200  -22.2600
+            3   C8y C    25.8300  -22.9600
+            4   C8x C    24.5700  -22.2600
+            5   C8y C    24.5700  -20.8600
+            6   C8x C    25.8300  -20.1600
+            7   X   Cl   25.8300  -24.3600
+            8   X   Cl   28.2100  -22.9600
+            9   C1z C    23.3800  -20.1600
+            10  C1y C    21.9800  -20.1600
+            11  C1x C    22.6800  -21.3500
+            12  C1x C    23.8000  -18.8300
+            13  N1x N    22.6800  -17.9900
+            14  C1x C    21.4900  -18.8300
+            15  X   Cl   28.3500  -18.2700
+BOND        16
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 1
+            8     2   8 1
+            9     9   5 1 #Up
+            10    9  10 1
+            11   10  11 1
+            12   11   9 1
+            13    9  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+///

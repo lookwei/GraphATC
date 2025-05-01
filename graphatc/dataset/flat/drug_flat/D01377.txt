@@ -1,0 +1,98 @@
+ENTRY       D01377                      Drug
+NAME        Prifinium bromide (JAN/INN);
+            Padrin (TN)
+FORMULA     C22H28N. Br
+EXACT_MASS  385.1405
+MOL_WEIGHT  386.3684
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+REMARK      Same as: C12814
+            ATC code: A03AB18
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Quaternary ammonium compound
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AB Synthetic anticholinergics, quaternary ammonium compounds
+                 A03AB18 Prifinium bromide
+                  D01377  Prifinium bromide (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D01377  Prifinium bromide
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               D01377  Prifinium bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01377  Prifinium bromide (JAN/INN)
+DBLINKS     CAS: 4630-95-9
+            PubChem: 7848440
+            ChEBI: 32052
+            LigandBox: D01377
+            NIKKAJI: J244.762B
+ATOM        24
+            1   C8x C    18.8076  -20.2443
+            2   C8x C    18.8076  -21.6440
+            3   C8x C    20.0227  -22.3438
+            4   C8x C    21.2307  -21.6440
+            5   C8y C    21.2307  -20.2443
+            6   C8x C    20.0227  -19.5445
+            7   C2c C    22.4433  -19.5453
+            8   C8y C    23.6550  -20.2462
+            9   C2y C    22.4444  -18.1457
+            10  C8x C    23.6484  -21.6438
+            11  C8x C    24.8601  -22.3445
+            12  C8x C    26.0726  -21.6457
+            13  C8x C    26.0736  -20.2460
+            14  C8x C    24.8621  -19.5452
+            15  C1x C    23.5749  -17.3210
+            16  C1x C    23.1435  -15.9894
+            17  N2y N    21.7439  -15.9885 #+
+            18  C1y C    21.3102  -17.3193
+            19  C1a C    19.9786  -17.7504
+            20  C1b C    22.1018  -14.6245
+            21  C1b C    20.3417  -15.9817
+            22  C1a C    23.4519  -14.2553
+            23  C1a C    19.6478  -14.7662
+            24  X   Br   27.2622  -16.0806 #-
+BOND        25
+            1     6   1 1
+            2     8  10 2
+            3    10  11 1
+            4    11  12 2
+            5    12  13 1
+            6    13  14 2
+            7    14   8 1
+            8     5   7 1
+            9     7   8 1
+            10    9  15 1
+            11   15  16 1
+            12   16  17 1
+            13   17  18 1
+            14   18   9 1
+            15    1   2 2
+            16   18  19 1
+            17    7   9 2
+            18   17  20 1
+            19    2   3 1
+            20   17  21 1
+            21    3   4 2
+            22   20  22 1
+            23    4   5 1
+            24   21  23 1
+            25    5   6 2
+///

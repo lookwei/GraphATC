@@ -1,0 +1,49 @@
+ENTRY       D10112                      Drug
+NAME        Dexmecamylamine hydrochloride (USAN)
+FORMULA     C11H21N. HCl
+EXACT_MASS  203.1441
+MOL_WEIGHT  203.7521
+REMARK      Chemical structure group: DG01378
+EFFICACY    Antidepressant, Nicotinic acetylcholine receptor alpha4/beta2 antagonist
+COMMENT     Treatment of major depressive disorder
+TARGET      CHRNA4/CHRNB2 [HSA:1137 1141] [KO:K04806 K04813]
+  PATHWAY   hsa04080(1137+1141)  Neuroactive ligand-receptor interaction
+            hsa04725(1137+1141)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRNA4/CHRNB2
+                 D10112  Dexmecamylamine hydrochloride (USAN)
+DBLINKS     CAS: 107596-30-5
+            PubChem: 135626830
+            LigandBox: D10112
+ATOM        13
+            1   C1z C    25.1300  -20.5100
+            2   C1y C    23.9400  -19.8100
+            3   C1z C    25.1300  -21.9100
+            4   C1x C    23.4500  -21.1400
+            5   C1x C    22.6800  -20.5100
+            6   C1y C    23.9400  -22.5400
+            7   C1x C    22.6800  -21.9100
+            8   C1a C    26.3200  -19.8100
+            9   C1a C    26.3200  -22.6100
+            10  C1a C    25.1300  -23.3100
+            11  N1b N    25.1300  -19.1100
+            12  C1a C    26.3200  -18.4100
+            13  X   Cl   29.6800  -21.5600
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1 #Up
+            5     3   6 1
+            6     5   7 1
+            7     6   4 1
+            8     6   7 1 #Up
+            9     1   8 1 #Up
+            10    3   9 1
+            11    3  10 1
+            12    1  11 1 #Down
+            13   11  12 1
+///

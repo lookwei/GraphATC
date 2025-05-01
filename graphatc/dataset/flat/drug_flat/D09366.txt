@@ -1,0 +1,79 @@
+ENTRY       D09366                      Drug
+NAME        Pardoprunox hydrochloride (USAN)
+FORMULA     C12H15N3O2. HCl
+EXACT_MASS  269.0931
+MOL_WEIGHT  269.7273
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+REMARK      Chemical structure group: DG01324
+EFFICACY    Antiparkinsonian, Dopamine receptor agonist
+COMMENT     Treatment of Parkinson's disease, restless legs syndrome
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            DRD3 [HSA:1814] [KO:K04146]
+            HTR1A [HSA:3350] [KO:K04153]
+  PATHWAY   hsa04080(1813+1814+3350)  Neuroactive ligand-receptor interaction
+            hsa04726(3350)  Serotonergic synapse
+            hsa04728(1813+1814)  Dopaminergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG01324  Pardoprunox
+                D09366  Pardoprunox hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D09366  Pardoprunox hydrochloride (USAN)
+                DRD3
+                 D09366  Pardoprunox hydrochloride (USAN)
+               Serotonin
+                HTR1A
+                 D09366  Pardoprunox hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG01324  Pardoprunox
+DBLINKS     CAS: 269718-83-4
+            PubChem: 96026046
+            LigandBox: D09366
+ATOM        18
+            1   C1x C    19.1800  -22.8200
+            2   N1y N    19.1800  -21.4200
+            3   C1x C    20.4400  -20.7200
+            4   C1x C    21.6300  -21.4200
+            5   N1y N    21.6300  -22.8200
+            6   C1x C    20.4400  -23.5200
+            7   C8y C    22.8900  -23.5200
+            8   C8y C    24.0800  -22.8200
+            9   C8y C    25.2700  -23.5200
+            10  C8x C    25.2700  -24.9200
+            11  C8x C    24.0800  -25.6200
+            12  C8x C    22.8900  -24.9200
+            13  O7x O    24.3600  -21.4200
+            14  C8y C    25.7600  -21.2800
+            15  N4x N    26.3200  -22.5400
+            16  O6a O    26.4600  -20.0900
+            17  C1a C    17.9900  -20.7200
+            18  X   Cl   29.2600  -21.9800
+BOND        19
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13    7  12 2
+            14    8  13 1
+            15   13  14 1
+            16   14  15 1
+            17    9  15 1
+            18   14  16 2
+            19    2  17 1
+///

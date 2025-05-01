@@ -1,0 +1,150 @@
+ENTRY       D00451                      Drug
+NAME        Sumatriptan (JAN/USP/INN);
+            Imigran (TN);
+            Imitrex (TN)
+PRODUCT     IMITREX (GlaxoSmithKline LLC)
+  GENERIC   SUMATRIPTAN (Bryant Ranch Prepack)
+            SUMATRIPTAN (Bryant Ranch Prepack)
+            SUMATRIPTAN (Cipla USA)
+            SUMATRIPTAN (Florida Pharmaceutical Products)
+            SUMATRIPTAN (Lannett Company)
+            SUMATRIPTAN (Padagis Israel Pharmaceuticals)
+            SUMATRIPTAN (Prasco Laboratories)
+FORMULA     C14H21N3O2S
+EXACT_MASS  295.1354
+MOL_WEIGHT  295.4004
+CLASS       Analgesic
+             DG01484  5-HT1B-receptor agonist
+             DG01485  5-HT1D-receptor agonist
+             DG01518  5-HT1B/1D-receptor agonist
+             DG01943  Triptan
+            Metabolizing enzyme substrate
+             DG02917  MAO substrate
+              DG03178  MAOA substrate
+REMARK      Same as: C07319
+            Therapeutic category: 2160
+            ATC code: N02CC01
+            Chemical structure group: DG00836
+            Product (DG00836): D00451<JP/US> D00676<JP/US>
+            Product (mixture): D11577<US>
+EFFICACY    Antimigraine, Vasoconstrictor, Serotonin receptor agonist
+COMMENT     Triptans
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+METABOLISM  Enzyme: MAOA [HSA:4128]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+            map07211  Serotonin receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CC Selective serotonin (5HT1) agonists
+                 N02CC01 Sumatriptan
+                  D00451  Sumatriptan (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antimigraine Agents
+              Serotonin (5-HT) Receptor Agonists
+               Sumatriptan
+                D00451  Sumatriptan (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               216  Vasoconstrictors
+                2160  Vasoconstrictors
+                 D00451  Sumatriptan (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00836  Sumatriptan
+                D00451  Sumatriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00836  Sumatriptan
+                D00451  Sumatriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00836  Sumatriptan
+                D00451  Sumatriptan
+              DG01943  Triptan
+               DG00836  Sumatriptan
+                D00451  Sumatriptan
+             Metabolizing enzyme substrate
+              DG02917  MAO substrate
+               DG03178  MAOA substrate
+                DG00836  Sumatriptan
+                 D00451  Sumatriptan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D00451  Sumatriptan (JAN/USP/INN) &lt;JP/US&gt;
+                HTR1D
+                 D00451  Sumatriptan (JAN/USP/INN) &lt;JP/US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00451
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00836  Sumatriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00836  Sumatriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00836  Sumatriptan
+              DG01943  Triptan
+               DG00836  Sumatriptan
+             Metabolizing enzyme substrate
+              DG02917  MAO substrate
+               DG03178  MAOA substrate
+                DG00836  Sumatriptan
+DBLINKS     CAS: 103628-46-2
+            PubChem: 7847517
+            ChEBI: 10650
+            LigandBox: D00451
+            NIKKAJI: J128.634J
+ATOM        20
+            1   C8y C    27.5550  -17.9600
+            2   C8y C    27.5609  -19.3636
+            3   C8y C    28.8886  -17.5290
+            4   C8x C    26.3496  -17.2496
+            5   N4x N    28.8944  -19.7886
+            6   C8x C    26.3438  -20.0565
+            7   C8x C    29.7097  -18.6531
+            8   C1b C    29.2031  -16.1606
+            9   C8y C    25.1325  -17.9543
+            10  C8x C    25.1384  -19.3576
+            11  C1b C    30.5365  -15.7472
+            12  C1b C    23.9154  -17.2612
+            13  N1c N    30.8452  -14.3846
+            14  S4a S    22.7101  -17.9659
+            15  C1a C    32.1787  -13.9710
+            16  C1a C    29.8203  -13.4353
+            17  N1b N    21.5047  -17.2671
+            18  O3c O    23.7001  -18.9675
+            19  O3c O    21.7142  -18.9675
+            20  C1a C    20.2933  -17.9717
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     6  10 1
+            10    8  11 1
+            11    9  12 1
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1
+            16   14  17 1
+            17   14  18 2
+            18   14  19 2
+            19   17  20 1
+            20    5   7 1
+            21    9  10 2
+///

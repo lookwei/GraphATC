@@ -1,0 +1,41 @@
+ENTRY       D02983                      Drug
+NAME        Argipressin tannate (USAN);
+            Pitressin tannate (TN)
+SEQUENCE    Cys Tyr Phe Gln Asn Cys Pro Arg Gly-NH2 (Disulfide bridge: 1-6)
+  TYPE      Peptide
+CLASS       Cardiovascular agent
+             DG01952  Vasopressin analog
+REMARK      ATC code: H01BA01
+EFFICACY    Antidiuretic, Arginine vasopressin receptor agonist
+COMMENT     Vasopressin derivative
+TARGET      AVPR1 [HSA:552 553] [KO:K04226 K04227]
+            AVPR2 [HSA:554] [KO:K04228]
+  PATHWAY   hsa04020(552+553)  Calcium signaling pathway
+            hsa04080(552+553+554)  Neuroactive ligand-receptor interaction
+            hsa04270(552+553)  Vascular smooth muscle contraction
+            hsa04962(554)  Vasopressin-regulated water reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H01 PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES
+               H01B POSTERIOR PITUITARY LOBE HORMONES
+                H01BA Vasopressin and analogues
+                 H01BA01 Vasopressin (Argipressin)
+                  D02983  Argipressin tannate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01952  Vasopressin analog
+               D02983  Argipressin tannate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Vasopressin
+                AVPR1
+                 D02983  Argipressin tannate (USAN)
+                AVPR2
+                 D02983  Argipressin tannate (USAN)
+DBLINKS     PubChem: 17397139
+            ChEBI: 34543
+            LigandBox: D02983
+            NIKKAJI: J1.025A
+///

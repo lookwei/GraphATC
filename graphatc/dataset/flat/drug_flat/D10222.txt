@@ -1,0 +1,125 @@
+ENTRY       D10222                      Drug
+NAME        Gemcitabine elaidate (USAN/INN)
+FORMULA     C27H43F2N3O5
+EXACT_MASS  527.3171
+MOL_WEIGHT  527.6442
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+REMARK      ATC code: L01BC05
+            Chemical structure group: DG00688
+            Product (DG00688): D01155<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     See Gemcitabine [DR:D02368]
+TARGET      RRM1 [HSA:6240] [KO:K10807]
+  PATHWAY   hsa00230(6240)  Purine metabolism
+            hsa00240(6240)  Pyrimidine metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC05 Gemcitabine
+                  D10222  Gemcitabine elaidate (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 DG00688  Gemcitabine
+                  D10222  Gemcitabine elaidate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Ribonucleoside-diphosphate reductase
+                RRM1
+                 D10222  Gemcitabine elaidate (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 DG00688  Gemcitabine
+DBLINKS     CAS: 210829-30-4
+            PubChem: 163312253
+            ChEBI: 177710
+ATOM        37
+            1   C1y C    25.6900  -20.7200
+            2   C1y C    26.1100  -22.0500
+            3   C1z C    27.5100  -22.0500
+            4   C1y C    27.9300  -20.7200
+            5   O2x O    26.8100  -19.8800
+            6   C1b C    24.5000  -20.0200
+            7   O7a O    23.3100  -20.7200
+            8   O1a O    25.2700  -23.1700
+            9   X   F    28.9100  -22.0500
+            10  X   F    27.5100  -23.4500
+            11  C7a C    22.1200  -20.0200
+            12  C1b C    20.9300  -20.7200
+            13  O6a O    22.1200  -18.6200
+            14  C1b C    19.7400  -20.0200
+            15  C1b C    18.5500  -20.7200
+            16  C1b C    17.2900  -20.0200
+            17  C1b C    16.1000  -20.7900
+            18  C1b C    14.9100  -20.0900
+            19  C1b C    13.7200  -20.7900
+            20  C2b C    12.5300  -20.0900
+            21  C2b C    11.3400  -20.7900
+            22  C1b C    10.0800  -20.0900
+            23  C1b C     8.8900  -20.8600
+            24  C1b C     7.7000  -20.1600
+            25  C1b C     6.5100  -20.8600
+            26  C1b C     5.3200  -20.1600
+            27  C1b C     4.1300  -20.8600
+            28  C1b C     2.9400  -20.1600
+            29  C1a C     1.7500  -20.8600
+            30  C8x C    29.1200  -18.6200
+            31  N4y N    29.1200  -20.0200
+            32  C8y C    30.3100  -20.7200
+            33  N5x N    31.5700  -20.0200
+            34  C8y C    31.5700  -18.6200
+            35  C8x C    30.3100  -17.9200
+            36  O5x O    30.2928  -22.1199
+            37  N1a N    32.7766  -17.9100
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Up
+            7     6   7 1
+            8     2   8 1 #Down
+            9     3   9 1
+            10    3  10 1
+            11    7  11 1
+            12   11  12 1
+            13   11  13 2
+            14   12  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   24  25 1
+            26   25  26 1
+            27   26  27 1
+            28   27  28 1
+            29   28  29 1
+            30   30  31 1
+            31   31  32 1
+            32   32  33 1
+            33   33  34 2
+            34   34  35 1
+            35   30  35 2
+            36    4  31 1 #Up
+            37   32  36 2
+            38   34  37 1
+///

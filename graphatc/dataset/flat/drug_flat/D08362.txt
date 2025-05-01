@@ -1,0 +1,110 @@
+ENTRY       D08362                      Drug
+NAME        Phentolamine (INN)
+FORMULA     C17H19N3O
+EXACT_MASS  281.1528
+MOL_WEIGHT  281.3523
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+REMARK      ATC code: C04AB01 V03AB36
+            Chemical structure group: DG00280
+            Product (DG00280): D00509<JP/US>
+EFFICACY    Vasodilator, alpha-Adrenergic receptor antagonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AB Imidazoline derivatives
+                 C04AB01 Phentolamine
+                  D08362  Phentolamine (INN)
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB36 Phentolamine
+                  D08362  Phentolamine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG00280  Phentolamine
+                 D08362  Phentolamine
+              DG03231  Antihypertensive
+               DG00280  Phentolamine
+                D08362  Phentolamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08362  Phentolamine (INN)
+                ADRA2
+                 D08362  Phentolamine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG00280  Phentolamine
+              DG03231  Antihypertensive
+               DG00280  Phentolamine
+DBLINKS     CAS: 50-60-2
+            PubChem: 96025048
+            ChEBI: 8081
+            LigandBox: D08362
+            NIKKAJI: J4.105J
+ATOM        21
+            1   N1c N    24.1500  -18.4800
+            2   C8y C    25.4100  -19.1800
+            3   C8y C    22.9600  -19.1800
+            4   C1b C    24.1500  -17.0800
+            5   C8x C    26.6000  -18.4800
+            6   C8x C    25.4100  -20.5800
+            7   C8x C    22.9600  -20.5800
+            8   C8x C    21.7700  -18.4800
+            9   C2y C    25.4100  -16.3800
+            10  C8y C    27.7900  -19.1800
+            11  C8x C    26.6000  -21.2800
+            12  C8x C    21.7700  -21.2800
+            13  C8x C    20.5100  -19.1800
+            14  N1x N    26.7400  -16.8000
+            15  N2x N    25.4100  -14.9800
+            16  C8x C    27.7900  -20.5800
+            17  O1a O    29.0500  -18.4800
+            18  C8y C    20.5100  -20.5800
+            19  C1x C    27.5800  -15.7500
+            20  C1x C    26.8100  -14.5600
+            21  C1a C    19.3200  -21.2800
+BOND        23
+            1     2   5 1
+            2     2   6 2
+            3     3   7 1
+            4     3   8 2
+            5     4   9 1
+            6     5  10 2
+            7     6  11 1
+            8     7  12 2
+            9     8  13 1
+            10    9  14 1
+            11    9  15 2
+            12   10  16 1
+            13   10  17 1
+            14   12  18 1
+            15   14  19 1
+            16   15  20 1
+            17   18  21 1
+            18   11  16 2
+            19   13  18 2
+            20   19  20 1
+            21    1   2 1
+            22    1   3 1
+            23    1   4 1
+///

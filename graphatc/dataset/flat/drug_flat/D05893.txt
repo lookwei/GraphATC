@@ -1,0 +1,66 @@
+ENTRY       D05893                      Drug
+NAME        Sorbinil (USAN/INN)
+FORMULA     C11H9FN2O3
+EXACT_MASS  236.0597
+MOL_WEIGHT  236.1992
+CLASS       Antidiabetic agent
+             DG01882  Aldose reductase inhibitor
+EFFICACY    Antidiabetic, Aldose reductase inhibitor
+TARGET      AKR1B1 [HSA:231] [KO:K00011]
+  PATHWAY   hsa00051(231)  Fructose and mannose metabolism
+            hsa00052(231)  Galactose metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01882  Aldose reductase inhibitor
+               D05893  Sorbinil
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                AKR1B1
+                 D05893  Sorbinil (USAN/INN)
+DBLINKS     CAS: 68367-52-2
+            PubChem: 47207554
+            PDB-CCD: SBI
+            LigandBox: D05893
+            NIKKAJI: J19.107H
+ATOM        17
+            1   C8y C     8.7500  -18.2700
+            2   C8x C     8.7500  -19.6700
+            3   C8x C     9.9624  -20.3700
+            4   C8y C    11.1749  -19.6700
+            5   C8y C    11.1749  -18.2700
+            6   C8x C     9.9624  -17.5700
+            7   O2x O    12.3873  -20.3700
+            8   C1x C    13.5997  -19.6700
+            9   C1x C    13.5997  -18.2700
+            10  C1z C    12.3873  -17.5700
+            11  N1x N    13.5275  -16.7579
+            12  C5x C    13.1073  -15.4225
+            13  N1x N    11.7074  -15.4094
+            14  C5x C    11.2624  -16.7369
+            15  O5x O     9.8624  -16.7369
+            16  O5x O    13.9453  -14.2916
+            17  X   F     7.5376  -17.5700
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   10  11 1 #Up
+            16   10  14 1 #Down
+            17   14  15 2
+            18   12  16 2
+            19    1  17 1
+///

@@ -1,0 +1,73 @@
+ENTRY       D04068                      Drug
+NAME        Estrazinol hydrobromide (USAN)
+FORMULA     C20H25NO2. HBr
+EXACT_MASS  391.1147
+MOL_WEIGHT  392.3299
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+EFFICACY    Menstruation disorder agent
+COMMENT     Estrogen
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               D04068  Estrazinol hydrobromide
+              DG01584  Estrogen receptor agonist
+               D04068  Estrazinol hydrobromide
+DBLINKS     CAS: 15179-97-2
+            PubChem: 47206025
+            LigandBox: D04068
+ATOM        24
+            1   X   Br   40.5902  -35.9028
+            2   C8x C    25.6900  -36.3300
+            3   C8y C    25.6900  -37.7300
+            4   C8x C    26.9024  -38.4300
+            5   C8y C    28.1149  -37.7300
+            6   C8y C    28.1149  -36.3300
+            7   C8x C    26.9024  -35.6300
+            8   C1x C    29.3273  -38.4300
+            9   C1x C    30.5397  -37.7300
+            10  N1y N    30.5397  -36.3300
+            11  C1y C    29.3273  -35.6300
+            12  C1y C    31.7522  -35.6300
+            13  C1z C    31.7522  -34.2300
+            14  C1x C    30.5397  -33.5300
+            15  C1x C    29.3273  -34.2300
+            16  C1x C    34.1770  -35.6300
+            17  C1x C    34.1770  -34.2300
+            18  C1z C    32.9646  -33.5300
+            19  O1a O    32.9646  -32.1300
+            20  C1a C    31.7522  -32.8300
+            21  C3b C    34.1770  -32.8300
+            22  C3a C    35.3895  -32.1300
+            23  O2a O    24.4776  -38.4300
+            24  C1a C    23.2821  -37.7396
+BOND        26
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     5   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11    6  11 1
+            12   10  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   11  15 1
+            17   12  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+            21   18  19 1 #Up
+            22   13  20 1 #Up
+            23   18  21 1 #Down
+            24   21  22 3
+            25    3  23 1
+            26   23  24 1
+///

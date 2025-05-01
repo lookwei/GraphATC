@@ -1,0 +1,53 @@
+ENTRY       C00186                      Compound
+NAME        (S)-Lactate;
+            L-Lactate;
+            L-Lactic acid
+FORMULA     C3H6O3
+EXACT_MASS  90.0317
+MOL_WEIGHT  90.0779
+REACTION    R00196 R00319 R00703 R00753 R01446 R01447 R01449 R01450 
+            R05508 R10691 R11074 R11996 R13050
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00051  Fructose and mannose metabolism
+            map00620  Pyruvate metabolism
+            map00640  Propanoate metabolism
+            map00643  Styrene degradation
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map04024  cAMP signaling pathway
+            map04066  HIF-1 signaling pathway
+            map04148  Efferocytosis
+            map04922  Glucagon signaling pathway
+            map05230  Central carbon metabolism in cancer
+NETWORK     nt06017  Glycogen metabolism
+            nt06535  Efferocytosis
+ENZYME      1.1.1.27        1.1.1.436       1.1.2.3         1.1.3.2         
+            1.1.99.7        1.2.1.22        1.13.12.4       2.8.3.1         
+            3.7.1.26        4.1.1.101       4.1.2.36        5.1.2.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Hydroxycarboxylic acids
+                C00186  L-Lactate; (S)-2-Hydroxypropanoate
+DBLINKS     CAS: 79-33-4
+            PubChem: 3486
+            ChEBI: 16651 422
+            KNApSAcK: C00001191
+            PDB-CCD: 2OP
+            3DMET: B01180
+            NIKKAJI: J9.134K
+ATOM        6
+            1   C1c C    25.6822  -15.7891
+            2   C6a C    24.4836  -15.0565
+            3   C1a C    25.7133  -17.1915
+            4   O1a O    26.9098  -15.1244
+            5   O6a O    23.2271  -15.6641
+            6   O6a O    24.5306  -13.6567
+BOND        5
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 2
+///

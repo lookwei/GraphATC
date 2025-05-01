@@ -1,0 +1,113 @@
+ENTRY       D00373                      Drug
+NAME        Thioridazine (USP/INN);
+            Mellaril-S (TN)
+FORMULA     C21H26N2S2
+EXACT_MASS  370.1537
+MOL_WEIGHT  370.5745
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      ATC code: N05AC02
+            Chemical structure group: DG00882
+            Product (DG00882): D00798<US>
+EFFICACY    Antipsychotic, Sedative-hypnotic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AC Phenothiazines with piperidine structure
+                 N05AC02 Thioridazine
+                  D00373  Thioridazine (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00882  Thioridazine
+                 D00373  Thioridazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00882  Thioridazine
+                 D00373  Thioridazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00373  Thioridazine (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00882  Thioridazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00882  Thioridazine
+DBLINKS     CAS: 50-52-2
+            PubChem: 7847439
+            ChEBI: 9566
+            LigandBox: D00373
+            NIKKAJI: J4.104A
+ATOM        25
+            1   N1y N    23.3391  -17.9395
+            2   C8y C    22.1103  -18.6357
+            3   C8y C    24.5503  -18.6591
+            4   C1b C    23.3391  -16.5293
+            5   C8y C    22.1103  -20.0340
+            6   C8x C    20.8934  -17.9395
+            7   C8y C    24.5503  -20.0165
+            8   C8x C    25.7612  -17.9570
+            9   C1b C    24.5503  -15.8332
+            10  S2x S    23.3391  -20.7304
+            11  C8x C    20.8934  -20.7304
+            12  C8x C    19.6880  -18.6591
+            13  C8x C    25.7612  -20.7127
+            14  C8y C    26.9900  -18.6708
+            15  C1y C    24.5503  -14.4172
+            16  C8x C    19.6880  -20.0165
+            17  C8x C    26.9900  -19.9931
+            18  N1y N    25.7789  -13.6976
+            19  C1x C    23.3391  -13.7151
+            20  C1x C    25.7612  -12.2934
+            21  C1a C    26.9958  -14.3821
+            22  C1x C    23.3391  -12.3168
+            23  C1x C    24.5503  -11.6147
+            24  S2a S    28.2171  -17.9641
+            25  C1a C    29.4345  -18.6686
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    8  14 2
+            14    9  15 1
+            15   11  16 2
+            16   13  17 2
+            17   15  18 1
+            18   15  19 1
+            19   18  20 1
+            20   18  21 1
+            21   19  22 1
+            22   20  23 1
+            23    7  10 1
+            24   12  16 1
+            25   14  17 1
+            26   22  23 1
+            27   14  24 1
+            28   24  25 1
+///

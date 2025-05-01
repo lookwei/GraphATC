@@ -1,0 +1,36 @@
+ENTRY       D05393                      Drug
+NAME        Pegsunercept (USAN)
+FORMULA     C502H758N154O165S16
+EXACT_MASS  12095.1188
+MOL_WEIGHT  12103.3627
+SEQUENCE    MDSVCPQGKY IHPQNNSICC TKCHKGTYLY NDCPGPGQDT DCRECESGSF TASENHLRHC
+            LSCSKCRKEM GQVEISSCTV DRDTVCGCRK NQYRHYWSEN LFQCFN
+            (Disulfide bridge: 5-19, 20-33, 23-42, 63-78, 66-86, 88-104)
+  TYPE      Peptide
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG01936  TNF inhibitor
+EFFICACY    Anti-inflammatory, TNF-alpha inhibitor
+COMMENT     a PEGylated protein (a polyethylene-glycol-modified soluble tumor-necrosis-factor receptor type 1)
+            Treatment of inflammatory and autoimmune conditions (e.g. rheumatoid arthritis, Crohn's disease) (binds and therapy inhibits the inflammatory activity of tumor necrosis factor)
+TARGET      TNF (TNFA, TNFSF2) [HSA:7124] [KO:K03156]
+  PATHWAY   hsa04010(7124)  MAPK signaling pathway
+            hsa04060(7124)  Cytokine-cytokine receptor interaction
+            hsa04064(7124)  NF-kappa B signaling pathway
+            hsa04150(7124)  mTOR signaling pathway
+            hsa04350(7124)  TGF-beta signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG01936  TNF inhibitor
+                D05393  Pegsunercept
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokines
+               Tumor necrosis factors
+                TNF (TNFA, TNFSF2)
+                 D05393  Pegsunercept (USAN)
+DBLINKS     CAS: 330988-75-5
+            PubChem: 47207069
+///

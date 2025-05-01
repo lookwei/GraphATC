@@ -1,0 +1,111 @@
+ENTRY       D01460                      Drug
+NAME        Homochlorcyclizine hydrochloride (JP18);
+            Homochlorcyclizine dihydrochloride;
+            SA 97 dihydrochloride;
+            Homoclomin (TN)
+FORMULA     C19H23ClN2. 2HCl
+EXACT_MASS  386.1083
+MOL_WEIGHT  387.7742
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Therapeutic category: 4419
+            Chemical structure group: DG01328
+            Product (DG01328): D01460<JP>
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              44  Allergic agents
+               441  Antihistamines
+                4419  Others
+                 D01460  Homochlorcyclizine hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01328  Homochlorcyclizine
+                 D01460  Homochlorcyclizine hydrochloride
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D01460  Homochlorcyclizine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01460  Homochlorcyclizine hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01460  Homochlorcyclizine hydrochloride
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01328  Homochlorcyclizine
+DBLINKS     CAS: 1982-36-1
+            PubChem: 7848523
+            ChEBI: 31671
+            LigandBox: D01460
+            NIKKAJI: J1.962.282G
+ATOM        24
+            1   X   Cl   30.8000  -16.9400
+            2   C1x C    21.5600  -14.8400
+            3   C1x C    21.4200  -13.5100
+            4   C1x C    22.3300  -12.3900
+            5   N1y N    23.8000  -12.6000
+            6   N1y N    22.7500  -15.6100
+            7   C1x C    24.5000  -13.7200
+            8   C1x C    24.0800  -15.1200
+            9   C1a C    24.5000  -11.4100
+            10  C8y C    21.4900  -17.6400
+            11  C1c C    22.7500  -17.0100
+            12  C8y C    24.0100  -17.7100
+            13  C8x C    24.0100  -19.1800
+            14  C8x C    25.1300  -19.8800
+            15  C8y C    26.3900  -19.1800
+            16  C8x C    26.3900  -17.7800
+            17  C8x C    25.2000  -17.0800
+            18  C8x C    20.3000  -16.9400
+            19  C8x C    19.1100  -17.6400
+            20  C8x C    19.1100  -18.9700
+            21  C8x C    20.3000  -19.6700
+            22  C8x C    21.4900  -19.0400
+            23  X   Cl   27.5800  -19.9500
+            24  X   Cl   30.8000  -16.9400
+BOND        24
+            1     4   5 1
+            2     2   6 1
+            3     5   7 1
+            4     3   4 1
+            5     6   8 1
+            6     2   3 1
+            7     7   8 1
+            8     5   9 1
+            9    10  11 1
+            10    6  11 1
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   15  16 1
+            16   16  17 2
+            17   12  17 1
+            18   10  18 2
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   10  22 1
+            24   15  23 1
+BRACKET     1    29.2600  -17.7800   29.2600  -16.1000
+            1    31.7100  -16.1000   31.7100  -17.7800
+            1  2
+  ORIGINAL  1    1
+  REPEAT    1   24
+///

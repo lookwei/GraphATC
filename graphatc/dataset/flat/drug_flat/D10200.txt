@@ -1,0 +1,156 @@
+ENTRY       D10200                      Drug
+NAME        Ipragliflozin L-proline (JAN);
+            Suglat (TN)
+FORMULA     C21H21FO5S. C5H9NO2
+EXACT_MASS  519.1727
+MOL_WEIGHT  519.5823
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01794  SGLT2 inhibitor
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+              DG03190  UGT2B7 substrate
+REMARK      Therapeutic category: 3969
+            ATC code: A10BK05
+            Chemical structure group: DG01248
+            Product (DG01248): D10200<JP>
+            Product (mixture): D11064<JP>
+EFFICACY    Antidiabetic, SGLT-2 inhibitor
+COMMENT     Phlorizin derivative
+TARGET      SLC5A2 (SGLT2) [HSA:6524] [KO:K14382]
+METABOLISM  Enzyme: UGT2B7 [HSA:7364]
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BK Sodium-glucose co-transporter 2 (SGLT2) inhibitors
+                 A10BK05 Ipragliflozin
+                  D10200  Ipragliflozin L-proline (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D10200  Ipragliflozin L-proline (JAN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01794  SGLT2 inhibitor
+                DG01248  Ipragliflozin
+                 D10200  Ipragliflozin L-proline
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03190  UGT2B7 substrate
+                DG01248  Ipragliflozin
+                 D10200  Ipragliflozin L-proline
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01794  SGLT2 inhibitor
+               D10200  Ipragliflozin L-proline
+              DG02044  Hypoglycemic agent
+               D10200  Ipragliflozin L-proline
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC5
+                SLC5A2 (SGLT2)
+                 D10200  Ipragliflozin L-proline (JAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10200
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10200
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10200
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01794  SGLT2 inhibitor
+                DG01248  Ipragliflozin
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03190  UGT2B7 substrate
+                DG01248  Ipragliflozin
+DBLINKS     PubChem: 163312233
+ATOM        36
+            1   O2x O     7.7700  -15.5400
+            2   C1y C     7.7700  -16.9400
+            3   C1y C     6.5800  -17.6400
+            4   C1y C     5.3200  -16.9400
+            5   C1y C     5.3200  -15.5400
+            6   C1y C     6.5800  -14.8400
+            7   C1b C     6.5800  -13.3700
+            8   O1a O     4.1300  -17.6400
+            9   C8y C     8.9600  -17.6400
+            10  O1a O     7.7700  -12.6700
+            11  O1a O     4.1300  -14.8400
+            12  O1a O     6.5800  -19.0400
+            13  C8x C    10.1500  -16.9400
+            14  C8y C    11.4800  -17.6400
+            15  C8y C    11.4800  -19.0400
+            16  C8x C    10.2200  -19.7400
+            17  C8x C     8.9600  -19.0400
+            18  X   F    12.6700  -19.7400
+            19  C1b C    12.6700  -16.9400
+            20  C8y C    13.8600  -17.6400
+            21  S2x S    15.1900  -17.2900
+            22  C8y C    15.9600  -18.4100
+            23  C8y C    15.1200  -19.4600
+            24  C8x C    13.8600  -18.9700
+            25  C8x C    17.3600  -18.6200
+            26  C8x C    17.8500  -19.9500
+            27  C8x C    17.0100  -21.0000
+            28  C8x C    15.6100  -20.7900
+            29  C1x C    20.6500  -17.7100
+            30  C1x C    21.0700  -19.0400
+            31  C1x C    22.4700  -19.0400
+            32  C1y C    22.8900  -17.7100
+            33  N1x N    21.7700  -16.8700
+            34  C6a C    24.0800  -17.0100
+            35  O6a O    25.2700  -17.7100
+            36  O6a O    24.0800  -15.6100
+BOND        39
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     6   7 1 #Up
+            8     4   8 1 #Up
+            9     2   9 1 #Up
+            10    7  10 1
+            11    5  11 1 #Down
+            12    3  12 1 #Down
+            13    9  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18    9  17 1
+            19   15  18 1
+            20   14  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   20  24 2
+            27   22  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   23  28 2
+            32   29  30 1
+            33   30  31 1
+            34   31  32 1
+            35   32  33 1
+            36   29  33 1
+            37   34  35 1
+            38   32  34 1 #Down
+            39   34  36 2
+///

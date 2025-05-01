@@ -1,0 +1,116 @@
+ENTRY       D02242                      Drug
+NAME        Methamphetamine hydrochloride (JP18/USP);
+            Desoxyn (TN)
+PRODUCT     DESOXYN (Key Therapeutics)
+  GENERIC   METHAMPHETAMINE HYDROCHLORIDE (Hikma Pharmaceuticals USA)
+            METHAMPHETAMINE HYDROCHLORIDE (Mayne Pharma Commercial LLC)
+FORMULA     C10H15N. HCl
+EXACT_MASS  185.0971
+MOL_WEIGHT  185.6937
+CLASS       Neuropsychiatric agent
+             DG01971  Agents for narcolepsy
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 1151
+            ATC code: N06BA03
+            Chemical structure group: DG00968
+            Product (DG00968): D02242<JP/US>
+EFFICACY    Psychostimulant, Stimulant (central)
+  DISEASE   Attention deficit disorder with hyperactivity [DS:H01895]
+TARGET      SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+            SLC18A1 (VMAT1) [HSA:6570] [KO:K08155]
+  PATHWAY   hsa04721(6530+6531+6532+6570+6571)  Synaptic vesicle cycle
+            hsa04726(6532+6570+6571)  Serotonergic synapse
+            hsa04728(6531+6570+6571)  Dopaminergic synapse
+            hsa05031(6531+6570+6571)  Amphetamine addiction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA03 Metamfetamine
+                  D02242  Methamphetamine hydrochloride (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Central Nervous System Agents
+              Attention Deficit Hyperactivity Disorder Agents, Amphetamines
+               Methamphetamine
+                D02242  Methamphetamine hydrochloride (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               115  Stimulants
+                1151  Amphetamines
+                 D02242  Methamphetamine hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01971  Agents for narcolepsy
+               DG00968  Metamfetamine
+                D02242  Methamphetamine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00968  Metamfetamine
+                D02242  Methamphetamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D02242  Methamphetamine hydrochloride (JP18/USP) &lt;JP/US&gt;
+                SLC6A3 (DAT1)
+                 D02242  Methamphetamine hydrochloride (JP18/USP) &lt;JP/US&gt;
+                SLC6A4 (HTT)
+                 D02242  Methamphetamine hydrochloride (JP18/USP) &lt;JP/US&gt;
+               SLC18
+                SLC18A1 (VMAT1)
+                 D02242  Methamphetamine hydrochloride (JP18/USP) &lt;JP/US&gt;
+                SLC18A2 (VMAT2)
+                 D02242  Methamphetamine hydrochloride (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02242  Methamphetamine hydrochloride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02242
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01971  Agents for narcolepsy
+               DG00968  Metamfetamine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00968  Metamfetamine
+DBLINKS     CAS: 51-57-0
+            PubChem: 7849301
+            LigandBox: D02242
+            NIKKAJI: J231.291C
+ATOM        12
+            1   C8y C    15.8200  -15.6100
+            2   C1b C    17.0100  -14.9100
+            3   C8x C    14.5600  -14.9100
+            4   C8x C    15.8200  -17.0100
+            5   C1c C    18.2000  -15.6100
+            6   C8x C    13.3700  -15.6100
+            7   C8x C    14.5600  -17.7100
+            8   N1b N    19.4600  -14.9100
+            9   C1a C    18.2000  -17.0100
+            10  C8x C    13.3700  -17.0100
+            11  C1a C    20.6500  -15.6100
+            12  X   Cl   23.8700  -16.3800
+BOND        11
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 2
+            7     5   8 1
+            8     5   9 1 #Up
+            9     6  10 2
+            10    8  11 1
+            11    7  10 1
+///

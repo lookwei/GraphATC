@@ -1,0 +1,106 @@
+ENTRY       D07719                      Drug
+NAME        Clocortolone (INN)
+FORMULA     C22H28ClFO4
+EXACT_MASS  410.166
+MOL_WEIGHT  410.9067
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AB21
+            Chemical structure group: DG00416
+            Product (DG00416): D02287<US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AB Corticosteroids, moderately potent (group II)
+                 D07AB21 Clocortolone
+                  D07719  Clocortolone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00416  Clocortolone
+                 D07719  Clocortolone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07719  Clocortolone (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00416  Clocortolone
+DBLINKS     CAS: 4828-27-7
+            PubChem: 51092015
+            ChEBI: 59582
+            LigandBox: D07719
+            NIKKAJI: J106.513K
+ATOM        28
+            1   C2x C    18.2000  -19.3200
+            2   C5x C    18.2000  -20.6500
+            3   C2x C    19.3900  -21.3500
+            4   C2y C    20.5800  -20.6500
+            5   C1z C    20.5800  -19.3200
+            6   C2x C    19.3900  -18.6200
+            7   C1y C    21.7700  -21.3500
+            8   C1x C    22.8900  -20.6500
+            9   C1y C    22.8900  -19.3200
+            10  C1z C    21.7700  -18.6200
+            11  C1y C    24.0800  -18.6200
+            12  C1z C    24.0800  -17.2900
+            13  C1x C    22.8900  -16.5900
+            14  C1y C    21.7700  -17.2900
+            15  C1x C    26.4600  -18.6200
+            16  C1y C    26.4600  -17.2900
+            17  C1y C    25.2700  -16.5900
+            18  X   F    21.7700  -22.7500
+            19  X   Cl   21.7700  -20.0200
+            20  C1a C    27.6500  -16.5900
+            21  C1a C    24.0100  -15.8900
+            22  C1a C    20.5800  -17.9900
+            23  O5x O    17.0100  -21.3500
+            24  O1a O    20.5800  -16.5900
+            25  C5a C    25.2700  -15.1900
+            26  O5a O    24.0100  -14.4900
+            27  C1b C    26.4766  -14.4800
+            28  O1a O    27.6863  -15.1653
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    7  18 1 #Down
+            22   10  19 1 #Down
+            23   16  20 1 #Down
+            24   12  21 1 #Up
+            25    5  22 1 #Up
+            26    2  23 2
+            27   14  24 1 #Up
+            28   17  25 1 #Up
+            29   25  26 2
+            30   25  27 1
+            31   27  28 1
+///

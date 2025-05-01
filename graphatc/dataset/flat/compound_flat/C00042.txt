@@ -1,0 +1,148 @@
+ENTRY       C00042                      Compound
+NAME        Succinate;
+            Succinic acid;
+            Butanedionic acid;
+            Ethylenesuccinic acid
+FORMULA     C4H6O4
+EXACT_MASS  118.0266
+MOL_WEIGHT  118.088
+REACTION    R00402 R00405 R00406 R00407 R00408 R00409 R00410 R00411 
+            R00412 R00432 R00479 R00499 R00713 R00714 R00727 R00999 
+            R01252 R01288 R01412 R01559 R01780 R01867 R01879 R02084 
+            R02160 R02164 R02397 R02407 R02444 R02445 R02486 R02508 
+            R02603 R02734 R02990 R03008 R03009 R03126 R03154 R03218 
+            R03219 R03260 R03376 R03451 R03590 R03640 R03698 R03737 
+            R03806 R03807 R03809 R03812 R04073 R04276 R04946 R05036 
+            R05037 R05039 R05097 R05126 R05127 R05228 R05229 R05301 
+            R05302 R05320 R05419 R05466 R05468 R05469 R05493 R05588 
+            R05722 R05723 R05857 R06322 R06323 R06335 R06336 R06337 
+            R06338 R06539 R06540 R06551 R06855 R06904 R07184 R07185 
+            R07186 R07187 R07329 R07366 R07367 R07368 R07712 R07993 
+            R07996 R07997 R08050 R08081 R08082 R08610 R08611 R08972 
+            R09363 R09402 R09510 R09511 R09572 R09785 R10056 R10081 
+            R10143 R10144 R10145 R10157 R10312 R10343 R10413 R10415 
+            R10445 R10446 R10487 R10522 R10527 R10539 R10542 R10640 
+            R10641 R10660 R10723 R10724 R10735 R10740 R10741 R10742 
+            R10904 R10920 R11030 R11053 R11210 R11340 R11345 R11549 
+            R11594 R11773 R11948 R11991 R11993 R12076 R12081 R12082 
+            R12083 R12165 R12166 R12176 R12210 R12216 R12222 R12306 
+            R12315 R12407 R12411 R12452 R12459 R12460 R12461 R12501 
+            R12509 R12510 R12615 R12645 R12650 R12651 R12663 R12778 
+            R12826 R12848 R12981 R12982 R13012 R13013 R13014 R13015 
+            R13035 R13108 R13109 R13110 R13111 R13122 R13137
+PATHWAY     map00020  Citrate cycle (TCA cycle)
+            map00190  Oxidative phosphorylation
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00310  Lysine degradation
+            map00350  Tyrosine metabolism
+            map00360  Phenylalanine metabolism
+            map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00620  Pyruvate metabolism
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00640  Propanoate metabolism
+            map00650  Butanoate metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map00760  Nicotinate and nicotinamide metabolism
+            map00920  Sulfur metabolism
+            map01060  Biosynthesis of plant secondary metabolites
+            map01061  Biosynthesis of phenylpropanoids
+            map01062  Biosynthesis of terpenoids and steroids
+            map01063  Biosynthesis of alkaloids derived from shikimate pathway
+            map01064  Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+            map01065  Biosynthesis of alkaloids derived from histidine and purine
+            map01066  Biosynthesis of alkaloids derived from terpenoid and polyketide
+            map01070  Biosynthesis of plant hormones
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01220  Degradation of aromatic compounds
+            map02020  Two-component system
+            map04024  cAMP signaling pathway
+            map04727  GABAergic synapse
+            map04922  Glucagon signaling pathway
+            map05230  Central carbon metabolism in cancer
+MODULE      M00009  Citrate cycle (TCA cycle, Krebs cycle)
+            M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
+            M00027  GABA (gamma-Aminobutyrate) shunt
+            M00148  Succinate dehydrogenase (ubiquinone)
+            M00149  Succinate dehydrogenase, prokaryotes
+            M00150  Fumarate reductase, prokaryotes
+            M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+            M00376  3-Hydroxypropionate bi-cycle
+            M00620  Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate
+            M00956  Lysine degradation, bacteria, L-lysine => succinate
+            M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+            M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+NETWORK     nt06252  Mitochondrial ROS formation (cancer)
+            nt06460  Alzheimer disease
+            nt06461  Huntington disease
+            nt06463  Parkinson disease
+            nt06466  Pathways of neurodegeneration
+ENZYME      1.2.1.16        1.2.1.24        1.2.1.79        1.3.1.6         
+            1.3.2.4         1.3.4.1         1.3.5.1         1.3.98.1        
+            1.3.99.-        1.14.11.1       1.14.11.2       1.14.11.3       
+            1.14.11.4       1.14.11.6       1.14.11.7       1.14.11.8       
+            1.14.11.9       1.14.11.10      1.14.11.11      1.14.11.12      
+            1.14.11.13      1.14.11.15      1.14.11.16      1.14.11.17      
+            1.14.11.18      1.14.11.20      1.14.11.21      1.14.11.24      
+            1.14.11.25      1.14.11.26      1.14.11.27      1.14.11.28      
+            1.14.11.31      1.14.11.32      1.14.11.35      1.14.11.36      
+            1.14.11.37      1.14.11.38      1.14.11.39      1.14.11.40      
+            1.14.11.41      1.14.11.42      1.14.11.43      1.14.11.44      
+            1.14.11.45      1.14.11.46      1.14.11.48      1.14.11.49      
+            1.14.11.51      1.14.11.52      1.14.11.55      1.14.11.56      
+            1.14.11.57      1.14.11.58      1.14.11.59      1.14.11.60      
+            1.14.11.61      1.14.11.62      1.14.11.63      1.14.11.64      
+            1.14.11.65      1.14.11.66      1.14.11.67      1.14.11.68      
+            1.14.11.69      1.14.11.70      1.14.11.71      1.14.11.72      
+            1.14.11.73      1.14.11.74      1.14.11.75      1.14.11.76      
+            1.14.11.77      1.14.11.78      1.14.11.79      1.14.11.80      
+            1.14.11.81      1.14.11.82      1.14.11.-       1.14.20.1       
+            1.14.20.3       1.14.20.4       1.14.20.5       1.14.20.6       
+            1.14.20.7       1.14.20.8       1.14.20.9       1.14.20.10      
+            1.14.20.11      1.14.20.12      1.14.20.13      1.14.20.14      
+            1.14.20.15      1.14.20.-       2.5.1.48        2.5.1.-         
+            2.8.3.2         2.8.3.5         2.8.3.6         2.8.3.13        
+            2.8.3.15        2.8.3.18        2.8.3.20        2.8.3.22        
+            2.8.3.26        2.8.3.27        2.8.3.28        2.8.3.-         
+            3.1.2.3         3.1.2.13        3.5.1.18        3.5.1.96        
+            3.7.1.14        4.1.3.1         4.1.3.30        6.2.1.4         
+            6.2.1.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Dicarboxylic acids
+                C00042  Succinate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0117 Dicarboxylic acids
+                C00042  Butanedionic acid
+DBLINKS     CAS: 110-15-6
+            PubChem: 3344
+            ChEBI: 15741
+            LIPIDMAPS: LMFA01170043
+            KNApSAcK: C00001205
+            PDB-CCD: SIN
+            3DMET: B00012
+            NIKKAJI: J2.879G
+ATOM        8
+            1   O6a O    16.9400  -13.4400
+            2   C6a C    18.1524  -12.7400
+            3   C1b C    19.3649  -13.4400
+            4   C1b C    20.5773  -12.7400
+            5   C6a C    21.7897  -13.4400
+            6   O6a O    23.0022  -12.7400
+            7   O6a O    18.1524  -11.3402
+            8   O6a O    21.7897  -14.8399
+BOND        7
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     2   7 2
+            7     5   8 2
+///

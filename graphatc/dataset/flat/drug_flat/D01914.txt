@@ -1,0 +1,70 @@
+ENTRY       D01914                      Drug
+NAME        Piracetam (JAN/USAN/INN);
+            Myocalm (TN)
+FORMULA     C6H10N2O2
+EXACT_MASS  142.0742
+MOL_WEIGHT  142.1558
+CLASS       Neuropsychiatric agent
+             DG01969  Racetam derivative, nootropic
+REMARK      Therapeutic category: 1190
+            ATC code: N06BX03
+            Product: D01914<JP>
+EFFICACY    Anticonvulsant, Nootropic
+COMMENT     Cognition adjuvant
+            GABA [DR:D00058] derivative
+TARGET      SV2A [HSA:9900] [KO:K06258]
+  PATHWAY   hsa04512(9900)  ECM-receptor interaction
+INTERACTION  
+STR_MAP     map07033  Anticonvulsants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BX Other psychostimulants and nootropics
+                 N06BX03 Piracetam
+                  D01914  Piracetam (JAN/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D01914  Piracetam (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01969  Racetam derivative, nootropic
+               D01914  Piracetam
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Major facilitator superfamily
+               VNT family
+                SV2A
+                 D01914  Piracetam (JAN/USAN/INN) &lt;JP&gt;
+DBLINKS     CAS: 7491-74-9
+            PubChem: 7848976
+            ChEBI: 32010
+            PDB-CCD: PZI
+            LigandBox: D01914
+            NIKKAJI: J8.946J
+ATOM        10
+            1   N1y N    23.9152  -19.6145
+            2   C1b C    25.1215  -18.9059
+            3   C5x C    22.7790  -18.7887
+            4   C1x C    23.4760  -20.9439
+            5   C5a C    26.3280  -19.6027
+            6   C1x C    21.6430  -19.6145
+            7   O5x O    22.7615  -17.3891
+            8   C1x C    22.0763  -20.9439
+            9   N1a N    27.5403  -18.9001
+            10  O5a O    26.3221  -21.0025
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     5  10 2
+            10    6   8 1
+///

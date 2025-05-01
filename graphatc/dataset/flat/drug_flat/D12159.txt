@@ -1,0 +1,54 @@
+ENTRY       D12159                      Drug
+NAME        Imifoplatin (USAN/INN)
+FORMULA     Pt. P2O7. C6H14N2. 2H
+EXACT_MASS  485.008
+MOL_WEIGHT  485.232
+CLASS       Antineoplastic
+             DG01679  Platinum compound
+EFFICACY    Antineoplastic, Cell growth inhibitor
+COMMENT     Platinum compound
+            DNA alkylator
+TARGET      DNA
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01679  Platinum compound
+               D12159  Imifoplatin
+DBLINKS     CAS: 1339960-28-9
+ATOM        18
+            1   C1x C    13.7642  -15.5623
+            2   C1x C    13.7642  -16.9572
+            3   C1x C    14.9499  -17.6546
+            4   C1y C    16.2053  -16.9572
+            5   C1y C    16.2053  -15.5623
+            6   C1x C    14.9499  -14.8648
+            7   N1a N    17.5304  -17.3756
+            8   N1a N    17.5304  -15.1438
+            9   O1c O    20.7387  -17.4454 #-
+            10  P1b P    22.1336  -17.4454
+            11  O2c O    22.8310  -16.1900
+            12  P1b P    22.0638  -15.0043
+            13  O1c O    20.6689  -15.0043 #-
+            14  O1c O    23.5285  -17.4454
+            15  O1c O    22.0638  -13.6094
+            16  O1c O    23.2718  -14.3069 #-
+            17  O1c O    22.1336  -18.8403 #-
+            18  Z   Pt   18.9253  -16.3295 #2+
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     5   8 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   10  14 2
+            14   12  15 2
+            15   12  16 1
+            16   10  17 1
+///

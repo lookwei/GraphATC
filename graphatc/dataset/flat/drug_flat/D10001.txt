@@ -1,0 +1,97 @@
+ENTRY       D10001                      Drug
+NAME        Fingolimod (INN);
+            Gilenya (TN)
+FORMULA     C19H33NO2
+EXACT_MASS  307.2511
+MOL_WEIGHT  307.4708
+CLASS       Metabolizing enzyme substrate
+             DG02980  CYP4F2 substrate
+REMARK      ATC code: L04AA27
+            Chemical structure group: DG00741
+            Product (DG00741): D04187<JP/US> D12549<US>
+EFFICACY    Immunosuppressant, Sphingosine-1-phosphate receptor agonist
+COMMENT     Sphingosine [CPD:C00319] analog
+TARGET      S1PR1 [HSA:1901] [KO:K04288]
+  PATHWAY   hsa04071(1901)  Sphingolipid signaling pathway
+            hsa04080(1901)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP4F2 [HSA:8529]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA27 Fingolimod
+                  D10001  Fingolimod (INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02980  CYP4F2 substrate
+               DG00741  Fingolimod
+                D10001  Fingolimod
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Sphingolipid
+                S1PR1
+                 D10001  Fingolimod (INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10001
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10001
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02980  CYP4F2 substrate
+               DG00741  Fingolimod
+DBLINKS     CAS: 162359-55-9
+            PubChem: 135626722
+            ChEBI: 63115
+            LigandBox: D10001
+ATOM        22
+            1   C8x C    20.3000  -17.1500
+            2   C8y C    20.3000  -18.5500
+            3   C8x C    21.5124  -19.2500
+            4   C8x C    22.7249  -18.5500
+            5   C8y C    22.7249  -17.1500
+            6   C8x C    21.5124  -16.4500
+            7   C1b C    23.9560  -16.4390
+            8   C1b C    25.1612  -17.1347
+            9   C1d C    26.3435  -16.4519
+            10  C1b C    27.5375  -17.1412
+            11  O1a O    28.7254  -16.4552
+            12  N1a N    25.1311  -15.7519
+            13  C1b C    27.5560  -15.7519
+            14  O1a O    27.5560  -14.3519
+            15  C1b C    19.0876  -19.2500
+            16  C1b C    17.8921  -18.5596
+            17  C1b C    16.7047  -19.2451
+            18  C1b C    15.5135  -18.5571
+            19  C1b C    14.3240  -19.2438
+            20  C1b C    13.1339  -18.5565
+            21  C1b C    11.9438  -19.2435
+            22  C1a C    10.7540  -18.5563
+BOND        22
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    9  12 1
+            13    9  13 1
+            14   13  14 1
+            15    2  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+///

@@ -1,0 +1,102 @@
+ENTRY       D07222                      Drug
+NAME        Nomegestrol (USAN/INN)
+FORMULA     C21H28O3
+EXACT_MASS  328.2038
+MOL_WEIGHT  328.4452
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      ATC code: G03DB04
+            Chemical structure group: DG00468
+EFFICACY    Ovulation inducing agent, Progesterone receptor agonist
+COMMENT     Progestin, Pregnadiene derivative
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DB Pregnadien derivatives
+                 G03DB04 Nomegestrol
+                  D07222  Nomegestrol (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00468  Nomegestrol
+                D07222  Nomegestrol
+              DG01666  Progesterone receptor agonist
+               DG00468  Nomegestrol
+                D07222  Nomegestrol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D07222  Nomegestrol (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00468  Nomegestrol
+              DG01666  Progesterone receptor agonist
+               DG00468  Nomegestrol
+DBLINKS     CAS: 58691-88-6
+            PubChem: 51091560
+            LigandBox: D07222
+            NIKKAJI: J126.259I
+ATOM        24
+            1   C1z C    29.2066  -17.0746
+            2   C1y C    29.2066  -18.3988
+            3   C1x C    31.5763  -18.3988
+            4   C1x C    31.5763  -17.0746
+            5   C1z C    30.3915  -16.3776
+            6   C1x C    28.0218  -16.3776
+            7   C1x C    26.8370  -17.0746
+            8   C1y C    26.8370  -18.3988
+            9   C1y C    28.0218  -19.0957
+            10  C1y C    25.7219  -19.0957
+            11  C2y C    25.7219  -20.4896
+            12  C2y C    26.8370  -21.1169
+            13  C2x C    28.0218  -20.4896
+            14  C1x C    24.5371  -18.3988
+            15  C1x C    23.3523  -19.0957
+            16  C5x C    23.3523  -20.4896
+            17  C2x C    24.5371  -21.1169
+            18  C1a C    29.2066  -15.6807
+            19  C5a C    30.3915  -14.9837
+            20  C1a C    29.1843  -14.2868
+            21  O1a O    31.6015  -15.6856
+            22  C1a C    26.8193  -22.5107
+            23  O5x O    22.1581  -21.2086
+            24  O5a O    31.5969  -14.2877
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 2
+            15    9  13 1
+            16   10  14 1
+            17   14  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  11 2
+            21    1  18 1 #Up
+            22    5  19 1 #Up
+            23   19  20 1
+            24    5  21 1 #Down
+            25   12  22 1
+            26   16  23 2
+            27   19  24 2
+///

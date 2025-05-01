@@ -1,0 +1,87 @@
+ENTRY       C00828                      Compound
+NAME        Menaquinone;
+            Vitamin K2
+FORMULA     C16H16O2(C5H8)n
+COMMENT     Menatetrenone (n=3) [DR:D00100]
+REACTION    R02964 R02965 R08596 R09445 R09492 R09501 R09992 R10149 
+            R12238
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01240  Biosynthesis of cofactors
+            map02020  Two-component system
+            map04977  Vitamin digestion and absorption
+MODULE      M00416  Cytochrome aa3-600 menaquinol oxidase
+ENZYME      1.6.5.2         1.7.5.2         1.8.5.3         1.8.5.5         
+            1.12.5.1        1.17.4.4        2.1.1.350       7.1.1.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Vitamins
+               Fat-soluble vitamins
+                C00828  Menaquinone (Vitamin K2)
+            Lipids [BR:br08002]
+             PR  Prenol lipids
+              PR02 Quinones and hydroquinones
+               PR0201 Ubiquinones
+                C00828  Menaquinone
+               PR0203 Vitamin K
+                C00828  Menaquinone (Vitamin K2)
+DBLINKS     CAS: 11032-49-8 1182-68-9
+            PubChem: 4086
+            ChEBI: 16374
+            NIKKAJI: J10.613E
+ATOM        23
+            1   C8x C    18.3400  -16.5200
+            2   C8x C    18.3400  -15.1200
+            3   C8x C    19.5300  -14.4200
+            4   C8y C    20.7900  -15.1200
+            5   C8y C    20.7900  -16.5200
+            6   C8x C    19.5300  -17.2200
+            7   C5x C    21.9800  -14.4200
+            8   C2y C    23.1700  -15.1200
+            9   C2y C    23.1700  -16.5200
+            10  C5x C    21.9800  -17.2200
+            11  O5x O    21.9800  -18.6200
+            12  O5x O    21.9800  -13.0200
+            13  C1b C    24.3600  -14.4200
+            14  C2b C    25.6200  -15.1200
+            15  C2c C    26.8100  -14.4200
+            16  C1b C    28.0000  -15.1200
+            17  C1b C    29.2600  -14.4200
+            18  C2b C    30.4500  -15.1200
+            19  C2c C    31.6400  -14.4200
+            20  C1a C    32.9000  -15.1200
+            21  C1a C    26.8100  -13.0200
+            22  C1a C    31.6400  -13.0200
+            23  C1a C    24.3600  -17.2200
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 1
+            12   10  11 2
+            13    7  12 2
+            14    8  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   15  21 1
+            23   19  22 1
+            24    9  23 1
+BRACKET     1    24.1500  -15.5400   24.1500  -12.8100
+            1    28.7700  -12.8100   28.7700  -15.5400
+            1  n
+  ORIGINAL  1   13  14  15  16  21
+  REPEAT    1 
+///

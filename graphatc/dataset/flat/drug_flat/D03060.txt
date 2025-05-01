@@ -1,0 +1,81 @@
+ENTRY       D03060                      Drug
+NAME        Batanopride hydrochloride (USAN)
+FORMULA     C17H26ClN3O3. HCl
+EXACT_MASS  391.1429
+MOL_WEIGHT  392.3206
+CLASS       Gastrointestinal agent
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+              DG01783  Benzamide type antiemetic
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               D03060  Batanopride hydrochloride
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                D03060  Batanopride hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D03060  Batanopride hydrochloride (USAN)
+DBLINKS     CAS: 102670-59-7
+            PubChem: 17397215
+            LigandBox: D03060
+ATOM        25
+            1   C8y C    25.1625  -19.2382
+            2   C8y C    25.1625  -17.8342
+            3   C8x C    23.9624  -19.9314
+            4   C5a C    26.3801  -19.9314
+            5   C8x C    23.9624  -17.1294
+            6   O2a O    26.3801  -17.1294
+            7   C8y C    22.7449  -19.2382
+            8   N1b N    27.5917  -19.2323
+            9   O5a O    26.3801  -21.3352
+            10  C8y C    22.7449  -17.8342
+            11  X   Cl   21.5333  -19.9314
+            12  C1b C    28.8092  -19.9314
+            13  N1a N    21.5333  -17.1294
+            14  C1b C    30.0208  -19.2323
+            15  N1c N    31.2383  -19.9256
+            16  C1b C    32.4501  -19.2323
+            17  C1b C    31.2383  -21.3295
+            18  C1a C    33.6560  -19.9256
+            19  C1a C    32.4501  -22.0343
+            20  C1c C    26.3817  -15.7500
+            21  C5a C    27.6012  -15.0478
+            22  C1a C    25.1763  -15.0522
+            23  C1a C    28.7978  -15.7407
+            24  O5a O    27.6029  -13.6502
+            25  X   Cl   38.8500  -20.0900
+BOND        24
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    7  11 1
+            11    8  12 1
+            12   10  13 1
+            13   12  14 1
+            14   14  15 1
+            15   15  16 1
+            16   15  17 1
+            17   16  18 1
+            18   17  19 1
+            19    7  10 2
+            20    6  20 1
+            21   20  21 1
+            22   20  22 1
+            23   21  23 1
+            24   21  24 2
+///

@@ -1,0 +1,121 @@
+ENTRY       D01295                      Drug
+NAME        Cinnarizine (JAN/USAN/INN)
+FORMULA     C26H28N2
+EXACT_MASS  368.2252
+MOL_WEIGHT  368.5139
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: N07CA02
+            Chemical structure group: DG01005
+EFFICACY    Anti-emetic, Antivertigo, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07C ANTIVERTIGO PREPARATIONS
+                N07CA Antivertigo preparations
+                 N07CA02 Cinnarizine
+                  D01295  Cinnarizine (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01005  Cinnarizine
+                 D01295  Cinnarizine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01005  Cinnarizine
+                D01295  Cinnarizine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01295  Cinnarizine (JAN/USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01295
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01005  Cinnarizine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01005  Cinnarizine
+DBLINKS     CAS: 298-57-7
+            PubChem: 7848358
+            ChEBI: 31403
+            PDB-CCD: N90
+            LigandBox: D01295
+            NIKKAJI: J2.572K
+ATOM        28
+            1   C8x C     7.7700  -17.9900
+            2   C8x C     7.7700  -19.3900
+            3   C8x C     8.9824  -20.0900
+            4   C8x C    10.1949  -19.3900
+            5   C8y C    10.1949  -17.9900
+            6   C8x C     8.9824  -17.2900
+            7   C8x C    12.6197  -19.3900
+            8   C8y C    12.6197  -17.9900
+            9   C1c C    11.4073  -17.2900
+            10  C8x C    13.8322  -20.0900
+            11  C8x C    15.0446  -19.3900
+            12  C8x C    15.0446  -17.9900
+            13  C8x C    13.8322  -17.2900
+            14  N1y N    11.4073  -15.8900
+            15  C1x C    12.6218  -15.1888
+            16  C1x C    12.6218  -13.7888
+            17  N1y N    11.4093  -13.0888
+            18  C1x C    10.1949  -13.7900
+            19  C1x C    10.1949  -15.1900
+            20  C1b C    11.4093  -11.6900
+            21  C2b C    12.6223  -10.9897
+            22  C2b C    13.8180  -11.6802
+            23  C8y C    15.0052  -10.9949
+            24  C8x C    16.1965  -11.6829
+            25  C8x C    17.4091  -10.9830
+            26  C8x C    17.4092   -9.5830
+            27  C8x C    16.2179   -8.8950
+            28  C8x C    15.0054   -9.5949
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    9  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   14  19 1
+            22   17  20 1
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   23  28 1
+///

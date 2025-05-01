@@ -1,0 +1,79 @@
+ENTRY       D05819                      Drug
+NAME        Semaxanib (USAN/INN)
+FORMULA     C15H14N2O
+EXACT_MASS  238.1106
+MOL_WEIGHT  238.2845
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Angiogenesis inhibitor, Receptor tyrosine kinase inhibitor
+TARGET      FLT3 (CD135) [HSA:2322] [KO:K05092]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+  PATHWAY   hsa04370(3791)  VEGF signaling pathway
+            hsa04510(3791)  Focal adhesion
+            hsa05200(2322+3815)  Pathways in cancer
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                D05819  Semaxanib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                KIT (CD117)
+                 D05819  Semaxanib (USAN/INN)
+                FLT3 (CD135)
+                 D05819  Semaxanib (USAN/INN)
+               VEGFR family
+                VEGFR2 (KDR)
+                 D05819  Semaxanib (USAN/INN)
+DBLINKS     CAS: 194413-58-6
+            PubChem: 47207480
+            ChEBI: 91083
+            PDB-CCD: X2M
+            LigandBox: D05819
+ATOM        18
+            1   C8x C    17.9900  -18.9700
+            2   C8x C    17.9900  -20.3700
+            3   C8x C    19.1800  -21.0700
+            4   C8y C    20.4400  -20.3700
+            5   C8y C    20.4400  -18.9700
+            6   C8x C    19.1800  -18.2700
+            7   C2y C    21.7700  -20.7900
+            8   C5x C    22.5400  -19.6700
+            9   N1x N    21.7700  -18.5500
+            10  O5x O    23.9400  -19.6700
+            11  C2b C    21.7700  -22.1900
+            12  C8y C    22.9600  -22.8900
+            13  C8y C    22.9600  -24.2900
+            14  C1a C    21.7000  -24.9900
+            15  N4x N    24.2900  -22.4700
+            16  C8y C    25.1300  -23.5900
+            17  C8x C    24.2900  -24.7100
+            18  C1a C    26.5300  -23.5900
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1
+            11    8  10 2
+            12    7  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   12  15 1
+            17   15  16 1
+            18   16  17 2
+            19   13  17 1
+            20   16  18 1
+///

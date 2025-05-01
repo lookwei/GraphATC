@@ -1,0 +1,38 @@
+ENTRY       D06482                      Drug
+NAME        Thyroid (USP);
+            Thyradin (TN)
+CLASS       Hormonal agent
+             DG01953  Thyroid preparation
+              DG01608  Thyroid hormone replenisher
+REMARK      Same as: C08215
+            Chemical structure group: DG01993
+EFFICACY    Replenisher (thyroid hormone)
+  DISEASE   Lymphocytic thyroiditis (Hashimoto's) [DS:H00081]
+            Thyroid cancer [DS:H00032]
+COMMENT     Treatment of hypothyroidism
+TARGET      NR1A (THR) [HSA:7067 7068] [KO:K05547 K08362]
+  PATHWAY   hsa04080(7067+7068)  Neuroactive ligand-receptor interaction
+            hsa04919(7067+7068)  Thyroid hormone signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01953  Thyroid preparation
+               DG01608  Thyroid hormone replenisher
+                DG01993  Thyroid
+                 D06482  Thyroid
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Thyroid hormone receptor (THR)
+                NR1A (THR)
+                 D06482  Thyroid (USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01953  Thyroid preparation
+               DG01608  Thyroid hormone replenisher
+                DG01993  Thyroid
+DBLINKS     CAS: 8028-36-2
+            PubChem: 47208138
+            ChEBI: 9584
+            NIKKAJI: J209.266B
+///

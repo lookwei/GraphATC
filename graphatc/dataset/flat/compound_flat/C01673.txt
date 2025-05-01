@@ -1,0 +1,151 @@
+ENTRY       C01673                      Compound
+NAME        Calcitriol;
+            1alpha,25-Dihydroxyvitamin D3;
+            (1S,3R,5Z,7E)-9,10-Seco-5,7,10(19)-cholestatriene-1,3,25-triol
+FORMULA     C27H44O3
+EXACT_MASS  416.329
+MOL_WEIGHT  416.6365
+REMARK      Same as: D00129
+REACTION    R03610 R09515 R11459
+PATHWAY     map00100  Steroid biosynthesis
+            map01100  Metabolic pathways
+            map04928  Parathyroid hormone synthesis, secretion and action
+            map04961  Endocrine and other factor-regulated calcium reabsorption
+            map04978  Mineral absorption
+            map05152  Tuberculosis
+MODULE      M00103  Cholecalciferol biosynthesis
+NETWORK     nt06034  Cholesterol biosynthesis
+ENZYME      1.14.15.16      1.14.15.18      1.14.15.22
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Steroid hormones
+               Others
+                C01673  Calcitriol (Vitamin D)
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST03 Secosteroids
+               ST0302 Vitamin D3 and derivatives
+                C01673  Calcitriol
+            Prodrugs [br08324.html]
+             C01673
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00129)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11C VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO
+                A11CC Vitamin D and analogues
+                 A11CC04 Calcitriol
+                  D00129  Calcitriol (JAN/USP/INN) &lt;JP/US&gt;
+             D DERMATOLOGICALS
+              D05 ANTIPSORIATICS
+               D05A ANTIPSORIATICS FOR TOPICAL USE
+                D05AX Other antipsoriatics for topical use
+                 D05AX03 Calcitriol
+                  D00129  Calcitriol (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302(D00129)]
+             Dermatological Agents
+              Dermatological Agents, Other
+               Psoriasis Agents
+                Calcitriol
+                 D00129  Calcitriol (JAN/USP/INN)
+             Metabolic Bone Disease Agents
+              Vitamin D-related Agents
+               Calcitriol
+                D00129  Calcitriol (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301(D00129)]
+             3  Agents affecting metabolism
+              31  Vitamins
+               311  Vitamins A and D preparations
+                3112  Synthetic vitamin D preparations
+                 D00129  Calcitriol (JAN/USP/INN)
+            Drug groups [BR:br08330(D00129)]
+             Gastrointestinal agent
+              DG01607  Vitamin D derivatives
+               DG01606  Activated vitamin D3
+                D00129  Calcitriol
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D00129  Calcitriol
+            Drug classes [BR:br08332(D00129)]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D00129  Calcitriol
+            Target-based classification of drugs [BR:br08310(D00129)]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Vitamin D3 like receptor
+                NR1I1 (VDR)
+                 D00129  Calcitriol (JAN/USP/INN) &lt;JP/US&gt;
+            Prodrugs [br08324.html(D00129)]
+             D00129
+DBLINKS     CAS: 32222-06-3
+            PubChem: 4817
+            ChEBI: 17823
+            LIPIDMAPS: LMST03020258
+            PDB-CCD: VDX
+            3DMET: B01476
+            NIKKAJI: J17.427K
+ATOM        30
+            1   C1x C    18.5200  -16.5451
+            2   C1y C    18.5200  -17.9130
+            3   C1x C    19.7074  -18.5969
+            4   C2y C    20.8881  -17.9130
+            5   C2y C    20.8881  -16.5451
+            6   C1y C    19.7074  -15.8612
+            7   C1x C    22.0826  -14.4589
+            8   C1x C    22.0826  -15.8267
+            9   C2y C    23.2700  -16.5106
+            10  C1x C    23.2700  -13.7750
+            11  C1z C    24.4505  -14.4589
+            12  C1y C    24.4448  -15.8267
+            13  C1x C    26.8138  -15.8368
+            14  C1x C    26.8197  -14.4689
+            15  C1y C    25.6382  -13.7801
+            16  C1c C    25.6439  -12.4122
+            17  C1b C    26.8217  -11.7302
+            18  C1b C    28.0031  -12.4142
+            19  C1b C    29.1844  -11.7370
+            20  C1d C    30.3657  -12.4209
+            21  C2b C    22.0904  -18.5652
+            22  C1a C    24.4385  -13.0911
+            23  C1a C    24.4603  -11.7265
+            24  C2b C    23.2399  -17.8599
+            25  O1a O    17.3358  -18.5974
+            26  C2a C    20.8806  -15.1704
+            27  C1a C    31.5993  -11.7107
+            28  C1a C    30.3643  -13.8008
+            29  O1a O    31.5732  -13.1181
+            30  O1a O    19.7098  -14.4292
+BOND        32
+            1     2   3 1
+            2    15  16 1
+            3     3   4 1
+            4    16  17 1
+            5     7   8 1
+            6    17  18 1
+            7     8   9 1
+            8    18  19 1
+            9     9  12 1
+            10   19  20 1
+            11    9  24 2
+            12   11  10 1
+            13   24  21 1
+            14   10   7 1
+            15    4   5 1
+            16   11  22 1 #Up
+            17    5   6 1
+            18   16  23 1 #Down
+            19    6   1 1
+            20    1   2 1
+            21   11  12 1
+            22   13  14 1
+            23   21   4 2
+            24   14  15 1
+            25   15  11 1
+            26    2  25 1 #Up
+            27   12  13 1
+            28    5  26 2
+            29   20  27 1
+            30   20  28 1
+            31   20  29 1
+            32    6  30 1 #Down
+///

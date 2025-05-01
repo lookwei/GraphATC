@@ -1,0 +1,97 @@
+ENTRY       D03517                      Drug
+NAME        Cipemastat (USAN/INN);
+            Trocade (TN)
+FORMULA     C22H36N4O5
+EXACT_MASS  436.2686
+MOL_WEIGHT  436.545
+EFFICACY    Antirheumatic, Cartilaage protectant, Matrix metalloproteinase inhibitor
+COMMENT     Cartilage protective agent in rheumatoid arthritis
+TARGET      MMP1 [HSA:4312] [KO:K01388]
+            MMP8 [HSA:4317] [KO:K01402]
+            MMP13 [HSA:4322] [KO:K07994]
+            MMP9 [HSA:4318] [KO:K01403]
+  PATHWAY   hsa04657(4312+4318+4322)  IL-17 signaling pathway
+            hsa04926(4312+4318+4322)  Relaxin signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Metallo peptidases
+                MMP1
+                 D03517  Cipemastat (USAN/INN)
+                MMP8
+                 D03517  Cipemastat (USAN/INN)
+                MMP9
+                 D03517  Cipemastat (USAN/INN)
+                MMP13
+                 D03517  Cipemastat (USAN/INN)
+DBLINKS     CAS: 190648-49-8
+            PubChem: 17397651
+            LigandBox: D03517
+            NIKKAJI: J846.779J
+ATOM        31
+            1   C1x C    36.8208  -15.9074
+            2   N1y N    36.8208  -17.2390
+            3   C1x C    37.9739  -17.9048
+            4   C1x C    39.1272  -17.2390
+            5   C1x C    39.1272  -15.9074
+            6   C1x C    37.9739  -15.2416
+            7   C5a C    35.6676  -17.9048
+            8   C1c C    34.5304  -17.2481
+            9   O5a O    35.6675  -19.2362
+            10  C1c C    33.4011  -17.9001
+            11  C1b C    34.5303  -15.1753
+            12  C5a C    32.2680  -17.2458
+            13  N1b N    31.1367  -17.8989
+            14  O5a O    32.2680  -15.9077
+            15  O1b O    30.0047  -17.2452
+            16  C1y C    35.7212  -14.4878
+            17  C1x C    36.9832  -15.0499
+            18  C1x C    37.9077  -14.0233
+            19  C1x C    37.2172  -12.8268
+            20  C1x C    35.8658  -13.1138
+            21  C1b C    33.4011  -19.3200
+            22  N1y N    32.1804  -20.0249
+            23  C5x C    30.7804  -20.0249
+            24  C1z C    30.3478  -21.3564
+            25  N1y N    31.4804  -22.1793
+            26  C5x C    32.6130  -21.3564
+            27  O5x O    29.9621  -18.8984
+            28  O5x O    33.9489  -21.7905
+            29  C1a C    31.4803  -23.5899
+            30  C1a C    29.1353  -20.6564
+            31  C1a C    29.6478  -22.5688
+BOND        33
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     7   9 2
+            10    8  10 1
+            11    8  11 1 #Up
+            12   10  12 1
+            13   12  13 1
+            14   12  14 2
+            15   13  15 1
+            16   11  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   16  20 1
+            22   10  21 1 #Down
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   22  26 1
+            29   23  27 2
+            30   26  28 2
+            31   25  29 1
+            32   24  30 1
+            33   24  31 1
+///

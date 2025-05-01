@@ -1,0 +1,131 @@
+ENTRY       C00187                      Compound
+NAME        Cholesterol;
+            Cholest-5-en-3beta-ol
+FORMULA     C27H46O
+EXACT_MASS  386.3549
+MOL_WEIGHT  386.6535
+REMARK      Same as: D00040
+REACTION    R01451 R01452 R01453 R01454 R01456 R01457 R01459 R01460 
+            R01461 R01462 R01463 R02692 R02723 R02724 R07207 R07218 
+            R08505 R08941 R08977 R09920 R11007 R11008 R12846
+PATHWAY     map00100  Steroid biosynthesis
+            map00120  Primary bile acid biosynthesis
+            map00140  Steroid hormone biosynthesis
+            map00981  Insect hormone biosynthesis
+            map00984  Steroid degradation
+            map00996  Biosynthesis of various alkaloids
+            map01066  Biosynthesis of alkaloids derived from terpenoid and polyketide
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map04148  Efferocytosis
+            map04913  Ovarian steroidogenesis
+            map04925  Aldosterone synthesis and secretion
+            map04927  Cortisol synthesis and secretion
+            map04934  Cushing syndrome
+            map04975  Fat digestion and absorption
+            map04976  Bile secretion
+            map04977  Vitamin digestion and absorption
+            map04979  Cholesterol metabolism
+            map05200  Pathways in cancer
+            map05217  Basal cell carcinoma
+            map05417  Lipid and atherosclerosis
+MODULE      M00101  Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol
+            M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+            M00107  Steroid hormone biosynthesis, cholesterol => pregnenolone => progesterone
+NETWORK     nt06019  Steroid hormone biosynthesis
+            nt06022  Bile acid biosynthesis
+            nt06034  Cholesterol biosynthesis
+            nt06535  Efferocytosis
+ENZYME      1.1.1.145       1.1.3.6         1.3.1.21        1.3.1.72        
+            1.14.13.-       1.14.14.23      1.14.14.25      1.14.14.-       
+            1.14.15.6       1.14.15.15      1.14.19.21      1.14.99.38      
+            2.3.1.26        2.3.1.73        2.8.2.2         2.8.2.14        
+            3.1.1.13        3.1.6.2         3.2.1.104       5.3.3.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              27-Carbon atoms
+               Cholestane derivatives
+                C00187  Cholesterol
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST01 Sterols
+               ST0101 Cholesterol and derivatives
+                C00187  Cholesterol
+            Phytochemical compounds [BR:br08003]
+             Terpenoids
+              Steroids
+               Cholestane
+                C00187  Cholesterol
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00040)]
+             Chemicals
+              D00040  Cholesterol
+DBLINKS     CAS: 57-88-5
+            PubChem: 3487
+            ChEBI: 16113
+            LIPIDMAPS: LMST01010001
+            KNApSAcK: C00003648
+            PDB-CCD: CLR
+            3DMET: B01181
+            NIKKAJI: J2.804E
+ATOM        28
+            1   C1y C    26.9810  -18.8588
+            2   C1y C    25.8103  -19.5344
+            3   C1z C    26.9810  -17.5075
+            4   C1x C    29.3223  -18.8588
+            5   C1y C    24.6454  -18.8588
+            6   C1x C    25.8044  -20.8857
+            7   C1y C    28.1634  -16.8320
+            8   C1x C    25.8103  -16.8320
+            9   C1a C    26.9751  -16.1563
+            10  C1x C    29.3223  -17.5075
+            11  C1z C    23.4631  -19.5344
+            12  C1x C    24.6454  -17.5075
+            13  C2x C    24.6454  -21.5613
+            14  C1c C    28.1634  -15.4807
+            15  C2y C    23.4631  -20.8857
+            16  C1x C    22.2983  -18.8588
+            17  C1a C    23.4514  -18.1832
+            18  C1b C    29.3573  -14.7934
+            19  C1a C    26.9634  -14.7877
+            20  C1x C    22.2983  -21.5613
+            21  C1x C    21.1276  -19.5344
+            22  C1b C    30.5513  -15.4864
+            23  C1y C    21.1276  -20.8857
+            24  C1b C    31.7453  -14.7934
+            25  O1a O    19.9453  -21.5613
+            26  C1c C    32.9451  -15.4864
+            27  C1a C    34.1391  -14.7992
+            28  C1a C    32.9393  -17.0763
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14   11  15 1
+            15   11  16 1
+            16   11  17 1 #Up
+            17   14  18 1
+            18   14  19 1 #Down
+            19   15  20 1
+            20   16  21 1
+            21   18  22 1
+            22   20  23 1
+            23   22  24 1
+            24   23  25 1 #Up
+            25   24  26 1
+            26   26  27 1
+            27   26  28 1
+            28    7  10 1
+            29    8  12 1
+            30   13  15 2
+            31   21  23 1
+///

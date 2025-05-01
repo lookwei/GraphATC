@@ -1,0 +1,163 @@
+ENTRY       D07945                      Drug
+NAME        Fenfluramine (INN);
+            Ponderax (TN)
+FORMULA     C12H16F3N
+EXACT_MASS  231.1235
+MOL_WEIGHT  231.2574
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG02919  CYP2B6 substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+REMARK      Same as: C06996
+            ATC code: A08AA02 N03AX26
+            Chemical structure group: DG00103
+            Product (DG00103): D04148<JP/US>
+EFFICACY    Appetite suppressant
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            HTR1D [HSA:3352] [KO:K04153]
+            HTR2A [HSA:3356] [KO:K04157]
+            HTR2C [HSA:3358] [KO:K04157]
+            SIGMAR1 [HSA:10280] [KO:K20719]
+  PATHWAY   hsa04080(3352+3356+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3352+3356+3358+6532)  Serotonergic synapse
+            hsa05022(10280)  Pathways of neurodegeneration - multiple diseases
+METABOLISM  Enzyme: CYP1A2 [HSA:1544], CYP2B6 [HSA:1555], CYP2D6 [HSA:1565]; CYP2C9 [HSA:1559], CYP2C19 [HSA:1557], CYP3A4 [HSA:1576], CYP3A5 [HSA:1577]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A08 ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+               A08A ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+                A08AA Centrally acting antiobesity products
+                 A08AA02 Fenfluramine
+                  D07945  Fenfluramine (INN)
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AX Other antiepileptics
+                 N03AX26 Fenfluramine
+                  D07945  Fenfluramine (INN)
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Anticonvulsants, Other
+               Fenfluramine
+                D07945  Fenfluramine (INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00103  Fenfluramine
+                 D07945  Fenfluramine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00103  Fenfluramine
+                D07945  Fenfluramine
+              DG02919  CYP2B6 substrate
+               DG00103  Fenfluramine
+                D07945  Fenfluramine
+              DG01642  CYP2C9 substrate
+               DG00103  Fenfluramine
+                D07945  Fenfluramine
+              DG01639  CYP2C19 substrate
+               DG00103  Fenfluramine
+                D07945  Fenfluramine
+              DG01644  CYP2D6 substrate
+               DG00103  Fenfluramine
+                D07945  Fenfluramine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00103  Fenfluramine
+                 D07945  Fenfluramine
+              DG02925  CYP3A5 substrate
+               DG00103  Fenfluramine
+                D07945  Fenfluramine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1D
+                 D07945  Fenfluramine (INN)
+                HTR2A
+                 D07945  Fenfluramine (INN)
+                HTR2C
+                 D07945  Fenfluramine (INN)
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A4 (HTT)
+                 D07945  Fenfluramine (INN)
+              Other transporters
+               Auxiliary transport proteins (TC:8.A)
+                SIGMAR1
+                 D07945  Fenfluramine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07945
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00103  Fenfluramine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00103  Fenfluramine
+              DG02919  CYP2B6 substrate
+               DG00103  Fenfluramine
+              DG01642  CYP2C9 substrate
+               DG00103  Fenfluramine
+              DG01639  CYP2C19 substrate
+               DG00103  Fenfluramine
+              DG01644  CYP2D6 substrate
+               DG00103  Fenfluramine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00103  Fenfluramine
+              DG02925  CYP3A5 substrate
+               DG00103  Fenfluramine
+DBLINKS     CAS: 458-24-2
+            PubChem: 96024640
+            ChEBI: 5000
+            LigandBox: D07945
+            NIKKAJI: J5.760F
+ATOM        16
+            1   C8y C    18.1300  -16.0300
+            2   C8x C    16.8700  -15.3300
+            3   C8x C    18.1300  -17.4300
+            4   C1b C    19.3200  -15.3300
+            5   C8y C    15.6100  -16.0300
+            6   C8x C    16.8700  -18.1300
+            7   C1c C    20.5800  -16.0300
+            8   C8x C    15.6100  -17.4300
+            9   C1d C    14.4200  -15.3300
+            10  N1b N    21.7700  -15.3300
+            11  C1a C    20.5800  -17.4300
+            12  X   F    13.0900  -14.5600
+            13  X   F    13.7900  -16.3800
+            14  X   F    15.1900  -14.2100
+            15  C1b C    23.0300  -16.0300
+            16  C1a C    24.2200  -15.3300
+BOND        16
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     7  10 1
+            10    7  11 1
+            11    9  12 1
+            12    9  13 1
+            13    9  14 1
+            14   10  15 1
+            15   15  16 1
+            16    6   8 1
+///

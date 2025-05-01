@@ -1,0 +1,120 @@
+ENTRY       D02016                      Drug
+NAME        Ramosetron hydrochloride (JAN);
+            YM 060;
+            Nasea (TN);
+            Irribow (TN)
+FORMULA     C17H17N3O. HCl
+EXACT_MASS  315.1138
+MOL_WEIGHT  315.7973
+CLASS       Gastrointestinal agent
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 2391 2399
+            Chemical structure group: DG01239
+            Product (DG01239): D02016<JP>
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              23  Digestive organ agents
+               239  Miscellaneous
+                2391  Antiemetics
+                 D02016  Ramosetron hydrochloride (JAN)
+                2399  Others
+                 D02016  Ramosetron hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG01239  Ramosetron
+                D02016  Ramosetron hydrochloride
+              DG01762  Antiemetic
+               DG01239  Ramosetron
+                D02016  Ramosetron hydrochloride
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01239  Ramosetron
+                D02016  Ramosetron hydrochloride
+              DG01644  CYP2D6 substrate
+               DG01239  Ramosetron
+                D02016  Ramosetron hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D02016  Ramosetron hydrochloride (JAN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02016
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG01239  Ramosetron
+              DG01762  Antiemetic
+               DG01239  Ramosetron
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01239  Ramosetron
+              DG01644  CYP2D6 substrate
+               DG01239  Ramosetron
+DBLINKS     CAS: 132907-72-3
+            PubChem: 7849078
+            ChEBI: 32088
+            LigandBox: D02016
+            NIKKAJI: J440.981G
+ATOM        22
+            1   X   Cl   21.3413   -6.1250
+            2   C1x C    12.9500   -3.9900
+            3   C1y C    12.9500   -5.3900
+            4   C5a C    14.1624   -6.0900
+            5   C8y C    15.3749   -5.3900
+            6   C8x C    15.3749   -3.9900
+            7   C1x C    11.7376   -3.2900
+            8   C8y C    10.5251   -3.9900
+            9   C8y C    10.5251   -5.3900
+            10  C1x C    11.7376   -6.0900
+            11  C8y C    16.7064   -5.8226
+            12  C8y C    17.5293   -4.6900
+            13  N4y N    16.7064   -3.5574
+            14  C8x C    17.2758   -7.1016
+            15  C8x C    18.6681   -7.2479
+            16  C8x C    19.4911   -6.1153
+            17  C8x C    18.9216   -4.8363
+            18  O5a O    14.1624   -7.4900
+            19  N5x N     9.1936   -3.5574
+            20  C8x C     8.3707   -4.6900
+            21  N4x N     9.1936   -5.8226
+            22  C1a C    17.4064   -2.3449
+BOND        24
+            1     2   3 1
+            2     3   4 1 #Up
+            3     4   5 1
+            4     5   6 2
+            5     2   7 1
+            6     7   8 1
+            7     8   9 2
+            8     9  10 1
+            9     3  10 1
+            10    5  11 1
+            11   11  12 2
+            12   12  13 1
+            13    6  13 1
+            14   11  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19    4  18 2
+            20    8  19 1
+            21   19  20 2
+            22   20  21 1
+            23    9  21 1
+            24   13  22 1
+///

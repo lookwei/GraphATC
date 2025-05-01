@@ -1,0 +1,90 @@
+ENTRY       D05575                      Drug
+NAME        Pramipexole (USAN/INN)
+FORMULA     C10H17N3S
+EXACT_MASS  211.1143
+MOL_WEIGHT  211.3271
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+             DG01967  Antiparkinson agent
+REMARK      ATC code: N04BC05
+            Chemical structure group: DG00863
+            Product (DG00863): D00559<JP/US>
+EFFICACY    Antiparkinsonian, Antidepressant, Dopamine receptor agonist
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            DRD3 [HSA:1814] [KO:K04146]
+            DRD4 [HSA:1815] [KO:K04147]
+  PATHWAY   hsa04080(1813+1814+1815)  Neuroactive ligand-receptor interaction
+            hsa04728(1813+1814+1815)  Dopaminergic synapse
+            hsa05012(1813)  Parkinson disease
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BC Dopamine agonists
+                 N04BC05 Pramipexole
+                  D05575  Pramipexole (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00863  Pramipexole
+                D05575  Pramipexole
+              DG01967  Antiparkinson agent
+               DG00863  Pramipexole
+                D05575  Pramipexole
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D05575  Pramipexole (USAN/INN)
+                DRD3
+                 D05575  Pramipexole (USAN/INN)
+                DRD4
+                 D05575  Pramipexole (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00863  Pramipexole
+              DG01967  Antiparkinson agent
+               DG00863  Pramipexole
+DBLINKS     CAS: 104632-26-0
+            PubChem: 47207239
+            ChEBI: 8356
+            PDB-CCD: G6L
+            LigandBox: D05575
+            NIKKAJI: J419.937E
+ATOM        14
+            1   C8y C    21.1335  -18.9431
+            2   C8y C    21.1744  -17.5455
+            3   N5x N    22.5777  -19.3681
+            4   C1x C    20.0330  -19.6475
+            5   C1x C    20.0274  -16.8467
+            6   S2x S    22.5720  -17.1086
+            7   C8y C    23.3987  -18.2384
+            8   C1x C    18.8276  -18.9548
+            9   C1y C    18.8219  -17.5513
+            10  N1a N    24.8023  -18.2793
+            11  N1b N    17.6048  -16.8524
+            12  C1b C    16.3936  -17.5572
+            13  C1b C    15.1884  -16.8583
+            14  C1a C    13.9771  -17.5629
+BOND        15
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     7  10 1
+            10    9  11 1 #Down
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14    6   7 1
+            15    8   9 1
+///

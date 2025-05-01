@@ -1,0 +1,151 @@
+ENTRY       D03359                      Drug
+NAME        Cangrelor (USAN/INN)
+FORMULA     C17H25Cl2F3N5O12P3S2
+EXACT_MASS  774.9483
+MOL_WEIGHT  776.3592
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+             DG01809  P2Y12 receptor antagonist
+REMARK      ATC code: B01AC25
+            Chemical structure group: DG01294
+            Product (DG01294): D03361<US>
+EFFICACY    Platelet aggregation inhibitor, Purinergic receptor P2Y12 antagonist
+TARGET      P2RY12 [HSA:64805] [KO:K04298]
+  PATHWAY   hsa04611(64805)  Platelet activation
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC25 Cangrelor
+                  D03359  Cangrelor (USAN/INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01294  Cangrelor
+                 D03359  Cangrelor
+              DG01809  P2Y12 receptor antagonist
+               DG01294  Cangrelor
+                D03359  Cangrelor
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Purine / pyrimidine
+                P2RY12
+                 D03359  Cangrelor (USAN/INN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D03359
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D03359
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D03359
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01294  Cangrelor
+              DG01809  P2Y12 receptor antagonist
+               DG01294  Cangrelor
+DBLINKS     CAS: 163706-06-7
+            PubChem: 17397508
+            ChEBI: 90841
+            LigandBox: D03359
+ATOM        44
+            1   C8y C    16.3800  -17.5000
+            2   N5x N    16.3800  -18.9000
+            3   C8y C    17.5700  -19.6000
+            4   C8y C    18.8300  -18.9000
+            5   C8y C    18.8300  -17.5000
+            6   N5x N    17.5700  -16.8000
+            7   N5x N    20.1600  -19.3200
+            8   C8x C    20.9300  -18.2000
+            9   N4y N    20.1600  -17.0800
+            10  S2a S    15.1900  -16.8000
+            11  C1b C    14.0000  -17.5000
+            12  C1b C    12.8100  -16.8000
+            13  C1d C    11.6200  -17.5000
+            14  N1b N    17.5700  -21.0000
+            15  C1b C    16.3800  -21.7000
+            16  C1y C    20.6500  -15.7500
+            17  O2x O    21.9800  -15.3300
+            18  C1y C    21.9800  -13.9300
+            19  C1y C    20.6500  -13.4400
+            20  C1y C    19.8100  -14.5600
+            21  O1a O    18.4100  -14.5600
+            22  O1a O    20.2300  -12.1100
+            23  P1b P    25.5500  -13.2300
+            24  O2b O    24.3600  -13.9300
+            25  C1b C    23.1700  -13.2300
+            26  C1b C    15.1900  -21.0000
+            27  S2a S    14.0000  -21.7000
+            28  C1a C    12.8100  -21.0000
+            29  X   F    10.4300  -18.2000
+            30  X   F    10.9200  -16.3100
+            31  X   F    12.3200  -18.6900
+            32  O2c O    26.7400  -13.9300
+            33  P1b P    27.9300  -13.2300
+            34  C1d C    29.1200  -13.9300
+            35  P1b P    30.3100  -13.2300
+            36  O1c O    31.5700  -13.9300
+            37  O1c O    25.5500  -11.8300
+            38  O1c O    25.5500  -14.6300
+            39  O1c O    27.9300  -11.8300
+            40  O1c O    27.9300  -14.6300
+            41  X   Cl   29.1200  -15.3300
+            42  X   Cl   29.1200  -12.5300
+            43  O1c O    30.3100  -11.8300
+            44  O1c O    30.3100  -14.6300
+BOND        46
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    1  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15    3  14 1
+            16   15  14 1
+            17   16   9 1 #Up
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   16  20 1
+            23   20  21 1 #Down
+            24   19  22 1 #Down
+            25   23  24 1
+            26   24  25 1
+            27   18  25 1 #Up
+            28   15  26 1
+            29   26  27 1
+            30   27  28 1
+            31   13  29 1
+            32   13  30 1
+            33   13  31 1
+            34   23  32 1
+            35   32  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 1
+            39   23  37 1
+            40   23  38 2
+            41   33  39 1
+            42   33  40 2
+            43   34  41 1
+            44   34  42 1
+            45   35  43 1
+            46   35  44 2
+///

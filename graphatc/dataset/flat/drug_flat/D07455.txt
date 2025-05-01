@@ -1,0 +1,101 @@
+ENTRY       D07455                      Drug
+NAME        Anagrelide (INN/BAN)
+FORMULA     C10H7Cl2N3O
+EXACT_MASS  254.9966
+MOL_WEIGHT  256.0881
+CLASS       Cardiovascular agent
+             DG01507  Phosphodiesterase III inhibitor
+            Metabolizing enzyme substrate
+             DG01891  CYP1A1 substrate
+             DG01892  CYP1A2 substrate
+REMARK      ATC code: L01XX35
+            Chemical structure group: DG00727
+            Product (DG00727): D10255<JP/US>
+EFFICACY    Thrombocythemia treatment, Platelet aggregation inhibitor, Phosphodiesterase inhibitor
+TARGET      PDE3 [HSA:5139 5140] [KO:K19021 K13296]
+  PATHWAY   hsa00230(5139+5140)  Purine metabolism
+METABOLISM  Enzyme: CYP1A1 [HSA:1543], CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX35 Anagrelide
+                  D07455  Anagrelide (INN/BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01507  Phosphodiesterase III inhibitor
+               DG00727  Anagrelide
+                D07455  Anagrelide
+             Metabolizing enzyme substrate
+              DG01891  CYP1A1 substrate
+               DG00727  Anagrelide
+                D07455  Anagrelide
+              DG01892  CYP1A2 substrate
+               DG00727  Anagrelide
+                D07455  Anagrelide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE3
+                 D07455  Anagrelide (INN/BAN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D07455
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07455
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01507  Phosphodiesterase III inhibitor
+               DG00727  Anagrelide
+             Metabolizing enzyme substrate
+              DG01891  CYP1A1 substrate
+               DG00727  Anagrelide
+              DG01892  CYP1A2 substrate
+               DG00727  Anagrelide
+DBLINKS     CAS: 68475-42-3
+            PubChem: 51091786
+            ChEBI: 142290
+            PDB-CCD: J33
+            LigandBox: D07455
+            NIKKAJI: J18.596E
+ATOM        16
+            1   N1y N    23.8000  -17.9200
+            2   C2y C    23.8000  -19.3200
+            3   N2x N    22.6100  -20.0200
+            4   C8y C    21.3500  -19.3200
+            5   C8y C    21.3500  -17.9200
+            6   C1x C    22.5400  -17.2200
+            7   C8y C    20.1600  -17.2200
+            8   C8y C    18.9000  -17.9200
+            9   C8x C    18.9000  -19.3200
+            10  C8x C    20.1600  -20.0200
+            11  X   Cl   20.1600  -15.8200
+            12  X   Cl   17.7100  -17.2200
+            13  N1x N    25.1300  -19.7400
+            14  C5x C    25.9000  -18.6200
+            15  C1x C    25.1300  -17.5000
+            16  O5x O    27.3000  -18.6200
+BOND        18
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   1 1
+            6     1   2 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10   4 1
+            12    7  11 1
+            13    8  12 1
+            14    2  13 1
+            15   13  14 1
+            16   14  15 1
+            17    1  15 1
+            18   14  16 2
+///

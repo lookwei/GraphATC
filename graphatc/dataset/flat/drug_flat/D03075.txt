@@ -1,0 +1,75 @@
+ENTRY       D03075                      Drug
+NAME        Bemoradan (USAN/INN)
+FORMULA     C13H13N3O3
+EXACT_MASS  259.0957
+MOL_WEIGHT  259.2606
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01758  Pimobendan type cardiotonic
+             DG01507  Phosphodiesterase III inhibitor
+              DG01758  Pimobendan type cardiotonic
+EFFICACY    Cardiotonic, Phosphodiesterase inhibitor
+TARGET      PDE [HSA:10846 27115 50940 5136 5137 5138 5139 5140 5141 5142 5143 5144 5150 5151 5153 8622] [KO:K18438 K18436 K13298 K13755 K18283 K19021 K13296 K13293 K18437]
+  PATHWAY   hsa04024(10846+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01758  Pimobendan type cardiotonic
+                D03075  Bemoradan
+              DG01507  Phosphodiesterase III inhibitor
+               DG01758  Pimobendan type cardiotonic
+                D03075  Bemoradan
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D03075  Bemoradan (USAN/INN)
+DBLINKS     CAS: 112018-01-6
+            PubChem: 17397230
+            LigandBox: D03075
+            NIKKAJI: J272.095G
+ATOM        19
+            1   C8y C    21.2541  -17.5243
+            2   O2x O    22.5204  -18.2981
+            3   C8y C    21.2541  -16.1173
+            4   C8x C    20.0582  -18.2278
+            5   C1x C    23.7163  -17.5946
+            6   C8x C    20.0582  -15.4138
+            7   N1x N    22.5204  -15.4842
+            8   C8y C    18.8623  -17.5243
+            9   C5x C    23.7163  -16.1877
+            10  C8x C    18.8623  -16.1173
+            11  C2y C    17.5960  -18.2278
+            12  C1y C    16.4001  -17.5243
+            13  O5x O    24.9122  -15.4842
+            14  C1x C    15.1820  -18.2144
+            15  C5x C    15.1706  -19.6143
+            16  N1x N    16.3665  -20.3178
+            17  N2x N    17.5846  -19.6277
+            18  C1a C    16.4120  -16.1004
+            19  O5x O    13.9733  -20.2926
+BOND        21
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     6  10 2
+            10    8  11 1
+            11    7   9 1
+            12    8  10 1
+            13   11  12 1
+            14    9  13 2
+            15   12  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   11  17 2
+            20   12  18 1
+            21   15  19 2
+///

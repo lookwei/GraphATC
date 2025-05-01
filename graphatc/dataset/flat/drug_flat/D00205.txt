@@ -1,0 +1,155 @@
+ENTRY       D00205                      Drug
+NAME        Oxytetracycline (JAN/USP/INN);
+            Oxytetracycline dihydrate;
+            Terramycin (TN)
+FORMULA     C22H24N2O9. 2H2O
+EXACT_MASS  496.1693
+MOL_WEIGHT  496.4645
+SOURCE      Streptomyces rimosus [TAX:1927]
+CLASS       Antibacterial
+             DG01197  Tetracycline antibiotic
+REMARK      ATC code: A01AB25 D06AA03 G01AA07 J01AA06 S01AA04
+            Chemical structure group: DG00397
+            Product (DG00397): D01596<JP>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07019  Tetracyclines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB25 Oxytetracycline
+                  D00205  Oxytetracycline (JAN/USP/INN)
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AA Tetracycline and derivatives
+                 D06AA03 Oxytetracycline
+                  D00205  Oxytetracycline (JAN/USP/INN)
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G01 GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+               G01A ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS
+                G01AA Antibiotics
+                 G01AA07 Oxytetracycline
+                  D00205  Oxytetracycline (JAN/USP/INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA06 Oxytetracycline
+                  D00205  Oxytetracycline (JAN/USP/INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA04 Oxytetracycline
+                  D00205  Oxytetracycline (JAN/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Oxytetracycline
+                D00205  Oxytetracycline (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00397  Oxytetracycline
+                D00205  Oxytetracycline
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D00205  Oxytetracycline (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00397  Oxytetracycline
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                DG00397  Oxytetracycline
+DBLINKS     CAS: 6153-64-6
+            PubChem: 7847273
+            LigandBox: D00205
+ATOM        35
+            1   C1y C    23.5228  -17.1261
+            2   C1z C    23.4995  -18.5006
+            3   C1y C    22.3405  -16.4272
+            4   C1y C    24.7225  -16.4505
+            5   C2y C    22.3112  -19.1762
+            6   C5x C    24.6818  -19.2054
+            7   O1a O    23.4878  -19.8693
+            8   C1y C    21.1349  -17.1028
+            9   O1a O    22.3288  -14.7610
+            10  C2y C    25.8990  -17.1553
+            11  N1c N    24.7400  -15.0760
+            12  C2y C    21.1232  -18.4773
+            13  O1a O    22.2996  -20.5566
+            14  C2y C    25.8814  -18.5355
+            15  O5x O    24.7284  -20.5799
+            16  C1z C    19.9467  -16.4038
+            17  O1a O    27.1104  -16.4854
+            18  C1a C    25.9456  -14.4004
+            19  C1a C    24.6817  -13.4103
+            20  C5x C    19.9350  -19.1645
+            21  C5a C    27.0696  -19.2403
+            22  C8y C    18.7470  -17.0911
+            23  C1a C    19.9526  -14.6095
+            24  C8y C    18.7411  -18.4715
+            25  O5x O    19.9293  -20.5449
+            26  N1a N    28.2693  -18.5705
+            27  O5a O    27.1163  -20.6206
+            28  C8x C    17.5530  -16.4038
+            29  C8y C    17.5530  -19.1588
+            30  C8x C    16.3591  -17.0911
+            31  C8x C    16.3591  -18.4715
+            32  O1a O    17.5588  -20.5390
+            33  O1a O    18.7342  -15.7038
+            34  O0  O    32.6282  -17.4422
+            35  O0  O    32.6282  -17.4422
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9     4  10 1
+            10    4  11 1 #Down
+            11    5  12 2
+            12    5  13 1
+            13    6  14 1
+            14    6  15 2
+            15    8  16 1
+            16   10  17 1
+            17   11  18 1
+            18   11  19 1
+            19   12  20 1
+            20   14  21 1
+            21   16  22 1
+            22   16  23 1 #Down
+            23   20  24 1
+            24   20  25 2
+            25   21  26 1
+            26   21  27 2
+            27   22  28 2
+            28   24  29 2
+            29   28  30 1
+            30   29  31 1
+            31   29  32 1
+            32    8  12 1
+            33   10  14 2
+            34   22  24 1
+            35   30  31 2
+            36   16  33 1 #Up
+BRACKET     1    30.9400  -18.4800   30.9400  -16.4500
+            1    33.3900  -16.4500   33.3900  -18.4800
+            1  2
+  ORIGINAL  1   36
+  REPEAT    1   37
+///

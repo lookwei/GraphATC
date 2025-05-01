@@ -1,0 +1,43 @@
+ENTRY       D11860            Mixture   Drug
+NAME        Butalbital, aspirin, caffeine and codeine;
+            Fiorinal with codeine (TN)
+PRODUCT
+  GENERIC   ASCOMP WITH CODEINE (Breckenridge Pharmaceutical)
+            ASCOMP WITH CODEINE (LGM PHARMA SOLUTIONS)
+            BUTALBITAL, ASPIRIN, CAFFEINE AND CODEINE PHOSPHATE (Amneal Pharmaceuticals NY LLC)
+            BUTALBITAL, ASPIRIN, CAFFEINE AND CODEINE PHOSPHATE (Bryant Ranch Prepack)
+            BUTALBITAL, ASPIRIN, CAFFEINE AND CODEINE PHOSPHATE (Lannett Company)
+COMPONENT   Butalbital [DR:D03182], Aspirin [DR:D00109], Caffeine [DR:D00528], (Codeine phosphate [DR:D02101] | Codeine [DR:D00195])
+CLASS       Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03189  UGT2B4 substrate
+              DG03190  UGT2B7 substrate
+REMARK      Product: D11860<US>
+EFFICACY    Analgesic
+COMMENT     Codeine is metabolized by UGT2B7, UGT2B4, CYP3A4 and CYP2D6.
+METABOLISM  Enzyme: UGT2B7 [HSA:7364], UGT2B4 [HSA:7363], CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       USP drug classification [BR:br08302]
+             Analgesics
+              Analgesics Combinations
+               Butalbital/ Aspirin/ Caffeine/ Codeine
+                D11860  Butalbital, aspirin, caffeine and codeine
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D11860  Butalbital, aspirin, caffeine and codeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D11860  Butalbital, aspirin, caffeine and codeine
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                D11860  Butalbital, aspirin, caffeine and codeine
+               DG03190  UGT2B7 substrate
+                D11860  Butalbital, aspirin, caffeine and codeine
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11860
+///

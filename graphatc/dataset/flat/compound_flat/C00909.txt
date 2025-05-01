@@ -1,0 +1,85 @@
+ENTRY       C00909                      Compound
+NAME        Leukotriene A4;
+            LTA4;
+            (7E,9E,11Z,14Z)-(5S,6S)-5,6-Epoxyeicosa-7,9,11,14-tetraenoic acid;
+            (7E,9E,11Z,14Z)-(5S,6S)-5,6-Epoxyeicosa-7,9,11,14-tetraenoate;
+            (7E,9E,11Z,14Z)-(5S,6S)-5,6-Epoxyicosa-7,9,11,14-tetraenoate;
+            (5S,6S,7E,9E,11Z,14Z)-5,6-Epoxyicosa-7,9,11,14-tetraenoate
+FORMULA     C20H30O3
+EXACT_MASS  318.2195
+MOL_WEIGHT  318.4504
+REACTION    R03057 R03058 R03059 R08527
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04726  Serotonergic synapse
+            map07034  Eicosanoids
+ENZYME      1.13.11.34      3.3.2.6         4.4.1.20
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Leukotrienes
+                C00909  Leukotriene A4
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0107 Epoxy fatty acids
+                C00909  (7E,9E,11Z,14Z)-(5S,6S)-5,6-Epoxyeicosa-7,9,11,14-tetraenoic acid
+              FA03 Eicosanoids
+               FA0302 Leukotrienes
+                C00909  Leukotriene A4
+DBLINKS     CAS: 72059-45-1
+            PubChem: 4164
+            ChEBI: 15651
+            LIPIDMAPS: LMFA03020023
+            PDB-CCD: DJ3
+            3DMET: B01350
+            NIKKAJI: J138.393K
+ATOM        23
+            1   C1y C    27.3203  -14.4276
+            2   C1y C    26.2601  -15.0393
+            3   O2x O    26.1730  -13.4439
+            4   C1b C    28.3979  -15.0452
+            5   C2b C    25.1883  -14.4276
+            6   C1b C    29.4581  -14.4336
+            7   C2b C    24.1222  -15.0393
+            8   C1b C    30.5299  -15.0452
+            9   C2b C    23.0505  -14.4276
+            10  C6a C    31.5959  -14.4336
+            11  C2b C    21.9787  -15.0336
+            12  O6a O    32.6734  -15.0510
+            13  O6a O    31.6016  -13.1695
+            14  C2b C    20.9126  -14.4219
+            15  C2b C    19.6836  -14.4276
+            16  C1b C    18.6234  -16.5014
+            17  C2b C    19.6078  -18.6101
+            18  C2b C    20.8428  -18.6044
+            19  C1b C    21.8971  -17.9868
+            20  C1b C    22.9806  -18.5985
+            21  C1b C    24.0348  -17.9694
+            22  C1b C    25.1183  -18.5868
+            23  C1a C    26.2135  -17.9403
+BOND        23
+            1     1   2 1
+            2     1   3 1 #Up
+            3     1   4 1
+            4     2   5 1
+            5     4   6 1
+            6     5   7 2
+            7     6   8 1
+            8     7   9 1
+            9     8  10 1
+            10    9  11 2
+            11   10  12 1
+            12   10  13 2
+            13   11  14 1
+            14   14  15 2
+            15   15  16 1
+            16   16  17 1
+            17   17  18 2
+            18   18  19 1
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   22  23 1
+            23    2   3 1 #Up
+///

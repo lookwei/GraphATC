@@ -1,0 +1,102 @@
+ENTRY       D08526                      Drug
+NAME        Spectinomycin (INN);
+            Adspec (TN);
+            Prospec (TN)
+FORMULA     C14H24N2O7
+EXACT_MASS  332.1584
+MOL_WEIGHT  332.3496
+SOURCE      Streptomyces spectabilis [TAX:68270]
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C02078
+            ATC code: J01XX04
+            Chemical structure group: DG00634
+            Product (DG00634): D00869<JP>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07021  Aminoglycosides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01X OTHER ANTIBACTERIALS
+                J01XX Other antibacterials
+                 J01XX04 Spectinomycin
+                  D08526  Spectinomycin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00634  Spectinomycin
+                D08526  Spectinomycin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D08526  Spectinomycin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00634  Spectinomycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                DG00634  Spectinomycin
+DBLINKS     CAS: 1695-77-8
+            PubChem: 96025211
+            ChEBI: 9215
+            PDB-CCD: SCM
+            LigandBox: D08526
+            NIKKAJI: J7.562K
+ATOM        23
+            1   C1y C    23.5200  -18.2000
+            2   C1y C    23.5200  -16.8000
+            3   C1y C    22.3300  -18.9000
+            4   O2x O    24.7100  -18.9000
+            5   O2x O    24.7100  -16.1000
+            6   C1y C    22.3300  -16.1000
+            7   C1y C    21.1400  -18.2000
+            8   N1b N    22.3300  -20.3000
+            9   C1z C    26.0400  -18.2700
+            10  C1y C    26.0400  -16.8000
+            11  C1y C    21.1400  -16.8000
+            12  O1a O    22.3300  -14.8400
+            13  O1a O    19.8800  -18.9000
+            14  C1a C    21.0700  -21.0000
+            15  C5x C    27.3000  -18.9000
+            16  O1a O    26.0400  -19.7400
+            17  O2x O    27.3000  -16.1000
+            18  N1b N    19.9500  -16.1000
+            19  C1x C    28.4900  -18.2700
+            20  O5x O    27.3000  -20.2300
+            21  C1y C    28.4900  -16.8000
+            22  C1a C    18.6900  -16.8000
+            23  C1a C    29.6800  -16.1000
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1 #Up
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Up
+            8     4   9 1
+            9     5  10 1
+            10    6  11 1
+            11    6  12 1 #Down
+            12    7  13 1 #Up
+            13    8  14 1
+            14    9  15 1
+            15    9  16 1 #Up
+            16   10  17 1
+            17   11  18 1 #Up
+            18   15  19 1
+            19   15  20 2
+            20   17  21 1
+            21   18  22 1
+            22   21  23 1 #Down
+            23    7  11 1
+            24    9  10 1
+            25   19  21 1
+///

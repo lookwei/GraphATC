@@ -1,0 +1,63 @@
+ENTRY       D05145                      Drug
+NAME        Neramexane mesylate (USAN)
+FORMULA     C11H23N. CH4SO3
+EXACT_MASS  265.1712
+MOL_WEIGHT  265.4127
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+EFFICACY    Antidepressant, Dementia therapeutic agent, NMDA receptor antagonist
+COMMENT     Treatment of depression, Alzheimer's disease, and pain
+TARGET      GRIN2B (NMDAR2B) [HSA:2904] [KO:K05210]
+  PATHWAY   hsa04080(2904)  Neuroactive ligand-receptor interaction
+            hsa04724(2904)  Glutamatergic synapse
+            hsa05034(2904)  Alcoholism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               D05145  Neramexane mesylate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN2B (NMDAR2B)
+                 D05145  Neramexane mesylate (USAN)
+DBLINKS     CAS: 457068-92-7
+            PubChem: 47206869
+            LigandBox: D05145
+ATOM        17
+            1   C1z C     8.5400  -14.4200
+            2   C1x C     8.5400  -15.8200
+            3   C1z C     9.7524  -16.5200
+            4   C1x C    10.9649  -15.8200
+            5   C1z C    10.9649  -14.4200
+            6   C1x C     9.7524  -13.7200
+            7   C1a C     8.7625  -17.5099
+            8   C1a C    10.7424  -17.5099
+            9   N1a N    12.1960  -13.7090
+            10  C1a C     7.3276  -13.7200
+            11  C1a C     7.3276  -15.1200
+            12  C1a C    12.1961  -15.1309
+            13  O1d O    17.3605  -14.8060
+            14  S4a S    17.3605  -16.2024
+            15  C1a C    15.9642  -16.2024
+            16  O1d O    18.7569  -16.2024
+            17  O1d O    17.3605  -17.5987
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     3   7 1
+            8     3   8 1
+            9     5   9 1
+            10    1  10 1
+            11    1  11 1
+            12    5  12 1
+            13   13  14 2
+            14   14  15 1
+            15   14  16 1
+            16   14  17 2
+///

@@ -1,0 +1,78 @@
+ENTRY       D03449                      Drug
+NAME        Cetamolol hydrochloride (USAN)
+FORMULA     C16H26N2O4. HCl
+EXACT_MASS  346.1659
+MOL_WEIGHT  346.8496
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+               DG01461  beta1-Adrenergic receptor antagonist
+EFFICACY    Antihypertensive, beta1-Adrenergic receptor antagonist
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 D03449  Cetamolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D03449  Cetamolol hydrochloride (USAN)
+DBLINKS     CAS: 77590-95-5
+            PubChem: 17397589
+            LigandBox: D03449
+            NIKKAJI: J311.693J
+ATOM        23
+            1   X   Cl   21.8400  -26.4600
+            2   C1b C    17.4300  -21.8400
+            3   O2a O    16.2400  -22.5400
+            4   C1b C    19.8100  -21.8400
+            5   C1c C    18.6200  -22.5400
+            6   O1a O    18.6200  -23.8700
+            7   N1b N    21.0000  -22.5400
+            8   C1d C    22.1200  -21.8400
+            9   C1a C    23.3100  -22.5400
+            10  C1a C    22.1200  -20.4400
+            11  C1a C    23.3800  -21.1400
+            12  C8y C    16.2463  -23.9336
+            13  C8y C    15.0296  -24.6435
+            14  C8x C    15.0359  -26.0434
+            15  C8x C    16.2515  -26.7380
+            16  C8x C    17.3983  -26.0281
+            17  C8x C    17.4619  -24.6281
+            18  O2a O    13.8280  -23.9568
+            19  C1b C    12.6499  -24.6440
+            20  C5a C    11.4479  -23.9570
+            21  N1b N    10.2699  -24.6440
+            22  C1a C     9.0680  -23.9569
+            23  O5a O    11.5114  -22.5405
+BOND        22
+            1     2   3 1
+            2     4   5 1
+            3     2   5 1
+            4     5   6 1
+            5     4   7 1
+            6     7   8 1
+            7     8   9 1
+            8     8  10 1
+            9     8  11 1
+            10    3  12 1
+            11   12  13 2
+            12   13  14 1
+            13   14  15 2
+            14   15  16 1
+            15   16  17 2
+            16   12  17 1
+            17   13  18 1
+            18   18  19 1
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   20  23 2
+///

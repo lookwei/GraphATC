@@ -1,0 +1,91 @@
+ENTRY       D02169                      Drug
+NAME        Croconazole hydrochloride (JP18);
+            Pilzcin (TN)
+FORMULA     C18H15ClN2O. HCl
+EXACT_MASS  346.064
+MOL_WEIGHT  347.2384
+CLASS       Antifungal
+             DG01883  Imidazole antifungal
+REMARK      Chemical structure group: DG01297
+EFFICACY    Antifungal, Ergosterol biosynthesis inhibitor
+COMMENT     Imidazole derivative
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+  PATHWAY   ko00100(K05917)  Steroid biosynthesis
+INTERACTION  
+STR_MAP     map07026  Antifungal agents
+BRITE       Drug groups [BR:br08330]
+             Antifungal
+              DG01883  Imidazole antifungal
+               DG01297  Croconazole
+                D02169  Croconazole hydrochloride
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Imidazole
+                D02169  Croconazole hydrochloride (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02169  Croconazole hydrochloride
+            Drug groups [BR:br08330]
+             Antifungal
+              DG01883  Imidazole antifungal
+               DG01297  Croconazole
+            Antimicrobials abbreviations [BR:br08327]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Imidazole
+                DG01297  Croconazole
+DBLINKS     CAS: 77174-66-4
+            PubChem: 7849230
+            LigandBox: D02169
+            NIKKAJI: J335.016I
+ATOM        23
+            1   C8x C    24.0097  -19.9517
+            2   C8x C    24.4299  -18.6445
+            3   N4y N    23.3095  -17.8043
+            4   C8x C    22.1890  -18.6445
+            5   N5x N    22.6092  -19.9517
+            6   C8y C    24.5232  -14.3497
+            7   C8y C    24.5232  -15.7036
+            8   C8x C    25.7370  -16.4505
+            9   C8x C    26.9508  -15.7503
+            10  C8x C    26.9508  -14.3497
+            11  C8x C    25.7370  -13.6028
+            12  C8x C    18.5010  -12.2490
+            13  C8x C    18.5010  -13.6495
+            14  C8x C    19.7148  -14.3497
+            15  C8y C    20.9286  -13.6495
+            16  C8x C    20.9286  -12.2490
+            17  C8y C    19.7148  -11.5487
+            18  C1b C    22.0957  -14.3497
+            19  O2a O    23.3095  -13.6028
+            20  C2c C    23.3095  -16.4038
+            21  C2a C    22.0957  -15.7036
+            22  X   Cl   19.7148  -10.1482
+            23  X   Cl   30.5899  -15.0033
+BOND        24
+            1    11   6 1
+            2     1   2 2
+            3     2   3 1
+            4     3   4 1
+            5     4   5 2
+            6     5   1 1
+            7    12  13 2
+            8    13  14 1
+            9    14  15 2
+            10   15  16 1
+            11   16  17 2
+            12   17  12 1
+            13    6   7 2
+            14   15  18 1
+            15    7   8 1
+            16   18  19 1
+            17   19   6 1
+            18    8   9 2
+            19    7  20 1
+            20   20   3 1
+            21    9  10 1
+            22   20  21 2
+            23   10  11 2
+            24   17  22 1
+///

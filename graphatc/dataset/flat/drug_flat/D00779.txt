@@ -1,0 +1,108 @@
+ENTRY       D00779                      Drug
+NAME        Biperiden (JAN/USP/INN);
+            Akineton (TN)
+FORMULA     C21H29NO
+EXACT_MASS  311.2249
+MOL_WEIGHT  311.4611
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+              DG01745  Anticholinergic antiparkinson agent
+             DG01967  Antiparkinson agent
+REMARK      Same as: C07941
+            ATC code: N04AA02
+            Chemical structure group: DG00852
+            Product (DG00852): D02246<JP> D02247<JP>
+EFFICACY    Antiparkinsonian, Muscarinic acetylcholine receptor antagonist
+COMMENT     Centrally active anticholinergic drugs
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+            map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04A ANTICHOLINERGIC AGENTS
+                N04AA Tertiary amines
+                 N04AA02 Biperiden
+                  D00779  Biperiden (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01745  Anticholinergic antiparkinson agent
+                DG00852  Biperiden
+                 D00779  Biperiden
+              DG01967  Antiparkinson agent
+               DG00852  Biperiden
+                D00779  Biperiden
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00779  Biperiden (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01745  Anticholinergic antiparkinson agent
+                DG00852  Biperiden
+              DG01967  Antiparkinson agent
+               DG00852  Biperiden
+DBLINKS     CAS: 514-65-8
+            PubChem: 7847844
+            ChEBI: 3112
+            LigandBox: D00779
+            NIKKAJI: J2.059A
+ATOM        23
+            1   C1y C    26.3034   -7.3312
+            2   C1d C    26.3034   -8.7346
+            3   C1y C    27.5665   -6.6295
+            4   C1x C    25.1105   -6.6295
+            5   C8y C    27.5665   -9.4363
+            6   C1b C    25.1105   -9.4363
+            7   C1x C    26.5841   -5.6471
+            8   C2x C    27.5665   -5.2260
+            9   C1y C    25.1105   -5.2260
+            10  C8x C    27.5665  -10.8397
+            11  C8x C    28.7594   -8.7346
+            12  C1b C    23.9176   -8.7346
+            13  C2x C    26.3736   -4.5243
+            14  C8x C    28.6892  -11.5414
+            15  C8x C    29.9523   -9.5065
+            16  N1y N    22.6545   -9.4363
+            17  C8x C    29.9523  -10.8397
+            18  C1x C    22.6545  -10.8397
+            19  C1x C    21.4616   -8.7346
+            20  C1x C    21.4616  -11.4713
+            21  C1x C    20.2687   -9.4363
+            22  C1x C    20.2687  -10.7696
+            23  O1a O    27.5188   -8.0329
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 1
+            12    8  13 2
+            13   10  14 2
+            14   11  15 1
+            15   12  16 1
+            16   14  17 1
+            17   16  18 1
+            18   16  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22    7   9 1
+            23    9  13 1
+            24   15  17 2
+            25   21  22 1
+            26    2  23 1
+///

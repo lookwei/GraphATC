@@ -1,0 +1,135 @@
+ENTRY       D00185                      Drug
+NAME        Estriol (JP18/USP);
+            Estriel (TN)
+FORMULA     C18H24O3
+EXACT_MASS  288.1725
+MOL_WEIGHT  288.3814
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+            Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+REMARK      Same as: C05141
+            Therapeutic category: 2475 2529
+            ATC code: G03CA04 G03CC06
+            Chemical structure group: DG00463
+            Product (DG00463): D00185<JP>
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+            hsa04961(2099)  Endocrine and other factor-regulated calcium reabsorption
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA04 Estriol
+                  D00185  Estriol (JP18/USP) &lt;JP&gt;
+                G03CC Estrogens, combinations with other drugs
+                 G03CC06 Estriol
+                  D00185  Estriol (JP18/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               247  Estrogen and progesterone preparations
+                2475  Estriols
+                 D00185  Estriol (JP18/USP)
+              25  Urogenital and anal organ agents
+               252  Genital organ agents
+                2529  Others
+                 D00185  Estriol (JP18/USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00463  Estriol
+                D00185  Estriol
+              DG01584  Estrogen receptor agonist
+               DG00463  Estriol
+                D00185  Estriol
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D00185  Estriol
+            Drug classes [BR:br08332]
+             Endocrine and hormonal agent
+              DG01986  Estrogen
+               D00185  Estriol
+              DG01584  Estrogen receptor agonist
+               D00185  Estriol
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D00185  Estriol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D00185  Estriol (JP18/USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00185  Estriol
+              D00185  Estriol tablets
+              D00185  Estriol injection (aqueous suspension)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00463  Estriol
+              DG01584  Estrogen receptor agonist
+               DG00463  Estriol
+DBLINKS     CAS: 50-27-1
+            PubChem: 7847253
+            ChEBI: 27974
+            PDB-CCD: ESL
+            LigandBox: D00185
+            NIKKAJI: J4.099A
+ATOM        21
+            1   C1y C    23.5304  -17.3600
+            2   C1y C    22.3397  -18.0510
+            3   C1z C    23.5304  -15.9842
+            4   C1x C    25.9056  -17.3661
+            5   C1y C    21.1551  -17.3723
+            6   C1x C    22.3460  -19.4205
+            7   C1y C    24.7273  -15.2932
+            8   C1x C    22.3336  -15.3055
+            9   C1a C    23.4255  -14.5838
+            10  C1y C    25.9119  -15.9904
+            11  C8y C    19.9768  -18.0572
+            12  C1x C    21.1675  -15.9287
+            13  C1x C    21.1614  -20.0992
+            14  O1a O    24.7273  -13.9544
+            15  O1a O    27.0779  -15.3241
+            16  C8y C    19.9768  -19.4145
+            17  C8x C    18.7985  -17.3908
+            18  C8x C    18.7985  -20.1054
+            19  C8x C    17.6386  -18.0572
+            20  C8y C    17.6386  -19.4145
+            21  O1a O    16.4726  -20.0807
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1 #Up
+            14   10  15 1 #Down
+            15   11  16 2
+            16   11  17 1
+            17   16  18 1
+            18   17  19 2
+            19   18  20 2
+            20   20  21 1
+            21    7  10 1
+            22    8  12 1
+            23   13  16 1
+            24   19  20 1
+///

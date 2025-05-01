@@ -1,0 +1,126 @@
+ENTRY       D01132                      Drug
+NAME        Tazarotene (JAN/USAN/INN);
+            Avage (TN);
+            Fabior (TN);
+            Tazorac (TN)
+PRODUCT     ARAZLO (Bausch Health US)
+            FABIOR (Mayne Pharma)
+            TAZORAC (Allergan)
+            TAZORAC (Almirall)
+            TAZORAC (Almirall)
+  GENERIC   TAZAROTENE (Cosette Pharmaceuticals)
+            TAZAROTENE (Cosette Pharmaceuticals)
+            TAZAROTENE (Cosette Pharmaceuticals)
+            TAZAROTENE (Mayne Pharma)
+            TAZAROTENE (Mayne Pharma)
+            TAZAROTENE (Pacific Pharma)
+            TAZAROTENE (Padagis Israel Pharmaceuticals)
+            TAZAROTENE (Solaris Pharma Corporation)
+            TAZAROTENE (Taro Pharmaceuticals U.S.A.)
+            TAZAROTENE (Taro Pharmaceuticals U.S.A.)
+FORMULA     C21H21NO2S
+EXACT_MASS  351.1293
+MOL_WEIGHT  351.4619
+CLASS       Vitamin and mineral
+             DG01604  Retinol derivative
+REMARK      Same as: C12531
+            ATC code: D05AX05
+            Product: D01132<US>
+            Product (mixture): D11932<US>
+EFFICACY    Anti-acne, Antipsoriatic, Keratolytic, Retinoic acid receptor (RAR) agonist
+  DISEASE   Plaque psoriasis [DS:H01656]
+            Acne vulgaris [DS:H01445]
+COMMENT     Active form of prodrug: Tazarotenic acid [CPD:C21518]
+            Carotenoid derivative
+TARGET      NR1B (RAR) [HSA:5914 5915 5916] [KO:K08527 K08528 K08529]
+            NR2B2 (RXRB) [HSA:6257] [KO:K08525]
+  PATHWAY   hsa04659(5914+6257)  Th17 cell differentiation
+STR_MAP     map07223  Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D05 ANTIPSORIATICS
+               D05A ANTIPSORIATICS FOR TOPICAL USE
+                D05AX Other antipsoriatics for topical use
+                 D05AX05 Tazarotene
+                  D01132  Tazarotene (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Acne and Rosacea Agents
+               Retinoids
+                Tazarotene
+                 D01132  Tazarotene (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Vitamin and mineral
+              DG01604  Retinol derivative
+               D01132  Tazarotene
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Retinoic acid receptor (RAR)
+                NR1B (RAR)
+                 D01132  Tazarotene (JAN/USAN/INN) &lt;US&gt;
+              Hepatocyte nuclear factor 4 like receptors
+               Retinoid X receptor (RXR)
+                NR2B2 (RXRB)
+                 D01132  Tazarotene (JAN/USAN/INN) &lt;US&gt;
+            Prodrugs [br08324.html]
+             D01132
+DBLINKS     CAS: 118292-40-3
+            PubChem: 7848195
+            ChEBI: 32184
+            LigandBox: D01132
+ATOM        25
+            1   C8y C    26.8694  -16.3717
+            2   C8x C    28.0726  -17.0781
+            3   C8x C    29.2881  -16.3833
+            4   C8y C    29.2941  -14.9831
+            5   C8x C    28.0845  -14.2777
+            6   N5x N    26.8689  -14.9727
+            7   C7a C    30.5096  -14.2881
+            8   O7a O    31.7192  -14.9934
+            9   O6a O    30.5157  -12.8879
+            10  C1b C    32.9349  -14.2984
+            11  C1a C    34.1445  -15.0038
+            12  C1x C    18.3938  -18.4674
+            13  C1x C    18.3938  -19.8676
+            14  S2x S    19.6093  -20.5677
+            15  C1z C    19.6093  -17.7673
+            16  C8y C    20.8177  -18.4674
+            17  C8y C    20.8116  -19.8676
+            18  C8x C    22.0212  -20.5728
+            19  C8x C    23.2369  -19.8780
+            20  C8y C    23.2428  -18.4778
+            21  C8x C    22.0332  -17.7724
+            22  C1a C    20.5930  -16.7702
+            23  C1a C    18.6059  -16.7702
+            24  C3b C    24.4584  -17.7830
+            25  C3b C    25.6634  -17.0742
+BOND        27
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   1 1
+            6     4   7 1
+            7     7   8 1
+            8     7   9 2
+            9     8  10 1
+            10   10  11 1
+            11   13  14 1
+            12   14  17 1
+            13   16  15 1
+            14   15  12 1
+            15   16  17 2
+            16   17  18 1
+            17   18  19 2
+            18   19  20 1
+            19   20  21 2
+            20   21  16 1
+            21   15  22 1
+            22   12  13 1
+            23   15  23 1
+            24   20  24 1
+            25    1   2 2
+            26   24  25 3
+            27   25   1 1
+///

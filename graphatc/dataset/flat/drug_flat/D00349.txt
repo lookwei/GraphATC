@@ -1,0 +1,124 @@
+ENTRY       D00349                      Drug
+NAME        Isradipine (USP/INN);
+            Dynacirc (TN)
+PRODUCT
+  GENERIC   ISRADIPINE (Actavis Pharma)
+            ISRADIPINE (AvKARE)
+            ISRADIPINE (Elite Laboratories)
+            ISRADIPINE (Epic Pharma)
+FORMULA     C19H21N3O5
+EXACT_MASS  371.1481
+MOL_WEIGHT  371.3871
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+REMARK      ATC code: C08CA03
+            Product: D00349<US>
+EFFICACY    Antihypertensive, Calcium channel blocker
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA03 Isradipine
+                  D00349  Isradipine (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Calcium Channel Blocking Agents, Dihydropyridines
+               Isradipine
+                D00349  Isradipine (USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                D00349  Isradipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D00349  Isradipine
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01928  Dihydropyridine calcium channel blocker
+               D00349  Isradipine
+              DG03231  Antihypertensive
+               D00349  Isradipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D00349  Isradipine (USP/INN) &lt;US&gt;
+DBLINKS     CAS: 75695-93-1
+            PubChem: 7847415
+            ChEBI: 6073
+            LigandBox: D00349
+            NIKKAJI: J33.142B
+ATOM        27
+            1   C1y C     7.0000  -13.1600
+            2   C2y C     8.1900  -12.4600
+            3   C2y C     5.8100  -12.4600
+            4   C8y C     7.0000  -15.5400
+            5   C2y C     8.1900  -11.1300
+            6   C7a C     9.3800  -13.1600
+            7   C2y C     5.8100  -11.1300
+            8   C7a C     4.6900  -13.0900
+            9   C8x C     8.1900  -16.2400
+            10  C8y C     5.8100  -16.2400
+            11  N1x N     7.0000  -10.4300
+            12  C1a C     9.3800  -10.4300
+            13  O7a O    10.5000  -12.4600
+            14  O6a O     9.3800  -14.4900
+            15  C1a C     4.6900  -10.4300
+            16  O7a O     3.5000  -12.4600
+            17  O6a O     4.6900  -14.4900
+            18  C8x C     8.1900  -17.5000
+            19  C8y C     5.8100  -17.5000
+            20  C1c C    11.6900  -13.1600
+            21  C1a C     2.3100  -13.0900
+            22  C8x C     7.0000  -18.2000
+            23  C1a C    12.9081  -12.4699
+            24  C1a C    11.6786  -14.5600
+            25  N5x N     4.6117  -15.8506
+            26  O2x O     3.8710  -16.8700
+            27  N5x N     4.6117  -17.8894
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    6  14 2
+            14    7  15 1
+            15    8  16 1
+            16    8  17 2
+            17    9  18 1
+            18   10  19 1
+            19   13  20 1
+            20   16  21 1
+            21   18  22 2
+            22    7  11 1
+            23   19  22 1
+            24   20  23 1
+            25   20  24 1
+            26   10  25 2
+            27   25  26 1
+            28   26  27 1
+            29   19  27 2
+///

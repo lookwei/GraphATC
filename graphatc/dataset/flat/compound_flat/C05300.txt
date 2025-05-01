@@ -1,0 +1,74 @@
+ENTRY       C05300                      Compound
+NAME        16alpha-Hydroxyestrone
+FORMULA     C18H22O3
+EXACT_MASS  286.1569
+MOL_WEIGHT  286.3655
+REACTION    R02356 R04681 R04682
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+ENZYME      1.1.1.62        1.14.14.1       1.14.14.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Steroid hormones
+               Estrogens
+                C05300  16alpha-Hydroxyestrone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0201 C18 steroids (estrogens) and derivatives
+                C05300  16alpha-Hydroxyestrone
+DBLINKS     CAS: 566-76-7
+            PubChem: 7684
+            ChEBI: 776
+            LIPIDMAPS: LMST02010041
+            PDB-CCD: J2Z
+            3DMET: B01840
+            NIKKAJI: J130.683I
+ATOM        21
+            1   C8x C    14.5392  -17.1880
+            2   C8y C    14.5392  -18.5515
+            3   C8x C    15.7200  -19.2333
+            4   C8y C    16.9010  -18.5515
+            5   C8y C    16.9010  -17.1880
+            6   C8x C    15.7200  -16.5062
+            7   C1x C    18.0818  -19.2333
+            8   C1x C    19.2627  -18.5515
+            9   C1y C    19.2627  -17.1880
+            10  C1y C    18.0818  -16.5062
+            11  C1y C    20.4436  -16.5062
+            12  C1z C    20.4436  -15.1426
+            13  C1x C    19.2627  -14.4608
+            14  C1x C    18.0818  -15.1426
+            15  C1x C    22.8053  -16.5062
+            16  C1y C    22.8053  -15.1426
+            17  C5x C    21.6245  -14.4608
+            18  C1a C    20.4436  -13.7791
+            19  O5x O    21.6245  -13.0973
+            20  O1a O    13.3583  -19.2333
+            21  O1a O    23.9737  -14.4680
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   12  18 1 #Up
+            22   17  19 2
+            23    2  20 1
+            24   16  21 1 #Down
+///

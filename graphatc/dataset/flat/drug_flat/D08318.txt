@@ -1,0 +1,95 @@
+ENTRY       D08318                      Drug
+NAME        Oxprenolol (INN);
+            Oxprenolol (TN)
+FORMULA     C15H23NO3
+EXACT_MASS  265.1678
+MOL_WEIGHT  265.348
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+REMARK      ATC code: C07AA02
+            Chemical structure group: DG00304
+EFFICACY    Antiarrhythmic, Vasodilator, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA02 Oxprenolol
+                  D08318  Oxprenolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00304  Oxprenolol
+                 D08318  Oxprenolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00304  Oxprenolol
+                 D08318  Oxprenolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D08318  Oxprenolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00304  Oxprenolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00304  Oxprenolol
+DBLINKS     CAS: 6452-71-7
+            PubChem: 96025005
+            LigandBox: D08318
+            NIKKAJI: J8.410G
+ATOM        19
+            1   O2a O    20.3700  -15.6800
+            2   C1b C    21.5600  -14.9800
+            3   C1c C    22.8200  -15.6800
+            4   C1b C    24.0100  -14.9800
+            5   N1b N    25.2000  -15.6800
+            6   C1c C    26.4600  -14.9800
+            7   C1a C    27.6500  -15.6800
+            8   O1a O    22.8200  -17.0800
+            9   C1a C    26.4600  -13.5800
+            10  C8y C    20.3700  -17.0800
+            11  C8y C    19.1100  -17.7800
+            12  C8x C    19.1100  -19.1800
+            13  C8x C    20.3700  -19.8800
+            14  C8x C    21.5600  -19.1800
+            15  C8x C    21.5600  -17.7800
+            16  O2a O    17.9200  -17.0800
+            17  C1b C    16.7300  -17.7800
+            18  C2b C    15.5400  -17.0800
+            19  C2a C    14.3500  -17.7800
+BOND        19
+            1     3   4 1
+            2     4   5 1
+            3     5   6 1
+            4     6   7 1
+            5     3   8 1
+            6     6   9 1
+            7     1   2 1
+            8     2   3 1
+            9     1  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   11  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 2
+///

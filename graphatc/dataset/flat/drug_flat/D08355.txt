@@ -1,0 +1,96 @@
+ENTRY       D08355                      Drug
+NAME        Pheniramine (INN)
+FORMULA     C16H20N2
+EXACT_MASS  240.1626
+MOL_WEIGHT  240.3434
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: D04AA16 R06AB05
+            Chemical structure group: DG01100
+EFFICACY    Antiallergic, H1 receptor antagonist
+COMMENT     Pheniramine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AA Antihistamines for topical use
+                 D04AA16 Pheniramine
+                  D08355  Pheniramine (INN)
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AB Substituted alkylamines
+                 R06AB05 Pheniramine
+                  D08355  Pheniramine (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Pheniramine
+                D08355  Pheniramine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01100  Pheniramine
+                 D08355  Pheniramine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D08355  Pheniramine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01100  Pheniramine
+DBLINKS     CAS: 86-21-5
+            PubChem: 96025042
+            LigandBox: D08355
+            NIKKAJI: J4.935B
+ATOM        18
+            1   C8x C    27.8600  -19.3900
+            2   C8x C    27.8600  -20.7900
+            3   C8x C    26.6700  -21.4900
+            4   C8x C    25.4100  -20.7900
+            5   C8y C    25.4100  -19.3900
+            6   N5x N    26.6700  -18.6900
+            7   C1c C    24.2200  -18.6900
+            8   C8y C    22.9600  -19.3900
+            9   C1b C    24.2200  -17.2900
+            10  C8x C    22.9600  -20.7900
+            11  C8x C    21.7700  -21.4900
+            12  C8x C    20.5100  -20.7900
+            13  C8x C    20.5100  -19.3900
+            14  C8x C    21.7700  -18.6900
+            15  C1b C    25.4100  -16.5900
+            16  N1c N    25.4100  -15.1200
+            17  C1a C    26.6700  -14.4200
+            18  C1a C    24.2200  -14.4200
+BOND        19
+            1    10  11 1
+            2    11  12 2
+            3    12  13 1
+            4    13  14 2
+            5    14   8 1
+            6     9  15 1
+            7     5   7 1
+            8    15  16 1
+            9    16  17 1
+            10    7   8 1
+            11   16  18 1
+            12    1   2 2
+            13    7   9 1
+            14    2   3 1
+            15    3   4 2
+            16    4   5 1
+            17    5   6 2
+            18    6   1 1
+            19    8  10 2
+///

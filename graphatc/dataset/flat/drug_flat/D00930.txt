@@ -1,0 +1,129 @@
+ENTRY       D00930                      Drug
+NAME        Paricalcitol (JAN/USP/INN);
+            Zemplar (TN)
+PRODUCT     PARICALCITOL (Accord Healthcare)
+            PARICALCITOL (West-Ward Pharmaceuticals Corp)
+            ZEMPLAR (AbbVie)
+            ZEMPLAR (AbbVie)
+  GENERIC   PARICALCITOL (Amneal Pharmaceuticals LLC)
+            PARICALCITOL (Amneal Pharmaceuticals LLC)
+            PARICALCITOL (AuroMedics Pharma LLC)
+            PARICALCITOL (Aurobindo Pharma Limited)
+            PARICALCITOL (Bionpharma)
+            PARICALCITOL (Bryant Ranch Prepack)
+            PARICALCITOL (Bryant Ranch Prepack)
+            PARICALCITOL (Bryant Ranch Prepack)
+            PARICALCITOL (Bryant Ranch Prepack)
+            PARICALCITOL (Dr. Reddy's Laboratories Limited)
+            PARICALCITOL (Dr. Reddy's Laboratories)
+            PARICALCITOL (MARKSANS PHARMA LIMITED)
+            PARICALCITOL (Mylan Institutional LLC)
+            PARICALCITOL (TIME CAP LABORATORIES)
+            PARICALCITOL (Zydus Pharmaceuticals USA)
+FORMULA     C27H44O3
+EXACT_MASS  416.329
+MOL_WEIGHT  416.6365
+CLASS       Gastrointestinal agent
+             DG01607  Vitamin D derivatives
+REMARK      Same as: C08127
+            ATC code: H05BX02
+            Product: D00930<US>
+EFFICACY    Antihyperparathyroidism, Vitamin D receptor agonist
+  DISEASE   Secondary hyperparathyroidism [DS:H01699]
+COMMENT     Vitamin D analog
+            Treatment of osteodystrophy (for the reduction of parathyroid hormone levels)
+TARGET      NR1I1 (VDR) [HSA:7421] [KO:K08539]
+  PATHWAY   hsa04928(7421)  Parathyroid hormone synthesis, secretion and action
+            hsa04961(7421)  Endocrine and other factor-regulated calcium reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H05 CALCIUM HOMEOSTASIS
+               H05B ANTI-PARATHYROID AGENTS
+                H05BX Other anti-parathyroid agents
+                 H05BX02 Paricalcitol
+                  D00930  Paricalcitol (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Metabolic Bone Disease Agents
+              Vitamin D-related Agents
+               Paricalcitol
+                D00930  Paricalcitol (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01607  Vitamin D derivatives
+               D00930  Paricalcitol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Vitamin D3 like receptor
+                NR1I1 (VDR)
+                 D00930  Paricalcitol (JAN/USP/INN) &lt;US&gt;
+DBLINKS     CAS: 131918-61-1
+            PubChem: 7847993
+            ChEBI: 7931
+            LigandBox: D00930
+ATOM        30
+            1   C1x C    14.1400  -22.7500
+            2   C1x C    14.1400  -24.1500
+            3   C2y C    15.3524  -24.8500
+            4   C1y C    16.5649  -24.1500
+            5   C1z C    16.5649  -22.7500
+            6   C1x C    15.3524  -22.0500
+            7   C1x C    17.8964  -24.5826
+            8   C1x C    18.7193  -23.4500
+            9   C1y C    17.8964  -22.3174
+            10  C1a C    16.5649  -21.3500
+            11  C2b C    15.3524  -26.2498
+            12  C2b C    14.1232  -26.9597
+            13  C2y C    14.1234  -28.3499
+            14  C1x C    12.9235  -29.0430
+            15  C1y C    12.9238  -30.4430
+            16  C1x C    14.1364  -31.1427
+            17  C1y C    15.3363  -30.4496
+            18  C1x C    15.3360  -29.0496
+            19  O1a O    16.5443  -31.1468
+            20  O1a O    11.7284  -31.1338
+            21  C1c C    18.3275  -20.9906
+            22  C2b C    19.7275  -20.9906
+            23  C1a C    17.5135  -19.8700
+            24  C2b C    20.4266  -19.7799
+            25  C1c C    21.8397  -19.7797
+            26  C1a C    22.5533  -21.0147
+            27  C1d C    22.5265  -18.5899
+            28  O1a O    23.9397  -18.5895
+            29  C1a C    21.8427  -17.4060
+            30  C1a C    23.2432  -19.8306
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1
+            11    5  10 1 #Up
+            12    3  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+            21   17  19 1 #Up
+            22   15  20 1 #Down
+            23    9  21 1
+            24   21  22 1
+            25   21  23 1 #Down
+            26   22  24 2
+            27   24  25 1
+            28   25  26 1 #Up
+            29   25  27 1
+            30   27  28 1
+            31   27  29 1
+            32   27  30 1
+///

@@ -1,0 +1,79 @@
+ENTRY       D02385                      Drug
+NAME        Levcromakalim (USAN/INN);
+            Lemakalim
+FORMULA     C16H18N2O3
+EXACT_MASS  286.1317
+MOL_WEIGHT  286.3257
+CLASS       Cardiovascular agent
+             DG01583  ATP-sensitive potassium channel opener
+REMARK      Same as: C11697
+EFFICACY    Antiasthmatic, Antihypertensive
+TARGET      ABCC8(SUR1)/KCNJ11(KIR6.2) [HSA:6833 3767] [KO:K05032 K05004]
+            ABCC9(SUR2)/KCNJ11(KIR6.2) [HSA:10060 3767] [KO:K05033 K05004]
+  PATHWAY   hsa02010(6833+10060)  ABC transporters
+STR_MAP     map07232  Potassium channel blocking and opening drugs
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01583  ATP-sensitive potassium channel opener
+               D02385  Levcromakalim
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8(SUR1)/KCNJ11(KIR6.2)
+                 D02385  Levcromakalim (USAN/INN)
+                ABCC9(SUR2)/KCNJ11(KIR6.2)
+                 D02385  Levcromakalim (USAN/INN)
+DBLINKS     CAS: 94535-50-9
+            PubChem: 7849444
+            ChEBI: 6436
+            PDB-CCD: ETJ
+            LigandBox: D02385
+            NIKKAJI: J257.580I
+ATOM        21
+            1   O2x O    18.8220  -15.3856
+            2   C1z C    20.0267  -14.6877
+            3   C1y C    20.0267  -13.2917
+            4   C1y C    18.8220  -12.5938
+            5   N1y N    18.8237  -11.1979
+            6   C5x C    19.9576  -10.3721
+            7   C1x C    19.5280   -9.0438
+            8   C1x C    18.1321   -9.0421
+            9   C1x C    17.6990  -10.3692
+            10  O5x O    21.1921  -10.9896
+            11  C8y C    17.6101  -14.6877
+            12  C8y C    17.6101  -13.2917
+            13  C8x C    16.4012  -12.5938
+            14  C8y C    15.1922  -13.2917
+            15  C8x C    15.1922  -14.6877
+            16  C8x C    16.4012  -15.3856
+            17  C3b C    13.9836  -12.5938
+            18  N3a N    12.7850  -11.8747
+            19  C1a C    21.1894  -15.5709
+            20  C1a C    21.2734  -14.0291
+            21  O1a O    21.2360  -12.5481
+BOND        23
+            1     4  12 1
+            2     6  10 2
+            3     4   5 1 #Up
+            4    11   1 1
+            5     1   2 1
+            6     2   3 1
+            7     3   4 1
+            8    11  12 1
+            9    12  13 2
+            10   13  14 1
+            11   14  15 2
+            12   15  16 1
+            13   16  11 2
+            14    5   6 1
+            15   14  17 1
+            16    6   7 1
+            17   17  18 3
+            18    7   8 1
+            19    2  19 1
+            20    8   9 1
+            21    2  20 1
+            22    9   5 1
+            23    3  21 1 #Down
+///

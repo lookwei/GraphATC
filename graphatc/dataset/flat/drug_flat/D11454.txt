@@ -1,0 +1,94 @@
+ENTRY       D11454                      Drug
+NAME        Repotrectinib (JAN/USAN)
+FORMULA     C18H18FN5O2
+EXACT_MASS  355.1445
+MOL_WEIGHT  355.3662
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+TARGET      ROS1 [HSA:6098] [KO:K05088]
+            NTRK1 (TRKA) [HSA:4914] [KO:K03176]
+            NTRK3 (TRKC) [HSA:4916] [KO:K05101]
+            ALK (CD246) [HSA:238] [KO:K05119]
+  PATHWAY   hsa04722(4914+4916)  Neurotrophin signaling pathway
+            hsa05200(238+4914)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               D11454  Repotrectinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               INSR family
+                ROS1
+                 D11454  Repotrectinib (JAN/USAN)
+               TRK family
+                NTRK1 (TRKA)
+                 D11454  Repotrectinib (JAN/USAN)
+                NTRK3 (TRKC)
+                 D11454  Repotrectinib (JAN/USAN)
+               ALK family
+                ALK (CD246)
+                 D11454  Repotrectinib (JAN/USAN)
+DBLINKS     CAS: 1802220-02-5
+            PubChem: 384585431
+            PDB-CCD: 7GI
+ATOM        26
+            1   C8y C    35.4458  -15.7906
+            2   N4y N    35.4458  -14.3936
+            3   C8x C    34.1884  -13.6951
+            4   C8x C    32.9311  -14.3936
+            5   C8y C    32.9311  -15.7906
+            6   N5x N    34.1884  -16.4891
+            7   N1x N    35.4458  -18.5847
+            8   C5x C    36.6332  -17.8862
+            9   C8y C    36.6332  -16.4891
+            10  N1x N    31.7436  -16.4891
+            11  C1y C    31.7436  -17.8862
+            12  C1x C    35.4458  -19.9817
+            13  O2x O    32.9311  -19.9817
+            14  C1y C    34.1884  -20.6802
+            15  C8y C    31.5341  -19.9817
+            16  C8y C    31.1848  -18.6545
+            17  C8x C    37.6112  -15.1619
+            18  N5x N    36.6332  -13.8348
+            19  C8x C    29.8576  -18.3053
+            20  C8y C    28.8099  -19.2832
+            21  C8x C    29.2290  -20.6104
+            22  C8x C    30.5562  -20.9596
+            23  X   F    27.4827  -18.8641
+            24  O5x O    37.8207  -18.5847
+            25  C1a C    34.1884  -22.0773
+            26  C1a C    33.0537  -18.3129
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     1   9 2
+            10    5  10 1
+            11   10  11 1
+            12   12   7 1
+            13   13  14 1
+            14   12  14 1
+            15   13  15 1
+            16   15  16 1
+            17   16  11 1
+            18    9  17 1
+            19   17  18 2
+            20   18   2 1
+            21   16  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   15  22 2
+            26   20  23 1
+            27    8  24 2
+            28   14  25 1 #Down
+            29   11  26 1 #Down
+///

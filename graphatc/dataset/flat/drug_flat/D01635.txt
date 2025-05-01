@@ -1,0 +1,80 @@
+ENTRY       D01635                      Drug
+NAME        Methoxyphenamine hydrochloride (JAN);
+            Phenamine (TN)
+FORMULA     C11H17NO. HCl
+EXACT_MASS  215.1077
+MOL_WEIGHT  215.7197
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      ATC code: R03CB02
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CB Non-selective beta-adrenoreceptor agonists
+                 R03CB02 Methoxyphenamine
+                  D01635  Methoxyphenamine hydrochloride (JAN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for respiratory organs
+              26 Antitussives and expectorants
+               D01635  Methoxyphenamine hydrochloride (JAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Methoxyphenamine
+                D01635  Methoxyphenamine hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 D01635  Methoxyphenamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D01635  Methoxyphenamine hydrochloride (JAN)
+DBLINKS     CAS: 5588-10-3
+            PubChem: 7848698
+            ChEBI: 31830
+            LigandBox: D01635
+            NIKKAJI: J349.744E
+ATOM        14
+            1   X   Cl   21.5728  -27.3122
+            2   C8x C    11.0600  -24.5700
+            3   C8x C    11.0600  -25.9700
+            4   C8x C    12.2724  -26.6700
+            5   C8y C    13.4849  -25.9700
+            6   C8y C    13.4849  -24.5700
+            7   C8x C    12.2724  -23.8700
+            8   C1b C    14.7160  -23.8590
+            9   C1c C    15.9212  -24.5547
+            10  N1b N    17.1035  -23.8719
+            11  O2a O    14.7160  -26.6810
+            12  C1a C    14.7160  -28.0810
+            13  C1a C    15.9216  -25.9696
+            14  C1a C    18.2975  -24.5612
+BOND        13
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10    5  11 1
+            11   11  12 1
+            12    9  13 1
+            13   10  14 1
+///

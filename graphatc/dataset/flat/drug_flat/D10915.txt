@@ -1,0 +1,137 @@
+ENTRY       D10915                      Drug
+NAME        Cannabidiol (USAN/INN);
+            CBD;
+            Epidiolex (TN)
+PRODUCT     EPIDIOLEX (Jazz Pharmaceuticals)
+FORMULA     C21H30O2
+EXACT_MASS  314.2246
+MOL_WEIGHT  314.4617
+SOURCE      Cannabis sativa [TAX:3483]
+CLASS       Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03185  UGT1A7 substrate
+              DG03188  UGT1A9 substrate
+              DG03190  UGT2B7 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      Same as: C07578
+            ATC code: N03AX24
+            Product: D10915<US>
+EFFICACY    Anticonvulsant, Antiepileptic, Cannabinoid receptor agonist
+  DISEASE   Lennox-Gastaut syndrome [DS:H01813]
+            Dravet syndrome [DS:H01818]
+            Tuberous sclerosis complex [DS:H00915]
+COMMENT     Treatment of seizures
+TARGET      CNR [HSA:1268 1269] [KO:K04277 K04278]
+  PATHWAY   hsa04080(1268+1269)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2C19 [HSA:1557], UGT1A7 [HSA:54577], UGT1A9 [HSA:54600], UGT2B7 [HSA:7364]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AX Other antiepileptics
+                 N03AX24 Cannabidiol
+                  D10915  Cannabidiol (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Anticonvulsants, Other
+               Cannabidiol
+                D10915  Cannabidiol (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D10915  Cannabidiol
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10915  Cannabidiol
+              DG02924  UGT substrate
+               DG03185  UGT1A7 substrate
+                D10915  Cannabidiol
+               DG03188  UGT1A9 substrate
+                D10915  Cannabidiol
+               DG03190  UGT2B7 substrate
+                D10915  Cannabidiol
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10915  Cannabidiol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Cannabinoid
+                CNR
+                 D10915  Cannabidiol (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10915
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10915
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10915
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10915
+             Drug transporters
+              D10915
+            Narcotics and psychotropics in Japan [br08308.html]
+             Opium and Cannabis
+              D10915
+DBLINKS     CAS: 13956-29-1
+            PubChem: 342581772
+            PDB-CCD: P0T
+ATOM        23
+            1   C1y C    15.0589  -16.1834
+            2   C8y C    16.2736  -16.8785
+            3   C1y C    13.8499  -16.8843
+            4   C2x C    15.0589  -14.7819
+            5   C8y C    16.2736  -18.2804
+            6   C8y C    17.4885  -16.1777
+            7   C1x C    12.6351  -16.1834
+            8   C2c C    13.7855  -18.2861
+            9   C2y C    13.8499  -14.0750
+            10  C8x C    17.4943  -18.9870
+            11  O1a O    16.2679  -19.6762
+            12  C8x C    18.7093  -16.8726
+            13  O1a O    17.4885  -14.7702
+            14  C1x C    12.6351  -14.7819
+            15  C1a C    14.9244  -18.9929
+            16  C2a C    12.5649  -18.9986
+            17  C1a C    13.8556  -12.6733
+            18  C8y C    18.7093  -18.2804
+            19  C1b C    19.9241  -18.9753
+            20  C1b C    21.1390  -18.2686
+            21  C1b C    22.3478  -18.9636
+            22  C1b C    23.5568  -18.2627
+            23  C1a C    24.7718  -18.9578
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1
+            11    6  12 2
+            12    6  13 1
+            13    7  14 1
+            14    8  15 1
+            15    8  16 2
+            16    9  17 1
+            17   10  18 2
+            18   18  19 1
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   22  23 1
+            23    9  14 1
+            24   12  18 1
+///

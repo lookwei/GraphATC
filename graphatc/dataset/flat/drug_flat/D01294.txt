@@ -1,0 +1,118 @@
+ENTRY       D01294                      Drug
+NAME        Ethynodiol diacetate (JAN/USP)
+FORMULA     C24H32O4
+EXACT_MASS  384.2301
+MOL_WEIGHT  384.5085
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C12724
+            ATC code: G03DC06
+            Chemical structure group: DG00470
+            Product (mixture): D04460<US>
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Ethynodiol is called Etynodiol in INN.
+            Progestin, estrene derivative
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+            NR3A1 (ESR1) [HSA:2099] [KO:K08550]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(2099+5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DC Estren derivatives
+                 G03DC06 Etynodiol
+                  D01294  Ethynodiol diacetate (JAN/USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00470  Etynodiol
+                D01294  Ethynodiol diacetate
+              DG01666  Progesterone receptor agonist
+               DG00470  Etynodiol
+                D01294  Ethynodiol diacetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A1 (ESR1)
+                 D01294  Ethynodiol diacetate (JAN/USP)
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D01294  Ethynodiol diacetate (JAN/USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00470  Etynodiol
+              DG01666  Progesterone receptor agonist
+               DG00470  Etynodiol
+DBLINKS     CAS: 297-76-7
+            PubChem: 7848357
+            ChEBI: 31580
+            LigandBox: D01294
+            NIKKAJI: J5.459C
+ATOM        28
+            1   C1z C    25.9821  -16.3855
+            2   C1z C    24.8055  -17.0671
+            3   C1x C    27.1588  -17.0729
+            4   C3b C    27.1645  -15.6981
+            5   O7a O    25.9704  -15.0167
+            6   C1y C    24.8055  -18.4243
+            7   C1x C    23.6288  -16.3798
+            8   C1a C    24.7996  -15.6807
+            9   C1x C    27.1529  -18.4302
+            10  C1y C    23.6230  -19.1059
+            11  C1x C    22.4463  -17.0612
+            12  C1y C    22.4406  -18.4243
+            13  C1x C    23.6288  -20.4689
+            14  C1y C    21.2638  -19.1059
+            15  C1x C    22.4463  -21.1563
+            16  C2y C    21.2638  -20.4747
+            17  C1x C    20.0813  -18.4243
+            18  C2x C    20.0813  -21.1563
+            19  C1x C    18.8989  -19.1059
+            20  C1y C    18.8989  -20.4747
+            21  O7a O    17.6922  -21.1720
+            22  C7a C    16.4851  -20.4755
+            23  C1a C    15.2785  -21.1728
+            24  O6a O    16.4846  -19.0819
+            25  C3a C    28.3656  -14.9939
+            26  C7a C    25.9584  -13.6214
+            27  C1a C    27.1593  -12.9141
+            28  O6a O    24.7455  -12.9350
+BOND        31
+            1    10  12 1
+            2    10  13 1
+            3    12  14 1
+            4    13  15 1
+            5    14  16 1
+            6    14  17 1
+            7    16  18 2
+            8    17  19 1
+            9    18  20 1
+            10    6   9 1
+            11   11  12 1
+            12   15  16 1
+            13   19  20 1
+            14    1   2 1
+            15    1   3 1
+            16    1   4 1 #Down
+            17   20  21 1 #Up
+            18    1   5 1 #Up
+            19   21  22 1
+            20    2   6 1
+            21   22  23 1
+            22    2   7 1
+            23   22  24 2
+            24    2   8 1 #Up
+            25    4  25 3
+            26    3   9 1
+            27    5  26 1
+            28    6  10 1
+            29   26  27 1
+            30    7  11 1
+            31   26  28 2
+///

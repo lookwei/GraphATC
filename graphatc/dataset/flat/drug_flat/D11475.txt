@@ -1,0 +1,106 @@
+ENTRY       D11475                      Drug
+NAME        Olinciguat (USAN/INN)
+FORMULA     C21H16F5N7O3
+EXACT_MASS  509.1235
+MOL_WEIGHT  509.3889
+CLASS       Cardiovascular agent
+             DG03006  Guanylate cyclase activator
+EFFICACY    Vasodilator, Guanylate cyclase activator
+COMMENT     Treatment of cardiovascular disorders
+TARGET      GUCY1A [HSA:2977 2982] [KO:K12318]
+            GUCY1B [HSA:2983] [KO:K12319]
+  PATHWAY   hsa04270(2977+2982+2983)  Vascular smooth muscle contraction
+            hsa04611(2977+2982+2983)  Platelet activation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03006  Guanylate cyclase activator
+               D11475  Olinciguat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Phosphorus-oxygen lyases
+                GUCY1A
+                 D11475  Olinciguat (USAN/INN)
+                GUCY1B
+                 D11475  Olinciguat (USAN/INN)
+DBLINKS     CAS: 1628732-62-6
+            PubChem: 384585451
+ATOM        36
+            1   N5x N    18.7374  -13.1441
+            2   C8y C    18.7374  -14.5424
+            3   N5x N    19.9259  -15.2416
+            4   C8y C    21.1844  -14.5424
+            5   C8y C    21.1844  -13.1441
+            6   C8x C    19.9259  -12.4450
+            7   C8y C    17.5488  -15.2416
+            8   N5x N    16.4301  -14.4026
+            9   N4y N    15.3115  -15.2416
+            10  C8y C    15.7310  -16.5700
+            11  C8x C    17.1293  -16.5700
+            12  X   F    22.3730  -12.4450
+            13  N1b N    22.3730  -15.2416
+            14  C1b C    23.5615  -14.5424
+            15  C1d C    24.7501  -15.2416
+            16  C1b C    14.1229  -14.5424
+            17  C8y C    12.9344  -15.2416
+            18  C8y C    11.6759  -14.5424
+            19  C8x C    10.4873  -15.2416
+            20  C8x C    10.4874  -16.6399
+            21  C8x C    11.7458  -17.3390
+            22  C8x C    12.9344  -16.6399
+            23  X   F    11.6758  -13.1441
+            24  C8y C    14.8920  -17.6886
+            25  C8x C    13.4937  -17.6886
+            26  C8x C    13.0043  -19.0170
+            27  O2x O    14.1928  -19.8560
+            28  N5x N    15.3115  -19.0170
+            29  O1a O    25.9387  -15.9407
+            30  C5a C    24.1209  -16.5001
+            31  C1d C    25.3793  -13.9831
+            32  X   F    26.7776  -13.9831
+            33  X   F    24.6103  -12.7945
+            34  X   F    26.0086  -12.7246
+            35  O5a O    22.7225  -16.5001
+            36  N1a N    24.8899  -17.6187
+BOND        39
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11   10  11 2
+            12    7  11 1
+            13    5  12 1
+            14    4  13 1
+            15   13  14 1
+            16   14  15 1
+            17   16   9 1
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   18  23 1
+            26   10  24 1
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 1
+            31   24  28 2
+            32   15  29 1 #Up
+            33   15  30 1
+            34   15  31 1
+            35   31  32 1
+            36   31  33 1
+            37   31  34 1
+            38   30  35 2
+            39   30  36 1
+///

@@ -1,0 +1,126 @@
+ENTRY       D10958                      Drug
+NAME        Naquotinib (USAN/INN)
+FORMULA     C30H42N8O3
+EXACT_MASS  562.338
+MOL_WEIGHT  562.7063
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+REMARK      Chemical structure group: DG03112
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+COMMENT     Treatment of advanced non-small cell lung cancer
+TARGET      EGFR [HSA:1956] [KO:K04361]
+  PATHWAY   hsa04010(1956)  MAPK signaling pathway
+            hsa04012(1956)  ErbB signaling pathway
+            hsa04151(1956)  PI3K-Akt signaling pathway
+            hsa05200(1956)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03112  Naquotinib
+                 D10958  Naquotinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR
+                 D10958  Naquotinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03112  Naquotinib
+DBLINKS     CAS: 1448232-80-1
+            PubChem: 342581808
+            PDB-CCD: 8RC
+ATOM        41
+            1   C1x C    10.3417  -19.9937
+            2   N1y N    10.3417  -18.5954
+            3   C1x C     9.1532  -17.8963
+            4   C1x C     7.8947  -18.5954
+            5   N1y N     7.8947  -19.9937
+            6   C1x C     9.1532  -20.6928
+            7   C1a C     6.7062  -20.6928
+            8   C1y C    11.5303  -17.8963
+            9   C1x C    12.7188  -18.5954
+            10  C1x C    13.9772  -17.8963
+            11  N1y N    13.9772  -16.4980
+            12  C1x C    12.7887  -15.7989
+            13  C1x C    11.5303  -16.4980
+            14  C8y C    15.1658  -15.7989
+            15  C8x C    16.3543  -16.4980
+            16  C8x C    17.6128  -15.7989
+            17  C8y C    17.6128  -14.4006
+            18  C8x C    16.4242  -13.7015
+            19  C8x C    15.1658  -14.4006
+            20  N1b N    18.8013  -13.7015
+            21  C8y C    19.9898  -14.4006
+            22  N5x N    19.9898  -15.7989
+            23  C8y C    21.2483  -16.4980
+            24  C8y C    22.4368  -15.7989
+            25  N5x N    22.4368  -14.4006
+            26  C8y C    21.2483  -13.7015
+            27  C5a C    21.2483  -12.3032
+            28  N1a N    22.5067  -11.6040
+            29  O5a O    20.0597  -11.6040
+            30  C1b C    23.6253  -16.4980
+            31  C1a C    24.8139  -15.7989
+            32  O2a O    21.2483  -17.8963
+            33  C1y C    22.5067  -18.5954
+            34  C1x C    23.8351  -18.1060
+            35  N1y N    24.6740  -19.2247
+            36  C1x C    23.9050  -20.3433
+            37  C1x C    22.5067  -19.9937
+            38  C5a C    26.0723  -19.2247
+            39  O5a O    26.7715  -18.0361
+            40  C2b C    26.7715  -20.4132
+            41  C2a C    28.1697  -20.4132
+BOND        45
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     2   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15   11  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   17  20 1
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   21  26 1
+            30   26  27 1
+            31   27  28 1
+            32   27  29 2
+            33   24  30 1
+            34   30  31 1
+            35   23  32 1
+            36   33  32 1 #Up
+            37   33  34 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   33  37 1
+            42   35  38 1
+            43   38  39 2
+            44   38  40 1
+            45   40  41 2
+///

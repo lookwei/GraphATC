@@ -1,0 +1,101 @@
+ENTRY       C00068                      Compound
+NAME        Thiamin diphosphate;
+            Thiamine diphosphate;
+            Thiamin pyrophosphate;
+            TPP;
+            ThPP
+FORMULA     C12H19N4O7P2S
+EXACT_MASS  425.045
+MOL_WEIGHT  425.3144
+REACTION    R00014 R00615 R00616 R00617 R00618 R00619 R00621 R00755 
+            R03050 R03270 R03316 R04672 R04673 R06861 R06862 R06863 
+            R07599 R07600 R07601 R07602 R07603 R07604 R10996 R10997 
+            R11319 R13166 R13167
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00280  Valine, leucine and isoleucine degradation
+            map00310  Lysine degradation
+            map00620  Pyruvate metabolism
+            map00640  Propanoate metabolism
+            map00730  Thiamine metabolism
+            map00785  Lipoic acid metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+            map04977  Vitamin digestion and absorption
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+            M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+            M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+ENZYME      1.2.4.1         1.2.4.2         1.2.4.4         1.2.4.-         
+            2.2.1.1         2.2.1.3         2.2.1.6         2.7.4.3         
+            2.7.4.15        2.7.4.16        2.7.6.2         3.6.1.15        
+            3.6.1.28        3.6.1.-         4.1.1.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Cofactors
+               Coenzymes
+                C00068  TPP
+DBLINKS     PubChem: 3368
+            ChEBI: 9532
+            KNApSAcK: C00019627
+            PDB-CCD: TDP TPP
+            3DMET: B01146
+            NIKKAJI: J184.400H J232.214E
+ATOM        26
+            1   N5y N    22.1981  -22.6675 #+
+            2   C8y C    23.1854  -23.6608
+            3   C1b C    20.9887  -21.9723
+            4   C8x C    22.8465  -21.4172
+            5   C8y C    24.4358  -23.0297
+            6   C1a C    22.9634  -25.0397
+            7   C8y C    19.7793  -22.6734
+            8   S2x S    24.2254  -21.6451
+            9   C1b C    25.6803  -23.6666
+            10  C8y C    19.7793  -24.0756
+            11  C8x C    18.5525  -21.9723
+            12  C1b C    26.8546  -22.9130
+            13  N5x N    18.5525  -24.7942
+            14  N1a N    20.9887  -24.7825
+            15  N5x N    17.3431  -22.6734
+            16  O2b O    28.0989  -23.5497
+            17  C8y C    17.3431  -24.0756
+            18  C1a C    16.1337  -24.7767
+            19  P1b P    29.4989  -23.5497
+            20  O2c O    30.8989  -23.5497
+            21  O1c O    29.4989  -22.1497
+            22  O1c O    29.4989  -24.9497
+            23  P1b P    32.2989  -23.5497
+            24  O1c O    33.6989  -23.5497
+            25  O1c O    32.2989  -22.1497
+            26  O1c O    32.2989  -24.9497
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     7  10 2
+            10    7  11 1
+            11    9  12 1
+            12   10  13 1
+            13   10  14 1
+            14   11  15 2
+            15   12  16 1
+            16   13  17 2
+            17   17  18 1
+            18    5   8 1
+            19   15  17 1
+            20   16  19 1
+            21   19  20 1
+            22   19  21 2
+            23   19  22 1
+            24   20  23 1
+            25   23  24 1
+            26   23  25 2
+            27   23  26 1
+///

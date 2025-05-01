@@ -1,0 +1,148 @@
+ENTRY       D12704                      Drug
+NAME        Acalabrutinib maleate hydrate (JAN);
+            Acalabrutinib maleate monohydrate
+FORMULA     C26H23N7O2. C4H4O4. H2O
+EXACT_MASS  599.2128
+MOL_WEIGHT  599.594
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG02022  BTK inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      ATC code: L01EL02
+            Chemical structure group: DG03089
+            Product (DG03089): D10893<JP/US>
+EFFICACY    Antineoplastic, Bruton's tyrosine kinase inhibitor
+TARGET      BTK [HSA:695] [KO:K07370]
+  PATHWAY   hsa04611(695)  Platelet activation
+            hsa04662(695)  B cell receptor signaling pathway
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EL Bruton's tyrosine kinase (BTK) inhibitors
+                 L01EL02 Acalabrutinib
+                  D12704  Acalabrutinib maleate hydrate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG02022  BTK inhibitor
+                DG03089  Acalabrutinib
+                 D12704  Acalabrutinib maleate hydrate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG03089  Acalabrutinib
+                D12704  Acalabrutinib maleate hydrate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               Tec family
+                BTK
+                 D12704  Acalabrutinib maleate hydrate (JAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D12704
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG02022  BTK inhibitor
+                DG03089  Acalabrutinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG03089  Acalabrutinib
+DBLINKS     CAS: 2641500-53-8
+ATOM        44
+            1   C8x C     8.1580  -14.6272
+            2   N5x N     8.1580  -16.0337
+            3   C8y C     9.3534  -16.7369
+            4   C8y C    10.6192  -16.0337
+            5   N4y N    10.6192  -14.6272
+            6   C8x C     9.3534  -13.9943
+            7   N1a N     9.3534  -18.1433
+            8   C8y C    11.8850  -16.4556
+            9   N5x N    12.6585  -15.3304
+            10  C8y C    11.8850  -14.2756
+            11  C8y C    13.0805  -17.1588
+            12  C8x C    13.0805  -18.5652
+            13  C8x C    14.3463  -19.2685
+            14  C8y C    15.5417  -18.5652
+            15  C8x C    15.5417  -17.1588
+            16  C8x C    14.3463  -16.4556
+            17  C1y C    12.3773  -12.9395
+            18  N1y N    13.7837  -12.5176
+            19  C1x C    13.7837  -11.1111
+            20  C1x C    12.4476  -10.6189
+            21  C1x C    11.6037  -11.7440
+            22  C5a C    14.9792  -13.2208
+            23  C3b C    16.1746  -12.5176
+            24  O5a O    14.9792  -14.5569
+            25  C3b C    17.4404  -11.8144
+            26  C1a C    18.6359  -11.1111
+            27  C5a C    16.7372  -19.2685
+            28  N1b N    17.9327  -18.5652
+            29  O5a O    16.7372  -20.6749
+            30  C8y C    19.1281  -19.1981
+            31  C8x C    19.1281  -20.6749
+            32  C8x C    20.3236  -21.3781
+            33  C8x C    21.5894  -20.6046
+            34  C8x C    21.5894  -19.1981
+            35  N5x N    20.3236  -18.4949
+            36  O6a O    23.4178  -15.0492
+            37  C6a C    24.8242  -15.0492
+            38  O6a O    25.5274  -16.2446
+            39  C2b C    25.5274  -13.8537
+            40  C2b C    26.9338  -13.8537
+            41  C6a C    27.6371  -15.0492
+            42  O6a O    29.0435  -15.0492
+            43  O6a O    26.9338  -16.2446
+            44  O0  O    26.7400  -20.5100
+BOND        46
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     3   7 1
+            8     4   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    8  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   17  10 1 #Down
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   17  21 1
+            25   18  22 1
+            26   22  23 1
+            27   22  24 2
+            28   23  25 3
+            29   25  26 1
+            30   14  27 1
+            31   27  28 1
+            32   27  29 2
+            33   28  30 1
+            34   30  31 2
+            35   31  32 1
+            36   32  33 2
+            37   33  34 1
+            38   34  35 2
+            39   30  35 1
+            40   36  37 1
+            41   37  38 2
+            42   37  39 1
+            43   39  40 2
+            44   40  41 1
+            45   41  42 2
+            46   41  43 1
+///

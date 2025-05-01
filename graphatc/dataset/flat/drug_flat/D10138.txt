@@ -1,0 +1,195 @@
+ENTRY       D10138                      Drug
+NAME        Regorafenib (USAN/INN);
+            Stivarga (TN)
+FORMULA     C21H15ClF4N4O3
+EXACT_MASS  482.0769
+MOL_WEIGHT  482.8154
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03188  UGT1A9 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+REMARK      ATC code: L01EX05
+            Chemical structure group: DG00720
+            Product (DG00720): D10137<JP/US>
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      VEGFR1 (FLT1) [HSA:2321] [KO:K05096]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            VEGFR3 (FLT4) [HSA:2324] [KO:K05097]
+            TEK (TIE2, CD202) [HSA:7010] [KO:K05121]
+            PDGFRB [HSA:5159] [KO:K05089]
+            FGFR1 (CD331) [HSA:2260] [KO:K04362]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+            RET [HSA:5979] [KO:K05126]
+            RAF1 [HSA:5894] [KO:K04366]
+            BRAF [HSA:673] [KO:K04365]
+  PATHWAY   hsa04010(2260+2321+2324+3791+3815+5159+5894+673+7010)  MAPK signaling pathway
+            hsa04370(3791+5894)  VEGF signaling pathway
+            hsa05200(2260+2324+3815+5159+5894+5979+673)  Pathways in cancer
+            hsa05210(5894+673)  Colorectal cancer
+            hsa05225(5894+673)  Hepatocellular carcinoma
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], UGT1A9 [HSA:54600]
+            Transporter: ABCB1 [HSA:5243], ABCG2 [HSA:9429]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EX Other protein kinase inhibitors
+                 L01EX05 Regorafenib
+                  D10138  Regorafenib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG00720  Regorafenib
+                 D10138  Regorafenib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00720  Regorafenib
+                 D10138  Regorafenib
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                DG00720  Regorafenib
+                 D10138  Regorafenib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00720  Regorafenib
+                D10138  Regorafenib
+              DG01913  ABCG2 substrate
+               DG00720  Regorafenib
+                D10138  Regorafenib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               TKL group
+                BRAF
+                 D10138  Regorafenib (USAN/INN)
+                RAF1
+                 D10138  Regorafenib (USAN/INN)
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFRB
+                 D10138  Regorafenib (USAN/INN)
+                KIT (CD117)
+                 D10138  Regorafenib (USAN/INN)
+               FGFR family
+                FGFR1 (CD331)
+                 D10138  Regorafenib (USAN/INN)
+               VEGFR family
+                VEGFR1 (FLT1)
+                 D10138  Regorafenib (USAN/INN)
+                VEGFR2 (KDR)
+                 D10138  Regorafenib (USAN/INN)
+                VEGFR3 (FLT4)
+                 D10138  Regorafenib (USAN/INN)
+               TIE family
+                TEK (TIE2, CD202)
+                 D10138  Regorafenib (USAN/INN)
+               RET family
+                RET
+                 D10138  Regorafenib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10138
+             Drug transporters
+              D10138
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG00720  Regorafenib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00720  Regorafenib
+              DG02924  UGT substrate
+               DG03188  UGT1A9 substrate
+                DG00720  Regorafenib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00720  Regorafenib
+              DG01913  ABCG2 substrate
+               DG00720  Regorafenib
+DBLINKS     CAS: 755037-03-7
+            PubChem: 135626856
+            ChEBI: 68647
+            LigandBox: D10138
+ATOM        33
+            1   C8y C    29.4700  -16.7300
+            2   C8x C    29.4700  -18.1300
+            3   C8x C    28.2100  -18.8300
+            4   C8y C    27.0200  -18.1300
+            5   C8x C    27.0200  -16.7300
+            6   C8y C    28.2100  -16.0300
+            7   X   Cl   30.6600  -16.0300
+            8   N1b N    25.7600  -18.8300
+            9   C5a C    24.5700  -18.1300
+            10  N1b N    23.3800  -18.8300
+            11  O5a O    24.5700  -16.7300
+            12  C8y C    22.1900  -18.1300
+            13  C8y C    21.0000  -18.8300
+            14  C8x C    19.7400  -18.1300
+            15  C8y C    19.7400  -16.7300
+            16  C8x C    20.9300  -16.0300
+            17  C8x C    22.1900  -16.7300
+            18  O2a O    18.6200  -16.0300
+            19  C8y C    17.4300  -16.7300
+            20  C8x C    17.4300  -18.1300
+            21  C8x C    16.1700  -18.8300
+            22  N5x N    14.9800  -18.1300
+            23  C8y C    14.9800  -16.6600
+            24  C8x C    16.1700  -15.9600
+            25  C5a C    13.7900  -16.0300
+            26  N1b N    12.5300  -16.7300
+            27  O5a O    13.7900  -14.6300
+            28  C1a C    11.3400  -16.0300
+            29  X   F    21.0000  -20.2300
+            30  C1d C    28.2100  -14.6300
+            31  X   F    28.2100  -13.2300
+            32  X   F    26.8100  -14.6300
+            33  X   F    29.6100  -14.6300
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19   15  18 1
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   23  25 1
+            28   25  26 1
+            29   25  27 2
+            30   26  28 1
+            31   13  29 1
+            32    6  30 1
+            33   30  31 1
+            34   30  32 1
+            35   30  33 1
+///

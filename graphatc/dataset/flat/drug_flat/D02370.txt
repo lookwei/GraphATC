@@ -1,0 +1,85 @@
+ENTRY       D02370                      Drug
+NAME        Clavulanate potassium (JP18/USP);
+            CVA
+FORMULA     C8H8NO5. K
+EXACT_MASS  237.004
+MOL_WEIGHT  237.2511
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01487  Clavam
+             DG01479  beta-Lactamase inhibitor
+REMARK      Chemical structure group: DG01261
+            Product (mixture): D06485<JP/US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor, beta-Lactamase inhibitor
+TARGET      beta-lactamases
+STR_MAP     map07011  Penicillins
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01487  Clavam
+                 DG01261  Clavulanic acid
+                  D02370  Clavulanate potassium
+              DG01479  beta-Lactamase inhibitor
+               DG01261  Clavulanic acid
+                D02370  Clavulanate potassium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                D02370  Clavulanate potassium (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02370  Potassium clavulanate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01487  Clavam
+                 DG01261  Clavulanic acid
+              DG01479  beta-Lactamase inhibitor
+               DG01261  Clavulanic acid
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                DG01261  Clavulanic acid
+DBLINKS     CAS: 61177-45-5
+            PubChem: 7849429
+            ChEBI: 85264
+            LigandBox: D02370
+            NIKKAJI: J86.067K
+ATOM        15
+            1   C1x C    12.7849  -10.4559
+            2   C5x C    12.7849  -11.8603
+            3   N1y N    14.1893  -11.8603
+            4   C1y C    14.1893  -10.4559
+            5   C1y C    15.5234  -12.2815
+            6   C2y C    16.3659  -11.1580
+            7   O2x O    15.5234  -10.0345
+            8   C6a C    16.0149  -13.6156
+            9   O6a O    17.4192  -13.6156 #-
+            10  O6a O    15.1722  -14.7390
+            11  O5x O    11.5912  -12.5624
+            12  C2b C    17.7659  -11.1580
+            13  C1b C    18.4814   -9.9184
+            14  O1a O    19.8798   -9.9183
+            15  Z   K    18.9700  -13.6500 #+
+BOND        15
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     5   8 1 #Down
+            10    8   9 1
+            11    8  10 2
+            12    2  11 2
+            13    6  12 2
+            14   12  13 1
+            15   13  14 1
+///

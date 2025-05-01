@@ -1,0 +1,113 @@
+ENTRY       C00063                      Compound
+NAME        CTP;
+            Cytidine 5'-triphosphate;
+            Cytidine triphosphate
+FORMULA     C9H16N3O14P3
+EXACT_MASS  482.9845
+MOL_WEIGHT  483.1563
+REACTION    R00442 R00515 R00569 R00570 R00571 R00572 R00573 R00574 
+            R00767 R00856 R00956 R01018 R01117 R01799 R01890 R02022 
+            R02038 R02590 R02599 R02921 R03237 R03351 R03375 R04215 
+            R04231 R04247 R05633 R08574 R08867 R08966 R09382 R09383 
+            R09384 R09669 R09843 R09849 R09850 R09944 R10182 R10659 
+            R11396 R11441 R11582 R11636 R12247 R12498 R12562 R12568
+PATHWAY     map00240  Pyrimidine metabolism
+            map00515  Mannose type O-glycan biosynthesis
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+            map01240  Biosynthesis of cofactors
+MODULE      M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+            M00872  O-glycan biosynthesis, mannose type (core M3)
+NETWORK     nt06013  O-Glycan biosynthesis
+ENZYME      1.1.98.6        1.17.4.2        2.7.1.11        2.7.1.40        
+            2.7.1.108       2.7.1.161       2.7.1.174       2.7.1.182       
+            2.7.1.216       2.7.4.6         2.7.4.32        2.7.7.6         
+            2.7.7.14        2.7.7.15        2.7.7.33        2.7.7.38        
+            2.7.7.39        2.7.7.40        2.7.7.41        2.7.7.43        
+            2.7.7.48        2.7.7.57        2.7.7.60        2.7.7.67        
+            2.7.7.72        2.7.7.74        2.7.7.76        2.7.7.81        
+            2.7.7.82        2.7.7.90        2.7.7.92        2.7.7.93        
+            2.7.7.103       2.7.7.104       2.7.7.107       2.7.7.-         
+            3.6.1.5         3.6.1.9         3.6.1.65        3.6.1.-         
+            4.6.1.6         6.3.2.5         6.3.4.2
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Ribonucleotides
+                C00063  CTP
+             Vitamins and cofactors
+              Cofactors
+               Coenzymes
+                C00063  CTP
+            Glycosides [BR:br08021]
+             N-glycosides
+              C00063  CTP
+DBLINKS     CAS: 65-47-4
+            PubChem: 3363
+            ChEBI: 17677
+            KNApSAcK: C00019639
+            PDB-CCD: CTP
+            3DMET: B01144
+            NIKKAJI: J213.552C
+ATOM        29
+            1   C1y C    29.4209  -15.6738
+            2   O2x O    28.3291  -14.8682
+            3   C1y C    29.0121  -17.0461
+            4   C1y C    27.1905  -15.7089
+            5   C1y C    27.6108  -17.0461
+            6   C1b C    25.8533  -15.2769
+            7   O1a O    26.7758  -18.1672
+            8   O2b O    24.8198  -16.2111
+            9   P1b P    23.4242  -16.2111
+            10  O2c O    22.0287  -16.2111
+            11  O1c O    23.4185  -17.6125
+            12  O1c O    23.4185  -14.8155
+            13  P1b P    20.6274  -16.2052
+            14  O2c O    19.2319  -16.2052
+            15  O1c O    20.6216  -17.6008
+            16  O1c O    20.6216  -14.8097
+            17  P1b P    17.8363  -16.1994
+            18  O1c O    17.8305  -17.5949
+            19  O1c O    16.4408  -16.1935
+            20  O1c O    17.8305  -14.8038
+            21  N4y N    30.7619  -15.2316
+            22  C8y C    31.9081  -15.9375
+            23  C8x C    30.7056  -13.8345
+            24  N5x N    33.1312  -15.2418
+            25  O5x O    31.9071  -17.3379
+            26  C8x C    31.9148  -13.1295
+            27  C8y C    33.1367  -13.8344
+            28  N1a N    34.3551  -13.1455
+            29  O1a O    29.8534  -18.1742
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1 #Up
+            6     5   7 1 #Down
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10    9  11 1
+            11    9  12 2
+            12   10  13 1
+            13   13  14 1
+            14   13  15 1
+            15   13  16 2
+            16   14  17 1
+            17   17  18 1
+            18   17  19 1
+            19   17  20 2
+            20    4   5 1
+            21   21  22 1
+            22   21  23 1
+            23   22  24 1
+            24   22  25 2
+            25   23  26 2
+            26   24  27 2
+            27   27  28 1
+            28   26  27 1
+            29    1  21 1 #Up
+            30    3  29 1 #Down
+///

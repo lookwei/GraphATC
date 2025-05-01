@@ -1,0 +1,93 @@
+ENTRY       D01004                      Drug
+NAME        Homatropine hydrobromide (JP18/USP);
+            Isopto homatropine (TN)
+FORMULA     C16H21NO3. HBr
+EXACT_MASS  355.0783
+MOL_WEIGHT  356.2548
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: S01FA05
+            Chemical structure group: DG01142
+EFFICACY    Mydriatic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FA Anticholinergics
+                 S01FA05 Homatropine
+                  D01004  Homatropine hydrobromide (JP18/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01142  Homatropine
+                D01004  Homatropine hydrobromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01004  Homatropine hydrobromide (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01004  Homatropine hydrobromide
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01142  Homatropine
+DBLINKS     CAS: 51-56-9
+            PubChem: 7848067
+            ChEBI: 5748
+            LigandBox: D01004
+            NIKKAJI: J237.403J
+ATOM        21
+            1   X   Br   35.9441  -16.6432
+            2   C1x C    26.0638  -19.5108
+            3   C1x C    26.3919  -18.3391
+            4   C1y C    27.2355  -19.2296
+            5   C1y C    27.5636  -18.0579
+            6   N1y N    26.2982  -16.7456
+            7   C1x C    29.1102  -19.2296
+            8   C1x C    28.8290  -18.0579
+            9   C1y C    30.1413  -19.7920
+            10  O7a O    31.2193  -20.6825
+            11  C7a C    32.4379  -20.6825
+            12  C1c C    33.0472  -19.6045
+            13  O6a O    33.0472  -21.8073
+            14  C8y C    34.2658  -19.6045
+            15  O1a O    32.4379  -18.5734
+            16  C8x C    34.9720  -20.8282
+            17  C8x C    36.3720  -20.8285
+            18  C8x C    37.0722  -19.6162
+            19  C8x C    36.3661  -18.3925
+            20  C8x C    34.9661  -18.3922
+            21  C1a C    25.5491  -15.5614
+BOND        22
+            1     2   3 1
+            2     2   4 1
+            3     3   5 1
+            4     4   6 1
+            5     4   7 1
+            6     5   8 1
+            7     7   9 1
+            8     9  10 1 #Down
+            9    10  11 1
+            10   11  12 1
+            11   11  13 2
+            12   12  14 1
+            13   12  15 1
+            14    5   6 1
+            15    8   9 1
+            16   14  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   14  20 1
+            22    6  21 1
+///

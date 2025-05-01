@@ -1,0 +1,112 @@
+ENTRY       D04193                      Drug
+NAME        Flordipine (USAN/INN)
+FORMULA     C26H33F3N2O5
+EXACT_MASS  510.2342
+MOL_WEIGHT  510.5458
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               D04193  Flordipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D04193  Flordipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D04193  Flordipine (USAN/INN)
+DBLINKS     CAS: 77590-96-6
+            PubChem: 47206139
+            ChEBI: 177726
+            LigandBox: D04193
+            NIKKAJI: J33.088D
+ATOM        36
+            1   C1y C    31.3181  -17.0259
+            2   C8y C    31.3064  -20.3346
+            3   C2y C    32.4647  -16.3766
+            4   C2y C    30.1713  -16.3766
+            5   C8y C    30.1538  -20.9958
+            6   C8x C    32.4472  -20.9958
+            7   C2y C    32.4647  -15.0542
+            8   C7a C    33.6114  -17.0259
+            9   C2y C    30.1713  -15.0542
+            10  C7a C    29.0362  -17.0259
+            11  C8x C    30.1538  -22.3063
+            12  C1d C    29.0305  -20.3346
+            13  C8x C    32.4472  -22.3063
+            14  N1y N    31.3181  -14.3932
+            15  C1a C    33.6114  -14.3932
+            16  O7a O    34.7465  -16.3766
+            17  O6a O    33.6114  -18.3540
+            18  C1a C    29.0362  -14.3932
+            19  O7a O    27.8954  -16.3766
+            20  O6a O    29.0422  -18.2544
+            21  C8x C    31.3064  -22.9790
+            22  C1b C    35.8814  -17.0259
+            23  C1b C    26.7546  -17.0259
+            24  C1a C    37.0164  -16.3706
+            25  C1a C    25.5287  -16.3081
+            26  X   F    27.8180  -19.6346
+            27  X   F    29.7556  -19.0908
+            28  X   F    28.3454  -21.5098
+            29  C1b C    31.3176  -13.0203
+            30  C1b C    32.5091  -12.3317
+            31  N1y N    32.5087  -10.9203
+            32  C1x C    33.6994  -10.2322
+            33  C1x C    33.6988   -8.8322
+            34  O2x O    32.4861   -8.1327
+            35  C1x C    31.2954   -8.8208
+            36  C1x C    31.2960  -10.2208
+BOND        38
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 2
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1
+            15    8  16 1
+            16    8  17 2
+            17    9  18 1
+            18   10  19 1
+            19   10  20 2
+            20   11  21 1
+            21   16  22 1
+            22   19  23 1
+            23   22  24 1
+            24    9  14 1
+            25   13  21 2
+            26   23  25 1
+            27   12  26 1
+            28   12  27 1
+            29   12  28 1
+            30   14  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   32  33 1
+            35   33  34 1
+            36   34  35 1
+            37   35  36 1
+            38   31  36 1
+///

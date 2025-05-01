@@ -1,0 +1,117 @@
+ENTRY       D02630                      Drug
+NAME        Penfluridol (USAN/INN);
+            Semap (TN)
+FORMULA     C28H27ClF5NO
+EXACT_MASS  523.1701
+MOL_WEIGHT  523.9651
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01573  Calcium channel T type blocker
+REMARK      ATC code: N05AG03
+EFFICACY    Antipsychotic
+COMMENT     Diphenylbutylpiperidine derivative
+TARGET      CACNA1-T [HSA:8911 8912 8913] [KO:K04856 K04855 K04854]
+  PATHWAY   hsa04010(8911+8912+8913)  MAPK signaling pathway
+            hsa04020(8911+8912+8913)  Calcium signaling pathway
+INTERACTION  
+STR_MAP     map07031  Antipsychotics - butyrophenones
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AG Diphenylbutylpiperidine derivatives
+                 N05AG03 Penfluridol
+                  D02630  Penfluridol (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                D02630  Penfluridol
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-T
+                 D02630  Penfluridol (USAN/INN)
+DBLINKS     CAS: 26864-56-2
+            PubChem: 17396800
+            LigandBox: D02630
+            NIKKAJI: J9.798E
+ATOM        36
+            1   C8x C     8.6100   -9.9400
+            2   C8y C     8.6100  -11.3400
+            3   C8x C     9.8224  -12.0400
+            4   C8x C    11.0349  -11.3400
+            5   C8y C    11.0349   -9.9400
+            6   C8x C     9.8224   -9.2400
+            7   C8x C    13.4597  -11.3400
+            8   C8y C    13.4597   -9.9400
+            9   C1c C    12.2473   -9.2400
+            10  C8x C    14.6722  -12.0400
+            11  C8y C    15.8846  -11.3400
+            12  C8x C    15.8846   -9.9400
+            13  C8x C    14.6722   -9.2400
+            14  X   F     7.3976  -12.0400
+            15  X   F    17.1011  -12.0423
+            16  C1b C    12.2473   -7.8400
+            17  C1b C    13.4618   -7.1388
+            18  C1b C    14.6583   -7.8298
+            19  N1y N    15.8451   -7.1446
+            20  C1x C    17.0366   -7.8328
+            21  C1x C    18.2491   -7.1329
+            22  C1z C    18.2493   -5.7329
+            23  C1x C    17.0578   -5.0448
+            24  C1x C    15.8453   -5.7446
+            25  C8y C    19.4741   -5.0258
+            26  C8x C    20.6820   -5.7232
+            27  C8y C    21.8944   -5.0233
+            28  C8y C    21.8945   -3.6233
+            29  C8x C    20.6867   -2.9259
+            30  C8x C    19.4742   -3.6258
+            31  X   Cl   23.1112   -2.9209
+            32  C1d C    23.1258   -5.7342
+            33  X   F    24.3382   -6.4342
+            34  X   F    23.8165   -4.5373
+            35  X   F    22.4171   -6.9622
+            36  O1a O    19.4617   -6.4329
+BOND        39
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15    2  14 1
+            16   11  15 1
+            17    9  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   19  24 1
+            27   22  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   25  30 1
+            34   28  31 1
+            35   27  32 1
+            36   32  33 1
+            37   32  34 1
+            38   32  35 1
+            39   22  36 1
+///

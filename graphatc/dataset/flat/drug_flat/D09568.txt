@@ -1,0 +1,94 @@
+ENTRY       D09568                      Drug
+NAME        Naproxcinod (USAN/INN)
+FORMULA     C18H21NO6
+EXACT_MASS  347.1369
+MOL_WEIGHT  347.3624
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+REMARK      ATC code: M01AE18
+EFFICACY    Anti-inflammatory
+COMMENT     Propionic acid derivative
+            Osteoarthritis
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE18 Naproxcinod
+                  D09568  Naproxcinod (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                D09568  Naproxcinod
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D09568  Naproxcinod (USAN/INN)
+                PTGS2 (COX2)
+                 D09568  Naproxcinod (USAN/INN)
+DBLINKS     CAS: 163133-43-5
+            PubChem: 124490308
+            ChEBI: 76254
+            LigandBox: D09568
+ATOM        25
+            1   C8x C    13.1600  -24.7100
+            2   C8y C    13.1600  -26.1100
+            3   C8x C    14.3724  -26.8100
+            4   C8y C    15.5849  -26.1100
+            5   C8y C    15.5849  -24.7100
+            6   C8x C    14.3724  -24.0100
+            7   C8x C    16.7973  -26.8100
+            8   C8x C    18.0097  -26.1100
+            9   C8y C    18.0097  -24.7100
+            10  C8x C    16.7973  -24.0100
+            11  C1c C    19.2073  -24.0185
+            12  C7a C    20.3956  -24.7045
+            13  O7a O    21.5864  -24.0169
+            14  O6a O    20.3957  -26.1098
+            15  C1b C    22.7760  -24.7037
+            16  C1b C    23.9661  -24.0165
+            17  C1b C    25.1562  -24.7035
+            18  C1b C    26.3461  -24.0163
+            19  O2a O    27.5362  -24.7035
+            20  N2b N    28.7261  -24.0163
+            21  O3a O    29.9162  -24.7034
+            22  O3a O    28.7261  -22.6102
+            23  C1a C    19.2073  -22.6185
+            24  O2a O    11.9476  -26.8100
+            25  C1a C    10.7521  -26.1196
+BOND        26
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 2
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   12  14 2
+            16   13  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 2
+            23   20  22 2
+            24   11  23 1 #Down
+            25    2  24 1
+            26   24  25 1
+///

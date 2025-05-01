@@ -1,0 +1,85 @@
+ENTRY       D02386                      Drug
+NAME        Ticrynafen (USAN);
+            Tienilic acid (INN);
+            Selacryn (TN)
+FORMULA     C13H8Cl2O4S
+EXACT_MASS  329.952
+MOL_WEIGHT  331.1712
+CLASS       Cardiovascular agent
+             DG01748  Loop diuretic
+REMARK      Same as: C11702
+            ATC code: C03CC02
+EFFICACY    Antihypertensive, Diuretic, Uricosuric, Na-K-Cl cotransporter inhibitor
+COMMENT     loop diuretic
+            Aryloxyacetic acid derivative
+TARGET      SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+            SLC12A2 (NKCC1) [HSA:6558] [KO:K10951]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03C HIGH-CEILING DIURETICS
+                C03CC Aryloxyacetic acid derivatives
+                 C03CC02 Tienilic acid
+                  D02386  Ticrynafen (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01748  Loop diuretic
+               D02386  Ticrynafen
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D02386  Ticrynafen (USAN)
+                SLC12A2 (NKCC1)
+                 D02386  Ticrynafen (USAN)
+DBLINKS     CAS: 40180-04-9
+            PubChem: 7849445
+            ChEBI: 9590
+            LigandBox: D02386
+            NIKKAJI: J16.869F
+ATOM        20
+            1   C8y C    30.5239  -16.7329
+            2   C8y C    30.5239  -18.1333
+            3   C8x C    31.7366  -18.8335
+            4   C8x C    32.9494  -18.1333
+            5   C8y C    32.9494  -16.7329
+            6   C8y C    31.7366  -16.0327
+            7   X   Cl   31.7366  -14.6325
+            8   X   Cl   29.3111  -16.0327
+            9   O2a O    29.3111  -18.8335
+            10  C1b C    28.1153  -18.1429
+            11  C6a C    26.9275  -18.8286
+            12  O6a O    25.7360  -18.1404
+            13  O6a O    26.9273  -20.2337
+            14  C5a C    34.1809  -16.0217
+            15  C8y C    35.3864  -16.7176
+            16  O5a O    34.1806  -14.6324
+            17  C8x C    35.3900  -18.1262
+            18  C8x C    36.7335  -18.5605
+            19  C8x C    37.5618  -17.4170
+            20  S2x S    36.7301  -16.2759
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     1   8 1
+            9     2   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   11  13 2
+            14    5  14 1
+            15   14  15 1
+            16   14  16 2
+            17   15  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   15  20 1
+///

@@ -1,0 +1,95 @@
+ENTRY       D00562                      Drug
+NAME        Propylthiouracil (JP18/USP/INN);
+            Propylthiouracil (TN)
+PRODUCT     PROPYLTHIOURACIL (American Health Packaging)
+  GENERIC   PROPYLTHIOURACIL (Actavis Pharma)
+            PROPYLTHIOURACIL (Bryant Ranch Prepack)
+            PROPYLTHIOURACIL (Macleods Pharmaceuticals Limited)
+            PROPYLTHIOURACIL (QUAGEN PHARMACEUTICALS LLC)
+FORMULA     C7H10N2OS
+EXACT_MASS  170.0514
+MOL_WEIGHT  170.2321
+CLASS       Hormonal agent
+             DG01934  Antithyroid agent
+REMARK      Same as: C07569
+            Therapeutic category: 2432
+            ATC code: H03BA02
+            Product: D00562<JP/US>
+EFFICACY    Antithyroid, Thyroid hormone synthesis inhibitor
+  DISEASE   Graves' disease [DS:H00082]
+            Hyperthyroidism [DS:H01645]
+TARGET      TPO [HSA:7173] [KO:K00431]
+            DIO1 [HSA:1733] [KO:K01562]
+            DIO2 [HSA:1734] [KO:K17904]
+  PATHWAY   hsa04918(7173)  Thyroid hormone synthesis
+            hsa04919(1733+1734)  Thyroid hormone signaling pathway
+            hsa05320(7173)  Autoimmune thyroid disease
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H03 THYROID THERAPY
+               H03B ANTITHYROID PREPARATIONS
+                H03BA Thiouracils
+                 H03BA02 Propylthiouracil
+                  D00562  Propylthiouracil (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Suppressant (Thyroid)
+              Antithyroid Agents
+               Propylthiouracil
+                D00562  Propylthiouracil (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               243  Thyroid and parathyroid hormone preparations
+                2432  Antithyroid hormones
+                 D00562  Propylthiouracil (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01934  Antithyroid agent
+               D00562  Propylthiouracil
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Peroxidase
+                TPO
+                 D00562  Propylthiouracil (JP18/USP/INN) &lt;JP/US&gt;
+               Thyroxine 5'-deiodinase
+                DIO1
+                 D00562  Propylthiouracil (JP18/USP/INN) &lt;JP/US&gt;
+                DIO2
+                 D00562  Propylthiouracil (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00562  Propylthiouracil
+              D00562  Propylthiouracil tablets
+DBLINKS     CAS: 51-52-5
+            PubChem: 7847628
+            ChEBI: 8502
+            PDB-CCD: 3CJ
+            LigandBox: D00562
+            NIKKAJI: J1.363C
+ATOM        11
+            1   C8y C    25.3173  -19.8324
+            2   C8x C    25.3173  -18.4289
+            3   N4x N    26.5346  -20.5256
+            4   C1b C    24.1060  -20.5256
+            5   C8y C    26.5346  -17.7243
+            6   C8y C    27.7461  -19.8324
+            7   C1b C    22.8887  -19.8324
+            8   N4x N    27.7461  -18.4289
+            9   O5x O    26.5346  -16.3265
+            10  S0  S    28.9574  -20.5256
+            11  C1a C    21.6774  -20.5313
+BOND        11
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     5   9 2
+            9     6  10 2
+            10    7  11 1
+            11    6   8 1
+///

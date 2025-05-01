@@ -1,0 +1,140 @@
+ENTRY       D06405                      Drug
+NAME        Nalfurafine hydrochloride (JAN/USAN)
+FORMULA     C28H32N2O5. HCl
+EXACT_MASS  512.2078
+MOL_WEIGHT  513.025
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01562  kappa-Opioid receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 1190
+            ATC code: V03AX02
+            Product: D06405<JP>
+EFFICACY    Antipruritic, kappa-Opioid receptor agonist
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+  PATHWAY   hsa04080(4986)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AX Other therapeutic products
+                 V03AX02 Nalfurafine
+                  D06405  Nalfurafine hydrochloride (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D06405  Nalfurafine hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01562  kappa-Opioid receptor agonist
+                D06405  Nalfurafine hydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D06405  Nalfurafine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRK1
+                 D06405  Nalfurafine hydrochloride (JAN/USAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D06405
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D06405
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D06405
+DBLINKS     CAS: 152658-17-8
+            PubChem: 47208062
+            LigandBox: D06405
+ATOM        36
+            1   X   Cl   23.1908  -10.2219
+            2   C1z C    15.4700  -11.6200
+            3   C8y C    15.4700  -10.2900
+            4   C1z C    16.6600  -12.3200
+            5   C1y C    14.3500  -12.2500
+            6   C1x C    16.6600  -10.9900
+            7   C8y C    14.3500   -9.6600
+            8   C8y C    16.6600   -9.6600
+            9   C1y C    17.7800  -11.6200
+            10  C1x C    16.6600  -13.5800
+            11  O2x O    13.0900  -10.9200
+            12  C1y C    14.3500  -13.5800
+            13  C1x C    18.9000  -10.9900
+            14  C8y C    14.3500   -8.3300
+            15  C1x C    17.7800  -10.3600
+            16  C8x C    16.6600   -8.3300
+            17  N1y N    18.9000  -12.3200
+            18  C1x C    15.4700  -14.2800
+            19  N1c N    13.3000  -14.2800
+            20  C8x C    15.5400   -7.7000
+            21  O1a O    13.3000   -7.7000
+            22  O1a O    17.9200  -13.2300
+            23  C1b C    20.3000  -12.3200
+            24  C1y C    21.0000  -13.5100
+            25  C1x C    21.0178  -14.9116
+            26  C1x C    22.1657  -14.1839
+            27  C5a C    12.0450  -13.6595
+            28  C1a C    13.3201  -15.6771
+            29  C2b C    10.8811  -14.4354
+            30  O5a O    12.0243  -12.2526
+            31  C2b C     9.5950  -13.7995
+            32  C8y C     8.4311  -14.5755
+            33  C8x C     8.4311  -15.9755
+            34  C8x C     7.0996  -14.1428
+            35  C8x C     6.2767  -15.2755
+            36  O2x O     7.0996  -16.4081
+BOND        41
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     2   6 1 #Up
+            5     3   7 2
+            6     3   8 1
+            7     4   9 1
+            8     4  10 1
+            9     5  11 1 #Down
+            10    5  12 1
+            11    6  13 1
+            12    7  14 1
+            13    8  15 1
+            14    8  16 2
+            15    9  17 1 #Up
+            16   10  18 1
+            17   12  19 1 #Up
+            18   14  20 2
+            19   14  21 1
+            20    7  11 1
+            21    9  15 1
+            22   12  18 1
+            23   13  17 1
+            24   16  20 1
+            25    4  22 1 #Up
+            26   17  23 1
+            27   23  24 1
+            28   24  25 1
+            29   24  26 1
+            30   25  26 1
+            31   19  27 1
+            32   19  28 1
+            33   27  29 1
+            34   27  30 2
+            35   29  31 2
+            36   31  32 1
+            37   32  33 2
+            38   32  34 1
+            39   34  35 2
+            40   35  36 1
+            41   33  36 1
+///

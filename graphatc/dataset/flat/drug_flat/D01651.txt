@@ -1,0 +1,63 @@
+ENTRY       D01651                      Drug
+NAME        Ancitabine hydrochloride (JAN)
+FORMULA     C9H11N3O4. HCl
+EXACT_MASS  261.0516
+MOL_WEIGHT  261.6623
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01439  Arabinofuranosyl type antineoplastic
+REMARK      Same as: C13112
+EFFICACY    Antineoplastic, Antimetabolite
+TARGET      DNA polymerase
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01439  Arabinofuranosyl type antineoplastic
+                 D01651  Ancitabine hydrochloride
+DBLINKS     CAS: 10212-25-6
+            PubChem: 7848714
+            ChEBI: 74843
+            LigandBox: D01651
+            NIKKAJI: J268.819K
+ATOM        17
+            1   X   Cl   25.2357  -19.9363
+            2   O2x O    19.6746  -15.3163
+            3   C1y C    18.5383  -16.1428
+            4   C1y C    18.9741  -17.4743
+            5   C1y C    20.8111  -16.1428
+            6   C1y C    20.3780  -17.4757
+            7   O2x O    21.5118  -18.2997
+            8   N4y N    22.2126  -16.1428
+            9   C8y C    22.6382  -17.4763
+            10  N5x N    24.0059  -17.7744
+            11  C8y C    24.9480  -16.7391
+            12  C8x C    24.5223  -15.4057
+            13  C8x C    23.2481  -15.1075
+            14  C1b C    17.2054  -15.7117
+            15  O1a O    16.1656  -16.6504
+            16  O1a O    18.1513  -18.6081
+            17  N2a N    26.3166  -17.0374
+BOND        18
+            1     4   6 1
+            2     5   2 1
+            3     8   9 1
+            4     9  10 2
+            5    10  11 1
+            6    11  12 1
+            7    12  13 2
+            8    13   8 1
+            9     5   6 1
+            10    3  14 1 #Up
+            11    6   7 1
+            12   14  15 1
+            13    7   9 1
+            14    4  16 1 #Down
+            15    5   8 1
+            16   11  17 2
+            17    2   3 1
+            18    3   4 1
+///

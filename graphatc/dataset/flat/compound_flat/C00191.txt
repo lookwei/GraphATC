@@ -1,0 +1,70 @@
+ENTRY       C00191                      Compound
+NAME        D-Glucuronate;
+            Glucuronic acid;
+            Glucuronate
+FORMULA     C6H10O7
+EXACT_MASS  194.0427
+MOL_WEIGHT  194.1394
+REACTION    R01184 R01476 R01478 R01480 R01481 R01482 R01483 R01484 
+            R04512 R04979 R06143 R07818 R08127 R08260 R08615 R09447 
+            R09533 R10134 R10830 R10842
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map00053  Ascorbate and aldarate metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map00562  Inositol phosphate metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+            map01250  Biosynthesis of nucleotide sugars
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+            M00061  D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+ENZYME      1.1.1.2         1.1.1.19        1.1.1.203       1.13.99.1       
+            1.-.-.-         2.4.1.17        2.7.1.43        3.1.1.19        
+            3.1.1.93        3.2.1.31        3.2.1.56        3.2.1.139       
+            3.2.1.167       5.3.1.12
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar acids
+                C00191  D-Glucuronic acid
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Sodium glucuronate hydrate
+                C00191  D-Glucuronate
+DBLINKS     CAS: 6556-12-3
+            PubChem: 3491
+            ChEBI: 15748 4178 47952
+            KNApSAcK: C00001123
+            PDB-CCD: BDP GCU
+            3DMET: B04646
+            NIKKAJI: J82.112H
+ATOM        13
+            1   C1y C    25.0081  -18.3696
+            2   C1y C    25.0081  -19.7686
+            3   O2x O    26.2088  -17.6643
+            4   C6a C    23.7956  -17.7343
+            5   C1y C    26.2088  -20.4623
+            6   O1a O    23.7956  -20.4623
+            7   C1y C    27.4271  -18.3696
+            8   O6a O    22.7289  -18.6436
+            9   O6a O    23.7839  -16.2770
+            10  C1y C    27.4271  -19.7686
+            11  O1a O    26.2088  -21.8613
+            12  O1a O    28.6337  -17.6643
+            13  O1a O    28.6337  -20.4623
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Up
+            11    7  12 1 #Either
+            12   10  13 1 #Down
+            13    7  10 1
+///

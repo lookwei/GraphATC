@@ -1,0 +1,138 @@
+ENTRY       D00799                      Drug
+NAME        Trifluoperazine hydrochloride (JAN/USP);
+            Stelazine (TN)
+PRODUCT
+  GENERIC   TRIFLUOPERAZINE HYDROCHLORIDE (Mylan Institutional)
+            TRIFLUOPERAZINE HYDROCHLORIDE (Mylan Pharmaceuticals)
+            TRIFLUOPERAZINE HYDROCHLORIDE (REMEDYREPACK)
+            TRIFLUOPERAZINE HYDROCHLORIDE (REMEDYREPACK)
+            TRIFLUOPERAZINE HYDROCHLORIDE (Sandoz)
+FORMULA     C21H24F3N3S. 2HCl
+EXACT_MASS  479.1177
+MOL_WEIGHT  480.4175
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      ATC code: N05AB06
+            Chemical structure group: DG00877
+            Product (DG00877): D00799<US>
+EFFICACY    Antipsychotic, Sedative-hypnotic, Dopamine D2 receptor antagonist
+  DISEASE   Schizophrenia [DS:H01649]
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AB Phenothiazines with piperazine structure
+                 N05AB06 Trifluoperazine
+                  D00799  Trifluoperazine hydrochloride (JAN/USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              1st Generation/Typical
+               Trifluoperazine
+                D00799  Trifluoperazine hydrochloride (JAN/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00877  Trifluoperazine
+                 D00799  Trifluoperazine hydrochloride
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00877  Trifluoperazine
+                 D00799  Trifluoperazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00799  Trifluoperazine hydrochloride (JAN/USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00877  Trifluoperazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00877  Trifluoperazine
+DBLINKS     CAS: 440-17-5
+            PubChem: 7847864
+            ChEBI: 9710
+            LigandBox: D00799
+            NIKKAJI: J371.962F
+ATOM        30
+            1   C8y C    20.9546  -18.6482
+            2   N1y N    22.1730  -17.9486
+            3   C8y C    20.9487  -20.0474
+            4   C8x C    19.7478  -17.9427
+            5   C8y C    23.3855  -18.6540
+            6   C1b C    22.1730  -16.5437
+            7   S2x S    22.1613  -20.7527
+            8   C8x C    19.7478  -20.7470
+            9   C8x C    18.5294  -18.6482
+            10  C8y C    23.3739  -20.0531
+            11  C8x C    24.5980  -17.9661
+            12  C1b C    23.3798  -15.8499
+            13  C8x C    18.5294  -20.0474
+            14  C8x C    24.5749  -20.7586
+            15  C8y C    25.8048  -18.6773
+            16  C1b C    23.3798  -14.4567
+            17  C8x C    25.8631  -20.0765
+            18  N1y N    24.5865  -13.7512
+            19  C1x C    25.7991  -14.4507
+            20  C1x C    24.5865  -12.3520
+            21  C1x C    27.0116  -13.7454
+            22  C1x C    25.7991  -11.6526
+            23  N1y N    27.0116  -12.3463
+            24  C1a C    28.2243  -11.6409
+            25  C1d C    27.0183  -17.9497
+            26  X   F    28.2100  -17.2200
+            27  X   F    27.7200  -19.1100
+            28  X   F    26.3200  -16.7300
+            29  X   Cl   31.6716  -18.2170
+            30  X   Cl   31.6716  -18.2170
+BOND        31
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 2
+            10    5  11 1
+            11    6  12 1
+            12    8  13 2
+            13   10  14 1
+            14   11  15 2
+            15   12  16 1
+            16   14  17 2
+            17   16  18 1
+            18   18  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   23  24 1
+            24    7  10 1
+            25    9  13 1
+            26   15  17 1
+            27   22  23 1
+            28   15  25 1
+            29   25  26 1
+            30   25  27 1
+            31   25  28 1
+BRACKET     1    30.2400  -18.9000   30.2400  -17.2200
+            1    32.2700  -17.2200   32.2700  -18.9000
+            1  2
+  ORIGINAL  1   29
+  REPEAT    1   30
+///

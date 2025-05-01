@@ -1,0 +1,91 @@
+ENTRY       D12688                      Drug
+NAME        Phenomorphan (INN)
+FORMULA     C24H29NO
+EXACT_MASS  347.2249
+MOL_WEIGHT  347.4932
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12688  Phenomorphan
+             Analgesic
+              DG01984  Opioid analgesics
+               D12688  Phenomorphan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12688  Phenomorphan (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12688
+DBLINKS     CAS: 468-07-5
+ATOM        26
+            1   C1z C    14.9528  -16.4972
+            2   C8y C    14.9528  -15.1634
+            3   C1y C    16.1462  -17.1992
+            4   C1x C    16.1462  -15.8654
+            5   C8x C    13.8296  -14.5316
+            6   C8y C    16.1462  -14.5316
+            7   C1y C    17.2694  -16.4972
+            8   C1x C    18.3926  -15.8654
+            9   C8y C    13.8296  -13.1978
+            10  C1x C    17.2694  -15.2336
+            11  C8x C    16.1462  -13.1978
+            12  N1y N    18.3926  -17.1992
+            13  C8x C    15.0230  -12.5660
+            14  O1a O    12.6362  -12.5660
+            15  C1b C    19.6562  -16.4972
+            16  C1b C    20.8496  -17.1992
+            17  C8y C    22.1132  -16.4972
+            18  C8x C    23.3066  -17.1992
+            19  C8x C    24.5702  -16.4972
+            20  C8x C    24.5702  -15.0932
+            21  C8x C    23.3066  -14.3210
+            22  C8x C    22.1132  -15.0932
+            23  C1x C    13.7594  -17.1992
+            24  C1x C    13.7594  -18.6032
+            25  C1x C    14.9528  -19.3052
+            26  C1x C    16.1462  -18.6032
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    6  11 2
+            11    7  12 1 #Up
+            12    9  13 2
+            13    9  14 1
+            14    7  10 1
+            15    8  12 1
+            16   11  13 1
+            17   12  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   17  22 1
+            26    1  23 1
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30    3  26 1
+///

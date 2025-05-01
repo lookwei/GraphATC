@@ -1,0 +1,145 @@
+ENTRY       D08956                      Drug
+NAME        Omacetaxine mepesuccinate (USAN);
+            Homoharringtonine;
+            Synribo (TN)
+PRODUCT     SYNRIBO (Cephalon)
+FORMULA     C29H39NO9
+EXACT_MASS  545.2625
+MOL_WEIGHT  545.6213
+SOURCE      Cephalotaxus [TAX:50178]
+REMARK      ATC code: L01XX40
+            Product: D08956<US>
+EFFICACY    Antineoplastic, Protein biosynthesis inhibitor
+  DISEASE   Chronic myeloid leukemia [DS:H00004]
+TARGET      CCND1 [HSA:595] [KO:K04503]
+            MCL1 [HSA:4170] [KO:K02539]
+            MYC [HSA:4609] [KO:K04377]
+  PATHWAY   hsa04010(4609)  MAPK signaling pathway
+            hsa04151(4170+4609+595)  PI3K-Akt signaling pathway
+            hsa05200(4609+595)  Pathways in cancer
+            hsa05220(4609+595)  Chronic myeloid leukemia
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX40 Omacetaxine mepesuccinate
+                  D08956  Omacetaxine mepesuccinate (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antineoplastics, Other
+               Omacetaxine Mepesuccinate
+                D08956  Omacetaxine mepesuccinate (USAN)
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Signaling molecules
+               Transcription factor
+                MYC
+                 D08956  Omacetaxine mepesuccinate (USAN) &lt;US&gt;
+              Cellular process
+               Cell cycle
+                CCND1
+                 D08956  Omacetaxine mepesuccinate (USAN) &lt;US&gt;
+               Apoptosis
+                MCL1
+                 D08956  Omacetaxine mepesuccinate (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D08956
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D08956
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D08956
+DBLINKS     CAS: 26833-87-4
+            PubChem: 96025639
+            ChEBI: 71019
+            PDB-CCD: HMT
+            LigandBox: D08956
+            NIKKAJI: J123.154E
+ATOM        39
+            1   C8x C    17.6397  -10.6348
+            2   C8y C    18.8674  -11.3579
+            3   C8y C    16.4129  -11.3276
+            4   C8y C    18.8680  -12.7739
+            5   C1x C    19.9053  -10.4449
+            6   C8y C    16.4136  -12.7437
+            7   C1y C    20.0013  -13.6231
+            8   C8x C    17.6411  -13.4668
+            9   C1x C    21.3216  -10.7589
+            10  C1z C    21.3227  -13.2764
+            11  C1y C    19.8446  -15.0392
+            12  N1y N    21.9515  -12.0173
+            13  C2x C    22.0156  -14.5033
+            14  C2y C    21.1350  -15.5735
+            15  O2a O    21.4189  -16.9266
+            16  O2x O    15.0659  -10.8908
+            17  C1x C    14.2341  -12.0366
+            18  O2x O    15.0672  -13.1819
+            19  C1x C    23.5746  -13.6143
+            20  C1x C    23.3434  -12.2263
+            21  C1x C    22.4975  -14.0511
+            22  C1a C    22.7562  -17.3649
+            23  O7a O    18.6093  -16.1899
+            24  C7a C    18.6093  -17.5899
+            25  C1d C    17.4135  -18.2801
+            26  O6a O    19.8209  -18.2896
+            27  C1b C    16.2093  -17.5846
+            28  C7a C    15.0261  -18.2674
+            29  O7a O    13.8329  -17.5781
+            30  O6a O    15.0258  -19.6698
+            31  C1a C    12.6442  -18.2642
+            32  C1b C    17.4135  -19.6801
+            33  C1b C    16.2178  -20.3704
+            34  C1b C    16.2178  -21.7704
+            35  C1d C    15.0223  -22.4608
+            36  O1a O    13.8099  -23.1608
+            37  C1a C    15.7329  -23.6921
+            38  C1a C    14.3335  -21.2673
+            39  O1a O    18.4034  -19.2700
+BOND        43
+            1     1   2 1
+            2     1   3 2
+            3     2   4 2
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 1
+            8     5   9 1
+            9     7  10 1
+            10    7  11 1
+            11    9  12 1
+            12   10  13 1
+            13   11  14 1
+            14   14  15 1
+            15    6   8 2
+            16   10  12 1
+            17   13  14 2
+            18    3  16 1
+            19   16  17 1
+            20   17  18 1
+            21    6  18 1
+            22   19  20 1
+            23   12  20 1
+            24   10  21 1 #Down
+            25   21  19 1
+            26   15  22 1
+            27   11  23 1 #Up
+            28   23  24 1
+            29   24  25 1
+            30   24  26 2
+            31   25  27 1
+            32   27  28 1
+            33   28  29 1
+            34   28  30 2
+            35   29  31 1
+            36   25  32 1
+            37   32  33 1
+            38   33  34 1
+            39   34  35 1
+            40   35  36 1
+            41   35  37 1
+            42   35  38 1
+            43   25  39 1 #Down
+///

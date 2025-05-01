@@ -1,0 +1,59 @@
+ENTRY       D05157                      Drug
+NAME        Nicotine polacrilex (USP);
+            Nicorette (TN)
+CLASS       Metabolizing enzyme substrate
+             DG01638  CYP2A6 substrate
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+REMARK      ATC code: N07BA01
+            Chemical structure group: DG00994
+            Product (DG00994): D03365<JP/US>
+EFFICACY    Smoking cessation adjunct
+TARGET      CHRN [HSA:1134 1135 1136 1137 1138 8973 1139 55584 57053 1140 1141 1142 1143 1144 1145 1146] [KO:K04803 K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04812 K04813 K04814 K04815 K04816 K04817 K04818]
+  PATHWAY   hsa04080(1134+1135+1136+1137+1138+1139+1140+1141+1142+1143+1144+1145+1146+55584+57053+8973)  Neuroactive ligand-receptor interaction
+            hsa04725(1136+1137+1139+1141+1143+8973)  Cholinergic synapse
+            hsa05033(1137+1139+1141+8973)  Nicotine addiction
+METABOLISM  Enzyme: CYP2A6 [HSA:1548]
+INTERACTION CYP induction: CYP1A2 [HSA:1544]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BA Drugs used in nicotine dependence
+                 N07BA01 Nicotine
+                  D05157  Nicotine polacrilex (USP)
+            USP drug classification [BR:br08302]
+             Anti-Addiction/Substance Abuse Treatment Agents
+              Smoking Cessation Agents
+               Nicotine
+                D05157  Nicotine polacrilex (USP)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG00994  Nicotine
+                D05157  Nicotine polacrilex
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00994  Nicotine
+                D05157  Nicotine polacrilex
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN
+                 D05157  Nicotine polacrilex (USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05157
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D05157
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG00994  Nicotine
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00994  Nicotine
+DBLINKS     CAS: 96055-45-7
+            PubChem: 47206881
+///

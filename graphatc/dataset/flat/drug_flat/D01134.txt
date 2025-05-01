@@ -1,0 +1,87 @@
+ENTRY       D01134                      Drug
+NAME        Epristeride (JAN/USAN/INN)
+FORMULA     C25H37NO3
+EXACT_MASS  399.2773
+MOL_WEIGHT  399.5662
+EFFICACY    Urological agent, 5alpha-Reductase inhibitor
+COMMENT     Treatment of benign prostatic hyperplasia and acne vulgaris
+TARGET      SRD5A1 [HSA:6715] [KO:K12343]
+            SRD5A2 [HSA:6716] [KO:K12344]
+  PATHWAY   hsa00140(6715+6716)  Steroid hormone biosynthesis
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SRD5A1
+                 D01134  Epristeride (JAN/USAN/INN)
+                SRD5A2
+                 D01134  Epristeride (JAN/USAN/INN)
+DBLINKS     CAS: 119169-78-7
+            PubChem: 7848197
+            ChEBI: 31552
+            LigandBox: D01134
+            NIKKAJI: J274.922J
+ATOM        29
+            1   C1x C    17.6443  -17.9490
+            2   C2y C    17.6443  -19.3228
+            3   C2x C    18.8369  -20.0097
+            4   C1x C    18.8369  -17.2622
+            5   C1z C    20.0225  -17.9490
+            6   C2y C    20.0166  -19.3228
+            7   C2x C    21.2034  -20.0148
+            8   C1x C    22.3960  -19.3329
+            9   C1y C    21.2152  -17.2673
+            10  C1y C    22.3961  -17.9622
+            11  C1x C    22.4186  -15.2219
+            12  C1x C    21.2264  -15.8972
+            13  C1z C    23.5995  -15.9166
+            14  C1y C    23.5830  -17.2826
+            15  C1x C    25.9489  -17.3113
+            16  C1x C    25.9655  -15.9454
+            17  C1y C    24.7908  -15.2480
+            18  C5a C    24.8074  -13.8743
+            19  N1b N    26.0053  -13.2019
+            20  O5a O    23.6262  -13.1731
+            21  C1d C    27.1866  -13.9032
+            22  C1a C    26.4904  -15.0837
+            23  C1a C    27.8641  -12.7038
+            24  C1a C    28.3707  -14.5841
+            25  C6a C    16.4551  -20.0103
+            26  O6a O    15.2650  -19.3241
+            27  O6a O    16.4557  -21.3841
+            28  C1a C    23.5904  -14.5425
+            29  C1a C    20.0103  -16.5753
+BOND        32
+            1     7   8 1
+            2    13  14 1
+            3    15  16 1
+            4    16  17 1
+            5    17  13 1
+            6    14  15 1
+            7     8  10 1
+            8    17  18 1 #Up
+            9     9   5 1
+            10   18  19 1
+            11    5   4 1
+            12   18  20 2
+            13    4   1 1
+            14   19  21 1
+            15   21  22 1
+            16    1   2 1
+            17   21  23 1
+            18    9  10 1
+            19   21  24 1
+            20   10  14 1
+            21    2  25 1
+            22   13  11 1
+            23   25  26 1
+            24   11  12 1
+            25   25  27 2
+            26   12   9 1
+            27    2   3 2
+            28    3   6 1
+            29    5   6 1
+            30   13  28 1 #Up
+            31    6   7 2
+            32    5  29 1 #Up
+///

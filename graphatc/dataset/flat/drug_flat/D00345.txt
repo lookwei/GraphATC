@@ -1,0 +1,146 @@
+ENTRY       D00345                      Drug
+NAME        Indapamide (JP18/USP);
+            Lozol (TN);
+            Natrix (TN)
+PRODUCT
+  GENERIC   INDAPAMIDE (ANI Pharmaceuticals)
+            INDAPAMIDE (Actavis Pharma)
+            INDAPAMIDE (Bryant Ranch Prepack)
+            INDAPAMIDE (Bryant Ranch Prepack)
+            INDAPAMIDE (Bryant Ranch Prepack)
+            INDAPAMIDE (Bryant Ranch Prepack)
+            INDAPAMIDE (Bryant Ranch Prepack)
+            INDAPAMIDE (Golden State Medical Supply)
+            INDAPAMIDE (Mylan Pharmaceuticals)
+            INDAPAMIDE (Preferred Pharmaceuticals)
+            INDAPAMIDE (Rising Pharma Holdings)
+FORMULA     C16H16ClN3O3S
+EXACT_MASS  365.0601
+MOL_WEIGHT  365.8345
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG02992  Thiazide related diuretic
+             DG01690  Sulfonamide diuretic
+              DG02992  Thiazide related diuretic
+REMARK      Therapeutic category: 2149
+            ATC code: C03BA11
+            Chemical structure group: DG00269
+            Product (DG00269): D00345<JP/US>
+EFFICACY    Antihypertensive, Diuretic, Na+-Cl- symport inhibitor
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Sulfonamide derivative
+TARGET      SLC12A3 (TSC) [HSA:6559] [KO:K14426]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07055  Sulfonamide derivatives - overview
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03B LOW-CEILING DIURETICS, EXCL. THIAZIDES
+                C03BA Sulfonamides, plain
+                 C03BA11 Indapamide
+                  D00345  Indapamide (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Diuretics, Thiazide
+               Indapamide
+                D00345  Indapamide (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D00345  Indapamide (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG02992  Thiazide related diuretic
+                DG00269  Indapamide
+                 D00345  Indapamide
+              DG01690  Sulfonamide diuretic
+               DG02992  Thiazide related diuretic
+                DG00269  Indapamide
+                 D00345  Indapamide
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG02992  Thiazide related diuretic
+               D00345  Indapamide
+              DG03231  Antihypertensive
+               D00345  Indapamide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A3 (TSC)
+                 D00345  Indapamide (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00345  Indapamide
+              D00345  Indapamide tablets
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG02992  Thiazide related diuretic
+                DG00269  Indapamide
+              DG01690  Sulfonamide diuretic
+               DG02992  Thiazide related diuretic
+                DG00269  Indapamide
+DBLINKS     CAS: 26807-65-8
+            PubChem: 7847411
+            ChEBI: 5893
+            LigandBox: D00345
+            NIKKAJI: J10.425F
+ATOM        24
+            1   C8x C    16.4080  -16.4924
+            2   C8x C    16.4080  -17.8843
+            3   C8x C    17.6134  -18.5803
+            4   C8x C    18.8190  -17.8843
+            5   C8y C    18.8190  -16.4924
+            6   C8y C    17.6134  -15.7964
+            7   N1y N    20.0245  -15.7964
+            8   C1y C    19.5262  -14.4348
+            9   C1x C    18.0723  -14.4284
+            10  N1b N    21.2300  -16.4924
+            11  C5a C    22.4355  -15.7964
+            12  C1a C    20.3390  -13.2774
+            13  C8y C    23.6841  -16.5171
+            14  O5a O    22.4361  -14.4204
+            15  C8x C    23.6842  -17.9198
+            16  C8x C    24.8967  -18.6197
+            17  C8y C    26.1091  -17.9196
+            18  C8y C    26.1090  -16.5169
+            19  C8x C    24.8965  -15.8170
+            20  S4a S    27.3208  -15.8172
+            21  X   Cl   27.3224  -18.6200
+            22  N1a N    28.5332  -15.1172
+            23  O3c O    26.6169  -14.5979
+            24  O3c O    28.0167  -17.0226
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   6 1
+            11   10  11 1
+            12    7  10 1
+            13    8  12 1
+            14   11  13 1
+            15   11  14 2
+            16   13  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   13  19 1
+            22   18  20 1
+            23   17  21 1
+            24   20  22 1
+            25   20  23 2
+            26   20  24 2
+///

@@ -1,0 +1,88 @@
+ENTRY       D02254                      Drug
+NAME        Calcium lactate hydrate (JP18);
+            Calcium lactate pentahydrate;
+            Calcium lactate (TN)
+FORMULA     (C3H5O3)2. 5H2O. Ca
+EXACT_MASS  308.0632
+MOL_WEIGHT  308.2944
+CLASS       Gastrointestinal agent
+             DG01980  Calcium
+REMARK      Therapeutic category: 3211
+            ATC code: A12AA05
+            Chemical structure group: DG00136
+            Product (DG00136): D02254<JP>
+EFFICACY    Antihypocalcemia, Supplement (calcium)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A12 MINERAL SUPPLEMENTS
+               A12A CALCIUM
+                A12AA Calcium
+                 A12AA05 Calcium lactate
+                  D02254  Calcium lactate hydrate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              32  Nutrients, tonics
+               321  Calcium preparations
+                3211  Calcium lactates
+                 D02254  Calcium lactate hydrate (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Nourishing tonics and health supplements
+              44 Calcium based drugs
+               D02254  Calcium lactate hydrate (JP18)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00136  Calcium lactate
+                D02254  Calcium lactate hydrate
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02254  Calcium lactate hydrate
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00136  Calcium lactate
+DBLINKS     CAS: 5743-47-5
+            PubChem: 7849313
+            LigandBox: D02254
+ATOM        18
+            1   O0  O    30.7646  -17.4756
+            2   C1c C    20.3593  -17.6787
+            3   C6a C    21.5677  -16.9899
+            4   C1a C    20.3533  -19.0858
+            5   O1a O    19.1450  -16.9840
+            6   O6a O    21.5618  -15.5888
+            7   O6a O    22.7820  -17.6904 #-
+            8   Z   Ca   25.7179  -17.5328 #2+
+            9   O0  O    30.7646  -17.4756
+            10  O0  O    30.7646  -17.4756
+            11  O0  O    30.7646  -17.4756
+            12  O0  O    30.7646  -17.4756
+            13  C1c C    20.3593  -17.6787
+            14  C6a C    21.5677  -16.9899
+            15  O6a O    21.5618  -15.5888
+            16  O6a O    22.7820  -17.6904 #-
+            17  C1a C    20.3533  -19.0858
+            18  O1a O    19.1450  -16.9840
+BOND        10
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     3   6 2
+            5     3   7 1
+            6    13  14 1
+            7    13  17 1
+            8    13  18 1
+            9    14  15 2
+            10   14  16 1
+BRACKET     1    28.4900  -18.4800   28.4900  -16.5200
+            1    31.3600  -16.5200   31.3600  -18.4800
+            1  5
+  ORIGINAL  1    1
+  REPEAT    1    9  10  11  12
+            2    17.2200  -20.1600   17.2200  -14.6300
+            2    23.7300  -14.6300   23.7300  -20.1600
+            2  2
+  ORIGINAL  2    2   3   6   7   4   5
+  REPEAT    2   13  14  15  16  17  18
+///

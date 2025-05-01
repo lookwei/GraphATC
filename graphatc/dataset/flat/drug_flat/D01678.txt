@@ -1,0 +1,65 @@
+ENTRY       D01678                      Drug
+NAME        Thioinosine (JAN);
+            6-Mercaptopurine riboside (JAN)
+FORMULA     C10H12N4O4S
+EXACT_MASS  284.0579
+MOL_WEIGHT  284.2917
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+EFFICACY    Antineoplastic, Antimetabolite
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                D01678  Thioinosine
+DBLINKS     CAS: 574-25-4
+            PubChem: 7848741
+            ChEBI: 32217
+            LigandBox: D01678
+            NIKKAJI: J33.135J
+ATOM        19
+            1   C8y C    29.1421  -17.2715
+            2   N5x N    29.5056  -18.6328
+            3   C1y C    22.4494  -18.9749
+            4   C1y C    22.0787  -17.6064
+            5   C1b C    20.7082  -17.2431
+            6   O1a O    19.7085  -18.2484
+            7   O1a O    21.4496  -19.9801
+            8   C1y C    23.8639  -18.9759
+            9   C1y C    24.3032  -17.5633
+            10  O2x O    23.1583  -16.8020
+            11  C8y C    26.7900  -17.9058
+            12  N5x N    27.1535  -19.2671
+            13  C8x C    28.5141  -19.6330
+            14  C8y C    27.7871  -16.9104
+            15  C8x C    25.9840  -15.7121
+            16  N4y N    25.6159  -17.1371
+            17  N5x N    27.3863  -15.7135
+            18  O1a O    24.5591  -20.1937
+            19  S1a S    30.1397  -16.2734
+BOND        21
+            1     3   4 1
+            2    11  12 1
+            3    12  13 2
+            4    13   2 1
+            5     1  14 1
+            6    14  11 2
+            7     4   5 1 #Up
+            8     5   6 1
+            9    15  16 1
+            10   16  11 1
+            11   14  17 1
+            12   17  15 2
+            13    9  16 1 #Up
+            14    3   7 1 #Down
+            15    8  18 1 #Down
+            16    1   2 2
+            17    8   9 1
+            18    9  10 1
+            19   10   4 1
+            20    3   8 1
+            21    1  19 1
+///

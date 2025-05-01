@@ -1,0 +1,106 @@
+ENTRY       D00933                      Drug
+NAME        Calcium citrate (USP);
+            Calcium citrate tetrahydrate;
+            Citracal (TN)
+FORMULA     (C6H5O7)2. 3Ca. 4H2O
+EXACT_MASS  569.9371
+MOL_WEIGHT  570.4945
+CLASS       Gastrointestinal agent
+             DG01980  Calcium
+REMARK      ATC code: A12AA13
+EFFICACY    Supplement (calcium)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A12 MINERAL SUPPLEMENTS
+               A12A CALCIUM
+                A12AA Calcium
+                 A12AA13 Calcium citrate
+                  D00933  Calcium citrate (USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Anhydrous citric acid
+                D00933  Calcium citrate (USP)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               D00933  Calcium citrate
+DBLINKS     CAS: 5785-44-4
+            PubChem: 7847996
+            LigandBox: D00933
+ATOM        33
+            1   C1d C    12.3042  -14.3424
+            2   C1b C    11.0908  -15.0423
+            3   C1b C    13.5174  -15.0366
+            4   C6a C    12.9982  -13.1292
+            5   O1a O    11.5985  -13.1234
+            6   C6a C     9.8836  -14.3483
+            7   C6a C    13.5174  -16.4306
+            8   O6a O    14.3982  -13.1292
+            9   O6a O    12.2866  -11.9101 #-
+            10  O6a O     9.8776  -12.9483
+            11  O6a O     8.6761  -15.0483 #-
+            12  O6a O    12.2983  -17.1248
+            13  O6a O    14.7248  -17.1365 #-
+            14  Z   Ca   18.5462  -14.9495 #2+
+            15  O0  O    23.6989  -14.8065
+            16  C1d C    12.3042  -14.3424
+            17  C1b C    11.0908  -15.0423
+            18  C6a C     9.8836  -14.3483
+            19  O6a O     9.8776  -12.9483
+            20  O6a O     8.6761  -15.0483 #-
+            21  C1b C    13.5174  -15.0366
+            22  C6a C    13.5174  -16.4306
+            23  O6a O    12.2983  -17.1248
+            24  O6a O    14.7248  -17.1365 #-
+            25  C6a C    12.9982  -13.1292
+            26  O6a O    14.3982  -13.1292
+            27  O6a O    12.2866  -11.9101 #-
+            28  O1a O    11.5985  -13.1234
+            29  Z   Ca   18.5462  -14.9495 #2+
+            30  Z   Ca   18.5462  -14.9495 #2+
+            31  O0  O    23.6989  -14.8065
+            32  O0  O    23.6989  -14.8065
+            33  O0  O    23.6989  -14.8065
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 2
+            8     4   9 1
+            9     6  10 2
+            10    6  11 1
+            11    7  12 2
+            12    7  13 1
+            13   16  17 1
+            14   16  21 1
+            15   16  25 1
+            16   16  28 1
+            17   17  18 1
+            18   21  22 1
+            19   25  26 2
+            20   25  27 1
+            21   18  19 2
+            22   18  20 1
+            23   22  23 2
+            24   22  24 1
+BRACKET     1     7.9100  -18.2000    7.9100  -10.4300
+            1    15.8900  -10.4300   15.8900  -18.2000
+            1  2
+  ORIGINAL  1    1   2   6  10  11   3   7  12  13   4   8   9   5
+  REPEAT    1   16  17  18  19  20  21  22  23  24  25  26  27  28
+            2    17.7100  -16.0300   17.7100  -13.5100
+            2    20.3700  -13.5100   20.3700  -16.0300
+            2  3
+  ORIGINAL  2   14
+  REPEAT    2   29  30
+            3    22.0500  -15.8200   22.0500  -13.7200
+            3    24.4300  -13.7200   24.4300  -15.8200
+            3  4
+  ORIGINAL  3   15
+  REPEAT    3   31  32  33
+///

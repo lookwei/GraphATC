@@ -1,0 +1,77 @@
+ENTRY       D12158                      Drug
+NAME        Elsubrutinib (USAN/INN)
+FORMULA     C17H19N3O2
+EXACT_MASS  297.1477
+MOL_WEIGHT  297.3517
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG02022  BTK inhibitor
+EFFICACY    Autoimmune disease treatment, Bruton's tyrosine kinase inhibitor
+COMMENT     Treatment of rheumatoid arthiritis and systemic lupus erythematosus
+TARGET      BTK [HSA:695] [KO:K07370]
+  PATHWAY   hsa04064(695)  NF-kappa B signaling pathway
+            hsa04380(695)  Osteoclast differentiation
+            hsa04662(695)  B cell receptor signaling pathway
+            hsa04664(695)  Fc epsilon RI signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG02022  BTK inhibitor
+                D12158  Elsubrutinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               Tec family
+                BTK
+                 D12158  Elsubrutinib (USAN/INN)
+DBLINKS     CAS: 1643570-24-4
+ATOM        22
+            1   C8y C    16.0300  -20.1600
+            2   C8y C    16.0300  -21.5600
+            3   C8y C    17.2424  -22.2600
+            4   C8y C    18.4549  -21.5600
+            5   C8x C    18.4549  -20.1600
+            6   C8x C    17.2424  -19.4600
+            7   C5a C    19.6860  -22.2710
+            8   N1a N    20.8912  -21.5753
+            9   O5a O    19.6857  -23.6599
+            10  C8x C    14.9896  -22.4968
+            11  C8x C    15.5590  -23.7758
+            12  N4x N    16.9514  -23.6294
+            13  C1y C    14.8176  -19.4600
+            14  C1x C    14.8176  -18.0602
+            15  N1y N    13.6051  -17.3602
+            16  C1x C    12.3927  -18.0602
+            17  C1x C    12.3927  -19.4600
+            18  C1x C    13.6051  -20.1600
+            19  C5a C    13.6051  -15.9602
+            20  O5a O    14.7987  -15.2709
+            21  C2b C    12.3738  -15.2492
+            22  C2a C    11.1690  -15.9449
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     7   9 2
+            10    2  10 1
+            11   10  11 2
+            12   11  12 1
+            13    3  12 1
+            14   13   1 1 #Down
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+            21   15  19 1
+            22   19  20 2
+            23   19  21 1
+            24   21  22 2
+///

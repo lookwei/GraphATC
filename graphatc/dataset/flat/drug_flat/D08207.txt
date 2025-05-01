@@ -1,0 +1,121 @@
+ENTRY       D08207                      Drug
+NAME        Methylergometrine (INN);
+            Ergotyl (TN)
+FORMULA     C20H25N3O2
+EXACT_MASS  339.1947
+MOL_WEIGHT  339.4314
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G02AB01
+            Chemical structure group: DG00445
+            Product (DG00445): D00680<JP/US>
+EFFICACY    Hemostatic, Oxytocic
+COMMENT     Ergot alkaloid
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04022(146+147+148+150+151+152)  cGMP-PKG signaling pathway
+            hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AB Ergot alkaloids
+                 G02AB01 Methylergometrine
+                  D08207  Methylergometrine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00445  Methylergometrine
+                D08207  Methylergometrine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00445  Methylergometrine
+                 D08207  Methylergometrine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08207  Methylergometrine (INN)
+                ADRA2
+                 D08207  Methylergometrine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08207
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00445  Methylergometrine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00445  Methylergometrine
+DBLINKS     CAS: 113-42-8
+            PubChem: 96024895
+            PDB-CCD: H8D
+            LigandBox: D08207
+            NIKKAJI: J5.132B
+ATOM        25
+            1   C8y C    21.7700  -19.9500
+            2   C8y C    21.7700  -18.6200
+            3   C8y C    22.9600  -20.6500
+            4   C8y C    20.5800  -20.6500
+            5   C2y C    22.9600  -17.9200
+            6   C8x C    20.5800  -17.9200
+            7   C1x C    24.1500  -19.9500
+            8   C8x C    22.9600  -21.9800
+            9   N4x N    20.5800  -21.9800
+            10  C8x C    19.4600  -19.9500
+            11  C1y C    24.1500  -18.6200
+            12  C2x C    22.9600  -16.5900
+            13  C8x C    19.4600  -18.6200
+            14  N1y N    25.2700  -17.9200
+            15  C1y C    24.1500  -15.8900
+            16  C1x C    25.2700  -16.5900
+            17  C1a C    26.4600  -18.6200
+            18  C5a C    24.1500  -14.5600
+            19  N1b N    25.3400  -13.8600
+            20  O5a O    22.9600  -13.8600
+            21  C1c C    26.4600  -14.4900
+            22  C1b C    27.6500  -13.8600
+            23  C1b C    26.4600  -15.8900
+            24  C1a C    28.8400  -14.5600
+            25  O1a O    27.7200  -16.5900
+BOND        28
+            1     5  11 1
+            2     5  12 2
+            3     6  13 1
+            4    11  14 1
+            5    12  15 1
+            6    14  16 1
+            7    14  17 1
+            8    15  18 1 #Up
+            9    18  19 1
+            10   18  20 2
+            11   19  21 1
+            12   21  22 1
+            13    7  11 1
+            14    8   9 1
+            15   10  13 2
+            16   15  16 1
+            17   21  23 1 #Up
+            18   22  24 1
+            19    1   2 1
+            20   23  25 1
+            21    1   3 1
+            22    1   4 2
+            23    2   5 1
+            24    2   6 2
+            25    3   7 1
+            26    3   8 2
+            27    4   9 1
+            28    4  10 1
+///

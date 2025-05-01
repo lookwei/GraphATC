@@ -1,0 +1,134 @@
+ENTRY       D06574                      Drug
+NAME        Casopitant mesylate (USAN)
+FORMULA     C30H35F7N4O2. CH4SO3
+EXACT_MASS  712.2529
+MOL_WEIGHT  712.719
+CLASS       Gastrointestinal agent
+             DG01762  Antiemetic
+REMARK      ATC code: A04AD13
+EFFICACY    Antianxiety, Antidepressant, Anti-emetic, Neurokinin NK1 antagonist
+COMMENT     Treatment of unipolar depression, anxiety, and insomnia disorders, Prevention and treatment of nausea and vomiting, Treatment of functional dyspepsia, irritable bowel syndrome, gastroesophageal reflux disease, and overactive bladder disease
+TARGET      TACR1 (NK1R) [HSA:6869] [KO:K04222]
+  PATHWAY   hsa04080(6869)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A04 ANTIEMETICS AND ANTINAUSEANTS
+               A04A ANTIEMETICS AND ANTINAUSEANTS
+                A04AD Other antiemetics
+                 A04AD13 Casopitant
+                  D06574  Casopitant mesylate (USAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               D06574  Casopitant mesylate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Tachykinin
+                TACR1 (NK1R)
+                 D06574  Casopitant mesylate (USAN)
+DBLINKS     CAS: 414910-30-8
+            PubChem: 47208230
+            LigandBox: D06574
+ATOM        48
+            1   C8x C    14.0689  -12.3190
+            2   C8y C    14.0689  -13.7189
+            3   C8y C    15.2588  -14.4189
+            4   C8x C    16.5187  -13.7189
+            5   C8x C    16.5187  -12.3190
+            6   C8y C    15.2588  -11.6190
+            7   C1y C    15.2588  -15.8188
+            8   C1x C    14.0689  -16.5188
+            9   C1y C    14.0689  -17.9187
+            10  C1x C    15.2588  -18.6186
+            11  C1x C    16.5187  -17.9187
+            12  N1y N    16.5187  -16.5188
+            13  N1y N    12.8790  -18.6186
+            14  C1x C    11.6890  -17.9187
+            15  C1x C    10.4291  -18.6186
+            16  N1y N    10.4291  -20.0185
+            17  C1x C    11.6190  -20.7185
+            18  C1x C    12.8790  -20.0185
+            19  C5a C     9.2392  -20.7185
+            20  C1a C     8.0492  -20.0185
+            21  O5a O     9.2392  -22.1184
+            22  C1a C    12.8790  -14.4189
+            23  X   F    15.2588  -10.2191
+            24  C5a C    17.7087  -15.8188
+            25  N1c N    18.8986  -16.5188
+            26  O5a O    17.7087  -14.4189
+            27  C1c C    20.0885  -15.8188
+            28  C1a C    18.8986  -17.9187
+            29  C8y C    21.2784  -16.5188
+            30  C1a C    20.0885  -14.4189
+            31  C8x C    21.2784  -17.9187
+            32  C8y C    22.5384  -18.6186
+            33  C8x C    23.7283  -17.9187
+            34  C8y C    23.7283  -16.5188
+            35  C8x C    22.5384  -15.8188
+            36  C1d C    24.9182  -15.8188
+            37  C1d C    22.5384  -20.0185
+            38  X   F    22.5384  -21.4185
+            39  X   F    23.9383  -20.0185
+            40  X   F    21.1385  -20.0185
+            41  X   F    26.1782  -15.1188
+            42  X   F    24.2183  -14.6289
+            43  X   F    25.6182  -17.0087
+            44  O1d O    27.7881  -18.6186
+            45  S4a S    27.7881  -20.0185
+            46  C1a C    26.3881  -20.0185
+            47  O1d O    29.1880  -20.0185
+            48  O1d O    27.7881  -21.4185
+BOND        50
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   3 1 #Down
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    7  12 1
+            14    9  13 1 #Down
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+            21   16  19 1
+            22   19  20 1
+            23   19  21 2
+            24    2  22 1
+            25    6  23 1
+            26   12  24 1
+            27   24  25 1
+            28   24  26 2
+            29   25  27 1
+            30   25  28 1
+            31   27  29 1
+            32   27  30 1 #Down
+            33   29  31 2
+            34   31  32 1
+            35   32  33 2
+            36   33  34 1
+            37   34  35 2
+            38   29  35 1
+            39   34  36 1
+            40   32  37 1
+            41   37  38 1
+            42   37  39 1
+            43   37  40 1
+            44   36  41 1
+            45   36  42 1
+            46   36  43 1
+            47   44  45 2
+            48   45  46 1
+            49   45  47 1
+            50   45  48 2
+///

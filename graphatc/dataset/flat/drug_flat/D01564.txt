@@ -1,0 +1,164 @@
+ENTRY       D01564                      Drug
+NAME        Rilmazafone hydrochloride hydrate (JP18);
+            Rilmazafone hydrochloride dihydrate;
+            Rilmazafone hydrochloride;
+            Rhythmy (TN)
+FORMULA     C21H20Cl2N6O3. 2H2O. HCl
+EXACT_MASS  546.0952
+MOL_WEIGHT  547.8194
+CLASS       Neuropsychiatric agent
+             DG01835  Benzodiazepine sedative-hypnotics
+             DG03202  Hypnotic
+             DG01567  GABA-A receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02970  CES substrate
+REMARK      Therapeutic category: 1129
+            Chemical structure group: DG01307
+            Product (DG01307): D01564<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Benzodiazepines
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+METABOLISM  Enzyme: CES [HSA:1066 8824 23491 221223], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1129  Others
+                 D01564  Rilmazafone hydrochloride hydrate (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               DG01307  Rilmazafone
+                D01564  Rilmazafone hydrochloride hydrate
+              DG03202  Hypnotic
+               DG01307  Rilmazafone
+                D01564  Rilmazafone hydrochloride hydrate
+              DG01567  GABA-A receptor agonist
+               DG01307  Rilmazafone
+                D01564  Rilmazafone hydrochloride hydrate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01307  Rilmazafone
+                 D01564  Rilmazafone hydrochloride hydrate
+              DG02970  CES substrate
+               DG01307  Rilmazafone
+                D01564  Rilmazafone hydrochloride hydrate
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03202  Hypnotic
+               D01564  Rilmazafone hydrochloride hydrate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01564  Rilmazafone hydrochloride hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01564  Rilmazafone hydrochloride hydrate
+              D01564  Rilmazafone hydrochloride tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01564
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01835  Benzodiazepine sedative-hypnotics
+               DG01307  Rilmazafone
+              DG03202  Hypnotic
+               DG01307  Rilmazafone
+              DG01567  GABA-A receptor agonist
+               DG01307  Rilmazafone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01307  Rilmazafone
+              DG02970  CES substrate
+               DG01307  Rilmazafone
+DBLINKS     PubChem: 7848627
+            ChEBI: 32100
+            LigandBox: D01564
+ATOM        35
+            1   N4y N    31.6779  -17.6593
+            2   C8y C    30.5348  -18.4801
+            3   N5x N    30.9600  -19.8196
+            4   C8y C    32.3658  -19.8243
+            5   N5x N    32.8005  -18.4879
+            6   C8y C    31.6784  -16.2592
+            7   C8y C    32.8916  -15.5668
+            8   C8x C    32.8987  -14.1630
+            9   C8y C    31.6926  -13.4514
+            10  C8x C    30.4722  -14.1506
+            11  C8x C    30.4652  -15.5546
+            12  C1b C    29.3037  -17.8094
+            13  C5a C    33.1887  -20.9594
+            14  O5a O    32.6102  -22.2412
+            15  C1a C    35.4036  -22.0964
+            16  N1c N    34.5854  -20.9570
+            17  C1a C    35.1593  -19.6834
+            18  X   Cl   31.7016  -12.0545
+            19  C5a C    34.0978  -16.2714
+            20  O5a O    34.0909  -17.6681
+            21  C8y C    35.3111  -15.5790
+            22  C8x C    36.5126  -16.2896
+            23  C8x C    37.7258  -15.5973
+            24  C8x C    37.7329  -14.2004
+            25  C8x C    36.5267  -13.4959
+            26  C8y C    35.3135  -14.1882
+            27  N1b N    28.1104  -18.5353
+            28  C5a C    26.8850  -17.8648
+            29  O5a O    26.8529  -16.4684
+            30  C1b C    25.6915  -18.5909
+            31  N1a N    24.4661  -17.9204
+            32  X   Cl   34.0978  -13.4828
+            33  X   Cl   40.4905  -20.0243
+            34  O0  O    41.0440  -17.4895
+            35  O0  O    41.0440  -17.4895
+BOND        34
+            1     4  13 1
+            2     1   6 1
+            3    16  17 1
+            4     9  18 1
+            5     7  19 1
+            6    19  20 2
+            7     2   3 2
+            8    19  21 1
+            9     1   2 1
+            10    3   4 1
+            11    4   5 2
+            12    5   1 1
+            13    2  12 1
+            14   21  22 2
+            15   22  23 1
+            16   23  24 2
+            17   24  25 1
+            18   25  26 2
+            19   26  21 1
+            20    6   7 2
+            21   12  27 1
+            22    7   8 1
+            23   27  28 1
+            24    8   9 2
+            25   28  29 2
+            26    9  10 1
+            27   28  30 1
+            28   10  11 2
+            29   30  31 1
+            30   11   6 1
+            31   26  32 1
+            32   13  14 2
+            33   15  16 1
+            34   16  13 1
+BRACKET     1    38.7800  -18.4800   38.7800  -16.5200
+            1    41.5800  -16.5200   41.5800  -18.4800
+            1  2
+  ORIGINAL  1   34
+  REPEAT    1   35
+///

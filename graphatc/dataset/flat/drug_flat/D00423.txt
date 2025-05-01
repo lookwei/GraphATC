@@ -1,0 +1,136 @@
+ENTRY       D00423                      Drug
+NAME        Ribavirin (JP18/USP/INN);
+            Copegus (TN);
+            Rebetol (TN);
+            Ribasphere (TN);
+            Virazole (TN)
+  ABBR      RBV
+PRODUCT     RIBAVIRIN (Bryant Ranch Prepack)
+            RIBAVIRIN (Cameron Pharmaceuticals)
+            RIBAVIRIN (Oceanside Pharmaceuticals)
+            RIBAVIRIN (Pharma Packaging Solutions)
+            VIRAZOLE (Bausch Health US)
+  GENERIC   RIBAVIRIN (Aurobindo Pharma Limited)
+            RIBAVIRIN (Aurobindo Pharma Limited)
+            RIBAVIRIN (Navinta LLC)
+            RIBAVIRIN (Zydus Lifesciences Limited)
+            RIBAVIRIN (Zydus Lifesciences Limited)
+            RIBAVIRIN (Zydus Pharmaceuticals USA)
+            RIBAVIRIN (Zydus Pharmaceuticals USA)
+            RIBAVIRIN (Zydus Pharmaceuticals USA)
+FORMULA     C8H12N4O5
+EXACT_MASS  244.0808
+MOL_WEIGHT  244.2047
+CLASS       Antiviral
+             DG01440  Arabinofuranosyl type antiviral
+             DG03198  Anti-HCV agent
+              DG02000  HCV NS5B polymerase inhibitor
+REMARK      Therapeutic category: 6250
+            ATC code: J05AP01
+            Product: D00423<JP/US>
+EFFICACY    Antiviral
+  DISEASE   Chronic hepatitis C [DS:H00413]
+            RSV infection [DS:H00401]
+COMMENT     In combination with peginterferon alfa-2a
+TARGET      HCV NS5B polymerase [KO:K22472]
+  PATHWAY   ko03230(K22472)  Viral genome structure
+            ko03240(K22472)  Viral replication
+            ko05160(K22472)  Hepatitis C
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP01 Ribavirin
+                  D00423  Ribavirin (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-hepatitis C (HCV) Agents
+               Ribavirin
+                D00423  Ribavirin (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D00423  Ribavirin (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               D00423  Ribavirin
+              DG03198  Anti-HCV agent
+               DG02000  HCV NS5B polymerase inhibitor
+                D00423  Ribavirin
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03198  Anti-HCV agent
+               D00423  Ribavirin
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D00423  Ribavirin (JP18/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D00423  Ribavirin (JP17/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00423  Ribavirin
+              D00423  Ribavirin capsules
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00423
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00423
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D00423
+DBLINKS     CAS: 36791-04-5
+            PubChem: 7847489
+            ChEBI: 63580
+            PDB-CCD: RBV
+            LigandBox: D00423
+            NIKKAJI: J17.798I
+ATOM        17
+            1   N4y N    25.5905  -16.0641
+            2   N5x N    26.7827  -16.9056
+            3   C1y C    24.3282  -16.4848
+            4   C8x C    26.0814  -14.7316
+            5   C8y C    27.9047  -16.0641
+            6   O2x O    23.1360  -15.6433
+            7   C1y C    23.8373  -17.8173
+            8   N5x N    27.4840  -14.7316
+            9   C5a C    29.1670  -16.6251
+            10  C1y C    22.0140  -16.4848
+            11  C1y C    22.4347  -17.8173
+            12  O1a O    24.6788  -18.9393
+            13  N1a N    29.1673  -18.0277
+            14  O5a O    30.2891  -15.8537
+            15  C1b C    20.6815  -16.0641
+            16  O1a O    21.6633  -18.9393
+            17  O1a O    19.6297  -16.9757
+BOND        18
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     6  10 1
+            10    7  11 1
+            11    7  12 1 #Down
+            12    9  13 1
+            13    9  14 2
+            14   10  15 1 #Up
+            15   11  16 1 #Down
+            16   15  17 1
+            17    5   8 1
+            18   10  11 1
+///

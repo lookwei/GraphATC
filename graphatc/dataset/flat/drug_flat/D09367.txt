@@ -1,0 +1,64 @@
+ENTRY       D09367                      Drug
+NAME        Pozanicline (USAN);
+            ABT-089
+FORMULA     C11H16N2O
+EXACT_MASS  192.1263
+MOL_WEIGHT  192.2575
+CLASS       Neuropsychiatric agent
+             DG01571  Nicotinic cholinergic receptor partial agonist
+REMARK      Chemical structure group: DG01288
+EFFICACY    Dementia therapeutic agent, Nicotinic acetylcholine receptor partial agonist
+COMMENT     Attention deficit/hyperactivity disorder, Alzheimer's type dementia
+TARGET      CHRNA4/CHRNB2 [HSA:1137 1141] [KO:K04806 K04813]
+  PATHWAY   hsa04080(1137+1141)  Neuroactive ligand-receptor interaction
+            hsa04725(1137+1141)  Cholinergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01571  Nicotinic cholinergic receptor partial agonist
+               DG01288  Pozanicline
+                D09367  Pozanicline
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRNA4/CHRNB2
+                 D09367  Pozanicline (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01571  Nicotinic cholinergic receptor partial agonist
+               DG01288  Pozanicline
+DBLINKS     CAS: 161417-03-4
+            PubChem: 96026047
+            LigandBox: D09367
+ATOM        14
+            1   C8y C    11.9700  -23.0300
+            2   C8x C    11.9700  -24.4300
+            3   C8x C    10.7800  -25.1300
+            4   C8x C     9.5200  -24.4300
+            5   N5x N     9.5200  -23.0300
+            6   C8y C    10.7800  -22.3300
+            7   O2a O    13.1600  -22.3300
+            8   C1b C    14.3500  -23.0300
+            9   C1y C    15.5400  -22.3300
+            10  C1x C    15.9600  -21.0000
+            11  C1x C    17.3600  -21.0000
+            12  C1x C    17.7800  -22.3300
+            13  N1x N    16.6600  -23.1700
+            14  C1a C    10.7800  -20.9300
+BOND        15
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     9   8 1 #Down
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13   9 1
+            14   10   9 1
+            15    6  14 1
+///

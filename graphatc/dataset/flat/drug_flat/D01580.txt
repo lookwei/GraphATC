@@ -1,0 +1,93 @@
+ENTRY       D01580                      Drug
+NAME        Lynestrenol (JAN/USAN)
+FORMULA     C20H28O
+EXACT_MASS  284.214
+MOL_WEIGHT  284.4357
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C13037
+            ATC code: G03AC02 G03DC03
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+                G03AC Progestogens
+                 G03AC02 Lynestrenol
+                  D01580  Lynestrenol (JAN/USAN)
+               G03D PROGESTOGENS
+                G03DC Estren derivatives
+                 G03DC03 Lynestrenol
+                  D01580  Lynestrenol (JAN/USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D01580  Lynestrenol
+              DG01666  Progesterone receptor agonist
+               D01580  Lynestrenol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D01580  Lynestrenol (JAN/USAN)
+DBLINKS     CAS: 52-76-6
+            PubChem: 7848643
+            ChEBI: 31790
+            LigandBox: D01580
+            NIKKAJI: J4.134C
+ATOM        21
+            1   C1x C    20.9556  -20.0583
+            2   C1x C    20.9556  -21.4251
+            3   C2x C    22.1422  -22.1085
+            4   C1x C    22.1422  -19.3749
+            5   C1y C    23.3217  -20.0583
+            6   C2y C    23.3159  -21.4251
+            7   C1x C    24.4967  -22.1136
+            8   C1x C    25.6832  -21.4352
+            9   C1y C    24.5083  -19.3801
+            10  C1y C    25.6832  -20.0714
+            11  C1x C    25.7056  -17.3450
+            12  C1x C    24.5195  -18.0169
+            13  C1z C    26.8807  -18.0361
+            14  C1y C    26.8641  -19.3953
+            15  C1x C    29.2881  -19.4238
+            16  C1x C    29.2345  -18.0648
+            17  C1z C    28.0659  -17.3710
+            18  C3b C    29.2461  -16.6760
+            19  O1a O    28.0588  -15.7194
+            20  C3a C    30.4266  -15.9856
+            21  C1a C    26.8714  -16.6690
+BOND        24
+            1    13  11 1
+            2    11  12 1
+            3    12   9 1
+            4     2   3 1
+            5     3   6 2
+            6     5   6 1
+            7     6   7 1
+            8     7   8 1
+            9    13  14 1
+            10   15  16 1
+            11   16  17 1
+            12   17  13 1
+            13   14  15 1
+            14    8  10 1
+            15   17  18 1 #Down
+            16    9   5 1
+            17   17  19 1 #Up
+            18    5   4 1
+            19   18  20 3
+            20    4   1 1
+            21   13  21 1 #Up
+            22    1   2 1
+            23    9  10 1
+            24   10  14 1
+///

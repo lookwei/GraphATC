@@ -1,0 +1,73 @@
+ENTRY       D06019                      Drug
+NAME        Tecadenoson (USAN/INN)
+FORMULA     C14H19N5O5
+EXACT_MASS  337.1386
+MOL_WEIGHT  337.3312
+EFFICACY    Antiarrhythmic, Adenosine A1 receptor agonist
+COMMENT     Adenosine derivative
+            Treatment of paroxysmal supraventricular tachycardia and rate control in atrial fibrillation and atrial flutter
+TARGET      ADORA1 [HSA:134] [KO:K04265]
+  PATHWAY   hsa04080(134)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA1
+                 D06019  Tecadenoson (USAN/INN)
+DBLINKS     CAS: 204512-90-3
+            PubChem: 47207677
+            LigandBox: D06019
+ATOM        24
+            1   C1y C    36.8728  -17.0222
+            2   N4y N    30.9503  -16.3535
+            3   C8y C    31.9479  -17.1898
+            4   C1y C    29.6530  -16.7704
+            5   C8x C    31.5558  -15.0017
+            6   C8y C    33.2653  -16.3984
+            7   N5x N    31.9505  -18.6225
+            8   O2x O    28.5084  -15.9193
+            9   C1y C    29.2246  -18.0265
+            10  N5x N    33.0046  -15.1421
+            11  C8y C    34.4652  -17.0640
+            12  C8x C    33.2167  -19.3355
+            13  C1y C    27.4048  -16.7117
+            14  C1y C    27.8334  -18.0265
+            15  O1a O    29.6353  -19.3648
+            16  N5x N    34.4208  -18.5637
+            17  N1b N    35.6457  -16.3483
+            18  C1b C    26.0958  -16.3007
+            19  O1a O    27.3872  -19.3590
+            20  O1a O    24.9808  -17.1402
+            21  C1x C    36.8728  -18.4222
+            22  C1x C    38.2043  -18.8548
+            23  O2x O    39.0272  -17.7222
+            24  C1x C    38.2043  -16.5896
+BOND        27
+            1     2   3 1
+            2     4   2 1 #Up
+            3     2   5 1
+            4     3   6 2
+            5     3   7 1
+            6     4   8 1
+            7     4   9 1
+            8     5  10 2
+            9     6  11 1
+            10    7  12 2
+            11    8  13 1
+            12    9  14 1
+            13    9  15 1 #Down
+            14   11  16 2
+            15   11  17 1
+            16   13  18 1 #Up
+            17   14  19 1 #Down
+            18   18  20 1
+            19    6  10 1
+            20   12  16 1
+            21   13  14 1
+            22    1  17 1 #Up
+            23    1  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27    1  24 1
+///

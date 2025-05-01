@@ -1,0 +1,101 @@
+ENTRY       D03653                      Drug
+NAME        Darglitazone sodium (USAN)
+FORMULA     C23H19N2O4S. Na
+EXACT_MASS  442.0963
+MOL_WEIGHT  442.4627
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01795  PPAR gamma agonist
+               DG01683  Thiazolidinedione
+             DG02044  Hypoglycemic agent
+              DG01683  Thiazolidinedione
+EFFICACY    Hypoglycemic, Peroxisome proliferator-activated receptor (PPAR) gamma agonist
+COMMENT     Thiazolidinedione derivative
+TARGET      NR1C3 (PPARG) [HSA:5468] [KO:K08530]
+INTERACTION  
+STR_MAP     map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01683  Thiazolidinedione
+                 D03653  Darglitazone sodium
+              DG02044  Hypoglycemic agent
+               DG01683  Thiazolidinedione
+                D03653  Darglitazone sodium
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C3 (PPARG)
+                 D03653  Darglitazone sodium (USAN)
+DBLINKS     CAS: 149904-87-0
+            PubChem: 47205881
+            LigandBox: D03653
+ATOM        31
+            1   Z   Na   35.0696  -23.4583 #+
+            2   C8x C    28.9800  -19.8100
+            3   C8y C    28.9800  -21.2100
+            4   C8x C    30.1700  -21.9100
+            5   C8x C    31.4300  -21.2100
+            6   C8y C    31.4300  -19.8100
+            7   C8x C    30.1700  -19.1100
+            8   C5a C    27.7900  -21.9100
+            9   C1b C    26.6000  -21.2100
+            10  C1b C    32.6200  -19.1100
+            11  C1y C    33.8100  -19.8100
+            12  C5x C    33.8100  -21.2100
+            13  N1x N    35.0700  -21.7000 #-
+            14  C5x C    35.9800  -20.6500
+            15  S2x S    35.2100  -19.4600
+            16  O5x O    37.3800  -20.6500
+            17  O5x O    32.6200  -21.9800
+            18  O5a O    27.7900  -23.3100
+            19  C1b C    25.4100  -21.9100
+            20  C8y C    24.2200  -21.2100
+            21  C8y C    24.2200  -19.8100
+            22  O2x O    22.8900  -19.3900
+            23  C8y C    22.0500  -20.5100
+            24  N5x N    22.8200  -21.6300
+            25  C1a C    25.3400  -18.9700
+            26  C8y C    20.6500  -20.5100
+            27  C8x C    19.9500  -19.2500
+            28  C8x C    18.5500  -19.2500
+            29  C8x C    17.8500  -20.5100
+            30  C8x C    18.5500  -21.7000
+            31  C8x C    19.9500  -21.7000
+BOND        33
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     3   8 1
+            8     8   9 1
+            9     6  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   11  15 1
+            16   14  16 2
+            17   12  17 2
+            18    8  18 2
+            19    9  19 1
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 1
+            24   23  24 2
+            25   20  24 1
+            26   21  25 1
+            27   23  26 1
+            28   26  27 2
+            29   27  28 1
+            30   28  29 2
+            31   29  30 1
+            32   30  31 2
+            33   26  31 1
+///

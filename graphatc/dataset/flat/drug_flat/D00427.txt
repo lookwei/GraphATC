@@ -1,0 +1,213 @@
+ENTRY       D00427                      Drug
+NAME        Ritonavir (JAN/USP/INN);
+            Norvir (TN)
+  ABBR      RTV, r
+PRODUCT     NORVIR (AbbVie)
+            NORVIR (DOH CENTRAL PHARMACY)
+  GENERIC   RITONAVIR (American Health Packaging)
+            RITONAVIR (Amneal Pharmaceuticals LLC)
+            RITONAVIR (Aurobindo Pharma Limited)
+            RITONAVIR (Camber Pharmaceuticals)
+            RITONAVIR (Cipla USA)
+            RITONAVIR (West-Ward Pharmaceuticals Corp.)
+FORMULA     C37H48N6O5S2
+EXACT_MASS  720.3128
+MOL_WEIGHT  720.9442
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+             DG02886  CYP2C9 inducer
+             DG02885  CYP2C19 inducer
+REMARK      Same as: C07240
+            Therapeutic category: 6250
+            ATC code: J05AE03
+            Product: D00427<JP/US>
+            Product (mixture): D02498<JP/US> D12269<JP/US>
+EFFICACY    Antiviral, HIV protease inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551], CYP2D6 [HSA:1565]
+INTERACTION CYP induction: CYP1A2 [HSA:1544], CYP2C9 [HSA:1559], CYP2C19 [HSA:1557]
+            CYP inhibition: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE03 Ritonavir
+                  D00427  Ritonavir (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Protease Inhibitors (PI)
+               Ritonavir
+                D00427  Ritonavir (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D00427  Ritonavir (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                D00427  Ritonavir
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D00427  Ritonavir
+              DG01633  CYP3A/CYP3A4 substrate
+               D00427  Ritonavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D00427  Ritonavir
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               D00427  Ritonavir
+              DG02886  CYP2C9 inducer
+               D00427  Ritonavir
+              DG02885  CYP2C19 inducer
+               D00427  Ritonavir
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00427  Ritonavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D00427  Ritonavir (JAN/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D00427  Ritonavir (JAN/USP/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00427
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00427
+DBLINKS     CAS: 155213-67-5
+            PubChem: 7847493
+            ChEBI: 45409
+            PDB-CCD: RIT
+            LigandBox: D00427
+            NIKKAJI: J659.314C
+ATOM        50
+            1   C1c C    33.1164  -17.1963
+            2   C1b C    33.1237  -18.5903
+            3   C1b C    34.3298  -16.5030
+            4   N1b N    31.9103  -16.5103
+            5   C8y C    34.1059  -19.5798
+            6   C1c C    35.5358  -17.1892
+            7   C5a C    30.7041  -17.2037
+            8   C8x C    33.3982  -20.7786
+            9   C8x C    35.4926  -19.5868
+            10  C1c C    36.7348  -16.4960
+            11  O1a O    35.5431  -18.5831
+            12  C1c C    29.4983  -16.5175
+            13  O5a O    30.7041  -18.5975
+            14  C8x C    34.0915  -21.9846
+            15  C8x C    36.1859  -20.7931
+            16  C1b C    36.7348  -15.0948
+            17  N1b N    37.9408  -17.1819
+            18  N1b N    28.2849  -17.2108
+            19  C1c C    29.4909  -14.6983
+            20  C8x C    35.4782  -21.9919
+            21  C8y C    35.5212  -14.3942
+            22  C7a C    39.1540  -16.4886
+            23  C5a C    27.0787  -16.5247
+            24  C1a C    30.7041  -13.9977
+            25  C1a C    28.2776  -13.9977
+            26  C8x C    35.5212  -13.0004
+            27  C8x C    34.3225  -15.1019
+            28  O7a O    40.3603  -17.1748
+            29  O6a O    39.1465  -15.0875
+            30  N1c N    25.8799  -17.2181
+            31  O5a O    27.0787  -15.1237
+            32  C8x C    34.3153  -12.3071
+            33  C8x C    33.1092  -14.4013
+            34  C1b C    41.5663  -16.4815
+            35  C1b C    24.6737  -16.5321
+            36  C1a C    25.8799  -18.6120
+            37  C8x C    33.1092  -13.0075
+            38  C8y C    42.7723  -17.1675
+            39  C8y C    23.4604  -17.2252
+            40  C8x C    42.7653  -18.5615
+            41  S2x S    44.1013  -16.7485
+            42  N5x N    22.1171  -16.8642
+            43  C8x C    23.4626  -18.6191
+            44  N5x N    44.0868  -18.9947
+            45  C8x C    44.9100  -17.8754
+            46  C8y C    21.3445  -18.0341
+            47  S2x S    22.2256  -19.1175
+            48  C1c C    19.9506  -18.0296
+            49  C1a C    19.1994  -16.8594
+            50  C1a C    19.3149  -19.2789
+BOND        53
+            1     1   2 1 #Down
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     6  10 1
+            10    6  11 1 #Up
+            11    7  12 1
+            12    7  13 2
+            13    8  14 1
+            14    9  15 2
+            15   10  16 1 #Down
+            16   10  17 1
+            17   12  18 1
+            18   12  19 1 #Up
+            19   14  20 2
+            20   16  21 1
+            21   17  22 1
+            22   18  23 1
+            23   19  24 1
+            24   19  25 1
+            25   21  26 2
+            26   21  27 1
+            27   22  28 1
+            28   22  29 2
+            29   23  30 1
+            30   23  31 2
+            31   26  32 1
+            32   27  33 2
+            33   28  34 1
+            34   30  35 1
+            35   30  36 1
+            36   32  37 2
+            37   34  38 1
+            38   35  39 1
+            39   38  40 2
+            40   38  41 1
+            41   39  42 1
+            42   39  43 2
+            43   40  44 1
+            44   41  45 1
+            45   42  46 2
+            46   43  47 1
+            47   46  48 1
+            48   48  49 1
+            49   48  50 1
+            50   15  20 1
+            51   33  37 1
+            52   44  45 2
+            53   46  47 1
+///

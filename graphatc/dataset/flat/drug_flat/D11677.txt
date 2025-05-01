@@ -1,0 +1,128 @@
+ENTRY       D11677                      Drug
+NAME        Gusacitinib hydrochloride (USAN)
+FORMULA     C24H28N8O2. HCl
+EXACT_MASS  496.2102
+MOL_WEIGHT  496.9925
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+            Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+REMARK      Chemical structure group: DG03080
+EFFICACY    Antineoplastic
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+            JAK2 [HSA:3717] [KO:K04447]
+            JAK3 [HSA:3718] [KO:K11218]
+            SYK [HSA:6850] [KO:K05855]
+  PATHWAY   hsa04151(3716+3717+3718+6850)  PI3K-Akt signaling pathway
+            hsa04630(3716+3717+3718)  JAK-STAT signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03080  Gusacitinib
+                D11677  Gusacitinib hydrochloride
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03080  Gusacitinib
+                 D11677  Gusacitinib hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               SYK family
+                SYK
+                 D11677  Gusacitinib hydrochloride (USAN)
+               JAK family
+                JAK1
+                 D11677  Gusacitinib hydrochloride (USAN)
+                JAK2
+                 D11677  Gusacitinib hydrochloride (USAN)
+                JAK3
+                 D11677  Gusacitinib hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03080  Gusacitinib
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03080  Gusacitinib
+DBLINKS     CAS: 2228989-14-6
+            PubChem: 405226544
+ATOM        35
+            1   N5x N    12.5913  -13.3640
+            2   N4x N    12.5913  -14.7634
+            3   C8y C    13.7808  -15.4631
+            4   C8y C    15.0403  -14.7634
+            5   C8y C    15.0403  -13.3640
+            6   C8x C    13.7808  -12.6643
+            7   C8y C    16.2297  -15.4631
+            8   N5x N    17.4192  -14.7634
+            9   C8y C    17.4192  -13.3640
+            10  N5x N    16.2297  -12.6643
+            11  N1y N    18.6087  -12.6643
+            12  C1x C    19.7982  -13.3640
+            13  C1x C    21.0576  -12.6643
+            14  C1y C    21.0576  -11.2649
+            15  C1x C    19.8681  -10.5653
+            16  C1x C    18.6087  -11.2649
+            17  C1b C    22.2471  -10.5653
+            18  C3b C    23.4365  -11.2649
+            19  N3a N    24.6960  -11.9646
+            20  N1b N    16.2297  -16.8625
+            21  C8y C    17.4192  -17.5622
+            22  C8x C    17.4192  -18.9615
+            23  C8x C    18.6787  -19.6612
+            24  C8y C    19.8681  -18.9615
+            25  C8x C    19.8681  -17.5622
+            26  C8x C    18.6787  -16.8625
+            27  N1y N    21.0576  -19.6612
+            28  C1x C    21.0576  -21.0606
+            29  C1x C    22.3170  -21.7603
+            30  C1y C    23.5065  -21.0606
+            31  C1x C    23.5065  -19.6612
+            32  C1x C    22.3170  -18.9615
+            33  O1a O    24.6960  -21.7603
+            34  O5x O    13.7808  -16.8625
+            35  X   Cl   26.1800  -16.0300
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 2
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   11  16 1
+            19   14  17 1
+            20   17  18 1
+            21   18  19 3
+            22    7  20 1
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   21  26 1
+            30   24  27 1
+            31   27  28 1
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   27  32 1
+            37   30  33 1
+            38    3  34 2
+///

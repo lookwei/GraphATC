@@ -1,0 +1,126 @@
+ENTRY       D00812                      Drug
+NAME        Desipramine hydrochloride (JAN/USP);
+            Norpramin (TN)
+PRODUCT
+  GENERIC   DESIPRAMINE HCL (Direct_Rx)
+            DESIPRAMINE HYDROCHLORIDE (Actavis Pharma)
+            DESIPRAMINE HYDROCHLORIDE (Alembic Pharmaceuticals Limited)
+            DESIPRAMINE HYDROCHLORIDE (Alembic Pharmaceuticals)
+            DESIPRAMINE HYDROCHLORIDE (Amneal Pharmaceuticals NY LLC)
+            DESIPRAMINE HYDROCHLORIDE (Bryant Ranch Prepack)
+            DESIPRAMINE HYDROCHLORIDE (Bryant Ranch Prepack)
+            DESIPRAMINE HYDROCHLORIDE (Chartwell RX)
+            DESIPRAMINE HYDROCHLORIDE (DIRECT RX)
+            DESIPRAMINE HYDROCHLORIDE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            DESIPRAMINE HYDROCHLORIDE (Ingenus Pharmaceuticals)
+            DESIPRAMINE HYDROCHLORIDE (Sandoz)
+FORMULA     C18H22N2. HCl
+EXACT_MASS  302.155
+MOL_WEIGHT  302.8416
+CLASS       Neuropsychiatric agent
+             DG01730  Non-selective monoamine reuptake inhibitor
+             DG01728  Tricyclic antidepressant
+REMARK      ATC code: N06AA01
+            Chemical structure group: DG00927
+            Product (DG00927): D00812<US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+  DISEASE   Depression [DS:H01646]
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AA Non-selective monoamine reuptake inhibitors
+                 N06AA01 Desipramine
+                  D00812  Desipramine hydrochloride (JAN/USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antidepressants
+              Tricyclics
+               Desipramine
+                D00812  Desipramine hydrochloride (JAN/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00927  Desipramine
+                D00812  Desipramine hydrochloride
+              DG01728  Tricyclic antidepressant
+               DG00927  Desipramine
+                D00812  Desipramine hydrochloride
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               D00812  Desipramine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D00812  Desipramine hydrochloride (JAN/USP) &lt;US&gt;
+                SLC6A4 (HTT)
+                 D00812  Desipramine hydrochloride (JAN/USP) &lt;US&gt;
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00812
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00927  Desipramine
+              DG01728  Tricyclic antidepressant
+               DG00927  Desipramine
+DBLINKS     CAS: 58-28-6
+            PubChem: 7847877
+            ChEBI: 4449
+            LigandBox: D00812
+            NIKKAJI: J231.274C
+ATOM        21
+            1   C1x C    12.5108  -18.1831
+            2   C8y C    11.6661  -17.0701
+            3   C8y C    12.0023  -15.7092
+            4   N1y N    13.2672  -15.1293
+            5   C1x C    13.9209  -18.2084
+            6   C8y C    14.5246  -15.7535
+            7   C8y C    14.8120  -17.1264
+            8   C8x C    10.9921  -14.7378
+            9   C8x C     9.6460  -15.1271
+            10  C8x C     9.3098  -16.4880
+            11  C8x C    10.3200  -17.4591
+            12  C8x C    16.1472  -17.5648
+            13  C8x C    17.1946  -16.6276
+            14  C8x C    16.9074  -15.2547
+            15  C8x C    15.5719  -14.8162
+            16  C1b C    13.2889  -13.7502
+            17  C1b C    14.5167  -13.0670
+            18  C1b C    15.6886  -13.7686
+            19  N1b N    16.9145  -13.0865
+            20  C1a C    18.1530  -13.8273
+            21  X   Cl   20.1707  -16.3481
+BOND        22
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+///

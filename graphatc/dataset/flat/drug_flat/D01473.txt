@@ -1,0 +1,144 @@
+ENTRY       D01473                      Drug
+NAME        Flomoxef sodium (JP18);
+            S 6315;
+            Flumarin (TN)
+FORMULA     C16H18F2N5O7S2. Na
+EXACT_MASS  517.0513
+MOL_WEIGHT  517.46
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01459  Oxacephem
+             DG01775  Second-generation cephalosporin
+REMARK      Therapeutic category: 6133
+            ATC code: J01DC14
+            Chemical structure group: DG00569
+            Product (DG00569): D01473<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DC Second-generation cephalosporins
+                 J01DC14 Flomoxef
+                  D01473  Flomoxef sodium (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               613  Acting mainly on gram-positive and gram-negative bacteria
+                6133  Oxacephem antibioitics
+                 D01473  Flomoxef sodium (JP18)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01459  Oxacephem
+                 DG00569  Flomoxef
+                  D01473  Flomoxef sodium
+              DG01775  Second-generation cephalosporin
+               DG00569  Flomoxef
+                D01473  Flomoxef sodium
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01459  Oxacephem
+               D01473  Flomoxef sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                D01473  Flomoxef sodium (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01473  Flomoxef sodium
+              D01473  Flomoxef sodium for injection
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01459  Oxacephem
+                 DG00569  Flomoxef
+              DG01775  Second-generation cephalosporin
+               DG00569  Flomoxef
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                DG00569  Flomoxef
+DBLINKS     CAS: 92823-03-5
+            PubChem: 7848536
+            ChEBI: 31613
+            LigandBox: D01473
+            NIKKAJI: J23.730B
+ATOM        33
+            1   C1z C    28.5757  -14.7448
+            2   C1y C    29.9570  -14.7448
+            3   C5x C    28.5757  -16.1259
+            4   N1y N    29.9453  -16.1202
+            5   O2x O    31.1517  -14.0688
+            6   C2y C    31.1400  -16.8136
+            7   C1x C    32.3347  -14.7623
+            8   C2y C    32.3288  -16.1319
+            9   C6a C    31.1284  -18.1949
+            10  C1b C    33.5177  -16.8312
+            11  O6a O    29.9278  -18.8766
+            12  O6a O    32.3171  -18.8883 #-
+            13  S2a S    34.7239  -16.1493
+            14  C8y C    35.9129  -16.8429
+            15  N4y N    37.0089  -16.0034
+            16  N5x N    36.3744  -18.1441
+            17  N5x N    38.1499  -16.7923
+            18  C1b C    37.0479  -14.6250
+            19  N5x N    37.7528  -18.1132
+            20  C1b C    38.2394  -13.9010
+            21  C1b C    27.3633  -14.0448
+            22  C5a C    26.1508  -14.7448
+            23  O5a O    26.1508  -16.1259
+            24  O5x O    27.3633  -16.8259
+            25  C1b C    24.9711  -14.0639
+            26  S2a S    23.7704  -14.7575
+            27  C1c C    22.5855  -14.0736
+            28  O2a O    28.5057  -13.3448
+            29  C1a C    27.3628  -12.6443
+            30  O1a O    39.4641  -14.5720
+            31  X   F    21.3932  -14.7624
+            32  X   F    22.5851  -12.6702
+            33  Z   Na   33.8100  -18.9000 #+
+BOND        34
+            1     2   4 1
+            2     2   5 1
+            3     4   6 1
+            4     5   7 1
+            5     6   8 2
+            6     6   9 1
+            7     8  10 1
+            8     9  11 2
+            9     9  12 1
+            10   10  13 1
+            11   13  14 1
+            12   14  15 1
+            13   14  16 2
+            14   15  17 1
+            15   15  18 1
+            16   16  19 1
+            17    3   4 1
+            18    7   8 1
+            19   17  19 2
+            20   18  20 1
+            21    1   2 1
+            22    1   3 1
+            23    1  21 1 #Up
+            24   21  22 1
+            25   22  23 2
+            26    3  24 2
+            27   22  25 1
+            28   25  26 1
+            29   26  27 1
+            30    1  28 1 #Down
+            31   28  29 1
+            32   20  30 1
+            33   27  31 1
+            34   27  32 1
+///

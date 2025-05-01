@@ -1,0 +1,62 @@
+ENTRY       D03502                      Drug
+NAME        Cimaterol (USAN/INN)
+FORMULA     C12H17N3O
+EXACT_MASS  219.1372
+MOL_WEIGHT  219.2829
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+EFFICACY    Repartitioning agent, beta-Adrenergic receptor agonist
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                D03502  Cimaterol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D03502  Cimaterol (USAN/INN)
+DBLINKS     CAS: 54239-37-1
+            PubChem: 17397636
+            LigandBox: D03502
+            NIKKAJI: J153.940J
+ATOM        16
+            1   C8y C    13.5100  -14.4900
+            2   C8y C    13.5100  -13.0900
+            3   C8x C    14.7000  -12.3900
+            4   C8x C    15.9600  -13.0900
+            5   C8y C    15.9600  -14.4900
+            6   C8x C    14.7000  -15.1900
+            7   C1c C    17.1500  -15.1900
+            8   N1a N    12.3200  -12.3900
+            9   C1b C    18.3400  -14.4900
+            10  O1a O    17.1500  -16.5900
+            11  C3b C    12.2947  -15.1851
+            12  N3a N    11.0823  -15.8851
+            13  N1b N    19.5581  -15.1801
+            14  C1c C    20.7395  -14.4850
+            15  C1a C    21.9449  -15.1680
+            16  C1a C    20.7281  -13.0900
+BOND        16
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     2   8 1
+            9     7   9 1
+            10    7  10 1
+            11    1  11 1
+            12   11  12 3
+            13    9  13 1
+            14   13  14 1
+            15   14  15 1
+            16   14  16 1
+///

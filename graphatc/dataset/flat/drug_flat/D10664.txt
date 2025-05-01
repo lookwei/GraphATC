@@ -1,0 +1,92 @@
+ENTRY       D10664                      Drug
+NAME        Pradigastat (USAN)
+FORMULA     C25H24F3N3O2
+EXACT_MASS  455.1821
+MOL_WEIGHT  455.4722
+REMARK      Chemical structure group: DG01846
+EFFICACY    Antidyslipidemia (hypertriglyceridemic), Diacylglycerol acyltransferase 1 inhibitor
+COMMENT     Lowering of triglycerides in patients with chylomicronemia
+TARGET      DGAT1 [HSA:8694] [KO:K11155]
+  PATHWAY   hsa00561(8694)  Glycerolipid metabolism
+            hsa00830(8694)  Retinol metabolism
+            hsa04975(8694)  Fat digestion and absorption
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Acyltransferases
+                DGAT1
+                 D10664  Pradigastat (USAN)
+DBLINKS     CAS: 956136-95-1
+            PubChem: 254741625
+ATOM        33
+            1   C1y C    22.9600  -11.9000
+            2   C8x C    13.2300  -18.9000
+            3   N5x N    13.2300  -20.3000
+            4   C8y C    14.4200  -21.0000
+            5   C8x C    15.6100  -20.3000
+            6   C8x C    15.6100  -18.9000
+            7   C8y C    14.4200  -18.2000
+            8   C8x C    16.8000  -16.8000
+            9   C8y C    15.6100  -16.1000
+            10  N1b N    14.4200  -16.8000
+            11  C8x C    18.0600  -16.1000
+            12  C8y C    18.0600  -14.7000
+            13  N5x N    16.8000  -14.0000
+            14  C8x C    15.6100  -14.7000
+            15  C8y C    19.2500  -14.0000
+            16  C8x C    20.4400  -14.7700
+            17  C8x C    21.7000  -14.0700
+            18  C8y C    21.7000  -12.6700
+            19  C8x C    20.4400  -11.9700
+            20  C8x C    19.2500  -12.6700
+            21  C1d C    14.4200  -22.4000
+            22  X   F    15.8200  -22.4000
+            23  X   F    13.0200  -22.4000
+            24  X   F    14.4200  -23.8000
+            25  C1x C    24.2200  -12.5300
+            26  C1x C    25.4100  -11.8300
+            27  C1y C    25.4100  -10.4300
+            28  C1x C    24.1500   -9.7300
+            29  C1x C    22.9600  -10.5000
+            30  C1b C    26.6000   -9.7300
+            31  C6a C    27.7900  -10.4300
+            32  O6a O    27.7900  -11.8300
+            33  O6a O    28.9800   -9.7300
+BOND        36
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   7 1
+            6     2   7 2
+            7     8   9 1
+            8     9  10 1
+            9     7  10 1
+            10    8  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14    9  14 2
+            15   12  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22    4  21 1
+            23   21  22 1
+            24   21  23 1
+            25   21  24 1
+            26    1  18 1 #Up
+            27    1  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   28  29 1
+            32    1  29 1
+            33   27  30 1 #Down
+            34   30  31 1
+            35   31  32 1
+            36   31  33 2
+///

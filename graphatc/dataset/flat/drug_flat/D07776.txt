@@ -1,0 +1,140 @@
+ENTRY       D07776                      Drug
+NAME        Daunorubicin (INN);
+            DM;
+            DaunoXome (TN)
+FORMULA     C27H29NO10
+EXACT_MASS  527.1791
+MOL_WEIGHT  527.5199
+SOURCE      Streptomyces peucetius [TAX:1950], Streptomyces coeruleorubidus [TAX:116188]
+CLASS       Antineoplastic
+             DG01682  Anthracycline antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+REMARK      Same as: C01907
+            ATC code: L01DB02
+            Chemical structure group: DG00697
+            Product (DG00697): D01264<JP/US>
+EFFICACY    Antibiotic, Antineoplastic, Topoisomerase II inhibitor
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+SYN_MAP     map01057(C01907)  Biosynthesis of type II polyketide products
+STR_MAP     map07042  Antineoplastics - agents from natural products
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DB Anthracyclines and related substances
+                 L01DB02 Daunorubicin
+                  D07776  Daunorubicin (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00697  Daunorubicin
+                D07776  Daunorubicin
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00697  Daunorubicin
+                 D07776  Daunorubicin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D07776  Daunorubicin (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00697  Daunorubicin
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00697  Daunorubicin
+DBLINKS     CAS: 20830-81-3
+            PubChem: 96024474
+            ChEBI: 41977
+            PDB-CCD: DM1
+            LigandBox: D07776
+            NIKKAJI: J3.149F
+ATOM        38
+            1   C8y C    24.1500  -14.0000
+            2   C8y C    24.1500  -15.4000
+            3   C8y C    22.9600  -13.3000
+            4   C1x C    25.3400  -13.3000
+            5   C1y C    25.4100  -16.1000
+            6   C8y C    22.9600  -16.1000
+            7   C8y C    21.7700  -14.0000
+            8   O1a O    22.9600  -11.9700
+            9   C1z C    26.6700  -13.9300
+            10  C1x C    26.6700  -15.4000
+            11  O2a O    25.4800  -17.8500
+            12  C8y C    21.7700  -15.4000
+            13  O1a O    22.9600  -17.4300
+            14  C5x C    20.5800  -13.3700
+            15  C1y C    27.1600  -18.7600
+            16  C5x C    20.5800  -16.1000
+            17  C8y C    19.3900  -14.0700
+            18  O5x O    20.5800  -11.9700
+            19  C1x C    27.1600  -20.1600
+            20  O2x O    28.3500  -18.1300
+            21  C8y C    19.3900  -15.4000
+            22  O5x O    20.5800  -17.4300
+            23  C8x C    18.2000  -13.3700
+            24  C1y C    28.3500  -20.7900
+            25  C1y C    29.4700  -18.7600
+            26  C8y C    18.2000  -16.1000
+            27  C8x C    17.0100  -14.0700
+            28  C1y C    29.4700  -20.1600
+            29  N1a N    28.3500  -22.1900
+            30  C1a C    30.7300  -18.1300
+            31  C8x C    17.0100  -15.4000
+            32  O2a O    18.2000  -17.4300
+            33  O1a O    30.7300  -20.7900
+            34  C1a C    17.0100  -18.1300
+            35  C5a C    27.8600  -13.2300
+            36  C1a C    29.1200  -13.8600
+            37  O5a O    27.8600  -11.7600
+            38  O1a O    27.9300  -14.6300
+BOND        42
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    6  13 1
+            13    7  14 1
+            14   15  11 1 #Down
+            15   12  16 1
+            16   14  17 1
+            17   14  18 2
+            18   15  19 1
+            19   15  20 1
+            20   16  21 1
+            21   16  22 2
+            22   17  23 2
+            23   19  24 1
+            24   20  25 1
+            25   21  26 2
+            26   23  27 1
+            27   24  28 1
+            28   24  29 1 #Up
+            29   25  30 1 #Up
+            30   26  31 1
+            31   26  32 1
+            32   28  33 1 #Up
+            33   32  34 1
+            34    7  12 2
+            35    9  10 1
+            36   17  21 1
+            37   25  28 1
+            38   27  31 2
+            39    9  35 1 #Up
+            40   35  36 1
+            41   35  37 2
+            42    9  38 1 #Down
+///

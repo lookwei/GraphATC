@@ -1,0 +1,102 @@
+ENTRY       D07791                      Drug
+NAME        Desipramine (INN)
+FORMULA     C18H22N2
+EXACT_MASS  266.1783
+MOL_WEIGHT  266.3807
+CLASS       Neuropsychiatric agent
+             DG01730  Non-selective monoamine reuptake inhibitor
+             DG01728  Tricyclic antidepressant
+REMARK      Same as: C06943
+            ATC code: N06AA01
+            Chemical structure group: DG00927
+            Product (DG00927): D00812<US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AA Non-selective monoamine reuptake inhibitors
+                 N06AA01 Desipramine
+                  D07791  Desipramine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00927  Desipramine
+                D07791  Desipramine
+              DG01728  Tricyclic antidepressant
+               DG00927  Desipramine
+                D07791  Desipramine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D07791  Desipramine (INN)
+                SLC6A4 (HTT)
+                 D07791  Desipramine (INN)
+            Prodrugs [br08324.html]
+             D07791
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00927  Desipramine
+              DG01728  Tricyclic antidepressant
+               DG00927  Desipramine
+DBLINKS     CAS: 50-47-5
+            PubChem: 96024488
+            ChEBI: 47781
+            PDB-CCD: DSM
+            LigandBox: D07791
+            NIKKAJI: J8.596K
+ATOM        20
+            1   C1x C    23.0300  -20.4400
+            2   C8y C    22.1200  -19.3900
+            3   C8y C    22.4700  -17.9900
+            4   N1y N    23.7300  -17.4300
+            5   C1x C    24.4300  -20.5100
+            6   C8y C    24.9900  -18.0600
+            7   C8y C    25.2700  -19.3900
+            8   C8x C    21.4900  -17.0100
+            9   C8x C    20.1600  -17.4300
+            10  C8x C    19.8100  -18.7600
+            11  C8x C    20.7900  -19.7400
+            12  C8x C    26.6000  -19.8800
+            13  C8x C    27.6500  -18.9000
+            14  C8x C    27.3700  -17.5700
+            15  C8x C    26.0400  -17.0800
+            16  C1b C    23.7300  -16.0300
+            17  C1b C    24.9200  -15.3300
+            18  C1b C    26.1100  -16.0300
+            19  N1b N    27.3000  -15.4000
+            20  C1a C    28.5600  -16.1000
+BOND        22
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+///

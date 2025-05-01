@@ -1,0 +1,139 @@
+ENTRY       D09878                      Drug
+NAME        Cenicriviroc (USAN/INN)
+FORMULA     C41H52N4O4S
+EXACT_MASS  696.3709
+MOL_WEIGHT  696.941
+REMARK      Chemical structure group: DG01264
+EFFICACY    Antiviral, C-C chemokine receptor (CCR) antagonist
+COMMENT     Treatment of HIV infection and arthritis
+TARGET      CCR5 (CD195) [HSA:1234] [KO:K04180]
+            CCR2 (CD192) [HSA:729230] [KO:K04177]
+  PATHWAY   hsa03250(1234)  Viral life cycle - HIV-1
+            hsa04060(1234+729230)  Cytokine-cytokine receptor interaction
+            hsa04061(1234+729230)  Viral protein interaction with cytokine and cytokine receptor
+            hsa04062(1234+729230)  Chemokine signaling pathway
+            hsa04144(1234)  Endocytosis
+BRITE       Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Chemokine receptors
+                CCR2 (CD192)
+                 D09878  Cenicriviroc (USAN/INN)
+                CCR5 (CD195)
+                 D09878  Cenicriviroc (USAN/INN)
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               CCR5 antagonist
+                D09878  Cenicriviroc (USAN/INN)
+DBLINKS     CAS: 497223-25-3
+            PubChem: 135626631
+            ChEBI: 149636
+            LigandBox: D09878
+ATOM        50
+            1   C2x C    24.9900  -26.6700
+            2   C2y C    26.3900  -26.6700
+            3   C1x C    27.3700  -25.6900
+            4   C1x C    27.3700  -24.2900
+            5   C1x C    26.3900  -23.3100
+            6   N1y N    24.9900  -23.3100
+            7   C8y C    24.0100  -24.2900
+            8   C8y C    24.0100  -25.6900
+            9   C5a C    26.3900  -28.0700
+            10  N1b N    27.5800  -28.7700
+            11  C8y C    28.7700  -28.0700
+            12  O5a O    25.2000  -28.7700
+            13  C8x C    28.7700  -26.6700
+            14  C8x C    30.0300  -25.9700
+            15  C8y C    31.2200  -26.6700
+            16  C8x C    31.2200  -28.0700
+            17  C8x C    30.0300  -28.7700
+            18  S4a S    32.4100  -25.9700
+            19  C1b C    33.6000  -26.6700
+            20  C8y C    34.7900  -25.9700
+            21  N4y N    35.2100  -24.6400
+            22  C8x C    36.6800  -24.6400
+            23  N5x N    37.1000  -25.9700
+            24  C8x C    35.9100  -26.8100
+            25  O3c O    32.4100  -24.5700
+            26  C8x C    22.7500  -26.3900
+            27  C8y C    21.5600  -25.6900
+            28  C8x C    21.5600  -24.2900
+            29  C8x C    22.7500  -23.5900
+            30  C1b C    24.9900  -21.9100
+            31  C1c C    23.7300  -21.2100
+            32  C1a C    22.5400  -21.9100
+            33  C1a C    23.7300  -19.8100
+            34  C8y C    20.3000  -26.3900
+            35  C8x C    20.3000  -27.7900
+            36  C8x C    19.1100  -28.4900
+            37  C8y C    17.8500  -27.7900
+            38  C8x C    17.8500  -26.3900
+            39  C8x C    19.1100  -25.6900
+            40  O2a O    16.6600  -28.4900
+            41  C1b C    15.4700  -27.7900
+            42  C1b C    14.2800  -28.4900
+            43  O2a O    13.0900  -27.7900
+            44  C1b C    11.9000  -28.4900
+            45  C1b C    10.6400  -27.7900
+            46  C1b C     9.4500  -28.4900
+            47  C1a C     8.2600  -27.7900
+            48  C1b C    34.3824  -23.5108
+            49  C1b C    32.9775  -23.5243
+            50  C1a C    32.2621  -22.3122
+BOND        54
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 2
+            8     8   1 1
+            9     2   9 1
+            10    9  10 1
+            11   10  11 1
+            12    9  12 2
+            13   11  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   11  17 1
+            19   15  18 1
+            20   18  19 1 #Up
+            21   19  20 1
+            22   21  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  20 2
+            26   21  20 1
+            27   18  25 2
+            28    8  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32    7  29 1
+            33    6  30 1
+            34   30  31 1
+            35   31  32 1
+            36   31  33 1
+            37   27  34 1
+            38   34  35 1
+            39   35  36 2
+            40   36  37 1
+            41   37  38 2
+            42   38  39 1
+            43   34  39 2
+            44   37  40 1
+            45   40  41 1
+            46   41  42 1
+            47   42  43 1
+            48   43  44 1
+            49   44  45 1
+            50   45  46 1
+            51   46  47 1
+            52   21  48 1
+            53   48  49 1
+            54   49  50 1
+///

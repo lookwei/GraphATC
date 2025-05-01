@@ -1,0 +1,158 @@
+ENTRY       D05462                      Drug
+NAME        Oxycodone hydrochloride hydrate (JP18)
+FORMULA     C18H21NO4. 3H2O. HCl
+EXACT_MASS  405.1554
+MOL_WEIGHT  405.8704
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 8119
+            ATC code: N02AA05
+            Chemical structure group: DG00813
+            Product (DG00813): D05312<US> D00847<US> D05462<JP>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+            OPRD1 [HSA:4985] [KO:K04213]
+  PATHWAY   hsa04080(4985+4986+4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AA Natural opium alkaloids
+                 N02AA05 Oxycodone
+                  D05462  Oxycodone hydrochloride hydrate (JP18) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Long-acting
+               Oxycodone
+                D05462  Oxycodone hydrochloride hydrate (JP18)
+              Opioid Analgesics, Short-acting
+               Oxycodone
+                D05462  Oxycodone hydrochloride hydrate (JP18)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             8  Narcotics
+              81  Alkaloidal narcotics
+               811  Opium alkaloids
+                8119  Others
+                 D05462  Oxycodone hydrochloride hydrate (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00813  Oxycodone
+                D05462  Oxycodone hydrochloride hydrate
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00813  Oxycodone
+                D05462  Oxycodone hydrochloride hydrate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00813  Oxycodone
+                D05462  Oxycodone hydrochloride hydrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00813  Oxycodone
+                 D05462  Oxycodone hydrochloride hydrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D05462  Oxycodone hydrochloride hydrate (JP18) &lt;JP&gt;
+                OPRK1
+                 D05462  Oxycodone hydrochloride hydrate (JP18) &lt;JP&gt;
+                OPRD1
+                 D05462  Oxycodone hydrochloride hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D05462  Oxycodone hydrochloride hydrate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05462
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00813  Oxycodone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00813  Oxycodone
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00813  Oxycodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00813  Oxycodone
+DBLINKS     PubChem: 47207131
+            LigandBox: D05462
+ATOM        27
+            1   X   Cl   16.4762   -9.1832
+            2   O0  O    17.1806  -11.8405
+            3   C1z C     7.4494  -10.6994
+            4   C8y C     7.4494   -9.3754
+            5   C1z C     8.6340  -11.3961
+            6   C1y C     6.3345  -11.3265
+            7   C1x C     8.6340  -10.0723
+            8   C8y C     6.3345   -8.7483
+            9   C8y C     8.6340   -8.7483
+            10  C1y C     9.7489  -10.6994
+            11  C1x C     8.6340  -12.6504
+            12  O2x O     5.0106  -10.0025
+            13  C5x C     6.3345  -12.6504
+            14  C1x C    10.8637  -10.0723
+            15  C8y C     6.3345   -7.4244
+            16  C1x C     9.7489   -9.4451
+            17  C8x C     8.6340   -7.4244
+            18  N1y N    10.8637  -11.3961
+            19  C1x C     7.4494  -13.3472
+            20  O5x O     5.2197  -13.3472
+            21  C8x C     7.5191   -6.7973
+            22  O2a O     5.2197   -6.7973
+            23  C1a C     4.0351   -7.4244
+            24  O1a O     9.8882  -12.3020
+            25  C1a C    12.2626  -11.3961
+            26  O0  O    17.1806  -11.8405
+            27  O0  O    17.1806  -11.8405
+BOND        27
+            1     3   4 1
+            2     3   5 1
+            3     3   6 1
+            4     3   7 1 #Up
+            5     4   8 2
+            6     4   9 1
+            7     5  10 1
+            8     5  11 1
+            9     6  12 1 #Down
+            10    6  13 1
+            11    7  14 1
+            12    8  15 1
+            13    9  16 1
+            14    9  17 2
+            15   10  18 1 #Up
+            16   11  19 1
+            17   13  20 2
+            18   15  21 2
+            19   15  22 1
+            20   22  23 1
+            21    8  12 1
+            22   10  16 1
+            23   13  19 1
+            24   14  18 1
+            25   17  21 1
+            26    5  24 1 #Up
+            27   18  25 1
+BRACKET     1    14.9100  -12.8100   14.9100  -10.8500
+            1    17.7100  -10.8500   17.7100  -12.8100
+            1  3
+  ORIGINAL  1    2
+  REPEAT    1   26  27
+///

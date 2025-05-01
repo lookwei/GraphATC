@@ -1,0 +1,151 @@
+ENTRY       D10003                      Drug
+NAME        Hemin (JAN);
+            Normosang (TN);
+            Panhematin (TN)
+PRODUCT     PANHEMATIN (RECORDATI RARE DISEASES)
+FORMULA     C34H30ClFeN4O4. 2H
+EXACT_MASS  651.1462
+MOL_WEIGHT  651.9403
+CLASS       Metabolizing enzyme inducer
+             DG01938  CYP2D6 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      Therapeutic category: 6349
+            ATC code: B06AB01
+            Product: D10003<JP/US>
+EFFICACY    Accumulation reduction (porphyrin precursor), ALAS activity lowering agent
+  DISEASE   Acute intermittent porphyria [DS:H01763]
+COMMENT     See [CPD:C06767]
+TARGET      ALAS [HSA:211 212] [KO:K00643]
+  PATHWAY   hsa00860(211+212)  Porphyrin metabolism
+INTERACTION CYP induction: CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B06 OTHER HEMATOLOGICAL AGENTS
+               B06A OTHER HEMATOLOGICAL AGENTS
+                B06AB Heme products
+                 B06AB01 Hemin
+                  D10003  Hemin (JAN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              63  Biological preparations
+               634  Human blood preparations
+                6349  Others
+                 D10003  Hemin (JAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme inducer
+              DG01938  CYP2D6 inducer
+               D10003  Hemin
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                D10003  Hemin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Acyltransferases
+                ALAS
+                 D10003  Hemin (JAN) &lt;JP/US&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10003
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10003
+DBLINKS     CAS: 16009-13-5
+            PubChem: 135626724
+ATOM        44
+            1   Z   Fe   24.7961  -17.8832
+            2   X   Cl   24.7961  -15.9409
+            3   C8y C    25.9742  -14.7896
+            4   N5x N    25.9742  -16.5309
+            5   C8y C    27.2467  -16.5309
+            6   C8y C    28.0504  -15.4593
+            7   C8y C    27.2467  -14.3878
+            8   C8x C    24.8356  -14.1198
+            9   C8y C    23.6301  -14.7896
+            10  N4y N    23.6301  -16.5309
+            11  C8y C    22.3575  -14.3878
+            12  C8y C    21.6208  -15.4593
+            13  C8y C    22.3575  -16.5309
+            14  C8x C    21.7548  -17.7365
+            15  C8y C    22.4246  -18.8751
+            16  C8y C    27.2467  -18.8751
+            17  C8x C    27.9164  -17.7365
+            18  N4y N    26.0412  -18.8751
+            19  C8y C    26.0412  -20.6163
+            20  C8y C    27.3136  -21.0181
+            21  C8y C    28.1173  -19.9466
+            22  N5x N    23.6971  -18.8751
+            23  C8y C    23.6971  -20.6163
+            24  C8x C    24.9026  -21.2861
+            25  C8y C    21.6878  -19.9466
+            26  C8y C    22.4246  -21.0181
+            27  C1a C    20.2814  -15.4593
+            28  C1a C    20.3483  -19.9466
+            29  C1a C    29.4565  -19.9206
+            30  C2b C    29.3899  -15.4593
+            31  C2a C    30.0596  -16.6193
+            32  C2b C    22.3575  -13.0483
+            33  C2a C    23.5176  -12.3785
+            34  C1a C    27.2467  -13.0483
+            35  C1b C    22.4246  -22.3576
+            36  C1b C    27.3136  -22.3576
+            37  C1b C    21.2645  -23.0275
+            38  C6a C    21.2644  -24.3667
+            39  O6a O    20.1205  -25.0272
+            40  O6a O    22.4406  -25.0459 #-
+            41  C1b C    28.4737  -23.0275
+            42  C6a C    28.4738  -24.3667
+            43  O6a O    29.6177  -25.0272 #-
+            44  O6a O    27.2976  -25.0459
+BOND        49
+            1     1   2 1
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     3   7 1
+            7     3   8 2
+            8     8   9 1
+            9     9  10 1
+            10    9  11 2
+            11   11  12 1
+            12   12  13 2
+            13   10  13 1
+            14   13  14 1
+            15   14  15 2
+            16   16  17 2
+            17    5  17 1
+            18   18  19 1
+            19   19  20 1
+            20   20  21 2
+            21   21  16 1
+            22   18  16 1
+            23   22  23 2
+            24   23  24 1
+            25   19  24 2
+            26   22  15 1
+            27   15  25 1
+            28   25  26 2
+            29   23  26 1
+            30   12  27 1
+            31   25  28 1
+            32   21  29 1
+            33    6  30 1
+            34   30  31 2
+            35   11  32 1
+            36   32  33 2
+            37    7  34 1
+            38   26  35 1
+            39   20  36 1
+            40   35  37 1
+            41   37  38 1
+            42   38  39 2
+            43   38  40 1
+            44   36  41 1
+            45   41  42 1
+            46   42  43 1
+            47   42  44 2
+            48    1  10 1
+            49    1  18 1
+///

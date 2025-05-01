@@ -1,0 +1,84 @@
+ENTRY       D10882            Mixture   Drug
+NAME        Daclatasvir, asunaprevir and beclabuvir;
+            Ximency (TN)
+COMPONENT   (Daclatasvir dihydrochloride [DR:D10105] | Daclatasvir [DR:D10065]), Asunaprevir [DR:D10093], (Beclabuvir hydrochloride [DR:D10611] | Beclabuvir [DR:D10610])
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+             DG02856  SLCO1B1 substrate
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02862  ABCG2 inhibitor
+             DG02865  SLCO1B1 inhibitor
+             DG02907  SLCO1B3 inhibitor
+REMARK      ATC code: J05AP58
+EFFICACY    Antiviral
+COMMENT     Daclatasvir is a substrate of CYP3A4 and P-glycoprotein (P-gp) , and it is an inhibitor of the following transporters: P-gp, OATP1B1, OATP1B3 and BCRP.
+            Asunaprevir is a substrate of CYP3A, P-gp and OATP1B1, and it is an inhibitor of CYP2D6, OATP1B1, OATP1B3 and P-gp and a inducer of CYP3A4.
+            Beclabuvir is a substrate of CYP3A, P-gp and BCRP, and it is an inhibitor of P-gp, BCRP, OATP1B1 and OATP1B3 and a inducer of CYP3A4.
+TARGET      HCV NS3/4A protease [KO:K22273 K22274]
+            HCV NS5A [KO:K22275]
+            HCV NS5B [KO:K22472]
+  PATHWAY   ko03230(K22273+K22274+K22275+K22472)  Viral genome structure
+            ko03240(K22273+K22274+K22275+K22472)  Viral replication
+            ko05160(K22273+K22274+K22275+K22472)  Hepatitis C
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+            Transporter: ABCB1 [HSA:5243], ABCG2 [HSA:9429], SLCO1B1 [HSA:10599]
+INTERACTION CYP induction: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243], ABCG2 [HSA:9429], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP58 Daclatasvir, asunaprevir and beclabuvir
+                  D10882  Daclatasvir, asunaprevir and beclabuvir
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                D10882  Daclatasvir, asunaprevir and beclabuvir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+              DG01913  ABCG2 substrate
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+              DG02856  SLCO1B1 substrate
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+              DG02862  ABCG2 inhibitor
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+              DG02865  SLCO1B1 inhibitor
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+              DG02907  SLCO1B3 inhibitor
+               D10882  Daclatasvir, asunaprevir and beclabuvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HCV NS3/4A inhibitor
+                D10882  Daclatasvir, asunaprevir and beclabuvir
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10882
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10882
+             Drug transporters
+              D10882
+DBLINKS     PubChem: 328082974
+///

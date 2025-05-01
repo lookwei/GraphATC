@@ -1,0 +1,91 @@
+ENTRY       D07514                      Drug
+NAME        Benzfetamine (INN);
+            Benzphetamine
+FORMULA     C17H21N
+EXACT_MASS  239.1674
+MOL_WEIGHT  239.3553
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+REMARK      Same as: C07538
+            Chemical structure group: DG01755
+            Product (DG01755): D07515<US>
+EFFICACY    Appetite suppressant
+COMMENT     Amfetamine [DR:D07445] analogus
+TARGET      SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531+6571)  Synaptic vesicle cycle
+            hsa04726(6571)  Serotonergic synapse
+            hsa04728(6531+6571)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG01755  Benzfetamine
+                 D07514  Benzfetamine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D07514  Benzfetamine (INN)
+                SLC6A3 (DAT1)
+                 D07514  Benzfetamine (INN)
+               SLC18
+                SLC18A2 (VMAT2)
+                 D07514  Benzfetamine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D07514
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG01755  Benzfetamine
+DBLINKS     CAS: 156-08-1
+            PubChem: 51091837
+            ChEBI: 3044
+            LigandBox: D07514
+            NIKKAJI: J215.740C
+ATOM        18
+            1   C8x C    22.2047  -21.3588
+            2   C8x C    22.2047  -22.7594
+            3   C8x C    23.4177  -23.4597
+            4   C8x C    24.6308  -22.7594
+            5   C8y C    24.6308  -21.3588
+            6   C8x C    23.4177  -20.6584
+            7   C1b C    25.8688  -20.6584
+            8   C1c C    27.0819  -21.3588
+            9   N1c N    28.2948  -20.6584
+            10  C1a C    27.0819  -22.7592
+            11  C1a C    28.2948  -19.2577
+            12  C1b C    29.5288  -21.3708
+            13  C8y C    30.7234  -20.6807
+            14  C8x C    31.9136  -21.3677
+            15  C8x C    33.1276  -20.6668
+            16  C8x C    33.1275  -19.2649
+            17  C8x C    31.9374  -18.5780
+            18  C8x C    30.7234  -19.2789
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    8  10 1
+            11    9  11 1
+            12    9  12 1
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   13  18 1
+///

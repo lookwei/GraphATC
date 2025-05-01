@@ -1,0 +1,118 @@
+ENTRY       D02625                      Drug
+NAME        Trifluperidol (USAN/INN);
+            Triperidol (TN)
+FORMULA     C22H23F4NO2
+EXACT_MASS  409.1665
+MOL_WEIGHT  409.4171
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01940  Butyrophenone derivative
+REMARK      ATC code: N05AD02
+            Chemical structure group: DG00886
+EFFICACY    Antipsychotic, Neuroleptic, Dopamine D2 receptor antagonist
+COMMENT     Butyrophenone derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07031  Antipsychotics - butyrophenones
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AD Butyrophenone derivatives
+                 N05AD02 Trifluperidol
+                  D02625  Trifluperidol (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00886  Trifluperidol
+                 D02625  Trifluperidol
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00886  Trifluperidol
+                 D02625  Trifluperidol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02625  Trifluperidol (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00886  Trifluperidol
+              DG03200  Antipsychotic agent
+               DG01940  Butyrophenone derivative
+                DG00886  Trifluperidol
+DBLINKS     CAS: 749-13-3
+            PubChem: 17396795
+            LigandBox: D02625
+            NIKKAJI: J6.962K
+ATOM        29
+            1   C8x C    10.8500  -17.1500
+            2   C8y C    10.8500  -18.5500
+            3   C8x C    12.0624  -19.2500
+            4   C8x C    13.2749  -18.5500
+            5   C8y C    13.2749  -17.1500
+            6   C8x C    12.0624  -16.4500
+            7   C5a C    14.5124  -16.4500
+            8   C1b C    15.7249  -17.1500
+            9   C1b C    16.9373  -16.4500
+            10  C1b C    18.1497  -17.1500
+            11  N1y N    19.3622  -16.4500
+            12  C1x C    20.5953  -17.1622
+            13  C1x C    21.8079  -16.4624
+            14  C1z C    21.8081  -15.0624
+            15  C1x C    20.5750  -14.3502
+            16  C1x C    19.3624  -15.0500
+            17  C8y C    23.0499  -14.3456
+            18  C8x C    24.2491  -15.0383
+            19  C8y C    25.4617  -14.3385
+            20  C8x C    25.4620  -12.9385
+            21  C8x C    24.2627  -12.2458
+            22  C8x C    23.0502  -12.9456
+            23  C1d C    26.6927  -15.0495
+            24  X   F    27.9051  -15.7495
+            25  X   F    27.3927  -13.8371
+            26  X   F    25.9927  -16.2620
+            27  O1a O    23.0205  -15.7624
+            28  O5a O    14.5186  -15.0503
+            29  X   F     9.6376  -19.2500
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   11  16 1
+            18   14  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   19  23 1
+            26   23  24 1
+            27   23  25 1
+            28   23  26 1
+            29   14  27 1
+            30    7  28 2
+            31    2  29 1
+///

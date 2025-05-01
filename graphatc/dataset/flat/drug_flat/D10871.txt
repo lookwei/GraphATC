@@ -1,0 +1,134 @@
+ENTRY       D10871                      Drug
+NAME        Filgotinib (USAN/INN)
+FORMULA     C21H23N5O3S
+EXACT_MASS  425.1522
+MOL_WEIGHT  425.504
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Metabolizing enzyme substrate
+             DG02970  CES substrate
+              DG03241  CES1 substrate
+              DG03192  CES2 substrate
+REMARK      ATC code: L04AA45
+            Chemical structure group: DG01991
+            Product (DG01991): D11106<JP>
+EFFICACY    Anti-inflammatory, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of inflammatory conditions, autoimmune diseases
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+  PATHWAY   hsa04630(3716)  JAK-STAT signaling pathway
+            hsa04658(3716)  Th1 and Th2 cell differentiation
+            hsa04659(3716)  Th17 cell differentiation
+METABOLISM  Enzyme: CES1 [HSA:1066], CES2 [HSA:8824]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA45 Filgotinib
+                  D10871  Filgotinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG01991  Filgotinib
+                 D10871  Filgotinib
+             Metabolizing enzyme substrate
+              DG02970  CES substrate
+               DG03241  CES1 substrate
+                DG01991  Filgotinib
+                 D10871  Filgotinib
+               DG03192  CES2 substrate
+                DG01991  Filgotinib
+                 D10871  Filgotinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D10871  Filgotinib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10871
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG01991  Filgotinib
+             Metabolizing enzyme substrate
+              DG02970  CES substrate
+               DG03241  CES1 substrate
+                DG01991  Filgotinib
+               DG03192  CES2 substrate
+                DG01991  Filgotinib
+DBLINKS     CAS: 1206161-97-8
+            PubChem: 319902671
+            PDB-CCD: 2HB
+ATOM        30
+            1   C8x C     9.1000   -7.2800
+            2   C8x C     9.1000   -5.8800
+            3   C8x C    10.2900   -5.1800
+            4   C8y C    11.5500   -5.8800
+            5   N4y N    11.5500   -7.2800
+            6   C8y C    10.2900   -7.9800
+            7   N5x N    12.8800   -5.4600
+            8   C8y C    13.6500   -6.5800
+            9   N5x N    12.8800   -7.7000
+            10  N1b N    15.0500   -6.5800
+            11  C5a C    15.7500   -7.7700
+            12  C1y C    17.1500   -7.7700
+            13  O5a O    15.0500   -8.9600
+            14  C1x C    18.4100   -7.0700
+            15  C1x C    18.4100   -8.4700
+            16  C8y C    10.2900   -9.3800
+            17  C8x C    11.4800  -10.0800
+            18  C8x C    11.4800  -11.4800
+            19  C8y C    10.2200  -12.1800
+            20  C8x C     9.0300  -11.4800
+            21  C8x C     9.0300  -10.0800
+            22  C1b C    10.2200  -13.5800
+            23  N1y N    11.4353  -14.2751
+            24  C1x C    11.4411  -15.6797
+            25  C1x C    12.6564  -16.3747
+            26  S2x S    13.8659  -15.6697
+            27  C1x C    13.8601  -14.2651
+            28  C1x C    12.6448  -13.5701
+            29  O3c O    13.8659  -17.0697
+            30  O3c O    15.0783  -14.9697
+BOND        34
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   11  13 2
+            15   12  14 1
+            16   14  15 1
+            17   12  15 1
+            18    6  16 1
+            19   16  17 2
+            20   17  18 1
+            21   18  19 2
+            22   19  20 1
+            23   20  21 2
+            24   16  21 1
+            25   19  22 1
+            26   22  23 1
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   23  28 1
+            33   26  29 2
+            34   26  30 2
+///

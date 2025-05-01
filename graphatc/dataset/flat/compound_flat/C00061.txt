@@ -1,0 +1,117 @@
+ENTRY       C00061                      Compound
+NAME        FMN;
+            Riboflavin-5-phosphate;
+            Flavin mononucleotide
+FORMULA     C17H21N4O9P
+EXACT_MASS  456.1046
+MOL_WEIGHT  456.3438
+REACTION    R00025 R00160 R00161 R00548 R00549 R00550 R04102 R05218 
+            R05705 R05706 R07210 R07664 R08574 R08908 R09313 R09314 
+            R09559 R09798 R09819 R09936 R09937 R10203 R10206 R10551 
+            R11161 R11162 R11163 R11164 R11404 R11454 R11455 R11456 
+            R11457 R11960 R11961 R12149 R12539 R12544 R12546 R12720 
+            R13017
+PATHWAY     map00190  Oxidative phosphorylation
+            map00740  Riboflavin metabolism
+            map00998  Biosynthesis of various antibiotics
+            map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01240  Biosynthesis of cofactors
+            map04977  Vitamin digestion and absorption
+MODULE      M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+            M00890  Roseoflavin biosynthesis, FMN => roseoflavin
+            M00911  Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+ENZYME      1.1.99.31       1.3.8.16        1.3.8.17        1.5.1.36        
+            1.5.1.38        1.5.1.39        1.5.1.41        1.5.1.42        
+            1.5.1.-         1.13.12.16      1.14.14.3       1.14.14.5       
+            1.14.14.10      1.14.14.12      1.14.14.13      1.14.14.21      
+            1.14.14.22      1.14.14.30      1.14.14.33      1.14.14.34      
+            1.14.14.35      1.14.14.108     1.14.14.155     1.14.14.181     
+            1.14.14.-       1.14.99.46      1.16.8.-        2.6.1.114       
+            2.7.1.26        2.7.1.42        2.7.1.161       2.7.7.2         
+            3.1.3.2         3.1.3.102       3.6.1.9         3.6.1.18
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Cofactors
+               Coenzymes
+                C00061  FMN
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Riboflavin sodium phosphate
+                C00061  FMN
+DBLINKS     CAS: 146-17-8
+            PubChem: 3361
+            ChEBI: 17621
+            KNApSAcK: C00019686
+            PDB-CCD: FMN
+            3DMET: B04626
+            NIKKAJI: J30.175B
+ATOM        31
+            1   N4x N     8.3648  -13.4646
+            2   C8y C     8.3648  -14.8292
+            3   N5x N     9.5247  -15.5115
+            4   C8y C    10.7529  -14.8292
+            5   C8y C    10.7529  -13.4646
+            6   C8y C     9.5247  -12.7823
+            7   N4y N    11.9128  -15.5115
+            8   C8y C    13.0727  -14.8292
+            9   C8y C    13.0727  -13.4646
+            10  N5x N    11.9128  -12.7823
+            11  C8x C    14.3009  -15.5115
+            12  C8y C    15.4608  -14.8292
+            13  C8y C    15.4608  -13.4646
+            14  C8x C    14.3009  -12.7823
+            15  O5x O     9.5247  -11.4176
+            16  O5x O     7.2048  -15.5115
+            17  C1a C    16.6208  -12.7823
+            18  C1a C    16.6208  -15.5115
+            19  C1b C    11.9128  -17.7632
+            20  C1c C    13.0727  -18.4455
+            21  C1c C    14.2327  -17.7632
+            22  C1c C    15.3926  -18.4455
+            23  C1b C    16.5525  -17.7632
+            24  O2b O    17.7125  -18.4455
+            25  O1a O    13.0727  -19.8101
+            26  O1a O    15.3926  -19.8101
+            27  O1a O    14.2327  -16.3985
+            28  P1b P    19.0771  -18.4455
+            29  O1c O    20.4417  -18.4455
+            30  O1c O    19.0771  -17.0809
+            31  O1c O    19.0771  -19.8101
+BOND        33
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 2
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17    6  15 2
+            18    2  16 2
+            19   13  17 1
+            20   12  18 1
+            21    7  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   20  25 1 #Up
+            28   22  26 1 #Up
+            29   21  27 1 #Down
+            30   24  28 1
+            31   28  29 1
+            32   28  30 2
+            33   28  31 1
+///

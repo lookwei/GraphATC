@@ -1,0 +1,54 @@
+ENTRY       D02030                      Drug
+NAME        Levocarnitine chloride (JAN);
+            L-cartin (TN)
+FORMULA     C7H16NO3. Cl
+EXACT_MASS  197.0819
+MOL_WEIGHT  197.6598
+REMARK      Therapeutic category: 3999
+            ATC code: A16AA01
+            Chemical structure group: DG00143
+            Product (DG00143): D02176<JP/US> D02030<JP>
+EFFICACY    Replenisher (carnitine)
+  DISEASE   Carnitine deficiency [DS:H01589]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A16 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS
+               A16A OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS
+                A16AA Amino acids and derivatives
+                 A16AA01 Levocarnitine
+                  D02030  Levocarnitine chloride (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D02030  Levocarnitine chloride (JAN)
+DBLINKS     CAS: 6645-46-1
+            PubChem: 7849092
+            LigandBox: D02030
+            NIKKAJI: J240.217C
+ATOM        12
+            1   C6a C    23.2734  -19.2970
+            2   C1b C    24.4897  -18.5952
+            3   C1c C    25.7060  -19.2970
+            4   C1b C    26.9224  -18.5952
+            5   N1d N    28.1387  -19.2970 #+
+            6   C1a C    29.3551  -18.5952
+            7   O1a O    25.7060  -20.7005
+            8   O6a O    22.0571  -18.5952
+            9   O6a O    23.2734  -20.7005
+            10  C1a C    28.1390  -20.7005
+            11  C1a C    29.4020  -19.8115
+            12  X   Cl   27.9532  -17.3309 #-
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     3   7 1 #Down
+            7     1   8 1
+            8     1   9 2
+            9     5  10 1
+            10    5  11 1
+///

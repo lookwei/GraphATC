@@ -1,0 +1,108 @@
+ENTRY       D09022                      Drug
+NAME        Tomopenem (USAN/INN)
+FORMULA     C23H35N7O6S
+EXACT_MASS  537.237
+MOL_WEIGHT  537.6323
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01458  Carbapenem
+EFFICACY    Antibiotic
+COMMENT     beta-Lactam, Carbapenem
+TARGET      penicillin binding protein
+  PATHWAY   ko00550(K12555)  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01458  Carbapenem
+                 D09022  Tomopenem
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Carbapenem
+                D09022  Tomopenem (USAN/INN)
+DBLINKS     CAS: 222400-20-6
+            PubChem: 96025705
+            LigandBox: D09022
+ATOM        37
+            1   C1y C    26.2504  -16.4094
+            2   C1x C    26.7024  -17.7318
+            3   N1y N    28.0997  -17.7106
+            4   C1y C    28.5114  -16.3751
+            5   C1x C    27.3685  -15.5709
+            6   C1y C    19.4600  -14.9100
+            7   C5x C    19.4600  -16.2400
+            8   N1y N    20.7200  -16.2400
+            9   C1y C    20.7200  -14.9100
+            10  C2y C    22.0500  -16.6600
+            11  C2y C    22.8200  -15.6100
+            12  C1y C    22.0500  -14.4900
+            13  C6a C    22.4700  -17.9900
+            14  O6a O    23.8000  -17.9900
+            15  O6a O    21.7000  -19.0400
+            16  S2a S    25.1300  -15.6100
+            17  C1a C    22.4700  -13.2300
+            18  C1c C    18.2700  -14.2100
+            19  C1a C    17.0100  -14.9100
+            20  O5x O    18.2700  -16.9400
+            21  O1a O    18.2700  -12.8100
+            22  C5a C    29.7455  -15.4394
+            23  N1y N    30.8845  -16.4075
+            24  C1x C    31.3132  -17.7700
+            25  C1x C    32.7416  -17.7834
+            26  C1y C    33.1957  -16.4291
+            27  C1x C    32.0480  -15.5787
+            28  O5a O    29.7838  -14.0704
+            29  N1b N    34.3924  -15.7500
+            30  C5a C    35.6049  -16.4500
+            31  C1b C    36.8173  -15.7500
+            32  N1b N    38.0297  -16.4500
+            33  C2c C    39.2422  -15.7500
+            34  N1a N    40.4546  -16.4500
+            35  O5a O    35.6049  -17.8498
+            36  N2a N    39.2422  -14.3503
+            37  C1a C    28.9283  -18.8160
+BOND        40
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     6   9 1
+            10    8  10 1
+            11   10  11 2
+            12   11  12 1
+            13    9  12 1
+            14   10  13 1
+            15   13  14 1
+            16   13  15 2
+            17   11  16 1
+            18   12  17 1 #Up
+            19    6  18 1
+            20   18  19 1
+            21    7  20 2
+            22   18  21 1 #Up
+            23    1  16 1 #Up
+            24    4  22 1 #Up
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   23  27 1
+            30   22  23 1
+            31   22  28 2
+            32   26  29 1 #Up
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+            38   30  35 2
+            39   33  36 2
+            40    3  37 1
+///

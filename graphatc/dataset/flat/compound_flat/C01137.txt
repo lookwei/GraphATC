@@ -1,0 +1,83 @@
+ENTRY       C01137                      Compound
+NAME        S-Adenosylmethioninamine;
+            (5-Deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium;
+            (5-Deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium cation;
+            S-Adenosyl-(5')-3-methylthiopropylamine;
+            S-Adenosyl 3-(methylthio)propylamine;
+            S-Adenosyl 3-(methylsulfanyl)propylamine;
+            Decarboxy-AdoMet
+FORMULA     C14H23N6O3S
+EXACT_MASS  355.1552
+MOL_WEIGHT  355.4358
+REACTION    R00178 R01920 R02869 R03271 R08359 R09531 R10338 R11088 
+            R11089 R11154 R11159 R11160
+PATHWAY     map00270  Cysteine and methionine metabolism
+            map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+MODULE      M00034  Methionine salvage pathway
+            M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+ENZYME      2.5.1.16        2.5.1.22        2.5.1.23        2.5.1.79        
+            2.5.1.104       2.5.1.126       2.5.1.127       2.5.1.128       
+            4.1.1.50
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amines
+               Biogenic amines
+                C01137  S-Adenosylmethioninamine
+DBLINKS     PubChem: 4368
+            ChEBI: 15625
+            3DMET: B04775
+            NIKKAJI: J39.567F
+ATOM        24
+            1   N4y N    21.7493  -15.3869
+            2   C8y C    22.8085  -16.1243
+            3   C1y C    20.4559  -15.8025
+            4   C8x C    22.2233  -13.9882
+            5   C8y C    24.0434  -15.2171
+            6   N5x N    22.9491  -17.5463
+            7   O2x O    19.3146  -14.9539
+            8   C1y C    20.0228  -17.0549
+            9   N5x N    23.6688  -13.9999
+            10  C8y C    25.3017  -15.7731
+            11  C8x C    24.2717  -18.1374
+            12  C1y C    18.2087  -15.7439
+            13  C1y C    18.6416  -17.0549
+            14  O1a O    20.4324  -18.3892
+            15  N5x N    25.4655  -17.2597
+            16  N1a N    26.4077  -14.9479
+            17  C1b C    16.9093  -15.3342
+            18  O1a O    18.1910  -18.3834
+            19  S0  S    15.7974  -16.1711 #+
+            20  C1b C    14.5800  -15.4689
+            21  C1a C    15.8092  -17.5698
+            22  C1b C    13.3686  -16.1653
+            23  C1b C    12.1630  -15.4689
+            24  N1a N    10.9517  -16.1653
+BOND        26
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   12  17 1 #Up
+            17   13  18 1 #Down
+            18   17  19 1
+            19   19  20 1
+            20   19  21 1
+            21   20  22 1
+            22   22  23 1
+            23   23  24 1
+            24    5   9 1
+            25   11  15 1
+            26   12  13 1
+///

@@ -1,0 +1,112 @@
+ENTRY       D08685                      Drug
+NAME        Yohimbine (DCF)
+FORMULA     C21H26N2O3
+EXACT_MASS  354.1943
+MOL_WEIGHT  354.4427
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+REMARK      Same as: C09256
+            ATC code: G04BE04
+            Chemical structure group: DG00485
+EFFICACY    alpha2-Adrenergic receptor antagonist
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04022(150+151+152)  cGMP-PKG signaling pathway
+            hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BE Drugs used in erectile dysfunction
+                 G04BE04 Yohimbine
+                  D08685  Yohimbine (DCF)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Yohimbine
+                D08685  Yohimbine (DCF)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00485  Yohimbine
+                  D08685  Yohimbine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D08685  Yohimbine (DCF)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00485  Yohimbine
+DBLINKS     CAS: 146-48-5
+            PubChem: 96025368
+            ChEBI: 10093
+            LigandBox: D08685
+            NIKKAJI: J9.366A
+ATOM        26
+            1   C8x C    18.4800  -15.9600
+            2   C8x C    18.4800  -17.2900
+            3   C8x C    19.7400  -17.9900
+            4   C8x C    19.6700  -15.1900
+            5   C8y C    20.8600  -15.8900
+            6   C8y C    20.8600  -17.2200
+            7   C1x C    24.0800  -13.8600
+            8   C1x C    22.6800  -14.0700
+            9   N1y N    24.9200  -14.9800
+            10  C1y C    24.3600  -16.2400
+            11  C1x C    25.2700  -17.3600
+            12  C1x C    26.2500  -14.7700
+            13  C1y C    27.1600  -15.8900
+            14  C1y C    26.6000  -17.1500
+            15  C1y C    27.4400  -18.2000
+            16  C1y C    28.8400  -18.0600
+            17  C1x C    29.3300  -16.7300
+            18  C1x C    28.4900  -15.6800
+            19  C7a C    26.8800  -19.6000
+            20  C8y C    23.0300  -16.4500
+            21  C8y C    22.1900  -15.4000
+            22  N4x N    22.2600  -17.6400
+            23  O1a O    29.8900  -19.0400
+            24  O7a O    27.7900  -20.7200
+            25  C1a C    27.2300  -22.0500
+            26  O6a O    25.4800  -19.9500
+BOND        30
+            1     1   2 1
+            2    20  10 1
+            3     9   7 1
+            4     7   8 1
+            5    13  14 1
+            6    14  15 1
+            7    15  16 1
+            8    16  17 1
+            9    17  18 1
+            10   18  13 1
+            11    8  21 1
+            12   15  19 1 #Down
+            13    2   3 2
+            14    3   6 1
+            15    5   4 1
+            16   20  21 2
+            17   21   5 1
+            18    6  22 1
+            19   22  20 1
+            20    4   1 2
+            21   16  23 1 #Down
+            22    9  10 1
+            23   19  24 1
+            24   10  11 1
+            25   24  25 1
+            26   11  14 1
+            27   19  26 2
+            28   13  12 1
+            29   12   9 1
+            30    5   6 2
+///

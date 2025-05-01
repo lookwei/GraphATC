@@ -1,0 +1,68 @@
+ENTRY       C00641                      Compound
+NAME        1,2-Diacyl-sn-glycerol;
+            1,2-Diacylglycerol;
+            L-1,2-Diacylglycerol
+FORMULA     C5H6O5R2
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01312 R01321 R02027 R02052 R02057 R02239 R02240 R02250 
+            R02251 R02687 R02688 R02689 R02691 R02692 R02693 R02694 
+            R03332 R03364 R03435 R03755 R03756 R03838 R04472 R04511 
+            R04920 R04922 R05081 R05333 R05923 R05924 R06867 R07635 
+            R08107 R08969 R09072 R09944 R10849 R10850 R10952 R11204 
+            R11205 R11543 R12351 R12702 R12810 R12813 R12898 R12900 
+            R12901 R12902
+PATHWAY     map00552  Teichoic acid biosynthesis
+            map00561  Glycerolipid metabolism
+            map00562  Inositol phosphate metabolism
+            map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04070  Phosphatidylinositol signaling system
+            map04730  Long-term depression
+MODULE      M00089  Triacylglycerol biosynthesis
+            M00098  Acylglycerol degradation
+ENZYME      2.3.1.20        2.3.1.22        2.3.1.73        2.3.1.158       
+            2.4.1.46        2.4.1.184       2.4.1.315       2.4.1.336       
+            2.4.1.337       2.7.1.107       2.7.1.174       2.7.8.1         
+            2.7.8.2         2.7.8.20        2.7.8.27        2.7.8.42        
+            2.7.-.-         3.1.1.3         3.1.3.4         3.1.4.3         
+            3.1.4.11        3.1.4.-         3.2.1.199       4.6.1.13        
+            4.6.1.14
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Fats
+               Acylglycerols
+                C00641  1,2-Diacylglycerol
+            Lipids [BR:br08002]
+             GL  Glycerolipids
+              GL02 Diradylglycerols
+               GL0201 Diacylglycerols
+                C00641  1,2-Diacyl-sn-glycerol
+DBLINKS     PubChem: 3914
+            ChEBI: 17815
+ATOM        12
+            1   C1c C    25.3981  -16.5616
+            2   C1b C    25.3922  -15.1132
+            3   O7a O    23.9615  -16.5556
+            4   C1b C    25.3922  -17.9980
+            5   O7a O    26.8289  -15.1132
+            6   C7a C    22.9337  -16.5616
+            7   O1a O    26.8289  -17.9980
+            8   C7a C    28.2772  -15.1132
+            9   O6a O    22.9454  -15.1540
+            10  R   R    21.4913  -16.5616
+            11  O6a O    28.2713  -13.6766
+            12  R   R    29.7196  -15.1132
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   9 2
+            9     6  10 1
+            10    8  11 2
+            11    8  12 1
+///

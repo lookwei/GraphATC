@@ -1,0 +1,111 @@
+ENTRY       D08325                      Drug
+NAME        Oxyphencyclimine (INN)
+FORMULA     C20H28N2O3
+EXACT_MASS  344.21
+MOL_WEIGHT  344.4479
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      Same as: C07851
+            ATC code: A03AA01
+            Chemical structure group: DG00029
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM1 [HSA:1128] [KO:K04129]
+            CHRM2 [HSA:1129] [KO:K04130]
+            CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131)  Cholinergic synapse
+            hsa04971(1131)  Gastric acid secretion
+            hsa04972(1131)  Pancreatic secretion
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AA Synthetic anticholinergics, esters with tertiary amino group
+                 A03AA01 Oxyphencyclimine
+                  D08325  Oxyphencyclimine (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Oxyphencyclimine
+                D08325  Oxyphencyclimine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00029  Oxyphencyclimine
+                D08325  Oxyphencyclimine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM1
+                 D08325  Oxyphencyclimine (INN)
+                CHRM2
+                 D08325  Oxyphencyclimine (INN)
+                CHRM3
+                 D08325  Oxyphencyclimine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00029  Oxyphencyclimine
+DBLINKS     CAS: 125-53-1
+            PubChem: 96025012
+            ChEBI: 7868
+            LigandBox: D08325
+            NIKKAJI: J5.375I
+ATOM        25
+            1   C1x C    18.6900  -17.2200
+            2   C1x C    18.6900  -18.6200
+            3   N1y N    19.8800  -19.3200
+            4   C2y C    21.1400  -18.6200
+            5   N2x N    21.1400  -17.2200
+            6   C1x C    19.8800  -16.5200
+            7   C1b C    22.3300  -19.3200
+            8   O7a O    23.5900  -18.6200
+            9   C7a C    24.7800  -19.3200
+            10  C1d C    25.9700  -18.6200
+            11  C8y C    27.2300  -19.3200
+            12  C1y C    25.9700  -17.2200
+            13  C1x C    27.1600  -16.5200
+            14  C1x C    27.1600  -15.1200
+            15  C1x C    25.9700  -14.4200
+            16  C1x C    24.7800  -15.1200
+            17  C1x C    24.7800  -16.5200
+            18  C8x C    27.2300  -20.7200
+            19  C8x C    28.4200  -21.4200
+            20  C8x C    29.6100  -20.7200
+            21  C8x C    29.6100  -19.3200
+            22  C8x C    28.4200  -18.6200
+            23  O1a O    27.2300  -17.9200
+            24  O6a O    24.7800  -20.7200
+            25  C1a C    19.8800  -20.7200
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   10  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   12  17 1
+            19   11  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   11  22 1
+            25   10  23 1
+            26    9  24 2
+            27    3  25 1
+///

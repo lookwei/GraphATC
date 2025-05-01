@@ -1,0 +1,71 @@
+ENTRY       D01952                      Drug
+NAME        L-Methylephedrine hydrochloride (JAN)
+FORMULA     C11H17NO. HCl
+EXACT_MASS  215.1077
+MOL_WEIGHT  215.7197
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01229
+            Product (DG01229): D02109<JP>
+EFFICACY    Bronchodilator, Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148+153+154+155)  Salivary secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+                D01952  L-Methylephedrine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01952  L-Methylephedrine hydrochloride (JAN)
+                ADRA2
+                 D01952  L-Methylephedrine hydrochloride (JAN)
+                ADRB
+                 D01952  L-Methylephedrine hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+DBLINKS     CAS: 38455-90-2
+            PubChem: 7849014
+            LigandBox: D01952
+            NIKKAJI: J299.262K
+ATOM        14
+            1   C8x C    26.1800  -17.1500
+            2   C8x C    26.1800  -18.5500
+            3   C8x C    27.3700  -19.3200
+            4   C8x C    28.5600  -18.5500
+            5   C8y C    28.5600  -17.1500
+            6   C8x C    27.3700  -16.4500
+            7   C1c C    29.8200  -16.4500
+            8   C1c C    31.0100  -17.1500
+            9   N1c N    32.2000  -16.4500
+            10  C1a C    33.4600  -17.1500
+            11  C1a C    31.0100  -18.5500
+            12  O1a O    29.8200  -15.0500
+            13  C1a C    32.2000  -15.0500
+            14  X   Cl   37.9400  -16.9400
+BOND        13
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    8  11 1 #Up
+            12    7  12 1 #Up
+            13    9  13 1
+///

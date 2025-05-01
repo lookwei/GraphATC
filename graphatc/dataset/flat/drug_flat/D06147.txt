@@ -1,0 +1,97 @@
+ENTRY       D06147                      Drug
+NAME        Tilidine hydrochloride (USAN);
+            Valoron (TN)
+FORMULA     C17H23NO2. HCl
+EXACT_MASS  309.1496
+MOL_WEIGHT  309.831
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      ATC code: N02AX01
+            Chemical structure group: DG00823
+EFFICACY    Analgesic, Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AX Other opioids
+                 N02AX01 Tilidine
+                  D06147  Tilidine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00823  Tilidine
+                 D06147  Tilidine hydrochloride
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00823  Tilidine
+                D06147  Tilidine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D06147  Tilidine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00823  Tilidine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00823  Tilidine
+DBLINKS     CAS: 27107-79-5
+            PubChem: 47207805
+            LigandBox: D06147
+            NIKKAJI: J410.859K
+ATOM        21
+            1   C2x C    18.9700  -15.4000
+            2   C2x C    18.9700  -16.8000
+            3   C1x C    20.1824  -17.5000
+            4   C1x C    21.3949  -16.8000
+            5   C1z C    21.3949  -15.4000
+            6   C1y C    20.1824  -14.7000
+            7   C8y C    23.4660  -13.9190
+            8   C8x C    24.6712  -14.6147
+            9   C8x C    25.8835  -13.9146
+            10  C8x C    25.8835  -12.5146
+            11  C8x C    24.6783  -11.8189
+            12  C8x C    23.4659  -12.5190
+            13  N1c N    20.1824  -13.3002
+            14  C1a C    18.9532  -12.5903
+            15  C1a C    21.3780  -12.6098
+            16  C7a C    22.6073  -16.1000
+            17  O7a O    22.6110  -17.5000
+            18  O6a O    23.8208  -15.3972
+            19  C1b C    23.8246  -18.1963
+            20  C1a C    23.8284  -19.5997
+            21  X   Cl   27.7200  -16.8700
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1 #Up
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14    6  13 1 #Up
+            15   13  14 1
+            16   13  15 1
+            17    5  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 1
+///

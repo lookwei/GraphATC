@@ -1,0 +1,68 @@
+ENTRY       D04120                      Drug
+NAME        Exaprolol hydrochloride (USAN)
+FORMULA     C18H29NO2. HCl
+EXACT_MASS  327.1965
+MOL_WEIGHT  327.8893
+EFFICACY    Antihypertensive, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+            Anti-adrenergic (beta-receptor)
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D04120  Exaprolol hydrochloride (USAN)
+DBLINKS     CAS: 59333-90-3
+            PubChem: 47206068
+            LigandBox: D04120
+            NIKKAJI: J447.381G
+ATOM        22
+            1   O2a O    15.2612  -17.9872
+            2   C1b C    16.4706  -17.2890
+            3   C1c C    17.6571  -17.9742
+            4   C1b C    18.8554  -17.2825
+            5   O1a O    17.6571  -19.3809
+            6   N1b N    20.0475  -17.9709
+            7   C1c C    21.2428  -17.2808
+            8   C1a C    22.4364  -17.9700
+            9   C1a C    21.2430  -15.8690
+            10  C8y C    15.2610  -19.3900
+            11  C8y C    14.0477  -20.0903
+            12  C8x C    14.0476  -21.4903
+            13  C8x C    15.2600  -22.1904
+            14  C8x C    16.4732  -21.4901
+            15  C8x C    16.4734  -20.0901
+            16  C1y C    12.8521  -19.3996
+            17  C1x C    12.8522  -17.9903
+            18  C1x C    11.6398  -17.2902
+            19  C1x C    10.4273  -17.9901
+            20  C1x C    10.4272  -19.3994
+            21  C1x C    11.6396  -20.0995
+            22  X   Cl   22.5619  -21.7521
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 1
+            5     4   6 1
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     1  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   11  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   16  21 1
+///

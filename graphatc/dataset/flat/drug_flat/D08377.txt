@@ -1,0 +1,109 @@
+ENTRY       D08377                      Drug
+NAME        Pilsicainide (INN)
+FORMULA     C17H24N2O
+EXACT_MASS  272.1889
+MOL_WEIGHT  272.3853
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01650  Class Ic antiarrhythmic agent
+REMARK      Chemical structure group: DG01257
+            Product (DG01257): D01554<JP>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+COMMENT     Class I antiarrhythmic agent (Ic)
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01650  Class Ic antiarrhythmic agent
+                 DG01257  Pilsicainide
+                  D08377  Pilsicainide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D08377  Pilsicainide (INN)
+                SCN2A
+                 D08377  Pilsicainide (INN)
+                SCN3A
+                 D08377  Pilsicainide (INN)
+                SCN4A
+                 D08377  Pilsicainide (INN)
+                SCN5A
+                 D08377  Pilsicainide (INN)
+                SCN8A
+                 D08377  Pilsicainide (INN)
+                SCN9A
+                 D08377  Pilsicainide (INN)
+                SCN10A
+                 D08377  Pilsicainide (INN)
+                SCN11A
+                 D08377  Pilsicainide (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01650  Class Ic antiarrhythmic agent
+                 DG01257  Pilsicainide
+DBLINKS     CAS: 88069-67-4
+            PubChem: 96025063
+            ChEBI: 135127
+            LigandBox: D08377
+ATOM        20
+            1   C8y C    25.8300  -17.0100
+            2   C8y C    27.0200  -17.7100
+            3   C8x C    28.2800  -17.0100
+            4   C8x C    28.2800  -15.6100
+            5   C8x C    27.0200  -14.9100
+            6   C8y C    25.8300  -15.6100
+            7   N1y N    22.1900  -20.5100
+            8   C1z C    22.1900  -19.1100
+            9   C1x C    23.5200  -20.9300
+            10  C1x C    20.8600  -20.9300
+            11  C1x C    23.5200  -18.6200
+            12  C1x C    20.8600  -18.6200
+            13  C1x C    24.3600  -19.8100
+            14  C1x C    20.0200  -19.8100
+            15  C1b C    22.1900  -17.7100
+            16  C5a C    23.3800  -17.0100
+            17  O5a O    23.3800  -15.6100
+            18  N1b N    24.6400  -17.7100
+            19  C1a C    24.6400  -14.9100
+            20  C1a C    27.0200  -19.1100
+BOND        22
+            1     6   1 1
+            2     7   8 1
+            3     7   9 1
+            4     7  10 1
+            5     8  11 1
+            6     8  12 1
+            7     9  13 1
+            8    10  14 1
+            9    11  13 1
+            10   12  14 1
+            11    8  15 1
+            12   15  16 1
+            13    1   2 2
+            14   16  17 2
+            15    2   3 1
+            16   16  18 1
+            17   18   1 1
+            18    3   4 2
+            19    6  19 1
+            20    4   5 1
+            21    2  20 1
+            22    5   6 2
+///

@@ -1,0 +1,82 @@
+ENTRY       D10600            Mixture   Drug
+NAME        Dolutegravir, abacavir and lamivudine;
+            Triumeq (TN)
+PRODUCT     ABACAVIR SULFATE, DOLUTEGRAVIR SODIUM, LAMIVUDINE (ViiV Healthcare Company)
+COMPONENT   (Dolutegravir sodium [DR:D10113] | Dolutegravir [DR:D10066]), Abacavir sulfate [DR:D00891], Lamivudine [DR:D00353]
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03183  UGT1A1 substrate
+            Transporter inhibitor
+             DG02863  SLC22A2 inhibitor
+             DG02864  SLC47A1 inhibitor
+REMARK      Therapeutic category: 6250
+            ATC code: J05AR13
+            Product: D10600<JP/US>
+EFFICACY    Antiviral
+  DISEASE   HIV-1 infection [DS:H01563]
+COMMENT     Dolutegravir is metabolized by UGT1A1 with some contribution from CYP3A4.
+            Dolutegravir is an inhibitor of OCT2 and MATE1.
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+            HIV-1 integrase [KO:K24803]
+  PATHWAY   ko03230(K24802+K24803)  Viral genome structure
+            ko03240(K24802+K24803)  Viral replication
+            ko03250(K24802+K24803)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: UGT1A1 [HSA:54658]; CYP3A4 [HSA:1576]
+INTERACTION Transporter inhibition: SLC22A2 [HSA:6582], SLC47A1 [HSA:55244]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AR Antivirals for treatment of HIV infections, combinations
+                 J05AR13 Lamivudine, abacavir and dolutegravir
+                  D10600  Dolutegravir, abacavir and lamivudine &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Combinations
+               Abacavir Sulfate/ Dolutegravir/ Lamivudine
+                D10600  Dolutegravir, abacavir and lamivudine
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D10600  Dolutegravir, abacavir and lamivudine
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10600  Dolutegravir, abacavir and lamivudine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10600  Dolutegravir, abacavir and lamivudine
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                D10600  Dolutegravir, abacavir and lamivudine
+             Transporter inhibitor
+              DG02863  SLC22A2 inhibitor
+               D10600  Dolutegravir, abacavir and lamivudine
+              DG02864  SLC47A1 inhibitor
+               D10600  Dolutegravir, abacavir and lamivudine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10600  Dolutegravir, abacavir and lamivudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                D10600  Dolutegravir, abacavir and lamivudine &lt;JP/US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10600
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10600
+             Drug transporters
+              D10600
+DBLINKS     PubChem: 254741562
+///

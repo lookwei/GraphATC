@@ -1,0 +1,113 @@
+ENTRY       D08257                      Drug
+NAME        Nefazodone (INN)
+FORMULA     C25H32ClN5O2
+EXACT_MASS  469.2245
+MOL_WEIGHT  470.0069
+REMARK      Same as: C07256
+            ATC code: N06AX06
+            Chemical structure group: DG00953
+            Product (DG00953): D00819<US>
+EFFICACY    Antidepressant
+COMMENT     Phenylpiperazine derivative
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+            HTR2C [HSA:3358] [KO:K04157]
+            ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148+3356+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3358)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX06 Nefazodone
+                  D08257  Nefazodone (INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08257  Nefazodone (INN)
+               Serotonin
+                HTR2A
+                 D08257  Nefazodone (INN)
+                HTR2C
+                 D08257  Nefazodone (INN)
+DBLINKS     CAS: 83366-66-9
+            PubChem: 96024945
+            ChEBI: 7494
+            LigandBox: D08257
+            NIKKAJI: J33.097C
+ATOM        33
+            1   N4y N    23.5470  -20.1204
+            2   C8y C    23.8963  -18.7232
+            3   C8y C    24.6647  -20.8888
+            4   C1b C    22.2895  -20.8190
+            5   N5x N    25.3633  -18.7230
+            6   C1b C    23.0580  -17.6054
+            7   N4y N    25.7825  -20.0505
+            8   O5x O    24.6646  -22.2860
+            9   C1b C    21.1019  -20.1204
+            10  C1a C    23.6168  -16.3479
+            11  C1b C    26.9002  -20.7491
+            12  O2a O    19.8444  -20.8190
+            13  C1b C    28.0180  -20.0505
+            14  C8y C    18.6568  -20.1204
+            15  C1b C    29.2056  -20.7491
+            16  C8x C    17.3994  -20.8190
+            17  C8x C    18.6568  -18.6533
+            18  N1y N    30.3233  -20.0505
+            19  C8x C    16.2117  -20.1204
+            20  C8x C    17.3994  -17.9547
+            21  C1x C    30.3233  -18.5835
+            22  C1x C    31.5110  -20.7491
+            23  C8x C    16.2117  -18.6533
+            24  C1x C    31.5110  -17.8849
+            25  C1x C    32.6986  -20.0505
+            26  N1y N    32.6986  -18.5835
+            27  C8y C    33.9560  -17.8849
+            28  C8x C    33.9560  -16.4877
+            29  C8x C    35.1436  -18.5835
+            30  C8y C    35.1436  -15.7891
+            31  C8x C    36.4011  -17.8849
+            32  C8x C    36.4011  -16.4877
+            33  X   Cl   35.1436  -14.3919
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     6  10 1
+            10    7  11 1
+            11    9  12 1
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   14  16 2
+            16   14  17 1
+            17   15  18 1
+            18   16  19 1
+            19   17  20 2
+            20   18  21 1
+            21   18  22 1
+            22   19  23 2
+            23   21  24 1
+            24   22  25 1
+            25   24  26 1
+            26   26  27 1
+            27   27  28 2
+            28   27  29 1
+            29   28  30 1
+            30   29  31 2
+            31   30  32 2
+            32   30  33 1
+            33    5   7 1
+            34   20  23 1
+            35   25  26 1
+            36   31  32 1
+///

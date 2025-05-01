@@ -1,0 +1,69 @@
+ENTRY       D07888                      Drug
+NAME        Eltenac (INN);
+            Telzenac (TN)
+FORMULA     C12H9Cl2NO2S
+EXACT_MASS  300.9731
+MOL_WEIGHT  302.1764
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01906  Anti-inflammatory drug, acetic acid derivatives
+EFFICACY    Anti-inflammatory (veterinary)
+COMMENT     Nonsteroidal anti-inflammatory drug (NSAID)
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                D07888  Eltenac
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS2 (COX2)
+                 D07888  Eltenac (INN)
+DBLINKS     CAS: 72895-88-6
+            PubChem: 96024584
+            LigandBox: D07888
+            NIKKAJI: J33.124D
+ATOM        18
+            1   C8x C    13.8600  -20.2300
+            2   C8x C    13.8600  -21.6300
+            3   C8y C    15.0500  -22.3300
+            4   C8y C    16.3100  -21.6300
+            5   C8y C    16.3100  -20.2300
+            6   C8x C    15.0500  -19.5300
+            7   X   Cl   17.5000  -19.5300
+            8   X   Cl   15.0500  -23.7300
+            9   N1b N    17.5000  -22.3300
+            10  C8y C    17.5000  -23.7300
+            11  C8x C    16.3800  -24.5700
+            12  S2x S    16.8000  -25.9000
+            13  C8x C    18.2000  -25.9000
+            14  C8y C    18.6900  -24.5700
+            15  C1b C    19.8800  -23.8700
+            16  C6a C    21.0700  -24.5700
+            17  O6a O    22.2881  -23.8799
+            18  O6a O    21.0586  -25.9700
+BOND        19
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     5   7 1
+            8     3   8 1
+            9     4   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 1
+            14   13  14 2
+            15   10  14 1
+            16   15  16 1
+            17   15  14 1
+            18   16  17 1
+            19   16  18 2
+///

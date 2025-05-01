@@ -1,0 +1,148 @@
+ENTRY       D00928                      Drug
+NAME        Nafcillin sodium (USP);
+            Nafcillin sodium monohydrate;
+            Unipen (TN)
+PRODUCT     NAFCILLIN (Baxter Healthcare Corporation)
+  GENERIC   NAFCILLIN (Athenex Pharmaceutical Division)
+            NAFCILLIN (Athenex Pharmaceutical Division)
+            NAFCILLIN (Eugia US LLC)
+            NAFCILLIN (Eugia US LLC)
+            NAFCILLIN (Eugia US LLC)
+            NAFCILLIN (Eugia US LLC)
+            NAFCILLIN (Fresenius Kabi USA)
+            NAFCILLIN (Fresenius Kabi USA)
+            NAFCILLIN (Fresenius Kabi USA)
+            NAFCILLIN (Methapharm)
+            NAFCILLIN (Sagent Pharmaceuticals)
+            NAFCILLIN (Sagent Pharmaceuticals)
+            NAFCILLIN (WG Critical Care)
+            NAFCILLIN (WG Critical Care)
+FORMULA     C21H21N2O5S. Na. H2O
+EXACT_MASS  454.1175
+MOL_WEIGHT  454.4719
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01779  beta-Lactamase resistant penicillin
+REMARK      ATC code: J01CF06
+            Chemical structure group: DG00544
+            Product (DG00544): D00928<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CF Beta-lactamase resistant penicillins
+                 J01CF06 Nafcillin
+                  D00928  Nafcillin sodium (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antibacterials
+              Beta-lactam, Penicillins
+               Nafcillin
+                D00928  Nafcillin sodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00544  Nafcillin
+                  D00928  Nafcillin sodium
+              DG01779  beta-Lactamase resistant penicillin
+               DG00544  Nafcillin
+                D00928  Nafcillin sodium
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01480  Penicillin
+               D00928  Nafcillin sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                D00928  Nafcillin sodium (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00544  Nafcillin
+              DG01779  beta-Lactamase resistant penicillin
+               DG00544  Nafcillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                DG00544  Nafcillin
+DBLINKS     CAS: 7177-50-6
+            PubChem: 7847991
+            LigandBox: D00928
+            NIKKAJI: J1.591.907H
+ATOM        31
+            1   C1y C    12.9493  -12.7967
+            2   C5x C    12.9493  -14.1867
+            3   N1y N    14.3393  -14.1867
+            4   C1y C    14.3393  -12.7967
+            5   C1y C    15.6598  -14.6036
+            6   C1z C    16.4938  -13.4916
+            7   S2x S    15.6598  -12.3797
+            8   C1a C    17.4668  -14.4647
+            9   C1a C    17.4668  -12.5187
+            10  C6a C    16.1463  -15.9937
+            11  O6a O    17.5362  -15.9937 #-
+            12  O6a O    15.3123  -17.1057
+            13  N1b N    11.7679  -12.1017
+            14  C5a C    10.5863  -12.7967
+            15  O5x O    11.7679  -14.8817
+            16  O5a O    10.5863  -14.1867
+            17  C8y C     9.3354  -12.1017
+            18  C8y C     9.3354  -10.7118
+            19  C8x C     8.1229  -10.0118
+            20  C8x C     6.9105  -10.7118
+            21  C8y C     6.9105  -12.1017
+            22  C8y C     8.1229  -12.8017
+            23  C8x C     5.6981  -12.8017
+            24  C8x C     5.6981  -14.2017
+            25  C8x C     6.9105  -14.9017
+            26  C8x C     8.1229  -14.2017
+            27  O2a O    10.5294  -10.0222
+            28  C1b C    10.5294   -8.6222
+            29  C1a C    11.7247   -7.9316
+            30  Z   Na   19.1347  -16.0631 #+
+            31  O0  O    22.5627  -13.7401
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   17  22 2
+            25   21  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   22  26 1
+            30   18  27 1
+            31   27  28 1
+            32   28  29 1
+///

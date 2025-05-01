@@ -1,0 +1,102 @@
+ENTRY       D00279                      Drug
+NAME        Clofibrate (JP18/USP/INN);
+            Atromid-S (TN)
+FORMULA     C12H15ClO3
+EXACT_MASS  242.071
+MOL_WEIGHT  242.6987
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01733  PPAR alpha agonist
+               DG01547  Fibrate
+REMARK      Same as: C06916
+            Therapeutic category: 2183
+            ATC code: C10AB01
+            Chemical structure group: DG00358
+            Product (DG00358): D00279<JP>
+EFFICACY    Antihyperlipidemic, Triglyceride synthesis inhibitor, Peroxisome proliferator-activated receptor (PPAR) alpha agonist
+COMMENT     Clofibrate derivative
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+  PATHWAY   hsa03320(5465)  PPAR signaling pathway
+            hsa04920(5465)  Adipocytokine signaling pathway
+INTERACTION  
+STR_MAP     map07222  Peroxisome proliferator-activated receptor (PPAR) agonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AB Fibrates
+                 C10AB01 Clofibrate
+                  D00279  Clofibrate (JP18/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               218  Hyperlipidemia agents
+                2183  Clofibrates
+                 D00279  Clofibrate (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 DG00358  Clofibrate
+                  D00279  Clofibrate
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01946  Hypolipidemic agent
+               D00279  Clofibrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D00279  Clofibrate (JP18/USP/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00279  Clofibrate
+              D00279  Clofibrate capsules
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 DG00358  Clofibrate
+DBLINKS     CAS: 637-07-0
+            PubChem: 7847345
+            ChEBI: 3750
+            LigandBox: D00279
+            NIKKAJI: J3.314F
+ATOM        16
+            1   C8y C    22.6483  -14.4413
+            2   O2a O    23.9107  -13.7399
+            3   C1d C    25.1030  -14.4413
+            4   C7a C    26.2953  -13.7399
+            5   O7a O    27.5577  -14.4413
+            6   O6a O    26.2953  -12.3373
+            7   C1b C    28.7500  -13.7399
+            8   C1a C    29.9423  -14.4413
+            9   C8x C    21.4560  -13.7399
+            10  C8x C    20.1936  -14.4413
+            11  C8y C    20.1936  -15.8440
+            12  C8x C    21.3858  -16.5453
+            13  C8x C    22.6483  -15.8440
+            14  X   Cl   19.0013  -16.4752
+            15  C1a C    24.1130  -15.4312
+            16  C1a C    26.0929  -15.4312
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     4   6 2
+            6     5   7 1
+            7     7   8 1
+            8     1   9 2
+            9     9  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13    1  13 1
+            14   11  14 1
+            15    3  15 1
+            16    3  16 1
+///

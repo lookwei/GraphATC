@@ -1,0 +1,96 @@
+ENTRY       D00901                      Drug
+NAME        Rimantadine hydrochloride (USP);
+            Flumadine (TN)
+PRODUCT
+  GENERIC   RIMANTADINE HYDROCHLORIDE (Amneal Pharmaceuticals of New York LLC)
+FORMULA     C12H21N. HCl
+EXACT_MASS  215.1441
+MOL_WEIGHT  215.7628
+CLASS       Antiviral
+             DG03029  Anti-influenza virus agent
+              DG02841  Viral uncoating inhibitor
+REMARK      Same as: C08094
+            ATC code: J05AC02
+            Chemical structure group: DG00650
+            Product (DG00650): D00901<US>
+EFFICACY    Antiviral, M2 protein inhibitor
+  DISEASE   Influenza A virus [DS:H00398]
+COMMENT     Adamantane derivative
+TARGET      Influenza A virus M2 [KO:K19394]
+  PATHWAY   ko03230(K19394)  Viral genome structure
+            ko05164(K19394)  Influenza A
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AC Cyclic amines
+                 J05AC02 Rimantadine
+                  D00901  Rimantadine hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-influenza Agents
+               Rimantadine
+                D00901  Rimantadine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02841  Viral uncoating inhibitor
+                DG00650  Rimantadine
+                 D00901  Rimantadine hydrochloride
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               D00901  Rimantadine hydrochloride
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               Influenza virus uncoating inhibitor
+                D00901  Rimantadine hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02841  Viral uncoating inhibitor
+                DG00650  Rimantadine
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               Influenza virus uncoating inhibitor
+                DG00650  Rimantadine
+DBLINKS     CAS: 1501-84-4
+            PubChem: 7847965
+            ChEBI: 8865
+            LigandBox: D00901
+            NIKKAJI: J394.697E
+ATOM        14
+            1   C1z C    24.9898  -18.0809
+            2   C1c C    24.9957  -16.8409
+            3   C1x C    24.3641  -19.5663
+            4   C1x C    23.9253  -18.6891
+            5   C1x C    26.0542  -18.6891
+            6   C1a C    23.9313  -16.2210
+            7   N1a N    26.0719  -16.2327
+            8   C1y C    24.3641  -20.7069
+            9   C1y C    23.9253  -19.9114
+            10  C1y C    26.0542  -19.9114
+            11  C1x C    22.6212  -21.1806
+            12  C1x C    25.5396  -21.7946
+            13  C1x C    24.9898  -20.5313
+            14  X   Cl   29.0018  -18.2211
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    8  11 1
+            11    8  12 1
+            12    9  13 1
+            13    9  11 1
+            14   10  12 1
+            15   10  13 1
+///

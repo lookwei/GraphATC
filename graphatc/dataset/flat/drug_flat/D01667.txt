@@ -1,0 +1,143 @@
+ENTRY       D01667                      Drug
+NAME        Delapril hydrochloride (JAN/USAN);
+            Adecut (TN)
+FORMULA     C26H32N2O5. HCl
+EXACT_MASS  488.2078
+MOL_WEIGHT  489.0036
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Therapeutic category: 2144
+            ATC code: C09AA12
+            Chemical structure group: DG00343
+            Product (DG00343): D01667<JP>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     Active form of prodrug: Delaprilat [CPD:C21575]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C09 AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM
+               C09A ACE INHIBITORS, PLAIN
+                C09AA ACE inhibitors, plain
+                 C09AA12 Delapril
+                  D01667  Delapril hydrochloride (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2144  Angiotensin converting enzyme inhibitors
+                 D01667  Delapril hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+                 D01667  Delapril hydrochloride
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+                 D01667  Delapril hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01501  Angiotensin-converting enzyme inhibitor
+               D01667  Delapril hydrochloride
+              DG03231  Antihypertensive
+               D01667  Delapril hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D01667  Delapril hydrochloride (JAN/USAN) &lt;JP&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                DG00343  Delapril
+            Prodrugs [br08324.html(DG00343)]
+             DG00343
+DBLINKS     CAS: 83435-67-0
+            PubChem: 7848730
+            ChEBI: 31462
+            LigandBox: D01667
+            NIKKAJI: J245.514E
+ATOM        34
+            1   X   Cl   37.4559  -15.8761
+            2   N1c N    29.8858  -15.6358
+            3   C1b C    29.8899  -14.2361
+            4   N1b N    26.2614  -16.3406
+            5   C1c C    25.0505  -15.6446
+            6   C7a C    25.0445  -14.2407
+            7   C1b C    23.8336  -16.3523
+            8   O6a O    26.2614  -13.5387
+            9   O7a O    23.8220  -13.5445
+            10  C1b C    22.6171  -15.6621
+            11  C8y C    21.4062  -16.3523
+            12  C8x C    21.4062  -17.7680
+            13  C8x C    20.2012  -15.6621
+            14  C8x C    20.2012  -18.4757
+            15  C8x C    18.9786  -16.3523
+            16  C8x C    18.9786  -17.7680
+            17  C1c C    27.4684  -15.6358
+            18  C5a C    28.6771  -16.3355
+            19  O5a O    28.6771  -17.7350
+            20  C1a C    27.4657  -14.2363
+            21  C6a C    31.1037  -13.5399
+            22  O6a O    31.1078  -12.1403
+            23  O6a O    32.3138  -14.2432
+            24  C1y C    31.1192  -16.2173
+            25  C8y C    33.3868  -16.2300
+            26  C8y C    33.0052  -17.5552
+            27  C8x C    33.8561  -18.6094
+            28  C8x C    35.2298  -18.3384
+            29  C8x C    35.6820  -17.0132
+            30  C8x C    34.7605  -15.9591
+            31  C1x C    31.6142  -17.5483
+            32  C1x C    32.2662  -15.3947
+            33  C1b C    22.6129  -14.2522
+            34  C1a C    21.4062  -13.5652
+BOND        35
+            1    11  13 2
+            2    12  14 2
+            3    13  15 1
+            4    14  16 1
+            5    15  16 2
+            6     4  17 1
+            7    17  18 1
+            8    18   2 1
+            9    18  19 2
+            10   17  20 1 #Up
+            11    2   3 1
+            12    3  21 1
+            13   21  22 2
+            14    4   5 1
+            15   21  23 1
+            16    5   6 1 #Up
+            17    2  24 1
+            18    5   7 1
+            19    6   8 2
+            20    6   9 1
+            21    7  10 1
+            22   10  11 1
+            23   25  26 2
+            24   26  27 1
+            25   27  28 2
+            26   28  29 1
+            27   29  30 2
+            28   30  25 1
+            29   11  12 1
+            30   24  31 1
+            31   31  26 1
+            32   25  32 1
+            33   32  24 1
+            34    9  33 1
+            35   33  34 1
+///

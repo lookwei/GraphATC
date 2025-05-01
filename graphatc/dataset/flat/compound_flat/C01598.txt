@@ -1,0 +1,105 @@
+ENTRY       C01598                      Compound
+NAME        Melatonin;
+            N-Acetyl-5-methoxytryptamine
+FORMULA     C13H16N2O2
+EXACT_MASS  232.1212
+MOL_WEIGHT  232.2783
+REMARK      Same as: D08170
+REACTION    R03130 R03628 R03629
+PATHWAY     map00380  Tryptophan metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04080  Neuroactive ligand-receptor interaction
+            map04713  Circadian entrainment
+MODULE      M00037  Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin
+            M00936  Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin
+ENZYME      1.13.11.52      1.14.14.1       2.1.1.4
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Other hormones
+               Melatonin
+                C01598  Melatonin
+            Phytochemical compounds [BR:br08003]
+             Alkaloids
+              Alkaloids derived from tryptophan and anthranilic acid
+               Indole alkaloids
+                C01598  Melatonin
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D08170)]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CH Melatonin receptor agonists
+                 N05CH01 Melatonin
+                  D08170  Melatonin (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D08170)]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D08170  Melatonin (JAN)
+            Drug groups [BR:br08330(D08170)]
+             Neuropsychiatric agent
+              DG01589  Melatonin receptor agonist
+               D08170  Melatonin
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               D08170  Melatonin
+            Target-based classification of drugs [BR:br08310(D08170)]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Melatonin
+                MTNR1
+                 D08170  Melatonin (JAN) &lt;JP&gt;
+            New drug approvals in Europe [br08329.html(D08170)]
+             European public assessment reports (EPAR) authorised medicine
+              D08170
+            New drug approvals in Japan [br08318.html(D08170)]
+             Drugs with new active ingredients
+              D08170
+            Drug metabolizing enzymes and transporters [br08309.html(D08170)]
+             Drug metabolizing enzymes
+              D08170
+DBLINKS     CAS: 73-31-4
+            PubChem: 4752
+            ChEBI: 16796
+            PDB-CCD: ML1
+            3DMET: B00330
+            NIKKAJI: J5.258B
+ATOM        17
+            1   C8x C    14.8400  -17.9900
+            2   C8y C    14.8400  -16.5900
+            3   C8x C    16.0300  -15.8900
+            4   C8y C    17.2200  -16.5900
+            5   C8y C    17.2200  -17.9900
+            6   C8x C    16.0300  -18.6900
+            7   C8y C    18.5500  -16.1700
+            8   C8x C    19.3900  -17.2900
+            9   N4x N    18.5500  -18.4800
+            10  O2a O    13.5800  -15.8900
+            11  C1a C    12.3900  -16.5900
+            12  C1b C    18.9780  -14.8370
+            13  C1b C    20.3381  -14.5430
+            14  N1b N    20.7644  -13.2167
+            15  C5a C    22.1544  -12.9163
+            16  C1a C    22.5687  -11.6239
+            17  O5a O    23.0957  -13.9540
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    2  10 1
+            12   10  11 1
+            13    7  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   15  17 2
+///

@@ -1,0 +1,83 @@
+ENTRY       D00838                      Drug
+NAME        Dezocine (USAN);
+            Dalgan (TN)
+FORMULA     C16H23NO
+EXACT_MASS  245.178
+MOL_WEIGHT  245.3599
+CLASS       Analgesic
+             DG01984  Opioid analgesics
+             DG01587  Opioid receptor agonist/antagonist
+REMARK      Same as: C08010
+            ATC code: N02AX03
+EFFICACY    Analgesic, Opioid receptor agonist/antagonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+  PATHWAY   hsa04080(4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AX Other opioids
+                 N02AX03 Dezocine
+                  D00838  Dezocine (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01984  Opioid analgesics
+               D00838  Dezocine
+              DG01587  Opioid receptor agonist/antagonist
+               D00838  Dezocine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D00838  Dezocine (USAN)
+                OPRK1
+                 D00838  Dezocine (USAN)
+DBLINKS     CAS: 53648-55-8
+            PubChem: 7847903
+            ChEBI: 4474
+            LigandBox: D00838
+            NIKKAJI: J10.888J
+ATOM        18
+            1   O1a O    15.6104  -12.7039
+            2   C8y C    16.8283  -13.4071
+            3   C8x C    18.0461  -12.7039
+            4   C8x C    16.8283  -14.8132
+            5   C8y C    18.0461  -15.5163
+            6   C8y C    19.2638  -14.8132
+            7   C8x C    19.2638  -13.4071
+            8   C1z C    18.0461  -16.9224
+            9   C1y C    19.2638  -17.6255
+            10  C1y C    20.4815  -16.9224
+            11  C1x C    20.4815  -15.5163
+            12  C1x C    20.4815  -19.7347
+            13  C1x C    21.6993  -19.0317
+            14  C1x C    21.6993  -17.6255
+            15  C1x C    18.0461  -18.3286
+            16  C1x C    19.0403  -19.3228
+            17  C1a C    16.8283  -16.2194
+            18  N1a N    19.5575  -18.7728
+BOND        20
+            1     1   2 1
+            2     2   3 2
+            3     2   4 1
+            4     4   5 2
+            5     5   6 1
+            6     6   7 2
+            7     3   7 1
+            8     5   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    6  11 1
+            13   12  13 1
+            14   13  14 1
+            15   10  14 1
+            16    8  15 1
+            17   15  16 1
+            18   12  16 1
+            19    8  17 1 #Up
+            20    9  18 1 #Down
+///

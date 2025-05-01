@@ -1,0 +1,126 @@
+ENTRY       D07876                      Drug
+NAME        Doxycycline (INN);
+            Doxychel (TN);
+            Doxycycline (TN)
+FORMULA     C22H24N2O8
+EXACT_MASS  444.1533
+MOL_WEIGHT  444.4346
+CLASS       Antibacterial
+             DG01197  Tetracycline antibiotic
+REMARK      Same as: C06973
+            ATC code: A01AB22 J01AA02
+            Chemical structure group: DG00008
+            Product (DG00008): D00307<US> D02129<JP/US>
+EFFICACY    Antibiotic, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07019  Tetracyclines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB22 Doxycycline
+                  D07876  Doxycycline (INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA02 Doxycycline
+                  D07876  Doxycycline (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00008  Doxycycline
+                D07876  Doxycycline
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D07876  Doxycycline (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00008  Doxycycline
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                DG00008  Doxycycline
+DBLINKS     CAS: 564-25-0
+            PubChem: 96024572
+            ChEBI: 50845
+            PDB-CCD: DXT
+            LigandBox: D07876
+            NIKKAJI: J6.511K
+ATOM        32
+            1   C1y C    25.3288  -17.9821
+            2   C1z C    25.3288  -19.3115
+            3   C1y C    26.5183  -17.3524
+            4   C1y C    24.1394  -17.2824
+            5   C2y C    24.1394  -20.0112
+            6   C5x C    26.4483  -20.0112
+            7   C2y C    27.6378  -18.0520
+            8   C1y C    23.0199  -17.9821
+            9   C2y C    23.0199  -19.3115
+            10  O1a O    24.1394  -21.3406
+            11  C2y C    27.6378  -19.3815
+            12  O5x O    26.4483  -21.4106
+            13  O1a O    28.8273  -17.3524
+            14  C1y C    21.8304  -17.2824
+            15  C5x C    21.8304  -20.0112
+            16  C5a C    28.8273  -20.0811
+            17  C8y C    20.6409  -17.9821
+            18  C8y C    20.6409  -19.3115
+            19  O5x O    21.8304  -21.3406
+            20  N1a N    30.0168  -19.3815
+            21  O5a O    28.8273  -21.4106
+            22  C8x C    19.4514  -17.2824
+            23  C8y C    19.4514  -20.0112
+            24  C8x C    18.2620  -17.9821
+            25  C8x C    18.2620  -19.3115
+            26  O1a O    19.4514  -21.3406
+            27  C1a C    21.8304  -15.6031
+            28  N1c N    26.5183  -15.1133
+            29  C1a C    27.7078  -14.4836
+            30  C1a C    25.3288  -14.4136
+            31  O1a O    24.1394  -15.6031
+            32  O1a O    25.3288  -20.7109
+BOND        35
+            1     5   9 2
+            2     5  10 1
+            3     6  11 1
+            4     6  12 2
+            5     7  13 1
+            6     8  14 1
+            7     9  15 1
+            8    11  16 1
+            9    14  17 1
+            10   15  18 1
+            11   15  19 2
+            12   16  20 1
+            13   16  21 2
+            14   17  22 1
+            15   18  23 1
+            16   22  24 2
+            17   23  25 2
+            18   23  26 1
+            19    7  11 2
+            20    8   9 1
+            21   17  18 2
+            22   24  25 1
+            23   14  27 1 #Down
+            24    3  28 1 #Down
+            25    1   2 1
+            26   28  29 1
+            27    1   3 1
+            28   28  30 1
+            29    1   4 1
+            30    2   5 1
+            31    2   6 1
+            32    4  31 1 #Down
+            33    3   7 1
+            34    2  32 1 #Down
+            35    4   8 1
+///

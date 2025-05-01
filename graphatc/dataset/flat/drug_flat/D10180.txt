@@ -1,0 +1,121 @@
+ENTRY       D10180                      Drug
+NAME        Umeclidinium (USAN)
+FORMULA     C29H34NO2
+EXACT_MASS  428.259
+MOL_WEIGHT  428.5858
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Chemical structure group: DG01253
+            Product (DG01253): D10181<JP/US>
+EFFICACY    Bronchodilator, Muscarinic acetylcholine receptor antagonist
+COMMENT     Quaternary ammonium compound
+            Long-acting muscarinic acetylcholine antagonist (LAMA)
+            Treatment of COPD
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01253  Umeclidinium
+                D10180  Umeclidinium
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01253  Umeclidinium
+                D10180  Umeclidinium
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D10180  Umeclidinium (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10180
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01253  Umeclidinium
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01253  Umeclidinium
+DBLINKS     CAS: 869185-19-3
+            PubChem: 135626898
+            ChEBI: 79041
+            LigandBox: D10180
+ATOM        32
+            1   C1x C    20.6500  -23.5200
+            2   C1z C    19.3900  -22.8200
+            3   C1x C    20.6500  -24.9900
+            4   C1x C    18.1300  -23.5200
+            5   C1x C    19.8100  -24.0800
+            6   N2y N    19.3900  -25.6900 #+
+            7   C1x C    18.1300  -24.9200
+            8   C1x C    18.9700  -24.2900
+            9   C1b C    19.3900  -27.0900
+            10  C1b C    18.1776  -27.7900
+            11  O2a O    16.9821  -27.0996
+            12  C1b C    15.7947  -27.7851
+            13  C8y C    14.6035  -27.0971
+            14  C8x C    14.6035  -25.6902
+            15  C8x C    13.3911  -24.9902
+            16  C8x C    12.1787  -25.6902
+            17  C8x C    12.1786  -27.0970
+            18  C8x C    13.3910  -27.7971
+            19  C1d C    19.3900  -21.4200
+            20  C8y C    20.6024  -20.7200
+            21  C8y C    18.1776  -20.7200
+            22  O1a O    20.6024  -22.1200
+            23  C8x C    21.7979  -21.4104
+            24  C8x C    23.0104  -20.7105
+            25  C8x C    23.0106  -19.3105
+            26  C8x C    21.8151  -18.6201
+            27  C8x C    20.6026  -19.3200
+            28  C8x C    18.1776  -19.3202
+            29  C8x C    16.9651  -18.6202
+            30  C8x C    15.7527  -19.3202
+            31  C8x C    15.7527  -20.7200
+            32  C8x C    16.9651  -21.4200
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   7 1
+            9     6   8 1
+            10    6   9 1
+            11    9  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   13  18 1
+            21    2  19 1
+            22   19  20 1
+            23   19  21 1
+            24   19  22 1
+            25   20  23 2
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   20  27 1
+            31   21  28 2
+            32   28  29 1
+            33   29  30 2
+            34   30  31 1
+            35   31  32 2
+            36   21  32 1
+///

@@ -1,0 +1,103 @@
+ENTRY       D11604                      Drug
+NAME        Leriglitazone hydrochloride (USAN)
+FORMULA     C19H20N2O4S. HCl
+EXACT_MASS  408.0911
+MOL_WEIGHT  408.899
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01795  PPAR gamma agonist
+               DG01683  Thiazolidinedione
+             DG02044  Hypoglycemic agent
+              DG01683  Thiazolidinedione
+REMARK      Chemical structure group: DG03060
+EFFICACY    Peroxisome proliferator-activated receptor (PPAR) gamma agonist
+COMMENT     Treatment of X-linked adrenoleukodystrophy
+TARGET      NR1C3 (PPARG) [HSA:5468] [KO:K08530]
+  PATHWAY   hsa03320(5468)  PPAR signaling pathway
+            hsa04152(5468)  AMPK signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01683  Thiazolidinedione
+                 DG03060  Leriglitazone
+                  D11604  Leriglitazone hydrochloride
+              DG02044  Hypoglycemic agent
+               DG01683  Thiazolidinedione
+                DG03060  Leriglitazone
+                 D11604  Leriglitazone hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C3 (PPARG)
+                 D11604  Leriglitazone hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01795  PPAR gamma agonist
+                DG01683  Thiazolidinedione
+                 DG03060  Leriglitazone
+              DG02044  Hypoglycemic agent
+               DG01683  Thiazolidinedione
+                DG03060  Leriglitazone
+DBLINKS     PubChem: 405226471
+ATOM        27
+            1   C1y C    24.1229  -16.0820
+            2   C1b C    22.9343  -15.3827
+            3   C5x C    24.1229  -17.4804
+            4   S2x S    25.4515  -15.6624
+            5   C8y C    21.7456  -16.0820
+            6   N1x N    25.4515  -17.8999
+            7   O5x O    23.0042  -18.3195
+            8   C5x C    26.2905  -16.7812
+            9   C8x C    20.4870  -15.3827
+            10  C8x C    21.7456  -17.4804
+            11  O5x O    27.6889  -16.7812
+            12  C8x C    19.2984  -16.0820
+            13  C8x C    20.4870  -18.1796
+            14  C8y C    19.2984  -17.4804
+            15  O2a O    18.1097  -18.1796
+            16  C1b C    16.8511  -17.4804
+            17  C1b C    15.6624  -18.1796
+            18  C8y C    14.4738  -17.4804
+            19  C8x C    14.4738  -16.0820
+            20  N5x N    13.2152  -18.1796
+            21  C8x C    13.2152  -15.3827
+            22  C8x C    12.0265  -17.4804
+            23  C8y C    12.0265  -16.0820
+            24  C1c C    10.8378  -15.3827
+            25  C1a C     9.5793  -16.0820
+            26  O1a O    10.8378  -13.9843
+            27  X   Cl   29.6100  -18.6200
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 2
+            9     5  10 1
+            10    8  11 2
+            11    9  12 1
+            12   10  13 2
+            13   12  14 2
+            14   14  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 2
+            19   18  20 1
+            20   19  21 1
+            21   20  22 2
+            22   21  23 2
+            23   23  24 1
+            24   24  25 1
+            25    6   8 1
+            26   13  14 1
+            27   22  23 1
+            28   24  26 1
+///

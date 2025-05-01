@@ -1,0 +1,102 @@
+ENTRY       D08170                      Drug
+NAME        Melatonin (JAN);
+            Melatonina (TN);
+            Melatobel (TN)
+FORMULA     C13H16N2O2
+EXACT_MASS  232.1212
+MOL_WEIGHT  232.2783
+CLASS       Neuropsychiatric agent
+             DG01589  Melatonin receptor agonist
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      Same as: C01598
+            Therapeutic category: 1190
+            ATC code: N05CH01
+            Product: D08170<JP>
+EFFICACY    Anticonvulsant, Cerebroprotective, Sedative-hypnotic, Melatonin receptor agonist
+COMMENT     Hormone
+            Free oxygen radical scavenger
+TARGET      MTNR1 [HSA:4543 4544] [KO:K04285 K04286]
+  PATHWAY   hsa04080(4543+4544)  Neuroactive ligand-receptor interaction
+            hsa04713(4543+4544)  Circadian entrainment
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CH Melatonin receptor agonists
+                 N05CH01 Melatonin
+                  D08170  Melatonin (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D08170  Melatonin (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01589  Melatonin receptor agonist
+               D08170  Melatonin
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               D08170  Melatonin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Melatonin
+                MTNR1
+                 D08170  Melatonin (JAN) &lt;JP&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D08170
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D08170
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08170
+DBLINKS     CAS: 73-31-4
+            PubChem: 96024860
+            ChEBI: 16796
+            PDB-CCD: ML1
+            LigandBox: D08170
+            NIKKAJI: J5.258B
+ATOM        17
+            1   C8x C    18.1300  -19.6000
+            2   C8y C    18.1300  -18.2000
+            3   C8x C    19.3200  -17.5000
+            4   C8y C    20.5100  -18.2000
+            5   C8y C    20.5100  -19.6000
+            6   C8x C    19.3200  -20.3000
+            7   C8y C    21.8400  -17.7800
+            8   C8x C    22.6800  -18.9000
+            9   N4x N    21.8400  -20.0900
+            10  O2a O    16.8700  -17.5000
+            11  C1a C    15.6800  -18.2000
+            12  C1b C    22.2600  -16.4500
+            13  C1b C    23.6600  -16.1700
+            14  N1b N    24.0800  -14.8400
+            15  C5a C    25.4800  -14.5600
+            16  C1a C    25.9000  -13.2300
+            17  O5a O    26.3900  -15.6100
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    2  10 1
+            12   10  11 1
+            13    7  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   15  17 2
+///

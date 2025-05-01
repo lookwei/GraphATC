@@ -1,0 +1,108 @@
+ENTRY       D02193                      Drug
+NAME        Echothiophate iodide (USP);
+            Ecothiopate iodide (JP18/INN);
+            Phospholine iodide (TN)
+PRODUCT     PHOSPHOLINE IODIDE (Fera Pharmaceuticals)
+FORMULA     C9H23NO3PS. I
+EXACT_MASS  383.0181
+MOL_WEIGHT  383.2271
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      ATC code: S01EB03
+            Chemical structure group: DG01131
+            Product (DG01131): D02193<US>
+EFFICACY    Miotic, Butyrylcholinesterase inhibitor
+  DISEASE   Open-angle glaucoma [DS:H00612]
+TARGET      ACHE [HSA:43] [KO:K01049]
+            BCHE [HSA:590] [KO:K01050]
+  PATHWAY   hsa04725(43)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+            map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EB Parasympathomimetics
+                 S01EB03 Ecothiopate
+                  D02193  Echothiophate iodide (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Ophthalmic Agents
+              Intraocular Pressure Lowering Agents
+               Cholinergic Agonists, Ophthalmic
+                Echothiophate
+                 D02193  Echothiophate iodide (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG01131  Ecothiopate
+                 D02193  Echothiophate iodide
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01131  Ecothiopate
+                D02193  Echothiophate iodide
+            Drug classes [BR:br08332]
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D02193  Echothiophate iodide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D02193  Echothiophate iodide (USP) &lt;US&gt;
+                BCHE
+                 D02193  Echothiophate iodide (USP) &lt;US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02193  Ecothiopate iodide
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG01131  Ecothiopate
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01131  Ecothiopate
+DBLINKS     CAS: 513-10-0
+            PubChem: 7849253
+            ChEBI: 59849
+            LigandBox: D02193
+            NIKKAJI: J530.840B
+ATOM        16
+            1   O2b O    27.0988  -16.1378
+            2   P1b P    28.3142  -15.4367
+            3   S2a S    29.5294  -16.1378
+            4   C1b C    30.6980  -15.4367
+            5   C1b C    31.9132  -16.1378
+            6   N1d N    33.1286  -15.4367 #+
+            7   C1a C    34.3438  -16.1378
+            8   O3b O    27.0521  -14.7355
+            9   C1b C    27.0988  -17.5400
+            10  C1a C    25.8836  -18.2412
+            11  O2b O    29.4826  -14.7355
+            12  C1b C    29.4827  -13.3333
+            13  C1a C    30.6980  -12.6322
+            14  C1a C    33.1286  -14.0344
+            15  C1a C    34.5538  -14.7355
+            16  X   I    33.1567  -17.5000 #-
+BOND        14
+            1     2   8 2
+            2     3   4 1
+            3     1   9 1
+            4     1   2 1
+            5     9  10 1
+            6     4   5 1
+            7     2  11 1
+            8    11  12 1
+            9     5   6 1
+            10   12  13 1
+            11    2   3 1
+            12    6  14 1
+            13    6   7 1
+            14    6  15 1
+///

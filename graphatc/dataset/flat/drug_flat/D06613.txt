@@ -1,0 +1,67 @@
+ENTRY       D06613                      Drug
+NAME        Lorcaserin hydrochloride (USAN);
+            APD-356;
+            Belviq (TN)
+FORMULA     C11H14ClN. HCl
+EXACT_MASS  231.0582
+MOL_WEIGHT  232.1495
+REMARK      ATC code: A08AA11
+            Chemical structure group: DG03052
+EFFICACY    Appetite suppressant, Serotonin 5-HT2c receptor agonist
+TARGET      HTR2C [HSA:3358] [KO:K04157]
+  PATHWAY   hsa04080(3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3358)  Serotonergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A08 ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+               A08A ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+                A08AA Centrally acting antiobesity products
+                 A08AA11 Lorcaserin
+                  D06613  Lorcaserin hydrochloride (USAN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2C
+                 D06613  Lorcaserin hydrochloride (USAN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D06613
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D06613
+DBLINKS     CAS: 846589-98-8
+            PubChem: 47208264
+            ChEBI: 65350
+            LigandBox: D06613
+ATOM        14
+            1   C1x C    18.3601  -18.8358
+            2   C1y C    17.5079  -17.7130
+            3   C8y C    17.8471  -16.3400
+            4   C8y C    19.1232  -15.7550
+            5   N1x N    19.7826  -18.8613
+            6   C1x C    20.3917  -16.3847
+            7   C1x C    20.6816  -17.7698
+            8   C1a C    16.1499  -18.1054
+            9   C8x C    19.1232  -14.3383
+            10  C8x C    17.9242  -13.6464
+            11  C8y C    16.7069  -14.3497
+            12  X   Cl   15.5088  -13.6585
+            13  C8x C    16.7070  -15.7801
+            14  X   Cl   23.7502  -15.9221
+BOND        14
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     2   8 1 #Down
+            9     4   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   11  13 1
+            14    3  13 2
+///

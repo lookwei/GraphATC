@@ -1,0 +1,144 @@
+ENTRY       D04214                      Drug
+NAME        Flunisolide acetate (USAN)
+FORMULA     C26H33FO7
+EXACT_MASS  476.221
+MOL_WEIGHT  476.5344
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: R01AD04 R03BA03
+            Chemical structure group: DG01040
+            Product (DG01040): D00324<US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AD Corticosteroids
+                 R01AD04 Flunisolide
+                  D04214  Flunisolide acetate (USAN)
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03B OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES, INHALANTS
+                R03BA Glucocorticoids
+                 R03BA03 Flunisolide
+                  D04214  Flunisolide acetate (USAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Flunisolide
+                D04214  Flunisolide acetate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG01040  Flunisolide
+                 D04214  Flunisolide acetate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01040  Flunisolide
+                 D04214  Flunisolide acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D04214  Flunisolide acetate (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04214
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG01040  Flunisolide
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01040  Flunisolide
+DBLINKS     CAS: 4533-89-5
+            PubChem: 47206160
+            LigandBox: D04214
+            NIKKAJI: J297.803B
+ATOM        34
+            1   C2x C    26.4600  -16.5900
+            2   C5x C    26.4600  -17.9200
+            3   C2x C    27.6500  -18.6200
+            4   C2y C    28.8400  -17.9200
+            5   C1z C    28.8400  -16.5900
+            6   C2x C    27.6500  -15.8900
+            7   C1y C    30.0300  -18.6200
+            8   C1x C    31.2200  -17.9200
+            9   C1y C    31.2200  -16.5900
+            10  C1y C    30.0300  -15.8900
+            11  C1y C    32.4800  -15.8900
+            12  C1z C    32.4800  -14.4900
+            13  C1x C    31.2200  -13.7900
+            14  C1y C    30.0300  -14.4900
+            15  C1x C    33.7400  -16.3100
+            16  C1y C    34.5800  -15.1900
+            17  C1z C    33.7400  -14.0700
+            18  O5x O    25.2700  -18.6200
+            19  C1a C    28.8400  -15.1900
+            20  O1a O    28.8400  -13.7900
+            21  C1a C    32.4800  -13.0900
+            22  X   F    30.0300  -20.0200
+            23  O2x O    35.9100  -14.7700
+            24  C1z C    35.9100  -13.3700
+            25  O2x O    34.5800  -12.9500
+            26  C1a C    35.9100  -11.9700
+            27  C1a C    37.3100  -13.3700
+            28  C5a C    33.7400  -11.9700
+            29  O5a O    35.0000  -11.2700
+            30  C1b C    32.6200  -11.3400
+            31  O7a O    31.4300  -11.9700
+            32  C7a C    30.2441  -11.2260
+            33  C1a C    29.0145  -11.8768
+            34  O6a O    30.2266   -9.8011
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22    5  19 1 #Up
+            23   14  20 1 #Up
+            24   12  21 1 #Up
+            25    7  22 1 #Down
+            26   16  23 1 #Down
+            27   23  24 1
+            28   24  25 1
+            29   17  25 1 #Down
+            30   24  26 1
+            31   24  27 1
+            32   17  28 1 #Up
+            33   28  29 2
+            34   28  30 1
+            35   30  31 1
+            36   31  32 1
+            37   32  33 1
+            38   32  34 2
+///

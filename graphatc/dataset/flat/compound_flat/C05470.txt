@@ -1,0 +1,83 @@
+ENTRY       C05470                      Compound
+NAME        Tetrahydrocortisone;
+            Urocortisone
+FORMULA     C21H32O5
+EXACT_MASS  364.225
+MOL_WEIGHT  364.4758
+REACTION    R04829 R04830 R04831
+PATHWAY     map00140  Steroid hormone biosynthesis
+ENZYME      1.1.1.50        1.1.1.53
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Steroid hormones
+               Glucocorticoids
+                C05470  Tetrahydrocortisone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0203 C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives
+                C05470  Urocortisone
+DBLINKS     CAS: 53-05-4
+            PubChem: 7830
+            ChEBI: 9901
+            LIPIDMAPS: LMST02030098
+            3DMET: B05046
+            NIKKAJI: J4.138F
+ATOM        26
+            1   C1x C    14.4200  -27.4400
+            2   C1y C    14.4200  -28.8400
+            3   C1x C    15.6324  -29.5400
+            4   C1y C    16.8449  -28.8400
+            5   C1z C    16.8449  -27.4400
+            6   C1x C    15.6324  -26.7400
+            7   C1x C    18.0573  -29.5400
+            8   C1x C    19.2697  -28.8400
+            9   C1y C    19.2697  -27.4400
+            10  C1y C    18.0573  -26.7400
+            11  C1y C    20.4822  -26.7400
+            12  C1z C    20.4822  -25.3400
+            13  C1x C    19.2697  -24.6400
+            14  C5x C    18.0573  -25.3400
+            15  C1x C    22.9070  -26.7400
+            16  C1x C    22.9070  -25.3400
+            17  C1z C    21.6946  -24.6400
+            18  C1a C    16.8449  -26.0400
+            19  C1a C    20.4822  -23.9400
+            20  C5a C    21.6946  -23.2400
+            21  C1b C    22.9111  -22.5377
+            22  O5a O    20.4862  -22.5423
+            23  O1a O    24.1086  -23.2292
+            24  O1a O    23.0469  -24.2777
+            25  O1a O    13.2076  -29.5400
+            26  O5x O    16.8469  -24.6412
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    5  18 1 #Up
+            22   12  19 1 #Up
+            23   17  20 1
+            24   20  21 1
+            25   20  22 2
+            26   21  23 1
+            27   17  24 1 #Down
+            28    2  25 1 #Down
+            29   14  26 2
+///

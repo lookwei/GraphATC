@@ -1,0 +1,75 @@
+ENTRY       D02618                      Drug
+NAME        Butobarbital (BAN);
+            Butethal;
+            Neonal (TN)
+FORMULA     C10H16N2O3
+EXACT_MASS  212.1161
+MOL_WEIGHT  212.2456
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+REMARK      ATC code: N05CA03
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA03 Butobarbital
+                  D02618  Butobarbital (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               D02618  Butobarbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D02618  Butobarbital (BAN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D02618
+DBLINKS     CAS: 77-28-1
+            PubChem: 17396788
+            LigandBox: D02618
+            NIKKAJI: J4.556J
+ATOM        15
+            1   C1z C    21.8984  -16.3567
+            2   C5x C    20.7027  -15.6742
+            3   C5x C    21.8984  -17.7740
+            4   C1b C    23.2866  -16.3508
+            5   C1b C    21.8867  -14.9510
+            6   N1x N    19.4777  -16.3567
+            7   O5x O    20.7027  -14.2802
+            8   N1x N    20.7027  -18.4740
+            9   O5x O    23.1116  -18.4740
+            10  C1b C    23.9807  -15.1376
+            11  C1a C    23.0942  -14.2335
+            12  C5x C    19.4777  -17.7740
+            13  C1b C    25.3747  -15.1376
+            14  O5x O    18.2586  -18.4740
+            15  C1a C    26.0746  -13.9302
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12   10  13 1
+            13   12  14 2
+            14   13  15 1
+            15    8  12 1
+///

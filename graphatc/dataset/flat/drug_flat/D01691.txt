@@ -1,0 +1,119 @@
+ENTRY       D01691                      Drug
+NAME        Nipradilol (JAN/INN);
+            Hypadil (TN)
+FORMULA     C15H22N2O6
+EXACT_MASS  326.1478
+MOL_WEIGHT  326.345
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Therapeutic category: 1319 2149
+            Product: D01691<JP>
+EFFICACY    Antiglaucoma, Antihypertensive, Vasodilator, alpha1/beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+            ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04022(146+147+148+153+154+155)  cGMP-PKG signaling pathway
+            hsa04024(153+154)  cAMP signaling pathway
+            hsa04080(146+147+148+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1319  Others
+                 D01691  Nipradilol (JAN/INN)
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D01691  Nipradilol (JAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                D01691  Nipradilol
+              DG03231  Antihypertensive
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                D01691  Nipradilol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D01691  Nipradilol
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D01691  Nipradilol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D01691  Nipradilol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01691  Nipradilol (JAN/INN) &lt;JP&gt;
+                ADRB
+                 D01691  Nipradilol (JAN/INN) &lt;JP&gt;
+DBLINKS     CAS: 81486-22-8
+            PubChem: 7848754
+            ChEBI: 31682
+            LigandBox: D01691
+            NIKKAJI: J32.853G
+ATOM        23
+            1   O2a O    19.3200  -20.7900
+            2   C1b C    20.5100  -20.0900
+            3   C1c C    21.7000  -20.7900
+            4   C1b C    22.9600  -20.0900
+            5   O1a O    21.7000  -22.1900
+            6   N1b N    24.1500  -20.7900
+            7   C1c C    25.3400  -20.0900
+            8   C1a C    26.5300  -20.7900
+            9   C1a C    25.3400  -18.6900
+            10  C8y C    19.3200  -22.1900
+            11  C8y C    18.1076  -22.8900
+            12  C8y C    18.1076  -24.2900
+            13  C8x C    19.3200  -24.9900
+            14  C8x C    20.5324  -24.2900
+            15  C8x C    20.5324  -22.8900
+            16  O2x O    16.8951  -22.1900
+            17  C1x C    15.6827  -22.8900
+            18  C1y C    15.6827  -24.2900
+            19  C1x C    16.8951  -24.9900
+            20  O2a O    14.4682  -24.9912
+            21  N2b N    13.2717  -24.3002 #+
+            22  O3a O    11.9449  -25.1254 #-
+            23  O3a O    13.2716  -22.8903
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     3   5 1
+            5     4   6 1
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     1  10 1
+            10   10  11 2
+            11   11  12 1
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   10  15 1
+            16   11  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   12  19 1
+            21   18  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+///

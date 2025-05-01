@@ -1,0 +1,107 @@
+ENTRY       D07765                      Drug
+NAME        Cyproheptadine (INN);
+            Ciprovit (TN)
+FORMULA     C21H21N
+EXACT_MASS  287.1674
+MOL_WEIGHT  287.3981
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Same as: C06935
+            ATC code: R06AX02
+            Chemical structure group: DG01109
+            Product (DG01109): D02234<JP/US>
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+            HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HTR1 [HSA:3350 3351 3352 3354 3355] [KO:K04153]
+  PATHWAY   hsa04080(3269+3350+3351+3352+3354+3355+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3351+3352+3354+3355+3356+3357+3358)  Serotonergic synapse
+            hsa04750(3269+3356+3357+3358)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AX Other antihistamines for systemic use
+                 R06AX02 Cyproheptadine
+                  D07765  Cyproheptadine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01109  Cyproheptadine
+                 D07765  Cyproheptadine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D07765  Cyproheptadine (INN)
+               Serotonin
+                HTR1
+                 D07765  Cyproheptadine (INN)
+                HTR2
+                 D07765  Cyproheptadine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01109  Cyproheptadine
+DBLINKS     CAS: 129-03-3
+            PubChem: 51092057
+            ChEBI: 4046
+            PDB-CCD: C7H
+            LigandBox: D07765
+            NIKKAJI: J5.419D
+ATOM        22
+            1   C2x C    23.4500  -22.2600
+            2   C8y C    22.6100  -21.1400
+            3   C8y C    22.8900  -19.7400
+            4   C2y C    24.1500  -19.1800
+            5   C2x C    24.8500  -22.2600
+            6   C8y C    25.4100  -19.8100
+            7   C8y C    25.7600  -21.2100
+            8   C8x C    21.8400  -18.7600
+            9   C8x C    20.5100  -19.1800
+            10  C8x C    20.1600  -20.5100
+            11  C8x C    21.1400  -21.4900
+            12  C8x C    27.0900  -21.6300
+            13  C8x C    28.1400  -20.6500
+            14  C8x C    27.7900  -19.3200
+            15  C8x C    26.4600  -18.9000
+            16  C2y C    24.1500  -17.7800
+            17  C1x C    25.3400  -17.0800
+            18  C1x C    25.3400  -15.6800
+            19  N1y N    24.1500  -14.9800
+            20  C1x C    22.9600  -15.6800
+            21  C1x C    22.9600  -17.0800
+            22  C1a C    24.1500  -13.5800
+BOND        25
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 2
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   16  21 1
+            25   19  22 1
+///

@@ -1,0 +1,82 @@
+ENTRY       D12525                      Drug
+NAME        Enitociclib (USAN/INN)
+FORMULA     C19H18F2N4O2S
+EXACT_MASS  404.1119
+MOL_WEIGHT  404.4336
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+EFFICACY    Antineoplastic, Cyclin-dependent kinase (CDK) inhibitor
+TARGET      CDK9 [HSA:1025] [KO:K02211]
+  PATHWAY   hsa05202(1025)  Transcriptional misregulation in cancer
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               D12525  Enitociclib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK9
+                 D12525  Enitociclib (USAN/INN)
+DBLINKS     CAS: 1610408-97-3
+ATOM        28
+            1   C8x C     9.1700  -13.9300
+            2   C8y C     9.1700  -15.3300
+            3   C8x C    10.3824  -16.0300
+            4   C8y C    11.5949  -15.3300
+            5   C8y C    11.5949  -13.9300
+            6   C8x C    10.3824  -13.2300
+            7   C8y C    12.8260  -13.2190
+            8   C8x C    14.0312  -13.9147
+            9   C8y C    15.2435  -13.2146
+            10  N5x N    15.2435  -11.8146
+            11  C8x C    14.0383  -11.1189
+            12  C8y C    12.8259  -11.8190
+            13  N1b N    16.4751  -13.9254
+            14  C8y C    17.6665  -13.2372
+            15  C8x C    18.8560  -13.9237
+            16  C8y C    20.0684  -13.2236
+            17  C8x C    20.0682  -11.8236
+            18  C8x C    18.8787  -11.1370
+            19  N5x N    17.6664  -11.8372
+            20  C1b C    21.2999  -13.9344
+            21  S4a S    22.4991  -13.2417
+            22  C1a C    23.4891  -12.2518
+            23  N2a N    21.5092  -12.2518
+            24  O3c O    23.4891  -14.2317
+            25  X   F    11.6064  -11.1149
+            26  O2a O    12.8260  -16.0410
+            27  C1a C    14.0312  -15.3453
+            28  X   F     7.9576  -16.0300
+BOND        30
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14    9  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   16  20 1
+            23   21  20 1 #Down
+            24   21  22 1 #Down
+            25   21  23 2
+            26   21  24 2
+            27   12  25 1
+            28    4  26 1
+            29   26  27 1
+            30    2  28 1
+///

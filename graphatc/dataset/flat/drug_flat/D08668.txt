@@ -1,0 +1,133 @@
+ENTRY       D08668                      Drug
+NAME        Vardenafil (USAN/INN);
+            Levitra (TN)
+FORMULA     C23H32N6O4S
+EXACT_MASS  488.2206
+MOL_WEIGHT  488.603
+CLASS       Cardiovascular agent
+             DG01509  Phosphodiesterase V inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G04BE09
+            Chemical structure group: DG00487
+            Product (DG00487): D03260<JP/US>
+EFFICACY    Vasodilator, Impotence therapy, Phosphodiesterase V inhibitor
+TARGET      PDE5 [HSA:8654] [KO:K13762]
+  PATHWAY   hsa04022(8654)  cGMP-PKG signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BE Drugs used in erectile dysfunction
+                 G04BE09 Vardenafil
+                  D08668  Vardenafil (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01509  Phosphodiesterase V inhibitor
+               DG00487  Vardenafil
+                D08668  Vardenafil
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00487  Vardenafil
+                 D08668  Vardenafil
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE5
+                 D08668  Vardenafil (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08668
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01509  Phosphodiesterase V inhibitor
+               DG00487  Vardenafil
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00487  Vardenafil
+DBLINKS     CAS: 224785-90-4
+            PubChem: 96025351
+            ChEBI: 46295
+            PDB-CCD: VDN
+            LigandBox: D08668
+            NIKKAJI: J1.662.658I
+ATOM        34
+            1   C8y C    25.4100  -18.6900
+            2   C8y C    26.6000  -17.9900
+            3   C8y C    25.4100  -20.0900
+            4   C8x C    24.1500  -17.9900
+            5   N4x N    27.7900  -18.6900
+            6   N5x N    26.6000  -16.5900
+            7   C8x C    24.1500  -20.7900
+            8   O2a O    26.6000  -20.7900
+            9   C8y C    22.9600  -18.6900
+            10  N4y N    29.0500  -17.9900
+            11  C8y C    27.7900  -15.8900
+            12  C8x C    22.9600  -20.0900
+            13  C1b C    27.7900  -20.0900
+            14  S4a S    21.7700  -17.9900
+            15  C8y C    29.0500  -16.5900
+            16  C8y C    30.3800  -18.4100
+            17  O5x O    27.7900  -14.4900
+            18  C1a C    28.9800  -20.7900
+            19  N1y N    20.5800  -18.6900
+            20  O3c O    22.7500  -17.0100
+            21  O3c O    20.7900  -17.0100
+            22  C8y C    30.3800  -16.1700
+            23  N5x N    31.2200  -17.2900
+            24  C1b C    30.8000  -19.7400
+            25  C1x C    20.5800  -20.0900
+            26  C1x C    19.3200  -17.9900
+            27  C1a C    30.8000  -14.8400
+            28  C1b C    32.1300  -20.0200
+            29  C1x C    19.3200  -20.7900
+            30  C1x C    18.1300  -18.6900
+            31  C1a C    32.5500  -21.3500
+            32  N1y N    18.1300  -20.0900
+            33  C1b C    16.9400  -20.7900
+            34  C1a C    15.7500  -20.0900
+BOND        37
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1
+            16   11  17 2
+            17   13  18 1
+            18   14  19 1
+            19   14  20 2
+            20   14  21 2
+            21   15  22 2
+            22   16  23 2
+            23   16  24 1
+            24   19  25 1
+            25   19  26 1
+            26   22  27 1
+            27   24  28 1
+            28   25  29 1
+            29   26  30 1
+            30   28  31 1
+            31   29  32 1
+            32   32  33 1
+            33    9  12 2
+            34   11  15 1
+            35   22  23 1
+            36   30  32 1
+            37   33  34 1
+///

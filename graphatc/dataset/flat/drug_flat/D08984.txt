@@ -1,0 +1,64 @@
+ENTRY       D08984                      Drug
+NAME        Reparixin (USAN/INN)
+FORMULA     C14H21NO3S
+EXACT_MASS  283.1242
+MOL_WEIGHT  283.3864
+EFFICACY    Antihypertensive
+COMMENT     Prevention of delayed graft function in solid organ transplant [CXCL inhibitor]
+TARGET      CXCR1 (IL8RA, CD181) [HSA:3577] [KO:K04175]
+            CXCR2 (IL8RB, CD182) [HSA:3579] [KO:K05050]
+  PATHWAY   hsa04060(3577+3579)  Cytokine-cytokine receptor interaction
+            hsa04062(3577+3579)  Chemokine signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Chemokine receptors
+                CXCR1 (IL8RA, CD181)
+                 D08984  Reparixin (USAN/INN)
+                CXCR2 (IL8RB, CD182)
+                 D08984  Reparixin (USAN/INN)
+DBLINKS     CAS: 266359-83-5
+            PubChem: 96025667
+            ChEBI: 177765
+            LigandBox: D08984
+ATOM        19
+            1   C8y C    16.3800  -19.1800
+            2   C8x C    16.3800  -20.5800
+            3   C8x C    17.5924  -21.2800
+            4   C8y C    18.8049  -20.5800
+            5   C8x C    18.8049  -19.1800
+            6   C8x C    17.5924  -18.4800
+            7   C1c C    15.1676  -18.4800
+            8   C5a C    13.9721  -19.1704
+            9   N1b N    12.7847  -18.4849
+            10  O5a O    13.9720  -20.5797
+            11  S4a S    11.5935  -19.1729
+            12  C1a C    10.4040  -18.4862
+            13  C1b C    20.0360  -21.2910
+            14  C1c C    21.2412  -20.5953
+            15  C1a C    22.4235  -21.2781
+            16  C1a C    21.2416  -19.1804
+            17  C1a C    15.1675  -17.0802
+            18  O3c O    10.6035  -20.1629
+            19  O3c O    12.2935  -20.3853
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    8  10 2
+            11    9  11 1
+            12   11  12 1
+            13    4  13 1
+            14   13  14 1
+            15   14  15 1
+            16   14  16 1
+            17    7  17 1 #Down
+            18   11  18 2
+            19   11  19 2
+///

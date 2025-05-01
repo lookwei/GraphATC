@@ -1,0 +1,93 @@
+ENTRY       D01879                      Drug
+NAME        Eptazocine hydrobromide (JAN);
+            Sedapain (TN)
+FORMULA     C15H21NO. HBr
+EXACT_MASS  311.0885
+MOL_WEIGHT  312.2453
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01562  kappa-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+             DG01586  Opioid receptor antagonist
+REMARK      Chemical structure group: DG01340
+EFFICACY    Analgesic, Opioid receptor agonist/antagonist
+COMMENT     Benzomorphan derivative
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+  PATHWAY   hsa04080(4986)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01562  kappa-Opioid receptor agonist
+                DG01340  Eptazocine
+                 D01879  Eptazocine hydrobromide
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01340  Eptazocine
+                D01879  Eptazocine hydrobromide
+              DG01586  Opioid receptor antagonist
+               DG01340  Eptazocine
+                D01879  Eptazocine hydrobromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRK1
+                 D01879  Eptazocine hydrobromide (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01562  kappa-Opioid receptor agonist
+                DG01340  Eptazocine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01340  Eptazocine
+              DG01586  Opioid receptor antagonist
+               DG01340  Eptazocine
+DBLINKS     CAS: 72150-17-5
+            PubChem: 7848941
+            ChEBI: 31553
+            LigandBox: D01879
+            NIKKAJI: J358.594H
+ATOM        18
+            1   X   Br   23.8750  -20.2320
+            2   C1z C    19.9500  -23.3100
+            3   C8y C    19.9500  -21.9800
+            4   C1x C    21.2100  -24.0100
+            5   C1a C    18.8300  -23.9400
+            6   C1x C    21.2100  -22.6800
+            7   C8x C    18.8300  -21.3500
+            8   C8y C    21.2100  -21.3500
+            9   C1y C    22.3300  -23.3100
+            10  C8y C    18.8300  -20.0200
+            11  C1x C    22.3300  -22.0500
+            12  C8x C    21.2100  -20.0200
+            13  C8x C    20.0200  -19.3200
+            14  O1a O    17.7100  -19.3200
+            15  C1x C    23.5545  -23.9887
+            16  N1y N    24.9545  -23.9887
+            17  C1x C    24.9545  -22.6587
+            18  C1a C    25.9373  -24.9718
+BOND        19
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     2   6 1 #Up
+            5     3   7 2
+            6     3   8 1
+            7     4   9 1
+            8     7  10 1
+            9     8  11 1
+            10    8  12 2
+            11   10  13 2
+            12   10  14 1
+            13    9  11 1
+            14   12  13 1
+            15    9  15 1 #Up
+            16   15  16 1
+            17   16  17 1
+            18   17   6 1
+            19   16  18 1
+///

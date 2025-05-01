@@ -1,0 +1,103 @@
+ENTRY       D01354                      Drug
+NAME        Fludiazepam (JP18/INN);
+            Erispan (TN)
+FORMULA     C16H12ClFN2O
+EXACT_MASS  302.0622
+MOL_WEIGHT  302.7307
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+REMARK      Therapeutic category: 1124
+            ATC code: N05BA17
+            Product: D01354<JP>
+EFFICACY    Antianxiety, Minor tranquilizer
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA17 Fludiazepam
+                  D01354  Fludiazepam (JP18/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01354  Fludiazepam (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D01354  Fludiazepam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D01354  Fludiazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01354  Fludiazepam (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01354  Fludiazepam
+              D01354  Fludiazepam tablets
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01354
+DBLINKS     CAS: 3900-31-0
+            PubChem: 7848417
+            ChEBI: 31618
+            LigandBox: D01354
+            NIKKAJI: J3.410J
+ATOM        21
+            1   C2y C    13.7834  -11.9094
+            2   C8y C    12.9413  -10.7998
+            3   C8y C    13.2765   -9.4430
+            4   N1y N    14.5375   -8.8649
+            5   N2x N    15.1892  -11.9346
+            6   C5x C    15.7911   -9.4872
+            7   C1x C    16.0776  -10.8559
+            8   C8x C    12.2694   -8.4746
+            9   C8x C    10.9274   -8.8627
+            10  C8y C    10.5922  -10.2195
+            11  C8x C    11.5993  -11.1876
+            12  O5x O    16.8352   -8.5528
+            13  X   Cl    9.2274  -10.6139
+            14  C8y C    13.1489  -13.1591
+            15  C8x C    11.7473  -13.1591
+            16  C8x C    11.0473  -14.3716
+            17  C8x C    11.7473  -15.5840
+            18  C8x C    13.1489  -15.5840
+            19  C8y C    13.8489  -14.3716
+            20  X   F    15.2598  -14.3717
+            21  C1a C    14.5592   -7.4900
+BOND        23
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 2
+            22   19  20 1
+            23    4  21 1
+///

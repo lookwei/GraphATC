@@ -1,0 +1,184 @@
+ENTRY       D02995                      Drug
+NAME        Asenapine maleate (JAN/USAN);
+            Saphris (TN)
+PRODUCT     SAPHRIS (Allergan)
+  GENERIC   ASENAPINE (Alembic Pharmaceuticals Limited)
+            ASENAPINE (Alembic Pharmaceuticals)
+            ASENAPINE (Breckenridge Pharmaceutical)
+            ASENAPINE (Greenstone LLC)
+            ASENAPINE (MSN LABORATORIES PRIVATE LIMITED)
+            ASENAPINE (Sigmapharm Laboratories)
+FORMULA     C17H16ClNO. C4H4O4
+EXACT_MASS  401.103
+MOL_WEIGHT  401.8402
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Therapeutic category: 1179
+            ATC code: N05AH05
+            Chemical structure group: DG03100
+            Product (DG03100): D11769<US> D02995<JP/US>
+EFFICACY    Antipsychotic
+  DISEASE   Schizophrenia [DS:H01649]
+            Bipolar I disorder [DS:H01653]
+COMMENT     Treatment of psychosis
+TARGET      HTR1A [HSA:3350] [KO:K04153]
+            HTR2A [HSA:3356] [KO:K04157]
+            HTR2C [HSA:3358] [KO:K04157]
+            HTR6 [HSA:3362] [KO:K04162]
+            HTR7 [HSA:3363] [KO:K04163]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813+3350+3356+3358+3362+3363)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3356+3358+3362+3363)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AH Diazepines, oxazepines, thiazepines and oxepines
+                 N05AH05 Asenapine
+                  D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              2nd Generation/Atypical
+               Asenapine
+                D02995  Asenapine maleate (JAN/USAN)
+             Bipolar Agents
+              Bipolar Agents, Other
+               Asenapine
+                D02995  Asenapine maleate (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1179  Others
+                 D02995  Asenapine maleate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG03100  Asenapine
+                 D02995  Asenapine maleate
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG03100  Asenapine
+                D02995  Asenapine maleate
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG03100  Asenapine
+                D02995  Asenapine maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+               Serotonin
+                HTR1A
+                 D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+                HTR2A
+                 D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+                HTR2C
+                 D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+                HTR6
+                 D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+                HTR7
+                 D02995  Asenapine maleate (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D02995
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D02995
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D02995
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D02995
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02995
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG03100  Asenapine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG03100  Asenapine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG03100  Asenapine
+DBLINKS     CAS: 85650-56-2
+            PubChem: 17397151
+            ChEBI: 71245
+            LigandBox: D02995
+            NIKKAJI: J349.614G
+ATOM        28
+            1   C8y C    13.9474  -15.0494
+            2   C1y C    14.8548  -16.0964
+            3   C1y C    16.2507  -16.0964
+            4   C8y C    17.0882  -14.9797
+            5   C8y C    14.2267  -13.6535
+            6   C8y C    16.7392  -13.6535
+            7   O2x O    15.4829  -13.0254
+            8   C8x C    17.7861  -12.6764
+            9   C8x C    19.1123  -13.0254
+            10  C8x C    19.4612  -14.4213
+            11  C8x C    18.4143  -15.3984
+            12  C8x C    12.6214  -15.4682
+            13  C8y C    11.5744  -14.5608
+            14  C8x C    11.8536  -13.1650
+            15  C8x C    13.1798  -12.7462
+            16  C1x C    16.7392  -17.4224
+            17  N1y N    15.6225  -18.2600
+            18  C1x C    14.4360  -17.4224
+            19  X   Cl   10.2483  -14.9797
+            20  C1a C    15.6225  -19.6559
+            21  O6a O    21.2759  -16.2359
+            22  C6a C    22.6019  -16.2359
+            23  O6a O    23.2999  -17.3526
+            24  C2b C    23.2999  -15.0494
+            25  C2b C    24.9052  -15.0494
+            26  C6a C    25.6032  -16.2359
+            27  O6a O    26.9990  -16.2359
+            28  O6a O    24.9750  -17.4224
+BOND        30
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     6   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    4  11 2
+            13    1  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    5  15 2
+            18    3  16 1
+            19   16  17 1
+            20   17  18 1
+            21    2  18 1
+            22   13  19 1
+            23   17  20 1
+            24   21  22 1
+            25   22  23 2
+            26   22  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   26  28 1
+///

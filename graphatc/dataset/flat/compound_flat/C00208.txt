@@ -1,0 +1,83 @@
+ENTRY       C00208                      Compound
+NAME        Maltose;
+            Malt sugar;
+            alpha-D-Glucopyranosyl-(1->4)-D-glucopyranose
+FORMULA     C12H22O11
+EXACT_MASS  342.1162
+MOL_WEIGHT  342.2965
+REMARK      Same as: D00044 G00275
+REACTION    R00028 R00957 R01555 R01556 R01557 R02112 R04111 R05196 
+            R09945 R10486 R11262
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map02010  ABC transporters
+            map02030  Bacterial chemotaxis
+            map02060  Phosphotransferase system (PTS)
+            map04742  Taste transduction
+            map04973  Carbohydrate digestion and absorption
+ENZYME      2.3.1.79        2.4.1.8         2.4.1.25        2.4.1.139       
+            2.7.1.175       2.7.1.208       3.1.3.90        3.2.1.1         
+            3.2.1.2         3.2.1.20        3.2.1.133       5.4.99.16
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Oligosaccharides
+               Disaccharides
+                C00208  Maltose; Malt sugar
+DBLINKS     CAS: 69-79-4
+            PubChem: 3508
+            ChEBI: 17306
+            KNApSAcK: C00001140
+            PDB-CCD: MAL N9S
+            3DMET: B04649
+            NIKKAJI: J4.871B
+ATOM        23
+            1   C1y C    27.4952  -17.6709
+            2   C1y C    27.4952  -16.2679
+            3   O2a O    26.2844  -18.3695
+            4   C1y C    28.7120  -18.3638
+            5   O2x O    28.7120  -15.5692
+            6   C1b C    26.2844  -15.5633
+            7   C1y C    25.0735  -19.0682
+            8   C1y C    29.9231  -17.6709
+            9   O1a O    28.7120  -19.7668
+            10  C1y C    29.9231  -16.2679
+            11  O1a O    25.0735  -16.2679
+            12  O2x O    23.8684  -18.3638
+            13  C1y C    25.0735  -20.4712
+            14  O1a O    31.1340  -18.3638
+            15  O1a O    31.1340  -15.5692
+            16  C1y C    22.6516  -19.0682
+            17  C1y C    23.8684  -21.1641
+            18  O1a O    26.2844  -21.1641
+            19  C1y C    22.6516  -20.4712
+            20  C1b C    21.4348  -18.3638
+            21  O1a O    23.8684  -22.5671
+            22  O1a O    21.4348  -21.1641
+            23  O1a O    20.2239  -19.0682
+BOND        24
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     7   3 1 #Down
+            7     4   8 1
+            8     4   9 1 #Up
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12    7  13 1
+            13    8  14 1 #Down
+            14   10  15 1 #Either
+            15   12  16 1
+            16   13  17 1
+            17   13  18 1 #Down
+            18   16  19 1
+            19   16  20 1 #Up
+            20   17  21 1 #Up
+            21   19  22 1 #Down
+            22   20  23 1
+            23    8  10 1
+            24   17  19 1
+///

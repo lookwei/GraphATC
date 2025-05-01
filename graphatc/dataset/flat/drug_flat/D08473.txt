@@ -1,0 +1,130 @@
+ENTRY       D08473                      Drug
+NAME        Remifentanil (INN);
+            Ultiva (TN)
+FORMULA     C20H28N2O5
+EXACT_MASS  376.1998
+MOL_WEIGHT  376.4467
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG02027  General anesthetics
+               DG02026  Opioid anesthetics
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      Same as: C08021
+            ATC code: N01AH06
+            Chemical structure group: DG00795
+            Product (DG00795): D01177<JP/US>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Phenylpiperidine derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01A ANESTHETICS, GENERAL
+                N01AH Opioid anesthetics
+                 N01AH06 Remifentanil
+                  D08473  Remifentanil (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02026  Opioid anesthetics
+                 DG00795  Remifentanil
+                  D08473  Remifentanil
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00795  Remifentanil
+                 D08473  Remifentanil
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00795  Remifentanil
+                D08473  Remifentanil
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D08473  Remifentanil (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D08473
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02026  Opioid anesthetics
+                 DG00795  Remifentanil
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00795  Remifentanil
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00795  Remifentanil
+DBLINKS     CAS: 132875-61-7
+            PubChem: 96025159
+            ChEBI: 8802
+            LigandBox: D08473
+            NIKKAJI: J423.836B
+ATOM        27
+            1   C8x C    16.4500  -27.3700
+            2   C8x C    16.4500  -28.7700
+            3   C8x C    17.6400  -29.4700
+            4   C8x C    18.9000  -28.7700
+            5   C8y C    18.9000  -27.3700
+            6   C8x C    17.6400  -26.6700
+            7   N1c N    20.0900  -26.6700
+            8   C1z C    21.3500  -27.3700
+            9   C1x C    21.3500  -28.7700
+            10  C1x C    22.5400  -29.4700
+            11  N1y N    23.7300  -28.7700
+            12  C1x C    23.7300  -27.3700
+            13  C1x C    22.5400  -26.6700
+            14  C1b C    24.9900  -29.4700
+            15  C1b C    26.1800  -28.7700
+            16  C7a C    27.3700  -29.4700
+            17  C5a C    20.0900  -25.2700
+            18  O5a O    18.9000  -24.5700
+            19  C1b C    21.3500  -24.5700
+            20  C1a C    22.5400  -25.2700
+            21  C7a C    20.7200  -28.1400
+            22  O7a O    28.5881  -28.7799
+            23  C1a C    29.7695  -29.4750
+            24  O6a O    27.3586  -30.8700
+            25  O7a O    20.7200  -29.5400
+            26  O6a O    19.5666  -27.8142
+            27  C1a C    19.5076  -30.2400
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15   11  14 1
+            16   14  15 1
+            17   15  16 1
+            18    7  17 1
+            19   17  18 2
+            20   17  19 1
+            21   19  20 1
+            22    8  21 1
+            23   16  22 1
+            24   22  23 1
+            25   16  24 2
+            26   21  25 1
+            27   21  26 2
+            28   25  27 1
+///

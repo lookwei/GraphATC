@@ -1,0 +1,96 @@
+ENTRY       D07679                      Drug
+NAME        Chloropyramine hydrochloride;
+            Avapena (TN)
+FORMULA     C16H20ClN3. HCl
+EXACT_MASS  325.1113
+MOL_WEIGHT  326.264
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: D04AA09 R06AC03
+            Chemical structure group: DG00384
+EFFICACY    Antiallergic, H1 receptor antagonist
+COMMENT     Phenbenzamine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AA Antihistamines for topical use
+                 D04AA09 Chloropyramine
+                  D07679  Chloropyramine hydrochloride
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AC Substituted ethylene diamines
+                 R06AC03 Chloropyramine
+                  D07679  Chloropyramine hydrochloride
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00384  Chloropyramine
+                 D07679  Chloropyramine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D07679  Chloropyramine hydrochloride
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00384  Chloropyramine
+DBLINKS     CAS: 6170-42-9
+            PubChem: 51091981
+            LigandBox: D07679
+            NIKKAJI: J220.300F
+ATOM        21
+            1   N5x N    23.5900  -18.9700
+            2   C8x C    23.5900  -20.4400
+            3   C8x C    24.8500  -21.1400
+            4   C8x C    26.0400  -20.4400
+            5   C8x C    26.0400  -18.9700
+            6   C8y C    24.8500  -18.2700
+            7   N1c N    24.8500  -16.8700
+            8   C1b C    23.5900  -16.1700
+            9   C1b C    26.0400  -16.1700
+            10  C1b C    27.2300  -16.8700
+            11  N1c N    28.4200  -16.1700
+            12  C1a C    29.6100  -16.8700
+            13  C1a C    28.4200  -14.7700
+            14  C8y C    22.4000  -16.8700
+            15  C8x C    21.2100  -16.1700
+            16  C8x C    20.0200  -16.8700
+            17  C8y C    20.0200  -18.2700
+            18  C8x C    21.2100  -18.9700
+            19  C8x C    22.4000  -18.2700
+            20  X   Cl   18.7600  -19.0400
+            21  X   Cl   32.0600  -19.4600
+BOND        21
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     6   7 1
+            8     7   8 1
+            9     7   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   11  13 1
+            14    8  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   14  19 1
+            21   17  20 1
+///

@@ -1,0 +1,84 @@
+ENTRY       D02769                      Drug
+NAME        Adenosine phosphate (USAN/INN);
+            Adenyl (TN)
+FORMULA     C10H14N5O7P
+EXACT_MASS  347.0631
+MOL_WEIGHT  347.2212
+REMARK      Same as: C00020
+            ATC code: C01EB10
+            Chemical structure group: DG00243
+            Product (DG00243): D00045<JP/US> D02300<JP>
+EFFICACY    Supplement (nutrient)
+TARGET      ADORA [HSA:134 135 136 140] [KO:K04265 K04266 K04267 K04268]
+  PATHWAY   hsa04080(134+135+136+140)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01E OTHER CARDIAC PREPARATIONS
+                C01EB Other cardiac preparations
+                 C01EB10 Adenosine
+                  D02769  Adenosine phosphate (USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA
+                 D02769  Adenosine phosphate (USAN/INN)
+DBLINKS     CAS: 61-19-8
+            PubChem: 17396927
+            ChEBI: 16027
+            PDB-CCD: A AMP AP7
+            LigandBox: D02769
+            NIKKAJI: J4.814C
+ATOM        23
+            1   N4y N    27.1600  -15.6800
+            2   C8y C    28.2100  -16.4500
+            3   C1y C    25.8300  -16.1000
+            4   C8x C    27.5800  -14.2800
+            5   C8y C    29.4000  -15.5400
+            6   N5x N    28.3500  -17.8500
+            7   O2x O    24.7100  -15.2600
+            8   C1y C    25.4100  -17.3600
+            9   N5x N    29.0500  -14.2800
+            10  C8y C    30.6600  -16.1000
+            11  C8x C    29.6800  -18.4100
+            12  C1y C    23.5900  -16.0300
+            13  C1y C    24.0100  -17.3600
+            14  O1a O    26.1800  -18.4800
+            15  N5x N    30.8700  -17.5700
+            16  N1a N    31.7800  -15.2600
+            17  C1b C    22.2600  -15.6100
+            18  O1a O    23.5900  -18.6900
+            19  O2b O    21.2100  -16.5900
+            20  P1b P    19.8100  -16.5900
+            21  O1c O    18.4100  -16.5900
+            22  O1c O    19.8100  -17.9900
+            23  O1c O    19.8100  -15.1200
+BOND        25
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   12  17 1 #Up
+            17   13  18 1 #Down
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21   20  22 1
+            22   20  23 2
+            23    5   9 1
+            24   11  15 1
+            25   12  13 1
+///

@@ -1,0 +1,62 @@
+ENTRY       D11592                      Drug
+NAME        Durlobactam sodium (USAN)
+FORMULA     C8H10N3O6S. Na
+EXACT_MASS  299.0188
+MOL_WEIGHT  299.2363
+CLASS       Antibacterial
+             DG01479  beta-Lactamase inhibitor
+REMARK      Chemical structure group: DG03057
+            Product (mixture): D12605<US>
+EFFICACY    Antibacterial, beta-Lactamase inhibitor
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01479  beta-Lactamase inhibitor
+               DG03057  Durlobactam
+                D11592  Durlobactam sodium
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01479  beta-Lactamase inhibitor
+               DG03057  Durlobactam
+DBLINKS     CAS: 1467157-21-6
+            PubChem: 405226459
+ATOM        19
+            1   C5x C    18.0334  -16.0689
+            2   N1y N    19.2263  -15.4374
+            3   C1y C    20.4894  -15.9987
+            4   C2y C    20.8402  -17.3319
+            5   N1y N    17.7528  -17.4021
+            6   C2x C    20.0684  -18.4546
+            7   C1y C    18.6650  -18.4546
+            8   C1x C    19.2263  -17.0513
+            9   O5x O    16.9809  -15.1567
+            10  O2a O    16.4196  -17.8933
+            11  S4a S    15.4372  -16.9811
+            12  O1d O    14.4548  -15.9987
+            13  O1d O    16.4196  -15.9987
+            14  O1d O    14.2448  -18.2434 #-
+            15  C1a C    22.1734  -17.5424
+            16  C5a C    21.6822  -15.2970
+            17  N1a N    22.8751  -15.9987
+            18  O5a O    21.6822  -13.8936
+            19  Z   Na   12.1100  -18.1300 #+
+BOND        19
+            1     3   4 1
+            2     1   5 1
+            3     4   6 2
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     7   8 1 #Down
+            9     2   8 1 #Down
+            10    1   9 2
+            11    5  10 1
+            12   10  11 1
+            13   11  12 2
+            14   11  13 2
+            15   11  14 1
+            16    4  15 1
+            17    3  16 1 #Down
+            18   16  17 1
+            19   16  18 2
+///

@@ -1,0 +1,139 @@
+ENTRY       D07977                      Drug
+NAME        Fluphenazine (INN);
+            Moditen (TN)
+FORMULA     C22H26F3N3OS
+EXACT_MASS  437.1749
+MOL_WEIGHT  437.5216
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07010
+            ATC code: N05AB02
+            Chemical structure group: DG00874
+            Product (DG00874): D00791<US> D00793<JP/US> D02163<JP>
+EFFICACY    Antipsychotic, Neuroleptic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AB Phenothiazines with piperazine structure
+                 N05AB02 Fluphenazine
+                  D07977  Fluphenazine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00874  Fluphenazine
+                 D07977  Fluphenazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00874  Fluphenazine
+                 D07977  Fluphenazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00874  Fluphenazine
+                D07977  Fluphenazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D07977  Fluphenazine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07977
+            Prodrugs [br08324.html]
+             D07977
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00874  Fluphenazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00874  Fluphenazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00874  Fluphenazine
+DBLINKS     CAS: 69-23-8
+            PubChem: 96024672
+            ChEBI: 5123
+            LigandBox: D07977
+            NIKKAJI: J4.863A
+ATOM        30
+            1   C8y C    20.5100  -20.3700
+            2   N1y N    21.7000  -19.6700
+            3   C8y C    20.5100  -21.7700
+            4   C8x C    19.2500  -19.6700
+            5   C8y C    22.8900  -20.4400
+            6   C1b C    21.7000  -18.2700
+            7   S2x S    21.7000  -22.4700
+            8   C8x C    19.2500  -22.4700
+            9   C8x C    18.0600  -20.4400
+            10  C8y C    22.8900  -21.7700
+            11  C8x C    24.1500  -19.7400
+            12  C1b C    22.8900  -17.5700
+            13  C8x C    18.0600  -21.7700
+            14  C8x C    24.1500  -22.4700
+            15  C8y C    25.3400  -20.4400
+            16  C1b C    22.8900  -16.1700
+            17  C8x C    25.3400  -21.7700
+            18  N1y N    24.1500  -15.4700
+            19  C1x C    24.0800  -14.0700
+            20  C1x C    25.3400  -16.1700
+            21  C1x C    25.3400  -13.3700
+            22  C1x C    26.6000  -15.4700
+            23  N1y N    26.6000  -14.0700
+            24  C1b C    27.8600  -13.4400
+            25  C1b C    29.0500  -14.1400
+            26  O1a O    30.3100  -13.4400
+            27  C1d C    26.6000  -19.7400
+            28  X   F    27.7200  -18.9700
+            29  X   F    27.2300  -20.8600
+            30  X   F    25.8300  -18.4800
+BOND        33
+            1    18  19 1
+            2    18  20 1
+            3    19  21 1
+            4    20  22 1
+            5    21  23 1
+            6    23  24 1
+            7     7  10 1
+            8     9  13 1
+            9    15  17 1
+            10   22  23 1
+            11    1   2 1
+            12    1   3 2
+            13    1   4 1
+            14    2   5 1
+            15    2   6 1
+            16    3   7 1
+            17    3   8 1
+            18    4   9 2
+            19    5  10 2
+            20    5  11 1
+            21    6  12 1
+            22    8  13 2
+            23   10  14 1
+            24   11  15 2
+            25   12  16 1
+            26   14  17 2
+            27   16  18 1
+            28   24  25 1
+            29   25  26 1
+            30   15  27 1
+            31   27  28 1
+            32   27  29 1
+            33   27  30 1
+///

@@ -1,0 +1,145 @@
+ENTRY       D11400                      Drug
+NAME        Abrocitinib (JAN/USAN);
+            Cibinqo (TN)
+PRODUCT     CIBINQO (Pfizer Laboratories Div Pfizer)
+            CIBINQO (U.S. Pharmaceuticals)
+FORMULA     C14H21N5O2S
+EXACT_MASS  323.1416
+MOL_WEIGHT  323.4138
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Dermatological agent
+             DG03243  Atopic dermatitis agent
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+REMARK      Therapeutic category: 4490
+            ATC code: D11AH08
+            Product: D11400<JP/US>
+EFFICACY    Anti-inflammatory, Janus kinase (JAK) inhibitor
+  DISEASE   Atopic dermatitis [DS:H01358]
+COMMENT     Treatment of atopic dermatitis
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+  PATHWAY   hsa04630(3716)  JAK-STAT signaling pathway
+            hsa04658(3716)  Th1 and Th2 cell differentiation
+METABOLISM  Enzyme: CYP2C19 [HSA:1557], CYP2C9 [HSA:1559]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D11 OTHER DERMATOLOGICAL PREPARATIONS
+               D11A OTHER DERMATOLOGICAL PREPARATIONS
+                D11AH Agents for dermatitis, excluding corticosteroids
+                 D11AH08 Abrocitinib
+                  D11400  Abrocitinib (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Immunological Agents
+              Immunological Agents, Other
+               JAK Inhibitors
+                Abrocitinib
+                 D11400  Abrocitinib (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              44  Allergic agents
+               449  Miscellaneous
+                4490  Miscellaneous
+                 D11400  Abrocitinib (JAN/USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                D11400  Abrocitinib
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D11400  Abrocitinib
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D11400  Abrocitinib
+              DG01639  CYP2C19 substrate
+               D11400  Abrocitinib
+            Drug classes [BR:br08332]
+             Immunological agent
+              DG02020  JAK inhibitor
+               D11400  Abrocitinib
+             Antirheumatic agent
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D11400  Abrocitinib
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D11400  Abrocitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D11400  Abrocitinib (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11400
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D11400
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11400
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11400
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11400
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D11400
+DBLINKS     CAS: 1622902-68-4
+            PubChem: 384585378
+            PDB-CCD: D7D
+ATOM        22
+            1   C8y C    12.9500  -16.9400
+            2   C8y C    12.9500  -18.3400
+            3   N5x N    11.7600  -19.0400
+            4   C8x C    10.5000  -18.3400
+            5   N5x N    10.5000  -16.9400
+            6   C8y C    11.7600  -16.2400
+            7   N4x N    14.2815  -18.7726
+            8   C8x C    15.1044  -17.6400
+            9   C8x C    14.2815  -16.5074
+            10  N1c N    11.7772  -14.8401
+            11  C1a C    12.9851  -14.1624
+            12  C1y C    10.5608  -14.1176
+            13  C1x C    10.2211  -12.7842
+            14  C1y C     8.8877  -13.1238
+            15  C1x C     9.2273  -14.4573
+            16  N1b N     7.6710  -12.4015
+            17  S4a S     6.4772  -13.0717
+            18  C1b C     5.3056  -12.3762
+            19  O3c O     5.7772  -14.2841
+            20  O3c O     7.1772  -14.2841
+            21  C1b C     4.0900  -13.0587
+            22  C1a C     2.8784  -12.3392
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 2
+            10    1   9 1
+            11    6  10 1
+            12   10  11 1
+            13   12  10 1 #Up
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   12  15 1
+            18   14  16 1 #Up
+            19   16  17 1
+            20   17  18 1
+            21   17  19 2
+            22   17  20 2
+            23   18  21 1
+            24   21  22 1
+///

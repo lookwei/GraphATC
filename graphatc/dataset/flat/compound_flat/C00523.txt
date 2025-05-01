@@ -1,0 +1,76 @@
+ENTRY       C00523                      Compound
+NAME        Androsterone;
+            3alpha-Hydroxy-5alpha-androstan-17-one
+FORMULA     C19H30O2
+EXACT_MASS  290.2246
+MOL_WEIGHT  290.4403
+REACTION    R02476 R02477 R02478 R13039
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+ENZYME      1.1.1.50        1.1.1.209       1.1.1.213       1.1.1.-         
+            2.4.1.17
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              19-Carbon atoms
+               Androstane derivatives
+                C00523  Androsterone
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0202 C19 steroids (androgens) and derivatives
+                C00523  3alpha-Hydroxy-5alpha-androstan-17-one
+DBLINKS     CAS: 53-41-8
+            PubChem: 3806
+            ChEBI: 16032
+            LIPIDMAPS: LMST02020001
+            PDB-CCD: AOI
+            3DMET: B01279
+            NIKKAJI: J4.145I
+ATOM        21
+            1   C1y C    30.1688  -17.6306
+            2   C1y C    29.0125  -16.9799
+            3   C1y C    31.3061  -16.9673
+            4   C1x C    30.1751  -18.9636
+            5   C1z C    27.8816  -17.6432
+            6   C1x C    29.0062  -15.6594
+            7   C1z C    31.2997  -15.6594
+            8   C1x C    33.6122  -16.9735
+            9   C1x C    29.0251  -19.6333
+            10  C1y C    27.8878  -18.9636
+            11  C1x C    26.7254  -16.9987
+            12  C1a C    27.8566  -16.0321
+            13  C1x C    30.1497  -14.9960
+            14  C5x C    32.4433  -14.9833
+            15  C1a C    31.2621  -14.0921
+            16  C1x C    33.5995  -15.6403
+            17  C1x C    26.7443  -19.6460
+            18  C1x C    25.6517  -17.6622
+            19  O5x O    32.4369  -13.6060
+            20  C1y C    25.5881  -18.9828
+            21  O1a O    24.1539  -19.7156
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1 #Up
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1 #Up
+            15    8  16 1
+            16   10  17 1
+            17   11  18 1
+            18   14  19 2
+            19   17  20 1
+            20   20  21 1 #Down
+            21    7  13 1
+            22    9  10 1
+            23   14  16 1
+            24   18  20 1
+///

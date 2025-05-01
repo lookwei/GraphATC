@@ -1,0 +1,68 @@
+ENTRY       D06355                      Drug
+NAME        Zaltidine hydrochloride (USAN)
+FORMULA     C8H10N6S. 2HCl
+EXACT_MASS  294.0221
+MOL_WEIGHT  295.1921
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                D06355  Zaltidine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D06355  Zaltidine hydrochloride (USAN)
+DBLINKS     CAS: 90274-23-0
+            PubChem: 47208012
+            LigandBox: D06355
+ATOM        17
+            1   C8y C    29.8356  -17.0621
+            2   C8x C    29.8062  -15.6792
+            3   N5x N    31.1947  -17.4825
+            4   S2x S    31.1891  -15.2470
+            5   C8y C    32.0071  -16.3648
+            6   N2b N    33.3959  -16.4060
+            7   C2c C    34.0617  -15.1954
+            8   N1a N    35.4602  -15.1653
+            9   N1a N    33.3901  -14.0215
+            10  C8y C    28.7288  -17.8963
+            11  C8x C    27.3889  -17.4267
+            12  N5x N    26.5279  -18.5548
+            13  C8y C    27.3346  -19.7222
+            14  N4x N    28.6943  -19.3157
+            15  C1a C    26.8791  -21.0177
+            16  X   Cl   35.0702  -19.0401
+            17  X   Cl   35.0702  -19.0401
+BOND        16
+            1     1   2 2
+            2     1   3 1
+            3     2   4 1
+            4     3   5 2
+            5     5   6 1
+            6     4   5 1
+            7     6   7 2
+            8     7   8 1
+            9     7   9 1
+            10    1  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   10  14 1
+            16   13  15 1
+BRACKET     1    33.4600  -19.8100   33.4600  -18.2700
+            1    36.1200  -18.2700   36.1200  -19.8100
+            1  2
+  ORIGINAL  1   16
+  REPEAT    1   17
+///

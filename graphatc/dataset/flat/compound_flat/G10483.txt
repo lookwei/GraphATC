@@ -1,0 +1,30 @@
+ENTRY       G10483                      Glycan
+NAME        beta-1,4-Poly-N-acetyl-D-glucosamine;
+            Chitin
+COMPOSITION (GlcNAc)1 (*)2
+REMARK      Same as: C00461
+REACTION    R06028 R06081 R06082 R06241
+ENZYME      2.4.1.16        3.2.1.14        3.5.1.41
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Homopolysaccharides
+                G10483  Chitin
+REFERENCE   1  [PMID:12775215]
+  AUTHORS   Hekmat O, Tokuyasu K, Withers SG.
+  TITLE     Subsite structure of the endo-type chitin deacetylase from a deuteromycete, Colletotrichum lindemuthianum: an investigation using steady-state kinetic analysis and MS.
+  JOURNAL   Biochem J 374:369-80 (2003)
+            DOI:10.1042/BJ20030204
+DBLINKS     GlyTouCan: G97099AY
+            JCGGDB: JCGG-STR001336
+NODE        3
+            1   *           8     0
+            2   GlcNAc      0     0
+            3   *          -9     0
+EDGE        2
+            1     2:b1    1    
+            2     3       2:4  
+BRACKET     1  -4.0   2.0  -4.0  -2.0
+            1   5.0  -2.0   5.0   2.0
+            1 n
+///

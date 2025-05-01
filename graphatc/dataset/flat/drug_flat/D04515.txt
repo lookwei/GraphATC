@@ -1,0 +1,89 @@
+ENTRY       D04515                      Drug
+NAME        Imipenem (INN);
+            Imipenem anhydrous
+FORMULA     C12H17N3O4S
+EXACT_MASS  299.094
+MOL_WEIGHT  299.3461
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01458  Carbapenem
+REMARK      Same as: C06665
+            Chemical structure group: DG01212
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     beta-Lactam, carbapenem
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01458  Carbapenem
+                 DG01212  Imipenem
+                  D04515  Imipenem
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Carbapenem
+                D04515  Imipenem (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01458  Carbapenem
+                 DG01212  Imipenem
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Carbapenem
+                DG01212  Imipenem
+DBLINKS     CAS: 64221-86-9
+            PubChem: 51091233
+            ChEBI: 471744
+            LigandBox: D04515
+            NIKKAJI: J32.525B
+ATOM        20
+            1   C1y C    26.6621  -13.8389
+            2   C5x C    26.6621  -15.2315
+            3   N1y N    27.9852  -15.2315
+            4   C1y C    27.9852  -13.8389
+            5   C2y C    29.3082  -15.6493
+            6   C2y C    30.1439  -14.5352
+            7   C1x C    29.3082  -13.4211
+            8   C6a C    29.7261  -16.9723
+            9   O6a O    31.1187  -16.9723
+            10  O6a O    28.9600  -18.0866
+            11  C1c C    25.4200  -13.1216
+            12  C1a C    24.1777  -13.8389
+            13  O5x O    25.4200  -15.9488
+            14  O1a O    25.4203  -11.6714
+            15  S2a S    31.5469  -14.5355
+            16  C1b C    32.2584  -13.3040
+            17  C1b C    33.7003  -13.3042
+            18  N1b N    34.4071  -12.0808
+            19  C2b C    35.8538  -12.0811
+            20  N2a N    36.5596  -10.8598
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 2
+            7     6   7 1
+            8     4   7 1
+            9     5   8 1
+            10    8   9 1
+            11    8  10 2
+            12    1  11 1
+            13   11  12 1
+            14    2  13 2
+            15   11  14 1 #Up
+            16    6  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+///

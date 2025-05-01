@@ -1,0 +1,141 @@
+ENTRY       D01980                      Drug
+NAME        Luliconazole (JAN/USAN/INN);
+            Lulicon (TN);
+            Luzu (TN)
+PRODUCT     LULICONAZOLE (Oceanside Pharmaceuticals)
+            LUZU (Bausch Health US)
+FORMULA     C14H9Cl2N3S2
+EXACT_MASS  352.9615
+MOL_WEIGHT  354.2774
+CLASS       Antifungal
+             DG01883  Imidazole antifungal
+            Metabolizing enzyme inhibitor
+             DG02892  CYP2B6 inhibitor
+             DG01641  CYP2C8 inhibitor
+             DG01933  CYP2C19 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      Same as: C13478
+            Therapeutic category: 2655 6290
+            ATC code: D01AC18
+            Product: D01980<JP/US>
+EFFICACY    Antifungal
+  DISEASE   Interdigital tinea pedis [DS:H01316]
+            Tinea cruris [DS:H01316]
+            Tinea corporis [DS:H01316]
+COMMENT     Imidazole derivative
+            Treatment of fungal infections
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+INTERACTION CYP inhibition: CYP2B6 [HSA:1555], CYP2C8 [HSA:1558], CYP2C19 [HSA:1557], CYP3A4 [HSA:1576]
+STR_MAP     map07026  Antifungal agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D01 ANTIFUNGALS FOR DERMATOLOGICAL USE
+               D01A ANTIFUNGALS FOR TOPICAL USE
+                D01AC Imidazole and triazole derivatives
+                 D01AC18 Luliconazole
+                  D01980  Luliconazole (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Topical Anti-infectives
+               Antifungals, dermatological
+                Luliconazole
+                 D01980  Luliconazole (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              26  Epidermides
+               265  Antiparasitic dermatosis agents
+                2655  Imidazoles
+                 D01980  Luliconazole (JAN/USAN/INN)
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               629  Miscellaneous
+                6290  Miscellaneous
+                 D01980  Luliconazole (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antifungal
+              DG01883  Imidazole antifungal
+               D01980  Luliconazole
+             Metabolizing enzyme inhibitor
+              DG02892  CYP2B6 inhibitor
+               D01980  Luliconazole
+              DG01641  CYP2C8 inhibitor
+               D01980  Luliconazole
+              DG01933  CYP2C19 inhibitor
+               D01980  Luliconazole
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                D01980  Luliconazole
+            Drug classes [BR:br08332]
+             Antifungal
+              DG01883  Imidazole antifungal
+               D01980  Luliconazole
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Imidazole
+                D01980  Luliconazole (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01980
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01980
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01980
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01980
+DBLINKS     CAS: 187164-19-8
+            PubChem: 7849042
+            ChEBI: 34825
+            LigandBox: D01980
+            NIKKAJI: J937.034J
+ATOM        21
+            1   C8x C    28.1477  -19.2608
+            2   C8y C    28.1477  -20.7024
+            3   C8x C    29.3567  -21.3535
+            4   C8y C    30.5658  -20.6559
+            5   C8y C    30.5658  -19.2608
+            6   C8x C    29.3567  -18.5633
+            7   X   Cl   31.7750  -21.3535
+            8   C1y C    31.7750  -18.5633
+            9   S2x S    33.1236  -18.5633
+            10  C2y C    33.5887  -17.2146
+            11  S2x S    32.4726  -16.4240
+            12  C1x C    31.3100  -17.2146
+            13  C2c C    34.7977  -16.5170
+            14  X   Cl   26.9386  -21.4000
+            15  C3b C    36.0281  -17.2277
+            16  N4y N    34.7983  -15.1402
+            17  C8x C    35.9389  -14.3121
+            18  N5x N    35.5038  -12.9715
+            19  C8x C    34.0944  -12.9710
+            20  C8x C    33.6584  -14.3113
+            21  N3a N    37.2352  -17.9343
+BOND        23
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     4   7 1
+            5     8   5 1 #Down
+            6     5   6 2
+            7     6   1 1
+            8     1   2 2
+            9    11  12 1
+            10   12   8 1
+            11    8   9 1
+            12   13  10 2
+            13    9  10 1
+            14   10  11 1
+            15    2  14 1
+            16   13  15 1
+            17   13  16 1
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   16  20 1
+            23   15  21 3
+///

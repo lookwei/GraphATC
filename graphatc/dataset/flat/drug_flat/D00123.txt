@@ -1,0 +1,44 @@
+ENTRY       D00123                      Drug
+NAME        Cyanamide (JP18);
+            Cyanamide (TN)
+FORMULA     CH2N2
+EXACT_MASS  42.0218
+MOL_WEIGHT  42.04
+REMARK      Same as: C01566
+            Therapeutic category: 3932
+            Product: D00123<JP>
+EFFICACY    Antialcohol dependence, Aldehyde dehydrogenase inhibitor
+TARGET      ALDH [HSA:217 219 224] [KO:K00128]
+  PATHWAY   hsa00010(217+219+224)  Glycolysis / Gluconeogenesis
+            hsa00071(217+219+224)  Fatty acid degradation
+            hsa00620(217+219+224)  Pyruvate metabolism
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               393  Habitual intoxication agents
+                3932  Cyanamides
+                 D00123  Cyanamide (JP18)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                ALDH
+                 D00123  Cyanamide (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00123  Cyanamide
+DBLINKS     CAS: 420-04-2
+            PubChem: 7847191
+            ChEBI: 16698
+            PDB-CCD: CNN
+            LigandBox: D00123
+            NIKKAJI: J2.584D
+ATOM        3
+            1   C3b C    22.1200  -16.1700
+            2   N1a N    20.9089  -16.8722
+            3   N3a N    23.3311  -15.4678
+BOND        2
+            1     1   2 1
+            2     1   3 3
+///

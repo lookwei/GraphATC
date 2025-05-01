@@ -1,0 +1,194 @@
+ENTRY       D05029                      Drug
+NAME        Midostaurin (JAN/USAN/INN);
+            Rydapt (TN)
+PRODUCT     RYDAPT (Novartis Pharmaceuticals Corporation)
+FORMULA     C35H30N4O4
+EXACT_MASS  570.2267
+MOL_WEIGHT  570.6371
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01EX10
+            Product: D05029<US>
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+  DISEASE   Acute myeloid leukemia (FLT3 mutation-positive) [DS:H00003]
+            Systemic mastocytosis [DS:H01511]
+TARGET      FLT3* (CD135) [HSA_VAR:2322v1 2322v2] [HSA:2322] [KO:K05092]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+            PDGFR [HSA:5156 5159] [KO:K04363 K05089]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            PRKCA [HSA:5578] [KO:K02677]
+            PRKCB [HSA:5579] [KO:K19662]
+            PRKCG [HSA:5582] [KO:K19663]
+  PATHWAY   hsa04010(2322+3791+3815+5156+5159+5578+5579+5582)  MAPK signaling pathway
+            hsa04151(2322+3791+3815+5156+5159+5578)  PI3K-Akt signaling pathway
+            hsa04370(3791+5578+5579+5582)  VEGF signaling pathway
+            hsa04670(5578+5579+5582)  Leukocyte transendothelial migration
+            hsa05200(2322+3815+5156+5159+5578+5579+5582)  Pathways in cancer
+            hsa05221(2322+3815)  Acute myeloid leukemia
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EX Other protein kinase inhibitors
+                 L01EX10 Midostaurin
+                  D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Midostaurin
+                D05029  Midostaurin (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                D05029  Midostaurin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D05029  Midostaurin
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               AGC group
+                PRKCA
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+                PRKCB
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+                PRKCG
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFR
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+                KIT (CD117)
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+                FLT3* (CD135) [HSA_VAR:2322v1 2322v2]
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+               VEGFR family
+                VEGFR2 (KDR)
+                 D05029  Midostaurin (JAN/USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D05029
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D05029
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D05029
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05029
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D05029
+DBLINKS     CAS: 120685-11-2
+            PubChem: 47206756
+            ChEBI: 63452
+            PDB-CCD: 2K2
+            LigandBox: D05029
+            NIKKAJI: J492.319G
+ATOM        43
+            1   C8y C    18.3242  -20.7759
+            2   C8y C    18.3250  -22.1603
+            3   C8y C    19.5242  -22.8517
+            4   C8y C    20.7229  -22.1589
+            5   C8y C    20.7221  -20.7745
+            6   C8y C    19.5226  -20.0830
+            7   C5x C    17.0074  -20.3488
+            8   N1x N    16.1942  -21.4692
+            9   C1x C    17.0087  -22.5887
+            10  N4y N    21.7504  -19.8475
+            11  C8y C    21.1867  -18.5831
+            12  C8y C    19.8097  -18.7287
+            13  C8y C    19.8129  -24.2056
+            14  C8y C    21.1900  -24.3496
+            15  N4y N    21.7523  -23.0845
+            16  O5x O    16.5825  -19.0442
+            17  C8x C    21.7489  -17.3182
+            18  C8x C    20.9345  -16.1987
+            19  C8x C    19.5577  -16.3442
+            20  C8x C    18.9954  -17.6092
+            21  C8x C    18.9999  -25.3261
+            22  C8x C    19.5636  -26.5903
+            23  C8x C    20.9406  -26.7343
+            24  C8x C    21.7537  -25.6139
+            25  C1y C    23.1429  -20.1421
+            26  C1z C    23.1444  -22.7884
+            27  O2x O    22.4435  -21.4950
+            28  C1x C    24.5430  -20.1413
+            29  C1y C    24.5445  -22.7876
+            30  C1y C    25.2652  -21.4662
+            31  C1a C    23.2886  -24.1489
+            32  O2a O    25.2374  -23.9849
+            33  N1c N    26.6718  -21.4976
+            34  C1a C    24.5187  -25.2340
+            35  C1a C    27.3420  -22.7208
+            36  C5a C    27.4015  -20.2966
+            37  C8y C    26.7238  -19.0595
+            38  O5a O    28.7710  -20.3274
+            39  C8x C    27.4635  -17.8425
+            40  C8x C    26.7907  -16.6146
+            41  C8x C    25.3910  -16.5832
+            42  C8x C    24.6514  -17.8003
+            43  C8x C    25.3241  -19.0281
+BOND        51
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    2   9 1
+            11    5  10 1
+            12   10  11 1
+            13   11  12 1
+            14    6  12 1
+            15    3  13 1
+            16   13  14 1
+            17   14  15 1
+            18    4  15 1
+            19    7  16 2
+            20   11  17 2
+            21   17  18 1
+            22   18  19 2
+            23   19  20 1
+            24   12  20 2
+            25   13  21 2
+            26   21  22 1
+            27   22  23 2
+            28   23  24 1
+            29   14  24 2
+            30   10  25 1
+            31   15  26 1
+            32   25  27 1
+            33   27  26 1
+            34   25  28 1
+            35   26  29 1
+            36   29  30 1
+            37   28  30 1
+            38   26  31 1 #Down
+            39   29  32 1 #Up
+            40   30  33 1 #Up
+            41   32  34 1
+            42   33  35 1
+            43   33  36 1
+            44   36  37 1
+            45   36  38 2
+            46   37  39 2
+            47   39  40 1
+            48   40  41 2
+            49   41  42 1
+            50   42  43 2
+            51   37  43 1
+///

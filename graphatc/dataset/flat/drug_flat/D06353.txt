@@ -1,0 +1,82 @@
+ENTRY       D06353                      Drug
+NAME        Zacopride hydrochloride (USAN)
+FORMULA     C15H20ClN3O2. HCl. H2O
+EXACT_MASS  363.1116
+MOL_WEIGHT  364.2674
+CLASS       Gastrointestinal agent
+             DG01763  Propulsive
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+              DG01783  Benzamide type antiemetic
+EFFICACY    Anti-emetic, Prokinetic, Serotonin receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               D06353  Zacopride hydrochloride
+              DG01489  5-HT3-receptor antagonist
+               D06353  Zacopride hydrochloride
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                D06353  Zacopride hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D06353  Zacopride hydrochloride (USAN)
+DBLINKS     CAS: 99617-34-2
+            PubChem: 47208010
+            LigandBox: D06353
+ATOM        23
+            1   X   Cl   21.5600  -15.8900
+            2   O0  O    22.0500  -17.9200
+            3   C8y C    13.7200  -19.3200
+            4   C5a C    14.9100  -20.0200
+            5   N1b N    16.1000  -19.3200
+            6   O5a O    14.9100  -21.4200
+            7   C1y C    17.2900  -20.0200
+            8   C8y C    13.7200  -17.9200
+            9   C8x C    12.5300  -17.2200
+            10  C8y C    11.3400  -17.9200
+            11  C8y C    11.3400  -19.3200
+            12  C8x C    12.5300  -20.0200
+            13  O2a O    14.9100  -17.2200
+            14  C1a C    14.9100  -15.8200
+            15  N1a N    10.1500  -17.2200
+            16  X   Cl   10.1500  -20.0200
+            17  C1x C    17.9200  -21.0700
+            18  N1y N    19.3900  -20.3700
+            19  C1x C    19.4600  -18.9700
+            20  C1x C    20.9300  -21.1400
+            21  C1y C    18.6900  -19.1800
+            22  C1x C    18.6900  -18.2000
+            23  C1x C    20.3000  -19.8800
+BOND        23
+            1     3   4 1
+            2     4   5 1
+            3     4   6 2
+            4     5   7 1
+            5     3   8 2
+            6     8   9 1
+            7     9  10 2
+            8    10  11 1
+            9    11  12 2
+            10    3  12 1
+            11    8  13 1
+            12   13  14 1
+            13   10  15 1
+            14   11  16 1
+            15   17  18 1
+            16   17   7 1
+            17   18  19 1
+            18   18  20 1
+            19   19  22 1
+            20   20  23 1
+            21   21  22 1
+            22   21  23 1
+            23   21   7 1
+///

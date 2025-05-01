@@ -1,0 +1,75 @@
+ENTRY       D11456                      Drug
+NAME        Atabecestat (USAN/INN)
+FORMULA     C18H14FN5OS
+EXACT_MASS  367.0903
+MOL_WEIGHT  367.4001
+EFFICACY    Dementia therapeutic agent, beta-Secretase inhibitor
+COMMENT     Treatment of Alzheimer's disease (AD)
+TARGET      BACE1 [HSA:23621] [KO:K04521]
+  PATHWAY   hsa05010(23621)  Alzheimer disease
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Aspartic peptidases
+                BACE1
+                 D11456  Atabecestat (USAN/INN)
+DBLINKS     CAS: 1200493-78-2
+            PubChem: 384585433
+            PDB-CCD: H3C
+ATOM        26
+            1   C8y C    20.5800  -17.5000
+            2   C8x C    20.5800  -18.9000
+            3   C8x C    19.3900  -19.6000
+            4   C8y C    18.1300  -18.9000
+            5   N5x N    18.1300  -17.5000
+            6   C8x C    19.3900  -16.8000
+            7   C3b C    21.7700  -16.8000
+            8   N3a N    23.0300  -16.1000
+            9   C5a C    16.9400  -19.6000
+            10  N1b N    15.7500  -18.9000
+            11  O5a O    16.9400  -21.0000
+            12  C8y C    14.5600  -19.6000
+            13  C8x C    14.5600  -21.0000
+            14  C8x C    13.3000  -21.7000
+            15  C8y C    12.1100  -21.0000
+            16  C8y C    12.1100  -19.6000
+            17  C8x C    13.3000  -18.9000
+            18  X   F    10.9200  -21.7000
+            19  C1z C    10.9200  -18.9000
+            20  N2x N     9.7300  -19.6000
+            21  C2y C     8.4700  -18.9000
+            22  S2x S     8.4700  -17.5000
+            23  C2x C     9.6600  -16.8000
+            24  C2x C    10.9200  -17.5000
+            25  C1a C    12.1100  -18.2000
+            26  N1a N     7.2800  -19.6000
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 3
+            9     4   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   12  17 2
+            19   15  18 1
+            20   19  16 1 #Up
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   19  25 1 #Down
+            28   21  26 1
+///

@@ -1,0 +1,119 @@
+ENTRY       D04218                      Drug
+NAME        Fluocortolone (USAN/INN)
+FORMULA     C22H29FO4
+EXACT_MASS  376.205
+MOL_WEIGHT  376.4617
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: C05AA08 D07AC05 D07XC05 H02AB03
+            Chemical structure group: DG00295
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+COMMENT     Prednisolone [DR:D00427] derivative
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C05 VASOPROTECTIVES
+               C05A AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE
+                C05AA Corticosteroids
+                 C05AA08 Fluocortolone
+                  D04218  Fluocortolone (USAN/INN)
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC05 Fluocortolone
+                  D04218  Fluocortolone (USAN/INN)
+               D07X CORTICOSTEROIDS, OTHER COMBINATIONS
+                D07XC Corticosteroids, potent, other combinations
+                 D07XC05 Fluocortolone
+                  D04218  Fluocortolone (USAN/INN)
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB03 Fluocortolone
+                  D04218  Fluocortolone (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00295  Fluocortolone
+                 D04218  Fluocortolone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D04218  Fluocortolone (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00295  Fluocortolone
+DBLINKS     CAS: 152-97-6
+            PubChem: 47206164
+            LigandBox: D04218
+            NIKKAJI: J5.871H
+ATOM        27
+            1   C2x C    22.7424  -19.3415
+            2   C5x C    22.7424  -20.6678
+            3   C2x C    23.9291  -21.3658
+            4   C2y C    25.1158  -20.6678
+            5   C1z C    25.1158  -19.3415
+            6   C2x C    23.9291  -18.6435
+            7   C1y C    26.3722  -21.3658
+            8   C1x C    27.5589  -20.6678
+            9   C1y C    27.5589  -19.3415
+            10  C1y C    26.3722  -18.6435
+            11  C1y C    28.7456  -18.6435
+            12  C1z C    28.7456  -17.2474
+            13  C1x C    27.5589  -16.5494
+            14  C1y C    26.3722  -17.2474
+            15  O5x O    21.5558  -21.3658
+            16  C1a C    25.1158  -17.9454
+            17  O1a O    25.1158  -16.5494
+            18  C1a C    28.7456  -15.8513
+            19  X   F    26.3722  -22.7619
+            20  C1x C    31.1704  -18.6435
+            21  C1y C    31.1704  -17.2474
+            22  C1y C    29.9580  -16.5474
+            23  C1a C    32.3790  -16.5495
+            24  C5a C    29.9579  -15.1200
+            25  O5a O    28.7470  -14.4209
+            26  C1b C    31.1719  -14.4191
+            27  O1a O    32.3682  -15.1099
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18    5  16 1 #Up
+            19   14  17 1 #Up
+            20   12  18 1 #Up
+            21    7  19 1 #Down
+            22   11  20 1
+            23   20  21 1
+            24   21  22 1
+            25   12  22 1
+            26   21  23 1 #Down
+            27   22  24 1 #Up
+            28   24  25 2
+            29   24  26 1
+            30   26  27 1
+///

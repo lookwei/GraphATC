@@ -1,0 +1,123 @@
+ENTRY       D09789                      Drug
+NAME        Kirenidipine hydrochloride (JAN)
+FORMULA     C28H38N4O6. 2HCl
+EXACT_MASS  598.2325
+MOL_WEIGHT  599.5464
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropiridine calcium channel blocker
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                D09789  Kirenidipine hydrochloride
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D09789  Kirenidipine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D09789  Kirenidipine hydrochloride (JAN)
+DBLINKS     CAS: 117241-46-0
+            PubChem: 124490529
+            LigandBox: D09789
+ATOM        40
+            1   C2y C    14.3500  -18.6200
+            2   C2y C    14.3500  -20.0200
+            3   C1y C    15.5624  -20.7200
+            4   C2y C    16.7749  -20.0200
+            5   C2y C    16.7749  -18.6200
+            6   N1x N    15.5624  -17.9200
+            7   C8y C    15.5624  -22.1198
+            8   C8x C    14.3332  -22.8297
+            9   C8x C    14.3334  -24.2297
+            10  C8x C    15.5459  -24.9296
+            11  C8y C    16.7751  -24.2197
+            12  C8x C    16.7749  -22.8197
+            13  C1a C    18.0060  -17.9090
+            14  C1a C    13.1376  -17.9200
+            15  N2b N    18.0063  -24.9306 #+
+            16  O3a O    19.4909  -24.0950 #-
+            17  O3a O    18.0062  -26.3199
+            18  C7a C    13.1376  -20.7200
+            19  O7a O    11.9421  -20.0296
+            20  O6a O    13.1375  -22.1198
+            21  C1a C    10.7547  -20.7151
+            22  C7a C    18.0060  -20.7310
+            23  O7a O    19.2112  -20.0353
+            24  O6a O    18.0057  -22.1199
+            25  C1b C    20.3935  -20.7181
+            26  C1d C    21.5875  -20.0288
+            27  C1b C    22.7754  -20.7148
+            28  C1a C    20.8875  -18.8164
+            29  C1a C    22.2875  -18.8164
+            30  N1y N    23.9665  -20.0271
+            31  C1x C    25.1559  -20.7139
+            32  C1x C    26.3684  -20.0140
+            33  N1y N    26.3685  -18.6140
+            34  C1x C    25.1791  -17.9272
+            35  C1x C    23.9666  -18.6271
+            36  C1b C    27.5943  -17.9062
+            37  C2b C    28.8019  -18.6033
+            38  C2a C    29.9832  -17.9213
+            39  X   Cl   23.8000  -23.4500
+            40  X   Cl   23.8000  -23.4500
+BOND        40
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     3   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13    7  12 2
+            14    5  13 1
+            15    1  14 1
+            16   11  15 1
+            17   15  16 1
+            18   15  17 2
+            19    2  18 1
+            20   18  19 1
+            21   18  20 2
+            22   19  21 1
+            23    4  22 1
+            24   22  23 1
+            25   22  24 2
+            26   23  25 1
+            27   25  26 1
+            28   26  27 1
+            29   26  28 1
+            30   26  29 1
+            31   27  30 1
+            32   30  31 1
+            33   31  32 1
+            34   32  33 1
+            35   33  34 1
+            36   34  35 1
+            37   30  35 1
+            38   33  36 1
+            39   36  37 1
+            40   37  38 2
+BRACKET     1    22.4700  -24.0100   22.4700  -22.8200
+            1    24.5000  -22.8200   24.5000  -24.0100
+            1  2
+  ORIGINAL  1   39
+  REPEAT    1   40
+///

@@ -1,0 +1,145 @@
+ENTRY       D00112                      Drug
+NAME        G-Strophanthin (JAN);
+            Ouabain octahydrate
+FORMULA     C29H44O12. 8H2O
+EXACT_MASS  728.3678
+MOL_WEIGHT  728.7747
+SOURCE      Strophanthus gratus [TAX:141614]
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01698  Cardiac glycoside
+               DG01743  Strophantus glycoside
+REMARK      ATC code: C01AC01
+EFFICACY    Cardiotonic
+COMMENT     Cardiotonic glycosides
+TARGET      ATP1A [HSA:476 477 478 480] [KO:K01539]
+  PATHWAY   hsa04260(476+477+478+480)  Cardiac muscle contraction
+            hsa04261(476+477+478+480)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01A CARDIAC GLYCOSIDES
+                C01AC Strophanthus glycosides
+                 C01AC01 G-strophanthin
+                  D00112  G-Strophanthin (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01698  Cardiac glycoside
+                DG01743  Strophantus glycoside
+                 D00112  G-Strophanthin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP1A
+                 D00112  G-Strophanthin (JAN)
+DBLINKS     CAS: 11018-89-6
+            PubChem: 7847180
+            ChEBI: 472805
+            LigandBox: D00112
+ATOM        49
+            1   C1z C    18.7852  -16.0838
+            2   C1y C    19.9750  -15.3840
+            3   C1z C    18.7852  -17.4602
+            4   C1y C    17.5896  -15.4016
+            5   C1b C    18.7794  -14.7134
+            6   C1y C    21.1823  -16.0664
+            7   C1y C    19.9517  -14.0309
+            8   C1x C    19.9867  -18.1483
+            9   C1x C    17.5896  -18.1543
+            10  O1a O    18.7794  -18.8249
+            11  C1x C    16.4057  -16.0838
+            12  O1a O    16.2599  -15.0399
+            13  O1a O    17.5956  -14.0368
+            14  C1z C    22.3893  -15.3607
+            15  C1x C    21.1646  -17.4018
+            16  C1x C    21.1763  -13.2786
+            17  O1a O    18.8317  -13.1567
+            18  C1y C    16.4057  -17.4602
+            19  C1z C    22.3952  -13.9726
+            20  C1x C    24.8330  -15.3142
+            21  O1a O    22.3893  -16.7195
+            22  O2a O    15.2218  -18.1310
+            23  C1y C    23.6082  -13.2553
+            24  C1a C    22.3893  -12.6021
+            25  C1x C    24.8271  -13.9726
+            26  C1y C    14.0322  -18.8249
+            27  C2y C    23.6082  -11.9080
+            28  C1y C    14.0322  -20.2070
+            29  O2x O    12.8424  -18.1367
+            30  C1x C    23.1767  -10.5726
+            31  C2x C    25.0080  -11.9080
+            32  C1y C    12.8424  -20.8952
+            33  O1a O    15.2218  -20.8777
+            34  C1y C    11.6584  -18.8249
+            35  O7x O    24.3080   -9.7503
+            36  C7x C    25.4453  -10.5726
+            37  C1y C    11.6584  -20.2070
+            38  O1a O    12.8424  -22.2658
+            39  C1a C    10.4746  -18.1367
+            40  O6a O    26.7866  -10.1352
+            41  O1a O    10.4746  -20.8777
+            42  O0  O    24.5000  -21.2100
+            43  O0  O    24.5000  -21.2100
+            44  O0  O    24.5000  -21.2100
+            45  O0  O    24.5000  -21.2100
+            46  O0  O    24.5000  -21.2100
+            47  O0  O    24.5000  -21.2100
+            48  O0  O    24.5000  -21.2100
+            49  O0  O    24.5000  -21.2100
+BOND        46
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     3  10 1 #Up
+            10    4  11 1
+            11    4  12 1 #Up
+            12    5  13 1
+            13    6  14 1
+            14    6  15 1
+            15    7  16 1
+            16    7  17 1 #Down
+            17    9  18 1
+            18   14  19 1
+            19   14  20 1
+            20   14  21 1 #Up
+            21   18  22 1 #Up
+            22   19  23 1
+            23   19  24 1 #Up
+            24   20  25 1
+            25   26  22 1 #Up
+            26   23  27 1
+            27   26  28 1
+            28   26  29 1
+            29   27  30 1
+            30   27  31 2
+            31   28  32 1
+            32   28  33 1 #Down
+            33   29  34 1
+            34   30  35 1
+            35   31  36 1
+            36   32  37 1
+            37   32  38 1 #Down
+            38   34  39 1 #Down
+            39   36  40 2
+            40   37  41 1 #Up
+            41    8  15 1
+            42   11  18 1
+            43   16  19 1
+            44   23  25 1
+            45   34  37 1
+            46   35  36 1
+BRACKET     1    22.2600  -22.2600   22.2600  -20.2300
+            1    25.5500  -20.2300   25.5500  -22.2600
+            1  8
+  ORIGINAL  1   45
+  REPEAT    1   46  47  48  49  50  51  52
+///

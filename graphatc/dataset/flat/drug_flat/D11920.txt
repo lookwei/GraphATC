@@ -1,0 +1,126 @@
+ENTRY       D11920                      Drug
+NAME        Pimitespib (JAN);
+            Jeselhy (TN)
+FORMULA     C25H26N8O
+EXACT_MASS  454.223
+MOL_WEIGHT  454.5269
+CLASS       Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG02864  SLC47A1 inhibitor
+             DG03110  SLC47A2 inhibitor
+REMARK      Therapeutic category: 4291
+            Product: D11920<JP>
+EFFICACY    Antineoplastic, Hsp 90 inhibitor
+TARGET      HSP90 [HSA:3320 3326 7184] [KO:K04079 K09487]
+  PATHWAY   hsa04151(3320+3326+7184)  PI3K-Akt signaling pathway
+            hsa04915(3320+3326+7184)  Estrogen signaling pathway
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: SLC47A1 [HSA:55244], SLC47A2 [HSA:146802]
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D11920  Pimitespib (JAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D11920  Pimitespib
+             Transporter inhibitor
+              DG02864  SLC47A1 inhibitor
+               D11920  Pimitespib
+              DG03110  SLC47A2 inhibitor
+               D11920  Pimitespib
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Signaling molecules
+               Chaperone and folding catalyst
+                HSP90
+                 D11920  Pimitespib (JAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11920
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11920
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11920
+             Drug transporters
+              D11920
+ATOM        34
+            1   C8x C    11.8663  -12.0687
+            2   C8x C    13.2476  -11.8010
+            3   C8y C    14.1867  -12.8393
+            4   C8y C    13.8142  -14.1389
+            5   C8y C    12.4394  -14.4763
+            6   N5x N    11.5003  -13.4380
+            7   C8y C    14.4873  -15.3423
+            8   N5x N    13.6013  -16.4080
+            9   N4y N    12.2889  -15.8961
+            10  C8y C    11.0855  -16.5692
+            11  C8x C    11.0741  -17.9697
+            12  C8x C     9.9471  -18.7125
+            13  C8y C     8.6916  -18.0548
+            14  C8x C     8.7027  -16.6479
+            15  C8y C     9.8996  -15.9051
+            16  C5a C     7.5579  -18.7215
+            17  O5a O     7.5468  -20.1285
+            18  N1a N     6.3023  -18.0638
+            19  C1b C     9.8410  -14.5046
+            20  C1a C     8.5790  -13.7772
+            21  C1c C    15.9071  -15.4928
+            22  C1a C    16.5169  -16.7723
+            23  C1a C    16.7171  -14.3638
+            24  N4y N    15.5616  -12.5019
+            25  C8x C    16.1431  -11.1830
+            26  N5x N    17.5629  -11.3335
+            27  C8y C    17.8306  -12.7148
+            28  C8x C    16.6337  -13.4576
+            29  C8y C    19.1431  -13.2267
+            30  C8x C    20.2703  -12.4903
+            31  N5x N    21.3424  -13.4460
+            32  N4y N    20.8241  -14.6888
+            33  C8x C    19.4108  -14.6080
+            34  C1a C    21.5669  -15.8857
+BOND        38
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    9  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18   13  16 1
+            19   16  17 2
+            20   16  18 1
+            21   15  19 1
+            22   19  20 1
+            23    7  21 1
+            24   21  22 1
+            25   21  23 1
+            26    3  24 1
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   24  28 1
+            32   27  29 1
+            33   29  30 1
+            34   30  31 2
+            35   31  32 1
+            36   32  33 1
+            37   29  33 2
+            38   32  34 1
+///

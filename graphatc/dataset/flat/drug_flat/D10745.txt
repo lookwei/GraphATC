@@ -1,0 +1,98 @@
+ENTRY       D10745            Mixture   Drug
+NAME        Ombitasvir, paritaprevir and ritonavir;
+            Technivie (TN)
+COMPONENT   (Ombitasvir hydrate [DR:D10598] | Ombitasvir [DR:D10576]), (Paritaprevir hydrate [DR:D10597] | Paritaprevir [DR:D10580]), Ritonavir [DR:D00427]
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG01913  ABCG2 substrate
+             DG02856  SLCO1B1 substrate
+             DG02932  SLCO1B3 substrate
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02862  ABCG2 inhibitor
+             DG02865  SLCO1B1 inhibitor
+             DG02907  SLCO1B3 inhibitor
+REMARK      ATC code: J05AP53
+EFFICACY    Antiviral
+  DISEASE   Chronic hepatitis C virus infection [DS:H00413]
+COMMENT     Paritaprevir is an inhibitor and a substrate of P-gp, BCRP and OATP1B1/1B3.
+            Ombitasvir is metabolized by P-gp.
+            Ritonavir is an inhibitor and a substrate of P-gp; it is also an inhibitor of CYP3A4 and BCRP.
+TARGET      HCV NS3/4A protease [KO:K22273 K22274]
+            HCV NS5A [KO:K22275]
+            HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22273+K22274+K22275+K22599)  Viral genome structure
+            ko03240(K22273+K22274+K22275)  Viral replication
+            ko03250(K22599)  Viral life cycle - HIV-1
+            ko05160(K22273+K22274+K22275)  Hepatitis C
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP3A5 [HSA:1577]
+            Transporter: ABCB1 [HSA:5243], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234], ABCG2 [HSA:9429]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234], ABCG2 [HSA:9429]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP53 Ombitasvir, paritaprevir and ritonavir
+                  D10745  Ombitasvir, paritaprevir and ritonavir
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               D10745  Ombitasvir, paritaprevir and ritonavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10745  Ombitasvir, paritaprevir and ritonavir
+              DG02925  CYP3A5 substrate
+               D10745  Ombitasvir, paritaprevir and ritonavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                D10745  Ombitasvir, paritaprevir and ritonavir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               D10745  Ombitasvir, paritaprevir and ritonavir
+              DG01913  ABCG2 substrate
+               D10745  Ombitasvir, paritaprevir and ritonavir
+              DG02856  SLCO1B1 substrate
+               D10745  Ombitasvir, paritaprevir and ritonavir
+              DG02932  SLCO1B3 substrate
+               D10745  Ombitasvir, paritaprevir and ritonavir
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10745  Ombitasvir, paritaprevir and ritonavir
+              DG02862  ABCG2 inhibitor
+               D10745  Ombitasvir, paritaprevir and ritonavir
+              DG02865  SLCO1B1 inhibitor
+               D10745  Ombitasvir, paritaprevir and ritonavir
+              DG02907  SLCO1B3 inhibitor
+               D10745  Ombitasvir, paritaprevir and ritonavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HCV NS3/4A inhibitor
+                D10745  Ombitasvir, paritaprevir and ritonavir
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10745
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10745
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10745
+             Drug transporters
+              D10745
+DBLINKS     PubChem: 254741706
+            ChEBI: 90919
+///

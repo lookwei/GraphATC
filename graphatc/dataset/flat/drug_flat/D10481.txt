@@ -1,0 +1,181 @@
+ENTRY       D10481                      Drug
+NAME        Nintedanib (USAN/INN);
+            Ofev (TN)
+FORMULA     C31H33N5O4
+EXACT_MASS  539.2533
+MOL_WEIGHT  539.6248
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: L01EX09
+            Chemical structure group: DG01374
+            Product (DG01374): D10396<JP/US>
+EFFICACY    Antifibrosis, Tyrosine kinase inhibitor
+TARGET      VEGFR1 (FLT1) [HSA:2321] [KO:K05096]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            VEGFR3 (FLT4) [HSA:2324] [KO:K05097]
+            PDGFR [HSA:5156 5159] [KO:K04363 K05089]
+            FGFR1 (CD331) [HSA:2260] [KO:K04362]
+            FGFR2 (CD332) [HSA:2263] [KO:K05093]
+            FGFR3 (CD333) [HSA:2261] [KO:K05094]
+  PATHWAY   hsa04010(2260+2261+2263+2321+2324+3791+5156+5159)  MAPK signaling pathway
+            hsa04370(3791)  VEGF signaling pathway
+            hsa05200(2260+2261+2263+2324+5156+5159)  Pathways in cancer
+METABOLISM  Enzyme: UGT [KO:K00699]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EX Other protein kinase inhibitors
+                 L01EX09 Nintedanib
+                  D10481  Nintedanib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01374  Nintedanib
+                D10481  Nintedanib
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG01374  Nintedanib
+                D10481  Nintedanib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01374  Nintedanib
+                D10481  Nintedanib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFR
+                 D10481  Nintedanib (USAN/INN)
+               FGFR family
+                FGFR1 (CD331)
+                 D10481  Nintedanib (USAN/INN)
+                FGFR2 (CD332)
+                 D10481  Nintedanib (USAN/INN)
+                FGFR3 (CD333)
+                 D10481  Nintedanib (USAN/INN)
+               VEGFR family
+                VEGFR1 (FLT1)
+                 D10481  Nintedanib (USAN/INN)
+                VEGFR2 (KDR)
+                 D10481  Nintedanib (USAN/INN)
+                VEGFR3 (FLT4)
+                 D10481  Nintedanib (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10481
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10481
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10481
+             Drug transporters
+              D10481
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01374  Nintedanib
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG01374  Nintedanib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01374  Nintedanib
+DBLINKS     CAS: 656247-17-5
+            PubChem: 172232574
+            ChEBI: 85164
+            PDB-CCD: XIN
+ATOM        40
+            1   C8x C    25.2556  -21.4967
+            2   C8x C    24.0008  -20.7996
+            3   C8y C    22.8158  -21.4967
+            4   C8x C    22.8158  -22.8909
+            5   C8x C    24.0008  -23.5880
+            6   C8y C    25.2556  -22.8909
+            7   N1b N    21.6307  -20.8693
+            8   C2c C    20.5153  -21.6361
+            9   C2y C    19.2606  -21.0087
+            10  C8y C    20.5153  -23.0303
+            11  C8x C    19.3303  -23.7274
+            12  C8x C    19.3303  -25.1216
+            13  C8x C    20.5153  -25.8187
+            14  C8x C    21.7701  -25.1216
+            15  C8x C    21.7701  -23.7274
+            16  C5x C    19.0515  -19.6145
+            17  N1x N    17.6572  -19.3357
+            18  C8y C    16.9601  -20.5905
+            19  C8y C    17.9361  -21.6361
+            20  O5x O    20.0273  -18.6387
+            21  C8x C    15.6357  -20.9390
+            22  C8y C    15.2174  -22.2635
+            23  C8x C    16.1933  -23.3091
+            24  C8x C    17.5875  -22.9606
+            25  O7a O    12.8472  -22.2635
+            26  C7a C    14.0323  -22.9606
+            27  O6a O    14.0323  -24.3548
+            28  C1a C    11.6622  -22.9606
+            29  N1c N    26.6100  -23.6985
+            30  C5a C    27.8252  -23.0195
+            31  C1a C    26.5904  -25.0904
+            32  O5a O    28.9896  -23.7139
+            33  C1b C    27.8454  -21.6115
+            34  N1y N    29.0744  -20.9252
+            35  C1x C    30.2440  -21.6231
+            36  C1x C    31.4594  -20.9446
+            37  N1y N    31.4794  -19.5527
+            38  C1x C    30.3098  -18.8548
+            39  C1x C    29.0944  -19.5334
+            40  C1a C    32.7094  -18.8663
+BOND        44
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     6   1 1
+            7     3   7 1
+            8     7   8 1
+            9     8   9 2
+            10    8  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17    9  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21    9  19 1
+            22   16  20 2
+            23   18  21 2
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   19  24 2
+            28   25  26 1
+            29   26  22 1
+            30   26  27 2
+            31   25  28 1
+            32    6  29 1
+            33   29  30 1
+            34   29  31 1
+            35   30  32 2
+            36   30  33 1
+            37   33  34 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   37  38 1
+            42   38  39 1
+            43   34  39 1
+            44   37  40 1
+///

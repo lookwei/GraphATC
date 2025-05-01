@@ -1,0 +1,84 @@
+ENTRY       D08684                      Drug
+NAME        Xylometazoline (INN);
+            Balminil (TN)
+FORMULA     C16H24N2
+EXACT_MASS  244.1939
+MOL_WEIGHT  244.3752
+REMARK      Same as: C07913
+            ATC code: R01AA07 R01AB06 S01GA03
+            Chemical structure group: DG01031
+EFFICACY    Vasoconstrictor, alpha-Adrenergic receptor agonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA07 Xylometazoline
+                  D08684  Xylometazoline (INN)
+                R01AB Sympathomimetics, combinations excl. corticosteroids
+                 R01AB06 Xylometazoline
+                  D08684  Xylometazoline (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01G DECONGESTANTS AND ANTIALLERGICS
+                S01GA Sympathomimetics used as decongestants
+                 S01GA03 Xylometazoline
+                  D08684  Xylometazoline (INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08684  Xylometazoline (INN)
+                ADRA2
+                 D08684  Xylometazoline (INN)
+DBLINKS     CAS: 526-36-3
+            PubChem: 96025367
+            ChEBI: 10082
+            LigandBox: D08684
+            NIKKAJI: J6.660E
+ATOM        18
+            1   C8y C    19.3200  -16.5900
+            2   C8x C    19.3200  -17.9900
+            3   C8y C    20.5100  -18.6900
+            4   C8x C    21.7700  -17.9900
+            5   C8y C    21.7700  -16.5900
+            6   C8y C    20.5100  -15.8900
+            7   C1b C    20.5100  -14.4900
+            8   C2y C    21.7000  -13.7900
+            9   N1x N    23.0300  -14.2100
+            10  C1x C    23.8700  -13.0900
+            11  C1x C    23.0300  -11.9700
+            12  N2x N    21.7000  -12.4600
+            13  C1a C    22.9600  -15.8900
+            14  C1d C    20.5100  -20.0900
+            15  C1a C    18.1300  -15.8900
+            16  C1a C    21.9100  -20.0900
+            17  C1a C    19.1100  -20.0900
+            18  C1a C    20.5100  -21.4900
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    8  12 2
+            14    5  13 1
+            15    3  14 1
+            16    1  15 1
+            17   14  16 1
+            18   14  17 1
+            19   14  18 1
+///

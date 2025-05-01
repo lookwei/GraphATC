@@ -1,0 +1,75 @@
+ENTRY       D04461                      Drug
+NAME        Hydrocodone polistirex (USAN)
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: R05DA03
+            Chemical structure group: DG01075
+            Product (DG01075): D03725<US>
+            Product (mixture): D11075<US> D11076<US>
+EFFICACY    Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565], CYP2B6 [HSA:1555], CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA03 Hydrocodone
+                  D04461  Hydrocodone polistirex (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01075  Hydrocodone
+                 D04461  Hydrocodone polistirex
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG01075  Hydrocodone
+                D04461  Hydrocodone polistirex
+              DG01639  CYP2C19 substrate
+               DG01075  Hydrocodone
+                D04461  Hydrocodone polistirex
+              DG01644  CYP2D6 substrate
+               DG01075  Hydrocodone
+                D04461  Hydrocodone polistirex
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01075  Hydrocodone
+                 D04461  Hydrocodone polistirex
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D04461  Hydrocodone polistirex (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04461
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01075  Hydrocodone
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG01075  Hydrocodone
+              DG01639  CYP2C19 substrate
+               DG01075  Hydrocodone
+              DG01644  CYP2D6 substrate
+               DG01075  Hydrocodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01075  Hydrocodone
+DBLINKS     PubChem: 47206323
+///

@@ -1,0 +1,180 @@
+ENTRY       D00599                      Drug
+NAME        Carteolol hydrochloride (JP18/USP);
+            Cartrol (TN);
+            Ocupress (TN)
+PRODUCT
+  GENERIC   CARTEOLOL HYDROCHLORIDE (Sandoz)
+FORMULA     C16H24N2O3. HCl
+EXACT_MASS  328.1554
+MOL_WEIGHT  328.8343
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+             DG03231  Antihypertensive
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 1319 2123 2149
+            ATC code: C07AA15 S01ED05
+            Chemical structure group: DG00308
+            Product (DG00308): D00599<JP/US>
+            Product (mixture): D10804<JP>
+EFFICACY    Antiglaucoma, Antiarrhythmic, Antihypertensive, beta-Adrenergic receptor antagonist
+  DISEASE   Chronic open-angle glaucoma [DS:H00612]
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04022(153+154+155)  cGMP-PKG signaling pathway
+            hsa04024(153+154)  cAMP signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04540(153)  Gap junction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA15 Carteolol
+                  D00599  Carteolol hydrochloride (JP18/USP) &lt;JP/US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01ED Beta blocking agents
+                 S01ED05 Carteolol
+                  D00599  Carteolol hydrochloride (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Ophthalmic Agents
+              Intraocular Pressure Lowering Agents
+               Beta-adrenergic Blocking Agents, Ophthalmic
+                Carteolol
+                 D00599  Carteolol hydrochloride (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1319  Others
+                 D00599  Carteolol hydrochloride (JP18/USP)
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               212  Antiarrhythmic agents
+                2123  Beta blockers
+                 D00599  Carteolol hydrochloride (JP18/USP)
+               214  Antihypertensives
+                2149  Others
+                 D00599  Carteolol hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00308  Carteolol
+                 D00599  Carteolol hydrochloride
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00308  Carteolol
+                 D00599  Carteolol hydrochloride
+              DG03231  Antihypertensive
+               DG00308  Carteolol
+                D00599  Carteolol hydrochloride
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG00308  Carteolol
+                D00599  Carteolol hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00308  Carteolol
+                D00599  Carteolol hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00599  Carteolol hydrochloride
+              DG01653  Antiarrhythmics
+               D00599  Carteolol hydrochloride
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D00599  Carteolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D00599  Carteolol hydrochloride (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00599  Carteolol hydrochloride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00599
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00308  Carteolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00308  Carteolol
+              DG03231  Antihypertensive
+               DG00308  Carteolol
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG00308  Carteolol
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00308  Carteolol
+DBLINKS     CAS: 51781-21-6
+            PubChem: 7847665
+            ChEBI: 3438
+            LigandBox: D00599
+            NIKKAJI: J299.331G
+ATOM        22
+            1   X   Cl   34.1717  -16.9041
+            2   C1x C    24.1844  -15.2181
+            3   C5x C    24.1844  -16.6229
+            4   N1x N    25.4010  -17.3254
+            5   C8y C    26.6177  -16.6229
+            6   C8y C    26.6177  -15.2181
+            7   C1x C    25.4010  -14.5157
+            8   C8x C    27.8343  -17.3254
+            9   C8x C    29.0509  -16.6229
+            10  C8x C    29.0509  -15.2181
+            11  C8y C    27.8343  -14.5157
+            12  O5x O    22.9678  -17.3254
+            13  O2a O    27.8343  -13.1108
+            14  C1b C    29.0530  -12.4072
+            15  C1c C    30.2536  -13.1006
+            16  C1b C    31.4445  -12.4130
+            17  O1a O    30.2537  -14.5154
+            18  N1b N    32.6401  -13.1036
+            19  C1d C    33.8337  -12.4145
+            20  C1a C    35.0333  -11.7219
+            21  C1a C    34.5265  -13.6153
+            22  C1a C    33.1223  -11.1820
+BOND        22
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     5   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11    6  11 2
+            12    3  12 2
+            13   11  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   15  17 1
+            18   16  18 1
+            19   18  19 1
+            20   19  20 1
+            21   19  21 1
+            22   19  22 1
+///

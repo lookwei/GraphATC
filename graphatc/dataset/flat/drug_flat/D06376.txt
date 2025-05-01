@@ -1,0 +1,64 @@
+ENTRY       D06376                      Drug
+NAME        Zolamine hydrochloride (USAN)
+FORMULA     C15H21N3OS. HCl
+EXACT_MASS  327.1172
+MOL_WEIGHT  327.8727
+EFFICACY    Anesthetic (topical), Antiallergic, Antihistaminic
+COMMENT     Component of Otodyne (TN)
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D06376  Zolamine hydrochloride (USAN)
+DBLINKS     CAS: 1155-03-9
+            PubChem: 47208033
+            LigandBox: D06376
+ATOM        21
+            1   C8x C     7.9800  -15.2600
+            2   C8x C     7.9800  -16.6600
+            3   N5x N     9.3115  -17.0926
+            4   C8y C    10.1344  -15.9600
+            5   S2x S     9.3115  -14.8274
+            6   N1c N    11.5500  -15.9600
+            7   C1b C    12.2500  -17.1724
+            8   C1b C    12.2500  -14.7476
+            9   C8y C    13.6498  -14.7476
+            10  C1b C    13.6498  -17.1724
+            11  N1c N    14.3403  -18.3680
+            12  C1a C    15.7497  -18.3680
+            13  C1a C    13.6548  -19.5552
+            14  C8x C    14.3597  -15.9768
+            15  C8x C    15.7597  -15.9766
+            16  C8y C    16.4596  -14.7641
+            17  C8x C    15.7497  -13.5349
+            18  C8x C    14.3497  -13.5351
+            19  O2a O    17.8500  -14.7640
+            20  C1a C    18.5473  -13.5560
+            21  X   Cl   20.5100  -17.5700
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     1   5 1
+            6     4   6 1
+            7     6   7 1
+            8     6   8 1
+            9     8   9 1
+            10    7  10 1
+            11   10  11 1
+            12   11  12 1
+            13   11  13 1
+            14    9  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19    9  18 1
+            20   16  19 1
+            21   19  20 1
+///

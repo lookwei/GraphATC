@@ -1,0 +1,141 @@
+ENTRY       D10179                      Drug
+NAME        Trelagliptin succinate (JAN/USAN);
+            Zafatek (TN)
+FORMULA     C18H20FN5O2. C4H6O4
+EXACT_MASS  475.1867
+MOL_WEIGHT  475.4701
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01601  DPP-4 inhibitor
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 3969
+            Chemical structure group: DG01284
+            Product (DG01284): D10179<JP>
+EFFICACY    Antidiabetic, Dipeptidyl peptidase-4 (DPP-4) inhibitor
+  DISEASE   Type 2 diabetes mellitus [DS:H00409]
+COMMENT     Treatment of type 2 diabetes
+TARGET      DPP4 (CD26) [HSA:1803] [KO:K01278]
+  PATHWAY   hsa04974(1803)  Protein digestion and absorption
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3969  Others
+                 D10179  Trelagliptin succinate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01284  Trelagliptin
+                 D10179  Trelagliptin succinate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01284  Trelagliptin
+                D10179  Trelagliptin succinate
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01601  DPP-4 inhibitor
+               D10179  Trelagliptin succinate
+              DG02044  Hypoglycemic agent
+               D10179  Trelagliptin succinate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-peptidases
+                DPP4 (CD26)
+                 D10179  Trelagliptin succinate (JAN/USAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10179
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10179
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10179
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01284  Trelagliptin
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01284  Trelagliptin
+DBLINKS     CAS: 1029877-94-8
+            PubChem: 135626897
+            LigandBox: D10179
+ATOM        34
+            1   C8x C    26.1100  -23.5200
+            2   C8y C    26.1100  -24.9200
+            3   N4y N    24.9200  -25.6200
+            4   C8y C    23.6600  -24.9200
+            5   N4y N    23.6600  -23.5200
+            6   C8y C    24.9200  -22.8200
+            7   C1b C    22.4000  -22.8200
+            8   C8y C    21.2100  -23.5200
+            9   C8x C    21.2100  -24.9200
+            10  C8y C    19.9500  -25.6200
+            11  C8x C    18.7600  -24.9200
+            12  C8x C    18.7600  -23.5200
+            13  C8y C    19.9500  -22.8200
+            14  C3b C    19.9500  -21.4200
+            15  X   F    19.9500  -27.0200
+            16  C1a C    24.9200  -27.0200
+            17  O5x O    27.3000  -25.6200
+            18  O5x O    22.4000  -25.6200
+            19  N1y N    24.9200  -21.4200
+            20  C1x C    23.7300  -20.7200
+            21  C1y C    23.7300  -19.3200
+            22  C1x C    24.9200  -18.6200
+            23  C1x C    26.1100  -19.3200
+            24  C1x C    26.1100  -20.7200
+            25  N3a N    19.9500  -20.0200
+            26  N1a N    22.4700  -18.6200
+            27  O6a O    28.4200  -21.9800
+            28  C6a C    29.6324  -22.6800
+            29  C1b C    30.8279  -21.9896
+            30  C1b C    32.0153  -22.6751
+            31  C6a C    33.2065  -21.9871
+            32  O6a O    34.3960  -22.6738
+            33  O6a O    33.2065  -20.5803
+            34  O6a O    29.6325  -24.0798
+BOND        35
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   13  14 1
+            16   10  15 1
+            17    3  16 1
+            18    2  17 2
+            19    4  18 2
+            20    6  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   19  24 1
+            27   14  25 3
+            28   21  26 1 #Down
+            29   27  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   31  33 2
+            35   28  34 2
+///

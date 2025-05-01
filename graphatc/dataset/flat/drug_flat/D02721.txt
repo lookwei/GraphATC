@@ -1,0 +1,146 @@
+ENTRY       D02721                      Drug
+NAME        Iloprost (USAN/INN);
+            Ventavis (TN)
+PRODUCT     VENTAVIS (Actelion Pharmaceuticals US)
+FORMULA     C22H32O4
+EXACT_MASS  360.2301
+MOL_WEIGHT  360.4871
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+            Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01810  Prostacycline derivative
+REMARK      Therapeutic category: 2190
+            ATC code: B01AC11
+            Chemical structure group: DG00158
+            Product (DG00158): D02721<JP/US>
+EFFICACY    Antihypertensive, Platelet aggregation inhibitor, Prostaglandin I2 receptor agonist
+  DISEASE   Pulmonary arterial hypertension [DS:H01621]
+COMMENT     Prostacycline derivative
+            Treatment of pulmonary hypertension
+TARGET      PTGIR [HSA:5739] [KO:K04263]
+  PATHWAY   hsa04080(5739)  Neuroactive ligand-receptor interaction
+            hsa04270(5739)  Vascular smooth muscle contraction
+            hsa04611(5739)  Platelet activation
+INTERACTION  
+STR_MAP     map07034  Eicosanoids
+            map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC11 Iloprost
+                  D02721  Iloprost (USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Pulmonary Antihypertensives
+               Prostacyclin Vasodilators
+                Iloprost
+                 D02721  Iloprost (USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D02721  Iloprost (USAN/INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG00158  Iloprost
+                 D02721  Iloprost
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01810  Prostacycline derivative
+                DG00158  Iloprost
+                 D02721  Iloprost
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostacyclin
+                PTGIR
+                 D02721  Iloprost (USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D02721
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D02721
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D02721
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D02721
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG00158  Iloprost
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01810  Prostacycline derivative
+                DG00158  Iloprost
+DBLINKS     CAS: 78919-13-8
+            PubChem: 17396888
+            ChEBI: 63916
+            LigandBox: D02721
+            NIKKAJI: J685.840F
+ATOM        26
+            1   C1x C     8.0500  -25.0600
+            2   C1y C     8.8900  -26.1800
+            3   C1y C    10.2200  -25.6900
+            4   C1y C    10.2200  -24.2900
+            5   C1y C     8.8900  -23.8700
+            6   O1a O     8.4000  -27.5100
+            7   C1x C    11.0600  -23.1700
+            8   C2y C    10.2200  -22.0500
+            9   C1x C     8.8900  -22.4700
+            10  C2b C    11.4800  -26.3900
+            11  C2b C    12.6700  -25.6900
+            12  C1c C    13.8600  -26.3900
+            13  C1c C    15.0500  -25.7600
+            14  C1b C    16.2400  -26.3900
+            15  C1a C    15.0500  -24.2900
+            16  C3b C    17.4300  -25.7600
+            17  C3b C    18.6900  -25.0600
+            18  C1a C    19.8800  -24.3600
+            19  O1a O    13.8600  -27.8600
+            20  C2b C    10.6480  -20.7170
+            21  C1b C     9.7055  -19.6775
+            22  C1b C     8.3621  -19.9679
+            23  C1b C     7.3986  -18.9047
+            24  C6a C     6.0516  -19.1956
+            25  O6a O     5.0897  -18.1338
+            26  O6a O     5.6246  -20.5230
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     2   6 1 #Down
+            7     4   7 1 #Down
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1 #Down
+            11    3  10 1 #Up
+            12   10  11 2
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   13  15 1
+            17   14  16 1
+            18   16  17 3
+            19   17  18 1
+            20   12  19 1 #Down
+            21    8  20 2
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   24  26 2
+///

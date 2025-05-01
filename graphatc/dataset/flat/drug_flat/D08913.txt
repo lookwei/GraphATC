@@ -1,0 +1,103 @@
+ENTRY       D08913                      Drug
+NAME        Eribaxaban (USAN)
+FORMULA     C24H22ClFN4O4
+EXACT_MASS  484.1314
+MOL_WEIGHT  484.9073
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01662  Factor Xa inhibitor
+EFFICACY    Antithrombotic, Factor Xa inhibitor
+COMMENT     Treatment of thromboembolic disorders
+TARGET      F10 [HSA:2159] [KO:K01314]
+  PATHWAY   hsa04610(2159)  Complement and coagulation cascades
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01662  Factor Xa inhibitor
+                D08913  Eribaxaban
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                F10
+                 D08913  Eribaxaban (USAN)
+DBLINKS     CAS: 536748-46-6
+            PubChem: 96025596
+            ChEBI: 140420
+            PDB-CCD: 230
+            LigandBox: D08913
+ATOM        34
+            1   C8x C    17.3718  -14.7105
+            2   C8y C    17.3718  -16.1114
+            3   C8x C    18.5850  -16.8119
+            4   C8y C    19.7984  -16.1114
+            5   C8y C    19.7984  -14.7105
+            6   C8x C    18.5850  -14.0100
+            7   N1b N    21.0303  -13.9990
+            8   C5a C    22.2363  -14.6952
+            9   C1y C    23.4194  -14.0119
+            10  N1y N    24.6788  -14.5726
+            11  C1x C    25.6013  -13.5480
+            12  C1y C    24.9120  -12.3541
+            13  C1x C    23.5635  -12.6408
+            14  C5a C    24.6788  -15.9735
+            15  N1b N    25.8920  -16.6740
+            16  C8y C    27.1253  -15.9618
+            17  C8x C    28.3299  -16.6572
+            18  C8x C    29.5431  -15.9567
+            19  C8y C    29.5431  -14.5558
+            20  C8x C    28.3384  -13.8603
+            21  C8x C    27.1252  -14.5609
+            22  X   Cl   30.7625  -13.8515
+            23  O5a O    23.4501  -16.6831
+            24  O5a O    22.2368  -16.1110
+            25  X   F    21.0303  -16.8229
+            26  N4y N    16.1586  -16.8119
+            27  C8x C    14.9623  -16.1210
+            28  C8x C    13.7490  -16.8213
+            29  C8x C    13.7488  -18.2222
+            30  C8x C    14.9451  -18.9131
+            31  C8y C    16.1584  -18.2128
+            32  O5x O    17.3884  -18.9233
+            33  O2a O    25.4955  -11.0438
+            34  C1a C    26.8708  -10.8995
+BOND        37
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     9   8 1 #Up
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    9  13 1
+            15   10  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   16  21 1
+            24   19  22 1
+            25   14  23 2
+            26    8  24 2
+            27    4  25 1
+            28    2  26 1
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   30  31 1
+            34   26  31 1
+            35   31  32 2
+            36   12  33 1 #Up
+            37   33  34 1
+///

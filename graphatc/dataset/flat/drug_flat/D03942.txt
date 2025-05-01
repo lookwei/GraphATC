@@ -1,0 +1,104 @@
+ENTRY       D03942                      Drug
+NAME        Edatrexate (USAN/INN)
+FORMULA     C22H25N7O5
+EXACT_MASS  467.1917
+MOL_WEIGHT  467.4778
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01978  Folic acid analog
+               DG01930  Dihydrofolate reductase inhibitor
+EFFICACY    Antineoplastic, Antimetabolite
+TARGET      DHFR [HSA:1719 200895] [KO:K00287]
+  PATHWAY   hsa00670(1719+200895)  One carbon pool by folate
+            hsa00790(1719+200895)  Folate biosynthesis
+INTERACTION  
+OTHER_MAP   map01523  Antifolate resistance
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01978  Folic acid analog
+                DG01930  Dihydrofolate reductase inhibitor
+                 D03942  Edatrexate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dihydrofolate reductase
+                DHFR
+                 D03942  Edatrexate (USAN/INN)
+DBLINKS     CAS: 80576-83-6
+            PubChem: 47205930
+            LigandBox: D03942
+            NIKKAJI: J153.931K
+ATOM        34
+            1   C8y C    22.8200  -18.2700
+            2   C8y C    22.8200  -16.8700
+            3   N5x N    24.0800  -18.9700
+            4   C8y C    21.6300  -18.9700
+            5   N5x N    24.0800  -16.1700
+            6   N5x N    21.6300  -16.1700
+            7   C8y C    25.3400  -18.2700
+            8   N5x N    20.5100  -18.2700
+            9   N1a N    21.6300  -20.3700
+            10  C8x C    25.3400  -16.8700
+            11  C8y C    20.5100  -16.8700
+            12  C1b C    26.5300  -18.9700
+            13  N1a N    19.3200  -16.1700
+            14  C1c C    27.7200  -18.2700
+            15  C1b C    27.7200  -16.9400
+            16  C1a C    28.9800  -16.2400
+            17  C8y C    28.9800  -18.9700
+            18  C8x C    28.9800  -20.4400
+            19  C8x C    30.1700  -21.1400
+            20  C8y C    31.4300  -20.3700
+            21  C8x C    31.4300  -18.9700
+            22  C8x C    30.1700  -18.2700
+            23  C5a C    32.6200  -21.0700
+            24  N1b N    33.8100  -20.4400
+            25  O5a O    32.6200  -22.5400
+            26  C1c C    34.9300  -21.1400
+            27  C1b C    36.1900  -20.5100
+            28  C1b C    37.3800  -21.2800
+            29  C6a C    35.0000  -22.6100
+            30  O6a O    33.7400  -23.2400
+            31  O6a O    36.1200  -23.3100
+            32  C6a C    38.6400  -20.5800
+            33  O6a O    39.8300  -21.3500
+            34  O6a O    38.7100  -19.2500
+BOND        36
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     4   9 1
+            9     5  10 2
+            10    6  11 2
+            11    7  12 1
+            12   11  13 1
+            13   12  14 1
+            14    7  10 1
+            15    8  11 1
+            16   14  15 1
+            17   15  16 1
+            18   14  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   20  23 1
+            26   23  24 1
+            27   23  25 2
+            28   24  26 1
+            29   26  27 1
+            30   27  28 1
+            31   26  29 1 #Up
+            32   29  30 2
+            33   29  31 1
+            34   28  32 1
+            35   32  33 1
+            36   32  34 2
+///

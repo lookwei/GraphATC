@@ -1,0 +1,75 @@
+ENTRY       D04748                      Drug
+NAME        Lisofylline (USAN/INN);
+            ProTec (TN)
+FORMULA     C13H20N4O3
+EXACT_MASS  280.1535
+MOL_WEIGHT  280.3229
+CLASS       Immunological agent
+             DG02019  Interleukin inhibitor
+            Respiratory system agent
+             DG01616  Xanthine derivative
+EFFICACY    Immunomodulator
+TARGET      IL12 [HSA:3592 3593] [KO:K05406 K05425]
+  PATHWAY   hsa04940(3592+3593)  Type I diabetes mellitus
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Immunological agent
+              DG02019  Interleukin inhibitor
+               D04748  Lisofylline
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               D04748  Lisofylline
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokines
+               Interleukins
+                IL12
+                 D04748  Lisofylline (USAN/INN)
+DBLINKS     CAS: 100324-81-0
+            PubChem: 47206567
+            ChEBI: 143527
+            LigandBox: D04748
+ATOM        20
+            1   C8y C    37.8781  -24.9679
+            2   C8y C    37.8781  -26.3931
+            3   C8y C    39.0813  -24.2611
+            4   N4y N    36.5754  -24.5357
+            5   N4y N    39.0813  -27.0767
+            6   N5x N    36.5754  -26.8254
+            7   N4y N    40.3022  -24.9971
+            8   O5x O    39.0813  -22.8825
+            9   C8x C    35.7576  -25.6922
+            10  C1a C    36.1374  -23.2096
+            11  C8y C    40.3022  -26.3406
+            12  C1a C    39.0813  -28.5077
+            13  C1b C    41.5170  -24.3078
+            14  O5x O    41.5522  -27.0416
+            15  C1b C    42.7205  -25.0030
+            16  C1b C    43.9296  -24.3021
+            17  C1b C    45.1329  -25.0030
+            18  C1c C    46.3419  -24.3021
+            19  C1a C    47.5511  -25.0030
+            20  O1a O    46.3412  -22.8713
+BOND        21
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    7  13 1
+            13   11  14 2
+            14   13  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19    6   9 2
+            20    7  11 1
+            21   18  20 1 #Down
+///

@@ -1,0 +1,165 @@
+ENTRY       D09666                      Drug
+NAME        Selumetinib (USAN/INN)
+FORMULA     C17H15BrClFN4O3
+EXACT_MASS  456
+MOL_WEIGHT  457.6814
+CLASS       Antineoplastic
+             DG03137  MEK inhibitor
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG02855  CYP2E1 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+             DG02924  UGT substrate
+              DG03183  UGT1A1 substrate
+              DG03184  UGT1A3 substrate
+REMARK      ATC code: L01EE04
+            Chemical structure group: DG01414
+            Product (DG01414): D10024<JP/US>
+EFFICACY    Antineoplastic, Mitogen-activated extracellular signal-regulated kinase (MEK) inhibitor
+TARGET      MAP2K1 (MEK1) [HSA:5604] [KO:K04368]
+            MAP2K2 (MEK2) [HSA:5605] [KO:K04369]
+  PATHWAY   hsa04010(5604+5605)  MAPK signaling pathway
+            hsa04012(5604+5605)  ErbB signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], UGT1A1 [HSA:54658], UGT1A3 [HSA:54659]; CYP2C19 [HSA:1557], CYP1A2 [HSA:1544], CYP2C9 [HSA:1559], CYP2E1 [HSA:1571], CYP3A5 [HSA:1577]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EE Mitogen-activated protein kinase (MEK) inhibitors
+                 L01EE04 Selumetinib
+                  D09666  Selumetinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03137  MEK inhibitor
+               DG01414  Selumetinib
+                D09666  Selumetinib
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01414  Selumetinib
+                D09666  Selumetinib
+              DG01642  CYP2C9 substrate
+               DG01414  Selumetinib
+                D09666  Selumetinib
+              DG01639  CYP2C19 substrate
+               DG01414  Selumetinib
+                D09666  Selumetinib
+              DG02855  CYP2E1 substrate
+               DG01414  Selumetinib
+                D09666  Selumetinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01414  Selumetinib
+                 D09666  Selumetinib
+              DG02925  CYP3A5 substrate
+               DG01414  Selumetinib
+                D09666  Selumetinib
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                DG01414  Selumetinib
+                 D09666  Selumetinib
+               DG03184  UGT1A3 substrate
+                DG01414  Selumetinib
+                 D09666  Selumetinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               STE group
+                MAP2K1 (MEK1)
+                 D09666  Selumetinib (USAN/INN)
+                MAP2K2 (MEK2)
+                 D09666  Selumetinib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09666
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03137  MEK inhibitor
+               DG01414  Selumetinib
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG01414  Selumetinib
+              DG01642  CYP2C9 substrate
+               DG01414  Selumetinib
+              DG01639  CYP2C19 substrate
+               DG01414  Selumetinib
+              DG02855  CYP2E1 substrate
+               DG01414  Selumetinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01414  Selumetinib
+              DG02925  CYP3A5 substrate
+               DG01414  Selumetinib
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                DG01414  Selumetinib
+               DG03184  UGT1A3 substrate
+                DG01414  Selumetinib
+DBLINKS     CAS: 606143-52-6
+            PubChem: 124490406
+            ChEBI: 90227
+            PDB-CCD: 3EW
+            LigandBox: D09666
+ATOM        27
+            1   C8y C    27.5800  -23.9400
+            2   C8y C    27.5800  -25.3400
+            3   C8x C    26.3900  -26.0400
+            4   C8y C    25.1300  -25.3400
+            5   C8y C    25.1300  -23.9400
+            6   C8y C    26.3900  -23.2400
+            7   N5x N    28.9100  -23.5200
+            8   C8x C    29.7500  -24.6400
+            9   N4y N    28.9100  -25.8300
+            10  X   F    26.3900  -21.8400
+            11  N1b N    23.9400  -23.2400
+            12  C5a C    23.9400  -26.1100
+            13  N1b N    22.6800  -25.4100
+            14  O5a O    23.9400  -27.5100
+            15  O2a O    21.5600  -26.0400
+            16  C1b C    20.3000  -25.4100
+            17  C8y C    23.9400  -21.8400
+            18  C8y C    22.7500  -21.1400
+            19  C8x C    22.7500  -19.7400
+            20  C8y C    23.9400  -19.0400
+            21  C8x C    25.1300  -19.7400
+            22  C8x C    25.1300  -21.1400
+            23  X   Br   23.9400  -17.6400
+            24  X   Cl   21.4900  -21.8400
+            25  C1a C    29.3300  -27.1600
+            26  C1b C    19.1100  -26.0400
+            27  O1a O    17.9200  -25.4100
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 2
+            9     8   9 1
+            10    2   9 1
+            11    6  10 1
+            12    5  11 1
+            13    4  12 1
+            14   12  13 1
+            15   12  14 2
+            16   13  15 1
+            17   15  16 1
+            18   11  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   20  23 1
+            26   18  24 1
+            27    9  25 1
+            28   16  26 1
+            29   26  27 1
+///

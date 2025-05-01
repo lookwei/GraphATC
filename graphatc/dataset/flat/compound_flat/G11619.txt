@@ -1,0 +1,28 @@
+ENTRY       G11619                      Glycan
+NAME        Arabinoxylan
+COMPOSITION (LAra)2 (Xyl)3 (*)2
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G11619  Arabinoxylan
+DBLINKS     GlyTouCan: G64481ZQ
+NODE        7
+            1   *          15     3
+            2   Xyl         8     3
+            3   LAra        2    -2
+            4   Xyl         0     3
+            5   LAra       -7    -2
+            6   Xyl        -8     3
+            7   *         -15     3
+EDGE        6
+            1     2:b1    1    
+            2     3:a1    2:2  
+            3     4:b1    2:4  
+            4     5:a1    4:3  
+            5     6:b1    4:4  
+            6     7       6:4  
+BRACKET     1 -11.0   5.0 -11.0  -4.0
+            1  13.0  -4.0  13.0   5.0
+            1 n
+///

@@ -1,0 +1,158 @@
+ENTRY       D08435                      Drug
+NAME        Propafenone (INN);
+            Propafenon hexal (TN)
+FORMULA     C21H27NO3
+EXACT_MASS  341.1991
+MOL_WEIGHT  341.444
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01650  Class Ic antiarrhythmic agent
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07381
+            ATC code: C01BC03
+            Chemical structure group: DG00200
+            Product (DG00200): D00640<JP/US>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576], CYP1A2 [HSA:1544]
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BC Antiarrhythmics, class Ic
+                 C01BC03 Propafenone
+                  D08435  Propafenone (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01650  Class Ic antiarrhythmic agent
+                 DG00200  Propafenone
+                  D08435  Propafenone
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00200  Propafenone
+                D08435  Propafenone
+              DG01644  CYP2D6 substrate
+               DG00200  Propafenone
+                D08435  Propafenone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00200  Propafenone
+                 D08435  Propafenone
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D08435  Propafenone (INN)
+                SCN2A
+                 D08435  Propafenone (INN)
+                SCN3A
+                 D08435  Propafenone (INN)
+                SCN4A
+                 D08435  Propafenone (INN)
+                SCN5A
+                 D08435  Propafenone (INN)
+                SCN8A
+                 D08435  Propafenone (INN)
+                SCN9A
+                 D08435  Propafenone (INN)
+                SCN10A
+                 D08435  Propafenone (INN)
+                SCN11A
+                 D08435  Propafenone (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08435
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01650  Class Ic antiarrhythmic agent
+                 DG00200  Propafenone
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00200  Propafenone
+              DG01644  CYP2D6 substrate
+               DG00200  Propafenone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00200  Propafenone
+DBLINKS     CAS: 54063-53-5
+            PubChem: 96025121
+            ChEBI: 63619
+            LigandBox: D08435
+            NIKKAJI: J12.333A
+ATOM        25
+            1   C8y C    27.2300  -18.2700
+            2   C8y C    27.2300  -19.6700
+            3   O2a O    25.9700  -17.5700
+            4   C8x C    28.4200  -17.5700
+            5   C5a C    25.9700  -20.3700
+            6   C8x C    28.4200  -20.3700
+            7   C1b C    25.9700  -16.1700
+            8   C8x C    29.6100  -18.2700
+            9   C1b C    24.7800  -19.6700
+            10  O5a O    25.9700  -21.7700
+            11  C8x C    29.6100  -19.6700
+            12  C1c C    24.7800  -15.4700
+            13  C1b C    23.5900  -20.4400
+            14  C1b C    23.5900  -16.1700
+            15  O1a O    24.7800  -14.0700
+            16  C8y C    22.4000  -19.7400
+            17  N1b N    22.4000  -15.4700
+            18  C8x C    22.4000  -18.3400
+            19  C8x C    21.1400  -20.4400
+            20  C1b C    21.1400  -16.2400
+            21  C8x C    21.1400  -17.6400
+            22  C8x C    19.9500  -19.7400
+            23  C1b C    19.9500  -15.5400
+            24  C8x C    19.9500  -18.3400
+            25  C1a C    18.7600  -16.2400
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 2
+            10    6  11 1
+            11    7  12 1
+            12    9  13 1
+            13   12  14 1
+            14   12  15 1
+            15   13  16 1
+            16   14  17 1
+            17   16  18 2
+            18   16  19 1
+            19   17  20 1
+            20   18  21 1
+            21   19  22 2
+            22   20  23 1
+            23   21  24 2
+            24   23  25 1
+            25    8  11 2
+            26   22  24 1
+///

@@ -1,0 +1,52 @@
+ENTRY       D10640                      Drug
+NAME        Indoximod (USAN/INN)
+FORMULA     C12H14N2O2
+EXACT_MASS  218.1055
+MOL_WEIGHT  218.2518
+EFFICACY    Antineoplastic
+TARGET      IDO [HSA:3620 169355] [KO:K00463]
+  PATHWAY   hsa00380(169355+3620)  Tryptophan metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dioxygenases
+                IDO
+                 D10640  Indoximod (USAN/INN)
+DBLINKS     CAS: 110117-83-4
+            PubChem: 254741601
+ATOM        16
+            1   C8y C    17.0306  -15.4043
+            2   C8y C    18.3668  -15.6856
+            3   C8y C    16.3274  -16.5999
+            4   C8x C    16.3274  -14.1384
+            5   C1b C    19.4217  -14.8417
+            6   C8x C    18.4372  -17.0921
+            7   N4y N    17.1713  -17.6548
+            8   C8x C    14.8505  -16.5999
+            9   C8x C    14.9208  -14.1384
+            10  C1c C    20.6876  -15.4746
+            11  C8x C    14.1472  -15.4043
+            12  C6a C    21.8832  -14.8417
+            13  O6a O    23.0787  -15.5450
+            14  O6a O    21.8832  -13.4352
+            15  C1a C    16.8897  -18.9910
+            16  N1a N    20.6876  -16.8812
+BOND        17
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    8  11 2
+            11   10  12 1
+            12   12  13 1
+            13   12  14 2
+            14    6   7 1
+            15    9  11 1
+            16    7  15 1
+            17   10  16 1 #Down
+///

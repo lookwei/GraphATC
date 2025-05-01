@@ -1,0 +1,53 @@
+ENTRY       D04282                      Drug
+NAME        Gaboxadol (USAN/INN)
+FORMULA     C6H8N2O2
+EXACT_MASS  140.0586
+MOL_WEIGHT  140.1399
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+REMARK      Same as: C13693
+EFFICACY    Hypnotic
+COMMENT     Treatment of insomnia
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D04282  Gaboxadol
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D04282  Gaboxadol (USAN/INN)
+DBLINKS     CAS: 64603-91-4
+            PubChem: 47206216
+            ChEBI: 34373
+            PDB-CCD: EI7
+            LigandBox: D04282
+            NIKKAJI: J23.621G
+ATOM        10
+            1   C8y C    11.6200  -16.8700
+            2   C8y C    13.0200  -16.8700
+            3   N4x N    13.4526  -15.5385
+            4   O2x O    12.3200  -14.7156
+            5   C8y C    11.1874  -15.5385
+            6   O5x O    13.7200  -18.0824
+            7   C1x C     9.8180  -15.2474
+            8   N1x N     8.8812  -16.2878
+            9   C1x C     9.3138  -17.6193
+            10  C1x C    10.6832  -17.9104
+BOND        11
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     2   6 2
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    1  10 1
+///

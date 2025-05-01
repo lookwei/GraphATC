@@ -1,0 +1,62 @@
+ENTRY       C00329                      Compound
+NAME        D-Glucosamine;
+            Chitosamine;
+            2-Amino-2-deoxy-D-glucose
+FORMULA     C6H13NO5
+EXACT_MASS  179.0794
+MOL_WEIGHT  179.1711
+REMARK      Same as: D04334
+REACTION    R01200 R01204 R01961 R01962 R01963 R01964 R01965 R01966 
+            R02631 R06225 R08715 R12594
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+            map01250  Biosynthesis of nucleotide sugars
+            map02060  Phosphotransferase system (PTS)
+ENZYME      1.1.3.-         2.3.1.3         2.7.1.1         2.7.1.8         
+            2.7.1.147       2.7.1.-         3.2.1.165       3.5.1.33        
+            3.10.1.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Amino sugars
+                C00329  D-Glucosamine
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D04334)]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AX Other antiinflammatory and antirheumatic agents, non-steroids
+                 M01AX05 Glucosamine
+                  D04334  Glucosamine (USAN/INN)
+DBLINKS     CAS: 3416-24-8
+            PubChem: 3623
+            ChEBI: 47977
+            PDB-CCD: GCS PA1
+            3DMET: B04670
+            NIKKAJI: J10.582A
+ATOM        12
+            1   C1y C    20.9196  -13.5286
+            2   C1y C    20.9196  -14.9268
+            3   O2x O    22.1255  -12.8238
+            4   C1b C    19.7137  -12.8238
+            5   C1y C    22.1255  -15.6317
+            6   O1a O    19.7137  -15.6317
+            7   C1y C    23.3431  -13.5286
+            8   O1a O    18.6475  -13.7326
+            9   C1y C    23.3431  -14.9268
+            10  O1a O    22.1313  -17.0299
+            11  O1a O    24.5548  -12.8238
+            12  N1a N    24.5548  -15.6317
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Either
+            11    9  12 1 #Down
+            12    7   9 1
+///

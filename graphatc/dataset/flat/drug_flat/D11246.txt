@@ -1,0 +1,94 @@
+ENTRY       D11246                      Drug
+NAME        Dapivirine (USAN/INN)
+FORMULA     C20H19N5
+EXACT_MASS  329.164
+MOL_WEIGHT  329.3984
+CLASS       Antiviral
+             DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+REMARK      ATC code: G01AX17
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+COMMENT     HIV transmission prevention
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G01 GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+               G01A ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS
+                G01AX Other antiinfectives and antiseptics
+                 G01AX17 Dapivirine
+                  D11246  Dapivirine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+               D11246  Dapivirine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D11246  Dapivirine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D11246  Dapivirine (USAN/INN)
+DBLINKS     CAS: 244767-67-7
+            PubChem: 384585224
+            PDB-CCD: TPB
+ATOM        25
+            1   C8y C    13.7464  -15.1490
+            2   C8x C    13.7464  -16.5516
+            3   C8y C    14.9387  -17.2530
+            4   C8y C    16.2011  -16.5516
+            5   C8y C    16.2011  -15.1490
+            6   C8x C    14.9387  -14.4476
+            7   N1b N    17.3934  -17.2530
+            8   C8y C    18.6558  -16.5516
+            9   N5x N    19.7779  -17.2530
+            10  C8y C    21.0404  -16.5516
+            11  N5x N    21.0404  -15.1490
+            12  C8x C    19.8481  -14.4476
+            13  C8x C    18.6558  -15.1490
+            14  N1b N    22.3028  -17.2530
+            15  C8y C    23.4950  -16.5516
+            16  C8x C    24.6873  -17.2530
+            17  C8x C    25.8796  -16.5516
+            18  C8y C    25.8796  -15.1490
+            19  C8x C    24.6873  -14.4476
+            20  C8x C    23.4950  -15.1490
+            21  C1a C    17.3934  -14.4476
+            22  C3b C    27.1420  -14.4476
+            23  N3a N    28.3343  -13.7463
+            24  C1a C    12.5541  -14.4476
+            25  C1a C    14.9387  -18.6557
+BOND        27
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 2
+            15   10  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   15  20 2
+            23    5  21 1
+            24   18  22 1
+            25   22  23 3
+            26    1  24 1
+            27    3  25 1
+///

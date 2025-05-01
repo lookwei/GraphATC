@@ -1,0 +1,139 @@
+ENTRY       D01717                      Drug
+NAME        Levocabastine hydrochloride (JAN/USP);
+            Livostin (TN)
+FORMULA     C26H29FN2O2. HCl
+EXACT_MASS  456.198
+MOL_WEIGHT  456.98
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Therapeutic category: 1319 1329
+            ATC code: R01AC02 S01GX02
+            Chemical structure group: DG01035
+            Product (DG01035): D01717<JP>
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AC Antiallergic agents, excl. corticosteroids
+                 R01AC02 Levocabastine
+                  D01717  Levocabastine hydrochloride (JAN/USP) &lt;JP&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01G DECONGESTANTS AND ANTIALLERGICS
+                S01GX Other antiallergics
+                 S01GX02 Levocabastine
+                  D01717  Levocabastine hydrochloride (JAN/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1319  Others
+                 D01717  Levocabastine hydrochloride (JAN/USP)
+               132  Otic and nasal agents
+                1329  Others
+                 D01717  Levocabastine hydrochloride (JAN/USP)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01035  Levocabastine
+                 D01717  Levocabastine hydrochloride
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D01717  Levocabastine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01717  Levocabastine hydrochloride (JAN/USP) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01717
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG01035  Levocabastine
+DBLINKS     CAS: 79547-78-7
+            PubChem: 7848780
+            ChEBI: 31777
+            LigandBox: D01717
+            NIKKAJI: J1.640.239G
+ATOM        32
+            1   C8y C    21.0420  -18.8054
+            2   C8x C    19.6403  -18.8054
+            3   C8x C    18.9359  -20.0202
+            4   C8y C    19.6403  -21.2280
+            5   C8x C    21.0420  -21.2280
+            6   C8x C    21.7394  -20.0202
+            7   C8y C    30.4521  -18.8733
+            8   C8x C    29.7479  -20.0846
+            9   C8x C    30.4388  -21.2968
+            10  C8x C    31.8410  -21.3045
+            11  C8x C    32.5525  -20.1001
+            12  C8x C    31.8545  -18.8810
+            13  C1z C    22.2604  -18.1081
+            14  C1x C    22.9507  -19.3662
+            15  C1x C    24.3461  -19.3941
+            16  C1y C    25.0511  -18.1169
+            17  C1x C    24.3538  -16.8353
+            18  C1x C    22.9585  -16.9009
+            19  N1y N    26.4481  -18.1160
+            20  C1x C    27.1415  -19.3332
+            21  C1x C    28.5431  -19.3375
+            22  C1z C    29.2514  -18.1717
+            23  C1y C    28.5509  -16.8378
+            24  C1x C    27.1491  -16.9034
+            25  C6a C    30.4521  -17.4644
+            26  C3b C    21.0420  -17.4107
+            27  O6a O    31.1495  -16.2458
+            28  O6a O    31.8046  -17.8236
+            29  X   F    18.9289  -22.4329
+            30  N3a N    19.8233  -16.7064
+            31  C1a C    29.2354  -15.6437
+            32  X   Cl   25.2751  -21.9960
+BOND        34
+            1    13  14 1
+            2    14  15 1
+            3    15  16 1
+            4    16  17 1
+            5    17  18 1
+            6    18  13 1
+            7     5   6 2
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   19  20 1
+            14   20  21 1
+            15   21  22 1
+            16   22  23 1
+            17   23  24 1
+            18   24  19 1
+            19   16  19 1 #Up
+            20   12   7 1
+            21   22  25 1 #Down
+            22    6   1 1
+            23   13  26 1 #Up
+            24   13   1 1 #Down
+            25   22   7 1 #Up
+            26    1   2 2
+            27   25  27 2
+            28    2   3 1
+            29   25  28 1
+            30    3   4 2
+            31    4  29 1
+            32    4   5 1
+            33   26  30 3
+            34   23  31 1 #Up
+///

@@ -1,0 +1,62 @@
+ENTRY       D01150                      Drug
+NAME        Methyprylon (JAN/INN);
+            Noludar (TN)
+FORMULA     C10H17NO2
+EXACT_MASS  183.1259
+MOL_WEIGHT  183.2475
+REMARK      ATC code: N05CE02
+EFFICACY    Sedative-hypnotic
+TARGET      GABRA1 [HSA:2554] [KO:K05175]
+  PATHWAY   hsa04080(2554)  Neuroactive ligand-receptor interaction
+            hsa04727(2554)  GABAergic synapse
+STR_MAP     map07032  Hypnotics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CE Piperidinedione derivatives
+                 N05CE02 Methyprylon
+                  D01150  Methyprylon (JAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABRA1
+                 D01150  Methyprylon (JAN/INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01150
+DBLINKS     CAS: 125-64-4
+            PubChem: 7848213
+            ChEBI: 31837
+            LigandBox: D01150
+            NIKKAJI: J41.174D
+ATOM        13
+            1   C1x C    21.0901  -15.4495
+            2   C1y C    21.0901  -16.8500
+            3   C5x C    22.3059  -17.5502
+            4   C1z C    23.5146  -16.8500
+            5   C5x C    23.5146  -15.4495
+            6   N1x N    22.3059  -14.7493
+            7   C1b C    24.7186  -16.1426
+            8   C1b C    23.5022  -18.2504
+            9   C1a C    25.9368  -16.8337
+            10  C1a C    24.7086  -18.9615
+            11  O5x O    24.7280  -14.7501
+            12  O5x O    22.3078  -18.9507
+            13  C1a C    19.8778  -17.5509
+BOND        13
+            1     4   7 1
+            2     1   2 1
+            3     4   8 1
+            4     2   3 1
+            5     7   9 1
+            6     3   4 1
+            7     8  10 1
+            8     4   5 1
+            9     5  11 2
+            10    5   6 1
+            11    3  12 2
+            12    6   1 1
+            13    2  13 1
+///

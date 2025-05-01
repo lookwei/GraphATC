@@ -1,0 +1,183 @@
+ENTRY       D07837                      Drug
+NAME        Dihydroergotamine (INN);
+            Neomigran (TN)
+FORMULA     C33H37N5O5
+EXACT_MASS  583.2795
+MOL_WEIGHT  583.6774
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01964  Ergot alkaloid
+              DG01982  Antimigraine, ergot alkaloid
+            Analgesic
+             DG01518  5-HT1B/1D-receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07798
+            ATC code: N02CA01
+            Chemical structure group: DG00833
+            Product (DG00833): D02211<US>
+EFFICACY    Antimigraine, Vasoconstrictor, Serotonin receptor agonist
+COMMENT     Ergot alkaloid
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CA Ergot alkaloids
+                 N02CA01 Dihydroergotamine
+                  D07837  Dihydroergotamine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00833  Dihydroergotamine
+                 D07837  Dihydroergotamine
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00833  Dihydroergotamine
+                 D07837  Dihydroergotamine
+             Analgesic
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00833  Dihydroergotamine
+                D07837  Dihydroergotamine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00833  Dihydroergotamine
+                 D07837  Dihydroergotamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D07837  Dihydroergotamine (INN)
+                HTR1D
+                 D07837  Dihydroergotamine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07837
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00833  Dihydroergotamine
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00833  Dihydroergotamine
+             Analgesic
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00833  Dihydroergotamine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00833  Dihydroergotamine
+DBLINKS     CAS: 511-12-6
+            PubChem: 96024534
+            ChEBI: 4562
+            PDB-CCD: 2GM
+            LigandBox: D07837
+            NIKKAJI: J6.263D
+ATOM        43
+            1   C1z C    26.9169  -15.2412
+            2   N1y N    26.9868  -16.5696
+            3   C1y C    28.1055  -14.6120
+            4   O2x O    25.7983  -14.6120
+            5   O1a O    26.9169  -13.9129
+            6   C1y C    28.1055  -17.1988
+            7   C5x C    24.6098  -16.5696
+            8   N1y N    29.2241  -15.2412
+            9   C1x C    28.1055  -13.2836
+            10  C1z C    24.6098  -15.2412
+            11  C5x C    29.2241  -16.5696
+            12  C1b C    28.1055  -18.5272
+            13  O5x O    23.7009  -17.4785
+            14  C1x C    30.3427  -14.6120
+            15  C1x C    30.3427  -13.2836
+            16  N1b N    22.9318  -14.4722
+            17  C1a C    24.6098  -13.8429
+            18  O5x O    30.4126  -17.2687
+            19  C8y C    29.2241  -19.2263
+            20  C5a C    21.4636  -15.2412
+            21  C8x C    29.2241  -20.5547
+            22  C8x C    30.4126  -18.5272
+            23  C1y C    21.4636  -16.5696
+            24  O5a O    20.2751  -14.5421
+            25  C8x C    30.3427  -21.1839
+            26  C8x C    31.5312  -19.2263
+            27  C1x C    20.2751  -17.1988
+            28  C1x C    22.5823  -17.1988
+            29  C8x C    31.5312  -20.5547
+            30  C1y C    20.2751  -18.5272
+            31  N1y N    22.5823  -18.5272
+            32  C8y C    19.1565  -19.1564
+            33  C1y C    21.4636  -19.2263
+            34  C1a C    23.7708  -19.2263
+            35  C8y C    19.1565  -20.4848
+            36  C8x C    18.0379  -18.5272
+            37  C1x C    21.4636  -20.5547
+            38  C8y C    20.2751  -21.1839
+            39  C8y C    18.0379  -21.1839
+            40  C8x C    16.8493  -19.1564
+            41  C8x C    20.2751  -22.5123
+            42  N4x N    18.0379  -22.5123
+            43  C8x C    16.8493  -20.4848
+BOND        50
+            1     1   5 1 #Down
+            2     2   6 1
+            3     2   7 1
+            4     3   8 1
+            5     3   9 1
+            6     4  10 1
+            7     6  11 1
+            8     6  12 1 #Down
+            9     7  13 2
+            10    8  14 1
+            11    9  15 1
+            12   10  16 1
+            13   10  17 1 #Up
+            14   11  18 2
+            15   12  19 1
+            16   16  20 1
+            17   19  21 2
+            18   19  22 1
+            19   23  20 1 #Up
+            20   20  24 2
+            21   21  25 1
+            22   22  26 2
+            23   23  27 1
+            24   23  28 1
+            25   25  29 2
+            26   27  30 1
+            27   28  31 1
+            28   30  32 1
+            29   30  33 1
+            30   31  34 1
+            31   32  35 1
+            32   32  36 2
+            33   33  37 1
+            34   35  38 1
+            35   35  39 2
+            36   36  40 1
+            37   38  41 2
+            38   39  42 1
+            39   39  43 1
+            40    7  10 1
+            41    8  11 1
+            42   14  15 1
+            43   26  29 1
+            44   31  33 1
+            45   37  38 1
+            46   40  43 2
+            47   41  42 1
+            48    1   2 1
+            49    1   3 1
+            50    1   4 1
+///

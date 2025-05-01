@@ -1,0 +1,178 @@
+ENTRY       D02387                      Drug
+NAME        Cycloguanil pamoate (USAN);
+            Cycloguanil embonate (INN)
+FORMULA     C23H16O6. (C11H14ClN5)2
+EXACT_MASS  890.2822
+MOL_WEIGHT  891.8003
+CLASS       Antiparasitic
+             DG01932  Antifolate, antiprotozoal
+REMARK      Same as: C11724
+            ATC code: P01BB02
+EFFICACY    Antimalarial
+COMMENT     Biguanide
+TARGET      dihydrofolate reductase [KO:K13998]
+  PATHWAY   ko00240(K13998)  Pyrimidine metabolism
+            ko00670(K13998)  One carbon pool by folate
+            ko00790(K13998)  Folate biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             P ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS
+              P01 ANTIPROTOZOALS
+               P01B ANTIMALARIALS
+                P01BB Biguanides
+                 P01BB02 Cycloguanil embonate
+                  D02387  Cycloguanil pamoate (USAN)
+            Drug groups [BR:br08330]
+             Antiparasitic
+              DG01932  Antifolate, antiprotozoal
+               D02387  Cycloguanil pamoate
+            Antimicrobials [BR:br08307]
+             Antiparasitics
+              Antmalarials
+               Biguanide
+                D02387  Cycloguanil pamoate (USAN)
+DBLINKS     CAS: 609-78-9
+            PubChem: 7849446
+            ChEBI: 4003
+            LigandBox: D02387
+ATOM        63
+            1   C2y C    16.0661  -14.6226
+            2   N1y N    17.2944  -15.3003
+            3   N2x N    14.8739  -15.3370
+            4   C1z C    17.2561  -16.6968
+            5   C2y C    14.8285  -16.7218
+            6   N2x N    16.1264  -17.4066
+            7   C8y C    18.5012  -14.6106
+            8   C8x C    18.5012  -13.2183
+            9   C8x C    19.7023  -15.3062
+            10  C8x C    19.7081  -12.5216
+            11  C8x C    20.9020  -14.6164
+            12  C8y C    20.9080  -13.2242
+            13  X   Cl   22.1178  -12.5275
+            14  N1a N    16.1107  -13.2292
+            15  N1a N    13.7022  -17.4427
+            16  C1a C    18.0116  -17.9010
+            17  C1a C    18.7191  -16.6963
+            18  C8x C    25.4197  -16.5027
+            19  C8x C    25.4197  -17.8719
+            20  C8x C    26.6054  -18.5564
+            21  C8x C    27.7912  -17.8719
+            22  C8y C    27.7912  -16.5027
+            23  C8y C    26.6054  -15.8182
+            24  C8y C    28.9769  -15.8182
+            25  C8y C    28.9769  -14.4489
+            26  C8y C    27.7912  -13.7644
+            27  C8x C    26.6054  -14.4489
+            28  C1b C    30.8492  -16.6408
+            29  C8y C    32.4301  -15.8281
+            30  C8y C    33.5908  -16.4982
+            31  C8y C    34.7765  -15.8135
+            32  C8x C    34.7765  -14.4444
+            33  C8y C    33.6158  -13.7744
+            34  C8y C    32.4300  -14.4590
+            35  C8x C    33.5908  -17.8674
+            36  C8x C    34.7766  -18.5519
+            37  C8x C    35.9622  -17.8673
+            38  C8x C    35.9622  -16.4981
+            39  C6a C    27.7912  -12.3954
+            40  O6a O    28.9953  -11.7001
+            41  O6a O    26.6239  -11.7214
+            42  C6a C    33.6156  -12.3953
+            43  O6a O    32.4441  -11.7191
+            44  O6a O    34.8155  -11.7023
+            45  O1a O    30.1646  -13.7632
+            46  O1a O    31.2193  -13.7599
+            47  C2y C    16.0661  -14.6226
+            48  N1y N    17.2944  -15.3003
+            49  C1z C    17.2561  -16.6968
+            50  N2x N    16.1264  -17.4066
+            51  C2y C    14.8285  -16.7218
+            52  N2x N    14.8739  -15.3370
+            53  N1a N    13.7022  -17.4427
+            54  C1a C    18.0116  -17.9010
+            55  C1a C    18.7191  -16.6963
+            56  C8y C    18.5012  -14.6106
+            57  C8x C    18.5012  -13.2183
+            58  C8x C    19.7081  -12.5216
+            59  C8y C    20.9080  -13.2242
+            60  C8x C    20.9020  -14.6164
+            61  C8x C    19.7023  -15.3062
+            62  X   Cl   22.1178  -12.5275
+            63  N1a N    16.1107  -13.2292
+BOND        68
+            1    18  19 2
+            2    19  20 1
+            3    20  21 2
+            4    21  22 1
+            5    22  23 2
+            6    18  23 1
+            7    22  24 1
+            8    24  25 2
+            9    25  26 1
+            10   26  27 2
+            11   23  27 1
+            12   24  28 1
+            13   28  29 1
+            14   29  30 1
+            15   30  31 2
+            16   31  32 1
+            17   32  33 2
+            18   33  34 1
+            19   29  34 2
+            20   30  35 1
+            21   35  36 2
+            22   36  37 1
+            23   37  38 2
+            24   31  38 1
+            25   26  39 1
+            26   39  40 2
+            27   39  41 1
+            28   33  42 1
+            29   42  43 2
+            30   42  44 1
+            31   25  45 1
+            32   34  46 1
+            33    1   2 1
+            34    1   3 2
+            35    2   4 1
+            36    3   5 1
+            37    4   6 1
+            38    5   6 2
+            39    7   2 1
+            40    7   8 1
+            41    7   9 2
+            42    8  10 2
+            43    9  11 1
+            44   10  12 1
+            45   11  12 2
+            46   12  13 1
+            47    1  14 1
+            48    5  15 1
+            49    4  16 1
+            50    4  17 1
+            51   47  48 1
+            52   47  52 2
+            53   48  49 1
+            54   52  51 1
+            55   49  50 1
+            56   51  50 2
+            57   56  48 1
+            58   56  57 1
+            59   56  61 2
+            60   57  58 2
+            61   61  60 1
+            62   58  59 1
+            63   60  59 2
+            64   59  62 1
+            65   47  63 1
+            66   51  53 1
+            67   49  54 1
+            68   49  55 1
+BRACKET     1    11.7600  -18.5500   11.7600  -11.6200
+            1    23.3800  -11.6200   23.3800  -18.5500
+            1  2
+  ORIGINAL  1    1   2   4   6   5   3  15  16  17   7   8  10  12  11   9  13
+            1   14
+  REPEAT    1   47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62
+            1   63
+///

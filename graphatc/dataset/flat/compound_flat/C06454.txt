@@ -1,0 +1,66 @@
+ENTRY       C06454                      Compound
+NAME        Fosfomycin;
+            Phosphonomycin;
+            (1R,2S)-Epoxypropylphosphonate
+FORMULA     C3H7O4P
+EXACT_MASS  138.0082
+MOL_WEIGHT  138.059
+REMARK      Same as: D04253
+REACTION    R08863
+PATHWAY     map00998  Biosynthesis of various antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00903  Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
+ENZYME      1.11.1.23
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              Others
+               Aliphatic compounds
+                C06454  Fosfomycin
+            Secondary metabolites in pathway maps [br08011.html]
+             Biosynthetic pathways and modules of secondary metabolites
+              C06454
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D04253)]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01X OTHER ANTIBACTERIALS
+                J01XX Other antibacterials
+                 J01XX01 Fosfomycin
+                  D04253  Fosfomycin (USAN/INN)
+             S SENSORY ORGANS
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA17 Fosfomycin
+                  D04253  Fosfomycin (USAN/INN)
+            Antimicrobials [BR:br08307(D04253)]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                D04253  Fosfomycin (USAN/INN)
+DBLINKS     CAS: 23155-02-4
+            PubChem: 8687
+            ChEBI: 28915
+            KNApSAcK: C00000789
+            PDB-CCD: FCN
+            3DMET: B02030
+            NIKKAJI: J34.117G
+ATOM        8
+            1   C1y C    31.2200  -15.2600
+            2   C1y C    32.6200  -15.2600
+            3   O2x O    31.9200  -14.0700
+            4   P1b P    30.0300  -15.9600
+            5   C1a C    33.8100  -15.9600
+            6   O1c O    28.7700  -16.6600
+            7   O1c O    29.3300  -14.7700
+            8   O1c O    30.7300  -17.1500
+BOND        8
+            1     1   2 1
+            2     2   3 1
+            3     3   1 1
+            4     1   4 1 #Up
+            5     2   5 1 #Up
+            6     4   6 2
+            7     4   7 1
+            8     4   8 1
+///

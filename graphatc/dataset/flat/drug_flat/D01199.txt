@@ -1,0 +1,132 @@
+ENTRY       D01199                      Drug
+NAME        Emtricitabine (JAN/USAN/INN);
+            Emtriva (TN)
+  ABBR      FTC
+PRODUCT     EMTRIVA (Gilead Sciences)
+  GENERIC   EMTRICITABINE (Aurobindo Pharma Limited)
+            EMTRICITABINE (Cipla USA)
+            EMTRICITABINE (REMEDYREPACK)
+FORMULA     C8H10FN3O3S
+EXACT_MASS  247.0427
+MOL_WEIGHT  247.2467
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG01440  Arabinofuranosyl type antiviral
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Transporter substrate
+             DG02860  SLC22A8 substrate
+REMARK      Same as: C12599
+            Therapeutic category: 6250
+            ATC code: J05AF09
+            Product: D01199<JP/US>
+            Product (mixture): D02297<JP/US> D10571<US> D10755<JP/US> D10756<US> D10835<JP/US> D10836<JP/US> D10851<US> D11039<JP/US> D11382<JP/US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Transporter: SLC22A8 [HSA:9376]
+INTERACTION  
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF09 Emtricitabine
+                  D01199  Emtricitabine (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Nucleoside and Nucleotide Reverse Transcriptase Inhibitors (NRTI)
+               Emtricitabine
+                D01199  Emtricitabine (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D01199  Emtricitabine (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D01199  Emtricitabine
+              DG01440  Arabinofuranosyl type antiviral
+               D01199  Emtricitabine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D01199  Emtricitabine
+             Transporter substrate
+              DG02860  SLC22A8 substrate
+               D01199  Emtricitabine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D01199  Emtricitabine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D01199  Emtricitabine (JAN/USAN/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D01199  Emtricitabine (JAN/USAN/INN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01199
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01199
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01199
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01199
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D01199
+DBLINKS     CAS: 143491-57-0
+            PubChem: 7848262
+            ChEBI: 31536
+            PDB-CCD: ETV
+            LigandBox: D01199
+ATOM        16
+            1   N4y N    25.0103  -17.6390
+            2   C1y C    23.6350  -18.1111
+            3   C1y C    21.3970  -18.1111
+            4   C1b C    20.1381  -17.4117
+            5   O1a O    18.9492  -18.1111
+            6   S2x S    21.8166  -19.4399
+            7   O2x O    22.5160  -17.2718
+            8   C1x C    23.2154  -19.4399
+            9   C8x C    25.0206  -16.2402
+            10  C8y C    26.2146  -15.5496
+            11  C8y C    27.4684  -16.2582
+            12  N5x N    27.4581  -17.6570
+            13  C8y C    26.2641  -18.3476
+            14  N1a N    28.6624  -15.5676
+            15  X   F    26.1549  -14.1509
+            16  O5x O    26.2538  -19.7463
+BOND        17
+            1     8   6 1
+            2     4   5 1
+            3     2   1 1 #Down
+            4     3   4 1 #Down
+            5     6   3 1
+            6     1   9 1
+            7     9  10 2
+            8    10  11 1
+            9    11  12 2
+            10   12  13 1
+            11   13   1 1
+            12    3   7 1
+            13   11  14 1
+            14    7   2 1
+            15   10  15 1
+            16    2   8 1
+            17   13  16 2
+///

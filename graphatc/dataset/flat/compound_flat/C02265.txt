@@ -1,0 +1,50 @@
+ENTRY       C02265                      Compound
+NAME        D-Phenylalanine;
+            D-alpha-Amino-beta-phenylpropionic acid
+FORMULA     C9H11NO2
+EXACT_MASS  165.079
+MOL_WEIGHT  165.1891
+REACTION    R00686 R01374 R01582 R03903
+PATHWAY     map00360  Phenylalanine metabolism
+            map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+            map04742  Taste transduction
+ENZYME      1.4.5.1         2.3.1.36        2.6.1.21        5.1.1.11
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C02265  D-Phenylalanine
+DBLINKS     CAS: 673-06-3
+            PubChem: 5326
+            ChEBI: 16998
+            PDB-CCD: DPN
+            3DMET: B01552
+            NIKKAJI: J9.200B
+ATOM        12
+            1   C8y C    25.2700  -16.0300
+            2   C1b C    26.4600  -15.3300
+            3   C8x C    25.2700  -17.5000
+            4   C8x C    24.0800  -15.3300
+            5   C1c C    27.7200  -16.1000
+            6   C8x C    24.0800  -18.1300
+            7   C8x C    22.8200  -16.0300
+            8   C6a C    28.9100  -15.3300
+            9   N1a N    27.7200  -17.4300
+            10  C8x C    22.8200  -17.5000
+            11  O6a O    30.1000  -16.1000
+            12  O6a O    28.9100  -14.0000
+BOND        12
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 2
+            7     5   8 1
+            8     5   9 1 #Down
+            9     6  10 2
+            10    8  11 1
+            11    8  12 2
+            12    7  10 1
+///

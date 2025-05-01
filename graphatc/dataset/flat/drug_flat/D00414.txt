@@ -1,0 +1,69 @@
+ENTRY       D00414                      Drug
+NAME        Zileuton (USP/INN);
+            Zyflo (TN)
+PRODUCT     ZYFLO (Chiesi USA)
+  GENERIC   ZILEUTON (Camber Pharmaceuticals)
+            ZILEUTON (Golden State Medical Supply)
+            ZILEUTON (Par Pharmaceutical)
+            ZILEUTON (Rising Pharmaceuticals)
+            ZILEUTON (Strides Pharma Science Limited)
+FORMULA     C11H12N2O2S
+EXACT_MASS  236.0619
+MOL_WEIGHT  236.2902
+REMARK      Product: D00414<US>
+EFFICACY    Antiasthmatic, Arachidonate 5-lipoxygenase inhibitor
+  DISEASE   Asthma [DS:H00079]
+TARGET      ALOX5 [HSA:240] [KO:K00461]
+  PATHWAY   hsa00590(240)  Arachidonic acid metabolism
+BRITE       USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Antileukotrienes
+               Zileuton
+                D00414  Zileuton (USP/INN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dioxygenases
+                ALOX5
+                 D00414  Zileuton (USP/INN) &lt;US&gt;
+DBLINKS     CAS: 111406-87-2
+            PubChem: 7847480
+            ChEBI: 10112
+            LigandBox: D00414
+            NIKKAJI: J369.927G
+ATOM        16
+            1   C8y C    24.7273  -18.3637
+            2   C1c C    25.9335  -19.0570
+            3   C8x C    23.9057  -17.2215
+            4   S2x S    23.8998  -19.4940
+            5   N1c N    27.1454  -18.3637
+            6   C1a C    25.9335  -20.4614
+            7   C8y C    22.5713  -17.6527
+            8   C8y C    22.5655  -19.0570
+            9   C5a C    28.3576  -19.0570
+            10  O1b O    27.1454  -16.9592
+            11  C8x C    21.3593  -16.9535
+            12  C8x C    21.3593  -19.7562
+            13  N1a N    29.5637  -18.3637
+            14  O5a O    28.3576  -20.4614
+            15  C8x C    20.1474  -17.6527
+            16  C8x C    20.1474  -19.0512
+BOND        17
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1
+            10    7  11 2
+            11    8  12 2
+            12    9  13 1
+            13    9  14 2
+            14   11  15 1
+            15   12  16 1
+            16    7   8 1
+            17   15  16 2
+///

@@ -1,0 +1,115 @@
+ENTRY       D10028                      Drug
+NAME        Valategrast hydrochloride (USAN)
+FORMULA     C30H32Cl3N3O4. HCl
+EXACT_MASS  639.1225
+MOL_WEIGHT  641.4127
+EFFICACY    Antiasthmatic
+COMMENT     Treatment of asthma
+TARGET      ITGA4/ITGB1 [HSA:3676 3688] [KO:K06483 K05719]
+            ITGA4/ITGB7 [HSA:3676 3695] [KO:K06483 K06590]
+  PATHWAY   hsa04145(3688)  Phagosome
+            hsa04360(3688)  Axon guidance
+            hsa04510(3676+3688+3695)  Focal adhesion
+            hsa04512(3676+3688+3695)  ECM-receptor interaction
+            hsa04514(3676+3688+3695)  Cell adhesion molecules
+            hsa04640(3676)  Hematopoietic cell lineage
+            hsa04670(3676+3688)  Leukocyte transendothelial migration
+            hsa04672(3676+3695)  Intestinal immune network for IgA production
+            hsa04810(3676+3688+3695)  Regulation of actin cytoskeleton
+BRITE       Target-based classification of drugs [BR:br08310]
+             Cell surface molecules and ligands
+              Cell adhesion molecules: other families
+               Integrins
+                ITGA4/ITGB1
+                 D10028  Valategrast hydrochloride (USAN)
+                ITGA4/ITGB7
+                 D10028  Valategrast hydrochloride (USAN)
+DBLINKS     CAS: 828271-96-1
+            PubChem: 135626748
+            LigandBox: D10028
+ATOM        41
+            1   C8x C    14.9800  -23.2400
+            2   C8x C    14.9800  -24.6400
+            3   C8x C    16.1700  -25.3400
+            4   C8y C    17.4300  -24.6400
+            5   C8y C    17.4300  -23.2400
+            6   C8y C    16.1700  -22.5400
+            7   X   Cl   16.1700  -21.1400
+            8   X   Cl   18.6200  -25.3400
+            9   C5a C    18.6200  -22.5400
+            10  N1b N    19.8100  -23.2400
+            11  O5a O    18.6200  -21.1400
+            12  C8y C    21.0000  -22.5400
+            13  C8x C    22.1900  -23.2400
+            14  C8x C    23.4500  -22.5400
+            15  C8y C    23.4500  -21.1400
+            16  C8x C    22.2600  -20.4400
+            17  C8x C    21.0000  -21.1400
+            18  C1b C    24.6400  -20.4400
+            19  C1c C    25.8300  -21.1400
+            20  N1b N    27.0200  -20.4400
+            21  C5a C    28.2100  -21.1400
+            22  C8y C    29.4000  -20.4400
+            23  O5a O    28.2100  -22.5400
+            24  C7a C    25.8300  -22.5400
+            25  O7a O    27.0200  -23.2400
+            26  O6a O    24.6400  -23.2400
+            27  C1b C    27.0200  -24.6400
+            28  C1b C    28.2800  -25.3400
+            29  C8y C    30.5900  -21.1400
+            30  C8x C    31.8500  -20.4400
+            31  C8x C    31.8500  -19.0400
+            32  C8x C    30.6600  -18.3400
+            33  C8y C    29.4000  -19.0400
+            34  X   Cl   28.2100  -18.3400
+            35  C1a C    30.5900  -22.5400
+            36  N1c N    28.2800  -26.7400
+            37  C1b C    27.0900  -27.4400
+            38  C1b C    29.4700  -27.4400
+            39  C1a C    30.6600  -26.7400
+            40  C1a C    25.9000  -26.7400
+            41  X   Cl   34.8600  -24.7100
+BOND        42
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     4   8 1
+            9     5   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19   15  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+            25   19  24 1 #Down
+            26   24  25 1
+            27   24  26 2
+            28   25  27 1
+            29   27  28 1
+            30   22  29 2
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   32  33 2
+            35   22  33 1
+            36   33  34 1
+            37   29  35 1
+            38   28  36 1
+            39   36  37 1
+            40   36  38 1
+            41   38  39 1
+            42   37  40 1
+///

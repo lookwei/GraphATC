@@ -1,0 +1,153 @@
+ENTRY       D07886                      Drug
+NAME        Efonidipine (INN)
+FORMULA     C34H38N3O7P
+EXACT_MASS  631.2447
+MOL_WEIGHT  631.6552
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+              DG01573  Calcium channel T type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+REMARK      Chemical structure group: DG01382
+            Product (DG01382): D01604<JP>
+EFFICACY    Antihypertensive, Vasodilator, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG01382  Efonidipine
+                 D07886  Efonidipine
+               DG01573  Calcium channel T type blocker
+                DG01382  Efonidipine
+                 D07886  Efonidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG01382  Efonidipine
+                 D07886  Efonidipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D07886  Efonidipine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG01382  Efonidipine
+               DG01573  Calcium channel T type blocker
+                DG01382  Efonidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG01382  Efonidipine
+DBLINKS     CAS: 111011-63-3
+            PubChem: 96024582
+            ChEBI: 135859
+            LigandBox: D07886
+            NIKKAJI: J364.459F
+ATOM        45
+            1   C1y C    21.2100  -16.5900
+            2   C2y C    22.4000  -15.8900
+            3   C2y C    19.9500  -15.8900
+            4   C8y C    21.2100  -17.9900
+            5   C2y C    22.4000  -14.4900
+            6   C7a C    23.5900  -16.5900
+            7   C2y C    19.9500  -14.4900
+            8   P1b P    18.7600  -16.5900
+            9   C8x C    22.4000  -18.6900
+            10  C8x C    19.9500  -18.6900
+            11  N1x N    21.2100  -13.7900
+            12  C1a C    23.5900  -13.7200
+            13  O7a O    24.7800  -15.8900
+            14  O6a O    23.5900  -17.9900
+            15  C1a C    18.7600  -13.7900
+            16  C8y C    22.4000  -20.0900
+            17  C8x C    19.9500  -20.0900
+            18  C1b C    26.0400  -16.5900
+            19  C8x C    21.2100  -20.7900
+            20  N2b N    23.5900  -20.7900 #+
+            21  C1b C    27.2300  -15.8200
+            22  O3a O    24.9900  -19.9500
+            23  O3a O    23.5900  -22.1900 #-
+            24  O2x O    18.7600  -17.9900
+            25  C1x C    17.5000  -18.6900
+            26  C1z C    16.3100  -17.9900
+            27  C1x C    16.3100  -16.5900
+            28  O2x O    17.5700  -15.8900
+            29  O3b O    18.7600  -15.1900
+            30  N1c N    28.4200  -16.5200
+            31  C1b C    29.6800  -15.8900
+            32  C8y C    30.8700  -16.5200
+            33  C8x C    32.0600  -15.8900
+            34  C8x C    33.2500  -16.5900
+            35  C8x C    33.2500  -17.9200
+            36  C8x C    32.0600  -18.6200
+            37  C8x C    30.8700  -17.9200
+            38  C8y C    28.4200  -17.9200
+            39  C8x C    29.6100  -18.6200
+            40  C8x C    29.6100  -20.0200
+            41  C8x C    28.4200  -20.7200
+            42  C8x C    27.2300  -20.0200
+            43  C8x C    27.2300  -18.6200
+            44  C1a C    15.0500  -18.6900
+            45  C1a C    15.1200  -17.2900
+BOND        49
+            1    20  22 2
+            2    20  23 1
+            3     7  11 1
+            4    17  19 2
+            5     1   2 1
+            6     1   3 1
+            7     1   4 1
+            8     8  24 1
+            9    24  25 1
+            10   25  26 1
+            11   26  27 1
+            12   27  28 1
+            13   28   8 1
+            14    2   5 2
+            15    8  29 2
+            16    2   6 1
+            17    3   7 2
+            18    3   8 1
+            19   21  30 1
+            20    4   9 1
+            21   30  31 1
+            22    4  10 2
+            23   31  32 1
+            24    5  11 1
+            25    5  12 1
+            26    6  13 1
+            27    6  14 2
+            28    7  15 1
+            29   32  33 2
+            30   33  34 1
+            31   34  35 2
+            32   35  36 1
+            33   36  37 2
+            34   37  32 1
+            35    9  16 2
+            36   30  38 1
+            37   10  17 1
+            38   13  18 1
+            39   16  19 1
+            40   16  20 1
+            41   18  21 1
+            42   38  39 2
+            43   39  40 1
+            44   40  41 2
+            45   41  42 1
+            46   42  43 2
+            47   43  38 1
+            48   26  44 1
+            49   26  45 1
+///

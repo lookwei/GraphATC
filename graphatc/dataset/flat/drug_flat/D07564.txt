@@ -1,0 +1,102 @@
+ENTRY       D07564                      Drug
+NAME        Allopurinol sodium;
+            Aloprim (TN)
+PRODUCT     ALOPRIM (Mylan Institutional LLC)
+            ALOPRIM (Mylan Institutional LLC)
+  GENERIC   ALLOPURINOL (Fresenius Kabi USA)
+            ALLOPURINOL (Gland Pharma Limited)
+            ALLOPURINOL SODIUM (Hikma Pharmaceuticals USA)
+FORMULA     C5H3N4O. Na
+EXACT_MASS  158.0205
+MOL_WEIGHT  158.0933
+CLASS       Cardiovascular agent
+             DG01503  Xanthine dehydrogenase inhibitor
+            Musculo-skeletal system agent
+             DG03130  Xanthin oxidase inhibitor
+            Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+REMARK      ATC code: M04AA01
+            Chemical structure group: DG00779
+            Product (DG00779): D00224<JP/US> D07564<US>
+EFFICACY    Gout suppressant, Uric acid biosynthesis inhibitor, Xanthine oxidase inhibitor
+TARGET      XDH [HSA:7498] [KO:K00106]
+  PATHWAY   hsa00230(7498)  Purine metabolism
+INTERACTION CYP inhibition: CYP1A2 [HSA:1544]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M04 ANTIGOUT PREPARATIONS
+               M04A ANTIGOUT PREPARATIONS
+                M04AA Preparations inhibiting uric acid production
+                 M04AA01 Allopurinol
+                  D07564  Allopurinol sodium &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antigout Agents
+              Allopurinol
+               D07564  Allopurinol sodium
+             Antineoplastics
+              Antineoplastic Adjuncts/Mitigators
+               Allopurinol
+                D07564  Allopurinol sodium
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01503  Xanthine dehydrogenase inhibitor
+               DG00779  Allopurinol
+                D07564  Allopurinol sodium
+             Musculo-skeletal system agent
+              DG03130  Xanthin oxidase inhibitor
+               DG00779  Allopurinol
+                D07564  Allopurinol sodium
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG00779  Allopurinol
+                D07564  Allopurinol sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Xanthine dehydrogenase/oxidase
+                XDH
+                 D07564  Allopurinol sodium &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07564
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D07564
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01503  Xanthine dehydrogenase inhibitor
+               DG00779  Allopurinol
+             Musculo-skeletal system agent
+              DG03130  Xanthin oxidase inhibitor
+               DG00779  Allopurinol
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG00779  Allopurinol
+DBLINKS     CAS: 17795-21-0
+            PubChem: 51091885
+            LigandBox: D07564
+ATOM        11
+            1   C8y C    24.0800  -17.9200
+            2   C8y C    24.0800  -19.3200
+            3   C8y C    25.2700  -17.2200
+            4   N4x N    22.7500  -17.5000
+            5   N5x N    25.2700  -20.0200
+            6   C8x C    22.7500  -19.7400
+            7   N5x N    26.4600  -17.9200
+            8   O1a O    25.2700  -15.8200 #-
+            9   N5x N    21.9100  -18.6200
+            10  C8x C    26.4600  -19.3200
+            11  Z   Na   29.6800  -18.1300 #+
+BOND        11
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 2
+            10    6   9 2
+            11    7  10 1
+///

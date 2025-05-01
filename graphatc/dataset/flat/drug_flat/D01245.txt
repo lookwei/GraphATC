@@ -1,0 +1,98 @@
+ENTRY       D01245                      Drug
+NAME        Bromazepam (JP18/USAN/INN);
+            Lectopam (TN)
+FORMULA     C14H10BrN3O
+EXACT_MASS  315.0007
+MOL_WEIGHT  316.1527
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+REMARK      Therapeutic category: 1124
+            ATC code: N05BA08
+            Product: D01245<JP>
+EFFICACY    Antianxiety, Minor tranquilizer, Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA08 Bromazepam
+                  D01245  Bromazepam (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01245  Bromazepam (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D01245  Bromazepam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D01245  Bromazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01245  Bromazepam (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01245  Bromazepam
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01245
+DBLINKS     CAS: 1812-30-2
+            PubChem: 7848308
+            ChEBI: 31302
+            LigandBox: D01245
+            NIKKAJI: J3.680C
+ATOM        19
+            1   C8y C    22.4658  -15.1408
+            2   N1x N    23.7321  -14.5533
+            3   C5x C    24.9889  -15.1713
+            4   C1x C    25.2855  -16.5295
+            5   C8y C    22.1408  -16.5117
+            6   N2x N    24.4084  -17.6240
+            7   C2y C    23.0070  -17.6120
+            8   C8y C    22.3836  -18.8818
+            9   N5x N    21.0001  -18.8853
+            10  C8x C    20.3041  -20.1001
+            11  C8x C    21.0080  -21.3102
+            12  C8x C    22.3927  -21.3057
+            13  C8x C    23.0887  -20.0909
+            14  C8x C    21.4475  -14.1800
+            15  C8x C    20.1063  -14.5815
+            16  C8y C    19.7813  -15.9524
+            17  C8x C    20.7996  -16.9132
+            18  X   Br   18.4645  -16.3469
+            19  O5x O    26.0827  -14.3148
+BOND        21
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15    1  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19    5  17 2
+            20   16  18 1
+            21    3  19 2
+///

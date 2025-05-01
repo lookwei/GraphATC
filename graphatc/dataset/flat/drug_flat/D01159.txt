@@ -1,0 +1,126 @@
+ENTRY       D01159                      Drug
+NAME        Gestonorone caproate (JAN/USAN);
+            Depostat (TN)
+FORMULA     C26H38O4
+EXACT_MASS  414.277
+MOL_WEIGHT  414.5775
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Therapeutic category: 2479
+            ATC code: G03DA01 L02AB03
+            Product: D01159<JP>
+EFFICACY    Prostatic hyperplasia treatment, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DA Pregnen (4) derivatives
+                 G03DA01 Gestonorone
+                  D01159  Gestonorone caproate (JAN/USAN) &lt;JP&gt;
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L02 ENDOCRINE THERAPY
+               L02A HORMONES AND RELATED AGENTS
+                L02AB Progestogens
+                 L02AB03 Gestonorone
+                  D01159  Gestonorone caproate (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               247  Estrogen and progesterone preparations
+                2479  Others
+                 D01159  Gestonorone caproate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D01159  Gestonorone caproate
+              DG01666  Progesterone receptor agonist
+               D01159  Gestonorone caproate
+            Drug classes [BR:br08332]
+             Endocrine and hormonal agent
+              DG02004  Progesterone
+               D01159  Gestonorone caproate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D01159  Gestonorone caproate (JAN/USAN) &lt;JP&gt;
+DBLINKS     CAS: 1253-28-7
+            PubChem: 7848222
+            ChEBI: 31650
+            LigandBox: D01159
+            NIKKAJI: J7.475F
+ATOM        30
+            1   C1z C    31.6701  -16.0729
+            2   C5a C    31.6615  -14.6986
+            3   O5a O    32.8472  -14.0043
+            4   C1a C    30.4673  -14.0190
+            5   O7a O    32.8552  -15.3857
+            6   C7a C    34.0419  -16.0727
+            7   C1b C    35.2286  -15.3857
+            8   C1b C    36.4153  -16.0727
+            9   C1b C    37.6020  -15.3857
+            10  C1b C    38.7886  -16.0727
+            11  C1a C    39.9753  -15.3857
+            12  O6a O    34.0419  -17.4467
+            13  C1z C    30.4773  -16.7599
+            14  C1y C    30.4773  -18.1339
+            15  C1x C    32.8560  -18.1339
+            16  C1x C    32.8560  -16.7599
+            17  C1x C    24.5231  -18.7933
+            18  C5x C    24.5231  -20.1674
+            19  C2x C    25.7159  -20.8544
+            20  C1x C    25.7159  -18.1063
+            21  C1y C    26.9018  -18.7933
+            22  C2y C    26.8958  -20.1674
+            23  C1x C    28.0828  -20.8594
+            24  C1x C    29.2758  -20.1775
+            25  C1y C    28.0946  -18.1113
+            26  C1y C    29.2758  -18.8063
+            27  C1x C    29.2983  -16.0654
+            28  C1x C    28.0358  -16.7409
+            29  C1a C    30.4703  -15.3858
+            30  O5x O    23.3334  -20.8549
+BOND        33
+            1     8   9 1
+            2     1   5 1 #Down
+            3     9  10 1
+            4    17  18 1
+            5    18  19 1
+            6    19  22 2
+            7    21  20 1
+            8    20  17 1
+            9     2   3 2
+            10   10  11 1
+            11    5   6 1
+            12    6  12 2
+            13   21  22 1
+            14   22  23 1
+            15   23  24 1
+            16   24  26 1
+            17   25  21 1
+            18    1   2 1 #Up
+            19    6   7 1
+            20    2   4 1
+            21    7   8 1
+            22   25  26 1
+            23   26  14 1
+            24   13  27 1
+            25   27  28 1
+            26   28  25 1
+            27   13  14 1
+            28   13  29 1 #Up
+            29   15  16 1
+            30   16   1 1
+            31    1  13 1
+            32   14  15 1
+            33   18  30 2
+///

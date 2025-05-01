@@ -1,0 +1,109 @@
+ENTRY       D07864                      Drug
+NAME        Diprenorphine hydrochloride;
+            Large Animal Revivon (TN)
+FORMULA     C26H35NO4. HCl
+EXACT_MASS  461.2333
+MOL_WEIGHT  462.0213
+CLASS       Analgesic
+             DG01587  Opioid receptor agonist/antagonist
+REMARK      Chemical structure group: DG01273
+EFFICACY    Antidote, Narcotic antagonist, Opioid receptor agonist/antagonist
+COMMENT     Morphinan derivative
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+            OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4986+4988)  Neuroactive ligand-receptor interaction
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Analgesic
+              DG01587  Opioid receptor agonist/antagonist
+               DG01273  Diprenorphine
+                D07864  Diprenorphine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07864  Diprenorphine hydrochloride
+                OPRK1
+                 D07864  Diprenorphine hydrochloride
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01587  Opioid receptor agonist/antagonist
+               DG01273  Diprenorphine
+DBLINKS     CAS: 16808-86-9
+            PubChem: 96024560
+            LigandBox: D07864
+            NIKKAJI: J391.486K
+ATOM        32
+            1   X   Cl   26.9006  -26.7551
+            2   C1z C    20.7900  -22.4000
+            3   C1z C    21.9800  -23.1000
+            4   C1y C    19.6000  -23.1000
+            5   C8y C    20.7900  -21.0700
+            6   C1x C    21.9800  -21.7000
+            7   C1y C    23.2400  -22.4000
+            8   C1x C    21.9800  -24.5000
+            9   C1x C    21.4200  -24.1500
+            10  C1z C    19.6000  -24.4300
+            11  O2x O    18.9700  -21.5600
+            12  C8y C    19.6700  -20.3700
+            13  C8y C    22.0500  -20.3700
+            14  C1x C    24.3600  -21.7000
+            15  N1y N    24.3600  -23.1000
+            16  C1x C    23.2400  -21.0700
+            17  C1y C    20.7900  -25.1300
+            18  C1x C    20.2300  -23.4500
+            19  C8y C    19.6700  -18.9700
+            20  C8x C    22.0500  -18.9700
+            21  C1b C    25.5500  -22.4700
+            22  C8x C    20.8600  -18.2700
+            23  O1a O    18.4800  -18.2700
+            24  C1y C    26.7400  -23.1700
+            25  C1x C    27.4400  -24.3600
+            26  C1x C    28.1400  -23.1700
+            27  C1d C    21.4900  -26.3200
+            28  C1a C    22.8900  -26.3200
+            29  C1a C    20.7900  -27.5100
+            30  O1a O    22.1900  -27.5100
+            31  C1a C    17.2200  -24.4300
+            32  O2a O    18.4100  -25.1300
+BOND        37
+            1     2   6 1 #Up
+            2     3   7 1
+            3     3   8 1
+            4     3   9 1 #Down
+            5     4  10 1
+            6     4  11 1 #Down
+            7     5  12 1
+            8     5  13 2
+            9     6  14 1
+            10    7  15 1 #Up
+            11    7  16 1
+            12    8  17 1
+            13    9  18 1
+            14   12  19 2
+            15   13  20 1
+            16   15  21 1
+            17   19  22 1
+            18   19  23 1
+            19   10  17 1
+            20   10  18 1 #Down
+            21   11  12 1
+            22   13  16 1
+            23   15  14 1 #Up
+            24   20  22 2
+            25    2   3 1
+            26   21  24 1
+            27    2   4 1
+            28    2   5 1
+            29   24  25 1
+            30   24  26 1
+            31   26  25 1
+            32   17  27 1
+            33   27  28 1
+            34   27  29 1
+            35   27  30 1
+            36   31  32 1
+            37   32  10 1
+///

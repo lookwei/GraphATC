@@ -1,0 +1,82 @@
+ENTRY       D03714                      Drug
+NAME        Lumiracoxib (USAN/INN)
+FORMULA     C15H13ClFNO2
+EXACT_MASS  293.0619
+MOL_WEIGHT  293.7206
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01922  Selective COX2 inhibitor
+               DG01907  Anti-inflammatory drug, coxibs
+REMARK      ATC code: M01AH06
+EFFICACY    Anti-inflammatory, COX-2 inhibitor
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AH Coxibs
+                 M01AH06 Lumiracoxib
+                  D03714  Lumiracoxib (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01922  Selective COX2 inhibitor
+                DG01907  Anti-inflammatory drug, coxibs
+                 D03714  Lumiracoxib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS2 (COX2)
+                 D03714  Lumiracoxib (USAN/INN)
+DBLINKS     CAS: 220991-20-8
+            PubChem: 17397805
+            ChEBI: 73044
+            PDB-CCD: LUR
+            LigandBox: D03714
+ATOM        20
+            1   C8y C    35.8735  -17.2402
+            2   C8x C    35.8735  -18.6415
+            3   C8y C    34.6824  -19.3422
+            4   C8y C    33.4212  -18.6415
+            5   C8x C    33.4212  -17.2402
+            6   C8x C    34.6824  -16.5395
+            7   N1b N    32.2300  -19.3422
+            8   C8y C    31.0389  -18.6415
+            9   C8y C    29.8477  -19.3422
+            10  C8x C    28.5865  -18.6415
+            11  C8x C    28.5865  -17.2402
+            12  C8x C    29.7777  -16.5395
+            13  C8y C    31.0389  -17.2402
+            14  X   F    29.8477  -20.7436
+            15  X   Cl   32.2300  -16.5395
+            16  C1a C    37.0900  -16.5444
+            17  C1b C    34.6824  -20.7422
+            18  C6a C    35.8611  -21.4224
+            19  O6a O    35.8611  -22.8224
+            20  O6a O    37.0585  -20.7307
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15    9  14 1
+            16   13  15 1
+            17    1  16 1
+            18    3  17 1
+            19   17  18 1
+            20   18  19 1
+            21   18  20 2
+///

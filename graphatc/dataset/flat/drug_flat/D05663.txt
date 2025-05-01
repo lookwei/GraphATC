@@ -1,0 +1,73 @@
+ENTRY       D05663                      Drug
+NAME        Pyrovalerone hydrochloride (USAN)
+FORMULA     C16H23NO. HCl
+EXACT_MASS  281.1546
+MOL_WEIGHT  281.8209
+CLASS       Neuropsychiatric agent
+             DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+EFFICACY    Stimulant (central), Noradrenaline and dopamine reuptake inhibitor
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531)  Synaptic vesicle cycle
+            hsa04728(6531)  Dopaminergic synapse
+            hsa05030(6531)  Cocaine addiction
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03059  Noradrenalin and dopamine reuptake inhibitor (NDRI)
+               D05663  Pyrovalerone hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D05663  Pyrovalerone hydrochloride (USAN)
+                SLC6A3 (DAT1)
+                 D05663  Pyrovalerone hydrochloride (USAN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D05663
+DBLINKS     CAS: 1147-62-2
+            PubChem: 47207324
+            LigandBox: D05663
+            NIKKAJI: J473.068B
+ATOM        19
+            1   C8x C    13.7200  -18.7600
+            2   C8y C    13.7200  -20.1600
+            3   C8x C    14.9324  -20.8600
+            4   C8x C    16.1449  -20.1600
+            5   C8y C    16.1449  -18.7600
+            6   C8x C    14.9324  -18.0600
+            7   C1a C    12.5076  -20.8600
+            8   C5a C    17.3760  -18.0490
+            9   C1c C    18.5812  -18.7447
+            10  O5a O    17.3757  -16.6601
+            11  C1b C    19.7635  -18.0619
+            12  N1y N    18.5816  -20.1596
+            13  C1b C    20.9575  -18.7512
+            14  C1a C    22.1454  -18.0652
+            15  C1x C    17.4287  -20.9983
+            16  C1x C    17.8700  -22.3539
+            17  C1x C    19.2957  -22.3531
+            18  C1x C    19.7355  -20.9970
+            19  X   Cl   23.5900  -21.2100
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 2
+            11    9  11 1
+            12    9  12 1
+            13   11  13 1
+            14   13  14 1
+            15   12  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   12  18 1
+///

@@ -1,0 +1,72 @@
+ENTRY       D06157                      Drug
+NAME        Tiotidine (USAN/INN)
+FORMULA     C10H16N8S2
+EXACT_MASS  312.0939
+MOL_WEIGHT  312.4176
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07227  Histamine H2/H3 receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                D06157  Tiotidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D06157  Tiotidine (USAN/INN)
+DBLINKS     CAS: 69014-14-8
+            PubChem: 47207815
+            LigandBox: D06157
+            NIKKAJI: J19.135C
+ATOM        20
+            1   S2x S    18.6200  -21.2800
+            2   C8x C    19.4600  -22.4000
+            3   C8y C    20.7200  -21.9100
+            4   N5x N    20.7200  -20.5100
+            5   C8y C    19.3900  -20.0900
+            6   C1b C    21.9100  -22.6100
+            7   S2a S    23.1000  -21.9100
+            8   C1b C    24.2900  -22.6100
+            9   C1b C    25.4800  -21.9100
+            10  N2b N    26.6700  -22.6100
+            11  C2c C    27.8600  -21.9100
+            12  N1b N    29.0500  -22.6100
+            13  N1b N    27.8600  -20.5100
+            14  C1a C    26.6700  -19.8100
+            15  C3b C    30.2400  -21.9100
+            16  N3a N    31.5000  -21.2100
+            17  N1b N    18.9161  -18.7726
+            18  C2c C    17.5205  -18.5213
+            19  N1a N    16.5939  -19.6172
+            20  N2a N    17.0531  -17.2233
+BOND        20
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     3   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   11  13 1
+            14   13  14 1
+            15   12  15 1
+            16   15  16 3
+            17    5  17 1
+            18   17  18 1
+            19   18  19 1
+            20   18  20 2
+///

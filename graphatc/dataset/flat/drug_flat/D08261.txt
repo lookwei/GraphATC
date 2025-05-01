@@ -1,0 +1,102 @@
+ENTRY       D08261                      Drug
+NAME        Neostigmine (BAN);
+            Prostigmin (TN)
+FORMULA     C12H19N2O2
+EXACT_MASS  223.1447
+MOL_WEIGHT  223.2915
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+             DG01719  Parasympathomimetic agent
+REMARK      Same as: C07258
+            ATC code: N07AA01 S01EB06
+            Chemical structure group: DG00987
+            Product (DG00987): D00995<JP> D00998<JP/US>
+EFFICACY    Acetylcholinesterase inhibitor
+COMMENT     Reversible cholinesterase inhibitor
+            Physostigmine derivative
+TARGET      ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa00564(43)  Glycerophospholipid metabolism
+            hsa04725(43)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07A PARASYMPATHOMIMETICS
+                N07AA Anticholinesterases
+                 N07AA01 Neostigmine
+                  D08261  Neostigmine (BAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EB Parasympathomimetics
+                 S01EB06 Neostigmine
+                  D08261  Neostigmine (BAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Neostigmine
+                D08261  Neostigmine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG00987  Neostigmine
+                 D08261  Neostigmine
+              DG01719  Parasympathomimetic agent
+               DG00987  Neostigmine
+                D08261  Neostigmine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D08261  Neostigmine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG00987  Neostigmine
+              DG01719  Parasympathomimetic agent
+               DG00987  Neostigmine
+DBLINKS     CAS: 59-99-4
+            PubChem: 96024949
+            ChEBI: 7514
+            LigandBox: D08261
+            NIKKAJI: J4.797J
+ATOM        16
+            1   C8y C    23.9400  -17.9200
+            2   C8x C    25.1300  -17.2200
+            3   C8x C    23.9400  -19.3200
+            4   O7a O    22.7500  -17.2200
+            5   C8y C    26.3200  -17.9200
+            6   C8x C    25.1300  -19.9500
+            7   C7a C    21.5600  -17.9200
+            8   C8x C    26.3200  -19.3200
+            9   N1d N    27.5100  -17.2200 #+
+            10  N1c N    20.3700  -17.2200
+            11  O6a O    21.5600  -19.3200
+            12  C1a C    29.1200  -16.3100
+            13  C1a C    26.8800  -16.1700
+            14  C1a C    28.2800  -18.4100
+            15  C1a C    19.1800  -17.9200
+            16  C1a C    20.3700  -15.8900
+BOND        16
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     7  10 1
+            10    7  11 2
+            11    9  12 1
+            12    9  13 1
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1
+            16    6   8 1
+///

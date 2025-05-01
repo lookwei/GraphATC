@@ -1,0 +1,129 @@
+ENTRY       D01098                      Drug
+NAME        Maxacalcitol (JAN/USAN/INN);
+            Oxarol (TN);
+            Prezios (TN)
+FORMULA     C26H42O4
+EXACT_MASS  418.3083
+MOL_WEIGHT  418.6093
+CLASS       Gastrointestinal agent
+             DG01607  Vitamin D derivatives
+              DG01606  Activated vitamin D3
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2691 3112
+            Product: D01098<JP>
+            Product (mixture): D10788<JP>
+EFFICACY    Antipsoriatic, Vitamin D receptor agonist
+COMMENT     Vitamin D analogue which inhibits proliferation of cultured keratinocytes and induces terminal differentiation
+TARGET      NR1I1 (VDR) [HSA:7421] [KO:K08539]
+  PATHWAY   hsa04961(7421)  Endocrine and other factor-regulated calcium reabsorption
+            hsa04978(7421)  Mineral absorption
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              26  Epidermides
+               269  Miscellaneous
+                2691  Vitamins for external use
+                 D01098  Maxacalcitol (JAN/USAN/INN)
+             3  Agents affecting metabolism
+              31  Vitamins
+               311  Vitamins A and D preparations
+                3112  Synthetic vitamin D preparations
+                 D01098  Maxacalcitol (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01607  Vitamin D derivatives
+               DG01606  Activated vitamin D3
+                D01098  Maxacalcitol
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01098  Maxacalcitol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Vitamin D3 like receptor
+                NR1I1 (VDR)
+                 D01098  Maxacalcitol (JAN/USAN/INN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01098
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01098
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01098
+DBLINKS     CAS: 103909-75-7
+            PubChem: 7848161
+            ChEBI: 31801
+            PDB-CCD: MCZ
+            LigandBox: D01098
+            NIKKAJI: J277.782G
+ATOM        30
+            1   C1x C    14.9369  -14.6665
+            2   C1x C    14.9369  -16.0686
+            3   C2y C    16.1511  -16.7696
+            4   C1y C    17.3654  -16.0686
+            5   C1z C    17.3654  -14.6665
+            6   C1x C    16.1511  -13.9655
+            7   C1x C    18.6989  -16.5019
+            8   C1x C    19.5230  -15.3676
+            9   C1y C    18.6989  -14.2333
+            10  C1a C    17.3654  -13.2645
+            11  C2b C    16.1511  -18.1715
+            12  C2b C    14.9201  -18.8825
+            13  C2y C    14.9201  -20.2846
+            14  C1x C    13.7227  -20.9759
+            15  C1y C    13.7227  -22.3779
+            16  C1x C    14.9369  -23.0790
+            17  C1y C    16.1343  -22.3877
+            18  C2y C    16.1343  -20.9856
+            19  C2a C    17.3485  -20.2846
+            20  O1a O    12.5254  -23.0694
+            21  O1a O    17.3401  -23.0838
+            22  C1c C    19.1306  -12.9045
+            23  O2a O    20.5327  -12.9045
+            24  C1a C    18.3154  -11.7823
+            25  C1b C    21.2327  -11.6920
+            26  C1b C    22.6480  -11.6917
+            27  C1d C    23.3358  -10.5002
+            28  O1a O    24.7511  -10.4998
+            29  C1a C    22.6509   -9.3147
+            30  C1a C    24.0536  -11.7428
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1
+            11    5  10 1 #Up
+            12    3  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   13  18 1
+            21   18  19 2
+            22   15  20 1 #Down
+            23   17  21 1 #Up
+            24    9  22 1
+            25   22  23 1
+            26   22  24 1 #Down
+            27   23  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   27  29 1
+            32   27  30 1
+///

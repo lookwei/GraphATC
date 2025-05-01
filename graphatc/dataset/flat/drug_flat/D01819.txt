@@ -1,0 +1,156 @@
+ENTRY       D01819                      Drug
+NAME        Cefotiam hydrochloride (JP18/USP);
+            Ceradon (TN);
+            Pansporin (TN)
+FORMULA     C18H23N9O4S3. 2HCl
+EXACT_MASS  597.0569
+MOL_WEIGHT  598.55
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01775  Second-generation cephalosporin
+REMARK      Therapeutic category: 6132
+            ATC code: J01DC07
+            Chemical structure group: DG00563
+            Product (DG00563): D01819<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07012  Cephalosporins - parenteral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DC Second-generation cephalosporins
+                 J01DC07 Cefotiam
+                  D01819  Cefotiam hydrochloride (JP18/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               613  Acting mainly on gram-positive and gram-negative bacteria
+                6132  Cephem antibioitics
+                 D01819  Cefotiam hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00563  Cefotiam
+                  D01819  Cefotiam hydrochloride
+              DG01775  Second-generation cephalosporin
+               DG00563  Cefotiam
+                D01819  Cefotiam hydrochloride
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01488  Cephem
+               D01819  Cefotiam hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                D01819  Cefotiam hydrochloride (JP18/USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01819  Cefotiam hydrochloride
+              D01819  Cefotiam hydrochloride for injection
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00563  Cefotiam
+              DG01775  Second-generation cephalosporin
+               DG00563  Cefotiam
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                DG00563  Cefotiam
+DBLINKS     CAS: 66309-69-1
+            PubChem: 7848881
+            ChEBI: 31374
+            LigandBox: D01819
+            NIKKAJI: J290.245A
+ATOM        36
+            1   C1y C    11.2206  -16.3740
+            2   N1y N    11.2206  -17.7676
+            3   C2y C    12.4277  -18.4643
+            4   C2y C    13.6347  -17.7676
+            5   C1x C    13.6347  -16.3740
+            6   S2x S    12.4277  -15.6771
+            7   C1y C     9.8268  -16.3740
+            8   C5x C     9.8268  -17.7676
+            9   N1b N     8.6200  -15.6771
+            10  C5a C     7.4128  -16.3740
+            11  O5a O     7.4128  -17.7676
+            12  O5x O     8.6200  -18.4643
+            13  C1b C     6.2058  -15.6771
+            14  C1b C    14.8602  -18.4755
+            15  C6a C    12.4277  -19.8579
+            16  O6a O    11.2038  -20.5647
+            17  O6a O    13.6177  -20.5452
+            18  C8y C     4.9794  -16.3856
+            19  S2a S    16.0721  -17.7760
+            20  C8y C    17.2788  -18.4730
+            21  N5x N    17.6839  -19.8742
+            22  N5x N    19.0782  -19.9044
+            23  N5x N    19.5378  -18.5177
+            24  N4y N    18.4274  -17.6737
+            25  C8x C     3.8295  -15.5758
+            26  S2x S     2.6994  -16.4195
+            27  C8y C     3.1525  -17.7550
+            28  N5x N     4.5626  -17.8069
+            29  C1b C    18.3879  -16.2408
+            30  C1b C    19.5969  -15.4975
+            31  N1c N    20.8190  -16.1586
+            32  C1a C    21.9853  -15.4412
+            33  C1a C    20.7884  -17.5683
+            34  N1a N     2.3031  -18.8948
+            35  X   Cl   22.4700  -19.6700
+            36  X   Cl   22.4700  -19.6700
+BOND        37
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16    3  15 1
+            17   15  16 2
+            18   15  17 1
+            19   13  18 1
+            20   14  19 1
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   23  24 1
+            26   20  24 1
+            27   18  25 2
+            28   25  26 1
+            29   26  27 1
+            30   27  28 2
+            31   18  28 1
+            32   24  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   31  33 1
+            37   27  34 1
+BRACKET     1    20.8600  -20.3700   20.8600  -18.9700
+            1    23.2400  -18.9700   23.2400  -20.3700
+            1  2
+  ORIGINAL  1   36
+  REPEAT    1   37
+///

@@ -1,0 +1,116 @@
+ENTRY       D04657                      Drug
+NAME        Lacidipine (USAN/INN);
+            Motens (TN)
+FORMULA     C26H33NO6
+EXACT_MASS  455.2308
+MOL_WEIGHT  455.5433
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+REMARK      ATC code: C08CA09
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA09 Lacidipine
+                  D04657  Lacidipine (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                D04657  Lacidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D04657  Lacidipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D04657  Lacidipine (USAN/INN)
+DBLINKS     CAS: 103890-78-4
+            PubChem: 47206500
+            LigandBox: D04657
+            NIKKAJI: J325.878E
+ATOM        33
+            1   C1y C    30.7658  -15.9980
+            2   C8y C    30.8182  -18.2612
+            3   C2y C    29.5904  -15.3231
+            4   C2y C    31.9409  -15.3290
+            5   C8x C    29.6371  -18.9361
+            6   C8y C    31.9935  -18.9478
+            7   C2y C    29.5963  -13.9617
+            8   C7a C    28.4093  -15.9923
+            9   C2y C    31.9468  -13.9734
+            10  C7a C    33.1104  -16.0096
+            11  C8x C    29.6371  -20.2975
+            12  C8x C    31.9877  -20.2975
+            13  N1x N    30.7715  -13.2868
+            14  C1a C    28.4209  -13.2811
+            15  O7a O    27.2400  -15.3174
+            16  O6a O    28.4093  -17.3594
+            17  C1a C    33.1220  -13.2928
+            18  O7a O    34.2914  -15.3406
+            19  O6a O    33.1046  -17.3710
+            20  C8x C    30.8066  -20.9782
+            21  C1b C    26.0648  -15.9923
+            22  C1b C    35.4667  -16.0212
+            23  C1a C    24.8895  -15.3115
+            24  C1a C    36.6913  -15.3163
+            25  C2b C    33.2154  -18.2501
+            26  C2b C    34.3974  -18.9401
+            27  C7a C    35.5884  -18.2599
+            28  O7a O    36.7621  -18.9450
+            29  O6a O    35.5258  -16.8532
+            30  C1d C    37.9573  -18.2623
+            31  C1a C    39.3583  -17.4419
+            32  C1a C    38.6325  -19.4451
+            33  C1a C    37.2518  -17.0264
+BOND        34
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    7  14 1
+            14    8  15 1
+            15    8  16 2
+            16    9  17 1
+            17   10  18 1
+            18   10  19 2
+            19   11  20 2
+            20   15  21 1
+            21   18  22 1
+            22   21  23 1
+            23    9  13 1
+            24   12  20 1
+            25   22  24 1
+            26    6  25 1
+            27   25  26 2
+            28   26  27 1
+            29   27  28 1
+            30   27  29 2
+            31   28  30 1
+            32   30  31 1
+            33   30  32 1
+            34   30  33 1
+///

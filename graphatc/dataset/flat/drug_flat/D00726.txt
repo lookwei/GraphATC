@@ -1,0 +1,162 @@
+ENTRY       D00726                      Drug
+NAME        Metoclopramide (JP18/INN);
+            Elieten (TN);
+            Terperan (TN)
+FORMULA     C14H22ClN3O2
+EXACT_MASS  299.1401
+MOL_WEIGHT  299.7964
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Gastrointestinal agent
+             DG01763  Propulsive
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+              DG01783  Benzamide type antiemetic
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Same as: C07868
+            Therapeutic category: 2399
+            ATC code: A03FA01
+            Chemical structure group: DG00055
+            Product (DG00055): D00726<JP> D02213<JP> D05008<US>
+EFFICACY    Anti-emetic, Prokinetic, Dopamine D2 receptor antagonist
+COMMENT     Benzamide derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+STR_MAP     map07028  Antipsychotics
+            map07048  Antimigraines
+            map07211  Serotonin receptor agonists/antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03F PROPULSIVES
+                A03FA Propulsives
+                 A03FA01 Metoclopramide
+                  D00726  Metoclopramide (JP18/INN) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Antiemetics
+              Antiemetics, Other
+               Metoclopramide
+                D00726  Metoclopramide (JP18/INN)
+             Gastrointestinal Agents
+              Gastrointestinal Agents, Other
+               Metoclopramide
+                D00726  Metoclopramide (JP18/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              23  Digestive organ agents
+               239  Miscellaneous
+                2399  Others
+                 D00726  Metoclopramide (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00055  Metoclopramide
+                 D00726  Metoclopramide
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG00055  Metoclopramide
+                D00726  Metoclopramide
+              DG01489  5-HT3-receptor antagonist
+               DG00055  Metoclopramide
+                D00726  Metoclopramide
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                DG00055  Metoclopramide
+                 D00726  Metoclopramide
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00055  Metoclopramide
+                D00726  Metoclopramide
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00055  Metoclopramide
+                D00726  Metoclopramide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00726  Metoclopramide (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00726  Metoclopramide
+              D00726  Metoclopramide tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00726
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00055  Metoclopramide
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG00055  Metoclopramide
+              DG01489  5-HT3-receptor antagonist
+               DG00055  Metoclopramide
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                DG00055  Metoclopramide
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00055  Metoclopramide
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00055  Metoclopramide
+DBLINKS     CAS: 364-62-5
+            PubChem: 7847791
+            ChEBI: 107736
+            LigandBox: D00726
+            NIKKAJI: J2.037K
+ATOM        20
+            1   C8y C    27.1658  -16.8047
+            2   C8y C    27.1658  -15.4044
+            3   C8x C    25.9755  -17.5049
+            4   C5a C    28.4261  -17.5049
+            5   C8x C    25.9755  -14.7043
+            6   O2a O    28.4261  -14.7043
+            7   C8y C    24.7854  -16.8047
+            8   N1b N    29.6164  -16.8047
+            9   O5a O    28.4261  -18.9052
+            10  C8y C    24.7854  -15.4044
+            11  C1a C    29.6164  -15.4044
+            12  X   Cl   23.5951  -17.5049
+            13  C1b C    30.8766  -17.5049
+            14  N1a N    23.5951  -14.7043
+            15  C1b C    32.0669  -16.8047
+            16  N1c N    33.2572  -17.5049
+            17  C1b C    34.5175  -16.8047
+            18  C1b C    33.2572  -18.9052
+            19  C1a C    35.7077  -17.5049
+            20  C1a C    34.5175  -19.6053
+BOND        20
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13   10  14 1
+            14   13  15 1
+            15   15  16 1
+            16   16  17 1
+            17   16  18 1
+            18   17  19 1
+            19   18  20 1
+            20    7  10 2
+///

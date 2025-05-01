@@ -1,0 +1,125 @@
+ENTRY       D08376                      Drug
+NAME        Pilocarpine borate;
+            pilolarpin ophtha (TN)
+FORMULA     C11H16N2O2. xH3BO3
+CLASS       Neuropsychiatric agent
+             DG01490  Muscarinic cholinergic receptor agonist
+             DG01719  Parasympathomimetic agent
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+            Metabolizing enzyme substrate
+             DG01638  CYP2A6 substrate
+REMARK      ATC code: N07AX01 S01EB01
+            Chemical structure group: DG00992
+            Product (DG00992): D02200<JP/US>
+EFFICACY    Miotic, Muscrinic receptor agonist
+TARGET      CHRM3 [HSA:1131] [KO:K04131]
+            CHRM2 [HSA:1129] [KO:K04130]
+  PATHWAY   hsa04080(1129+1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1129+1131)  Cholinergic synapse
+            hsa04970(1131)  Salivary secretion
+METABOLISM  Enzyme: CYP2A6 [HSA:1548]
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+            map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07A PARASYMPATHOMIMETICS
+                N07AX Other parasympathomimetics
+                 N07AX01 Pilocarpine
+                  D08376  Pilocarpine borate
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EB Parasympathomimetics
+                 S01EB01 Pilocarpine
+                  D08376  Pilocarpine borate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               DG00992  Pilocarpine
+                D08376  Pilocarpine borate
+              DG01719  Parasympathomimetic agent
+               DG00992  Pilocarpine
+                D08376  Pilocarpine borate
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG00992  Pilocarpine
+                D08376  Pilocarpine borate
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG00992  Pilocarpine
+                D08376  Pilocarpine borate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM2
+                 D08376  Pilocarpine borate
+                CHRM3
+                 D08376  Pilocarpine borate
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08376
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               DG00992  Pilocarpine
+              DG01719  Parasympathomimetic agent
+               DG00992  Pilocarpine
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG00992  Pilocarpine
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG00992  Pilocarpine
+DBLINKS     CAS: 16509-56-1
+            PubChem: 96025062
+            LigandBox: D08376
+ATOM        19
+            1   C1y C    18.3400  -18.5500
+            2   C1y C    16.8700  -18.5500
+            3   C1b C    19.5300  -19.2500
+            4   C1x C    18.7600  -17.2200
+            5   C7x C    16.4500  -17.2200
+            6   C1b C    16.1000  -19.7400
+            7   C8y C    20.5800  -18.6200
+            8   O7x O    17.6400  -16.3800
+            9   O6a O    15.1200  -16.8000
+            10  C1a C    14.7000  -19.7400
+            11  N4y N    22.0500  -18.6200
+            12  C8x C    20.1600  -17.2200
+            13  C8x C    22.4700  -17.2200
+            14  C1a C    22.8200  -19.7400
+            15  N5x N    21.2800  -16.3800
+            16  Z   B    29.8900  -18.4800
+            17  O1a O    29.8900  -17.0800
+            18  O1a O    28.6776  -19.1800
+            19  O1a O    31.1024  -19.1800
+BOND        19
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 2
+            9     6  10 1
+            10    7  11 1
+            11    7  12 2
+            12   11  13 1
+            13   11  14 1
+            14   12  15 1
+            15    5   8 1
+            16   13  15 2
+            17   16  17 1
+            18   16  18 1
+            19   16  19 1
+BRACKET     1    26.8800  -19.8100   26.8800  -16.0300
+            1    32.9000  -16.0300   32.9000  -19.8100
+            1  x
+  ORIGINAL  1   16  17  18  19
+  REPEAT    1 
+///

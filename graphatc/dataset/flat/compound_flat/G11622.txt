@@ -1,0 +1,36 @@
+ENTRY       G11622                      Glycan
+NAME        Xyloglucan
+COMPOSITION (Gal)1 (Glc)4 (LFuc)1 (Xyl)3 (*)2
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G11622  Xyloglucan
+DBLINKS     GlyTouCan: G53109MB
+NODE        11
+            1   *          19    -5
+            2   Glc        11    -5
+            3   Xyl         4     0
+            4   Glc         4    -5
+            5   LFuc       -4     5
+            6   Xyl        -4     0
+            7   Glc        -4    -5
+            8   Gal       -12     5
+            9   Xyl       -12     0
+            10  Glc       -12    -5
+            11  *         -20    -5
+EDGE        10
+            1     2:b1    1    
+            2     3:a1    2:6  
+            3     4:b1    2:4  
+            4     5:a1    3:2  
+            5     6:a1    4:6  
+            6     7:b1    4:4  
+            7     8:b1    5:2  
+            8     9:a1    7:6  
+            9    10:b1    7:4  
+            10   11      10:4  
+BRACKET     1 -15.0   6.0 -15.0  -7.0
+            1  16.0  -7.0  16.0   6.0
+            1 n
+///

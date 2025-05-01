@@ -1,0 +1,92 @@
+ENTRY       D07337                      Drug
+NAME        Nialamide (INN);
+            Niamid (TN)
+FORMULA     C16H18N4O2
+EXACT_MASS  298.143
+MOL_WEIGHT  298.3397
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      ATC code: N06AF02
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AF Monoamine oxidase inhibitors, non-selective
+                 N06AF02 Nialamide
+                  D07337  Nialamide (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                D07337  Nialamide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D07337  Nialamide (INN)
+DBLINKS     CAS: 51-12-7
+            PubChem: 51091674
+            LigandBox: D07337
+            NIKKAJI: J2.302G
+ATOM        22
+            1   C8x C    15.1900  -19.6700
+            2   N5x N    15.1900  -21.0700
+            3   C8x C    16.4024  -21.7700
+            4   C8x C    17.6149  -21.0700
+            5   C8y C    17.6149  -19.6700
+            6   C8x C    16.4024  -18.9700
+            7   C5a C    18.8524  -18.9700
+            8   N1b N    20.0649  -19.6700
+            9   N1b N    21.2773  -18.9700
+            10  C1b C    22.4897  -19.6700
+            11  C1b C    23.7022  -18.9700
+            12  C5a C    24.9146  -19.6700
+            13  N1b N    26.1270  -18.9700
+            14  C1b C    27.3395  -19.6700
+            15  C8y C    28.5519  -18.9700
+            16  C8x C    29.7704  -19.6735
+            17  C8x C    30.9828  -18.9735
+            18  C8x C    30.9829  -17.5735
+            19  C8x C    29.7644  -16.8700
+            20  C8x C    28.5519  -17.5700
+            21  O5a O    18.8586  -17.5703
+            22  O5a O    24.9146  -21.0700
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22    7  21 2
+            23   12  22 2
+///

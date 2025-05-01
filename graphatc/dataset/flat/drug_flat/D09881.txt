@@ -1,0 +1,178 @@
+ENTRY       D09881                      Drug
+NAME        Cobicistat (JAN/USAN/INN);
+            Tybost (TN)
+  ABBR      COBI
+PRODUCT     TYBOST (Gilead Sciences)
+FORMULA     C40H53N7O5S2
+EXACT_MASS  775.355
+MOL_WEIGHT  776.0227
+CLASS       Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+REMARK      ATC code: V03AX03
+            Product: D09881<US>
+            Product (mixture): D10753<US> D10755<JP/US> D10756<US> D10832<JP/US> D11382<JP/US>
+EFFICACY    Antiviral (potentiator), CYP3A inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+COMMENT     Pharmacoenhancer of anti-HIV agents metabolized by CYP3A.
+            Combination with other antiretroviral
+TARGET      CYP3A [HSA:1551 1576 1577 64816] [KO:K17691 K17689 K17690 K17692]
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]; CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551], CYP2D6 [HSA:1565]
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AX Other therapeutic products
+                 V03AX03 Cobicistat
+                  D09881  Cobicistat (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Other
+               Cobicistat
+                D09881  Cobicistat (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D09881  Cobicistat
+              DG01633  CYP3A/CYP3A4 substrate
+               D09881  Cobicistat
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               D09881  Cobicistat
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D09881  Cobicistat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Cytochrome P450
+                CYP3A
+                 D09881  Cobicistat (JAN/USAN/INN) &lt;US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09881
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09881
+DBLINKS     CAS: 1004316-88-4
+            PubChem: 135626633
+            LigandBox: D09881
+ATOM        54
+            1   C1c C    26.1100  -20.1600
+            2   C1b C    26.1100  -21.5600
+            3   C1b C    27.3000  -19.4600
+            4   N1b N    24.9200  -19.4600
+            5   C1b C    28.5600  -20.1600
+            6   C5a C    23.7300  -20.1600
+            7   C1c C    29.7500  -19.4600
+            8   C1c C    22.4700  -19.4600
+            9   O5a O    23.7300  -21.5600
+            10  C1b C    29.7500  -18.0600
+            11  N1b N    30.9400  -20.0900
+            12  N1b N    21.2800  -20.1600
+            13  C8y C    28.4900  -17.3600
+            14  C7a C    32.1300  -19.4600
+            15  C5a C    20.0900  -19.4600
+            16  C8x C    28.4900  -15.9600
+            17  C8x C    27.3000  -18.0600
+            18  O7a O    33.3900  -20.0900
+            19  O6a O    32.1300  -18.0600
+            20  N1c N    18.9000  -20.1600
+            21  O5a O    20.0900  -18.0600
+            22  C8x C    27.3000  -15.2600
+            23  C8x C    26.1100  -17.3600
+            24  C1b C    34.5800  -19.3900
+            25  C1b C    17.6400  -19.4600
+            26  C1a C    18.9000  -21.5600
+            27  C8x C    26.1100  -15.9600
+            28  C8y C    35.7700  -20.0900
+            29  C8y C    16.4500  -20.1600
+            30  C8x C    35.7700  -21.4900
+            31  S2x S    37.1000  -19.6700
+            32  N5x N    15.1200  -19.8100
+            33  C8x C    16.4500  -21.5600
+            34  N5x N    37.1000  -21.9100
+            35  C8x C    37.9400  -20.7900
+            36  C8y C    14.3500  -21.0000
+            37  S2x S    15.1900  -22.0500
+            38  C1c C    12.9500  -21.0000
+            39  C1a C    12.1800  -19.8100
+            40  C1a C    12.3200  -22.1900
+            41  C8y C    27.3224  -22.2600
+            42  C8x C    27.3224  -23.6598
+            43  C8x C    28.5349  -24.3598
+            44  C8x C    29.7473  -23.6598
+            45  C8x C    29.7473  -22.2600
+            46  C8x C    28.5349  -21.5600
+            47  C1b C    22.4528  -18.0601
+            48  C1b C    21.2449  -17.3824
+            49  N1y N    21.2449  -15.9824
+            50  C1x C    22.4402  -15.2917
+            51  C1x C    22.4397  -13.8917
+            52  O2x O    21.2270  -13.1922
+            53  C1x C    20.0317  -13.8828
+            54  C1x C    20.0322  -15.2828
+BOND        58
+            1     1   2 1 #Down
+            2     1   3 1
+            3     1   4 1
+            4     3   5 1
+            5     4   6 1
+            6     5   7 1
+            7     6   8 1
+            8     6   9 2
+            9     7  10 1 #Down
+            10    7  11 1
+            11    8  12 1 #Up
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 2
+            16   13  17 1
+            17   14  18 1
+            18   14  19 2
+            19   15  20 1
+            20   15  21 2
+            21   16  22 1
+            22   17  23 2
+            23   18  24 1
+            24   20  25 1
+            25   20  26 1
+            26   22  27 2
+            27   24  28 1
+            28   25  29 1
+            29   28  30 2
+            30   28  31 1
+            31   29  32 1
+            32   29  33 2
+            33   30  34 1
+            34   31  35 1
+            35   32  36 2
+            36   33  37 1
+            37   36  38 1
+            38   38  39 1
+            39   38  40 1
+            40   23  27 1
+            41   34  35 2
+            42   36  37 1
+            43    2  41 1
+            44   41  42 2
+            45   42  43 1
+            46   43  44 2
+            47   44  45 1
+            48   45  46 2
+            49   41  46 1
+            50    8  47 1
+            51   47  48 1
+            52   48  49 1
+            53   49  50 1
+            54   50  51 1
+            55   51  52 1
+            56   52  53 1
+            57   53  54 1
+            58   49  54 1
+///

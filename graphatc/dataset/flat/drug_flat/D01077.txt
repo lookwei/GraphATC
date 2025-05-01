@@ -1,0 +1,101 @@
+ENTRY       D01077                      Drug
+NAME        Methylatropine nitrate (USAN);
+            Atropine methonitrate (JAN/INN);
+            Ekomine (TN)
+FORMULA     C18H26NO3. NO3
+EXACT_MASS  366.1791
+MOL_WEIGHT  366.4088
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: A03BB02
+            Chemical structure group: DG01242
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative, Quaternary ammonium compound
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03B BELLADONNA AND DERIVATIVES, PLAIN
+                A03BB Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+                 A03BB02 Methylatropine
+                  D01077  Methylatropine nitrate (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01242  Methylatropine
+                D01077  Methylatropine nitrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01077  Methylatropine nitrate (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01242  Methylatropine
+DBLINKS     CAS: 52-88-0
+            PubChem: 7848140
+            ChEBI: 2918
+            LigandBox: D01077
+            NIKKAJI: J349.597C
+ATOM        26
+            1   N2b N    32.1276  -18.8381 #+
+            2   O3a O    32.1276  -17.7275
+            3   O3a O    30.8418  -19.6973 #-
+            4   O3a O    33.4778  -19.5804 #-
+            5   C1x C    18.2238  -19.1608
+            6   C1x C    18.5519  -17.9891
+            7   C1y C    19.3955  -18.8796
+            8   C1y C    19.7236  -17.7079
+            9   N2y N    18.4582  -16.3956 #+
+            10  C1x C    21.2702  -18.8796
+            11  C1x C    20.9890  -17.7079
+            12  C1y C    22.3013  -19.4420
+            13  O7a O    23.3793  -20.3325
+            14  C7a C    24.5979  -20.3325
+            15  C1c C    25.2072  -19.2545
+            16  O6a O    25.2072  -21.4573
+            17  C8y C    26.4258  -19.2545
+            18  C1b C    24.5979  -18.2234
+            19  O1a O    25.2072  -17.1455
+            20  C8x C    27.1320  -20.4782
+            21  C8x C    28.5320  -20.4785
+            22  C8x C    29.2322  -19.2662
+            23  C8x C    28.5261  -18.0425
+            24  C8x C    27.1261  -18.0422
+            25  C1a C    17.7091  -15.2114
+            26  C1a C    17.2289  -17.0083
+BOND        27
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     5   6 1
+            5     5   7 1
+            6     6   8 1
+            7     7   9 1
+            8     7  10 1
+            9     8  11 1
+            10   10  12 1
+            11   12  13 1 #Down
+            12   13  14 1
+            13   14  15 1
+            14   14  16 2
+            15   15  17 1
+            16   15  18 1
+            17   18  19 1
+            18    8   9 1
+            19   11  12 1
+            20   17  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   17  24 1
+            26    9  25 1
+            27    9  26 1
+///

@@ -1,0 +1,80 @@
+ENTRY       D06161                      Drug
+NAME        Tipredane (USAN)
+FORMULA     C22H31FO2S2
+EXACT_MASS  410.175
+MOL_WEIGHT  410.6087
+EFFICACY    Anti-inflammatory (topical)
+COMMENT     Adrenocortical steroid
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D06161  Tipredane (USAN)
+DBLINKS     CAS: 85197-77-9
+            PubChem: 47207819
+            ChEBI: 175291
+            LigandBox: D06161
+            NIKKAJI: J352.513I
+ATOM        27
+            1   C1y C    24.6394  -20.1178
+            2   C1z C    23.4937  -19.4428
+            3   C1y C    25.8549  -19.4599
+            4   C1x C    24.6394  -21.4449
+            5   C1z C    22.3424  -20.1065
+            6   C1y C    23.5051  -18.1214
+            7   C1z C    25.8020  -18.1385
+            8   C1x C    28.0820  -19.4893
+            9   C1x C    23.4823  -22.1028
+            10  C2y C    22.3368  -21.4336
+            11  C2x C    21.1911  -19.4373
+            12  C1x C    24.6621  -17.4635
+            13  C1z C    26.9590  -17.4919
+            14  C1x C    28.0989  -18.1668
+            15  C2x C    21.1911  -22.0970
+            16  C2x C    20.0341  -20.1065
+            17  S2a S    28.6597  -16.2675
+            18  S2a S    26.9647  -15.8131
+            19  C5x C    20.0341  -21.4336
+            20  O5x O    18.8885  -22.0970
+            21  C1a C    22.3424  -18.7450
+            22  C1a C    25.8020  -16.7770
+            23  O1a O    22.3010  -17.4135
+            24  C1a C    25.7827  -15.1250
+            25  C1b C    29.8665  -16.9037
+            26  C1a C    31.0442  -16.1620
+            27  X   F    23.4937  -20.8205
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 1
+            14   10  15 2
+            15   11  16 2
+            16   13  17 1 #Down
+            17   13  18 1 #Up
+            18   15  19 1
+            19   19  20 2
+            20    7  12 1
+            21    9  10 1
+            22   13  14 1
+            23   16  19 1
+            24    5  21 1 #Up
+            25    7  22 1 #Up
+            26    6  23 1 #Up
+            27   18  24 1
+            28   17  25 1
+            29   25  26 1
+            30    2  27 1 #Down
+///

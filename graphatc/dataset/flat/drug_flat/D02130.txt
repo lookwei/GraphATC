@@ -1,0 +1,98 @@
+ENTRY       D02130                      Drug
+NAME        Tropisetron (INN);
+            Navoban (TN)
+FORMULA     C17H20N2O2
+EXACT_MASS  284.1525
+MOL_WEIGHT  284.3529
+CLASS       Gastrointestinal agent
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+REMARK      Same as: C13666
+            ATC code: A04AA03
+            Chemical structure group: DG00062
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A04 ANTIEMETICS AND ANTINAUSEANTS
+               A04A ANTIEMETICS AND ANTINAUSEANTS
+                A04AA Serotonin (5HT3) antagonists
+                 A04AA03 Tropisetron
+                  D02130  Tropisetron (INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG00062  Tropisetron
+                D02130  Tropisetron
+              DG01762  Antiemetic
+               DG00062  Tropisetron
+                D02130  Tropisetron
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D02130  Tropisetron (INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01489  5-HT3-receptor antagonist
+               DG00062  Tropisetron
+              DG01762  Antiemetic
+               DG00062  Tropisetron
+DBLINKS     CAS: 89565-68-4
+            PubChem: 7849191
+            ChEBI: 32269
+            PDB-CCD: TKT
+            LigandBox: D02130
+            NIKKAJI: J22.211I
+ATOM        21
+            1   O7a O    32.6488  -10.2991
+            2   C1y C    31.5372   -9.6321
+            3   C1x C    30.5590   -8.1648
+            4   C1x C    30.5590   -9.1875
+            5   C1y C    29.1362   -8.1648
+            6   C1y C    29.0472   -9.1875
+            7   N1y N    28.2913   -7.2311
+            8   C1x C    28.1135   -8.7428
+            9   C1x C    27.5800   -9.8100
+            10  C1a C    28.2963   -5.9092
+            11  C7a C    34.0746  -10.2754
+            12  C8y C    34.7959   -9.0483
+            13  O6a O    34.7566  -11.5486
+            14  C8y C    36.1753   -8.9956
+            15  C8y C    36.4849   -7.6457
+            16  N4x N    35.2968   -6.9342
+            17  C8x C    34.2529   -7.8442
+            18  C8x C    37.2030   -9.9512
+            19  C8x C    38.5444   -9.5390
+            20  C8x C    38.8540   -8.1891
+            21  C8x C    37.8264   -7.2336
+BOND        24
+            1     2   4 1
+            2     3   5 1
+            3     4   6 1
+            4     5   7 1
+            5     5   8 1
+            6     6   9 1
+            7     6   7 1
+            8     8   9 1
+            9     2   1 1 #Down
+            10    2   3 1
+            11    7  10 1
+            12    1  11 1
+            13   11  12 1
+            14   11  13 2
+            15   12  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   12  17 2
+            20   14  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   15  21 2
+///

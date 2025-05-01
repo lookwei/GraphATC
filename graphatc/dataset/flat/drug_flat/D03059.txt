@@ -1,0 +1,72 @@
+ENTRY       D03059                      Drug
+NAME        Batabulin sodium (USAN)
+FORMULA     C13H6F6NO3S. Na
+EXACT_MASS  392.987
+MOL_WEIGHT  393.2368
+REMARK      Chemical structure group: DG01412
+EFFICACY    Antineoplastic, Tubulin polymerization inhibitor
+COMMENT     Treatment of various refractory cancers, including hepatocellular carcinoma, breast, colon and non-small cell lung cancer
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+BRITE       Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D03059  Batabulin sodium (USAN)
+DBLINKS     CAS: 195533-98-3
+            PubChem: 17397214
+            LigandBox: D03059
+ATOM        25
+            1   C8y C    20.9568  -17.4172
+            2   O2a O    22.1407  -18.1136
+            3   C8x C    20.9568  -15.9547
+            4   C8y C    19.7032  -18.1136
+            5   C1a C    23.3247  -17.4172
+            6   C8x C    19.7032  -15.2582
+            7   C8x C    18.5193  -17.4172
+            8   C8y C    18.5193  -15.9547
+            9   N1b N    17.3354  -15.2582 #-
+            10  S4a S    16.0818  -15.9547
+            11  C8y C    14.8979  -15.2582
+            12  O3c O    17.3354  -16.7207
+            13  O3c O    15.0372  -16.7207
+            14  X   F    19.6862  -19.5299
+            15  C8y C    14.9092  -13.8600
+            16  C8y C    13.7025  -13.1502
+            17  C8y C    12.4845  -13.8403
+            18  C8y C    12.4731  -15.2385
+            19  C8y C    13.6798  -15.9483
+            20  X   F    13.6685  -17.3599
+            21  X   F    11.2358  -15.9392
+            22  X   F    11.2686  -13.1248
+            23  X   F    13.7140  -11.7600
+            24  X   F    16.1279  -13.1696
+            25  Z   Na   27.0900  -17.2900 #+
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12   10  13 2
+            13    7   8 2
+            14    4  14 1
+            15   11  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   11  19 1
+            21   19  20 1
+            22   18  21 1
+            23   17  22 1
+            24   16  23 1
+            25   15  24 1
+///

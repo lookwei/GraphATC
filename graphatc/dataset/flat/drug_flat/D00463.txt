@@ -1,0 +1,130 @@
+ENTRY       D00463                      Drug
+NAME        Oxaprozin (JP18/USP/INN);
+            Daypro (TN)
+PRODUCT     DAYPRO (Pfizer Laboratories Div Pfizer)
+  GENERIC   OXAPROZIN (Amneal Pharmaceuticals NY LLC)
+            OXAPROZIN (Bryant Ranch Prepack)
+            OXAPROZIN (Bryant Ranch Prepack)
+            OXAPROZIN (Bryant Ranch Prepack)
+            OXAPROZIN (Bryant Ranch Prepack)
+            OXAPROZIN (Chartwell RX)
+            OXAPROZIN (DIRECT RX)
+            OXAPROZIN (Dr. Reddy's Laboratories Limited)
+            OXAPROZIN (Eon Labs)
+            OXAPROZIN (Greenstone LLC)
+            OXAPROZIN (ST MARY'S MEDICAL PARK PHARMACY)
+            OXAPROZIN (St Mary's Medical Park Pharmacy)
+            OXAPROZIN (St. Mary's Medical Park Pharmacy)
+FORMULA     C18H15NO3
+EXACT_MASS  293.1052
+MOL_WEIGHT  293.3166
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+REMARK      Same as: C07356
+            Therapeutic category: 1149
+            ATC code: M01AE12
+            Product: D00463<JP/US>
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+  DISEASE   Rheumatoid arthritis [DS:H00630]
+            Juvenile rheumatoid arthritis [DS:H01672]
+COMMENT     Propionic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+STR_MAP     map07112  1,2-Diphenyl substitution family
+            map07219  Cyclooxygenase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE12 Oxaprozin
+                  D00463  Oxaprozin (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Nonsteroidal Anti-inflammatory Drugs
+               Oxaprozin
+                D00463  Oxaprozin (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               114  Antipyretics and analgesics, anti-inflammatory agents
+                1149  Others
+                 D00463  Oxaprozin (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                D00463  Oxaprozin
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               D00463  Oxaprozin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D00463  Oxaprozin (JP18/USP/INN) &lt;JP/US&gt;
+                PTGS2 (COX2)
+                 D00463  Oxaprozin (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00463  Oxaprozin
+DBLINKS     CAS: 21256-18-8
+            PubChem: 7847529
+            ChEBI: 7822
+            PDB-CCD: BJ6
+            LigandBox: D00463
+            NIKKAJI: J10.781F
+ATOM        22
+            1   C8y C    25.8557  -17.0142
+            2   C1b C    27.2577  -17.0142
+            3   N5x N    25.0145  -15.8927
+            4   C8y C    23.7060  -16.3132
+            5   C8y C    23.7060  -17.7152
+            6   O2x O    25.0145  -18.1358
+            7   C8x C    20.0609  -14.2103
+            8   C8x C    20.0609  -15.6123
+            9   C8x C    21.2760  -16.3132
+            10  C8y C    22.4910  -15.6123
+            11  C8x C    22.4910  -14.2103
+            12  C8x C    21.2760  -13.5093
+            13  C8x C    20.0609  -18.4162
+            14  C8x C    20.0609  -19.8181
+            15  C8x C    21.2760  -20.5191
+            16  C8x C    22.4910  -19.8181
+            17  C8y C    22.4910  -18.4162
+            18  C8x C    21.2760  -17.7152
+            19  C1b C    27.9586  -15.8000
+            20  C6a C    29.3606  -15.8000
+            21  O6a O    30.0620  -14.5852
+            22  O6a O    30.0612  -17.0135
+BOND        24
+            1     1   2 1
+            2     1   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12    7  12 1
+            13   10   4 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   13  18 1
+            20   17   5 1
+            21    2  19 1
+            22   19  20 1
+            23   20  21 1
+            24   20  22 2
+///

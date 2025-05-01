@@ -1,0 +1,62 @@
+ENTRY       C00333                      Compound
+NAME        D-Galacturonate;
+            D-Galacturonic acid
+FORMULA     C6H10O7
+EXACT_MASS  194.0427
+MOL_WEIGHT  194.1394
+REACTION    R01980 R01981 R01982 R01983 R01984 R04320 R06201 R07413 
+            R07676 R10565 R10841 R12661 R13198
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map00053  Ascorbate and aldarate metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+            map01250  Biosynthesis of nucleotide sugars
+            map02010  ABC transporters
+MODULE      M00081  Pectin degradation
+            M00630  D-Galacturonate degradation (fungi), D-galacturonate => glycerol
+            M00631  D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
+ENZYME      1.1.1.203       1.1.1.365       1.1.1.-         2.7.1.44        
+            3.1.3.-         3.2.1.15        3.2.1.67        4.2.2.6         
+            5.3.1.12
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar acids
+                C00333  D-Galacturonic acid
+DBLINKS     CAS: 685-73-4
+            PubChem: 3627
+            ChEBI: 12952 4153
+            KNApSAcK: C00001120
+            PDB-CCD: ADA GTR
+            3DMET: B04672
+            NIKKAJI: J82.118G
+ATOM        13
+            1   C1y C    25.0081  -18.3696
+            2   C1y C    25.0081  -19.7686
+            3   O2x O    26.2088  -17.6643
+            4   C6a C    23.7956  -17.7343
+            5   C1y C    26.2088  -20.4623
+            6   O1a O    23.7956  -20.4623
+            7   C1y C    27.4271  -18.3696
+            8   O6a O    22.7289  -18.6436
+            9   O6a O    23.7839  -16.2770
+            10  C1y C    27.4271  -19.7686
+            11  O1a O    26.2088  -21.8613
+            12  O1a O    28.6337  -17.6643
+            13  O1a O    28.6337  -20.4623
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Up
+            11    7  12 1 #Either
+            12   10  13 1 #Down
+            13    7  10 1
+///

@@ -1,0 +1,127 @@
+ENTRY       D00494                      Drug
+NAME        Promethazine (JAN/INN)
+FORMULA     C17H20N2S
+EXACT_MASS  284.1347
+MOL_WEIGHT  284.4191
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07404
+            ATC code: D04AA10 R06AD02
+            Chemical structure group: DG00385
+            Product (DG00385): D00480<JP/US> D03290<JP> D08768<JP>
+            Product (mixture): D11852<US> D11853<US>
+EFFICACY    Antiallergic, H1 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07028  Antipsychotics
+            map07029  Antipsychotics - phenothiazines
+            map07032  Hypnotics
+            map07212  Histamine H1 receptor antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AA Antihistamines for topical use
+                 D04AA10 Promethazine
+                  D00494  Promethazine (JAN/INN)
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AD Phenothiazine derivatives
+                 R06AD02 Promethazine
+                  D00494  Promethazine (JAN/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Promethazine
+                D00494  Promethazine (JAN/INN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Promethazine
+                D00494  Promethazine (JAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00385  Promethazine
+                 D00494  Promethazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00385  Promethazine
+                D00494  Promethazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D00494  Promethazine (JAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00494
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00385  Promethazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00385  Promethazine
+DBLINKS     CAS: 60-87-7
+            PubChem: 7847560
+            ChEBI: 8461
+            LigandBox: D00494
+            NIKKAJI: J4.809G
+ATOM        20
+            1   N1y N    25.3291  -19.1045
+            2   C8y C    26.5689  -19.8030
+            3   C8y C    24.1359  -19.8030
+            4   C1b C    25.3291  -17.6902
+            5   C8y C    26.5689  -21.2116
+            6   C8x C    27.7621  -19.1045
+            7   C8y C    24.1359  -21.2116
+            8   C8x C    22.9369  -19.1045
+            9   C1c C    26.5340  -17.0033
+            10  S2x S    25.3291  -21.9041
+            11  C8x C    27.7621  -21.9041
+            12  C8x C    28.9670  -19.8030
+            13  C8x C    22.9369  -21.9041
+            14  C8x C    21.6971  -19.8030
+            15  N1c N    26.5340  -15.6820
+            16  C1a C    27.7272  -17.6902
+            17  C8x C    28.9670  -21.2116
+            18  C8x C    21.6971  -21.2116
+            19  C1a C    25.1953  -14.9079
+            20  C1a C    27.6690  -14.9428
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    8  14 2
+            14    9  15 1
+            15    9  16 1
+            16   11  17 2
+            17   13  18 2
+            18   15  19 1
+            19   15  20 1
+            20    7  10 1
+            21   12  17 1
+            22   14  18 1
+///

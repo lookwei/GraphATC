@@ -1,0 +1,72 @@
+ENTRY       D03787                      Drug
+NAME        Nepicastat hydrochloride (USAN);
+            Nepicastat hydrochloride monohydrate
+FORMULA     C14H15F2N3S. HCl. H2O
+EXACT_MASS  349.0827
+MOL_WEIGHT  349.827
+CLASS       Cardiovascular agent
+             DG01617  Catecholamine synthesis inhibitors
+EFFICACY    Cardiotonic, Dopamine beta-hydroxylase inhibitor
+COMMENT     Treatment of congestive heart failure
+TARGET      DBH [HSA:1621] [KO:K00503]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01617  Catecholamine synthesis inhibitors
+               D03787  Nepicastat hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Other monooxygenases
+                DBH
+                 D03787  Nepicastat hydrochloride (USAN)
+DBLINKS     CAS: 177645-08-8
+            PubChem: 17397875
+            LigandBox: D03787
+ATOM        22
+            1   C8y C    23.4388  -16.9051
+            2   C8x C    23.4388  -18.3134
+            3   C8y C    24.6584  -19.0176
+            4   C8y C    25.8782  -18.3134
+            5   C8y C    25.8782  -16.9051
+            6   C8x C    24.6584  -16.2009
+            7   C1x C    27.0978  -19.0176
+            8   C1x C    28.3174  -18.3134
+            9   C1y C    28.3174  -16.9051
+            10  C1x C    27.0978  -16.2009
+            11  N4y N    29.5221  -16.2094
+            12  C8y C    30.8300  -16.6419
+            13  C8x C    31.6445  -15.5281
+            14  N4x N    30.8371  -14.4093
+            15  C8y C    29.5234  -14.8315
+            16  S0  S    28.3826  -13.9971
+            17  X   F    24.6584  -20.4257
+            18  X   F    22.2192  -16.2009
+            19  C1b C    31.2596  -17.9824
+            20  N1a N    32.6596  -17.9824
+            21  X   Cl   37.3110  -17.8205
+            22  O0  O    41.9585  -17.7501
+BOND        22
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1 #Up
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 1
+            17   11  15 1
+            18   15  16 2
+            19    3  17 1
+            20    1  18 1
+            21   12  19 1
+            22   19  20 1
+///

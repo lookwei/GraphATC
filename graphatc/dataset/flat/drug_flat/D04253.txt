@@ -1,0 +1,62 @@
+ENTRY       D04253                      Drug
+NAME        Fosfomycin (USAN/INN);
+            Phosphonomycin
+FORMULA     C3H7O4P
+EXACT_MASS  138.0082
+MOL_WEIGHT  138.059
+SOURCE      Streptomyces [TAX:1883], Streptomyces fradiae [TAX:1906]
+REMARK      Same as: C06454
+            ATC code: J01XX01 S02AA17
+            Chemical structure group: DG00633
+            Product (DG00633): D00925<US> D02187<JP> D02188<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      UDP-N-acetylglucosamine 1-carboxyvinyltransferase [KO:K00790]
+  PATHWAY   ko00550(K00790)  Peptidoglycan biosynthesis
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01X OTHER ANTIBACTERIALS
+                J01XX Other antibacterials
+                 J01XX01 Fosfomycin
+                  D04253  Fosfomycin (USAN/INN)
+             S SENSORY ORGANS
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA17 Fosfomycin
+                  D04253  Fosfomycin (USAN/INN)
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                D04253  Fosfomycin (USAN/INN)
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                DG00633  Fosfomycin
+DBLINKS     CAS: 23155-02-4
+            PubChem: 47206194
+            ChEBI: 28915
+            PDB-CCD: FCN
+            LigandBox: D04253
+            NIKKAJI: J34.117G
+ATOM        8
+            1   C1y C    18.4271   -7.9889
+            2   C1y C    19.8321   -7.9889
+            3   O2x O    19.1260   -6.7808
+            4   P1b P    17.2055   -8.6936
+            5   C1a C    21.0259   -8.6740
+            6   O1c O    15.9931   -9.3936
+            7   O1c O    16.5035   -7.4773
+            8   O1c O    17.9030   -9.9021
+BOND        8
+            1     1   2 1
+            2     2   3 1
+            3     3   1 1
+            4     1   4 1 #Up
+            5     2   5 1 #Up
+            6     4   6 2
+            7     4   7 1
+            8     4   8 1
+///

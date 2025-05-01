@@ -1,0 +1,145 @@
+ENTRY       D00435                      Drug
+NAME        Nevirapine (JAN/USP/INN);
+            Viramune (TN)
+  ABBR      NVP
+PRODUCT     VIRAMUNE (Boehringer Ingelheim Pharmaceuticals)
+  GENERIC   NEVIRAPINE (Amneal Pharmaceuticals LLC)
+            NEVIRAPINE (Aurobindo Pharma Limited)
+            NEVIRAPINE (Aurobindo Pharma Limited)
+            NEVIRAPINE (Camber Pharmaceuticals)
+            NEVIRAPINE (Macleods Pharmaceuticals Limited)
+            NEVIRAPINE (Macleods Pharmaceuticals Limited)
+            NEVIRAPINE (Micro Labs Limited)
+            NEVIRAPINE (Mylan Pharmaceuticals)
+            NEVIRAPINE (Mylan Pharmaceuticals)
+            NEVIRAPINE (Strides Pharma Science Limited)
+FORMULA     C15H14N4O
+EXACT_MASS  266.1168
+MOL_WEIGHT  266.2979
+CLASS       Antiviral
+             DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07263
+            Therapeutic category: 6250
+            ATC code: J05AG01
+            Product: D00435<JP/US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2B6 [HSA:1555], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AG Non-nucleoside reverse transcriptase inhibitors
+                 J05AG01 Nevirapine
+                  D00435  Nevirapine (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Non-nucleoside Reverse Transcriptase Inhibitors (NNRTI)
+               Nevirapine
+                D00435  Nevirapine (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D00435  Nevirapine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+               D00435  Nevirapine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D00435  Nevirapine
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               D00435  Nevirapine
+              DG01644  CYP2D6 substrate
+               D00435  Nevirapine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00435  Nevirapine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00435  Nevirapine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00435  Nevirapine (JAN/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00435  Nevirapine (JAN/USP/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00435
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00435
+DBLINKS     CAS: 129618-40-2
+            PubChem: 7847501
+            ChEBI: 63613
+            PDB-CCD: NVP
+            LigandBox: D00435
+            NIKKAJI: J420.601K
+ATOM        20
+            1   C5x C    16.4500  -10.0100
+            2   C8y C    15.6100   -8.8900
+            3   C8y C    15.9600   -7.5600
+            4   N1y N    17.2200   -7.0000
+            5   N1x N    17.8500  -10.0100
+            6   C8y C    18.4800   -7.6300
+            7   C8y C    18.7600   -8.9600
+            8   N5x N    14.9100   -6.5800
+            9   C8x C    13.5800   -7.0000
+            10  C8x C    13.2300   -8.3300
+            11  C8x C    14.2800   -9.3100
+            12  C8y C    20.0900   -9.3800
+            13  C8x C    21.1400   -8.4700
+            14  C8x C    20.8600   -7.0700
+            15  N5x N    19.5300   -6.6500
+            16  O5x O    15.8200  -11.2700
+            17  C1y C    17.2200   -5.6000
+            18  C1a C    20.3700  -10.7800
+            19  C1x C    17.9200   -4.4100
+            20  C1x C    16.5200   -4.4100
+BOND        23
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    1  16 2
+            19    4  17 1
+            20   12  18 1
+            21   19  20 1
+            22   20  17 1
+            23   17  19 1
+///

@@ -1,0 +1,85 @@
+ENTRY       C00137                      Compound
+NAME        myo-Inositol;
+            D-myo-Inositol;
+            1D-myo-Inositol;
+            L-myo-Inositol;
+            1L-myo-Inositol;
+            meso-Inositol;
+            Inositol;
+            Dambose;
+            Cyclohexitol;
+            Meat sugar;
+            Bios I
+FORMULA     C6H12O6
+EXACT_MASS  180.0634
+MOL_WEIGHT  180.1559
+REMARK      Same as: D08079
+REACTION    R01183 R01184 R01185 R01186 R01187 R01188 R01189 R01190 
+            R01192 R01193 R01194 R01802 R02411 R03418 R04333 R06042 
+            R06071 R06093 R06214 R07279 R07343
+PATHWAY     map00052  Galactose metabolism
+            map00053  Ascorbate and aldarate metabolism
+            map00521  Streptomycin biosynthesis
+            map00562  Inositol phosphate metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01250  Biosynthesis of nucleotide sugars
+            map02010  ABC transporters
+            map04070  Phosphatidylinositol signaling system
+MODULE      M00131  Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol
+ENZYME      1.1.1.18        1.13.99.1       2.1.1.39        2.1.1.40        
+            2.1.1.129       2.3.1.72        2.4.1.67        2.4.1.82        
+            2.4.1.123       2.7.1.64        2.7.8.11        3.1.3.25        
+            3.1.4.44        3.2.1.22
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar alcohols
+                C00137  myo-Inositol
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D08079)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11H OTHER PLAIN VITAMIN PREPARATIONS
+                A11HA Other plain vitamin preparations
+                 A11HA07 Inositol
+                  D08079  Inositol (NF)
+            Risk category of Japanese OTC drugs [BR:br08312(D08079)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Inositol
+                D08079  Inositol (NF)
+DBLINKS     CAS: 87-89-8
+            PubChem: 3437
+            ChEBI: 17268
+            KNApSAcK: C00001164
+            PDB-CCD: INS
+            3DMET: B00038
+            NIKKAJI: J4.282J
+ATOM        12
+            1   C1y C    29.2269  -13.7373
+            2   C1y C    30.4080  -13.0526
+            3   C1y C    29.2269  -15.1195
+            4   O1a O    27.8341  -13.1172
+            5   C1y C    31.6078  -13.7373
+            6   O1a O    30.4017  -11.6894
+            7   C1y C    30.4080  -15.8167
+            8   O1a O    27.8996  -15.7979
+            9   C1y C    31.6078  -15.1195
+            10  O1a O    32.8589  -13.0526
+            11  O1a O    30.4017  -17.1799
+            12  O1a O    32.7889  -15.7979
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Up
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Up
+            11    9  12 1 #Down
+            12    7   9 1
+///

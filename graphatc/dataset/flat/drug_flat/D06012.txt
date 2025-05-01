@@ -1,0 +1,107 @@
+ENTRY       D06012                      Drug
+NAME        Tazifylline hydrochloride (USAN)
+FORMULA     C23H32N6O3S. 2HCl
+EXACT_MASS  544.179
+MOL_WEIGHT  545.5255
+CLASS       Respiratory system agent
+             DG01616  Xanthine derivative
+              DG01609  Xanthine-type bronchodilator
+EFFICACY    Antihistaminic, H1 receptor antagonist
+COMMENT     Xanthine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01609  Xanthine-type bronchodilator
+                D06012  Tazifylline hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D06012  Tazifylline hydrochloride (USAN)
+DBLINKS     CAS: 79712-53-1
+            PubChem: 47207670
+            LigandBox: D06012
+ATOM        35
+            1   C8y C    38.0800  -22.7500
+            2   N4y N    38.0800  -21.3500
+            3   C8y C    36.8200  -20.6500
+            4   C8y C    35.6300  -21.3500
+            5   C8y C    35.6300  -22.7500
+            6   N4y N    36.8200  -23.4500
+            7   N4y N    34.3000  -20.9300
+            8   C8x C    33.4600  -22.0500
+            9   N5x N    34.3000  -23.2400
+            10  O5x O    39.2700  -23.4500
+            11  O5x O    36.8200  -19.2500
+            12  C1a C    36.8200  -24.9200
+            13  C1a C    39.2700  -20.6500
+            14  C1b C    34.3000  -19.5300
+            15  C1c C    33.0400  -18.8300
+            16  C1b C    31.8500  -19.5300
+            17  O1a O    33.0400  -17.4300
+            18  N1y N    30.6600  -18.8300
+            19  C1x C    30.6600  -17.4300
+            20  C1x C    29.4700  -16.7300
+            21  N1y N    28.2100  -17.4300
+            22  C1x C    28.2100  -18.8300
+            23  C1x C    29.4700  -19.5300
+            24  C1b C    27.0200  -16.7300
+            25  C1b C    25.8300  -17.4300
+            26  C1b C    24.7100  -16.7300
+            27  S2a S    23.5200  -17.4300
+            28  C8y C    22.3300  -16.7300
+            29  C8x C    22.3300  -15.3300
+            30  C8x C    21.0700  -14.6300
+            31  C8x C    19.8800  -15.3300
+            32  C8x C    19.8800  -16.7300
+            33  C8x C    21.0700  -17.4300
+            34  X   Cl   27.5800  -23.1700
+            35  X   Cl   27.5800  -23.1700
+BOND        36
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    1  10 2
+            12    3  11 2
+            13    6  12 1
+            14    2  13 1
+            15    7  14 1
+            16   14  15 1
+            17   15  16 1
+            18   15  17 1
+            19   16  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   18  23 1
+            26   21  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   31  32 1
+            35   32  33 2
+            36   28  33 1
+BRACKET     1    25.9700  -23.8000   25.9700  -22.1200
+            1    28.2800  -22.1200   28.2800  -23.8000
+            1  2
+  ORIGINAL  1   34
+  REPEAT    1   35
+///

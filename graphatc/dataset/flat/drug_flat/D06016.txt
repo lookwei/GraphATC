@@ -1,0 +1,73 @@
+ENTRY       D06016                      Drug
+NAME        Tebanicline tosylate (USAN)
+FORMULA     C9H11ClN2O. C7H8O3S
+EXACT_MASS  370.0754
+MOL_WEIGHT  370.8511
+EFFICACY    Analgesic, Nicotinic acetylcholine receptor partial agonist
+TARGET      CHRNA3/CHRNB4 [HSA:1136 1143] [KO:K04805 K04815]
+            CHRNA4/CHRNB2 [HSA:1137 1141] [KO:K04806 K04813]
+  PATHWAY   hsa04080(1136+1137+1141+1143)  Neuroactive ligand-receptor interaction
+            hsa04725(1136+1137+1141+1143)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRNA3/CHRNB4
+                 D06016  Tebanicline tosylate (USAN)
+                CHRNA4/CHRNB2
+                 D06016  Tebanicline tosylate (USAN)
+DBLINKS     CAS: 198283-74-8
+            PubChem: 47207674
+            LigandBox: D06016
+ATOM        24
+            1   C1y C    24.4967  -15.2723
+            2   C1x C    24.8637  -16.6281
+            3   C1x C    26.2195  -16.2611
+            4   N1x N    25.8525  -14.9053
+            5   C8y C    18.4268  -13.2027
+            6   N5x N    19.6352  -12.5056
+            7   X   Cl   17.2242  -12.4999
+            8   C8x C    18.4268  -14.6029
+            9   C8x C    20.8435  -13.2027
+            10  C8x C    19.6352  -15.3000
+            11  C8y C    20.8435  -14.6029
+            12  O2a O    22.0577  -15.3000
+            13  C1b C    23.2943  -14.5820
+            14  C8x C    29.3300  -13.7200
+            15  C8x C    29.3300  -15.1200
+            16  C8y C    30.5424  -15.8200
+            17  C8x C    31.7549  -15.1200
+            18  C8x C    31.7549  -13.7200
+            19  C8y C    30.5424  -13.0200
+            20  C1a C    30.5424  -17.2198
+            21  S4a S    30.5424  -11.6202
+            22  O1d O    30.5424  -10.2202
+            23  O1d O    29.1200  -11.6202
+            24  O1d O    31.9200  -11.6202
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     5   6 1
+            6     5   7 1
+            7     5   8 2
+            8     6   9 2
+            9     8  10 1
+            10    9  11 1
+            11   11  12 1
+            12   10  11 2
+            13   12  13 1
+            14    1  13 1 #Up
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   14  19 1
+            21   16  20 1
+            22   19  21 1
+            23   21  22 1
+            24   21  23 2
+            25   21  24 2
+///

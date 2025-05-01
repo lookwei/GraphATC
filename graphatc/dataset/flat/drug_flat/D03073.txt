@@ -1,0 +1,70 @@
+ENTRY       D03073                      Drug
+NAME        Bemesetron (USAN/INN)
+FORMULA     C15H17Cl2NO2
+EXACT_MASS  313.0636
+MOL_WEIGHT  314.207
+CLASS       Gastrointestinal agent
+             DG01762  Antiemetic
+EFFICACY    Anti-emetic, Serotonin 5-HT3 receptor antagonist
+TARGET      HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04726(170572+200909+285242+3359+9177)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01762  Antiemetic
+               D03073  Bemesetron
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D03073  Bemesetron (USAN/INN)
+DBLINKS     CAS: 40796-97-2
+            PubChem: 17397228
+            LigandBox: D03073
+            NIKKAJI: J22.994F
+ATOM        20
+            1   C1x C    13.1138  -19.0208
+            2   C1x C    13.4419  -17.8491
+            3   C1y C    14.2855  -18.7396
+            4   C1y C    14.6136  -17.5679
+            5   N1y N    13.3482  -16.2556
+            6   C1x C    16.1602  -18.7396
+            7   C1x C    15.8790  -17.5679
+            8   C1y C    17.1913  -19.3020
+            9   O7a O    18.2693  -20.1925
+            10  C7a C    19.4879  -20.1925
+            11  C8y C    20.0972  -19.1145
+            12  O6a O    20.0972  -21.3173
+            13  C1a C    12.5991  -15.0714
+            14  C8x C    21.4900  -19.1017
+            15  C8y C    22.1788  -17.8829
+            16  C8x C    21.4677  -16.6770
+            17  C8y C    20.0750  -16.6897
+            18  C8x C    19.3861  -17.9085
+            19  X   Cl   19.3546  -15.4687
+            20  X   Cl   23.5899  -17.8703
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12    4   5 1
+            13    7   8 1
+            14    5  13 1
+            15   11  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   11  18 1
+            21   17  19 1
+            22   15  20 1
+///

@@ -1,0 +1,112 @@
+ENTRY       D08611                      Drug
+NAME        Tizanidine (INN);
+            Sirdalud (TN)
+FORMULA     C9H8ClN5S
+EXACT_MASS  253.0189
+MOL_WEIGHT  253.7113
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01449  alpha2-Adrenergic receptor agonist
+            Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01974  Centrally acting muscle relaxant
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      Same as: C07452
+            ATC code: M03BX02
+            Chemical structure group: DG00773
+            Product (DG00773): D00776<JP/US>
+EFFICACY    Muscle relaxant, alpha2-Adrenergic receptor agonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03B MUSCLE RELAXANTS, CENTRALLY ACTING AGENTS
+                M03BX Other centrally acting agents
+                 M03BX02 Tizanidine
+                  D08611  Tizanidine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG00773  Tizanidine
+                  D08611  Tizanidine
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01974  Centrally acting muscle relaxant
+                DG00773  Tizanidine
+                 D08611  Tizanidine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00773  Tizanidine
+                D08611  Tizanidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D08611  Tizanidine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08611
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG00773  Tizanidine
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01974  Centrally acting muscle relaxant
+                DG00773  Tizanidine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00773  Tizanidine
+DBLINKS     CAS: 51322-75-9
+            PubChem: 96025295
+            ChEBI: 63629
+            LigandBox: D08611
+            NIKKAJI: J11.180E
+ATOM        16
+            1   C8y C    23.1000  -18.6200
+            2   C8y C    23.1000  -17.2200
+            3   C8y C    21.8400  -19.3900
+            4   N5x N    24.1500  -19.6000
+            5   N1b N    24.2900  -16.5200
+            6   C8y C    21.8400  -16.5200
+            7   C8x C    20.6500  -18.6200
+            8   N5x N    22.1900  -20.7200
+            9   S2x S    23.5900  -20.7900
+            10  C2y C    25.4800  -17.2900
+            11  C8x C    20.6500  -17.2200
+            12  X   Cl   21.8400  -15.1200
+            13  N1x N    26.8100  -16.8000
+            14  N2x N    25.4800  -18.6900
+            15  C1x C    27.6500  -17.9200
+            16  C1x C    26.8800  -19.0400
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    6  11 1
+            11    6  12 1
+            12   10  13 1
+            13   10  14 2
+            14   13  15 1
+            15   14  16 1
+            16    7  11 2
+            17    8   9 1
+            18   15  16 1
+///

@@ -1,0 +1,101 @@
+ENTRY       D00700                      Drug
+NAME        Mephobarbital (JAN/USP);
+            Methylphenobarbital (INN);
+            Mebaral (TN)
+FORMULA     C13H14N2O3
+EXACT_MASS  246.1004
+MOL_WEIGHT  246.2619
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+             DG03199  Antiepileptic agent
+              DG01904  Barbiturate antiepileptic
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+REMARK      Same as: C07829
+            ATC code: N03AA01
+EFFICACY    Anticonvulsant, Sedative-hypnotic
+COMMENT     Barbiturates
+            See Phenobarbital [DR:D00506]
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AA Barbiturates and derivatives
+                 N03AA01 Methylphenobarbital
+                  D00700  Mephobarbital (JAN/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               D00700  Mephobarbital
+              DG01567  GABA-A receptor agonist
+               D00700  Mephobarbital
+              DG03199  Antiepileptic agent
+               DG01904  Barbiturate antiepileptic
+                D00700  Mephobarbital
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D00700  Mephobarbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00700  Mephobarbital (JAN/USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00700
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00700
+DBLINKS     CAS: 115-38-8
+            PubChem: 7847765
+            ChEBI: 6758
+            LigandBox: D00700
+            NIKKAJI: J2.468F
+ATOM        18
+            1   C1z C    25.7125  -18.6779
+            2   C8y C    26.9172  -17.9703
+            3   C5x C    25.7125  -20.0815
+            4   C5x C    24.4727  -17.9937
+            5   C1b C    26.9114  -19.3739
+            6   C8x C    28.1278  -18.6546
+            7   C8x C    26.9697  -16.5666
+            8   N1y N    24.4727  -20.7833
+            9   O5x O    26.9055  -20.7833
+            10  N1x N    23.2678  -18.6779
+            11  O5x O    24.4727  -16.5783
+            12  C1a C    28.3151  -19.3739
+            13  C8x C    29.3327  -17.9469
+            14  C8x C    28.1044  -15.8591
+            15  C5x C    23.2678  -20.0815
+            16  C1a C    24.5310  -22.1870
+            17  C8x C    29.3210  -16.5492
+            18  O5x O    22.0572  -20.7776
+BOND        19
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 2
+            11    5  12 1
+            12    6  13 1
+            13    7  14 2
+            14    8  15 1
+            15    8  16 1
+            16   13  17 2
+            17   15  18 2
+            18   10  15 1
+            19   14  17 1
+///

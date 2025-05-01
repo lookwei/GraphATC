@@ -1,0 +1,36 @@
+ENTRY       D05870                      Drug
+NAME        Sodium phosphate P 32 (USP);
+            Phosphotope (TN)
+FORMULA     HPO4. 2Na
+EXACT_MASS  142.9409
+MOL_WEIGHT  141.9588
+REMARK      ATC code: V10XX01
+EFFICACY    Antineoplastic, Diagnostic aid (neoplasm), Radioactive agent
+  DISEASE   Hemophilia [DS:H00219]
+            Polycythemia vera [DS:H00012]
+            Chronic myelocytic leukemia [DS:H00004]
+            Chronic lymphocytic leukemia [DS:H00005]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V10 THERAPEUTIC RADIOPHARMACEUTICALS
+               V10X OTHER THERAPEUTIC RADIOPHARMACEUTICALS
+                V10XX Various therapeutic radiopharmaceuticals
+                 V10XX01 Sodium phosphate (32P)
+                  D05870  Sodium phosphate P 32 (USP)
+DBLINKS     CAS: 7635-46-3
+            PubChem: 47207531
+            LigandBox: D05870
+ATOM        7
+            1   P1b P    15.6100  -14.7000
+            2   O1c O    15.6100  -13.3000
+            3   O1c O    15.6100  -16.1000 #-
+            4   O1c O    13.5100  -14.7000
+            5   O1c O    17.0100  -14.7000 #-
+            6   Z   Na   18.6200  -14.5600 #+
+            7   Z   Na   17.4300  -16.1000 #+
+BOND        4
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+///

@@ -1,0 +1,75 @@
+ENTRY       D08603                      Drug
+NAME        Tioguanine (INN);
+            Lanvis (TN)
+FORMULA     C5H5N5S
+EXACT_MASS  167.0266
+MOL_WEIGHT  167.1917
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+REMARK      Same as: C07648
+            ATC code: L01BB03
+            Chemical structure group: DG00684
+            Product (DG00684): D06109<US>
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Guanine [CPD:C00242] analog
+TARGET      HPRT1 [HSA:3251] [KO:K00760]
+  PATHWAY   hsa00230(3251)  Purine metabolism
+INTERACTION  
+OTHER_MAP   map00983  Drug metabolism - other enzymes
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BB Purine analogues
+                 L01BB03 Tioguanine
+                  D08603  Tioguanine (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG00684  Tioguanine
+                 D08603  Tioguanine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                HPRT1
+                 D08603  Tioguanine (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG00684  Tioguanine
+DBLINKS     CAS: 154-42-7
+            PubChem: 96025287
+            ChEBI: 9555
+            PDB-CCD: DX4
+            LigandBox: D08603
+            NIKKAJI: J21.274A
+ATOM        11
+            1   C8y C    23.3800  -17.1500
+            2   C8y C    23.3800  -18.6200
+            3   C8y C    24.5700  -16.4500
+            4   N5x N    22.1200  -16.7300
+            5   N5x N    24.5700  -19.2500
+            6   N4x N    22.1200  -19.0400
+            7   N4x N    25.8300  -17.2200
+            8   C8x C    21.2800  -17.9200
+            9   C8y C    25.8300  -18.5500
+            10  S0  S    24.5818  -15.0500
+            11  N1a N    27.0366  -19.2600
+BOND        12
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 2
+            8     5   9 2
+            9     6   8 1
+            10    7   9 1
+            11    3  10 2
+            12    9  11 1
+///

@@ -1,0 +1,97 @@
+ENTRY       D00715                      Drug
+NAME        Methscopolamine bromide (USP);
+            Hyoscine methobromide (INN);
+            Pamine (TN)
+PRODUCT
+  GENERIC   METHSCOPOLAMINE BROMIDE (BAYSHORE PHARMACEUTICALS LLC)
+            METHSCOPOLAMINE BROMIDE (Breckenridge Pharmaceutical)
+            METHSCOPOLAMINE BROMIDE (PD-Rx Pharmaceuticals)
+            METHSCOPOLAMINE BROMIDE (PD-Rx Pharmaceuticals)
+FORMULA     C18H24NO4. Br
+EXACT_MASS  397.0889
+MOL_WEIGHT  398.2915
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      Product: D00715<US>
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+  DISEASE   Peptic ulcer [DS:H01634]
+COMMENT     Toropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Antispasmodics, Gastrointestinal
+               Methscopolamine
+                D00715  Methscopolamine bromide (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D00715  Methscopolamine bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00715  Methscopolamine bromide (USP) &lt;US&gt;
+DBLINKS     CAS: 155-41-9
+            PubChem: 7847780
+            ChEBI: 61276 6845
+            LigandBox: D00715
+            NIKKAJI: J237.607E
+ATOM        24
+            1   X   Br   39.7175  -18.0800 #-
+            2   C1y C    27.7900  -17.2900
+            3   C1y C    27.1600  -18.3400
+            4   C1y C    28.7000  -16.9400
+            5   O2x O    26.2500  -17.2900
+            6   C1y C    28.4900  -17.8500
+            7   N2y N    27.7200  -15.8900 #+
+            8   C1x C    30.1700  -16.9400
+            9   C1x C    30.1000  -17.8500
+            10  C1a C    28.0700  -14.6300
+            11  C1a C    26.4600  -15.1900
+            12  C1y C    31.4300  -18.4100
+            13  O7a O    32.4100  -19.1800
+            14  C7a C    33.8100  -19.1800
+            15  O6a O    34.4400  -20.3700
+            16  C1c C    34.4400  -18.0600
+            17  C8y C    35.7700  -18.0600
+            18  C1b C    33.8100  -16.8700
+            19  O1a O    34.4400  -15.6800
+            20  C8x C    36.4700  -19.2500
+            21  C8x C    37.8000  -19.2500
+            22  C8x C    38.5000  -18.0600
+            23  C8x C    37.8000  -16.8700
+            24  C8x C    36.4700  -16.8700
+BOND        26
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     3   6 1
+            5     4   7 1
+            6     4   8 1
+            7     6   9 1
+            8     7  10 1
+            9     7  11 1
+            10    8  12 1
+            11   12  13 1 #Down
+            12    3   5 1
+            13    6   7 1
+            14    9  12 1
+            15   13  14 1
+            16   14  15 2
+            17   14  16 1
+            18   16  17 1 #Down
+            19   16  18 1
+            20   18  19 1
+            21   17  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   17  24 1
+///

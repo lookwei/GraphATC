@@ -1,0 +1,86 @@
+ENTRY       C02198                      Compound
+NAME        Thromboxane A2;
+            (5Z,13E)-(15S)-9alpha,11alpha-Epoxy-15-hydroxythromboxa-5,13-dienoate;
+            (5Z,9alpha,11alpha,13E,15S)-9,11-Epoxy-15-hydroxythromboxa-5,13-dien-1-oic acid;
+            TXA2
+FORMULA     C20H32O5
+EXACT_MASS  352.225
+MOL_WEIGHT  352.4651
+REACTION    R02268 R03878
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04080  Neuroactive ligand-receptor interaction
+            map04611  Platelet activation
+            map04726  Serotonergic synapse
+            map07034  Eicosanoids
+ENZYME      5.3.99.5
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Thromboxanes
+                C02198  Thromboxane A2
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0303 Thromboxanes
+                C02198  Thromboxane A2
+DBLINKS     CAS: 57576-52-0
+            PubChem: 5266
+            ChEBI: 15627
+            LIPIDMAPS: LMFA03030001
+            3DMET: B01544
+            NIKKAJI: J40.890E
+ATOM        25
+            1   C1y C    13.3808  -12.8019
+            2   C1y C    14.5810  -13.4905
+            3   C1x C    12.1870  -13.4905
+            4   O2x O    13.3746  -14.1853
+            5   C1y C    14.5810  -14.8801
+            6   C1b C    15.7875  -12.7830
+            7   C1y C    12.1870  -14.8801
+            8   O2x O    13.3808  -15.5812
+            9   C2b C    15.7939  -15.5749
+            10  C2b C    17.0003  -13.4778
+            11  C2b C    17.0066  -14.8548
+            12  C2b C    18.3711  -13.5414
+            13  C1c C    18.2068  -15.5244
+            14  C1b C    19.5902  -12.7513
+            15  C1b C    19.3817  -14.8169
+            16  O1a O    18.2259  -16.8951
+            17  C1b C    20.7904  -13.4335
+            18  C1b C    20.5820  -15.4865
+            19  C1b C    21.9716  -12.7325
+            20  C1b C    21.7631  -14.7790
+            21  C6a C    23.1654  -13.4146
+            22  C1b C    23.2348  -15.5244
+            23  O6a O    24.3530  -12.7134
+            24  O6a O    23.1845  -14.7032
+            25  C1a C    24.6626  -14.7601
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     5   8 1
+            8     5   9 1 #Up
+            9     6  10 1
+            10    9  11 2
+            11   10  12 2
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1 #Down
+            16   14  17 1
+            17   15  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   21  23 1
+            23   21  24 2
+            24   22  25 1
+            25    7   4 1 #Down
+            26    7   8 1
+///

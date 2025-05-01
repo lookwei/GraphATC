@@ -1,0 +1,205 @@
+ENTRY       D10104                      Drug
+NAME        Dabrafenib mesylate (USAN);
+            Dabrafenib mesilate (JAN);
+            Tafinlar (TN)
+PRODUCT     TAFINLAR (Novartis Pharmaceuticals Corporation)
+FORMULA     C23H20F3N5O2S2. CH4SO3
+EXACT_MASS  615.0892
+MOL_WEIGHT  615.6681
+CLASS       Antineoplastic
+             DG03159  BRAF inhibitor
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02886  CYP2C9 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      Therapeutic category: 4291
+            ATC code: L01EC02
+            Chemical structure group: DG00721
+            Product (DG00721): D10104<JP/US>
+EFFICACY    Antineoplastic, BRAF kinase inhibitor
+  DISEASE   Melanoma (BRAF mutation positive) [DS:H00038]
+            Non-small cell lung cancer (BRAF mutation positive) [DS:H00014]
+            Anaplastic thyroid cancer (BRAF mutation positive) [DS:H00032]
+TARGET      BRAF* [HSA_VAR:673v1] [HSA:673] [KO:K04365]
+  PATHWAY   hsa04010(673)  MAPK signaling pathway
+            hsa04012(673)  ErbB signaling pathway
+            hsa05200(673)  Pathways in cancer
+            hsa05218(673)  Melanoma
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2C8 [HSA:1558]
+INTERACTION CYP induction: CYP3A4 [HSA:1576], CYP2C9 [HSA:1559]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EC B-Raf serine-threonine kinase (BRAF) inhibitors
+                 L01EC02 Dabrafenib
+                  D10104  Dabrafenib mesylate (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Dabrafenib
+                D10104  Dabrafenib mesylate (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D10104  Dabrafenib mesylate (USAN); Dabrafenib mesilate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               DG00721  Dabrafenib
+                D10104  Dabrafenib mesylate
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00721  Dabrafenib
+                D10104  Dabrafenib mesylate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00721  Dabrafenib
+                 D10104  Dabrafenib mesylate
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               DG00721  Dabrafenib
+                D10104  Dabrafenib mesylate
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00721  Dabrafenib
+                 D10104  Dabrafenib mesylate
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               D10104  Dabrafenib mesylate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               TKL group
+                BRAF* [HSA_VAR:673v1]
+                 D10104  Dabrafenib mesylate (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10104
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10104
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10104
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10104
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10104
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D10104
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               DG00721  Dabrafenib
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00721  Dabrafenib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00721  Dabrafenib
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               DG00721  Dabrafenib
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00721  Dabrafenib
+DBLINKS     CAS: 1195768-06-9
+            PubChem: 135626822
+            ChEBI: 75048
+            LigandBox: D10104
+ATOM        40
+            1   C8y C    29.4000  -20.0900
+            2   C8y C    29.4000  -21.4900
+            3   C8x C    30.5900  -22.1900
+            4   C8x C    31.8500  -21.4900
+            5   C8x C    31.8500  -20.0900
+            6   C8y C    30.5900  -19.3900
+            7   X   F    30.5900  -17.9900
+            8   X   F    28.2100  -22.1900
+            9   S4a S    28.2100  -19.3900
+            10  N1b N    26.9500  -20.0900
+            11  C8y C    25.7600  -19.3900
+            12  C8x C    25.7600  -17.9900
+            13  C8x C    24.5700  -17.2900
+            14  C8x C    23.3800  -17.9900
+            15  C8y C    23.3800  -19.3900
+            16  C8y C    24.5700  -20.0900
+            17  X   F    24.5700  -21.4900
+            18  C8y C    22.1200  -20.0900
+            19  N5x N    21.0000  -19.3200
+            20  C8y C    19.8800  -20.0900
+            21  S2x S    20.3700  -21.4200
+            22  C8y C    21.7000  -21.4200
+            23  C8y C    22.6100  -22.5400
+            24  C8x C    21.8400  -23.7300
+            25  C8x C    22.5400  -24.9900
+            26  N5x N    23.9400  -24.9900
+            27  C8y C    24.6400  -23.8000
+            28  N5x N    24.0100  -22.5400
+            29  C1d C    18.5500  -19.7400
+            30  C1a C    17.5700  -20.6500
+            31  C1a C    18.2700  -18.3400
+            32  C1a C    17.2200  -19.3200
+            33  N1a N    26.1100  -23.8700
+            34  O1d O    27.1600  -18.4100
+            35  O1d O    29.1900  -18.4100
+            36  S4a S    35.7000  -20.6500
+            37  O1d O    35.7000  -19.2500
+            38  O1d O    35.7000  -22.0500
+            39  O1d O    37.1000  -20.6500
+            40  C1a C    34.3000  -20.6500
+BOND        42
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     2   8 1
+            9     1   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   11  16 1
+            18   16  17 1
+            19   15  18 1
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 1
+            24   18  22 2
+            25   22  23 1
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   23  28 2
+            32   20  29 1
+            33   29  30 1
+            34   29  31 1
+            35   29  32 1
+            36   27  33 1
+            37    9  34 2
+            38    9  35 2
+            39   36  37 2
+            40   36  38 2
+            41   36  39 1
+            42   36  40 1
+///

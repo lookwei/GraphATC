@@ -1,0 +1,44 @@
+ENTRY       C00402                      Compound
+NAME        D-Aspartate;
+            D-Aspartic acid
+FORMULA     C4H7NO4
+EXACT_MASS  133.0375
+MOL_WEIGHT  133.1027
+COMMENT     L-Aspartate [CPD:C00049]
+REACTION    R00359 R00491 R02182 R05053 R09590
+PATHWAY     map00250  Alanine, aspartate and glutamate metabolism
+            map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+ENZYME      1.4.3.1         1.4.3.15        2.6.1.21        3.5.1.83        
+            5.1.1.13        6.3.1.12
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C00402  D-Aspartic acid
+DBLINKS     CAS: 1783-96-6
+            PubChem: 3692
+            ChEBI: 17364
+            PDB-CCD: DAS
+            3DMET: B01235
+            NIKKAJI: J9.205C
+ATOM        9
+            1   C1c C    20.6036  -17.7274
+            2   C1b C    21.8107  -17.0276
+            3   C6a C    19.3905  -17.0276
+            4   N1a N    20.6036  -19.1271
+            5   C6a C    23.0294  -17.7274
+            6   O6a O    18.1716  -17.7274
+            7   O6a O    19.3905  -15.6280
+            8   O6a O    24.2425  -17.0276
+            9   O6a O    23.0294  -19.1212
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     5   8 1
+            8     5   9 2
+///

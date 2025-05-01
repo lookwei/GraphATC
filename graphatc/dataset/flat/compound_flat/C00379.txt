@@ -1,0 +1,62 @@
+ENTRY       C00379                      Compound
+NAME        Xylitol
+FORMULA     C5H12O5
+EXACT_MASS  152.0685
+MOL_WEIGHT  152.1458
+REMARK      Same as: D00061
+REACTION    R01431 R01896 R01904 R02136 R05831 R07152 R09477
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map01100  Metabolic pathways
+            map02010  ABC transporters
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+ENZYME      1.1.1.9         1.1.1.10        1.1.1.14        1.1.1.15        
+            1.1.1.21        1.1.1.307       1.1.1.430       1.1.1.431       
+            1.1.3.41        2.7.1.122
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar alcohols
+                C00379  Xylitol
+            Therapeutic category of drugs in Japan [BR:br08301(D00061)]
+             3  Agents affecting metabolism
+              32  Nutrients, tonics
+               323  Saccharide preparations
+                3234  Xylitols
+                 D00061  Xylitol (JP18/NF)
+            Animal drugs in Japan [BR:br08331]
+             96  Agents affecting metabolism
+              964  Saccharide preparations and blood substitutes
+               9643  Xylitol and preparations
+                C00379  Xylitol
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00061)]
+             Chemicals
+              D00061  Xylitol
+              D00061  Xylitol injection
+DBLINKS     CAS: 87-99-0
+            PubChem: 3669
+            ChEBI: 17151
+            PDB-CCD: XYL
+            3DMET: B04675
+            NIKKAJI: J3.905E
+ATOM        10
+            1   O1a O    17.3600  -18.9000
+            2   C1b C    18.5724  -18.2000
+            3   C1c C    19.7849  -18.9000
+            4   C1c C    20.9973  -18.2000
+            5   C1c C    22.2097  -18.9000
+            6   C1b C    23.4222  -18.2000
+            7   O1a O    24.6346  -18.9000
+            8   O1a O    19.7849  -20.2998
+            9   O1a O    20.9973  -16.8000
+            10  O1a O    22.2097  -20.2999
+BOND        9
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     3   8 1 #Up
+            8     4   9 1 #Up
+            9     5  10 1 #Up
+///

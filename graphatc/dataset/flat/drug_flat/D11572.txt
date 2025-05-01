@@ -1,0 +1,155 @@
+ENTRY       D11572                      Drug
+NAME        Beclomethasone dipropionate monohydrate;
+            Beconase aq (TN)
+PRODUCT     BECONASE (GlaxoSmithKline LLC)
+FORMULA     C28H37ClO7. H2O
+EXACT_MASS  538.2333
+MOL_WEIGHT  539.0575
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: A07EA07 D07AC15 R01AD01 R03BA01
+            Chemical structure group: DG00097
+            Product (DG00097): D00689<JP/US> D11572<US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+  DISEASE   Allergic rhinitis [DS:H01360]
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A07 ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS
+               A07E INTESTINAL ANTIINFLAMMATORY AGENTS
+                A07EA Corticosteroids acting locally
+                 A07EA07 Beclometasone
+                  D11572  Beclomethasone dipropionate monohydrate &lt;US&gt;
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC15 Beclometasone
+                  D11572  Beclomethasone dipropionate monohydrate &lt;US&gt;
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AD Corticosteroids
+                 R01AD01 Beclometasone
+                  D11572  Beclomethasone dipropionate monohydrate &lt;US&gt;
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03B OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES, INHALANTS
+                R03BA Glucocorticoids
+                 R03BA01 Beclometasone
+                  D11572  Beclomethasone dipropionate monohydrate &lt;US&gt;
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00097  Beclometasone
+                 D11572  Beclomethasone dipropionate monohydrate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D11572  Beclomethasone dipropionate monohydrate
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               D11572  Beclomethasone dipropionate monohydrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D11572  Beclomethasone dipropionate monohydrate &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11572
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00097  Beclometasone
+DBLINKS     CAS: 77011-63-3
+            PubChem: 384585547
+ATOM        37
+            1   C1z C    20.4617  -15.7826
+            2   C1z C    19.2745  -16.4111
+            3   C1y C    21.6489  -16.4810
+            4   C5a C    20.4617  -13.9669
+            5   O7a O    21.6489  -15.0843
+            6   C1y C    19.2745  -17.8078
+            7   C1x C    18.0873  -15.7128
+            8   C1a C    19.2745  -15.0145
+            9   C1x C    21.6489  -17.8078
+            10  C1a C    22.8361  -17.1095
+            11  C1b C    19.2745  -13.2686
+            12  O5a O    21.7187  -13.2686
+            13  C7a C    23.0456  -15.0843
+            14  C1y C    18.0873  -18.4364
+            15  C1y C    16.9002  -16.4111
+            16  O7a O    18.0873  -13.9669
+            17  C1b C    23.6741  -13.8971
+            18  O6a O    23.6741  -16.2715
+            19  C1z C    16.9002  -17.7380
+            20  C1x C    18.0873  -19.7632
+            21  O1a O    15.7828  -15.7128
+            22  C7a C    16.9002  -13.2686
+            23  C1a C    25.0708  -13.8971
+            24  C1z C    15.7130  -18.4364
+            25  X   Cl   16.9002  -19.1347
+            26  C1x C    16.9002  -20.4616
+            27  C1b C    15.7130  -13.9669
+            28  O6a O    16.9002  -11.8719
+            29  C2y C    15.7130  -19.7632
+            30  C2x C    14.5956  -17.7380
+            31  C1a C    15.7130  -17.0397
+            32  C1a C    14.5258  -13.2686
+            33  C2x C    14.5956  -20.4616
+            34  C2x C    13.4084  -18.4364
+            35  C5x C    13.4084  -19.7632
+            36  O5x O    12.2212  -20.4616
+            37  O0  O    26.0400  -20.0900
+BOND        39
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     1   5 1 #Down
+            5     2   6 1
+            6     2   7 1
+            7     2   8 1 #Up
+            8     3   9 1
+            9     3  10 1 #Up
+            10    4  11 1
+            11    4  12 2
+            12    5  13 1
+            13    6  14 1
+            14    7  15 1
+            15   11  16 1
+            16   13  17 1
+            17   13  18 2
+            18   14  19 1
+            19   14  20 1
+            20   15  21 1 #Up
+            21   16  22 1
+            22   17  23 1
+            23   19  24 1
+            24   19  25 1 #Down
+            25   20  26 1
+            26   22  27 1
+            27   22  28 2
+            28   24  29 1
+            29   24  30 1
+            30   24  31 1 #Up
+            31   27  32 1
+            32   29  33 2
+            33   30  34 2
+            34   33  35 1
+            35   35  36 2
+            36    6   9 1
+            37   15  19 1
+            38   26  29 1
+            39   34  35 1
+///

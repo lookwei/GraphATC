@@ -1,0 +1,141 @@
+ENTRY       D03843                      Drug
+NAME        Tipranavir disodium (USAN)
+FORMULA     C31H31F3N2O5S. 2Na
+EXACT_MASS  646.1701
+MOL_WEIGHT  646.628
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+REMARK      ATC code: J05AE09
+            Chemical structure group: DG00658
+            Product (DG00658): D08605<US>
+EFFICACY    Antiviral, HIV protease inhibitor
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+INTERACTION  
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE09 Tipranavir
+                  D03843  Tipranavir disodium (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00658  Tipranavir
+                 D03843  Tipranavir disodium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D03843  Tipranavir disodium (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00658  Tipranavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00658  Tipranavir
+DBLINKS     CAS: 191150-83-1
+            PubChem: 17397929
+            LigandBox: D03843
+ATOM        44
+            1   C8x C    28.7000  -21.4900
+            2   C8y C    28.7000  -20.0900
+            3   N5x N    27.5100  -19.3900
+            4   C8x C    26.2500  -20.0900
+            5   C8y C    26.2500  -21.4900
+            6   C8x C    27.5100  -22.1900
+            7   C1d C    25.0600  -22.1900
+            8   X   F    23.8000  -22.8900
+            9   X   F    24.3600  -21.0000
+            10  X   F    25.7600  -23.3800
+            11  S4a S    29.8900  -19.3900
+            12  N1b N    31.0800  -20.0900 #-
+            13  O3c O    30.8700  -18.4100
+            14  O3c O    28.9100  -18.4100
+            15  C8y C    32.2700  -19.3900
+            16  C8x C    33.4600  -20.0900
+            17  C8y C    34.7200  -19.3900
+            18  C8x C    34.7200  -17.9900
+            19  C8x C    33.5300  -17.2900
+            20  C8x C    32.2700  -17.9900
+            21  C1c C    35.9100  -20.0900
+            22  C2y C    37.1700  -19.3900
+            23  C7x C    38.3600  -20.0900
+            24  O7x O    39.6200  -19.3900
+            25  C1z C    39.6200  -17.9900
+            26  C1x C    38.3600  -17.2900
+            27  C2y C    37.1700  -17.9900
+            28  C8y C    42.4200  -15.6100
+            29  C8x C    43.8200  -15.6100
+            30  C8x C    44.5200  -14.4200
+            31  C8x C    43.8200  -13.1600
+            32  C8x C    42.4200  -13.1600
+            33  C8x C    41.7200  -14.4200
+            34  C1b C    41.7200  -16.8000
+            35  C1b C    40.3200  -16.8000
+            36  C1b C    41.0200  -17.9900
+            37  C1b C    41.7200  -19.1800
+            38  C1a C    43.1200  -19.1800
+            39  O6a O    38.3600  -21.4900
+            40  O1a O    35.9800  -17.2900 #-
+            41  C1b C    35.9100  -21.4900
+            42  C1a C    34.6500  -22.1900
+            43  Z   Na   30.9400  -21.7700 #+
+            44  Z   Na   35.7700  -15.1200 #+
+BOND        45
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    7  10 1
+            11    2  11 1
+            12   11  12 1
+            13   11  13 2
+            14   11  14 2
+            15   12  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22   17  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   22  27 2
+            30   28  29 2
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   32  33 2
+            35   28  33 1
+            36   28  34 1
+            37   34  35 1
+            38   25  35 1 #Up
+            39   25  36 1 #Down
+            40   36  37 1
+            41   37  38 1
+            42   23  39 2
+            43   27  40 1
+            44   21  41 1 #Down
+            45   41  42 1
+///

@@ -1,0 +1,82 @@
+ENTRY       D12056                      Drug
+NAME        Ropsacitinib (USAN)
+FORMULA     C20H17N9
+EXACT_MASS  383.1607
+MOL_WEIGHT  383.4093
+EFFICACY    Anti-inflammatory, Tyrosine kinase 2 inhibitor
+COMMENT     Treatment of plaque psoriasis and inflammatory bowel disease
+TARGET      TYK2 [HSA:7297] [KO:K11219]
+  PATHWAY   hsa04630(7297)  JAK-STAT signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                TYK2
+                 D12056  Ropsacitinib (USAN)
+DBLINKS     CAS: 2127109-84-4
+            PDB-CCD: UWM
+ATOM        29
+            1   C8y C    13.0900  -14.3500
+            2   N5x N    13.0900  -15.7500
+            3   C8y C    14.3024  -16.4500
+            4   C8y C    15.5149  -15.7500
+            5   N4y N    15.5149  -14.3500
+            6   C8x C    14.3024  -13.6500
+            7   C8x C    16.8464  -16.1826
+            8   C8x C    17.6693  -15.0500
+            9   N5x N    16.8464  -13.9174
+            10  C8y C    11.8776  -13.6500
+            11  C8x C    11.7315  -12.2602
+            12  N5x N    10.3646  -11.9696
+            13  N4y N     9.6658  -13.1798
+            14  C8x C    10.6009  -14.2184
+            15  C1a C     8.2699  -13.3265
+            16  C8y C    14.3024  -17.8498
+            17  C8x C    13.1552  -18.6835
+            18  N4y N    13.5936  -20.0323
+            19  N5x N    15.0118  -20.0321
+            20  C8x C    15.4499  -18.6833
+            21  C1z C    12.7720  -21.1633
+            22  C1x C    11.3620  -21.3874
+            23  C1y C    11.5861  -22.7974
+            24  C1x C    12.9961  -22.5733
+            25  C1b C    14.0979  -21.4808
+            26  C3b C    14.4966  -22.8234
+            27  N3a N    14.8589  -24.1757
+            28  C3b C    10.7651  -23.9286
+            29  N3a N    10.0651  -25.1411
+BOND        33
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    1  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 1
+            16   10  14 2
+            17   13  15 1
+            18    3  16 1
+            19   16  17 2
+            20   17  18 1
+            21   18  19 1
+            22   19  20 2
+            23   16  20 1
+            24   21  18 1 #Down
+            25   21  22 1
+            26   22  23 1
+            27   23  24 1
+            28   21  24 1
+            29   21  25 1 #Up
+            30   25  26 1
+            31   26  27 3
+            32   28  23 1 #Up
+            33   28  29 3
+///

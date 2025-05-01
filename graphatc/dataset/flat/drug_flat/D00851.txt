@@ -1,0 +1,247 @@
+ENTRY       D00851                      Drug
+NAME        Erythromycin estolate (USP);
+            Erythromycin estorate (JAN);
+            Ilosone (TN)
+FORMULA     C40H71NO14. C12H26O4S
+EXACT_MASS  1055.6426
+MOL_WEIGHT  1056.3875
+CLASS       Antibacterial
+             DG01551  Macrolide antibiotic
+              DG01874  14-membered ring macrolide antibiotic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      Same as: C08031
+            ATC code: D10AF02 J01FA01 S01AA17
+            Chemical structure group: DG00436
+            Product (DG00436): D00140<JP/US> D01361<JP/US> D02009<JP/US> D02184<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     Active form of prodrug: Erythromycin [DR:D00140]
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243]
+STR_MAP     map07020  Macrolides and ketolides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AF Antiinfectives for treatment of acne
+                 D10AF02 Erythromycin
+                  D00851  Erythromycin estolate (USP)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01F MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS
+                J01FA Macrolides
+                 J01FA01 Erythromycin
+                  D00851  Erythromycin estolate (USP)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA17 Erythromycin
+                  D00851  Erythromycin estolate (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+                 D00851  Erythromycin estolate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+                D00851  Erythromycin estolate
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+                D00851  Erythromycin estolate
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+                D00851  Erythromycin estolate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                D00851  Erythromycin estolate (USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00851
+             Drug transporters
+              D00851
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                DG00436  Erythromycin
+DBLINKS     CAS: 3521-62-8
+            PubChem: 7847916
+            ChEBI: 4846
+            LigandBox: D00851
+            NIKKAJI: J383.158B
+ATOM        72
+            1   C1y C     8.6520  -15.8825
+            2   C1z C     8.6520  -14.5689
+            3   C1y C     7.5110  -16.5339
+            4   O2a O    11.1010  -16.9101
+            5   C1x C     7.5110  -13.9120
+            6   O1a O     9.6429  -13.6171
+            7   C1a C     9.8879  -14.9862
+            8   C1y C     7.5110  -17.8476
+            9   C1a C     6.5756  -15.5493
+            10  C1y C    13.0541  -16.0150
+            11  C1y C     7.5110  -12.5928
+            12  O2a O     8.2235  -19.1557
+            13  C1y C     6.3810  -18.5045
+            14  C1y C    14.1798  -16.6811
+            15  O2x O    13.0658  -14.7018
+            16  C5x C     6.3810  -11.9414
+            17  C1a C     8.6520  -11.9414
+            18  C1y C     9.6844  -19.5584
+            19  C7x C     5.2399  -17.8476
+            20  C1a C     6.3810  -19.8180
+            21  C1y C    15.3897  -16.0436
+            22  O7a O    14.2385  -18.8086
+            23  C1y C    14.2129  -14.0616
+            24  C1y C     5.2399  -12.5928
+            25  O5x O     6.3810  -10.6277
+            26  C1x C     9.6844  -20.8666
+            27  O2x O    10.8257  -18.9017
+            28  O7x O     5.2399  -16.5339
+            29  O6a O     4.2211  -18.7605
+            30  C1x C    15.4060  -14.7352
+            31  N1c N    16.4526  -16.7069
+            32  C1a C    14.2319  -12.7505
+            33  C1y C     5.2399  -13.9120
+            34  C1a C     4.1044  -11.9414
+            35  C1z C    10.8257  -21.5290
+            36  C1y C    11.9555  -19.5584
+            37  C1y C     4.1044  -15.8825
+            38  C1z C     4.1044  -14.5689
+            39  O1a O     6.3810  -14.5689
+            40  C1y C    11.9555  -20.8666
+            41  O2a O    10.8257  -22.8038
+            42  C1a C    12.2172  -22.4754
+            43  C1a C    13.0967  -18.9073
+            44  C1b C     2.9687  -16.5339
+            45  C1a C     2.9020  -15.1142
+            46  O1a O     2.9020  -13.9065
+            47  O1a O    13.0967  -21.5290
+            48  C1a C    11.8832  -23.7278
+            49  C1a C     3.0025  -17.6137
+            50  C1a C    17.6537  -16.0252
+            51  C7a C    15.3913  -19.4848
+            52  O6a O    15.3913  -20.8340
+            53  C1b C    16.5282  -18.8337
+            54  C1a C    17.6754  -19.5017
+            55  C1a C    16.4526  -18.0561
+            56  C1b C    36.4700  -17.3600
+            57  C1b C    35.2576  -18.0600
+            58  C1b C    34.0621  -17.3696
+            59  C1b C    32.8747  -18.0551
+            60  C1b C    31.6835  -17.3671
+            61  C1b C    30.4940  -18.0538
+            62  C1b C    29.3039  -17.3665
+            63  C1b C    28.1138  -18.0535
+            64  C1b C    26.9240  -17.3663
+            65  C1b C    25.7338  -18.0534
+            66  C1b C    24.5440  -17.3662
+            67  O2a O    23.3538  -18.0534
+            68  C1a C    37.6824  -18.0600
+            69  S4a S    21.9812  -18.0478
+            70  O1d O    20.5800  -18.0709
+            71  O1d O    21.9726  -16.6600
+            72  O1d O    21.9900  -19.4600
+BOND        73
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9    10   4 1 #Down
+            10    5  11 1
+            11    8  12 1 #Down
+            12    8  13 1
+            13   10  14 1
+            14   10  15 1
+            15   11  16 1
+            16   11  17 1 #Down
+            17   18  12 1 #Down
+            18   13  19 1
+            19   13  20 1 #Up
+            20   14  21 1
+            21   14  22 1 #Up
+            22   15  23 1
+            23   16  24 1
+            24   16  25 2
+            25   18  26 1
+            26   18  27 1
+            27   19  28 1
+            28   19  29 2
+            29   21  30 1
+            30   21  31 1 #Down
+            31   23  32 1 #Down
+            32   24  33 1
+            33   24  34 1 #Up
+            34   26  35 1
+            35   27  36 1
+            36   28  37 1
+            37   33  38 1
+            38   33  39 1 #Up
+            39   35  40 1
+            40   35  41 1 #Down
+            41   35  42 1
+            42   36  43 1 #Up
+            43   37  44 1 #Down
+            44   38  45 1 #Down
+            45   38  46 1 #Up
+            46   40  47 1 #Down
+            47   41  48 1
+            48   44  49 1
+            49   23  30 1
+            50   36  40 1
+            51   37  38 1
+            52   31  50 1
+            53   22  51 1
+            54   51  52 2
+            55   51  53 1
+            56   53  54 1
+            57   31  55 1
+            58   56  57 1
+            59   57  58 1
+            60   58  59 1
+            61   59  60 1
+            62   60  61 1
+            63   61  62 1
+            64   62  63 1
+            65   63  64 1
+            66   64  65 1
+            67   65  66 1
+            68   66  67 1
+            69   56  68 1
+            70   67  69 1
+            71   69  70 1
+            72   69  71 2
+            73   69  72 2
+///

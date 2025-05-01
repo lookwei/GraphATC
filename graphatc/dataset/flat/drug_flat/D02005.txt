@@ -1,0 +1,141 @@
+ENTRY       D02005                      Drug
+NAME        Cefsulodin sodium (JP18/USAN);
+            Takesulin (TN)
+FORMULA     C22H19N4O8S2. Na
+EXACT_MASS  554.0542
+MOL_WEIGHT  554.528
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01776  Third-generation cephalosporin
+REMARK      Same as: C13505
+            ATC code: J01DD03
+            Chemical structure group: DG00572
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07012  Cephalosporins - parenteral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DD Third-generation cephalosporins
+                 J01DD03 Cefsulodin
+                  D02005  Cefsulodin sodium (JP18/USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00572  Cefsulodin
+                  D02005  Cefsulodin sodium
+              DG01776  Third-generation cephalosporin
+               DG00572  Cefsulodin
+                D02005  Cefsulodin sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                D02005  Cefsulodin sodium (JP18/USAN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02005  Cefsulodin sodium
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00572  Cefsulodin
+              DG01776  Third-generation cephalosporin
+               DG00572  Cefsulodin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                DG00572  Cefsulodin
+DBLINKS     CAS: 52152-93-9
+            PubChem: 7849067
+            ChEBI: 31380
+            LigandBox: D02005
+            NIKKAJI: J355.524K J9.786A
+ATOM        37
+            1   Z   Na   12.5068  -16.5046 #+
+            2   C1y C    22.1225  -16.5108
+            3   N1y N    22.1225  -17.9107
+            4   C2y C    23.3350  -18.6106
+            5   C2y C    24.5475  -17.9107
+            6   C1x C    24.5475  -16.5108
+            7   S2x S    23.3350  -15.8108
+            8   C1y C    20.7225  -16.5108
+            9   C5x C    20.7225  -17.9107
+            10  N1b N    19.5102  -15.8108
+            11  C5a C    18.2975  -16.5108
+            12  O5a O    18.2975  -17.9107
+            13  O5x O    19.5102  -18.6106
+            14  C1c C    17.0851  -15.8108
+            15  C1b C    25.7785  -18.6218
+            16  C6a C    23.3350  -20.0105
+            17  O6a O    22.1056  -20.7204
+            18  O6a O    24.5305  -20.7009 #-
+            19  N5y N    26.9879  -17.9237 #+
+            20  C8x C    28.2005  -18.6239
+            21  C8x C    29.4133  -17.9237
+            22  C8y C    29.4133  -16.5235
+            23  C8x C    28.2005  -15.8233
+            24  C8x C    26.9879  -16.5235
+            25  C5a C    30.6204  -15.8265
+            26  N1a N    31.8130  -16.5153
+            27  O5a O    30.6205  -14.4228
+            28  S4a S    15.8660  -16.5147
+            29  C8y C    17.0851  -14.4229
+            30  O1d O    15.8657  -17.9234
+            31  O1d O    15.8660  -15.1144
+            32  O1d O    14.4657  -16.5147 #-
+            33  C8x C    18.2968  -13.7235
+            34  C8x C    18.2968  -12.3231
+            35  C8x C    17.0840  -11.6230
+            36  C8x C    15.8724  -12.3225
+            37  C8x C    15.8724  -13.7229
+BOND        39
+            1     2   3 1
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     2   8 1
+            8     8   9 1
+            9     3   9 1
+            10    8  10 1 #Up
+            11   10  11 1
+            12   11  12 2
+            13    9  13 2
+            14   11  14 1
+            15    5  15 1
+            16    4  16 1
+            17   16  17 2
+            18   16  18 1
+            19   15  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   19  24 1
+            26   22  25 1
+            27   25  26 1
+            28   25  27 2
+            29   14  28 1
+            30   14  29 1 #Down
+            31   28  30 2
+            32   28  31 2
+            33   28  32 1
+            34   29  33 2
+            35   33  34 1
+            36   34  35 2
+            37   35  36 1
+            38   36  37 2
+            39   29  37 1
+///

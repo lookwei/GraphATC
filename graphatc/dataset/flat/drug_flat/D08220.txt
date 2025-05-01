@@ -1,0 +1,117 @@
+ENTRY       D08220                      Drug
+NAME        Midodrine (INN)
+FORMULA     C12H18N2O4
+EXACT_MASS  254.1267
+MOL_WEIGHT  254.2823
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Same as: C07890
+            ATC code: C01CA17
+            Chemical structure group: DG00224
+            Product (DG00224): D01307<JP/US>
+EFFICACY    Antihypotensive, alpha1-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+            Active form of prodrug: Deglymidodrine [CPD:C21521]
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148)  Salivary secretion
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA17 Midodrine
+                  D08220  Midodrine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00224  Midodrine
+                 D08220  Midodrine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00224  Midodrine
+                  D08220  Midodrine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00224  Midodrine
+                D08220  Midodrine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08220  Midodrine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08220
+            Prodrugs [br08324.html]
+             D08220
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00224  Midodrine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00224  Midodrine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00224  Midodrine
+            Prodrugs [br08324.html(DG00224)]
+             DG00224
+DBLINKS     CAS: 42794-76-3
+            PubChem: 96024908
+            ChEBI: 6933
+            LigandBox: D08220
+            NIKKAJI: J16.460G
+ATOM        18
+            1   C8y C    14.0000  -20.5100
+            2   C8x C    14.0000  -21.9100
+            3   C8x C    15.2124  -22.6100
+            4   C8y C    16.4249  -21.9100
+            5   C8y C    16.4249  -20.5100
+            6   C8x C    15.2124  -19.8100
+            7   C1c C    17.6560  -19.7990
+            8   C1b C    18.8612  -20.4947
+            9   O1a O    17.6557  -18.4101
+            10  N1b N    20.0435  -19.8119
+            11  C5a C    21.2375  -20.5012
+            12  C1b C    22.4254  -19.8152
+            13  N1a N    23.6165  -20.5029
+            14  O5a O    21.2377  -21.9097
+            15  O2a O    12.7876  -19.8100
+            16  C1a C    11.5921  -20.5004
+            17  O2a O    17.6560  -22.6210
+            18  C1a C    17.6560  -24.0210
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     7   9 1
+            10    8  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   11  14 2
+            15    1  15 1
+            16   15  16 1
+            17    4  17 1
+            18   17  18 1
+///

@@ -1,0 +1,87 @@
+ENTRY       D01630                      Drug
+NAME        Propentofylline (JAN/INN)
+FORMULA     C15H22N4O3
+EXACT_MASS  306.1692
+MOL_WEIGHT  306.3602
+CLASS       Respiratory system agent
+             DG01616  Xanthine derivative
+              DG01612  Xanthine-type central nervous system stimulant
+REMARK      ATC code: N06BC02
+EFFICACY    Dementia therapeutic agent, Neuroprotectant, Phosphodiesterase inhibitor
+COMMENT     Xanthine derivative
+            Treatment of Alzheimer's disease and multi-infarct dementia
+TARGET      PDE4 [HSA:5141 5142 5143 5144] [KO:K13293]
+  PATHWAY   hsa04024(5141+5142+5143+5144)  cAMP signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BC Xanthine derivatives
+                 N06BC02 Propentofylline
+                  D01630  Propentofylline (JAN/INN)
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01612  Xanthine-type central nervous system stimulant
+                D01630  Propentofylline
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE4
+                 D01630  Propentofylline (JAN/INN)
+DBLINKS     CAS: 55242-55-2
+            PubChem: 7848693
+            ChEBI: 32061
+            PDB-CCD: POY
+            LigandBox: D01630
+            NIKKAJI: J22.661K
+ATOM        22
+            1   N4y N    31.5076  -16.6849
+            2   C8y C    31.5076  -18.0885
+            3   N4y N    30.2891  -18.7903
+            4   C8y C    30.2891  -15.9831
+            5   C8y C    29.0778  -16.6849
+            6   C8y C    29.0160  -18.0844
+            7   N5x N    27.7574  -18.5249
+            8   C8x C    26.9284  -17.3974
+            9   N4y N    27.7443  -16.2603
+            10  O5x O    30.2874  -14.5796
+            11  O5x O    32.7229  -18.7909
+            12  C1a C    30.2835  -20.1939
+            13  C1b C    32.7198  -15.9831
+            14  C1b C    33.9320  -16.6777
+            15  C1b C    35.1442  -15.9759
+            16  C1b C    36.3563  -16.6708
+            17  C5a C    37.5686  -15.9690
+            18  C1a C    38.7808  -16.6636
+            19  O5a O    37.5655  -14.5655
+            20  C1b C    27.7443  -14.8591
+            21  C1b C    26.5274  -14.1566
+            22  C1a C    25.3346  -14.8454
+BOND        23
+            1     2  11 2
+            2     1   2 1
+            3     3  12 1
+            4     2   3 1
+            5     3   6 1
+            6     5   4 1
+            7     5   6 2
+            8     1  13 1
+            9     6   7 1
+            10   13  14 1
+            11    7   8 2
+            12   14  15 1
+            13    8   9 1
+            14   15  16 1
+            15    9   5 1
+            16   16  17 1
+            17    4   1 1
+            18   17  18 1
+            19    4  10 2
+            20   17  19 2
+            21    9  20 1
+            22   20  21 1
+            23   21  22 1
+///

@@ -1,0 +1,98 @@
+ENTRY       D01684                      Drug
+NAME        Ozagrel sodium (JP18);
+            Ozapen (TN)
+FORMULA     C13H11N2O2. Na
+EXACT_MASS  250.0718
+MOL_WEIGHT  250.2284
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+               DG01516  Thromboxane A2 synthase inhibitor
+REMARK      Therapeutic category: 2190 3999
+            Chemical structure group: DG01256
+            Product (DG01256): D01683<JP> D01684<JP>
+EFFICACY    Anticoagulant, Platelet aggregation inhibitor, Thromboxane A2 (TXA2) synthase inhibitor
+TARGET      TBXAS1 (CYP5A1) [HSA:6916] [KO:K01832]
+  PATHWAY   hsa00590(6916)  Arachidonic acid metabolism
+            hsa04611(6916)  Platelet activation
+INTERACTION  
+STR_MAP     map07034  Eicosanoids
+            map07049  Antithrombosis agents
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D01684  Ozagrel sodium (JP18)
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D01684  Ozagrel sodium (JP18)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01516  Thromboxane A2 synthase inhibitor
+                 DG01256  Ozagrel
+                  D01684  Ozagrel sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               Thromboxane-A synthase
+                TBXAS1 (CYP5A1)
+                 D01684  Ozagrel sodium (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01684  Ozagrel sodium
+              D01684  Ozagrel sodium injection
+              D01684  Ozagrel sodium for injection
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01516  Thromboxane A2 synthase inhibitor
+                 DG01256  Ozagrel
+DBLINKS     CAS: 189224-26-8
+            PubChem: 7848747
+            LigandBox: D01684
+            NIKKAJI: J195.867D
+ATOM        18
+            1   N4y N    27.0331  -14.7865
+            2   C8x C    27.4703  -16.1159
+            3   C8x C    28.1700  -13.9527
+            4   C1b C    25.8087  -14.0985
+            5   N5x N    28.8697  -16.1159
+            6   C8x C    29.3070  -14.7865
+            7   C8y C    24.6075  -14.8216
+            8   C8x C    24.6308  -16.2266
+            9   C8x C    23.3772  -14.1393
+            10  C8x C    23.4238  -16.9439
+            11  C8x C    22.2229  -14.8155
+            12  C8y C    22.2112  -16.2617
+            13  C2b C    21.0042  -16.9788
+            14  C2b C    19.7876  -16.2963
+            15  C6a C    18.5882  -17.0089
+            16  O6a O    17.3715  -16.3266 #-
+            17  O6a O    18.6057  -18.4039
+            18  Z   Na   14.9549  -16.2803 #+
+BOND        18
+            1     2   5 2
+            2     3   6 2
+            3     4   7 1
+            4     7   8 2
+            5     7   9 1
+            6     8  10 1
+            7     9  11 2
+            8    10  12 2
+            9    12  13 1
+            10    5   6 1
+            11   11  12 1
+            12   13  14 2
+            13   14  15 1
+            14    1   2 1
+            15   15  16 1
+            16    1   3 1
+            17   15  17 2
+            18    1   4 1
+///

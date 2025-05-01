@@ -1,0 +1,165 @@
+ENTRY       D10355                      Drug
+NAME        Aripiprazole cavoxil (USAN)
+FORMULA     C30H39Cl2N3O4
+EXACT_MASS  575.2318
+MOL_WEIGHT  576.5544
+CLASS       Neuropsychiatric agent
+             DG03200  Antipsychotic agent
+              DG03064  Atypical antipsychotic
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N05AX12
+            Chemical structure group: DG00906
+            Product (DG00906): D01164<JP/US> D10364<US> D10516<JP/US>
+EFFICACY    Antipsychotic, Dopamine receptor partial agonist, Serotonin receptor agonist/antagonist
+COMMENT     Phenylpiperazine derivative
+            Active form of prodrug: Aripiprazole [DR:D01164]
+            Treatment of schizophrenia, bipolar disorder, and clinical depression
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            DRD3 [HSA:1814] [KO:K04146]
+            HTR1A [HSA:3350] [KO:K04153]
+            HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04080(1813+1814+3350+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3356)  Serotonergic synapse
+            hsa04728(1813+1814)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AX Other antipsychotics
+                 N05AX12 Aripiprazole
+                  D10355  Aripiprazole cavoxil (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG03064  Atypical antipsychotic
+                DG00906  Aripiprazole
+                 D10355  Aripiprazole cavoxil
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00906  Aripiprazole
+                D10355  Aripiprazole cavoxil
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00906  Aripiprazole
+                 D10355  Aripiprazole cavoxil
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D10355  Aripiprazole cavoxil (USAN)
+                DRD3
+                 D10355  Aripiprazole cavoxil (USAN)
+               Serotonin
+                HTR1A
+                 D10355  Aripiprazole cavoxil (USAN)
+                HTR2A
+                 D10355  Aripiprazole cavoxil (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10355
+            Prodrugs [br08324.html]
+             D10355
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03200  Antipsychotic agent
+               DG03064  Atypical antipsychotic
+                DG00906  Aripiprazole
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00906  Aripiprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00906  Aripiprazole
+DBLINKS     CAS: 1259305-26-4
+            PubChem: 172232448
+            ChEBI: 177464
+ATOM        39
+            1   C8y C    19.8800  -27.4400
+            2   C8x C    19.8800  -26.0400
+            3   C8x C    18.6900  -25.3400
+            4   C8x C    18.6900  -28.1400
+            5   C8y C    17.4300  -27.4400
+            6   C8y C    17.4300  -26.0400
+            7   C1x C    15.0500  -25.9700
+            8   C5x C    15.0500  -27.3700
+            9   N1y N    16.2400  -28.1400
+            10  O5x O    13.7900  -28.0700
+            11  O2a O    21.0700  -28.1400
+            12  C1b C    22.3300  -27.4400
+            13  C1b C    23.5200  -28.1400
+            14  C1b C    24.7100  -27.4400
+            15  C1b C    25.9700  -28.1400
+            16  N1y N    27.2300  -27.4400
+            17  C1x C    28.3500  -28.1400
+            18  C1x C    29.6100  -27.4400
+            19  N1y N    29.6100  -26.0400
+            20  C1x C    28.3500  -25.3400
+            21  C1x C    27.2300  -26.0400
+            22  C8y C    30.8000  -25.3400
+            23  C8y C    31.9900  -26.0400
+            24  C8y C    33.2500  -25.3400
+            25  C8x C    33.2500  -23.9400
+            26  C8x C    31.9900  -23.2400
+            27  C8x C    30.8000  -23.9400
+            28  X   Cl   31.9900  -27.4400
+            29  X   Cl   34.4400  -26.0400
+            30  C1x C    16.2400  -25.3400
+            31  C1b C    16.2102  -29.5397
+            32  O7a O    17.4292  -30.2787
+            33  C7a C    17.3985  -31.7096
+            34  C1b C    18.6186  -32.4497
+            35  O6a O    16.1955  -32.3703
+            36  C1b C    19.8341  -31.7829
+            37  C1b C    21.0120  -32.4978
+            38  C1b C    22.2376  -31.8256
+            39  C1a C    23.4617  -32.5683
+BOND        42
+            1     5   4 2
+            2    14  15 1
+            3     5   6 1
+            4    15  16 1
+            5    30   7 1
+            6     7   8 1
+            7     8   9 1
+            8     9   5 1
+            9     4   1 1
+            10   16  17 1
+            11   17  18 1
+            12   18  19 1
+            13   19  20 1
+            14   20  21 1
+            15   21  16 1
+            16    8  10 2
+            17   19  22 1
+            18    1  11 1
+            19    1   2 2
+            20   11  12 1
+            21    2   3 1
+            22   22  23 2
+            23   23  24 1
+            24   24  25 2
+            25   25  26 1
+            26   26  27 2
+            27   27  22 1
+            28   12  13 1
+            29   23  28 1
+            30    3   6 2
+            31   24  29 1
+            32   13  14 1
+            33    6  30 1
+            34    9  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+            38   33  35 2
+            39   34  36 1
+            40   36  37 1
+            41   37  38 1
+            42   38  39 1
+///

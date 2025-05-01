@@ -1,0 +1,123 @@
+ENTRY       D12388                      Drug
+NAME        Fosifloxuridine nafalbenamide
+FORMULA     C29H29FN3O9P
+EXACT_MASS  613.1625
+MOL_WEIGHT  613.5274
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01935  Fluoropyrimidine antineoplastic
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Active form of prodrug: Floxuridine [DR:D04197]
+            Treatment of colorectal cancer
+TARGET      TYMS [HSA:7298] [KO:K00560]
+  PATHWAY   hsa00240(7298)  Pyrimidine metabolism
+            hsa00670(7298)  One carbon pool by folate
+            hsa01232(7298)  Nucleotide metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01935  Fluoropyrimidine antineoplastic
+                 D12388  Fosifloxuridine nafalbenamide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                TYMS
+                 D12388  Fosifloxuridine nafalbenamide
+DBLINKS     CAS: 1332837-31-6
+ATOM        43
+            1   C1y C    18.3400  -16.8000
+            2   O2x O    17.2200  -16.0300
+            3   C1x C    17.9200  -18.1300
+            4   C1y C    16.1000  -16.8000
+            5   C1y C    16.5200  -18.1300
+            6   O1a O    15.7500  -19.1800
+            7   N4y N    19.7400  -16.3100
+            8   C8x C    19.7400  -14.8400
+            9   C8y C    20.9300  -17.0100
+            10  N4x N    22.1900  -16.3100
+            11  C8y C    22.1900  -14.8400
+            12  C8y C    20.9300  -14.1400
+            13  X   F    20.9300  -12.7400
+            14  O5x O    23.3800  -14.1400
+            15  O5x O    20.9300  -18.4100
+            16  C1b C    14.9100  -16.1000
+            17  O2b O    13.7200  -16.8000
+            18  P1b P    12.5019  -16.1099
+            19  N1b N    11.3205  -16.8050
+            20  C1c C    10.1151  -16.1220
+            21  C7a C     8.9439  -16.8109
+            22  O7a O     7.7335  -16.1249
+            23  O6a O     8.9552  -18.2000
+            24  C1b C     6.5134  -16.8429
+            25  C8y C     5.3043  -16.1584
+            26  C8x C     5.2927  -14.7703
+            27  C8x C     4.0745  -14.0804
+            28  C8x C     2.8679  -14.7905
+            29  C8x C     2.8795  -16.1787
+            30  C8x C     4.0978  -16.8685
+            31  C1a C    10.1031  -14.7008
+            32  O3b O    11.5120  -15.1199
+            33  O2b O    13.4919  -15.1199
+            34  C8y C    13.1309  -13.7723
+            35  C8y C    14.1262  -12.7769
+            36  C8y C    13.7638  -11.4246
+            37  C8x C    12.4114  -11.0623
+            38  C8x C    11.4161  -12.0578
+            39  C8x C    11.7785  -13.4101
+            40  C8x C    15.4785  -13.1391
+            41  C8x C    16.4684  -12.1491
+            42  C8x C    16.1060  -10.7968
+            43  C8x C    14.7536  -10.4346
+BOND        47
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     5   6 1 #Down
+            6     4   5 1
+            7     1   7 1 #Up
+            8     8   7 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12    8  12 2
+            13   12  13 1
+            14   11  14 2
+            15    9  15 2
+            16    9   7 1
+            17    4  16 1 #Up
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+            25   22  24 1
+            26   24  25 1
+            27   25  26 2
+            28   26  27 1
+            29   27  28 2
+            30   28  29 1
+            31   29  30 2
+            32   25  30 1
+            33   20  31 1 #Down
+            34   18  32 2
+            35   18  33 1
+            36   33  34 1
+            37   34  35 2
+            38   35  36 1
+            39   36  37 2
+            40   37  38 1
+            41   38  39 2
+            42   34  39 1
+            43   35  40 1
+            44   40  41 2
+            45   41  42 1
+            46   42  43 2
+            47   36  43 1
+///

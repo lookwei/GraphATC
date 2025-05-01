@@ -1,0 +1,74 @@
+ENTRY       D05207                      Drug
+NAME        Norethynodrel (USAN);
+            Noretynodrel (INN)
+FORMULA     C20H26O2
+EXACT_MASS  298.1933
+MOL_WEIGHT  298.4192
+REMARK      Same as: C14249
+EFFICACY    Menstruation disorder agent
+COMMENT     Progestin
+            Component of Enovid (TN)
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D05207  Norethynodrel (USAN)
+DBLINKS     CAS: 68-23-5
+            PubChem: 47206926
+            ChEBI: 34895
+            LigandBox: D05207
+            NIKKAJI: J4.857G
+ATOM        22
+            1   C1y C    26.7557  -17.3573
+            2   C1z C    26.7557  -16.0735
+            3   C1y C    25.6440  -17.9992
+            4   C1x C    25.6440  -15.4315
+            5   C1a C    26.7557  -14.3958
+            6   C1y C    24.5321  -17.3573
+            7   C1x C    25.5946  -19.3363
+            8   C1x C    24.5321  -16.0735
+            9   C2y C    23.3638  -18.0080
+            10  C1x C    24.5116  -20.0138
+            11  C2y C    23.3535  -19.3453
+            12  C1x C    22.1740  -17.2838
+            13  C1x C    22.1526  -20.0510
+            14  C1x C    20.9570  -17.9616
+            15  C5x C    20.9462  -19.3545
+            16  O5x O    19.8320  -19.9922
+            17  C1x C    29.0297  -17.3573
+            18  C1x C    29.0297  -16.0735
+            19  C1z C    27.8928  -15.4171
+            20  O1a O    27.8981  -13.9549
+            21  C3b C    29.2362  -14.9339
+            22  C3a C    30.4127  -14.3803
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1 #Up
+            5     3   6 1
+            6     3   7 1
+            7     4   8 1
+            8     6   9 1
+            9     6   8 1
+            10    7  10 1
+            11    9  11 2
+            12    9  12 1
+            13   10  11 1
+            14   11  13 1
+            15   12  14 1
+            16   13  15 1
+            17   14  15 1
+            18   15  16 2
+            19    1  17 1
+            20   17  18 1
+            21   18  19 1
+            22    2  19 1
+            23   19  20 1 #Up
+            24   19  21 1 #Down
+            25   21  22 3
+///

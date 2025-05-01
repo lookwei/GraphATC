@@ -1,0 +1,102 @@
+ENTRY       D08588                      Drug
+NAME        Tiagabine (INN);
+            Gabitril (TN)
+FORMULA     C20H25NO2S2
+EXACT_MASS  375.1327
+MOL_WEIGHT  375.548
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02037  GABA mimetic antiepileptic
+REMARK      Same as: C07503
+            ATC code: N03AG06
+            Chemical structure group: DG00850
+            Product (DG00850): D02097<US>
+EFFICACY    Anticonvulsant, Antiepileptic
+TARGET      SLC6A1 (GAT1) [HSA:6529] [KO:K05034]
+  PATHWAY   hsa04727(6529)  GABAergic synapse
+STR_MAP     map07033  Anticonvulsants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AG Fatty acid derivatives
+                 N03AG06 Tiagabine
+                  D08588  Tiagabine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02037  GABA mimetic antiepileptic
+                DG00850  Tiagabine
+                 D08588  Tiagabine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A1 (GAT1)
+                 D08588  Tiagabine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02037  GABA mimetic antiepileptic
+                DG00850  Tiagabine
+DBLINKS     CAS: 115103-54-3
+            PubChem: 96025272
+            ChEBI: 9586
+            PDB-CCD: TGI
+            LigandBox: D08588
+            NIKKAJI: J390.632I
+ATOM        25
+            1   C2c C    21.6300  -18.5500
+            2   C8y C    20.4400  -19.2500
+            3   C8y C    21.6300  -17.1500
+            4   C2b C    22.8200  -19.2500
+            5   C8y C    20.3000  -20.6500
+            6   S2x S    19.1800  -18.6900
+            7   C8y C    22.7500  -16.3100
+            8   S2x S    20.5100  -16.3100
+            9   C1b C    24.0800  -18.5500
+            10  C8x C    18.9000  -20.9300
+            11  C1a C    21.3500  -21.5600
+            12  C8x C    18.2000  -19.7400
+            13  C8x C    22.3300  -14.9800
+            14  C1a C    24.0800  -16.7300
+            15  C8x C    20.9300  -14.9800
+            16  C1b C    25.2700  -19.2500
+            17  N1y N    26.4600  -18.5500
+            18  C1x C    26.4600  -17.1500
+            19  C1x C    27.7200  -19.2500
+            20  C1y C    27.7200  -16.4500
+            21  C1x C    28.9100  -18.5500
+            22  C1x C    28.9100  -17.1500
+            23  C6a C    28.9100  -15.7500
+            24  O6a O    30.1000  -16.4500
+            25  O6a O    28.9100  -14.3500
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    7  14 1
+            14    8  15 1
+            15    9  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   20  23 1 #Down
+            23   23  24 1
+            24   23  25 2
+            25   10  12 2
+            26   13  15 2
+            27   21  22 1
+///

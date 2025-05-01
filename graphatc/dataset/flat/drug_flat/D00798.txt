@@ -1,0 +1,130 @@
+ENTRY       D00798                      Drug
+NAME        Thioridazine hydrochloride (JP18/USP);
+            Mellaril (TN)
+PRODUCT
+  GENERIC   THIORIDAZINE HYDROCHLORIDE (Mylan Institutional)
+            THIORIDAZINE HYDROCHLORIDE (Mylan Pharmaceuticals)
+            THIORIDAZINE HYDROCHLORIDE (Sun Pharmaceutical Industries)
+FORMULA     C21H26N2S2. HCl
+EXACT_MASS  406.1304
+MOL_WEIGHT  407.0355
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      ATC code: N05AC02
+            Chemical structure group: DG00882
+            Product (DG00882): D00798<US>
+EFFICACY    Antipsychotic, Sedative-hypnotic, Dopamine D2 receptor antagonist
+  DISEASE   Schizophrenia [DS:H01649]
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AC Phenothiazines with piperidine structure
+                 N05AC02 Thioridazine
+                  D00798  Thioridazine hydrochloride (JP18/USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              1st Generation/Typical
+               Thioridazine
+                D00798  Thioridazine hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00882  Thioridazine
+                 D00798  Thioridazine hydrochloride
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00882  Thioridazine
+                 D00798  Thioridazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D00798  Thioridazine hydrochloride (JP18/USP) &lt;US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00798  Thioridazine hydrochloride
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00798
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00882  Thioridazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00882  Thioridazine
+DBLINKS     CAS: 130-61-0
+            PubChem: 7847863
+            ChEBI: 48566
+            LigandBox: D00798
+            NIKKAJI: J237.878G
+ATOM        26
+            1   N1y N    23.5960  -17.9088
+            2   C8y C    22.3761  -18.6092
+            3   C8y C    24.8099  -18.6209
+            4   C1b C    23.5901  -16.5080
+            5   C8y C    22.3702  -20.0158
+            6   C8x C    21.1679  -17.9029
+            7   C8y C    24.7982  -20.0215
+            8   C8x C    26.0298  -17.9262
+            9   C1b C    24.8042  -15.8133
+            10  S2x S    23.5843  -20.7162
+            11  C8x C    21.1679  -20.7103
+            12  C8x C    19.9480  -18.6092
+            13  C8x C    26.0064  -20.7279
+            14  C8y C    27.2322  -18.6442
+            15  C1y C    24.8042  -14.4127
+            16  C8x C    19.9480  -20.0158
+            17  C8x C    27.2146  -20.0449
+            18  N1y N    26.0181  -13.7123
+            19  C1x C    23.5960  -13.7123
+            20  C1x C    26.0181  -12.3172
+            21  C1a C    27.2146  -14.4127
+            22  C1x C    23.5960  -12.3172
+            23  C1x C    24.8042  -11.6227
+            24  S2a S    28.4627  -17.9562
+            25  C1a C    29.7005  -18.6933
+            26  X   Cl   33.2288  -18.0699
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    8  14 2
+            14    9  15 1
+            15   11  16 2
+            16   13  17 2
+            17   15  18 1
+            18   15  19 1
+            19   18  20 1
+            20   18  21 1
+            21   19  22 1
+            22   20  23 1
+            23    7  10 1
+            24   12  16 1
+            25   14  17 1
+            26   22  23 1
+            27   14  24 1
+            28   24  25 1
+///

@@ -1,0 +1,103 @@
+ENTRY       D00445                      Drug
+NAME        Stavudine (USAN/INN);
+            Sanilvudine (JAN);
+            Zerit (TN)
+  ABBR      d4T
+PRODUCT
+  GENERIC   STAVUDINE (Cipla)
+FORMULA     C10H12N2O4
+EXACT_MASS  224.0797
+MOL_WEIGHT  224.2133
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+REMARK      Same as: C07312
+            ATC code: J05AF04
+            Product: D00445<US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+            map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF04 Stavudine
+                  D00445  Stavudine (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Nucleoside and Nucleotide Reverse Transcriptase Inhibitors (NRTI)
+               Stavudine
+                D00445  Stavudine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D00445  Stavudine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D00445  Stavudine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00445  Stavudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00445  Stavudine (USAN/INN) &lt;US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00445  Stavudine (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00445
+DBLINKS     CAS: 3056-17-5
+            PubChem: 7847511
+            ChEBI: 63581
+            LigandBox: D00445
+            NIKKAJI: J83.276F
+ATOM        16
+            1   C1y C    23.3375  -17.1684
+            2   N4y N    24.7304  -16.2773
+            3   O2x O    22.2047  -16.3383
+            4   C2x C    22.8796  -18.5037
+            5   C8y C    25.9417  -15.5769
+            6   C8x C    23.5292  -15.5678
+            7   C1y C    21.0616  -17.1462
+            8   C2x C    21.4815  -18.4900
+            9   N4x N    25.9604  -14.1782
+            10  O5x O    27.1422  -16.2880
+            11  C8y C    23.5311  -14.1636
+            12  C1b C    19.7320  -16.7119
+            13  C8y C    24.7525  -13.4704
+            14  C1a C    22.3517  -13.3997
+            15  O1a O    18.6814  -17.6318
+            16  O5x O    24.7621  -12.0810
+BOND        17
+            1     1   2 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     5  10 2
+            10    6  11 2
+            11    7  12 1 #Up
+            12    9  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 2
+            16    7   8 1
+            17   11  13 1
+///

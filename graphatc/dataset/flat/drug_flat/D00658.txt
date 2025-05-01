@@ -1,0 +1,109 @@
+ENTRY       D00658                      Drug
+NAME        Trichlormethiazide (JP18/USP/INN);
+            Naqua (TN)
+FORMULA     C8H8Cl3N3O4S2
+EXACT_MASS  378.9022
+MOL_WEIGHT  380.6558
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01749  Thiazide diuretic
+             DG01690  Sulfonamide diuretic
+              DG01749  Thiazide diuretic
+REMARK      Same as: C07767
+            Therapeutic category: 2132
+            ATC code: C03AA06
+            Product: D00658<JP>
+            Product (mixture): D10480<JP>
+EFFICACY    Antihypertensive, Diuretic, Na+-Cl- symport inhibitor
+COMMENT     Thiazides
+TARGET      SLC12A3 (TSC) [HSA:6559] [KO:K14426]
+            SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03A LOW-CEILING DIURETICS, THIAZIDES
+                C03AA Thiazides, plain
+                 C03AA06 Trichlormethiazide
+                  D00658  Trichlormethiazide (JP18/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               213  Diuretics
+                2132  Thiazides
+                 D00658  Trichlormethiazide (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01749  Thiazide diuretic
+                D00658  Trichlormethiazide
+              DG01690  Sulfonamide diuretic
+               DG01749  Thiazide diuretic
+                D00658  Trichlormethiazide
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00658  Trichlormethiazide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D00658  Trichlormethiazide (JP18/USP/INN) &lt;JP&gt;
+                SLC12A3 (TSC)
+                 D00658  Trichlormethiazide (JP18/USP/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00658  Trichlormethiazide
+              D00658  Trichlormethiazide tablets
+DBLINKS     CAS: 133-67-5
+            PubChem: 7847724
+            ChEBI: 9683
+            LigandBox: D00658
+            NIKKAJI: J2.527E
+ATOM        20
+            1   C8y C    24.9600  -17.0201
+            2   C8y C    25.0243  -18.4245
+            3   C8x C    26.1773  -16.3296
+            4   S2x S    23.7547  -16.3238
+            5   N1x N    23.7547  -19.1210
+            6   C8x C    26.1656  -19.1267
+            7   C8y C    27.3827  -17.0318
+            8   N1x N    22.5374  -17.0201
+            9   O3c O    22.5316  -15.6216
+            10  O3c O    24.9543  -15.6158
+            11  C1y C    22.5374  -18.4245
+            12  C8y C    27.3769  -18.4305
+            13  S4a S    28.5823  -16.3296
+            14  C1c C    21.3203  -19.1210
+            15  X   Cl   28.5765  -19.1267
+            16  N1a N    29.7936  -15.4811
+            17  O3c O    27.5933  -15.3290
+            18  O3c O    29.6356  -17.1781
+            19  X   Cl   20.1090  -18.4245
+            20  X   Cl   21.3844  -20.5195
+BOND        21
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     4   9 2
+            9     4  10 2
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13   11  14 1
+            14   12  15 1
+            15   13  16 1
+            16   13  17 2
+            17   13  18 2
+            18   14  19 1
+            19   14  20 1
+            20    7  12 1
+            21    8  11 1
+///

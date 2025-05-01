@@ -1,0 +1,58 @@
+ENTRY       D12702                      Drug
+NAME        Tenocyclidine (INN)
+FORMULA     C15H23NS
+EXACT_MASS  249.1551
+MOL_WEIGHT  249.4148
+EFFICACY    Anesthetic
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D12702  Tenocyclidine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D12702
+DBLINKS     CAS: 21500-98-1
+ATOM        17
+            1   C1z C    18.5549  -15.9984
+            2   C8y C    17.3584  -16.7023
+            3   N1y N    19.6811  -16.7023
+            4   C1x C    19.6811  -15.2946
+            5   C1x C    17.3584  -15.2946
+            6   C1x C    19.6811  -18.1099
+            7   C1x C    20.9480  -15.9984
+            8   C1x C    19.6811  -13.8869
+            9   C1x C    17.3584  -13.8869
+            10  C1x C    20.9480  -18.8138
+            11  C1x C    22.1445  -16.7023
+            12  C1x C    18.5549  -13.1830
+            13  C1x C    22.1445  -18.1099
+            14  S2x S    16.0915  -16.1392
+            15  C8x C    15.1061  -17.1950
+            16  C8x C    15.8099  -18.4619
+            17  C8x C    17.2176  -18.1099
+BOND        19
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     3   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    7  11 1
+            11    8  12 1
+            12   10  13 1
+            13    9  12 1
+            14   11  13 1
+            15    2  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19    2  17 2
+///

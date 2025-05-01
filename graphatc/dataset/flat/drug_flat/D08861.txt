@@ -1,0 +1,92 @@
+ENTRY       D08861                      Drug
+NAME        Arbaclofen placarbil (USAN/INN)
+FORMULA     C19H26ClNO6
+EXACT_MASS  399.1449
+MOL_WEIGHT  399.8658
+CLASS       Neuropsychiatric agent
+             DG01565  GABA-B receptor agonist
+REMARK      Chemical structure group: DG01354
+EFFICACY    Antispasmodic, GABA-B receptor agonist
+COMMENT     Active form of prodrug: Arbaclofen (R-Baclofen) [DR:D09791]
+            Treatment of gastro-esophageal reflux disease (GERD) and spasticity
+TARGET      GABBR [HSA:2550 9568] [KO:K04615]
+  PATHWAY   hsa04024(2550+9568)  cAMP signaling pathway
+            hsa04080(2550+9568)  Neuroactive ligand-receptor interaction
+            hsa04727(2550+9568)  GABAergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01565  GABA-B receptor agonist
+               DG01354  Arbaclofen
+                D08861  Arbaclofen placarbil
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               GABA (metabotropic)
+                GABBR
+                 D08861  Arbaclofen placarbil (USAN/INN)
+            Prodrugs [br08324.html]
+             D08861
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01565  GABA-B receptor agonist
+               DG01354  Arbaclofen
+DBLINKS     CAS: 847353-30-4
+            PubChem: 96025544
+            LigandBox: D08861
+ATOM        27
+            1   C8y C    21.4200  -20.1600
+            2   C1c C    21.4200  -18.7600
+            3   C8x C    20.2300  -20.8600
+            4   C8x C    22.6100  -20.8600
+            5   C1b C    20.2300  -18.0600
+            6   C1b C    22.6100  -18.0600
+            7   C8x C    20.2300  -22.2600
+            8   C8x C    22.6100  -22.2600
+            9   C6a C    19.0400  -18.7600
+            10  N1b N    23.8700  -18.7600
+            11  C8y C    21.4200  -22.9600
+            12  O6a O    17.7800  -18.0600
+            13  O6a O    19.0400  -20.1600
+            14  X   Cl   21.4200  -24.3600
+            15  C7a C    25.0600  -18.0600
+            16  O7a O    26.3200  -18.6900
+            17  O6a O    25.0600  -16.6600
+            18  C1c C    27.5100  -17.9900
+            19  O7a O    28.7700  -18.6200
+            20  C1c C    27.5100  -16.5900
+            21  C1a C    26.2500  -15.8900
+            22  C1a C    28.7000  -15.8900
+            23  C7a C    29.9600  -17.9200
+            24  C1c C    31.2200  -18.6200
+            25  O6a O    29.9600  -16.5200
+            26  C1a C    32.4100  -17.8500
+            27  C1a C    31.2200  -20.0200
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    7  11 1
+            11    9  12 1
+            12    9  13 2
+            13   11  14 1
+            14    8  11 2
+            15   10  15 1
+            16   15  16 1
+            17   15  17 2
+            18   16  18 1
+            19   18  19 1
+            20   18  20 1 #Up
+            21   20  21 1
+            22   20  22 1
+            23   19  23 1
+            24   23  24 1
+            25   23  25 2
+            26   24  26 1
+            27   24  27 1
+///

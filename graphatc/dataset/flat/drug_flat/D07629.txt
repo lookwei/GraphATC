@@ -1,0 +1,107 @@
+ENTRY       D07629                      Drug
+NAME        Cefacetrile (INN);
+            Cephacetrile;
+            Vetrimast [veterinary] (TN)
+FORMULA     C13H13N3O6S
+EXACT_MASS  339.0525
+MOL_WEIGHT  339.3238
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01774  First-generation cephalosporin
+REMARK      ATC code: J01DB10
+            Chemical structure group: DG00554
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DB First-generation cephalosporins
+                 J01DB10 Cefacetrile
+                  D07629  Cefacetrile (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00554  Cefacetrile
+                  D07629  Cefacetrile
+              DG01774  First-generation cephalosporin
+               DG00554  Cefacetrile
+                D07629  Cefacetrile
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               First-generation cephalosporin
+                D07629  Cefacetrile (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00554  Cefacetrile
+              DG01774  First-generation cephalosporin
+               DG00554  Cefacetrile
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               First-generation cephalosporin
+                DG00554  Cefacetrile
+DBLINKS     CAS: 10206-21-0
+            PubChem: 51091937
+            LigandBox: D07629
+            NIKKAJI: J9.817E
+ATOM        23
+            1   C1y C    24.2900  -16.5200
+            2   N1y N    24.2900  -17.9200
+            3   C2y C    25.4800  -18.6200
+            4   C2y C    26.6700  -17.9200
+            5   C1x C    26.6700  -16.5200
+            6   S2x S    25.4800  -15.8200
+            7   C1y C    22.8200  -16.5200
+            8   C5x C    22.8200  -17.9200
+            9   N1b N    21.6300  -15.8200
+            10  C5a C    20.4400  -16.5200
+            11  O5a O    20.4400  -17.9200
+            12  O5x O    21.6300  -18.6200
+            13  C1b C    19.1800  -15.8200
+            14  C3b C    17.9900  -16.5200
+            15  C1b C    27.9300  -18.6200
+            16  O7a O    29.1200  -17.9200
+            17  C7a C    30.3100  -18.6200
+            18  C1a C    31.5000  -17.9200
+            19  O6a O    30.3100  -20.0200
+            20  C6a C    25.4800  -20.0200
+            21  O6a O    24.2200  -20.7200
+            22  O6a O    26.6700  -20.7200
+            23  N3a N    16.8000  -17.2200
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15   13  14 1
+            16    4  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   17  19 2
+            21    3  20 1
+            22   20  21 2
+            23   20  22 1
+            24   14  23 3
+///

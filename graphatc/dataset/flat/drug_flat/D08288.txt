@@ -1,0 +1,115 @@
+ENTRY       D08288                      Drug
+NAME        Nortriptyline (INN);
+            Nortrilen (TN)
+FORMULA     C19H21N
+EXACT_MASS  263.1674
+MOL_WEIGHT  263.3767
+CLASS       Neuropsychiatric agent
+             DG01730  Non-selective monoamine reuptake inhibitor
+             DG01728  Tricyclic antidepressant
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C07274
+            ATC code: N06AA10
+            Chemical structure group: DG00935
+            Product (DG00935): D00816<JP/US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07048  Antimigraines
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AA Non-selective monoamine reuptake inhibitors
+                 N06AA10 Nortriptyline
+                  D08288  Nortriptyline (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00935  Nortriptyline
+                D08288  Nortriptyline
+              DG01728  Tricyclic antidepressant
+               DG00935  Nortriptyline
+                D08288  Nortriptyline
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00935  Nortriptyline
+                D08288  Nortriptyline
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08288  Nortriptyline (INN)
+                SLC6A4 (HTT)
+                 D08288  Nortriptyline (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08288
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00935  Nortriptyline
+              DG01728  Tricyclic antidepressant
+               DG00935  Nortriptyline
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00935  Nortriptyline
+DBLINKS     CAS: 72-69-5
+            PubChem: 96024975
+            ChEBI: 7640
+            PDB-CCD: 21B
+            LigandBox: D08288
+            NIKKAJI: J5.253A
+ATOM        20
+            1   C1x C    22.9600  -20.5100
+            2   C8y C    22.0500  -19.3900
+            3   C8y C    22.4000  -17.9900
+            4   C2y C    23.6600  -17.4300
+            5   C1x C    24.4300  -20.5100
+            6   C8y C    24.9900  -18.0600
+            7   C8y C    25.2700  -19.3900
+            8   C8x C    21.4200  -17.0100
+            9   C8x C    20.0900  -17.4300
+            10  C8x C    19.7400  -18.7600
+            11  C8x C    20.7200  -19.7400
+            12  C8x C    26.6000  -19.8800
+            13  C8x C    27.6500  -18.9000
+            14  C8x C    27.3700  -17.5700
+            15  C8x C    26.0400  -17.1500
+            16  C2b C    23.6600  -16.0300
+            17  C1b C    24.9200  -15.4000
+            18  C1b C    26.1100  -16.1000
+            19  N1b N    27.3000  -15.4000
+            20  C1a C    28.5600  -16.1000
+BOND        22
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 2
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+///

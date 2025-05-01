@@ -1,0 +1,96 @@
+ENTRY       D11501                      Drug
+NAME        Samotolisib (USAN)
+FORMULA     C23H26N4O3
+EXACT_MASS  406.2005
+MOL_WEIGHT  406.4775
+CLASS       Antineoplastic
+             DG03139  PI3K inhibitor
+EFFICACY    Antineoplastic, Phosphatidylinositol 3-kinase inhibitor, mTOR inhibitor
+TARGET      PIK3C [HSA:5290 5291 5293] [KO:K00922]
+            MTOR [HSA:2475] [KO:K07203]
+  PATHWAY   hsa04150(2475+5290+5291+5293)  mTOR signaling pathway
+            hsa04151(2475+5290+5291+5293)  PI3K-Akt signaling pathway
+            hsa05200(2475+5290+5291+5293)  Pathways in cancer
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03139  PI3K inhibitor
+               D11501  Samotolisib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               Other
+                MTOR
+                 D11501  Samotolisib (USAN)
+             Enzymes
+              Transferases (EC2)
+               Phosphotransferase
+                PIK3C
+                 D11501  Samotolisib (USAN)
+DBLINKS     CAS: 1386874-06-1
+            PubChem: 384585477
+ATOM        30
+            1   C8y C    17.0820  -17.5105
+            2   C8x C    15.8864  -16.7821
+            3   C8x C    15.9078  -15.4017
+            4   C8y C    17.1611  -14.6899
+            5   C8y C    18.3567  -15.4183
+            6   C8x C    18.3690  -16.8585
+            7   N5x N    17.1825  -13.3094
+            8   C8x C    18.3994  -12.6574
+            9   C8y C    19.5950  -13.3858
+            10  C8y C    19.5737  -14.7662
+            11  N4y N    20.9185  -12.9625
+            12  C8y C    21.7629  -14.1327
+            13  N4y N    20.9149  -15.2555
+            14  C1a C    21.4077  -11.6213
+            15  O5x O    23.1433  -14.1541
+            16  C1b C    21.3017  -16.6387
+            17  C1c C    20.3109  -17.5924
+            18  C8y C    17.0607  -18.8910
+            19  C8x C    18.2563  -19.6194
+            20  N5x N    18.2685  -21.0596
+            21  C8x C    16.9816  -21.7117
+            22  C8y C    15.7860  -20.9833
+            23  C8x C    15.8073  -19.6028
+            24  C1d C    14.5690  -21.6353
+            25  O1a O    13.3157  -22.3471
+            26  C1a C    15.2211  -22.8522
+            27  C1a C    13.9170  -20.4184
+            28  O2a O    20.7341  -18.9158
+            29  C1a C    18.9201  -17.3189
+            30  C1a C    19.7666  -19.9658
+BOND        33
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   10  13 1
+            16   11  14 1
+            17   12  15 2
+            18   13  16 1
+            19   16  17 1
+            20    1  18 1
+            21   18  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  23 2
+            26   18  23 1
+            27   22  24 1
+            28   24  25 1
+            29   24  26 1
+            30   24  27 1
+            31   17  28 1
+            32   17  29 1 #Up
+            33   28  30 1
+///

@@ -1,0 +1,174 @@
+ENTRY       D01455                      Drug
+NAME        Cifenline succinate (USAN);
+            Cibenzoline succinate (JP18);
+            Cibenol (TN);
+            Cipralan (TN)
+FORMULA     C18H18N2. C4H6O4
+EXACT_MASS  380.1736
+MOL_WEIGHT  380.437
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2129
+            ATC code: C01BG07
+            Chemical structure group: DG00209
+            Product (DG00209): D01455<JP>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BG Other antiarrhythmics, class I and III
+                 C01BG07 Cibenzoline
+                  D01455  Cifenline succinate (USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               212  Antiarrhythmic agents
+                2129  Others
+                 D01455  Cifenline succinate (USAN); Cibenzoline succinate (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00209  Cibenzoline
+                  D01455  Cifenline succinate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00209  Cibenzoline
+                D01455  Cifenline succinate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00209  Cibenzoline
+                 D01455  Cifenline succinate
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               D01455  Cifenline succinate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN2A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN3A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN4A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN5A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN8A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN9A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN10A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+                SCN11A
+                 D01455  Cifenline succinate (USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01455  Cibenzoline succinate
+              D01455  Cibenzoline succinate tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01455
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00209  Cibenzoline
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00209  Cibenzoline
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00209  Cibenzoline
+DBLINKS     CAS: 100678-32-8
+            PubChem: 7848518
+            ChEBI: 31396
+            LigandBox: D01455
+            NIKKAJI: J364.406E
+ATOM        28
+            1   O6a O    28.6206  -16.4110
+            2   C6a C    29.8130  -17.1124
+            3   C1b C    31.0755  -16.4110
+            4   C1b C    32.2680  -17.1124
+            5   C6a C    33.4604  -16.4110
+            6   O6a O    34.7230  -17.1124
+            7   O6a O    29.8130  -18.5153
+            8   O6a O    33.4604  -15.0081
+            9   C8x C    19.5021  -17.8163
+            10  C8x C    19.5021  -19.2191
+            11  C8x C    20.6946  -19.9206
+            12  C8x C    21.9571  -19.2191
+            13  C8y C    21.9571  -17.8163
+            14  C8x C    20.6946  -17.1148
+            15  C1z C    23.1496  -17.1120
+            16  C1x C    22.4481  -15.9196
+            17  C1y C    23.8510  -15.9196
+            18  C2y C    25.0692  -15.2199
+            19  N2x N    26.3859  -15.6250
+            20  C1x C    27.1782  -14.4978
+            21  C1x C    26.3510  -13.3960
+            22  N1x N    25.0475  -13.8423
+            23  C8x C    24.3420  -19.2191
+            24  C8y C    24.3420  -17.8163
+            25  C8x C    25.6046  -19.9206
+            26  C8x C    26.7970  -19.2191
+            27  C8x C    26.7970  -17.8163
+            28  C8x C    25.6046  -17.1148
+BOND        30
+            1     2   7 2
+            2     5   8 2
+            3     3   4 1
+            4     1   2 1
+            5     4   5 1
+            6     5   6 1
+            7     2   3 1
+            8     9  10 2
+            9    10  11 1
+            10   11  12 2
+            11   12  13 1
+            12   13  14 2
+            13    9  14 1
+            14   16  17 1
+            15   17  15 1
+            16   15  16 1
+            17   17  18 1
+            18   18  19 2
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   18  22 1
+            23   13  15 1
+            24   23  24 1
+            25   23  25 2
+            26   25  26 1
+            27   26  27 2
+            28   27  28 1
+            29   24  28 2
+            30   15  24 1
+///

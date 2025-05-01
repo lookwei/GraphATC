@@ -1,0 +1,167 @@
+ENTRY       C04730                      Compound
+NAME        GM3;
+            (N-Acetylneuraminyl)-D-galactosyl-D-glucosylceramide;
+            alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,4-beta-D-glucosylceramide;
+            N-Acetylneuraminyl-2,3-alpha-D-galactosyl-1,4-beta-D-glucosylceramide;
+            Neu5Ac-alpha2->3Gal-beta1->4Glc-beta1->1'Cer
+FORMULA     C42H73N2O21R
+REMARK      Same as: G00108
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R03488 R03491 R04583 R04584 R04586 R04615
+PATHWAY     map00600  Sphingolipid metabolism
+            map00604(G00108)  Glycosphingolipid biosynthesis - ganglio series
+            map01100(G00108)  Metabolic pathways
+NETWORK     nt06014(G00108)  Sphingolipid degradation
+ENZYME      2.4.1.92        2.4.1.165       2.4.3.8         2.4.3.9         
+            3.2.1.18        3.2.1.52
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Glycolipids
+               Glycosphingolipids
+                C04730  GM3
+            Lipids [BR:br08002(G00108)]
+             SP  Sphingolipids
+              SP06 Acidic glycosphingolipids
+               SP0601 Gangliosides
+                G00108  Neu5Ac-alpha2->3Gal-beta1->4Glc-beta1->1'Cer (GM3)
+            Cancer-associated carbohydrates [br08441.html(G00108)]
+             G00108
+DBLINKS     PubChem: 7301
+            ChEBI: 15681 180863
+ATOM        66
+            1   O2a O    10.7371  -18.6551
+            2   C1y C    10.7841  -17.2465
+            3   C1y C    12.0049  -16.5892
+            4   C1y C     9.6102  -16.5422
+            5   C1y C    12.0049  -15.2275
+            6   O1a O    12.9909  -17.1057
+            7   C1y C     9.6102  -15.1336
+            8   O1a O     8.3425  -17.1995
+            9   O2a O    13.2258  -14.5232
+            10  O2x O    10.8311  -14.4763
+            11  C1b C     8.4365  -14.4293
+            12  C1y C    14.4465  -13.8658
+            13  O1a O     7.2626  -15.1336
+            14  C1y C    14.4465  -12.5042
+            15  C1y C    15.6204  -14.6171
+            16  O2x O    15.6204  -11.8468
+            17  C1b C    13.2258  -11.7529
+            18  C1y C    16.8412  -13.9128
+            19  O1a O    15.5734  -15.9788
+            20  C1y C    16.8412  -12.5511
+            21  O1a O    12.0519  -12.5042
+            22  O1a O    18.0151  -14.6640
+            23  O2a O    18.0619  -11.8938
+            24  C1b C    19.2828  -12.5981
+            25  C1c C    20.4566  -11.8468
+            26  C1c C    21.6775  -12.5511
+            27  N1b N    20.4566  -10.4852
+            28  C2b C    22.8982  -11.8468
+            29  O1a O    21.7244  -13.9597
+            30  C5a C    21.6305   -9.7339
+            31  C2b C    24.1190  -12.5511
+            32  O5a O    21.6305   -8.3722
+            33  R   R    22.8512  -10.4382
+            34  C1b C    25.3399  -11.7999
+            35  C1b C    26.5137  -12.5042
+            36  C1b C    27.7345  -11.7999
+            37  C1b C    28.9553  -12.4572
+            38  C1b C    30.1761  -11.7529
+            39  C1b C    31.3969  -12.4572
+            40  C1b C    32.6177  -11.7529
+            41  C1b C    33.7916  -12.4102
+            42  C1b C    35.0123  -11.7059
+            43  C1b C    36.2331  -12.4102
+            44  C1b C    37.4540  -11.7059
+            45  C1b C    38.6748  -12.3633
+            46  C1a C    39.8955  -11.6590
+            47  C1z C     9.2816  -19.7820
+            48  O2x O     8.1077  -19.0777
+            49  C1x C     9.2816  -21.1437
+            50  C6a C    10.4554  -20.3925
+            51  C1y C     6.8870  -19.7820
+            52  C1y C     8.1077  -21.8480
+            53  O6a O    11.6293  -19.6882
+            54  O6a O    10.4554  -21.8011
+            55  C1y C     6.8870  -21.1437
+            56  O1a O     8.1077  -23.2097
+            57  C1c C     5.6661  -19.0307
+            58  C1c C     5.6661  -17.6221
+            59  C1b C     4.3983  -16.8709
+            60  O1a O     4.3983  -15.4153
+            61  O1a O     4.3983  -19.7820
+            62  O1a O     6.8870  -16.8709
+            63  N1b N     5.6661  -21.8480
+            64  C5a C     5.6661  -23.3036
+            65  C1a C     4.3983  -24.0079
+            66  O5a O     6.8870  -24.0079
+BOND        68
+            1     2   1 1 #Up
+            2     2   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1 #Down
+            6     4   7 1
+            7     4   8 1 #Up
+            8     5   9 1 #Up
+            9     5  10 1
+            10    7  11 1 #Up
+            11   12   9 1 #Down
+            12   11  13 1
+            13   12  14 1
+            14   12  15 1
+            15   14  16 1
+            16   14  17 1 #Up
+            17   15  18 1
+            18   15  19 1 #Up
+            19   16  20 1
+            20   17  21 1
+            21   18  22 1 #Down
+            22   20  23 1 #Up
+            23   23  24 1
+            24   24  25 1
+            25   25  26 1
+            26   25  27 1 #Down
+            27   26  28 1
+            28   26  29 1 #Up
+            29   27  30 1
+            30   28  31 2
+            31   30  32 2
+            32   30  33 1
+            33   31  34 1
+            34   34  35 1
+            35   35  36 1
+            36   36  37 1
+            37   37  38 1
+            38   38  39 1
+            39   39  40 1
+            40   40  41 1
+            41   41  42 1
+            42   42  43 1
+            43   43  44 1
+            44   44  45 1
+            45   45  46 1
+            46    7  10 1
+            47   18  20 1
+            48   47  48 1
+            49   47   1 1 #Down
+            50   47  49 1
+            51   47  50 1 #Up
+            52   48  51 1
+            53   49  52 1
+            54   50  53 1
+            55   50  54 2
+            56   51  55 1
+            57   52  56 1 #Down
+            58   52  55 1
+            59   51  57 1
+            60   57  58 1
+            61   58  59 1
+            62   59  60 1
+            63   57  61 1 #Down
+            64   58  62 1 #Up
+            65   55  63 1 #Up
+            66   63  64 1
+            67   64  65 1
+            68   64  66 2
+///

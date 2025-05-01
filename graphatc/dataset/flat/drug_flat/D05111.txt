@@ -1,0 +1,113 @@
+ENTRY       D05111                      Drug
+NAME        Nalmefene (USAN/INN);
+            Selincro (TN)
+FORMULA     C21H25NO3
+EXACT_MASS  339.1834
+MOL_WEIGHT  339.4281
+CLASS       Analgesic
+             DG01586  Opioid receptor antagonist
+             DG01587  Opioid receptor agonist/antagonist
+REMARK      Same as: C08027
+            ATC code: N07BB05
+            Chemical structure group: DG00998
+            Product (DG00998): D02104<US> D10812<JP>
+EFFICACY    Antialcohol dependence, Narcotic antagonist, Opioid receptor partial agonist/antagonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+            OPRD1 [HSA:4985] [KO:K04213]
+  PATHWAY   hsa04080(4985+4986+4988)  Neuroactive ligand-receptor interaction
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07B DRUGS USED IN ADDICTIVE DISORDERS
+                N07BB Drugs used in alcohol dependence
+                 N07BB05 Nalmefene
+                  D05111  Nalmefene (USAN/INN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01586  Opioid receptor antagonist
+               DG00998  Nalmefene
+                D05111  Nalmefene
+              DG01587  Opioid receptor agonist/antagonist
+               DG00998  Nalmefene
+                D05111  Nalmefene
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D05111  Nalmefene (USAN/INN)
+                OPRK1
+                 D05111  Nalmefene (USAN/INN)
+                OPRD1
+                 D05111  Nalmefene (USAN/INN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01586  Opioid receptor antagonist
+               DG00998  Nalmefene
+              DG01587  Opioid receptor agonist/antagonist
+               DG00998  Nalmefene
+DBLINKS     CAS: 55096-26-9
+            PubChem: 47206836
+            ChEBI: 7457
+            LigandBox: D05111
+            NIKKAJI: J23.288B
+ATOM        25
+            1   C1z C    15.9094   -8.6246
+            2   C8y C    15.9094   -7.2929
+            3   C1z C    17.1009   -9.3254
+            4   C1y C    14.7880   -9.2553
+            5   C1x C    17.1009   -7.9938
+            6   C8y C    14.7880   -6.6621
+            7   C8y C    17.1009   -6.6621
+            8   C1y C    18.2223   -8.6246
+            9   C1x C    17.1009  -10.5870
+            10  O2x O    13.5264   -7.9237
+            11  C2y C    14.7880  -10.5870
+            12  C1x C    19.3437   -7.9938
+            13  C8y C    14.7880   -5.3304
+            14  C1x C    18.2223   -7.3630
+            15  C8x C    17.1009   -5.3304
+            16  N1y N    19.3437   -9.3254
+            17  C1x C    15.9094  -11.2879
+            18  C2a C    13.7367  -11.2879
+            19  C8x C    15.9795   -4.6996
+            20  O1a O    13.7367   -4.6996
+            21  O1a O    18.3624  -10.2366
+            22  C1b C    20.7454   -9.3254
+            23  C1y C    21.4463  -10.5169
+            24  C1x C    21.3941  -11.9203
+            25  C1x C    22.6135  -11.1917
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 1
+            17   11  18 2
+            18   13  19 2
+            19   13  20 1
+            20    6  10 1
+            21    8  14 1
+            22   11  17 1
+            23   12  16 1
+            24   15  19 1
+            25    3  21 1 #Up
+            26   16  22 1
+            27   22  23 1
+            28   23  24 1
+            29   23  25 1
+            30   24  25 1
+///

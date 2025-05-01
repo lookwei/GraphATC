@@ -1,0 +1,137 @@
+ENTRY       D12599                      Drug
+NAME        Bimatoprost grenod (USAN)
+FORMULA     C31H46N2O8
+EXACT_MASS  574.3254
+MOL_WEIGHT  574.7055
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      ATC code: S01EE03
+            Chemical structure group: DG03267
+            Product (DG03267): D02724<JP/US>
+EFFICACY    Antiglaucoma
+COMMENT     Treatment of glaucoma and ocular hypertension
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EE Prostaglandin analogues
+                 S01EE03 Bimatoprost
+                  D12599  Bimatoprost grenod (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG03267  Bimatoprost
+                 D12599  Bimatoprost grenod
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG03267  Bimatoprost
+                D12599  Bimatoprost grenod
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D12599  Bimatoprost grenod (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                DG03267  Bimatoprost
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG03267  Bimatoprost
+DBLINKS     CAS: 1194396-71-8
+ATOM        41
+            1   C1y C    13.5117  -15.1219
+            2   C1y C    13.5117  -13.7217
+            3   C1y C    12.1815  -13.3016
+            4   C1x C    11.3414  -14.4218
+            5   C1y C    12.1815  -15.5419
+            6   O1a O    11.7614  -11.9715
+            7   O1a O    11.7614  -16.8721
+            8   C1b C    14.7718  -13.0216
+            9   C2b C    15.9620  -13.7217
+            10  C2b C    14.7718  -15.8219
+            11  C2b C    15.9620  -15.1219
+            12  C1c C    17.1521  -15.8219
+            13  C1b C    18.4123  -15.1219
+            14  C1b C    19.6024  -15.8219
+            15  C2b C    17.3621  -13.7217
+            16  C1b C    18.6223  -13.0216
+            17  C1b C    19.8124  -13.7217
+            18  C1b C    21.0026  -13.0216
+            19  C5a C    22.2627  -13.7217
+            20  N1b N    23.4529  -13.0216
+            21  C1b C    24.6430  -13.7217
+            22  O7a O    17.1521  -17.2221
+            23  C8y C    19.6024  -17.2221
+            24  C8x C    18.4123  -17.9222
+            25  C8x C    18.4123  -19.3224
+            26  C8x C    19.6024  -20.0225
+            27  C8x C    20.7925  -19.3224
+            28  C8x C    20.7925  -17.9222
+            29  O5a O    22.2627  -15.1219
+            30  C1a C    25.9032  -13.0216
+            31  C7a C    15.9390  -17.9225
+            32  O6a O    14.7414  -17.2309
+            33  C1b C    15.9390  -19.3198
+            34  C1b C    14.7423  -20.0108
+            35  C1b C    14.7422  -21.4197
+            36  C1b C    13.5506  -22.1078
+            37  C1b C    13.5506  -23.5078
+            38  O2a O    12.3553  -24.1983
+            39  N2b N    11.1781  -23.5191 #+
+            40  O3a O     9.8420  -24.3503 #-
+            41  O3a O    11.1776  -22.1202
+BOND        42
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     3   6 1 #Down
+            7     5   7 1 #Down
+            8     2   8 1 #Down
+            9     8   9 1
+            10    1  10 1 #Up
+            11   10  11 2
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    9  15 2
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   12  22 1 #Down
+            23   14  23 1
+            24   23  24 2
+            25   24  25 1
+            26   25  26 2
+            27   26  27 1
+            28   27  28 2
+            29   23  28 1
+            30   19  29 2
+            31   21  30 1
+            32   22  31 1
+            33   31  32 2
+            34   31  33 1
+            35   33  34 1
+            36   34  35 1
+            37   35  36 1
+            38   36  37 1
+            39   37  38 1
+            40   38  39 1
+            41   39  40 1
+            42   39  41 2
+///

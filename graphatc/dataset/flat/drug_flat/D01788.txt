@@ -1,0 +1,89 @@
+ENTRY       D01788                      Drug
+NAME        Amfenac sodium (USAN);
+            Amfenac sodium hydrate (JAN);
+            Fenazox (TN)
+FORMULA     C15H12NO3. Na. H2O
+EXACT_MASS  295.0821
+MOL_WEIGHT  295.2657
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01906  Anti-inflammatory drug, acetic acid derivatives
+               DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+REMARK      Chemical structure group: DG01249
+EFFICACY    Analgesic, Anti-inflammatory
+COMMENT     Phenylacetic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+STR_MAP     map07219  Cyclooxygenase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+                 DG01249  Amfenac
+                  D01788  Amfenac sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01788  Amfenac sodium (USAN)
+                PTGS2 (COX2)
+                 D01788  Amfenac sodium (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+                 DG01249  Amfenac
+DBLINKS     CAS: 61618-27-7
+            PubChem: 7848850
+            ChEBI: 31202
+            LigandBox: D01788
+            NIKKAJI: J245.001A
+ATOM        21
+            1   C8x C     7.2890  -13.4603
+            2   C8x C     7.2890  -14.8615
+            3   C8x C     8.5054  -15.5622
+            4   C8x C     9.7147  -14.8615
+            5   C8y C     9.7147  -13.4603
+            6   C8x C     8.5054  -12.7597
+            7   C5a C    10.9286  -12.7607
+            8   C8y C    12.1416  -13.4622
+            9   O5a O    10.9298  -11.3595
+            10  C8x C    12.1350  -14.8614
+            11  C8x C    13.3481  -15.5630
+            12  C8x C    14.5621  -14.8632
+            13  C8y C    14.5632  -13.4620
+            14  C8y C    13.3501  -12.7605
+            15  N1a N    13.3489  -11.3593
+            16  C1b C    15.7670  -12.7597
+            17  C6a C    16.9772  -13.4533
+            18  O6a O    18.1874  -12.7527 #-
+            19  O6a O    16.9802  -14.8546
+            20  Z   Na   21.0890  -12.7527 #+
+            21  O0  O    26.0168  -13.3234
+BOND        20
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   1 1
+            6     8  10 2
+            7    10  11 1
+            8    11  12 2
+            9    12  13 1
+            10   13  14 2
+            11   14   8 1
+            12   14  15 1
+            13    5   7 1
+            14   13  16 1
+            15   16  17 1
+            16    7   8 1
+            17   17  18 1
+            18    1   2 2
+            19   17  19 2
+            20    7   9 2
+///

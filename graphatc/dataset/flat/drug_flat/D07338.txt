@@ -1,0 +1,79 @@
+ENTRY       D07338                      Drug
+NAME        Iproclozide (INN);
+            Iproclozide (TN)
+FORMULA     C11H15ClN2O2
+EXACT_MASS  242.0822
+MOL_WEIGHT  242.702
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      ATC code: N06AF06
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AF Monoamine oxidase inhibitors, non-selective
+                 N06AF06 Iproclozide
+                  D07338  Iproclozide (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                D07338  Iproclozide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D07338  Iproclozide (INN)
+DBLINKS     CAS: 3544-35-2
+            PubChem: 51091675
+            LigandBox: D07338
+            NIKKAJI: J7.961H
+ATOM        16
+            1   C8x C    12.7400  -18.6900
+            2   C8y C    12.7400  -20.0900
+            3   C8x C    13.9524  -20.7900
+            4   C8x C    15.1649  -20.0900
+            5   C8y C    15.1649  -18.6900
+            6   C8x C    13.9524  -17.9900
+            7   O2a O    16.4024  -17.9900
+            8   C1b C    17.6149  -18.6900
+            9   C5a C    18.8273  -17.9900
+            10  N1b N    20.0397  -18.6900
+            11  N1b N    21.2522  -17.9900
+            12  C1c C    22.4646  -18.6900
+            13  C1a C    23.6770  -17.9900
+            14  X   Cl   11.5276  -20.7900
+            15  O5a O    18.8273  -16.5900
+            16  C1a C    22.4646  -20.0900
+BOND        16
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    2  14 1
+            15    9  15 2
+            16   12  16 1
+///

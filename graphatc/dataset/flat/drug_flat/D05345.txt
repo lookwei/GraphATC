@@ -1,0 +1,137 @@
+ENTRY       D05345                      Drug
+NAME        Pamatolol sulfate (USAN)
+FORMULA     (C16H26N2O4)2. H2SO4
+EXACT_MASS  718.3459
+MOL_WEIGHT  718.8558
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+EFFICACY    Antiarrhythmic, beta-Adrenergic receptor antagonist
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04970(153+154+155)  Salivary secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                D05345  Pamatolol sulfate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D05345  Pamatolol sulfate (USAN)
+DBLINKS     CAS: 59954-01-7
+            PubChem: 47207031
+            LigandBox: D05345
+            NIKKAJI: J365.023E
+ATOM        49
+            1   S4a S    35.4900  -26.3200
+            2   O1d O    35.4900  -24.9200
+            3   O1d O    35.4900  -27.7200
+            4   O1d O    34.0200  -26.3200
+            5   O1d O    36.8900  -26.3200
+            6   O2a O    22.2600  -21.6300
+            7   C1b C    23.5200  -20.9300
+            8   C1c C    24.7100  -21.6300
+            9   C1b C    25.9000  -20.9300
+            10  N1b N    27.0900  -21.6300
+            11  C1c C    28.2800  -20.9300
+            12  O1a O    24.7100  -23.0300
+            13  C1a C    29.4700  -21.6300
+            14  C1a C    28.2800  -19.5300
+            15  C8y C    22.2428  -23.0299
+            16  C8x C    21.0349  -23.7076
+            17  C8x C    21.0178  -25.1075
+            18  C8y C    22.2216  -25.8223
+            19  C8x C    23.4294  -25.1446
+            20  C8x C    23.4465  -23.7447
+            21  C1b C    22.2045  -27.2299
+            22  C1b C    20.9727  -27.9214
+            23  N1b N    19.7928  -27.2210
+            24  C7a C    18.5813  -27.9011
+            25  O7a O    17.3677  -27.1803
+            26  C1a C    16.1496  -27.8636
+            27  O6a O    18.5645  -29.3299
+            28  O2a O    22.2600  -21.6300
+            29  C1b C    23.5200  -20.9300
+            30  C1c C    24.7100  -21.6300
+            31  C1b C    25.9000  -20.9300
+            32  N1b N    27.0900  -21.6300
+            33  C1c C    28.2800  -20.9300
+            34  C1a C    29.4700  -21.6300
+            35  C1a C    28.2800  -19.5300
+            36  O1a O    24.7100  -23.0300
+            37  C8y C    22.2428  -23.0299
+            38  C8x C    21.0349  -23.7076
+            39  C8x C    21.0178  -25.1075
+            40  C8y C    22.2216  -25.8223
+            41  C8x C    23.4294  -25.1446
+            42  C8x C    23.4465  -23.7447
+            43  C1b C    22.2045  -27.2299
+            44  C1b C    20.9727  -27.9214
+            45  N1b N    19.7928  -27.2210
+            46  C7a C    18.5813  -27.9011
+            47  O7a O    17.3677  -27.1803
+            48  C1a C    16.1496  -27.8636
+            49  O6a O    18.5645  -29.3299
+BOND        48
+            1     1   2 2
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 1
+            8     9  10 1
+            9    10  11 1
+            10    8  12 1
+            11   11  13 1
+            12   11  14 1
+            13    6  15 1
+            14   15  16 2
+            15   16  17 1
+            16   17  18 2
+            17   18  19 1
+            18   19  20 2
+            19   15  20 1
+            20   18  21 1
+            21   21  22 1
+            22   22  23 1
+            23   23  24 1
+            24   24  25 1
+            25   25  26 1
+            26   24  27 2
+            27   28  29 1
+            28   29  30 1
+            29   30  31 1
+            30   31  32 1
+            31   32  33 1
+            32   30  36 1
+            33   33  34 1
+            34   33  35 1
+            35   28  37 1
+            36   37  38 2
+            37   38  39 1
+            38   39  40 2
+            39   40  41 1
+            40   41  42 2
+            41   37  42 1
+            42   40  43 1
+            43   43  44 1
+            44   44  45 1
+            45   45  46 1
+            46   46  47 1
+            47   47  48 1
+            48   46  49 2
+BRACKET     1    14.2800  -30.1000   14.2800  -17.9900
+            1    31.2900  -17.9900   31.2900  -30.1000
+            1  2
+  ORIGINAL  1    6   7   8   9  10  11  13  14  12  15  16  17  18  19  20  21
+            1   22  23  24  25  26  27
+  REPEAT    1   28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43
+            1   44  45  46  47  48  49
+///

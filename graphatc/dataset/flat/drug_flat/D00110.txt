@@ -1,0 +1,169 @@
+ENTRY       D00110                      Drug
+NAME        Cocaine (USP);
+            Cocaine (TN)
+FORMULA     C17H21NO4
+EXACT_MASS  303.1471
+MOL_WEIGHT  303.3529
+SOURCE      Erythroxylum coca [TAX:289672]
+CLASS       Neuropsychiatric agent
+             DG02030  Anesthetics
+              DG01675  Local anesthetic
+               DG01674  Esterified local anesthetic
+REMARK      Same as: C01416
+            ATC code: N01BC01 R02AD03 S01HA01 S02DA02
+            Chemical structure group: DG00808
+            Product (DG00808): D02182<US>
+EFFICACY    Anesthetic (topical), Narcotic
+COMMENT     Coca alkaloids
+TARGET      SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+            SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            KCNH2 [HSA:3757] [KO:K04905]
+            SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04721(6530+6531+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+            hsa04728(6323+6531)  Dopaminergic synapse
+            hsa05030(6531)  Cocaine addiction
+INTERACTION  
+STR_MAP     map07015  Local analgesics
+            map07110  Benzoic acid family
+            map07231  Sodium channel blocking drugs
+            map07234  Neurotransmitter transporter inhibitors
+OTHER_MAP   map05030  Cocaine addiction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01B ANESTHETICS, LOCAL
+                N01BC Esters of benzoic acid
+                 N01BC01 Cocaine
+                  D00110  Cocaine (USP)
+             R RESPIRATORY SYSTEM
+              R02 THROAT PREPARATIONS
+               R02A THROAT PREPARATIONS
+                R02AD Anesthetics, local
+                 R02AD03 Cocaine
+                  D00110  Cocaine (USP)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01H LOCAL ANESTHETICS
+                S01HA Local anesthetics
+                 S01HA01 Cocaine
+                  D00110  Cocaine (USP)
+              S02 OTOLOGICALS
+               S02D OTHER OTOLOGICALS
+                S02DA Analgesics and anesthetics
+                 S02DA02 Cocaine
+                  D00110  Cocaine (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01674  Esterified local anesthetic
+                 DG00808  Cocaine
+                  D00110  Cocaine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D00110  Cocaine (USP)
+                SCN2A
+                 D00110  Cocaine (USP)
+                SCN3A
+                 D00110  Cocaine (USP)
+                SCN4A
+                 D00110  Cocaine (USP)
+                SCN5A
+                 D00110  Cocaine (USP)
+                SCN8A
+                 D00110  Cocaine (USP)
+                SCN9A
+                 D00110  Cocaine (USP)
+                SCN10A
+                 D00110  Cocaine (USP)
+                SCN11A
+                 D00110  Cocaine (USP)
+               Potassium channels
+                KCNH2
+                 D00110  Cocaine (USP)
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D00110  Cocaine (USP)
+                SLC6A3 (DAT1)
+                 D00110  Cocaine (USP)
+                SLC6A4 (HTT)
+                 D00110  Cocaine (USP)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D00110
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG02030  Anesthetics
+               DG01675  Local anesthetic
+                DG01674  Esterified local anesthetic
+                 DG00808  Cocaine
+DBLINKS     CAS: 50-36-2
+            PubChem: 7847178
+            ChEBI: 27958
+            PDB-CCD: COC
+            LigandBox: D00110
+            NIKKAJI: J43.264D
+ATOM        22
+            1   C1x C    20.1600  -15.2600
+            2   C1x C    20.5100  -14.0700
+            3   C1y C    21.3500  -14.9800
+            4   C1y C    21.7000  -13.7900
+            5   N1y N    20.4400  -12.4600
+            6   C1x C    23.2400  -14.9800
+            7   C1y C    22.9600  -13.7900
+            8   C1y C    24.2900  -15.5400
+            9   O7a O    25.3400  -16.3800
+            10  C7a C    26.5300  -16.3800
+            11  C8y C    27.1600  -15.3300
+            12  O6a O    27.1600  -17.5700
+            13  C1a C    19.6700  -11.2700
+            14  C8x C    28.5600  -15.3300
+            15  C8x C    29.2600  -14.0700
+            16  C8x C    28.5600  -12.8800
+            17  C8x C    27.1600  -12.8800
+            18  C8x C    26.4600  -14.1400
+            19  C7a C    23.5900  -12.5300
+            20  O7a O    24.9900  -12.5300
+            21  O6a O    22.8200  -11.3400
+            22  C1a C    25.6900  -11.2700
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12    4   5 1
+            13    7   8 1
+            14    5  13 1
+            15   11  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   11  18 1
+            21    7  19 1 #Up
+            22   19  20 1
+            23   19  21 2
+            24   20  22 1
+///

@@ -1,0 +1,130 @@
+ENTRY       D08594                      Drug
+NAME        Ticlopidine (INN);
+            Ticlopidin-Puren (TN)
+FORMULA     C14H14ClNS
+EXACT_MASS  263.0535
+MOL_WEIGHT  263.7857
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+               DG01808  Thienopyridine
+             DG01809  P2Y12 receptor antagonist
+              DG01808  Thienopyridine
+            Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+             DG02892  CYP2B6 inhibitor
+             DG01933  CYP2C19 inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Same as: C07140
+            ATC code: B01AC05
+            Chemical structure group: DG00156
+            Product (DG00156): D01028<JP>
+EFFICACY    Anticoagulant, Platelet aggregation inhibitor, Purinergic receptor P2Y12 antagonist
+COMMENT     Thienopyridine derivative
+TARGET      P2RY12 [HSA:64805] [KO:K04298]
+  PATHWAY   hsa04611(64805)  Platelet activation
+INTERACTION CYP inhibition: CYP2C19 [HSA:1557], CYP1A2 [HSA:1544], CYP2B6 [HSA:1555], CYP2D6 [HSA:1565]
+STR_MAP     map07049  Antithrombosis agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC05 Ticlopidine
+                  D08594  Ticlopidine (INN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01808  Thienopyridine
+                 DG00156  Ticlopidine
+                  D08594  Ticlopidine
+              DG01809  P2Y12 receptor antagonist
+               DG01808  Thienopyridine
+                DG00156  Ticlopidine
+                 D08594  Ticlopidine
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG00156  Ticlopidine
+                D08594  Ticlopidine
+              DG02892  CYP2B6 inhibitor
+               DG00156  Ticlopidine
+                D08594  Ticlopidine
+              DG01933  CYP2C19 inhibitor
+               DG00156  Ticlopidine
+                D08594  Ticlopidine
+              DG01645  CYP2D6 inhibitor
+               DG00156  Ticlopidine
+                D08594  Ticlopidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Purine / pyrimidine
+                P2RY12
+                 D08594  Ticlopidine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08594
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01808  Thienopyridine
+                 DG00156  Ticlopidine
+              DG01809  P2Y12 receptor antagonist
+               DG01808  Thienopyridine
+                DG00156  Ticlopidine
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG00156  Ticlopidine
+              DG02892  CYP2B6 inhibitor
+               DG00156  Ticlopidine
+              DG01933  CYP2C19 inhibitor
+               DG00156  Ticlopidine
+              DG01645  CYP2D6 inhibitor
+               DG00156  Ticlopidine
+DBLINKS     CAS: 55142-85-3
+            PubChem: 96025278
+            ChEBI: 9588
+            PDB-CCD: TIC
+            LigandBox: D08594
+            NIKKAJI: J11.390E
+ATOM        17
+            1   C8x C    19.4600  -17.2200
+            2   C8x C    19.4600  -18.6200
+            3   C8x C    20.6500  -19.3200
+            4   C8y C    21.9100  -18.6200
+            5   C8y C    21.9100  -17.2200
+            6   C8x C    20.6500  -16.5200
+            7   C1b C    23.1000  -19.3200
+            8   N1y N    24.2900  -18.6200
+            9   C1x C    24.2900  -17.2200
+            10  X   Cl   23.1000  -16.5200
+            11  C1x C    25.5500  -19.3200
+            12  C8y C    26.7400  -18.6200
+            13  C8y C    26.7400  -17.2200
+            14  C1x C    25.5500  -16.5200
+            15  C8x C    28.0700  -19.0400
+            16  C8x C    28.9100  -17.9200
+            17  S2x S    28.0700  -16.8000
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5  10 1
+            11    8  11 1
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15    9  14 1
+            16   12  15 1
+            17   15  16 2
+            18   16  17 1
+            19   13  17 1
+///

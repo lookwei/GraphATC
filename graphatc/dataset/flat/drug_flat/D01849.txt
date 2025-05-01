@@ -1,0 +1,163 @@
+ENTRY       D01849                      Drug
+NAME        Lercanidipine hydrochloride (JAN/USAN);
+            Cardiovasc (TN)
+FORMULA     C36H41N3O6. HCl
+EXACT_MASS  647.2762
+MOL_WEIGHT  648.1882
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      ATC code: C08CA13
+            Chemical structure group: DG00326
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA13 Lercanidipine
+                  D01849  Lercanidipine hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG00326  Lercanidipine
+                D01849  Lercanidipine hydrochloride
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00326  Lercanidipine
+                 D01849  Lercanidipine hydrochloride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00326  Lercanidipine
+                D01849  Lercanidipine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D01849  Lercanidipine hydrochloride (JAN/USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01849
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG00326  Lercanidipine
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                DG00326  Lercanidipine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00326  Lercanidipine
+DBLINKS     CAS: 132866-11-6
+            PubChem: 7848911
+            ChEBI: 31771
+            LigandBox: D01849
+ATOM        46
+            1   X   Cl   32.2853  -23.9052
+            2   C1y C    20.8600  -18.6010
+            3   C8y C    20.8600  -19.9829
+            4   C2y C    22.0493  -17.9130
+            5   C2y C    19.6648  -17.9130
+            6   C8x C    22.0610  -20.6709
+            7   C8x C    19.6765  -20.6709
+            8   C2y C    22.0493  -16.5313
+            9   C7a C    23.2504  -18.6010
+            10  C2y C    19.6648  -16.5313
+            11  C7a C    18.4696  -18.6069
+            12  C8y C    22.0669  -22.0468
+            13  C8x C    19.6765  -22.0526
+            14  N1x N    20.8600  -15.8433
+            15  C1a C    23.2504  -15.8433
+            16  O7a O    24.4456  -17.9130
+            17  O6a O    23.2504  -19.9829
+            18  C1a C    18.4696  -15.8433
+            19  O7a O    17.2684  -17.9130
+            20  O6a O    18.4696  -19.9829
+            21  C8x C    20.8717  -22.7405
+            22  N2b N    23.2678  -22.7405 #+
+            23  C1d C    25.6409  -18.6010
+            24  C1a C    16.0732  -18.6069
+            25  O3a O    24.7662  -21.7785
+            26  O3a O    23.2269  -24.4313 #-
+            27  C1b C    26.8418  -17.9073
+            28  N1c N    28.0311  -18.6010
+            29  C1b C    29.2263  -17.9073
+            30  C1a C    27.9670  -19.9829
+            31  C1b C    30.4215  -18.5953
+            32  C1c C    31.6286  -17.8961
+            33  C8y C    32.8375  -18.5920
+            34  C8y C    31.6269  -16.5012
+            35  C8x C    32.8356  -15.8060
+            36  C8x C    32.8338  -14.4111
+            37  C8x C    31.6249  -13.7153
+            38  C8x C    30.4178  -14.4143
+            39  C8x C    30.4195  -15.8092
+            40  C8x C    32.8363  -19.9805
+            41  C8x C    34.0454  -20.6764
+            42  C8x C    35.2524  -19.9773
+            43  C8x C    35.2506  -18.5824
+            44  C8x C    34.0417  -17.8866
+            45  C1a C    24.9304  -19.8050
+            46  C1a C    26.3253  -19.8050
+BOND        48
+            1     9  16 1
+            2     9  17 2
+            3    10  18 1
+            4    11  19 1
+            5    11  20 2
+            6    12  21 1
+            7    12  22 1
+            8    16  23 1
+            9    19  24 1
+            10   22  25 2
+            11   22  26 1
+            12   23  27 1
+            13   27  28 1
+            14   28  29 1
+            15   28  30 1
+            16   29  31 1
+            17   10  14 1
+            18   13  21 2
+            19   31  32 1
+            20   32  33 1
+            21    2   3 1
+            22   32  34 1
+            23    2   4 1
+            24    2   5 1
+            25    3   6 1
+            26    3   7 2
+            27    4   8 2
+            28   34  35 1
+            29   35  36 2
+            30   36  37 1
+            31   37  38 2
+            32   38  39 1
+            33   39  34 2
+            34    4   9 1
+            35    5  10 2
+            36    5  11 1
+            37    6  12 2
+            38    7  13 1
+            39   33  40 1
+            40   40  41 2
+            41   41  42 1
+            42   42  43 2
+            43   43  44 1
+            44   44  33 2
+            45    8  14 1
+            46   23  45 1
+            47    8  15 1
+            48   23  46 1
+///

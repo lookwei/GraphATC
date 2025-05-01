@@ -1,0 +1,130 @@
+ENTRY       D08966                      Drug
+NAME        Phenylephrine bitartrate (USP)
+FORMULA     C9H13NO2. C4H6O6
+EXACT_MASS  317.1111
+MOL_WEIGHT  317.2919
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+REMARK      ATC code: C01CA06 R01AA04 R01AB01 R01BA03 S01FB01 S01GA05
+            Chemical structure group: DG00215
+            Product (DG00215): D00511<JP/US>
+EFFICACY    Vasoconstrictor, alpha1-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+            See [DR:D08366]
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA06 Phenylephrine
+                  D08966  Phenylephrine bitartrate (USP)
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA04 Phenylephrine
+                  D08966  Phenylephrine bitartrate (USP)
+                R01AB Sympathomimetics, combinations excl. corticosteroids
+                 R01AB01 Phenylephrine
+                  D08966  Phenylephrine bitartrate (USP)
+               R01B NASAL DECONGESTANTS FOR SYSTEMIC USE
+                R01BA Sympathomimetics
+                 R01BA03 Phenylephrine
+                  D08966  Phenylephrine bitartrate (USP)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FB Sympathomimetics excl. antiglaucoma preparations
+                 S01FB01 Phenylephrine
+                  D08966  Phenylephrine bitartrate (USP)
+               S01G DECONGESTANTS AND ANTIALLERGICS
+                S01GA Sympathomimetics used as decongestants
+                 S01GA05 Phenylephrine
+                  D08966  Phenylephrine bitartrate (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00215  Phenylephrine
+                 D08966  Phenylephrine bitartrate
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00215  Phenylephrine
+                  D08966  Phenylephrine bitartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08966  Phenylephrine bitartrate (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00215  Phenylephrine
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG00215  Phenylephrine
+DBLINKS     CAS: 17162-39-9
+            PubChem: 96025649
+            LigandBox: D08966
+            NIKKAJI: J321.100B
+ATOM        22
+            1   O6a O    20.8287  -16.4689
+            2   C6a C    22.0425  -15.7681
+            3   C1c C    23.2564  -16.4689
+            4   C1c C    24.4702  -15.7681
+            5   C6a C    25.6840  -16.4689
+            6   O6a O    26.8979  -15.7681
+            7   O6a O    22.0425  -14.3667
+            8   O6a O    25.6840  -17.8704
+            9   O1a O    23.2564  -17.8703
+            10  O1a O    24.4702  -14.3665
+            11  C8y C    10.0800  -16.4500
+            12  C8x C    10.0800  -17.8500
+            13  C8x C    11.2700  -18.5500
+            14  C8x C    12.4600  -17.8500
+            15  C8y C    12.4600  -16.4500
+            16  C8x C    11.2700  -15.7500
+            17  O1a O     8.8200  -15.7500
+            18  C1c C    13.7200  -15.7500
+            19  C1b C    14.9100  -16.4500
+            20  O1a O    13.7200  -14.3500
+            21  N1b N    16.1000  -15.7500
+            22  C1a C    17.2900  -16.4500
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     2   7 2
+            7     5   8 2
+            8     3   9 1 #Up
+            9     4  10 1 #Up
+            10   11  12 2
+            11   12  13 1
+            12   13  14 2
+            13   14  15 1
+            14   15  16 2
+            15   11  16 1
+            16   11  17 1
+            17   15  18 1
+            18   18  19 1
+            19   18  20 1 #Up
+            20   19  21 1
+            21   21  22 1
+///

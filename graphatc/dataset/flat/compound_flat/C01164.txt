@@ -1,0 +1,98 @@
+ENTRY       C01164                      Compound
+NAME        7-Dehydrocholesterol;
+            Provitamin D3;
+            Cholesta-5,7-dien-3beta-ol
+FORMULA     C27H44O
+EXACT_MASS  384.3392
+MOL_WEIGHT  384.6377
+REACTION    R01451 R01456 R03311 R07215 R07507 R08132 R11007 R11008
+PATHWAY     map00100  Steroid biosynthesis
+            map00981  Insect hormone biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00101  Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol
+            M00103  Cholecalciferol biosynthesis
+NETWORK     nt06034  Cholesterol biosynthesis
+ENZYME      1.3.1.21        1.3.1.72        1.14.19.20      1.14.19.21
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              27-Carbon atoms
+               Cholestane derivatives
+                C01164  7-Dehydrocholesterol
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST01 Sterols
+               ST0101 Cholesterol and derivatives
+                C01164  7-Dehydrocholesterol
+              ST03 Secosteroids
+               ST0302 Vitamin D3 and derivatives
+                C01164  Provitamin D3
+DBLINKS     CAS: 434-16-2
+            PubChem: 4391
+            ChEBI: 17759
+            LIPIDMAPS: LMST01010069
+            KNApSAcK: C00023747
+            3DMET: B01398
+            NIKKAJI: J60.101B
+ATOM        28
+            1   C1y C    28.8987  -18.0080
+            2   C2y C    27.6962  -18.7084
+            3   C1z C    28.9044  -16.6188
+            4   C1x C    31.3150  -18.0138
+            5   C1y C    26.4997  -18.0197
+            6   C2x C    27.7488  -20.1326
+            7   C1y C    30.1127  -15.9184
+            8   C1x C    27.6905  -15.9243
+            9   C1a C    28.8987  -15.2530
+            10  C1x C    31.3150  -16.6305
+            11  C1z C    25.3031  -18.7201
+            12  C1x C    26.5580  -16.6305
+            13  C2x C    26.5056  -20.7747
+            14  C1c C    30.1069  -14.5526
+            15  C2y C    25.3031  -20.0917
+            16  C1x C    24.1066  -18.0371
+            17  C1a C    25.2915  -17.3543
+            18  C1b C    31.2801  -13.8756
+            19  C1a C    28.9220  -13.8815
+            20  C1x C    24.1066  -20.7804
+            21  C1x C    22.9393  -18.7201
+            22  C1b C    32.4590  -14.5409
+            23  C1y C    22.9393  -20.0917
+            24  C1b C    33.6322  -13.8639
+            25  O1a O    21.7486  -20.7630
+            26  C1c C    34.8113  -14.5352
+            27  C1a C    35.9845  -13.8522
+            28  C1a C    34.8171  -15.8951
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14   11  15 1
+            15   11  16 1
+            16   11  17 1 #Up
+            17   14  18 1
+            18   14  19 1 #Down
+            19   15  20 1
+            20   16  21 1
+            21   18  22 1
+            22   20  23 1
+            23   22  24 1
+            24   23  25 1 #Up
+            25   24  26 1
+            26   26  27 1
+            27   26  28 1
+            28    7  10 1
+            29    8  12 1
+            30   13  15 2
+            31   21  23 1
+///

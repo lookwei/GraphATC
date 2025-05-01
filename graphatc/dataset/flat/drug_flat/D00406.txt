@@ -1,0 +1,107 @@
+ENTRY       D00406                      Drug
+NAME        Vidarabine (USAN);
+            Vidarabine monohydrate;
+            Vira-A (TN)
+FORMULA     C10H13N5O4. H2O
+EXACT_MASS  285.1073
+MOL_WEIGHT  285.2566
+CLASS       Antiviral
+             DG01440  Arabinofuranosyl type antiviral
+             DG02840  Anti-herpesvirus agent
+REMARK      Same as: C07195
+            ATC code: J05AB03 S01AD06
+            Chemical structure group: DG00645
+            Product (DG00645): D06298<JP>
+EFFICACY    Antiviral, DNA polymerase inhibitor
+COMMENT     Arabinofuranosyl derivative
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+            map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB03 Vidarabine
+                  D00406  Vidarabine (USAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AD Antivirals
+                 S01AD06 Vidarabine
+                  D00406  Vidarabine (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               DG00645  Vidarabine
+                D00406  Vidarabine
+              DG02840  Anti-herpesvirus agent
+               DG00645  Vidarabine
+                D00406  Vidarabine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D00406  Vidarabine (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               DG00645  Vidarabine
+              DG02840  Anti-herpesvirus agent
+               DG00645  Vidarabine
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                DG00645  Vidarabine
+DBLINKS     CAS: 24356-66-9
+            PubChem: 7847472
+            ChEBI: 9978
+            LigandBox: D00406
+            NIKKAJI: J1.592.461F
+ATOM        20
+            1   N4y N    24.1094  -17.9097
+            2   C8y C    25.2448  -18.7424
+            3   C1y C    22.7875  -18.3466
+            4   C8x C    24.5461  -16.5881
+            5   C8y C    26.3744  -17.9214
+            6   N5x N    25.3787  -20.1283
+            7   O2x O    21.6521  -17.5197
+            8   C1y C    22.3450  -19.6799
+            9   N5x N    25.9493  -16.5881
+            10  C8y C    27.6496  -18.4979
+            11  C8x C    26.6540  -20.6990
+            12  C1y C    20.5107  -18.3466
+            13  C1y C    20.9473  -19.6799
+            14  O1a O    23.1719  -20.8096
+            15  N5x N    27.7894  -19.8897
+            16  N1a N    28.7910  -17.6769
+            17  C1b C    19.1773  -17.9097
+            18  O1a O    20.1263  -20.8096
+            19  O1a O    18.1408  -18.8532
+            20  O0  O    30.8800  -19.5252
+BOND        21
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Up
+            14   10  15 2
+            15   10  16 1
+            16   12  17 1 #Up
+            17   13  18 1 #Down
+            18   17  19 1
+            19    5   9 1
+            20   11  15 1
+            21   12  13 1
+///

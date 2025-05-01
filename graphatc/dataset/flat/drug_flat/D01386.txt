@@ -1,0 +1,136 @@
+ENTRY       D01386                      Drug
+NAME        Ephedrine hydrochloride (JP18/USP);
+            Ephedrine hydrochloride (TN)
+PRODUCT     REZIPRES (XGen Pharmaceuticals DJB)
+FORMULA     C10H15NO. HCl
+EXACT_MASS  201.092
+MOL_WEIGHT  201.6931
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+REMARK      Therapeutic category: 2118 2221
+            ATC code: C01CA26 R01AA03 R01AB05 R03CA02 S01FB02
+            Chemical structure group: DG00227
+            Product (DG00227): D01386<JP/US> D04018<US>
+            Product (mixture): D04338<JP>
+EFFICACY    Antitussive, Bronchodilator, Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148+153+154+155)  Salivary secretion
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA26 Ephedrine
+                  D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA03 Ephedrine
+                  D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+                R01AB Sympathomimetics, combinations excl. corticosteroids
+                 R01AB05 Ephedrine
+                  D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CA Alpha- and beta-adrenoreceptor agonists
+                 R03CA02 Ephedrine
+                  D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FB Sympathomimetics excl. antiglaucoma preparations
+                 S01FB02 Ephedrine
+                  D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               211  Cardiotonics
+                2118  Alkaloids
+                 D01386  Ephedrine hydrochloride (JP18/USP)
+              22  Respiratory organ agents
+               222  Antitussives
+                2221  Ephedrines and Ephedra herbs
+                 D01386  Ephedrine hydrochloride (JP18/USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Ephedrine
+                D01386  Ephedrine hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00227  Ephedrine
+                 D01386  Ephedrine hydrochloride
+              DG01456  Adrenergic receptor agonist
+               DG00227  Ephedrine
+                D01386  Ephedrine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+                ADRA2
+                 D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+                ADRB
+                 D01386  Ephedrine hydrochloride (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01386  Ephedrine hydrochloride
+              D01386  Ephedrine hydrochloride tablets
+              D01386  10% Ephedrine hydrochloride powder
+              D01386  Ephedrine hydrochloride injection
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D01386
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00227  Ephedrine
+              DG01456  Adrenergic receptor agonist
+               DG00227  Ephedrine
+DBLINKS     CAS: 50-98-6
+            PubChem: 7848449
+            ChEBI: 31541
+            LigandBox: D01386
+            NIKKAJI: J231.451G
+ATOM        13
+            1   C8x C    17.0325  -17.0009
+            2   C8x C    17.0325  -18.4031
+            3   C8x C    18.2497  -19.1041
+            4   C8x C    19.4598  -18.4031
+            5   C8y C    19.4598  -17.0009
+            6   C8x C    18.2497  -16.2999
+            7   C1c C    20.6653  -16.2999
+            8   C1c C    21.8762  -16.9938
+            9   N1b N    23.0872  -16.2927
+            10  C1a C    24.2981  -16.9867
+            11  O1a O    20.6609  -14.8977
+            12  C1a C    21.8793  -18.3959
+            13  X   Cl   29.1200  -17.5000
+BOND        12
+            1     6   1 1
+            2     5   7 1
+            3     1   2 2
+            4     7   8 1
+            5     2   3 1
+            6     8   9 1
+            7     3   4 2
+            8     9  10 1
+            9     4   5 1
+            10    7  11 1 #Up
+            11    5   6 2
+            12    8  12 1 #Up
+///

@@ -1,0 +1,69 @@
+ENTRY       D04619                      Drug
+NAME        Isatoribine (USAN);
+            Isatoribine monohydrate;
+            Immusine (TN)
+FORMULA     C10H12N4O6S. H2O
+EXACT_MASS  334.0583
+MOL_WEIGHT  334.3058
+EFFICACY    Antiviral, Immunomodulator
+COMMENT     regulates cell growth by perturbing signal transduction
+TARGET      TLR7 [HSA:51284] [KO:K05404]
+  PATHWAY   hsa04613(51284)  Neutrophil extracellular trap formation
+            hsa04620(51284)  Toll-like receptor signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Pattern recognition receptors
+               Toll-like receptors
+                TLR7
+                 D04619  Isatoribine (USAN)
+DBLINKS     CAS: 198832-38-1
+            PubChem: 47206462
+            LigandBox: D04619
+ATOM        22
+            1   O0  O    21.0521  -23.2984
+            2   C1y C    11.8300  -22.1200
+            3   C1y C    13.2300  -22.1200
+            4   C1y C    13.6500  -20.7900
+            5   O2x O    12.5300  -20.0200
+            6   C1y C    11.4100  -20.7900
+            7   N4x N    16.0300  -22.1900
+            8   C8y C    16.0300  -20.7900
+            9   N4y N    14.8400  -20.0900
+            10  C1b C    10.2200  -20.0900
+            11  O1a O     8.9600  -20.7900
+            12  O1a O    10.9900  -23.2400
+            13  C8y C    17.2200  -22.8900
+            14  N5x N    18.4100  -22.1900
+            15  C8y C    18.4100  -20.7900
+            16  C8y C    17.2200  -20.0900
+            17  C8y C    15.2600  -18.7600
+            18  S2x S    16.8000  -18.7600
+            19  N1a N    17.2200  -24.2900
+            20  O5x O    19.6700  -20.0900
+            21  O1a O    14.0576  -23.2492
+            22  O5x O    14.4324  -17.6308
+BOND        23
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     2   6 1
+            6     7   8 1
+            7     8   9 1
+            8     4   9 1 #Up
+            9     6  10 1 #Up
+            10   10  11 1
+            11    2  12 1 #Down
+            12    7  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 1
+            16    8  16 2
+            17    9  17 1
+            18   16  18 1
+            19   17  18 1
+            20   13  19 1
+            21   15  20 2
+            22    3  21 1 #Down
+            23   17  22 2
+///

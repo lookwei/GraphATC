@@ -1,0 +1,156 @@
+ENTRY       D00719                      Drug
+NAME        Hyoscyamine sulfate (USP);
+            Hyoscyamine sulfate dihydrate;
+            Egacene (TN)
+FORMULA     (C17H23NO3. H2O)2. H2SO4
+EXACT_MASS  712.3241
+MOL_WEIGHT  712.8479
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: A03BA03
+            Chemical structure group: DG00053
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+  DISEASE   Peptic ulcer [DS:H01634]
+            Irritable bowel syndrome [DS:H01615]
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04970(1131)  Salivary secretion
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03B BELLADONNA AND DERIVATIVES, PLAIN
+                A03BA Belladonna alkaloids, tertiary amines
+                 A03BA03 Hyoscyamine
+                  D00719  Hyoscyamine sulfate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00053  Hyoscyamine
+                D00719  Hyoscyamine sulfate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00719  Hyoscyamine sulfate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00053  Hyoscyamine
+DBLINKS     CAS: 6835-16-1
+            PubChem: 7847784
+            LigandBox: D00719
+ATOM        49
+            1   S4a S    37.4113  -13.8292
+            2   O1d O    36.0485  -13.8935
+            3   O1d O    38.7795  -13.8292
+            4   O1d O    37.4054  -12.4667
+            5   O1d O    37.4054  -15.1920
+            6   O0  O    31.6463  -11.2177
+            7   C1x C    23.0857  -14.9648
+            8   C1x C    23.4059  -13.8213
+            9   C1y C    24.2293  -14.6904
+            10  C1y C    24.5495  -13.5469
+            11  N1y N    23.3145  -12.2660
+            12  C1x C    26.0589  -14.6904
+            13  C1x C    25.7845  -13.5469
+            14  C1y C    27.0653  -15.2393
+            15  O7a O    28.1174  -16.1084
+            16  C7a C    29.3067  -16.1084
+            17  C1c C    29.9014  -15.0563
+            18  O6a O    29.9014  -17.2062
+            19  C8y C    31.0907  -15.0563
+            20  C1b C    29.3067  -14.0500
+            21  O1a O    29.9014  -12.9980
+            22  C8x C    31.7800  -16.2506
+            23  C8x C    33.1463  -16.2509
+            24  C8x C    33.8297  -15.0677
+            25  C8x C    33.1405  -13.8735
+            26  C8x C    31.7742  -13.8732
+            27  C1a C    22.5834  -11.1103
+            28  O0  O    31.6463  -11.2177
+            29  C1x C    23.0857  -14.9648
+            30  C1x C    23.4059  -13.8213
+            31  C1y C    24.5495  -13.5469
+            32  C1x C    25.7845  -13.5469
+            33  C1y C    27.0653  -15.2393
+            34  C1x C    26.0589  -14.6904
+            35  C1y C    24.2293  -14.6904
+            36  N1y N    23.3145  -12.2660
+            37  C1a C    22.5834  -11.1103
+            38  O7a O    28.1174  -16.1084
+            39  C7a C    29.3067  -16.1084
+            40  C1c C    29.9014  -15.0563
+            41  C8y C    31.0907  -15.0563
+            42  C8x C    31.7800  -16.2506
+            43  C8x C    33.1463  -16.2509
+            44  C8x C    33.8297  -15.0677
+            45  C8x C    33.1405  -13.8735
+            46  C8x C    31.7742  -13.8732
+            47  C1b C    29.3067  -14.0500
+            48  O1a O    29.9014  -12.9980
+            49  O6a O    29.9014  -17.2062
+BOND        50
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     1   5 2
+            5     7   8 1
+            6     7   9 1
+            7     8  10 1
+            8     9  11 1
+            9     9  12 1
+            10   10  13 1
+            11   12  14 1
+            12   14  15 1 #Down
+            13   15  16 1
+            14   16  17 1
+            15   16  18 2
+            16   17  19 1
+            17   17  20 1 #Down
+            18   20  21 1
+            19   10  11 1
+            20   13  14 1
+            21   19  22 2
+            22   22  23 1
+            23   23  24 2
+            24   24  25 1
+            25   25  26 2
+            26   19  26 1
+            27   11  27 1
+            28   29  30 1
+            29   29  35 1
+            30   30  31 1
+            31   35  36 1
+            32   35  34 1
+            33   31  32 1
+            34   34  33 1
+            35   33  38 1 #Down
+            36   38  39 1
+            37   39  40 1
+            38   39  49 2
+            39   40  41 1
+            40   40  47 1 #Down
+            41   47  48 1
+            42   31  36 1
+            43   32  33 1
+            44   41  42 2
+            45   42  43 1
+            46   43  44 2
+            47   44  45 1
+            48   45  46 2
+            49   41  46 1
+            50   36  37 1
+BRACKET     1    20.8600  -18.0600   20.8600   -9.8000
+            1    34.2300   -9.8000   34.2300  -18.0600
+            1  2
+  ORIGINAL  1    6   7   8  10  13  14  12   9  11  29  22  15  16  17  19  24
+            1   25  26  27  28  20  21  18  23
+  REPEAT    1   30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45
+            1   46  47  48  49  50  51  52  53
+///

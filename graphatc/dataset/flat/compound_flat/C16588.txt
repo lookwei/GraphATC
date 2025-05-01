@@ -1,0 +1,51 @@
+ENTRY       C16588                      Compound
+NAME        2-Oxopimelate;
+            alpha-Ketopimelate;
+            2-Oxoheptanedionic acid
+FORMULA     C7H10O5
+EXACT_MASS  174.0528
+MOL_WEIGHT  174.1513
+REACTION    R08214 R08332
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01210  2-Oxocarboxylic acid metabolism
+            map01240  Biosynthesis of cofactors
+MODULE      M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+ENZYME      1.1.1.-         2.3.3.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C16588  2-Oxopimelate
+DBLINKS     PubChem: 51090915
+            ChEBI: 72700 72701
+            KNApSAcK: C00000771
+            PDB-CCD: 6GT
+            NIKKAJI: J318.156A
+ATOM        12
+            1   C1b C    31.6842  -21.0013
+            2   C5a C    32.9063  -21.7098
+            3   C1b C    30.4556  -21.7098
+            4   C6a C    34.1285  -21.0013
+            5   O5a O    32.9063  -23.1204
+            6   C1b C    29.2335  -21.0013
+            7   O6a O    35.3507  -21.7098
+            8   O6a O    34.1919  -19.7256
+            9   C1b C    28.0049  -21.7098
+            10  C6a C    26.7827  -20.9947
+            11  O6a O    25.5848  -21.6775
+            12  O6a O    26.7907  -19.6001
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     6   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+///

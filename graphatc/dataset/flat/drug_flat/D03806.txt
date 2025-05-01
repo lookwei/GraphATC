@@ -1,0 +1,79 @@
+ENTRY       D03806                      Drug
+NAME        Ponalrestat (USAN/INN)
+FORMULA     C17H12BrFN2O3
+EXACT_MASS  390.0015
+MOL_WEIGHT  391.1912
+CLASS       Antidiabetic agent
+             DG01882  Aldose reductase inhibitor
+EFFICACY    Aldose reductase inhibitor
+TARGET      AKR1B1 [HSA:231] [KO:K00011]
+  PATHWAY   hsa00051(231)  Fructose and mannose metabolism
+            hsa00052(231)  Galactose metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01882  Aldose reductase inhibitor
+               D03806  Ponalrestat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                AKR1B1
+                 D03806  Ponalrestat (USAN/INN)
+DBLINKS     CAS: 72702-95-5
+            PubChem: 17397894
+            LigandBox: D03806
+            NIKKAJI: J22.229A
+ATOM        24
+            1   C8y C    29.8900  -18.9700
+            2   C8y C    29.8900  -20.3700
+            3   C8y C    31.0800  -18.2700
+            4   C8x C    28.7000  -18.2700
+            5   C8y C    31.0800  -21.0700
+            6   C8x C    28.7000  -21.0700
+            7   N5x N    32.2700  -18.9700
+            8   C1b C    31.0800  -16.8700
+            9   C8x C    27.4400  -18.9700
+            10  N4y N    32.2700  -20.3700
+            11  O5x O    31.0800  -22.4700
+            12  C8x C    27.4400  -20.3700
+            13  C6a C    32.2700  -16.1700
+            14  O6a O    33.5300  -16.8700
+            15  O6a O    32.2700  -14.7700
+            16  C1b C    33.4824  -21.0700
+            17  C8y C    34.6949  -20.3700
+            18  C8y C    35.9260  -21.0810
+            19  C8x C    37.1385  -20.3812
+            20  C8y C    37.1387  -18.9812
+            21  C8x C    35.9076  -18.2702
+            22  C8x C    34.6951  -18.9700
+            23  X   F    35.9257  -22.4699
+            24  X   Br   38.3795  -18.2649
+BOND        26
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12    8  13 1
+            13   13  14 1
+            14   13  15 2
+            15    7  10 1
+            16    9  12 1
+            17   10  16 1
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   18  23 1
+            26   20  24 1
+///

@@ -1,0 +1,77 @@
+ENTRY       C00705                      Compound
+NAME        dCDP;
+            2'-Deoxycytidine diphosphate;
+            2'-Deoxycytidine 5'-diphosphate
+FORMULA     C9H15N3O10P2
+EXACT_MASS  387.0233
+MOL_WEIGHT  387.177
+REACTION    R01665 R01667 R02024 R02326
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+ENZYME      1.17.4.1        2.7.4.6         2.7.4.14        2.7.4.25        
+            3.6.1.12
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Deoxyribonucleotides
+                C00705  dCDP
+DBLINKS     CAS: 800-73-7
+            PubChem: 3972
+            ChEBI: 28846
+            PDB-CCD: YYY
+            3DMET: B01317
+            NIKKAJI: J247.701G
+ATOM        24
+            1   N4y N    31.2754  -18.0246
+            2   C1y C    29.9327  -18.4624
+            3   C8y C    32.3263  -18.9586
+            4   C8x C    31.5673  -16.6525
+            5   O2x O    28.8409  -17.6626
+            6   C1x C    29.5240  -19.8342
+            7   N5x N    33.6631  -18.5149
+            8   O5x O    32.0461  -20.3247
+            9   C8x C    32.8926  -16.2090
+            10  C1y C    27.7025  -18.4974
+            11  C1y C    28.1171  -19.8342
+            12  C8y C    33.9492  -17.1430
+            13  C1b C    26.3657  -18.0654
+            14  O1a O    27.2880  -20.9552
+            15  N1a N    35.2803  -16.7110
+            16  O2b O    25.3323  -19.0053
+            17  P1b P    23.9370  -19.0053
+            18  O2c O    22.5418  -19.0053
+            19  O1c O    23.9311  -20.4005
+            20  O1c O    23.9311  -17.6099
+            21  P1b P    21.1407  -18.9994
+            22  O1c O    21.1348  -20.3948
+            23  O1c O    19.7453  -18.9994
+            24  O1c O    21.1348  -17.6042
+BOND        25
+            1     2   1 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 2
+            9     5  10 1
+            10    6  11 1
+            11    7  12 2
+            12   10  13 1 #Up
+            13   11  14 1 #Down
+            14   12  15 1
+            15   13  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19   17  20 2
+            20   18  21 1
+            21   21  22 1
+            22   21  23 1
+            23   21  24 2
+            24    9  12 1
+            25   10  11 1
+///

@@ -1,0 +1,57 @@
+ENTRY       D02546                      Drug
+NAME        Kainic acid hydrate (JP18);
+            Digenin (TN)
+FORMULA     C10H15NO4. H2O
+EXACT_MASS  231.1107
+MOL_WEIGHT  231.2457
+SOURCE      Digenea simplex
+EFFICACY    Anthelmintic
+TARGET      GRIK [KO:K05201 K05202 K05203 K05204 K05205]
+  PATHWAY   ko04080(K05201+K05202+K05203+K05204+K05205)  Neuroactive ligand-receptor interaction
+            ko04724(K05201+K05202+K05203+K05204+K05205)  Glutamatergic synapse
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Kainic acid
+                D02546  Kainic acid hydrate (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02546  Kainic acid hydrate
+DBLINKS     CAS: 487-79-6
+            PubChem: 17396717
+            LigandBox: D02546
+            NIKKAJI: J9.244D
+ATOM        16
+            1   O0  O    38.0664  -18.8631
+            2   N1x N    30.8000  -21.7700
+            3   C1x C    32.2000  -21.7700
+            4   C1y C    32.6326  -20.4385
+            5   C1y C    31.5000  -19.6156
+            6   C1y C    30.3674  -20.4385
+            7   C1b C    31.5000  -17.2900
+            8   C6a C    32.7124  -16.5900
+            9   O6a O    33.9079  -17.2804
+            10  O6a O    32.7125  -15.1902
+            11  C1a C    35.0575  -20.4385
+            12  C2c C    33.8451  -19.7385
+            13  C6a C    29.1549  -19.7385
+            14  O6a O    27.9425  -20.4385
+            15  O6a O    29.1549  -18.3404
+            16  C2a C    33.8451  -18.3404
+BOND        15
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     2   6 1
+            6     5   7 1 #Up
+            7     7   8 1
+            8     8   9 1
+            9     8  10 2
+            10   11  12 1
+            11    4  12 1 #Up
+            12    6  13 1 #Down
+            13   13  14 1
+            14   13  15 2
+            15   12  16 2
+///

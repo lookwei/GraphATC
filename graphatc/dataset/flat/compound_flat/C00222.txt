@@ -1,0 +1,51 @@
+ENTRY       C00222                      Compound
+NAME        3-Oxopropanoate;
+            Malonate semialdehyde
+FORMULA     C3H4O3
+EXACT_MASS  88.016
+MOL_WEIGHT  88.0621
+REACTION    R00705 R00706 R00740 R00907 R00908 R01604 R01607 R01608 
+            R01609 R01611 R05371 R05372 R05378 R06973 R09289 R09983 
+            R10947
+PATHWAY     map00240  Pyrimidine metabolism
+            map00410  beta-Alanine metabolism
+            map00562  Inositol phosphate metabolism
+            map00625  Chloroalkane and chloroalkene degradation
+            map00640  Propanoate metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00013  Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA
+            M00375  Hydroxypropionate-hydroxybutylate cycle
+            M00376  3-Hydroxypropionate bi-cycle
+            M00939  Pyrimidine degradation, uracil => 3-hydroxypropanoate
+ENZYME      1.1.1.59        1.1.1.298       1.1.1.-         1.2.1.15        
+            1.2.1.18        1.2.1.27        1.2.1.75        1.7.3.5         
+            2.6.1.18        2.6.1.19        2.6.1.55        2.6.1.120       
+            3.5.1.-         3.8.1.-         4.1.1.-         4.1.2.29        
+            4.2.1.27        4.2.1.155
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               3-Oxocarboxylic acids
+                C00222  3-Oxopropanoate
+DBLINKS     PubChem: 3522
+            ChEBI: 17960 33190
+            PDB-CCD: FK2
+            3DMET: B00062
+            NIKKAJI: J7.174I
+ATOM        6
+            1   C1b C    25.6253  -16.8948
+            2   C6a C    26.8418  -16.1930
+            3   C4a C    24.4147  -16.1930
+            4   O6a O    28.0523  -16.8948
+            5   O6a O    26.8418  -14.7953
+            6   O4a O    23.2041  -16.8948
+BOND        5
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 2
+///

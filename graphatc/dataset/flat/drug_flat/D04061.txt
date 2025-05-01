@@ -1,0 +1,129 @@
+ENTRY       D04061                      Drug
+NAME        Estradiol acetate (USAN);
+            Femring (TN)
+PRODUCT     FEMRING (Millicent US)
+FORMULA     C20H26O3
+EXACT_MASS  314.1882
+MOL_WEIGHT  314.4186
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G03CA03
+            Chemical structure group: DG00462
+            Product (DG00462): D00105<JP/US> D01413<JP/US> D04061<US> D04063<US> D07918<US>
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+            Estrogen replacement therapy
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA03 Estradiol
+                  D04061  Estradiol acetate (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Estrogens
+               Estradiol
+                D04061  Estradiol acetate (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00462  Estradiol
+                D04061  Estradiol acetate
+              DG01584  Estrogen receptor agonist
+               DG00462  Estradiol
+                D04061  Estradiol acetate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00462  Estradiol
+                 D04061  Estradiol acetate
+            Drug classes [BR:br08332]
+             Endocrine and hormonal agent
+              DG01986  Estrogen
+               D04061  Estradiol acetate
+              DG01584  Estrogen receptor agonist
+               D04061  Estradiol acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D04061  Estradiol acetate (USAN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04061
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00462  Estradiol
+              DG01584  Estrogen receptor agonist
+               DG00462  Estradiol
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00462  Estradiol
+DBLINKS     CAS: 4245-41-4
+            PubChem: 47206019
+            LigandBox: D04061
+ATOM        23
+            1   C1y C    24.1371  -17.4005
+            2   C1y C    22.9558  -18.0789
+            3   C1z C    24.1429  -16.0439
+            4   C1x C    26.4819  -17.4297
+            5   C1y C    21.7804  -17.3829
+            6   C1x C    22.9558  -19.4413
+            7   C1x C    22.9792  -15.3538
+            8   C1y C    25.3299  -15.3772
+            9   C1a C    24.1371  -14.6813
+            10  C1x C    26.4996  -16.0730
+            11  C8y C    20.5935  -18.0672
+            12  C1x C    21.7921  -16.0262
+            13  C1x C    21.7687  -20.1138
+            14  O1a O    25.3242  -14.0089
+            15  C8y C    20.5877  -19.4296
+            16  C8x C    19.4123  -17.3829
+            17  C8x C    19.4123  -20.1079
+            18  C8x C    18.2369  -18.0672
+            19  C8y C    18.2310  -19.4296
+            20  O7a O    17.0439  -20.1079
+            21  C7a C    15.8016  -19.3831
+            22  C1a C    14.5971  -20.0715
+            23  O6a O    15.8079  -17.9901
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    8  14 1 #Up
+            14   11  15 2
+            15   11  16 1
+            16   15  17 1
+            17   16  18 2
+            18   17  19 2
+            19   19  20 1
+            20    7  12 1
+            21    8  10 1
+            22   13  15 1
+            23   18  19 1
+            24   20  21 1
+            25   21  22 1
+            26   21  23 2
+///

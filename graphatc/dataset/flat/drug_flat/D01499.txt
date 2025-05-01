@@ -1,0 +1,131 @@
+ENTRY       D01499                      Drug
+NAME        Pivmecillinam hydrochloride (JP18);
+            Melysin (TN)
+FORMULA     C21H33N3O5S. HCl
+EXACT_MASS  475.1908
+MOL_WEIGHT  476.0298
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      ATC code: J01CA08
+            Chemical structure group: DG00523
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Active form of prodrug: Mecillinam [DR:D02888]
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA08 Pivmecillinam
+                  D01499  Pivmecillinam hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00523  Pivmecillinam
+                  D01499  Pivmecillinam hydrochloride
+              DG01780  Extended spectrum penicillin
+               DG00523  Pivmecillinam
+                D01499  Pivmecillinam hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D01499  Pivmecillinam hydrochloride (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01499  Pivmecillinam hydrochloride
+              D01499  Pivmecillinam hydrochloride tablets
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00523  Pivmecillinam
+              DG01780  Extended spectrum penicillin
+               DG00523  Pivmecillinam
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00523  Pivmecillinam
+            Prodrugs [br08324.html(DG00523)]
+             DG00523
+DBLINKS     CAS: 32887-03-9
+            PubChem: 7848562
+            ChEBI: 51213
+            LigandBox: D01499
+            NIKKAJI: J321.631D
+ATOM        31
+            1   C1y C    12.9500  -20.9300
+            2   C5x C    12.9500  -22.3300
+            3   N1y N    14.3500  -22.3300
+            4   C1y C    14.3500  -20.9300
+            5   C1y C    15.6800  -22.7500
+            6   C1z C    16.5200  -21.6300
+            7   S2x S    15.6800  -20.5100
+            8   C1a C    17.5000  -22.6100
+            9   C1a C    17.5000  -20.6500
+            10  C7a C    16.1700  -24.0800
+            11  O7a O    17.5700  -24.0800
+            12  O6a O    15.3300  -25.2700
+            13  N2b N    11.7600  -20.2300
+            14  C2b C    10.5700  -20.9300
+            15  O5x O    11.7600  -23.0300
+            16  N1y N     9.3100  -20.2300
+            17  C1b C    18.2700  -25.3400
+            18  O7a O    19.6700  -25.3400
+            19  C7a C    20.3700  -24.1500
+            20  O6a O    19.6700  -22.9600
+            21  C1d C    21.7700  -24.1500
+            22  C1a C    23.1700  -24.1500
+            23  C1a C    21.7700  -22.7500
+            24  C1a C    21.7700  -25.5500
+            25  C1x C     9.3100  -18.8300
+            26  C1x C     8.1900  -17.9200
+            27  C1x C     6.8600  -18.2700
+            28  C1x C     6.2300  -19.5300
+            29  C1x C     6.8600  -20.7900
+            30  C1x C     8.1900  -21.0700
+            31  X   Cl   22.0500  -20.7900
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 2
+            16    2  15 2
+            17   14  16 1
+            18   11  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+            22   19  21 1
+            23   21  22 1
+            24   21  23 1
+            25   21  24 1
+            26   27  28 1
+            27   28  29 1
+            28   26  27 1
+            29   25  26 1
+            30   29  30 1
+            31   30  16 1
+            32   25  16 1
+///

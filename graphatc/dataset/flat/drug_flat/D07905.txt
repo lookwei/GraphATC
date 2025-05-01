@@ -1,0 +1,120 @@
+ENTRY       D07905                      Drug
+NAME        Ergometrine (INN)
+FORMULA     C19H23N3O2
+EXACT_MASS  325.179
+MOL_WEIGHT  325.4048
+SOURCE      Claviceps purpurea [TAX:5111]
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07543
+            ATC code: G02AB03
+            Chemical structure group: DG00446
+EFFICACY    Hemostatic, Oxytocic
+COMMENT     Ergot alkaloid
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04022(146+147+148+150+151+152)  cGMP-PKG signaling pathway
+            hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AB Ergot alkaloids
+                 G02AB03 Ergometrine
+                  D07905  Ergometrine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00446  Ergometrine
+                D07905  Ergometrine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00446  Ergometrine
+                 D07905  Ergometrine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D07905  Ergometrine (INN)
+                ADRA2
+                 D07905  Ergometrine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07905
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG00446  Ergometrine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00446  Ergometrine
+DBLINKS     CAS: 60-79-7
+            PubChem: 96024601
+            ChEBI: 4822
+            LigandBox: D07905
+            NIKKAJI: J4.806B
+ATOM        24
+            1   C8x C    13.8716  -16.8751
+            2   C8x C    13.8716  -18.2154
+            3   C8x C    15.0709  -16.1696
+            4   C8y C    16.1996  -16.8751
+            5   C1x C    18.5981  -18.2154
+            6   C2y C    17.3989  -16.1696
+            7   C1y C    18.5981  -16.8751
+            8   N1y N    19.7974  -16.1696
+            9   C1y C    18.5281  -14.1238
+            10  C2x C    17.3994  -14.8292
+            11  C8y C    16.1996  -18.2154
+            12  C8y C    15.0709  -18.9209
+            13  N4x N    15.0709  -20.2612
+            14  C8x C    17.3989  -20.2612
+            15  C8y C    17.3989  -18.9209
+            16  C5a C    18.5287  -12.7129
+            17  N1b N    19.7980  -12.0780
+            18  O5a O    17.3294  -12.0780
+            19  C1c C    20.9267  -12.7834
+            20  C1b C    22.1260  -12.0780
+            21  C1a C    20.9967  -16.8751
+            22  C1a C    20.9267  -14.1238
+            23  C1x C    19.7974  -14.8292
+            24  O1a O    23.3252  -12.7834
+BOND        27
+            1    16  17 1
+            2     4   3 2
+            3    16  18 2
+            4     3   1 1
+            5    17  19 1
+            6    19  20 1
+            7     6   7 1
+            8     8  21 1
+            9     7   8 1
+            10   19  22 1 #Down
+            11    8  23 1
+            12   23   9 1
+            13    9  10 1
+            14   10   6 2
+            15    4  11 1
+            16   15   5 1
+            17    5   7 1
+            18    6   4 1
+            19   11  12 2
+            20   12  13 1
+            21   14  15 2
+            22   15  11 1
+            23   13  14 1
+            24    1   2 2
+            25    9  16 1 #Up
+            26    2  12 1
+            27   20  24 1
+///

@@ -1,0 +1,149 @@
+ENTRY       D08297                      Drug
+NAME        Opipramol (INN);
+            Opipramol dura (TN)
+FORMULA     C23H29N3O
+EXACT_MASS  363.2311
+MOL_WEIGHT  363.4959
+CLASS       Neuropsychiatric agent
+             DG01730  Non-selective monoamine reuptake inhibitor
+             DG01728  Tricyclic antidepressant
+             DG01560  Sigma receptor agonist
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: N06AA05
+            Chemical structure group: DG00930
+EFFICACY    Antidepressant
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HRH1 [HSA:3269] [KO:K04149]
+            SIGMAR1 [HSA:10280] [KO:K20719]
+  PATHWAY   hsa04080(1813+3269+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3357+3358)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AA Non-selective monoamine reuptake inhibitors
+                 N06AA05 Opipramol
+                  D08297  Opipramol (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00930  Opipramol
+                D08297  Opipramol
+              DG01728  Tricyclic antidepressant
+               DG00930  Opipramol
+                D08297  Opipramol
+              DG01560  Sigma receptor agonist
+               DG00930  Opipramol
+                D08297  Opipramol
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00930  Opipramol
+                 D08297  Opipramol
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00930  Opipramol
+                 D08297  Opipramol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D08297  Opipramol (INN)
+               Histamine
+                HRH1
+                 D08297  Opipramol (INN)
+               Serotonin
+                HTR2
+                 D08297  Opipramol (INN)
+             Transporters
+              Other transporters
+               Auxiliary transport proteins (TC:8.A)
+                SIGMAR1
+                 D08297  Opipramol (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00930  Opipramol
+              DG01728  Tricyclic antidepressant
+               DG00930  Opipramol
+              DG01560  Sigma receptor agonist
+               DG00930  Opipramol
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00930  Opipramol
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00930  Opipramol
+DBLINKS     CAS: 315-72-0
+            PubChem: 96024984
+            LigandBox: D08297
+            NIKKAJI: J8.634G
+ATOM        27
+            1   C2x C    20.4400  -21.5600
+            2   C8y C    19.6000  -20.4400
+            3   C8y C    19.8800  -19.0400
+            4   N1y N    21.1400  -18.4800
+            5   C2x C    21.8400  -21.5600
+            6   C8y C    22.4000  -19.1100
+            7   C8y C    22.7500  -20.5100
+            8   C8x C    18.9000  -18.0600
+            9   C8x C    17.5700  -18.4800
+            10  C8x C    17.2200  -19.8100
+            11  C8x C    18.2000  -20.7900
+            12  C8x C    24.0800  -20.9300
+            13  C8x C    25.1300  -19.9500
+            14  C8x C    24.7800  -18.6200
+            15  C8x C    23.4500  -18.2000
+            16  C1b C    21.1400  -17.0800
+            17  C1b C    22.3300  -16.4500
+            18  C1b C    23.5200  -17.1500
+            19  N1y N    24.7800  -16.4500
+            20  C1x C    25.9700  -17.1500
+            21  C1x C    27.2300  -16.5200
+            22  N1y N    27.2300  -15.1200
+            23  C1x C    25.9700  -14.3500
+            24  C1x C    24.7800  -15.0500
+            25  C1b C    28.4200  -14.4200
+            26  C1b C    29.6100  -15.1200
+            27  O1a O    30.8700  -14.4200
+BOND        30
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   19  24 1
+            28   22  25 1
+            29   25  26 1
+            30   26  27 1
+///

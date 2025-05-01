@@ -1,0 +1,159 @@
+ENTRY       D08421                      Drug
+NAME        Procainamide (INN)
+FORMULA     C13H21N3O
+EXACT_MASS  235.1685
+MOL_WEIGHT  235.3253
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+            Metabolizing enzyme substrate
+             DG02928  NAT substrate
+            Transporter substrate
+             DG02858  SLC22A1 substrate
+             DG02854  SLC22A2 substrate
+             DG02964  SLC47A1 substrate
+             DG03002  SLC47A2 substrate
+REMARK      Same as: C07401
+            ATC code: C01BA02
+            Chemical structure group: DG00193
+            Product (DG00193): D00477<JP/US>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: NAT [HSA:9 10]
+            Transporter: SLC22A1 [HSA:6580], SLC22A2 [HSA:6582], SLC47A1 [HSA:55244], SLC47A2 [HSA:146802]
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07213  Dopamine receptor agonists/antagonists
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA02 Procainamide
+                  D08421  Procainamide (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00193  Procainamide
+                  D08421  Procainamide
+             Metabolizing enzyme substrate
+              DG02928  NAT substrate
+               DG00193  Procainamide
+                D08421  Procainamide
+             Transporter substrate
+              DG02858  SLC22A1 substrate
+               DG00193  Procainamide
+                D08421  Procainamide
+              DG02854  SLC22A2 substrate
+               DG00193  Procainamide
+                D08421  Procainamide
+              DG02964  SLC47A1 substrate
+               DG00193  Procainamide
+                D08421  Procainamide
+              DG03002  SLC47A2 substrate
+               DG00193  Procainamide
+                D08421  Procainamide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D08421  Procainamide (INN)
+                SCN2A
+                 D08421  Procainamide (INN)
+                SCN3A
+                 D08421  Procainamide (INN)
+                SCN4A
+                 D08421  Procainamide (INN)
+                SCN5A
+                 D08421  Procainamide (INN)
+                SCN8A
+                 D08421  Procainamide (INN)
+                SCN9A
+                 D08421  Procainamide (INN)
+                SCN10A
+                 D08421  Procainamide (INN)
+                SCN11A
+                 D08421  Procainamide (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08421
+             Drug transporters
+              D08421
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D08421
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00193  Procainamide
+             Metabolizing enzyme substrate
+              DG02928  NAT substrate
+               DG00193  Procainamide
+             Transporter substrate
+              DG02858  SLC22A1 substrate
+               DG00193  Procainamide
+              DG02854  SLC22A2 substrate
+               DG00193  Procainamide
+              DG02964  SLC47A1 substrate
+               DG00193  Procainamide
+              DG03002  SLC47A2 substrate
+               DG00193  Procainamide
+DBLINKS     CAS: 51-06-9
+            PubChem: 96025107
+            ChEBI: 8428
+            LigandBox: D08421
+            NIKKAJI: J4.110F
+ATOM        17
+            1   C8y C    16.1435  -15.8683
+            2   C5a C    17.4720  -16.5674
+            3   C8x C    16.1436  -14.4001
+            4   C8x C    15.0250  -16.4975
+            5   N1b N    18.6605  -15.8683
+            6   O5a O    17.4721  -17.9656
+            7   C8x C    15.0250  -13.7010
+            8   C8x C    13.7665  -15.7983
+            9   C1b C    19.8490  -16.5674
+            10  C8y C    13.7664  -14.4001
+            11  C1b C    21.1074  -15.8683
+            12  N1a N    12.5780  -13.7010
+            13  N1c N    22.2960  -16.5674
+            14  C1b C    23.4845  -15.8683
+            15  C1b C    22.2960  -17.9656
+            16  C1a C    24.7430  -16.5674
+            17  C1a C    23.4845  -18.6648
+BOND        17
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     7  10 2
+            10    9  11 1
+            11   10  12 1
+            12   11  13 1
+            13   13  14 1
+            14   13  15 1
+            15   14  16 1
+            16   15  17 1
+            17    8  10 1
+///

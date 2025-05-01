@@ -1,0 +1,84 @@
+ENTRY       D06344                      Drug
+NAME        Xylazine hydrochloride (USP);
+            Rompun (TN)
+FORMULA     C12H16N2S. HCl
+EXACT_MASS  256.0801
+MOL_WEIGHT  256.7948
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01449  alpha2-Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01321
+EFFICACY    Analgesic, Muscle relaxant (veterinary), alpha2-Adrenergic receptor agonist
+COMMENT     veterinary medicine
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Animal drugs in Japan [BR:br08331]
+             91  Agents affecting nervous system
+              912  Hypnotics and sedatives
+               9129  Other hypnotics and sedatives
+                D06344  Xylazine hydrochloride
+             92  Agents affecting circulatory organs, respiratory organs and urinary organs
+              921  Cardiotonics
+               9219  Other cardiotonics
+                D06344  Xylazine hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG01321  Xylazine
+                  D06344  Xylazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D06344  Xylazine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01449  alpha2-Adrenergic receptor agonist
+                 DG01321  Xylazine
+DBLINKS     CAS: 23076-35-9
+            PubChem: 47208001
+            ChEBI: 149566
+            LigandBox: D06344
+            NIKKAJI: J244.012A
+ATOM        16
+            1   C8x C    12.8100  -14.0000
+            2   C8x C    12.8100  -15.4000
+            3   C8y C    14.0224  -16.1000
+            4   C8y C    15.2349  -15.4000
+            5   C8y C    15.2349  -14.0000
+            6   C8x C    14.0224  -13.3000
+            7   N1b N    16.4660  -16.1110
+            8   C1a C    16.4660  -13.2890
+            9   C1a C    14.0224  -17.4998
+            10  C2y C    17.6712  -15.4153
+            11  N2x N    18.8535  -16.0981
+            12  C1x C    20.0660  -15.3983
+            13  C1x C    20.0662  -13.9983
+            14  C1x C    18.8838  -13.3155
+            15  S2x S    17.6713  -14.0153
+            16  X   Cl   22.5400  -14.9800
+BOND        16
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     5   8 1
+            9     3   9 1
+            10    7  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   10  15 1
+///

@@ -1,0 +1,94 @@
+ENTRY       D00428                      Drug
+NAME        Salsalate (USP/INN);
+            Sasapyrine (JAN);
+            Disalcid (TN)
+FORMULA     C14H10O5
+EXACT_MASS  258.0528
+MOL_WEIGHT  258.2262
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01909  Anti-inflammatory drug, salicylic acid derivatives
+REMARK      ATC code: N02BA06
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+  DISEASE   Rheumatoid arthritis [DS:H00630]
+COMMENT     Salicylic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02B OTHER ANALGESICS AND ANTIPYRETICS
+                N02BA Salicylic acid and derivatives
+                 N02BA06 Salsalate
+                  D00428  Salsalate (USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Sasapyrine
+                D00428  Salsalate (USP/INN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Sasapyrine
+                D00428  Salsalate (USP/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01909  Anti-inflammatory drug, salicylic acid derivatives
+                D00428  Salsalate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D00428  Salsalate (USP/INN)
+                PTGS2 (COX2)
+                 D00428  Salsalate (USP/INN)
+DBLINKS     CAS: 552-94-3
+            PubChem: 7847494
+            ChEBI: 9014
+            LigandBox: D00428
+            NIKKAJI: J2.069I
+ATOM        19
+            1   C8y C    16.8000  -16.5200
+            2   C8y C    15.6100  -15.8200
+            3   O7a O    17.9900  -15.8200
+            4   C8x C    16.8000  -17.9200
+            5   C8x C    14.4200  -16.5200
+            6   C6a C    15.6100  -14.4200
+            7   C7a C    19.2500  -16.5200
+            8   C8x C    15.6100  -18.6200
+            9   C8x C    14.4200  -17.9200
+            10  O6a O    14.4200  -13.7900
+            11  O6a O    16.8000  -13.7200
+            12  C8y C    20.4400  -15.8200
+            13  O6a O    19.2500  -17.9200
+            14  C8y C    21.6300  -16.5200
+            15  C8x C    20.4400  -14.4200
+            16  C8x C    22.8900  -15.8200
+            17  O1a O    21.6300  -17.9200
+            18  C8x C    21.6300  -13.7200
+            19  C8x C    22.8900  -14.4200
+BOND        20
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 2
+            8     5   9 2
+            9     6  10 1
+            10    6  11 2
+            11    7  12 1
+            12    7  13 2
+            13   12  14 2
+            14   12  15 1
+            15   14  16 1
+            16   14  17 1
+            17   15  18 2
+            18   16  19 2
+            19    8   9 1
+            20   18  19 1
+///

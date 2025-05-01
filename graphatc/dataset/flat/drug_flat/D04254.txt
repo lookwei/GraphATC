@@ -1,0 +1,54 @@
+ENTRY       D04254                      Drug
+NAME        Fosfonet sodium (USAN/INN)
+FORMULA     C2H3O5P. 2Na. H2O
+EXACT_MASS  201.9619
+MOL_WEIGHT  202.0108
+CLASS       Antiviral
+             DG02840  Anti-herpesvirus agent
+REMARK      ATC code: J05AD02
+            Chemical structure group: DG00652
+EFFICACY    Antiviral, DNA polymerase inhibitor
+COMMENT     Phosphonic acid derivative
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AD Phosphonic acid derivatives
+                 J05AD02 Fosfonet
+                  D04254  Fosfonet sodium (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG02840  Anti-herpesvirus agent
+               D04254  Fosfonet sodium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D04254  Fosfonet sodium (USAN/INN)
+DBLINKS     CAS: 54870-27-8
+            PubChem: 47206195
+            LigandBox: D04254
+            NIKKAJI: J244.951J
+ATOM        11
+            1   P1b P    24.7100  -17.1500
+            2   C1b C    23.5900  -17.7800
+            3   O1c O    25.9000  -16.4500
+            4   O1c O    25.5500  -18.2700 #-
+            5   O1c O    23.8000  -15.8200
+            6   C6a C    22.4000  -17.1500
+            7   O6a O    21.2141  -17.8940 #-
+            8   O6a O    22.4186  -15.7509
+            9   Z   Na   17.9200  -17.2200 #+
+            10  Z   Na   27.5100  -18.4800 #+
+            11  O0  O    31.8500  -16.7300
+BOND        7
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     6   7 1
+            7     6   8 2
+///

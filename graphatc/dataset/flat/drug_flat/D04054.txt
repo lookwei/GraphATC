@@ -1,0 +1,246 @@
+ENTRY       D04054                      Drug
+NAME        Erythromycin salnacedin (USAN);
+            Erythromycin salnacedin dihydrate
+FORMULA     C37H67NO13. C12H13NO5S. 2H2O
+EXACT_MASS  1052.5338
+MOL_WEIGHT  1053.2577
+CLASS       Antibacterial
+             DG01551  Macrolide antibiotic
+              DG01874  14-membered ring macrolide antibiotic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      ATC code: D10AF02 J01FA01 S01AA17
+            Chemical structure group: DG00436
+            Product (DG00436): D00140<JP/US> D01361<JP/US> D02009<JP/US> D02184<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243]
+STR_MAP     map07020  Macrolides and ketolides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AF Antiinfectives for treatment of acne
+                 D10AF02 Erythromycin
+                  D04054  Erythromycin salnacedin (USAN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01F MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS
+                J01FA Macrolides
+                 J01FA01 Erythromycin
+                  D04054  Erythromycin salnacedin (USAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA17 Erythromycin
+                  D04054  Erythromycin salnacedin (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+                 D04054  Erythromycin salnacedin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+                D04054  Erythromycin salnacedin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+                D04054  Erythromycin salnacedin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+                D04054  Erythromycin salnacedin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                D04054  Erythromycin salnacedin (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04054
+             Drug transporters
+              D04054
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                DG00436  Erythromycin
+DBLINKS     CAS: 149908-23-6
+            PubChem: 47206014
+            LigandBox: D04054
+ATOM        72
+            1   C8x C    31.3154  -18.2114
+            2   C8x C    31.3154  -19.6133
+            3   C8x C    32.5294  -20.3142
+            4   C8x C    33.7436  -19.6133
+            5   C8y C    33.7436  -18.2114
+            6   C8y C    32.5294  -17.5104
+            7   O1a O    32.5294  -16.1087
+            8   C5a C    34.9764  -17.4994
+            9   S2a S    36.1832  -18.1960
+            10  O5a O    34.9761  -16.1086
+            11  C1b C    37.3671  -17.5123
+            12  C1c C    38.5628  -18.2025
+            13  C6a C    39.7523  -17.5156
+            14  O6a O    40.9450  -18.2042
+            15  O6a O    39.7524  -16.1087
+            16  N1b N    38.5630  -19.6130
+            17  C5a C    39.7563  -20.3020
+            18  O5a O    40.9430  -19.6168
+            19  C1a C    39.7566  -21.7158
+            20  O0  O    38.1829  -13.4604
+            21  C1y C    23.6603  -13.2465
+            22  C1z C    23.6603  -11.8833
+            23  C1y C    22.4762  -13.9224
+            24  O2a O    25.6415  -13.9628
+            25  C1x C    22.4762  -11.2017
+            26  O1a O    24.6884  -10.8956
+            27  C1a C    24.9426  -12.3164
+            28  C1y C    22.4762  -15.2856
+            29  C1a C    21.5055  -12.9007
+            30  C1y C    27.2193  -13.2480
+            31  C1y C    22.4762   -9.8327
+            32  O2a O    23.2156  -16.6430
+            33  C1y C    21.3036  -15.9673
+            34  C1y C    28.3874  -13.9392
+            35  O2x O    27.2313  -11.8853
+            36  C5x C    21.3036   -9.1568
+            37  C1a C    23.6603   -9.1568
+            38  C1y C    24.7316  -17.0609
+            39  C7x C    20.1195  -15.2856
+            40  C1a C    21.3036  -17.3303
+            41  C1y C    29.5729  -13.2776
+            42  O1a O    28.3783  -15.3069
+            43  C1y C    28.4217  -11.2210
+            44  C1y C    20.1195   -9.8327
+            45  O5x O    21.3036   -7.7936
+            46  C1x C    24.7316  -18.4184
+            47  O2x O    25.9158  -16.3794
+            48  O7x O    20.1195  -13.9224
+            49  O6a O    19.0624  -16.2329
+            50  C1x C    29.5173  -11.9200
+            51  N1c N    30.7458  -13.9660
+            52  C1a C    28.4414   -9.8605
+            53  C1y C    20.1195  -11.2017
+            54  C1a C    18.9412   -9.1568
+            55  C1z C    25.9158  -19.1058
+            56  C1y C    27.0882  -17.0609
+            57  C1y C    18.9412  -13.2465
+            58  C1z C    18.9412  -11.8833
+            59  O1a O    21.3036  -11.8833
+            60  C1y C    27.0882  -18.4184
+            61  O2a O    25.9158  -20.4286
+            62  C1a C    27.3598  -20.0878
+            63  C1a C    28.2724  -16.3852
+            64  C1b C    17.7627  -13.9224
+            65  C1a C    17.6935  -12.4492
+            66  O1a O    17.6935  -11.1960
+            67  O1a O    28.2724  -19.1058
+            68  C1a C    27.0132  -21.3875
+            69  C1a C    17.7977  -15.0429
+            70  C1a C    31.9921  -13.2585
+            71  C1a C    30.7364  -15.3277
+            72  O0  O    38.1829  -13.4604
+BOND        72
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 2
+            11    9  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   13  15 2
+            16   12  16 1 #Up
+            17   16  17 1
+            18   17  18 2
+            19   17  19 1
+            20   21  22 1
+            21   21  23 1
+            22   21  24 1 #Down
+            23   22  25 1
+            24   22  26 1 #Up
+            25   22  27 1 #Down
+            26   23  28 1
+            27   23  29 1 #Down
+            28   30  24 1 #Down
+            29   25  31 1
+            30   28  32 1 #Down
+            31   28  33 1
+            32   30  34 1
+            33   30  35 1
+            34   31  36 1
+            35   31  37 1 #Down
+            36   38  32 1 #Down
+            37   33  39 1
+            38   33  40 1 #Up
+            39   34  41 1
+            40   34  42 1 #Up
+            41   35  43 1
+            42   36  44 1
+            43   36  45 2
+            44   38  46 1
+            45   38  47 1
+            46   39  48 1
+            47   39  49 2
+            48   41  50 1
+            49   41  51 1 #Down
+            50   43  52 1 #Down
+            51   44  53 1
+            52   44  54 1 #Up
+            53   46  55 1
+            54   47  56 1
+            55   48  57 1
+            56   53  58 1
+            57   53  59 1 #Up
+            58   55  60 1
+            59   55  61 1 #Down
+            60   55  62 1
+            61   56  63 1 #Up
+            62   57  64 1 #Down
+            63   58  65 1 #Down
+            64   58  66 1 #Up
+            65   60  67 1 #Down
+            66   61  68 1
+            67   64  69 1
+            68   43  50 1
+            69   56  60 1
+            70   57  58 1
+            71   51  70 1
+            72   51  71 1
+BRACKET     1    35.8400  -14.3500   35.8400  -12.5300
+            1    38.9900  -12.5300   38.9900  -14.3500
+            1  2
+  ORIGINAL  1   20
+  REPEAT    1   72
+///

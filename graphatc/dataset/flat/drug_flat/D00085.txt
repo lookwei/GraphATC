@@ -1,0 +1,32 @@
+ENTRY       D00085                      Drug
+NAME        Insulin (JAN/USP)
+SEQUENCE    (A chain) Gly Ile Val Glu Gln Cys Cys Thr Ser Ile Cys Ser Leu Tyr
+            Gln Leu Glu Asn Tyr Cys Asn
+            (B chain) Phe Val Asn Gln His Leu Cys Gly Ser His Leu Val Glu Ala
+            Leu Tyr Leu Val Cys Gly Glu Arg Gly Phe Phe Tyr Thr Pro Lys Thr
+            (Disulfide bridge: A6-A11, A7-B7, A20-B19)
+  TYPE      Peptide
+CLASS       Antidiabetic agent
+             DG01636  Insulin preparation
+REMARK      Same as: C00723
+EFFICACY    Antidiabetic, Insulin receptor agonist
+COMMENT     Pancreas hormone
+TARGET      INSR (CD220) [HSA:3643] [KO:K04527]
+  PATHWAY   hsa04910(3643)  Insulin signaling pathway
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01636  Insulin preparation
+               D00085  Insulin
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               INSR family
+                INSR (CD220)
+                 D00085  Insulin (JAN/USP)
+DBLINKS     CAS: 9004-10-8
+            PubChem: 7847153
+            ChEBI: 5931
+            NIKKAJI: J2.730.443E
+///

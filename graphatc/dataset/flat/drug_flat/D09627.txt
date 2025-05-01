@@ -1,0 +1,38 @@
+ENTRY       D09627                      Drug
+NAME        Imagabalin (USAN/INN)
+FORMULA     C9H19NO2
+EXACT_MASS  173.1416
+MOL_WEIGHT  173.2527
+REMARK      Chemical structure group: DG01492
+EFFICACY    Antianxiety
+COMMENT     GABA derivative
+            Treatment of general anxiety disorder
+DBLINKS     CAS: 610300-07-7
+            PubChem: 124490367
+            LigandBox: D09627
+ATOM        12
+            1   C1a C    14.4900  -22.1900
+            2   C1b C    15.7024  -21.4900
+            3   C1b C    16.9149  -22.1900
+            4   C1c C    18.1273  -21.4900
+            5   C1b C    19.3397  -22.1900
+            6   C1c C    20.5522  -21.4900
+            7   C1b C    21.7646  -22.1900
+            8   C6a C    22.9770  -21.4900
+            9   O6a O    24.1895  -22.1900
+            10  C1a C    18.1273  -20.0900
+            11  N1a N    20.5522  -20.0903
+            12  O6a O    22.9770  -20.0901
+BOND        11
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     4  10 1 #Up
+            10    6  11 1 #Down
+            11    8  12 2
+///

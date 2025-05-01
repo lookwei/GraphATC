@@ -1,0 +1,103 @@
+ENTRY       D00176                      Drug
+NAME        Protirelin (JP18/USAN/INN);
+            Relefact TRH (TN)
+FORMULA     C16H22N6O4
+EXACT_MASS  362.1703
+MOL_WEIGHT  362.3837
+SEQUENCE    Glp His Pro-NH2
+  TYPE      Peptide
+REMARK      Same as: C03958
+            Therapeutic category: 7223
+            ATC code: V04CJ02
+            Chemical structure group: DG01171
+            Product (DG01171): D00176<JP> D02007<JP>
+EFFICACY    Diagnostic (pituitary function determination), Thyrotropin-releasing hormone receptor agonist
+COMMENT     tripeptide
+            Prothyrotropin, Thyrotropin-releasing hormone
+TARGET      TRHR [HSA:7201] [KO:K04282]
+  PATHWAY   hsa04020(7201)  Calcium signaling pathway
+            hsa04080(7201)  Neuroactive ligand-receptor interaction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CJ Tests for thyreoidea function
+                 V04CJ02 Protirelin
+                  D00176  Protirelin (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             7  Agents not mainly for therapeutic purpose
+              72  Intracorporeal diagnostic agents
+               722  Various function testing reagents
+                7223  Diagnostic reagents for endocrine function
+                 D00176  Protirelin (JP18/USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Thyrotropin-releasing hormone
+                TRHR
+                 D00176  Protirelin (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00176  Protirelin
+DBLINKS     CAS: 24305-27-9
+            PubChem: 7847244
+            ChEBI: 35940
+            LigandBox: D00176
+            NIKKAJI: J3.473H
+ATOM        26
+            1   C1x C    19.3265  -18.8642
+            2   C1y C    19.7627  -17.5319
+            3   N1x N    18.6256  -16.7050
+            4   C5x C    17.4887  -17.5319
+            5   C1x C    17.9248  -18.8642
+            6   C8y C    24.6097  -14.7657
+            7   C8x C    26.0045  -14.7648
+            8   N5x N    26.4347  -13.4379
+            9   C8x C    25.3058  -12.6190
+            10  N4x N    24.1778  -13.4394
+            11  C1x C    27.6583  -15.5370
+            12  C1x C    28.0946  -16.8691
+            13  C1y C    26.9575  -17.6960
+            14  N1y N    25.8205  -16.8691
+            15  C1x C    26.2567  -15.5370
+            16  C5a C    24.6073  -17.5686
+            17  C1c C    23.3968  -16.8678
+            18  N1b N    22.1863  -17.5686
+            19  C5a C    20.9758  -16.8678
+            20  O5a O    20.9758  -15.4661
+            21  C1b C    23.3968  -15.4661
+            22  C5a C    26.9575  -19.0977
+            23  O5a O    25.7436  -19.7985
+            24  N1a N    28.1714  -19.7986
+            25  O5a O    24.6061  -18.9702
+            26  O5x O    16.1550  -17.1007
+BOND        28
+            1    11  12 1
+            2    12  13 1
+            3    13  14 1
+            4    14  15 1
+            5    15  11 1
+            6     4   5 1
+            7    14  16 1
+            8     6   7 2
+            9    16  17 1
+            10    7   8 1
+            11   17  18 1
+            12    8   9 2
+            13   18  19 1
+            14    9  10 1
+            15   19  20 2
+            16   10   6 1
+            17   17  21 1 #Up
+            18   21   6 1
+            19    5   1 1
+            20   13  22 1 #Up
+            21   22  23 2
+            22    1   2 1
+            23   22  24 1
+            24    2   3 1
+            25   16  25 2
+            26    2  19 1 #Down
+            27    3   4 1
+            28    4  26 2
+///

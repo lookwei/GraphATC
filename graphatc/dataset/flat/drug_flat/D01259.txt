@@ -1,0 +1,70 @@
+ENTRY       D01259                      Drug
+NAME        Flopropione (JP18/INN);
+            Ephtanon (TN)
+FORMULA     C9H10O4
+EXACT_MASS  182.0579
+MOL_WEIGHT  182.1733
+CLASS       Neuropsychiatric agent
+             DG01497  Catechol O-methyltransferase inhibitor
+REMARK      Therapeutic category: 1249
+            Product: D01259<JP>
+EFFICACY    Antispasmodic, Cathechol-O-methyltransferase (COMT) inhibitor
+TARGET      COMT [HSA:1312] [KO:K00545]
+  PATHWAY   hsa00140(1312)  Steroid hormone biosynthesis
+            hsa00350(1312)  Tyrosine metabolism
+            hsa04728(1312)  Dopaminergic synapse
+STR_MAP     map07216  Catecholamine transferase inhibitors
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              12  Agents affecting peripheral nervous system
+               124  Antispasmodics
+                1249  Others
+                 D01259  Flopropione (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01497  Catechol O-methyltransferase inhibitor
+               D01259  Flopropione
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                COMT
+                 D01259  Flopropione (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01259  Flopropione
+              D01259  Flopropione capsules
+DBLINKS     CAS: 2295-58-1
+            PubChem: 7848322
+            ChEBI: 31614
+            LigandBox: D01259
+            NIKKAJI: J3.704D
+ATOM        13
+            1   C8y C    21.6504  -17.4084
+            2   C8x C    21.6504  -18.8086
+            3   C8y C    22.8659  -19.5087
+            4   C8x C    24.0743  -18.8086
+            5   C8y C    24.0743  -17.4084
+            6   C8y C    22.8659  -16.7083
+            7   O1a O    20.4382  -16.7077
+            8   O1a O    25.2874  -16.7092
+            9   O1a O    22.8676  -20.9088
+            10  C5a C    22.8676  -15.3082
+            11  C1b C    24.0811  -14.6096
+            12  O5a O    21.6560  -14.6066
+            13  C1a C    25.2929  -15.3112
+BOND        13
+            1     1   7 1
+            2     1   2 2
+            3     5   8 1
+            4     2   3 1
+            5     3   9 1
+            6     3   4 2
+            7     6  10 1
+            8     4   5 1
+            9    10  11 1
+            10    5   6 2
+            11   10  12 2
+            12    6   1 1
+            13   11  13 1
+///

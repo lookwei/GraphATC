@@ -1,0 +1,98 @@
+ENTRY       D12467                      Drug
+NAME        Evobrutinib (USAN/INN)
+FORMULA     C25H27N5O2
+EXACT_MASS  429.2165
+MOL_WEIGHT  429.5142
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG02022  BTK inhibitor
+EFFICACY    Anti-inflammatory disease, Bruton's tyrosine kinase inhibitor
+COMMENT     Treatment of multiple sclerosis, systemic lupus erythematosus and rheumatoid arthritis
+TARGET      BTK [HSA:695] [KO:K07370]
+  PATHWAY   hsa04064(695)  NF-kappa B signaling pathway
+            hsa04380(695)  Osteoclast differentiation
+            hsa04662(695)  B cell receptor signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG02022  BTK inhibitor
+                D12467  Evobrutinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               Tec family
+                BTK
+                 D12467  Evobrutinib (USAN/INN)
+DBLINKS     CAS: 1415823-73-2
+            PDB-CCD: MZJ
+ATOM        32
+            1   C8x C     5.6000  -14.8400
+            2   N5x N     5.6000  -16.2400
+            3   C8y C     6.8124  -16.9400
+            4   C8y C     8.0249  -16.2400
+            5   C8y C     8.0249  -14.8400
+            6   N5x N     6.8124  -14.1400
+            7   N1b N     9.2560  -14.1290
+            8   C1b C    10.4612  -14.8247
+            9   C1y C    11.6435  -14.1419
+            10  C1x C    12.8375  -14.8312
+            11  C1x C    14.0499  -14.1312
+            12  N1y N    14.0499  -12.7312
+            13  C1x C    12.8560  -12.0419
+            14  C1x C    11.6435  -12.7419
+            15  C5a C    15.2734  -12.0246
+            16  C2b C    16.4824  -12.7225
+            17  C2a C    17.6629  -12.0408
+            18  O5a O    15.2732  -10.6401
+            19  C8y C     9.2560  -16.9510
+            20  C8x C     9.2557  -18.3399
+            21  C8x C    10.4680  -19.0402
+            22  C8y C    11.6806  -18.3405
+            23  C8x C    11.6809  -16.9516
+            24  C8x C    10.4686  -16.2513
+            25  O2a O    12.8997  -19.0447
+            26  C8y C    14.0994  -18.3523
+            27  C8x C    15.2843  -19.0367
+            28  C8x C    16.4969  -18.3370
+            29  C8x C    16.4972  -16.9370
+            30  C8x C    15.3123  -16.2525
+            31  C8x C    14.0997  -16.9523
+            32  N1a N     6.8124  -18.3398
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15    9  14 1
+            16   12  15 1
+            17   15  16 1
+            18   16  17 2
+            19   15  18 2
+            20    4  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   22  25 1
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   26  31 1
+            35    3  32 1
+///

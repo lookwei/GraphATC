@@ -1,0 +1,179 @@
+ENTRY       D11485                      Drug
+NAME        Tazemetostat hydrobromide (JAN/USAN);
+            Tazverik (TN)
+PRODUCT     TAZVERIK (Epizyme)
+FORMULA     C34H44N4O4. HBr
+EXACT_MASS  652.2624
+MOL_WEIGHT  653.6495
+CLASS       Transporter substrate
+             DG01665  ABCB1 substrate
+            Transporter inhibitor
+             DG02864  SLC47A1 inhibitor
+             DG03110  SLC47A2 inhibitor
+REMARK      Therapeutic category: 4291
+            ATC code: L01XX72
+            Chemical structure group: DG03020
+            Product (DG03020): D11485<JP/US>
+EFFICACY    Antineoplastic, Histone methyltransferase inhibitor
+  DISEASE   Epithelioid sarcoma [DS:H02427]
+            Follicular Lymphoma (EZH2 mutation positive) [DS:H01613]
+COMMENT     Treatment of epithelioid sarcoma
+TARGET      EZH2* [HSA_VAR:2146v1] [HSA:2146] [KO:K11430]
+  PATHWAY   hsa00310(2146)  Lysine degradation
+            hsa05206(2146)  MicroRNAs in cancer
+METABOLISM  Transporter: ABCB1 [HSA:5243]
+INTERACTION Transporter inhibition: SLC47A1 [HSA:55244], SLC47A2 [HSA:146802]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX72 Tazemetostat
+                  D11485  Tazemetostat hydrobromide (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Tazemetostat
+                D11485  Tazemetostat hydrobromide (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D11485  Tazemetostat hydrobromide (JAN/USAN)
+            Drug groups [BR:br08330]
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03020  Tazemetostat
+                D11485  Tazemetostat hydrobromide
+             Transporter inhibitor
+              DG02864  SLC47A1 inhibitor
+               DG03020  Tazemetostat
+                D11485  Tazemetostat hydrobromide
+              DG03110  SLC47A2 inhibitor
+               DG03020  Tazemetostat
+                D11485  Tazemetostat hydrobromide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                EZH2* [HSA_VAR:2146v1]
+                 D11485  Tazemetostat hydrobromide (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11485
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11485
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11485
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D11485
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D11485
+            Drug groups [BR:br08330]
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03020  Tazemetostat
+             Transporter inhibitor
+              DG02864  SLC47A1 inhibitor
+               DG03020  Tazemetostat
+              DG03110  SLC47A2 inhibitor
+               DG03020  Tazemetostat
+DBLINKS     CAS: 1467052-75-0
+            PubChem: 384585461
+ATOM        43
+            1   C1x C     8.9644  -12.3261
+            2   O2x O     8.9644  -13.7268
+            3   C1x C    10.1550  -14.4272
+            4   C1x C    11.4157  -13.7268
+            5   N1y N    11.4157  -12.3261
+            6   C1x C    10.1550  -11.6258
+            7   C1b C    12.6063  -11.6258
+            8   C8y C    13.8669  -12.3261
+            9   C8x C    13.8669  -13.7268
+            10  C8x C    15.0575  -14.4272
+            11  C8y C    16.2481  -13.7268
+            12  C8x C    16.2481  -12.3261
+            13  C8x C    15.0575  -11.6258
+            14  C8y C    17.5087  -14.4272
+            15  C8x C    17.5087  -15.8279
+            16  C8y C    18.6993  -16.5282
+            17  C8y C    19.8899  -15.8279
+            18  C8y C    19.8899  -14.4272
+            19  C8x C    18.6993  -13.7268
+            20  C5a C    21.0805  -13.7268
+            21  N1b N    22.3411  -14.4272
+            22  O5a O    21.0805  -12.3261
+            23  C1b C    23.5317  -13.7268
+            24  C8y C    24.7223  -14.4272
+            25  C8y C    24.7223  -15.8279
+            26  N4x N    25.9129  -16.5282
+            27  C8y C    27.1034  -15.8279
+            28  C8x C    27.1034  -14.4272
+            29  C8y C    25.9129  -13.7268
+            30  C1a C    25.9129  -12.3261
+            31  C1a C    28.3641  -16.5282
+            32  O5x O    23.4616  -16.5282
+            33  C1a C    21.1505  -16.5282
+            34  N1c N    18.6993  -17.9289
+            35  C1y C    19.8899  -18.6292
+            36  C1b C    17.5087  -18.6292
+            37  C1x C    19.8899  -20.0299
+            38  C1x C    21.1505  -20.7303
+            39  O2x O    22.3411  -20.0299
+            40  C1x C    22.3411  -18.6292
+            41  C1x C    21.1505  -17.9289
+            42  C1a C    16.3181  -17.9289
+            43  X   Br   28.2100  -20.3700
+BOND        46
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   11  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   18  20 1
+            23   20  21 1
+            24   20  22 2
+            25   21  23 1
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   24  29 2
+            33   29  30 1
+            34   27  31 1
+            35   25  32 2
+            36   17  33 1
+            37   16  34 1
+            38   34  35 1
+            39   34  36 1
+            40   35  37 1
+            41   37  38 1
+            42   38  39 1
+            43   39  40 1
+            44   40  41 1
+            45   35  41 1
+            46   36  42 1
+///

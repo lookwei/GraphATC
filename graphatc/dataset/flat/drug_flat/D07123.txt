@@ -1,0 +1,74 @@
+ENTRY       D07123                      Drug
+NAME        Incadronate disodium hydrate (JAN);
+            Bisphonal (TN)
+FORMULA     C8H17NO6P2. 2Na. H2O
+EXACT_MASS  349.0432
+MOL_WEIGHT  349.166
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Chemical structure group: DG01266
+EFFICACY    Antihypercalcemia, Antiresorptive, Osteoporosis agent, Farnesylpyrophosphate synthetase inhibitor
+COMMENT     Bisphosphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG01266  Incadronic acid
+                 D07123  Incadronate disodium hydrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D07123  Incadronate disodium hydrate (JAN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG01266  Incadronic acid
+DBLINKS     PubChem: 51091462
+            LigandBox: D07123
+ATOM        20
+            1   O0  O    33.4632  -21.8189
+            2   C1x C    22.7500  -16.7300
+            3   C1x C    23.8700  -15.8200
+            4   C1x C    25.2000  -16.1700
+            5   C1y C    25.8300  -17.4300
+            6   C1x C    22.7500  -18.1300
+            7   C1x C    25.2000  -18.6900
+            8   C1x C    23.8700  -18.9700
+            9   N1b N    27.2300  -17.4300
+            10  C1c C    27.9300  -18.6200
+            11  P1b P    29.3300  -18.6200
+            12  P1b P    27.2300  -19.8100
+            13  O1c O    26.5300  -21.0700 #-
+            14  O1c O    26.0400  -19.1100
+            15  O1c O    28.4900  -20.5100
+            16  O1c O    30.7300  -18.6200
+            17  O1c O    29.3300  -17.2200 #-
+            18  O1c O    29.3300  -20.0200
+            19  Z   Na   31.1500  -17.0100 #+
+            20  Z   Na   26.0987  -22.9491 #+
+BOND        17
+            1     4   5 1
+            2     2   6 1
+            3     5   7 1
+            4     3   4 1
+            5     6   8 1
+            6     2   3 1
+            7     7   8 1
+            8     5   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 1
+            12   12  13 1
+            13   12  14 2
+            14   12  15 1
+            15   11  16 1
+            16   11  17 1
+            17   11  18 2
+///

@@ -1,0 +1,109 @@
+ENTRY       D09569                      Drug
+NAME        Ezogabine (USAN);
+            Retigabine (INN);
+            Potiga (TN)
+FORMULA     C16H18FN3O2
+EXACT_MASS  303.1383
+MOL_WEIGHT  303.3314
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02037  GABA mimetic antiepileptic
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02866  SLC22A8 inhibitor
+REMARK      Same as: C13826
+            ATC code: N03AX21
+EFFICACY    Antiepileptic
+COMMENT     Adjunctive therapy for partial onset seizures
+TARGET      KCNQ [HSA:3784 3785 3786 9132 56479] [KO:K04926 K04927 K04928 K04929 K04930]
+  PATHWAY   hsa04725(3784+3785+3786+56479+9132)  Cholinergic synapse
+INTERACTION Transporter inhibition: SLC22A8 [HSA:9376], ABCB1 [HSA:5243]
+STR_MAP     map07232  Potassium channel blocking and opening drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AX Other antiepileptics
+                 N03AX21 Retigabine
+                  D09569  Ezogabine (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02037  GABA mimetic antiepileptic
+                D09569  Ezogabine
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D09569  Ezogabine
+              DG02866  SLC22A8 inhibitor
+               D09569  Ezogabine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Potassium channels
+                KCNQ
+                 D09569  Ezogabine (USAN)
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09569
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09569
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09569
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D09569
+DBLINKS     CAS: 150812-12-7
+            PubChem: 124490309
+            ChEBI: 68584
+            PDB-CCD: FBX
+            LigandBox: D09569
+ATOM        22
+            1   C8x C    17.0100  -26.2500
+            2   C8y C    17.0100  -27.6500
+            3   C8x C    18.2700  -28.3500
+            4   C8x C    19.4600  -27.6500
+            5   C8y C    19.4600  -26.2500
+            6   C8x C    18.2700  -25.5500
+            7   C1b C    20.6500  -25.5500
+            8   N1b N    21.9100  -26.2500
+            9   C8y C    23.1000  -25.5500
+            10  C8x C    24.2900  -26.2500
+            11  C8y C    25.5500  -25.5500
+            12  C8y C    25.5500  -24.1500
+            13  C8x C    24.2900  -23.4500
+            14  C8x C    23.1000  -24.1500
+            15  N1b N    26.7400  -23.4500
+            16  C7a C    27.9300  -24.1500
+            17  O7a O    29.1900  -23.4500
+            18  C1b C    30.3800  -24.1500
+            19  C1a C    31.5700  -23.4500
+            20  O6a O    27.9300  -25.5500
+            21  N1a N    26.7400  -26.2500
+            22  X   F    15.8200  -28.3500
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16   12  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   16  20 2
+            22   11  21 1
+            23    2  22 1
+///

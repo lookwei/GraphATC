@@ -1,0 +1,106 @@
+ENTRY       D01810                      Drug
+NAME        Nicorandil (JP18/USAN/INN);
+            Sigmart (TN)
+FORMULA     C8H9N3O4
+EXACT_MASS  211.0593
+MOL_WEIGHT  211.1748
+CLASS       Cardiovascular agent
+             DG01583  ATP-sensitive potassium channel opener
+             DG01657  Nitrovasodilator
+            Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+REMARK      Same as: C13280
+            Therapeutic category: 2171
+            ATC code: C01DX16
+            Product: D01810<JP>
+EFFICACY    Vasodilator (coronary)
+COMMENT     Nicothinic acid derivative
+TARGET      ABCC8(SUR1)/KCNJ11(KIR6.2) [HSA:6833 3767] [KO:K05032 K05004]
+            ABCC9(SUR2)/KCNJ11(KIR6.2) [HSA:10060 3767] [KO:K05033 K05004]
+            GUCY1A [HSA:2977 2982] [KO:K12318]
+            GUCY1B [HSA:2983] [KO:K12319]
+  PATHWAY   hsa02010(10060+6833)  ABC transporters
+            hsa04022(2977+2982+2983)  cGMP-PKG signaling pathway
+            hsa04270(2977+2982+2983)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07232  Potassium channel blocking and opening drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01D VASODILATORS USED IN CARDIAC DISEASES
+                C01DX Other vasodilators used in cardiac diseases
+                 C01DX16 Nicorandil
+                  D01810  Nicorandil (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               217  Vasodilators
+                2171  Coronary dilators
+                 D01810  Nicorandil (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01583  ATP-sensitive potassium channel opener
+               D01810  Nicorandil
+              DG01657  Nitrovasodilator
+               D01810  Nicorandil
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                D01810  Nicorandil
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8(SUR1)/KCNJ11(KIR6.2)
+                 D01810  Nicorandil (JP18/USAN/INN) &lt;JP&gt;
+                ABCC9(SUR2)/KCNJ11(KIR6.2)
+                 D01810  Nicorandil (JP18/USAN/INN) &lt;JP&gt;
+             Enzymes
+              Lyases (EC4)
+               Phosphorus-oxygen lyases
+                GUCY1A
+                 D01810  Nicorandil (JP18/USAN/INN) &lt;JP&gt;
+                GUCY1B
+                 D01810  Nicorandil (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01810  Nicorandil
+DBLINKS     CAS: 65141-46-0
+            PubChem: 7848872
+            ChEBI: 31905
+            LigandBox: D01810
+            NIKKAJI: J4.534I
+ATOM        15
+            1   C8x C    19.6303  -15.6381
+            2   C8x C    19.6303  -17.0409
+            3   C8x C    20.8481  -17.7423
+            4   C8y C    22.0587  -17.0409
+            5   C8x C    22.0587  -15.6381
+            6   N5x N    20.8481  -14.9368
+            7   C5a C    23.2647  -17.7351
+            8   N1b N    24.4762  -17.0338
+            9   C1b C    25.6877  -17.7282
+            10  C1b C    26.8992  -17.0268
+            11  O2a O    28.1106  -17.7210
+            12  N2b N    29.3221  -17.0196 #+
+            13  O3a O    30.5336  -17.7139 #-
+            14  O5a O    23.2664  -19.1379
+            15  O3a O    29.3190  -15.6169
+BOND        15
+            1     1   2 2
+            2     7   8 1
+            3     2   3 1
+            4     8   9 1
+            5     3   4 2
+            6     9  10 1
+            7     4   5 1
+            8    10  11 1
+            9     5   6 2
+            10   11  12 1
+            11    6   1 1
+            12   12  13 1
+            13    7  14 2
+            14    4   7 1
+            15   12  15 2
+///

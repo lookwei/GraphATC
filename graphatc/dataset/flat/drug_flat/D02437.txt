@@ -1,0 +1,68 @@
+ENTRY       D02437                      Drug
+NAME        Sulfaguanidine (INN)
+FORMULA     C7H10N4O2S
+EXACT_MASS  214.0524
+MOL_WEIGHT  214.2449
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01784  Short-acting sulfonamide
+REMARK      ATC code: A07AB03
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+COMMENT     Sulfonamide
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A07 ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS
+               A07A INTESTINAL ANTIINFECTIVES
+                A07AB Sulfonamides
+                 A07AB03 Sulfaguanidine
+                  D02437  Sulfaguanidine (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                D02437  Sulfaguanidine
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Short-acting sulfonamide
+                D02437  Sulfaguanidine (INN)
+DBLINKS     CAS: 57-67-0
+            PubChem: 7849495
+            PDB-CCD: QA9
+            LigandBox: D02437
+            NIKKAJI: J2.328K
+ATOM        14
+            1   C8y C    25.6570  -16.7657
+            2   S4a S    26.8767  -16.0620
+            3   C8x C    25.6570  -18.1731
+            4   C8x C    24.4842  -16.0620
+            5   N2b N    28.0963  -16.7657
+            6   O3c O    27.8618  -15.0769
+            7   O3c O    25.8915  -15.0769
+            8   C8x C    24.4842  -18.8767
+            9   C8x C    23.2645  -16.7657
+            10  C2c C    29.3161  -16.0620
+            11  C8y C    23.2645  -18.1731
+            12  N1a N    29.3161  -14.6547
+            13  N1a N    22.0447  -18.8767
+            14  N1a N    30.5348  -16.7659
+BOND        14
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 1
+            8     4   9 2
+            9     5  10 2
+            10    8  11 2
+            11   10  12 1
+            12   11  13 1
+            13    9  11 1
+            14   10  14 1
+///

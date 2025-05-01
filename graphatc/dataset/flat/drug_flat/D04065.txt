@@ -1,0 +1,135 @@
+ENTRY       D04065                      Drug
+NAME        Estradiol undecylate (USAN/INN);
+            Delestrec (TN)
+FORMULA     C29H44O3
+EXACT_MASS  440.329
+MOL_WEIGHT  440.6579
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G03CA03
+            Chemical structure group: DG00462
+            Product (DG00462): D00105<JP/US> D01413<JP/US> D04061<US> D04063<US> D07918<US>
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA03 Estradiol
+                  D04065  Estradiol undecylate (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00462  Estradiol
+                D04065  Estradiol undecylate
+              DG01584  Estrogen receptor agonist
+               DG00462  Estradiol
+                D04065  Estradiol undecylate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00462  Estradiol
+                 D04065  Estradiol undecylate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D04065  Estradiol undecylate (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04065
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00462  Estradiol
+              DG01584  Estrogen receptor agonist
+               DG00462  Estradiol
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00462  Estradiol
+DBLINKS     CAS: 3571-53-7
+            PubChem: 47206022
+            LigandBox: D04065
+            NIKKAJI: J8.162K
+ATOM        32
+            1   C8x C    14.6635  -19.0745
+            2   C8y C    14.6635  -20.4066
+            3   C8x C    15.8554  -21.1078
+            4   C8y C    17.0476  -20.4066
+            5   C8y C    17.0476  -19.0745
+            6   C8x C    15.8554  -18.3733
+            7   C1x C    18.2394  -21.1078
+            8   C1x C    19.4314  -20.4066
+            9   C1y C    19.4314  -19.0745
+            10  C1y C    18.2394  -18.3733
+            11  C1y C    20.6234  -18.3733
+            12  C1z C    20.6234  -17.0411
+            13  C1x C    19.4314  -16.3400
+            14  C1x C    18.2394  -17.0411
+            15  C1x C    22.9373  -18.3733
+            16  C1x C    22.9373  -17.0411
+            17  C1y C    21.7452  -16.3400
+            18  O7a O    21.7452  -15.0077
+            19  C1a C    20.6234  -15.6388
+            20  O1a O    13.4715  -21.1078
+            21  C7a C    22.9373  -14.3066
+            22  C1b C    24.1292  -15.0077
+            23  O6a O    22.9373  -12.9042
+            24  C1b C    25.3212  -14.3066
+            25  C1b C    26.5132  -15.0077
+            26  C1b C    27.7603  -14.3013
+            27  C1b C    28.9359  -14.9930
+            28  C1b C    30.1448  -14.3081
+            29  C1b C    31.3574  -15.0217
+            30  C1b C    32.5653  -14.3378
+            31  C1b C    33.7656  -15.0445
+            32  C1a C    34.9621  -14.3670
+BOND        35
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   17  18 1 #Up
+            22   12  19 1 #Up
+            23    2  20 1
+            24   18  21 1
+            25   21  22 1
+            26   21  23 2
+            27   22  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+///

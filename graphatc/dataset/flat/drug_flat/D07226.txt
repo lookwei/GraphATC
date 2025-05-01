@@ -1,0 +1,131 @@
+ENTRY       D07226                      Drug
+NAME        Fesoterodine (INN)
+FORMULA     C26H37NO3
+EXACT_MASS  411.2773
+MOL_WEIGHT  411.5769
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G04BD11
+            Chemical structure group: DG00483
+            Product (DG00483): D08923<JP/US>
+EFFICACY    Overactive bladder agent, Muscarinic acetylcholine receptor antagonist
+COMMENT     Treatment of overactive bladder
+TARGET      CHRM3 [HSA:1131] [KO:K04131]
+            CHRM2 [HSA:1129] [KO:K04130]
+  PATHWAY   hsa04020(1129+1131)  Calcium signaling pathway
+            hsa04080(1129+1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1129+1131)  Cholinergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BD Drugs for urinary frequency and incontinence
+                 G04BD11 Fesoterodine
+                  D07226  Fesoterodine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00483  Fesoterodine
+                D07226  Fesoterodine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00483  Fesoterodine
+                D07226  Fesoterodine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00483  Fesoterodine
+                 D07226  Fesoterodine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM2
+                 D07226  Fesoterodine (INN)
+                CHRM3
+                 D07226  Fesoterodine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07226
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00483  Fesoterodine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00483  Fesoterodine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00483  Fesoterodine
+DBLINKS     CAS: 286930-03-8
+            PubChem: 51091564
+            LigandBox: D07226
+ATOM        30
+            1   C1c C    11.4800  -24.5000
+            2   N1c N    12.6700  -25.2000
+            3   C1b C    13.8600  -24.5700
+            4   C1b C    15.0500  -25.2700
+            5   C1c C    16.3800  -24.5700
+            6   C8y C    17.5700  -25.2700
+            7   C8x C    18.7600  -24.5700
+            8   C8y C    20.0200  -25.2700
+            9   C1b C    21.2100  -24.6400
+            10  C1a C    11.4800  -23.1700
+            11  C1c C    12.6700  -26.6700
+            12  C1a C    11.4100  -27.3000
+            13  C1a C    13.9300  -27.3000
+            14  C8y C    17.5700  -26.6700
+            15  C8x C    20.0200  -26.6700
+            16  C8x C    18.7600  -27.3700
+            17  O7a O    16.3800  -27.3000
+            18  O1a O    22.4000  -25.3400
+            19  C1a C    10.2900  -25.2000
+            20  C8y C    16.3800  -23.1700
+            21  C8x C    17.6400  -22.4700
+            22  C8x C    17.6400  -21.0700
+            23  C8x C    16.4500  -20.3700
+            24  C8x C    15.1900  -21.0000
+            25  C8x C    15.1900  -22.4000
+            26  C7a C    16.3877  -28.7000
+            27  O6a O    17.5982  -29.3900
+            28  C1c C    15.1734  -29.4101
+            29  C1a C    13.9655  -28.7214
+            30  C1a C    15.1812  -30.8000
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     5   4 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 2
+            8     8   9 1
+            9     1  10 1
+            10    2  11 1
+            11   11  12 1
+            12   11  13 1
+            13    6  14 2
+            14    8  15 1
+            15   14  16 1
+            16   16  15 2
+            17   14  17 1
+            18    9  18 1
+            19    1  19 1
+            20    5  20 1 #Down
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  25 2
+            26   20  25 1
+            27   17  26 1
+            28   26  27 2
+            29   26  28 1
+            30   28  29 1
+            31   28  30 1
+///

@@ -1,0 +1,116 @@
+ENTRY       D02218                      Drug
+NAME        Papaverine hydrochloride (JP18/USP);
+            Pavabid (TN)
+FORMULA     C20H21NO4. HCl
+EXACT_MASS  375.1237
+MOL_WEIGHT  375.846
+REMARK      Therapeutic category: 1243
+            ATC code: A03AD01 G04BE02
+            Chemical structure group: DG00043
+            Product (DG00043): D02218<JP>
+            Product (mixture): D04252<JP>
+EFFICACY    Antispasmodic, Smooth muscle relaxant, Vasodilator, Phosphodiesterase inhibitor
+COMMENT     Papaverine derivative
+TARGET      PDE [HSA:10846 27115 50940 5136 5137 5138 5139 5140 5141 5142 5143 5144 5150 5151 5153 8622] [KO:K18438 K18436 K13298 K13755 K18283 K19021 K13296 K13293 K18437]
+  PATHWAY   hsa04020(5136+5137+5153)  Calcium signaling pathway
+            hsa04022(5138+5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(10846+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AD Papaverine and derivatives
+                 A03AD01 Papaverine
+                  D02218  Papaverine hydrochloride (JP18/USP) &lt;JP&gt;
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BE Drugs used in erectile dysfunction
+                 G04BE02 Papaverine
+                  D02218  Papaverine hydrochloride (JP18/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              12  Agents affecting peripheral nervous system
+               124  Antispasmodics
+                1243  Papaverines
+                 D02218  Papaverine hydrochloride (JP18/USP)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for digestive organs
+              15 Stomach pain and cramp relievers
+               D02218  Papaverine hydrochloride (JP18/USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Papaverine
+                D02218  Papaverine hydrochloride (JP18/USP)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D02218  Papaverine hydrochloride (JP18/USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02218  Papaverine hydrochloride
+              D02218  Papaverine hydrochloride injection
+DBLINKS     CAS: 61-25-6
+            PubChem: 7849277
+            LigandBox: D02218
+            NIKKAJI: J231.281F
+ATOM        26
+            1   C8y C    22.7751  -18.0380
+            2   C8y C    22.7751  -16.6387
+            3   C8y C    23.9414  -18.7377
+            4   C8x C    21.5624  -18.7377
+            5   C8x C    21.5624  -15.9389
+            6   C8x C    23.9880  -15.9389
+            7   C1b C    23.9414  -20.1371
+            8   N5x N    25.2008  -18.0380
+            9   C8y C    20.3496  -18.0380
+            10  C8y C    20.3496  -16.6387
+            11  C8x C    25.2008  -16.6387
+            12  C8y C    25.1541  -20.8368
+            13  O2a O    19.1368  -18.7377
+            14  O2a O    19.1368  -15.9389
+            15  C8x C    26.3670  -20.1371
+            16  C8x C    25.1541  -22.2363
+            17  C1a C    17.9240  -18.0380
+            18  C1a C    17.9240  -16.6387
+            19  C8y C    27.5797  -20.8368
+            20  C8x C    26.3669  -22.9359
+            21  C8y C    27.5797  -22.2363
+            22  O2a O    28.7926  -20.0905
+            23  O2a O    28.7926  -22.8893
+            24  C1a C    30.0064  -20.7468
+            25  C1a C    29.9669  -22.1638
+            26  X   Cl   34.1144  -21.4905
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    9  13 1
+            13   10  14 1
+            14   12  15 1
+            15   12  16 2
+            16   13  17 1
+            17   14  18 1
+            18   15  19 2
+            19   16  20 1
+            20   19  21 1
+            21   19  22 1
+            22   21  23 1
+            23    8  11 1
+            24    9  10 2
+            25   20  21 2
+            26   22  24 1
+            27   23  25 1
+///

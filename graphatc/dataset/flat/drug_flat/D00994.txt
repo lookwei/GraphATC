@@ -1,0 +1,81 @@
+ENTRY       D00994                      Drug
+NAME        Edrophonium chloride (JP18/USP/INN);
+            Enlon (TN);
+            Tensilon (TN)
+FORMULA     C10H16NO. Cl
+EXACT_MASS  201.092
+MOL_WEIGHT  201.6931
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+REMARK      Therapeutic category: 7229
+            ATC code: V04CX07
+            Product: D00994<JP>
+EFFICACY    Antidote (to curare principles), Diagnostic aid (myasthenia gravis)
+  DISEASE   Myasthenia gravis (emergency treatment) [DS:H01594]
+COMMENT     Reversible cholinesterase inhibitor
+TARGET      ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa04725(43)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CX Other diagnostic agents
+                 V04CX07 Edrophonium
+                  D00994  Edrophonium chloride (JP18/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             7  Agents not mainly for therapeutic purpose
+              72  Intracorporeal diagnostic agents
+               722  Various function testing reagents
+                7229  Others
+                 D00994  Edrophonium chloride (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                D00994  Edrophonium chloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D00994  Edrophonium chloride (JP18/USP/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00994  Edrophonium chloride
+              D00994  Edrophonium chloride injection
+DBLINKS     CAS: 116-38-1
+            PubChem: 7848057
+            ChEBI: 4759
+            LigandBox: D00994
+            NIKKAJI: J259.353J
+ATOM        13
+            1   X   Cl   26.0173  -22.4203 #-
+            2   C8y C    19.6834  -21.6392
+            3   C8x C    19.6834  -23.0409
+            4   C8x C    20.8974  -23.7418
+            5   C8x C    22.1114  -23.0409
+            6   C8y C    22.1114  -21.6392
+            7   C8x C    20.8974  -20.9383
+            8   O1a O    18.4695  -20.9383
+            9   N1d N    23.3441  -20.9272 #+
+            10  C1b C    24.5509  -21.6238
+            11  C1a C    25.7348  -20.9402
+            12  C1a C    23.3441  -19.5254
+            13  C1a C    23.3441  -22.3290
+BOND        12
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   7 1
+            6     2   7 2
+            7     2   8 1
+            8     6   9 1
+            9     9  10 1
+            10   10  11 1
+            11    9  12 1
+            12    9  13 1
+///

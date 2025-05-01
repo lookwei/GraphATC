@@ -1,0 +1,113 @@
+ENTRY       D00555                      Drug
+NAME        Amobarbital (JP18/INN);
+            Isomytal (TN)
+FORMULA     C11H18N2O3
+EXACT_MASS  226.1317
+MOL_WEIGHT  226.2722
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+REMARK      Same as: C07536
+            Therapeutic category: 1125
+            ATC code: N05CA02
+            Chemical structure group: DG00916
+            Product (DG00916): D00555<JP>
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551]
+STR_MAP     map07032  Hypnotics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA02 Amobarbital
+                  D00555  Amobarbital (JP18/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1125  Barbiturates and thiobarbiturates
+                 D00555  Amobarbital (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00916  Amobarbital
+                D00555  Amobarbital
+              DG01567  GABA-A receptor agonist
+               DG00916  Amobarbital
+                D00555  Amobarbital
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00916  Amobarbital
+                D00555  Amobarbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00555  Amobarbital (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00555  Amobarbital
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00555
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D00555
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00916  Amobarbital
+              DG01567  GABA-A receptor agonist
+               DG00916  Amobarbital
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG00916  Amobarbital
+DBLINKS     CAS: 57-43-2
+            PubChem: 7847621
+            ChEBI: 2673
+            LigandBox: D00555
+            NIKKAJI: J1.381A
+ATOM        16
+            1   C1z C    20.9187  -17.4474
+            2   C5x C    20.9187  -18.8579
+            3   C5x C    19.7006  -16.7423
+            4   C1b C    22.4050  -17.4533
+            5   C1b C    20.9071  -16.0952
+            6   N1x N    19.7006  -19.5633
+            7   O5x O    22.1311  -19.5633
+            8   N2x N    18.4767  -17.4474
+            9   O5x O    19.7006  -15.3377
+            10  C1b C    23.1103  -16.4509
+            11  C1a C    22.1195  -15.3841
+            12  C2y C    18.4767  -18.8579
+            13  C1c C    24.5440  -16.4566
+            14  O1a O    17.2525  -19.5633
+            15  C1a C    25.2493  -17.6748
+            16  C1a C    25.2493  -15.2385
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12   10  13 1
+            13   12  14 1
+            14   13  15 1
+            15   13  16 1
+            16    8  12 2
+///

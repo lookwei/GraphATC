@@ -1,0 +1,160 @@
+ENTRY       D10309                      Drug
+NAME        Brexpiprazole (JAN/USAN/INN);
+            Rexulti (TN)
+PRODUCT     REXULTI (Otsuka America Pharmaceutical)
+            REXULTI (REMEDYREPACK)
+  GENERIC   BREXPIPRAZOLE (Ajanta Pharma USA)
+            BREXPIPRAZOLE (Amneal Pharmaceuticals NY LLC)
+FORMULA     C25H27N3O2S
+EXACT_MASS  433.1824
+MOL_WEIGHT  433.5658
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 1179
+            ATC code: N05AX16
+            Product: D10309<JP/US>
+EFFICACY    Antipsychotic
+  DISEASE   Major depressive disorder [DS:H01646]
+            Schizophrenia [DS:H01649]
+COMMENT     Serotonin-dopamine activity modulator (SDAM)
+            Treatment of schizophrenia, psychiatric disorders
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            HTR1A [HSA:3350] [KO:K04153]
+            HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04080(1813+3350+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3356)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AX Other antipsychotics
+                 N05AX16 Brexpiprazole
+                  D10309  Brexpiprazole (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              2nd Generation/Atypical
+               Brexpiprazole
+                D10309  Brexpiprazole (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1179  Others
+                 D10309  Brexpiprazole (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               D10309  Brexpiprazole
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D10309  Brexpiprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10309  Brexpiprazole
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D10309  Brexpiprazole (JAN/USAN/INN) &lt;JP/US&gt;
+               Serotonin
+                HTR1A
+                 D10309  Brexpiprazole (JAN/USAN/INN) &lt;JP/US&gt;
+                HTR2A
+                 D10309  Brexpiprazole (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10309
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10309
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10309
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10309
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10309
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D10309
+DBLINKS     CAS: 913611-97-9
+            PubChem: 172232423
+ATOM        31
+            1   C8y C    16.9400  -18.4800
+            2   C8x C    16.9400  -17.0800
+            3   C8x C    15.7500  -16.3800
+            4   C8x C    15.7500  -19.1800
+            5   C8y C    14.4900  -18.4800
+            6   C8y C    14.4900  -17.0800
+            7   C8x C    12.1100  -17.0100
+            8   C8y C    12.1100  -18.4100
+            9   N4x N    13.3000  -19.1800
+            10  O5x O    10.8500  -19.1100
+            11  O2a O    18.1300  -19.1800
+            12  C1b C    19.3900  -18.4800
+            13  C1b C    20.5800  -19.1800
+            14  C1b C    21.7700  -18.4800
+            15  C1b C    23.0300  -19.1800
+            16  N1y N    24.2200  -18.4800
+            17  C1x C    25.4100  -19.1800
+            18  C1x C    26.6700  -18.4800
+            19  N1y N    26.6700  -17.0800
+            20  C1x C    25.4100  -16.3800
+            21  C1x C    24.2200  -17.0800
+            22  C8y C    27.8600  -16.3800
+            23  C8y C    29.0500  -17.0800
+            24  C8y C    30.3100  -16.3800
+            25  C8x C    30.3100  -14.9800
+            26  C8x C    29.0500  -14.2800
+            27  C8x C    27.8600  -14.9800
+            28  C8x C    13.3000  -16.3800
+            29  C8x C    29.3300  -18.4800
+            30  C8x C    30.7300  -18.6900
+            31  S2x S    31.3600  -17.3600
+BOND        35
+            1     5   4 2
+            2    14  15 1
+            3     5   6 1
+            4    15  16 1
+            5    28   7 2
+            6     7   8 1
+            7     8   9 1
+            8     9   5 1
+            9     4   1 1
+            10   16  17 1
+            11   17  18 1
+            12   18  19 1
+            13   19  20 1
+            14   20  21 1
+            15   21  16 1
+            16    8  10 2
+            17   19  22 1
+            18    1  11 1
+            19    1   2 2
+            20   11  12 1
+            21    2   3 1
+            22   22  23 2
+            23   23  24 1
+            24   24  25 2
+            25   25  26 1
+            26   26  27 2
+            27   27  22 1
+            28   12  13 1
+            29    3   6 2
+            30   13  14 1
+            31    6  28 1
+            32   23  29 1
+            33   29  30 2
+            34   30  31 1
+            35   24  31 1
+///

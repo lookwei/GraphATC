@@ -1,0 +1,173 @@
+ENTRY       D00642                      Drug
+NAME        Quinidine gluconate (USP);
+            Quinaglute (TN)
+PRODUCT
+  GENERIC   QUINIDINE GLUCONATE (Eywa Pharma)
+            QUINIDINE GLUCONATE (Golden State Medical Supply)
+            QUINIDINE GLUCONATE (Richmond Pharmaceuticals)
+            QUINIDINE GLUCONATE (Sun Pharmaceutical Industries)
+FORMULA     C20H24N2O2. C6H12O7
+EXACT_MASS  520.2421
+MOL_WEIGHT  520.572
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+REMARK      ATC code: C01BA01
+            Chemical structure group: DG00192
+            Product (DG00192): D00642<US> D02272<JP/US>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07025  Quinolines
+            map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA01 Quinidine
+                  D00642  Quinidine gluconate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Antiarrhythmics
+               Vaughn Williams-Class I
+                Quinidine
+                 D00642  Quinidine gluconate (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00192  Quinidine
+                  D00642  Quinidine gluconate
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               D00642  Quinidine gluconate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN2A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN3A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN4A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN5A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN8A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN9A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN10A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+                SCN11A
+                 D00642  Quinidine gluconate (USP) &lt;US&gt;
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00642
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00192  Quinidine
+DBLINKS     CAS: 7054-25-3
+            PubChem: 7847708
+            ChEBI: 27502
+            LigandBox: D00642
+            NIKKAJI: J231.528I
+ATOM        37
+            1   C8y C    17.1259  -25.8770
+            2   C8y C    18.3511  -25.1828
+            3   C8y C    17.1200  -27.2832
+            4   C8x C    15.9240  -25.1769
+            5   C1c C    18.3568  -23.7825
+            6   C8x C    19.5645  -25.8887
+            7   C8x C    15.9240  -27.9891
+            8   N5x N    18.3394  -27.9948
+            9   C8y C    14.7046  -25.8770
+            10  C1y C    19.5762  -23.0824
+            11  O1a O    17.1374  -23.0707
+            12  C8x C    19.5588  -27.2949
+            13  C8x C    14.7046  -27.2832
+            14  O2a O    13.4911  -25.1769
+            15  N1y N    21.0115  -22.2073
+            16  C1x C    18.8470  -22.0381
+            17  C1a C    13.4911  -23.7766
+            18  C1x C    21.0115  -20.9704
+            19  C1x C    22.5109  -23.0124
+            20  C1y C    20.2589  -21.2038
+            21  C1y C    20.2647  -20.2178
+            22  C1x C    21.8167  -21.9038
+            23  C2b C    19.7280  -18.9109
+            24  C2a C    20.5914  -17.8024
+            25  C1c C    28.2753  -26.6350
+            26  C1c C    27.0735  -25.9406
+            27  C1c C    29.4887  -25.9406
+            28  O1a O    28.2753  -28.0410
+            29  C1c C    25.8598  -26.6350
+            30  O1a O    27.0735  -24.5346
+            31  C6a C    30.7024  -26.6350
+            32  O1a O    29.4887  -24.5346
+            33  C1b C    24.6464  -25.9406
+            34  O1a O    25.8598  -28.0410
+            35  O6a O    31.9158  -25.9406
+            36  O6a O    30.7024  -28.0410
+            37  O1a O    23.4327  -26.6350
+BOND        39
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    7  13 1
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1
+            16   14  17 1
+            17   15  18 1
+            18   15  19 1
+            19   16  20 1
+            20   18  21 1
+            21   19  22 1
+            22   21  23 1 #Up
+            23   23  24 2
+            24    8  12 2
+            25    9  13 2
+            26   20  21 1
+            27   20  22 1
+            28   25  26 1
+            29   25  27 1
+            30   25  28 1 #Up
+            31   26  29 1
+            32   26  30 1 #Up
+            33   27  31 1
+            34   27  32 1 #Up
+            35   29  33 1
+            36   29  34 1 #Down
+            37   31  35 1
+            38   31  36 2
+            39   33  37 1
+///

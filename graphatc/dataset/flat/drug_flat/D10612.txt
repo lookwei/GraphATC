@@ -1,0 +1,117 @@
+ENTRY       D10612                      Drug
+NAME        Benzhydrocodone (USAN/INN)
+FORMULA     C25H25NO4
+EXACT_MASS  403.1784
+MOL_WEIGHT  403.4703
+CLASS       Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Chemical structure group: DG01850
+            Product (mixture): D11628<US>
+EFFICACY    Analgesic, Opioid receptor agonist
+COMMENT     Active form of prodrug: Hydrocodone [DR:D08045]
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+            hsa05032(4988)  Morphine addiction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01850  Benzhydrocodone
+                D10612  Benzhydrocodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01850  Benzhydrocodone
+                 D10612  Benzhydrocodone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D10612  Benzhydrocodone (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10612
+            Prodrugs [br08324.html]
+             D10612
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01850  Benzhydrocodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01850  Benzhydrocodone
+            Prodrugs [br08324.html(DG01850)]
+             DG01850
+DBLINKS     CAS: 1259440-61-3
+            PubChem: 254741573
+ATOM        30
+            1   N1y N    22.7621  -15.4269
+            2   C1a C    23.7991  -16.5332
+            3   C8y C    18.1976  -11.5540
+            4   C8y C    18.1976  -12.7988
+            5   C8y C    19.3733  -13.4904
+            6   C8y C    20.4799  -12.7988
+            7   C8x C    20.4799  -11.5540
+            8   C8x C    19.3733  -10.8624
+            9   C1z C    19.3733  -14.8045
+            10  C1y C    20.4799  -15.4961
+            11  C1y C    21.6556  -14.8045
+            12  C1x C    21.6556  -13.4904
+            13  C1y C    18.1976  -15.4961
+            14  C2y C    18.1976  -16.8102
+            15  C2x C    19.3733  -17.5018
+            16  C1x C    20.4799  -16.8102
+            17  O2x O    17.2985  -14.1129
+            18  O2a O    17.0218  -10.8624
+            19  C1x C    20.3416  -13.9054
+            20  C1x C    22.7623  -13.9054
+            21  C1a C    15.8460  -11.4849
+            22  O7a O    17.0218  -17.5018
+            23  C7a C    17.0218  -18.8159
+            24  C8y C    15.8460  -19.5075
+            25  O6a O    18.1976  -19.5075
+            26  C8x C    14.6703  -18.8159
+            27  C8x C    13.4945  -19.5075
+            28  C8x C    13.4945  -20.8907
+            29  C8x C    14.6703  -21.5823
+            30  C8x C    15.8460  -20.8907
+BOND        35
+            1     1   2 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   7 1
+            6     7   8 2
+            7     3   8 1
+            8     5   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12    6  12 1
+            13    9  13 1
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   10  16 1
+            18    4  17 1
+            19    3  18 1
+            20    9  19 1 #Up
+            21   20  19 1
+            22   18  21 1
+            23   22  23 1
+            24   23  24 1
+            25   23  25 2
+            26   24  26 2
+            27   26  27 1
+            28   27  28 2
+            29   28  29 1
+            30   29  30 2
+            31   24  30 1
+            32   14  22 1
+            33   13  17 1
+            34    1  20 1
+            35   11   1 1 #Up
+///

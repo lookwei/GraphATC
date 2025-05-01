@@ -1,0 +1,51 @@
+ENTRY       C01879                      Compound
+NAME        5-Oxoproline;
+            Pidolic acid;
+            Pyroglutamic acid;
+            5-Pyrrolidone-2-carboxylic acid;
+            Pyroglutamate;
+            5-Oxo-L-proline;
+            L-Pyroglutamic acid;
+            L-5-Pyrrolidone-2-carboxylic acid
+FORMULA     C5H7NO3
+EXACT_MASS  129.0426
+MOL_WEIGHT  129.114
+REACTION    R00251 R02743 R03749 R08910 R11861 R11862
+PATHWAY     map00480  Glutathione metabolism
+            map01100  Metabolic pathways
+NETWORK     nt06026  Glutathione biosynthesis
+ENZYME      3.5.2.9         4.3.2.6         4.3.2.7         4.3.2.8         
+            4.3.2.9
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C01879  Pidolic acid
+DBLINKS     CAS: 98-79-3
+            PubChem: 4992
+            ChEBI: 18183
+            KNApSAcK: C00007403
+            PDB-CCD: PCA
+            3DMET: B00365
+            NIKKAJI: J4.959J
+ATOM        9
+            1   C5x C    15.7399  -20.4912
+            2   C1x C    16.1514  -21.8294
+            3   C1x C    17.5512  -21.8516
+            4   C1y C    18.0049  -20.5271
+            5   N1x N    16.8855  -19.6864
+            6   C6a C    19.2024  -19.8100
+            7   O6a O    20.4149  -20.5100
+            8   O6a O    19.2024  -18.4100
+            9   O5x O    14.4303  -20.0428
+BOND        9
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     4   6 1 #Down
+            7     6   7 1
+            8     6   8 2
+            9     1   9 2
+///

@@ -1,0 +1,139 @@
+ENTRY       D07727                      Drug
+NAME        Clomipramine (INN);
+            Anafranil (TN)
+FORMULA     C19H23ClN2
+EXACT_MASS  314.155
+MOL_WEIGHT  314.8523
+CLASS       Neuropsychiatric agent
+             DG01730  Non-selective monoamine reuptake inhibitor
+             DG01728  Tricyclic antidepressant
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C06918
+            ATC code: N06AA04
+            Chemical structure group: DG00929
+            Product (DG00929): D00811<JP/US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]; CYP1A2 [HSA:1544], CYP3A4 [HSA:1576], CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AA Non-selective monoamine reuptake inhibitors
+                 N06AA04 Clomipramine
+                  D07727  Clomipramine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00929  Clomipramine
+                D07727  Clomipramine
+              DG01728  Tricyclic antidepressant
+               DG00929  Clomipramine
+                D07727  Clomipramine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00929  Clomipramine
+                D07727  Clomipramine
+              DG01639  CYP2C19 substrate
+               DG00929  Clomipramine
+                D07727  Clomipramine
+              DG01644  CYP2D6 substrate
+               DG00929  Clomipramine
+                D07727  Clomipramine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00929  Clomipramine
+                 D07727  Clomipramine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D07727  Clomipramine (INN)
+                SLC6A4 (HTT)
+                 D07727  Clomipramine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07727
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01730  Non-selective monoamine reuptake inhibitor
+               DG00929  Clomipramine
+              DG01728  Tricyclic antidepressant
+               DG00929  Clomipramine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00929  Clomipramine
+              DG01639  CYP2C19 substrate
+               DG00929  Clomipramine
+              DG01644  CYP2D6 substrate
+               DG00929  Clomipramine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00929  Clomipramine
+DBLINKS     CAS: 303-49-1
+            PubChem: 51092023
+            ChEBI: 47780
+            PDB-CCD: CXX
+            LigandBox: D07727
+            NIKKAJI: J8.630D
+ATOM        22
+            1   C1x C    23.3100  -21.2100
+            2   C8y C    22.4700  -20.0900
+            3   C8y C    22.7500  -18.6900
+            4   N1y N    24.0800  -18.1300
+            5   C1x C    24.7100  -21.2100
+            6   C8y C    25.2700  -18.7600
+            7   C8y C    25.6200  -20.1600
+            8   C8x C    21.7700  -17.7800
+            9   C8y C    20.4400  -18.1300
+            10  C8x C    20.0900  -19.5300
+            11  C8x C    21.0700  -20.4400
+            12  C8x C    26.9500  -20.5800
+            13  C8x C    28.0000  -19.6700
+            14  C8x C    27.7200  -18.2700
+            15  C8x C    26.3200  -17.8500
+            16  X   Cl   19.3900  -17.1500
+            17  C1b C    24.0800  -16.7300
+            18  C1b C    25.2700  -16.1000
+            19  C1b C    26.4600  -16.8000
+            20  N1c N    27.7200  -16.1000
+            21  C1a C    28.9100  -16.8700
+            22  C1a C    27.7200  -14.7000
+BOND        24
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    9  16 1
+            19    4  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   20  22 1
+///

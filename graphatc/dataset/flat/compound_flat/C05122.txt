@@ -1,0 +1,112 @@
+ENTRY       C05122                      Compound
+NAME        Taurocholate;
+            Taurocholic acid;
+            Cholyltaurine
+FORMULA     C26H45NO7S
+EXACT_MASS  515.2917
+MOL_WEIGHT  515.703
+REACTION    R02797 R03720
+PATHWAY     map00120  Primary bile acid biosynthesis
+            map00121  Secondary bile acid biosynthesis
+            map00430  Taurine and hypotaurine metabolism
+            map01100  Metabolic pathways
+            map04976  Bile secretion
+            map04979  Cholesterol metabolism
+MODULE      M00106  Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate
+ENZYME      2.3.1.65        3.5.1.24
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              24-Carbon atoms
+               Cholane derivatives
+                C05122  Taurocholate
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST04 Bile acids and derivatives
+               ST0402 C26 bile acids, alcohols, and derivatives
+                C05122  Taurocholic acid
+              ST05 Steroid conjugates
+               ST0504 Taurine conjugates
+                C05122  Taurocholate
+DBLINKS     CAS: 81-24-3
+            PubChem: 7544
+            ChEBI: 181348 28865
+            LIPIDMAPS: LMST05040001
+            PDB-CCD: TCH
+            3DMET: B04981
+            NIKKAJI: J8.603G
+ATOM        35
+            1   C1y C    14.9886  -18.2170
+            2   C1y C    16.0967  -17.5276
+            3   C1y C    13.7484  -17.5398
+            4   C1y C    14.9257  -19.5710
+            5   C1z C    16.1028  -16.1674
+            6   C1x C    18.4512  -17.5404
+            7   C1z C    12.5834  -18.2229
+            8   C1x C    13.8049  -16.1857
+            9   C1x C    13.7545  -20.2357
+            10  O1a O    16.0784  -20.2357
+            11  C1y C    17.2800  -15.4904
+            12  C1y C    14.9135  -15.4963
+            13  C1a C    16.1286  -14.7519
+            14  C1x C    18.4512  -16.1796
+            15  C1y C    12.5834  -19.5648
+            16  C1x C    11.4183  -17.5580
+            17  C1a C    12.5773  -16.8993
+            18  C1c C    17.2863  -13.6137
+            19  O1a O    14.7932  -14.2052
+            20  C1x C    11.4183  -20.2419
+            21  C1x C    10.2716  -18.2229
+            22  C1b C    18.4329  -12.9487
+            23  C1a C    16.0709  -12.6685
+            24  C1y C    10.2716  -19.5648
+            25  C1b C    19.5796  -13.6197
+            26  O1a O     9.1189  -20.2236
+            27  C5a C    20.7324  -12.9610
+            28  N1b N    21.8791  -13.6258
+            29  O5a O    20.7391  -11.6312
+            30  C1b C    23.0651  -12.9500
+            31  C1b C    24.2626  -13.6413
+            32  S4a S    25.6626  -13.6413
+            33  O1d O    25.6626  -15.0413
+            34  O1d O    25.6626  -12.2413
+            35  O1d O    27.0626  -13.6413
+BOND        38
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     4  10 1 #Down
+            10    5  11 1
+            11    5  12 1
+            12    5  13 1 #Up
+            13    6  14 1
+            14    7  15 1
+            15    7  16 1
+            16    7  17 1 #Up
+            17   11  18 1
+            18   12  19 1 #Down
+            19   15  20 1
+            20   16  21 1
+            21   18  22 1
+            22   18  23 1 #Down
+            23   20  24 1
+            24   22  25 1
+            25   24  26 1 #Down
+            26   25  27 1
+            27   27  28 1
+            28   27  29 2
+            29    8  12 1
+            30    9  15 1
+            31   11  14 1
+            32   21  24 1
+            33   28  30 1
+            34   30  31 1
+            35   31  32 1
+            36   32  33 2
+            37   32  34 2
+            38   32  35 1
+///

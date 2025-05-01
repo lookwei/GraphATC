@@ -1,0 +1,92 @@
+ENTRY       D03889                      Drug
+NAME        Donetidine (USAN)
+FORMULA     C20H25N5O3S
+EXACT_MASS  415.1678
+MOL_WEIGHT  415.5092
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                D03889  Donetidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D03889  Donetidine (USAN)
+DBLINKS     CAS: 99248-32-5
+            PubChem: 17397973
+            ChEBI: 188848
+            LigandBox: D03889
+            NIKKAJI: J39.196D
+ATOM        29
+            1   C8x C    15.2600  -21.4900
+            2   C8x C    13.8600  -21.4900
+            3   C8y C    13.4400  -22.8200
+            4   O2x O    14.5600  -23.6600
+            5   C8y C    15.6800  -22.8200
+            6   C1b C    12.2500  -23.5200
+            7   N1c N    10.9900  -22.8200
+            8   C1a C     9.8000  -23.5200
+            9   C1a C    10.9900  -21.4200
+            10  C1b C    16.8924  -23.5200
+            11  S2a S    18.1049  -22.8200
+            12  C1b C    19.3173  -23.5200
+            13  C1b C    20.5297  -22.8200
+            14  N1b N    21.7422  -23.5200
+            15  C8y C    22.9546  -22.8200
+            16  N4x N    24.1711  -23.5223
+            17  C8x C    25.3835  -22.8223
+            18  C8y C    25.3835  -21.4223
+            19  C8y C    24.1671  -20.7200
+            20  N5x N    22.9546  -21.4200
+            21  O5x O    24.1671  -19.3201
+            22  C1b C    26.6167  -20.7102
+            23  C8y C    27.8208  -21.4053
+            24  C8x C    27.8212  -22.8197
+            25  C8y C    29.0338  -23.5193
+            26  N4x N    30.2461  -22.8190
+            27  C8x C    30.2457  -21.4046
+            28  C8x C    29.0331  -20.7049
+            29  O5x O    29.0342  -24.9199
+BOND        31
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     3   6 1
+            7     6   7 1
+            8     7   8 1
+            9     7   9 1
+            10    5  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 1
+            21   15  20 2
+            22   19  21 2
+            23   18  22 1
+            24   22  23 1
+            25   23  24 2
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 2
+            30   23  28 1
+            31   25  29 2
+///

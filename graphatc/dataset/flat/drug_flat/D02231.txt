@@ -1,0 +1,131 @@
+ENTRY       D02231                      Drug
+NAME        Cloxacillin sodium (USP);
+            Cloxacillin sodium hydrate (JP18);
+            Cloxapen (TN);
+            Tegopen (TN)
+FORMULA     C19H17ClN3O5S. Na. H2O
+EXACT_MASS  475.0581
+MOL_WEIGHT  475.8784
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01779  beta-Lactamase resistant penicillin
+REMARK      Same as: C14010
+            ATC code: J01CF02
+            Chemical structure group: DG00541
+            Product (mixture): D02502<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CF Beta-lactamase resistant penicillins
+                 J01CF02 Cloxacillin
+                  D02231  Cloxacillin sodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00541  Cloxacillin
+                  D02231  Cloxacillin sodium
+              DG01779  beta-Lactamase resistant penicillin
+               DG00541  Cloxacillin
+                D02231  Cloxacillin sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                D02231  Cloxacillin sodium (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02231  Cloxacillin sodium hydrate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00541  Cloxacillin
+              DG01779  beta-Lactamase resistant penicillin
+               DG00541  Cloxacillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                DG00541  Cloxacillin
+DBLINKS     CAS: 7081-44-9
+            PubChem: 7849290
+            ChEBI: 34978
+            LigandBox: D02231
+            NIKKAJI: J1.591.904C
+ATOM        31
+            1   C1y C    27.5483  -14.8950
+            2   C5x C    27.5483  -16.2592
+            3   N1y N    28.9125  -16.2592
+            4   C1y C    28.9125  -14.8950
+            5   C1y C    30.2085  -16.6684
+            6   C1z C    31.0270  -15.5771
+            7   S2x S    30.2085  -14.4858
+            8   C1a C    31.9819  -16.5320
+            9   C1a C    31.9819  -14.6222
+            10  C6a C    30.6859  -18.0326
+            11  O6a O    32.0501  -18.0326 #-
+            12  O6a O    29.8674  -19.1240
+            13  N1b N    26.3888  -14.2129
+            14  C5a C    25.2292  -14.8950
+            15  O5x O    26.3888  -16.9413
+            16  O5a O    25.2292  -16.2592
+            17  C8y C    24.0015  -14.2129
+            18  C8y C    24.0015  -12.8488
+            19  O2x O    22.7040  -12.4272
+            20  N5x N    21.9022  -13.5308
+            21  C8y C    22.7040  -14.6345
+            22  C1a C    25.1051  -12.0469
+            23  C8y C    22.7040  -16.0345
+            24  C8y C    21.4757  -16.7439
+            25  C8x C    21.4759  -18.1439
+            26  C8x C    22.6884  -18.8437
+            27  C8x C    23.9167  -18.1343
+            28  C8x C    23.9165  -16.7343
+            29  X   Cl   20.2680  -16.0468
+            30  Z   Na   33.6189  -18.1008 #+
+            31  O0  O    33.8917  -19.8743
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 1
+            22   20  21 2
+            23   17  21 1
+            24   18  22 1
+            25   21  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   23  28 1
+            32   24  29 1
+///

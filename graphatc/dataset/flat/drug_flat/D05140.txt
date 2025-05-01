@@ -1,0 +1,153 @@
+ENTRY       D05140                      Drug
+NAME        Framycetin (INN);
+            Fradiomycin B;
+            Neomycin B;
+            FRM
+FORMULA     C23H46N6O13
+EXACT_MASS  614.3123
+MOL_WEIGHT  614.6437
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C01737
+            ATC code: D09AA01 R01AX08 S01AA07
+            Chemical structure group: DG01446
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+SYN_MAP     map00524(C01737)  Neomycin, kanamycin and gentamicin biosynthesis
+STR_MAP     map07021  Aminoglycosides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D09 MEDICATED DRESSINGS
+               D09A MEDICATED DRESSINGS
+                D09AA Medicated dressings with antiinfectives
+                 D09AA01 Framycetin
+                  D05140  Framycetin (INN)
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AX Other nasal preparations
+                 R01AX08 Framycetin
+                  D05140  Framycetin (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA07 Framycetin
+                  D05140  Framycetin (INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Fradiomycin
+                D05140  Framycetin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG01446  Framycetin
+                D05140  Framycetin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D05140  Framycetin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG01446  Framycetin
+DBLINKS     CAS: 119-04-0
+            PubChem: 17398248
+            ChEBI: 7508
+            PDB-CCD: NMY
+            LigandBox: D05140
+            NIKKAJI: J4.458J
+ATOM        42
+            1   C1y C    18.5833  -19.8269
+            2   C1y C    18.5833  -21.2133
+            3   C1y C    19.8310  -21.9065
+            4   C1y C    21.0095  -21.2133
+            5   C1y C    21.0095  -19.8269
+            6   O2x O    19.8310  -19.1338
+            7   O2a O    22.1879  -19.1338
+            8   C1y C    24.4062  -17.9554
+            9   C1y C    24.8221  -16.6383
+            10  O2x O    23.7129  -15.8758
+            11  C1y C    22.6038  -16.6383
+            12  C1y C    23.0198  -17.9554
+            13  O2a O    26.4855  -16.2224
+            14  O1a O    26.9013  -18.9951
+            15  C1y C    28.0797  -18.3019
+            16  C1y C    29.2581  -18.9951
+            17  C1x C    30.4365  -18.3019
+            18  C1y C    30.4365  -16.9155
+            19  C1y C    29.2581  -16.2224
+            20  C1y C    28.0797  -16.9155
+            21  N1a N    29.2581  -20.3815
+            22  N1a N    31.6149  -16.2224
+            23  O2a O    29.2581  -14.8360
+            24  C1y C    30.4365  -14.1428
+            25  O2x O    31.6149  -14.8360
+            26  C1y C    32.7934  -14.1428
+            27  C1y C    32.7934  -12.7564
+            28  C1y C    31.6149  -12.0632
+            29  C1y C    30.4365  -12.7564
+            30  C1b C    34.0411  -14.7666
+            31  N1a N    34.0411  -16.1530
+            32  N1a N    29.1887  -12.0632
+            33  O1a O    31.6149  -10.6768
+            34  O1a O    34.0411  -11.9939
+            35  C1b C    21.2868  -16.2224
+            36  O1a O    25.2380  -19.1338
+            37  O1a O    20.2469  -17.1928
+            38  C1b C    17.4049  -19.1338
+            39  O1a O    17.4049  -21.9065
+            40  N1a N    22.1879  -21.9065
+            41  O1a O    19.8310  -23.2929
+            42  N1a N    16.1987  -19.8171
+BOND        45
+            1    25  26 1
+            2    26  27 1
+            3    27  28 1
+            4    28  29 1
+            5    29  24 1
+            6    26  30 1 #Up
+            7    15  14 1 #Down
+            8    30  31 1
+            9     5   7 1 #Down
+            10   29  32 1 #Down
+            11   28  33 1 #Up
+            12    1   2 1
+            13   27  34 1 #Down
+            14    2   3 1
+            15   11  35 1 #Up
+            16   12   7 1 #Down
+            17    3   4 1
+            18    8  36 1 #Down
+            19   15  16 1
+            20   35  37 1
+            21   16  17 1
+            22    1  38 1 #Down
+            23   17  18 1
+            24    2  39 1 #Down
+            25   18  19 1
+            26    4  40 1 #Down
+            27   19  20 1
+            28    3  41 1 #Up
+            29   20  15 1
+            30    4   5 1
+            31   16  21 1 #Up
+            32    8   9 1
+            33   18  22 1 #Up
+            34    9  10 1
+            35   19  23 1 #Down
+            36   20  13 1 #Up
+            37   10  11 1
+            38   24  23 1 #Down
+            39   11  12 1
+            40   12   8 1
+            41    5   6 1
+            42    9  13 1 #Up
+            43    6   1 1
+            44   24  25 1
+            45   38  42 1
+///

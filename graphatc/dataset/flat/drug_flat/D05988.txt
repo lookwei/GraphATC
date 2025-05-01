@@ -1,0 +1,63 @@
+ENTRY       D05988                      Drug
+NAME        Tacedinaline (USAN/INN)
+FORMULA     C15H15N3O2
+EXACT_MASS  269.1164
+MOL_WEIGHT  269.2985
+EFFICACY    Antineoplastic, Histone deacetylase inhibitor
+COMMENT     Combination therapy for selected tumors including non-smoll cell lung, pancreatic, breast, and colorectal cancers
+TARGET      HDAC1 [HSA:3065] [KO:K06067]
+  PATHWAY   hsa04110(3065)  Cell cycle
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Histone deacetylase
+                HDAC1
+                 D05988  Tacedinaline (USAN/INN)
+DBLINKS     CAS: 112522-64-2
+            PubChem: 47207646
+            ChEBI: 90195
+            LigandBox: D05988
+ATOM        20
+            1   C8x C    13.8600  -15.8200
+            2   C8y C    13.8600  -17.2200
+            3   C8x C    15.0724  -17.9200
+            4   C8x C    16.2849  -17.2200
+            5   C8y C    16.2849  -15.8200
+            6   C8x C    15.0724  -15.1200
+            7   N1b N    12.6476  -17.9200
+            8   C5a C    11.4521  -17.2296
+            9   C1a C    10.2647  -17.9151
+            10  O5a O    11.4520  -15.8203
+            11  C5a C    17.5160  -15.1090
+            12  N1b N    18.7212  -15.8047
+            13  O5a O    17.5157  -13.7201
+            14  C8y C    19.9035  -15.1219
+            15  C8y C    21.0975  -15.8112
+            16  C8x C    22.3099  -15.1112
+            17  C8x C    22.3099  -13.7112
+            18  C8x C    21.1160  -13.0219
+            19  C8x C    19.9035  -13.7219
+            20  N1a N    21.0976  -17.2197
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    8  10 2
+            11    5  11 1
+            12   11  12 1
+            13   11  13 2
+            14   12  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   14  19 1
+            21   15  20 1
+///

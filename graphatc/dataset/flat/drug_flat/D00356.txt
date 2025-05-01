@@ -1,0 +1,144 @@
+ENTRY       D00356                      Drug
+NAME        Latanoprost (JAN/USP/INN);
+            Xalatan (TN)
+PRODUCT     IYUZEH (Thea Pharma)
+            XALATAN (PFIZER LABORATORIES DIV PFIZER)
+            XELPROS (Sun Pharmaceutical Industries)
+  GENERIC   LATANOPROST (A-S Medication Solutions)
+            LATANOPROST (Aurobindo Pharma Limited)
+            LATANOPROST (Bausch & Lomb Incorporated)
+            LATANOPROST (Greenstone LLC)
+            LATANOPROST (NuCare Pharmaceuticals)
+            LATANOPROST (Proficient Rx LP)
+            LATANOPROST (Rising Pharmaceuticals)
+            LATANOPROST (Sandoz)
+            LATANOPROST (Somerset Therapeutics)
+FORMULA     C26H40O5
+EXACT_MASS  432.2876
+MOL_WEIGHT  432.5928
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      Therapeutic category: 1319
+            ATC code: S01EE01
+            Product: D00356<JP/US>
+            Product (mixture): D07505<JP> D10804<JP> D11558<US>
+EFFICACY    Antiglaucoma, Prostaglandin F receptor agonist
+  DISEASE   Open-angle glaucoma [DS:H00612]
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04020(5737)  Calcium signaling pathway
+            hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07035  Prostaglandins
+            map07054  Antiglaucoma agents
+            map07228  Eicosanoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EE Prostaglandin analogues
+                 S01EE01 Latanoprost
+                  D00356  Latanoprost (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Ophthalmic Agents
+              Intraocular Pressure Lowering Agents
+               Prostaglandin and Prostamide Analogs, Ophthalmic
+                Latanoprost
+                 D00356  Latanoprost (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1319  Others
+                 D00356  Latanoprost (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                D00356  Latanoprost
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D00356  Latanoprost
+            Drug classes [BR:br08332]
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D00356  Latanoprost
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D00356  Latanoprost (JAN/USP/INN) &lt;JP/US&gt;
+DBLINKS     CAS: 130209-82-4
+            PubChem: 7847422
+            ChEBI: 6384
+            LigandBox: D00356
+            NIKKAJI: J458.015J
+ATOM        31
+            1   C1y C    18.8346  -20.3048
+            2   C1y C    18.8346  -21.7052
+            3   C1y C    17.4343  -19.8847
+            4   C1b C    20.0249  -19.6046
+            5   C1y C    17.5043  -22.1253
+            6   C1b C    20.0249  -22.4054
+            7   C1x C    16.6641  -21.0050
+            8   C2b C    21.2152  -20.3048
+            9   O1a O    17.0842  -23.5256
+            10  C1b C    21.2152  -21.7052
+            11  C1c C    22.4755  -22.4054
+            12  C1b C    23.6658  -21.7052
+            13  O1a O    22.4755  -23.8057
+            14  C1b C    24.9261  -22.4054
+            15  C8y C    24.9261  -23.8057
+            16  C8x C    26.1164  -24.5059
+            17  C8x C    26.1164  -25.9061
+            18  C8x C    24.9261  -26.6063
+            19  C8x C    23.6658  -25.9061
+            20  C8x C    23.6658  -24.5059
+            21  O1a O    16.9442  -18.5544
+            22  C2b C    22.6156  -20.3048
+            23  C1b C    23.8059  -19.6046
+            24  C1b C    24.9961  -20.3048
+            25  C1b C    26.1864  -19.6046
+            26  C7a C    27.3767  -20.3048
+            27  O7a O    28.5670  -19.6046
+            28  C1c C    29.7573  -20.3048
+            29  C1a C    30.9476  -19.6046
+            30  O6a O    27.3767  -21.7052
+            31  C1a C    29.7573  -21.7052
+BOND        32
+            1    12  14 1
+            2     5   7 1
+            3    14  15 1
+            4     1   2 1
+            5     1   3 1
+            6     1   4 1 #Down
+            7     2   5 1
+            8     2   6 1 #Up
+            9    15  16 2
+            10   16  17 1
+            11   17  18 2
+            12   18  19 1
+            13   19  20 2
+            14   20  15 1
+            15    3   7 1
+            16    4   8 1
+            17    5   9 1 #Down
+            18    6  10 1
+            19   10  11 1
+            20   11  12 1
+            21   11  13 1 #Down
+            22    3  21 1 #Down
+            23    8  22 2
+            24   23  24 1
+            25   23  22 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30   28  29 1
+            31   26  30 2
+            32   28  31 1
+///

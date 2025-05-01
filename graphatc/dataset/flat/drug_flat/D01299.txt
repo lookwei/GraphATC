@@ -1,0 +1,147 @@
+ENTRY       D01299                      Drug
+NAME        Chlormadinone acetate (JP18/USAN);
+            Lutoral (TN)
+FORMULA     C23H29ClO4
+EXACT_MASS  404.1754
+MOL_WEIGHT  404.927
+CLASS       Antineoplastic
+             DG01591  Androgen receptor antagonist
+            Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C12729
+            Therapeutic category: 2478
+            ATC code: G03DB06
+            Chemical structure group: DG00469
+            Product (DG00469): D01299<JP>
+EFFICACY    Menstruation disorder agent, Prostatic hyperplasia treatment, Progesterone receptor agonist, Androgen receptor antagonist
+COMMENT     Progestin, Pregnadien derivative
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+            NR3C4 (AR) [HSA:367] [KO:K08557]
+  PATHWAY   hsa04114(367+5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+            hsa05215(367)  Prostate cancer
+INTERACTION  
+STR_MAP     map07043  Antineoplastics - hormones
+            map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+            map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DB Pregnadien derivatives
+                 G03DB06 Chlormadinone
+                  D01299  Chlormadinone acetate (JP18/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               247  Estrogen and progesterone preparations
+                2478  Synthetic progestins
+                 D01299  Chlormadinone acetate (JP18/USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               DG00469  Chlormadinone
+                D01299  Chlormadinone acetate
+             Hormonal agent
+              DG02004  Progesterone
+               DG00469  Chlormadinone
+                D01299  Chlormadinone acetate
+              DG01666  Progesterone receptor agonist
+               DG00469  Chlormadinone
+                D01299  Chlormadinone acetate
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               D01299  Chlormadinone acetate
+             Endocrine and hormonal agent
+              DG02004  Progesterone
+               D01299  Chlormadinone acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D01299  Chlormadinone acetate (JP18/USAN) &lt;JP&gt;
+                NR3C4 (AR)
+                 D01299  Chlormadinone acetate (JP18/USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01299  Chlormadinone acetate
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01591  Androgen receptor antagonist
+               DG00469  Chlormadinone
+             Hormonal agent
+              DG02004  Progesterone
+               DG00469  Chlormadinone
+              DG01666  Progesterone receptor agonist
+               DG00469  Chlormadinone
+DBLINKS     CAS: 302-22-7
+            PubChem: 7848362
+            ChEBI: 31394
+            LigandBox: D01299
+            NIKKAJI: J5.478J
+ATOM        28
+            1   C1z C    34.0635  -15.4455
+            2   C1z C    32.8751  -16.1154
+            3   C1x C    35.2406  -16.1271
+            4   O7a O    35.2406  -14.7520
+            5   C5a C    34.1921  -14.0704
+            6   C1y C    32.9334  -17.4848
+            7   C1x C    31.7039  -15.4279
+            8   C1x C    35.2290  -17.4964
+            9   C7a C    36.4293  -15.4338
+            10  C1a C    32.9918  -13.3769
+            11  O5a O    35.3749  -13.3712
+            12  C1y C    31.6806  -18.1664
+            13  C1x C    30.5094  -16.0980
+            14  C1a C    37.6120  -14.7463
+            15  O6a O    36.4235  -16.8089
+            16  C1y C    30.4978  -17.4672
+            17  C2x C    31.6806  -19.5357
+            18  C1z C    29.3091  -18.1490
+            19  C2y C    30.4861  -20.2174
+            20  C2y C    29.3034  -19.5241
+            21  C1x C    28.1265  -17.4615
+            22  C1a C    29.2977  -16.7797
+            23  X   Cl   30.5445  -21.5867
+            24  C2x C    28.1265  -20.2174
+            25  C1x C    26.9320  -18.1490
+            26  C5x C    26.9320  -19.5241
+            27  O5x O    25.7433  -20.2057
+            28  C1a C    32.8751  -14.7154
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 1
+            12    7  13 1
+            13    9  14 1
+            14    9  15 2
+            15   12  16 1
+            16   12  17 1
+            17   16  18 1
+            18   17  19 2
+            19   18  20 1
+            20   18  21 1
+            21   18  22 1 #Up
+            22   19  23 1
+            23   20  24 2
+            24   21  25 1
+            25   24  26 1
+            26   26  27 2
+            27    6   8 1
+            28   13  16 1
+            29   19  20 1
+            30   25  26 1
+            31    2  28 1 #Up
+///

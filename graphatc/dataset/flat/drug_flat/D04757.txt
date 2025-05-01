@@ -1,0 +1,65 @@
+ENTRY       D04757                      Drug
+NAME        Lobucavir (USAN/INN)
+FORMULA     C11H15N5O3
+EXACT_MASS  265.1175
+MOL_WEIGHT  265.2685
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HBV reverse transcriptase [KO:K21037]
+            HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K21037+K24802)  Viral genome structure
+            ko03240(K21037+K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+            ko05161(K21037)  Hepatitis B
+STR_MAP     map07044  Antiviral agents
+BRITE       Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D04757  Lobucavir (USAN/INN)
+DBLINKS     CAS: 127759-89-1
+            PubChem: 47206573
+            LigandBox: D04757
+            NIKKAJI: J302.386I
+ATOM        19
+            1   C1y C    22.6854  -17.4652
+            2   C1x C    22.7115  -18.8749
+            3   C1y C    21.3096  -18.8696
+            4   C1y C    21.2834  -17.5299
+            5   N4x N    27.6564  -14.5576
+            6   C8y C    27.6484  -15.9509
+            7   N5x N    26.3905  -16.6403
+            8   C8y C    25.2103  -15.9370
+            9   C8y C    25.2182  -14.5437
+            10  C8y C    26.4065  -13.8539
+            11  N4y N    23.8843  -16.3473
+            12  C8x C    23.0548  -15.2280
+            13  N5x N    23.8975  -14.0485
+            14  O5x O    26.4148  -12.3909
+            15  N1a N    28.8287  -16.6543
+            16  C1b C    20.3086  -19.9251
+            17  C1b C    20.2901  -16.5604
+            18  O1a O    18.9393  -19.5461
+            19  O1a O    18.9492  -16.8981
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     5   6 1
+            6     6   7 2
+            7     7   8 1
+            8     8   9 2
+            9     9  10 1
+            10    5  10 1
+            11    8  11 1
+            12   11  12 1
+            13   12  13 2
+            14    9  13 1
+            15   10  14 2
+            16    6  15 1
+            17    1  11 1 #Down
+            18    3  16 1 #Down
+            19    4  17 1 #Up
+            20   16  18 1
+            21   17  19 1
+///

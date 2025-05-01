@@ -1,0 +1,126 @@
+ENTRY       D02363                      Drug
+NAME        Ketanserin (USAN/INN)
+FORMULA     C22H22FN3O3
+EXACT_MASS  395.1645
+MOL_WEIGHT  395.4268
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+            Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      Same as: C07464
+            ATC code: C02KD01
+            Chemical structure group: DG00265
+EFFICACY    Antihypertensive, Serotonin receptor antagonist
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04020(3356)  Calcium signaling pathway
+            hsa04080(3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02K OTHER ANTIHYPERTENSIVES
+                C02KD Serotonin antagonists
+                 C02KD01 Ketanserin
+                  D02363  Ketanserin (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00265  Ketanserin
+                  D02363  Ketanserin
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00265  Ketanserin
+                 D02363  Ketanserin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2A
+                 D02363  Ketanserin (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00265  Ketanserin
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00265  Ketanserin
+DBLINKS     CAS: 74050-98-9
+            PubChem: 7849422
+            ChEBI: 6123
+            LigandBox: D02363
+            NIKKAJI: J12.099E
+ATOM        29
+            1   C8y C    36.3464  -12.6205
+            2   C8y C    36.3464  -14.0201
+            3   N4x N    35.1335  -11.9208
+            4   C8x C    37.5594  -11.9208
+            5   C8y C    35.1335  -14.7198
+            6   C8x C    37.5594  -14.7198
+            7   C8y C    33.9206  -12.6205
+            8   C8x C    38.7723  -12.6205
+            9   N4y N    33.9206  -14.0201
+            10  O5x O    35.1335  -16.1194
+            11  C8x C    38.7723  -14.0201
+            12  O5x O    32.7076  -11.9208
+            13  C1b C    32.7076  -14.7198
+            14  C1b C    31.4947  -14.0201
+            15  N1y N    30.2818  -14.7198
+            16  C1x C    29.0688  -14.0201
+            17  C1x C    30.2818  -16.1194
+            18  C1x C    27.8559  -14.7198
+            19  C1x C    29.0688  -16.8191
+            20  C1y C    27.8559  -16.1194
+            21  C5a C    26.6440  -16.8193
+            22  O5a O    26.6442  -18.2187
+            23  C8y C    25.4430  -16.1258
+            24  C8x C    25.4437  -14.7004
+            25  C8x C    24.2316  -13.9998
+            26  C8y C    23.0189  -14.6992
+            27  C8x C    23.0181  -16.1246
+            28  C8x C    24.2302  -16.8252
+            29  X   F    21.8155  -14.0036
+BOND        32
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 2
+            10    6  11 1
+            11    7  12 2
+            12    9  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16   15  17 1
+            17   16  18 1
+            18   17  19 1
+            19   18  20 1
+            20    7   9 1
+            21    8  11 2
+            22   19  20 1
+            23   20  21 1
+            24   21  22 2
+            25   21  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   23  28 1
+            32   26  29 1
+///

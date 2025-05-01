@@ -1,0 +1,88 @@
+ENTRY       D01492                      Drug
+NAME        Bucumolol hydrochloride (JP18)
+FORMULA     C17H23NO4. HCl
+EXACT_MASS  341.1394
+MOL_WEIGHT  341.8298
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+EFFICACY    Antiarrhythmic, Vasodilator, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+            ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                D01492  Bucumolol hydrochloride
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                D01492  Bucumolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D01492  Bucumolol hydrochloride (JP18)
+                ADRB2
+                 D01492  Bucumolol hydrochloride (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01492  Bucumolol hydrochloride
+DBLINKS     CAS: 36556-75-9
+            PubChem: 7848555
+            ChEBI: 31315
+            LigandBox: D01492
+ATOM        23
+            1   X   Cl   29.6100  -17.0800
+            2   C8y C    19.6000  -15.7500
+            3   O2a O    19.6000  -14.3500
+            4   C1b C    20.7900  -13.7200
+            5   C1c C    21.9800  -14.4200
+            6   C1b C    23.2400  -13.7200
+            7   N1b N    24.4300  -14.4200
+            8   C1d C    25.6200  -13.7200
+            9   O1a O    21.9800  -15.8200
+            10  C1a C    26.8800  -14.4200
+            11  C1a C    25.6200  -12.3200
+            12  C1a C    26.8800  -13.0200
+            13  C8y C    15.9600  -16.4500
+            14  C8x C    15.9600  -17.8500
+            15  C8x C    17.1500  -18.5500
+            16  O7x O    17.1500  -15.7500
+            17  C8y C    18.3400  -16.4500
+            18  C8y C    18.3400  -17.8500
+            19  C8y C    19.5300  -18.5500
+            20  C8x C    20.7900  -17.9200
+            21  C8x C    20.7900  -16.5200
+            22  O6a O    14.7000  -15.7500
+            23  C1a C    19.5300  -20.0200
+BOND        23
+            1     8  12 1
+            2     6   7 1
+            3     3   4 1
+            4     7   8 1
+            5    13  14 1
+            6    14  15 2
+            7    15  18 1
+            8    17  16 1
+            9    16  13 1
+            10    5   9 1
+            11    4   5 1
+            12    8  10 1
+            13    2   3 1
+            14   17  18 2
+            15   18  19 1
+            16   19  20 2
+            17   20  21 1
+            18   21   2 2
+            19    2  17 1
+            20    8  11 1
+            21   13  22 2
+            22    5   6 1
+            23   19  23 1
+///

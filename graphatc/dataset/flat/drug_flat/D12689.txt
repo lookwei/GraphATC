@@ -1,0 +1,83 @@
+ENTRY       D12689                      Drug
+NAME        Methyldihydromorphine (INN)
+FORMULA     C18H23NO3
+EXACT_MASS  301.1678
+MOL_WEIGHT  301.3801
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12689  Methyldihydromorphine
+             Analgesic
+              DG01984  Opioid analgesics
+               D12689  Methyldihydromorphine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12689  Methyldihydromorphine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12689
+DBLINKS     CAS: 509-56-8
+ATOM        22
+            1   C1z C    17.4983  -16.4448
+            2   C8y C    17.4983  -15.1798
+            3   C1y C    18.6930  -17.1475
+            4   C1y C    16.3740  -17.0773
+            5   C1x C    18.6930  -15.8123
+            6   C8y C    16.3740  -14.5474
+            7   C8y C    18.6930  -14.5474
+            8   C1y C    19.7470  -16.4448
+            9   C1x C    18.6930  -18.4123
+            10  O2x O    15.0388  -15.7421
+            11  C1z C    16.3740  -18.4123
+            12  C1x C    20.8713  -15.8123
+            13  C8y C    16.3740  -13.2123
+            14  C1x C    19.7470  -15.2501
+            15  C8x C    18.6930  -13.2123
+            16  N1y N    20.8713  -17.1475
+            17  C1x C    17.4983  -19.1151
+            18  C8x C    17.5686  -12.5798
+            19  O1a O    15.2496  -12.5798
+            20  C1a C    22.2768  -17.1475
+            21  O1a O    15.3858  -19.4005
+            22  C1a C    15.0242  -18.0507
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 1
+            17   13  18 2
+            18   13  19 1
+            19    6  10 1
+            20    8  14 1
+            21   11  17 1
+            22   12  16 1
+            23   15  18 1
+            24   16  20 1
+            25   11  21 1 #Down
+            26   11  22 1 #Up
+///

@@ -1,0 +1,178 @@
+ENTRY       D06888                      Drug
+NAME        Eptifibatide (INN);
+            Integrilin (TN)
+PRODUCT
+  GENERIC   EPTIFIBATIDE (Accord Healthcare)
+            EPTIFIBATIDE (Amneal Pharmaceuticals LLC)
+            EPTIFIBATIDE (Athenex Pharmaceutical Division)
+            EPTIFIBATIDE (AuroMedics Pharma LLC)
+            EPTIFIBATIDE (Baxter Healthcare Corporation)
+            EPTIFIBATIDE (Hainan Shuangcheng Pharmaceuticals)
+            EPTIFIBATIDE (Mylan Institutional LLC)
+            EPTIFIBATIDE (Mylan Institutional LLC)
+            EPTIFIBATIDE (Sagent Pharmaceuticals)
+            EPTIFIBATIDE (Slate Run Pharmaceuticals)
+            EPTIFIBATIDE (Slate Run Pharmaceuticals)
+FORMULA     C35H49N11O9S2
+EXACT_MASS  831.3156
+MOL_WEIGHT  831.9619
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+             DG01811  Fibrinogen receptor antagonist
+REMARK      ATC code: B01AC16
+            Product: D06888<US>
+EFFICACY    Platelet aggregation inhibitor, Glycoprotein IIb/IIIa receptor antagonist
+COMMENT     Treatment of Acute coronary syndrome
+TARGET      ITGA2B/ITGB3 [HSA:3674 3690] [KO:K06476 K06493]
+  PATHWAY   hsa04611(3674+3690)  Platelet activation
+            hsa04640(3674+3690)  Hematopoietic cell lineage
+INTERACTION  
+STR_MAP     map07049  Antithrombosis agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC16 Eptifibatide
+                  D06888  Eptifibatide (INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                D06888  Eptifibatide
+              DG01811  Fibrinogen receptor antagonist
+               D06888  Eptifibatide
+            Target-based classification of drugs [BR:br08310]
+             Cell surface molecules and ligands
+              Cell adhesion molecules: other families
+               Integrins
+                ITGA2B/ITGB3
+                 D06888  Eptifibatide (INN) &lt;US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D06888
+DBLINKS     CAS: 188627-80-7
+            PubChem: 49661788
+            ChEBI: 291902
+            LigandBox: D06888
+ATOM        57
+            1   C1b C    18.7088  -13.7108
+            2   C5a C    19.8059  -12.8468
+            3   N1b N    21.1717  -13.1584
+            4   C1c C    21.7738  -14.4120
+            5   C1b C    18.7088  -15.1203
+            6   C5a C    21.1726  -15.6797
+            7   N1b N    19.8059  -15.9914
+            8   C1b C    17.4960  -13.0106
+            9   S3a S    16.2830  -13.7108
+            10  N1b N    16.2830  -15.1203
+            11  C5a C    17.4960  -15.8206
+            12  S3a S    15.0702  -13.0106
+            13  C1b C    13.8574  -13.7108
+            14  C5a C    13.8574  -15.1203
+            15  C1c C    15.0702  -15.8206
+            16  C1c C    12.6445  -13.0106
+            17  N1b N    11.4317  -13.7108
+            18  C1c C    11.4317  -15.1203
+            19  N1b N    12.6445  -15.8206
+            20  C5a C    10.2188  -13.0106
+            21  C1y C     9.0059  -13.7108
+            22  N1y N     9.0059  -15.1203
+            23  C5a C    10.2188  -15.8206
+            24  C1x C     7.6655  -13.2753
+            25  C1x C     6.8370  -14.4156
+            26  C1x C     7.6655  -15.5559
+            27  O5a O    19.4918  -11.4542
+            28  O5a O    22.0432  -16.7652
+            29  O5a O    17.4959  -17.2273
+            30  O5a O    13.8573  -16.5271
+            31  O5a O    10.2187  -17.2274
+            32  O5a O    10.2188  -11.6254
+            33  C5a C    12.6449  -11.6258
+            34  C1b C    11.4318  -16.5270
+            35  O5a O    13.8817  -10.9118
+            36  N1a N    11.4561  -10.9388
+            37  C1b C    15.0703  -17.2273
+            38  C6a C    16.1138  -18.1470
+            39  O6a O    17.5084  -18.1449
+            40  O6a O    15.6221  -19.4512
+            41  C8y C    12.5155  -17.3949
+            42  C8y C    12.0831  -18.6924
+            43  C8y C    13.1918  -19.5005
+            44  N4x N    14.3028  -18.6958
+            45  C8x C    13.8809  -17.3903
+            46  C8x C    10.7241  -19.4142
+            47  C8x C    10.7347  -20.8147
+            48  C8x C    11.9280  -21.4916
+            49  C8x C    13.1355  -20.7822
+            50  C1b C    23.0144  -13.7651
+            51  C1b C    24.2287  -14.5371
+            52  C1b C    25.4597  -13.8950
+            53  C1b C    26.6501  -14.6525
+            54  N1b N    27.9233  -13.9887
+            55  C2c C    29.1261  -14.7540
+            56  N1a N    30.3635  -14.1090
+            57  N2a N    29.1348  -16.1754
+BOND        60
+            1     3   4 1
+            2     4   6 1
+            3     2   3 1
+            4     5   7 1
+            5     1   2 1
+            6     6   7 1
+            7     1   8 1
+            8     8   9 1
+            9    10  11 1
+            10    5  11 1
+            11    9  12 1
+            12   12  13 1
+            13   14  15 1
+            14   10  15 1
+            15   13  16 1
+            16   16  17 1
+            17   18  19 1
+            18   14  19 1
+            19   17  20 1
+            20   20  21 1
+            21   21  22 1
+            22   22  23 1
+            23   18  23 1
+            24   21  24 1
+            25   24  25 1
+            26   25  26 1
+            27   22  26 1
+            28    2  27 2
+            29    6  28 2
+            30   11  29 2
+            31   14  30 2
+            32   23  31 2
+            33   20  32 2
+            34   16  33 1
+            35   18  34 1
+            36   33  35 2
+            37   33  36 1
+            38   15  37 1
+            39   37  38 1
+            40   38  39 2
+            41   38  40 1
+            42   34  41 1
+            43   41  42 1
+            44   42  43 1
+            45   43  44 1
+            46   44  45 1
+            47   41  45 2
+            48   42  46 2
+            49   46  47 1
+            50   47  48 2
+            51   48  49 1
+            52   43  49 2
+            53    4  50 1
+            54   50  51 1
+            55   51  52 1
+            56   52  53 1
+            57   53  54 1
+            58   54  55 1
+            59   55  56 1
+            60   55  57 2
+///

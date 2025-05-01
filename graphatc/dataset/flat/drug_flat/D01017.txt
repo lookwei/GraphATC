@@ -1,0 +1,125 @@
+ENTRY       D01017                      Drug
+NAME        Dipivefrin hydrochloride (USP);
+            Dipivefrine hydrochloride (JAN);
+            Propine (TN)
+FORMULA     C19H29NO5. HCl
+EXACT_MASS  387.1813
+MOL_WEIGHT  387.8982
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      ATC code: S01EA02
+            Chemical structure group: DG01129
+EFFICACY    Antiglaucoma, Adrenergic receptor agonist
+COMMENT     Active form of prodrug: Adrenaline (Epinephrine) [DR:D00095]
+            Catecholamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07054  Antiglaucoma agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EA Sympathomimetics in glaucoma therapy
+                 S01EA02 Dipivefrine
+                  D01017  Dipivefrin hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01129  Dipivefrine
+                D01017  Dipivefrin hydrochloride
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG01129  Dipivefrine
+                D01017  Dipivefrin hydrochloride
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01129  Dipivefrine
+                D01017  Dipivefrin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01017  Dipivefrin hydrochloride (USP)
+                ADRA2
+                 D01017  Dipivefrin hydrochloride (USP)
+                ADRB
+                 D01017  Dipivefrin hydrochloride (USP)
+            Prodrugs [br08324.html]
+             D01017
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01129  Dipivefrine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG01129  Dipivefrine
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01129  Dipivefrine
+            Prodrugs [br08324.html(DG01129)]
+             DG01129
+DBLINKS     CAS: 64019-93-8
+            PubChem: 7848080
+            ChEBI: 4647
+            LigandBox: D01017
+            NIKKAJI: J349.610D
+ATOM        26
+            1   X   Cl   21.9800  -26.1800
+            2   C8y C    15.1900  -20.7900
+            3   C8y C    15.1900  -22.1900
+            4   C8x C    16.3800  -22.8900
+            5   C8x C    17.6400  -22.1900
+            6   C8y C    17.6400  -20.7900
+            7   C8x C    16.3800  -20.0900
+            8   O7a O    14.0000  -20.0900
+            9   O7a O    14.0000  -22.8900
+            10  C1c C    18.8300  -20.0900
+            11  C1b C    20.0200  -20.7900
+            12  O1a O    18.8300  -18.6900
+            13  N1b N    21.2381  -20.0999
+            14  C1a C    22.4195  -20.7950
+            15  C7a C    14.0114  -18.6900
+            16  C7a C    14.0000  -24.2900
+            17  C1d C    12.7876  -24.9900
+            18  O6a O    15.2124  -24.9900
+            19  O6a O    15.2208  -18.0048
+            20  C1d C    12.7962  -17.9752
+            21  C1a C    11.5824  -18.6630
+            22  C1a C    12.8076  -16.5900
+            23  C1a C    11.6062  -17.2753
+            24  C1a C    11.5921  -24.2996
+            25  C1a C    12.7875  -26.3898
+            26  C1a C    11.5920  -25.6803
+BOND        25
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     2   8 1
+            8     3   9 1
+            9     6  10 1
+            10   10  11 1
+            11   10  12 1
+            12   11  13 1
+            13   13  14 1
+            14    8  15 1
+            15    9  16 1
+            16   16  17 1
+            17   16  18 2
+            18   15  19 2
+            19   15  20 1
+            20   20  21 1
+            21   20  22 1
+            22   20  23 1
+            23   17  24 1
+            24   17  25 1
+            25   17  26 1
+///

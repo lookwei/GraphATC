@@ -1,0 +1,112 @@
+ENTRY       D08339                      Drug
+NAME        Pergolide (INN);
+            Permax (TN)
+FORMULA     C19H26N2S
+EXACT_MASS  314.1817
+MOL_WEIGHT  314.4881
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+             DG01964  Ergot alkaloid
+             DG01967  Antiparkinson agent
+REMARK      Same as: C07425
+            ATC code: N04BC02
+            Chemical structure group: DG00861
+            Product (DG00861): D00502<JP>
+EFFICACY    Antiparkinsonian, Dopamine receptor agonist
+COMMENT     Ergot alkaloid derivative
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813)  Dopaminergic synapse
+            hsa05012(1812+1813)  Parkinson disease
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BC Dopamine agonists
+                 N04BC02 Pergolide
+                  D08339  Pergolide (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00861  Pergolide
+                D08339  Pergolide
+              DG01964  Ergot alkaloid
+               DG00861  Pergolide
+                D08339  Pergolide
+              DG01967  Antiparkinson agent
+               DG00861  Pergolide
+                D08339  Pergolide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D08339  Pergolide (INN)
+                DRD2
+                 D08339  Pergolide (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00861  Pergolide
+              DG01964  Ergot alkaloid
+               DG00861  Pergolide
+              DG01967  Antiparkinson agent
+               DG00861  Pergolide
+DBLINKS     CAS: 66104-22-1
+            PubChem: 96025026
+            ChEBI: 63617
+            LigandBox: D08339
+            NIKKAJI: J19.083G
+ATOM        22
+            1   C8y C    21.7700  -20.6500
+            2   C8y C    21.7700  -19.2500
+            3   C8y C    22.9600  -21.2800
+            4   C8y C    20.5800  -21.2800
+            5   C1y C    22.9600  -18.5500
+            6   C8x C    20.6500  -18.5500
+            7   C1x C    24.1500  -20.6500
+            8   C8x C    22.9600  -22.6800
+            9   N4x N    20.5800  -22.6800
+            10  C8x C    19.4600  -20.5800
+            11  C1y C    24.1500  -19.2500
+            12  C1x C    22.9600  -17.2200
+            13  C8x C    19.4600  -19.2500
+            14  N1y N    25.3400  -18.6200
+            15  C1y C    24.1500  -16.5200
+            16  C1x C    25.3400  -17.2200
+            17  C1b C    26.5300  -19.2500
+            18  C1b C    24.1500  -15.1900
+            19  C1b C    27.7200  -18.6200
+            20  S2a S    25.3400  -14.4900
+            21  C1a C    28.8400  -19.3200
+            22  C1a C    25.3400  -13.1600
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13   11  14 1
+            14   12  15 1
+            15   14  16 1
+            16   14  17 1
+            17   15  18 1 #Up
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22    7  11 1
+            23    8   9 1
+            24   10  13 2
+            25   15  16 1
+///

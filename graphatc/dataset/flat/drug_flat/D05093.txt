@@ -1,0 +1,76 @@
+ENTRY       D05093                      Drug
+NAME        Muzolimine (USAN/INN)
+FORMULA     C11H11Cl2N3O
+EXACT_MASS  271.0279
+MOL_WEIGHT  272.1305
+CLASS       Cardiovascular agent
+             DG01748  Loop diuretic
+REMARK      ATC code: C03CD01
+EFFICACY    Antihypertensive, Diuretic
+COMMENT     loop diuretic
+            pyrazolone derivative
+TARGET      SLC12A1 (NKCC2) [HSA:6557] [KO:K14425]
+            SLC12A2 (NKCC1) [HSA:6558] [KO:K10951]
+INTERACTION  
+STR_MAP     map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03C HIGH-CEILING DIURETICS
+                C03CD Pyrazolone derivatives
+                 C03CD01 Muzolimine
+                  D05093  Muzolimine (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01748  Loop diuretic
+               D05093  Muzolimine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A1 (NKCC2)
+                 D05093  Muzolimine (USAN/INN)
+                SLC12A2 (NKCC1)
+                 D05093  Muzolimine (USAN/INN)
+DBLINKS     CAS: 55294-15-0
+            PubChem: 47206818
+            LigandBox: D05093
+            NIKKAJI: J11.439A
+ATOM        17
+            1   C8y C    35.7458  -17.0425
+            2   C8y C    35.7458  -18.4456
+            3   C8x C    34.5531  -19.1472
+            4   C8x C    33.2903  -18.4456
+            5   C8y C    33.2903  -17.0425
+            6   C8x C    34.5531  -16.3409
+            7   X   Cl   36.9384  -16.3409
+            8   X   Cl   36.9384  -19.1472
+            9   C1c C    32.0976  -16.3409
+            10  N1y N    30.9050  -17.0425
+            11  C1a C    32.0976  -14.9378
+            12  C5x C    30.8583  -18.4562
+            13  C1x C    29.5658  -18.8861
+            14  C2y C    28.7336  -17.7807
+            15  N2x N    29.5204  -16.6317
+            16  N1a N    27.3395  -17.7997
+            17  O5x O    32.0073  -19.2431
+BOND        18
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     2   8 1
+            9     5   9 1
+            10    9  10 1
+            11    9  11 1
+            12   10  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17   14  16 1
+            18   12  17 2
+///

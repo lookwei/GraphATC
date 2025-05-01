@@ -1,0 +1,40 @@
+ENTRY       D09581                      Drug
+NAME        Atagabalin (USAN/INN)
+FORMULA     C10H19NO2
+EXACT_MASS  185.1416
+MOL_WEIGHT  185.2634
+EFFICACY    Hypnotic
+COMMENT     Treatment of insomnia
+DBLINKS     CAS: 223445-75-8
+            PubChem: 124490321
+            ChEBI: 177397
+            LigandBox: D09581
+ATOM        13
+            1   C1y C    22.4000  -25.2000
+            2   C1y C    23.8000  -25.2000
+            3   C1x C    24.2200  -23.8700
+            4   C1z C    23.1000  -23.0300
+            5   C1x C    21.9800  -23.8700
+            6   C1a C    21.5600  -26.3200
+            7   C1a C    24.6400  -26.3200
+            8   C1b C    21.9100  -22.3300
+            9   C1b C    24.2900  -22.3300
+            10  N1a N    20.7200  -23.0300
+            11  C6a C    25.4800  -23.0300
+            12  O6a O    26.6700  -22.3300
+            13  O6a O    25.4800  -24.4300
+BOND        13
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Up
+            7     2   7 1 #Down
+            8     8   4 1
+            9     4   9 1
+            10    8  10 1
+            11    9  11 1
+            12   11  12 2
+            13   11  13 1
+///

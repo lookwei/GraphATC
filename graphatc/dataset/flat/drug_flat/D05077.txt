@@ -1,0 +1,121 @@
+ENTRY       D05077                      Drug
+NAME        Moricizine (USAN);
+            Moracizine (INN)
+FORMULA     C22H25N3O4S
+EXACT_MASS  427.1566
+MOL_WEIGHT  427.5166
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+            Metabolizing enzyme inducer
+             DG01637  CYP1A2 inducer
+REMARK      Same as: C07743
+            ATC code: C01BG01
+            Chemical structure group: DG00208
+EFFICACY    Antiarrhythmic, Cardiac depressant, Sodium channel blocker
+COMMENT     Phenothiazine derivative
+TARGET      SCN5A [HSA:6331] [KO:K04838]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+INTERACTION CYP induction: CYP1A2 [HSA:1544]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BG Other antiarrhythmics, class I and III
+                 C01BG01 Moracizine
+                  D05077  Moricizine (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG00208  Moracizine
+                D05077  Moricizine
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00208  Moracizine
+                D05077  Moricizine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN5A
+                 D05077  Moricizine (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05077
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG00208  Moracizine
+             Metabolizing enzyme inducer
+              DG01637  CYP1A2 inducer
+               DG00208  Moracizine
+DBLINKS     CAS: 31883-05-3
+            PubChem: 47206804
+            ChEBI: 6997
+            LigandBox: D05077
+            NIKKAJI: J19.957E
+ATOM        30
+            1   C8y C    23.2514  -19.4836
+            2   N1y N    22.0493  -18.7834
+            3   C8y C    23.2514  -20.8840
+            4   C8x C    24.4533  -18.7834
+            5   C8y C    20.8298  -19.4836
+            6   C5a C    22.0435  -17.3889
+            7   S2x S    22.0493  -21.5843
+            8   C8x C    24.4533  -21.5843
+            9   C8y C    25.6671  -19.4836
+            10  C8y C    20.8298  -20.8840
+            11  C8x C    19.6161  -18.7834
+            12  C1b C    23.2572  -16.6887
+            13  O5a O    20.8240  -16.6887
+            14  C8x C    25.6671  -20.8840
+            15  N1b N    26.8808  -18.7776
+            16  C8x C    19.6161  -21.5843
+            17  C8x C    18.3966  -19.4836
+            18  C1b C    23.2572  -15.2942
+            19  C7a C    28.0945  -19.4719
+            20  C8x C    18.3966  -20.8840
+            21  N1y N    24.4709  -14.5880
+            22  O7a O    29.3082  -18.7660
+            23  O6a O    28.0945  -20.8783
+            24  C1x C    25.6729  -15.2882
+            25  C1x C    24.5350  -13.1876
+            26  C1b C    30.5160  -19.4662
+            27  C1x C    26.8867  -14.5823
+            28  C1x C    25.6729  -12.4876
+            29  C1a C    31.7296  -18.7602
+            30  O2x O    26.8867  -13.1818
+BOND        33
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 2
+            10    5  11 1
+            11    6  12 1
+            12    6  13 2
+            13    8  14 2
+            14    9  15 1
+            15   10  16 1
+            16   11  17 2
+            17   12  18 1
+            18   15  19 1
+            19   16  20 2
+            20   18  21 1
+            21   19  22 1
+            22   19  23 2
+            23   21  24 1
+            24   21  25 1
+            25   22  26 1
+            26   24  27 1
+            27   25  28 1
+            28   26  29 1
+            29   27  30 1
+            30    7  10 1
+            31    9  14 1
+            32   17  20 1
+            33   28  30 1
+///

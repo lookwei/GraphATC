@@ -1,0 +1,120 @@
+ENTRY       D01485                      Drug
+NAME        Propericiazine (JAN);
+            Periciazine;
+            Neuleptil (TN)
+FORMULA     C21H23N3OS
+EXACT_MASS  365.1562
+MOL_WEIGHT  365.4918
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      Therapeutic category: 1172
+            ATC code: N05AC01
+            Product: D01485<JP>
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            HTR2 [HSA:3356 3357 3358] [KO:K04157]
+  PATHWAY   hsa04080(146+147+148+1813+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3357+3358)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AC Phenothiazines with piperidine structure
+                 N05AC01 Periciazine
+                  D01485  Propericiazine (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1172  Phenothiazines
+                 D01485  Propericiazine (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                D01485  Propericiazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                D01485  Propericiazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01485  Propericiazine (JAN) &lt;JP&gt;
+               Dopamine
+                DRD2
+                 D01485  Propericiazine (JAN) &lt;JP&gt;
+               Serotonin
+                HTR2
+                 D01485  Propericiazine (JAN) &lt;JP&gt;
+DBLINKS     CAS: 2622-26-6
+            PubChem: 7848548
+            ChEBI: 31981
+            LigandBox: D01485
+            NIKKAJI: J3.392H
+ATOM        26
+            1   C8x C    18.4483  -18.6354
+            2   C8x C    18.4483  -20.0377
+            3   C8x C    19.6657  -20.7389
+            4   C8x C    19.6657  -17.9342
+            5   C8y C    20.8759  -18.6354
+            6   C8y C    20.8700  -20.0377
+            7   S2x S    22.0814  -20.7440
+            8   C8y C    23.2922  -20.0443
+            9   C8x C    24.4971  -20.7547
+            10  C8x C    25.7147  -20.0663
+            11  C8y C    25.6574  -18.6677
+            12  N1y N    22.0935  -17.9395
+            13  C8y C    23.2990  -18.6486
+            14  C8x C    24.5158  -17.9592
+            15  C1b C    22.1049  -16.5408
+            16  C1b C    23.3219  -15.8515
+            17  N1y N    24.5537  -13.7664
+            18  C1b C    23.3358  -14.4533
+            19  C1x C    25.7540  -14.4757
+            20  C1x C    27.0417  -13.7888
+            21  C1y C    26.9858  -12.3907
+            22  C1x C    25.7818  -11.6794
+            23  C1x C    24.5641  -12.3664
+            24  O1a O    28.2071  -11.7016
+            25  C3b C    26.8806  -17.9535
+            26  N3a N    28.0700  -17.2200
+BOND        29
+            1     1   2 1
+            2     2   3 2
+            3     5   6 2
+            4     6   7 1
+            5    12  13 1
+            6    13  14 1
+            7    16  15 1
+            8    15  12 1
+            9     7   8 1
+            10   12   5 1
+            11    3   6 1
+            12   17  18 1
+            13   18  16 1
+            14    5   4 1
+            15    4   1 2
+            16   13   8 2
+            17    8   9 1
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   22  23 1
+            23   23  17 1
+            24    9  10 2
+            25   21  24 1
+            26   10  11 1
+            27   11  14 2
+            28   11  25 1
+            29   25  26 3
+///

@@ -1,0 +1,137 @@
+ENTRY       D00597                      Drug
+NAME        Acebutolol hydrochloride (JP18/USP);
+            Sectral (TN)
+PRODUCT
+  GENERIC   ACEBUTOLOL HYDROCHLORIDE (ANI Pharmaceuticals)
+            ACEBUTOLOL HYDROCHLORIDE (Amneal Pharmaceuticals LLC)
+            ACEBUTOLOL HYDROCHLORIDE (Amneal Pharmaceuticals of New York LLC)
+            ACEBUTOLOL HYDROCHLORIDE (AvKARE)
+            ACEBUTOLOL HYDROCHLORIDE (AvPAK)
+            ACEBUTOLOL HYDROCHLORIDE (Golden State Medical Supply)
+FORMULA     C18H28N2O4. HCl
+EXACT_MASS  372.1816
+MOL_WEIGHT  372.8869
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+               DG01461  beta1-Adrenergic receptor antagonist
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+REMARK      Same as: C07677
+            ATC code: C07AB04
+            Chemical structure group: DG00314
+            Product (DG00314): D00597<US>
+EFFICACY    Antiarrhythmic, Antihypertensive, Vasodilator, beta1-Adrenergic receptor antagonist
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Propranolol derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AB Beta blocking agents, selective
+                 C07AB04 Acebutolol
+                  D00597  Acebutolol hydrochloride (JP18/USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Antiarrhythmics
+               Vaughn Williams-Class II
+                Acebutolol
+                 D00597  Acebutolol hydrochloride (JP18/USP)
+              Beta-adrenergic Blocking Agents
+               Beta-adrenergic Blocking Agents, Other
+                Acebutolol
+                 D00597  Acebutolol hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00314  Acebutolol
+                  D00597  Acebutolol hydrochloride
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00314  Acebutolol
+                 D00597  Acebutolol hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               D00597  Acebutolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D00597  Acebutolol hydrochloride (JP18/USP) &lt;US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00597  Acebutolol hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG01461  beta1-Adrenergic receptor antagonist
+                 DG00314  Acebutolol
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                DG00314  Acebutolol
+DBLINKS     CAS: 34381-68-5
+            PubChem: 7847663
+            ChEBI: 2380
+            LigandBox: D00597
+            NIKKAJI: J365.005G
+ATOM        25
+            1   C8y C    21.9841  -14.0731
+            2   C8y C    20.7938  -14.7732
+            3   C8x C    23.2443  -14.7732
+            4   O2a O    21.9841  -12.6728
+            5   C8x C    20.7938  -16.1735
+            6   C5a C    19.5336  -14.0731
+            7   C8x C    23.2443  -16.1035
+            8   C1b C    23.1743  -11.9727
+            9   C8y C    22.0541  -16.8737
+            10  C1a C    18.3433  -14.7732
+            11  O5a O    19.5336  -12.6728
+            12  C1c C    24.3646  -12.6028
+            13  N1b N    22.0541  -18.2740
+            14  C1b C    25.6248  -11.9026
+            15  O1a O    24.3646  -14.0031
+            16  C5a C    20.8638  -18.9741
+            17  N1b N    26.8151  -12.6028
+            18  C1b C    19.6036  -18.2740
+            19  O5a O    20.8638  -20.3744
+            20  C1c C    28.0053  -11.9026
+            21  C1b C    18.4133  -19.0441
+            22  C1a C    29.2656  -12.5328
+            23  C1a C    28.0053  -10.5024
+            24  C1a C    17.2231  -18.3440
+            25  X   Cl   31.9262  -16.3136
+BOND        24
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    6  11 2
+            11    8  12 1
+            12    9  13 1
+            13   12  14 1
+            14   12  15 1
+            15   13  16 1
+            16   14  17 1
+            17   16  18 1
+            18   16  19 2
+            19   17  20 1
+            20   18  21 1
+            21   20  22 1
+            22   20  23 1
+            23   21  24 1
+            24    7   9 2
+///

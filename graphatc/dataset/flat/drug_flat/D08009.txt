@@ -1,0 +1,132 @@
+ENTRY       D08009                      Drug
+NAME        Gallopamil (INN)
+FORMULA     C28H40N2O5
+EXACT_MASS  484.2937
+MOL_WEIGHT  484.6276
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+             DG01653  Antiarrhythmics
+              DG01807  Phenylalkylamine derivative
+REMARK      Same as: C13764
+            ATC code: C08DA02
+            Chemical structure group: DG00330
+EFFICACY    Vasodilator, Calcium channel blocker
+COMMENT     Phenylalkylamine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08D SELECTIVE CALCIUM CHANNEL BLOCKERS WITH DIRECT CARDIAC EFFECTS
+                C08DA Phenylalkylamine derivatives
+                 C08DA02 Gallopamil
+                  D08009  Gallopamil (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00330  Gallopamil
+                 D08009  Gallopamil
+              DG01653  Antiarrhythmics
+               DG01807  Phenylalkylamine derivative
+                DG00330  Gallopamil
+                 D08009  Gallopamil
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D08009  Gallopamil (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00330  Gallopamil
+              DG01653  Antiarrhythmics
+               DG01807  Phenylalkylamine derivative
+                DG00330  Gallopamil
+DBLINKS     CAS: 16662-47-8
+            PubChem: 96024702
+            ChEBI: 34772
+            LigandBox: D08009
+            NIKKAJI: J13.326D
+ATOM        35
+            1   C1d C    20.5800  -16.5200
+            2   C8y C    19.3200  -17.2200
+            3   C1b C    21.7700  -17.2200
+            4   C1c C    20.5800  -15.1200
+            5   C8x C    18.1300  -16.5200
+            6   C8x C    19.3200  -18.6200
+            7   C1b C    22.9600  -16.5200
+            8   C1a C    21.8400  -14.4200
+            9   C1a C    19.3900  -14.4200
+            10  C8y C    16.9400  -17.2200
+            11  C8y C    18.1300  -19.3200
+            12  C1b C    24.1500  -17.2200
+            13  C8y C    16.9400  -18.6200
+            14  O2a O    15.6800  -16.5200
+            15  N1c N    25.4100  -16.5200
+            16  O2a O    15.6800  -19.3200
+            17  C1a C    14.4900  -17.2200
+            18  C1b C    26.6000  -17.2200
+            19  C1a C    25.4100  -15.1200
+            20  C1a C    14.4900  -18.6200
+            21  C1b C    27.8600  -16.5200
+            22  C8y C    29.0500  -17.1500
+            23  C8x C    30.2400  -16.4500
+            24  C8x C    29.0500  -18.5500
+            25  C8y C    31.4300  -17.1500
+            26  C8x C    30.2400  -19.2500
+            27  C8y C    31.4300  -18.5500
+            28  O2a O    32.6900  -16.4500
+            29  C1a C    33.8800  -17.1500
+            30  O2a O    18.1300  -20.7200
+            31  C1a C    16.9400  -21.4200
+            32  O2a O    32.6900  -19.2500
+            33  C1a C    33.8800  -18.5500
+            34  C3b C    20.5800  -17.9200
+            35  N3a N    20.5800  -19.3200
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12   10  13 2
+            13   10  14 1
+            14   12  15 1
+            15   13  16 1
+            16   14  17 1
+            17   15  18 1
+            18   15  19 1
+            19   16  20 1
+            20   18  21 1
+            21   21  22 1
+            22   22  23 1
+            23   22  24 2
+            24   23  25 2
+            25   24  26 1
+            26   25  27 1
+            27   25  28 1
+            28   28  29 1
+            29   11  13 1
+            30   26  27 2
+            31   11  30 1
+            32   30  31 1
+            33   27  32 1
+            34   32  33 1
+            35    1  34 1
+            36   34  35 3
+///

@@ -1,0 +1,124 @@
+ENTRY       D01370                      Drug
+NAME        Cladribine (JAN/USP/INN);
+            Leustatin (TN);
+            Mavenclad (TN)
+PRODUCT     MAVENCLAD (EMD Serono)
+  GENERIC   CLADRIBINE (Fresenius Kabi USA)
+            CLADRIBINE (Hikma Pharmaceuticals USA)
+            CLADRIBINE (Hisun Pharmaceuticals USA)
+            CLADRIBINE (Hisun Pharmaceuticals USA)
+FORMULA     C10H12ClN5O3
+EXACT_MASS  285.0629
+MOL_WEIGHT  285.687
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+REMARK      Therapeutic category: 4291
+            ATC code: L01BB04 L04AA40
+            Product: D01370<JP/US>
+EFFICACY    Antineoplastic, Antimetabolite
+  DISEASE   Hairy-cell leukemia [DS:H00006]
+            Multiple sclerosis [DS:H01490]
+TARGET      RRM1 [HSA:6240] [KO:K10807]
+            DNA polymerase
+  PATHWAY   hsa00230(6240)  Purine metabolism
+            hsa00240(6240)  Pyrimidine metabolism
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BB Purine analogues
+                 L01BB04 Cladribine
+                  D01370  Cladribine (JAN/USP/INN) &lt;JP/US&gt;
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA40 Cladribine
+                  D01370  Cladribine (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Cladribine
+                D01370  Cladribine (JAN/USP/INN)
+             Central Nervous System Agents
+              Multiple Sclerosis Agents
+               Cladribine
+                D01370  Cladribine (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D01370  Cladribine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                D01370  Cladribine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D01370  Cladribine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Ribonucleoside-diphosphate reductase
+                RRM1
+                 D01370  Cladribine (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01370
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01370
+DBLINKS     CAS: 4291-63-8
+            PubChem: 7848433
+            ChEBI: 567361
+            PDB-CCD: CL9
+            LigandBox: D01370
+            NIKKAJI: J446.344G
+ATOM        19
+            1   C1y C    13.2977  -19.5392
+            2   C1x C    14.6838  -19.5392
+            3   C1y C    15.1121  -18.2209
+            4   O2x O    13.9907  -17.4062
+            5   C1y C    12.8694  -18.2209
+            6   N5x N    17.5130  -19.6070
+            7   C8y C    17.5130  -18.2209
+            8   N4y N    16.3126  -17.5278
+            9   C1b C    11.6689  -17.5278
+            10  O1a O    10.4685  -18.2209
+            11  O1a O    12.4829  -20.6606
+            12  C8y C    18.7133  -20.3000
+            13  N5x N    19.9138  -19.6070
+            14  C8y C    19.9138  -18.2209
+            15  C8y C    18.7133  -17.5278
+            16  C8x C    16.7284  -16.1436
+            17  N5x N    18.2975  -16.1432
+            18  X   Cl   18.7133  -21.6877
+            19  N1a N    21.1159  -17.5266
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 1
+            7     7   8 1
+            8     3   8 1 #Up
+            9     5   9 1 #Up
+            10    9  10 1
+            11    1  11 1 #Down
+            12    6  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16    7  15 2
+            17    8  16 1
+            18   15  17 1
+            19   16  17 2
+            20   12  18 1
+            21   14  19 1
+///

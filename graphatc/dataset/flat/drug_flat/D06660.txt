@@ -1,0 +1,61 @@
+ENTRY       D06660                      Drug
+NAME        Vabicaserin hydrochloride (USAN);
+            SCA 136
+FORMULA     C15H20N2. HCl
+EXACT_MASS  264.1393
+MOL_WEIGHT  264.7936
+EFFICACY    Antipsychotic, Serotonin receptor agonist
+COMMENT     Treatment of schizophrenia
+TARGET      HTR2C [HSA:3358] [KO:K04157]
+  PATHWAY   hsa04080(3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3358)  Serotonergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2C
+                 D06660  Vabicaserin hydrochloride (USAN)
+DBLINKS     CAS: 620948-34-7
+            PubChem: 47208311
+            LigandBox: D06660
+ATOM        18
+            1   C1x C    31.5634  -17.2994
+            2   C1x C    30.7213  -16.1898
+            3   N1y N    31.0565  -14.8330
+            4   C8y C    32.3175  -14.2549
+            5   N1x N    32.9692  -17.3246
+            6   C8y C    33.5711  -14.8772
+            7   C1x C    33.8576  -16.2459
+            8   C8y C    32.3392  -12.8800
+            9   C8x C    33.5631  -12.1988
+            10  C1y C    31.1385  -12.1614
+            11  C1y C    29.9162  -12.8416
+            12  C8x C    34.7317  -12.8983
+            13  C8x C    34.7317  -14.2983
+            14  C1x C    29.9162  -14.2416
+            15  C1x C    30.8692  -10.7887
+            16  C1x C    29.4805  -10.6206
+            17  C1x C    28.8915  -11.8894
+            18  X   Cl   37.1700  -15.5400
+BOND        20
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     4   8 2
+            9     8   9 1
+            10    8  10 1
+            11   10  11 1
+            12    9  12 2
+            13   12  13 1
+            14   13   6 2
+            15   11  14 1
+            16   14   3 1
+            17   10  15 1
+            18   15  16 1
+            19   16  17 1
+            20   11  17 1
+///

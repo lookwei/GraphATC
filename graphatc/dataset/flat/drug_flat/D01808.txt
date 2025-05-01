@@ -1,0 +1,64 @@
+ENTRY       D01808                      Drug
+NAME        Lobenzarit sodium (JP18/USAN);
+            Lobenzarit disodium;
+            Carfenil (TN)
+FORMULA     C14H8ClNO4. 2Na
+EXACT_MASS  334.9937
+MOL_WEIGHT  335.6502
+EFFICACY    Antirheumatic, Immunomodulator
+  DISEASE   Rheumatoid arthritis [DS:H00630]
+STR_MAP     map07050  Antirheumatics - DMARDs and biological agents
+BRITE       Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01808  Lobenzarit sodium
+DBLINKS     CAS: 64808-48-6
+            PubChem: 7848870
+            ChEBI: 31778
+            LigandBox: D01808
+            NIKKAJI: J22.689K
+ATOM        22
+            1   C8x C    22.0257  -19.7803
+            2   C8x C    22.0257  -21.1807
+            3   C8y C    23.2414  -21.8809
+            4   C8x C    24.4500  -21.1807
+            5   C8y C    24.4500  -19.7803
+            6   C8y C    23.2414  -19.0801
+            7   N1b N    25.6631  -19.0810
+            8   C8y C    26.8754  -19.7822
+            9   C8x C    26.8688  -21.1805
+            10  C8x C    28.0811  -21.8816
+            11  C8x C    29.3644  -21.1824
+            12  C8x C    29.2954  -19.7820
+            13  C8y C    28.0831  -19.0808
+            14  C6a C    23.2431  -17.6798
+            15  O6a O    24.4568  -16.9811 #-
+            16  O6a O    22.0311  -16.9781
+            17  C6a C    28.0819  -17.6804
+            18  O6a O    29.2941  -16.9792
+            19  O6a O    26.8686  -16.9813 #-
+            20  X   Cl   23.2431  -23.2813
+            21  Z   Na   26.7218  -14.8578 #+
+            22  Z   Na   24.2465  -14.8578 #+
+BOND        21
+            1     3   4 2
+            2     4   5 1
+            3     8   9 2
+            4     9  10 1
+            5    10  11 2
+            6    11  12 1
+            7    12  13 2
+            8    13   8 1
+            9     5   6 2
+            10    6  14 1
+            11    6   1 1
+            12   14  15 1
+            13   14  16 2
+            14    5   7 1
+            15   13  17 1
+            16   17  18 2
+            17    7   8 1
+            18   17  19 1
+            19    3  20 1
+            20    1   2 2
+            21    2   3 1
+///

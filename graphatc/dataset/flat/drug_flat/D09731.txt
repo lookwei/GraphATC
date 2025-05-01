@@ -1,0 +1,181 @@
+ENTRY       D09731                      Drug
+NAME        Crizotinib (JAN/USAN/INN);
+            Xalkori (TN)
+PRODUCT     XALKORI (Pfizer Laboratories Div Pfizer)
+FORMULA     C21H22Cl2FN5O
+EXACT_MASS  449.1185
+MOL_WEIGHT  450.3367
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG03136  ALK inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+            Metabolizing enzyme inhibitor
+             DG02892  CYP2B6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02908  SLC22A1 inhibitor
+             DG02863  SLC22A2 inhibitor
+REMARK      Therapeutic category: 4291
+            ATC code: L01ED01
+            Product: D09731<JP/US>
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+  DISEASE   Non-small cell lung cancer (ALK or ROS1-positive) [DS:H00014]
+            Anaplastic large cell lymphoma (ALK-positive) [DS:H01601]
+            Inflammatory myofibroblastic tumor (ALK-positive)
+TARGET      EML4-ALK [HSA_VAR:238v1] [HSA:238] [KO:K05119]
+            ROS1* [HSA_VAR:6098v1] [HSA:6098] [KO:K05088]
+  PATHWAY   hsa05200(238)  Pathways in cancer
+            hsa05223(238)  Non-small cell lung cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP3A5 [HSA:1577]
+INTERACTION CYP inhibition: CYP2B6 [HSA:1555], CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243], SLC22A1 [HSA:6580], SLC22A2 [HSA:6582]
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01ED Anaplastic lymphoma kinase (ALK) inhibitors
+                 L01ED01 Crizotinib
+                  D09731  Crizotinib (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Crizotinib
+                D09731  Crizotinib (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D09731  Crizotinib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03136  ALK inhibitor
+                D09731  Crizotinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D09731  Crizotinib
+              DG02925  CYP3A5 substrate
+               D09731  Crizotinib
+             Metabolizing enzyme inhibitor
+              DG02892  CYP2B6 inhibitor
+               D09731  Crizotinib
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D09731  Crizotinib
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D09731  Crizotinib
+              DG02908  SLC22A1 inhibitor
+               D09731  Crizotinib
+              DG02863  SLC22A2 inhibitor
+               D09731  Crizotinib
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03136  ALK inhibitor
+               D09731  Crizotinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               INSR family
+                ROS1* [HSA_VAR:6098v1]
+                 D09731  Crizotinib (JAN/USAN/INN) &lt;JP/US&gt;
+               ALK family
+                EML4-ALK [HSA_VAR:238v1]
+                 D09731  Crizotinib (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09731
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09731
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09731
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09731
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09731
+             Drug transporters
+              D09731
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D09731
+DBLINKS     CAS: 877399-52-5
+            PubChem: 124490471
+            ChEBI: 64310
+            PDB-CCD: VGH
+            LigandBox: D09731
+ATOM        30
+            1   C8x C    15.1200  -18.3400
+            2   C8y C    15.1200  -19.7400
+            3   C8x C    16.3100  -20.4400
+            4   C8y C    17.5700  -19.7400
+            5   C8y C    17.5700  -18.3400
+            6   N5x N    16.3100  -17.6400
+            7   N1a N    18.7600  -17.6400
+            8   O2a O    18.7600  -20.4400
+            9   C1c C    19.9500  -19.7400
+            10  C8y C    21.1400  -20.4400
+            11  C8y C    21.1400  -21.8400
+            12  C8x C    22.4000  -22.5400
+            13  C8x C    23.5900  -21.8400
+            14  C8y C    23.5900  -20.4400
+            15  C8y C    22.4000  -19.7400
+            16  X   Cl   22.4000  -18.3400
+            17  X   F    24.7800  -19.7400
+            18  X   Cl   19.9500  -22.5400
+            19  C1a C    19.9500  -18.3400
+            20  C8y C    13.9300  -20.4400
+            21  C8x C    12.8100  -19.6700
+            22  N5x N    11.6900  -20.4400
+            23  N4y N    12.1100  -21.7700
+            24  C8x C    13.5100  -21.7700
+            25  C1y C    10.9200  -22.4700
+            26  C1x C     9.7300  -21.7700
+            27  C1x C     8.4700  -22.4700
+            28  N1x N     8.4700  -23.8700
+            29  C1x C     9.6600  -24.5700
+            30  C1x C    10.9200  -23.8700
+BOND        33
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17   15  16 1
+            18   14  17 1
+            19   11  18 1
+            20    9  19 1 #Down
+            21    2  20 1
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 1
+            26   20  24 2
+            27   23  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   28  29 1
+            32   29  30 1
+            33   25  30 1
+///

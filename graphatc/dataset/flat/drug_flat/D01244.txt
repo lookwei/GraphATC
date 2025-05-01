@@ -1,0 +1,91 @@
+ENTRY       D01244                      Drug
+NAME        Tegafur (JP18/USAN/INN);
+            Atillon (TN)
+FORMULA     C8H9FN2O3
+EXACT_MASS  200.0597
+MOL_WEIGHT  200.1671
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01935  Fluoropyrimidine antineoplastic
+            Metabolizing enzyme substrate
+             DG01638  CYP2A6 substrate
+REMARK      Same as: C12673
+            ATC code: L01BC03
+            Product (mixture): D02131<JP> D06399<JP>
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Active form of prodrug: Fluorouracil [DR:D00584]
+TARGET      TYMS [HSA:7298] [KO:K00560]
+  PATHWAY   hsa00240(7298)  Pyrimidine metabolism
+            hsa00670(7298)  One carbon pool by folate
+METABOLISM  Enzyme: CYP2A6 [HSA:1548]
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+OTHER_MAP   map00983  Drug metabolism - other enzymes
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC03 Tegafur
+                  D01244  Tegafur (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01935  Fluoropyrimidine antineoplastic
+                 D01244  Tegafur
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               D01244  Tegafur
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                TYMS
+                 D01244  Tegafur (JP18/USAN/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01244  Tegafur
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01244
+            Prodrugs [br08324.html]
+             D01244
+DBLINKS     CAS: 17902-23-7
+            PubChem: 7848307
+            ChEBI: 32188
+            LigandBox: D01244
+            NIKKAJI: J4.543H
+ATOM        14
+            1   C1y C    22.3760  -18.2217
+            2   O2x O    21.2472  -17.3849
+            3   C1x C    21.9301  -19.5480
+            4   C1x C    20.1024  -18.2004
+            5   C1x C    20.5236  -19.5348
+            6   N4y N    23.7960  -17.4047
+            7   C8y C    24.9907  -18.1227
+            8   C8x C    23.8098  -16.0038
+            9   N4x N    26.2164  -17.4363
+            10  O5x O    24.9714  -19.5247
+            11  C8y C    25.0353  -15.3174
+            12  C8y C    26.2357  -16.0341
+            13  O5x O    27.4626  -15.3536
+            14  X   F    25.0542  -13.9477
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   5 1
+            6     6   7 1
+            7     6   8 1
+            8     7   9 1
+            9     7  10 2
+            10    8  11 2
+            11    9  12 1
+            12   12  13 2
+            13   11  12 1
+            14   11  14 1
+            15    1   6 1
+///

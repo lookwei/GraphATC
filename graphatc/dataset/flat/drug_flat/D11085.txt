@@ -1,0 +1,106 @@
+ENTRY       D11085                      Drug
+NAME        Trimethoprim hydrochloride;
+            Primsol (TN);
+            Trimpex (TN)
+FORMULA     C14H18N4O3. HCl
+EXACT_MASS  326.1146
+MOL_WEIGHT  326.7787
+CLASS       Antibacterial
+             DG01581  Trimethoprim antibacterial
+            Metabolizing enzyme inhibitor
+             DG01641  CYP2C8 inhibitor
+REMARK      ATC code: J01EA01
+            Chemical structure group: DG00595
+            Product (DG00595): D00145<US>
+            Product (mixture): D11086<US>
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+  DISEASE   Uncomplicated urinary tract infections [DS:H01176]
+TARGET      dihydrofolate reductase [KO:K13938]
+  PATHWAY   ko00670(K13938)  One carbon pool by folate
+            ko00790(K13938)  Folate biosynthesis
+INTERACTION CYP inhibition: CYP2C8 [HSA:1558]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EA Trimethoprim and derivatives
+                 J01EA01 Trimethoprim
+                  D11085  Trimethoprim hydrochloride
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01581  Trimethoprim antibacterial
+               DG00595  Trimethoprim
+                D11085  Trimethoprim hydrochloride
+             Metabolizing enzyme inhibitor
+              DG01641  CYP2C8 inhibitor
+               DG00595  Trimethoprim
+                D11085  Trimethoprim hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Trimethoprim
+                D11085  Trimethoprim hydrochloride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11085
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01581  Trimethoprim antibacterial
+               DG00595  Trimethoprim
+             Metabolizing enzyme inhibitor
+              DG01641  CYP2C8 inhibitor
+               DG00595  Trimethoprim
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Trimethoprim
+                DG00595  Trimethoprim
+DBLINKS     CAS: 60834-30-2
+            PubChem: 375581032
+ATOM        22
+            1   C8y C    18.0338  -17.1983
+            2   C1b C    19.2174  -17.8945
+            3   C8x C    16.8501  -17.8945
+            4   C8x C    18.0338  -15.8057
+            5   C8y C    20.4011  -17.1983
+            6   C8y C    15.5968  -17.1983
+            7   C8y C    16.8501  -15.1094
+            8   C8y C    21.6544  -17.8945
+            9   C8x C    20.4011  -15.7361
+            10  C8y C    15.5968  -15.8057
+            11  O2a O    14.4132  -17.8945
+            12  O2a O    16.8501  -13.7169
+            13  N5x N    22.8381  -17.1983
+            14  N1a N    21.6544  -19.2871
+            15  N5x N    21.6544  -15.0398
+            16  O2a O    14.4132  -15.1791
+            17  C1a C    13.2295  -17.1286
+            18  C1a C    18.0338  -13.0206
+            19  C8y C    22.8381  -15.7361
+            20  C1a C    14.4132  -13.7169
+            21  N1a N    24.0217  -15.0398
+            22  X   Cl   26.2500  -19.1800
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     6  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1
+            14    9  15 2
+            15   10  16 1
+            16   11  17 1
+            17   12  18 1
+            18   13  19 2
+            19   16  20 1
+            20   19  21 1
+            21    7  10 2
+            22   15  19 1
+///

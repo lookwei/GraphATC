@@ -1,0 +1,33 @@
+ENTRY       G10505                      Glycan
+NAME        Hyaluronic acid;
+            Hyaluronate;
+            Hyaluronan
+COMPOSITION (GlcA)1 (GlcNAc)1 (*)2
+REMARK      Same as: C00518 D08043
+REACTION    R06068 R06242 R10905
+PATHWAY     map00531  Glycosaminoglycan degradation
+            map04512  ECM-receptor interaction
+            map05144  Malaria
+            map05205  Proteoglycans in cancer
+ENZYME      2.4.1.212       3.2.1.35        4.2.2.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G10505  Hyaluronic acid
+DBLINKS     CCSD: 36521
+            GlyTouCan: G16235VG
+            JCGGDB: JCGG-STR030256
+NODE        4
+            1   *          13     0
+            2   GlcNAc      4     0
+            3   GlcA       -6     0
+            4   *         -14     0
+EDGE        3
+            1     2:b1    1    
+            2     3:b1    2:3  
+            3     4       3:4  
+BRACKET     1 -10.0   2.0 -10.0  -2.0
+            1   9.0  -2.0   9.0   2.0
+            1 n
+///

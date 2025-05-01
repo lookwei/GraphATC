@@ -1,0 +1,122 @@
+ENTRY       D02300                      Drug
+NAME        Adenosine triphosphate disodium hydrate (JAN);
+            Adenosine triphosphate disodium trihydrate;
+            Adenosine 5'-triphosphate disodium;
+            ATP (TN)
+FORMULA     C10H14N5Na2O13P3. 3H2O
+EXACT_MASS  604.9913
+MOL_WEIGHT  605.1905
+REMARK      Therapeutic category: 3992
+            ATC code: C01EB10
+            Chemical structure group: DG00243
+            Product (DG00243): D00045<JP/US> D02300<JP>
+EFFICACY    Antivertigo, Metabolic enhancer
+TARGET      ADORA [HSA:134 135 136 140] [KO:K04265 K04266 K04267 K04268]
+  PATHWAY   hsa04080(134+135+136+140)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01E OTHER CARDIAC PREPARATIONS
+                C01EB Other cardiac preparations
+                 C01EB10 Adenosine
+                  D02300  Adenosine triphosphate disodium hydrate (JAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3992  Adenosines
+                 D02300  Adenosine triphosphate disodium hydrate (JAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Adenosinetriphosphoric acid
+                D02300  Adenosine triphosphate disodium hydrate (JAN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA
+                 D02300  Adenosine triphosphate disodium hydrate (JAN) &lt;JP&gt;
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D02300
+DBLINKS     PubChem: 7849359
+ATOM        36
+            1   N4y N    26.7064  -14.6180
+            2   C8y C    27.7806  -15.3653
+            3   C1y C    25.3987  -15.0383
+            4   C8x C    27.1734  -13.2169
+            5   C8y C    28.9949  -14.4779
+            6   N5x N    27.9207  -16.8131
+            7   O2x O    24.2778  -14.1977
+            8   C1y C    24.9784  -16.2994
+            9   N5x N    28.6213  -13.2636
+            10  C8y C    30.2560  -15.0383
+            11  C8x C    29.2284  -17.3736
+            12  C1y C    23.1569  -14.9917
+            13  C1y C    23.6238  -16.2994
+            14  O1a O    25.7723  -17.4202
+            15  N5x N    30.4427  -16.4862
+            16  N1a N    31.3768  -14.1977
+            17  C1b C    21.8491  -14.5713
+            18  O1a O    23.1569  -17.6071
+            19  O2b O    20.8216  -15.5054
+            20  P1b P    19.4205  -15.5054
+            21  O2c O    18.0193  -15.5054
+            22  O1c O    19.4205  -16.9065
+            23  O1c O    19.4205  -14.1043
+            24  P1b P    16.6182  -15.5054
+            25  O2c O    15.2171  -15.5054
+            26  O1c O    16.6182  -16.9065
+            27  O1c O    16.6182  -14.1043
+            28  P1b P    13.8160  -15.5054
+            29  O2b O    13.8160  -16.9065
+            30  O2b O    12.4149  -15.5286
+            31  O1c O    13.8160  -14.1043
+            32  Z   Na   11.7489  -14.2808
+            33  Z   Na   12.6075  -17.6043
+            34  O0  O    35.4406  -16.8121
+            35  O0  O    35.4406  -16.8121
+            36  O0  O    35.4406  -16.8121
+BOND        35
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   12  17 1 #Up
+            17   13  18 1 #Down
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21   20  22 1
+            22   20  23 2
+            23   21  24 1
+            24   24  25 1
+            25   24  26 1
+            26   24  27 2
+            27   25  28 1
+            28   28  29 1
+            29   28  30 1
+            30   28  31 2
+            31    5   9 1
+            32   11  15 1
+            33   12  13 1
+            34   30  32 1
+            35   29  33 1
+BRACKET     1    33.4600  -17.6400   33.4600  -15.9600
+            1    35.9800  -15.9600   35.9800  -17.6400
+            1  3
+  ORIGINAL  1   34
+  REPEAT    1   35  36
+///

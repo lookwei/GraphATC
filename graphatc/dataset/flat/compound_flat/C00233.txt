@@ -1,0 +1,54 @@
+ENTRY       C00233                      Compound
+NAME        4-Methyl-2-oxopentanoate;
+            2-Oxoisocaproate;
+            alpha-Ketoisocaproate
+FORMULA     C6H10O3
+EXACT_MASS  130.063
+MOL_WEIGHT  130.1418
+REACTION    R01088 R01090 R01651 R01652 R01702 R07601 R08566 R10052
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00785  Lipoic acid metabolism
+            map00966  Glucosinolate biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA
+            M00432  Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
+NETWORK     nt06024  Valine, leucine and isoleucine degradation
+            nt06032  Lipoic acid metabolism
+ENZYME      1.1.1.85        1.2.1.25        1.2.4.4         1.2.7.7         
+            1.4.1.9         2.6.1.6         2.6.1.42        2.6.1.67
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C00233  2-Oxoisocaproate
+DBLINKS     CAS: 816-66-0
+            PubChem: 3532
+            ChEBI: 17865 48430
+            KNApSAcK: C00019677
+            PDB-CCD: COI
+            3DMET: B00066
+            NIKKAJI: J39.557I
+ATOM        9
+            1   C5a C    22.7306  -15.8055
+            2   C1b C    21.5143  -16.5070
+            3   C6a C    23.9403  -16.5070
+            4   O5a O    22.7306  -14.4727
+            5   C1c C    20.3046  -15.8055
+            6   O6a O    25.1501  -15.8055
+            7   O6a O    23.9403  -18.1134
+            8   C1a C    19.0947  -16.5070
+            9   C1a C    20.3046  -14.4727
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     5   8 1
+            8     5   9 1
+///

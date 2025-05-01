@@ -1,0 +1,118 @@
+ENTRY       D10254                      Drug
+NAME        Esflurbiprofen (JAN)
+FORMULA     C15H13FO2
+EXACT_MASS  244.09
+MOL_WEIGHT  244.2609
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      ATC code: M01AE09 M02AA19 M02AA29 R02AX01 S01BC04
+            Chemical structure group: DG00755
+            Product (DG00755): D00330<JP/US> D01475<JP> D02290<US>
+            Product (mixture): D10746<JP>
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE09 Flurbiprofen
+                  D10254  Esflurbiprofen (JAN)
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA19 Flurbiprofen
+                  D10254  Esflurbiprofen (JAN)
+                 M02AA29 Esflurbiprofen
+                  D10254  Esflurbiprofen (JAN)
+             R RESPIRATORY SYSTEM
+              R02 THROAT PREPARATIONS
+               R02A THROAT PREPARATIONS
+                R02AX Other throat preparations
+                 R02AX01 Flurbiprofen
+                  D10254  Esflurbiprofen (JAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01B ANTIINFLAMMATORY AGENTS
+                S01BC Antiinflammatory agents, non-steroids
+                 S01BC04 Flurbiprofen
+                  D10254  Esflurbiprofen (JAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00755  Flurbiprofen
+                 D10254  Esflurbiprofen
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00755  Flurbiprofen
+                D10254  Esflurbiprofen
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D10254  Esflurbiprofen (JAN)
+                PTGS2 (COX2)
+                 D10254  Esflurbiprofen (JAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10254
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00755  Flurbiprofen
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00755  Flurbiprofen
+DBLINKS     CAS: 51543-39-6
+            PubChem: 163312285
+            PDB-CCD: FLP
+ATOM        18
+            1   C8x C     9.1000  -18.1300
+            2   C8x C     9.1000  -19.5300
+            3   C8x C    10.3124  -20.2300
+            4   C8x C    11.5249  -19.5300
+            5   C8y C    11.5249  -18.1300
+            6   C8x C    10.3124  -17.4300
+            7   C8y C    12.7560  -17.4190
+            8   C8y C    13.9612  -18.1147
+            9   C8x C    15.1735  -17.4146
+            10  C8y C    15.1735  -16.0146
+            11  C8x C    13.9683  -15.3189
+            12  C8x C    12.7559  -16.0190
+            13  X   F    13.9616  -19.5296
+            14  C1c C    16.3914  -15.3112
+            15  C6a C    17.6034  -16.0107
+            16  C1a C    16.3911  -13.9300
+            17  O6a O    18.7823  -15.3298
+            18  O6a O    17.6040  -17.4296
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14    8  13 1
+            15   10  14 1
+            16   14  15 1
+            17   14  16 1 #Down
+            18   15  17 1
+            19   15  18 2
+///

@@ -1,0 +1,99 @@
+ENTRY       D08597                      Drug
+NAME        Tilidine (INN)
+FORMULA     C17H23NO2
+EXACT_MASS  273.1729
+MOL_WEIGHT  273.37
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      ATC code: N02AX01
+            Chemical structure group: DG00823
+EFFICACY    Analgesic, Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AX Other opioids
+                 N02AX01 Tilidine
+                  D08597  Tilidine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00823  Tilidine
+                 D08597  Tilidine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00823  Tilidine
+                D08597  Tilidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D08597  Tilidine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D08597
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00823  Tilidine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00823  Tilidine
+DBLINKS     CAS: 20380-58-9
+            PubChem: 96025281
+            ChEBI: 77823
+            LigandBox: D08597
+            NIKKAJI: J244.473I
+ATOM        20
+            1   C2x C    20.8600  -17.6400
+            2   C2x C    20.8600  -18.9700
+            3   C1x C    22.0500  -19.6700
+            4   C1x C    23.1700  -18.9700
+            5   C1z C    23.1700  -17.6400
+            6   C1y C    22.0500  -16.9400
+            7   C8y C    25.2000  -16.1700
+            8   C8x C    26.3200  -16.8700
+            9   C8x C    27.5100  -16.1700
+            10  C8x C    27.5100  -14.8400
+            11  C8x C    26.3200  -14.2100
+            12  C8x C    25.2000  -14.8400
+            13  N1c N    22.0500  -15.6100
+            14  C1a C    20.8600  -14.9100
+            15  C1a C    23.1700  -14.9100
+            16  C7a C    24.3600  -18.2700
+            17  O7a O    24.3600  -19.6700
+            18  O6a O    25.5500  -17.6400
+            19  C1b C    25.5500  -20.3000
+            20  C1a C    25.5500  -21.7000
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1 #Up
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14    6  13 1 #Up
+            15   13  14 1
+            16   13  15 1
+            17    5  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 1
+///

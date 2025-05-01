@@ -1,0 +1,129 @@
+ENTRY       D00122                      Drug
+NAME        Calcifediol (USP/INN);
+            Calcifediol monohydrate;
+            Calderol (TN);
+            Rayaldee (TN)
+PRODUCT     RAYALDEE (OPKO Pharmaceuticals LLC)
+FORMULA     C27H44O2. H2O
+EXACT_MASS  418.3447
+MOL_WEIGHT  418.6523
+CLASS       Gastrointestinal agent
+             DG01607  Vitamin D derivatives
+            Metabolizing enzyme substrate
+             DG02982  CYP24A1 substrate
+             DG02981  CYP27B1 substrate
+REMARK      ATC code: A11CC06 H05BX05
+            Chemical structure group: DG00124
+            Product (DG00124): D00122<US>
+EFFICACY    Diagnostic aid, Regulator (calcium)
+  DISEASE   Secondary hyperparathyroidism [DS:H01669]
+COMMENT     Vitamin D analog
+TARGET      NR1I1 (VDR) [HSA:7421] [KO:K08539]
+  PATHWAY   hsa04961(7421)  Endocrine and other factor-regulated calcium reabsorption
+METABOLISM  Enzyme: CYP27B1 [HSA:1594], CYP24A1 [HSA:1591]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A11 VITAMINS
+               A11C VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO
+                A11CC Vitamin D and analogues
+                 A11CC06 Calcifediol
+                  D00122  Calcifediol (USP/INN) &lt;US&gt;
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H05 CALCIUM HOMEOSTASIS
+               H05B ANTI-PARATHYROID AGENTS
+                H05BX Other anti-parathyroid agents
+                 H05BX05 Calcifediol
+                  D00122  Calcifediol (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Metabolic Bone Disease Agents
+              Vitamin D-related Agents
+               Calcifediol
+                D00122  Calcifediol (USP/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01607  Vitamin D derivatives
+               D00122  Calcifediol
+             Metabolizing enzyme substrate
+              DG02982  CYP24A1 substrate
+               D00122  Calcifediol
+              DG02981  CYP27B1 substrate
+               D00122  Calcifediol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Vitamin D3 like receptor
+                NR1I1 (VDR)
+                 D00122  Calcifediol (USP/INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00122
+DBLINKS     CAS: 63283-36-3
+            PubChem: 7847190
+            ChEBI: 181423
+            LigandBox: D00122
+            NIKKAJI: J252.797I
+ATOM        30
+            1   O0  O    33.0363  -30.2959
+            2   C1x C    24.6400  -23.8000
+            3   C1x C    24.6400  -25.2000
+            4   C2y C    25.8524  -25.9000
+            5   C1y C    27.0649  -25.2000
+            6   C1z C    27.0649  -23.8000
+            7   C1x C    25.8524  -23.1000
+            8   C1x C    28.3964  -25.6326
+            9   C1x C    29.2193  -24.5000
+            10  C1y C    28.3964  -23.3674
+            11  C1a C    27.0649  -22.4000
+            12  C2b C    25.8524  -27.2998
+            13  C2b C    24.6232  -28.0097
+            14  C2y C    24.6232  -29.4097
+            15  C1x C    23.4276  -30.1000
+            16  C1y C    23.4276  -31.5000
+            17  C1x C    24.6400  -32.2000
+            18  C1x C    25.8356  -31.5097
+            19  C2y C    25.8356  -30.1097
+            20  C2a C    27.0480  -29.4097
+            21  O1a O    22.2321  -32.1904
+            22  C1c C    28.8275  -22.0406
+            23  C1b C    30.2275  -22.0406
+            24  C1a C    28.0135  -20.9200
+            25  C1b C    30.9266  -20.8299
+            26  C1b C    32.3397  -20.8297
+            27  C1d C    33.0265  -19.6399
+            28  O1a O    34.4397  -19.6395
+            29  C1a C    32.3427  -18.4560
+            30  C1a C    33.7432  -20.8806
+BOND        31
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     5   8 1
+            8     8   9 1
+            9     9  10 1
+            10    6  10 1
+            11    6  11 1 #Up
+            12    4  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   14  19 1
+            21   19  20 2
+            22   16  21 1 #Down
+            23   10  22 1
+            24   22  23 1
+            25   22  24 1 #Down
+            26   23  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30   27  29 1
+            31   27  30 1
+///

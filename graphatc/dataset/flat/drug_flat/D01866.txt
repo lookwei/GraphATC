@@ -1,0 +1,121 @@
+ENTRY       D01866                      Drug
+NAME        Lornoxicam (JAN/USAN/INN);
+            Lorcam (TN)
+FORMULA     C13H10ClN3O4S2
+EXACT_MASS  370.9801
+MOL_WEIGHT  371.8192
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01910  Anti-inflammatory drug, oxicams
+              DG01922  Selective COX2 inhibitor
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      Therapeutic category: 1149
+            ATC code: M01AC05
+            Product: D01866<JP>
+EFFICACY    Analgesic, Anti-inflammatory, COX-2 inhibitor
+COMMENT     Oxicams
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+            PTGS1 (COX1) [HSA:5742] [KO:K00509]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+STR_MAP     map07219  Cyclooxygenase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AC Oxicams
+                 M01AC05 Lornoxicam
+                  D01866  Lornoxicam (JAN/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               114  Antipyretics and analgesics, anti-inflammatory agents
+                1149  Others
+                 D01866  Lornoxicam (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01910  Anti-inflammatory drug, oxicams
+                D01866  Lornoxicam
+               DG01922  Selective COX2 inhibitor
+                D01866  Lornoxicam
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D01866  Lornoxicam
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               D01866  Lornoxicam
+               D01866  Lornoxicam
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01866  Lornoxicam (JAN/USAN/INN) &lt;JP&gt;
+                PTGS2 (COX2)
+                 D01866  Lornoxicam (JAN/USAN/INN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01866
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01866
+DBLINKS     CAS: 70374-39-9
+            PubChem: 7848928
+            ChEBI: 31783
+            LigandBox: D01866
+            NIKKAJI: J248.069G
+ATOM        23
+            1   C8y C    19.9545  -16.6724
+            2   C8y C    21.1625  -17.3723
+            3   N4y N    21.1625  -18.7720
+            4   S2x S    19.9545  -19.4719
+            5   C8y C    18.7394  -17.3723
+            6   C8y C    18.7434  -18.7749
+            7   C8x C    17.4107  -19.2123
+            8   C8y C    16.5831  -18.0799
+            9   S2x S    17.4041  -16.9428
+            10  O3c O    21.1571  -20.1789
+            11  O3c O    18.7322  -20.1717
+            12  X   Cl   15.1834  -18.0842
+            13  C5a C    22.3751  -16.6734
+            14  O5a O    22.3763  -15.2737
+            15  N1b N    23.5869  -17.3741
+            16  C8y C    24.7996  -16.6751
+            17  C8x C    24.7986  -15.2803
+            18  C8x C    26.0114  -14.5813
+            19  C8x C    27.2229  -15.2820
+            20  C8x C    27.2219  -16.6817
+            21  N5x N    26.0093  -17.3808
+            22  C1a C    22.3751  -19.4710
+            23  O1a O    19.9562  -15.2727
+BOND        25
+            1     4  11 2
+            2     5   1 1
+            3     8  12 1
+            4     1   2 2
+            5     2  13 1
+            6     2   3 1
+            7    13  14 2
+            8     3   4 1
+            9    13  15 1
+            10    5   6 2
+            11   15  16 1
+            12    6   7 1
+            13    7   8 2
+            14    8   9 1
+            15    9   5 1
+            16    4   6 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22   21  16 1
+            23    4  10 2
+            24    3  22 1
+            25    1  23 1
+///

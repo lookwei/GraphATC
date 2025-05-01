@@ -1,0 +1,165 @@
+ENTRY       D07983                      Drug
+NAME        Fluvastatin (INN);
+            Fluvas (TN)
+FORMULA     C24H26FNO4
+EXACT_MASS  411.1846
+MOL_WEIGHT  411.4659
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01660  HMG-CoA reductase inhibitor
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01643  CYP2C9 inhibitor
+            Transporter substrate
+             DG02856  SLCO1B1 substrate
+            Transporter inhibitor
+             DG02882  ABCB11 inhibitor
+REMARK      Same as: C07014
+            ATC code: C10AA04
+            Chemical structure group: DG00354
+            Product (DG00354): D00892<JP/US>
+EFFICACY    Antihyperlipidemic, HMG-CoA reductase inhibitor
+TARGET      HMGCR [HSA:3156] [KO:K00021]
+  PATHWAY   hsa00900(3156)  Terpenoid backbone biosynthesis
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP3A4 [HSA:1576]
+            Transporter: SLCO1B1 [HSA:10599]
+INTERACTION CYP inhibition: CYP2C9 [HSA:1559]
+            Transporter inhibition: ABCB11 [HSA:8647]
+STR_MAP     map07024  HMG-CoA reductase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AA HMG CoA reductase inhibitors
+                 C10AA04 Fluvastatin
+                  D07983  Fluvastatin (INN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00354  Fluvastatin
+                 D07983  Fluvastatin
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00354  Fluvastatin
+                D07983  Fluvastatin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00354  Fluvastatin
+                 D07983  Fluvastatin
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               DG00354  Fluvastatin
+                D07983  Fluvastatin
+             Transporter substrate
+              DG02856  SLCO1B1 substrate
+               DG00354  Fluvastatin
+                D07983  Fluvastatin
+             Transporter inhibitor
+              DG02882  ABCB11 inhibitor
+               DG00354  Fluvastatin
+                D07983  Fluvastatin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                HMGCR
+                 D07983  Fluvastatin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07983
+             Drug transporters
+              D07983
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00354  Fluvastatin
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00354  Fluvastatin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00354  Fluvastatin
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               DG00354  Fluvastatin
+             Transporter substrate
+              DG02856  SLCO1B1 substrate
+               DG00354  Fluvastatin
+             Transporter inhibitor
+              DG02882  ABCB11 inhibitor
+               DG00354  Fluvastatin
+DBLINKS     CAS: 93957-54-1
+            PubChem: 96024677
+            ChEBI: 38561 5136
+            LigandBox: D07983
+            NIKKAJI: J360.319I
+ATOM        30
+            1   C8y C    20.9855  -16.8573
+            2   C8x C    20.9855  -18.2563
+            3   C8x C    22.1746  -18.9557
+            4   C8y C    23.4336  -18.2563
+            5   C8x C    23.4336  -16.8573
+            6   C8x C    22.1746  -16.1579
+            7   X   F    19.7964  -16.1579
+            8   C8y C    24.6227  -18.9557
+            9   C8y C    25.1123  -20.2847
+            10  C8y C    26.4413  -20.2847
+            11  N4y N    26.8610  -18.9557
+            12  C8y C    25.7418  -18.1164
+            13  C8x C    24.4129  -21.5437
+            14  C8x C    25.1123  -22.8028
+            15  C8x C    26.5113  -22.8028
+            16  C8x C    27.2107  -21.5437
+            17  C2b C    25.7418  -16.7174
+            18  C1a C    29.3091  -18.9557
+            19  C1c C    28.1200  -18.2563
+            20  C1a C    28.1200  -16.8573
+            21  C2b C    26.9309  -16.0180
+            22  C1c C    26.9309  -14.6191
+            23  C1b C    28.1200  -13.9196
+            24  C1c C    29.3091  -14.6191
+            25  C1b C    30.4982  -13.9196
+            26  C6a C    31.6873  -14.6191
+            27  O6a O    32.8764  -13.9196
+            28  O6a O    31.6873  -16.0180
+            29  O1a O    25.7418  -13.9196
+            30  O1a O    29.3091  -16.0180
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    8  12 2
+            14    9  13 2
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   10  16 2
+            19   12  17 1
+            20   18  19 1
+            21   11  19 1
+            22   19  20 1
+            23   17  21 2
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   26  28 2
+            31   22  29 1 #Down
+            32   24  30 1 #Up
+///

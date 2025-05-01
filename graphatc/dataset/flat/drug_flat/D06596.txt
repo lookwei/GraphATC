@@ -1,0 +1,67 @@
+ENTRY       D06596                      Drug
+NAME        Forodesine (USAN/INN);
+            Fodosine (TN)
+FORMULA     C11H14N4O4
+EXACT_MASS  266.1015
+MOL_WEIGHT  266.2533
+REMARK      Chemical structure group: DG01392
+            Product (DG01392): D04245<JP>
+EFFICACY    Antineoplastic, Purine nucleoside phosphorylase (PNP) inhibitor
+COMMENT     Treatment of T-Cell malignancies such as acute lymphoblastic leukemia (ALL) and cutaneous T-Cell lymphoma (CTCL)
+TARGET      PNP [HSA:4860] [KO:K03783]
+  PATHWAY   hsa00230(4860)  Purine metabolism
+            hsa00240(4860)  Pyrimidine metabolism
+            hsa00760(4860)  Nicotinate and nicotinamide metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                PNP
+                 D06596  Forodesine (USAN/INN)
+DBLINKS     CAS: 209799-67-7
+            PubChem: 47208247
+            PDB-CCD: IMH
+            LigandBox: D06596
+ATOM        19
+            1   C1y C    27.4995  -18.3298
+            2   C1y C    28.8986  -18.3298
+            3   C1y C    29.3308  -16.9992
+            4   N1x N    28.1990  -16.1770
+            5   C1y C    27.0672  -16.9992
+            6   O1a O    26.6772  -19.4616
+            7   O1a O    29.7208  -19.4616
+            8   C1b C    25.7485  -16.5708
+            9   C8y C    30.6496  -16.5708
+            10  O1a O    24.7050  -17.5103
+            11  C8y C    31.7103  -17.4906
+            12  C8y C    32.9130  -16.7677
+            13  N4x N    32.5972  -15.4005
+            14  C8x C    31.1993  -15.2783
+            15  N5x N    31.7349  -18.8895
+            16  C8x C    32.9586  -19.5676
+            17  N4x N    34.1613  -18.8447
+            18  C8y C    34.1367  -17.4459
+            19  O5x O    35.3469  -16.7185
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Down
+            7     2   7 1 #Down
+            8     5   8 1 #Up
+            9     3   9 1 #Up
+            10    8  10 1
+            11    9  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 1
+            15    9  14 2
+            16   11  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 1
+            20   12  18 1
+            21   18  19 2
+///

@@ -1,0 +1,117 @@
+ENTRY       D01943                      Drug
+NAME        Canrenoate potassium (USAN);
+            Potassium canrenoate (JP18);
+            Soldactone (TN)
+FORMULA     C22H29O4. K
+EXACT_MASS  396.1703
+MOL_WEIGHT  396.5616
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01676  Aldosterone antagonist
+             DG01885  Potassium-sparing diuretic
+REMARK      Therapeutic category: 2133
+            ATC code: C03DA02
+            Product: D01943<JP>
+EFFICACY    Antihypertensive, Diuretic, Aldosterone antagonist
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03D ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+                C03DA Aldosterone antagonists
+                 C03DA02 Potassium canrenoate
+                  D01943  Canrenoate potassium (USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               213  Diuretics
+                2133  Antialdosterones
+                 D01943  Canrenoate potassium (USAN); Potassium canrenoate (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01676  Aldosterone antagonist
+                D01943  Canrenoate potassium
+              DG01885  Potassium-sparing diuretic
+               D01943  Canrenoate potassium
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01676  Aldosterone antagonist
+               D01943  Canrenoate potassium
+              DG03231  Antihypertensive
+               D01943  Canrenoate potassium
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D01943  Canrenoate potassium (USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01943  Potassium canrenoate
+DBLINKS     CAS: 2181-04-6
+            PubChem: 7849005
+            LigandBox: D01943
+            NIKKAJI: J7.352K
+ATOM        27
+            1   C1x C    12.3998  -16.4177
+            2   C5x C    12.3998  -17.7762
+            3   C2x C    13.5763  -18.4554
+            4   C2y C    14.7527  -17.7762
+            5   C1z C    14.7527  -16.4177
+            6   C1x C    13.5763  -15.7384
+            7   C2x C    15.9292  -18.4554
+            8   C2x C    17.1057  -17.7762
+            9   C1y C    17.1057  -16.4177
+            10  C1y C    15.9292  -15.7384
+            11  C1y C    18.2822  -15.7384
+            12  C1z C    18.2822  -14.3800
+            13  C1x C    17.1057  -13.7007
+            14  C1x C    15.9292  -14.3800
+            15  C1x C    20.6351  -15.7384
+            16  C1x C    20.6351  -14.3800
+            17  C1z C    19.4587  -13.7007
+            18  O1a O    19.4639  -12.3422
+            19  C1b C    20.6412  -13.0215
+            20  C1b C    21.9997  -13.0215
+            21  C6a C    22.6910  -11.8239
+            22  O6a O    24.0748  -11.8237 #-
+            23  O6a O    21.9819  -10.5959
+            24  C1a C    18.2834  -12.9821
+            25  C1a C    14.7338  -15.0371
+            26  O5x O    11.1783  -18.4813
+            27  Z   K    26.0167  -11.9000 #+
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   17  18 1 #Up
+            22   17  19 1 #Down
+            23   19  20 1
+            24   20  21 1
+            25   21  22 1
+            26   21  23 2
+            27   12  24 1 #Up
+            28    5  25 1 #Up
+            29    2  26 2
+///

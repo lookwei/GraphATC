@@ -1,0 +1,60 @@
+ENTRY       D04131                      Drug
+NAME        Farampator (USAN/INN);
+            Org 24448
+FORMULA     C12H13N3O2
+EXACT_MASS  231.1008
+MOL_WEIGHT  231.2505
+EFFICACY    Antipsychotic, AMPA receptor enhancer
+COMMENT     Treatment of schizophrenia
+TARGET      GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+  PATHWAY   hsa04080(2890+2891+2892+2893)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893)  Glutamatergic synapse
+            hsa04728(2890+2891+2892+2893)  Dopaminergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D04131  Farampator (USAN/INN)
+DBLINKS     CAS: 211735-76-1
+            PubChem: 47206078
+            LigandBox: D04131
+ATOM        17
+            1   C1x C    19.8800  -16.2400
+            2   C1x C    19.8800  -17.6400
+            3   C1x C    18.6900  -18.3400
+            4   C1x C    17.4300  -17.6400
+            5   N1y N    17.4300  -16.2400
+            6   C1x C    18.6900  -15.5400
+            7   C8x C    15.0500  -17.6400
+            8   C8y C    15.0500  -16.2400
+            9   C5a C    16.2400  -15.5400
+            10  C8x C    13.7900  -18.3400
+            11  C8y C    12.6000  -17.6400
+            12  C8y C    12.6000  -16.2400
+            13  C8x C    13.7900  -15.5400
+            14  O5a O    16.2400  -14.1400
+            15  N5x N    11.2685  -15.8074
+            16  O2x O    10.4456  -16.9400
+            17  N5x N    11.2685  -18.0726
+BOND        19
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 2
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 2
+            15    9  14 2
+            16   12  15 2
+            17   15  16 1
+            18   16  17 1
+            19   11  17 2
+///

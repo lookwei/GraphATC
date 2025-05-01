@@ -1,0 +1,111 @@
+ENTRY       D06129                      Drug
+NAME        Tiapamil hydrochloride (USAN)
+FORMULA     C26H37NO8S2. HCl. H2O
+EXACT_MASS  609.1833
+MOL_WEIGHT  610.1801
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01807  Phenylalkylamine derivative
+EFFICACY    Vasodilator, Calcium channel blocker
+COMMENT     Antianginal
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04010(775+776+778+779)  MAPK signaling pathway
+            hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01807  Phenylalkylamine derivative
+                D06129  Tiapamil hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D06129  Tiapamil hydrochloride (USAN)
+DBLINKS     CAS: 87434-83-1
+            PubChem: 47207787
+            LigandBox: D06129
+ATOM        39
+            1   C1z C    21.3287  -17.9208
+            2   C8y C    20.1245  -18.6222
+            3   C1b C    22.5443  -18.6162
+            4   C8x C    18.9088  -17.9208
+            5   C8x C    20.1245  -20.0250
+            6   C1b C    23.7601  -17.9149
+            7   C8y C    17.6932  -18.6222
+            8   C8x C    18.9088  -20.7321
+            9   C1b C    24.9699  -18.6046
+            10  C8y C    17.6932  -20.0250
+            11  O2a O    16.4716  -17.9208
+            12  N1c N    26.1857  -17.9091
+            13  O2a O    16.4716  -20.7321
+            14  C1a C    15.2558  -18.6222
+            15  C1b C    27.4014  -18.5988
+            16  C1a C    26.1857  -16.5006
+            17  C1a C    15.2558  -20.0308
+            18  C1b C    28.6172  -17.9031
+            19  C8y C    29.8211  -18.5929
+            20  C8x C    31.0369  -17.8915
+            21  C8x C    29.8271  -19.9899
+            22  C8y C    32.2469  -18.5871
+            23  C8x C    31.0427  -20.6913
+            24  C8y C    32.2527  -19.9840
+            25  O2a O    33.4625  -17.8800
+            26  C1a C    34.6841  -18.5755
+            27  O2a O    33.4613  -20.6743
+            28  C1a C    34.6561  -19.9772
+            29  S2x S    22.5468  -17.2253
+            30  C1x C    22.5535  -15.8245
+            31  C1x C    21.3438  -15.1183
+            32  C1x C    20.0557  -15.8138
+            33  S2x S    20.1189  -17.2146
+            34  O3c O    18.7179  -17.2253
+            35  O3c O    19.1382  -16.2447
+            36  O3c O    23.5274  -16.2447
+            37  O3c O    23.9476  -17.2253
+            38  X   Cl   21.0700  -22.8900
+            39  O0  O    26.6700  -22.9600
+BOND        39
+            1     1   2 1
+            2     1   3 1
+            3     2   4 2
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 2
+            8     6   9 1
+            9     7  10 2
+            10    7  11 1
+            11    9  12 1
+            12   10  13 1
+            13   11  14 1
+            14   12  15 1
+            15   12  16 1
+            16   13  17 1
+            17   15  18 1
+            18   18  19 1
+            19   19  20 1
+            20   19  21 2
+            21   20  22 2
+            22   21  23 1
+            23   22  24 1
+            24   22  25 1
+            25   25  26 1
+            26    8  10 1
+            27   23  24 2
+            28   24  27 1
+            29   27  28 1
+            30    1  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   32  33 1
+            35    1  33 1
+            36   33  34 2
+            37   33  35 2
+            38   29  36 2
+            39   29  37 2
+///

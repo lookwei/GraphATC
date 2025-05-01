@@ -1,0 +1,49 @@
+ENTRY       C01719                      Compound
+NAME        L-Fructose;
+            L-arabino-Hexulose
+FORMULA     C6H12O6
+EXACT_MASS  180.0634
+MOL_WEIGHT  180.1559
+COMMENT     Fructose [CPD:C05003] (pyranose)
+            D-Fructose [CPD:C00095] (Fructofuranose)
+            D-Fructose [CPD:C10906]
+REACTION    R08536
+ENZYME      1.1.1.15
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Ketoses
+                C01719  L-Fructose
+DBLINKS     CAS: 7776-48-9
+            PubChem: 4856
+            ChEBI: 28120 37725
+            PDB-CCD: LFR
+            3DMET: B01486
+            NIKKAJI: J363.054D
+ATOM        12
+            1   C1z C    23.5378  -14.7920
+            2   C1y C    23.0897  -16.1628
+            3   O2x O    22.3649  -13.9552
+            4   C1y C    21.6532  -16.1628
+            5   O1a O    23.9332  -17.2523
+            6   C1y C    21.2183  -14.7920
+            7   O1a O    20.8030  -17.3159
+            8   C1b C    19.8543  -14.3439
+            9   O1a O    18.7868  -15.2994
+            10  C1b C    24.4077  -13.9288
+            11  O1a O    25.7914  -14.3110
+            12  O1a O    24.7067  -15.5127
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1 #Down
+            5     3   6 1
+            6     4   7 1 #Up
+            7     6   8 1 #Down
+            8     8   9 1
+            9     4   6 1
+            10   10  11 1
+            11    1  10 1 #Either
+            12    1  12 1
+///

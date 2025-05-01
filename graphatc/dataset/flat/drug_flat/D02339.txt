@@ -1,0 +1,128 @@
+ENTRY       D02339                      Drug
+NAME        Azlocillin (USAN/INN)
+FORMULA     C20H23N5O6S
+EXACT_MASS  461.1369
+MOL_WEIGHT  461.4915
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      Same as: C06839
+            ATC code: J01CA09
+            Chemical structure group: DG00524
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA09 Azlocillin
+                  D02339  Azlocillin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00524  Azlocillin
+                  D02339  Azlocillin
+              DG01780  Extended spectrum penicillin
+               DG00524  Azlocillin
+                D02339  Azlocillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D02339  Azlocillin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00524  Azlocillin
+              DG01780  Extended spectrum penicillin
+               DG00524  Azlocillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00524  Azlocillin
+DBLINKS     CAS: 37091-66-0
+            PubChem: 7849398
+            ChEBI: 2956
+            LigandBox: D02339
+            NIKKAJI: J19.344E
+ATOM        32
+            1   C1y C    21.0717  -16.4859
+            2   C5x C    21.0717  -17.8823
+            3   N1y N    22.4681  -17.8823
+            4   C1y C    22.4681  -16.4859
+            5   C1y C    23.7948  -18.3012
+            6   C1z C    24.6325  -17.1842
+            7   S2x S    23.7948  -16.0671
+            8   C1a C    25.6100  -18.1616
+            9   C1a C    25.6100  -16.2066
+            10  C6a C    24.2835  -19.6976
+            11  O6a O    25.6797  -19.6976
+            12  O6a O    23.4457  -20.8147
+            13  N1b N    19.8848  -15.7878
+            14  C5a C    18.6979  -16.4859
+            15  O5x O    19.8848  -18.5805
+            16  O5a O    18.6979  -17.8823
+            17  C1c C    17.4412  -15.7878
+            18  C8y C    17.4412  -14.3913
+            19  C8x C    18.6979  -13.6932
+            20  C8x C    18.6979  -12.2968
+            21  C8x C    17.4412  -11.5986
+            22  C8x C    16.2543  -12.2968
+            23  C8x C    16.2543  -13.6932
+            24  N1b N    16.2543  -16.4859
+            25  C5a C    15.0674  -15.7878
+            26  N1y N    13.8107  -16.4859
+            27  O5a O    15.0674  -14.3913
+            28  C5x C    12.6720  -15.6676
+            29  N1x N    11.5355  -16.5006
+            30  C1x C    11.9765  -17.8389
+            31  C1x C    13.3855  -17.8330
+            32  O5x O    12.6655  -14.2751
+BOND        35
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   18  23 1
+            26   24  25 1
+            27   25  26 1
+            28   17  24 1 #Down
+            29   25  27 2
+            30   26  28 1
+            31   28  29 1
+            32   29  30 1
+            33   30  31 1
+            34   26  31 1
+            35   28  32 2
+///

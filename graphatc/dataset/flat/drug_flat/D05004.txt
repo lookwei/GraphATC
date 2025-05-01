@@ -1,0 +1,64 @@
+ENTRY       D05004                      Drug
+NAME        Metiamide (USAN/INN)
+FORMULA     C9H16N4S2
+EXACT_MASS  244.0816
+MOL_WEIGHT  244.3801
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+REMARK      Same as: C07449
+EFFICACY    Anti-ulcerative, H2 receptor antagonist
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07227  Histamine H2/H3 receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                D05004  Metiamide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D05004  Metiamide (USAN/INN)
+DBLINKS     CAS: 34839-70-8
+            PubChem: 17398245
+            ChEBI: 6896
+            LigandBox: D05004
+            NIKKAJI: J19.552I
+ATOM        15
+            1   C8y C    28.3107  -17.0626
+            2   C8y C    26.9898  -17.5319
+            3   N5x N    28.2672  -15.6500
+            4   C1b C    29.5257  -17.7577
+            5   N4x N    26.1319  -16.4278
+            6   C8x C    26.9188  -15.2602
+            7   S2a S    30.7467  -17.0626
+            8   C1b C    31.9619  -17.7577
+            9   C1b C    33.1827  -17.0626
+            10  N1b N    34.3979  -17.7577
+            11  C2c C    35.6188  -17.0626
+            12  N1b N    36.8281  -17.7577
+            13  S0  S    35.6188  -15.6546
+            14  C1a C    38.0431  -17.0626
+            15  C1a C    26.6084  -18.8381
+BOND        15
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   11  13 2
+            13   12  14 1
+            14    5   6 1
+            15    2  15 1
+///

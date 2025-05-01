@@ -1,0 +1,165 @@
+ENTRY       C00575                      Compound
+NAME        3',5'-Cyclic AMP;
+            Cyclic adenylic acid;
+            Cyclic AMP;
+            Adenosine 3',5'-phosphate;
+            Adenosine 3',5'-cyclic phosphate;
+            cAMP
+FORMULA     C10H12N5O6P
+EXACT_MASS  329.0525
+MOL_WEIGHT  329.2059
+REACTION    R00089 R00191 R11619
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+            map01522  Endocrine resistance
+            map02025  Biofilm formation - Pseudomonas aeruginosa
+            map02026  Biofilm formation - Escherichia coli
+            map04010  MAPK signaling pathway
+            map04014  Ras signaling pathway
+            map04015  Rap1 signaling pathway
+            map04020  Calcium signaling pathway
+            map04022  cGMP-PKG signaling pathway
+            map04024  cAMP signaling pathway
+            map04062  Chemokine signaling pathway
+            map04072  Phospholipase D signaling pathway
+            map04111  Cell cycle - yeast
+            map04113  Meiosis - yeast
+            map04114  Oocyte meiosis
+            map04211  Longevity regulating pathway
+            map04213  Longevity regulating pathway - multiple species
+            map04261  Adrenergic signaling in cardiomyocytes
+            map04270  Vascular smooth muscle contraction
+            map04340  Hedgehog signaling pathway
+            map04361  Axon regeneration
+            map04371  Apelin signaling pathway
+            map04540  Gap junction
+            map04611  Platelet activation
+            map04670  Leukocyte transendothelial migration
+            map04710  Circadian rhythm
+            map04713  Circadian entrainment
+            map04714  Thermogenesis
+            map04720  Long-term potentiation
+            map04723  Retrograde endocannabinoid signaling
+            map04724  Glutamatergic synapse
+            map04725  Cholinergic synapse
+            map04726  Serotonergic synapse
+            map04727  GABAergic synapse
+            map04728  Dopaminergic synapse
+            map04740  Olfactory transduction
+            map04742  Taste transduction
+            map04750  Inflammatory mediator regulation of TRP channels
+            map04910  Insulin signaling pathway
+            map04911  Insulin secretion
+            map04912  GnRH signaling pathway
+            map04913  Ovarian steroidogenesis
+            map04914  Progesterone-mediated oocyte maturation
+            map04915  Estrogen signaling pathway
+            map04916  Melanogenesis
+            map04918  Thyroid hormone synthesis
+            map04919  Thyroid hormone signaling pathway
+            map04921  Oxytocin signaling pathway
+            map04922  Glucagon signaling pathway
+            map04923  Regulation of lipolysis in adipocytes
+            map04924  Renin secretion
+            map04925  Aldosterone synthesis and secretion
+            map04926  Relaxin signaling pathway
+            map04927  Cortisol synthesis and secretion
+            map04928  Parathyroid hormone synthesis, secretion and action
+            map04934  Cushing syndrome
+            map04935  Growth hormone synthesis, secretion and action
+            map04960  Aldosterone-regulated sodium reabsorption
+            map04961  Endocrine and other factor-regulated calcium reabsorption
+            map04962  Vasopressin-regulated water reabsorption
+            map04970  Salivary secretion
+            map04971  Gastric acid secretion
+            map04972  Pancreatic secretion
+            map04976  Bile secretion
+            map05012  Parkinson disease
+            map05020  Prion disease
+            map05030  Cocaine addiction
+            map05031  Amphetamine addiction
+            map05032  Morphine addiction
+            map05034  Alcoholism
+            map05110  Vibrio cholerae infection
+            map05111  Biofilm formation - Vibrio cholerae
+            map05133  Pertussis
+            map05142  Chagas disease
+            map05146  Amoebiasis
+            map05165  Human papillomavirus infection
+            map05166  Human T-cell leukemia virus 1 infection
+            map05200  Pathways in cancer
+            map05207  Chemical carcinogenesis - receptor activation
+            map05414  Dilated cardiomyopathy
+NETWORK     nt06167  Human cytomegalovirus (HCMV)
+            nt06234  cAMP signaling (cancer)
+            nt06310  CRH-ACTH-cortisol signaling
+            nt06318  CaSR-PTH signaling
+            nt06322  TRH-TSH-TH signaling
+            nt06323  KISS1-GnRH-LH/FSH-E2 signaling
+            nt06324  GHRH-GH-IGF signaling
+            nt06325  Hormone/cytokine signaling
+            nt06360  Cushing syndrome
+            nt06529  Thermogenesis
+ENZYME      3.1.4.17        3.1.4.53        3.5.4.46        4.6.1.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Cyclic nucleotides
+               3',5'-Cyclic nuclcleotides
+                C00575  3',5'-Cyclic AMP
+DBLINKS     CAS: 60-92-4
+            PubChem: 3854
+            ChEBI: 17489
+            KNApSAcK: C00001497
+            PDB-CCD: CMP
+            3DMET: B01289
+            NIKKAJI: J4.811I
+ATOM        22
+            1   N4y N    26.7319  -14.6961
+            2   C1y C    25.4512  -15.1095
+            3   C8y C    27.7973  -15.4296
+            4   C8x C    27.2093  -13.3048
+            5   C1y C    25.0262  -16.3553
+            6   O2x O    24.3160  -14.2595
+            7   C8y C    29.0255  -14.5273
+            8   N5x N    27.9312  -16.8444
+            9   N5x N    28.6531  -13.3107
+            10  C1y C    23.6464  -16.3553
+            11  O1a O    25.6782  -17.4905
+            12  C1y C    23.2215  -15.0513
+            13  C8y C    30.2715  -15.0746
+            14  C8x C    29.2469  -17.4322
+            15  O2x O    22.6627  -17.3333
+            16  C1x C    21.8942  -14.6147
+            17  N5x N    30.4344  -16.5532
+            18  N1a N    31.3717  -14.2538
+            19  P1b P    21.1490  -16.9084
+            20  O2x O    20.8579  -15.5461
+            21  O1c O    21.1373  -18.3056
+            22  O1c O    19.9323  -16.2098
+BOND        25
+            1     2   1 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    7  13 1
+            13    8  14 2
+            14   10  15 1 #Down
+            15   12  16 1 #Up
+            16   13  17 2
+            17   13  18 1
+            18   15  19 1
+            19   16  20 1
+            20   19  21 1
+            21   19  22 2
+            22    7   9 1
+            23   10  12 1
+            24   14  17 1
+            25   19  20 1
+///

@@ -1,0 +1,88 @@
+ENTRY       D01224                      Drug
+NAME        Phenylpropanolamine hydrochloride (JAN/USP)
+FORMULA     C9H13NO. HCl
+EXACT_MASS  187.0764
+MOL_WEIGHT  187.6666
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+            Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+REMARK      ATC code: R01BA01
+            Chemical structure group: DG01041
+EFFICACY    Vasoconstrictor, Adrenergic receptor agonist
+COMMENT     Relative configuration (racemic mixture)
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION CYP inhibition: CYP1A2 [HSA:1544]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01B NASAL DECONGESTANTS FOR SYSTEMIC USE
+                R01BA Sympathomimetics
+                 R01BA01 Phenylpropanolamine
+                  D01224  Phenylpropanolamine hydrochloride (JAN/USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01041  Phenylpropanolamine
+                D01224  Phenylpropanolamine hydrochloride
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG01041  Phenylpropanolamine
+                D01224  Phenylpropanolamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01224  Phenylpropanolamine hydrochloride (JAN/USP)
+                ADRA2
+                 D01224  Phenylpropanolamine hydrochloride (JAN/USP)
+                ADRB
+                 D01224  Phenylpropanolamine hydrochloride (JAN/USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01224
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D01224
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01041  Phenylpropanolamine
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG01041  Phenylpropanolamine
+DBLINKS     CAS: 154-41-6
+            PubChem: 7848287
+            ChEBI: 31996
+            LigandBox: D01224
+            NIKKAJI: J358.575A
+ATOM        12
+            1   X   Cl   23.3842  -16.3448
+            2   C8x C    13.8836  -16.2191
+            3   C8x C    13.8836  -17.6084
+            4   C8x C    15.1340  -18.3031
+            5   C8x C    16.3150  -17.6084
+            6   C8y C    16.3150  -16.2191
+            7   C8x C    15.1340  -15.5244
+            8   C1c C    17.5654  -15.4549
+            9   C1c C    18.7464  -16.1496
+            10  O1a O    17.5654  -14.0655
+            11  N1a N    19.9273  -15.5244
+            12  C1a C    18.7464  -17.6084
+BOND        11
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     8   6 1
+            8     8   9 1
+            9     8  10 1 #Up
+            10    9  11 1
+            11    9  12 1 #Up
+///

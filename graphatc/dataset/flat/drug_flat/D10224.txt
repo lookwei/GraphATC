@@ -1,0 +1,143 @@
+ENTRY       D10224                      Drug
+NAME        Golvatinib (USAN)
+FORMULA     C33H37F2N7O4
+EXACT_MASS  633.2875
+MOL_WEIGHT  633.6882
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+REMARK      Chemical structure group: DG01367
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      MET [HSA:4233] [KO:K05099]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+  PATHWAY   hsa04010(3791+4233)  MAPK signaling pathway
+            hsa04014(3791+4233)  Ras signaling pathway
+            hsa04015(3791+4233)  Rap1 signaling pathway
+            hsa04151(3791+4233)  PI3K-Akt signaling pathway
+            hsa04370(3791)  VEGF signaling pathway
+            hsa05200(4233)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG01367  Golvatinib
+                 D10224  Golvatinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               VEGFR family
+                VEGFR2 (KDR)
+                 D10224  Golvatinib (USAN)
+               MET family
+                MET
+                 D10224  Golvatinib (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG01367  Golvatinib
+DBLINKS     CAS: 928037-13-2
+            PubChem: 163312255
+            ChEBI: 177746
+            PDB-CCD: GV0
+ATOM        46
+            1   N1y N     4.9700  -11.3400
+            2   C1x C     4.9700  -12.7400
+            3   C1x C     6.1600  -13.4400
+            4   N1y N     7.4200  -12.7400
+            5   C1x C     7.4200  -11.3400
+            6   C1x C     6.1600  -10.6400
+            7   C1a C     3.7800  -10.6400
+            8   C1y C     8.6100  -13.4400
+            9   C1x C     8.6100  -14.8400
+            10  C1x C     9.8700  -15.5400
+            11  N1y N    11.0600  -14.8400
+            12  C1x C    11.0600  -13.4400
+            13  C1x C     9.8700  -12.7400
+            14  C5a C    12.2500  -15.5400
+            15  N1b N    13.4400  -14.8400
+            16  O5a O    12.2500  -16.9400
+            17  C8y C    14.6300  -15.5400
+            18  N5x N    14.6300  -16.9400
+            19  C8x C    15.8900  -17.6400
+            20  C8x C    17.0800  -16.9400
+            21  C8y C    17.0800  -15.5400
+            22  C8x C    15.8900  -14.8400
+            23  O2a O    18.2700  -14.8400
+            24  C8y C    19.4600  -15.5400
+            25  C8x C    19.4600  -16.9400
+            26  C8y C    20.7200  -17.6400
+            27  C8y C    21.9100  -16.9400
+            28  C8x C    21.9100  -15.5400
+            29  C8x C    20.7200  -14.8400
+            30  N1b N    23.1000  -17.6400
+            31  C5a C    24.2900  -16.9400
+            32  C1z C    25.4800  -17.6400
+            33  O5a O    24.2900  -15.5400
+            34  C5a C    26.6700  -16.9400
+            35  N1b N    27.8600  -17.6400
+            36  O5a O    26.6700  -15.5400
+            37  C8y C    29.0500  -16.9400
+            38  C8x C    30.2400  -17.6400
+            39  C8x C    31.5000  -16.9400
+            40  C8y C    31.5000  -15.5400
+            41  C8x C    30.3100  -14.8400
+            42  C8x C    29.0500  -15.5400
+            43  X   F    32.6900  -14.8400
+            44  C1x C    24.7800  -18.8300
+            45  C1x C    26.1800  -18.8300
+            46  X   F    20.7372  -19.0399
+BOND        51
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15   11  14 1
+            16   14  15 1
+            17   14  16 2
+            18   15  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   21  23 1
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   24  29 1
+            33   27  30 1
+            34   30  31 1
+            35   31  32 1
+            36   31  33 2
+            37   32  34 1
+            38   34  35 1
+            39   34  36 2
+            40   35  37 1
+            41   37  38 2
+            42   38  39 1
+            43   39  40 2
+            44   40  41 1
+            45   41  42 2
+            46   37  42 1
+            47   40  43 1
+            48   44  45 1
+            49   45  32 1
+            50   44  32 1
+            51   26  46 1
+///

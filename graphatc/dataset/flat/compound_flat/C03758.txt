@@ -1,0 +1,133 @@
+ENTRY       C03758                      Compound
+NAME        Dopamine;
+            4-(2-Aminoethyl)-1,2-benzenediol;
+            4-(2-Aminoethyl)benzene-1,2-diol;
+            3,4-Dihydroxyphenethylamine;
+            2-(3,4-Dihydroxyphenyl)ethylamine
+FORMULA     C8H11NO2
+EXACT_MASS  153.079
+MOL_WEIGHT  153.1784
+REMARK      Same as: D07870
+REACTION    R02080 R02383 R02535 R04084 R04300 R04301 R04305 R05749 
+            R05750 R08444 R08445 R08447 R08513 R08832 R08835 R11684
+PATHWAY     map00350  Tyrosine metabolism
+            map00950  Isoquinoline alkaloid biosynthesis
+            map00965  Betalain biosynthesis
+            map01060  Biosynthesis of plant secondary metabolites
+            map01063  Biosynthesis of alkaloids derived from shikimate pathway
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04024  cAMP signaling pathway
+            map04080  Neuroactive ligand-receptor interaction
+            map04540  Gap junction
+            map04721  Synaptic vesicle cycle
+            map04728  Dopaminergic synapse
+            map04917  Prolactin signaling pathway
+            map04976  Bile secretion
+            map05012  Parkinson disease
+            map05030  Cocaine addiction
+            map05031  Amphetamine addiction
+            map05032  Morphine addiction
+            map05034  Alcoholism
+MODULE      M00042  Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline
+            M00943  Reticuline biosynthesis, dopamine + 4HPAA => (S)-reticuline
+NETWORK     nt06028  Dopamine and serotonin metabolism
+            nt06167  Human cytomegalovirus (HCMV)
+            nt06463  Parkinson disease
+ENZYME      1.4.3.4         1.4.3.21        1.4.3.-         1.4.9.2         
+            1.10.3.-        1.14.13.-       1.14.17.1       1.14.18.1       
+            2.1.1.6         4.1.1.25        4.1.1.28        4.2.1.78        
+            4.3.3.3         4.3.3.4
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amines
+               Biogenic amines
+                C03758  Dopamine
+             Hormones and transmitters
+              Other hormones
+               Dopamine
+                C03758  Dopamine
+              Neurotransmitters
+               Biogenic amines
+                C03758  Dopamine
+            Phytochemical compounds [BR:br08003]
+             Alkaloids
+              Alkaloids derived from tyrosine
+               Tyramine derivatives
+                C03758  Dopamine
+            Prodrugs [br08324.html]
+             C03758
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D07870)]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA04 Dopamine
+                  D07870  Dopamine (INN)
+            Drug groups [BR:br08330(D07870)]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00213  Dopamine
+                 D07870  Dopamine
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00213  Dopamine
+                D07870  Dopamine
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00213  Dopamine
+                D07870  Dopamine
+              DG02917  MAO substrate
+               DG03179  MAOB substrate
+                DG00213  Dopamine
+                 D07870  Dopamine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00213  Dopamine
+                D07870  Dopamine
+            Target-based classification of drugs [BR:br08310(D07870)]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD
+                 D07870  Dopamine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html(D07870)]
+             Drug metabolizing enzymes
+              D07870
+             Drug transporters
+              D07870
+            Prodrugs [br08324.html(D07870)]
+             D07870
+DBLINKS     CAS: 51-61-6
+            PubChem: 6517
+            ChEBI: 18243
+            KNApSAcK: C00001408
+            PDB-CCD: LDP
+            3DMET: B00634
+            NIKKAJI: J4.120C
+ATOM        11
+            1   C8y C    25.9700  -18.5500
+            2   C8x C    24.7800  -17.8500
+            3   C8x C    25.9700  -19.9500
+            4   C1b C    27.2300  -17.8500
+            5   C8y C    23.5900  -18.5500
+            6   C8x C    24.7800  -20.6500
+            7   C1b C    28.4200  -18.5500
+            8   C8y C    23.5900  -19.9500
+            9   O1a O    22.4000  -17.8500
+            10  N1a N    29.6100  -17.8500
+            11  O1a O    22.4000  -20.5800
+BOND        11
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11    6   8 2
+///

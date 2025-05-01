@@ -1,0 +1,63 @@
+ENTRY       D07616                      Drug
+NAME        Carbimazole (INN);
+            Carbimazol henning (TN)
+FORMULA     C7H10N2O2S
+EXACT_MASS  186.0463
+MOL_WEIGHT  186.2315
+CLASS       Hormonal agent
+             DG01934  Antithyroid agent
+REMARK      Same as: C07615
+            ATC code: H03BB01
+EFFICACY    Antithyroid, Thyroid hormone synthesis inhibitor
+TARGET      TPO [HSA:7173] [KO:K00431]
+  PATHWAY   hsa04918(7173)  Thyroid hormone synthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H03 THYROID THERAPY
+               H03B ANTITHYROID PREPARATIONS
+                H03BB Sulfur-containing imidazole derivatives
+                 H03BB01 Carbimazole
+                  D07616  Carbimazole (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01934  Antithyroid agent
+               D07616  Carbimazole
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Peroxidase
+                TPO
+                 D07616  Carbimazole (INN)
+DBLINKS     CAS: 22232-54-8
+            PubChem: 51091925
+            ChEBI: 617099
+            LigandBox: D07616
+            NIKKAJI: J11.419G
+ATOM        12
+            1   N4y N    24.7100  -17.3600
+            2   C8y C    25.9000  -18.2000
+            3   C8x C    23.5900  -18.2700
+            4   C7a C    24.7100  -15.9600
+            5   N4y N    25.4800  -19.5300
+            6   S0  S    27.2300  -17.7100
+            7   C8x C    24.0800  -19.5300
+            8   O7a O    23.5200  -15.3300
+            9   O6a O    25.9000  -15.2600
+            10  C1a C    26.3200  -20.6500
+            11  C1b C    22.2600  -16.0300
+            12  C1a C    21.0700  -15.3300
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    8  11 1
+            11   11  12 1
+            12    5   7 1
+///

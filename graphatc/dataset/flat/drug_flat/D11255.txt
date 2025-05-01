@@ -1,0 +1,69 @@
+ENTRY       D11255                      Drug
+NAME        Navoximod (USAN/INN)
+FORMULA     C18H21FN2O2
+EXACT_MASS  316.1587
+MOL_WEIGHT  316.3699
+EFFICACY    Antineoplastic
+TARGET      IDO1 [HSA:3620] [KO:K00463]
+  PATHWAY   hsa00380(3620)  Tryptophan metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dioxygenases
+                IDO1
+                 D11255  Navoximod (USAN/INN)
+DBLINKS     CAS: 1402837-78-8
+            PubChem: 384585233
+            PDB-CCD: LKP
+ATOM        23
+            1   C1b C    13.7900  -10.5700
+            2   C1c C    14.9800  -11.2700
+            3   C1y C    16.1981  -10.5799
+            4   C1x C    17.3795  -11.2750
+            5   C1x C    18.5977  -10.5850
+            6   C1y C    18.6092   -9.1850
+            7   C1x C    17.4277   -8.4899
+            8   C1x C    16.1396   -9.1799
+            9   O1a O    19.8420   -8.4868
+            10  C1y C    12.5719  -11.2601
+            11  N4y N    11.3246  -10.6926
+            12  C8y C    10.3994  -11.7034
+            13  C8y C    11.0749  -12.8957
+            14  C8y C    12.4175  -12.6218
+            15  C8x C    10.6492   -9.5002
+            16  N5x N     9.3065   -9.7742
+            17  C8x C     9.1521  -11.1358
+            18  C8x C    10.6314  -14.2236
+            19  C8x C    11.5596  -15.2716
+            20  C8x C    12.9023  -14.9977
+            21  C8y C    13.3458  -13.6698
+            22  O1a O    14.9686  -12.6700
+            23  X   F    14.7458  -13.6698
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     3   8 1
+            9     6   9 1 #Up
+            10   10   1 1 #Up
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   10  14 1
+            16   11  15 1
+            17   15  16 2
+            18   16  17 1
+            19   12  17 2
+            20   13  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   14  21 2
+            25    2  22 1 #Down
+            26   21  23 1
+///

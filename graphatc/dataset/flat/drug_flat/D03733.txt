@@ -1,0 +1,60 @@
+ENTRY       D03733                      Drug
+NAME        Mofegiline hydrochloride (USAN)
+FORMULA     C11H13F2N. HCl
+EXACT_MASS  233.0783
+MOL_WEIGHT  233.6854
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01512  Monoamine oxidase B inhibitor
+EFFICACY    Antiparkinsonian, Monoamine oxidase B (MAO-B) inhibitor
+TARGET      MAOB [HSA:4129] [KO:K00274]
+  PATHWAY   hsa04726(4129)  Serotonergic synapse
+            hsa04728(4129)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01512  Monoamine oxidase B inhibitor
+                D03733  Mofegiline hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOB
+                 D03733  Mofegiline hydrochloride (USAN)
+DBLINKS     CAS: 120635-25-8
+            PubChem: 17397822
+            LigandBox: D03733
+            NIKKAJI: J528.254C
+ATOM        15
+            1   C8x C    22.9600  -18.8300
+            2   C8y C    22.9600  -20.2300
+            3   C8x C    24.1724  -20.9300
+            4   C8x C    25.3849  -20.2300
+            5   C8y C    25.3849  -18.8300
+            6   C8x C    24.1724  -18.1300
+            7   X   F    21.7476  -20.9300
+            8   C1b C    26.6160  -18.1190
+            9   C1b C    27.8124  -18.8300
+            10  C2c C    29.0249  -18.1300
+            11  C1b C    30.2373  -18.8300
+            12  N1a N    31.4497  -18.1300
+            13  C2b C    29.0249  -16.7302
+            14  X   F    27.8313  -16.0410
+            15  X   Cl   35.4200  -18.1300
+BOND        14
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   10  13 2
+            14   13  14 1
+///

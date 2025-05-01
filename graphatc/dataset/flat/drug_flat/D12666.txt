@@ -1,0 +1,78 @@
+ENTRY       D12666                      Drug
+NAME        Alphameprodine (INN);
+            alpha-Meprodine
+FORMULA     C17H25NO2
+EXACT_MASS  275.1885
+MOL_WEIGHT  275.3859
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+            hsa05032(4988)  Morphine addiction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D12666  Alphameprodine
+             Analgesic
+              DG01984  Opioid analgesics
+               D12666  Alphameprodine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D12666  Alphameprodine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D12666
+DBLINKS     CAS: 468-51-9
+ATOM        20
+            1   N1y N    15.9330  -17.1734
+            2   C1x C    17.1365  -17.8655
+            3   C1x C    18.3374  -17.1694
+            4   C1z C    18.3351  -15.7812
+            5   C1y C    17.1318  -15.0891
+            6   C1x C    15.9307  -15.7853
+            7   C1b C    17.1294  -13.7009
+            8   C1a C    15.9260  -13.0088
+            9   C1a C    14.7320  -17.8695
+            10  O7a O    19.7191  -16.5771
+            11  C7a C    20.4181  -17.7878
+            12  C1b C    21.8162  -17.7878
+            13  C1a C    22.5153  -16.5771
+            14  O6a O    19.7191  -18.9986
+            15  C8y C    19.5361  -15.0851
+            16  C8x C    19.5338  -13.6969
+            17  C8x C    20.7396  -15.7772
+            18  C8x C    21.9406  -15.0810
+            19  C8x C    21.9383  -13.6928
+            20  C8x C    20.7349  -13.0007
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1 #Down
+            8     7   8 1
+            9     1   9 1
+            10    4  10 1 #Down
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   11  14 2
+            15   15  16 2
+            16   15  17 1
+            17   17  18 2
+            18   18  19 1
+            19   19  20 2
+            20   16  20 1
+            21    4  15 1 #Up
+///

@@ -1,0 +1,127 @@
+ENTRY       D06005                      Drug
+NAME        Tandutinib (USAN/INN)
+FORMULA     C31H42N6O4
+EXACT_MASS  562.3268
+MOL_WEIGHT  562.703
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+COMMENT     Treatment of cardiovascular diseases, fibrotic diseases and acute myelogenous leukemia
+TARGET      FLT3 (CD135) [HSA:2322] [KO:K05092]
+            PDGFRB [HSA:5159] [KO:K05089]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+  PATHWAY   hsa04010(2322+3815+5159)  MAPK signaling pathway
+            hsa04151(2322+3815+5159)  PI3K-Akt signaling pathway
+            hsa05200(2322+3815+5159)  Pathways in cancer
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                D06005  Tandutinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFRB
+                 D06005  Tandutinib (USAN/INN)
+                KIT (CD117)
+                 D06005  Tandutinib (USAN/INN)
+                FLT3 (CD135)
+                 D06005  Tandutinib (USAN/INN)
+DBLINKS     CAS: 387867-13-2
+            PubChem: 47207663
+            ChEBI: 90237
+            LigandBox: D06005
+            NIKKAJI: J2.069.102F
+ATOM        41
+            1   C8y C    19.1800  -15.4700
+            2   C8y C    19.1800  -16.8700
+            3   C8x C    17.9900  -17.5700
+            4   C8y C    16.7300  -16.8700
+            5   C8y C    16.7300  -15.4700
+            6   C8x C    17.9900  -14.7700
+            7   C8y C    15.5400  -17.5700
+            8   N5x N    14.3500  -16.8700
+            9   C8x C    14.3500  -15.4700
+            10  N5x N    15.5400  -14.7700
+            11  N1y N    15.5400  -18.9700
+            12  O2a O    20.3953  -14.7749
+            13  O2a O    20.3953  -17.5651
+            14  C1a C    21.5837  -16.8723
+            15  C1b C    21.5837  -15.4677
+            16  C1b C    22.7801  -14.7835
+            17  C1b C    23.9613  -15.4719
+            18  N1y N    25.1613  -14.7855
+            19  C1x C    26.3408  -15.4729
+            20  C1x C    27.5560  -14.7778
+            21  C1x C    27.5617  -13.3778
+            22  C1x C    26.3822  -12.6905
+            23  C1x C    25.0969  -13.3855
+            24  C1x C    14.3276  -19.6700
+            25  C1x C    14.3276  -21.0700
+            26  N1y N    15.5400  -21.7700
+            27  C1x C    16.7524  -21.0700
+            28  C1x C    16.7524  -19.6700
+            29  C5a C    15.5400  -23.1700
+            30  O5a O    14.3276  -23.8700
+            31  N1b N    16.7524  -23.8700
+            32  C8y C    17.9479  -23.1796
+            33  C8x C    19.1353  -23.8651
+            34  C8x C    20.3477  -23.1650
+            35  C8y C    20.3476  -21.7650
+            36  C8x C    19.1603  -21.0796
+            37  C8x C    17.9479  -21.7796
+            38  O2a O    21.5745  -21.0564
+            39  C1c C    22.7819  -21.7534
+            40  C1a C    23.9631  -21.0712
+            41  C1a C    22.7824  -23.1696
+BOND        45
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    7  11 1
+            13    1  12 1
+            14    2  13 1
+            15   13  14 1
+            16   12  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   18  23 1
+            26   11  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   11  28 1
+            32   26  29 1
+            33   29  30 2
+            34   29  31 1
+            35   31  32 1
+            36   32  33 2
+            37   33  34 1
+            38   34  35 2
+            39   35  36 1
+            40   36  37 2
+            41   32  37 1
+            42   35  38 1
+            43   38  39 1
+            44   39  40 1
+            45   39  41 1
+///

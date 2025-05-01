@@ -1,0 +1,120 @@
+ENTRY       D01682                      Drug
+NAME        Ceftiofur sodium (JAN/USAN);
+            Ceftiofur sodium (TN)
+FORMULA     C19H16N5O7S3. Na
+EXACT_MASS  545.011
+MOL_WEIGHT  545.5444
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01804  Oxyimino beta-lactam
+REMARK      Same as: C13143
+            Chemical structure group: DG01434
+EFFICACY    Antibacterial (veterinary), Cell wall biosynthesis inhibitor
+COMMENT     Cephalosporins
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01434  Ceftiofur
+                  D01682  Ceftiofur sodium
+              DG01804  Oxyimino beta-lactam
+               DG01434  Ceftiofur
+                D01682  Ceftiofur sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D01682  Ceftiofur sodium (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01434  Ceftiofur
+              DG01804  Oxyimino beta-lactam
+               DG01434  Ceftiofur
+DBLINKS     CAS: 104010-37-9
+            PubChem: 7848745
+            ChEBI: 31383
+            LigandBox: D01682
+ATOM        35
+            1   C1y C    24.9543  -18.8125
+            2   N1y N    24.9543  -20.2046
+            3   C2y C    26.1601  -20.9006
+            4   C2y C    27.3657  -20.2046
+            5   C1x C    27.3657  -18.8125
+            6   S2x S    26.1601  -18.1164
+            7   C1y C    23.5620  -18.8125
+            8   C5x C    23.5620  -20.2046
+            9   N1b N    22.3566  -18.1164
+            10  C5a C    21.1508  -18.8125
+            11  O5a O    21.1508  -20.2046
+            12  O5x O    22.3566  -20.9006
+            13  C2c C    19.9451  -18.1164
+            14  C1b C    28.5899  -20.9118
+            15  C8y C    18.7202  -18.8240
+            16  C8x C    17.5873  -17.9918
+            17  S2x S    16.4410  -18.8106
+            18  C8y C    16.8655  -20.2237
+            19  N5x N    18.2740  -20.2352
+            20  N2b N    19.9450  -16.7028
+            21  C6a C    26.1601  -22.3096
+            22  O6a O    27.3764  -23.0118 #-
+            23  O6a O    24.9454  -23.0110
+            24  S2a S    29.7638  -20.2348
+            25  C5a C    30.9670  -20.9302
+            26  C8y C    32.1522  -20.2468
+            27  C8x C    32.1522  -18.8459
+            28  O2x O    33.4844  -20.6797
+            29  C8x C    34.3078  -19.5463
+            30  C8x C    33.4844  -18.4131
+            31  N1a N    16.0601  -21.3545
+            32  O5a O    30.9667  -22.3153
+            33  O2a O    21.1492  -16.0076
+            34  C1a C    21.1492  -14.6076
+            35  Z   Na   28.8401  -22.9601 #+
+BOND        37
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16   13  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 1
+            20   18  19 2
+            21   15  19 1
+            22   13  20 2
+            23    3  21 1
+            24   21  22 1
+            25   21  23 2
+            26   14  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 2
+            30   26  28 1
+            31   28  29 1
+            32   29  30 2
+            33   27  30 1
+            34   18  31 1
+            35   25  32 2
+            36   20  33 1
+            37   33  34 1
+///

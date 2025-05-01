@@ -1,0 +1,145 @@
+ENTRY       D07836                      Drug
+NAME        Dihydroergocryptine mesilate;
+            Almirid (TN)
+FORMULA     C32H43N5O5. CH4SO3
+EXACT_MASS  673.3145
+MOL_WEIGHT  673.82
+CLASS       Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+REMARK      ATC code: N04BC03
+            Chemical structure group: DG01329
+EFFICACY    Antiparkinsonian, Vasodilator, Dopamine receptor agonist
+COMMENT     Ergot alkaloid
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BC Dopamine agonists
+                 N04BC03 Dihydroergocryptine mesylate
+                  D07836  Dihydroergocryptine mesilate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01329  Dihydroergocryptine
+                D07836  Dihydroergocryptine mesilate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D07836  Dihydroergocryptine mesilate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01329  Dihydroergocryptine
+DBLINKS     CAS: 14271-05-7
+            PubChem: 96024533
+            LigandBox: D07836
+            NIKKAJI: J220.476B
+ATOM        47
+            1   C1z C    22.3300  -15.9600
+            2   N1y N    22.3300  -17.2200
+            3   C1y C    23.4500  -15.3300
+            4   O2x O    21.2100  -15.3300
+            5   O1a O    22.3300  -14.0000
+            6   C1y C    23.4500  -17.9200
+            7   C5x C    20.0900  -17.2900
+            8   N1y N    24.5000  -15.9600
+            9   C1x C    23.4500  -14.0000
+            10  C1z C    20.0900  -15.9600
+            11  C5x C    24.5000  -17.2200
+            12  O5x O    19.1100  -18.1300
+            13  C1x C    25.6200  -15.3300
+            14  C1x C    25.6200  -14.0000
+            15  N1b N    18.4800  -15.2600
+            16  C1c C    20.0900  -13.5100
+            17  O5x O    25.6200  -17.9200
+            18  C5a C    17.0100  -15.9600
+            19  C1y C    17.0100  -17.2200
+            20  O5a O    15.8900  -15.2600
+            21  C1x C    15.8900  -17.9200
+            22  C1x C    18.1300  -17.9200
+            23  C1y C    15.8900  -19.1100
+            24  N1y N    18.1300  -19.1100
+            25  C8y C    14.7700  -19.7400
+            26  C1y C    17.0100  -19.7400
+            27  C1a C    19.1800  -19.7400
+            28  C8y C    14.7700  -21.0700
+            29  C8x C    13.7200  -19.1100
+            30  C1x C    17.0100  -21.0700
+            31  C8y C    15.8900  -21.7000
+            32  C8y C    13.7200  -21.7000
+            33  C8x C    12.6000  -19.7400
+            34  C8x C    15.8900  -23.0300
+            35  N4x N    13.7200  -23.0300
+            36  C8x C    12.6000  -21.0700
+            37  C1a C    21.2800  -12.8800
+            38  C1a C    18.9000  -12.8800
+            39  C1b C    23.4500  -19.2500
+            40  C1c C    24.6400  -19.9500
+            41  C1a C    25.8300  -19.2500
+            42  C1a C    24.6400  -21.3500
+            43  S4a S    32.8300  -18.3400
+            44  O1d O    32.8300  -16.9400
+            45  O1d O    32.8300  -19.7400
+            46  O1d O    31.4300  -18.3400
+            47  C1a C    34.2300  -18.3400
+BOND        52
+            1     4  10 1
+            2     6  11 1
+            3     7  12 2
+            4     8  13 1
+            5     9  14 1
+            6    10  15 1
+            7    10  16 1 #Up
+            8    11  17 2
+            9    15  18 1
+            10   19  18 1 #Up
+            11   18  20 2
+            12   19  21 1
+            13   19  22 1
+            14   21  23 1
+            15   22  24 1
+            16   23  25 1
+            17   23  26 1
+            18   24  27 1
+            19   25  28 1
+            20   25  29 2
+            21   26  30 1
+            22   28  31 1
+            23   28  32 2
+            24   29  33 1
+            25   31  34 2
+            26   32  35 1
+            27   32  36 1
+            28    7  10 1
+            29    8  11 1
+            30   13  14 1
+            31   24  26 1
+            32   30  31 1
+            33   33  36 2
+            34   34  35 1
+            35   16  37 1
+            36   16  38 1
+            37    1   2 1
+            38    1   3 1
+            39    1   4 1
+            40    1   5 1 #Down
+            41    2   6 1
+            42    2   7 1
+            43    3   8 1
+            44    3   9 1
+            45    6  39 1 #Down
+            46   39  40 1
+            47   40  41 1
+            48   40  42 1
+            49   43  44 2
+            50   43  45 2
+            51   43  46 1
+            52   43  47 1
+///

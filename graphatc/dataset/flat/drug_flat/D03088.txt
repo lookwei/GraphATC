@@ -1,0 +1,90 @@
+ENTRY       D03088                      Drug
+NAME        Benzilonium bromide (USAN/INN);
+            Benzilone bomide;
+            Portyn (TN)
+FORMULA     C22H28NO3. Br
+EXACT_MASS  433.1253
+MOL_WEIGHT  434.3666
+REMARK      ATC code: A03AB01
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Quaternary ammonium compound
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AB Synthetic anticholinergics, quaternary ammonium compounds
+                 A03AB01 Benzilone
+                  D03088  Benzilonium bromide (USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D03088  Benzilonium bromide (USAN/INN)
+DBLINKS     CAS: 1050-48-2
+            PubChem: 17397243
+            LigandBox: D03088
+            NIKKAJI: J243.951D
+ATOM        27
+            1   C1d C    36.9829  -12.8572
+            2   C7a C    35.8499  -13.4945
+            3   O7a O    34.6460  -12.8572
+            4   O6a O    35.8499  -14.9108
+            5   C1y C    33.3713  -13.5654
+            6   C1x C    32.2926  -12.7864
+            7   C1x C    32.9706  -14.9312
+            8   N2y N    31.1353  -13.5777 #+
+            9   C1x C    31.6091  -14.8916
+            10  C8y C    36.9829  -11.4409
+            11  C8x C    38.2094  -10.7327
+            12  C8x C    38.2094   -9.3164
+            13  C8x C    36.9829   -8.6082
+            14  C8x C    35.7564   -9.3164
+            15  C8x C    35.7564  -10.7327
+            16  O1a O    38.0678  -12.0074
+            17  C1b C    29.9087  -12.8696
+            18  C1b C    29.9087  -14.2858
+            19  C8y C    38.1953  -13.5572
+            20  C8x C    38.1949  -14.9798
+            21  C8x C    39.4072  -15.6801
+            22  C8x C    40.6198  -14.9805
+            23  C8x C    40.6202  -13.5579
+            24  C8x C    39.4080  -12.8575
+            25  C1a C    29.9086  -15.6799
+            26  C1a C    28.6778  -13.5804
+            27  X   Br   31.0278  -16.1839 #-
+BOND        28
+            1     1   2 1
+            2     2   3 1
+            3     2   4 2
+            4     3   5 1
+            5     5   6 1
+            6     5   7 1
+            7     6   8 1
+            8     7   9 1
+            9     8   9 1
+            10    1  10 1
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   10  15 2
+            17    1  16 1
+            18    8  17 1
+            19    8  18 1
+            20    1  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27   18  25 1
+            28   17  26 1
+///

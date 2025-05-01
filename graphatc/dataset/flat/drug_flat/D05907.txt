@@ -1,0 +1,97 @@
+ENTRY       D05907                      Drug
+NAME        Spiradoline mesylate (USAN)
+FORMULA     C22H30Cl2N2O2. CH4SO3
+EXACT_MASS  520.1565
+MOL_WEIGHT  521.4975
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01562  kappa-Opioid receptor agonist
+EFFICACY    Analgesic
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+  PATHWAY   hsa04080(4986)  Neuroactive ligand-receptor interaction
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01562  kappa-Opioid receptor agonist
+                D05907  Spiradoline mesylate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRK1
+                 D05907  Spiradoline mesylate (USAN)
+DBLINKS     CAS: 87173-97-5
+            PubChem: 47207565
+            LigandBox: D05907
+ATOM        33
+            1   C1y C    25.1379  -20.6264
+            2   C1x C    25.1380  -22.0335
+            3   C1x C    26.3493  -22.7327
+            4   C1z C    27.5605  -22.0333
+            5   C1x C    27.5603  -20.6261
+            6   C1y C    26.3490  -19.9270
+            7   C8y C    17.9076  -20.6352
+            8   C8y C    17.9076  -22.0338
+            9   C8x C    19.1188  -22.7331
+            10  C8x C    20.3301  -22.0338
+            11  C8y C    20.3301  -20.6352
+            12  C8x C    19.1188  -19.9359
+            13  X   Cl   16.6964  -19.9359
+            14  X   Cl   16.6964  -22.7331
+            15  C1b C    21.5599  -19.9249
+            16  C5a C    22.7639  -20.6199
+            17  N1c N    23.9451  -19.9378
+            18  O5a O    22.7643  -22.0334
+            19  C1a C    23.9451  -18.5375
+            20  N1y N    26.3490  -18.5374
+            21  C1x C    27.4936  -17.7056
+            22  C1x C    27.0562  -16.3600
+            23  C1x C    25.6412  -16.3601
+            24  C1x C    25.2041  -17.7058
+            25  O2x O    27.7068  -23.4244
+            26  C1x C    29.0753  -23.7151
+            27  C1x C    29.7746  -22.5037
+            28  C1x C    28.8384  -21.4642
+            29  O1d O    33.0021  -19.1896
+            30  S4a S    33.0021  -20.5842
+            31  C1a C    31.6077  -20.5842
+            32  O1d O    34.3968  -20.5842
+            33  O1d O    33.0021  -21.9787
+BOND        35
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10   10  11 1
+            11   11  12 2
+            12    7  12 1
+            13    7  13 1
+            14    8  14 1
+            15   11  15 1
+            16   15  16 1
+            17   16  17 1
+            18   16  18 2
+            19   17  19 1
+            20    1  17 1 #Down
+            21    6  20 1 #Up
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   20  24 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30    4  25 1 #Up
+            31    4  28 1 #Down
+            32   29  30 2
+            33   30  31 1
+            34   30  32 1
+            35   30  33 2
+///

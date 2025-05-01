@@ -1,0 +1,174 @@
+ENTRY       D03833                      Drug
+NAME        Indinavir (USAN);
+            Indinavir hydrate
+FORMULA     C36H47N5O4. H2O
+EXACT_MASS  631.3734
+MOL_WEIGHT  631.8048
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      ATC code: J05AE02
+            Chemical structure group: DG00654
+EFFICACY    Antiviral, HIV protease inhibitor
+TARGET      HIV protease [KO:K22599]
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE02 Indinavir
+                  D03833  Indinavir (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00654  Indinavir
+                 D03833  Indinavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00654  Indinavir
+                 D03833  Indinavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00654  Indinavir
+                 D03833  Indinavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D03833  Indinavir (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03833
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00654  Indinavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00654  Indinavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00654  Indinavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00654  Indinavir
+DBLINKS     CAS: 180683-37-8
+            PubChem: 17397919
+            LigandBox: D03833
+ATOM        46
+            1   C8y C    15.6800  -19.3200
+            2   C1y C    16.7300  -18.4100
+            3   C8y C    14.4200  -18.6200
+            4   C8x C    15.6800  -20.7200
+            5   C1y C    16.1700  -17.0800
+            6   N1b N    17.9200  -19.1100
+            7   C1x C    14.7700  -17.2200
+            8   C8x C    13.2300  -19.3200
+            9   C8x C    14.4200  -21.4200
+            10  O1a O    16.8700  -15.8900
+            11  C5a C    19.2500  -18.3400
+            12  C8x C    13.2300  -20.7200
+            13  C1c C    20.4400  -19.0400
+            14  O5a O    19.2500  -16.9400
+            15  C1b C    20.4400  -20.4400
+            16  C1b C    21.6300  -18.3400
+            17  C8y C    19.2500  -21.1400
+            18  C1c C    22.9600  -19.0400
+            19  C8x C    19.2500  -22.5400
+            20  C8x C    18.0600  -20.4400
+            21  C1b C    24.1500  -18.3400
+            22  O1a O    22.9600  -20.4400
+            23  C8x C    17.9900  -23.2400
+            24  C8x C    16.8000  -21.1400
+            25  N1y N    25.3400  -19.0400
+            26  C8x C    16.8000  -22.5400
+            27  C1y C    26.6000  -18.3400
+            28  C1x C    25.3400  -20.4400
+            29  C1x C    27.7900  -19.0400
+            30  C5a C    26.6000  -16.9400
+            31  C1x C    26.6000  -21.1400
+            32  N1y N    27.7900  -20.4400
+            33  N1b N    27.7900  -16.2400
+            34  O5a O    25.3400  -16.2400
+            35  C1b C    28.9800  -21.1400
+            36  C1d C    28.9800  -16.9400
+            37  C8y C    30.2400  -20.4400
+            38  C1a C    30.3100  -17.7100
+            39  C1a C    28.4200  -17.8500
+            40  C1a C    29.6800  -15.8200
+            41  C8x C    30.2400  -19.0400
+            42  C8x C    31.4300  -21.1400
+            43  C8x C    31.4300  -18.3400
+            44  N5x N    32.6200  -20.4400
+            45  C8x C    32.6200  -19.0400
+            46  O0  O    37.1000  -19.1100
+BOND        49
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1 #Up
+            10    6  11 1
+            11    8  12 2
+            12   11  13 1
+            13   11  14 2
+            14   13  15 1 #Up
+            15   13  16 1
+            16   15  17 1
+            17   16  18 1
+            18   17  19 2
+            19   17  20 1
+            20   18  21 1
+            21   18  22 1 #Up
+            22   19  23 1
+            23   20  24 2
+            24   21  25 1
+            25   23  26 2
+            26   25  27 1
+            27   25  28 1
+            28   27  29 1
+            29   27  30 1 #Down
+            30   28  31 1
+            31   29  32 1
+            32   30  33 1
+            33   30  34 2
+            34   32  35 1
+            35   33  36 1
+            36   35  37 1
+            37   36  38 1
+            38   36  39 1
+            39   36  40 1
+            40   37  41 1
+            41   37  42 2
+            42   41  43 2
+            43   42  44 1
+            44   43  45 1
+            45    5   7 1
+            46    9  12 1
+            47   24  26 1
+            48   31  32 1
+            49   44  45 2
+///

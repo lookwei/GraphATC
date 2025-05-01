@@ -1,0 +1,96 @@
+ENTRY       D01151                      Drug
+NAME        Lemildipine (JAN/INN)
+FORMULA     C20H22Cl2N2O6
+EXACT_MASS  456.0855
+MOL_WEIGHT  457.3045
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+EFFICACY    Antihypertensive, Calcium channel blocker
+COMMENT     Dihydropyridine derivative
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D01151  Lemildipine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D01151  Lemildipine (JAN/INN)
+DBLINKS     CAS: 125729-29-5
+            PubChem: 7848214
+            ChEBI: 31769
+            LigandBox: D01151
+            NIKKAJI: J388.171G
+ATOM        30
+            1   C1y C    25.0931  -18.6097
+            2   C8y C    25.0755  -20.9533
+            3   C2y C    23.9124  -17.9317
+            4   C2y C    26.2736  -17.9377
+            5   C8y C    23.8890  -21.6313
+            6   C8x C    26.2562  -21.6430
+            7   C2y C    23.9183  -16.5641
+            8   C7a C    22.7259  -18.6039
+            9   C2y C    26.2795  -16.5758
+            10  C7a C    27.4484  -18.6214
+            11  C8y C    23.8890  -22.9989
+            12  X   Cl   22.7085  -20.9475
+            13  C8x C    26.2502  -22.9989
+            14  N1x N    25.0988  -15.8861
+            15  C1a C    22.7376  -15.8803
+            16  O7a O    21.5512  -17.9260
+            17  O6a O    22.7259  -19.9773
+            18  C1b C    27.4601  -15.8920
+            19  O7a O    28.6348  -17.9494
+            20  O6a O    27.4426  -19.9890
+            21  C8x C    25.0638  -23.6828
+            22  X   Cl   22.7025  -23.6828
+            23  C1a C    20.3707  -18.6039
+            24  C1c C    29.8155  -18.6331
+            25  C1a C    29.8137  -20.0314
+            26  C1a C    31.0274  -17.9355
+            27  O7a O    28.6719  -16.5895
+            28  C7a C    29.8820  -15.8887
+            29  N1a N    31.0940  -16.5861
+            30  O6a O    29.8801  -14.4903
+BOND        31
+            1     3   7 2
+            2     3   8 1
+            3     4   9 2
+            4     4  10 1
+            5     5  11 1
+            6     5  12 1
+            7     6  13 2
+            8     7  14 1
+            9     7  15 1
+            10    8  16 1
+            11    8  17 2
+            12    9  18 1
+            13   10  19 1
+            14   10  20 2
+            15   11  21 2
+            16   11  22 1
+            17   16  23 1
+            18   19  24 1
+            19    9  14 1
+            20   13  21 1
+            21   24  25 1
+            22    1   2 1
+            23   24  26 1
+            24    1   3 1
+            25   18  27 1
+            26    1   4 1
+            27   27  28 1
+            28    2   5 2
+            29   28  29 1
+            30    2   6 1
+            31   28  30 2
+///

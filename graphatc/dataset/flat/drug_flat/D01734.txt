@@ -1,0 +1,66 @@
+ENTRY       D01734                      Drug
+NAME        Sorivudine (JAN/USAN/INN);
+            Bravavir (TN)
+FORMULA     C11H13BrN2O6
+EXACT_MASS  347.9957
+MOL_WEIGHT  349.1347
+EFFICACY    Antiviral, DNA polymerase inhibitor
+COMMENT     Thymidine derivative
+            Zidovudine type
+TARGET      Herpesvirus DNA polymerase [KO:K18964]
+  PATHWAY   ko03240(K18964)  Viral replication
+STR_MAP     map07044  Antiviral agents
+BRITE       Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D01734  Sorivudine (JAN/USAN/INN)
+DBLINKS     CAS: 77181-69-2
+            PubChem: 7848797
+            ChEBI: 32152
+            LigandBox: D01734
+            NIKKAJI: J242.999C
+ATOM        20
+            1   N4y N    25.5500  -16.3800
+            2   C8y C    26.7400  -15.6800
+            3   C8x C    24.2900  -15.6800
+            4   N4x N    26.7400  -14.2800
+            5   O5x O    27.9300  -16.3800
+            6   C8y C    24.2900  -14.2800
+            7   C8y C    25.5500  -13.5800
+            8   O5x O    25.5500  -12.1800
+            9   C1y C    23.9400  -17.2900
+            10  C1y C    21.7000  -17.2900
+            11  C1y C    22.1200  -18.6200
+            12  C1y C    23.5200  -18.6200
+            13  O2x O    22.8200  -16.4500
+            14  O1a O    24.3476  -19.7492
+            15  C1b C    20.3670  -16.8620
+            16  O1a O    21.2924  -19.7492
+            17  O1a O    19.3275  -17.8045
+            18  C2b C    23.0834  -13.5700
+            19  C2b C    21.8737  -14.2553
+            20  X   Br   20.6534  -13.5370
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 2
+            6     4   7 1
+            7     7   8 2
+            8     6   7 1
+            9     9   1 1 #Up
+            10   10  11 1
+            11   11  12 1
+            12   12   9 1
+            13    9  13 1
+            14   10  13 1
+            15   12  14 1 #Up
+            16   10  15 1 #Up
+            17   11  16 1 #Down
+            18   15  17 1
+            19    6  18 1
+            20   18  19 2
+            21   19  20 1
+///

@@ -1,0 +1,80 @@
+ENTRY       D03937                      Drug
+NAME        Ecopipam hydrochloride (USAN)
+FORMULA     C19H20ClNO. HCl
+EXACT_MASS  349.1
+MOL_WEIGHT  350.2821
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+EFFICACY    Dopamine receptor antagonist
+COMMENT     Treatment of addiction disorders (selective dopamine receptor D1/D5 antagonist)
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD5 [HSA:1816] [KO:K05840]
+  PATHWAY   hsa04080(1812+1816)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1816)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               D03937  Ecopipam hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D03937  Ecopipam hydrochloride (USAN)
+                DRD5
+                 D03937  Ecopipam hydrochloride (USAN)
+DBLINKS     CAS: 190133-94-9
+            PubChem: 47205925
+            LigandBox: D03937
+ATOM        23
+            1   C1y C    41.0797  -23.6232
+            2   N1y N    42.3245  -22.9985
+            3   C1x C    43.5969  -23.5763
+            4   C1x C    43.9343  -24.9217
+            5   C1y C    40.7976  -25.0004
+            6   C8y C    43.0932  -26.0401
+            7   C8y C    41.6952  -26.0712
+            8   C1x C    40.0346  -22.6962
+            9   C1x C    38.7093  -23.1377
+            10  C8y C    38.4273  -24.5150
+            11  C8y C    39.4722  -25.4419
+            12  C8x C    40.9967  -27.2809
+            13  C8y C    41.6952  -28.4907
+            14  C8y C    43.0921  -28.4907
+            15  C8x C    43.7905  -27.2809
+            16  O1a O    40.9816  -29.7271
+            17  X   Cl   43.7950  -29.7078
+            18  C8x C    37.1020  -24.9565
+            19  C8x C    36.8217  -26.3251
+            20  C8x C    37.8667  -27.2520
+            21  C8x C    39.1921  -26.8105
+            22  C1a C    42.3674  -21.5990
+            23  X   Cl   47.9627  -25.0181
+BOND        25
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     1   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    5  11 1
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15   6 2
+            18   13  16 1
+            19   14  17 1
+            20   10  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   11  21 2
+            25    2  22 1
+///

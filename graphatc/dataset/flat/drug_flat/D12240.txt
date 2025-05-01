@@ -1,0 +1,48 @@
+ENTRY       D12240                      Drug
+NAME        Valiloxybate (USAN)
+FORMULA     C9H17NO4
+EXACT_MASS  203.1158
+MOL_WEIGHT  203.2356
+EFFICACY    Sleep disorder agent
+COMMENT     Treatment of narcolepsy
+TARGET      GABBR [HSA:2550 9568] [KO:K04615]
+  PATHWAY   hsa04024(2550+9568)  cAMP signaling pathway
+            hsa04080(2550+9568)  Neuroactive ligand-receptor interaction
+            hsa04727(2550+9568)  GABAergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               GABA (metabotropic)
+                GABBR
+                 D12240  Valiloxybate (USAN)
+DBLINKS     CAS: 238401-16-6
+ATOM        14
+            1   C6a C    21.8400  -11.3400
+            2   O6a O    23.0300  -12.0400
+            3   C1b C    20.6500  -12.0400
+            4   O6a O    21.8400   -9.9400
+            5   C1b C    19.4600  -11.3400
+            6   C1b C    18.2700  -12.0400
+            7   O7a O    17.0800  -11.3400
+            8   C7a C    15.8900  -12.0400
+            9   C1c C    14.7000  -11.3400
+            10  O6a O    15.8900  -13.4400
+            11  C1c C    13.5100  -12.0400
+            12  C1a C    12.3200  -11.3400
+            13  C1a C    13.5100  -13.4400
+            14  N1a N    14.7000   -9.9400
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     3   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     8  10 2
+            10    9  11 1
+            11   11  12 1
+            12   11  13 1
+            13    9  14 1 #Down
+///

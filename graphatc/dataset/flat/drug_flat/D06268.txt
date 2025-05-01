@@ -1,0 +1,82 @@
+ENTRY       D06268                      Drug
+NAME        Trimeperidine (INN)
+FORMULA     C17H25NO2
+EXACT_MASS  275.1885
+MOL_WEIGHT  275.3859
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic, Opioid receptor agonist
+COMMENT     Meperidine derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D06268  Trimeperidine
+             Analgesic
+              DG01984  Opioid analgesics
+               D06268  Trimeperidine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D06268  Trimeperidine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Control Act Article 2 Table 1 (74 substances)
+              D06268
+DBLINKS     CAS: 64-39-1
+            PubChem: 47207926
+            LigandBox: D06268
+            NIKKAJI: J4.835F
+ATOM        20
+            1   C8x C    22.0159  -17.2446
+            2   C8y C    22.0159  -18.6470
+            3   C8x C    23.2304  -19.3482
+            4   C8x C    24.4450  -18.6470
+            5   C8x C    24.4450  -17.2446
+            6   C8x C    23.2304  -16.5434
+            7   C1z C    20.8015  -19.3482
+            8   C1y C    19.6040  -18.6566
+            9   C1x C    18.3894  -19.3577
+            10  N1y N    18.3892  -20.7601
+            11  C1y C    19.5867  -21.4517
+            12  C1x C    20.8013  -20.7506
+            13  C1a C    17.1643  -21.4672
+            14  O7a O    21.5027  -20.5627
+            15  C7a C    22.9273  -20.5631
+            16  C1b C    23.6184  -21.7606
+            17  C1a C    25.0308  -21.7611
+            18  C1a C    19.6040  -17.2900
+            19  C1a C    19.5869  -22.8199
+            20  O6a O    23.6282  -19.8397
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    7  12 1
+            14   10  13 1
+            15    7  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19    8  18 1 #Up
+            20   11  19 1 #Down
+            21   15  20 2
+///

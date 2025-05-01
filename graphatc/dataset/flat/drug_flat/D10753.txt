@@ -1,0 +1,92 @@
+ENTRY       D10753            Mixture   Drug
+NAME        Atazanavir and cobicistat;
+            Evotaz (TN)
+  ABBR      ATV/c
+PRODUCT     EVOTAZ (E.R. Squibb & Sons)
+COMPONENT   (Atazanavir sulfate [DR:D01276] | Atazanavir [DR:D07471]), Cobicistat [DR:D09881]
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01641  CYP2C8 inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+             DG02887  UGT1A1 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02862  ABCG2 inhibitor
+             DG02865  SLCO1B1 inhibitor
+             DG02907  SLCO1B3 inhibitor
+REMARK      ATC code: J05AR15
+            Product: D10753<US>
+EFFICACY    Antiviral
+  DISEASE   HIV-1 infection [DS:H01563]
+COMMENT     Atazanavir is an inhibitor of CYP3A and UGT1A1 and a weak inhibitor of CYP2C8.
+            Cobicistat is an inhibitor of CYP3A and CYP2D6. The transporters that cobicistat inhibits include P-glycoprotein (P-gp), BCRP, OATP1B1 and OATP1B3.
+            Atazanavir and cobicistat are CYP3A4 substrates.
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551], CYP2D6 [HSA:1565]; CYP2C8 [HSA:1558]
+            Enzyme inhibition: UGT1A1 [HSA:54658]
+            Transporter inhibition: ABCB1 [HSA:5243], ABCG2 [HSA:9429], SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AR Antivirals for treatment of HIV infections, combinations
+                 J05AR15 Atazanavir and cobicistat
+                  D10753  Atazanavir and cobicistat &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Combinations
+               Atazanavir Sulfate/ Cobicistat
+                D10753  Atazanavir and cobicistat
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10753  Atazanavir and cobicistat
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10753  Atazanavir and cobicistat
+             Metabolizing enzyme inhibitor
+              DG01641  CYP2C8 inhibitor
+               D10753  Atazanavir and cobicistat
+              DG01645  CYP2D6 inhibitor
+               D10753  Atazanavir and cobicistat
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D10753  Atazanavir and cobicistat
+              DG02887  UGT1A1 inhibitor
+               D10753  Atazanavir and cobicistat
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D10753  Atazanavir and cobicistat
+              DG02862  ABCG2 inhibitor
+               D10753  Atazanavir and cobicistat
+              DG02865  SLCO1B1 inhibitor
+               D10753  Atazanavir and cobicistat
+              DG02907  SLCO1B3 inhibitor
+               D10753  Atazanavir and cobicistat
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10753  Atazanavir and cobicistat
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D10753  Atazanavir and cobicistat &lt;US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10753
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10753
+             Drug transporters
+              D10753
+DBLINKS     PubChem: 273220349
+///

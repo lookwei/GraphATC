@@ -1,0 +1,77 @@
+ENTRY       D04533                      Drug
+NAME        Indorenate hydrochloride (USAN)
+FORMULA     C13H16N2O3. HCl
+EXACT_MASS  284.0928
+MOL_WEIGHT  284.7387
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+            Analgesic
+             DG01484  5-HT1B-receptor agonist
+             DG01485  5-HT1D-receptor agonist
+             DG01518  5-HT1B/1D-receptor agonist
+EFFICACY    Antihypertensive, Serotonin receptor agonist
+TARGET      HTR1 [HSA:3350 3351 3352 3354 3355] [KO:K04153]
+  PATHWAY   hsa04080(3350+3351+3352+3354+3355)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3351+3352+3354+3355)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               D04533  Indorenate hydrochloride
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               D04533  Indorenate hydrochloride
+              DG01485  5-HT1D-receptor agonist
+               D04533  Indorenate hydrochloride
+              DG01518  5-HT1B/1D-receptor agonist
+               D04533  Indorenate hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1
+                 D04533  Indorenate hydrochloride (USAN)
+DBLINKS     CAS: 72318-55-9
+            PubChem: 47206380
+            LigandBox: D04533
+ATOM        19
+            1   C8x C    27.1960  -16.8585
+            2   C8y C    27.1960  -15.4538
+            3   C8x C    28.3901  -14.7514
+            4   C8y C    29.6543  -15.4538
+            5   C8y C    29.6543  -16.8585
+            6   C8x C    28.3901  -17.5609
+            7   C8y C    30.9888  -15.0324
+            8   C8x C    31.7614  -16.1562
+            9   N4x N    30.9888  -17.2800
+            10  O2a O    26.0020  -14.7514
+            11  C1a C    24.8080  -15.4538
+            12  C1c C    30.9888  -13.6324
+            13  C7a C    32.2092  -12.9276
+            14  C1b C    29.7998  -12.9461
+            15  N1a N    28.6010  -13.6386
+            16  O7a O    33.4244  -13.6289
+            17  C1a C    34.6018  -12.9489
+            18  O6a O    32.2089  -11.5500
+            19  X   Cl   35.9054  -17.2800
+BOND        19
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    2  10 1
+            12   10  11 1
+            13    7  12 1
+            14   12  13 1
+            15   12  14 1
+            16   14  15 1
+            17   13  16 1
+            18   16  17 1
+            19   13  18 2
+///

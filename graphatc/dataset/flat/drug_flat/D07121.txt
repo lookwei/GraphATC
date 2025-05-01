@@ -1,0 +1,78 @@
+ENTRY       D07121                      Drug
+NAME        Alfatradiol (INN);
+            17alpha-Estradiol
+FORMULA     C18H24O2
+EXACT_MASS  272.1776
+MOL_WEIGHT  272.382
+REMARK      Same as: C02537
+EFFICACY    5alpha-Reductase inhibitor
+COMMENT     Topical treatment of androgenetic alopecia
+TARGET      SRD5A1 [HSA:6715] [KO:K12343]
+            SRD5A2 [HSA:6716] [KO:K12344]
+            NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa00140(6715+6716)  Steroid hormone biosynthesis
+            hsa04915(2099+2100)  Estrogen signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D07121  Alfatradiol (INN)
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SRD5A1
+                 D07121  Alfatradiol (INN)
+                SRD5A2
+                 D07121  Alfatradiol (INN)
+DBLINKS     CAS: 57-91-0
+            PubChem: 51091460
+            ChEBI: 17160
+            LigandBox: D07121
+            NIKKAJI: J4.586A
+ATOM        20
+            1   C8x C    23.3823  -19.4750
+            2   C8y C    23.3823  -20.8380
+            3   C8x C    24.5627  -21.5196
+            4   C8y C    25.7432  -20.8380
+            5   C8y C    25.7432  -19.4750
+            6   C8x C    24.5627  -18.7935
+            7   C1x C    26.9236  -21.5196
+            8   C1x C    28.1040  -20.8380
+            9   C1y C    28.1040  -19.4750
+            10  C1y C    26.9236  -18.7935
+            11  C1y C    29.2845  -18.7935
+            12  C1z C    29.2845  -17.4304
+            13  C1x C    28.1040  -16.7489
+            14  C1x C    26.9236  -17.4304
+            15  C1x C    31.6453  -18.7935
+            16  C1x C    31.6453  -17.4304
+            17  C1y C    30.4649  -16.7489
+            18  O1a O    22.2019  -21.5196
+            19  C1a C    29.2845  -16.0674
+            20  O1a O    30.4651  -15.3301
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 1
+            22   12  19 1 #Up
+            23   17  20 1 #Down
+///

@@ -1,0 +1,144 @@
+ENTRY       D01324                      Drug
+NAME        Mequitazine (JP18/INN);
+            Kitazemin (TN)
+FORMULA     C20H22N2S
+EXACT_MASS  322.1504
+MOL_WEIGHT  322.4671
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Dermatological agent
+             DG03243  Atopic dermatitis agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C12755
+            Therapeutic category: 4413
+            ATC code: R06AD07
+            Product: D01324<JP>
+EFFICACY    Antiallergic, Antiasthmatic, H1 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AD Phenothiazine derivatives
+                 R06AD07 Mequitazine
+                  D01324  Mequitazine (JP18/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              44  Allergic agents
+               441  Antihistamines
+                4413  Phenothiazines
+                 D01324  Mequitazine (JP18/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              01 Cold remedy (oral use)
+               D01324  Mequitazine (JP18/INN)
+             Allergic agents
+              52 Antihistamine based drugs
+               D01324  Mequitazine (JP18/INN)
+             Agents for otolaryngologic use
+              69 Oral medicine for nasal inflammation
+               D01324  Mequitazine (JP18/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Mequitazine
+                D01324  Mequitazine (JP18/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D01324  Mequitazine
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D01324  Mequitazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D01324  Mequitazine
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D01324  Mequitazine
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D01324  Mequitazine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01324  Mequitazine (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01324  Mequitazine
+              D01324  Mequitazine tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01324
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D01324
+DBLINKS     CAS: 29216-28-2
+            PubChem: 7848387
+            ChEBI: 31821
+            LigandBox: D01324
+            NIKKAJI: J342.305K
+ATOM        23
+            1   C1x C    23.4130  -15.6918
+            2   N1y N    24.8526  -14.8141
+            3   C1y C    22.6816  -14.6444
+            4   C1x C    24.8526  -13.5735
+            5   C1x C    26.3564  -15.6216
+            6   C1y C    24.0978  -13.8077
+            7   C1x C    24.1035  -12.8187
+            8   C1x C    25.6602  -14.5097
+            9   C8x C    17.8213  -17.4339
+            10  C8x C    17.8213  -18.8339
+            11  C8x C    19.0367  -19.5339
+            12  C8x C    19.0367  -16.7339
+            13  C8y C    20.2449  -17.4339
+            14  C8y C    20.2388  -18.8339
+            15  S2x S    21.4483  -19.5392
+            16  N1y N    21.4603  -16.7392
+            17  C8y C    22.6698  -17.4443
+            18  C8y C    22.6570  -18.8407
+            19  C8x C    23.8600  -19.5497
+            20  C8x C    25.0756  -18.8626
+            21  C8x C    25.0883  -17.4662
+            22  C8x C    23.8853  -16.7572
+            23  C1b C    21.4663  -15.3392
+BOND        27
+            1    10  11 2
+            2    11  14 1
+            3    13  12 1
+            4    12   9 2
+            5     2   5 1
+            6     3   6 1
+            7     4   7 1
+            8     5   8 1
+            9    13  14 2
+            10   14  15 1
+            11   15  18 1
+            12   17  16 1
+            13   16  13 1
+            14    6   7 1
+            15    6   8 1
+            16    1   2 1
+            17    1   3 1
+            18    2   4 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  17 1
+            25    9  10 1
+            26   16  23 1
+            27   23   3 1
+///

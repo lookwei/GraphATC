@@ -1,0 +1,170 @@
+ENTRY       D01115                      Drug
+NAME        Eplerenone (JP18/USAN/INN);
+            Inspra (TN)
+PRODUCT     INSPRA (Pfizer Laboratories Div Pfizer)
+  GENERIC   EPLERENONE (Accord Healthcare)
+            EPLERENONE (American Health Packaging)
+            EPLERENONE (AvKARE)
+            EPLERENONE (Breckenridge Pharmaceutical)
+            EPLERENONE (Bryant Ranch Prepack)
+            EPLERENONE (Camber Pharmaceuticals)
+            EPLERENONE (Eon Labs)
+            EPLERENONE (Greenstone LLC)
+            EPLERENONE (Kartha Pharmaceuticals)
+            EPLERENONE (Prasco Laboratories)
+            EPLERENONE (Proficient Rx LP)
+            EPLERENONE (Slate Run Pharmaceuticals)
+            EPLERENONE (Westminster Pharmaceuticals)
+FORMULA     C24H30O6
+EXACT_MASS  414.2042
+MOL_WEIGHT  414.4914
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01676  Aldosterone antagonist
+             DG01885  Potassium-sparing diuretic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C12512
+            Therapeutic category: 2149
+            ATC code: C03DA04
+            Product: D01115<JP/US>
+EFFICACY    Antihypertensive, Aldosterone antagonist
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Spironolactone derivative
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03D ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+                C03DA Aldosterone antagonists
+                 C03DA04 Eplerenone
+                  D01115  Eplerenone (JP18/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Mineralocorticoid Receptor Antagonist
+               Eplerenone
+                D01115  Eplerenone (JP18/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               214  Antihypertensives
+                2149  Others
+                 D01115  Eplerenone (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01676  Aldosterone antagonist
+                D01115  Eplerenone
+              DG01885  Potassium-sparing diuretic
+               D01115  Eplerenone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01115  Eplerenone
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01676  Aldosterone antagonist
+               D01115  Eplerenone
+              DG03231  Antihypertensive
+               D01115  Eplerenone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D01115  Eplerenone (JP18/USAN/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01115  Eplerenone
+              D01115  Eplerenone tablets
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01115
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01115
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01115
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01115
+DBLINKS     CAS: 107724-20-9
+            PubChem: 7848178
+            ChEBI: 31547
+            PDB-CCD: YNU
+            LigandBox: D01115
+            NIKKAJI: J835.298D
+ATOM        30
+            1   C1z C    25.7600  -21.4200
+            2   C1z C    24.5000  -22.1200
+            3   C1x C    26.8800  -22.1200
+            4   O7x O    26.8800  -20.6500
+            5   C1x C    24.6400  -20.6500
+            6   C1y C    24.5000  -23.4500
+            7   C1x C    23.3800  -21.4200
+            8   C1a C    23.8700  -20.5800
+            9   C1x C    26.8800  -23.4500
+            10  C7x C    26.4600  -19.3200
+            11  C1x C    25.0600  -19.3200
+            12  C1y C    23.3800  -24.1500
+            13  C1y C    22.1900  -22.1200
+            14  O6a O    27.2300  -18.2700
+            15  C1z C    22.1900  -23.4500
+            16  C1y C    23.3800  -25.5500
+            17  C1z C    21.0000  -24.1500
+            18  C1x C    22.1900  -26.1800
+            19  C7a C    24.5000  -26.1800
+            20  C2y C    21.0000  -25.4800
+            21  C1x C    19.8100  -23.4500
+            22  C1a C    21.0000  -22.7500
+            23  O7a O    25.6900  -25.5500
+            24  C2x C    19.8100  -26.1800
+            25  C1x C    18.6200  -24.1500
+            26  C1a C    26.8800  -26.1800
+            27  C5x C    18.6200  -25.4800
+            28  O5x O    17.4300  -26.1800
+            29  O6a O    24.5000  -27.5800
+            30  O2x O    23.4024  -22.8200
+BOND        35
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Down
+            5     2   6 1
+            6     2   7 1
+            7     2   8 1 #Up
+            8     3   9 1
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13   10  14 2
+            14   12  15 1
+            15   12  16 1
+            16   15  17 1
+            17   16  18 1
+            18   16  19 1 #Down
+            19   17  20 1
+            20   17  21 1
+            21   17  22 1 #Up
+            22   19  23 1
+            23   20  24 2
+            24   21  25 1
+            25   23  26 1
+            26   24  27 1
+            27   27  28 2
+            28    6   9 1
+            29   10  11 1
+            30   13  15 1
+            31   18  20 1
+            32   25  27 1
+            33   19  29 2
+            34   13  30 1 #Down
+            35   15  30 1 #Down
+///

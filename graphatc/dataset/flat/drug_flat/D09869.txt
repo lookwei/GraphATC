@@ -1,0 +1,96 @@
+ENTRY       D09869                      Drug
+NAME        Avagacestat (USAN)
+FORMULA     C20H17ClF4N4O4S
+EXACT_MASS  520.0595
+MOL_WEIGHT  520.885
+EFFICACY    Dementia therapeutic agent, gamma-Secretase inhibitor
+COMMENT     Treatment of Alzheimer's disease
+TARGET      PSEN1/PSENEN/NCSTN/APH1A [HSA:5663 55851 23385 51107] [KO:K04505 K06170 K06171 K06172]
+  PATHWAY   hsa04330(23385+51107+55851+5663)  Notch signaling pathway
+            hsa04722(5663)  Neurotrophin signaling pathway
+            hsa05010(23385+51107+55851+5663)  Alzheimer disease
+STR_MAP     map07056  Agents for Alzheimer-type dementia
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Aspartic peptidases
+                PSEN1/PSENEN/NCSTN/APH1A
+                 D09869  Avagacestat (USAN)
+DBLINKS     CAS: 1146699-66-2
+            PubChem: 135626624
+            ChEBI: 177493
+            PDB-CCD: EN9
+            LigandBox: D09869
+ATOM        34
+            1   C8x C    14.9100  -20.3000
+            2   C8y C    14.9100  -21.7000
+            3   C8x C    16.1000  -22.4000
+            4   C8x C    17.3600  -21.7000
+            5   C8y C    17.3600  -20.3000
+            6   C8y C    16.1000  -19.6000
+            7   C1b C    18.5500  -19.6000
+            8   N1c N    19.7400  -20.3000
+            9   C1c C    20.9300  -19.6000
+            10  C1b C    22.1200  -20.3000
+            11  C1b C    23.3100  -19.6000
+            12  S4a S    19.7400  -21.7000
+            13  C8y C    19.7400  -23.1000
+            14  O3c O    21.1400  -21.7000
+            15  C1d C    24.5000  -20.3000
+            16  C5a C    20.9300  -18.2000
+            17  N1a N    19.7400  -17.5000
+            18  O5a O    22.1200  -17.5000
+            19  X   F    25.6900  -19.6000
+            20  X   F    24.5000  -21.7000
+            21  X   F    25.7600  -21.0000
+            22  O3c O    18.3400  -21.7000
+            23  X   F    16.1000  -18.2000
+            24  C8y C    13.7200  -22.4000
+            25  C8x C    11.9000  -23.7300
+            26  N5x N    13.3000  -23.7300
+            27  N5x N    12.6000  -21.5600
+            28  O2x O    11.4800  -22.4000
+            29  C8x C    18.5276  -23.8000
+            30  C8x C    18.5276  -25.2000
+            31  C8y C    19.7400  -25.9000
+            32  C8x C    20.9524  -25.2000
+            33  C8x C    20.9524  -23.8000
+            34  X   Cl   19.7400  -27.3000
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1 #Up
+            11   10  11 1
+            12    8  12 1
+            13   12  13 1
+            14   12  14 2
+            15   11  15 1
+            16    9  16 1
+            17   16  17 1
+            18   16  18 2
+            19   15  19 1
+            20   15  20 1
+            21   15  21 1
+            22   12  22 2
+            23    6  23 1
+            24    2  24 1
+            25   25  26 2
+            26   26  24 1
+            27   24  27 2
+            28   27  28 1
+            29   25  28 1
+            30   13  29 1
+            31   29  30 2
+            32   30  31 1
+            33   31  32 2
+            34   32  33 1
+            35   13  33 2
+            36   31  34 1
+///

@@ -1,0 +1,203 @@
+ENTRY       D01227                      Drug
+NAME        Bosentan (USAN);
+            Bosentan hydrate (JAN);
+            Tracleer (TN)
+PRODUCT     TRACLEER (Actelion Pharmaceuticals US)
+  GENERIC   BOSENTAN (Actavis Pharma)
+            BOSENTAN (Amneal Pharmaceuticals LLC)
+            BOSENTAN (Par Pharmaceutical)
+            BOSENTAN (Sun Pharmaceutical Industries)
+            BOSENTAN (West-Ward Pharmaceuticals Corp.)
+            BOSENTAN (Zydus Lifesciences Limited)
+            BOSENTAN (Zydus Pharmaceuticals USA)
+FORMULA     C27H29N5O6S. H2O
+EXACT_MASS  569.1944
+MOL_WEIGHT  569.6293
+CLASS       Cardiovascular agent
+             DG01502  Endothelin receptor antagonist
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02886  CYP2C9 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      Therapeutic category: 2190
+            ATC code: C02KX01
+            Chemical structure group: DG00266
+            Product (DG00266): D01227<JP/US>
+EFFICACY    Antihypertensive, Endothelin receptor antagonist
+  DISEASE   Pulmonary arterial hypertension [DS:H01621]
+TARGET      EDNR [HSA:1909 1910] [KO:K04197 K04198]
+  PATHWAY   hsa04080(1909+1910)  Neuroactive ligand-receptor interaction
+            hsa04270(1909)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP3A4 [HSA:1576]
+INTERACTION CYP induction: CYP2C9 [HSA:1559], CYP3A4 [HSA:1576]
+STR_MAP     map07229  Angiotensin receptor and endothelin receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02K OTHER ANTIHYPERTENSIVES
+                C02KX Antihypertensives for pulmonary arterial hypertension
+                 C02KX01 Bosentan
+                  D01227  Bosentan (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Pulmonary Antihypertensives
+               Endothelin Receptor Antagonists
+                Bosentan
+                 D01227  Bosentan (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D01227  Bosentan (USAN); Bosentan hydrate (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               DG00266  Bosentan
+                D01227  Bosentan
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00266  Bosentan
+                D01227  Bosentan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00266  Bosentan
+                 D01227  Bosentan
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               DG00266  Bosentan
+                D01227  Bosentan
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00266  Bosentan
+                 D01227  Bosentan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Endothelin
+                EDNR
+                 D01227  Bosentan (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01227
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01227
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01227
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01227
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01227
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               DG00266  Bosentan
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00266  Bosentan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00266  Bosentan
+             Metabolizing enzyme inducer
+              DG02886  CYP2C9 inducer
+               DG00266  Bosentan
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                DG00266  Bosentan
+DBLINKS     CAS: 157212-55-0
+            PubChem: 7848290
+            ChEBI: 31300
+            LigandBox: D01227
+ATOM        40
+            1   C8y C    29.0489  -21.7832
+            2   C8x C    27.8386  -21.0866
+            3   C8x C    26.6301  -21.7864
+            4   C8y C    26.6320  -23.1827
+            5   C8x C    27.8423  -23.8794
+            6   C8x C    29.0507  -23.1795
+            7   N5x N    30.2731  -23.8730
+            8   C8y C    31.4763  -23.1692
+            9   N1b N    31.4685  -21.7756
+            10  O2a O    33.8684  -25.9698
+            11  C1b C    33.8615  -27.3629
+            12  C1b C    35.0645  -28.0655
+            13  O1a O    36.2744  -27.3750
+            14  C8x C    36.2815  -25.9819
+            15  C8x C    35.0785  -25.2793
+            16  C8y C    29.0558  -25.9556
+            17  N5x N    27.8457  -25.2590
+            18  C8x C    26.6372  -25.9588
+            19  C8x C    26.6391  -27.3551
+            20  C8x C    27.8494  -28.0517
+            21  N5x N    29.0576  -27.3519
+            22  C8y C    30.2660  -25.2661
+            23  N5x N    31.4684  -25.9694
+            24  C8y C    35.0858  -23.8870
+            25  C8x C    37.4916  -25.2924
+            26  C8x C    37.4987  -23.8993
+            27  C8y C    36.2957  -23.1964
+            28  C8y C    32.6795  -23.8801
+            29  C8y C    32.6724  -25.2732
+            30  O2a O    33.8894  -23.1895
+            31  O2a O    36.3519  -21.7972
+            32  C1d C    25.4182  -23.8659
+            33  O3c O    31.3848  -20.2000
+            34  C1a C    37.5550  -21.0937
+            35  S4a S    30.2378  -21.0726
+            36  O3c O    28.9291  -20.1931
+            37  C1a C    24.2093  -23.1500
+            38  C1a C    25.4028  -25.2700
+            39  C1a C    24.2058  -24.5659
+            40  O0  O    40.4119  -24.5062
+BOND        42
+            1    19  20 2
+            2    20  21 1
+            3    21  16 2
+            4     2   3 2
+            5     3   4 1
+            6    22  16 1
+            7    23  22 2
+            8     4   5 2
+            9     5   6 1
+            10    6   1 2
+            11   24  15 1
+            12   14  25 1
+            13   25  26 2
+            14   26  27 1
+            15   27  24 2
+            16   10  11 1
+            17   11  12 1
+            18   12  13 1
+            19   28  29 2
+            20   29  10 1
+            21   24  30 1
+            22   30  28 1
+            23    7  22 1
+            24   23  29 1
+            25   28   8 1
+            26   14  15 2
+            27   27  31 1
+            28    4  32 1
+            29    1   2 1
+            30    7   8 2
+            31    8   9 1
+            32    9  35 1
+            33   35  33 2
+            34   35   1 1
+            35   31  34 1
+            36   16  17 1
+            37   17  18 2
+            38   35  36 2
+            39   18  19 1
+            40   32  37 1
+            41   32  38 1
+            42   32  39 1
+///

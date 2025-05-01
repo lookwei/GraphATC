@@ -1,0 +1,146 @@
+ENTRY       D00929                      Drug
+NAME        Oxacillin sodium (JAN/USP);
+            Oxacillin sodium hydrate;
+            Bactocill (TN)
+PRODUCT     OXACILLIN (Baxter Healthcare Corporation)
+  GENERIC   OXACILLIN (Armas Pharmaceuticals)
+            OXACILLIN (Eugia US LLC)
+            OXACILLIN (Eugia US LLC)
+            OXACILLIN (Fresenius Kabi USA)
+            OXACILLIN (Fresenius Kabi USA)
+            OXACILLIN (Sagent Pharmaceuticals)
+            OXACILLIN (Sagent Pharmaceuticals)
+            OXACILLIN (Sagent Pharmaceuticals)
+            OXACILLIN (Sagent Pharmaceuticals)
+            OXACILLIN (Steriscience Specialties Private Limited)
+            OXACILLIN (Wockhardt USA LLC.)
+            OXACILLIN (Wockhardt USA LLC.)
+FORMULA     C19H18N3O5S. Na. H2O
+EXACT_MASS  441.0971
+MOL_WEIGHT  441.4334
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01779  beta-Lactamase resistant penicillin
+REMARK      ATC code: J01CF04
+            Chemical structure group: DG00542
+            Product (DG00542): D00929<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CF Beta-lactamase resistant penicillins
+                 J01CF04 Oxacillin
+                  D00929  Oxacillin sodium (JAN/USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antibacterials
+              Beta-lactam, Penicillins
+               Oxacillin
+                D00929  Oxacillin sodium (JAN/USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00542  Oxacillin
+                  D00929  Oxacillin sodium
+              DG01779  beta-Lactamase resistant penicillin
+               DG00542  Oxacillin
+                D00929  Oxacillin sodium
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01480  Penicillin
+               D00929  Oxacillin sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                D00929  Oxacillin sodium (JAN/USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00542  Oxacillin
+              DG01779  beta-Lactamase resistant penicillin
+               DG00542  Oxacillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase resistant penicillin
+                DG00542  Oxacillin
+DBLINKS     CAS: 7240-38-2
+            PubChem: 7847992
+            ChEBI: 7810
+            LigandBox: D00929
+            NIKKAJI: J1.591.922A
+ATOM        30
+            1   C1y C    27.5667  -14.8899
+            2   C5x C    27.5667  -16.2792
+            3   N1y N    28.9560  -16.2792
+            4   C1y C    28.9560  -14.8899
+            5   C1y C    30.2759  -16.6960
+            6   C1z C    31.1096  -15.5845
+            7   S2x S    30.2759  -14.4731
+            8   C1a C    32.0821  -16.5571
+            9   C1a C    32.0821  -14.6120
+            10  C6a C    30.7622  -18.0854
+            11  O6a O    32.1515  -18.0854 #-
+            12  O6a O    29.9286  -19.1969
+            13  N1b N    26.3858  -14.1952
+            14  C5a C    25.2048  -14.8899
+            15  O5x O    26.3858  -16.9739
+            16  O5a O    25.2048  -16.2792
+            17  C8y C    23.9544  -14.1952
+            18  C8y C    23.9544  -12.8059
+            19  O2x O    22.6330  -12.3765
+            20  N5x N    21.8164  -13.5005
+            21  C8y C    22.6330  -14.6246
+            22  C1a C    25.0784  -11.9892
+            23  C8y C    22.6330  -16.0504
+            24  C8x C    21.3820  -16.7729
+            25  C8x C    21.3822  -18.1987
+            26  C8x C    22.6171  -18.9114
+            27  C8x C    23.8680  -18.1889
+            28  C8x C    23.8678  -16.7631
+            29  Z   Na   33.7493  -18.1548 #+
+            30  O0  O    34.0271  -19.9610
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 1
+            22   20  21 2
+            23   17  21 1
+            24   18  22 1
+            25   21  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   26  27 1
+            30   27  28 2
+            31   23  28 1
+///

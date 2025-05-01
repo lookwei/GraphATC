@@ -1,0 +1,187 @@
+ENTRY       D10926                      Drug
+NAME        Entrectinib (JAN/USAN/INN);
+            Rozlytrek (TN)
+PRODUCT     ROZLYTREK (Genentech)
+FORMULA     C31H34F2N6O2
+EXACT_MASS  560.2711
+MOL_WEIGHT  560.6375
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+REMARK      Therapeutic category: 4291
+            ATC code: L01EX14
+            Product: D10926<JP/US>
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+  DISEASE   Non-small cell lung cancer (ROS1-positive) [DS:H00014]
+            Solid tumors (NTRK gene fusion-positive) [DS:H02421]
+COMMENT     Treatment of cancer
+TARGET      NTRK1* (TRKA) [HSA_VAR:4914v1] [HSA:4914] [KO:K03176]
+            ROS1* [HSA_VAR:6098v1] [HSA:6098] [KO:K05088]
+            NTRK2 (TRKB) [HSA:4915] [KO:K04360]
+            NTRK3 (TRKC) [HSA:4916] [KO:K05101]
+            ALK (CD246) [HSA:238] [KO:K05119]
+  PATHWAY   hsa04151(4914+4915)  PI3K-Akt signaling pathway
+            hsa05200(238+4914)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EX Other protein kinase inhibitors
+                 L01EX14 Entrectinib
+                  D10926  Entrectinib (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Entrectinib
+                D10926  Entrectinib (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D10926  Entrectinib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               D10926  Entrectinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D10926  Entrectinib
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               D10926  Entrectinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               INSR family
+                ROS1* [HSA_VAR:6098v1]
+                 D10926  Entrectinib (JAN/USAN/INN) &lt;JP/US&gt;
+               TRK family
+                NTRK1* (TRKA) [HSA_VAR:4914v1]
+                 D10926  Entrectinib (JAN/USAN/INN) &lt;JP/US&gt;
+                NTRK2 (TRKB)
+                 D10926  Entrectinib (JAN/USAN/INN) &lt;JP/US&gt;
+                NTRK3 (TRKC)
+                 D10926  Entrectinib (JAN/USAN/INN) &lt;JP/US&gt;
+               ALK family
+                ALK (CD246)
+                 D10926  Entrectinib (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10926
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10926
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10926
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10926
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10926
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D10926
+DBLINKS     CAS: 1108743-60-7
+            PubChem: 342581783
+            ChEBI: 195558
+            PDB-CCD: YMX
+ATOM        41
+            1   C8x C    10.5000  -14.9800
+            2   C8y C    10.5000  -16.3800
+            3   C8x C    11.7124  -17.0800
+            4   C8y C    12.9249  -16.3800
+            5   C8y C    12.9249  -14.9800
+            6   C8x C    11.7124  -14.2800
+            7   C8y C    14.2564  -16.8126
+            8   N5x N    15.0793  -15.6800
+            9   N4x N    14.2564  -14.5474
+            10  C1b C     9.2876  -17.0800
+            11  C8y C     8.0921  -16.3896
+            12  C8x C     8.0920  -14.9803
+            13  C8y C     6.8796  -14.2803
+            14  C8x C     5.6672  -14.9803
+            15  C8y C     5.6672  -16.3897
+            16  C8x C     6.8796  -17.0896
+            17  X   F     6.8796  -12.8801
+            18  X   F     4.4611  -17.0860
+            19  N1b N    14.6875  -18.1394
+            20  C5a C    16.0669  -18.4326
+            21  C8y C    17.0295  -17.3631
+            22  O5a O    16.4963  -19.7527
+            23  C8y C    18.3797  -17.6498
+            24  C8x C    19.3163  -16.6092
+            25  C8y C    18.8834  -15.2778
+            26  C8x C    17.5332  -14.9911
+            27  C8x C    16.5966  -16.0317
+            28  N1y N    19.8363  -14.2192
+            29  C1x C    21.1787  -14.5042
+            30  C1x C    22.1153  -13.4635
+            31  N1y N    21.6823  -12.1322
+            32  C1x C    20.3399  -11.8472
+            33  C1x C    19.4033  -12.8878
+            34  C1a C    22.6378  -11.0705
+            35  N1b N    18.8124  -18.9809
+            36  C1y C    20.1964  -19.2750
+            37  C1x C    20.6252  -20.5931
+            38  C1x C    21.9947  -20.8836
+            39  O2x O    22.9311  -19.8429
+            40  C1x C    22.5023  -18.5248
+            41  C1x C    21.1328  -18.2342
+BOND        46
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    2  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   13  17 1
+            20   15  18 1
+            21    7  19 1
+            22   19  20 1
+            23   20  21 1
+            24   20  22 2
+            25   21  23 2
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   21  27 1
+            31   25  28 1
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   32  33 1
+            37   28  33 1
+            38   31  34 1
+            39   23  35 1
+            40   35  36 1
+            41   36  37 1
+            42   37  38 1
+            43   38  39 1
+            44   39  40 1
+            45   40  41 1
+            46   36  41 1
+///

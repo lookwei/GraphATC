@@ -1,0 +1,199 @@
+ENTRY       D07906                      Drug
+NAME        Ergotamine (INN)
+FORMULA     C33H35N5O5
+EXACT_MASS  581.2638
+MOL_WEIGHT  581.6615
+SOURCE      Claviceps purpurea [TAX:5111]
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01964  Ergot alkaloid
+              DG01982  Antimigraine, ergot alkaloid
+            Analgesic
+             DG01518  5-HT1B/1D-receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07544
+            ATC code: G02AB02 N02CA02
+            Chemical structure group: DG00834
+            Product (DG00834): D00679<US>
+EFFICACY    Antimigraine, Vasoconstrictor, alpha1-Adrenergic receptor antagonist, Serotonin receptor antagonist
+COMMENT     Ergot alkaloid
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            HTR1A [HSA:3350] [KO:K04153]
+            HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04022(146+147+148)  cGMP-PKG signaling pathway
+            hsa04080(146+147+148+3350+3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+            map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02A UTEROTONICS
+                G02AB Ergot alkaloids
+                 G02AB02 Ergot alkaloids
+                  D07906  Ergotamine (INN)
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CA Ergot alkaloids
+                 N02CA02 Ergotamine
+                  D07906  Ergotamine (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00834  Ergotamine
+                 D07906  Ergotamine
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00834  Ergotamine
+                 D07906  Ergotamine
+             Analgesic
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00834  Ergotamine
+                D07906  Ergotamine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00834  Ergotamine
+                 D07906  Ergotamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D07906  Ergotamine (INN)
+               Serotonin
+                HTR1A
+                 D07906  Ergotamine (INN)
+                HTR1B
+                 D07906  Ergotamine (INN)
+                HTR1D
+                 D07906  Ergotamine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07906
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00834  Ergotamine
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00834  Ergotamine
+             Analgesic
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00834  Ergotamine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00834  Ergotamine
+DBLINKS     CAS: 113-15-5
+            PubChem: 96024602
+            ChEBI: 64318
+            PDB-CCD: ERM
+            LigandBox: D07906
+            NIKKAJI: J2.889D
+ATOM        43
+            1   C8y C    21.2333  -19.7636
+            2   C8y C    21.2333  -21.0251
+            3   C8y C    22.4247  -21.7259
+            4   C1x C    23.5461  -21.0251
+            5   C1y C    23.5461  -19.7636
+            6   C2y C    22.4247  -19.0627
+            7   C8x C    20.1119  -19.0627
+            8   C8x C    18.9906  -19.7636
+            9   C8x C    18.9906  -21.0251
+            10  C8y C    20.1119  -21.7259
+            11  N4x N    20.1119  -23.0576
+            12  C8x C    22.4247  -23.0576
+            13  N1y N    24.7376  -19.0627
+            14  C1x C    24.7376  -17.7311
+            15  C1y C    23.5461  -17.1003
+            16  C2x C    22.4247  -17.7311
+            17  C1a C    25.8589  -19.7636
+            18  C5a C    23.5461  -15.7687
+            19  O5a O    22.4247  -15.0678
+            20  N1b N    25.1581  -15.0678
+            21  C1z C    26.7700  -15.6986
+            22  O2x O    27.8914  -15.0678
+            23  C1z C    29.0829  -15.7687
+            24  N1y N    29.0829  -17.0302
+            25  C5x C    26.7700  -17.0302
+            26  C1y C    30.2042  -17.7311
+            27  C5x C    31.3256  -17.0302
+            28  N1y N    31.3256  -15.7687
+            29  C1y C    30.2042  -15.0678
+            30  O5x O    32.5170  -17.7311
+            31  C1x C    32.5170  -15.0678
+            32  C1x C    32.5170  -13.7362
+            33  C1x C    30.2042  -13.7362
+            34  O5x O    25.8589  -18.0114
+            35  C1a C    26.7700  -14.3670
+            36  C1b C    30.2042  -19.0627
+            37  C8y C    31.3957  -19.7636
+            38  C8x C    31.3957  -21.0251
+            39  C8x C    32.5170  -21.7259
+            40  C8x C    33.6384  -21.0251
+            41  C8x C    33.6384  -19.7636
+            42  C8x C    32.5170  -19.0627
+            43  O1a O    29.0829  -14.4371
+BOND        50
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    2  10 2
+            12   10  11 1
+            13    3  12 2
+            14   11  12 1
+            15    5  13 1
+            16   13  14 1
+            17   14  15 1
+            18   15  16 1
+            19    6  16 2
+            20   13  17 1
+            21   18  19 2
+            22   18  20 1
+            23   21  20 1 #Down
+            24   15  18 1 #Up
+            25   21  22 1
+            26   22  23 1
+            27   23  24 1
+            28   21  25 1
+            29   25  24 1
+            30   24  26 1
+            31   26  27 1
+            32   27  28 1
+            33   28  29 1
+            34   23  29 1
+            35   27  30 2
+            36   28  31 1
+            37   31  32 1
+            38   29  33 1
+            39   33  32 1
+            40   25  34 2
+            41   21  35 1 #Up
+            42   36  37 1
+            43   37  38 2
+            44   38  39 1
+            45   39  40 2
+            46   40  41 1
+            47   41  42 2
+            48   37  42 1
+            49   26  36 1 #Down
+            50   23  43 1 #Down
+///

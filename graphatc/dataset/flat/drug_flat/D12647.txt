@@ -1,0 +1,66 @@
+ENTRY       D12647                      Drug
+NAME        Mitiperstat (USAN/INN)
+FORMULA     C15H15ClN4OS
+EXACT_MASS  334.0655
+MOL_WEIGHT  334.8238
+EFFICACY    Myeloperoxidase inhibitor
+COMMENT     Treatment of heart failure
+TARGET      MPO [HSA:4353] [KO:K10789]
+  PATHWAY   hsa04145(4353)  Phagosome
+            hsa04613(4353)  Neutrophil extracellular trap formation
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Peroxygenase
+                MPO
+                 D12647  Mitiperstat (USAN/INN)
+DBLINKS     CAS: 1933460-19-5
+ATOM        22
+            1   C8y C    25.3400   -8.5400
+            2   C8y C    25.3400   -9.9400
+            3   N4y N    26.5300  -10.6400
+            4   C8y C    27.7900   -9.9400
+            5   N4x N    27.7900   -8.5400
+            6   C8y C    26.5300   -7.8400
+            7   N4x N    24.0100   -8.1200
+            8   C8x C    23.1700   -9.2400
+            9   C8x C    24.0100  -10.3600
+            10  O5x O    26.5300   -6.4400
+            11  S0  S    28.9800  -10.6400
+            12  C1b C    26.5300  -12.0400
+            13  C8y C    27.7453  -12.7351
+            14  C8y C    27.7511  -14.1397
+            15  C8x C    28.9664  -14.8347
+            16  C8y C    30.1759  -14.1297
+            17  C8x C    30.1701  -12.7251
+            18  C8x C    28.9548  -12.0301
+            19  C1c C    26.5184  -14.8585
+            20  C1a C    25.3039  -14.1642
+            21  N1a N    26.5245  -16.2400
+            22  X   Cl   31.3912  -14.8246
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    2   9 1
+            11    6  10 2
+            12    4  11 2
+            13    3  12 1
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   13  18 1
+            21   14  19 1
+            22   19  20 1
+            23   19  21 1 #Down
+            24   16  22 1
+///

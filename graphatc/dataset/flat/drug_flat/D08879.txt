@@ -1,0 +1,103 @@
+ENTRY       D08879                      Drug
+NAME        Brivaracetam (JAN/USAN/INN);
+            Briviact (TN)
+PRODUCT     BRIVIACT (UCB)
+FORMULA     C11H20N2O2
+EXACT_MASS  212.1525
+MOL_WEIGHT  212.2887
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02038  Piracetam antiepileptic
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+REMARK      ATC code: N03AX23
+            Product: D08879<US>
+EFFICACY    Anticonvulsant, Pain relief
+COMMENT     Levetiracetam [DR:D00709] derivative
+            Treatment of epilepsy, neuropathic pain and essential tremor
+TARGET      SV2A [HSA:9900] [KO:K06258]
+  PATHWAY   hsa04512(9900)  ECM-receptor interaction
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AX Other antiepileptics
+                 N03AX23 Brivaracetam
+                  D08879  Brivaracetam (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Anticonvulsants, Other
+               Brivaracetam
+                D08879  Brivaracetam (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02038  Piracetam antiepileptic
+                D08879  Brivaracetam
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D08879  Brivaracetam
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D08879  Brivaracetam
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Major facilitator superfamily
+               VNT family
+                SV2A
+                 D08879  Brivaracetam (JAN/USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D08879
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D08879
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D08879
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08879
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D08879
+DBLINKS     CAS: 357336-20-0
+            PubChem: 96025562
+            ChEBI: 133013
+            LigandBox: D08879
+ATOM        15
+            1   N1y N    29.4350  -21.8855
+            2   C1c C    30.6233  -21.1865
+            3   C5x C    28.2467  -21.0467
+            4   C1x C    28.9457  -23.2136
+            5   C5a C    31.8117  -21.8855
+            6   C1x C    27.1283  -21.8855
+            7   O5x O    28.2467  -19.6487
+            8   C1y C    27.5477  -23.2136
+            9   N1a N    33.0000  -21.1865
+            10  O5a O    31.8117  -23.2835
+            11  C1b C    26.7213  -24.3412
+            12  C1b C    25.3184  -24.1880
+            13  C1a C    24.4873  -25.3220
+            14  C1b C    30.6233  -19.7885
+            15  C1a C    31.8340  -19.0895
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     5   9 1
+            9     5  10 2
+            10    6   8 1
+            11    8  11 1 #Down
+            12   11  12 1
+            13   12  13 1
+            14    2  14 1 #Up
+            15   14  15 1
+///

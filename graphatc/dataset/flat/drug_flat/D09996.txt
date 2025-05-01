@@ -1,0 +1,172 @@
+ENTRY       D09996                      Drug
+NAME        Vemurafenib (JAN/USAN/INN);
+            Zelboraf (TN)
+PRODUCT     ZELBORAF (Genentech)
+FORMULA     C23H18ClF2N3O3S
+EXACT_MASS  489.0725
+MOL_WEIGHT  489.9221
+CLASS       Antineoplastic
+             DG03159  BRAF inhibitor
+            Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+             DG01643  CYP2C9 inhibitor
+            Metabolizing enzyme inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      Therapeutic category: 4291
+            ATC code: L01EC01
+            Product: D09996<JP/US>
+EFFICACY    Antineoplastic, BRAF kinase inhibitor
+  DISEASE   Melanoma (BRAF mutation positive) [DS:H00038]
+            Erdheim-Chester disease (BRAF mutation positive) [DS:H02425]
+TARGET      BRAF* [HSA_VAR:673v1] [HSA:673] [KO:K04365]
+  PATHWAY   hsa04010(673)  MAPK signaling pathway
+            hsa04012(673)  ErbB signaling pathway
+            hsa05200(673)  Pathways in cancer
+            hsa05218(673)  Melanoma
+INTERACTION CYP inhibition: CYP1A2 [HSA:1544], CYP2C9 [HSA:1559]
+            CYP induction: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EC B-Raf serine-threonine kinase (BRAF) inhibitors
+                 L01EC01 Vemurafenib
+                  D09996  Vemurafenib (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Vemurafenib
+                D09996  Vemurafenib (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D09996  Vemurafenib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               D09996  Vemurafenib
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               D09996  Vemurafenib
+              DG01643  CYP2C9 inhibitor
+               D09996  Vemurafenib
+             Metabolizing enzyme inducer
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                D09996  Vemurafenib
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D09996  Vemurafenib
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03159  BRAF inhibitor
+               D09996  Vemurafenib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               TKL group
+                BRAF* [HSA_VAR:673v1]
+                 D09996  Vemurafenib (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09996
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09996
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09996
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09996
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09996
+             Drug transporters
+              D09996
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D09996
+DBLINKS     CAS: 918504-65-1
+            PubChem: 135626717
+            ChEBI: 63637
+            PDB-CCD: 032
+            LigandBox: D09996
+ATOM        33
+            1   C8x C    14.3500  -17.7100
+            2   C8y C    14.3500  -19.1100
+            3   C8x C    15.5624  -19.8100
+            4   C8x C    16.7749  -19.1100
+            5   C8y C    16.7749  -17.7100
+            6   C8x C    15.5624  -17.0100
+            7   X   Cl   13.1376  -19.8100
+            8   C8y C    18.0060  -16.9990
+            9   C8x C    19.2112  -17.6947
+            10  C8y C    20.4235  -16.9946
+            11  C8y C    20.4235  -15.5946
+            12  N5x N    19.2183  -14.8989
+            13  C8x C    18.0059  -15.5990
+            14  C8y C    21.7551  -17.4271
+            15  C8x C    22.5779  -16.2945
+            16  N4x N    21.7549  -15.1619
+            17  C5a C    21.7551  -18.8271
+            18  O5a O    20.5527  -19.5214
+            19  C8y C    22.9799  -19.5343
+            20  C8y C    22.9799  -20.9299
+            21  C8y C    24.1923  -21.6299
+            22  C8x C    25.4047  -20.9300
+            23  C8x C    25.4048  -19.5344
+            24  C8y C    24.1924  -18.8344
+            25  X   F    24.1924  -17.4303
+            26  X   F    21.7525  -21.6385
+            27  N1b N    24.1922  -23.0297
+            28  S4a S    25.4254  -23.7420
+            29  C1b C    26.6314  -23.0458
+            30  C1b C    27.8134  -23.7284
+            31  C1a C    29.0075  -23.0389
+            32  O3c O    24.4355  -24.7319
+            33  O3c O    26.4154  -24.7319
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   10  14 1
+            16   14  15 2
+            17   15  16 1
+            18   11  16 1
+            19   14  17 1
+            20   17  18 2
+            21   17  19 1
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   19  24 1
+            28   24  25 1
+            29   20  26 1
+            30   21  27 1
+            31   27  28 1
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   28  32 2
+            36   28  33 2
+///

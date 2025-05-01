@@ -1,0 +1,116 @@
+ENTRY       D08560                      Drug
+NAME        Tamsulosin (INN);
+            Flomax (TN);
+            Tamsulon (TN)
+FORMULA     C20H28N2O5S
+EXACT_MASS  408.1719
+MOL_WEIGHT  408.5117
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+REMARK      Same as: C07124
+            ATC code: G04CA02
+            Chemical structure group: DG00490
+            Product (DG00490): D01024<JP/US>
+            Product (mixture): D11389<US>
+EFFICACY    Antidysuria, alpha1-Adrenergic receptor antagonist
+COMMENT     Drug affecting the renal function and the urinary tract
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04022(146+147+148)  cGMP-PKG signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04C DRUGS USED IN BENIGN PROSTATIC HYPERTROPHY
+                G04CA Alpha-adrenoreceptor antagonists
+                 G04CA02 Tamsulosin
+                  D08560  Tamsulosin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00490  Tamsulosin
+                  D08560  Tamsulosin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08560  Tamsulosin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00490  Tamsulosin
+DBLINKS     CAS: 106133-20-4
+            PubChem: 96025245
+            ChEBI: 9398
+            PDB-CCD: JGX
+            LigandBox: D08560
+            NIKKAJI: J340.699G
+ATOM        28
+            1   C8y C    21.6300  -15.1200
+            2   C1b C    20.4400  -14.4900
+            3   C1c C    19.2500  -15.1200
+            4   N1b N    18.0600  -14.4900
+            5   C1b C    16.8000  -15.1200
+            6   C1b C    15.6100  -14.4900
+            7   O2a O    14.4200  -15.1200
+            8   C8y C    13.1600  -14.4900
+            9   C8x C    11.9700  -15.1200
+            10  C8x C    21.6300  -16.5200
+            11  C8y C    22.8900  -17.2200
+            12  C8y C    24.0100  -16.5200
+            13  C8x C    24.0100  -15.1200
+            14  C8x C    22.8900  -14.4900
+            15  C1a C    19.2500  -16.5200
+            16  C8y C    13.1600  -13.0900
+            17  C8x C    11.9700  -12.3900
+            18  C8x C    10.7800  -13.0900
+            19  C8x C    10.7800  -14.4900
+            20  O2a O    14.4200  -12.3900
+            21  O2a O    25.2700  -17.2200
+            22  C1a C    26.4600  -16.5200
+            23  S4a S    22.8900  -18.6200
+            24  O3c O    24.2200  -18.6200
+            25  N1a N    22.8900  -20.0200
+            26  O3c O    21.4900  -18.6200
+            27  C1b C    15.6100  -13.1600
+            28  C1a C    16.8700  -12.4600
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     1  10 2
+            10   10  11 1
+            11   11  12 2
+            12   12  13 1
+            13   13  14 2
+            14    1  14 1
+            15    3  15 1 #Up
+            16    8  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19   9 2
+            21   16  20 1
+            22   12  21 1
+            23   21  22 1
+            24   11  23 1
+            25   23  24 2
+            26   23  25 1
+            27   23  26 2
+            28   20  27 1
+            29   27  28 1
+///

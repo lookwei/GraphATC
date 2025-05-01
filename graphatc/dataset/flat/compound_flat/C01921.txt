@@ -1,0 +1,108 @@
+ENTRY       C01921                      Compound
+NAME        Glycocholate;
+            Glycocholic acid;
+            3alpha,7alpha,12alpha-Trihydroxy-5beta-cholan-24-oylglycine
+FORMULA     C26H43NO6
+EXACT_MASS  465.309
+MOL_WEIGHT  465.6227
+REACTION    R03718 R05835
+PATHWAY     map00120  Primary bile acid biosynthesis
+            map00121  Secondary bile acid biosynthesis
+            map01100  Metabolic pathways
+            map04976  Bile secretion
+            map04979  Cholesterol metabolism
+MODULE      M00106  Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate
+ENZYME      2.3.1.65        3.5.1.24
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              24-Carbon atoms
+               Cholane derivatives
+                C01921  Glycocholate
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST04 Bile acids and derivatives
+               ST0402 C26 bile acids, alcohols, and derivatives
+                C01921  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholan-24-oylglycine
+              ST05 Steroid conjugates
+               ST0503 Glycine conjugates
+                C01921  Glycocholate
+DBLINKS     CAS: 475-31-0
+            PubChem: 5027
+            ChEBI: 17687 29746
+            LIPIDMAPS: LMST05030001
+            KNApSAcK: C00030410
+            PDB-CCD: GCH
+            3DMET: B04823
+            NIKKAJI: J12.411G
+ATOM        33
+            1   C1y C    24.4292  -21.9965
+            2   C1y C    25.5474  -21.3240
+            3   C1y C    23.2730  -21.3366
+            4   C1y C    24.4292  -23.3097
+            5   C1z C    25.5412  -20.0233
+            6   C1x C    27.8850  -21.3366
+            7   C1z C    22.1481  -21.9965
+            8   C1x C    23.2604  -20.0359
+            9   C1x C    23.2855  -23.9758
+            10  O1a O    25.6103  -23.9883
+            11  C1y C    26.6849  -19.3509
+            12  C1y C    24.4102  -19.3635
+            13  C1a C    25.4911  -18.6699
+            14  C1x C    27.8285  -20.0046
+            15  C1y C    22.1544  -23.3223
+            16  C1x C    20.9982  -21.3554
+            17  C1a C    22.1292  -20.3312
+            18  C1c C    26.6785  -17.5611
+            19  O1a O    24.3676  -18.2389
+            20  C1x C    21.0108  -23.9883
+            21  C1x C    19.8609  -22.0152
+            22  C1b C    27.8600  -16.8699
+            23  C1a C    25.4910  -16.6067
+            24  C1y C    19.8671  -23.3349
+            25  O1a O    18.6858  -24.0197
+            26  C1b C    29.0724  -17.5700
+            27  C5a C    30.2849  -16.8700
+            28  N1b N    31.4973  -17.5700
+            29  O5a O    30.2849  -15.4702
+            30  C1b C    32.7124  -16.8700
+            31  C6a C    33.9249  -17.5700
+            32  O6a O    35.1560  -16.8590
+            33  O6a O    33.9250  -18.9698
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     4  10 1 #Down
+            10    5  11 1
+            11    5  12 1
+            12    5  13 1 #Up
+            13    6  14 1
+            14    7  15 1
+            15    7  16 1
+            16    7  17 1 #Up
+            17   11  18 1
+            18   12  19 1 #Down
+            19   15  20 1
+            20   16  21 1
+            21   18  22 1
+            22   18  23 1 #Down
+            23   20  24 1
+            24   24  25 1 #Down
+            25    8  12 1
+            26    9  15 1
+            27   11  14 1
+            28   21  24 1
+            29   22  26 1
+            30   26  27 1
+            31   27  28 1
+            32   27  29 2
+            33   28  30 1
+            34   30  31 1
+            35   31  32 1
+            36   31  33 2
+///

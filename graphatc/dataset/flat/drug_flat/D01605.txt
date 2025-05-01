@@ -1,0 +1,85 @@
+ENTRY       D01605                      Drug
+NAME        Meticrane (JP18/INN);
+            Arresten (TN)
+FORMULA     C10H13NO4S2
+EXACT_MASS  275.0286
+MOL_WEIGHT  275.3445
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG02992  Thiazide related diuretic
+             DG01690  Sulfonamide diuretic
+              DG02992  Thiazide related diuretic
+REMARK      ATC code: C03BA09
+EFFICACY    Antihypertensive, Diuretic, Na+-Cl- symport inhibitor
+COMMENT     Sulfonamide derivative
+TARGET      SLC12A3 (TSC) [HSA:6559] [KO:K14426]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03B LOW-CEILING DIURETICS, EXCL. THIAZIDES
+                C03BA Sulfonamides, plain
+                 C03BA09 Meticrane
+                  D01605  Meticrane (JP18/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG02992  Thiazide related diuretic
+                D01605  Meticrane
+              DG01690  Sulfonamide diuretic
+               DG02992  Thiazide related diuretic
+                D01605  Meticrane
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A3 (TSC)
+                 D01605  Meticrane (JP18/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01605  Meticrane
+DBLINKS     CAS: 1084-65-7
+            PubChem: 7848668
+            ChEBI: 31839
+            LigandBox: D01605
+            NIKKAJI: J7.246J
+ATOM        17
+            1   C1x C    11.4100  -18.1300
+            2   C1x C    11.4100  -19.5300
+            3   C1x C    12.6224  -20.2300
+            4   C8y C    13.8349  -19.5300
+            5   C8y C    13.8349  -18.1300
+            6   S2x S    12.6224  -17.4300
+            7   C8x C    15.0473  -20.2300
+            8   C8y C    16.2597  -19.5300
+            9   C8y C    16.2597  -18.1300
+            10  C8x C    15.0473  -17.4300
+            11  O3c O    13.6124  -16.4401
+            12  O3c O    11.6325  -16.4401
+            13  S4a S    17.4573  -17.4385
+            14  N1a N    18.6697  -16.7385
+            15  O3c O    16.7471  -16.2079
+            16  O3c O    18.1465  -18.6327
+            17  C1a C    17.4573  -20.2215
+BOND        18
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    5  10 2
+            12    6  11 2
+            13    6  12 2
+            14    9  13 1
+            15   13  14 1
+            16   13  15 2
+            17   13  16 2
+            18    8  17 1
+///

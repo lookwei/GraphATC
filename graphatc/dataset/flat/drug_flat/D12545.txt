@@ -1,0 +1,119 @@
+ENTRY       D12545                      Drug
+NAME        Tinengotinib (USAN/INN)
+FORMULA     C20H19ClN6O
+EXACT_MASS  394.1309
+MOL_WEIGHT  394.8575
+EFFICACY    Antineoplastic
+TARGET      AURKA [HSA:6790] [KO:K11481]
+            AURKB [HSA:9212] [KO:K11479]
+            FGFR1 (CD331) [HSA:2260] [KO:K04362]
+            FGFR2 (CD332) [HSA:2263] [KO:K05093]
+            FGFR3 (CD333) [HSA:2261] [KO:K05094]
+            VEGFR1 (FLT1) [HSA:2321] [KO:K05096]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            VEGFR3 (FLT4) [HSA:2324] [KO:K05097]
+            JAK1 [HSA:3716] [KO:K11217]
+            JAK2 [HSA:3717] [KO:K04447]
+            CSF1R (FMS, CD115) [HSA:1436] [KO:K05090]
+  PATHWAY   hsa04010(1436+2260+2261+2263+2321+2324+3791)  MAPK signaling pathway
+            hsa04151(1436+2260+2261+2263+2321+2324+3716+3717+3791)  PI3K-Akt signaling pathway
+            hsa05200(1436+2260+2261+2263+2324+3716+3717)  Pathways in cancer
+BRITE       Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               AGC group
+                AURKA
+                 D12545  Tinengotinib (USAN/INN)
+                AURKB
+                 D12545  Tinengotinib (USAN/INN)
+              Receptor tyrosine kinases (RTK)
+               FGFR family
+                FGFR1 (CD331)
+                 D12545  Tinengotinib (USAN/INN)
+                FGFR2 (CD332)
+                 D12545  Tinengotinib (USAN/INN)
+                FGFR3 (CD333)
+                 D12545  Tinengotinib (USAN/INN)
+               VEGFR family
+                VEGFR1 (FLT1)
+                 D12545  Tinengotinib (USAN/INN)
+                VEGFR2 (KDR)
+                 D12545  Tinengotinib (USAN/INN)
+                VEGFR3 (FLT4)
+                 D12545  Tinengotinib (USAN/INN)
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D12545  Tinengotinib (USAN/INN)
+                JAK2
+                 D12545  Tinengotinib (USAN/INN)
+             Cytokines and receptors
+              Cytokine receptors
+               CSF and other factor receptors
+                CSF1R (FMS, CD115)
+                 D12545  Tinengotinib (USAN/INN)
+DBLINKS     CAS: 2230490-29-4
+            PDB-CCD: KX0
+ATOM        28
+            1   C8x C    21.1400   -9.1000
+            2   C8y C    21.1400  -10.5000
+            3   C8y C    19.9500  -11.2000
+            4   C8x C    18.6900  -10.5000
+            5   C8x C    18.6900   -9.1000
+            6   C8x C    19.9500   -8.4000
+            7   C8y C    19.9500  -12.6000
+            8   N5x N    21.0700  -13.5100
+            9   C8y C    18.6200  -12.9500
+            10  C8y C    17.9900  -14.2100
+            11  C8y C    21.0700  -14.9100
+            12  N4x N    18.6200  -15.4700
+            13  C8y C    19.9500  -15.7500
+            14  C8y C    22.1900  -15.7500
+            15  N5x N    21.7700  -17.0800
+            16  N4x N    20.3700  -17.0800
+            17  C1a C    23.5200  -15.2600
+            18  C8x C    16.5900  -14.2800
+            19  C8y C    15.8200  -13.1600
+            20  N5x N    16.4500  -11.9000
+            21  C8x C    17.8500  -11.7600
+            22  N1y N    14.4200  -13.2300
+            23  C1x C    13.7900  -14.4900
+            24  C1x C    12.3900  -14.5600
+            25  O2x O    11.6200  -13.3700
+            26  C1x C    12.2500  -12.1100
+            27  C1x C    13.6500  -12.0400
+            28  X   Cl   22.3300  -11.2000
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 1
+            8     9  10 1
+            9     8  11 1
+            10   10  12 1
+            11    7   9 1
+            12   11  13 2
+            13    8   7 2
+            14   12  13 1
+            15   11  14 1
+            16   14  15 2
+            17   15  16 1
+            18   13  16 1
+            19   14  17 1
+            20   10  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24    9  21 2
+            25   19  22 1
+            26   22  23 1
+            27   23  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   22  27 1
+            32    2  28 1
+///

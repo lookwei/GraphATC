@@ -1,0 +1,57 @@
+ENTRY       D03107                      Drug
+NAME        Bexlosteride (USAN/INN)
+FORMULA     C14H16ClNO
+EXACT_MASS  249.092
+MOL_WEIGHT  249.7359
+EFFICACY    Antineoplastic, 5alpha-Reductase inhibitor
+COMMENT     Treatment of prostate cancer
+TARGET      SRD5A1 [HSA:6715] [KO:K12343]
+  PATHWAY   hsa00140(6715)  Steroid hormone biosynthesis
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SRD5A1
+                 D03107  Bexlosteride (USAN/INN)
+DBLINKS     CAS: 148905-78-6
+            PubChem: 17397262
+            LigandBox: D03107
+ATOM        17
+            1   C1y C    21.2100  -14.5600
+            2   C1y C    22.4700  -15.2600
+            3   C1x C    21.2100  -13.0900
+            4   C8y C    23.6600  -14.5600
+            5   C1x C    22.4700  -12.4600
+            6   C8y C    23.6600  -13.1600
+            7   C8x C    24.9200  -15.2600
+            8   C8x C    24.9200  -12.4600
+            9   C8x C    26.1100  -14.5600
+            10  C8y C    26.1100  -13.1600
+            11  X   Cl   27.3000  -12.4600
+            12  N1y N    20.0200  -15.2600
+            13  C5x C    20.0200  -16.6600
+            14  C1x C    21.2800  -17.3600
+            15  C1x C    22.4700  -16.6600
+            16  C1a C    18.7600  -14.6300
+            17  O5x O    18.8300  -17.4300
+BOND        19
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 2
+            6     4   7 1
+            7     6   8 1
+            8     7   9 2
+            9     8  10 2
+            10    5   6 1
+            11    9  10 1
+            12   10  11 1
+            13    1  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17    2  15 1
+            18   12  16 1
+            19   13  17 2
+///

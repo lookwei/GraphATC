@@ -1,0 +1,68 @@
+ENTRY       D08869                      Drug
+NAME        Begacestat (USAN/INN)
+FORMULA     C9H8ClF6NO3S2
+EXACT_MASS  390.9538
+MOL_WEIGHT  391.7381
+EFFICACY    Dementia therapeutic agent, gamma-Secretase inhibitor
+COMMENT     Treatment of Alzheimer's disease
+TARGET      PSEN1/PSENEN/NCSTN/APH1A [HSA:5663 55851 23385 51107] [KO:K04505 K06170 K06171 K06172]
+  PATHWAY   hsa04330(23385+51107+55851+5663)  Notch signaling pathway
+            hsa04722(5663)  Neurotrophin signaling pathway
+            hsa05010(23385+51107+55851+5663)  Alzheimer disease
+STR_MAP     map07056  Agents for Alzheimer-type dementia
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Aspartic peptidases
+                PSEN1/PSENEN/NCSTN/APH1A
+                 D08869  Begacestat (USAN/INN)
+DBLINKS     CAS: 769169-27-9
+            PubChem: 96025552
+            LigandBox: D08869
+ATOM        22
+            1   C8y C    18.1515  -15.1169
+            2   C8x C    18.6100  -16.4495
+            3   C8x C    20.0192  -16.4250
+            4   C8y C    20.4313  -15.0774
+            5   S2x S    19.2771  -14.2689
+            6   X   Cl   16.8136  -14.7074
+            7   S4a S    21.6405  -14.4123
+            8   N1b N    22.8523  -15.1120
+            9   C1c C    24.0641  -14.4123
+            10  C1c C    25.2758  -15.1120
+            11  O3c O    20.7211  -13.3530
+            12  O3c O    22.3401  -13.2006
+            13  C1b C    24.0641  -13.0131
+            14  O1a O    25.0536  -12.0237
+            15  C1d C    26.4728  -14.4208
+            16  C1d C    25.2759  -16.5111
+            17  X   F    27.6846  -13.7212
+            18  X   F    25.7630  -13.1909
+            19  X   F    27.1616  -15.6144
+            20  X   F    25.2759  -17.9104
+            21  X   F    26.6554  -16.5110
+            22  X   F    23.8569  -16.5111
+BOND        22
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    7  11 2
+            12    7  12 2
+            13    9  13 1 #Down
+            14   13  14 1
+            15   10  15 1
+            16   10  16 1
+            17   15  17 1
+            18   15  18 1
+            19   15  19 1
+            20   16  20 1
+            21   16  21 1
+            22   16  22 1
+///

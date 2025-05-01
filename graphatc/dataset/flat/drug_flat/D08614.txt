@@ -1,0 +1,86 @@
+ENTRY       D08614                      Drug
+NAME        Tolazoline (INN);
+            Tolazine [veterinary] (TN)
+FORMULA     C10H12N2
+EXACT_MASS  160.1
+MOL_WEIGHT  160.2157
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+REMARK      Same as: C07147
+            ATC code: C04AB02 M02AX02
+            Chemical structure group: DG00281
+EFFICACY    Vasodilator (peripheral), alpha-Adrenergic receptor antagonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AB Imidazoline derivatives
+                 C04AB02 Tolazoline
+                  D08614  Tolazoline (INN)
+             M MUSCULO-SKELETAL SYSTEM
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AX Other topical products for joint and muscular pain
+                 M02AX02 Tolazoline
+                  D08614  Tolazoline (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG00281  Tolazoline
+                 D08614  Tolazoline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08614  Tolazoline (INN)
+                ADRA2
+                 D08614  Tolazoline (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG00281  Tolazoline
+DBLINKS     CAS: 59-98-3
+            PubChem: 96025298
+            ChEBI: 28502
+            LigandBox: D08614
+            NIKKAJI: J4.796A
+ATOM        12
+            1   C8x C    21.1400  -17.9900
+            2   C8x C    21.1400  -19.3900
+            3   C8x C    19.9500  -20.0900
+            4   C8x C    18.6900  -19.3900
+            5   C8x C    18.6900  -17.9900
+            6   C8y C    19.9500  -17.2900
+            7   C1b C    19.9500  -15.8900
+            8   C2y C    21.1400  -15.1900
+            9   N2x N    21.1400  -13.7900
+            10  C1x C    22.4700  -13.3700
+            11  C1x C    23.3100  -14.4900
+            12  N1x N    22.4700  -15.6100
+BOND        13
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    8  12 1
+///

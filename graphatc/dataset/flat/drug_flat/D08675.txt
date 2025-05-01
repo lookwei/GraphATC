@@ -1,0 +1,193 @@
+ENTRY       D08675                      Drug
+NAME        Vinblastine (INN);
+            Vinblastina (TN)
+FORMULA     C46H58N4O9
+EXACT_MASS  810.4204
+MOL_WEIGHT  810.9741
+SOURCE      Catharanthus roseus [TAX:4058]
+CLASS       Antineoplastic
+             DG01965  Vinca alkaloid antineoplastic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07201
+            ATC code: L01CA01
+            Chemical structure group: DG00689
+            Product (DG00689): D01068<JP/US>
+EFFICACY    Antineoplastic, Tubulin polymerization inhibitor
+COMMENT     Vinca alkaloid
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+            map07046  Immunosuppressive agents
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CA Vinca alkaloids and analogues
+                 L01CA01 Vinblastine
+                  D08675  Vinblastine (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00689  Vinblastine
+                D08675  Vinblastine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00689  Vinblastine
+                 D08675  Vinblastine
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D08675  Vinblastine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08675
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00689  Vinblastine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00689  Vinblastine
+DBLINKS     CAS: 865-21-4
+            PubChem: 96025358
+            ChEBI: 27375
+            LigandBox: D08675
+            NIKKAJI: J10.131A
+ATOM        59
+            1   C1z C    19.1800  -16.6600
+            2   C8y C    18.0600  -15.8900
+            3   C1x C    20.4400  -15.8900
+            4   C7a C    18.8300  -17.9200
+            5   C8y C    18.0600  -14.4900
+            6   N4x N    16.9400  -16.5200
+            7   C1y C    20.4400  -14.6300
+            8   O7a O    17.3600  -18.4100
+            9   O6a O    19.6700  -18.9700
+            10  C8y C    15.7500  -14.4900
+            11  C1x C    17.2900  -13.3700
+            12  C8y C    15.7500  -15.8900
+            13  C1x C    19.3200  -14.0000
+            14  C1a C    16.5200  -19.8100
+            15  C8x C    14.5600  -13.8600
+            16  C1x C    18.0600  -12.3900
+            17  C8x C    14.5600  -16.5200
+            18  N1y N    19.3200  -12.7400
+            19  C8x C    13.5100  -14.4900
+            20  C8x C    13.5100  -15.8900
+            21  C1x C    20.4400  -11.9700
+            22  C1z C    21.5600  -12.6000
+            23  C1x C    21.5600  -13.7900
+            24  O1a O    22.8200  -11.9000
+            25  C1b C    22.7500  -13.3000
+            26  C1a C    22.7500  -14.7000
+            27  C1z C    26.7400  -18.8300
+            28  C1y C    27.8600  -18.1300
+            29  C1y C    26.7400  -20.0900
+            30  C1x C    25.9000  -17.7100
+            31  C1z C    28.9800  -18.8300
+            32  N1y N    27.8600  -16.8000
+            33  C1z C    27.8600  -20.7900
+            34  N1y N    25.6200  -20.7900
+            35  C8y C    24.5000  -20.0900
+            36  C1x C    26.5300  -16.8000
+            37  C1y C    28.9800  -20.0900
+            38  C2x C    30.1700  -18.1300
+            39  C1b C    30.1000  -19.4600
+            40  C1x C    28.9800  -16.1700
+            41  C7a C    28.7700  -21.9100
+            42  O1a O    27.3700  -22.6800
+            43  C1a C    25.6200  -22.1200
+            44  O7a O    32.3400  -21.4200
+            45  C2x C    30.1700  -16.8000
+            46  C1a C    31.2200  -18.8300
+            47  O7a O    28.7700  -23.2400
+            48  O6a O    30.1000  -21.4200
+            49  C1a C    29.9600  -23.9400
+            50  C1a C    34.7900  -21.4200
+            51  C7a C    33.5300  -20.7200
+            52  O6a O    33.5300  -19.3200
+            53  C8y C    24.5000  -18.8300
+            54  C8x C    23.3800  -18.2000
+            55  C8x C    23.3800  -20.7900
+            56  C8y C    22.2600  -18.8300
+            57  C8y C    22.2600  -20.1600
+            58  O2a O    21.1400  -20.7900
+            59  C1a C    20.0200  -20.1600
+BOND        67
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1 #Down
+            13    7  23 1
+            14    8  14 1
+            15   10  15 1
+            16   11  16 1
+            17   12  17 1
+            18   18  13 1 #Down
+            19   15  19 2
+            20   17  20 2
+            21   18  21 1
+            22   10  12 2
+            23   16  18 1
+            24   22  21 1
+            25   19  20 1
+            26   22  23 1
+            27   22  24 1 #Up
+            28   22  25 1 #Down
+            29   25  26 1
+            30   27  28 1
+            31   27  29 1
+            32   27  30 1 #Up
+            33   28  31 1
+            34   28  32 1
+            35   29  33 1
+            36   29  34 1
+            37   30  36 1
+            38   31  37 1
+            39   31  38 1
+            40   31  39 1 #Down
+            41   32  40 1
+            42   33  41 1 #Down
+            43   33  42 1 #Up
+            44   34  43 1
+            45   37  44 1 #Up
+            46   38  45 2
+            47   39  46 1
+            48   41  47 1
+            49   32  36 1
+            50   33  37 1
+            51   34  35 1
+            52   40  45 1
+            53   41  48 2
+            54   47  49 1
+            55   50  51 1
+            56   44  51 1
+            57   51  52 2
+            58   53  54 1
+            59   35  55 1
+            60   54  56 2
+            61   55  57 2
+            62   57  58 1
+            63   58  59 1
+            64   56  57 1
+            65   53  27 1
+            66   53  35 2
+            67    1  56 1 #Down
+///

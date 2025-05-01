@@ -1,0 +1,69 @@
+ENTRY       D08774            Mixture   Drug
+NAME        Amoxicillin hydrate, clarithromycin and lansoprazole;
+            Lansap (TN);
+            Prevpac (TN)
+PRODUCT
+  GENERIC   LANSOPRAZOLE, AMOXICILLIN, CLARITHROMYCIN (Rising Pharma Holdings)
+COMPONENT   Amoxicillin hydrate [DR:D00229], Clarithromycin [DR:D00276], Lansoprazole [DR:D00355]
+CLASS       Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+REMARK      ATC code: A02BD07 J01RA01
+            Product: D08774<US>
+EFFICACY    Antibacterial
+  DISEASE   Helicobacter pylori infection [DS:H00320]
+COMMENT     Lansoprazole is primarily metabolized by CYP2C19 and CYP3A4.
+            Clarithromycin is an inhibitor and a substrate of CYP3A4, and it is an inhibitor of P-gp.
+METABOLISM  Enzyme: CYP2C19 [HSA:1557], CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+            Transporter inhibition: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BD Combinations for eradication of Helicobacter pylori
+                 A02BD07 Lansoprazole, amoxicillin and clarithromycin
+                  D08774  Amoxicillin hydrate, clarithromycin and lansoprazole &lt;US&gt;
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01R COMBINATIONS OF ANTIBACTERIALS
+                J01RA Combinations of antibacterials
+                 J01RA01 Penicillins, combinations with other antibacterials
+                  D08774  Amoxicillin hydrate, clarithromycin and lansoprazole &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Gastrointestinal Agents, Other
+               Lansoprazole/ Amoxicillin/ Clarithromycin
+                D08774  Amoxicillin hydrate, clarithromycin and lansoprazole
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D08774  Amoxicillin hydrate, clarithromycin and lansoprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D08774  Amoxicillin hydrate, clarithromycin and lansoprazole
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                D08774  Amoxicillin hydrate, clarithromycin and lansoprazole
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               D08774  Amoxicillin hydrate, clarithromycin and lansoprazole
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D08774  Amoxicillin hydrate, clarithromycin and lansoprazole &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08774
+             Drug transporters
+              D08774
+DBLINKS     PubChem: 96025457
+///

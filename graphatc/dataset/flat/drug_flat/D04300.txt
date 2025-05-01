@@ -1,0 +1,131 @@
+ENTRY       D04300                      Drug
+NAME        Ganaxolone (USAN/INN);
+            Ztalmy (TN)
+PRODUCT     ZTALMY (Marinus Pharmaceuticals)
+FORMULA     C22H36O2
+EXACT_MASS  332.2715
+MOL_WEIGHT  332.52
+CLASS       Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01639  CYP2C19 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+REMARK      ATC code: N03AX27
+            Product: D04300<US>
+EFFICACY    Antiepileptic, Antimigraine
+  DISEASE   Seizures associated with cyclin-dependent kinase-like 5 deficiency disorder [DS:H01819]
+COMMENT     Allopregnanolone [CPD:C15484] analog
+            Treatment of epilepsy and migraine
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP3A5 [HSA:1577], CYP2B6 [HSA:1555], CYP2C19 [HSA:1557], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AX Other antiepileptics
+                 N03AX27 Ganaxolone
+                  D04300  Ganaxolone (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Gamma-aminobutyric Acid (GABA) Augmenting Agents
+               GABA Agents, Other
+                Ganaxolone
+                 D04300  Ganaxolone (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               D04300  Ganaxolone
+              DG01639  CYP2C19 substrate
+               D04300  Ganaxolone
+              DG01644  CYP2D6 substrate
+               D04300  Ganaxolone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D04300  Ganaxolone
+              DG02925  CYP3A5 substrate
+               D04300  Ganaxolone
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D04300  Ganaxolone (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D04300
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D04300
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D04300
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04300
+            Pharmacogenomic biomarkers [br08341.html]
+             Germline mutations in genetic disorder treatments
+              D04300
+DBLINKS     CAS: 38398-32-2
+            PubChem: 47206230
+            ChEBI: 177658
+            LigandBox: D04300
+            NIKKAJI: J805.191G
+ATOM        24
+            1   C1x C    38.1743  -26.7423
+            2   C1z C    38.1743  -28.1094
+            3   C1x C    39.3363  -28.7930
+            4   C1y C    40.5668  -28.1094
+            5   C1z C    40.5668  -26.7423
+            6   C1x C    39.3363  -26.0587
+            7   C1x C    41.7288  -28.7930
+            8   C1x C    42.8909  -28.1094
+            9   C1y C    42.8909  -26.7423
+            10  C1y C    41.7288  -26.0587
+            11  C1y C    44.1213  -26.0587
+            12  C1z C    44.1213  -24.6916
+            13  C1x C    42.8909  -24.0080
+            14  C1x C    41.7288  -24.6916
+            15  C1a C    40.5668  -25.3751
+            16  C1a C    44.1213  -23.3244
+            17  C1a C    36.8071  -28.1094
+            18  O1a O    37.8325  -29.4082
+            19  C1x C    46.5138  -26.0587
+            20  C1x C    46.5138  -24.6916
+            21  C1y C    45.2834  -24.0080
+            22  C5a C    45.2666  -22.6410
+            23  C1a C    44.0870  -21.9792
+            24  O5a O    46.4544  -21.9354
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   12  13 1
+            14   13  14 1
+            15   10  14 1
+            16    5  15 1 #Up
+            17   12  16 1 #Up
+            18    2  17 1 #Up
+            19    2  18 1 #Down
+            20   11  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1 #Up
+            24   22  23 1
+            25   22  24 2
+            26   21  12 1
+            27   12  11 1
+///

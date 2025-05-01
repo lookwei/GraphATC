@@ -1,0 +1,55 @@
+ENTRY       C00489                      Compound
+NAME        Glutarate;
+            Glutaric acid;
+            Pentanedioic acid;
+            1,3-Propanedicarboxylic acid
+FORMULA     C5H8O4
+EXACT_MASS  132.0423
+MOL_WEIGHT  132.1146
+REACTION    R02401 R02402 R07402 R10982 R12216 R13035
+PATHWAY     map00071  Fatty acid degradation
+            map00310  Lysine degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+MODULE      M00956  Lysine degradation, bacteria, L-lysine => succinate
+            M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+ENZYME      1.2.1.20        1.2.1.-         1.14.11.64      2.8.3.-         
+            3.5.1.93        6.2.1.6
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Dicarboxylic acids
+                C00489  Glutarate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0117 Dicarboxylic acids
+                C00489  Pentanedioic acid
+DBLINKS     CAS: 110-94-1
+            PubChem: 3772
+            ChEBI: 17859
+            LIPIDMAPS: LMFA01170046
+            KNApSAcK: C00001184
+            PDB-CCD: GUA
+            3DMET: B01263
+            NIKKAJI: J40.077G
+ATOM        9
+            1   C6a C    28.5600  -16.8000
+            2   C1b C    27.3700  -17.5000
+            3   O6a O    28.5600  -15.2600
+            4   O6a O    29.6800  -17.5000
+            5   C1b C    26.1800  -16.8000
+            6   C1b C    25.0600  -17.5000
+            7   C6a C    23.8700  -16.8000
+            8   O6a O    23.8700  -15.2600
+            9   O6a O    22.6800  -17.5000
+BOND        8
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 2
+            8     7   9 1
+///

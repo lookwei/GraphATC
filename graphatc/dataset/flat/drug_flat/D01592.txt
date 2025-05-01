@@ -1,0 +1,106 @@
+ENTRY       D01592                      Drug
+NAME        Betahistine mesilate (JP18);
+            Suzutolon (TN)
+FORMULA     (CH4SO3)2. C8H12N2
+EXACT_MASS  328.0763
+MOL_WEIGHT  328.4056
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01556  Histamine receptor H3 antagonist
+REMARK      Therapeutic category: 1339
+            ATC code: N07CA01
+            Chemical structure group: DG01004
+            Product (DG01004): D01592<JP>
+EFFICACY    Antivertigo, Vasodilator, Antihistaminic
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+            HRH3 [HSA:11255] [KO:K04151]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(11255+3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N07 OTHER NERVOUS SYSTEM DRUGS
+               N07C ANTIVERTIGO PREPARATIONS
+                N07CA Antivertigo preparations
+                 N07CA01 Betahistine
+                  D01592  Betahistine mesilate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               133  Vertigo agents
+                1339  Others
+                 D01592  Betahistine mesilate (JP18)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01556  Histamine receptor H3 antagonist
+                DG01004  Betahistine
+                 D01592  Betahistine mesilate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01592  Betahistine mesilate (JP18) &lt;JP&gt;
+                HRH3
+                 D01592  Betahistine mesilate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01592  Betahistine mesilate
+              D01592  Betahistine mesilate tablets
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01556  Histamine receptor H3 antagonist
+                DG01004  Betahistine
+DBLINKS     CAS: 54856-23-4
+            PubChem: 7848655
+            ChEBI: 31274
+            LigandBox: D01592
+            NIKKAJI: J257.163C J327.458F
+ATOM        20
+            1   S4a S    31.4297  -18.3999
+            2   O1d O    31.4368  -16.9981
+            3   O1d O    31.4368  -19.8017
+            4   C1a C    30.0279  -18.3999
+            5   O1d O    32.8316  -18.3999
+            6   C8x C    27.0676  -18.9723
+            7   C8x C    27.0676  -17.5705
+            8   N5x N    25.8507  -16.8695
+            9   C8y C    24.6409  -17.5705
+            10  C8x C    24.6409  -18.9723
+            11  C8x C    25.8507  -19.6732
+            12  C1b C    23.4356  -16.8764
+            13  C1b C    22.2250  -17.5774
+            14  N1b N    21.0143  -16.8836
+            15  C1a C    19.8036  -17.5846
+            16  S4a S    31.4297  -18.3999
+            17  C1a C    30.0279  -18.3999
+            18  O1d O    32.8316  -18.3999
+            19  O1d O    31.4368  -16.9981
+            20  O1d O    31.4368  -19.8017
+BOND        18
+            1     6   7 2
+            2     7   8 1
+            3     8   9 2
+            4     9  10 1
+            5    10  11 2
+            6    11   6 1
+            7     9  12 1
+            8    12  13 1
+            9    13  14 1
+            10   14  15 1
+            11    1   4 1
+            12    1   5 1
+            13    1   2 2
+            14    1   3 2
+            15   16  17 1
+            16   16  18 1
+            17   16  19 2
+            18   16  20 2
+BRACKET     1    28.3500  -20.0900   28.3500  -16.3800
+            1    34.2300  -16.3800   34.2300  -20.0900
+            1  2
+  ORIGINAL  1    1   4   5   2   3
+  REPEAT    1   16  17  18  19  20
+///

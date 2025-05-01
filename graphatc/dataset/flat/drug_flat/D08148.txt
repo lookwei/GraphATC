@@ -1,0 +1,131 @@
+ENTRY       D08148                      Drug
+NAME        Loxapine hydrochloride;
+            Desconex (TN)
+FORMULA     C18H18ClN3O. HCl
+EXACT_MASS  363.0905
+MOL_WEIGHT  364.269
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N05AH01
+            Chemical structure group: DG00897
+            Product (DG00897): D02340<US> D00794<US>
+EFFICACY    Antipsychotic, Neuroleptic, Dopamine D2 receptor antagonist, Serotonin receptor antagonist
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04080(1813+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP1A2 [HSA:1544], CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AH Diazepines, oxazepines, thiazepines and oxepines
+                 N05AH01 Loxapine
+                  D08148  Loxapine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00897  Loxapine
+                 D08148  Loxapine hydrochloride
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00897  Loxapine
+                D08148  Loxapine hydrochloride
+              DG01644  CYP2D6 substrate
+               DG00897  Loxapine
+                D08148  Loxapine hydrochloride
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00897  Loxapine
+                 D08148  Loxapine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D08148  Loxapine hydrochloride
+               Serotonin
+                HTR2A
+                 D08148  Loxapine hydrochloride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08148
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00897  Loxapine
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00897  Loxapine
+              DG01644  CYP2D6 substrate
+               DG00897  Loxapine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00897  Loxapine
+DBLINKS     CAS: 54810-23-0
+            PubChem: 96024838
+            LigandBox: D08148
+            NIKKAJI: J1.592.760G
+ATOM        24
+            1   C2y C    24.0800  -17.2200
+            2   C8y C    23.2400  -16.1000
+            3   C8y C    23.5900  -14.7700
+            4   O2x O    24.8500  -14.2100
+            5   N2x N    25.4800  -17.2200
+            6   C8y C    26.0400  -14.7700
+            7   C8y C    26.3900  -16.1700
+            8   C8x C    22.5400  -13.7900
+            9   C8x C    21.2100  -14.2100
+            10  C8y C    20.8600  -15.5400
+            11  C8x C    21.9100  -16.5200
+            12  C8x C    27.7200  -16.5900
+            13  C8x C    28.7700  -15.6800
+            14  C8x C    28.4200  -14.2800
+            15  C8x C    27.0900  -13.8600
+            16  X   Cl   19.5300  -15.9600
+            17  N1y N    23.4500  -18.4800
+            18  C1x C    22.0500  -18.4800
+            19  C1x C    21.3500  -19.6700
+            20  N1y N    22.0500  -20.9300
+            21  C1x C    23.4500  -20.9300
+            22  C1x C    24.1500  -19.6700
+            23  C1a C    21.3500  -22.1200
+            24  X   Cl   30.1700  -19.8800
+BOND        26
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18   10  16 1
+            19    1  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   17  22 1
+            26   20  23 1
+///

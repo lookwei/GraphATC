@@ -1,0 +1,134 @@
+ENTRY       D04219                      Drug
+NAME        Fluocortolone caproate (USAN)
+FORMULA     C28H39FO5
+EXACT_MASS  474.2782
+MOL_WEIGHT  474.6047
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: C05AA08 D07AC05 D07XC05 H02AB03
+            Chemical structure group: DG00295
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+COMMENT     Prednisolone [DR:D00427] derivative
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C05 VASOPROTECTIVES
+               C05A AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE
+                C05AA Corticosteroids
+                 C05AA08 Fluocortolone
+                  D04219  Fluocortolone caproate (USAN)
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AC Corticosteroids, potent (group III)
+                 D07AC05 Fluocortolone
+                  D04219  Fluocortolone caproate (USAN)
+               D07X CORTICOSTEROIDS, OTHER COMBINATIONS
+                D07XC Corticosteroids, potent, other combinations
+                 D07XC05 Fluocortolone
+                  D04219  Fluocortolone caproate (USAN)
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB03 Fluocortolone
+                  D04219  Fluocortolone caproate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00295  Fluocortolone
+                 D04219  Fluocortolone caproate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D04219  Fluocortolone caproate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00295  Fluocortolone
+DBLINKS     CAS: 303-40-2
+            PubChem: 47206165
+            ChEBI: 177866
+            LigandBox: D04219
+            NIKKAJI: J5.488G
+ATOM        34
+            1   C2x C     6.7900  -20.3000
+            2   C5x C     6.7900  -21.7000
+            3   C2x C     7.9800  -22.4000
+            4   C2y C     9.1700  -21.7000
+            5   C1z C     9.1700  -20.3000
+            6   C2x C     7.9800  -19.6700
+            7   C1y C    10.3600  -22.4000
+            8   C1x C    11.6200  -21.7000
+            9   C1y C    11.6200  -20.3000
+            10  C1y C    10.3600  -19.6700
+            11  C1y C    12.8100  -19.6700
+            12  C1z C    12.8100  -18.2700
+            13  C1x C    11.6200  -17.5700
+            14  C1y C    10.3600  -18.2700
+            15  O5x O     5.6000  -22.4000
+            16  C1a C     9.1700  -18.9700
+            17  O1a O     9.1700  -17.5700
+            18  C1a C    12.8100  -16.8700
+            19  X   F    10.3600  -23.8000
+            20  C1x C    15.2349  -19.6700
+            21  C1y C    15.2349  -18.2700
+            22  C1y C    14.0224  -17.5700
+            23  C1a C    16.4660  -17.5590
+            24  C5a C    14.0224  -16.1702
+            25  O5a O    12.7932  -15.4603
+            26  C1b C    15.2180  -15.4798
+            27  O7a O    16.4052  -16.1652
+            28  C7a C    17.5966  -15.4772
+            29  C1b C    18.7859  -16.1639
+            30  O6a O    17.5967  -14.0703
+            31  C1b C    19.9762  -15.4766
+            32  C1b C    21.1661  -16.1636
+            33  C1b C    22.3561  -15.4764
+            34  C1a C    23.5462  -16.1635
+BOND        37
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18    5  16 1 #Up
+            19   14  17 1 #Up
+            20   12  18 1 #Up
+            21    7  19 1 #Down
+            22   11  20 1
+            23   20  21 1
+            24   21  22 1
+            25   12  22 1
+            26   21  23 1 #Down
+            27   22  24 1 #Up
+            28   24  25 2
+            29   24  26 1
+            30   26  27 1
+            31   27  28 1
+            32   28  29 1
+            33   28  30 2
+            34   29  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+///

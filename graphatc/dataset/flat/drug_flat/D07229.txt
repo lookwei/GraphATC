@@ -1,0 +1,175 @@
+ENTRY       D07229                      Drug
+NAME        Carbetocin (USAN/INN/BAN);
+            Duratocin (TN)
+FORMULA     C45H69N11O12S
+EXACT_MASS  987.4848
+MOL_WEIGHT  988.1609
+REMARK      Same as: C18365
+            ATC code: H01BB03
+EFFICACY    Oxytocic, Oxytocin receptor agonist
+COMMENT     Oxytocin [CPD:C00746] derivative
+            Treatment of Prader-Willi syndrome; Prevention of post-partum hemorrhage due to uterine atony
+TARGET      OXTR [HSA:5021] [KO:K04229]
+  PATHWAY   hsa04080(5021)  Neuroactive ligand-receptor interaction
+            hsa04921(5021)  Oxytocin signaling pathway
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H01 PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES
+               H01B POSTERIOR PITUITARY LOBE HORMONES
+                H01BB Oxytocin and analogues
+                 H01BB03 Carbetocin
+                  D07229  Carbetocin (USAN/INN/BAN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Oxytocin
+                OXTR
+                 D07229  Carbetocin (USAN/INN/BAN)
+DBLINKS     CAS: 37025-55-1
+            PubChem: 51091567
+            ChEBI: 59204
+            LigandBox: D07229
+            NIKKAJI: J268.177C
+ATOM        69
+            1   C8x C    11.1400  -10.4363
+            2   C8y C    11.1400  -11.8368
+            3   C8x C    12.3304  -12.5371
+            4   C8x C    13.5909  -11.8368
+            5   C8y C    13.5909  -10.4363
+            6   C8x C    12.3304   -9.7360
+            7   O2a O     9.9495  -12.5371
+            8   C1b C    14.7813   -9.7360
+            9   C1y C    16.5320  -10.4363
+            10  C5x C    17.7225   -9.7360
+            11  N1x N    16.5320  -11.8368
+            12  N1x N    18.9129  -10.4363
+            13  O5x O    17.7225   -8.3355
+            14  C5x C    15.3415  -12.5371
+            15  C1x C    15.3415  -13.9376
+            16  O5x O    14.1511  -11.8368
+            17  C1x C    16.5320  -14.6379
+            18  C1x C    16.5320  -16.0384
+            19  S2x S    17.7225  -16.7387
+            20  C1x C    18.9129  -16.0384
+            21  C1y C    20.1034  -16.7387
+            22  N1x N    21.2938  -16.0384
+            23  C5a C    20.1034  -18.1392
+            24  O5a O    18.9129  -18.8395
+            25  N1y N    21.2938  -18.8395
+            26  C1y C    21.2938  -20.2400
+            27  C1x C    22.6243  -20.6602
+            28  C1x C    23.4645  -19.5397
+            29  C1x C    22.6243  -18.4193
+            30  C5a C    20.1734  -21.0803
+            31  N1b N    18.9129  -20.5201
+            32  O5a O    20.1734  -22.4809
+            33  C5a C    16.5320  -20.5201
+            34  C1c C    17.7225  -21.2204
+            35  N1b N    15.3415  -21.2204
+            36  O5a O    16.5320  -19.1196
+            37  C1b C    14.1511  -20.5201
+            38  C5a C    12.9606  -21.2204
+            39  N1a N    11.7702  -20.5201
+            40  O5a O    12.9606  -22.6209
+            41  C5x C    21.2938  -14.6379
+            42  O5x O    20.1034  -13.9376
+            43  C1y C    22.4843  -13.9376
+            44  N1x N    22.4843  -12.5371
+            45  C5x C    23.6746  -11.8368
+            46  O5x O    24.9351  -12.5371
+            47  C1y C    23.6746  -10.4363
+            48  N1x N    22.4843   -9.7360
+            49  C5x C    21.2938  -10.4363
+            50  C1y C    20.1034   -9.7360
+            51  O5x O    21.2938  -11.8368
+            52  C1c C    20.1034   -8.3355
+            53  C1b C    21.2938   -7.6352
+            54  C1a C    22.4843   -8.3355
+            55  C1a C    18.9129   -7.6352
+            56  C1b C    24.8651   -9.7360
+            57  C1b C    26.1255  -10.4363
+            58  C5a C    27.3160   -9.6660
+            59  N1a N    28.5064  -10.3663
+            60  O5a O    27.3160   -8.2655
+            61  C1b C    17.7225  -22.6209
+            62  C1c C    16.5320  -23.3211
+            63  C1a C    15.3415  -22.6209
+            64  C1a C    16.5320  -24.7216
+            65  C1a C     8.7309  -11.8467
+            66  C1b C    23.6999  -14.6330
+            67  C5a C    23.7057  -16.0381
+            68  N1a N    24.8980  -16.7202
+            69  O5a O    22.4727  -16.7571
+BOND        71
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     9   8 1 #Up
+            10    9  10 1
+            11    9  11 1
+            12   10  12 1
+            13   10  13 2
+            14   11  14 1
+            15   14  15 1
+            16   14  16 2
+            17   15  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+            23   21  23 1 #Down
+            24   23  24 2
+            25   23  25 1
+            26   25  26 1
+            27   26  27 1 #Up
+            28   27  28 1
+            29   28  29 1
+            30   25  29 1
+            31   26  30 1
+            32   30  31 1
+            33   30  32 2
+            34   33  34 1
+            35   34  31 1
+            36   33  35 1
+            37   33  36 2
+            38   35  37 1
+            39   37  38 1
+            40   38  39 1
+            41   38  40 2
+            42   22  41 1
+            43   41  42 2
+            44   41  43 1
+            45   43  44 1
+            46   44  45 1
+            47   45  46 2
+            48   45  47 1
+            49   47  48 1
+            50   48  49 1
+            51   50  49 1 #Up
+            52   50  12 1
+            53   49  51 2
+            54   50  52 1
+            55   52  53 1
+            56   53  54 1
+            57   52  55 1 #Up
+            58   47  56 1 #Up
+            59   56  57 1
+            60   57  58 1
+            61   58  59 1
+            62   58  60 2
+            63   34  61 1 #Up
+            64   61  62 1
+            65   62  63 1
+            66   62  64 1
+            67    7  65 1
+            68   43  66 1 #Up
+            69   66  67 1
+            70   67  68 1
+            71   67  69 2
+///

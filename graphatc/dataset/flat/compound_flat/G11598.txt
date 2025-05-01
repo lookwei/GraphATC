@@ -1,0 +1,28 @@
+ENTRY       G11598                      Glycan
+NAME        Glucomannan
+COMPOSITION (Glc)3 (Man)1 (*)2
+REMARK      Same as: C01810
+COMMENT     The ratio of Man:Glc is 2:1 ~ 3:1.
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G11598  Glucomannan
+DBLINKS     GlyTouCan: G40777WT
+NODE        6
+            1   *          19     0
+            2   Glc        12     0
+            3   Glc         4     0
+            4   Man        -4     0
+            5   Glc       -12     0
+            6   *         -19     0
+EDGE        5
+            1     2:b1    1    
+            2     3:b1    2:4  
+            3     4:b1    3:4  
+            4     5:b1    4:4  
+            5     6       5:4  
+BRACKET     1 -15.3   2.0 -15.3  -2.0
+            1  15.7  -2.0  15.7   2.0
+            1 n
+///

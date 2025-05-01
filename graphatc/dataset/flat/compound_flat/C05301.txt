@@ -1,0 +1,76 @@
+ENTRY       C05301                      Compound
+NAME        2-Hydroxyestradiol;
+            2-Hydroxyestradiol-17beta;
+            2-OH-Estradiol
+FORMULA     C18H24O3
+EXACT_MASS  288.1725
+MOL_WEIGHT  288.3814
+REACTION    R03088 R03090 R04764
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map04913  Ovarian steroidogenesis
+            map05208  Chemical carcinogenesis - reactive oxygen species
+ENZYME      1.14.14.1       2.1.1.6
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              18-Carbon atoms
+               Estrane derivatives
+                C05301  2-Hydroxyestradiol
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST02 Steroids
+               ST0201 C18 steroids (estrogens) and derivatives
+                C05301  2-Hydroxyestradiol-17beta
+DBLINKS     CAS: 362-05-0
+            PubChem: 7685
+            ChEBI: 28744
+            LIPIDMAPS: LMST02010027
+            PDB-CCD: ECS
+            NIKKAJI: J108.138A
+ATOM        21
+            1   C1y C    31.1877  -17.4067
+            2   C1y C    30.0374  -18.0673
+            3   C1z C    31.1933  -16.0856
+            4   C1x C    33.5391  -17.4351
+            5   C1y C    28.8928  -17.3895
+            6   C1x C    30.0374  -19.3939
+            7   C1x C    30.0602  -15.4136
+            8   C1y C    32.3492  -15.4364
+            9   C1a C    31.1877  -14.6225
+            10  C1x C    33.5582  -16.1140
+            11  C8y C    27.7369  -18.0559
+            12  C1x C    28.9042  -16.0684
+            13  C1x C    28.8814  -20.0488
+            14  O1a O    32.3436  -13.8314
+            15  C8y C    27.7313  -19.3825
+            16  C8x C    26.5867  -17.3895
+            17  C8x C    26.5867  -20.0430
+            18  C8y C    25.3740  -18.0559
+            19  C8y C    25.3664  -19.3825
+            20  O1a O    24.2804  -20.0430
+            21  O1a O    24.2064  -17.4012
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    8  14 1 #Up
+            14   11  15 2
+            15   11  16 1
+            16   15  17 1
+            17   16  18 2
+            18   17  19 2
+            19   19  20 1
+            20    7  12 1
+            21    8  10 1
+            22   13  15 1
+            23   18  19 1
+            24   18  21 1
+///

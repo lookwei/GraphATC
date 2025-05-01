@@ -1,0 +1,92 @@
+ENTRY       C05952                      Compound
+NAME        Leukotriene E4;
+            LTE4;
+            (7E,9E,11Z,14Z)-(5S,6R)-6-(Cystein-S-yl)-5-hydroxyeicosa-7,9,11,14-tetraenoate;
+            (7E,9E,11Z,14Z)-(5S,6R)-6-(Cystein-S-yl)-5-hydroxyicosa-7,9,11,14-tetraenoate
+FORMULA     C23H37NO5S
+EXACT_MASS  439.2392
+MOL_WEIGHT  439.6086
+REACTION    R04256 R05055 R05207
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04080  Neuroactive ligand-receptor interaction
+            map04664  Fc epsilon RI signaling pathway
+ENZYME      1.14.13.34      2.3.2.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Leukotrienes
+                C05952  Leukotriene E4
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0302 Leukotrienes
+                C05952  Leukotriene E4
+DBLINKS     CAS: 75715-89-8
+            PubChem: 8236
+            ChEBI: 15650
+            LIPIDMAPS: LMFA03020002
+            3DMET: B01926
+            NIKKAJI: J264.600E
+ATOM        30
+            1   C1c C    26.2512  -14.8484
+            2   C1c C    27.3699  -14.2033
+            3   S2a S    26.8677  -16.4924
+            4   C2b C    25.1095  -14.1976
+            5   C1b C    28.5061  -14.8542
+            6   O1a O    27.3757  -12.8904
+            7   C1b C    28.1692  -16.4867
+            8   C2b C    23.9908  -14.8484
+            9   C1b C    29.6420  -14.2033
+            10  C1c C    28.8143  -17.6169
+            11  C2b C    22.8548  -14.1976
+            12  C1b C    30.7665  -14.8542
+            13  C6a C    30.1158  -17.6169
+            14  N1a N    28.1750  -18.7528
+            15  C2b C    21.7189  -14.8427
+            16  C6a C    31.8966  -14.2091
+            17  O6a O    30.7779  -18.7472
+            18  O6a O    30.7779  -16.4809
+            19  C2b C    20.5886  -14.1920
+            20  O6a O    33.0269  -14.8598
+            21  O6a O    31.8966  -12.8619
+            22  C2b C    19.2871  -14.2033
+            23  C1b C    18.1740  -16.3896
+            24  C2b C    19.2072  -18.6215
+            25  C2b C    20.5144  -18.6159
+            26  C1b C    21.6390  -17.9537
+            27  C1b C    22.7805  -18.6045
+            28  C1b C    23.8994  -17.9423
+            29  C1b C    25.0411  -18.5873
+            30  C1a C    25.9715  -17.7425
+BOND        29
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11    9  12 1
+            12   10  13 1
+            13   10  14 1 #Up
+            14   11  15 2
+            15   12  16 1
+            16   13  17 1
+            17   13  18 2
+            18   15  19 1
+            19   16  20 1
+            20   16  21 2
+            21   19  22 2
+            22   22  23 1
+            23   23  24 1
+            24   24  25 2
+            25   25  26 1
+            26   26  27 1
+            27   27  28 1
+            28   28  29 1
+            29   29  30 1
+///

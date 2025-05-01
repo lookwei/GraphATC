@@ -1,0 +1,77 @@
+ENTRY       D04498                      Drug
+NAME        Idronoxil (USAN/INN)
+FORMULA     C15H12O3
+EXACT_MASS  240.0786
+MOL_WEIGHT  240.254
+CLASS       Antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+EFFICACY    Antineoplastic
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+            SRD5A1 [HSA:6715] [KO:K12343]
+            SRD5A2 [HSA:6716] [KO:K12344]
+            SRD5A3 [HSA:79644] [KO:K12345]
+  PATHWAY   hsa00140(6715+6716+79644)  Steroid hormone biosynthesis
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                D04498  Idronoxil
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SRD5A1
+                 D04498  Idronoxil (USAN/INN)
+                SRD5A2
+                 D04498  Idronoxil (USAN/INN)
+                SRD5A3
+                 D04498  Idronoxil (USAN/INN)
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D04498  Idronoxil (USAN/INN)
+DBLINKS     CAS: 81267-65-4
+            PubChem: 47206346
+            LigandBox: D04498
+ATOM        18
+            1   C8y C    10.5700  -18.2700
+            2   C8x C    10.5700  -19.6700
+            3   C8x C    11.7824  -20.3700
+            4   C8y C    12.9949  -19.6700
+            5   C8y C    12.9949  -18.2700
+            6   C8x C    11.7824  -17.5700
+            7   C2x C    14.2073  -20.3700
+            8   C2y C    15.4197  -19.6700
+            9   C1x C    15.4197  -18.2700
+            10  O2x O    14.2073  -17.5700
+            11  O1a O     9.3576  -17.5700
+            12  C8y C    16.6173  -20.3615
+            13  C8x C    16.6173  -21.7697
+            14  C8x C    17.8298  -22.4697
+            15  C8y C    19.0422  -21.7697
+            16  C8x C    19.0422  -20.3615
+            17  C8x C    17.8297  -19.6615
+            18  O1a O    20.2531  -22.4688
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    1  11 1
+            13    8  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   12  17 1
+            20   15  18 1
+///

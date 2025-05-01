@@ -1,0 +1,90 @@
+ENTRY       D10130                      Drug
+NAME        Ixazomib (USAN)
+FORMULA     C14H19BCl2N2O4
+EXACT_MASS  360.0815
+MOL_WEIGHT  361.0287
+CLASS       Antineoplastic
+             DG03134  Proteasome inhibitor
+REMARK      ATC code: L01XG03
+            Chemical structure group: DG01269
+            Product (DG01269): D10131<JP/US>
+EFFICACY    Antineoplastic, Proteasome inhibitor
+COMMENT     Peptide boronic acid analog
+            Ixazomib inhibits the chymotrypsin-like subunit (beta 5) of the 20S proteasome reversibly.
+TARGET      PSMB5 [HSA:5693] [KO:K02737]
+  PATHWAY   hsa03050(5693)  Proteasome
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XG Proteasome inhibitors
+                 L01XG03 Ixazomib
+                  D10130  Ixazomib (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03134  Proteasome inhibitor
+               DG01269  Ixazomib
+                D10130  Ixazomib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Threonine peptidases
+                PSMB5
+                 D10130  Ixazomib (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03134  Proteasome inhibitor
+               DG01269  Ixazomib
+DBLINKS     CAS: 1072833-77-2
+            PubChem: 135626848
+            ChEBI: 90942
+            PDB-CCD: 6V8
+ATOM        23
+            1   C5a C    12.1800  -17.2200
+            2   N1b N    13.3924  -17.9200
+            3   C8y C    10.9676  -17.9200
+            4   O5a O    12.1800  -15.8200
+            5   C1b C    14.5879  -17.2296
+            6   C5a C    15.7753  -17.9151
+            7   N1b N    16.9665  -17.2271
+            8   O5a O    15.7755  -19.3198
+            9   C1c C    18.1560  -17.9138
+            10  C1b C    19.3461  -17.2265
+            11  Z   B    18.1562  -19.3198
+            12  C1c C    20.5362  -17.9135
+            13  C1a C    21.7260  -17.2263
+            14  C1a C    20.5364  -19.3198
+            15  C8x C     9.7721  -17.2296
+            16  C8y C     8.5596  -17.9295
+            17  C8x C     8.5594  -19.3295
+            18  C8x C     9.7549  -20.0199
+            19  C8y C    10.9674  -19.3200
+            20  X   Cl   12.1966  -20.0300
+            21  X   Cl    7.3284  -17.2185
+            22  O1a O    19.3491  -20.0084
+            23  O1a O    16.9242  -20.0314
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     5   6 1
+            6     6   7 1
+            7     6   8 2
+            8     7   9 1
+            9     9  10 1
+            10    9  11 1 #Up
+            11   10  12 1
+            12   12  13 1
+            13   12  14 1
+            14    3  15 2
+            15   15  16 1
+            16   16  17 2
+            17   17  18 1
+            18   18  19 2
+            19    3  19 1
+            20   19  20 1
+            21   16  21 1
+            22   11  22 1
+            23   11  23 1
+///

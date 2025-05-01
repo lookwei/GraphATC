@@ -1,0 +1,145 @@
+ENTRY       D09884                      Drug
+NAME        Danoprevir (USAN/INN)
+FORMULA     C35H46FN5O9S
+EXACT_MASS  731.3
+MOL_WEIGHT  731.8312
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG02001  HCV NS3/4A protease inhibitor
+REMARK      Chemical structure group: DG01815
+EFFICACY    Antiviral, Protease inhibitor
+COMMENT     Treatment of hepatitis C
+TARGET      HCV NS3/4A protease [KO:K22273 K22274]
+  PATHWAY   ko03230(K22273+K22274)  Viral genome structure
+            ko03240(K22273+K22274)  Viral replication
+            ko05160(K22273+K22274)  Hepatitis C
+STR_MAP     map07044  Antiviral agents
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG02001  HCV NS3/4A protease inhibitor
+                DG01815  Danoprevir
+                 D09884  Danoprevir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HCV NS3/4A inhibitor
+                D09884  Danoprevir (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG02001  HCV NS3/4A protease inhibitor
+                DG01815  Danoprevir
+DBLINKS     CAS: 850876-88-9
+            PubChem: 135626636
+            LigandBox: D09884
+ATOM        51
+            1   C1y C    24.7100  -28.9800
+            2   C1x C    25.9000  -29.4700
+            3   C1y C    26.8100  -28.4900
+            4   N1y N    26.1100  -27.3000
+            5   C1x C    24.8500  -27.5800
+            6   C5x C    28.2100  -28.4900
+            7   N1x N    28.9100  -27.3700
+            8   O5x O    28.2100  -26.1100
+            9   C5x C    26.8100  -26.1100
+            10  O5x O    28.9800  -29.6100
+            11  C1x C    28.1400  -23.7300
+            12  C1x C    26.7400  -23.7300
+            13  C1y C    26.0400  -24.8500
+            14  C1x C    30.8000  -23.6600
+            15  C1x C    30.1700  -22.4700
+            16  C1x C    28.8400  -22.4700
+            17  C1y C    32.1300  -26.3900
+            18  C2x C    32.9000  -25.0600
+            19  C2x C    32.2000  -23.6600
+            20  C1z C    31.1500  -27.3700
+            21  C1x C    32.4100  -27.7200
+            22  C5a C    31.2200  -28.7700
+            23  N1b N    30.1700  -29.4700
+            24  O5a O    32.4100  -29.4000
+            25  C7a C    23.1000  -31.0100
+            26  O6a O    24.2900  -31.6400
+            27  O7a O    23.1000  -29.6100
+            28  N1b N    24.6400  -24.8500
+            29  C7a C    23.9400  -23.6600
+            30  O7a O    22.6100  -23.6600
+            31  O6a O    24.6400  -22.4700
+            32  C1d C    21.9800  -24.8500
+            33  C1a C    20.6500  -24.8500
+            34  C1a C    22.4700  -26.1800
+            35  N1y N    21.9100  -31.7100
+            36  C1x C    20.5800  -31.2200
+            37  C8y C    19.6700  -32.2700
+            38  C8y C    20.4400  -33.4600
+            39  C1x C    21.7700  -33.1100
+            40  C8x C    18.2700  -32.2700
+            41  C8x C    17.6400  -33.4600
+            42  C8x C    18.3400  -34.7200
+            43  C8y C    19.7400  -34.7200
+            44  X   F    20.4400  -35.9100
+            45  S4a S    30.1700  -30.8700
+            46  C1y C    30.1700  -32.2700
+            47  O3c O    31.5700  -30.8700
+            48  O3c O    28.7700  -30.8700
+            49  C1x C    29.4700  -33.4600
+            50  C1x C    30.8700  -33.4600
+            51  C1a C    21.2800  -26.0400
+BOND        56
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     6   7 1
+            7     8   9 2
+            8     4   9 1
+            9     6  10 2
+            10   11  12 1
+            11   12  13 1
+            12   13   9 1
+            13   14  15 1
+            14   11  16 1
+            15   18  19 2
+            16   14  19 1
+            17   17  20 1
+            18   20  21 1
+            19   21  17 1
+            20   20  22 1 #Down
+            21   22  23 1
+            22   22  24 2
+            23   20   7 1
+            24   18  17 1
+            25   25  26 2
+            26   25  27 1
+            27    1  27 1 #Up
+            28    3   6 1
+            29   16  15 1
+            30   13  28 1 #Up
+            31   28  29 1
+            32   29  30 1
+            33   29  31 2
+            34   30  32 1
+            35   32  33 1
+            36   32  34 1
+            37   25  35 1
+            38   35  36 1
+            39   36  37 1
+            40   37  38 2
+            41   38  39 1
+            42   35  39 1
+            43   37  40 1
+            44   40  41 2
+            45   41  42 1
+            46   42  43 2
+            47   38  43 1
+            48   43  44 1
+            49   23  45 1
+            50   45  46 1
+            51   45  47 2
+            52   45  48 2
+            53   49  50 1
+            54   50  46 1
+            55   46  49 1
+            56   32  51 1
+///

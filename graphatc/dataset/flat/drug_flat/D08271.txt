@@ -1,0 +1,151 @@
+ENTRY       D08271                      Drug
+NAME        Nicergoline tartrate;
+            Sermion (TN)
+FORMULA     C24H26BrN3O3. (C4H6O6)x
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+            Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+              DG01963  Vasodilator, ergot alkaloid
+REMARK      ATC code: C04AE02
+            Chemical structure group: DG00283
+            Product (DG00283): D01290<JP>
+EFFICACY    Nootropic, Vasodilator, alpha1-Adrenergic receptor antagonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AE Ergot alkaloids
+                 C04AE02 Nicergoline
+                  D08271  Nicergoline tartrate
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00283  Nicergoline
+                  D08271  Nicergoline tartrate
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG00283  Nicergoline
+                 D08271  Nicergoline tartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08271  Nicergoline tartrate
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00283  Nicergoline
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG00283  Nicergoline
+DBLINKS     CAS: 32222-75-6
+            PubChem: 96024958
+            LigandBox: D08271
+            NIKKAJI: J280.842K
+ATOM        41
+            1   C8x C    14.7000  -19.1100
+            2   C8x C    14.7000  -20.5100
+            3   C8y C    15.8900  -21.2100
+            4   C8x C    15.9600  -18.4100
+            5   C8y C    17.0800  -19.1100
+            6   C8y C    17.0800  -20.5100
+            7   C8y C    18.2700  -21.2100
+            8   C1x C    19.4600  -20.5100
+            9   C1z C    18.3400  -18.4800
+            10  C1y C    19.4600  -19.1800
+            11  N1y N    20.7200  -18.4800
+            12  C1x C    20.7200  -17.1500
+            13  C1y C    19.5300  -16.4500
+            14  C1x C    18.3400  -17.0800
+            15  C1a C    21.8400  -19.1800
+            16  C1b C    19.5300  -15.0500
+            17  O7a O    20.7200  -14.3500
+            18  C7a C    21.9100  -15.0500
+            19  C8y C    23.1000  -14.4200
+            20  O6a O    21.9100  -16.4500
+            21  C8x C    24.2900  -15.1200
+            22  C8y C    25.4800  -14.4200
+            23  C8x C    25.4800  -13.0900
+            24  N5x N    24.3600  -12.3900
+            25  C8x C    23.1000  -13.0200
+            26  X   Br   26.6700  -15.1200
+            27  O2a O    17.0800  -17.7800
+            28  C1a C    17.0800  -16.3800
+            29  N4y N    15.8900  -22.5400
+            30  C8x C    18.2700  -22.5400
+            31  C1a C    14.9100  -23.5200
+            32  O6a O    27.1600  -19.8100
+            33  C6a C    28.3724  -19.1100
+            34  C1c C    29.5849  -19.8100
+            35  C1c C    30.7973  -19.1100
+            36  C6a C    32.0097  -19.8100
+            37  O6a O    33.2222  -19.1100
+            38  O1a O    29.5849  -21.2098
+            39  O1a O    30.7973  -17.7100
+            40  O6a O    28.3724  -17.7102
+            41  O6a O    32.0097  -21.2099
+BOND        44
+            1    11  15 1
+            2     6   7 1
+            3    13  16 1 #Up
+            4     7   8 1
+            5    16  17 1
+            6     8  10 1
+            7    17  18 1
+            8     9   5 1
+            9    18  19 1
+            10    5   4 2
+            11   18  20 2
+            12    4   1 1
+            13    1   2 2
+            14    2   3 1
+            15    3   6 2
+            16   19  21 2
+            17   21  22 1
+            18   22  23 2
+            19   23  24 1
+            20   24  25 2
+            21   25  19 1
+            22    9  10 1
+            23   22  26 1
+            24   10  11 1
+            25    9  27 1 #Down
+            26   11  12 1
+            27   27  28 1
+            28   12  13 1
+            29   13  14 1
+            30    3  29 1
+            31   14   9 1
+            32    7  30 2
+            33   29  30 1
+            34    5   6 1
+            35   29  31 1
+            36   32  33 1
+            37   33  34 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   34  38 1 #Up
+            42   35  39 1 #Up
+            43   33  40 2
+            44   36  41 2
+BRACKET     1    25.6900  -22.3300   25.6900  -16.4500
+            1    34.9300  -16.4500   34.9300  -22.3300
+            1  x
+  ORIGINAL  1   33  34  35  36  37  38  39  40  41  42
+  REPEAT    1 
+///

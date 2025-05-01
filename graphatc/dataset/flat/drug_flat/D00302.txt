@@ -1,0 +1,156 @@
+ENTRY       D00302                      Drug
+NAME        Dipyridamole (JP18/USP/INN);
+            Persantine (TN)
+PRODUCT
+  GENERIC   DIPYRIDAMOLE (ANI Pharmaceuticals)
+            DIPYRIDAMOLE (Amneal Pharmaceuticals of New York LLC)
+            DIPYRIDAMOLE (HF Acquisition Co LLC)
+            DIPYRIDAMOLE (Henry Schein)
+            DIPYRIDAMOLE (Hikma Pharmaceuticals USA)
+            DIPYRIDAMOLE (Lannett Company)
+            DIPYRIDAMOLE (Oxford Pharmaceuticals)
+            DIPYRIDAMOLE (Proficient Rx LP)
+            DIPYRIDAMOLE (Rising Pharmaceuticals)
+            DIPYRIDAMOLE (Zydus Lifesciences Limited)
+            DIPYRIDAMOLE (Zydus Pharmaceuticals USA)
+FORMULA     C24H40N8O4
+EXACT_MASS  504.3173
+MOL_WEIGHT  504.6256
+CLASS       Cardiovascular agent
+             DG01509  Phosphodiesterase V inhibitor
+            Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+REMARK      Therapeutic category: 2171
+            ATC code: B01AC07
+            Product: D00302<JP/US>
+            Product (mixture): D11615<US>
+EFFICACY    Vasodilator (coronary), Platelet aggregation inhibitor, Phosphodiesterase inhibitor
+COMMENT     Pyrimido-pyrimidine derivative
+TARGET      PDE5 [HSA:8654] [KO:K13762]
+            PDE4A [HSA:5141] [KO:K13293]
+  PATHWAY   hsa04022(8654)  cGMP-PKG signaling pathway
+            hsa04024(5141)  cAMP signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AC Platelet aggregation inhibitors excl. heparin
+                 B01AC07 Dipyridamole
+                  D00302  Dipyridamole (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Blood Products and Modifiers
+              Platelet Modifying Agents
+               Platelet Modifying Agents, Other
+                Dipyridamole
+                 D00302  Dipyridamole (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               217  Vasodilators
+                2171  Coronary dilators
+                 D00302  Dipyridamole (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01509  Phosphodiesterase V inhibitor
+               D00302  Dipyridamole
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                D00302  Dipyridamole
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE4A
+                 D00302  Dipyridamole (JP18/USP/INN) &lt;JP/US&gt;
+                PDE5
+                 D00302  Dipyridamole (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00302  Dipyridamole
+DBLINKS     CAS: 58-32-2
+            PubChem: 7847368
+            ChEBI: 4653
+            PDB-CCD: H9F
+            LigandBox: D00302
+            NIKKAJI: J8.585E
+ATOM        36
+            1   C8y C    21.7700  -17.7144
+            2   C8y C    21.7700  -16.3056
+            3   C8y C    20.5532  -18.4130
+            4   N5x N    22.9868  -18.4130
+            5   C8y C    22.9868  -15.6127
+            6   N5x N    20.5532  -15.6127
+            7   N1y N    20.5532  -19.8103
+            8   N5x N    19.3423  -17.7144
+            9   C8y C    24.1919  -17.7144
+            10  N1y N    22.9868  -14.2097
+            11  N5x N    24.1919  -16.3056
+            12  C8y C    19.3423  -16.3056
+            13  C1x C    19.3423  -20.5089
+            14  C1x C    21.7700  -20.5089
+            15  N1c N    25.4087  -18.4073
+            16  C1x C    24.2036  -13.5111
+            17  C1x C    21.7757  -13.5052
+            18  N1c N    18.1313  -15.6127
+            19  C1x C    19.3423  -21.9121
+            20  C1x C    21.7700  -21.9121
+            21  C1b C    25.4087  -19.8103
+            22  C1b C    26.6139  -17.7086
+            23  C1x C    24.2036  -12.1079
+            24  C1x C    21.7757  -12.1079
+            25  C1b C    18.1313  -14.2097
+            26  C1b C    16.9204  -16.3056
+            27  C1x C    20.5532  -22.6048
+            28  C1b C    26.6139  -20.5148
+            29  C1b C    27.8306  -18.4073
+            30  C1x C    22.9925  -11.4152
+            31  C1b C    16.9204  -13.5052
+            32  C1b C    15.7094  -15.6127
+            33  O1a O    27.8306  -19.8103
+            34  O1a O    29.0415  -17.7027
+            35  O1a O    15.7094  -14.2097
+            36  O1a O    14.4985  -16.3056
+BOND        39
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 2
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12    7  13 1
+            13    7  14 1
+            14    9  15 1
+            15   10  16 1
+            16   10  17 1
+            17   12  18 1
+            18   13  19 1
+            19   14  20 1
+            20   15  21 1
+            21   15  22 1
+            22   16  23 1
+            23   17  24 1
+            24   18  25 1
+            25   18  26 1
+            26   19  27 1
+            27   21  28 1
+            28   22  29 1
+            29   23  30 1
+            30   25  31 1
+            31   26  32 1
+            32   28  33 1
+            33   29  34 1
+            34   31  35 1
+            35   32  36 1
+            36    8  12 1
+            37    9  11 1
+            38   20  27 1
+            39   24  30 1
+///

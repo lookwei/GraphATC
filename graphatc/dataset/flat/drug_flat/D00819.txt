@@ -1,0 +1,125 @@
+ENTRY       D00819                      Drug
+NAME        Nefazodone hydrochloride (USP);
+            Serzone (TN)
+PRODUCT
+  GENERIC   NEFAZODONE HYDROCHLORIDE (Bryant Ranch Prepack)
+            NEFAZODONE HYDROCHLORIDE (Teva Pharmaceuticals USA)
+FORMULA     C25H32ClN5O2. HCl
+EXACT_MASS  505.2011
+MOL_WEIGHT  506.4678
+REMARK      ATC code: N06AX06
+            Chemical structure group: DG00953
+            Product (DG00953): D00819<US>
+EFFICACY    Antidepressant
+  DISEASE   Major depressive disorder [DS:H01646]
+COMMENT     Phenylpiperazine derivative
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+            HTR2C [HSA:3358] [KO:K04157]
+            ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148+3356+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3358)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX06 Nefazodone
+                  D00819  Nefazodone hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antidepressants
+              SSRIs/SNRIs (Selective Serotonin Reuptake Inhibitors/Serotonin and Norepinephrine Reuptake Inhibitors)
+               Nefazodone
+                D00819  Nefazodone hydrochloride (USP)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D00819  Nefazodone hydrochloride (USP) &lt;US&gt;
+               Serotonin
+                HTR2A
+                 D00819  Nefazodone hydrochloride (USP) &lt;US&gt;
+                HTR2C
+                 D00819  Nefazodone hydrochloride (USP) &lt;US&gt;
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00819
+DBLINKS     CAS: 82752-99-6
+            PubChem: 7847884
+            ChEBI: 7495
+            LigandBox: D00819
+ATOM        34
+            1   N4y N    22.2563  -18.7591
+            2   C8y C    22.6585  -17.4126
+            3   C8y C    23.4221  -19.5696
+            4   C1b C    21.0379  -19.4646
+            5   N5x N    24.0750  -17.4419
+            6   C1b C    21.7958  -16.2992
+            7   N4y N    24.5357  -18.7067
+            8   O5x O    23.4571  -20.9744
+            9   C1b C    19.8196  -18.7650
+            10  C1a C    22.3380  -14.9935
+            11  C1b C    25.6374  -19.4238
+            12  O2a O    18.6012  -19.4703
+            13  C1b C    26.7741  -18.7126
+            14  C8y C    17.3771  -18.7650
+            15  C1b C    27.9167  -19.4238
+            16  C8x C    16.1587  -19.4703
+            17  C8x C    17.3771  -17.3543
+            18  N1y N    29.0418  -18.6834
+            19  C8x C    14.9520  -18.7650
+            20  C8x C    16.1587  -16.6547
+            21  C1x C    29.0418  -17.2786
+            22  C1x C    30.2542  -19.3888
+            23  C8x C    14.9520  -17.3543
+            24  C1x C    30.2542  -16.5731
+            25  C1x C    31.4726  -18.6834
+            26  N1y N    31.4726  -17.2786
+            27  C8y C    32.6967  -16.5731
+            28  C8x C    32.6967  -15.1625
+            29  C8x C    33.9210  -17.2786
+            30  C8y C    33.9210  -14.4571
+            31  C8x C    35.1334  -16.5731
+            32  C8x C    35.1334  -15.1625
+            33  X   Cl   33.9210  -13.0522
+            34  X   Cl   34.2300  -20.5100
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     6  10 1
+            10    7  11 1
+            11    9  12 1
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   14  16 2
+            16   14  17 1
+            17   15  18 1
+            18   16  19 1
+            19   17  20 2
+            20   18  21 1
+            21   18  22 1
+            22   19  23 2
+            23   21  24 1
+            24   22  25 1
+            25   24  26 1
+            26   26  27 1
+            27   27  28 2
+            28   27  29 1
+            29   28  30 1
+            30   29  31 2
+            31   30  32 2
+            32   30  33 1
+            33    5   7 1
+            34   20  23 1
+            35   25  26 1
+            36   31  32 1
+///

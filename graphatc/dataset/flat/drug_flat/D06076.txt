@@ -1,0 +1,207 @@
+ENTRY       D06076                      Drug
+NAME        Teprotide (USAN/INN)
+FORMULA     C53H76N14O12
+EXACT_MASS  1100.5767
+MOL_WEIGHT  1101.2571
+SEQUENCE    pyroGlu Trp Pro Arg Pro Gln Ile Pro Pro
+  TYPE      Peptide
+SOURCE      Bothrops jararaca [TAX:8724]
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Same as: C11712
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+COMMENT     venom of the Bothrops jararaca
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+            hsa04924(1636)  Renin secretion
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D06076  Teprotide
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D06076  Teprotide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D06076  Teprotide (USAN/INN)
+DBLINKS     CAS: 35115-60-7
+            PubChem: 47207734
+            ChEBI: 9444
+            LigandBox: D06076
+            NIKKAJI: J17.852G
+ATOM        79
+            1   N1y N    32.8509  -22.1950
+            2   C1x C    32.4865  -23.5368
+            3   C1x C    33.6360  -24.2912
+            4   C1x C    34.7196  -23.4267
+            5   C1y C    34.2329  -22.2040
+            6   N1b N    30.4533  -19.4081
+            7   C1c C    31.6538  -20.1120
+            8   C1c C    32.8670  -19.4181
+            9   C5a C    31.6482  -21.5026
+            10  O5a O    30.4418  -22.1894
+            11  C1b C    32.8728  -18.0275
+            12  C1a C    34.0677  -20.1218
+            13  C5a C    29.2415  -20.0971
+            14  C1c C    28.2627  -19.1133
+            15  N1b N    26.9304  -19.5383
+            16  C1b C    28.6964  -17.7778
+            17  C1b C    30.0465  -17.3451
+            18  C5a C    30.0152  -15.9389
+            19  O5a O    28.7911  -15.1587
+            20  N1a N    31.2607  -15.2746
+            21  N1y N    24.1977  -20.4437
+            22  C1y C    25.2796  -21.2934
+            23  C1x C    23.0619  -21.2363
+            24  C1x C    24.8327  -22.6099
+            25  C1x C    23.4814  -22.6436
+            26  C5a C    26.6099  -20.8935
+            27  O5a O    27.6701  -21.8670
+            28  C5a C    24.2348  -19.0535
+            29  O5a O    25.4563  -18.3871
+            30  C1b C    24.3175  -16.1205
+            31  C1b C    24.5525  -14.7496
+            32  N1b N    25.8506  -14.2745
+            33  C2c C    25.8395  -12.8778
+            34  N2a N    24.5952  -12.1626
+            35  N1a N    26.9860  -12.1812
+            36  N1y N    18.6982  -19.3291
+            37  C1y C    19.8091  -20.1554
+            38  C1x C    17.5858  -20.1515
+            39  C1x C    19.3845  -21.4817
+            40  C1x C    18.0338  -21.4821
+            41  C5a C    21.1240  -19.7252
+            42  O5a O    22.2009  -20.6734
+            43  C5a C    18.6955  -17.9385
+            44  C1c C    17.4910  -17.2492
+            45  C1b C    17.4882  -15.8489
+            46  C8y C    18.8014  -15.3778
+            47  C8y C    19.1961  -13.9665
+            48  C8x C    19.9556  -16.1625
+            49  C8y C    20.6211  -14.0268
+            50  N4x N    21.0762  -15.3080
+            51  C8x C    21.3151  -12.7853
+            52  C8x C    20.5839  -11.5572
+            53  C8x C    19.1511  -11.5179
+            54  C8x C    18.4643  -12.8223
+            55  N1b N    16.2818  -17.9431
+            56  C5a C    15.0771  -17.2536
+            57  C1x C    13.7673  -19.3295
+            58  C1y C    13.8844  -17.9512
+            59  C1x C    12.4115  -19.6236
+            60  N1x N    12.6131  -17.3915
+            61  C5x C    11.7234  -18.4044
+            62  O5a O    15.0862  -15.8188
+            63  O5a O    19.8977  -17.2446
+            64  N1b N    21.4045  -18.3631
+            65  C1c C    22.7233  -17.9214
+            66  C1b C    23.0038  -16.5591
+            67  O5a O    28.8762  -21.4463
+            68  C5a C    35.4283  -21.4323
+            69  N1y N    36.6378  -22.1132
+            70  O5a O    35.4157  -20.0417
+            71  C1a C    34.0792  -17.3407
+            72  C1x C    36.8004  -23.4966
+            73  C1x C    38.1632  -23.7679
+            74  C1x C    38.8439  -22.5582
+            75  C1y C    37.8994  -21.5351
+            76  C6a C    38.1864  -20.1726
+            77  O6a O    39.5053  -19.7305
+            78  O6a O    37.1404  -19.2525
+            79  O5x O    10.3401  -18.2611
+BOND        85
+            1    38  40 1
+            2    39  40 1
+            3    41  42 2
+            4    37  41 1
+            5     8  11 1
+            6     8  12 1 #Down
+            7     9   1 1
+            8    13   6 1
+            9    22  21 1
+            10   21  23 1
+            11   22  24 1 #Down
+            12   23  25 1
+            13   24  25 1
+            14   26  27 2
+            15   22  26 1
+            16   44  45 1 #Up
+            17   46  47 1
+            18   46  48 2
+            19   47  49 2
+            20   48  50 1
+            21   49  50 1
+            22   45  46 1
+            23   49  51 1
+            24   51  52 2
+            25   52  53 1
+            26   53  54 2
+            27   54  47 1
+            28    1   2 1
+            29   44  55 1
+            30   44  43 1
+            31   21  28 1
+            32   55  56 1
+            33    6   7 1
+            34   28  29 2
+            35    2   3 1
+            36    7   8 1 #Up
+            37    3   4 1
+            38    7   9 1
+            39   58  57 1 #Down
+            40   57  59 1
+            41   58  60 1
+            42   59  61 1
+            43   60  61 1
+            44   56  62 2
+            45   58  56 1
+            46    5   4 1 #Down
+            47   43  63 2
+            48   43  36 1
+            49   14  15 1
+            50   41  64 1
+            51   30  31 1
+            52   64  65 1
+            53   31  32 1
+            54   65  66 1 #Up
+            55   66  30 1
+            56   65  28 1
+            57   26  15 1
+            58   14  13 1
+            59   33  34 2
+            60   13  67 2
+            61   33  35 1
+            62    5  68 1
+            63   32  33 1
+            64   68  69 1
+            65   14  16 1 #Up
+            66   68  70 2
+            67   17  16 1
+            68   11  71 1
+            69   18  19 2
+            70   17  18 1
+            71   18  20 1
+            72    9  10 2
+            73   69  72 1
+            74   72  73 1
+            75   73  74 1
+            76   75  74 1 #Down
+            77   75  69 1
+            78    5   1 1
+            79   75  76 1
+            80   37  36 1
+            81   76  77 1
+            82   36  38 1
+            83   76  78 2
+            84   37  39 1 #Down
+            85   61  79 2
+///

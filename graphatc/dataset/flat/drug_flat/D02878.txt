@@ -1,0 +1,134 @@
+ENTRY       D02878                      Drug
+NAME        Alvimopan (USAN);
+            Alvimopan dihydrate;
+            Entereg (TN)
+PRODUCT     ENTEREG (Merck Sharp & Dohme LLC)
+  GENERIC   ALVIMOPAN (Actavis Pharma)
+            ALVIMOPAN (Par Pharmaceutical)
+FORMULA     C25H32N2O4. 2H2O
+EXACT_MASS  460.2573
+MOL_WEIGHT  460.5631
+CLASS       Analgesic
+             DG01586  Opioid receptor antagonist
+            Gastrointestinal agent
+             DG01770  Laxative
+REMARK      ATC code: A06AH02
+            Product: D02878<US>
+EFFICACY    Laxative, Opioid receptor antagonist
+COMMENT     Treatment of opioid-induced bowel dysfunction, opioid-induced nausea and vomiting, postoperative ileus, idiopathic constipation, and irritable bowel syndrome
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A06 DRUGS FOR CONSTIPATION
+               A06A DRUGS FOR CONSTIPATION
+                A06AH Peripheral opioid receptor antagonists
+                 A06AH02 Alvimopan
+                  D02878  Alvimopan (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Gastrointestinal Agents
+              Gastrointestinal Agents, Other
+               Alvimopan
+                D02878  Alvimopan (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01586  Opioid receptor antagonist
+               D02878  Alvimopan
+             Gastrointestinal agent
+              DG01770  Laxative
+               D02878  Alvimopan
+            Drug classes [BR:br08332]
+             Gastrointestinal agent
+              DG01770  Laxative
+               D02878  Alvimopan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D02878  Alvimopan (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D02878
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D02878
+DBLINKS     CAS: 170098-38-1
+            PubChem: 17397035
+            LigandBox: D02878
+ATOM        33
+            1   O0  O    38.7802  -16.8251
+            2   C1z C    23.1358  -16.4305
+            3   C1y C    23.1358  -17.8140
+            4   C1x C    24.3339  -18.5057
+            5   N1y N    25.5321  -17.8140
+            6   C1x C    25.5321  -16.4305
+            7   C1x C    24.3339  -15.7387
+            8   C1a C    21.9377  -18.5057
+            9   C1b C    26.7302  -18.5057
+            10  C1c C    27.9283  -17.8140
+            11  C1b C    27.9283  -16.4305
+            12  C5a C    29.1265  -18.5057
+            13  N1b N    30.3246  -17.8140
+            14  C1b C    31.5228  -18.5057
+            15  C6a C    32.7210  -17.8140
+            16  O5a O    29.1265  -19.8892
+            17  O6a O    33.9191  -18.5057
+            18  O6a O    32.7210  -16.4305
+            19  C8x C    30.3246  -16.4305
+            20  C8y C    29.1264  -15.7387
+            21  C8x C    31.5228  -15.7387
+            22  C8x C    31.5228  -14.3552
+            23  C8x C    30.3245  -13.6635
+            24  C8x C    29.1264  -14.3552
+            25  C8y C    21.9574  -15.7502
+            26  C8x C    21.9574  -14.3502
+            27  C8x C    20.7450  -13.6502
+            28  C8x C    19.5325  -14.3502
+            29  C8y C    19.5326  -15.7503
+            30  C8x C    20.7450  -16.4502
+            31  O1a O    18.3183  -16.4513
+            32  C1a C    23.1358  -15.0305
+            33  O0  O    38.7802  -16.8251
+BOND        33
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     3   8 1 #Down
+            8     5   9 1
+            9     9  10 1
+            10   10  12 1
+            11   12  13 1
+            12   13  14 1
+            13   14  15 1
+            14   10  11 1 #Down
+            15   12  16 2
+            16   15  17 1
+            17   15  18 2
+            18   20  11 1
+            19   20  19 2
+            20   19  21 1
+            21   21  22 2
+            22   22  23 1
+            23   23  24 2
+            24   20  24 1
+            25    2  25 1
+            26   25  26 2
+            27   26  27 1
+            28   27  28 2
+            29   28  29 1
+            30   29  30 2
+            31   25  30 1
+            32   29  31 1
+            33    2  32 1 #Up
+BRACKET     1    36.5400  -17.6400   36.5400  -16.1000
+            1    39.6200  -16.1000   39.6200  -17.6400
+            1  2
+  ORIGINAL  1    1
+  REPEAT    1   33
+///

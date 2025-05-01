@@ -1,0 +1,258 @@
+ENTRY       D05333                      Drug
+NAME        Paclitaxel poliglumex (USAN/INN)
+FORMULA     H2O(C52H56N2O16(C5H7NO3)b(C5H7NO3)a)n
+CLASS       Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01CD03
+            Chemical structure group: DG01430
+            Product (DG01430): D00491<JP/US>
+EFFICACY    Antineoplastic, Tubulin depolymerization inhibitor
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP2C8 [HSA:1558], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CD Taxanes
+                 L01CD03 Paclitaxel poliglumex
+                  D05333  Paclitaxel poliglumex (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG01430  Paclitaxel
+                D05333  Paclitaxel poliglumex
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01430  Paclitaxel
+                 D05333  Paclitaxel poliglumex
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D05333  Paclitaxel poliglumex (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05333
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG01430  Paclitaxel
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01430  Paclitaxel
+DBLINKS     CAS: 263351-82-2
+            PubChem: 47207019
+            LigandBox: D05333
+ATOM        89
+            1   C1y C    36.4554  -14.8983
+            2   C1z C    37.5709  -15.5365
+            3   C1y C    35.6503  -15.7723
+            4   C1z C    36.4554  -13.6043
+            5   C1y C    38.6864  -14.8983
+            6   C1x C    38.7325  -16.2782
+            7   O7a O    37.5595  -16.9339
+            8   C1z C    33.1547  -15.7551
+            9   O7a O    35.6677  -18.0440
+            10  C5x C    34.7591  -12.5292
+            11  C1y C    37.5709  -12.9660
+            12  C1a C    36.5416  -11.5557
+            13  O2x O    39.7733  -15.6342
+            14  C1x C    38.6864  -13.6043
+            15  C7a C    38.7613  -17.6353
+            16  C1z C    33.1547  -14.4613
+            17  C1x C    32.0392  -16.4047
+            18  O1a O    33.1375  -17.0143
+            19  C7a C    34.5406  -18.6708
+            20  C1y C    32.0450  -12.5348
+            21  O5x O    34.7821  -11.1145
+            22  O1a O    37.5767  -11.8106
+            23  C1a C    39.9745  -16.9567
+            24  O6a O    38.7499  -19.0328
+            25  C2y C    32.0392  -13.8229
+            26  C1a C    34.0284  -13.4722
+            27  C1a C    34.1607  -14.9614
+            28  C1y C    30.9237  -15.7551
+            29  C8y C    34.5233  -19.9645
+            30  O6a O    33.4365  -18.0094
+            31  O7a O    30.9293  -11.8851
+            32  C2y C    30.9237  -14.4613
+            33  O7a O    29.4457  -16.4910
+            34  C7a C    30.9293  -10.5970
+            35  C1a C    29.8081  -13.8229
+            36  C7a C    28.2899  -15.8240
+            37  C1a C    32.0450   -9.9530
+            38  O6a O    29.8196   -9.9530
+            39  C1c C    27.1226  -16.4968
+            40  O6a O    28.2899  -14.4843
+            41  C1c C    25.9611  -15.8240
+            42  C8y C    24.7995  -16.4968
+            43  N1b N    25.9611  -14.4843
+            44  C8x C    23.6321  -15.8240
+            45  C8x C    24.7995  -17.8366
+            46  C5a C    24.7937  -13.8172
+            47  C8x C    22.4706  -16.4968
+            48  C8x C    23.6321  -18.5151
+            49  C8y C    24.7937  -12.4772
+            50  O5a O    23.6321  -14.4843
+            51  C8x C    22.4706  -17.8366
+            52  C8x C    23.6265  -11.8046
+            53  C8x C    25.9553  -11.8046
+            54  C8x C    23.6265  -10.4589
+            55  C8x C    25.9553  -10.4589
+            56  C8x C    24.7937   -9.7861
+            57  C8x C    33.2348  -20.6470
+            58  C8x C    33.2156  -22.0297
+            59  C8x C    34.4738  -22.7371
+            60  C8x C    35.6932  -22.0545
+            61  C8x C    35.7116  -20.6718
+            62  C1c C    27.0579  -25.5496
+            63  N1b N    25.8693  -26.2354
+            64  C5a C    28.2940  -26.2643
+            65  C1b C    28.2452  -23.4496
+            66  C1b C    27.0586  -24.1343
+            67  C5a C    23.9864  -25.5520
+            68  N1b N    30.2024  -25.5676
+            69  O5a O    28.2931  -27.6499
+            70  C1c C    31.3825  -26.2498
+            71  C6a C    32.5783  -25.5602
+            72  C7a C    28.2458  -22.0504
+            73  O6a O    29.4841  -21.3357
+            74  O7a O    27.0593  -21.3646
+            75  O6a O    43.4947  -27.9961
+            76  O6a O    32.5792  -24.1503
+            77  C1c C    22.7924  -26.2410
+            78  O5a O    23.9868  -24.1502
+            79  N1a N    21.6048  -25.5549
+            80  C1b C    22.7919  -28.5597
+            81  C1b C    31.3818  -28.5598
+            82  C1b C    32.5775  -29.2511
+            83  C6a C    33.7658  -28.5658
+            84  O6a O    34.9559  -29.2539
+            85  C1b C    21.6003  -29.2473
+            86  C6a C    20.4158  -28.5630
+            87  O6a O    19.2228  -29.2516
+            88  O6a O    20.4161  -27.1602
+            89  O6a O    33.7667  -27.1603
+BOND        95
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9     4  10 1
+            10    4  11 1
+            11    4  12 1 #Up
+            12    5  13 1 #Up
+            13    5  14 1
+            14    7  15 1
+            15    8  16 1
+            16    8  17 1
+            17    8  18 1 #Up
+            18    9  19 1
+            19   10  20 1
+            20   10  21 2
+            21   11  22 1 #Up
+            22   15  23 1
+            23   15  24 2
+            24   16  25 1
+            25   16  26 1
+            26   16  27 1
+            27   17  28 1
+            28   19  29 1
+            29   19  30 2
+            30   20  31 1 #Up
+            31   25  32 2
+            32   28  33 1 #Down
+            33   31  34 1
+            34   32  35 1
+            35   33  36 1
+            36   34  37 1
+            37   34  38 2
+            38   36  39 1
+            39   36  40 2
+            40   39  41 1
+            41   41  42 1
+            42   41  43 1 #Down
+            43   42  44 2
+            44   42  45 1
+            45   43  46 1
+            46   44  47 1
+            47   45  48 2
+            48   46  49 1
+            49   46  50 2
+            50   47  51 2
+            51   49  52 1
+            52   49  53 2
+            53   52  54 2
+            54   53  55 1
+            55   54  56 1
+            56    6  13 1
+            57   11  14 1
+            58   20  25 1
+            59   28  32 1
+            60   48  51 1
+            61   55  56 2
+            62   29  57 2
+            63   57  58 1
+            64   58  59 2
+            65   59  60 1
+            66   60  61 2
+            67   29  61 1
+            68   62  63 1
+            69   62  64 1
+            70   65  66 1
+            71   62  66 1 #Up
+            72   63  67 1
+            73   64  68 1
+            74   64  69 2
+            75   68  70 1
+            76   70  71 1
+            77   65  72 1
+            78   72  73 2
+            79   72  74 1
+            80   39  74 1 #Down
+            81   71  75 1
+            82   71  76 2
+            83   67  77 1
+            84   67  78 2
+            85   77  79 1
+            86   77  80 1 #Down
+            87   70  81 1 #Down
+            88   81  82 1
+            89   82  83 1
+            90   83  84 1
+            91   80  85 1
+            92   85  86 1
+            93   86  87 1
+            94   86  88 2
+            95   83  89 2
+BRACKET     1    29.5400  -29.8900   29.5400  -23.7300
+            1    36.1900  -23.7300   36.1900  -29.8900
+            1  b
+  ORIGINAL  1   68  70  71  76  82  83  84  85  90
+  REPEAT    1 
+            2    17.9900  -29.9600   17.9900  -23.5900
+            2    24.5700  -23.5900   24.5700  -29.9600
+            2  a
+  ORIGINAL  2   67  77  78  79  81  86  87  88  89
+  REPEAT    2 
+            3    17.2900  -30.1700   17.2900   -9.3100
+            3    41.5800   -9.3100   41.5800  -30.1700
+            3  n
+  ORIGINAL  3    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+            3   17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32
+            3   33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48
+            3   49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64
+            3   65  66  67  68  69  70  71  72  73  74  76  77  78  79  81  82
+            3   83  84  85  86  87  88  89  90
+  REPEAT    3 
+///

@@ -1,0 +1,24 @@
+ENTRY       G11334                      Glycan
+NAME        Chondroitin
+COMPOSITION (GalNAc)1 (GlcA)1 (*)2
+REMARK      Same as: C00401
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Heteropolysaccharides
+                G11334  Chondroitin
+DBLINKS     GlyTouCan: G43702JT
+            JCGGDB: JCGG-STR018696
+NODE        4
+            1   *          15     0
+            2   GalNAc      5     0
+            3   GlcA       -5     0
+            4   *         -15     0
+EDGE        3
+            1     2:b1    1    
+            2     3:b1    2:3  
+            3     4       3:4  
+BRACKET     1  -9.0   2.0  -9.0  -2.0
+            1  10.0  -2.0  10.0   2.0
+            1 n
+///

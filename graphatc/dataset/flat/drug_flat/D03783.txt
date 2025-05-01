@@ -1,0 +1,214 @@
+ENTRY       D03783                      Drug
+NAME        Oxycodone terephthalate (USP)
+FORMULA     (C18H21NO4)2. C8H6O4
+EXACT_MASS  796.3207
+MOL_WEIGHT  796.8581
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: N02AA05
+            Chemical structure group: DG00813
+            Product (DG00813): D05312<US> D00847<US> D05462<JP>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Component of Percodan (TN)
+            Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            OPRK1 [HSA:4986] [KO:K04214]
+            OPRD1 [HSA:4985] [KO:K04213]
+  PATHWAY   hsa04080(4985+4986+4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AA Natural opium alkaloids
+                 N02AA05 Oxycodone
+                  D03783  Oxycodone terephthalate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00813  Oxycodone
+                D03783  Oxycodone terephthalate
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00813  Oxycodone
+                D03783  Oxycodone terephthalate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00813  Oxycodone
+                D03783  Oxycodone terephthalate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00813  Oxycodone
+                 D03783  Oxycodone terephthalate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D03783  Oxycodone terephthalate (USP)
+                OPRK1
+                 D03783  Oxycodone terephthalate (USP)
+                OPRD1
+                 D03783  Oxycodone terephthalate (USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03783
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00813  Oxycodone
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00813  Oxycodone
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00813  Oxycodone
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00813  Oxycodone
+DBLINKS     CAS: 64336-55-6
+            PubChem: 47205890
+            LigandBox: D03783
+ATOM        58
+            1   C8y C    18.5189   -7.7038
+            2   C6a C    18.5189   -9.1090
+            3   C8x C    17.3246   -7.0013
+            4   C8x C    19.7133   -7.0013
+            5   O6a O    19.7836   -9.8116
+            6   O6a O    17.3246   -9.8116
+            7   C8x C    17.3246   -5.5961
+            8   C8x C    19.7133   -5.5961
+            9   C8y C    18.5189   -4.9638
+            10  C6a C    18.5189   -3.5586
+            11  O6a O    19.7836   -2.8560
+            12  O6a O    17.3246   -2.8560
+            13  C1z C     7.4981   -7.5172
+            14  C8y C     7.4921   -6.1668
+            15  C1z C     8.6630   -8.1838
+            16  C1y C     6.3447   -8.1954
+            17  C8y C     6.3272   -5.4945
+            18  C8y C     8.6572   -5.4945
+            19  C1y C     9.8223   -7.4999
+            20  C1x C     8.6687   -9.5168
+            21  O1a O     9.8223   -9.1229
+            22  O2x O     5.6433   -6.8626
+            23  C5x C     6.3505   -9.5284
+            24  C8y C     6.3272   -4.1499
+            25  C1x C     9.8223   -6.1609
+            26  C8x C     8.6572   -4.1499
+            27  N1y N    10.9813   -8.1721
+            28  C1x C     7.5154  -10.1950
+            29  O5x O     5.1739  -10.1891
+            30  C8x C     7.4921   -3.4777
+            31  O2a O     5.1566   -3.4777
+            32  C1a C    12.3259   -8.1721
+            33  C1x C    10.9813   -6.8498
+            34  C1x C     8.7035   -6.8912
+            35  C1a C     3.9257   -4.1923
+            36  C1z C     7.4981   -7.5172
+            37  C8y C     7.4921   -6.1668
+            38  C8y C     6.3272   -5.4945
+            39  C8y C     6.3272   -4.1499
+            40  C8x C     7.4921   -3.4777
+            41  C8x C     8.6572   -4.1499
+            42  C8y C     8.6572   -5.4945
+            43  C1x C     9.8223   -6.1609
+            44  C1y C     9.8223   -7.4999
+            45  C1z C     8.6630   -8.1838
+            46  C1x C     8.6687   -9.5168
+            47  C1x C     7.5154  -10.1950
+            48  C5x C     6.3505   -9.5284
+            49  C1y C     6.3447   -8.1954
+            50  O2x O     5.6433   -6.8626
+            51  O5x O     5.1739  -10.1891
+            52  O1a O     9.8223   -9.1229
+            53  N1y N    10.9813   -8.1721
+            54  C1a C    12.3259   -8.1721
+            55  C1x C    10.9813   -6.8498
+            56  C1x C     8.7035   -6.8912
+            57  O2a O     5.1566   -3.4777
+            58  C1a C     3.9257   -4.1923
+BOND        66
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     4   8 1
+            8     7   9 1
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12    8   9 2
+            13   13  14 1
+            14   13  15 1
+            15   13  16 1
+            16   14  17 1
+            17   14  18 2
+            18   15  19 1
+            19   15  20 1
+            20   15  21 1 #Up
+            21   16  22 1 #Down
+            22   16  23 1
+            23   17  24 2
+            24   18  25 1
+            25   18  26 1
+            26   19  27 1 #Up
+            27   20  28 1
+            28   23  29 2
+            29   24  30 1
+            30   24  31 1
+            31   27  32 1
+            32   17  22 1
+            33   19  25 1
+            34   23  28 1
+            35   26  30 2
+            36   27  33 1
+            37   13  34 1 #Up
+            38   34  33 1
+            39   31  35 1
+            40   36  37 1
+            41   36  45 1
+            42   36  49 1
+            43   37  38 1
+            44   37  42 2
+            45   45  44 1
+            46   45  46 1
+            47   45  52 1 #Up
+            48   49  50 1 #Down
+            49   49  48 1
+            50   38  39 2
+            51   42  43 1
+            52   42  41 1
+            53   44  53 1 #Up
+            54   46  47 1
+            55   48  51 2
+            56   39  40 1
+            57   39  57 1
+            58   53  54 1
+            59   38  50 1
+            60   44  43 1
+            61   48  47 1
+            62   41  40 2
+            63   53  55 1
+            64   36  56 1 #Up
+            65   56  55 1
+            66   57  58 1
+BRACKET     1     2.1000  -11.0600    2.1000   -2.3100
+            1    14.2800   -2.3100   14.2800  -11.0600
+            1  2
+  ORIGINAL  1   13  14  17  24  30  26  18  25  19  15  20  28  23  16  22  29
+            1   21  27  32  33  34  31  35
+  REPEAT    1   36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51
+            1   52  53  54  55  56  57  58
+///

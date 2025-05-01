@@ -1,0 +1,109 @@
+ENTRY       D03801                      Drug
+NAME        Diethylpropion hydrochloride (USP);
+            Tenuate (TN)
+PRODUCT
+  GENERIC   DIETHYLPROPION (Chartwell RX)
+            DIETHYLPROPION HYDROCHLORIDE (A-S Medication Solutions)
+            DIETHYLPROPION HYDROCHLORIDE (A-S Medication Solutions)
+            DIETHYLPROPION HYDROCHLORIDE (Bryant Ranch Prepack)
+            DIETHYLPROPION HYDROCHLORIDE (Bryant Ranch Prepack)
+            DIETHYLPROPION HYDROCHLORIDE (Bryant Ranch Prepack)
+            DIETHYLPROPION HYDROCHLORIDE (Bryant Ranch Prepack)
+            DIETHYLPROPION HYDROCHLORIDE (Calvin Scott &)
+            DIETHYLPROPION HYDROCHLORIDE (Calvin Scott &)
+            DIETHYLPROPION HYDROCHLORIDE (KVK-TECH)
+            DIETHYLPROPION HYDROCHLORIDE (Lannett Company)
+            DIETHYLPROPION HYDROCHLORIDE (Lannett Company)
+            DIETHYLPROPION HYDROCHLORIDE (NuCare Pharmaceuticals)
+            DIETHYLPROPION HYDROCHLORIDE (PD-Rx Pharmaceuticals)
+            DIETHYLPROPION HYDROCHLORIDE (PD-Rx Pharmaceuticals)
+            DIETHYLPROPION HYDROCHLORIDE (PD-Rx Pharmaceuticals)
+            DIETHYLPROPION HYDROCHLORIDE (Proficient Rx LP)
+            DIETHYLPROPION HYDROCHLORIDE (Proficient Rx LP)
+            DIETHYLPROPION HYDROCHLORIDE ER (Chartwell RX)
+            DIETHYLPROPION HYDROCHLORIDE ER (Directrx)
+FORMULA     C13H19NO. HCl
+EXACT_MASS  241.1233
+MOL_WEIGHT  241.757
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+REMARK      ATC code: A08AA03
+            Chemical structure group: DG00104
+            Product (DG00104): D03801<US>
+EFFICACY    Appetite suppressant
+COMMENT     Diethylpropion is called Amfepramone in INN.
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531)  Synaptic vesicle cycle
+            hsa04728(6531)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A08 ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+               A08A ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+                A08AA Centrally acting antiobesity products
+                 A08AA03 Amfepramone
+                  D03801  Diethylpropion hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Anti-Obesity Agents
+              Diethylpropion
+               D03801  Diethylpropion hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00104  Amfepramone
+                 D03801  Diethylpropion hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D03801  Diethylpropion hydrochloride (USP) &lt;US&gt;
+                SLC6A3 (DAT1)
+                 D03801  Diethylpropion hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00104  Amfepramone
+DBLINKS     CAS: 134-80-5
+            PubChem: 17397889
+            ChEBI: 643703
+            LigandBox: D03801
+            NIKKAJI: J472.997H
+ATOM        16
+            1   C8y C    11.2700  -16.5200
+            2   C5a C    12.4600  -15.8200
+            3   C8x C    10.0800  -15.8200
+            4   C8x C    11.2700  -17.9200
+            5   C1c C    13.7200  -16.5200
+            6   O5a O    12.4600  -14.4200
+            7   C8x C     8.8200  -16.5200
+            8   C8x C    10.0800  -18.6200
+            9   N1c N    14.9100  -15.8200
+            10  C1a C    13.7200  -17.9200
+            11  C8x C     8.8200  -17.9200
+            12  C1b C    16.1000  -16.5200
+            13  C1b C    14.9100  -14.4200
+            14  C1a C    17.3600  -15.8200
+            15  C1a C    16.1000  -13.7200
+            16  X   Cl   18.1300  -18.4800
+BOND        15
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 2
+            8     5   9 1
+            9     5  10 1
+            10    7  11 2
+            11    9  12 1
+            12    9  13 1
+            13   12  14 1
+            14   13  15 1
+            15    8  11 1
+///

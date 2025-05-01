@@ -1,0 +1,152 @@
+ENTRY       D04107                      Drug
+NAME        Etoposide phosphate (USAN);
+            Etopophos (TN)
+PRODUCT     ETOPOPHOS (H2-Pharma)
+FORMULA     C29H33O16P
+EXACT_MASS  668.1506
+MOL_WEIGHT  668.5365
+CLASS       Antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+REMARK      ATC code: L01CB01
+            Chemical structure group: DG00693
+            Product (DG00693): D00125<JP/US> D04107<US>
+EFFICACY    Antineoplastic, Topoisomerase II inhibitor
+  DISEASE   Testicular tumors [DS:H00023]
+            Small cell lung cancer [DS:H00013]
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CB Podophyllotoxin derivatives
+                 L01CB01 Etoposide
+                  D04107  Etoposide phosphate (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Etoposide
+                D04107  Etoposide phosphate (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00693  Etoposide
+                 D04107  Etoposide phosphate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D04107  Etoposide phosphate (USAN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00693  Etoposide
+DBLINKS     CAS: 117091-64-2
+            PubChem: 47206058
+            LigandBox: D04107
+ATOM        46
+            1   C8y C    27.7376  -18.0842
+            2   C8y C    27.7376  -19.4861
+            3   C8x C    28.9516  -20.1870
+            4   C8y C    30.1657  -19.4861
+            5   C8y C    30.1657  -18.0842
+            6   C8x C    28.9516  -17.3833
+            7   C1y C    31.3797  -20.1870
+            8   C1y C    32.5937  -19.4861
+            9   C1y C    32.5937  -18.0842
+            10  C1y C    31.3797  -17.3833
+            11  O2x O    26.4042  -17.6511
+            12  C1x C    25.5803  -18.7851
+            13  O2x O    26.4042  -19.9193
+            14  C7x C    33.9269  -19.9193
+            15  O7x O    34.7510  -18.7851
+            16  C1x C    33.9269  -17.6511
+            17  O6a O    34.3542  -21.2348
+            18  C8y C    31.3797  -21.5888
+            19  C8x C    30.1677  -22.2886
+            20  C8y C    30.1677  -23.6904
+            21  C8y C    31.3817  -24.3914
+            22  C8y C    32.5937  -23.6916
+            23  C8x C    32.5937  -22.2898
+            24  O2a O    28.9706  -24.3818
+            25  O2a O    33.7929  -24.3841
+            26  C1a C    34.9828  -23.6971
+            27  C1a C    27.7827  -23.6960
+            28  O2b O    31.3817  -25.7944
+            29  O2a O    31.3797  -15.9814
+            30  C1y C    30.1677  -15.2817
+            31  C1y C    30.1677  -13.8788
+            32  C1y C    28.9536  -13.1779
+            33  C1y C    27.7396  -13.8788
+            34  C1y C    27.7396  -15.2817
+            35  O2x O    28.9537  -15.9826
+            36  O2x O    26.5255  -13.1779
+            37  C1y C    25.3114  -13.8788
+            38  O2x O    25.3114  -15.2817
+            39  C1x C    26.5255  -15.9826
+            40  O1a O    28.9536  -11.7760
+            41  C1a C    24.0771  -13.1660
+            42  O1a O    31.3990  -13.1677
+            43  P1b P    32.5725  -26.4816
+            44  O1c O    33.7854  -27.1819
+            45  O1c O    33.2751  -25.2645
+            46  O1c O    31.8749  -27.6900
+BOND        52
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    1  11 1
+            13   11  12 1
+            14   12  13 1
+            15    2  13 1
+            16    8  14 1
+            17   14  15 1
+            18   15  16 1
+            19    9  16 1
+            20   14  17 2
+            21    7  18 1 #Down
+            22   18  19 2
+            23   19  20 1
+            24   20  21 2
+            25   21  22 1
+            26   22  23 2
+            27   18  23 1
+            28   20  24 1
+            29   22  25 1
+            30   25  26 1
+            31   24  27 1
+            32   21  28 1
+            33   10  29 1 #Up
+            34   30  29 1 #Down
+            35   30  31 1
+            36   31  32 1
+            37   32  33 1
+            38   33  34 1
+            39   34  35 1
+            40   30  35 1
+            41   33  36 1
+            42   36  37 1
+            43   37  38 1
+            44   38  39 1
+            45   34  39 1
+            46   32  40 1 #Down
+            47   37  41 1 #Up
+            48   31  42 1 #Up
+            49   28  43 1
+            50   43  44 1
+            51   43  45 2
+            52   43  46 1
+///

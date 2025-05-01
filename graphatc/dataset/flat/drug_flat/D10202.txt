@@ -1,0 +1,121 @@
+ENTRY       D10202                      Drug
+NAME        Bafetinib (USAN)
+FORMULA     C30H31F3N8O
+EXACT_MASS  576.2573
+MOL_WEIGHT  576.6154
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+COMMENT     Oncology, chronic myeloid leukemia
+TARGET      BCR-ABL [HSA:25] [KO:K06619]
+            LYN [HSA:4067] [KO:K05854]
+  PATHWAY   hsa05220(25)  Chronic myeloid leukemia
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               D10202  Bafetinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               SRC family
+                LYN
+                 D10202  Bafetinib (USAN)
+               ABL family
+                BCR-ABL
+                 D10202  Bafetinib (USAN)
+DBLINKS     CAS: 859212-16-1
+            PubChem: 163312234
+            PDB-CCD: 406
+ATOM        42
+            1   N1b N    14.7700  -14.0000
+            2   C5a C    15.9824  -14.7000
+            3   C8y C    13.5576  -14.7000
+            4   C8y C    17.1779  -14.0096
+            5   O5a O    15.9825  -16.0998
+            6   C8x C    12.3621  -14.0096
+            7   C8y C    11.1496  -14.7095
+            8   C8y C    11.1494  -16.1095
+            9   C8x C    12.3449  -16.7999
+            10  C8x C    13.5574  -16.1000
+            11  C1a C     9.9266  -16.8154
+            12  N1b N     9.9184  -13.9985
+            13  C8y C     8.7215  -14.6895
+            14  N5x N     7.5351  -14.0043
+            15  C8y C     6.3226  -14.7042
+            16  C8x C     6.3224  -16.1042
+            17  C8x C     7.5089  -16.7894
+            18  N5x N     8.7214  -16.0895
+            19  C8y C     5.0915  -13.9932
+            20  C8x C     5.0919  -12.6001
+            21  N5x N     3.8796  -11.8998
+            22  C8x C     2.6670  -12.5995
+            23  N5x N     2.6667  -13.9926
+            24  C8x C     3.8789  -14.6929
+            25  C8x C    18.3653  -14.6951
+            26  C8y C    19.5777  -13.9950
+            27  C8y C    19.5776  -12.5950
+            28  C8x C    18.3903  -11.9096
+            29  C8x C    17.1779  -12.6096
+            30  C1b C    20.8045  -11.8864
+            31  C1d C    20.8090  -14.7060
+            32  N1y N    22.0119  -12.5834
+            33  C1x C    22.4211  -13.9287
+            34  C1y C    23.8337  -13.9535
+            35  C1x C    24.2938  -12.6177
+            36  C1x C    23.1655  -11.7673
+            37  X   F    22.0045  -15.3963
+            38  X   F    20.1090  -15.9184
+            39  X   F    21.5090  -13.4936
+            40  N1c N    24.6141  -15.0689
+            41  C1a C    26.0361  -15.0154
+            42  C1a C    24.0039  -16.2972
+BOND        46
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 2
+            6     6   7 1
+            7     7   8 2
+            8     8   9 1
+            9     9  10 2
+            10    3  10 1
+            11    8  11 1
+            12    7  12 1
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   13  18 1
+            20   15  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   19  24 1
+            27    4  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32    4  29 1
+            33   27  30 1
+            34   26  31 1
+            35   30  32 1
+            36   32  33 1
+            37   33  34 1
+            38   34  35 1
+            39   35  36 1
+            40   32  36 1
+            41   31  37 1
+            42   31  38 1
+            43   31  39 1
+            44   34  40 1 #Down
+            45   40  41 1
+            46   40  42 1
+///

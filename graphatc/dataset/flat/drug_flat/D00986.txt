@@ -1,0 +1,142 @@
+ENTRY       D00986                      Drug
+NAME        Fludrocortisone acetate (JP18/USP);
+            Florinef acetate (TN)
+PRODUCT
+  GENERIC   FLUDROCORTISONE ACETATE (American Health Packaging)
+            FLUDROCORTISONE ACETATE (Amneal Pharmaceuticals NY LLC)
+            FLUDROCORTISONE ACETATE (Amneal Pharmaceuticals of New York LLC)
+            FLUDROCORTISONE ACETATE (AvKARE)
+            FLUDROCORTISONE ACETATE (AvPAK)
+            FLUDROCORTISONE ACETATE (Bryant Ranch Prepack)
+            FLUDROCORTISONE ACETATE (Cardinal Health 107)
+            FLUDROCORTISONE ACETATE (NCS HealthCare of KY)
+            FLUDROCORTISONE ACETATE (NorthStar Rx LLC)
+            FLUDROCORTISONE ACETATE (Novitium Pharma LLC)
+            FLUDROCORTISONE ACETATE (Teva Pharmaceuticals USA)
+FORMULA     C23H31FO6
+EXACT_MASS  422.2105
+MOL_WEIGHT  422.487
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+REMARK      Same as: C08186
+            Therapeutic category: 2459
+            ATC code: H02AA02
+            Chemical structure group: DG00506
+            Product (DG00506): D00986<JP/US>
+EFFICACY    Salts metabolic regulator, Replenisher (glucocorticoid), Mineralocorticoid receptor agonist
+  DISEASE   Addison's disease [DS:H01598]
+COMMENT     mineralocorticoid
+TARGET      NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AA Mineralocorticoids
+                 H02AA02 Fludrocortisone
+                  D00986  Fludrocortisone acetate (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Adrenal)
+              Fludrocortisone
+               D00986  Fludrocortisone acetate (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               245  Adrenal hormone preparations
+                2459  Others
+                 D00986  Fludrocortisone acetate (JP18/USP)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG00506  Fludrocortisone
+                D00986  Fludrocortisone acetate
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               D00986  Fludrocortisone acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D00986  Fludrocortisone acetate (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00986  Fludrocortisone acetate
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG00506  Fludrocortisone
+DBLINKS     CAS: 514-36-3
+            PubChem: 7848049
+            ChEBI: 5102
+            LigandBox: D00986
+            NIKKAJI: J6.287A
+ATOM        30
+            1   C1x C    18.2700  -29.8900
+            2   C5x C    18.2700  -31.2900
+            3   C2x C    19.4600  -31.9900
+            4   C2y C    20.7200  -31.2900
+            5   C1z C    20.7200  -29.8900
+            6   C1x C    19.4600  -29.1900
+            7   C1x C    21.9100  -31.9900
+            8   C1x C    23.1000  -31.2900
+            9   C1y C    23.1000  -29.8900
+            10  C1z C    21.9100  -29.1900
+            11  C1y C    24.2900  -29.1900
+            12  C1z C    24.2900  -27.7900
+            13  C1x C    23.1000  -27.0900
+            14  C1y C    21.9100  -27.7900
+            15  O5x O    17.0800  -31.9900
+            16  C1a C    20.7200  -28.4900
+            17  O1a O    20.7200  -27.0900
+            18  C1a C    24.2900  -26.3900
+            19  X   F    21.9100  -30.5900
+            20  C1x C    26.7149  -29.1900
+            21  C1x C    26.7149  -27.7900
+            22  C1z C    25.5024  -27.0900
+            23  C5a C    25.5024  -25.6902
+            24  O5a O    24.2732  -24.9803
+            25  C1b C    26.6980  -24.9998
+            26  O7a O    27.8852  -25.6852
+            27  C7a C    29.0766  -24.9972
+            28  C1a C    30.2659  -25.6839
+            29  O6a O    29.0767  -23.5903
+            30  O1a O    26.6979  -26.3996
+BOND        33
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17    2  15 2
+            18    5  16 1 #Up
+            19   14  17 1 #Up
+            20   12  18 1 #Up
+            21   10  19 1 #Down
+            22   11  20 1
+            23   20  21 1
+            24   21  22 1
+            25   12  22 1
+            26   22  23 1 #Up
+            27   23  24 2
+            28   23  25 1
+            29   25  26 1
+            30   26  27 1
+            31   27  28 1
+            32   27  29 2
+            33   22  30 1 #Down
+///

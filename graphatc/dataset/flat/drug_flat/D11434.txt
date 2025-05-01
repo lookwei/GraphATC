@@ -1,0 +1,128 @@
+ENTRY       D11434                      Drug
+NAME        Nazartinib mesylate (USAN);
+            Nazartinib mesylate trihydrate
+FORMULA     C26H31ClN6O2. CH4SO3. 3H2O
+EXACT_MASS  644.2395
+MOL_WEIGHT  645.1678
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+REMARK      Chemical structure group: DG03015
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      EGFR [HSA:1956] [KO:K04361]
+  PATHWAY   hsa04010(1956)  MAPK signaling pathway
+            hsa04012(1956)  ErbB signaling pathway
+            hsa05200(1956)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03015  Nazartinib
+                 D11434  Nazartinib mesylate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR
+                 D11434  Nazartinib mesylate (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03015  Nazartinib
+DBLINKS     CAS: 1784778-10-4
+            PubChem: 384585411
+ATOM        43
+            1   C8x C    25.3571  -16.5311
+            2   C8x C    25.3571  -17.9321
+            3   C8x C    24.1663  -18.6325
+            4   C8y C    22.8354  -17.9321
+            5   C8y C    22.8354  -16.5311
+            6   C8y C    24.1663  -15.7606
+            7   N5x N    21.5045  -18.3524
+            8   C8y C    20.7340  -17.2316
+            9   N4y N    21.5045  -16.0408
+            10  N1b N    19.3330  -17.2316
+            11  C5a C    18.6325  -18.4224
+            12  C8y C    17.2316  -18.4224
+            13  O5a O    19.3330  -19.6132
+            14  C8x C    16.5311  -19.6132
+            15  C8y C    15.1302  -19.6132
+            16  N5x N    14.4297  -18.4224
+            17  C8x C    15.1302  -17.2316
+            18  C8x C    16.5311  -17.2316
+            19  C1a C    14.4297  -20.8040
+            20  X   Cl   24.1663  -14.3597
+            21  C1y C    21.0842  -14.7099
+            22  C1x C    22.2050  -12.4684
+            23  C1x C    21.0842  -11.5578
+            24  C1x C    19.7533  -11.9080
+            25  N1y N    19.1229  -13.1689
+            26  C1x C    22.2050  -13.8693
+            27  C1x C    19.7533  -14.4297
+            28  C5a C    17.9321  -13.8693
+            29  C2b C    16.7413  -13.1689
+            30  O5a O    17.9321  -15.2703
+            31  C2b C    15.5505  -13.8693
+            32  C1b C    14.3597  -13.1689
+            33  N1c N    13.1689  -13.8693
+            34  C1a C    11.9781  -13.1689
+            35  C1a C    13.1689  -15.2703
+            36  S4a S    29.4700  -14.8400
+            37  O1d O    29.4700  -13.4400
+            38  O1d O    29.4700  -16.2400
+            39  C1a C    28.0700  -14.8400
+            40  O1d O    30.8700  -14.8400
+            41  O0  O    30.2400  -19.6700
+            42  O0  O    30.2400  -19.6700
+            43  O0  O    30.2400  -19.6700
+BOND        42
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   11  13 2
+            15   12  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   12  18 1
+            21   15  19 1
+            22    6  20 1
+            23   21   9 1 #Up
+            24   24  25 1
+            25   22  26 1
+            26   25  27 1
+            27   23  24 1
+            28   26  21 1
+            29   22  23 1
+            30   27  21 1
+            31   25  28 1
+            32   28  29 1
+            33   28  30 2
+            34   29  31 2
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+            38   33  35 1
+            39   36  37 2
+            40   36  38 2
+            41   36  39 1
+            42   36  40 1
+BRACKET     1    27.9300  -20.3700   27.9300  -18.6200
+            1    31.0800  -18.6200   31.0800  -20.3700
+            1  3
+  ORIGINAL  1   41
+  REPEAT    1   42  43
+///

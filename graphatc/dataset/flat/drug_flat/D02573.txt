@@ -1,0 +1,102 @@
+ENTRY       D02573                      Drug
+NAME        Reboxetine mesylate (USAN);
+            Reboxetine mesilate;
+            Vestra (TN)
+FORMULA     C19H23NO3. CH4SO3
+EXACT_MASS  409.1559
+MOL_WEIGHT  409.4965
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+REMARK      ATC code: N06AX18
+            Chemical structure group: DG00961
+EFFICACY    Antidepressant, Selective noradrenaline reuptake inhibitor (NRI)
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530)  Synaptic vesicle cycle
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX18 Reboxetine
+                  D02573  Reboxetine mesylate (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00961  Reboxetine
+                D02573  Reboxetine mesylate
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D02573  Reboxetine mesylate (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00961  Reboxetine
+DBLINKS     CAS: 98769-84-7
+            PubChem: 17396744
+            LigandBox: D02573
+ATOM        28
+            1   C8x C    20.5327  -24.3754
+            2   C8x C    20.5327  -22.9740
+            3   C8y C    21.7501  -22.2697
+            4   C8x C    22.9607  -22.9740
+            5   C8x C    22.9607  -24.3754
+            6   C8x C    21.7501  -25.0726
+            7   C1c C    21.7520  -20.8682
+            8   C1y C    22.9674  -20.1725
+            9   O2a O    20.5381  -20.1694
+            10  C8y C    19.3226  -20.8651
+            11  O2x O    22.9635  -18.7772
+            12  C1x C    24.1792  -18.0744
+            13  C1x C    25.3929  -18.7802
+            14  N1x N    25.3911  -20.1816
+            15  C1x C    24.1756  -20.8773
+            16  C8x C    19.3223  -22.2633
+            17  C8x C    18.1138  -22.9661
+            18  C8x C    16.9000  -22.2602
+            19  C8x C    16.9017  -20.8587
+            20  C8y C    18.1173  -20.1630
+            21  O2a O    18.1209  -18.7616
+            22  C1b C    19.3304  -18.0604
+            23  C1a C    19.3340  -16.6590
+            24  C1a C    29.8429  -21.2133
+            25  S4a S    31.2374  -21.2133
+            26  O1d O    31.2303  -22.6078
+            27  O1d O    32.6318  -21.2133
+            28  O1d O    31.2303  -19.8189
+BOND        29
+            1    12  13 1
+            2    13  14 1
+            3    14  15 1
+            4    15   8 1
+            5     7   3 1 #Up
+            6     7   8 1
+            7     1   2 2
+            8     7   9 1
+            9    10  16 2
+            10   16  17 1
+            11   17  18 2
+            12   18  19 1
+            13   19  20 2
+            14   20  10 1
+            15    2   3 1
+            16   20  21 1
+            17    9  10 1
+            18   21  22 1
+            19    3   4 2
+            20   22  23 1
+            21    4   5 1
+            22    5   6 2
+            23    6   1 1
+            24    8  11 1
+            25   11  12 1
+            26   24  25 1
+            27   25  26 2
+            28   25  27 1
+            29   25  28 2
+///

@@ -1,0 +1,134 @@
+ENTRY       D00413                      Drug
+NAME        Zidovudine (JP18/USP/INN);
+            Azidothymidine;
+            Retrovir (TN)
+  ABBR      AZT, ZDV
+PRODUCT     RETROVIR (ViiV Healthcare Company)
+  GENERIC   ZIDOVUDINE (Aurobindo Pharma Limited)
+            ZIDOVUDINE (Aurobindo Pharma Limited)
+            ZIDOVUDINE (Aurobindo Pharma Limited)
+            ZIDOVUDINE (Camber Pharmaceuticals)
+            ZIDOVUDINE (REMEDYREPACK)
+FORMULA     C10H13N5O4
+EXACT_MASS  267.0968
+MOL_WEIGHT  267.2413
+CLASS       Antiviral
+             DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Transporter substrate
+             DG02859  SLC22A6 substrate
+             DG02860  SLC22A8 substrate
+REMARK      Same as: C07210
+            Therapeutic category: 6250
+            ATC code: J05AF01
+            Product: D00413<JP/US>
+            Product (mixture): D07507<JP/US> D10838<US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Transporter: SLC22A6 [HSA:9356], SLC22A8 [HSA:9376]
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+            map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AF Nucleoside and nucleotide reverse transcriptase inhibitors
+                 J05AF01 Zidovudine
+                  D00413  Zidovudine (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Nucleoside and Nucleotide Reverse Transcriptase Inhibitors (NRTI)
+               Zidovudine
+                D00413  Zidovudine (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D00413  Zidovudine (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01890  Nucleoside reverse transcriptase inhibitor (NRTI)
+               D00413  Zidovudine
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D00413  Zidovudine
+             Transporter substrate
+              DG02859  SLC22A6 substrate
+               D00413  Zidovudine
+              DG02860  SLC22A8 substrate
+               D00413  Zidovudine
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00413  Zidovudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00413  Zidovudine (JP18/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00413  Zidovudine (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00413  Zidovudine
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D00413
+DBLINKS     CAS: 30516-87-1
+            PubChem: 7847479
+            ChEBI: 10110
+            PDB-CCD: AZZ
+            LigandBox: D00413
+            NIKKAJI: J20.566D
+ATOM        19
+            1   C1y C    18.8657  -16.2961
+            2   N4y N    20.5359  -15.5648
+            3   C1x C    18.4295  -17.5962
+            4   O2x O    17.7601  -15.4854
+            5   C8y C    21.6329  -16.2525
+            6   C8x C    20.4803  -14.1952
+            7   C1y C    17.0654  -17.5917
+            8   C1y C    16.6491  -16.2888
+            9   N4x N    22.8245  -15.5863
+            10  O5x O    21.6194  -17.6179
+            11  C8y C    21.6659  -13.5204
+            12  N2b N    16.2659  -18.6975
+            13  C1b C    15.3431  -15.8696
+            14  C8y C    22.8512  -14.2198
+            15  C1a C    21.6815  -12.1564
+            16  O1a O    14.3229  -16.7755
+            17  O5x O    24.0708  -13.6122
+            18  N0  N    15.3644  -19.7657 #+
+            19  N2a N    14.3822  -20.9233 #-
+BOND        20
+            1     1   2 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 2
+            10    6  11 2
+            11    7  12 1 #Down
+            12    8  13 1 #Up
+            13    9  14 1
+            14   11  15 1
+            15   13  16 1
+            16   14  17 2
+            17    7   8 1
+            18   11  14 1
+            19   12  18 2
+            20   18  19 2
+///

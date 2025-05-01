@@ -1,0 +1,157 @@
+ENTRY       D01326                      Drug
+NAME        Aprindine hydrochloride (JP18/USAN);
+            Aspenon (TN)
+FORMULA     C22H30N2. HCl
+EXACT_MASS  358.2176
+MOL_WEIGHT  358.9479
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01651  Class Ib antiarrhythmic agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 2129
+            ATC code: C01BB04
+            Chemical structure group: DG00199
+            Product (DG00199): D01326<JP>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BB Antiarrhythmics, class Ib
+                 C01BB04 Aprindine
+                  D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               212  Antiarrhythmic agents
+                2129  Others
+                 D01326  Aprindine hydrochloride (JP18/USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01651  Class Ib antiarrhythmic agent
+                 DG00199  Aprindine
+                  D01326  Aprindine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00199  Aprindine
+                D01326  Aprindine hydrochloride
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               D01326  Aprindine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN2A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN3A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN4A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN5A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN8A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN9A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN10A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+                SCN11A
+                 D01326  Aprindine hydrochloride (JP18/USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01326  Aprindine hydrochloride
+              D01326  Aprindine hydrochloride capsules
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01326
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01651  Class Ib antiarrhythmic agent
+                 DG00199  Aprindine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00199  Aprindine
+DBLINKS     CAS: 33237-74-0
+            PubChem: 7848389
+            ChEBI: 31229
+            LigandBox: D01326
+            NIKKAJI: J245.500E
+ATOM        25
+            1   X   Cl   32.7915  -19.2578
+            2   N1c N    26.5338  -17.9795
+            3   C1b C    26.5338  -16.5753
+            4   C1b C    27.7273  -15.8732
+            5   C1b C    28.9208  -16.5753
+            6   N1c N    30.1845  -15.8732
+            7   C1b C    31.3780  -16.5753
+            8   C1a C    32.5715  -15.8732
+            9   C1b C    30.1845  -14.4692
+            10  C1a C    31.3780  -13.7671
+            11  C8y C    27.7273  -18.6815
+            12  C8x C    27.7273  -20.0856
+            13  C8x C    28.9910  -20.7877
+            14  C8x C    30.1845  -20.0856
+            15  C8x C    30.1845  -18.6815
+            16  C8x C    28.9208  -17.9795
+            17  C1y C    25.3541  -18.6537
+            18  C1x C    25.3481  -20.0476
+            19  C1x C    24.0304  -18.2171
+            20  C8y C    23.2061  -19.3413
+            21  C8y C    24.0205  -20.4726
+            22  C8x C    21.9150  -19.3243
+            23  C8x C    21.2284  -20.6165
+            24  C8x C    21.9395  -21.7455
+            25  C8x C    23.3412  -21.7991
+BOND        26
+            1     3   4 1
+            2     7   8 1
+            3    11  12 2
+            4    12  13 1
+            5    13  14 2
+            6    14  15 1
+            7    15  16 2
+            8    16  11 1
+            9     6   9 1
+            10    4   5 1
+            11    9  10 1
+            12    2   3 1
+            13    2  11 1
+            14    5   6 1
+            15    6   7 1
+            16    2  17 1
+            17   17  18 1
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21   18  21 1
+            22   20  22 2
+            23   22  23 1
+            24   23  24 2
+            25   24  25 1
+            26   21  25 2
+///

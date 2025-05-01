@@ -1,0 +1,70 @@
+ENTRY       D04434                      Drug
+NAME        Heteronium bromide (USAN/INN)
+FORMULA     C18H22NO3S. Br
+EXACT_MASS  411.0504
+MOL_WEIGHT  412.3412
+EFFICACY    Anti-ulcerative, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D04434  Heteronium bromide (USAN/INN)
+DBLINKS     CAS: 7247-57-6
+            PubChem: 47206304
+            LigandBox: D04434
+ATOM        24
+            1   C1d C    25.2230  -28.2573
+            2   C7a C    24.0900  -28.8946
+            3   O7a O    22.8861  -28.2573
+            4   O6a O    24.0900  -30.3109
+            5   C1y C    21.6114  -28.9655
+            6   C1x C    20.5327  -28.1865
+            7   C1x C    21.2107  -30.3313
+            8   N2y N    19.3754  -28.9778 #+
+            9   C1x C    19.8492  -30.2917
+            10  C8y C    26.4415  -28.9791
+            11  S2x S    26.8806  -30.3071
+            12  C8x C    28.2818  -30.3037
+            13  C8x C    28.7114  -28.9699
+            14  C8x C    27.5758  -28.1492
+            15  C8y C    25.2230  -26.8410
+            16  C8x C    26.4495  -26.1328
+            17  C8x C    26.4495  -24.7165
+            18  C8x C    25.2230  -24.0083
+            19  C8x C    23.9965  -24.7165
+            20  C8x C    23.9965  -26.1328
+            21  O1a O    26.3079  -27.4075
+            22  C1a C    18.1488  -28.2697
+            23  C1a C    18.1488  -29.6859
+            24  X   Br   18.7079  -31.4440 #-
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     2   4 2
+            4     3   5 1
+            5     5   6 1
+            6     5   7 1
+            7     6   8 1
+            8     7   9 1
+            9     8   9 1
+            10    1  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   10  14 2
+            16    1  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   15  20 2
+            23    1  21 1
+            24    8  22 1
+            25    8  23 1
+///

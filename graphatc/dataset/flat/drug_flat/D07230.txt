@@ -1,0 +1,95 @@
+ENTRY       D07230                      Drug
+NAME        Prednylidene (INN)
+FORMULA     C22H28O5
+EXACT_MASS  372.1937
+MOL_WEIGHT  372.4547
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: H02AB11
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB11 Prednylidene
+                  D07230  Prednylidene (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                D07230  Prednylidene
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07230  Prednylidene (INN)
+DBLINKS     CAS: 599-33-7
+            PubChem: 51091568
+            LigandBox: D07230
+            NIKKAJI: J6.795D
+ATOM        27
+            1   C1z C    28.6300  -17.8500
+            2   C1y C    28.6300  -19.2500
+            3   C1x C    31.0100  -19.2500
+            4   C2y C    31.0100  -17.8500
+            5   C1z C    29.8200  -17.1500
+            6   C1x C    27.4400  -17.1500
+            7   C1y C    26.2500  -17.8500
+            8   C1y C    26.2500  -19.2500
+            9   C1y C    27.4400  -19.9500
+            10  C1z C    25.0600  -19.9500
+            11  C2y C    25.0600  -21.2800
+            12  C1x C    26.2500  -21.9800
+            13  C1x C    27.4400  -21.2800
+            14  C2x C    23.8700  -19.2500
+            15  C2x C    22.6800  -19.9500
+            16  C5x C    22.6800  -21.2800
+            17  C2x C    23.8700  -21.9800
+            18  C5a C    29.8200  -15.8200
+            19  C1b C    30.7300  -14.8400
+            20  O1a O    32.0600  -15.1900
+            21  O1a O    31.0100  -16.5200
+            22  C1a C    28.6300  -16.5200
+            23  O1a O    25.0600  -17.1500
+            24  C1a C    25.0600  -18.5500
+            25  O5x O    21.4900  -21.9800
+            26  O5a O    28.4900  -15.2600
+            27  C2a C    32.3114  -17.3338
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13   9 1
+            16   10  14 1
+            17   14  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  11 2
+            21    5  18 1 #Up
+            22   18  19 1
+            23   19  20 1
+            24    5  21 1 #Down
+            25    1  22 1 #Up
+            26    7  23 1 #Up
+            27   10  24 1 #Up
+            28   16  25 2
+            29   18  26 2
+            30    4  27 2
+///

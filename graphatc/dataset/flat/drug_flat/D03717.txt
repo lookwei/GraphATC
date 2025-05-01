@@ -1,0 +1,109 @@
+ENTRY       D03717                      Drug
+NAME        Parecoxib sodium (USAN);
+            Dynastat (TN)
+FORMULA     C19H17N2O4S. Na
+EXACT_MASS  392.0807
+MOL_WEIGHT  392.404
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01922  Selective COX2 inhibitor
+               DG01907  Anti-inflammatory drug, coxibs
+REMARK      ATC code: M01AH04
+            Chemical structure group: DG00759
+EFFICACY    Analgesic, Anti-inflammatory, COX-2 inhibitor
+COMMENT     Active form of prodrug: Valdecoxib [DR:D02709]
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AH Coxibs
+                 M01AH04 Parecoxib
+                  D03717  Parecoxib sodium (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01922  Selective COX2 inhibitor
+                DG01907  Anti-inflammatory drug, coxibs
+                 DG00759  Parecoxib
+                  D03717  Parecoxib sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS2 (COX2)
+                 D03717  Parecoxib sodium (USAN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D03717
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01922  Selective COX2 inhibitor
+                DG01907  Anti-inflammatory drug, coxibs
+                 DG00759  Parecoxib
+            Prodrugs [br08324.html(DG00759)]
+             DG00759
+DBLINKS     CAS: 198470-85-8
+            PubChem: 17397808
+            LigandBox: D03717
+ATOM        27
+            1   C8y C    37.7300  -18.5500
+            2   C8y C    37.7300  -19.9500
+            3   N5x N    39.0600  -20.3700
+            4   O2x O    39.9000  -19.2500
+            5   C8y C    39.0600  -18.1300
+            6   C8y C    36.6100  -17.7100
+            7   C8y C    34.1600  -16.3100
+            8   C8x C    34.1600  -17.7100
+            9   C8x C    35.3500  -18.4100
+            10  C8x C    36.6100  -16.3100
+            11  C8x C    35.3500  -15.6100
+            12  S4a S    32.9700  -15.6100
+            13  N1b N    31.7100  -14.9100 #-
+            14  O3c O    33.6700  -14.4200
+            15  O3c O    32.2700  -16.8000
+            16  C5a C    30.5200  -15.6100
+            17  C1b C    29.3300  -14.9100
+            18  C1a C    28.1400  -15.6100
+            19  O5a O    30.5200  -17.0100
+            20  C8y C    36.6100  -20.7900
+            21  C8x C    34.1600  -20.7900
+            22  C8x C    34.1600  -22.1900
+            23  C8x C    35.3500  -22.8900
+            24  C8x C    36.6100  -22.1900
+            25  C8x C    35.3500  -20.0900
+            26  C1a C    39.4800  -16.8000
+            27  Z   Na   31.5000  -12.7400 #+
+BOND        28
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 1
+            5     1   5 2
+            6     1   6 1
+            7     7   8 2
+            8     8   9 1
+            9     9   6 2
+            10    6  10 1
+            11   10  11 2
+            12    7  11 1
+            13    7  12 1
+            14   12  13 1
+            15   12  14 2
+            16   12  15 2
+            17   13  16 1
+            18   16  17 1
+            19   17  18 1
+            20   16  19 2
+            21    2  20 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   24  20 1
+            26   20  25 2
+            27   21  25 1
+            28    5  26 1
+///

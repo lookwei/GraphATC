@@ -1,0 +1,149 @@
+ENTRY       D04965                      Drug
+NAME        Perphenazine hydrochloride;
+            Perphenazine dihydrochloride;
+            PZC intramuscular injection (TN)
+FORMULA     C21H26ClN3OS. 2HCl
+EXACT_MASS  475.1019
+MOL_WEIGHT  476.8905
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Therapeutic category: 1172
+            ATC code: N05AB03
+            Chemical structure group: DG00875
+            Product (DG00875): D00503<JP/US> D02037<JP> D04038<JP> D04965<JP>
+EFFICACY    Antipsychotic, Dopamine D2 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AB Phenothiazines with piperazine structure
+                 N05AB03 Perphenazine
+                  D04965  Perphenazine hydrochloride &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Antipsychotics
+              1st Generation/Typical
+               Perphenazine
+                D04965  Perphenazine hydrochloride
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1172  Phenothiazines
+                 D04965  Perphenazine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00875  Perphenazine
+                 D04965  Perphenazine hydrochloride
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00875  Perphenazine
+                 D04965  Perphenazine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00875  Perphenazine
+                D04965  Perphenazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D04965  Perphenazine hydrochloride &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04965
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00875  Perphenazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00875  Perphenazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00875  Perphenazine
+DBLINKS     CAS: 2015-28-3
+            PubChem: 47206701
+            LigandBox: D04965
+            NIKKAJI: J220.090B
+ATOM        29
+            1   C8x C    14.1146  -15.4316
+            2   C8x C    14.1146  -16.8355
+            3   C8x C    15.3304  -17.5374
+            4   C8y C    16.5462  -16.8355
+            5   C8y C    16.5462  -15.4316
+            6   C8x C    15.3304  -14.7297
+            7   S2x S    17.7620  -17.5374
+            8   C8y C    18.9778  -16.8355
+            9   C8y C    18.9778  -15.4316
+            10  N4y N    17.7620  -14.7297
+            11  C8x C    20.1936  -17.5374
+            12  C8x C    21.4094  -16.8355
+            13  C8y C    21.4094  -15.4316
+            14  C8x C    20.1936  -14.7297
+            15  C1b C    17.7620  -13.3258
+            16  C1b C    18.9799  -12.6227
+            17  C1b C    20.1797  -13.3156
+            18  N1y N    21.3698  -12.6285
+            19  C1x C    22.5646  -13.3186
+            20  C1x C    23.7804  -12.6167
+            21  N1y N    23.7806  -11.2129
+            22  C1x C    22.5858  -10.5229
+            23  C1x C    21.3700  -11.2246
+            24  C1b C    25.0088  -10.5038
+            25  C1b C    26.2201  -11.2031
+            26  O1a O    27.4046  -10.5193
+            27  X   Cl   22.6293  -14.7274
+            28  X   Cl   26.8100  -14.8400
+            29  X   Cl   26.8100  -14.8400
+BOND        30
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   10  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   18  23 1
+            27   21  24 1
+            28   24  25 1
+            29   25  26 1
+            30   13  27 1
+BRACKET     1    25.3400  -16.0300   25.3400  -13.7200
+            1    27.7900  -13.7200   27.7900  -16.0300
+            1  2
+  ORIGINAL  1   28
+  REPEAT    1   29
+///

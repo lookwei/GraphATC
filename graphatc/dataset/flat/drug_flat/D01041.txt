@@ -1,0 +1,127 @@
+ENTRY       D01041                      Drug
+NAME        Sparteine (INN)
+FORMULA     C15H26N2
+EXACT_MASS  234.2096
+MOL_WEIGHT  234.3803
+SOURCE      Sarothmus scoparius [TAX:3835]
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Same as: C10783
+            ATC code: C01BA04
+            Chemical structure group: DG00195
+EFFICACY    Antiarrhythmic, Oxytocic, Sodium channel blocker
+COMMENT     Alkaloid
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA04 Sparteine
+                  D01041  Sparteine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00195  Sparteine
+                  D01041  Sparteine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00195  Sparteine
+                D01041  Sparteine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D01041  Sparteine (INN)
+                SCN2A
+                 D01041  Sparteine (INN)
+                SCN3A
+                 D01041  Sparteine (INN)
+                SCN4A
+                 D01041  Sparteine (INN)
+                SCN5A
+                 D01041  Sparteine (INN)
+                SCN8A
+                 D01041  Sparteine (INN)
+                SCN9A
+                 D01041  Sparteine (INN)
+                SCN10A
+                 D01041  Sparteine (INN)
+                SCN11A
+                 D01041  Sparteine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01041
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00195  Sparteine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00195  Sparteine
+DBLINKS     CAS: 90-39-1
+            PubChem: 7848104
+            ChEBI: 28827
+            LigandBox: D01041
+            NIKKAJI: J4.317F
+ATOM        17
+            1   C1x C    26.2779   -7.0608
+            2   C1x C    26.2779   -8.4571
+            3   C1x C    27.4901   -9.1554
+            4   C1x C    27.4901   -6.3625
+            5   C1y C    28.6953   -7.0608
+            6   N1y N    28.6893   -8.4571
+            7   C1x C    29.8957   -9.1605
+            8   C1y C    31.1079   -8.4675
+            9   C1x C    31.1138   -7.0711
+            10  C1y C    29.9075   -6.3676
+            11  C1x C    31.1089   -5.6573
+            12  N1y N    32.3219   -6.3414
+            13  C1y C    32.3078   -7.7589
+            14  C1x C    33.5284   -8.4798
+            15  C1x C    34.7631   -7.7834
+            16  C1x C    34.8004   -6.3657
+            17  C1x C    33.5566   -5.6447
+BOND        20
+            1     8   9 1 #Up
+            2    10   9 1 #Up
+            3    10   5 1
+            4    10  11 1
+            5     8  13 1
+            6    11  12 1
+            7     1   2 1
+            8     2   3 1
+            9     3   6 1
+            10    5   4 1
+            11    4   1 1
+            12    5   6 1
+            13    6   7 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  12 1
+            20    7   8 1
+///

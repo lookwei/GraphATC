@@ -1,0 +1,79 @@
+ENTRY       D10739                      Drug
+NAME        Verubecestat (JAN/USAN/INN)
+FORMULA     C17H17F2N5O3S
+EXACT_MASS  409.102
+MOL_WEIGHT  409.4104
+EFFICACY    Dementia therapeutic agent, beta-Secretase inhibitor
+COMMENT     Treatment of Alzheimer's disease
+TARGET      BACE [HSA:23621 25825] [KO:K04521 K07747]
+  PATHWAY   hsa05010(23621+25825)  Alzheimer disease
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Aspartic peptidases
+                BACE
+                 D10739  Verubecestat (JAN/USAN/INN)
+DBLINKS     CAS: 1286770-55-5
+            PubChem: 254741700
+            PDB-CCD: 66F
+ATOM        28
+            1   C1z C    14.9855  -16.3101
+            2   C1x C    14.9855  -14.9101
+            3   S2x S    13.7731  -14.2101
+            4   N1y N    12.5606  -14.9101
+            5   C2y C    12.5606  -16.3101
+            6   N2x N    13.7731  -17.0101
+            7   O3c O    12.7832  -13.2202
+            8   O3c O    14.7630  -13.2202
+            9   C1a C    11.3482  -14.2101
+            10  N1a N    11.3482  -17.0101
+            11  C1a C    15.9754  -15.3201
+            12  N5x N    22.2601  -14.9101
+            13  C8y C    22.2601  -16.3101
+            14  C8x C    23.4725  -17.0101
+            15  C8x C    24.6850  -16.3101
+            16  C8y C    24.6850  -14.9101
+            17  C8x C    23.4725  -14.2101
+            18  N1b N    19.8352  -16.3101
+            19  C5a C    21.0477  -17.0101
+            20  C8y C    18.6228  -17.0101
+            21  C8x C    18.6228  -18.4101
+            22  O5a O    21.0477  -18.4101
+            23  C8x C    17.4104  -16.3101
+            24  C8y C    16.1979  -17.0101
+            25  C8y C    16.1979  -18.4101
+            26  C8x C    17.4104  -19.1101
+            27  X   F    14.9855  -19.1101
+            28  X   F    25.8975  -14.2101
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     3   7 2
+            8     3   8 2
+            9     4   9 1
+            10    5  10 1
+            11    1  11 1 #Down
+            12   12  13 2
+            13   13  14 1
+            14   14  15 2
+            15   15  16 1
+            16   16  17 2
+            17   12  17 1
+            18   18  19 1
+            19   13  19 1
+            20   18  20 1
+            21   20  21 1
+            22   19  22 2
+            23   20  23 2
+            24   23  24 1
+            25   24  25 2
+            26   25  26 1
+            27   21  26 2
+            28   25  27 1
+            29   16  28 1
+            30    1  24 1 #Up
+///

@@ -1,0 +1,81 @@
+ENTRY       D00611                      Drug
+NAME        Mecamylamine hydrochloride (USP);
+            Inversine (TN)
+PRODUCT
+  GENERIC   MECAMYLAMINE HYDROCHLORIDE (LGM Pharma Solutions)
+            VECAMYL (Vyera Pharmaceuticals)
+FORMULA     C11H21N. HCl
+EXACT_MASS  203.1441
+MOL_WEIGHT  203.7521
+CLASS       Cardiovascular agent
+             DG01695  Ganglion-blocking antiadrenergic
+REMARK      ATC code: C02BB01
+            Chemical structure group: DG00252
+            Product (DG00252): D00611<US>
+EFFICACY    Antihypertensive
+  DISEASE   Essential hypertension [DS:H01633]
+COMMENT     Secondary amine
+TARGET      CHRN [HSA:1134 1135 1136 1137 1138 8973 1139 55584 57053 1140 1141 1142 1143 1144 1145 1146] [KO:K04803 K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04812 K04813 K04814 K04815 K04816 K04817 K04818]
+  PATHWAY   hsa04080(1134+1135+1136+1137+1138+1139+1140+1141+1142+1143+1144+1145+1146+55584+57053+8973)  Neuroactive ligand-receptor interaction
+            hsa04725(1136+1137+1139+1141+1143+8973)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02B ANTIADRENERGIC AGENTS, GANGLION-BLOCKING
+                C02BB Secondary and tertiary amines
+                 C02BB01 Mecamylamine
+                  D00611  Mecamylamine hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Cardiovascular Agents, Other
+               Mecamylamine
+                D00611  Mecamylamine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01695  Ganglion-blocking antiadrenergic
+               DG00252  Mecamylamine
+                D00611  Mecamylamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN
+                 D00611  Mecamylamine hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01695  Ganglion-blocking antiadrenergic
+               DG00252  Mecamylamine
+DBLINKS     CAS: 826-39-1
+            PubChem: 7847677
+            ChEBI: 6707
+            LigandBox: D00611
+ATOM        13
+            1   C1z C    24.5931  -18.6687
+            2   C1y C    23.3666  -17.9621
+            3   C1z C    24.5931  -20.0821
+            4   C1x C    22.9112  -19.3169
+            5   C1x C    22.1346  -18.6687
+            6   C1y C    23.3551  -20.6894
+            7   C1x C    22.1346  -20.0821
+            8   C1a C    25.7844  -17.9798
+            9   C1a C    25.7514  -20.8042
+            10  C1a C    24.5931  -21.4852
+            11  N1b N    24.5931  -17.2655
+            12  C1a C    25.7847  -16.5771
+            13  X   Cl   29.3301  -19.5301
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1
+            5     3   6 1
+            6     5   7 1
+            7     4   6 1
+            8     6   7 1
+            9     1   8 1
+            10    3   9 1
+            11    3  10 1
+            12    1  11 1
+            13   11  12 1
+///

@@ -1,0 +1,77 @@
+ENTRY       D03303                      Drug
+NAME        Calcium phosphate, tribasic (NF)
+FORMULA     3PO4. 5Ca. OH
+EXACT_MASS  501.676
+MOL_WEIGHT  502.3114
+CLASS       Gastrointestinal agent
+             DG01980  Calcium
+REMARK      ATC code: A12AA01
+            Chemical structure group: DG00134
+            Product (DG00134): D00937<JP>
+EFFICACY    Supplement (calcium)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A12 MINERAL SUPPLEMENTS
+               A12A CALCIUM
+                A12AA Calcium
+                 A12AA01 Calcium phosphate
+                  D03303  Calcium phosphate, tribasic (NF)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00134  Calcium phosphate
+                D03303  Calcium phosphate, tribasic
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00134  Calcium phosphate
+DBLINKS     CAS: 12167-74-7
+            PubChem: 17397454
+            LigandBox: D03303
+ATOM        21
+            1   P1b P    16.7300  -14.4900
+            2   O1c O    16.7300  -13.0900
+            3   O1c O    16.7300  -15.8900 #-
+            4   O1c O    18.1766  -14.4900 #-
+            5   O1c O    15.3766  -14.4900 #-
+            6   Z   Ca   21.8400  -14.7700 #2+
+            7   O0  O    21.9800  -12.3900 #-
+            8   P1b P    16.7300  -14.4900
+            9   O1c O    16.7300  -15.8900 #-
+            10  O1c O    18.1766  -14.4900 #-
+            11  O1c O    15.3766  -14.4900 #-
+            12  O1c O    16.7300  -13.0900
+            13  P1b P    16.7300  -14.4900
+            14  O1c O    16.7300  -15.8900 #-
+            15  O1c O    18.1766  -14.4900 #-
+            16  O1c O    15.3766  -14.4900 #-
+            17  O1c O    16.7300  -13.0900
+            18  Z   Ca   21.8400  -14.7700 #2+
+            19  Z   Ca   21.8400  -14.7700 #2+
+            20  Z   Ca   21.8400  -14.7700 #2+
+            21  Z   Ca   21.8400  -14.7700 #2+
+BOND        12
+            1     1   3 1
+            2     1   4 1
+            3     1   5 1
+            4     1   2 2
+            5     8   9 1
+            6     8  10 1
+            7     8  11 1
+            8     8  12 2
+            9    13  14 1
+            10   13  15 1
+            11   13  16 1
+            12   13  17 2
+BRACKET     1    14.4900  -16.6600   14.4900  -12.1800
+            1    19.0400  -12.1800   19.0400  -16.6600
+            1  3
+  ORIGINAL  1    1   3   4   5   2
+  REPEAT    1    8   9  10  11  12  13  14  15  16  17
+            2    21.0700  -15.8200   21.0700  -13.6500
+            2    23.9400  -13.6500   23.9400  -15.8200
+            2  5
+  ORIGINAL  2    6
+  REPEAT    2   18  19  20  21
+///

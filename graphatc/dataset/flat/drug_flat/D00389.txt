@@ -1,0 +1,94 @@
+ENTRY       D00389                      Drug
+NAME        Metandienone (INN);
+            Methandrostenolone;
+            Dianabol (TN)
+FORMULA     C20H28O2
+EXACT_MASS  300.2089
+MOL_WEIGHT  300.4351
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+              DG01605  Anabolic steroid
+REMARK      ATC code: A14AA03 D11AE01
+EFFICACY    Anabolic, Androgen receptor agonist
+COMMENT     Androstan derivative
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A14 ANABOLIC AGENTS FOR SYSTEMIC USE
+               A14A ANABOLIC STEROIDS
+                A14AA Androstan derivatives
+                 A14AA03 Metandienone
+                  D00389  Metandienone (INN)
+             D DERMATOLOGICALS
+              D11 OTHER DERMATOLOGICAL PREPARATIONS
+               D11A OTHER DERMATOLOGICAL PREPARATIONS
+                D11AE Androgens for topical use
+                 D11AE01 Metandienone
+                  D00389  Metandienone (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                D00389  Metandienone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D00389  Metandienone (INN)
+DBLINKS     CAS: 72-63-9
+            PubChem: 7847455
+            ChEBI: 6810
+            LigandBox: D00389
+            NIKKAJI: J5.252C
+ATOM        22
+            1   C1y C    24.7158  -17.3365
+            2   C1y C    23.5376  -16.6424
+            3   C1y C    25.8937  -16.6600
+            4   C1x C    24.7158  -18.7012
+            5   C1z C    22.3537  -17.3249
+            6   C1x C    23.5493  -15.2836
+            7   C1z C    25.9113  -15.3011
+            8   C1x C    28.2558  -16.6891
+            9   C1x C    23.5259  -19.3778
+            10  C2y C    22.3479  -18.6896
+            11  C2x C    21.1698  -16.6367
+            12  C1x C    24.7391  -14.6071
+            13  C1z C    27.1010  -14.6362
+            14  C1x C    28.2732  -15.3303
+            15  C2x C    21.1698  -19.3718
+            16  C2x C    19.9801  -17.3249
+            17  C1a C    28.4249  -13.8022
+            18  O1a O    27.1069  -12.9099
+            19  C5x C    19.9801  -18.6896
+            20  O5x O    18.8020  -19.3718
+            21  C1a C    22.3537  -15.9249
+            22  C1a C    25.9113  -13.9011
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 1
+            14   10  15 2
+            15   11  16 2
+            16   13  17 1 #Down
+            17   13  18 1 #Up
+            18   15  19 1
+            19   19  20 2
+            20    7  12 1
+            21    9  10 1
+            22   13  14 1
+            23   16  19 1
+            24    5  21 1 #Up
+            25    7  22 1 #Up
+///

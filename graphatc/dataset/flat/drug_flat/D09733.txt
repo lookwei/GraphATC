@@ -1,0 +1,213 @@
+ENTRY       D09733                      Drug
+NAME        Afatinib dimaleate (USAN);
+            Afatinib maleate (JAN);
+            Gilotrif (TN);
+            Giotrif (TN)
+PRODUCT     GILOTRIF (Boehringer Ingelheim Pharmaceuticals)
+FORMULA     C24H25ClFN5O3. (C4H4O4)2
+EXACT_MASS  717.1849
+MOL_WEIGHT  718.0827
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03162  EGFR inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01EB03
+            Chemical structure group: DG00717
+            Product (DG00717): D09733<JP/US>
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+  DISEASE   Non-small cell lung cancer (EGFR mutation positive) [DS:H00014]
+TARGET      EGFR* [HSA_VAR:1956v2] [HSA:1956] [KO:K04361]
+            ERBB2 (HER2, CD340) [HSA:2064] [KO:K05083]
+            ERBB4 (HER4) [HSA:2066] [KO:K05085]
+  PATHWAY   hsa04010(1956+2064+2066)  MAPK signaling pathway
+            hsa04012(1956+2064+2066)  ErbB signaling pathway
+            hsa05200(1956+2064)  Pathways in cancer
+            hsa05223(1956+2064)  Non-small cell lung cancer
+METABOLISM  Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EB Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors
+                 L01EB03 Afatinib
+                  D09733  Afatinib dimaleate (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Afatinib
+                D09733  Afatinib dimaleate (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D09733  Afatinib dimaleate (USAN); Afatinib maleate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG00717  Afatinib
+                  D09733  Afatinib dimaleate
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00717  Afatinib
+                D09733  Afatinib dimaleate
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03162  EGFR inhibitor
+               D09733  Afatinib dimaleate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR* [HSA_VAR:1956v2]
+                 D09733  Afatinib dimaleate (USAN) &lt;JP/US&gt;
+                ERBB2 (HER2, CD340)
+                 D09733  Afatinib dimaleate (USAN) &lt;JP/US&gt;
+                ERBB4 (HER4)
+                 D09733  Afatinib dimaleate (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09733
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D09733
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09733
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09733
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D09733
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D09733
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG00717  Afatinib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00717  Afatinib
+DBLINKS     PubChem: 124490473
+            ChEBI: 76003
+            LigandBox: D09733
+ATOM        50
+            1   C2b C    26.0737  -14.3060
+            2   C2b C    27.4759  -14.3060
+            3   C6a C    25.3727  -15.5202
+            4   O6a O    23.9707  -15.5202
+            5   O6a O    26.0641  -16.7175
+            6   C6a C    28.1769  -15.5202
+            7   O6a O    29.5788  -15.5202
+            8   O6a O    27.4855  -16.7175
+            9   C8x C     6.5739  -14.4223
+            10  N5x N     6.5739  -15.8855
+            11  C8y C     7.8281  -16.5823
+            12  C8y C     9.0822  -15.8855
+            13  C8y C     9.0822  -14.4223
+            14  N5x N     7.8281  -13.7255
+            15  C8x C    10.2667  -16.5823
+            16  C8y C    11.4512  -15.8855
+            17  C8y C    11.4512  -14.4223
+            18  C8x C    10.2667  -13.7255
+            19  N1b N     7.8281  -17.9758
+            20  C8y C     9.0822  -18.6725
+            21  C8x C     9.0822  -19.9964
+            22  C8y C    10.2667  -20.6931
+            23  C8y C    11.4512  -19.9964
+            24  C8x C    11.4512  -18.6725
+            25  C8x C    10.2667  -17.9758
+            26  X   F    12.7054  -20.6931
+            27  X   Cl   10.2667  -22.1563
+            28  N1b N    12.6357  -16.5126
+            29  C5a C    13.8202  -15.8158
+            30  C2b C    15.0047  -16.5126
+            31  O5a O    13.8202  -14.4223
+            32  C2b C    16.1892  -15.8158
+            33  C1b C    17.3737  -16.5126
+            34  N1c N    18.5582  -15.8158
+            35  C1a C    19.7427  -16.5126
+            36  C1a C    18.5582  -14.4223
+            37  O2a O    12.6357  -13.7952
+            38  C1y C    12.6357  -12.4017
+            39  C1x C    13.8202  -11.4959
+            40  C1x C    13.3325  -10.1721
+            41  O2x O    11.9390  -10.1721
+            42  C1x C    11.4512  -11.4959
+            43  C2b C    26.0737  -14.3060
+            44  C2b C    27.4759  -14.3060
+            45  C6a C    28.1769  -15.5202
+            46  O6a O    29.5788  -15.5202
+            47  O6a O    27.4855  -16.7175
+            48  C6a C    25.3727  -15.5202
+            49  O6a O    23.9707  -15.5202
+            50  O6a O    26.0641  -16.7175
+BOND        51
+            1     9  10 1
+            2    10  11 2
+            3    11  12 1
+            4    12  13 1
+            5    13  14 1
+            6     9  14 2
+            7    12  15 2
+            8    15  16 1
+            9    16  17 2
+            10   17  18 1
+            11   13  18 2
+            12   11  19 1
+            13   19  20 1
+            14   20  21 2
+            15   21  22 1
+            16   22  23 2
+            17   23  24 1
+            18   24  25 2
+            19   20  25 1
+            20   23  26 1
+            21   22  27 1
+            22   16  28 1
+            23   28  29 1
+            24   29  30 1
+            25   29  31 2
+            26   30  32 2
+            27   32  33 1
+            28   33  34 1
+            29   34  35 1
+            30   34  36 1
+            31   17  37 1
+            32   38  37 1 #Down
+            33   38  39 1
+            34   39  40 1
+            35   40  41 1
+            36   41  42 1
+            37   38  42 1
+            38    1   2 2
+            39    1   3 1
+            40    3   4 1
+            41    3   5 2
+            42    2   6 1
+            43    6   7 2
+            44    6   8 1
+            45   43  44 2
+            46   43  48 1
+            47   48  49 1
+            48   48  50 2
+            49   44  45 1
+            50   45  46 2
+            51   45  47 1
+BRACKET     1    22.3300  -18.2700   22.3300  -13.3700
+            1    30.5200  -13.3700   30.5200  -18.2700
+            1  2
+  ORIGINAL  1    1   2   6   7   8   3   4   5
+  REPEAT    1   43  44  45  46  47  48  49  50
+///

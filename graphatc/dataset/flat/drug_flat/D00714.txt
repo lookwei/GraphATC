@@ -1,0 +1,115 @@
+ENTRY       D00714                      Drug
+NAME        Thiopental sodium (JP18/USP/INN);
+            Pentothal (TN)
+FORMULA     C11H17N2O2S. Na
+EXACT_MASS  264.0908
+MOL_WEIGHT  264.3196
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+             DG02030  Anesthetics
+              DG02027  General anesthetics
+               DG02025  Barbiturate anesthetics
+REMARK      Therapeutic category: 1115
+            ATC code: N01AF03 N05CA19
+            Chemical structure group: DG00790
+            Product (DG00790): D00714<JP>
+EFFICACY    Anesthetic (intravenous), Anticonvulsant
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01A ANESTHETICS, GENERAL
+                N01AF Barbiturates, plain
+                 N01AF03 Thiopental
+                  D00714  Thiopental sodium (JP18/USP/INN) &lt;JP&gt;
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA19 Thiopental
+                  D00714  Thiopental sodium (JP18/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               111  General anesthetics
+                1115  Barbiturates and thiobarbiturates
+                 D00714  Thiopental sodium (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00790  Thiopental
+                D00714  Thiopental sodium
+              DG01567  GABA-A receptor agonist
+               DG00790  Thiopental
+                D00714  Thiopental sodium
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02025  Barbiturate anesthetics
+                 DG00790  Thiopental
+                  D00714  Thiopental sodium
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00714  Thiopental sodium (JP18/USP/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00714  Thiopental sodium
+              D00714  Thiopental sodium for injection
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG00790  Thiopental
+              DG01567  GABA-A receptor agonist
+               DG00790  Thiopental
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02025  Barbiturate anesthetics
+                 DG00790  Thiopental
+DBLINKS     CAS: 71-73-8
+            PubChem: 7847779
+            ChEBI: 9561
+            LigandBox: D00714
+            NIKKAJI: J5.248E
+ATOM        17
+            1   C1z C    26.2911  -18.1358
+            2   C5x C    25.0763  -17.4408
+            3   C5x C    26.2911  -19.5434
+            4   C1c C    27.6811  -18.1358
+            5   C1b C    26.2851  -16.7400
+            6   N1x N    23.8557  -18.1358
+            7   O5x O    25.0646  -16.0333
+            8   N2x N    25.0763  -20.2443
+            9   O5x O    27.4941  -20.2443
+            10  C1b C    28.3760  -16.9210
+            11  C1a C    28.6680  -19.1229
+            12  C1a C    27.4941  -16.0391
+            13  C2y C    23.8557  -19.5434
+            14  C1b C    29.7720  -16.9210
+            15  S1a S    22.6350  -20.2383 #-
+            16  C1a C    30.4612  -15.7120
+            17  Z   Na   20.3971  -20.2427 #+
+BOND        16
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13   10  14 1
+            14   13  15 1
+            15   14  16 1
+            16    8  13 2
+///

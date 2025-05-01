@@ -1,0 +1,121 @@
+ENTRY       D12576                      Drug
+NAME        Povorcitinib phosphate (USAN)
+FORMULA     C23H22F5N7O. H3PO4
+EXACT_MASS  605.1575
+MOL_WEIGHT  605.4543
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+REMARK      Chemical structure group: DG03264
+EFFICACY    Anti-inflammatory, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of hidradenitis suppurativa, vitiligo, and prurigo nodulari
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+  PATHWAY   hsa04151(3716)  PI3K-Akt signaling pathway
+            hsa04621(3716)  NOD-like receptor signaling pathway
+            hsa04630(3716)  JAK-STAT signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03264  Povorcitinib
+                 D12576  Povorcitinib phosphate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D12576  Povorcitinib phosphate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03264  Povorcitinib
+DBLINKS     CAS: 1637677-33-8
+ATOM        41
+            1   C8y C    18.3322  -17.4925
+            2   C8y C    18.3322  -16.0931
+            3   C8x C    17.1427  -15.3934
+            4   C8y C    15.8832  -16.0931
+            5   C8y C    15.8832  -17.4925
+            6   C8x C    17.1427  -18.1922
+            7   X   F    14.6937  -15.3934
+            8   X   F    19.5217  -18.1922
+            9   C5a C    14.6937  -18.1922
+            10  N1b N    13.5042  -17.4925
+            11  O5a O    14.6937  -19.5916
+            12  C1c C    12.3147  -18.1922
+            13  C1d C    11.1253  -17.4925
+            14  C1a C    12.3147  -19.5916
+            15  X   F     9.8658  -16.7928
+            16  X   F    11.8250  -16.3030
+            17  X   F    10.4256  -18.6820
+            18  N1y N    19.5217  -15.3934
+            19  C1x C    20.8511  -15.7433
+            20  C1z C    21.2010  -14.4139
+            21  C1x C    19.8715  -14.0640
+            22  C1b C    21.6208  -13.0844
+            23  C3b C    22.9502  -12.6646
+            24  N3a N    24.3496  -12.3147
+            25  N4y N    22.5304  -14.7637
+            26  C8x C    23.0202  -16.1631
+            27  C8y C    24.4196  -16.0931
+            28  C8x C    24.8394  -14.7637
+            29  N5x N    23.6499  -13.9241
+            30  C8y C    25.2592  -17.2826
+            31  C8y C    24.8394  -18.6121
+            32  N4x N    26.0289  -19.4517
+            33  N5x N    27.1484  -18.5421
+            34  C8y C    26.6586  -17.2127
+            35  C1a C    27.4283  -16.1631
+            36  C1a C    23.5100  -19.0319
+            37  P1b P    32.0600  -16.1700
+            38  O1c O    30.6600  -16.1700
+            39  O1c O    33.4600  -16.1700
+            40  O1c O    32.0600  -17.5700
+            41  O1c O    32.0600  -14.7700
+BOND        43
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     1   8 1
+            9     5   9 1
+            10    9  10 1
+            11    9  11 2
+            12   10  12 1
+            13   12  13 1
+            14   12  14 1 #Up
+            15   13  15 1
+            16   13  16 1
+            17   13  17 1
+            18    2  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   18  21 1
+            23   20  22 1
+            24   22  23 1
+            25   23  24 3
+            26   20  25 1
+            27   25  26 1
+            28   26  27 2
+            29   27  28 1
+            30   28  29 2
+            31   25  29 1
+            32   27  30 1
+            33   30  31 2
+            34   31  32 1
+            35   32  33 1
+            36   33  34 2
+            37   30  34 1
+            38   34  35 1
+            39   31  36 1
+            40   37  38 1
+            41   37  39 1
+            42   37  40 1
+            43   37  41 2
+///

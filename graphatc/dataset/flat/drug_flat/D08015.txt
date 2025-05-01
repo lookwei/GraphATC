@@ -1,0 +1,45 @@
+ENTRY       D08015                      Drug
+NAME        Ferrous succinate;
+            Ferplex (TN)
+FORMULA     C4H4O4. Fe
+EXACT_MASS  171.9459
+MOL_WEIGHT  171.9172
+CLASS       Blood modifier agent
+             DG01694  Iron preparation
+REMARK      ATC code: B03AA06
+EFFICACY    Anti-anemic, Hematinic, Supplement (iron)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B03 ANTIANEMIC PREPARATIONS
+               B03A IRON PREPARATIONS
+                B03AA Iron bivalent, oral preparations
+                 B03AA06 Ferrous succinate
+                  D08015  Ferrous succinate
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01694  Iron preparation
+               D08015  Ferrous succinate
+DBLINKS     CAS: 10030-90-7
+            PubChem: 96024708
+            LigandBox: D08015
+            NIKKAJI: J62.812C
+ATOM        9
+            1   C1b C    13.6500  -15.8900
+            2   C1b C    13.6500  -17.2900
+            3   C6a C    14.8624  -17.9900
+            4   O6a O    16.0749  -17.2900 #-
+            5   O6a O    16.0749  -15.8900 #-
+            6   C6a C    14.8624  -15.1900
+            7   O6a O    14.8624  -13.7902
+            8   O6a O    14.8624  -19.3898
+            9   Z   Fe   18.3400  -16.6600 #2+
+BOND        7
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     5   6 1
+            5     1   6 1
+            6     6   7 2
+            7     3   8 2
+///

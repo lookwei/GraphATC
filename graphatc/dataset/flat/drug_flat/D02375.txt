@@ -1,0 +1,151 @@
+ENTRY       D02375                      Drug
+NAME        Terbinafine (USAN/INN);
+            Lamasil (TN)
+FORMULA     C21H25N
+EXACT_MASS  291.1987
+MOL_WEIGHT  291.4299
+CLASS       Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG02918  CYP2C8 substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      Same as: C08079
+            ATC code: D01AE15 D01BA02
+            Chemical structure group: DG00375
+            Product (DG00375): D02219<JP/US>
+EFFICACY    Antifungal, Ergosterol biosynthesis inhibitor
+COMMENT     Allylamine derivative
+TARGET      squalene epoxidase [KO:K00511]
+  PATHWAY   ko00100(K00511)  Steroid biosynthesis
+METABOLISM  Enzyme: CYP2C9 [HSA:1559], CYP1A2 [HSA:1544], CYP3A4 [HSA:1576], CYP2C8 [HSA:1558], CYP2C19 [HSA:1557]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+STR_MAP     map07026  Antifungal agents
+            map07114  Naphthalene family
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D01 ANTIFUNGALS FOR DERMATOLOGICAL USE
+               D01A ANTIFUNGALS FOR TOPICAL USE
+                D01AE Other antifungals for topical use
+                 D01AE15 Terbinafine
+                  D02375  Terbinafine (USAN/INN)
+               D01B ANTIFUNGALS FOR SYSTEMIC USE
+                D01BA Antifungals for systemic use
+                 D01BA02 Terbinafine
+                  D02375  Terbinafine (USAN/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Terbinafine
+                D02375  Terbinafine (USAN/INN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Terbinafine
+                D02375  Terbinafine (USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00375  Terbinafine
+                D02375  Terbinafine
+              DG02918  CYP2C8 substrate
+               DG00375  Terbinafine
+                D02375  Terbinafine
+              DG01642  CYP2C9 substrate
+               DG00375  Terbinafine
+                D02375  Terbinafine
+              DG01639  CYP2C19 substrate
+               DG00375  Terbinafine
+                D02375  Terbinafine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00375  Terbinafine
+                 D02375  Terbinafine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00375  Terbinafine
+                D02375  Terbinafine
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Other ergosterol biosynthesis inhibitor
+                D02375  Terbinafine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02375
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00375  Terbinafine
+              DG02918  CYP2C8 substrate
+               DG00375  Terbinafine
+              DG01642  CYP2C9 substrate
+               DG00375  Terbinafine
+              DG01639  CYP2C19 substrate
+               DG00375  Terbinafine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00375  Terbinafine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00375  Terbinafine
+            Antimicrobials abbreviations [BR:br08327]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Other ergosterol biosynthesis inhibitor
+                DG00375  Terbinafine
+DBLINKS     CAS: 91161-71-6
+            PubChem: 7849434
+            ChEBI: 9448
+            LigandBox: D02375
+            NIKKAJI: J126.310B
+ATOM        22
+            1   C8x C     5.7400  -17.9200
+            2   C8x C     5.7400  -19.3200
+            3   C8x C     6.9524  -20.0200
+            4   C8y C     8.1649  -19.3200
+            5   C8y C     8.1649  -17.9200
+            6   C8x C     6.9524  -17.2200
+            7   C8x C     9.3773  -20.0200
+            8   C8x C    10.5897  -19.3200
+            9   C8x C    10.5897  -17.9200
+            10  C8y C     9.3773  -17.2200
+            11  C1b C     9.3773  -15.8200
+            12  N1c N    10.5918  -15.1188
+            13  C1b C    11.7883  -15.8098
+            14  C1a C    10.5918  -13.7202
+            15  C2b C    12.9751  -15.1246
+            16  C2b C    14.1666  -15.8128
+            17  C3b C    15.3560  -15.1261
+            18  C3b C    16.5684  -14.4261
+            19  C1d C    17.7808  -13.7261
+            20  C1a C    18.9933  -13.0261
+            21  C1a C    17.0780  -12.5087
+            22  C1a C    18.4780  -14.9336
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   12  14 1
+            16   13  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 3
+            20   18  19 1
+            21   19  20 1
+            22   19  21 1
+            23   19  22 1
+///

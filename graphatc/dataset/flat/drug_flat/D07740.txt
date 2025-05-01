@@ -1,0 +1,148 @@
+ENTRY       D07740                      Drug
+NAME        Codeine hydrochloride;
+            Bisoltus (TN)
+FORMULA     C18H22NO3. Cl
+EXACT_MASS  335.1288
+MOL_WEIGHT  335.8252
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03189  UGT2B4 substrate
+              DG03190  UGT2B7 substrate
+REMARK      ATC code: R05DA04
+            Chemical structure group: DG01076
+            Product (DG01076): D02101<JP> D03580<US>
+EFFICACY    Analgesic (narcotic), Antitussive, Narcotic, Opioid receptor agonist
+COMMENT     Opium alkaloid
+            Active form of prodrug: Morphine [DR:D08233]
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: UGT2B7 [HSA:7364], UGT2B4 [HSA:7363]; CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA04 Codeine
+                  D07740  Codeine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01076  Codeine
+                 D07740  Codeine hydrochloride
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01076  Codeine
+                D07740  Codeine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01076  Codeine
+                D07740  Codeine hydrochloride
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01076  Codeine
+                 D07740  Codeine hydrochloride
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG01076  Codeine
+                 D07740  Codeine hydrochloride
+               DG03190  UGT2B7 substrate
+                DG01076  Codeine
+                 D07740  Codeine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07740  Codeine hydrochloride
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07740
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG01076  Codeine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG01076  Codeine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01076  Codeine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01076  Codeine
+              DG02924  UGT substrate
+               DG03189  UGT2B4 substrate
+                DG01076  Codeine
+               DG03190  UGT2B7 substrate
+                DG01076  Codeine
+            Prodrugs [br08324.html(DG01076)]
+             DG01076
+DBLINKS     CAS: 1422-07-7
+            PubChem: 51092036
+            LigandBox: D07740
+            NIKKAJI: J44.373E
+ATOM        23
+            1   C1z C    17.6971  -16.7898
+            2   C8y C    17.6971  -15.5305
+            3   C1y C    18.8165  -17.4894
+            4   C1y C    16.5777  -17.4894
+            5   C1x C    18.8865  -16.1602
+            6   C8y C    16.5777  -14.8309
+            7   C8y C    18.8865  -14.8309
+            8   C1y C    20.0058  -16.7898
+            9   C2x C    18.8165  -18.7487
+            10  O2x O    15.2485  -16.0902
+            11  C1y C    16.5777  -18.7487
+            12  C1x C    21.1952  -16.1602
+            13  C8y C    16.5777  -13.5016
+            14  C1x C    20.0058  -15.5305
+            15  C8x C    18.8865  -13.5016
+            16  N2y N    21.1952  -17.4894 #+
+            17  C2x C    17.6971  -19.4483
+            18  O1a O    15.4583  -19.4483
+            19  C8x C    17.6971  -12.8720
+            20  O2a O    15.4583  -12.8720
+            21  C1a C    14.3390  -13.5016
+            22  C1a C    22.5245  -17.4894
+            23  X   Cl   22.9442  -14.2012 #-
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 2
+            17   11  18 1 #Down
+            18   13  19 2
+            19   13  20 1
+            20   20  21 1
+            21    6  10 1
+            22    8  14 1
+            23   11  17 1
+            24   12  16 1
+            25   15  19 1
+            26   16  22 1
+///

@@ -1,0 +1,88 @@
+ENTRY       D02563                      Drug
+NAME        Befloxatone (INN)
+FORMULA     C15H18F3NO5
+EXACT_MASS  349.1137
+MOL_WEIGHT  349.3023
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01558  Monoamine oxidase A inhibitor
+EFFICACY    Antidepressant, Monoamine oxidase A (MAO-A) inhibitor
+TARGET      MAOA [HSA:4128] [KO:K00274]
+  PATHWAY   hsa00260(4128)  Glycine, serine and threonine metabolism
+            hsa00330(4128)  Arginine and proline metabolism
+            hsa00340(4128)  Histidine metabolism
+            hsa00350(4128)  Tyrosine metabolism
+            hsa00360(4128)  Phenylalanine metabolism
+            hsa00380(4128)  Tryptophan metabolism
+            hsa00982(4128)  Drug metabolism - cytochrome P450
+            hsa04726(4128)  Serotonergic synapse
+            hsa04728(4128)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07216  Catecholamine transferase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01558  Monoamine oxidase A inhibitor
+                D02563  Befloxatone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOA
+                 D02563  Befloxatone (INN)
+DBLINKS     CAS: 134564-82-2
+            PubChem: 17396734
+            LigandBox: D02563
+            NIKKAJI: J561.796K
+ATOM        24
+            1   C8x C    14.7700  -16.6600
+            2   C8y C    14.7700  -18.0600
+            3   C8x C    15.9600  -18.7600
+            4   C8x C    17.2200  -18.0600
+            5   C8y C    17.2200  -16.6600
+            6   C8x C    15.9600  -15.9600
+            7   O2a O    13.5800  -18.7600
+            8   C1b C    12.3200  -18.0600
+            9   C1b C    11.1300  -18.7600
+            10  C1c C     9.9400  -18.0600
+            11  C1d C     8.6800  -18.7600
+            12  N1y N    18.4100  -15.9600
+            13  C1x C    19.8100  -15.9600
+            14  C1y C    20.2300  -14.6300
+            15  O7x O    19.1100  -13.7900
+            16  C7x C    17.9900  -14.6300
+            17  O6a O    16.6570  -14.2020
+            18  C1b C    21.4424  -13.9300
+            19  O2a O    22.6549  -14.6300
+            20  C1a C    23.8673  -13.9300
+            21  O1a O     9.9572  -16.6601
+            22  X   F     7.4900  -19.4600
+            23  X   F     7.9800  -17.5700
+            24  X   F     9.3800  -19.9500
+BOND        25
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    5  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   12  16 1
+            18   16  17 2
+            19   14  18 1 #Up
+            20   18  19 1
+            21   19  20 1
+            22   10  21 1 #Down
+            23   11  22 1
+            24   11  23 1
+            25   11  24 1
+///

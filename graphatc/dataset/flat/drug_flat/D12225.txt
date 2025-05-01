@@ -1,0 +1,34 @@
+ENTRY       D12225                      Drug
+NAME        Mazdutide (USAN)
+FORMULA     C210H322N46O67
+EXACT_MASS  4560.3203
+MOL_WEIGHT  4563.0717
+SEQUENCE    HXQGTFTSDY SKYLDEKKAK EFVEWLLEGG PSSG
+  TYPE      Peptide
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01493  GLP-1 receptor agonist
+EFFICACY    Antidiabetic, Antiobesity, Glucagon-like peptide 1 (GLP-1) receptor agonist, Glucagon receptor agonist
+COMMENT     Treatment of diabetes, NASH and obesity
+TARGET      GLP1R [HSA:2740] [KO:K04581]
+            GCGR [HSA:2642] [KO:K04583]
+  PATHWAY   hsa04024(2641+2740)  cAMP signaling pathway
+            hsa04080(2641+2740)  Neuroactive ligand-receptor interaction
+            hsa04911(2641+2740)  Insulin secretion
+            hsa04922(2641)  Glucagon signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01493  GLP-1 receptor agonist
+                D12225  Mazdutide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Secretin receptor family
+               Glucagon
+                GLP1R
+                 D12225  Mazdutide (USAN)
+                GCGR
+                 D12225  Mazdutide (USAN)
+DBLINKS     CAS: 2259884-03-0
+///

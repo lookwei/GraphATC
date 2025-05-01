@@ -1,0 +1,107 @@
+ENTRY       D06127                      Drug
+NAME        Tiamulin (USP/INN);
+            Denagard (TN)
+FORMULA     C28H47NO4S
+EXACT_MASS  493.3226
+MOL_WEIGHT  493.7421
+CLASS       Antibacterial
+             DG01813  Pleuromutilin
+REMARK      Same as: C12065
+            Chemical structure group: DG01437
+EFFICACY    Antibacterial (veterinary), Protein biosynthesis inhibitor
+COMMENT     Pleuromutilin [CPD:C09169] derivative
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01813  Pleuromutilin
+               DG01437  Tiamulin
+                D06127  Tiamulin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Pleuromutilin
+                D06127  Tiamulin (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01813  Pleuromutilin
+               DG01437  Tiamulin
+DBLINKS     CAS: 55297-95-5
+            PubChem: 47207785
+            ChEBI: 44137
+            PDB-CCD: MUL
+            LigandBox: D06127
+            NIKKAJI: J12.323D
+ATOM        34
+            1   C1z C    38.1781  -18.0720
+            2   C1y C    37.1918  -19.0641
+            3   C1y C    38.1781  -16.6656
+            4   C1x C    39.4330  -18.7140
+            5   C1x C    38.1722  -19.5368
+            6   C1z C    35.7853  -19.0641
+            7   C5x C    37.8221  -20.3190
+            8   C1y C    37.1918  -15.6735
+            9   C1a C    39.4737  -16.1285
+            10  C1x C    39.2110  -20.1029
+            11  C1x C    36.8407  -19.5010
+            12  C1y C    34.7932  -18.0661
+            13  C1y C    35.7794  -20.4648
+            14  C1a C    34.8963  -20.1487
+            15  O5x O    37.1860  -21.5678
+            16  C1z C    35.7853  -15.6735
+            17  O1a O    37.7229  -14.3777
+            18  C1x C    34.7932  -16.6656
+            19  O7a O    33.4917  -18.6089
+            20  C1a C    35.4060  -21.8188
+            21  C7a C    32.2779  -17.9028
+            22  C1b C    31.0638  -18.6089
+            23  O6a O    32.2719  -16.5021
+            24  S2a S    29.8501  -17.9028
+            25  C1b C    28.6443  -18.5964
+            26  C1b C    27.4384  -17.8982
+            27  N1c N    26.2325  -18.5964
+            28  C1b C    25.0266  -17.8982
+            29  C1a C    23.8208  -18.5964
+            30  C1b C    26.2325  -19.9926
+            31  C1a C    25.0232  -20.6908
+            32  C2b C    35.2597  -14.4042
+            33  C1a C    34.3838  -15.6735
+            34  C2a C    35.2597  -13.0027
+BOND        36
+            1     3   8 1
+            2     3   9 1 #Down
+            3     4  10 1
+            4     5  11 1
+            5     6  12 1
+            6     6  13 1
+            7     6  14 1 #Down
+            8     7  15 2
+            9     8  16 1
+            10    8  17 1 #Up
+            11   12  18 1
+            12   12  19 1 #Down
+            13   13  20 1 #Up
+            14   19  21 1
+            15   21  22 1
+            16   21  23 2
+            17   22  24 1
+            18    7  10 1
+            19   11  13 1
+            20   16  18 1
+            21   24  25 1
+            22    1   2 1
+            23   25  26 1
+            24    1   3 1
+            25   26  27 1
+            26    1   4 1
+            27   27  28 1
+            28    1   5 1 #Up
+            29   28  29 1
+            30    2   6 1
+            31   27  30 1
+            32    2   7 1
+            33   30  31 1
+            34   16  32 1 #Up
+            35   16  33 1 #Down
+            36   32  34 2
+///

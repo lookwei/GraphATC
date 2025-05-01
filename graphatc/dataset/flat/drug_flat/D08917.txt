@@ -1,0 +1,98 @@
+ENTRY       D08917                      Drug
+NAME        Ezatiostat hydrochloride (USAN)
+FORMULA     C27H35N3O6S. HCl
+EXACT_MASS  565.2013
+MOL_WEIGHT  566.1092
+EFFICACY    Antineoplastic, Glutathione S-transferase inhibitor
+COMMENT     Treatment of disorders of bone marrow cellular growth and differentiation
+TARGET      GSTP1 [HSA:2950] [KO:K23790]
+  PATHWAY   hsa00480(2950)  Glutathione metabolism
+            hsa05200(2950)  Pathways in cancer
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                GSTP1
+                 D08917  Ezatiostat hydrochloride (USAN)
+DBLINKS     CAS: 286942-97-0
+            PubChem: 96025600
+            LigandBox: D08917
+ATOM        38
+            1   C1a C    17.0057  -14.6250
+            2   C1b C    18.2177  -15.3247
+            3   O7a O    19.4298  -14.6250
+            4   C7a C    20.6418  -15.3247
+            5   C1c C    21.8538  -14.6250
+            6   C1b C    23.0659  -15.3247
+            7   C1b C    24.2779  -14.6250
+            8   C5a C    25.4899  -15.3247
+            9   N1b N    26.7020  -14.6250
+            10  C1c C    27.9140  -15.3247
+            11  C5a C    29.1261  -14.6250
+            12  N1b N    30.3381  -15.3247
+            13  C1c C    31.5501  -14.6250
+            14  C7a C    32.7621  -15.3247
+            15  O7a O    33.9741  -14.6250
+            16  C1b C    35.1861  -15.3247
+            17  C1a C    36.3982  -14.6250
+            18  O6a O    20.6418  -16.7243
+            19  N1a N    21.8538  -13.2255
+            20  O5a O    25.4899  -16.7242
+            21  O5a O    29.1261  -13.2255
+            22  O6a O    32.7621  -16.7243
+            23  C1b C    27.9140  -16.7243
+            24  C8y C    31.5501  -13.2254
+            25  C8x C    32.7701  -12.5210
+            26  C8x C    32.7701  -11.1214
+            27  C8x C    31.5580  -10.4218
+            28  C8x C    30.3380  -11.1262
+            29  C8x C    30.3381  -12.5258
+            30  S2a S    29.1321  -17.4275
+            31  C1b C    29.1321  -18.8270
+            32  C8y C    30.3441  -19.5268
+            33  C8x C    30.3442  -20.9225
+            34  C8x C    31.5562  -21.6223
+            35  C8x C    32.7682  -20.9224
+            36  C8x C    32.7681  -19.5267
+            37  C8x C    31.5560  -18.8269
+            38  X   Cl   41.2300  -16.1700
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16   16  17 1
+            17    4  18 2
+            18    5  19 1 #Up
+            19    8  20 2
+            20   11  21 2
+            21   14  22 2
+            22   10  23 1 #Down
+            23   13  24 1 #Down
+            24   24  25 2
+            25   25  26 1
+            26   26  27 2
+            27   27  28 1
+            28   28  29 2
+            29   24  29 1
+            30   23  30 1
+            31   30  31 1
+            32   31  32 1
+            33   32  33 2
+            34   33  34 1
+            35   34  35 2
+            36   35  36 1
+            37   36  37 2
+            38   32  37 1
+///

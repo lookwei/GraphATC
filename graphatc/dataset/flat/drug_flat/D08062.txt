@@ -1,0 +1,131 @@
+ENTRY       D08062                      Drug
+NAME        Idarubicin (INN);
+            Zavedos (TN)
+FORMULA     C26H27NO9
+EXACT_MASS  497.1686
+MOL_WEIGHT  497.4939
+SOURCE      Streptomyces peucetius [TAX:1950]
+CLASS       Antineoplastic
+             DG01682  Anthracycline antineoplastic
+             DG01529  Topoisomerase inhibitor
+              DG01527  Topoisomerase II inhibitor
+REMARK      ATC code: L01DB06
+            Chemical structure group: DG00700
+            Product (DG00700): D01747<JP/US>
+EFFICACY    Antibiotic, Antineoplastic, Topoisomerase II inhibitor
+TARGET      TOP2 [HSA:7153 7155] [KO:K03164]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DB Anthracyclines and related substances
+                 L01DB06 Idarubicin
+                  D08062  Idarubicin (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00700  Idarubicin
+                D08062  Idarubicin
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00700  Idarubicin
+                 D08062  Idarubicin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               DNA topoisomerase
+                TOP2
+                 D08062  Idarubicin (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01682  Anthracycline antineoplastic
+               DG00700  Idarubicin
+              DG01529  Topoisomerase inhibitor
+               DG01527  Topoisomerase II inhibitor
+                DG00700  Idarubicin
+DBLINKS     CAS: 58957-92-9
+            PubChem: 96024754
+            PDB-CCD: DM5
+            LigandBox: D08062
+            NIKKAJI: J32.515E
+ATOM        36
+            1   C8x C    16.3100  -15.1900
+            2   C8x C    16.3100  -16.5900
+            3   C8x C    17.5000  -17.2900
+            4   C8y C    18.7600  -16.5900
+            5   C8y C    18.7600  -15.1900
+            6   C8x C    17.5000  -14.5600
+            7   C5x C    19.9500  -17.2900
+            8   C8y C    21.1400  -16.5900
+            9   C8y C    21.1400  -15.1900
+            10  C5x C    19.9500  -14.5600
+            11  C8y C    22.4000  -17.2900
+            12  C8y C    23.5900  -16.5900
+            13  C8y C    23.5900  -15.1900
+            14  C8y C    22.4000  -14.5600
+            15  C1y C    24.7800  -17.2900
+            16  C1x C    26.0400  -16.5900
+            17  C1z C    26.0400  -15.1900
+            18  C1x C    24.7800  -14.5600
+            19  O5x O    19.9500  -13.1600
+            20  O5x O    19.9500  -18.6900
+            21  O1a O    22.4000  -13.1600
+            22  O1a O    22.4000  -18.6900
+            23  C5a C    27.2300  -14.3500
+            24  C1a C    28.3500  -14.9800
+            25  O5a O    27.2300  -12.9500
+            26  O1a O    27.2300  -16.0300
+            27  O2a O    24.7800  -18.6900
+            28  C1y C    25.9700  -19.3900
+            29  C1x C    25.9700  -20.7900
+            30  C1y C    27.2300  -21.4900
+            31  C1y C    28.3500  -20.7900
+            32  C1y C    28.3500  -19.3900
+            33  O2x O    27.2300  -18.6900
+            34  C1a C    29.5400  -18.6900
+            35  O1a O    29.5400  -21.4900
+            36  N1a N    27.2300  -22.8900
+BOND        40
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   12  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   13  18 1
+            22   10  19 2
+            23    7  20 2
+            24   14  21 1
+            25   11  22 1
+            26   17  23 1 #Up
+            27   23  24 1
+            28   23  25 2
+            29   17  26 1 #Down
+            30   15  27 1 #Down
+            31   28  27 1 #Down
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   32  33 1
+            37   28  33 1
+            38   32  34 1 #Up
+            39   31  35 1 #Up
+            40   30  36 1 #Up
+///

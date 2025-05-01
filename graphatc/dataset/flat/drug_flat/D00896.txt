@@ -1,0 +1,157 @@
+ENTRY       D00896                      Drug
+NAME        Efavirenz (JAN/USP/INN);
+            Sustiva (TN)
+  ABBR      EFV
+PRODUCT     SUSTIVA (Bristol-Myers Squibb Pharma Company)
+  GENERIC   EFAVIRENZ (Aurobindo Pharma Limited)
+            EFAVIRENZ (Aurobindo Pharma Limited)
+            EFAVIRENZ (Camber Pharmaceuticals)
+            EFAVIRENZ (Cipla USA)
+            EFAVIRENZ (Golden State Medical Supply)
+            EFAVIRENZ (REMEDYREPACK)
+            EFAVIRENZ (Rising Pharmaceuticals)
+            EFAVIRENZ (Strides Pharma Science Limited)
+            EFAVIRENZ (Strides Pharma)
+            EFAVIRENZ (XLCare Pharmaceuticals)
+FORMULA     C14H9ClF3NO2
+EXACT_MASS  315.0274
+MOL_WEIGHT  315.675
+CLASS       Antiviral
+             DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+             DG03107  Anti-HIV agent
+              DG01656  HIV reverse transcriptase inhibitor
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inducer
+             DG02891  CYP2B6 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+              DG01635  CYP3A4 inducer
+REMARK      Same as: C08088
+            Therapeutic category: 6250
+            ATC code: J05AG03
+            Product: D00896<JP/US>
+            Product (mixture): D10851<US> D11392<US>
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2B6 [HSA:1555]
+INTERACTION CYP induction: CYP2B6 [HSA:1555], CYP3A4 [HSA:1576]
+STR_MAP     map07053  Anti-HIV agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AG Non-nucleoside reverse transcriptase inhibitors
+                 J05AG03 Efavirenz
+                  D00896  Efavirenz (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Non-nucleoside Reverse Transcriptase Inhibitors (NNRTI)
+               Efavirenz
+                D00896  Efavirenz (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D00896  Efavirenz (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG01889  Non-nucleoside reverse transcriptase inhibitor (NNRTI)
+               D00896  Efavirenz
+              DG03107  Anti-HIV agent
+               DG01656  HIV reverse transcriptase inhibitor
+                D00896  Efavirenz
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               D00896  Efavirenz
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00896  Efavirenz
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               D00896  Efavirenz
+              DG02853  CYP3A/CYP3A4 inducer
+               DG01635  CYP3A4 inducer
+                D00896  Efavirenz
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00896  Efavirenz
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00896  Efavirenz (JAN/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D00896  Efavirenz (JAN/USP/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00896
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00896
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D00896
+DBLINKS     CAS: 154598-52-4
+            PubChem: 7847960
+            ChEBI: 119486
+            PDB-CCD: EFZ
+            LigandBox: D00896
+            NIKKAJI: J727.577C
+ATOM        21
+            1   C1z C    22.0907  -17.8033
+            2   C8y C    20.8724  -18.4968
+            3   C3b C    23.0815  -16.8124
+            4   O7x O    23.3087  -18.5085
+            5   C1d C    20.8724  -17.1096
+            6   C8y C    20.8724  -19.8957
+            7   C8x C    19.6776  -17.7974
+            8   C3b C    24.0607  -15.8216
+            9   C7x C    23.2970  -19.9074
+            10  X   F    19.4676  -17.1039
+            11  X   F    20.4935  -15.7516
+            12  X   F    21.8457  -16.1130
+            13  N1x N    22.0790  -20.6069
+            14  C8x C    19.6776  -20.6009
+            15  C8y C    18.4534  -18.4968
+            16  C1y C    25.0457  -14.8248
+            17  O6a O    24.5036  -20.6126
+            18  C8x C    18.4534  -19.8957
+            19  X   Cl   17.2352  -17.7974
+            20  C1x C    26.3922  -14.4634
+            21  C1x C    25.3954  -13.4783
+BOND        23
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 3
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    6  14 1
+            14    7  15 2
+            15    8  16 1
+            16    9  17 2
+            17   14  18 2
+            18   15  19 1
+            19   16  20 1
+            20   16  21 1
+            21    9  13 1
+            22   15  18 1
+            23   20  21 1
+///

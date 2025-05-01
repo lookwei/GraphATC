@@ -1,0 +1,126 @@
+ENTRY       D08881                      Drug
+NAME        Cediranib (USAN/INN)
+FORMULA     C25H27FN4O3
+EXACT_MASS  450.2067
+MOL_WEIGHT  450.5053
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03203  VEGFR inhibitor
+REMARK      ATC code: L01EK02
+            Chemical structure group: DG01360
+EFFICACY    Antineoplastic, Angiogenesis inhibitor, Receptor tyrosine kinase inhibitor
+TARGET      VEGFR1 (FLT1) [HSA:2321] [KO:K05096]
+            VEGFR2 (KDR) [HSA:3791] [KO:K05098]
+            VEGFR3 (FLT4) [HSA:2324] [KO:K05097]
+  PATHWAY   hsa04010(2321+2324+3791)  MAPK signaling pathway
+            hsa04370(3791)  VEGF signaling pathway
+            hsa05200(2324)  Pathways in cancer
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EK Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors
+                 L01EK02 Cediranib
+                  D08881  Cediranib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03203  VEGFR inhibitor
+                 DG01360  Cediranib
+                  D08881  Cediranib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               VEGFR family
+                VEGFR1 (FLT1)
+                 D08881  Cediranib (USAN/INN)
+                VEGFR2 (KDR)
+                 D08881  Cediranib (USAN/INN)
+                VEGFR3 (FLT4)
+                 D08881  Cediranib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03203  VEGFR inhibitor
+                 DG01360  Cediranib
+DBLINKS     CAS: 288383-20-0
+            PubChem: 96025564
+            LigandBox: D08881
+            NIKKAJI: J2.560.640J
+ATOM        33
+            1   C8y C    17.5474  -15.6104
+            2   C8y C    17.5474  -14.2048
+            3   C8x C    18.7421  -16.3131
+            4   C8y C    16.2825  -16.3131
+            5   N5x N    16.2825  -13.5020
+            6   C8x C    18.7421  -13.5020
+            7   C8y C    19.9369  -15.6104
+            8   N5x N    15.0877  -15.6104
+            9   C8x C    15.0877  -14.2048
+            10  C8y C    19.9369  -14.2048
+            11  O2a O    21.2018  -16.3131
+            12  O2a O    21.2018  -13.5020
+            13  C1a C    22.3965  -15.6104
+            14  C1b C    22.3965  -14.2048
+            15  O2a O    16.3352  -17.7186
+            16  C8y C    15.0525  -18.3989
+            17  C8y C    13.8286  -17.6717
+            18  C8y C    12.6026  -18.3591
+            19  C8y C    12.5852  -19.7645
+            20  C8x C    13.8089  -20.4918
+            21  C8x C    15.0348  -19.8044
+            22  C8x C    11.2714  -17.9079
+            23  C8y C    10.4310  -19.0345
+            24  N4x N    11.2428  -20.1820
+            25  C1a C     9.0444  -19.0173
+            26  X   F    13.8467  -16.2430
+            27  C1b C    23.6195  -13.5120
+            28  C1b C    24.8055  -14.2098
+            29  N1y N    26.0157  -13.5241
+            30  C1x C    27.2577  -14.0891
+            31  C1x C    28.1788  -13.0824
+            32  C1x C    27.5061  -11.8953
+            33  C1x C    26.1692  -12.1684
+BOND        37
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     5   9 2
+            9     6  10 2
+            10    7  11 1
+            11   10  12 1
+            12   11  13 1
+            13   12  14 1
+            14    7  10 1
+            15    8   9 1
+            16    4  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   16  21 1
+            24   18  22 1
+            25   22  23 2
+            26   23  24 1
+            27   19  24 1
+            28   23  25 1
+            29   17  26 1
+            30   14  27 1
+            31   27  28 1
+            32   28  29 1
+            33   29  30 1
+            34   30  31 1
+            35   31  32 1
+            36   32  33 1
+            37   29  33 1
+///

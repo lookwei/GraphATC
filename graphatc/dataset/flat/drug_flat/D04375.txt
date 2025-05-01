@@ -1,0 +1,73 @@
+ENTRY       D04375                      Drug
+NAME        Guanabenz (USAN/INN)
+FORMULA     C8H8Cl2N4
+EXACT_MASS  230.0126
+MOL_WEIGHT  231.0819
+CLASS       Cardiovascular agent
+             DG01738  Centrally-acting antiadrenergic
+             DG03231  Antihypertensive
+REMARK      Same as: C07034
+            Chemical structure group: DG01230
+            Product (DG01230): D00605<JP>
+EFFICACY    Antihypertensive, alpha2-Adrenergic receptor agonist
+COMMENT     Guanidine derivative
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01738  Centrally-acting antiadrenergic
+               DG01230  Guanabenz
+                D04375  Guanabenz
+              DG03231  Antihypertensive
+               DG01230  Guanabenz
+                D04375  Guanabenz
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D04375  Guanabenz (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01738  Centrally-acting antiadrenergic
+               DG01230  Guanabenz
+              DG03231  Antihypertensive
+               DG01230  Guanabenz
+DBLINKS     CAS: 5051-62-7
+            PubChem: 47206274
+            ChEBI: 5553
+            LigandBox: D04375
+            NIKKAJI: J9.632F
+ATOM        14
+            1   C8y C    25.4195  -16.1356
+            2   C8y C    25.4136  -17.5269
+            3   C8y C    26.6246  -15.4253
+            4   C2b C    24.2028  -15.4310
+            5   C8x C    26.6246  -18.2255
+            6   X   Cl   24.1969  -18.2198
+            7   C8x C    27.8354  -16.1297
+            8   X   Cl   26.6187  -14.0222
+            9   N2b N    22.9977  -16.1356
+            10  C8x C    27.8354  -17.5269
+            11  N1b N    21.7868  -15.4310
+            12  C2c C    20.5702  -16.1356
+            13  N1a N    19.3592  -15.4310
+            14  N2a N    20.5702  -17.5386
+BOND        14
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    9  11 1
+            11   11  12 1
+            12   12  13 1
+            13   12  14 2
+            14    7  10 2
+///

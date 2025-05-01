@@ -1,0 +1,96 @@
+ENTRY       D05048                      Drug
+NAME        Mirfentanil hydrochloride (USAN)
+FORMULA     C22H24N4O2. HCl
+EXACT_MASS  412.1666
+MOL_WEIGHT  412.9125
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Phenylpiperidine derivative
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07224  Opioid receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D05048  Mirfentanil hydrochloride
+             Analgesic
+              DG01984  Opioid analgesics
+               D05048  Mirfentanil hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D05048  Mirfentanil hydrochloride (USAN)
+DBLINKS     CAS: 119413-53-5
+            PubChem: 47206775
+            LigandBox: D05048
+ATOM        29
+            1   X   Cl   28.9801  -26.0360
+            2   N5x N    17.1095  -27.7218
+            3   C8x C    17.1095  -29.1266
+            4   C8x C    18.3261  -29.8290
+            5   N5x N    19.5427  -29.1266
+            6   C8y C    19.5427  -27.7218
+            7   C8x C    18.3261  -27.0194
+            8   N1c N    20.7781  -27.0083
+            9   C1y C    21.9874  -27.7064
+            10  C1x C    21.9878  -29.1262
+            11  C1x C    23.2046  -29.8283
+            12  N1y N    24.4210  -29.1255
+            13  C1x C    24.4205  -27.7056
+            14  C1x C    23.2038  -27.0036
+            15  C1b C    25.6334  -29.8250
+            16  C1b C    26.8293  -29.1339
+            17  C8y C    28.0229  -29.8225
+            18  C8x C    28.0235  -31.2335
+            19  C8x C    29.2404  -31.9355
+            20  C8x C    30.4566  -31.2326
+            21  C8x C    30.4561  -29.8215
+            22  C8x C    29.2393  -29.1196
+            23  C5a C    20.7778  -25.6147
+            24  O5a O    19.5493  -24.9055
+            25  C8y C    21.9824  -24.9188
+            26  O2x O    23.0828  -25.7511
+            27  C8x C    24.2098  -24.9579
+            28  C8x C    23.8036  -23.6410
+            29  C8x C    22.4257  -23.6205
+BOND        31
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14    9  14 1
+            15   12  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   17  22 1
+            24    8  23 1
+            25   23  24 2
+            26   23  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 2
+            30   28  29 1
+            31   25  29 2
+///

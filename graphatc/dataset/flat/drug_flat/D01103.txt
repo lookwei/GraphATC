@@ -1,0 +1,146 @@
+ENTRY       D01103                      Drug
+NAME        Trospium chloride (JAN/USP/INN);
+            Spasmex (TN);
+            Spasmoplex (TN)
+PRODUCT
+  GENERIC   TROSPIUM CHLORIDE (A-S Medication Solutions)
+            TROSPIUM CHLORIDE (Actavis Pharma)
+            TROSPIUM CHLORIDE (Bluepoint Laboratories)
+            TROSPIUM CHLORIDE (Bryant Ranch Prepack)
+            TROSPIUM CHLORIDE (Bryant Ranch Prepack)
+            TROSPIUM CHLORIDE (Bryant Ranch Prepack)
+            TROSPIUM CHLORIDE (Bryant Ranch Prepack)
+            TROSPIUM CHLORIDE (Bryant Ranch Prepack)
+            TROSPIUM CHLORIDE (CIPLA USA INC.,)
+            TROSPIUM CHLORIDE (Chartwell RX)
+            TROSPIUM CHLORIDE (Exelan Pharmaceuticals)
+            TROSPIUM CHLORIDE (Glenmark Pharmaceuticals)
+            TROSPIUM CHLORIDE (Golden State Medical Supply)
+            TROSPIUM CHLORIDE (Granules Pharmaceuticals)
+            TROSPIUM CHLORIDE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            TROSPIUM CHLORIDE (Major Pharmaceuticals)
+            TROSPIUM CHLORIDE (PD-Rx Pharmaceuticals)
+            TROSPIUM CHLORIDE (Padagis US LLC)
+            TROSPIUM CHLORIDE (Padagis US LLC)
+            TROSPIUM CHLORIDE (Proficient Rx LP)
+            TROSPIUM CHLORIDE (Slate Run Pharmaceuticals)
+            TROSPIUM CHLORIDE (Zameer Pharmaceuticals LLC)
+            TROSPIUM CHLORIDE ER (35573)
+FORMULA     C25H30NO3. Cl
+EXACT_MASS  427.1914
+MOL_WEIGHT  427.9636
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: G04BD09
+            Product: D01103<US>
+EFFICACY    Overactive bladder agent, Muscarinic acetylcholine receptor antagonist
+COMMENT     Treatment of urinary incontinence
+TARGET      CHRM2 [HSA:1129] [KO:K04130]
+            CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04024(1129)  cAMP signaling pathway
+            hsa04080(1129+1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1129+1131)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BD Drugs for urinary frequency and incontinence
+                 G04BD09 Trospium
+                  D01103  Trospium chloride (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Genitourinary Agents
+              Antispasmodics, Urinary
+               Cholinergic Muscarinic Antagonists
+                Trospium Chloride
+                 D01103  Trospium chloride (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D01103  Trospium chloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM2
+                 D01103  Trospium chloride (JAN/USP/INN) &lt;US&gt;
+                CHRM3
+                 D01103  Trospium chloride (JAN/USP/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01103
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01103
+DBLINKS     CAS: 10405-02-4
+            PubChem: 7848166
+            ChEBI: 32270
+            LigandBox: D01103
+            NIKKAJI: J252.925D
+ATOM        30
+            1   X   Cl   11.7779  -16.5523 #-
+            2   N2y N    14.0700  -15.8200 #+
+            3   C1x C    15.1900  -14.9800
+            4   C1x C    14.7700  -13.6500
+            5   C1x C    13.3700  -13.6500
+            6   C1x C    12.9500  -15.0500
+            7   O7a O    18.1300  -19.5300
+            8   C1y C    17.4300  -18.3400
+            9   C1x C    16.3800  -16.8000
+            10  C1x C    16.3800  -17.8500
+            11  C1y C    14.9100  -16.8000
+            12  C1y C    14.8400  -17.8500
+            13  C1x C    13.8600  -17.3600
+            14  C1x C    13.3700  -18.4800
+            15  C7a C    19.5300  -19.5300
+            16  O6a O    20.2300  -20.7424
+            17  C1d C    20.2300  -18.3176
+            18  C8y C    21.8398  -18.3176
+            19  C8y C    19.5396  -17.1221
+            20  O1a O    20.9300  -17.1051
+            21  C8x C    20.2251  -15.9347
+            22  C8x C    19.5250  -14.7223
+            23  C8x C    18.1250  -14.7224
+            24  C8x C    17.4396  -15.9097
+            25  C8x C    18.1396  -17.1221
+            26  C8x C    22.5497  -19.5468
+            27  C8x C    23.9497  -19.5466
+            28  C8x C    24.6496  -18.3341
+            29  C8x C    23.9397  -17.1049
+            30  C8x C    22.5397  -17.1051
+BOND        33
+            1     3   4 1
+            2     8   9 1
+            3     8  10 1
+            4     9  11 1
+            5    10  12 1
+            6    11   2 1
+            7    11  13 1
+            8    12  14 1
+            9    12   2 1
+            10   13  14 1
+            11    8   7 1 #Down
+            12    4   5 1
+            13    5   6 1
+            14    6   2 1
+            15    2   3 1
+            16    7  15 1
+            17   15  16 2
+            18   15  17 1
+            19   17  18 1
+            20   17  19 1
+            21   17  20 1
+            22   19  21 2
+            23   21  22 1
+            24   22  23 2
+            25   23  24 1
+            26   24  25 2
+            27   19  25 1
+            28   18  26 2
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   29  30 2
+            33   18  30 1
+///

@@ -1,0 +1,92 @@
+ENTRY       D09198                      Drug
+NAME        Minodronic acid hydrate (JAN);
+            Bonoteo (TN);
+            Recalbon (TN)
+FORMULA     C9H12N2O7P2. H2O
+EXACT_MASS  340.0225
+MOL_WEIGHT  340.1636
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Therapeutic category: 3999
+            Product: D09198<JP>
+EFFICACY    Antiresorptive, Osteoporosis agent, Farnesylpyrophosphate synthetase inhibitor
+COMMENT     Bisphosphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D09198  Minodronic acid hydrate (JAN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                D09198  Minodronic acid hydrate
+            Drug classes [BR:br08332]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D09198  Minodronic acid hydrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D09198  Minodronic acid hydrate (JAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09198
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09198
+DBLINKS     PubChem: 96025878
+            LigandBox: D09198
+ATOM        21
+            1   C1d C    23.1352  -24.8855
+            2   P1b P    24.3313  -25.5892
+            3   P1b P    21.9390  -25.5892
+            4   C1b C    23.1352  -23.4783
+            5   C8y C    24.3313  -22.7747
+            6   O1c O    25.5275  -24.8855
+            7   O1c O    24.3313  -26.9964
+            8   O1c O    25.5275  -26.2928
+            9   O1c O    20.7428  -24.8855
+            10  O1c O    21.9390  -26.9964
+            11  O1c O    20.7428  -26.2928
+            12  C8x C    25.6682  -23.1968
+            13  N5x N    26.5126  -22.0710
+            14  C8y C    25.6682  -20.9452
+            15  N4y N    24.3313  -21.3674
+            16  C8x C    25.9722  -19.5712
+            17  C8x C    24.9342  -18.6209
+            18  C8x C    23.5974  -19.0431
+            19  C8x C    23.2934  -20.4171
+            20  O1a O    23.1352  -26.2928
+            21  O0  O    28.8400  -24.0800
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     4   5 1
+            5     2   6 2
+            6     2   7 1
+            7     2   8 1
+            8     3   9 2
+            9     3  10 1
+            10    3  11 1
+            11    5  12 2
+            12   12  13 1
+            13   13  14 2
+            14   14  15 1
+            15    5  15 1
+            16   14  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   15  19 1
+            21    1  20 1
+///

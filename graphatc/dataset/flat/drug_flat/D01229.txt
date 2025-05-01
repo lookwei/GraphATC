@@ -1,0 +1,115 @@
+ENTRY       D01229                      Drug
+NAME        Paramethasone acetate (JAN/USAN);
+            Haldrone (TN)
+FORMULA     C24H31FO6
+EXACT_MASS  434.2105
+MOL_WEIGHT  434.4977
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      Same as: C12656
+            ATC code: H02AB05
+            Chemical structure group: DG00508
+EFFICACY    Anti-inflammatory, Immunosuppressant, Glucocorticoid receptor agonist
+COMMENT     fluorinated steroid
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07225  Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB05 Paramethasone
+                  D01229  Paramethasone acetate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00508  Paramethasone
+                 D01229  Paramethasone acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D01229  Paramethasone acetate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00508  Paramethasone
+DBLINKS     CAS: 1597-82-6
+            PubChem: 7848292
+            ChEBI: 31963
+            LigandBox: D01229
+            NIKKAJI: J7.525F
+ATOM        31
+            1   C1y C    24.4746  -21.4862
+            2   C1y C    25.7237  -20.8091
+            3   C1y C    23.2954  -20.7915
+            4   C1x C    24.4746  -22.8522
+            5   C1z C    25.6713  -19.4489
+            6   C1x C    28.0120  -20.7682
+            7   C1z C    22.1104  -21.4745
+            8   C1y C    23.3071  -19.4314
+            9   C1y C    23.2837  -23.5293
+            10  C1z C    26.8563  -18.7834
+            11  C1x C    24.4980  -18.7543
+            12  C1a C    25.7646  -18.0888
+            13  C1y C    28.0296  -19.4782
+            14  C2y C    22.1046  -22.8405
+            15  C2x C    20.9254  -20.7857
+            16  C1a C    22.0346  -20.1611
+            17  O1a O    22.1280  -18.7367
+            18  X   F    23.2780  -24.9069
+            19  C5a C    26.8737  -16.9917
+            20  O1a O    27.9829  -17.9488
+            21  C1a C    29.5005  -19.1279
+            22  C2x C    20.9254  -23.5234
+            23  C2x C    19.7347  -21.4745
+            24  C1b C    28.0704  -16.3262
+            25  O5a O    25.6947  -16.2970
+            26  C5x C    19.7347  -22.8405
+            27  O7a O    29.2437  -17.0208
+            28  O5x O    18.5554  -23.5234
+            29  C7a C    30.4609  -16.3357
+            30  C1a C    31.6626  -17.0471
+            31  O6a O    30.4761  -14.9391
+BOND        34
+            1     1   4 1
+            2     2   5 1
+            3     2   6 1
+            4     3   7 1
+            5     3   8 1
+            6     4   9 1
+            7     5  10 1
+            8     5  11 1
+            9     5  12 1 #Up
+            10    6  13 1
+            11    7  14 1
+            12    7  15 1
+            13    7  16 1 #Up
+            14    8  17 1 #Up
+            15    9  18 1 #Down
+            16   10  19 1 #Up
+            17   10  20 1 #Down
+            18   13  21 1 #Down
+            19   14  22 2
+            20   15  23 2
+            21   19  24 1
+            22   19  25 2
+            23   22  26 1
+            24   24  27 1
+            25   26  28 2
+            26    8  11 1
+            27    9  14 1
+            28   10  13 1
+            29   23  26 1
+            30   27  29 1
+            31    1   2 1
+            32   29  30 1
+            33    1   3 1
+            34   29  31 2
+///

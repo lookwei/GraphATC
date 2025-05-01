@@ -1,0 +1,148 @@
+ENTRY       D02239                      Drug
+NAME        Sparteine sulfate (JAN/USAN);
+            Sparteine sulfate pentahydrate
+FORMULA     C15H26N2. H2SO4. 5H2O
+EXACT_MASS  422.2298
+MOL_WEIGHT  422.5352
+SOURCE      Sarothmus scoparius [TAX:3835]
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: C01BA04
+            Chemical structure group: DG00195
+EFFICACY    Antiarrhythmic, Oxytocic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA04 Sparteine
+                  D02239  Sparteine sulfate (JAN/USAN)
+            Animal drugs in Japan [BR:br08331]
+             94  Agents for breeding
+              942  Oxytocics
+               9421  Sparteine and preparations
+                D02239  Sparteine sulfate
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00195  Sparteine
+                  D02239  Sparteine sulfate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00195  Sparteine
+                D02239  Sparteine sulfate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN2A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN3A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN4A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN5A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN8A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN9A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN10A
+                 D02239  Sparteine sulfate (JAN/USAN)
+                SCN11A
+                 D02239  Sparteine sulfate (JAN/USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02239
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00195  Sparteine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00195  Sparteine
+DBLINKS     CAS: 6160-12-9
+            PubChem: 7849298
+            LigandBox: D02239
+ATOM        27
+            1   C1x C    16.8979  -16.8608
+            2   C1x C    16.8979  -18.2571
+            3   C1x C    18.1101  -18.9554
+            4   C1x C    18.1101  -16.1625
+            5   C1y C    19.3153  -16.8608
+            6   N1y N    19.3093  -18.2571
+            7   C1x C    20.5157  -18.9605
+            8   C1y C    21.7279  -18.2675
+            9   C1x C    21.7338  -16.8711
+            10  C1y C    20.5275  -16.1676
+            11  C1x C    21.7289  -15.4573
+            12  N1y N    22.9419  -16.1414
+            13  C1y C    22.9278  -17.5589
+            14  C1x C    24.1484  -18.2798
+            15  C1x C    25.3831  -17.5834
+            16  C1x C    25.4204  -16.1657
+            17  C1x C    24.1766  -15.4447
+            18  S4a S    28.9498  -16.9728
+            19  O1d O    30.3513  -16.9728
+            20  O1d O    27.5483  -16.9657
+            21  O1d O    29.0129  -15.5713
+            22  O1d O    29.0129  -18.3743
+            23  O0  O    34.5659  -16.9545
+            24  O0  O    34.5659  -16.9545
+            25  O0  O    34.5659  -16.9545
+            26  O0  O    34.5659  -16.9545
+            27  O0  O    34.5659  -16.9545
+BOND        24
+            1     8   9 1 #Up
+            2    10   9 1 #Up
+            3    10   5 1
+            4    10  11 1
+            5     8  13 1
+            6    11  12 1
+            7     1   2 1
+            8     2   3 1
+            9     3   6 1
+            10    5   4 1
+            11    4   1 1
+            12    5   6 1
+            13    6   7 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  12 1
+            20    7   8 1
+            21   18  19 1
+            22   18  20 1
+            23   18  21 2
+            24   18  22 2
+BRACKET     1    32.6200  -18.0600   32.6200  -15.8900
+            1    35.2800  -15.8900   35.2800  -18.0600
+            1  5
+  ORIGINAL  1   25
+  REPEAT    1   26  27  28  29
+///

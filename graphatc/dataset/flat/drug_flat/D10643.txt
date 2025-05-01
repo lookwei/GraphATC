@@ -1,0 +1,232 @@
+ENTRY       D10643                      Drug
+NAME        Isavuconazonium sulfate (JAN/USAN);
+            Cresemba (TN)
+PRODUCT     CRESEMBA (Astellas Pharma US)
+FORMULA     C35H35F2N8O5S. HSO4
+EXACT_MASS  814.2015
+MOL_WEIGHT  814.8353
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Metabolizing enzyme inducer
+             DG02891  CYP2B6 inducer
+            Transporter inhibitor
+             DG01622  ABCB1 inhibitor
+             DG02863  SLC22A2 inhibitor
+             DG02864  SLC47A1 inhibitor
+            Unclassified
+             DG03251  UGT inhibitor
+REMARK      Therapeutic category: 6179
+            Chemical structure group: DG01840
+            Product (DG01840): D10643<JP/US>
+EFFICACY    Antifungal
+  DISEASE   Invasive aspergillosis [DS:H01328]
+            Invasive mucormycosis [DS:H02033]
+COMMENT     Triazole derivative
+            Active form of prodrug: Isavuconazole [DR:D10750]
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCB1 [HSA:5243], SLC22A2 [HSA:6582], SLC47A1 [hsa:55244]
+            Enzyme inhibition: UGT [KO:K00699]
+            CYP induction: CYP2B6 [HSA:1555]
+BRITE       USP drug classification [BR:br08302]
+             Antifungals
+              Isavuconazonium
+               D10643  Isavuconazonium sulfate (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               617  Acting mainly on mold
+                6179  Others
+                 D10643  Isavuconazonium sulfate (JAN/USAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+              DG02863  SLC22A2 inhibitor
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+              DG02864  SLC47A1 inhibitor
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+             Unclassified
+              DG03251  UGT inhibitor
+               DG01840  Isavuconazonium
+                D10643  Isavuconazonium sulfate
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Triazole
+                D10643  Isavuconazonium sulfate (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10643
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10643
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10643
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10643
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10643
+             Drug transporters
+              D10643
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG01840  Isavuconazonium
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01840  Isavuconazonium
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               DG01840  Isavuconazonium
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG01840  Isavuconazonium
+              DG02863  SLC22A2 inhibitor
+               DG01840  Isavuconazonium
+              DG02864  SLC47A1 inhibitor
+               DG01840  Isavuconazonium
+             Unclassified
+              DG03251  UGT inhibitor
+               DG01840  Isavuconazonium
+DBLINKS     CAS: 946075-13-4
+            PubChem: 254741604
+ATOM        56
+            1   S4a S    28.2812  -20.1706
+            2   O1d O    28.2812  -18.7697
+            3   O1d O    28.2812  -21.5715
+            4   O1d O    29.6821  -20.1706
+            5   O1d O    26.8803  -20.1706 #-
+            6   C8y C    15.8200  -18.6200
+            7   C1c C    17.0100  -17.9200
+            8   C1d C    18.2700  -18.6200
+            9   C1a C    17.0100  -16.5200
+            10  S2x S    15.4000  -19.9500
+            11  C8x C    14.0000  -19.9500
+            12  C8y C    13.5800  -18.6200
+            13  N5x N    14.7000  -17.7800
+            14  C8x C     9.9400  -17.9200
+            15  C8y C     9.9400  -16.5200
+            16  C8x C    11.1300  -15.8200
+            17  C8x C    12.3900  -16.5200
+            18  C8y C    12.3900  -17.9200
+            19  C8x C    11.1300  -18.6200
+            20  C3b C     8.7500  -15.8200
+            21  N3a N     7.5600  -15.1200
+            22  C8y C    18.2700  -20.0200
+            23  C1b C    19.4600  -17.9200
+            24  N4y N    19.4600  -16.5200
+            25  N5x N    18.3400  -15.7500
+            26  C8x C    18.7600  -14.4200
+            27  N5y N    20.1600  -14.4200 #+
+            28  C8x C    20.5800  -15.6800
+            29  C8y C    19.5300  -20.7200
+            30  C8x C    19.5300  -22.1200
+            31  C8x C    18.3400  -22.8200
+            32  C8y C    17.0800  -22.1200
+            33  C8x C    17.0800  -20.7200
+            34  X   F    20.6500  -20.0900
+            35  X   F    15.7500  -22.8900
+            36  O1a O    17.0800  -19.3200
+            37  C8x C    27.5800  -10.0100
+            38  C8x C    27.0200   -8.7500
+            39  C8x C    25.6200   -8.6800
+            40  N5x N    24.7800   -9.8700
+            41  C8y C    25.4100  -11.2000
+            42  C8y C    26.8800  -11.2000
+            43  C1b C    27.5100  -12.4600
+            44  O7a O    28.8400  -12.4600
+            45  C7a C    29.5400  -13.7900
+            46  C1b C    30.9400  -13.7900
+            47  N1b N    31.5700  -15.1200
+            48  C1a C    32.9700  -15.1200
+            49  O6a O    28.8400  -14.9100
+            50  N1c N    24.7100  -12.2500
+            51  C7a C    23.3100  -12.2500
+            52  O6a O    22.6800  -10.9900
+            53  C1a C    25.3400  -13.5800
+            54  O7a O    22.6100  -13.3700
+            55  C1c C    21.1400  -13.3700
+            56  C1a C    20.5100  -12.1800
+BOND        59
+            1     1   2 2
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     6   7 1
+            6     7   8 1
+            7     7   9 1 #Down
+            8    10  11 1
+            9    11  12 2
+            10   12  13 1
+            11   13   6 2
+            12   10   6 1
+            13   14  15 2
+            14   15  16 1
+            15   16  17 2
+            16   17  18 1
+            17   18  19 2
+            18   14  19 1
+            19   18  12 1
+            20   15  20 1
+            21   20  21 3
+            22    8  22 1
+            23    8  23 1
+            24   23  24 1
+            25   24  25 1
+            26   25  26 2
+            27   26  27 1
+            28   27  28 2
+            29   24  28 1
+            30   22  29 2
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   32  33 2
+            35   22  33 1
+            36   29  34 1
+            37   32  35 1
+            38    8  36 1 #Up
+            39   37  38 1
+            40   38  39 2
+            41   39  40 1
+            42   40  41 2
+            43   41  42 1
+            44   37  42 2
+            45   42  43 1
+            46   43  44 1
+            47   44  45 1
+            48   45  46 1
+            49   46  47 1
+            50   47  48 1
+            51   45  49 2
+            52   41  50 1
+            53   50  51 1
+            54   51  52 2
+            55   50  53 1
+            56   51  54 1
+            57   54  55 1
+            58   55  56 1
+            59   27  55 1
+///

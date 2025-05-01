@@ -1,0 +1,74 @@
+ENTRY       D04276                      Drug
+NAME        Furegrelate sodium (USAN)
+FORMULA     C15H10NO3. Na. H2O
+EXACT_MASS  293.0664
+MOL_WEIGHT  293.2498
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01712  Antiplatelet agent
+               DG01516  Thromboxane A2 synthase inhibitor
+EFFICACY    Platelet aggregation inhibitor, Thromboxane A2 (TXA2) synthase inhibitor
+TARGET      TBXAS1 (CYP5A1) [HSA:6916] [KO:K01832]
+  PATHWAY   hsa00590(6916)  Arachidonic acid metabolism
+            hsa04611(6916)  Platelet activation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01712  Antiplatelet agent
+                DG01516  Thromboxane A2 synthase inhibitor
+                 D04276  Furegrelate sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Isomerases (EC5)
+               Thromboxane-A synthase
+                TBXAS1 (CYP5A1)
+                 D04276  Furegrelate sodium (USAN)
+DBLINKS     CAS: 87463-91-0
+            PubChem: 47206210
+            LigandBox: D04276
+ATOM        21
+            1   C8x C    15.3300  -15.4700
+            2   C8y C    15.3300  -16.8700
+            3   C8x C    16.5900  -17.5700
+            4   C8y C    17.7800  -16.8700
+            5   C8y C    17.7800  -15.4700
+            6   C8x C    16.5900  -14.7700
+            7   C8x C    19.1100  -17.2900
+            8   C8y C    19.9500  -16.1700
+            9   O2x O    19.1100  -15.0500
+            10  C6a C    21.2800  -16.1700
+            11  O6a O    21.9800  -17.4300
+            12  O6a O    21.9800  -14.9800 #-
+            13  C1b C    14.1400  -17.5700
+            14  C8y C    12.9500  -16.8700
+            15  C8x C    12.9500  -15.4700
+            16  N5x N    11.6900  -14.7700
+            17  C8x C    10.5000  -15.4700
+            18  C8x C    10.5000  -16.8700
+            19  C8x C    11.6900  -17.5700
+            20  Z   Na   23.8700  -14.9800 #+
+            21  O0  O    25.1300  -17.4300
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 2
+            13   10  12 1
+            14    2  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+///

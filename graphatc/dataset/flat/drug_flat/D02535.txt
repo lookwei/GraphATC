@@ -1,0 +1,123 @@
+ENTRY       D02535                      Drug
+NAME        Timepidium bromide hydrate (JP18);
+            Sesden (TN)
+FORMULA     C17H22NOS2. Br. H2O
+EXACT_MASS  417.0432
+MOL_WEIGHT  418.412
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+REMARK      Therapeutic category: 1249
+            ATC code: A03AB19
+            Chemical structure group: DG00041
+            Product (DG00041): D02535<JP>
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Quaternary ammonium compound
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04024(1128+1129)  cAMP signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04970(1131)  Salivary secretion
+            hsa04971(1131)  Gastric acid secretion
+            hsa04972(1131)  Pancreatic secretion
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+            map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03A DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+                A03AB Synthetic anticholinergics, quaternary ammonium compounds
+                 A03AB19 Timepidium bromide
+                  D02535  Timepidium bromide hydrate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              12  Agents affecting peripheral nervous system
+               124  Antispasmodics
+                1249  Others
+                 D02535  Timepidium bromide hydrate (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Timepidium bromide
+                D02535  Timepidium bromide hydrate (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00041  Timepidium bromide
+                D02535  Timepidium bromide hydrate
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG00041  Timepidium bromide
+                D02535  Timepidium bromide hydrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D02535  Timepidium bromide hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02535  Timepidium bromide hydrate
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D02535
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00041  Timepidium bromide
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG00041  Timepidium bromide
+DBLINKS     PubChem: 17396706
+            LigandBox: D02535
+ATOM        23
+            1   O0  O    29.0527  -21.0950
+            2   C1x C    19.2316  -23.0812
+            3   C1y C    20.4413  -23.7928
+            4   C1x C    21.6511  -23.0812
+            5   C2y C    21.6511  -21.7292
+            6   C1x C    20.4413  -21.0176
+            7   N2y N    19.2316  -21.7292 #+
+            8   O2a O    20.4413  -25.2160
+            9   C1a C    19.2316  -25.9276
+            10  C2c C    22.8608  -21.0176
+            11  C8y C    24.0705  -21.6580
+            12  C8y C    22.8608  -19.5944
+            13  C8x C    21.7222  -18.7405
+            14  C8x C    22.1492  -17.3884
+            15  C8x C    23.5724  -17.4596
+            16  S2x S    23.9993  -18.7405
+            17  C8x C    24.5686  -23.0100
+            18  C8x C    25.9206  -23.0100
+            19  C8x C    26.3476  -21.6580
+            20  S2x S    25.2090  -20.8753
+            21  C1a C    17.9962  -21.0226
+            22  C1a C    19.2316  -20.3060
+            23  X   Br   19.3028  -18.0289 #-
+BOND        23
+            1     4   5 1
+            2     5  10 2
+            3     5   6 1
+            4    10  11 1
+            5     6   7 1
+            6    10  12 1
+            7     7   2 1
+            8    12  13 2
+            9    13  14 1
+            10   14  15 2
+            11   15  16 1
+            12   16  12 1
+            13    2   3 1
+            14    3   8 1
+            15    3   4 1
+            16   11  17 2
+            17   17  18 1
+            18   18  19 2
+            19   19  20 1
+            20   20  11 1
+            21    8   9 1
+            22    7  21 1
+            23    7  22 1
+///

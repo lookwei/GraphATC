@@ -1,0 +1,99 @@
+ENTRY       D01278                      Drug
+NAME        Oxazolam (JP18/INN);
+            Serenal (TN)
+FORMULA     C18H17ClN2O2
+EXACT_MASS  328.0979
+MOL_WEIGHT  328.7928
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+REMARK      Therapeutic category: 1124
+            Product: D01278<JP>
+EFFICACY    Antianxiety, Minor tranquilizer, Sedative-hypnotic
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01278  Oxazolam (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D01278  Oxazolam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D01278  Oxazolam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01278  Oxazolam (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01278  Oxazolam
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Control Act Article 2 Table 31 (10 substances)
+              D01278
+DBLINKS     CAS: 24143-17-7
+            PubChem: 7848341
+            ChEBI: 31944
+            LigandBox: D01278
+            NIKKAJI: J3.472J
+ATOM        23
+            1   C1z C    20.9573  -14.7210
+            2   C8y C    20.1233  -13.6220
+            3   C8y C    20.4553  -12.2784
+            4   N1x N    21.7041  -11.7057
+            5   N1y N    22.3495  -14.6766
+            6   C5x C    22.9456  -12.3221
+            7   C1x C    23.2294  -13.6777
+            8   C8x C    19.4578  -11.3193
+            9   C8x C    18.1288  -11.7036
+            10  C8y C    17.7968  -13.0473
+            11  C8x C    18.7942  -14.0061
+            12  O5x O    23.9797  -11.3967
+            13  X   Cl   16.4452  -13.4380
+            14  O2x O    20.5692  -16.0588
+            15  C1y C    21.7216  -16.8413
+            16  C1x C    22.8219  -15.9871
+            17  C8y C    19.2724  -15.4137
+            18  C8x C    18.0725  -14.7210
+            19  C8x C    16.8726  -15.4137
+            20  C8x C    16.8726  -16.7993
+            21  C8x C    18.0725  -17.4921
+            22  C8x C    19.2724  -16.7993
+            23  C1a C    21.6975  -18.2684
+BOND        26
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 1
+            18    5  16 1
+            19    1  17 1
+            20   17  18 2
+            21   18  19 1
+            22   19  20 2
+            23   20  21 1
+            24   21  22 2
+            25   17  22 1
+            26   15  23 1
+///

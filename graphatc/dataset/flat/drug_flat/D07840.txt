@@ -1,0 +1,127 @@
+ENTRY       D07840                      Drug
+NAME        Dihydrostreptomycin (INN)
+FORMULA     C21H41N7O12
+EXACT_MASS  583.2813
+MOL_WEIGHT  583.5899
+SOURCE      Streptomyces humidus [TAX:52259]
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C01023
+            ATC code: S01AA15
+            Chemical structure group: DG01122
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA15 Dihydrostreptomycin
+                  D07840  Dihydrostreptomycin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG01122  Dihydrostreptomycin
+                D07840  Dihydrostreptomycin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D07840  Dihydrostreptomycin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG01122  Dihydrostreptomycin
+DBLINKS     CAS: 128-46-1
+            PubChem: 96024537
+            ChEBI: 38291
+            PDB-CCD: 71R
+            LigandBox: D07840
+            NIKKAJI: J10.276H
+ATOM        40
+            1   C1y C    23.6960  -20.8240
+            2   C1y C    23.6960  -22.2263
+            3   C1y C    24.9581  -22.9275
+            4   C1y C    26.0800  -22.2263
+            5   O2x O    26.0800  -20.8240
+            6   C1y C    24.9581  -20.1228
+            7   O2a O    24.9581  -18.7205
+            8   N1b N    22.5040  -20.1228
+            9   O1a O    24.9581  -24.2597
+            10  C1b C    27.6225  -22.9275
+            11  O1a O    22.5040  -22.9275
+            12  C1y C    27.3421  -16.6170
+            13  C1y C    27.3421  -18.0193
+            14  C1y C    28.6042  -18.6504
+            15  C1y C    29.7961  -18.0193
+            16  C1y C    29.7961  -16.6170
+            17  C1y C    28.6042  -15.9158
+            18  O1a O    30.9180  -15.9158
+            19  O2a O    25.7995  -15.9158
+            20  O1a O    28.6042  -20.0527
+            21  N1b N    28.6042  -14.5135
+            22  O1a O    26.1501  -18.6504
+            23  N1b N    30.9180  -18.6504
+            24  C1y C    24.1167  -17.6687
+            25  C1y C    24.5374  -16.3365
+            26  O2x O    23.4155  -15.4951
+            27  C1y C    22.2936  -16.3365
+            28  C1z C    22.7143  -17.6687
+            29  C1a C    20.9614  -15.9158
+            30  C1b C    21.8729  -18.7205
+            31  C2c C    29.7961  -13.8123
+            32  N2a N    29.7961  -12.4801
+            33  N1a N    30.9180  -14.5135
+            34  C1a C    21.3120  -20.8240
+            35  O1a O    28.8846  -22.2263
+            36  C2c C    30.9180  -20.4033
+            37  N1a N    29.7961  -21.1045
+            38  N2a N    32.1100  -21.1045
+            39  O1a O    20.5407  -18.5803
+            40  O1a O    22.7143  -19.0010
+BOND        42
+            1     1   2 1
+            2    13  22 1 #Up
+            3     4  10 1 #Up
+            4    15  23 1 #Up
+            5     2   3 1
+            6     2  11 1 #Up
+            7     3   4 1
+            8     4   5 1
+            9     5   6 1
+            10   24  25 1
+            11   25  26 1
+            12   26  27 1
+            13   27  28 1
+            14   28  24 1
+            15   24   7 1 #Down
+            16    6   1 1
+            17   27  29 1 #Down
+            18   28  30 1 #Up
+            19   25  19 1 #Up
+            20    6   7 1 #Down
+            21   21  31 1
+            22   12  13 1
+            23   31  32 2
+            24   13  14 1
+            25   31  33 1
+            26   14  15 1
+            27    8  34 1
+            28   15  16 1
+            29   10  35 1
+            30   16  17 1
+            31   23  36 1
+            32   17  12 1
+            33   36  37 1
+            34   36  38 2
+            35   16  18 1 #Down
+            36   30  39 1
+            37    1   8 1 #Down
+            38   28  40 1
+            39   12  19 1 #Down
+            40   14  20 1 #Down
+            41    3   9 1 #Down
+            42   17  21 1 #Up
+///

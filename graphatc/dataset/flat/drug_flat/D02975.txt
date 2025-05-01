@@ -1,0 +1,76 @@
+ENTRY       D02975                      Drug
+NAME        Arbaprostil (USAN/INN)
+FORMULA     C21H34O5
+EXACT_MASS  366.2406
+MOL_WEIGHT  366.4917
+EFFICACY    Antisecretory (gastric acid)
+COMMENT     Prostaglandin derivative
+TARGET      PTGER2 [HSA:5732] [KO:K04259]
+  PATHWAY   hsa04080(5732)  Neuroactive ligand-receptor interaction
+            hsa04750(5732)  Inflammatory mediator regulation of TRP channels
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGER2
+                 D02975  Arbaprostil (USAN/INN)
+DBLINKS     CAS: 55028-70-1
+            PubChem: 17397132
+            ChEBI: 184592
+            LigandBox: D02975
+            NIKKAJI: J13.115F
+ATOM        26
+            1   C1y C    25.0716  -16.2306
+            2   C1y C    25.0651  -17.6407
+            3   C5x C    23.7324  -15.7906
+            4   C1b C    26.3008  -15.0483
+            5   C1y C    23.7196  -18.0678
+            6   C2b C    26.2815  -18.3460
+            7   C1x C    22.9046  -16.9292
+            8   O5x O    23.2990  -14.4516
+            9   C2b C    27.5169  -15.7535
+            10  O1a O    23.2731  -19.1891
+            11  C2b C    27.4974  -17.6407
+            12  C2b C    28.9207  -15.7599
+            13  C1d C    28.7202  -18.3460
+            14  C1b C    30.1434  -15.0548
+            15  C1b C    29.9362  -17.6407
+            16  C1b C    31.3596  -15.7599
+            17  C1b C    31.1590  -18.3460
+            18  C1b C    32.5821  -15.0419
+            19  C1b C    32.3751  -17.6407
+            20  C1b C    33.5913  -18.3460
+            21  C1a C    34.8140  -17.6407
+            22  O1a O    27.5077  -19.0461
+            23  C1a C    29.9327  -19.0461
+            24  C6a C    33.7730  -15.7314
+            25  O6a O    34.9534  -15.0517
+            26  O6a O    33.7718  -17.1496
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1 #Down
+            10    6  11 2
+            11    9  12 2
+            12   11  13 1
+            13   12  14 1
+            14   13  15 1
+            15   14  16 1
+            16   15  17 1
+            17   16  18 1
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21    5   7 1
+            22   13  22 1 #Up
+            23   13  23 1 #Down
+            24   18  24 1
+            25   24  25 1
+            26   24  26 2
+///

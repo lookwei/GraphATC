@@ -1,0 +1,136 @@
+ENTRY       D07272                      Drug
+NAME        Dimethyltubocurarine (BAN)
+FORMULA     C39H45N2O6
+EXACT_MASS  637.3278
+MOL_WEIGHT  637.7844
+CLASS       Musculo-skeletal system agent
+             DG01740  Curare alkaloid
+REMARK      ATC code: M03AA04
+EFFICACY    Neuromuscular blocking agent
+TARGET      CHRN (neuronal type) [HSA:1135 1136 1137 1138 8973 1139 55584 57053 1141 1142 1143] [KO:K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04813 K04814 K04815]
+  PATHWAY   hsa04080(1135+1136+1137+1138+1139+1141+1142+1143+55584+57053+8973)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03A MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS
+                M03AA Curare alkaloids
+                 M03AA04 Dimethyltubocurarine
+                  D07272  Dimethyltubocurarine (BAN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG01740  Curare alkaloid
+               D07272  Dimethyltubocurarine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN (neuronal type)
+                 D07272  Dimethyltubocurarine (BAN)
+DBLINKS     CAS: 35-67-6
+            PubChem: 51091610
+            LigandBox: D07272
+ATOM        47
+            1   C8y C    27.4400  -14.6300
+            2   C1y C    26.3200  -15.3300
+            3   C8y C    27.4400  -13.3000
+            4   C8y C    28.6300  -15.3300
+            5   N2y N    25.1300  -14.6300 #+
+            6   C1x C    26.3200  -16.6600
+            7   C8x C    28.6300  -12.6000
+            8   C1x C    26.2500  -12.6000
+            9   C8y C    29.8200  -14.6300
+            10  C1x C    25.1300  -13.3000
+            11  C1a C    24.0100  -14.0000
+            12  C8y C    25.1300  -17.7100
+            13  C8y C    29.8200  -13.3000
+            14  O2a O    30.9400  -15.3300
+            15  C8x C    24.0100  -17.0800
+            16  C8x C    25.1300  -19.0400
+            17  O2a O    30.9400  -12.6000
+            18  C8x C    22.8200  -17.7100
+            19  C8y C    24.0800  -19.7400
+            20  C8y C    22.8200  -19.0400
+            21  O2a O    21.6300  -19.7400
+            22  C1a C    24.0100  -15.3300
+            23  O2x O    28.6300  -16.6600
+            24  N1y N    30.0300  -22.1900
+            25  C1y C    28.8400  -21.4900
+            26  C1x C    30.0300  -23.6600
+            27  C8y C    27.6500  -22.1900
+            28  C1x C    31.0100  -20.5800
+            29  C1x C    28.8400  -24.2900
+            30  C8y C    27.6500  -23.5900
+            31  C8x C    26.4600  -21.5600
+            32  C8x C    29.7500  -19.1100
+            33  C8x C    26.4600  -24.2900
+            34  C8y C    25.2700  -22.1900
+            35  C8y C    31.0100  -19.8100
+            36  C8x C    29.7500  -17.7100
+            37  C8y C    25.2700  -23.5900
+            38  O2x O    24.0800  -21.4900
+            39  C8x C    32.2000  -19.1100
+            40  C8y C    30.9400  -17.0100
+            41  O2a O    24.0800  -24.2900
+            42  C8x C    32.2000  -17.6400
+            43  C1a C    22.8200  -23.6600
+            44  C1a C    31.2200  -21.4900
+            45  C1a C    20.4400  -19.0400
+            46  C1a C    32.1762  -14.6729
+            47  C1a C    32.1762  -13.2571
+BOND        53
+            1    20  21 1
+            2     8  10 1
+            3     9  13 1
+            4    19  20 1
+            5    22   5 1
+            6     4  23 1
+            7     1   2 1
+            8     1   3 2
+            9     1   4 1
+            10    2   5 1
+            11    2   6 1
+            12    3   7 1
+            13    3   8 1
+            14    4   9 2
+            15    5  10 1
+            16    5  11 1
+            17    6  12 1
+            18    7  13 2
+            19    9  14 1
+            20   12  15 2
+            21   12  16 1
+            22   13  17 1
+            23   15  18 1
+            24   16  19 2
+            25   18  20 2
+            26   24  25 1
+            27   24  26 1
+            28   25  27 1
+            29   25  28 1
+            30   26  29 1
+            31   27  30 2
+            32   27  31 1
+            33   30  33 1
+            34   31  34 2
+            35   32  35 2
+            36   32  36 1
+            37   33  37 2
+            38   34  38 1
+            39   35  39 1
+            40   36  40 2
+            41   37  41 1
+            42   39  42 2
+            43   41  43 1
+            44   29  30 1
+            45   34  37 1
+            46   40  42 1
+            47   24  44 1
+            48   23  40 1
+            49   19  38 1
+            50   35  28 1
+            51   21  45 1
+            52   14  46 1
+            53   17  47 1
+///

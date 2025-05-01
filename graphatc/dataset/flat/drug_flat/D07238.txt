@@ -1,0 +1,78 @@
+ENTRY       D07238                      Drug
+NAME        Brodimoprim (INN)
+FORMULA     C13H15BrN4O2
+EXACT_MASS  338.0378
+MOL_WEIGHT  339.1878
+CLASS       Antibacterial
+             DG01581  Trimethoprim antibacterial
+REMARK      ATC code: J01EA02
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+TARGET      dihydrofolate reductase [KO:K13938]
+  PATHWAY   ko00670(K13938)  One carbon pool by folate
+            ko00790(K13938)  Folate biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EA Trimethoprim and derivatives
+                 J01EA02 Brodimoprim
+                  D07238  Brodimoprim (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01581  Trimethoprim antibacterial
+               D07238  Brodimoprim
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Trimethoprim
+                D07238  Brodimoprim (INN)
+DBLINKS     CAS: 56518-41-3
+            PubChem: 51091576
+            ChEBI: 131726
+            LigandBox: D07238
+            NIKKAJI: J12.610A
+ATOM        20
+            1   N5x N    31.1500  -19.4600
+            2   C8y C    31.1500  -18.0600
+            3   N5x N    29.9600  -17.3600
+            4   C8x C    28.7700  -18.0600
+            5   C8y C    28.7700  -19.4600
+            6   C8y C    29.9600  -20.1600
+            7   C1b C    27.5100  -20.1600
+            8   C8y C    26.3200  -19.4600
+            9   C8x C    26.3200  -18.0600
+            10  C8y C    25.0600  -17.3600
+            11  C8y C    23.8700  -18.0600
+            12  C8y C    23.8700  -19.4600
+            13  C8x C    25.0600  -20.1600
+            14  N1a N    29.9600  -21.5600
+            15  N1a N    32.3400  -17.3600
+            16  O2a O    22.6800  -20.1600
+            17  X   Br   22.6800  -17.3600
+            18  O2a O    25.0600  -15.9600
+            19  C1a C    21.4900  -19.4600
+            20  C1a C    26.2724  -15.2600
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15    6  14 1
+            16    2  15 1
+            17   12  16 1
+            18   11  17 1
+            19   10  18 1
+            20   16  19 1
+            21   18  20 1
+///

@@ -1,0 +1,91 @@
+ENTRY       C01802                      Compound
+NAME        Desmosterol;
+            24-Dehydrocholesterol;
+            Cholesta-5,24-dien-3beta-ol
+FORMULA     C27H44O
+EXACT_MASS  384.3392
+MOL_WEIGHT  384.6377
+REACTION    R01457 R03723 R03724 R03725 R04763
+PATHWAY     map00100  Steroid biosynthesis
+            map01100  Metabolic pathways
+ENZYME      1.3.1.72        4.1.2.33
+BRITE       Compounds with biological roles [BR:br08001]
+             Steroids
+              27-Carbon atoms
+               Cholestane derivatives
+                C01802  Desmosterol
+            Lipids [BR:br08002]
+             ST  Sterol lipids
+              ST01 Sterols
+               ST0101 Cholesterol and derivatives
+                C01802  Desmosterol
+DBLINKS     CAS: 313-04-2
+            PubChem: 4928
+            ChEBI: 17737
+            LIPIDMAPS: LMST01010016
+            KNApSAcK: C00023743
+            PDB-CCD: MHQ
+            3DMET: B01500
+            NIKKAJI: J5.659F
+ATOM        28
+            1   C1y C    26.3773  -21.6640
+            2   C1y C    25.2360  -22.3169
+            3   C1z C    26.3709  -20.3388
+            4   C1x C    28.6789  -21.6383
+            5   C1y C    24.0693  -21.6766
+            6   C1x C    25.2422  -23.6548
+            7   C1y C    27.5187  -19.6602
+            8   C1x C    25.2233  -19.6730
+            9   C1a C    26.3836  -18.7851
+            10  C1x C    28.6789  -20.3196
+            11  C1z C    22.9343  -22.3296
+            12  C1x C    24.0946  -20.2056
+            13  C2x C    24.0884  -24.3269
+            14  C1c C    27.5122  -18.2780
+            15  C2y C    22.9406  -23.6675
+            16  C1x C    21.7739  -21.6894
+            17  C1a C    22.9660  -20.7001
+            18  C1b C    28.7043  -17.5806
+            19  C1a C    26.3898  -17.4538
+            20  C1x C    21.7930  -24.3396
+            21  C1x C    20.6326  -22.3487
+            22  C1b C    29.9027  -18.2653
+            23  C1y C    20.6452  -23.6739
+            24  C2b C    31.0948  -17.5678
+            25  O1a O    19.4468  -24.3650
+            26  C2c C    32.3122  -18.2780
+            27  C1a C    33.5041  -17.5869
+            28  C1a C    32.3184  -19.8693
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14   11  15 1
+            15   11  16 1
+            16   11  17 1 #Up
+            17   14  18 1
+            18   14  19 1 #Down
+            19   15  20 1
+            20   16  21 1
+            21   18  22 1
+            22   20  23 1
+            23   22  24 1
+            24   23  25 1 #Up
+            25   24  26 2
+            26   26  27 1
+            27   26  28 1
+            28    7  10 1
+            29    8  12 1
+            30   13  15 2
+            31   21  23 1
+///

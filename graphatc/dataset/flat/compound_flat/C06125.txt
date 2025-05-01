@@ -1,0 +1,112 @@
+ENTRY       C06125                      Compound
+NAME        Sulfatide;
+            Galactosylceramide sulfate;
+            Cerebroside 3-sulfate
+FORMULA     C25H46NO11SR
+REMARK      Same as: G11122
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R04017 R04856
+PATHWAY     map00600  Sphingolipid metabolism
+            map01100  Metabolic pathways
+MODULE      M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid
+NETWORK     nt06014(G11122)  Sphingolipid degradation
+ENZYME      2.8.2.11        3.1.6.1         3.1.6.8
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Glycolipids
+               Glycosphingolipids
+                C06125  Sulfatide
+            Lipids [BR:br08002(G11122)]
+             SP  Sphingolipids
+              SP06 Acidic glycosphingolipids
+               SP0602 Sulfoglycosphingolipids (sulfatides)
+                G11122  S-3Gal-beta1->1'Cer
+            Lipids [BR:br08002]
+             SP  Sphingolipids
+              SP06 Acidic glycosphingolipids
+               SP0602 Sulfoglycosphingolipids (sulfatides)
+                C06125  Sulfatide
+DBLINKS     PubChem: 8382
+            ChEBI: 176327 18318 184397 184402 184960
+            LIPIDMAPS: LMSP06020000 LMSP06020002 LMSP06020009 LMSP06020010 LMSP06020015 LMSP0602AN00
+ATOM        39
+            1   C1y C    15.3671  -21.4590
+            2   C1y C    15.3671  -22.8588
+            3   O2x O    14.1434  -20.7591
+            4   O2a O    16.5779  -20.7591
+            5   C1y C    14.1434  -23.5658
+            6   O1a O    16.5779  -23.5658
+            7   C1y C    12.9254  -21.4590
+            8   C1b C    17.7900  -20.0590
+            9   C1y C    12.9254  -22.8588
+            10  O2a O    14.1434  -24.9598
+            11  C1b C    11.7264  -20.7591
+            12  C1c C    19.0008  -20.7591
+            13  O1a O    11.7264  -23.5658
+            14  S4a S    14.1434  -26.3539
+            15  O1a O    10.6611  -21.6666
+            16  C1c C    20.2129  -20.0590
+            17  N1b N    19.0008  -22.1529
+            18  O1d O    12.7365  -26.3539
+            19  O1d O    14.1434  -27.7535
+            20  O1d O    15.5432  -26.3539
+            21  C2b C    21.4239  -20.7591
+            22  O1a O    20.2129  -18.6523
+            23  C5a C    20.2129  -22.8530
+            24  C2b C    22.6287  -20.0590
+            25  O5a O    21.4239  -22.1529
+            26  R   R    20.2129  -24.2528
+            27  C1b C    23.8468  -20.7591
+            28  C1b C    25.0588  -20.0590
+            29  C1b C    26.2697  -20.7591
+            30  C1b C    27.4875  -20.0590
+            31  C1b C    28.6926  -20.7591
+            32  C1b C    29.9104  -20.0590
+            33  C1b C    31.1155  -20.7591
+            34  C1b C    32.3334  -20.0590
+            35  C1b C    33.5443  -20.7591
+            36  C1b C    34.7563  -20.0590
+            37  C1b C    35.9672  -20.7591
+            38  C1b C    37.1721  -20.0590
+            39  C1a C    38.3901  -20.7591
+BOND        39
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Up
+            11    8  12 1
+            12    9  13 1 #Up
+            13   10  14 1
+            14   11  15 1
+            15   12  16 1
+            16   12  17 1
+            17   14  18 2
+            18   14  19 1
+            19   14  20 2
+            20   16  21 1
+            21   16  22 1
+            22   17  23 1
+            23   21  24 2
+            24   23  25 2
+            25   23  26 1
+            26   24  27 1
+            27   27  28 1
+            28   28  29 1
+            29   29  30 1
+            30   30  31 1
+            31   31  32 1
+            32   32  33 1
+            33   33  34 1
+            34   34  35 1
+            35   35  36 1
+            36   36  37 1
+            37   37  38 1
+            38   38  39 1
+            39    7   9 1
+///

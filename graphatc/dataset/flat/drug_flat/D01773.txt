@@ -1,0 +1,129 @@
+ENTRY       D01773                      Drug
+NAME        Oxatomide (JAN/USAN/INN);
+            Celtect (TN)
+FORMULA     C27H30N4O
+EXACT_MASS  426.242
+MOL_WEIGHT  426.5533
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Dermatological agent
+             DG03243  Atopic dermatitis agent
+REMARK      Therapeutic category: 4490
+            ATC code: R06AE06
+            Product: D01773<JP>
+EFFICACY    Antiallergic, Antiasthmatic
+TARGET      ALOX5 [HSA:240] [KO:K00461]
+  PATHWAY   hsa00590(240)  Arachidonic acid metabolism
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AE Piperazine derivatives
+                 R06AE06 Oxatomide
+                  D01773  Oxatomide (JAN/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              44  Allergic agents
+               449  Miscellaneous
+                4490  Miscellaneous
+                 D01773  Oxatomide (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D01773  Oxatomide
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D01773  Oxatomide
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D01773  Oxatomide
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D01773  Oxatomide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dioxygenases
+                ALOX5
+                 D01773  Oxatomide (JAN/USAN/INN) &lt;JP&gt;
+DBLINKS     CAS: 60607-34-3
+            PubChem: 7848836
+            ChEBI: 31943
+            LigandBox: D01773
+            NIKKAJI: J18.379B
+ATOM        32
+            1   C8x C    27.0044  -21.8136
+            2   C8x C    27.0044  -23.2147
+            3   C8x C    28.2206  -23.9152
+            4   C8x C    29.4298  -23.2147
+            5   C8y C    29.4298  -21.8136
+            6   C8x C    28.2206  -21.1131
+            7   C1c C    30.6435  -21.1140
+            8   C8y C    31.8564  -21.8153
+            9   N1y N    30.6447  -19.7129
+            10  C8x C    31.8497  -23.2145
+            11  C8x C    33.0626  -23.9159
+            12  C8x C    34.2765  -23.2162
+            13  C8x C    34.2775  -21.8152
+            14  C8x C    33.0647  -21.1138
+            15  C1x C    31.8594  -19.0170
+            16  C1x C    31.8604  -17.6160
+            17  N1y N    30.6476  -16.9144
+            18  C1x C    29.4338  -17.6141
+            19  C1x C    29.4328  -19.0151
+            20  C1b C    30.6488  -15.5134
+            21  C1b C    31.8625  -14.8139
+            22  C1b C    33.0761  -15.5158
+            23  N4y N    34.3034  -14.8080
+            24  C8y C    34.3034  -13.4080
+            25  C8y C    35.6349  -15.2406
+            26  C8y C    36.4578  -14.1080
+            27  N4x N    35.6349  -12.9754
+            28  O5x O    33.1838  -12.5950
+            29  C8x C    37.8696  -14.1077
+            30  C8x C    38.5842  -15.3441
+            31  C8x C    37.8873  -16.5523
+            32  C8x C    36.4704  -16.5533
+BOND        36
+            1     7   8 1
+            2     2   3 1
+            3     7   9 1
+            4     9  15 1
+            5    15  16 1
+            6    16  17 1
+            7    17  18 1
+            8    18  19 1
+            9    19   9 1
+            10    3   4 2
+            11   17  20 1
+            12    4   5 1
+            13   20  21 1
+            14    5   6 2
+            15    6   1 1
+            16    8  10 2
+            17   10  11 1
+            18   11  12 2
+            19   12  13 1
+            20   13  14 2
+            21   14   8 1
+            22    5   7 1
+            23    1   2 2
+            24   21  22 1
+            25   22  23 1
+            26   23  24 1
+            27   23  25 1
+            28   25  26 2
+            29   26  27 1
+            30   24  27 1
+            31   24  28 2
+            32   26  29 1
+            33   29  30 2
+            34   30  31 1
+            35   31  32 2
+            36   32  25 1
+///

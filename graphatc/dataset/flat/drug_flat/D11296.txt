@@ -1,0 +1,176 @@
+ENTRY       D11296                      Drug
+NAME        Fedratinib hydrochloride (USAN);
+            Fedratinib hydrochloride hydrate (JAN);
+            Fedratinib dihydrochloride monohydrate;
+            Inrebic (TN)
+PRODUCT     INREBIC (Celgene Corporation)
+FORMULA     C27H36N6O3S. 2HCl. H2O
+EXACT_MASS  614.2209
+MOL_WEIGHT  615.6153
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02950  FMO3 substrate
+REMARK      ATC code: L01EJ02
+            Chemical structure group: DG02968
+            Product (DG02968): D11296<US>
+EFFICACY    Antineoplastic, Janus kinase (JAK) inhibitor
+  DISEASE   Myelofibrosis [DS:H01605]
+COMMENT     Treatment of intermediate-2 or high-risk primary or secondary (post-polycythemia vera or post-essential thrombocythemia) myelofibrosis (MF)
+TARGET      JAK2 [HSA:3717] [KO:K04447]
+  PATHWAY   hsa04630(3717)  JAK-STAT signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2C19 [HSA:1557], FMO3 [HSA:2328]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EJ Janus-associated kinase (JAK) inhibitors
+                 L01EJ02 Fedratinib
+                  D11296  Fedratinib hydrochloride (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Fedratinib
+                D11296  Fedratinib hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG02968  Fedratinib
+                 D11296  Fedratinib hydrochloride
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG02968  Fedratinib
+                D11296  Fedratinib hydrochloride
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02968  Fedratinib
+                 D11296  Fedratinib hydrochloride
+              DG02950  FMO3 substrate
+               DG02968  Fedratinib
+                D11296  Fedratinib hydrochloride
+            Drug classes [BR:br08332]
+             Immunological agent
+              DG02020  JAK inhibitor
+               D11296  Fedratinib hydrochloride
+             Antirheumatic agent
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D11296  Fedratinib hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK2
+                 D11296  Fedratinib hydrochloride (USAN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11296
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11296
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11296
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG02968  Fedratinib
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG02968  Fedratinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG02968  Fedratinib
+              DG02950  FMO3 substrate
+               DG02968  Fedratinib
+DBLINKS     CAS: 1374744-69-0
+            PubChem: 384585274
+ATOM        40
+            1   C8y C    13.2056  -18.4458
+            2   C8x C    13.2056  -19.8432
+            3   C8x C    14.4633  -20.5419
+            4   C8x C    15.6511  -19.8432
+            5   C8y C    15.6511  -18.4458
+            6   C8x C    14.4633  -17.7471
+            7   N1b N    16.8389  -17.7471
+            8   S4a S    12.0178  -17.7471
+            9   N1b N    10.8300  -17.0484
+            10  O3c O    11.3191  -18.9349
+            11  O3c O    12.7165  -16.5593
+            12  C8y C    16.8389  -16.3497
+            13  N5x N    18.0966  -15.6510
+            14  C8y C    18.0966  -14.2536
+            15  N5x N    16.8389  -13.5549
+            16  C8x C    15.6511  -14.2536
+            17  C8y C    15.6511  -15.6510
+            18  C1a C    14.4633  -16.3497
+            19  N1b N    19.2844  -13.5549
+            20  C8y C    20.4722  -14.2536
+            21  C8x C    20.4722  -15.6510
+            22  C8x C    21.6600  -16.3497
+            23  C8y C    22.9176  -15.6510
+            24  C8x C    22.9176  -14.2536
+            25  C8x C    21.6600  -13.5549
+            26  O2a O    24.1054  -16.3497
+            27  C1b C    25.2932  -15.6510
+            28  C1b C    25.2932  -14.2536
+            29  C1d C     9.6422  -16.2798
+            30  C1a C    10.2711  -15.2318
+            31  C1a C     8.4544  -15.5811
+            32  C1a C     8.9435  -17.5375
+            33  N1y N    26.5509  -13.5549
+            34  C1x C    27.8784  -14.1138
+            35  C1x C    28.8566  -13.0658
+            36  C1x C    28.0880  -11.8081
+            37  C1x C    26.6906  -12.0876
+            38  X   Cl   28.2100  -20.7200
+            39  X   Cl   28.2100  -19.0400
+            40  O0  O    28.7000  -16.5900
+BOND        40
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     5   7 1
+            8     1   8 1
+            9     8   9 1
+            10    8  10 2
+            11    8  11 2
+            12    7  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19   17  18 1
+            20   14  19 1
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   23  24 1
+            26   24  25 2
+            27   20  25 1
+            28   23  26 1
+            29   26  27 1
+            30   27  28 1
+            31    9  29 1
+            32   29  30 1
+            33   29  31 1
+            34   29  32 1
+            35   28  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 1
+            39   36  37 1
+            40   33  37 1
+///

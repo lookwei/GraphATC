@@ -1,0 +1,80 @@
+ENTRY       D03763                      Drug
+NAME        Pivopril (USAN/INN)
+FORMULA     C16H27NO4S
+EXACT_MASS  329.1661
+MOL_WEIGHT  329.4549
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03763  Pivopril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03763  Pivopril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03763  Pivopril (USAN/INN)
+DBLINKS     CAS: 81045-50-3
+            PubChem: 17397852
+            ChEBI: 188840
+            LigandBox: D03763
+            NIKKAJI: J25.812A
+ATOM        22
+            1   N1c N    36.5006  -19.3359
+            2   C5a C    35.2395  -20.0365
+            3   C1c C    34.0485  -19.3359
+            4   O5a O    35.2395  -21.4377
+            5   C1b C    32.8576  -20.0365
+            6   C1a C    34.0485  -17.9348
+            7   S2a S    31.5965  -19.3359
+            8   C5a C    30.4055  -20.1066
+            9   O5a O    30.4055  -21.5077
+            10  C1b C    37.7023  -20.0564
+            11  C1y C    36.4537  -17.9350
+            12  C6a C    38.9272  -19.3760
+            13  O6a O    40.1610  -20.1153
+            14  O6a O    38.9502  -18.0048
+            15  C1x C    37.5851  -17.1409
+            16  C1x C    37.1796  -15.8194
+            17  C1x C    35.7974  -15.7968
+            18  C1x C    35.3489  -17.1043
+            19  C1d C    29.1747  -19.4370
+            20  C1a C    27.9613  -18.7364
+            21  C1a C    29.8753  -18.2235
+            22  C1a C    28.4741  -20.6504
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     2   4 2
+            4     3   5 1
+            5     3   6 1 #Up
+            6     5   7 1
+            7     7   8 1
+            8     8   9 2
+            9     1  10 1
+            10    1  11 1
+            11   10  12 1
+            12   12  13 1
+            13   12  14 2
+            14   11  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   11  18 1
+            19    8  19 1
+            20   19  20 1
+            21   19  21 1
+            22   19  22 1
+///

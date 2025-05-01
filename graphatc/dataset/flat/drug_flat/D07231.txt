@@ -1,0 +1,57 @@
+ENTRY       D07231                      Drug
+NAME        Methylthiouracil (INN);
+            Thimecil (TN)
+FORMULA     C5H6N2OS
+EXACT_MASS  142.0201
+MOL_WEIGHT  142.1789
+CLASS       Hormonal agent
+             DG01934  Antithyroid agent
+REMARK      Same as: C19265
+            ATC code: H03BA01
+EFFICACY    Antithyroid, Thyroid hormone synthesis inhibitor
+TARGET      TPO [HSA:7173] [KO:K00431]
+  PATHWAY   hsa04918(7173)  Thyroid hormone synthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H03 THYROID THERAPY
+               H03B ANTITHYROID PREPARATIONS
+                H03BA Thiouracils
+                 H03BA01 Methylthiouracil
+                  D07231  Methylthiouracil (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01934  Antithyroid agent
+               D07231  Methylthiouracil
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Peroxidase
+                TPO
+                 D07231  Methylthiouracil (INN)
+DBLINKS     CAS: 56-04-2
+            PubChem: 51091569
+            ChEBI: 82346
+            LigandBox: D07231
+            NIKKAJI: J4.566G
+ATOM        9
+            1   C8y C    28.0700  -19.8100
+            2   N4x N    28.0700  -18.4100
+            3   C8y C    26.8800  -17.7100
+            4   C8x C    25.6900  -18.4100
+            5   C8y C    25.6900  -19.8100
+            6   N4x N    26.8800  -20.5100
+            7   S0  S    29.3300  -20.5100
+            8   O5x O    26.8800  -16.3100
+            9   C1a C    24.4300  -20.5100
+BOND        9
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     1   7 2
+            8     3   8 2
+            9     5   9 1
+///

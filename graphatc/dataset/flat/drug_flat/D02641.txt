@@ -1,0 +1,91 @@
+ENTRY       D02641                      Drug
+NAME        Butaclamol hydrochloride (USAN)
+FORMULA     C25H31NO. HCl
+EXACT_MASS  397.2172
+MOL_WEIGHT  397.9807
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+EFFICACY    Antipsychotic
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04020(1812)  Calcium signaling pathway
+            hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04540(1812+1813)  Gap junction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               D02641  Butaclamol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D02641  Butaclamol hydrochloride (USAN)
+                DRD2
+                 D02641  Butaclamol hydrochloride (USAN)
+DBLINKS     CAS: 36504-94-6
+            PubChem: 17396811
+            LigandBox: D02641
+ATOM        28
+            1   C1x C    38.1323  -20.2909
+            2   C8y C    37.2912  -19.1826
+            3   C8y C    37.6260  -17.8274
+            4   C1y C    38.8856  -17.2500
+            5   C1x C    39.5365  -20.3161
+            6   C8y C    40.1377  -17.8716
+            7   C8y C    40.4239  -19.2387
+            8   C8x C    36.6201  -16.8602
+            9   C8x C    35.2797  -17.2478
+            10  C8x C    34.9449  -18.6030
+            11  C8x C    35.9508  -19.5700
+            12  C8x C    41.7535  -19.6753
+            13  C8x C    42.7965  -18.7420
+            14  C8x C    42.5104  -17.3749
+            15  C8y C    41.1806  -16.9383
+            16  C1x C    38.9070  -15.8169
+            17  N1y N    40.0665  -15.1313
+            18  C1y C    41.1790  -15.8260
+            19  C1x C    42.4149  -15.1683
+            20  C1z C    42.3933  -13.7691
+            21  C1x C    41.2108  -13.0745
+            22  C1x C    40.0449  -13.7322
+            23  C1d C    42.8433  -12.6379
+            24  O1a O    43.6418  -14.4735
+            25  C1a C    43.5433  -11.4255
+            26  C1a C    41.5935  -12.0327
+            27  C1a C    44.1130  -13.2527
+            28  X   Cl   44.9400  -16.5900
+BOND        31
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  15 1
+            22   18  19 1
+            23   19  20 1
+            24   20  21 1
+            25   21  22 1
+            26   17  22 1
+            27   20  23 1 #Down
+            28   20  24 1 #Up
+            29   23  25 1
+            30   23  26 1
+            31   23  27 1
+///

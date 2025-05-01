@@ -1,0 +1,223 @@
+ENTRY       D10639                      Drug
+NAME        Grazoprevir (USAN);
+            Grazoprevir hydrate (JAN);
+            Grazyna (TN)
+FORMULA     C38H50N6O9S. H2O
+EXACT_MASS  784.3466
+MOL_WEIGHT  784.9187
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG02001  HCV NS3/4A protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+             DG02856  SLCO1B1 substrate
+            Transporter inhibitor
+             DG02862  ABCG2 inhibitor
+REMARK      ATC code: J05AP11
+            Chemical structure group: DG03051
+            Product (mixture): D10778<US>
+EFFICACY    Antiviral, Protease inhibitor
+TARGET      HCV NS3/4A protease [KO:K22273 K22274]
+  PATHWAY   ko03230(K22273+K22274)  Viral genome structure
+            ko03240(K22273+K22274)  Viral replication
+            ko05160(K22273+K22274)  Hepatitis C
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+            Transporter: ABCB1 [HSA:5243], SLCO1B1 [HSA:10599]
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551]
+            Transporter inhibition: ABCG2 [HSA:9429]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AP Antivirals for treatment of HCV infections
+                 J05AP11 Grazoprevir
+                  D10639  Grazoprevir (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG02001  HCV NS3/4A protease inhibitor
+                DG03051  Grazoprevir
+                 D10639  Grazoprevir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG03051  Grazoprevir
+                D10639  Grazoprevir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG03051  Grazoprevir
+                D10639  Grazoprevir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03051  Grazoprevir
+                D10639  Grazoprevir
+              DG02856  SLCO1B1 substrate
+               DG03051  Grazoprevir
+                D10639  Grazoprevir
+             Transporter inhibitor
+              DG02862  ABCG2 inhibitor
+               DG03051  Grazoprevir
+                D10639  Grazoprevir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HCV NS3/4A inhibitor
+                D10639  Grazoprevir (USAN)
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10639
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10639
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10639
+             Drug transporters
+              D10639
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG02001  HCV NS3/4A protease inhibitor
+                DG03051  Grazoprevir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG03051  Grazoprevir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG03051  Grazoprevir
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03051  Grazoprevir
+              DG02856  SLCO1B1 substrate
+               DG03051  Grazoprevir
+             Transporter inhibitor
+              DG02862  ABCG2 inhibitor
+               DG03051  Grazoprevir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HCV NS3/4A inhibitor
+                DG03051  Grazoprevir
+DBLINKS     CAS: 1350462-55-3
+            PubChem: 254741600
+ATOM        55
+            1   O0  O    54.7075  -16.5767
+            2   C1y C    37.5744  -13.2196
+            3   C1y C    37.5744  -14.6186
+            4   O7x O    38.7636  -15.3181
+            5   C1x C    40.0227  -13.2196
+            6   C1x C    38.7636  -12.5201
+            7   C1x C    42.4010  -13.2196
+            8   C1x C    41.2118  -12.5201
+            9   O2x O    43.6601  -15.3181
+            10  C8y C    44.8493  -14.6186
+            11  C8y C    44.8493  -13.2196
+            12  C1x C    43.6601  -12.5201
+            13  N5x N    46.0384  -15.3181
+            14  C8y C    47.2975  -14.6186
+            15  C8y C    47.2975  -13.2196
+            16  N5x N    46.0384  -12.5201
+            17  C8x C    48.4867  -15.3181
+            18  C8y C    49.6759  -14.6186
+            19  C8x C    49.6759  -13.2196
+            20  C8x C    48.4867  -12.5201
+            21  C1x C    36.3852  -13.9191
+            22  C7x C    38.7636  -16.7171
+            23  O6a O    37.5044  -17.4166
+            24  C1d C    38.6936  -19.5151
+            25  C1y C    39.9527  -18.8156
+            26  N1x N    39.9527  -17.4166
+            27  C1a C    37.5044  -18.8156
+            28  C1a C    38.6936  -20.9141
+            29  C1a C    37.5044  -20.2146
+            30  C5x C    41.1419  -19.5151
+            31  O5x O    41.1419  -20.9141
+            32  C1y C    43.6601  -17.0669
+            33  C1x C    42.3310  -17.4866
+            34  N1y N    42.3310  -18.8856
+            35  C1y C    43.6601  -19.3053
+            36  C1x C    44.4995  -18.1861
+            37  O2a O    50.8650  -15.3181
+            38  C1a C    52.0542  -14.6186
+            39  C1z C    47.3675  -20.0747
+            40  C5a C    48.5567  -19.3752
+            41  N1b N    49.7458  -20.1447
+            42  O5a O    48.5567  -17.9063
+            43  C1x C    46.6680  -21.2639
+            44  C1y C    47.9971  -21.2639
+            45  S4a S    51.1448  -19.4452
+            46  C1y C    52.2901  -20.2698
+            47  O3c O    51.7744  -18.2560
+            48  O3c O    50.3754  -18.2560
+            49  C1x C    52.9667  -21.4137
+            50  C1x C    53.7655  -20.2910
+            51  C5a C    44.8493  -20.0747
+            52  N1b N    46.1783  -19.5151
+            53  O5a O    44.8493  -21.4737
+            54  C2b C    49.1862  -21.9634
+            55  C2a C    50.3754  -21.2639
+BOND        60
+            1     2   3 1
+            2     3   4 1 #Down
+            3     5   6 1
+            4     2   6 1 #Up
+            5     7   8 1
+            6     5   8 1
+            7     9  10 1
+            8    10  11 1
+            9    11  12 1
+            10    7  12 1
+            11   10  13 2
+            12   13  14 1
+            13   14  15 2
+            14   15  16 1
+            15   11  16 2
+            16   14  17 1
+            17   17  18 2
+            18   18  19 1
+            19   19  20 2
+            20   15  20 1
+            21   21   3 1
+            22    2  21 1
+            23    4  22 1
+            24   22  23 2
+            25   25  24 1 #Down
+            26   25  26 1
+            27   22  26 1
+            28   24  27 1
+            29   24  28 1
+            30   24  29 1
+            31   25  30 1
+            32   30  31 2
+            33   32   9 1 #Down
+            34   33  34 1
+            35   34  35 1
+            36   35  36 1
+            37   36  32 1
+            38   32  33 1
+            39   30  34 1
+            40   18  37 1
+            41   37  38 1
+            42   39  40 1 #Down
+            43   40  41 1
+            44   40  42 2
+            45   39  43 1
+            46   39  44 1
+            47   43  44 1
+            48   41  45 1
+            49   45  46 1
+            50   45  47 2
+            51   45  48 2
+            52   46  49 1
+            53   46  50 1
+            54   50  49 1
+            55   51  52 1
+            56   51  53 2
+            57   39  52 1 #Up
+            58   35  51 1 #Up
+            59   44  54 1 #Down
+            60   54  55 2
+///

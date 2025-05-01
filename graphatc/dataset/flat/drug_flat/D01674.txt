@@ -1,0 +1,113 @@
+ENTRY       D01674                      Drug
+NAME        Naftopidil (JP18/INN);
+            Flivas (TN)
+FORMULA     C24H28N2O3
+EXACT_MASS  392.21
+MOL_WEIGHT  392.4907
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+REMARK      Therapeutic category: 2590
+            Product: D01674<JP>
+EFFICACY    Antidysuria, alpha1-Adrenergic receptor antagonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148)  Salivary secretion
+INTERACTION  
+STR_MAP     map07114  Naphthalene family
+            map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              25  Urogenital and anal organ agents
+               259  Miscellaneous
+                2590  Miscellaneous
+                 D01674  Naftopidil (JP18/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 D01674  Naftopidil
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01674  Naftopidil (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01674  Naftopidil
+              D01674  Naftopidil tablets
+              D01674  Naftopidil orally disintegrating tablets
+DBLINKS     CAS: 57149-07-2
+            PubChem: 7848737
+            ChEBI: 31891
+            LigandBox: D01674
+            NIKKAJI: J82.340F
+ATOM        29
+            1   N1y N    20.8567  -17.7071
+            2   C1x C    20.8567  -16.3024
+            3   C1x C    22.0762  -15.6000
+            4   N1y N    23.2885  -16.3024
+            5   C1x C    23.2885  -17.7071
+            6   C1x C    22.0762  -18.4095
+            7   C1b C    24.4963  -15.6072
+            8   C1c C    25.7094  -16.3096
+            9   C1b C    26.9226  -15.6142
+            10  O2a O    28.1358  -16.3165
+            11  C8y C    29.3490  -15.6213
+            12  O1a O    25.7064  -17.7143
+            13  C8x C    29.3534  -14.2231
+            14  C8x C    30.5666  -13.5279
+            15  C8x C    31.7753  -14.2307
+            16  C8y C    30.5575  -16.3244
+            17  C8y C    31.7632  -15.6300
+            18  C8x C    32.9674  -16.3271
+            19  C8x C    32.9657  -17.7184
+            20  C8x C    31.7601  -18.4126
+            21  C8x C    30.5560  -17.7157
+            22  C8y C    19.6405  -18.4102
+            23  C8x C    19.6458  -19.8078
+            24  C8x C    18.4295  -20.5108
+            25  C8x C    17.2126  -19.8090
+            26  C8x C    17.2119  -18.4042
+            27  C8y C    18.4282  -17.7014
+            28  O2a O    18.4316  -16.2966
+            29  C1a C    17.2108  -15.5876
+BOND        32
+            1    13  14 1
+            2    14  15 2
+            3    15  17 1
+            4    16  11 1
+            5     1   2 1
+            6     7   8 1
+            7     2   3 1
+            8     8   9 1
+            9     3   4 1
+            10    9  10 1
+            11   16  17 1
+            12   17  18 2
+            13   18  19 1
+            14   19  20 2
+            15   20  21 1
+            16   21  16 2
+            17    4   5 1
+            18    1  22 1
+            19   10  11 1
+            20    5   6 1
+            21    8  12 1
+            22    6   1 1
+            23   22  23 2
+            24   23  24 1
+            25   24  25 2
+            26   25  26 1
+            27   26  27 2
+            28   27  22 1
+            29    4   7 1
+            30   27  28 1
+            31   11  13 2
+            32   28  29 1
+///

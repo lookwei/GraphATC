@@ -1,0 +1,108 @@
+ENTRY       D07201                      Drug
+NAME        Fluprednidene (INN)
+FORMULA     C22H27FO5
+EXACT_MASS  390.1843
+MOL_WEIGHT  390.4452
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AB07 D07XB03
+            Chemical structure group: DG00414
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AB Corticosteroids, moderately potent (group II)
+                 D07AB07 Fluprednidene
+                  D07201  Fluprednidene (INN)
+               D07X CORTICOSTEROIDS, OTHER COMBINATIONS
+                D07XB Corticosteroids, moderately potent, other combinations
+                 D07XB03 Fluprednidene
+                  D07201  Fluprednidene (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00414  Fluprednidene
+                 D07201  Fluprednidene
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D07201  Fluprednidene (INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00414  Fluprednidene
+DBLINKS     CAS: 2193-87-5
+            PubChem: 51091539
+            LigandBox: D07201
+            NIKKAJI: J7.355E
+ATOM        28
+            1   C1z C    28.2100  -17.6400
+            2   C1y C    28.2100  -19.0400
+            3   C1x C    30.6349  -19.0400
+            4   C2y C    30.6356  -17.6340
+            5   C1z C    29.4224  -16.9400
+            6   C1x C    26.9976  -16.9400
+            7   C1y C    25.7851  -17.6400
+            8   C1z C    25.7851  -19.0400
+            9   C1y C    26.9976  -19.7400
+            10  C1z C    24.5727  -19.7400
+            11  C2y C    24.5727  -21.1400
+            12  C1x C    25.7851  -21.8400
+            13  C1x C    26.9976  -21.1400
+            14  C2x C    23.3603  -19.0400
+            15  C2x C    22.1478  -19.7400
+            16  C5x C    22.1478  -21.1400
+            17  C2x C    23.3603  -21.8400
+            18  C2a C    32.0003  -17.2357
+            19  C5a C    29.4224  -15.5402
+            20  C1b C    30.4123  -14.5503
+            21  O1a O    31.7367  -14.9055
+            22  O1a O    30.6348  -16.2400
+            23  C1a C    28.2100  -16.2400
+            24  O1a O    24.5540  -16.9290
+            25  C1a C    24.5727  -18.3400
+            26  X   F    25.7851  -20.4400
+            27  O5x O    20.9147  -21.8522
+            28  O5a O    28.1099  -14.9964
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13   9 1
+            16   10  14 1
+            17   14  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  11 2
+            21    4  18 2
+            22    5  19 1 #Up
+            23   19  20 1
+            24   20  21 1
+            25    5  22 1 #Down
+            26    1  23 1 #Up
+            27    7  24 1 #Up
+            28   10  25 1 #Up
+            29    8  26 1 #Down
+            30   16  27 2
+            31   19  28 2
+///

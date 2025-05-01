@@ -1,0 +1,44 @@
+ENTRY       C00577                      Compound
+NAME        D-Glyceraldehyde
+FORMULA     C3H6O3
+EXACT_MASS  90.0317
+MOL_WEIGHT  90.0779
+REACTION    R01036 R01041 R01059 R01752 R02568 R08570 R08571 R10050 
+            R10324 R10615 R10616
+PATHWAY     map00030  Pentose phosphate pathway
+            map00051  Fructose and mannose metabolism
+            map00052  Galactose metabolism
+            map00561  Glycerolipid metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+ENZYME      1.1.1.2         1.1.1.21        1.1.1.72        1.1.1.372       
+            1.2.1.3         1.2.1.89        1.2.7.5         1.2.99.8        
+            2.2.1.11        2.7.1.28        4.1.2.13        4.1.2.51        
+            4.1.2.55
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C00577  D-Glyceraldehyde
+DBLINKS     CAS: 453-17-8 367-47-5
+            PubChem: 3856
+            ChEBI: 17378
+            PDB-CCD: 3GR
+            3DMET: B00137
+            NIKKAJI: J5.790H J9.119G
+ATOM        6
+            1   C1c C    26.4600  -20.2300
+            2   C1b C    25.2700  -20.9300
+            3   C4a C    27.7200  -20.9300
+            4   O1a O    26.4600  -18.8300
+            5   O1a O    24.0800  -20.2300
+            6   O4a O    28.9100  -20.2300
+BOND        5
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     3   6 2
+///

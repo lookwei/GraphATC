@@ -1,0 +1,138 @@
+ENTRY       D09883                      Drug
+NAME        Dacomitinib (INN)
+FORMULA     C24H25ClFN5O2
+EXACT_MASS  469.1681
+MOL_WEIGHT  469.939
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+               DG03162  EGFR inhibitor
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      ATC code: L01EB07
+            Chemical structure group: DG01793
+            Product (DG01793): D10514<JP/US>
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      EGFR [HSA:1956] [KO:K04361]
+            ERBB2 (HER2, CD340) [HSA:2064] [KO:K05083]
+            ERBB4 (HER4) [HSA:2066] [KO:K05085]
+  PATHWAY   hsa04012(1956+2064+2066)  ErbB signaling pathway
+            hsa04020(1956+2064+2066)  Calcium signaling pathway
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EB Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors
+                 L01EB07 Dacomitinib
+                  D09883  Dacomitinib (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG01793  Dacomitinib
+                  D09883  Dacomitinib
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01793  Dacomitinib
+                D09883  Dacomitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               EGFR family
+                EGFR
+                 D09883  Dacomitinib (INN)
+                ERBB2 (HER2, CD340)
+                 D09883  Dacomitinib (INN)
+                ERBB4 (HER4)
+                 D09883  Dacomitinib (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09883
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                DG03162  EGFR inhibitor
+                 DG01793  Dacomitinib
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG01793  Dacomitinib
+DBLINKS     CAS: 1110813-31-4
+            PubChem: 135626635
+            ChEBI: 132268
+            PDB-CCD: 1C9
+            LigandBox: D09883
+ATOM        33
+            1   C8y C    17.0832  -13.4464
+            2   C8y C    17.0832  -14.8467
+            3   C8x C    15.8930  -15.5469
+            4   C8y C    14.7027  -14.8467
+            5   C8y C    14.7027  -13.4464
+            6   C8x C    15.8930  -12.7463
+            7   C8y C    13.4424  -15.5469
+            8   N5x N    12.2522  -14.8467
+            9   C8x C    12.2522  -13.4464
+            10  N5x N    13.4424  -12.7463
+            11  N1b N    18.3435  -15.5469
+            12  O2a O    18.3435  -12.7463
+            13  N1b N    13.4424  -16.9472
+            14  C1a C    18.3293  -11.3400
+            15  C5a C    19.5505  -14.8367
+            16  C2b C    20.7545  -15.5188
+            17  O5a O    19.5390  -13.4400
+            18  C2b C    21.9263  -14.8294
+            19  C1b C    23.1364  -15.5152
+            20  N1y N    24.3566  -14.7971
+            21  C1x C    25.5657  -15.4815
+            22  C1x C    26.7722  -14.7712
+            23  C1x C    26.7603  -13.3713
+            24  C1x C    25.5512  -12.6868
+            25  C1x C    24.3447  -13.3971
+            26  C8y C    14.6528  -17.6394
+            27  C8x C    14.6585  -19.0397
+            28  C8y C    15.8738  -19.7348
+            29  C8y C    17.0834  -19.0298
+            30  C8x C    17.0776  -17.6295
+            31  C8x C    15.8624  -16.9344
+            32  X   Cl   15.8795  -21.1400
+            33  X   F    18.3005  -19.7259
+BOND        36
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11    5  10 1
+            12    2  11 1
+            13    1  12 1
+            14    7  13 1
+            15   12  14 1
+            16   11  15 1
+            17   15  16 1
+            18   15  17 2
+            19   16  18 2
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   20  25 1
+            28   13  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   26  31 1
+            35   28  32 1
+            36   29  33 1
+///

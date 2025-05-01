@@ -1,0 +1,85 @@
+ENTRY       D12600                      Drug
+NAME        Bezuclastinib (USAN/INN)
+FORMULA     C19H17N5O
+EXACT_MASS  331.1433
+MOL_WEIGHT  331.3712
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+TARGET      KIT* (CD117) [HSA_VAR:3815v1] [HSA:3815] [KO:K05091]
+  PATHWAY   hsa04010(3815)  MAPK signaling pathway
+            hsa04014(3815)  Ras signaling pathway
+            hsa04151(3815)  PI3K-Akt signaling pathway
+            hsa05200(3815)  Pathways in cancer
+            hsa05230(3815)  Central carbon metabolism in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                D12600  Bezuclastinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                KIT* (CD117) [HSA_VAR:3815v1]
+                 D12600  Bezuclastinib (USAN/INN)
+DBLINKS     CAS: 1616385-51-3
+            PDB-CCD: WEJ
+ATOM        25
+            1   C8x C    15.1200  -11.0600
+            2   C8y C    15.1200  -12.4600
+            3   C8x C    16.3324  -13.1600
+            4   C8y C    17.5449  -12.4600
+            5   C8y C    17.5449  -11.0600
+            6   N5x N    16.3324  -10.3600
+            7   C8x C    18.8764  -12.8926
+            8   C8y C    19.6993  -11.7600
+            9   N4x N    18.8764  -10.6274
+            10  C8y C    21.0700  -11.7600
+            11  C8x C    21.7700  -12.9724
+            12  C8x C    23.1700  -12.9724
+            13  C8x C    23.8700  -11.7600
+            14  C8x C    23.1700  -10.5476
+            15  C8x C    21.7700  -10.5476
+            16  N1b N    13.9076  -13.1600
+            17  C5a C    12.7121  -12.4696
+            18  C8y C    11.5247  -13.1551
+            19  O5a O    12.7120  -11.0603
+            20  N5x N    10.2016  -12.7834
+            21  N4x N     9.4360  -13.9255
+            22  C8y C    10.2855  -15.0065
+            23  C8y C    11.5761  -14.5326
+            24  C1a C    12.7329  -15.3088
+            25  C1a C     9.9106  -16.3276
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18    2  16 1
+            19   16  17 1
+            20   17  18 1
+            21   17  19 2
+            22   18  20 2
+            23   20  21 1
+            24   21  22 1
+            25   22  23 2
+            26   18  23 1
+            27   23  24 1
+            28   22  25 1
+///

@@ -1,0 +1,78 @@
+ENTRY       D07941                      Drug
+NAME        Fasudil (INN)
+FORMULA     C14H17N3O2S
+EXACT_MASS  291.1041
+MOL_WEIGHT  291.3687
+REMARK      ATC code: C04AX32
+            Chemical structure group: DG00293
+            Product (DG00293): D03115<JP>
+EFFICACY    Vasodilator, Rho-associated kinase inhibitor
+TARGET      ROCK [HSA:6093 9475] [KO:K04514 K17388]
+  PATHWAY   hsa04022(6093+9475)  cGMP-PKG signaling pathway
+            hsa04270(6093+9475)  Vascular smooth muscle contraction
+            hsa04810(6093+9475)  Regulation of actin cytoskeleton
+            hsa04921(6093+9475)  Oxytocin signaling pathway
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AX Other peripheral vasodilators
+                 C04AX32 Fasudil
+                  D07941  Fasudil (INN)
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               AGC group
+                ROCK
+                 D07941  Fasudil (INN)
+DBLINKS     CAS: 103745-39-7
+            PubChem: 96024636
+            ChEBI: 43871
+            PDB-CCD: M77
+            LigandBox: D07941
+            NIKKAJI: J227.600C
+ATOM        20
+            1   C1x C    21.7000  -16.6600
+            2   C1x C    20.8600  -15.5400
+            3   C1x C    21.1400  -14.1400
+            4   N1x N    22.4700  -13.5800
+            5   N1y N    23.1000  -16.6600
+            6   C1x C    23.6600  -14.2100
+            7   C1x C    24.0100  -15.5400
+            8   S4a S    23.1000  -18.0600
+            9   C8y C    23.1000  -19.4600
+            10  O3c O    24.5000  -18.0600
+            11  O3c O    21.7000  -18.0600
+            12  C8x C    21.9100  -20.1600
+            13  C8x C    21.9100  -21.5600
+            14  C8x C    23.1000  -22.2600
+            15  C8y C    24.2900  -21.5600
+            16  C8y C    24.2900  -20.1600
+            17  C8x C    25.5500  -22.2600
+            18  N5x N    26.7400  -21.5600
+            19  C8x C    26.7400  -20.1600
+            20  C8x C    25.5500  -19.4600
+BOND        22
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 2
+            11    8  11 2
+            12    9  12 2
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17    9  16 1
+            18   15  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   16  20 1
+///

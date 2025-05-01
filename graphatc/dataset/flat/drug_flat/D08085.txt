@@ -1,0 +1,91 @@
+ENTRY       D08085                      Drug
+NAME        Iproniazid phosphate;
+            Marsilid (TN)
+FORMULA     C9H13N3O. H3PO4
+EXACT_MASS  277.0828
+MOL_WEIGHT  277.2142
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      ATC code: N06AF05
+            Chemical structure group: DG00950
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AF Monoamine oxidase inhibitors, non-selective
+                 N06AF05 Iproniazide
+                  D08085  Iproniazid phosphate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00950  Iproniazide
+                 D08085  Iproniazid phosphate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D08085  Iproniazid phosphate
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00950  Iproniazide
+DBLINKS     CAS: 305-33-9
+            PubChem: 96024775
+            LigandBox: D08085
+            NIKKAJI: J237.218E
+ATOM        18
+            1   C8y C    13.9300  -17.9200
+            2   C5a C    15.1900  -18.6200
+            3   C8x C    12.7400  -18.6200
+            4   C8x C    13.9300  -16.5200
+            5   N1b N    16.3800  -17.9200
+            6   O5a O    15.1900  -20.0200
+            7   C8x C    11.5500  -17.9200
+            8   C8x C    12.7400  -15.8200
+            9   N1b N    17.5700  -18.6200
+            10  N5x N    11.5500  -16.5200
+            11  C1c C    18.8300  -17.9200
+            12  C1a C    20.0200  -18.6200
+            13  C1a C    18.8300  -16.5200
+            14  P1b P    25.4800  -17.5000
+            15  O1c O    25.4800  -16.1000
+            16  O1c O    24.0800  -17.5000
+            17  O1c O    26.8800  -17.5000
+            18  O1c O    25.4800  -18.9000
+BOND        17
+            1     1   4 1
+            2     2   5 1
+            3     2   6 2
+            4     3   7 1
+            5     4   8 2
+            6     5   9 1
+            7     7  10 2
+            8     8  10 1
+            9     9  11 1
+            10    1   2 1
+            11   11  12 1
+            12    1   3 2
+            13   11  13 1
+            14   14  15 2
+            15   14  16 1
+            16   14  17 1
+            17   14  18 1
+///

@@ -1,0 +1,72 @@
+ENTRY       D01382                      Drug
+NAME        Metharbital (JAN/INN);
+            Gemonil (TN)
+FORMULA     C9H14N2O3
+EXACT_MASS  198.1004
+MOL_WEIGHT  198.2191
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG01904  Barbiturate antiepileptic
+REMARK      ATC code: N03AA30
+EFFICACY    Anticonvulsant
+COMMENT     Barbiturate derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07033  Anticonvulsants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AA Barbiturates and derivatives
+                 N03AA30 Metharbital
+                  D01382  Metharbital (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG01904  Barbiturate antiepileptic
+                D01382  Metharbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01382  Metharbital (JAN/INN)
+DBLINKS     CAS: 50-11-3
+            PubChem: 7848445
+            ChEBI: 31827
+            PDB-CCD: VOK
+            LigandBox: D01382
+            NIKKAJI: J1.357I
+ATOM        14
+            1   C1z C    26.4697  -18.3147
+            2   C5x C    26.4697  -19.7202
+            3   C5x C    25.2566  -17.6149
+            4   C1b C    27.8577  -18.3147
+            5   C1b C    26.4639  -16.9209
+            6   N1y N    25.2566  -20.4201
+            7   O5x O    27.6769  -20.4201
+            8   N1x N    24.0377  -18.3147
+            9   O5x O    25.2450  -16.2094
+            10  C1a C    28.5576  -17.1075
+            11  C1a C    27.6769  -16.2151
+            12  C5x C    24.0377  -19.7202
+            13  O5x O    22.8188  -20.4084
+            14  C1a C    25.2580  -21.8155
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12   12  13 2
+            13    8  12 1
+            14    6  14 1
+///

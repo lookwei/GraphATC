@@ -1,0 +1,77 @@
+ENTRY       C00185                      Compound
+NAME        Cellobiose;
+            1-beta-D-Glucopyranosyl-4-D-glucopyranose
+FORMULA     C12H22O11
+EXACT_MASS  342.1162
+MOL_WEIGHT  342.2965
+REMARK      Same as: G00289
+REACTION    R00026 R00306 R00952 R01441 R01442 R01443 R01444 R01445 
+            R02365 R02886 R02887 R11172 R11308
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+            map02010  ABC transporters
+            map02060  Phosphotransferase system (PTS)
+ENZYME      1.1.99.18       2.4.1.20        2.7.1.85        2.7.1.205       
+            3.2.1.4         3.2.1.21        3.2.1.74        3.2.1.91        
+            5.1.3.11
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Oligosaccharides
+               Disaccharides
+                C00185  Cellobiose
+DBLINKS     CAS: 16462-44-5
+            PubChem: 3485
+            ChEBI: 17057
+            PDB-CCD: CBI CBK
+            3DMET: B04644
+            NIKKAJI: J6.676A
+ATOM        23
+            1   C1y C    27.3529  -14.4315
+            2   C1y C    27.3529  -13.0311
+            3   O2a O    26.1393  -15.1258
+            4   C1y C    28.5548  -15.1258
+            5   O2x O    28.5548  -12.3250
+            6   C1b C    26.1393  -12.3250
+            7   C1y C    24.9198  -15.8319
+            8   C1y C    29.7742  -14.4315
+            9   O1a O    28.5548  -16.5261
+            10  C1y C    29.7742  -13.0311
+            11  O1a O    25.0714  -13.2354
+            12  O2x O    23.7003  -15.1317
+            13  C1y C    24.9198  -17.2321
+            14  O1a O    30.9821  -15.1258
+            15  O1a O    30.9821  -12.3250
+            16  C1y C    22.4925  -15.8376
+            17  C1y C    23.7003  -17.9323
+            18  O1a O    26.1334  -17.9323
+            19  C1y C    22.4925  -17.2321
+            20  C1b C    21.2847  -15.1317
+            21  O1a O    23.7061  -19.3326
+            22  O1a O    21.2847  -17.9323
+            23  O1a O    20.2170  -16.0359
+BOND        24
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     7   3 1 #Up
+            7     4   8 1
+            8     4   9 1 #Up
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12    7  13 1
+            13    8  14 1 #Down
+            14   10  15 1 #Either
+            15   12  16 1
+            16   13  17 1
+            17   13  18 1 #Down
+            18   16  19 1
+            19   16  20 1 #Up
+            20   17  21 1 #Up
+            21   19  22 1 #Down
+            22   20  23 1
+            23    8  10 1
+            24   17  19 1
+///

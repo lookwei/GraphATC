@@ -1,0 +1,160 @@
+ENTRY       D00197                      Drug
+NAME        Reserpine (JP18/USP/INN);
+            Apoplon (TN);
+            Serpalan (TN)
+FORMULA     C33H40N2O9
+EXACT_MASS  608.2734
+MOL_WEIGHT  608.6787
+SOURCE      Rauvolfia serpentina [TAX:4060]
+CLASS       Cardiovascular agent
+             DG01738  Centrally-acting antiadrenergic
+              DG01737  Rauwolfia alkaloid
+             DG01617  Catecholamine synthesis inhibitors
+            Transporter inhibitor
+             DG02867  ABCC2 inhibitor
+REMARK      Same as: C06539
+            ATC code: C02AA02
+EFFICACY    Antihypertensive, Antipsychotic, Vesicular monoamine transporter inhibitor
+COMMENT     Rauwolfia alkaloid
+TARGET      SLC18A1 (VMAT1) [HSA:6570] [KO:K08155]
+            SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+  PATHWAY   hsa04721(6570+6571)  Synaptic vesicle cycle
+            hsa04726(6570+6571)  Serotonergic synapse
+            hsa04728(6570+6571)  Dopaminergic synapse
+INTERACTION Transporter inhibition: ABCC2 [HSA:1244]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02A ANTIADRENERGIC AGENTS, CENTRALLY ACTING
+                C02AA Rauwolfia alkaloids
+                 C02AA02 Reserpine
+                  D00197  Reserpine (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01738  Centrally-acting antiadrenergic
+               DG01737  Rauwolfia alkaloid
+                D00197  Reserpine
+              DG01617  Catecholamine synthesis inhibitors
+               D00197  Reserpine
+             Transporter inhibitor
+              DG02867  ABCC2 inhibitor
+               D00197  Reserpine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC18
+                SLC18A1 (VMAT1)
+                 D00197  Reserpine (JP18/USP/INN)
+                SLC18A2 (VMAT2)
+                 D00197  Reserpine (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00197  Reserpine
+              D00197  Reserpine tablets
+              D00197  0.1% Reserpine powder
+              D00197  Reserpine injection
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D00197
+DBLINKS     CAS: 50-55-5
+            PubChem: 7847265
+            ChEBI: 28487
+            PDB-CCD: YHR
+            LigandBox: D00197
+            NIKKAJI: J1.359E
+ATOM        44
+            1   C8y C    14.4712  -16.7139
+            2   C1y C    15.6688  -15.9949
+            3   N1y N    15.6450  -14.5981
+            4   C1x C    14.4234  -13.9204
+            5   C1x C    13.2257  -14.6395
+            6   C8y C    13.2496  -16.0363
+            7   C1x C    16.8904  -16.6725
+            8   C1y C    18.0881  -15.9534
+            9   C1y C    18.0642  -14.5567
+            10  C1x C    16.8426  -13.8791
+            11  C1y C    19.3097  -16.6312
+            12  C1y C    20.5073  -15.9121
+            13  C1y C    20.4834  -14.5153
+            14  C1x C    19.2619  -13.8377
+            15  C8y C    12.1078  -17.0605
+            16  C8y C    12.8175  -18.2549
+            17  N4x N    14.2041  -18.0851
+            18  C8x C    10.7110  -17.0780
+            19  C8x C    10.0277  -18.2965
+            20  C8y C    10.7374  -19.4908
+            21  C8x C    12.1342  -19.4733
+            22  O2a O    10.0560  -20.7064
+            23  C1a C     8.6196  -20.7249
+            24  C7a C    19.3337  -18.0495
+            25  O7a O    21.6809  -13.7964
+            26  O2a O    21.7479  -16.6001
+            27  O6a O    18.1454  -18.7627
+            28  O7a O    20.5478  -18.7233
+            29  C1a C    22.9456  -15.8811
+            30  C7a C    21.7268  -12.3802
+            31  C8y C    22.8463  -11.6663
+            32  O6a O    20.4439  -11.7073
+            33  C8x C    24.0803  -12.3510
+            34  C8y C    25.2781  -11.6321
+            35  C8y C    25.2543  -10.2354
+            36  C8y C    24.0202   -9.5506
+            37  C8x C    22.8225  -10.2695
+            38  O2a O    26.4520   -9.5164
+            39  C1a C    25.1942   -7.4348
+            40  O2a O    23.9964   -8.1538
+            41  O2a O    26.4826  -12.3004
+            42  C1a C    27.6825  -11.5800
+            43  C1a C    21.7867  -17.9802
+            44  C1a C    27.6838  -10.1999
+BOND        49
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     2   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    3  10 1
+            12    8  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16    9  14 1
+            17    6  15 1
+            18   15  16 1
+            19   16  17 1
+            20    1  17 1
+            21   15  18 2
+            22   18  19 1
+            23   19  20 2
+            24   20  21 1
+            25   16  21 2
+            26   20  22 1
+            27   22  23 1
+            28   11  24 1 #Up
+            29   13  25 1 #Up
+            30   12  26 1 #Down
+            31   24  27 2
+            32   24  28 1
+            33   26  29 1
+            34   25  30 1
+            35   30  31 1
+            36   30  32 2
+            37   31  33 2
+            38   33  34 1
+            39   34  35 2
+            40   35  36 1
+            41   36  37 2
+            42   31  37 1
+            43   35  38 1
+            44   39  40 1
+            45   36  40 1
+            46   34  41 1
+            47   41  42 1
+            48   28  43 1
+            49   38  44 1
+///

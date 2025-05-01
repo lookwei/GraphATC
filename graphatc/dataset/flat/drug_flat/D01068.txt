@@ -1,0 +1,222 @@
+ENTRY       D01068                      Drug
+NAME        Vinblastine sulfate (JP18/USP);
+            Exal (TN);
+            Velban (TN)
+PRODUCT
+  GENERIC   VINBLASTINE SULFATE (Fresenius Kabi USA)
+FORMULA     C46H58N4O9. H2SO4
+EXACT_MASS  908.3878
+MOL_WEIGHT  909.0526
+SOURCE      Catharanthus roseus [TAX:4058]
+CLASS       Antineoplastic
+             DG01965  Vinca alkaloid antineoplastic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C11626
+            Therapeutic category: 4240
+            ATC code: L01CA01
+            Chemical structure group: DG00689
+            Product (DG00689): D01068<JP/US>
+EFFICACY    Antineoplastic, Tubulin polymerization inhibitor
+  DISEASE   Hodgkin's disease [DS:H00007]
+            Mycosis fungoides [DS:H01463]
+            Carcinoma of the testis [DS:H00023]
+            Kaposi's sarcoma [DS:H00041]
+            Letterer-Siwe disease [DS:H01512]
+            Choriocarcinoma [DS:H00028]
+            Carcinoma of the breast [DS:H00031]
+COMMENT     Vinca alkaloid
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07042  Antineoplastics - agents from natural products
+            map07046  Immunosuppressive agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01C PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS
+                L01CA Vinca alkaloids and analogues
+                 L01CA01 Vinblastine
+                  D01068  Vinblastine sulfate (JP18/USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               424  Plant extract preparations
+                4240  Plant extract preparations
+                 D01068  Vinblastine sulfate (JP18/USP)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00689  Vinblastine
+                D01068  Vinblastine sulfate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00689  Vinblastine
+                 D01068  Vinblastine sulfate
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D01068  Vinblastine sulfate (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01068  Vinblastine sulfate
+              D01068  Vinblastine sulfate for injection
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01068
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01965  Vinca alkaloid antineoplastic
+               DG00689  Vinblastine
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00689  Vinblastine
+DBLINKS     CAS: 143-67-9
+            PubChem: 7848131
+            ChEBI: 9984
+            LigandBox: D01068
+            NIKKAJI: J524.971F
+ATOM        64
+            1   S4a S    32.3820  -14.5300
+            2   O1d O    32.3820  -13.1300
+            3   O1d O    32.3820  -15.9300
+            4   O1d O    30.9819  -14.5300
+            5   O1d O    33.7819  -14.5300
+            6   C1z C    19.8800  -17.4300
+            7   C8y C    18.7600  -16.6600
+            8   C1x C    21.1400  -16.6600
+            9   C7a C    19.5300  -18.6900
+            10  C8y C    18.7600  -15.2600
+            11  N4x N    17.6400  -17.2900
+            12  C1y C    21.1400  -15.4000
+            13  O7a O    18.0600  -19.1800
+            14  O6a O    20.3700  -19.7400
+            15  C8y C    16.4500  -15.2600
+            16  C1x C    17.9900  -14.1400
+            17  C8y C    16.4500  -16.6600
+            18  C1x C    20.0200  -14.7700
+            19  C1a C    17.2200  -20.5800
+            20  C8x C    15.2600  -14.6300
+            21  C1x C    18.7600  -13.1600
+            22  C8x C    15.2600  -17.2900
+            23  N1y N    20.0200  -13.5100
+            24  C8x C    14.2100  -15.2600
+            25  C8x C    14.2100  -16.6600
+            26  C1x C    21.1400  -12.7400
+            27  C1z C    22.2600  -13.3700
+            28  C1x C    22.2600  -14.5600
+            29  O1a O    23.5200  -12.6700
+            30  C1b C    23.4724  -14.0700
+            31  C1a C    23.4725  -15.4698
+            32  C1z C    27.4400  -19.6000
+            33  C1y C    28.5600  -18.9000
+            34  C1y C    27.4400  -20.8600
+            35  C1x C    26.6000  -18.4800
+            36  C1z C    29.6800  -19.6000
+            37  N1y N    28.5600  -17.5700
+            38  C1z C    28.5600  -21.5600
+            39  N1y N    26.3200  -21.5600
+            40  C8y C    25.2000  -20.8600
+            41  C1x C    27.2300  -17.5700
+            42  C1y C    29.6800  -20.8600
+            43  C2x C    30.8700  -18.9000
+            44  C1b C    30.8000  -20.2300
+            45  C1x C    29.6800  -16.9400
+            46  C7a C    29.4700  -22.6800
+            47  O1a O    28.0700  -23.4500
+            48  C1a C    26.3200  -22.8900
+            49  O7a O    33.0400  -22.1900
+            50  C2x C    30.8700  -17.5700
+            51  C1a C    31.9200  -19.6000
+            52  O7a O    29.4700  -24.0100
+            53  O6a O    30.8000  -22.1900
+            54  C1a C    30.6600  -24.7100
+            55  C1a C    35.4900  -22.1900
+            56  C7a C    34.2300  -21.4900
+            57  O6a O    34.2300  -20.0900
+            58  C8y C    25.2000  -19.6000
+            59  C8x C    24.0800  -18.9700
+            60  C8x C    24.0800  -21.5600
+            61  C8y C    22.9600  -19.6000
+            62  C8y C    22.9600  -20.9300
+            63  O2a O    21.8400  -21.5600
+            64  C1a C    20.7200  -20.9300
+BOND        71
+            1     1   2 2
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     6   7 1
+            6     6   8 1
+            7     6   9 1 #Up
+            8     7  10 2
+            9     7  11 1
+            10    8  12 1
+            11    9  13 1
+            12    9  14 2
+            13   10  15 1
+            14   10  16 1
+            15   11  17 1
+            16   12  18 1 #Down
+            17   12  28 1
+            18   13  19 1
+            19   15  20 1
+            20   16  21 1
+            21   17  22 1
+            22   23  18 1 #Down
+            23   20  24 2
+            24   22  25 2
+            25   23  26 1
+            26   15  17 2
+            27   21  23 1
+            28   27  26 1
+            29   24  25 1
+            30   27  28 1
+            31   27  29 1 #Up
+            32   27  30 1 #Down
+            33   30  31 1
+            34   32  33 1
+            35   32  34 1
+            36   32  35 1 #Up
+            37   33  36 1
+            38   33  37 1
+            39   34  38 1
+            40   34  39 1
+            41   35  41 1
+            42   36  42 1
+            43   36  43 1
+            44   36  44 1 #Down
+            45   37  45 1
+            46   38  46 1 #Down
+            47   38  47 1 #Up
+            48   39  48 1
+            49   42  49 1 #Up
+            50   43  50 2
+            51   44  51 1
+            52   46  52 1
+            53   37  41 1
+            54   38  42 1
+            55   39  40 1
+            56   45  50 1
+            57   46  53 2
+            58   52  54 1
+            59   55  56 1
+            60   49  56 1
+            61   56  57 2
+            62   58  59 1
+            63   40  60 1
+            64   59  61 2
+            65   60  62 2
+            66   62  63 1
+            67   63  64 1
+            68   61  62 1
+            69   58  32 1
+            70   58  40 2
+            71    6  61 1 #Down
+///

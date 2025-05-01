@@ -1,0 +1,88 @@
+ENTRY       D05501                      Drug
+NAME        Pirlimycin hydrochloride (USAN);
+            Pirlimycin hydrochloride hydrate (JAN)
+FORMULA     C17H31ClN2O5S. HCl. H2O
+EXACT_MASS  464.1515
+MOL_WEIGHT  465.4327
+CLASS       Antibacterial
+             DG01578  Lincosamide antibiotic
+REMARK      Chemical structure group: DG01577
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     Lincosamide
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01578  Lincosamide antibiotic
+               DG01577  Pirlimycin
+                D05501  Pirlimycin hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Lincosamide
+                D05501  Pirlimycin hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01578  Lincosamide antibiotic
+               DG01577  Pirlimycin
+DBLINKS     CAS: 77495-92-2
+            PubChem: 47207170
+            LigandBox: D05501
+ATOM        28
+            1   C1y C    23.4806  -20.2195
+            2   C1y C    23.4806  -21.6243
+            3   C1y C    24.7450  -22.3267
+            4   C1y C    25.9391  -21.6243
+            5   C1y C    25.9391  -20.2195
+            6   O2x O    24.7450  -19.5171
+            7   S2a S    27.1332  -19.5171
+            8   C1a C    27.1332  -18.1122
+            9   O1a O    27.1332  -22.3267
+            10  O1a O    24.7450  -23.7316
+            11  O1a O    22.2865  -22.3267
+            12  C1c C    22.2865  -19.5171
+            13  N1b N    21.0924  -20.2195
+            14  C1c C    22.2865  -18.1122
+            15  C1a C    23.4806  -17.4098
+            16  C5a C    19.8983  -19.5171
+            17  C1y C    18.6339  -20.2195
+            18  O5a O    19.8983  -18.1122
+            19  X   Cl   21.0924  -17.4098
+            20  C1x C    17.4398  -19.5171
+            21  C1y C    16.2457  -20.2195
+            22  C1x C    16.2457  -21.6243
+            23  C1x C    17.4398  -22.3267
+            24  N1x N    18.6339  -21.6243
+            25  C1b C    14.9813  -19.5171
+            26  C1a C    13.7872  -20.2195
+            27  X   Cl   31.0100  -20.5800
+            28  O0  O    35.2100  -20.5800
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1 #Down
+            8     7   8 1
+            9     4   9 1 #Down
+            10    3  10 1 #Up
+            11    2  11 1 #Up
+            12    1  12 1
+            13   12  13 1
+            14   12  14 1
+            15   14  15 1
+            16   13  16 1
+            17   17  16 1
+            18   16  18 2
+            19   14  19 1 #Up
+            20   17  20 1
+            21   20  21 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   17  24 1
+            26   21  25 1 #Up
+            27   25  26 1
+///

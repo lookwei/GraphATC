@@ -1,0 +1,96 @@
+ENTRY       D01318                      Drug
+NAME        Diphenidol hydrochloride (USAN);
+            Difenidol hydrochloride (JP18);
+            Cephadol (TN);
+            Vontrol (TN)
+FORMULA     C21H27NO. HCl
+EXACT_MASS  345.1859
+MOL_WEIGHT  345.9061
+REMARK      Therapeutic category: 1339
+            Chemical structure group: DG02880
+            Product (DG02880): D01318<JP>
+EFFICACY    Anti-emetic, Antivertigo
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               133  Vertigo agents
+                1339  Others
+                 D01318  Diphenidol hydrochloride (USAN); Difenidol hydrochloride (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              06 Antivertigo drugs (incl. motion/morning sickness remedies)
+               D01318  Diphenidol hydrochloride (USAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Diphenidol
+                D01318  Diphenidol hydrochloride (USAN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01318  Diphenidol hydrochloride (USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01318  Difenidol hydrochloride
+DBLINKS     CAS: 3254-89-5
+            PubChem: 7848381
+            ChEBI: 31481
+            LigandBox: D01318
+            NIKKAJI: J257.268K
+ATOM        24
+            1   X   Cl   33.9627  -17.4509
+            2   C1d C    28.0031  -17.1421
+            3   C8y C    26.7982  -17.8380
+            4   C8y C    29.2196  -17.8380
+            5   C1b C    28.0089  -15.7501
+            6   O1a O    26.6403  -16.2881
+            7   C8x C    26.7982  -19.2301
+            8   C8x C    25.5992  -17.1421
+            9   C8x C    29.2079  -19.2301
+            10  C8x C    30.4186  -17.1421
+            11  C1b C    29.2196  -15.0541
+            12  C8x C    25.5992  -19.9262
+            13  C8x C    24.3944  -17.8380
+            14  C8x C    30.4129  -19.9262
+            15  C8x C    31.6236  -17.8380
+            16  C8x C    24.3944  -19.2301
+            17  C8x C    31.6177  -19.2301
+            18  C1b C    30.4073  -15.7415
+            19  N1y N    31.5963  -15.0567
+            20  C1x C    32.7854  -15.7449
+            21  C1x C    33.9986  -15.0463
+            22  C1x C    34.0001  -13.6463
+            23  C1x C    32.8110  -12.9580
+            24  C1x C    31.5978  -13.6567
+BOND        25
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     2   6 1
+            5     3   7 1
+            6     3   8 2
+            7     4   9 2
+            8     4  10 1
+            9     5  11 1
+            10    7  12 2
+            11    8  13 1
+            12    9  14 1
+            13   10  15 2
+            14   12  16 1
+            15   14  17 2
+            16   13  16 2
+            17   15  17 1
+            18   11  18 1
+            19   18  19 1
+            20   19  20 1
+            21   20  21 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   19  24 1
+///

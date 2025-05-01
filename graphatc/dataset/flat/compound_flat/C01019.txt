@@ -1,0 +1,57 @@
+ENTRY       C01019                      Compound
+NAME        L-Fucose;
+            L-Fucopyranose;
+            6-Deoxy-L-galactose
+FORMULA     C6H12O5
+EXACT_MASS  164.0685
+MOL_WEIGHT  164.1565
+REMARK      Same as: D12571
+COMMENT     D-Fucose [CPD:C01018]
+REACTION    R03161 R03162 R03163 R04270 R06118 R08926 R13144
+PATHWAY     map00051  Fructose and mannose metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01250  Biosynthesis of nucleotide sugars
+            map02020  Two-component system
+            map02024  Quorum sensing
+            map04625  C-type lectin receptor signaling pathway
+ENZYME      1.1.1.122       2.7.1.52        3.2.1.51        3.2.1.63        
+            5.3.1.3         5.3.1.25
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Deoxy sugars
+                C01019  L-Fucose
+DBLINKS     CAS: 2438-80-4
+            PubChem: 4264
+            ChEBI: 2181
+            KNApSAcK: C00035100
+            PDB-CCD: FUC FUL
+            3DMET: B04756
+            NIKKAJI: J92.797J
+ATOM        11
+            1   C1y C    25.6143  -16.5488
+            2   C1y C    24.4071  -15.8432
+            3   C1y C    26.8329  -15.8432
+            4   O1a O    25.6200  -17.9484
+            5   C1y C    24.4071  -14.4437
+            6   O1a O    23.2000  -16.5488
+            7   C1y C    26.8329  -14.4437
+            8   O1a O    28.0459  -16.5488
+            9   O2x O    25.6143  -13.7439
+            10  C1a C    23.2000  -13.7496
+            11  O1a O    28.0459  -13.7439
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     3   8 1 #Up
+            8     5   9 1
+            9     5  10 1 #Down
+            10    7  11 1 #Either
+            11    7   9 1
+///

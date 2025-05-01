@@ -1,0 +1,152 @@
+ENTRY       D02824                      Drug
+NAME        Almotriptan (USAN)
+FORMULA     C17H25N3O2S
+EXACT_MASS  335.1667
+MOL_WEIGHT  335.4643
+CLASS       Analgesic
+             DG01484  5-HT1B-receptor agonist
+             DG01485  5-HT1D-receptor agonist
+             DG01518  5-HT1B/1D-receptor agonist
+             DG01943  Triptan
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02950  FMO3 substrate
+             DG02917  MAO substrate
+              DG03178  MAOA substrate
+REMARK      ATC code: N02CC05
+            Chemical structure group: DG00839
+            Product (DG00839): D02825<US>
+EFFICACY    Antimigraine, Serotonin receptor agonist
+COMMENT     Sumatriptan derivative
+TARGET      HTR1B [HSA:3351] [KO:K04153]
+            HTR1D [HSA:3352] [KO:K04153]
+  PATHWAY   hsa04080(3351+3352)  Neuroactive ligand-receptor interaction
+            hsa04726(3351+3352)  Serotonergic synapse
+METABOLISM  Enzyme: MAOA [HSA:4128], CYP3A4 [HSA:1576], CYP2D6 [HSA:1565]; FMO3 [HSA:2328]
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CC Selective serotonin (5HT1) agonists
+                 N02CC05 Almotriptan
+                  D02824  Almotriptan (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00839  Almotriptan
+                D02824  Almotriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00839  Almotriptan
+                D02824  Almotriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00839  Almotriptan
+                D02824  Almotriptan
+              DG01943  Triptan
+               DG00839  Almotriptan
+                D02824  Almotriptan
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00839  Almotriptan
+                D02824  Almotriptan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00839  Almotriptan
+                 D02824  Almotriptan
+              DG02950  FMO3 substrate
+               DG00839  Almotriptan
+                D02824  Almotriptan
+              DG02917  MAO substrate
+               DG03178  MAOA substrate
+                DG00839  Almotriptan
+                 D02824  Almotriptan
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1B
+                 D02824  Almotriptan (USAN)
+                HTR1D
+                 D02824  Almotriptan (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02824
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01484  5-HT1B-receptor agonist
+               DG00839  Almotriptan
+              DG01485  5-HT1D-receptor agonist
+               DG00839  Almotriptan
+              DG01518  5-HT1B/1D-receptor agonist
+               DG00839  Almotriptan
+              DG01943  Triptan
+               DG00839  Almotriptan
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00839  Almotriptan
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00839  Almotriptan
+              DG02950  FMO3 substrate
+               DG00839  Almotriptan
+              DG02917  MAO substrate
+               DG03178  MAOA substrate
+                DG00839  Almotriptan
+DBLINKS     CAS: 154323-57-6
+            PubChem: 17396981
+            ChEBI: 520985
+            LigandBox: D02824
+ATOM        23
+            1   C8y C    28.7441  -18.7760
+            2   C8y C    28.7441  -20.1826
+            3   C8y C    30.0803  -18.3540
+            4   C8x C    27.5484  -18.0726
+            5   N4x N    30.0803  -20.6046
+            6   C8x C    27.5484  -20.8859
+            7   C8x C    30.9243  -19.4792
+            8   C8y C    26.3528  -18.7760
+            9   C8x C    26.3528  -20.1826
+            10  C1b C    25.0869  -18.0726
+            11  S4a S    23.8912  -18.7760
+            12  O3c O    24.8759  -19.7606
+            13  O3c O    22.9066  -19.7606
+            14  N1y N    22.8980  -17.7801
+            15  C1x C    23.3329  -16.4424
+            16  C1x C    22.1950  -15.6153
+            17  C1x C    21.0569  -16.4419
+            18  C1x C    21.4913  -17.7797
+            19  C1b C    30.0803  -16.9521
+            20  C1b C    31.2827  -16.2579
+            21  N1c N    31.2827  -14.8400
+            22  C1a C    32.5006  -14.1368
+            23  C1a C    30.0757  -14.1432
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     4   8 1
+            8     6   9 1
+            9     8  10 1
+            10   10  11 1
+            11   11  12 2
+            12   11  13 2
+            13    5   7 1
+            14    8   9 2
+            15   11  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   14  18 1
+            21    3  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   21  23 1
+///

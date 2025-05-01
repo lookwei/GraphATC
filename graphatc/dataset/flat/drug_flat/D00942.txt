@@ -1,0 +1,101 @@
+ENTRY       D00942                      Drug
+NAME        Risedronate sodium (USP);
+            Actonel (TN)
+PRODUCT
+  GENERIC   RISEDRONATE SODIUM (NorthStar RxLLC)
+            RISEDRONATE SODIUM (Proficient Rx LP)
+            RISEDRONATE SODIUM (Sun Pharmaceutical Industires)
+FORMULA     C7H10NO7P2. Na
+EXACT_MASS  304.983
+MOL_WEIGHT  305.0941
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      ATC code: M05BA07
+            Chemical structure group: DG00786
+            Product (DG00786): D00942<US> D03234<JP/US> D11570<US>
+EFFICACY    Antiresorptive, Osteoporosis agent, Farnesylpyrophosphate synthetase inhibitor
+  DISEASE   Osteoporosis [DS:H01593]
+            Glucocorticoid-induced osteoporosis [DS:H01709]
+            Paget's disease of bone [DS:H00437]
+COMMENT     Bisphosphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M05 DRUGS FOR TREATMENT OF BONE DISEASES
+               M05B DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+                M05BA Bisphosphonates
+                 M05BA07 Risedronic acid
+                  D00942  Risedronate sodium (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Metabolic Bone Disease Agents
+              Bisphosphonates
+               Risedronate
+                D00942  Risedronate sodium (USP)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00786  Risedronic acid
+                 D00942  Risedronate sodium
+            Drug classes [BR:br08332]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               D00942  Risedronate sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D00942  Risedronate sodium (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00786  Risedronic acid
+DBLINKS     CAS: 115436-72-1
+            PubChem: 7848005
+            ChEBI: 8868
+            LigandBox: D00942
+            NIKKAJI: J1.208.205C
+ATOM        18
+            1   Z   Na   27.2473  -25.1833 #+
+            2   C1d C    23.2400  -23.8700
+            3   P1b P    24.4300  -24.5000
+            4   P1b P    22.0500  -24.5000
+            5   C1b C    23.2400  -22.5400
+            6   C8y C    24.4300  -21.8400
+            7   C8x C    25.5500  -22.5400
+            8   N5x N    26.7400  -21.8400
+            9   C8x C    26.7400  -20.4400
+            10  C8x C    25.5500  -19.7400
+            11  C8x C    24.4300  -20.4400
+            12  O1c O    20.8600  -23.8700
+            13  O1c O    22.0500  -25.9000
+            14  O1c O    20.5100  -25.4800
+            15  O1c O    25.5500  -23.8700
+            16  O1c O    24.4300  -25.9000
+            17  O1c O    25.5500  -25.2000 #-
+            18  O1a O    23.2400  -25.2700
+BOND        17
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     5   6 1
+            5     6   7 2
+            6     7   8 1
+            7     8   9 2
+            8     9  10 1
+            9    10  11 2
+            10    6  11 1
+            11    4  12 2
+            12    4  13 1
+            13    4  14 1
+            14    3  15 2
+            15    3  16 1
+            16    3  17 1
+            17    2  18 1
+///

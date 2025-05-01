@@ -1,0 +1,128 @@
+ENTRY       D01277                      Drug
+NAME        Droxidopa (JP18/USAN/INN);
+            Dops (TN);
+            Northera (TN)
+PRODUCT     NORTHERA (Lundbeck Pharmaceuticals LLC)
+  GENERIC   DROXIDOPA (Ajanta Pharma USA)
+            DROXIDOPA (Ascend Laboratories)
+            DROXIDOPA (Aurobindo Pharma Limited)
+            DROXIDOPA (Bionpharma)
+            DROXIDOPA (CELLTRION USA)
+            DROXIDOPA (Camber Pharmaceuticals)
+            DROXIDOPA (Golden State Medical Supply)
+            DROXIDOPA (Hikma Pharmaceuticals USA)
+            DROXIDOPA (Lupin Pharmaceuticals)
+            DROXIDOPA (MSN LABORATORIES PRIVATE LIMITED)
+            DROXIDOPA (Novadoz Pharmaceuticals LLC)
+            DROXIDOPA (ScieGen Pharmaceuticals)
+            DROXIDOPA (Slate Run Pharmaceuticals)
+            DROXIDOPA (Sun Pharmaceutical Industries)
+            DROXIDOPA (Tris Pharma)
+            DROXIDOPA (Upsher-Smith Laboratories)
+            DROXIDOPA (Zydus Lifesciences Limited)
+            DROXIDOPA (Zydus Pharmaceuticals USA)
+FORMULA     C9H11NO5
+EXACT_MASS  213.0637
+MOL_WEIGHT  213.1873
+CLASS       Neuropsychiatric agent
+             DG01967  Antiparkinson agent
+REMARK      Therapeutic category: 1169
+            ATC code: C01CA27
+            Product: D01277<JP/US>
+EFFICACY    Antiparkinsonian, Replenisher (noradrenalin)
+  DISEASE   Parkinson disease [DS:H00057]
+            Multiple system atrophy [DS:H01614]
+            Dopamine beta-hydroxylase deficiency [DS:H01005]
+COMMENT     precursor of Norepinephrine [DR:D00076]
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA27 Droxidopa
+                  D01277  Droxidopa (JP18/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Alpha-adrenergic Agonists
+               Droxidopa
+                D01277  Droxidopa (JP18/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               116  Antiparkinsonian agents
+                1169  Others
+                 D01277  Droxidopa (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D01277  Droxidopa
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG01967  Antiparkinson agent
+               D01277  Droxidopa
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01277  Droxidopa (JP18/USAN/INN) &lt;JP/US&gt;
+                ADRA2
+                 D01277  Droxidopa (JP18/USAN/INN) &lt;JP/US&gt;
+                ADRB
+                 D01277  Droxidopa (JP18/USAN/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01277  Droxidopa
+              D01277  Droxidopa capsules
+              D01277  Droxidopa fine granules
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01277
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01277
+DBLINKS     CAS: 23651-95-8
+            PubChem: 7848340
+            ChEBI: 31524
+            LigandBox: D01277
+            NIKKAJI: J22.085J
+ATOM        15
+            1   C8y C     5.1800   -5.1100
+            2   C8y C     5.1800   -6.5100
+            3   C8x C     6.4400   -7.2100
+            4   C8x C     7.6300   -6.5100
+            5   C8y C     7.6300   -5.1100
+            6   C8x C     6.4400   -4.4100
+            7   O1a O     3.9900   -7.2100
+            8   C1c C     8.8200   -4.4100
+            9   C1c C    10.0100   -5.1100
+            10  C6a C    11.2700   -4.4100
+            11  O6a O    12.4600   -5.1100
+            12  O6a O    11.2700   -3.0100
+            13  O1a O     8.8200   -3.0100
+            14  N1a N    10.0100   -6.5100
+            15  O1a O     3.9734   -4.4000
+BOND        15
+            1     1   2 2
+            2     2   3 1
+            3     5   8 1
+            4     3   4 2
+            5     8   9 1
+            6     4   5 1
+            7     9  10 1
+            8     5   6 2
+            9    10  11 1
+            10    6   1 1
+            11   10  12 2
+            12    8  13 1 #Up
+            13    2   7 1
+            14    9  14 1 #Up
+            15    1  15 1
+///

@@ -1,0 +1,110 @@
+ENTRY       D08281                      Drug
+NAME        Nomegestrol acetate (USAN);
+            Lutenyl (TN)
+FORMULA     C23H30O4
+EXACT_MASS  370.2144
+MOL_WEIGHT  370.4819
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      ATC code: G03DB04
+            Chemical structure group: DG00468
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin, pregradiene derivative
+            Prevention of pregnancy in women who elect to use a hormonal contraceptive as a method of contraception
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03D PROGESTOGENS
+                G03DB Pregnadien derivatives
+                 G03DB04 Nomegestrol
+                  D08281  Nomegestrol acetate (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00468  Nomegestrol
+                D08281  Nomegestrol acetate
+              DG01666  Progesterone receptor agonist
+               DG00468  Nomegestrol
+                D08281  Nomegestrol acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D08281  Nomegestrol acetate (USAN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00468  Nomegestrol
+              DG01666  Progesterone receptor agonist
+               DG00468  Nomegestrol
+DBLINKS     CAS: 58652-20-3
+            PubChem: 96024968
+            LigandBox: D08281
+            NIKKAJI: J296.996C
+ATOM        27
+            1   C1z C    26.4600  -16.5900
+            2   C1y C    26.4600  -17.9200
+            3   C1x C    28.8400  -17.9200
+            4   C1x C    28.8400  -16.5900
+            5   C1z C    27.6500  -15.8900
+            6   C1x C    25.2700  -15.8900
+            7   C1x C    24.0800  -16.5900
+            8   C1y C    24.0800  -17.9200
+            9   C1y C    25.2700  -18.6200
+            10  C1y C    22.9600  -18.6200
+            11  C2y C    22.9600  -20.0200
+            12  C2y C    24.0800  -20.6500
+            13  C2x C    25.2700  -20.0200
+            14  C1x C    21.8400  -17.9200
+            15  C1x C    20.6500  -18.6200
+            16  C5x C    20.6500  -20.0200
+            17  C2x C    21.8400  -20.6500
+            18  C1a C    26.4600  -15.1900
+            19  C5a C    27.6500  -14.4900
+            20  C1a C    26.4600  -13.7900
+            21  O7a O    28.8400  -15.1900
+            22  C1a C    24.0800  -22.0500
+            23  O5x O    19.4600  -20.7200
+            24  O5a O    28.8400  -13.7900
+            25  C7a C    30.0581  -15.8801
+            26  C1a C    31.2395  -15.1850
+            27  O6a O    30.0698  -17.2894
+BOND        30
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 2
+            15    9  13 1
+            16   10  14 1
+            17   14  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  11 2
+            21    1  18 1 #Up
+            22    5  19 1 #Up
+            23   19  20 1
+            24    5  21 1 #Down
+            25   12  22 1
+            26   16  23 2
+            27   19  24 2
+            28   21  25 1
+            29   25  26 1
+            30   25  27 2
+///

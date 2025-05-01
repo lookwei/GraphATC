@@ -1,0 +1,118 @@
+ENTRY       D08106                      Drug
+NAME        Labetalol (INN)
+FORMULA     C19H24N2O3
+EXACT_MASS  328.1787
+MOL_WEIGHT  328.4055
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+             DG03231  Antihypertensive
+              DG03180  alpha1 and beta-Adrenergic receptor antagonist
+REMARK      Same as: C07063
+            ATC code: C07AG01
+            Chemical structure group: DG00320
+            Product (DG00320): D00600<JP/US>
+EFFICACY    Antihypertensive, alpha1/beta-Adrenergic receptor antagonist
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRB1 [HSA:153] [KO:K04141]
+            ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(146+147+148+153+154)  Calcium signaling pathway
+            hsa04022(146+147+148+153+154)  cGMP-PKG signaling pathway
+            hsa04024(153+154)  cAMP signaling pathway
+            hsa04080(146+147+148+153+154)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AG Alpha and beta blocking agents
+                 C07AG01 Labetalol
+                  D08106  Labetalol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG00320  Labetalol
+                 D08106  Labetalol
+              DG03231  Antihypertensive
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG00320  Labetalol
+                 D08106  Labetalol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08106  Labetalol (INN)
+                ADRB1
+                 D08106  Labetalol (INN)
+                ADRB2
+                 D08106  Labetalol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG00320  Labetalol
+              DG03231  Antihypertensive
+               DG03180  alpha1 and beta-Adrenergic receptor antagonist
+                DG00320  Labetalol
+DBLINKS     CAS: 36894-69-6
+            PubChem: 96024796
+            ChEBI: 6343
+            LigandBox: D08106
+            NIKKAJI: J19.703C
+ATOM        24
+            1   C8y C    13.1600  -15.8200
+            2   C8y C    13.1600  -14.4200
+            3   C8x C    14.3500  -13.7200
+            4   C8x C    15.6100  -14.4200
+            5   C8y C    15.6100  -15.8200
+            6   C8x C    14.3500  -16.5200
+            7   C1c C    16.8000  -16.5200
+            8   C1b C    18.0600  -15.8200
+            9   N1b N    19.2500  -16.5200
+            10  C1c C    20.4400  -15.8200
+            11  C1b C    21.7000  -16.5200
+            12  C1b C    22.8900  -15.8200
+            13  C8y C    24.0800  -16.5200
+            14  C5a C    11.9700  -16.5200
+            15  N1a N    10.7800  -15.8200
+            16  O5a O    11.9700  -17.9200
+            17  O1a O    11.9700  -13.7200
+            18  O1a O    16.8000  -17.9200
+            19  C1a C    20.4400  -14.4200
+            20  C8x C    25.3400  -15.8200
+            21  C8x C    26.5300  -16.5200
+            22  C8x C    26.5300  -17.9200
+            23  C8x C    25.3400  -18.6200
+            24  C8x C    24.0800  -17.9200
+BOND        25
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    1  14 1
+            15   14  15 1
+            16   14  16 2
+            17    2  17 1
+            18    7  18 1
+            19   10  19 1
+            20   13  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   13  24 1
+///

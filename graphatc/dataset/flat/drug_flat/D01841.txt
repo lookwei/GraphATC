@@ -1,0 +1,92 @@
+ENTRY       D01841                      Drug
+NAME        Felbinac ethyl (JAN);
+            LM 001
+FORMULA     C16H16O2
+EXACT_MASS  240.115
+MOL_WEIGHT  240.297
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01906  Anti-inflammatory drug, acetic acid derivatives
+               DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+REMARK      ATC code: M02AA08
+            Chemical structure group: DG00764
+            Product (DG00764): D01675<JP>
+EFFICACY    Analgesic, Anti-inflammatory, COX inhibitor
+COMMENT     Phenylacetic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA08 Felbinac
+                  D01841  Felbinac ethyl (JAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+                 DG00764  Felbinac
+                  D01841  Felbinac ethyl
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01841  Felbinac ethyl (JAN)
+                PTGS2 (COX2)
+                 D01841  Felbinac ethyl (JAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01906  Anti-inflammatory drug, acetic acid derivatives
+                DG01898  Anti-inflammatory drug, phenylacetic acid derivatives
+                 DG00764  Felbinac
+DBLINKS     CAS: 14062-23-8
+            PubChem: 7848903
+            ChEBI: 31598
+            LigandBox: D01841
+            NIKKAJI: J134.059J
+ATOM        18
+            1   C8y C    26.6000  -24.4300
+            2   C8x C    27.7900  -25.1300
+            3   C8x C    26.6000  -23.0300
+            4   C8x C    29.0500  -24.4300
+            5   C8x C    27.7900  -22.3300
+            6   C8y C    29.0500  -23.0300
+            7   C1b C    30.2400  -22.3300
+            8   C7a C    31.4300  -23.0300
+            9   O6a O    31.4300  -24.4300
+            10  O7a O    32.6900  -22.3300
+            11  C1b C    33.8800  -23.0300
+            12  C8y C    25.4100  -25.1300
+            13  C8x C    24.1500  -24.4300
+            14  C8x C    22.9600  -25.1300
+            15  C8x C    22.9600  -26.5300
+            16  C8x C    24.1500  -27.2300
+            17  C8x C    25.4100  -26.5300
+            18  C1a C    35.0700  -22.3300
+BOND        19
+            1     2   4 1
+            2     3   5 2
+            3     4   6 2
+            4     6   7 1
+            5     7   8 1
+            6     8   9 2
+            7     8  10 1
+            8     5   6 1
+            9    10  11 1
+            10    1   2 2
+            11    1   3 1
+            12    1  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   12  17 1
+            19   11  18 1
+///

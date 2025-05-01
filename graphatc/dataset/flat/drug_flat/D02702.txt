@@ -1,0 +1,89 @@
+ENTRY       D02702                      Drug
+NAME        Talibegron hydrochloride (USAN)
+FORMULA     C18H21NO4. HCl
+EXACT_MASS  351.1237
+MOL_WEIGHT  351.8246
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01453  beta3-Adrenergic receptor agonist
+            Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+EFFICACY    Antiobesity (veterinary), beta3-Adrenergic receptor agonist
+COMMENT     Treatment of obesity in dogs and cats
+TARGET      ADRB3 [HSA:155] [KO:K04143]
+  PATHWAY   hsa04020(155)  Calcium signaling pathway
+            hsa04080(155)  Neuroactive ligand-receptor interaction
+            hsa04923(155)  Regulation of lipolysis in adipocytes
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01453  beta3-Adrenergic receptor agonist
+                 D02702  Talibegron hydrochloride
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                D02702  Talibegron hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB3
+                 D02702  Talibegron hydrochloride (USAN)
+DBLINKS     CAS: 178600-17-4
+            PubChem: 17396869
+            LigandBox: D02702
+ATOM        24
+            1   C8x C    15.1200  -22.4700
+            2   C8x C    15.1200  -21.0700
+            3   C8x C    16.3100  -20.3700
+            4   C8x C    17.5700  -21.0700
+            5   C8y C    17.5700  -22.4700
+            6   C8x C    16.3100  -23.1700
+            7   C1c C    18.7600  -23.1700
+            8   C1b C    20.0200  -22.4700
+            9   N1b N    21.2100  -23.1700
+            10  C1b C    22.4000  -22.4700
+            11  C1b C    23.6600  -23.1700
+            12  O2a O    24.8500  -22.4700
+            13  C8y C    26.0400  -23.1700
+            14  O1a O    18.7600  -24.5700
+            15  C8x C    27.3000  -22.4700
+            16  C8x C    28.4900  -23.1700
+            17  C8y C    28.4900  -24.5700
+            18  C8x C    27.3000  -25.2700
+            19  C8x C    26.0400  -24.5700
+            20  C1b C    29.6800  -25.2700
+            21  C6a C    30.9400  -24.5700
+            22  O6a O    32.1300  -25.2700
+            23  O6a O    30.9400  -23.1700
+            24  X   Cl   27.3700  -27.3000
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    7  14 1 #Down
+            15   13  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   13  19 1
+            21   17  20 1
+            22   20  21 1
+            23   21  22 1
+            24   21  23 2
+///

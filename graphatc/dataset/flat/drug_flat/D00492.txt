@@ -1,0 +1,149 @@
+ENTRY       D00492                      Drug
+NAME        Pancuronium bromide (JP18/USP/INN);
+            Pavulon (TN)
+FORMULA     C35H60N2O4. 2Br
+EXACT_MASS  730.292
+MOL_WEIGHT  732.6699
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01696  Peripherally-acting muscle relaxant
+               DG03117  Nondepolarizing neuromuscular blocking agent
+             DG01742  Quaternary ammonium compound type muscle relaxant
+REMARK      ATC code: M03AC01
+            Chemical structure group: DG00769
+EFFICACY    Anesthetic (adjunct), Neuromuscular blocking agent
+TARGET      CHRN (neuronal type) [HSA:1135 1136 1137 1138 8973 1139 55584 57053 1141 1142 1143] [KO:K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04813 K04814 K04815]
+  PATHWAY   hsa04080(1135+1136+1137+1138+1139+1141+1142+1143+55584+57053+8973)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03A MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS
+                M03AC Other quaternary ammonium compounds
+                 M03AC01 Pancuronium
+                  D00492  Pancuronium bromide (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 DG00769  Pancuronium
+                  D00492  Pancuronium bromide
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               DG00769  Pancuronium
+                D00492  Pancuronium bromide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN (neuronal type)
+                 D00492  Pancuronium bromide (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00492  Pancuronium bromide
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 DG00769  Pancuronium
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               DG00769  Pancuronium
+DBLINKS     CAS: 15500-66-0
+            PubChem: 7847558
+            ChEBI: 7908
+            LigandBox: D00492
+            NIKKAJI: J321.020K
+ATOM        43
+            1   C1y C    26.8959  -20.5388
+            2   C1y C    25.7302  -21.2091
+            3   C1z C    26.9135  -19.1864
+            4   C1x C    29.2452  -20.4979
+            5   C1y C    24.5586  -20.5214
+            6   C1x C    25.7302  -22.5673
+            7   C1y C    28.0968  -18.5219
+            8   C1x C    25.7535  -18.4928
+            9   C1a C    26.9426  -17.8924
+            10  C1y C    29.2626  -19.2155
+            11  C1z C    23.3752  -21.1917
+            12  C1x C    24.5702  -19.1690
+            13  C1x C    24.5469  -23.2435
+            14  O7a O    28.1083  -16.7963
+            15  N2y N    30.4459  -18.5452 #+
+            16  C1y C    23.3693  -22.5616
+            17  C1x C    22.1977  -20.5155
+            18  C1a C    23.2934  -19.9559
+            19  C7a C    26.9367  -16.0967
+            20  C1x C    31.6118  -19.2448
+            21  C1x C    30.4576  -17.1929
+            22  C1a C    30.4518  -20.1600
+            23  C1x C    22.1977  -23.2378
+            24  C1y C    21.0260  -21.1917
+            25  C1a C    25.7476  -16.7672
+            26  O6a O    26.9542  -14.7386
+            27  C1x C    32.7951  -18.5802
+            28  C1x C    31.6409  -16.5224
+            29  C1y C    21.0260  -22.5616
+            30  N2y N    19.7027  -20.3114 #+
+            31  C1x C    32.8125  -17.2220
+            32  O7a O    19.8427  -23.2378
+            33  C1x C    19.6386  -18.9591
+            34  C1x C    18.5311  -20.9935
+            35  C1a C    20.8860  -18.7781
+            36  C7a C    19.8427  -24.5959
+            37  C1x C    18.5311  -18.2771
+            38  C1x C    17.3537  -20.3174
+            39  C1a C    18.6653  -25.2778
+            40  O6a O    21.0260  -25.2778
+            41  C1x C    17.3594  -18.9591
+            42  X   Br   19.7843  -16.9191 #-
+            43  X   Br   31.0056  -22.2866 #-
+BOND        46
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     3   9 1 #Up
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1 #Up
+            14   10  15 1 #Up
+            15   11  16 1
+            16   11  17 1
+            17   11  18 1 #Up
+            18   14  19 1
+            19   15  20 1
+            20   15  21 1
+            21   15  22 1
+            22   16  23 1
+            23   17  24 1
+            24   19  25 1
+            25   19  26 2
+            26   20  27 1
+            27   21  28 1
+            28   23  29 1
+            29   24  30 1 #Up
+            30   27  31 1
+            31   29  32 1 #Down
+            32   30  33 1
+            33   30  34 1
+            34   30  35 1
+            35   32  36 1
+            36   33  37 1
+            37   34  38 1
+            38   36  39 1
+            39   36  40 2
+            40   37  41 1
+            41    7  10 1
+            42    8  12 1
+            43   13  16 1
+            44   24  29 1
+            45   28  31 1
+            46   38  41 1
+///

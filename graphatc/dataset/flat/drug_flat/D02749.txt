@@ -1,0 +1,44 @@
+ENTRY       D02749                      Drug
+NAME        Teceleukin (USAN);
+            Teceleukin (genetical recombination) (JP18);
+            Imunace (TN)
+FORMULA     C698H1127N179O204S8
+EXACT_MASS  15537.1082
+MOL_WEIGHT  15547.0139
+SEQUENCE    MAPTSSSTKK TQLQLEHLLL DLQMILNGIN NYKNPKLTRM LTFKFYMPKK ATELKHLQCL
+            EEELKPLEEV LNLAQSKNFH LRPRDLISNI NVIVLELKGS ETTFMCEYAD ETATIVEFLN
+            RWITFCQSII STLT (Disulfid bridge: 59-106)
+  TYPE      Peptide
+REMARK      Therapeutic category: 6399
+            Product: D02749<JP>
+EFFICACY    Antineoplastic, Immunostimulant, Biological response modifier
+COMMENT     recombinant interleukin 2 [HSA:3558] [KO:K05429]
+TARGET      IL2RA (CD25) [HSA:3559] [KO:K05068]
+            IL2RB (CD122) [HSA:3560] [KO:K05069]
+            IL2RG (CD132) [HSA:3561] [KO:K05070]
+  PATHWAY   hsa04060(3559+3560+3561)  Cytokine-cytokine receptor interaction
+            hsa04630(3559+3560+3561)  JAK-STAT signaling pathway
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              63  Biological preparations
+               639  Miscellaneous
+                6399  Others
+                 D02749  Teceleukin (USAN); Teceleukin (genetical recombination) (JP18)
+            Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Interleukin receptors
+                IL2RA (CD25)
+                 D02749  Teceleukin (USAN) &lt;JP&gt;
+                IL2RB (CD122)
+                 D02749  Teceleukin (USAN) &lt;JP&gt;
+                IL2RG (CD132)
+                 D02749  Teceleukin (USAN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02749  Teceleukin (genetical recombination)
+              D02749  Teceleukin for injection (genetical recombination)
+DBLINKS     CAS: 136279-32-8
+            PubChem: 47205821
+///

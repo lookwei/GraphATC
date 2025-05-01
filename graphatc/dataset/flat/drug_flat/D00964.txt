@@ -1,0 +1,156 @@
+ENTRY       D00964                      Drug
+NAME        Letrozole (JAN/USP/INN);
+            Femara (TN)
+PRODUCT     FEMARA (Novartis Pharmaceuticals Corporation)
+  GENERIC   LETROZOLE (A-S Medication Solutions)
+            LETROZOLE (Accord Healthcare)
+            LETROZOLE (Aurobindo Pharma Limited)
+            LETROZOLE (AvKARE)
+            LETROZOLE (AvPAK)
+            LETROZOLE (Avet Pharmaceuticals)
+            LETROZOLE (Breckenridge Pharmaceutical)
+            LETROZOLE (Bryant Ranch Prepack)
+            LETROZOLE (Bryant Ranch Prepack)
+            LETROZOLE (Chartwell RX)
+            LETROZOLE (Dr. Reddy's Laboratories Limited)
+            LETROZOLE (Natco Pharma Limited)
+            LETROZOLE (Proficient Rx LP)
+            LETROZOLE (Teva Pharmaceuticals USA)
+            LETROZOLE (Yiling Pharmaceutical)
+FORMULA     C17H11N5
+EXACT_MASS  285.1014
+MOL_WEIGHT  285.3027
+CLASS       Antineoplastic
+             DG01596  Aromatase inhibitor
+             DG01524  Triazole antineoplastic
+            Metabolizing enzyme substrate
+             DG01638  CYP2A6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01525  CYP2A6 inhibitor
+REMARK      Same as: C08163
+            Therapeutic category: 2529 4291
+            ATC code: L02BG04
+            Product: D00964<JP/US>
+            Product (mixture): D11068<US>
+EFFICACY    Antineoplastic, Estrogen biosynthesis inhibitor
+  DISEASE   Breast cancer, postmenopausal (HR-positive) [DS:H00031]
+COMMENT     Aromatase inhibitor
+TARGET      CYP19A1 (ARO) [HSA:1588] [KO:K07434]
+  PATHWAY   hsa00140(1588)  Steroid hormone biosynthesis
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP2A6 [HSA:1548]
+INTERACTION CYP inhibition: CYP2A6 [HSA:1548]
+STR_MAP     map07043  Antineoplastics - hormones
+OTHER_MAP   map01522  Endocrine resistance
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L02 ENDOCRINE THERAPY
+               L02B HORMONE ANTAGONISTS AND RELATED AGENTS
+                L02BG Aromatase inhibitors
+                 L02BG04 Letrozole
+                  D00964  Letrozole (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Aromatase Inhibitors
+               Letrozole
+                D00964  Letrozole (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              25  Urogenital and anal organ agents
+               252  Genital organ agents
+                2529  Others
+                 D00964  Letrozole (JAN/USP/INN)
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D00964  Letrozole (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01596  Aromatase inhibitor
+               D00964  Letrozole
+              DG01524  Triazole antineoplastic
+               D00964  Letrozole
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               D00964  Letrozole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00964  Letrozole
+             Metabolizing enzyme inhibitor
+              DG01525  CYP2A6 inhibitor
+               D00964  Letrozole
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG01596  Aromatase inhibitor
+               D00964  Letrozole
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Cytochrome P450
+                CYP19A1 (ARO)
+                 D00964  Letrozole (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00964
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00964
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D00964
+DBLINKS     CAS: 112809-51-5
+            PubChem: 7848027
+            ChEBI: 6413
+            LigandBox: D00964
+            NIKKAJI: J390.644B
+ATOM        22
+            1   C1c C    25.6900  -19.1281
+            2   C8y C    26.8966  -19.8333
+            3   C8y C    24.4834  -19.8276
+            4   N4y N    25.6957  -17.7232
+            5   C8x C    26.8907  -21.2381
+            6   C8x C    28.1149  -19.1338
+            7   C8x C    24.4834  -21.2266
+            8   C8x C    23.2710  -19.1222
+            9   C8x C    24.5650  -16.9072
+            10  N5x N    26.8326  -16.9072
+            11  C8x C    28.1033  -21.9376
+            12  C8x C    29.3273  -19.8450
+            13  C8x C    23.2710  -21.9259
+            14  C8x C    22.0527  -19.8276
+            15  N5x N    25.0022  -15.5723
+            16  C8x C    26.4069  -15.5723
+            17  C8y C    29.3216  -21.2498
+            18  C8y C    22.0527  -21.2266
+            19  C3b C    30.5165  -21.9435
+            20  C3b C    20.8402  -21.9202
+            21  N3a N    31.7172  -22.6371
+            22  N3a N    19.6394  -22.6430
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     4  10 1
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13    8  14 2
+            14    9  15 2
+            15   10  16 2
+            16   11  17 2
+            17   13  18 2
+            18   17  19 1
+            19   18  20 1
+            20   19  21 3
+            21   20  22 3
+            22   12  17 1
+            23   14  18 1
+            24   15  16 1
+///

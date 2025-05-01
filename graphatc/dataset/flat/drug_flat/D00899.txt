@@ -1,0 +1,194 @@
+ENTRY       D00899                      Drug
+NAME        Nelfinavir mesylate (USAN/INN);
+            Nelfinavir mesilate (JAN);
+            Viracept (TN)
+PRODUCT     VIRACEPT (AGOURON)
+FORMULA     C32H45N3O4S. CH4SO3
+EXACT_MASS  663.3012
+MOL_WEIGHT  663.8881
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      Same as: C08091
+            ATC code: J05AE04
+            Chemical structure group: DG00655
+            Product (DG00655): D00899<US>
+EFFICACY    Antiviral, HIV protease inhibitor
+  DISEASE   HIV-1 infection [DS:H01563]
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2C19 [HSA:1557]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE04 Nelfinavir
+                  D00899  Nelfinavir mesylate (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Agents, Protease Inhibitors (PI)
+               Nelfinavir
+                D00899  Nelfinavir mesylate (USAN/INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00655  Nelfinavir
+                 D00899  Nelfinavir mesylate
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00655  Nelfinavir
+                D00899  Nelfinavir mesylate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00655  Nelfinavir
+                 D00899  Nelfinavir mesylate
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00655  Nelfinavir
+                 D00899  Nelfinavir mesylate
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D00899  Nelfinavir mesylate
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D00899  Nelfinavir mesylate (USAN/INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00899
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00655  Nelfinavir
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00655  Nelfinavir
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00655  Nelfinavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00655  Nelfinavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00655  Nelfinavir
+DBLINKS     CAS: 159989-65-8
+            PubChem: 7847963
+            ChEBI: 7497
+            LigandBox: D00899
+            NIKKAJI: J710.192I
+ATOM        45
+            1   S4a S    32.5084  -22.9122
+            2   C1a C    31.1071  -22.9122
+            3   O1d O    33.9097  -22.9122
+            4   O1d O    32.5084  -24.3135
+            5   O1d O    32.5084  -21.5110
+            6   O1a O    12.4700  -21.1606
+            7   C8y C    13.6835  -21.8613
+            8   C8y C    14.8971  -21.1606
+            9   C8y C    16.1106  -21.8613
+            10  C5a C    17.3242  -21.1606
+            11  N1b N    18.5378  -21.8613
+            12  C1c C    19.7513  -21.1606
+            13  C1c C    20.9648  -21.8613
+            14  C1b C    22.1784  -21.1606
+            15  N1y N    23.3919  -21.8613
+            16  C1y C    24.6056  -21.1606
+            17  C1x C    25.8191  -21.8613
+            18  C8x C    13.6835  -23.2626
+            19  C8x C    14.8971  -23.9632
+            20  C8x C    16.1106  -23.2626
+            21  O5a O    17.3242  -19.7594
+            22  C1b C    19.7513  -19.7593
+            23  S2a S    20.9689  -19.0564
+            24  C8y C    20.9689  -17.6576
+            25  C8x C    22.1666  -16.9660
+            26  C8x C    22.1665  -15.5647
+            27  C8x C    20.9529  -14.8641
+            28  C8x C    19.7552  -15.5558
+            29  C8x C    19.7553  -16.9571
+            30  O1a O    20.9648  -23.2625
+            31  C5a C    24.6056  -19.7594
+            32  O5a O    23.3812  -19.0525
+            33  N1b N    25.8083  -19.0650
+            34  C1d C    26.9996  -19.7528
+            35  C1a C    28.2131  -20.4535
+            36  C1a C    27.7002  -18.5393
+            37  C1a C    26.2989  -20.9664
+            38  C1x C    23.3919  -23.2626
+            39  C1y C    24.6056  -23.9632
+            40  C1y C    25.8191  -23.2626
+            41  C1x C    24.6056  -25.3645
+            42  C1x C    25.8191  -26.0651
+            43  C1x C    27.0326  -25.3645
+            44  C1x C    27.0326  -23.9632
+            45  C1a C    14.8971  -19.7595
+BOND        47
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     1   5 2
+            5     6   7 1
+            6     7   8 1
+            7     8   9 2
+            8     9  10 1
+            9    10  11 1
+            10   11  12 1
+            11   12  13 1
+            12   13  14 1
+            13   14  15 1
+            14   15  16 1
+            15   16  17 1
+            16    7  18 2
+            17   18  19 1
+            18   19  20 2
+            19   20   9 1
+            20   10  21 2
+            21   12  22 1 #Up
+            22   22  23 1
+            23   23  24 1
+            24   24  25 2
+            25   25  26 1
+            26   26  27 2
+            27   27  28 1
+            28   28  29 2
+            29   24  29 1
+            30   13  30 1 #Up
+            31   16  31 1 #Down
+            32   31  32 2
+            33   31  33 1
+            34   33  34 1
+            35   34  35 1
+            36   34  36 1
+            37   34  37 1
+            38   15  38 1
+            39   38  39 1
+            40   39  40 1
+            41   17  40 1
+            42   39  41 1
+            43   41  42 1
+            44   42  43 1
+            45   43  44 1
+            46   40  44 1
+            47    8  45 1
+///

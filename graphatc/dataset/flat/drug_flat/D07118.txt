@@ -1,0 +1,110 @@
+ENTRY       D07118                      Drug
+NAME        Glisoxepide (INN)
+FORMULA     C20H27N5O5S
+EXACT_MASS  449.1733
+MOL_WEIGHT  449.5239
+CLASS       Antidiabetic agent
+             DG01508  Sulfonylurea receptor agonist
+              DG01734  Sulfonylurea
+             DG02044  Hypoglycemic agent
+              DG01734  Sulfonylurea
+REMARK      ATC code: A10BB11
+EFFICACY    Antidiabetic, Hypoglycemic, Sulfonylurea receptor agonist
+COMMENT     Sulfonylurea
+TARGET      ABCC8 (SUR1) [HSA:6833] [KO:K05032]
+  PATHWAY   hsa02010(6833)  ABC transporters
+            hsa04911(6833)  Insulin secretion
+            hsa04930(6833)  Type II diabetes mellitus
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BB Sulfonylureas
+                 A10BB11 Glisoxepide
+                  D07118  Glisoxepide (INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01734  Sulfonylurea
+                D07118  Glisoxepide
+              DG02044  Hypoglycemic agent
+               DG01734  Sulfonylurea
+                D07118  Glisoxepide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8 (SUR1)
+                 D07118  Glisoxepide (INN)
+DBLINKS     CAS: 25046-79-1
+            PubChem: 51091457
+            LigandBox: D07118
+            NIKKAJI: J20.337H
+ATOM        31
+            1   C8x C    19.3900  -18.2700
+            2   C8y C    19.3900  -19.6700
+            3   C8x C    20.5800  -20.3000
+            4   C8x C    21.7700  -19.6700
+            5   C8y C    21.7700  -18.2700
+            6   C8x C    20.5800  -17.5700
+            7   S4a S    22.9600  -17.5700
+            8   N1b N    24.1500  -18.2700
+            9   C5a C    25.3400  -17.5700
+            10  N1b N    26.5300  -18.2700
+            11  O3c O    23.8000  -16.1000
+            12  O3c O    21.9800  -16.1000
+            13  O5a O    25.4100  -16.3800
+            14  C1b C    18.1776  -20.3700
+            15  C1b C    16.9651  -19.6700
+            16  N1b N    15.7527  -20.3700
+            17  C5a C    14.5403  -19.6700
+            18  C8y C    13.3278  -20.3700
+            19  C1x C    27.8000  -15.8747
+            20  C1x C    28.8967  -15.0110
+            21  C1x C    30.2621  -15.3224
+            22  C1x C    30.8640  -16.5756
+            23  N1y N    27.8000  -17.2837
+            24  C1x C    30.2630  -17.8429
+            25  C1x C    28.8967  -18.1545
+            26  O5a O    14.5403  -18.2701
+            27  C8x C    12.0947  -19.6578
+            28  C8y C    11.0921  -20.7776
+            29  O2x O    11.6250  -21.9798
+            30  N5x N    13.1176  -21.8400
+            31  C1a C     9.6800  -20.5544
+BOND        33
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    7  11 2
+            12    7  12 2
+            13    9  13 2
+            14    2  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   21  22 1
+            20   19  23 1
+            21   22  24 1
+            22   20  21 1
+            23   23  25 1
+            24   19  20 1
+            25   24  25 1
+            26   10  23 1
+            27   17  26 2
+            28   18  27 1
+            29   27  28 2
+            30   28  29 1
+            31   29  30 1
+            32   18  30 2
+            33   28  31 1
+///

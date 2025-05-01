@@ -1,0 +1,78 @@
+ENTRY       D01740                      Drug
+NAME        Barbital (JP18/INN);
+            Barbital (TN)
+FORMULA     C8H12N2O3
+EXACT_MASS  184.0848
+MOL_WEIGHT  184.1925
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+REMARK      ATC code: N05CA04
+EFFICACY    Sedative-hypnotic
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+            map07033  Anticonvulsants
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CA Barbiturates, plain
+                 N05CA04 Barbital
+                  D01740  Barbital (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               D01740  Barbital
+              DG01567  GABA-A receptor agonist
+               D01740  Barbital
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01740  Barbital (JP18/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01740  Barbital
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Control Act Article 2 Table 31 (10 substances)
+              D01740
+DBLINKS     CAS: 57-44-3
+            PubChem: 7848803
+            ChEBI: 31252
+            LigandBox: D01740
+            NIKKAJI: J2.326D
+ATOM        13
+            1   C1z C    21.9896  -17.3559
+            2   C5x C    21.9896  -18.7559
+            3   C5x C    20.7763  -16.6558
+            4   C1b C    23.3780  -17.3559
+            5   C1b C    21.9838  -15.9616
+            6   N1x N    20.7763  -19.4617
+            7   O5x O    23.2030  -19.4617
+            8   N1x N    19.5571  -17.3559
+            9   O5x O    20.7763  -15.2558
+            10  C1a C    24.0663  -16.1483
+            11  C1a C    23.1971  -15.2615
+            12  C5x C    19.5571  -18.7559
+            13  O5x O    18.3438  -19.4617
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12   12  13 2
+            13    8  12 1
+///

@@ -1,0 +1,97 @@
+ENTRY       D02223                      Drug
+NAME        Sulbactam sodium (JP18/USP);
+            SBT
+FORMULA     C8H10NO5S. Na
+EXACT_MASS  255.0177
+MOL_WEIGHT  255.2235
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01479  beta-Lactamase inhibitor
+REMARK      Same as: C14001
+            ATC code: J01CG01
+            Chemical structure group: DG00545
+            Product (mixture): D02065<JP/US> D08772<JP> D12605<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor, beta-Lactamase inhibitor, Synergist (penicilline/cephalosporin)
+TARGET      beta-lactamases
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CG Beta-lactamase inhibitors
+                 J01CG01 Sulbactam
+                  D02223  Sulbactam sodium (JP18/USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00545  Sulbactam
+                  D02223  Sulbactam sodium
+              DG01479  beta-Lactamase inhibitor
+               DG00545  Sulbactam
+                D02223  Sulbactam sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                D02223  Sulbactam sodium (JP18/USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02223  Sulbactam sodium
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00545  Sulbactam
+              DG01479  beta-Lactamase inhibitor
+               DG00545  Sulbactam
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                DG00545  Sulbactam
+DBLINKS     CAS: 69388-84-7
+            PubChem: 7849282
+            ChEBI: 157785 9321
+            LigandBox: D02223
+            NIKKAJI: J19.105A
+ATOM        16
+            1   C1x C    24.3502  -14.6993
+            2   C5x C    24.3502  -16.1001
+            3   N1y N    25.7512  -16.1001
+            4   C1y C    25.7512  -14.6993
+            5   C1y C    27.0833  -16.5330
+            6   C1z C    27.9067  -15.3997
+            7   S2x S    27.0833  -14.2664
+            8   C1a C    28.8971  -16.3902
+            9   C1a C    28.8971  -14.4092
+            10  C6a C    27.5123  -17.8534
+            11  O6a O    28.9132  -17.8534 #-
+            12  O6a O    26.6865  -18.9901
+            13  O3c O    26.7215  -12.9161
+            14  O3c O    28.0719  -13.2779
+            15  O5x O    23.1378  -16.8001
+            16  Z   Na   30.8265  -17.9709 #+
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    7  13 2
+            15    7  14 2
+            16    2  15 2
+///

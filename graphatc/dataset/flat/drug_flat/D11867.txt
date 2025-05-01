@@ -1,0 +1,96 @@
+ENTRY       D11867                      Drug
+NAME        Deuruxolitinib phosphate (USAN)
+FORMULA     C17H18N6. H3PO4
+EXACT_MASS  412.1864
+MOL_WEIGHT  404.3602
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+REMARK      Chemical structure group: DG03114
+EFFICACY    Hair regrowing agent, Janus kinase (JAK) inhibitor
+COMMENT     Treatment of alopecia areata
+TARGET      JAK1 [HSA:3716] [KO:K11217]
+            JAK2 [HSA:3717] [KO:K04447]
+  PATHWAY   hsa04630(3716+3717)  JAK-STAT signaling pathway
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03114  Deuruxolitinib
+                 D11867  Deuruxolitinib phosphate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK1
+                 D11867  Deuruxolitinib phosphate (USAN)
+                JAK2
+                 D11867  Deuruxolitinib phosphate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03114  Deuruxolitinib
+DBLINKS     CAS: 2147706-60-1
+ATOM        28
+            1   C8x C    15.5506  -11.5579
+            2   N5x N    15.5506  -12.9589
+            3   C8y C    16.7415  -13.6594
+            4   C8y C    18.0023  -12.9589
+            5   C8y C    18.0023  -11.5579
+            6   N5x N    16.7415  -10.8574
+            7   C8x C    19.3332  -13.3792
+            8   C8x C    20.1038  -12.2584
+            9   N4x N    19.3332  -11.1376
+            10  C8y C    16.7415  -15.0603
+            11  C8x C    15.6207  -15.9009
+            12  N4y N    16.0410  -17.2318
+            13  N5x N    17.4419  -17.2318
+            14  C8x C    17.9323  -15.9009
+            15  C1b C    13.6594  -17.2318
+            16  C1c C    14.8502  -17.9323
+            17  C1y C    14.8502  -19.3332
+            18  C3b C    13.6594  -15.8308
+            19  N3a N    13.6594  -14.4299
+            20  C1x C    13.7294  -20.1738
+            21  C1x C    14.1497  -21.5047
+            22  C1x C    15.5506  -21.5047
+            23  C1x C    15.9709  -20.1738
+            24  O1c O    20.8743  -16.6714
+            25  P1b P    22.2752  -16.6714
+            26  O1c O    23.6762  -16.6714
+            27  O1c O    22.2752  -15.2705
+            28  O1c O    22.2752  -18.0724
+BOND        30
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    3  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 1
+            15   13  14 2
+            16   10  14 1
+            17   15  16 1
+            18   16  12 1
+            19   16  17 1 #Up
+            20   15  18 1
+            21   18  19 3
+            22   17  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   17  23 1
+            27   24  25 1
+            28   25  26 1
+            29   25  27 2
+            30   25  28 1
+///

@@ -1,0 +1,150 @@
+ENTRY       D11600                      Drug
+NAME        Zotiraciclib citrate (USAN)
+FORMULA     C23H24N4O. C6H8O7
+EXACT_MASS  564.222
+MOL_WEIGHT  564.5864
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+            Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+REMARK      Chemical structure group: DG03058
+EFFICACY    Antineoplastic
+TARGET      CDK1 [HSA:983] [KO:K02087]
+            CDK2 [HSA:1017] [KO:K02206]
+            CDK7 [HSA:1022] [KO:K02202]
+            CDK9 [HSA:1025] [KO:K02211]
+            JAK2 [HSA:3717] [KO:K04447]
+            FLT3 (CD135) [HSA:2322] [KO:K05092]
+  PATHWAY   hsa04110(1017+1022+983)  Cell cycle
+            hsa04151(1017+2322+3717)  PI3K-Akt signaling pathway
+            hsa04640(2322)  Hematopoietic cell lineage
+            hsa05200(1017+2322+3717)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG03058  Zotiraciclib
+                D11600  Zotiraciclib citrate
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03058  Zotiraciclib
+                 D11600  Zotiraciclib citrate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK1
+                 D11600  Zotiraciclib citrate (USAN)
+                CDK2
+                 D11600  Zotiraciclib citrate (USAN)
+                CDK7
+                 D11600  Zotiraciclib citrate (USAN)
+                CDK9
+                 D11600  Zotiraciclib citrate (USAN)
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                FLT3 (CD135)
+                 D11600  Zotiraciclib citrate (USAN)
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK2
+                 D11600  Zotiraciclib citrate (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG03058  Zotiraciclib
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03058  Zotiraciclib
+DBLINKS     CAS: 1204918-73-9
+            PubChem: 405226467
+ATOM        41
+            1   C8y C    18.6375  -18.6375
+            2   C8x C    18.6375  -20.0388
+            3   C8x C    19.8286  -20.7395
+            4   C8x C    21.0898  -20.0388
+            5   C8y C    21.0898  -18.6375
+            6   C8x C    19.8286  -17.9368
+            7   N2x N    22.2809  -17.9368
+            8   C8y C    22.2809  -16.5355
+            9   N5x N    23.4720  -15.8349
+            10  C8x C    23.4720  -14.4335
+            11  C8x C    22.2809  -13.7329
+            12  C8y C    21.0898  -14.3635
+            13  N4x N    21.0898  -15.8349
+            14  C8y C    19.8987  -13.7329
+            15  C8x C    19.8987  -12.3316
+            16  C8x C    18.6375  -11.6309
+            17  C8x C    17.4464  -12.3316
+            18  C8y C    17.4464  -13.7329
+            19  C8x C    18.6375  -14.4335
+            20  O2x O    16.1852  -14.4335
+            21  C1x C    14.9941  -13.7329
+            22  C1x C    13.8029  -14.4335
+            23  C2x C    13.8029  -15.8349
+            24  C2x C    15.0641  -16.5355
+            25  C1x C    15.0641  -17.9368
+            26  N1y N    16.2552  -18.6375
+            27  C1x C    17.4464  -17.9368
+            28  C1a C    16.2552  -20.0388
+            29  C1d C    29.1421  -16.1751
+            30  C1b C    28.0130  -16.8808
+            31  C1b C    30.3417  -16.8808
+            32  C6a C    29.8477  -15.0461
+            33  O1a O    28.4364  -15.0461
+            34  C6a C    26.8134  -16.2457
+            35  C6a C    30.3417  -18.2920
+            36  O6a O    29.1421  -13.8465
+            37  O6a O    31.3296  -15.0461
+            38  O6a O    25.5433  -16.9513
+            39  O6a O    26.8134  -14.9049
+            40  O6a O    31.6824  -19.0683
+            41  O6a O    29.1421  -19.0683
+BOND        43
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 1
+            15   12  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   18  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27   1 1
+            31   26  28 1
+            32   29  30 1
+            33   29  31 1
+            34   29  32 1
+            35   29  33 1
+            36   30  34 1
+            37   31  35 1
+            38   32  36 1
+            39   32  37 2
+            40   34  38 1
+            41   34  39 2
+            42   35  40 1
+            43   35  41 2
+///

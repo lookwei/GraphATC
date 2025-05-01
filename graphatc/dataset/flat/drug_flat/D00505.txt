@@ -1,0 +1,96 @@
+ENTRY       D00505                      Drug
+NAME        Phenelzine sulfate (USP);
+            Nardil (TN)
+PRODUCT     NARDIL (Parke-Davis Div of Pfizer)
+  GENERIC   PHENELZINE SULFATE (Greenstone LLC)
+            PHENELZINE SULFATE (Lupin Pharmaceuticals)
+FORMULA     C8H12N2. H2SO4
+EXACT_MASS  234.0674
+MOL_WEIGHT  234.2728
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+REMARK      Same as: C07431
+            ATC code: N06AF03
+            Chemical structure group: DG00948
+            Product (DG00948): D00505<US>
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+            map07216  Catecholamine transferase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AF Monoamine oxidase inhibitors, non-selective
+                 N06AF03 Phenelzine
+                  D00505  Phenelzine sulfate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antidepressants
+              Monoamine Oxidase Inhibitors
+               Phenelzine
+                D00505  Phenelzine sulfate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00948  Phenelzine
+                 D00505  Phenelzine sulfate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D00505  Phenelzine sulfate (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                DG00948  Phenelzine
+DBLINKS     CAS: 156-51-4
+            PubChem: 7847571
+            ChEBI: 8061
+            LigandBox: D00505
+            NIKKAJI: J334.999C
+ATOM        15
+            1   C8y C    20.2300  -17.5000
+            2   C8x C    20.2300  -16.0300
+            3   C8x C    19.0400  -18.2000
+            4   C1b C    21.4200  -18.2000
+            5   C8x C    19.0400  -15.3300
+            6   C8x C    17.8500  -17.4300
+            7   C1b C    22.6800  -17.5000
+            8   C8x C    17.8500  -16.0300
+            9   N1b N    23.8700  -18.2000
+            10  N1a N    25.0600  -17.5000
+            11  S4a S    29.6800  -16.8700
+            12  O1d O    28.2800  -16.8700
+            13  O1d O    31.0800  -16.8700
+            14  O1d O    29.6800  -15.4700
+            15  O1d O    29.6800  -18.2700
+BOND        14
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     7   9 1
+            9     9  10 1
+            10    6   8 2
+            11   11  12 1
+            12   11  13 1
+            13   11  14 2
+            14   11  15 2
+///

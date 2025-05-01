@@ -1,0 +1,72 @@
+ENTRY       D02585                      Drug
+NAME        Vibunazole;
+            Bay N-7133
+FORMULA     C15H20ClN3O2
+EXACT_MASS  309.1244
+MOL_WEIGHT  309.7912
+CLASS       Antifungal
+             DG01523  Triazole antifungal
+EFFICACY    Antifungal, Ergosterol biosynthesis inhibitor
+COMMENT     Triazole derivative
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+  PATHWAY   ko00100(K05917)  Steroid biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antifungal
+              DG01523  Triazole antifungal
+               D02585  Vibunazole
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Triazole
+                D02585  Vibunazole
+DBLINKS     CAS: 80456-55-9
+            PubChem: 17396756
+            LigandBox: D02585
+            NIKKAJI: J21.733F
+ATOM        21
+            1   C1d C    32.9675  -17.4354
+            2   C1b C    34.1815  -16.7294
+            3   C1b C    31.7594  -16.7294
+            4   N4y N    35.3895  -17.4413
+            5   O2a O    30.5455  -17.4354
+            6   N5x N    36.5165  -16.6113
+            7   C8x C    35.8241  -18.7624
+            8   C8y C    29.3374  -16.7294
+            9   C8x C    37.6401  -17.4282
+            10  N5x N    37.2210  -18.7566
+            11  C8x C    28.1293  -17.4354
+            12  C8x C    29.3374  -15.3286
+            13  C8x C    26.9094  -16.7294
+            14  C8x C    28.1293  -14.6283
+            15  C8y C    26.9094  -15.3286
+            16  X   Cl   25.6897  -14.6283
+            17  O1a O    32.9790  -16.0351
+            18  C1d C    32.9790  -18.8362
+            19  C1a C    31.5784  -18.8362
+            20  C1a C    34.3795  -18.8362
+            21  C1a C    32.9790  -20.2367
+BOND        22
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   9 2
+            9     7  10 2
+            10    8  11 1
+            11    8  12 2
+            12   11  13 2
+            13   12  14 1
+            14   13  15 1
+            15   15  16 1
+            16    9  10 1
+            17   14  15 2
+            18    1  17 1
+            19    1  18 1
+            20   18  19 1
+            21   18  20 1
+            22   18  21 1
+///

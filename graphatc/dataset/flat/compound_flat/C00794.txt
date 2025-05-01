@@ -1,0 +1,100 @@
+ENTRY       C00794                      Compound
+NAME        D-Sorbitol;
+            D-Glucitol;
+            L-Gulitol;
+            Sorbitol
+FORMULA     C6H14O6
+EXACT_MASS  182.079
+MOL_WEIGHT  182.1718
+REMARK      Same as: D00096
+REACTION    R00874 R00875 R01697 R01787 R02865 R02866 R02867 R02868 
+            R02925 R02926 R05820 R07346 R11620
+PATHWAY     map00051  Fructose and mannose metabolism
+            map00052  Galactose metabolism
+            map01100  Metabolic pathways
+            map02010  ABC transporters
+            map02060  Phosphotransferase system (PTS)
+            map05415  Diabetic cardiomyopathy
+ENZYME      1.1.1.14        1.1.1.15        1.1.1.21        1.1.1.289       
+            1.1.3.41        1.1.99.21       1.1.99.28       2.7.1.1         
+            2.7.1.198       3.1.3.50        3.2.1.22
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar alcohols
+                C00794  Sorbitol
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00096)]
+             A ALIMENTARY TRACT AND METABOLISM
+              A06 DRUGS FOR CONSTIPATION
+               A06A DRUGS FOR CONSTIPATION
+                A06AD Osmotically acting laxatives
+                 A06AD18 Sorbitol
+                  D00096  Sorbitol solution (USP) &lt;JP/US&gt;
+                A06AG Enemas
+                 A06AG07 Sorbitol
+                  D00096  Sorbitol solution (USP) &lt;JP/US&gt;
+             B BLOOD AND BLOOD FORMING ORGANS
+              B05 BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS
+               B05C IRRIGATING SOLUTIONS
+                B05CX Other irrigating solutions
+                 B05CX02 Sorbitol
+                  D00096  Sorbitol solution (USP) &lt;JP/US&gt;
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CC Tests for bile duct patency
+                 V04CC01 Sorbitol
+                  D00096  Sorbitol solution (USP) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D00096)]
+             2  Agents affecting individual organs
+              25  Urogenital and anal organ agents
+               251  Urinary organ agents
+                2519  Others
+                 D00096  Sorbitol solution (USP); D-Sorbitol (JP18); Sorbitol (NF)
+             7  Agents not mainly for therapeutic purpose
+              79  Other agents not mainly for therapeutic purpose
+               799  Miscellaneous
+                7990  Miscellaneous
+                 D00096  Sorbitol solution (USP); D-Sorbitol (JP18); Sorbitol (NF)
+            Risk category of Japanese OTC drugs [BR:br08312(D00096)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               D-Sorbitol
+                D00096  Sorbitol solution (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00096)]
+             Chemicals
+              D00096  D-Sorbitol
+              D00096  D-Sorbitol solution
+DBLINKS     CAS: 50-70-4
+            PubChem: 4052
+            ChEBI: 17924
+            KNApSAcK: C00001173
+            PDB-CCD: SOR
+            3DMET: B04724
+            NIKKAJI: J2.299C
+ATOM        12
+            1   O1a O    20.7200   -7.4900
+            2   C1b C    21.9324   -6.7900
+            3   C1c C    23.1449   -7.4900
+            4   C1c C    24.3573   -6.7900
+            5   C1c C    25.5697   -7.4900
+            6   C1c C    26.7822   -6.7900
+            7   C1b C    27.9946   -7.4900
+            8   O1a O    29.2070   -6.7900
+            9   O1a O    23.1449   -8.8898
+            10  O1a O    24.3573   -5.3900
+            11  O1a O    25.5697   -8.8899
+            12  O1a O    26.7822   -5.3903
+BOND        11
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     3   9 1 #Up
+            9     4  10 1 #Up
+            10    5  11 1 #Up
+            11    6  12 1 #Down
+///

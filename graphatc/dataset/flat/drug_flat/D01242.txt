@@ -1,0 +1,159 @@
+ENTRY       D01242                      Drug
+NAME        Promethazine teoclate (JAN/INN);
+            Avomine (TN)
+FORMULA     C17H20N2S. C7H7ClN4O2
+EXACT_MASS  498.1605
+MOL_WEIGHT  499.0282
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: D04AA10 R06AD02
+            Chemical structure group: DG00385
+            Product (DG00385): D00480<JP/US> D03290<JP> D08768<JP>
+EFFICACY    Antiallergic, H1 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07028  Antipsychotics
+            map07029  Antipsychotics - phenothiazines
+            map07032  Hypnotics
+            map07212  Histamine H1 receptor antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AA Antihistamines for topical use
+                 D04AA10 Promethazine
+                  D01242  Promethazine teoclate (JAN/INN)
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AD Phenothiazine derivatives
+                 R06AD02 Promethazine
+                  D01242  Promethazine teoclate (JAN/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for nervous and sensory systems
+              06 Antivertigo drugs (incl. motion/morning sickness remedies)
+               D01242  Promethazine teoclate (JAN/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Promethazine
+                D01242  Promethazine teoclate (JAN/INN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Promethazine
+                D01242  Promethazine teoclate (JAN/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00385  Promethazine
+                 D01242  Promethazine teoclate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00385  Promethazine
+                D01242  Promethazine teoclate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D01242  Promethazine teoclate (JAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01242
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00385  Promethazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00385  Promethazine
+DBLINKS     CAS: 17693-51-5
+            PubChem: 7848305
+            ChEBI: 32059
+            LigandBox: D01242
+            NIKKAJI: J290.364D
+ATOM        34
+            1   C8y C    30.2443  -17.6964
+            2   C8y C    30.2506  -19.0899
+            3   N5x N    28.9273  -19.5264
+            4   C8y C    28.1034  -18.4026
+            5   N4x N    28.9172  -17.2718
+            6   C8y C    32.6628  -19.0943
+            7   N4y N    31.4535  -19.7945
+            8   C8y C    31.4501  -16.9997
+            9   N4y N    32.6611  -17.6969
+            10  C1a C    33.8790  -16.9939
+            11  O5x O    31.4605  -15.5937
+            12  O5x O    33.8790  -19.7875
+            13  C1a C    31.4605  -21.1947
+            14  X   Cl   26.7081  -18.4013
+            15  C8y C    21.7358  -19.8545
+            16  C8y C    21.7987  -21.2547
+            17  C8x C    22.9378  -21.9610
+            18  C8x C    24.2240  -21.2670
+            19  C8x C    24.2309  -19.8667
+            20  C8x C    22.9520  -19.1604
+            21  C8y C    19.3172  -19.8474
+            22  C8y C    19.3100  -21.2476
+            23  S2x S    20.5191  -21.9539
+            24  N1y N    20.5334  -19.1533
+            25  C8x C    16.8986  -19.8474
+            26  C8x C    16.8986  -21.2476
+            27  C8x C    18.1141  -21.9477
+            28  C8x C    18.1141  -19.1473
+            29  C1b C    20.5193  -17.7470
+            30  C1c C    21.7287  -17.0398
+            31  C1a C    22.9379  -17.7398
+            32  N1c N    21.7217  -15.6395
+            33  C1a C    22.9310  -14.9324
+            34  C1a C    20.5053  -14.9394
+BOND        37
+            1     7   2 1
+            2     1   8 1
+            3     8   9 1
+            4     9   6 1
+            5     3   4 2
+            6     9  10 1
+            7     4   5 1
+            8     8  11 2
+            9     5   1 1
+            10    6  12 2
+            11    7  13 1
+            12    4  14 1
+            13    1   2 2
+            14    2   3 1
+            15    6   7 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   20  15 1
+            22   21  22 2
+            23   22  23 1
+            24   23  16 1
+            25   15  24 1
+            26   24  21 1
+            27   25  26 1
+            28   26  27 2
+            29   27  22 1
+            30   21  28 1
+            31   28  25 2
+            32   24  29 1
+            33   29  30 1
+            34   30  31 1
+            35   30  32 1
+            36   32  33 1
+            37   32  34 1
+///

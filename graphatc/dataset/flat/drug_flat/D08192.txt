@@ -1,0 +1,87 @@
+ENTRY       D08192                      Drug
+NAME        Metaraminol (INN)
+FORMULA     C9H13NO2
+EXACT_MASS  167.0946
+MOL_WEIGHT  167.205
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+REMARK      Same as: C07146
+            ATC code: C01CA09
+            Chemical structure group: DG00218
+EFFICACY    Antihypotensive, alpha-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04020(146+147+148)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA09 Metaraminol
+                  D08192  Metaraminol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00218  Metaraminol
+                 D08192  Metaraminol
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG00218  Metaraminol
+                 D08192  Metaraminol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08192  Metaraminol (INN)
+                ADRA2
+                 D08192  Metaraminol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00218  Metaraminol
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG00218  Metaraminol
+DBLINKS     CAS: 54-49-9
+            PubChem: 96024882
+            ChEBI: 6794
+            LigandBox: D08192
+            NIKKAJI: J4.155F
+ATOM        12
+            1   C8y C     8.1200  -18.6900
+            2   C8x C     8.1200  -20.0900
+            3   C8x C     9.3324  -20.7900
+            4   C8x C    10.5449  -20.0900
+            5   C8y C    10.5449  -18.6900
+            6   C8x C     9.3324  -17.9900
+            7   O1a O     6.9076  -17.9900
+            8   C1c C    11.7760  -17.9790
+            9   C1c C    12.9812  -18.6747
+            10  O1a O    11.7757  -16.5901
+            11  N1a N    14.1635  -17.9919
+            12  C1a C    12.9816  -20.0896
+BOND        12
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 1 #Up
+            11    9  11 1 #Up
+            12    9  12 1
+///

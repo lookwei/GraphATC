@@ -1,0 +1,94 @@
+ENTRY       D07557                      Drug
+NAME        O-Acetyldihydrocodeine hydrochloride;
+            Acetylcodone (TN)
+FORMULA     C20H25NO4. HCl
+EXACT_MASS  379.155
+MOL_WEIGHT  379.8777
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+REMARK      ATC code: R05DA12
+EFFICACY    Antitussive, Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R05 COUGH AND COLD PREPARATIONS
+               R05D COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+                R05DA Opium alkaloids and derivatives
+                 R05DA12 Acetyldihydrocodeine
+                  D07557  O-Acetyldihydrocodeine hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                D07557  O-Acetyldihydrocodeine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D07557  O-Acetyldihydrocodeine hydrochloride
+DBLINKS     CAS: 84824-86-2
+            PubChem: 51091878
+            LigandBox: D07557
+            NIKKAJI: J281.314I
+ATOM        26
+            1   C1z C    26.3039  -18.9573
+            2   C8y C    26.2339  -17.6982
+            3   C1y C    27.3531  -19.6568
+            4   C1y C    25.1147  -19.6568
+            5   C1x C    27.4231  -18.3277
+            6   C8y C    25.1147  -16.9986
+            7   C8y C    27.4231  -16.9986
+            8   C1y C    28.5423  -18.9573
+            9   C1x C    27.3532  -20.9159
+            10  O2x O    23.7856  -18.2578
+            11  C1y C    25.1147  -20.9159
+            12  C1x C    29.7315  -18.3277
+            13  C8y C    25.1147  -15.6695
+            14  C1x C    28.5423  -17.6982
+            15  C8x C    27.4231  -15.6695
+            16  N1y N    29.6616  -19.6568
+            17  C1x C    26.2339  -21.6155
+            18  O7a O    23.9955  -21.6155
+            19  C8x C    26.2339  -15.0400
+            20  O2a O    23.9955  -15.0400
+            21  C1a C    22.8762  -15.6695
+            22  C1a C    31.0606  -19.6568
+            23  C7a C    22.7601  -20.9588
+            24  C1a C    21.5443  -21.7183
+            25  O6a O    22.7817  -19.5871
+            26  X   Cl   35.1400  -19.8100
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1 #Down
+            10    4  11 1
+            11    5  12 1
+            12    6  13 1
+            13    7  14 1
+            14    7  15 2
+            15    8  16 1 #Up
+            16    9  17 1
+            17   11  18 1 #Down
+            18   13  19 2
+            19   13  20 1
+            20   20  21 1
+            21    6  10 1
+            22    8  14 1
+            23   11  17 1
+            24   12  16 1
+            25   15  19 1
+            26   16  22 1
+            27   18  23 1
+            28   23  24 1
+            29   23  25 2
+///

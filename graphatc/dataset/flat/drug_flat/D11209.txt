@@ -1,0 +1,97 @@
+ENTRY       D11209                      Drug
+NAME        Entospletinib (USAN/INN)
+FORMULA     C23H21N7O
+EXACT_MASS  411.1808
+MOL_WEIGHT  411.4591
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+COMMENT     Treatment of lymphoma and leukemia
+TARGET      SYK [HSA:6850] [KO:K05855]
+  PATHWAY   hsa04064(6850)  NF-kappa B signaling pathway
+            hsa04151(6850)  PI3K-Akt signaling pathway
+            hsa04611(6850)  Platelet activation
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               D11209  Entospletinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               SYK family
+                SYK
+                 D11209  Entospletinib (USAN/INN)
+DBLINKS     CAS: 1229208-44-9
+            PubChem: 384585187
+            PDB-CCD: CG9
+ATOM        31
+            1   C8y C    13.6467  -19.6650
+            2   C8y C    13.6467  -21.0646
+            3   C8x C    14.8588  -21.7645
+            4   C8x C    16.0710  -21.0646
+            5   C8y C    16.0710  -19.6650
+            6   C8x C    14.8588  -18.9652
+            7   N4x N    12.3156  -19.2325
+            8   N5x N    11.4929  -20.3648
+            9   C8x C    12.3156  -21.4971
+            10  C8y C    17.3017  -18.9542
+            11  C8x C    18.5066  -19.6497
+            12  N4y N    19.7186  -18.9498
+            13  C8y C    19.7186  -17.5502
+            14  C8y C    18.5137  -16.8547
+            15  N5x N    17.3016  -17.5546
+            16  C8x C    21.0498  -19.3822
+            17  C8x C    21.8724  -18.2499
+            18  N5x N    21.0496  -17.1176
+            19  N1b N    18.5139  -15.4665
+            20  C8y C    19.7497  -14.7528
+            21  C8x C    20.9566  -15.4497
+            22  C8x C    22.1686  -14.7497
+            23  C8y C    22.1686  -13.3501
+            24  C8x C    20.9616  -12.6534
+            25  C8x C    19.7496  -13.3532
+            26  N1y N    23.3852  -12.6476
+            27  C1x C    24.5973  -13.3472
+            28  C1x C    25.8092  -12.6473
+            29  O2x O    25.8091  -11.2477
+            30  C1x C    24.5971  -10.5481
+            31  C1x C    23.3851  -11.2480
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    2   9 1
+            11    5  10 1
+            12   10  11 2
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 2
+            17   10  15 1
+            18   12  16 1
+            19   16  17 2
+            20   17  18 1
+            21   13  18 2
+            22   14  19 1
+            23   19  20 1
+            24   20  21 2
+            25   21  22 1
+            26   22  23 2
+            27   23  24 1
+            28   24  25 2
+            29   20  25 1
+            30   23  26 1
+            31   26  27 1
+            32   27  28 1
+            33   28  29 1
+            34   29  30 1
+            35   30  31 1
+            36   26  31 1
+///

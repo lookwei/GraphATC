@@ -1,0 +1,49 @@
+ENTRY       D04886                      Drug
+NAME        Medronate disodium (USAN)
+FORMULA     CH4O6P2. 2Na
+EXACT_MASS  219.9279
+MOL_WEIGHT  219.9659
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      Chemical structure group: DG01599
+EFFICACY    Diagnostic aid (bone imaging)
+COMMENT     Bisphosphonate
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG01599  Medronic acid
+                 D04886  Medronate disodium
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG01599  Medronic acid
+DBLINKS     CAS: 25681-89-4
+            PubChem: 47206650
+            LigandBox: D04886
+            NIKKAJI: J20.715B
+ATOM        11
+            1   P1b P    20.9448  -19.0547
+            2   C1b C    22.3448  -19.0547
+            3   O1c O    20.9377  -17.6547
+            4   O1c O    19.5448  -19.0476 #-
+            5   O1c O    20.9377  -20.4547
+            6   P1b P    23.7448  -19.0547
+            7   O1c O    23.7376  -17.6547
+            8   O1c O    25.1448  -19.0547 #-
+            9   O1c O    23.7376  -20.4547
+            10  Z   Na   16.8700  -18.9700 #+
+            11  Z   Na   27.1600  -19.1100 #+
+BOND        8
+            1     1   5 1
+            2     1   2 1
+            3     1   3 2
+            4     2   6 1
+            5     6   7 2
+            6     1   4 1
+            7     6   8 1
+            8     6   9 1
+///

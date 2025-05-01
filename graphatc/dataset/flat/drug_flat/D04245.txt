@@ -1,0 +1,80 @@
+ENTRY       D04245                      Drug
+NAME        Forodesine hydrochloride (JAN/USAN)
+FORMULA     C11H14N4O4. HCl
+EXACT_MASS  302.0782
+MOL_WEIGHT  302.7142
+REMARK      Therapeutic category: 4291
+            Chemical structure group: DG01392
+            Product (DG01392): D04245<JP>
+EFFICACY    Antineoplastic, Purine nucleoside phosphorylase (PNP) inhibitor
+COMMENT     Treatment of T-Cell malignancies such as acute lymphoblastic leukemia (ALL) and cutaneous T-Cell lymphoma (CTCL)
+TARGET      PNP [HSA:4860] [KO:K03783]
+  PATHWAY   hsa00230(4860)  Purine metabolism
+            hsa00240(4860)  Pyrimidine metabolism
+            hsa00760(4860)  Nicotinate and nicotinamide metabolism
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D04245  Forodesine hydrochloride (JAN/USAN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Pentosyltransferases
+                PNP
+                 D04245  Forodesine hydrochloride (JAN/USAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D04245
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D04245
+DBLINKS     CAS: 284490-13-7
+            PubChem: 47206191
+            LigandBox: D04245
+            NIKKAJI: J2.601.658D
+ATOM        20
+            1   C1y C    27.1514  -16.5810
+            2   C1y C    28.5506  -16.5810
+            3   C1y C    28.9829  -15.2503
+            4   N1x N    27.8510  -14.4280
+            5   C1y C    26.7191  -15.2503
+            6   O1a O    26.3291  -17.7129
+            7   O1a O    29.3729  -17.7129
+            8   C1b C    25.4003  -14.8218
+            9   C8y C    30.3017  -14.8218
+            10  O1a O    24.3567  -15.7614
+            11  C8y C    31.3625  -15.7417
+            12  C8y C    32.5653  -15.0188
+            13  N4x N    32.2495  -13.6515
+            14  C8x C    30.8515  -13.5293
+            15  N5x N    31.3871  -17.1407
+            16  C8x C    32.6109  -17.8189
+            17  N4x N    33.8137  -17.0959
+            18  C8y C    33.7891  -15.6970
+            19  O5x O    34.9994  -14.9696
+            20  X   Cl   38.2745  -16.5110
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Down
+            7     2   7 1 #Down
+            8     5   8 1 #Up
+            9     3   9 1 #Up
+            10    8  10 1
+            11    9  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 1
+            15    9  14 2
+            16   11  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 1
+            20   12  18 1
+            21   18  19 2
+///

@@ -1,0 +1,29 @@
+ENTRY       D02818                      Drug
+NAME        Allyl isothiocyanate (USP)
+FORMULA     C4H5NS
+EXACT_MASS  99.0143
+MOL_WEIGHT  99.1542
+REMARK      Same as: C19317
+EFFICACY    Repellent
+TARGET      transient receptor potential channel A1 [KO:K04984]
+  PATHWAY   ko04750(K04984)  Inflammatory mediator regulation of TRP channels
+DBLINKS     CAS: 57-06-7
+            PubChem: 17396976
+            ChEBI: 73224
+            PDB-CCD: UL9
+            LigandBox: D02818
+            NIKKAJI: J1.165G
+ATOM        6
+            1   C2b C    17.6875  -15.0499
+            2   C1b C    18.8998  -15.7499
+            3   N2b N    20.1122  -15.0499
+            4   C2a C    16.4750  -15.7499
+            5   C0  C    21.3247  -15.7499
+            6   S0  S    22.5372  -16.4499
+BOND        5
+            1     1   2 1
+            2     2   3 1
+            3     4   1 2
+            4     3   5 2
+            5     5   6 2
+///

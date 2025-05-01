@@ -1,0 +1,57 @@
+ENTRY       D01045                      Drug
+NAME        Sodium lauryl sulfate (JP18/NF)
+FORMULA     C12H25O4S. Na
+EXACT_MASS  288.1371
+MOL_WEIGHT  288.3793
+REMARK      Same as: C11166
+EFFICACY    Pharmaceutic aid (surfactant)
+BRITE       Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01045  Sodium lauryl sulfate
+DBLINKS     CAS: 151-21-3
+            PubChem: 7848108
+            ChEBI: 8984
+            LigandBox: D01045
+            NIKKAJI: J817F
+ATOM        18
+            1   C1a C    34.9879  -15.4237
+            2   C1b C    33.7961  -14.7227
+            3   C1b C    32.6042  -15.4237
+            4   C1b C    31.3424  -14.7227
+            5   O2a O    30.1506  -15.4237
+            6   S4a S    28.7486  -15.4237
+            7   O1d O    28.7486  -16.8257
+            8   O1d O    27.3464  -15.4237 #-
+            9   O1d O    28.7486  -14.0216
+            10  Z   Na   25.2328  -15.3469 #+
+            11  C1b C    32.6042  -15.4237
+            12  C1b C    31.3424  -14.7227
+            13  C1b C    32.6042  -15.4237
+            14  C1b C    31.3424  -14.7227
+            15  C1b C    32.6042  -15.4237
+            16  C1b C    31.3424  -14.7227
+            17  C1b C    32.6042  -15.4237
+            18  C1b C    31.3424  -14.7227
+BOND        16
+            1     1   2 1
+            2     5   6 1
+            3     6   7 2
+            4     6   8 1
+            5     6   9 2
+            6     4   5 1
+            7     3   4 1
+            8     3  12 1
+            9    11  12 1
+            10   11  14 1
+            11   13  14 1
+            12   13  16 1
+            13   15  16 1
+            14   15  18 1
+            15   17  18 1
+            16   17   2 1
+BRACKET     1    31.2200  -16.0300   31.2200  -14.3500
+            1    32.8300  -14.3500   32.8300  -16.0300
+            1  5
+  ORIGINAL  1    3   4
+  REPEAT    1   11  12  13  14  15  16  17  18
+///

@@ -1,0 +1,150 @@
+ENTRY       D10711                      Drug
+NAME        Pemafibrate (JAN);
+            Parmodia (TN)
+FORMULA     C28H30N2O6
+EXACT_MASS  490.2104
+MOL_WEIGHT  490.5476
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01733  PPAR alpha agonist
+               DG01547  Fibrate
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01642  CYP2C9 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+            Transporter substrate
+             DG02856  SLCO1B1 substrate
+             DG02932  SLCO1B3 substrate
+REMARK      Therapeutic category: 2183
+            Product: D10711<JP>
+EFFICACY    Antihyperlipidemic, Triglyceride synthesis inhibitor, Peroxisome proliferator-activated receptor (PPAR) alpha agonist
+TARGET      NR1C1 (PPARA) [HSA:5465] [KO:K07294]
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551], CYP2C9 [HSA:1559], CYP2C8 [HSA:1558]
+            Transporter: SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               218  Hyperlipidemia agents
+                2183  Clofibrates
+                 D10711  Pemafibrate (JAN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01733  PPAR alpha agonist
+                DG01547  Fibrate
+                 D10711  Pemafibrate
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               D10711  Pemafibrate
+              DG01642  CYP2C9 substrate
+               D10711  Pemafibrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D10711  Pemafibrate
+             Transporter substrate
+              DG02856  SLCO1B1 substrate
+               D10711  Pemafibrate
+              DG02932  SLCO1B3 substrate
+               D10711  Pemafibrate
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01946  Hypolipidemic agent
+               D10711  Pemafibrate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Peroxisome proliferator-activated receptor (PPAR)
+                NR1C1 (PPARA)
+                 D10711  Pemafibrate (JAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10711
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10711
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10711
+             Drug transporters
+              D10711
+DBLINKS     CAS: 848259-27-8
+            PubChem: 254741672
+            PDB-CCD: P7F
+ATOM        36
+            1   C8x C     4.6200  -17.0100
+            2   C8x C     4.6200  -18.4100
+            3   C8x C     5.8324  -19.1100
+            4   C8y C     7.0449  -18.4100
+            5   C8y C     7.0449  -17.0100
+            6   C8x C     5.8324  -16.3100
+            7   N5x N     8.3764  -18.8426
+            8   C8y C     9.1993  -17.7100
+            9   O2x O     8.3764  -16.5774
+            10  N1c N    10.5700  -17.7100
+            11  C1b C    11.2700  -18.9224
+            12  C1b C    11.2700  -16.4976
+            13  C8y C    12.6698  -16.4976
+            14  C8x C    13.3797  -17.7268
+            15  C8x C    14.7797  -17.7266
+            16  C8x C    15.4796  -16.5141
+            17  C8y C    14.7697  -15.2849
+            18  C8x C    13.3697  -15.2851
+            19  O2a O    15.4806  -14.0537
+            20  C1c C    16.8699  -14.0539
+            21  C1b C    17.5631  -12.8536
+            22  C6a C    17.5768  -15.2785
+            23  C1a C    18.9698  -12.8538
+            24  O6a O    18.9699  -15.2785
+            25  C1b C    12.6698  -18.9224
+            26  C1b C    13.3603  -20.1180
+            27  O2a O    14.7697  -20.1180
+            28  C8y C    15.4577  -21.3095
+            29  C8x C    14.7735  -22.4945
+            30  C8x C    15.4735  -23.7069
+            31  C8y C    16.8735  -23.7069
+            32  C8x C    17.5577  -22.5219
+            33  C8x C    16.8577  -21.3094
+            34  O2a O    17.5828  -24.9350
+            35  C1a C    18.9699  -24.9346
+            36  O6a O    16.8830  -16.4798
+BOND        39
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   10  12 1
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   13  18 1
+            21   17  19 1
+            22   19  20 1
+            23   20  21 1
+            24   20  22 1 #Down
+            25   21  23 1
+            26   22  24 2
+            27   11  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   31  32 1
+            35   32  33 2
+            36   28  33 1
+            37   31  34 1
+            38   34  35 1
+            39   22  36 1
+///

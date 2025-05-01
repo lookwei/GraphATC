@@ -1,0 +1,76 @@
+ENTRY       D01715                      Drug
+NAME        Risarestat (INN);
+            CT 112
+FORMULA     C16H21NO4S
+EXACT_MASS  323.1191
+MOL_WEIGHT  323.4072
+CLASS       Antidiabetic agent
+             DG01882  Aldose reductase inhibitor
+EFFICACY    Hypoglycemic, Aldose reductase inhibitor
+TARGET      AKR1B1 [HSA:231] [KO:K00011]
+  PATHWAY   hsa00051(231)  Fructose and mannose metabolism
+            hsa00052(231)  Galactose metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01882  Aldose reductase inhibitor
+               D01715  Risarestat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                AKR1B1
+                 D01715  Risarestat (INN)
+DBLINKS     CAS: 79714-31-1
+            PubChem: 7848778
+            ChEBI: 32101
+            LigandBox: D01715
+            NIKKAJI: J22.088D
+ATOM        22
+            1   C5x C    21.6901  -20.4728
+            2   C1y C    22.1230  -19.1511
+            3   S2x S    20.9949  -18.3308
+            4   C5x C    19.8669  -19.1511
+            5   N1x N    20.2997  -20.4728
+            6   C8y C    25.7702  -18.4555
+            7   C8y C    25.7702  -17.0374
+            8   C8x C    24.5555  -19.1589
+            9   O2a O    26.9965  -16.3342
+            10  C8x C    24.5555  -16.3342
+            11  C8y C    23.3293  -18.4555
+            12  C1b C    28.2229  -17.0374
+            13  C8x C    23.3293  -17.0374
+            14  C1b C    29.4376  -16.3401
+            15  C1b C    30.6640  -17.0434
+            16  O2a O    26.9749  -19.1499
+            17  C1b C    28.1787  -18.4539
+            18  C1a C    29.3832  -19.1486
+            19  C1b C    31.8662  -16.3445
+            20  C1a C    33.0725  -17.0363
+            21  O5x O    18.5439  -18.7233
+            22  O5x O    22.5060  -21.5989
+BOND        23
+            1     5   1 1
+            2    10  13 1
+            3    12  14 1
+            4    14  15 1
+            5    11  13 2
+            6     6  16 1
+            7    16  17 1
+            8     6   7 1
+            9     6   8 2
+            10    7   9 1
+            11    7  10 2
+            12    8  11 1
+            13    9  12 1
+            14   17  18 1
+            15    1   2 1
+            16   15  19 1
+            17    2   3 1
+            18   19  20 1
+            19    2  11 1
+            20    3   4 1
+            21    4  21 2
+            22    4   5 1
+            23    1  22 2
+///

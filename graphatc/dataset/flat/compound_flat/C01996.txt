@@ -1,0 +1,88 @@
+ENTRY       C01996                      Compound
+NAME        Acetylcholine;
+            O-Acetylcholine
+FORMULA     C7H16NO2
+EXACT_MASS  146.1181
+MOL_WEIGHT  146.2074
+REMARK      ATC code: S01EB09
+            Drug group: DG01133
+REACTION    R01023 R01026
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map04024  cAMP signaling pathway
+            map04080  Neuroactive ligand-receptor interaction
+            map04721  Synaptic vesicle cycle
+            map04725  Cholinergic synapse
+            map04742  Taste transduction
+            map04810  Regulation of actin cytoskeleton
+            map04911  Insulin secretion
+            map04970  Salivary secretion
+            map04971  Gastric acid secretion
+            map04972  Pancreatic secretion
+            map04976  Bile secretion
+            map05022  Pathways of neurodegeneration - multiple diseases
+            map05033  Nicotine addiction
+NETWORK     nt06210  ERK signaling (cancer)
+            nt06214  PI3K signaling (cancer)
+            nt06219  JAK-STAT signaling (cancer)
+            nt06230  Cell cycle (cancer)
+            nt06460  Alzheimer disease
+            nt06466  Pathways of neurodegeneration
+            nt06528  Calcium signaling
+ENZYME      2.3.1.6         3.1.1.7         3.1.1.8
+BRITE       Compounds with biological roles [BR:br08001]
+             Hormones and transmitters
+              Neurotransmitters
+               Acetylcholine
+                C01996  Acetylcholine
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EB Parasympathomimetics
+                 S01EB09 Acetylcholine
+                  C01996  Acetylcholine
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01532  Nicotinic cholinergic receptor agonist
+               DG01133  Acetylcholine
+                C01996  Acetylcholine
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               DG01133  Acetylcholine
+                C01996  Acetylcholine
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               DG01133  Acetylcholine
+                C01996  Acetylcholine
+             Metabolizing enzyme substrate
+              DG02974  ACHE substrate
+               DG01133  Acetylcholine
+                C01996  Acetylcholine
+DBLINKS     CAS: 51-84-3
+            PubChem: 5093
+            ChEBI: 15355
+            PDB-CCD: ACH
+            3DMET: B00379
+            NIKKAJI: J4.127K
+ATOM        10
+            1   N1d N    22.3189  -15.4000 #+
+            2   C1b C    23.5027  -16.0881
+            3   C1a C    21.5840  -16.7355
+            4   C1a C    21.6365  -14.0646
+            5   C1a C    20.9542  -15.4000
+            6   C1b C    24.6866  -15.4000
+            7   O7a O    25.8704  -16.0881
+            8   C7a C    27.0543  -15.4000
+            9   C1a C    28.2382  -16.0881
+            10  O6a O    27.0543  -14.0353
+BOND        9
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     8  10 2
+///

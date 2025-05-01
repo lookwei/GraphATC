@@ -1,0 +1,124 @@
+ENTRY       D07537                      Drug
+NAME        Bopindolol (INN);
+            Sandonorm (TN)
+FORMULA     C23H28N2O3
+EXACT_MASS  380.21
+MOL_WEIGHT  380.48
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: C07AA17
+            Chemical structure group: DG00310
+EFFICACY    Antihypertensive, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+            Active form of prodrug: 18-502 [CPD:C21520]
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(153+154+155)  Calcium signaling pathway
+            hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C07 BETA BLOCKING AGENTS
+               C07A BETA BLOCKING AGENTS
+                C07AA Beta blocking agents, non-selective
+                 C07AA17 Bopindolol
+                  D07537  Bopindolol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00310  Bopindolol
+                 D07537  Bopindolol
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00310  Bopindolol
+                D07537  Bopindolol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D07537  Bopindolol (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07537
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                DG00310  Bopindolol
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00310  Bopindolol
+            Prodrugs [br08324.html(DG00310)]
+             DG00310
+DBLINKS     CAS: 62658-63-3
+            PubChem: 51091860
+            ChEBI: 76749
+            LigandBox: D07537
+            NIKKAJI: J245.015A
+ATOM        28
+            1   O2a O    22.8900  -16.9400
+            2   C8y C    22.8900  -18.2700
+            3   C8x C    24.1500  -18.9700
+            4   C8x C    24.1500  -20.3700
+            5   C8x C    22.8900  -21.0700
+            6   C8y C    21.7000  -18.9700
+            7   C8y C    21.7000  -20.3700
+            8   N4x N    20.3700  -20.7900
+            9   C8y C    19.5300  -19.6000
+            10  C8x C    20.3700  -18.4800
+            11  C1a C    18.1300  -19.6000
+            12  C1b C    24.1500  -16.2400
+            13  C1c C    25.3400  -16.9400
+            14  C1b C    26.5300  -16.2400
+            15  N1b N    27.7200  -16.9400
+            16  C1d C    28.9100  -16.2400
+            17  C1a C    30.1700  -16.9400
+            18  C1a C    28.9100  -14.8400
+            19  C1a C    30.1700  -15.4700
+            20  C7a C    26.0400  -19.6000
+            21  O6a O    25.3400  -20.7900
+            22  C8y C    27.4400  -19.6000
+            23  C8x C    28.1400  -20.7900
+            24  C8x C    29.5400  -20.7900
+            25  C8x C    28.1400  -18.3400
+            26  C8x C    29.5400  -18.3400
+            27  C8x C    30.2400  -19.6000
+            28  O7a O    25.3400  -18.3400
+BOND        30
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   7 1
+            5     6   2 1
+            6     1   2 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 1
+            10    9  10 2
+            11   10   6 1
+            12    9  11 1
+            13    1  12 1
+            14   12  13 1
+            15   16  17 1
+            16   16  18 1
+            17   16  19 1
+            18   13  14 1
+            19   14  15 1
+            20   15  16 1
+            21   20  21 2
+            22   20  22 1
+            23   22  23 1
+            24   23  24 2
+            25   22  25 2
+            26   25  26 1
+            27   26  27 2
+            28   27  24 1
+            29   20  28 1
+            30   13  28 1
+///

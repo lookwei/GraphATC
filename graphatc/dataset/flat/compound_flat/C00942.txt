@@ -1,0 +1,93 @@
+ENTRY       C00942                      Compound
+NAME        3',5'-Cyclic GMP;
+            Guanosine 3',5'-cyclic monophosphate;
+            Guanosine 3',5'-cyclic phosphate;
+            Cyclic GMP;
+            cGMP
+FORMULA     C10H12N5O7P
+EXACT_MASS  345.0474
+MOL_WEIGHT  345.2053
+REACTION    R00434 R01234
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+            map04022  cGMP-PKG signaling pathway
+            map04270  Vascular smooth muscle contraction
+            map04540  Gap junction
+            map04611  Platelet activation
+            map04713  Circadian entrainment
+            map04714  Thermogenesis
+            map04730  Long-term depression
+            map04740  Olfactory transduction
+            map04744  Phototransduction
+            map04921  Oxytocin signaling pathway
+            map04923  Regulation of lipolysis in adipocytes
+            map04924  Renin secretion
+            map04925  Aldosterone synthesis and secretion
+            map04970  Salivary secretion
+            map04976  Bile secretion
+NETWORK     nt06325  Hormone/cytokine signaling
+ENZYME      3.1.4.17        3.1.4.35        4.6.1.1         4.6.1.2
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Cyclic nucleotides
+               3',5'-Cyclic nuclcleotides
+                C00942  3',5'-Cyclic GMP
+DBLINKS     CAS: 7665-99-8
+            PubChem: 4194
+            ChEBI: 16356
+            KNApSAcK: C00019673
+            PDB-CCD: 35G PCG
+            3DMET: B01354
+            NIKKAJI: J8.958C
+ATOM        23
+            1   C8y C    27.8412  -15.1391
+            2   N4y N    26.7833  -14.4067
+            3   C8y C    29.0676  -14.2382
+            4   N5x N    27.9748  -16.5514
+            5   C1y C    25.4987  -14.8193
+            6   C8x C    27.2541  -13.0174
+            7   N5x N    28.6956  -13.0233
+            8   C8y C    30.3173  -14.7904
+            9   C8y C    29.2943  -17.1385
+            10  C1y C    25.0745  -16.0631
+            11  O2x O    24.3712  -13.9765
+            12  N4x N    30.4742  -16.2666
+            13  O5x O    31.4157  -13.9707
+            14  N1a N    29.4512  -18.6031
+            15  C1y C    23.7027  -16.0631
+            16  O1a O    25.7254  -17.1967
+            17  C1y C    23.2728  -14.7612
+            18  O2x O    22.7147  -17.0455
+            19  C1x C    21.9476  -14.3312
+            20  P1b P    21.2035  -16.6212
+            21  O2x O    20.9130  -15.2611
+            22  O1c O    21.1919  -18.0103
+            23  O1c O    19.9016  -16.1329
+BOND        26
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     5   2 1 #Up
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1
+            11    8  12 1
+            12    8  13 2
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1 #Down
+            16   11  17 1
+            17   15  18 1 #Down
+            18   17  19 1 #Up
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   20  23 2
+            23    6   7 2
+            24    9  12 1
+            25   15  17 1
+            26   20  21 1
+///

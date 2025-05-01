@@ -1,0 +1,149 @@
+ENTRY       D11444                      Drug
+NAME        Tazemetostat (USAN/INN)
+FORMULA     C34H44N4O4
+EXACT_MASS  572.3363
+MOL_WEIGHT  572.7376
+CLASS       Transporter substrate
+             DG01665  ABCB1 substrate
+            Transporter inhibitor
+             DG02864  SLC47A1 inhibitor
+             DG03110  SLC47A2 inhibitor
+REMARK      ATC code: L01XX72
+            Chemical structure group: DG03020
+            Product (DG03020): D11485<JP/US>
+EFFICACY    Antineoplastic, Histone methyltransferase inhibitor
+TARGET      EZH2 [HSA:2146] [KO:K11430]
+  PATHWAY   hsa00310(2146)  Lysine degradation
+            hsa05206(2146)  MicroRNAs in cancer
+METABOLISM  Transporter: ABCB1 [HSA:5243]
+INTERACTION Transporter inhibition: SLC47A1 [HSA:55244], SLC47A2 [HSA:146802]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX72 Tazemetostat
+                  D11444  Tazemetostat (USAN/INN)
+            Drug groups [BR:br08330]
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03020  Tazemetostat
+                D11444  Tazemetostat
+             Transporter inhibitor
+              DG02864  SLC47A1 inhibitor
+               DG03020  Tazemetostat
+                D11444  Tazemetostat
+              DG03110  SLC47A2 inhibitor
+               DG03020  Tazemetostat
+                D11444  Tazemetostat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                EZH2
+                 D11444  Tazemetostat (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D11444
+            Drug groups [BR:br08330]
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG03020  Tazemetostat
+             Transporter inhibitor
+              DG02864  SLC47A1 inhibitor
+               DG03020  Tazemetostat
+              DG03110  SLC47A2 inhibitor
+               DG03020  Tazemetostat
+DBLINKS     CAS: 1403254-99-8
+            PubChem: 384585421
+ATOM        42
+            1   C1x C     6.7900  -15.2600
+            2   O2x O     6.7900  -16.6600
+            3   C1x C     8.0024  -17.3600
+            4   C1x C     9.2149  -16.6600
+            5   N1y N     9.2149  -15.2600
+            6   C1x C     8.0024  -14.5600
+            7   C1b C    10.4460  -14.5490
+            8   C8y C    11.6512  -15.2447
+            9   C8x C    11.6516  -16.6596
+            10  C8x C    12.8642  -17.3593
+            11  C8y C    14.0765  -16.6589
+            12  C8x C    14.0760  -15.2439
+            13  C8x C    12.8634  -14.5443
+            14  C8y C    15.2847  -17.3560
+            15  C8x C    15.2852  -18.7598
+            16  C8y C    16.4979  -19.4594
+            17  C8y C    17.7101  -18.7590
+            18  C8y C    17.7096  -17.3552
+            19  C8x C    16.4969  -16.6556
+            20  C5a C    18.9200  -16.6558
+            21  N1b N    20.1193  -17.3479
+            22  O5a O    18.9196  -15.2601
+            23  C1b C    21.3043  -16.6633
+            24  C8y C    22.4972  -17.3517
+            25  C8y C    22.4976  -18.7597
+            26  N4x N    23.7103  -19.4594
+            27  C8y C    24.9225  -18.7590
+            28  C8x C    24.9221  -17.3510
+            29  C8y C    23.7094  -16.6513
+            30  C1a C    23.7091  -15.2602
+            31  C1a C    26.1337  -19.4578
+            32  O5x O    21.2647  -19.4723
+            33  C1a C    18.9231  -19.4588
+            34  N1c N    16.4983  -20.8598
+            35  C1y C    17.7272  -21.5690
+            36  C1b C    15.3024  -21.5509
+            37  C1x C    17.7274  -22.9599
+            38  C1x C    18.9400  -23.6597
+            39  O2x O    20.1523  -22.9595
+            40  C1x C    20.1521  -21.5686
+            41  C1x C    18.9396  -20.8688
+            42  C1a C    14.1144  -20.8655
+BOND        46
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   11  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   18  20 1
+            23   20  21 1
+            24   20  22 2
+            25   21  23 1
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 2
+            31   28  29 1
+            32   24  29 2
+            33   29  30 1
+            34   27  31 1
+            35   25  32 2
+            36   17  33 1
+            37   16  34 1
+            38   34  35 1
+            39   34  36 1
+            40   35  37 1
+            41   37  38 1
+            42   38  39 1
+            43   39  40 1
+            44   40  41 1
+            45   35  41 1
+            46   36  42 1
+///

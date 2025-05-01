@@ -1,0 +1,232 @@
+ENTRY       C01912                      Compound
+NAME        Erythromycin;
+            Erythromycin A;
+            Abomacetin
+FORMULA     C37H67NO13
+EXACT_MASS  733.4612
+MOL_WEIGHT  733.9268
+SEQUENCE    0 Pyk  1 Mtk  2 Mtn  3 Mte  4 Mtk  5 Mtk  6 Mtn
+  GENE      [1] 0-2 eryAI [UP:Q5Y9G4]; 3,4 eryAII [UP:Q5Y9G5]; 5,6 eryAIII
+                [UP:Q5Y9G6]
+            [2] 0-2 DEBS1 [UP:Q03131]; 3,4 DEBS2 [UP:Q03132]; 5,6 DEBS3
+                [UP:Q03133]
+            [3] 0-2 megAI [UP:Q9F830]; 3,4 megAII [UP:Q9F829]; 5,6 megAIII
+                [UP:Q9F828]
+  ORGANISM  [1] Aeromicrobium erythreum
+            [2] Saccharopolyspora erythraea (Streptomyces erythraeus)
+            [3] Micromonospora megalomicea subsp. nigra.
+  TYPE      PK
+REMARK      Same as: D00140
+REACTION    R05519 R05520 R05521
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01052  Type I polyketide structures
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00774  Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
+ENZYME      1.14.13.154     2.1.1.254
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              Polyketides and nonribosomal peptides
+               Macrolides
+                C01912  Erythromycin
+            Lipids [BR:br08002]
+             PK  Polyketides
+              PK04 Macrolides and lactone polyketides
+               C01912  Erythromycin
+            Secondary metabolites in pathway maps [br08011.html]
+             Biosynthetic pathways and modules of secondary metabolites
+              C01912
+            Prodrugs [br08324.html]
+             C01912
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00140)]
+             D DERMATOLOGICALS
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AF Antiinfectives for treatment of acne
+                 D10AF02 Erythromycin
+                  D00140  Erythromycin (JP18/USP/INN) &lt;JP/US&gt;
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01F MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS
+                J01FA Macrolides
+                 J01FA01 Erythromycin
+                  D00140  Erythromycin (JP18/USP/INN) &lt;JP/US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA17 Erythromycin
+                  D00140  Erythromycin (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302(D00140)]
+             Antibacterials
+              Macrolides
+               Erythromycin
+                D00140  Erythromycin (JP18/USP/INN)
+             Dermatological Agents
+              Topical Anti-infectives
+               Antibacterials, dermatological
+                Erythromycin
+                 D00140  Erythromycin (JP18/USP/INN)
+             Ophthalmic Agents
+              Ophthalmic Anti-Infectives
+               Antibacterials, Ophthalmic
+                Erythromycin
+                 D00140  Erythromycin (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301(D00140)]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               614  Acting mainly on gram-positive bacteria and mycoplasma
+                6141  Erythromycins
+                 D00140  Erythromycin (JP18/USP/INN)
+            Drug groups [BR:br08330(D00140)]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00436  Erythromycin
+                 D00140  Erythromycin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00436  Erythromycin
+                D00140  Erythromycin
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00436  Erythromycin
+                D00140  Erythromycin
+             Transporter inhibitor
+              DG01622  ABCB1 inhibitor
+               DG00436  Erythromycin
+                D00140  Erythromycin
+            Drug classes [BR:br08332(D00140)]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               D00140  Erythromycin
+            Antimicrobials [BR:br08307(D00140)]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                D00140  Erythromycin (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00140)]
+             Chemicals
+              D00140  Erythromycin
+              D00140  Erythromycin enteric-coated tablets
+            Drug metabolizing enzymes and transporters [br08309.html(D00140)]
+             Drug metabolizing enzymes
+              D00140
+             Drug transporters
+              D00140
+            Prodrugs [br08324.html(D00140)]
+             D00140
+DBLINKS     CAS: 114-07-8
+            PubChem: 5020
+            ChEBI: 42355
+            LIPIDMAPS: LMPK04000006
+            PDB-CCD: ERY
+            3DMET: B01517
+            NIKKAJI: J2.892D
+ATOM        51
+            1   C1y C    28.9103  -14.0865
+            2   C1z C    28.9103  -12.7233
+            3   C1y C    27.7262  -14.7624
+            4   O2a O    30.8915  -14.8028
+            5   C1x C    27.7262  -12.0417
+            6   O1a O    29.9384  -11.7356
+            7   C1a C    30.1926  -13.1564
+            8   C1y C    27.7262  -16.1256
+            9   C1a C    26.7555  -13.7407
+            10  C1y C    32.4693  -14.0880
+            11  C1y C    27.7262  -10.6727
+            12  O2a O    28.4656  -17.4830
+            13  C1y C    26.5536  -16.8073
+            14  C1y C    33.6374  -14.7792
+            15  O2x O    32.4813  -12.7253
+            16  C5x C    26.5536   -9.9968
+            17  C1a C    28.9103   -9.9968
+            18  C1y C    29.9816  -17.9009
+            19  C7x C    25.3695  -16.1256
+            20  C1a C    26.5536  -18.1703
+            21  C1y C    34.8229  -14.1176
+            22  O1a O    33.6283  -16.1469
+            23  C1y C    33.6717  -12.0610
+            24  C1y C    25.3695  -10.6727
+            25  O5x O    26.5536   -8.6336
+            26  C1x C    29.9816  -19.2584
+            27  O2x O    31.1658  -17.2194
+            28  O7x O    25.3695  -14.7624
+            29  O6a O    24.3124  -17.0729
+            30  C1x C    34.8373  -12.7600
+            31  N1c N    35.9958  -14.8060
+            32  C1a C    33.6914  -10.7005
+            33  C1y C    25.3695  -12.0417
+            34  C1a C    24.1912   -9.9968
+            35  C1z C    31.1658  -19.9458
+            36  C1y C    32.3382  -17.9009
+            37  C1y C    24.1912  -14.0865
+            38  C1z C    24.1912  -12.7233
+            39  O1a O    26.5536  -12.7233
+            40  C1y C    32.3382  -19.2584
+            41  O2a O    31.1658  -21.2686
+            42  C1a C    32.6098  -20.9278
+            43  C1a C    33.5224  -17.2252
+            44  C1b C    23.0127  -14.7624
+            45  C1a C    22.9435  -13.2892
+            46  O1a O    22.9435  -12.0360
+            47  O1a O    33.5224  -19.9458
+            48  C1a C    32.2632  -22.2275
+            49  C1a C    23.0477  -15.8829
+            50  C1a C    37.2421  -14.0985
+            51  C1a C    35.9864  -16.1677
+BOND        53
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9    10   4 1 #Down
+            10    5  11 1
+            11    8  12 1 #Down
+            12    8  13 1
+            13   10  14 1
+            14   10  15 1
+            15   11  16 1
+            16   11  17 1 #Down
+            17   18  12 1 #Down
+            18   13  19 1
+            19   13  20 1 #Up
+            20   14  21 1
+            21   14  22 1 #Up
+            22   15  23 1
+            23   16  24 1
+            24   16  25 2
+            25   18  26 1
+            26   18  27 1
+            27   19  28 1
+            28   19  29 2
+            29   21  30 1
+            30   21  31 1 #Down
+            31   23  32 1 #Down
+            32   24  33 1
+            33   24  34 1 #Up
+            34   26  35 1
+            35   27  36 1
+            36   28  37 1
+            37   33  38 1
+            38   33  39 1 #Up
+            39   35  40 1
+            40   35  41 1 #Down
+            41   35  42 1
+            42   36  43 1 #Up
+            43   37  44 1 #Down
+            44   38  45 1 #Down
+            45   38  46 1 #Up
+            46   40  47 1 #Down
+            47   41  48 1
+            48   44  49 1
+            49   23  30 1
+            50   36  40 1
+            51   37  38 1
+            52   31  50 1
+            53   31  51 1
+///

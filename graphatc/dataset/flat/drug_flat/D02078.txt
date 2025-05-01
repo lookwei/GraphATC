@@ -1,0 +1,154 @@
+ENTRY       D02078                      Drug
+NAME        Dextroamphetamine sulfate (USP);
+            Dexedrine (TN);
+            Dextrostat (TN)
+PRODUCT     DEXEDRINE (Amneal Pharmaceuticals LLC)
+  GENERIC   DEXTROAMPHETAMINE (Bryant Ranch Prepack)
+            DEXTROAMPHETAMINE (Tris Pharma)
+            DEXTROAMPHETAMINE SULFATE (Actavis Pharma)
+            DEXTROAMPHETAMINE SULFATE (Amneal Pharmaceuticals of New York LLC)
+            DEXTROAMPHETAMINE SULFATE (Aurolife Pharma)
+            DEXTROAMPHETAMINE SULFATE (Bryant Ranch Prepack)
+            DEXTROAMPHETAMINE SULFATE (Bryant Ranch Prepack)
+            DEXTROAMPHETAMINE SULFATE (Bryant Ranch Prepack)
+            DEXTROAMPHETAMINE SULFATE (Bryant Ranch Prepack)
+            DEXTROAMPHETAMINE SULFATE (KVK-Tech)
+            DEXTROAMPHETAMINE SULFATE (Lupin Pharmaceuticals)
+            DEXTROAMPHETAMINE SULFATE (Mayne Pharma)
+            DEXTROAMPHETAMINE SULFATE (Prasco Laboratories)
+            DEXTROAMPHETAMINE SULFATE (SUNRISE PHARMACEUTICAL)
+            DEXTROAMPHETAMINE SULFATE (SpecGx LLC)
+            DEXTROAMPHETAMINE SULFATE (SpecGx LLC)
+            DEXTROAMPHETAMINE SULFATE (Teva Pharmaceuticals USA)
+            DEXTROAMPHETAMINE SULFATE (Tris Pharma)
+            DEXTROAMPHETAMINE SULFATE (Wilshire Pharmaceuticals)
+            DEXTROAMPHETAMINE SULFATE (Winder Laboratories LLC)
+            PROCENTRA (INDEPENDENCE PHARMACEUTICALS)
+            ZENZEDI (Arbor Pharmaceuticals)
+FORMULA     (C9H13N)2. H2SO4
+EXACT_MASS  368.177
+MOL_WEIGHT  368.4909
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: N06BA02
+            Chemical structure group: DG00967
+            Product (DG00967): D03740<US> D02078<US>
+            Product (mixture): D11624<US>
+EFFICACY    Stimulant (central)
+  DISEASE   Narcolepsy [DS:H01293]
+            Attention deficit disorder with hyperactivity [DS:H01895]
+TARGET      SLC18A2 (VMAT2) [HSA:6571] [KO:K08155]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+            SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04721(6530+6531+6571)  Synaptic vesicle cycle
+            hsa04728(6531+6571)  Dopaminergic synapse
+            hsa05031(6531+6571)  Amphetamine addiction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07234  Neurotransmitter transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA02 Dexamfetamine
+                  D02078  Dextroamphetamine sulfate (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Central Nervous System Agents
+              Attention Deficit Hyperactivity Disorder Agents, Amphetamines
+               Dextroamphetamine
+                D02078  Dextroamphetamine sulfate (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00967  Dexamfetamine
+                D02078  Dextroamphetamine sulfate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00967  Dexamfetamine
+                D02078  Dextroamphetamine sulfate
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D02078  Dextroamphetamine sulfate (USP) &lt;US&gt;
+                SLC6A3 (DAT1)
+                 D02078  Dextroamphetamine sulfate (USP) &lt;US&gt;
+               SLC18
+                SLC18A2 (VMAT2)
+                 D02078  Dextroamphetamine sulfate (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02078
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG00967  Dexamfetamine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00967  Dexamfetamine
+DBLINKS     CAS: 51-63-8
+            PubChem: 7849140
+            ChEBI: 51064
+            LigandBox: D02078
+            NIKKAJI: J252.880K
+ATOM        25
+            1   C8y C    15.1900  -15.3300
+            2   C8x C    14.0000  -14.6300
+            3   C8x C    15.1900  -16.7300
+            4   C1b C    16.3800  -14.6300
+            5   C8x C    12.7400  -15.3300
+            6   C8x C    14.0000  -17.4300
+            7   C1c C    17.6400  -15.3300
+            8   C8x C    12.7400  -16.7300
+            9   N1a N    18.8300  -14.6300
+            10  C1a C    17.6400  -16.7300
+            11  S4a S    24.0800  -15.8900
+            12  O1d O    24.0800  -14.4900
+            13  O1d O    24.0800  -17.2900
+            14  O1d O    25.4800  -15.8900
+            15  O1d O    22.6800  -15.8900
+            16  C8y C    15.1900  -15.3300
+            17  C8x C    14.0000  -14.6300
+            18  C8x C    12.7400  -15.3300
+            19  C8x C    12.7400  -16.7300
+            20  C8x C    14.0000  -17.4300
+            21  C8x C    15.1900  -16.7300
+            22  C1b C    16.3800  -14.6300
+            23  C1c C    17.6400  -15.3300
+            24  N1a N    18.8300  -14.6300
+            25  C1a C    17.6400  -16.7300
+BOND        24
+            1    11  12 2
+            2    11  13 2
+            3    11  14 1
+            4    11  15 1
+            5     1   2 2
+            6     1   3 1
+            7     1   4 1
+            8     2   5 1
+            9     3   6 2
+            10    4   7 1
+            11    5   8 2
+            12    7   9 1
+            13    7  10 1 #Up
+            14    6   8 1
+            15   16  17 2
+            16   16  21 1
+            17   16  22 1
+            18   17  18 1
+            19   21  20 2
+            20   22  23 1
+            21   18  19 2
+            22   23  24 1
+            23   23  25 1 #Up
+            24   20  19 1
+BRACKET     1    12.1100  -18.4100   12.1100  -13.5100
+            1    20.3000  -13.5100   20.3000  -18.4100
+            1  2
+  ORIGINAL  1    1   2   5   8   6   3   4   7   9  10
+  REPEAT    1   16  17  18  19  20  21  22  23  24  25
+///

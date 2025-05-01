@@ -1,0 +1,82 @@
+ENTRY       D03526                      Drug
+NAME        Cisconazole (USAN/INN)
+FORMULA     C19H15F3N2OS
+EXACT_MASS  376.0857
+MOL_WEIGHT  376.3954
+CLASS       Antifungal
+             DG01883  Imidazole antifungal
+EFFICACY    Antifungal, Ergosterol biosynthesis inhibitor
+COMMENT     Imidazole derivative
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+  PATHWAY   ko00100(K05917)  Steroid biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antifungal
+              DG01883  Imidazole antifungal
+               D03526  Cisconazole
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Imidazole
+                D03526  Cisconazole (USAN/INN)
+DBLINKS     CAS: 104456-79-3
+            PubChem: 17397659
+            LigandBox: D03526
+ATOM        26
+            1   C8y C    10.5700  -26.6700
+            2   C8x C    10.5700  -28.0700
+            3   C8x C    11.7824  -28.7700
+            4   C8y C    12.9949  -28.0700
+            5   C8y C    12.9949  -26.6700
+            6   C8x C    11.7824  -25.9700
+            7   S2x S    14.3264  -28.5026
+            8   C1y C    15.1493  -27.3700
+            9   C1y C    14.3264  -26.2374
+            10  X   F     9.3576  -25.9700
+            11  C1b C    16.5200  -27.3700
+            12  N4y N    17.2200  -28.5824
+            13  O2a O    14.7575  -24.9106
+            14  C1b C    16.1575  -24.9106
+            15  C8y C    16.8566  -23.6999
+            16  C8y C    18.2697  -23.6997
+            17  C8x C    18.9695  -22.4871
+            18  C8x C    18.2693  -21.2748
+            19  C8x C    16.8562  -21.2751
+            20  C8y C    16.1564  -22.4876
+            21  X   F    14.7701  -22.4877
+            22  X   F    18.9833  -24.9347
+            23  C8x C    18.6198  -28.5824
+            24  C8x C    16.7874  -29.9138
+            25  N5x N    17.9199  -30.7366
+            26  C8x C    19.0524  -29.9138
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    5   9 1
+            11    1  10 1
+            12    8  11 1 #Up
+            13   11  12 1
+            14    9  13 1 #Up
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   20  21 1
+            24   16  22 1
+            25   12  23 1
+            26   12  24 1
+            27   24  25 2
+            28   25  26 1
+            29   23  26 2
+///

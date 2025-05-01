@@ -1,0 +1,77 @@
+ENTRY       D03248                      Drug
+NAME        Clorgiline (INN);
+            Clorgyline
+FORMULA     C13H15Cl2NO
+EXACT_MASS  271.0531
+MOL_WEIGHT  272.1703
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01558  Monoamine oxidase A inhibitor
+REMARK      Same as: C11685
+EFFICACY    Antidepressant, Monoamine oxidase A (MAO-A) inhibitor
+TARGET      MAOA [HSA:4128] [KO:K00274]
+  PATHWAY   hsa00260(4128)  Glycine, serine and threonine metabolism
+            hsa00330(4128)  Arginine and proline metabolism
+            hsa00340(4128)  Histidine metabolism
+            hsa00350(4128)  Tyrosine metabolism
+            hsa00360(4128)  Phenylalanine metabolism
+            hsa00380(4128)  Tryptophan metabolism
+            hsa00982(4128)  Drug metabolism - cytochrome P450
+            hsa04726(4128)  Serotonergic synapse
+            hsa04728(4128)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07216  Catecholamine transferase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01558  Monoamine oxidase A inhibitor
+                D03248  Clorgiline
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAOA
+                 D03248  Clorgiline (INN)
+DBLINKS     CAS: 17780-72-2
+            PubChem: 17397401
+            ChEBI: 3763
+            PDB-CCD: MLG
+            LigandBox: D03248
+            NIKKAJI: J10.191E
+ATOM        17
+            1   C1b C    25.5302  -19.1297
+            2   N1c N    25.5302  -20.5361
+            3   C1b C    26.7382  -21.2247
+            4   C1a C    24.3163  -21.2306
+            5   C3b C    27.9519  -20.5244
+            6   C3a C    29.1162  -19.7510
+            7   C1b C    24.3251  -18.4176
+            8   C8y C    20.6990  -19.1072
+            9   O2a O    21.9070  -18.4129
+            10  C8x C    20.6990  -20.5135
+            11  C8y C    19.4853  -18.4070
+            12  C8x C    19.4853  -21.2138
+            13  C8x C    18.2656  -19.1072
+            14  C8y C    18.2656  -20.5135
+            15  C1b C    23.1146  -19.1133
+            16  X   Cl   19.4866  -17.0108
+            17  X   Cl   17.0573  -21.2131
+BOND        17
+            1     2   4 1
+            2     3   5 1
+            3     5   6 3
+            4     8   9 1
+            5     8  10 1
+            6     8  11 2
+            7    10  12 2
+            8    11  13 1
+            9    12  14 1
+            10   13  14 2
+            11    7   1 1
+            12    9  15 1
+            13   15   7 1
+            14    1   2 1
+            15   11  16 1
+            16    2   3 1
+            17   14  17 1
+///

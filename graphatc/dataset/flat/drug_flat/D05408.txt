@@ -1,0 +1,149 @@
+ENTRY       D05408                      Drug
+NAME        Penicillin G sodium (USP);
+            Benzylpenicillin sodium;
+            Penicillin G sodium (TN)
+PRODUCT
+  GENERIC   PENICILLIN G SODIUM (Sandoz)
+FORMULA     C16H17N2O4S. Na
+EXACT_MASS  356.0807
+MOL_WEIGHT  356.3719
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01778  beta-Lactamase sensitive penicillin
+            Transporter substrate
+             DG02860  SLC22A8 substrate
+REMARK      ATC code: J01CE01 S01AA14
+            Chemical structure group: DG00534
+            Product (DG00534): D01053<JP/US> D02157<JP/US> D02461<US> D05408<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+  DISEASE   Bacterial endocarditis [DS:H00334]
+            Anthrax [DS:H00328]
+            Actinomycosis [DS:H01325]
+            Botulism [DS:H00339]
+            Gas gangrene [DS:H00336]
+            Tetanus [DS:H00337]
+            Diphtheria [DS:H00343]
+            Listeria infections [DS:H00332]
+            Pasteurella infections [DS:H00306]
+            Haverhill fever [DS:H01314]
+            Rat-bite fever [DS:H01314]
+            Syphilis [DS:H00354]
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+METABOLISM  Transporter: SLC22A8 [HSA:9376]
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CE Beta-lactamase sensitive penicillins
+                 J01CE01 Benzylpenicillin
+                  D05408  Penicillin G sodium (USP) &lt;US&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA14 Benzylpenicillin
+                  D05408  Penicillin G sodium (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antibacterials
+              Beta-lactam, Penicillins
+               Penicillin G
+                D05408  Penicillin G sodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00534  Benzylpenicillin
+                  D05408  Penicillin G sodium
+              DG01778  beta-Lactamase sensitive penicillin
+               DG00534  Benzylpenicillin
+                D05408  Penicillin G sodium
+             Transporter substrate
+              DG02860  SLC22A8 substrate
+               D05408  Penicillin G sodium
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01480  Penicillin
+               D05408  Penicillin G sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase sensitive penicillin
+                D05408  Penicillin G sodium (USP) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D05408
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00534  Benzylpenicillin
+              DG01778  beta-Lactamase sensitive penicillin
+               DG00534  Benzylpenicillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               beta-Lactamase sensitive penicillin
+                DG00534  Benzylpenicillin
+DBLINKS     CAS: 69-57-8
+            PubChem: 47207083
+            LigandBox: D05408
+            NIKKAJI: J4.869K
+ATOM        24
+            1   C1y C    28.0500  -18.4426
+            2   C5x C    28.0500  -19.8474
+            3   N1y N    29.4549  -19.8474
+            4   C1y C    29.4549  -18.4426
+            5   C1y C    30.7894  -20.2688
+            6   C1z C    31.6322  -19.1449
+            7   S2x S    30.7894  -18.0210
+            8   C1a C    32.6157  -20.1283
+            9   C1a C    32.6157  -18.1615
+            10  C6a C    31.2811  -21.6033
+            11  O6a O    32.6858  -21.6033 #-
+            12  O6a O    30.4381  -22.7271
+            13  N1b N    26.8559  -17.7401
+            14  C5a C    25.6618  -18.4426
+            15  O5x O    26.8559  -20.5497
+            16  O5a O    25.6618  -19.8474
+            17  C1b C    24.4423  -17.7450
+            18  C8y C    23.2499  -18.4403
+            19  C8x C    22.0363  -17.7396
+            20  C8x C    20.8228  -18.4403
+            21  C8x C    20.8228  -19.8415
+            22  C8x C    22.0363  -20.5421
+            23  C8x C    23.2499  -19.8415
+            24  Z   Na   34.1600  -21.6300 #+
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   22  23 2
+            25   18  23 1
+///

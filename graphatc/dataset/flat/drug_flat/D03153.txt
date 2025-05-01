@@ -1,0 +1,79 @@
+ENTRY       D03153                      Drug
+NAME        Brasofensine maleate (USAN)
+FORMULA     C16H20Cl2N2O. C4H4O4
+EXACT_MASS  442.1062
+MOL_WEIGHT  443.321
+EFFICACY    Antiparkinsonian, Dopamine reuptake inhibitor
+TARGET      SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04728(6531)  Dopaminergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A3 (DAT1)
+                 D03153  Brasofensine maleate (USAN)
+DBLINKS     CAS: 173830-14-3
+            PubChem: 17397307
+            LigandBox: D03153
+ATOM        29
+            1   O6a O    14.9976  -16.0256
+            2   C6a C    16.3710  -16.0256
+            3   O6a O    16.9890  -17.1930
+            4   C2b C    16.9890  -14.8582
+            5   C2b C    18.6369  -14.8582
+            6   C6a C    19.3237  -16.0256
+            7   O6a O    20.6283  -16.0256
+            8   O6a O    18.6369  -17.1930
+            9   C1x C     3.8038  -16.5708
+            10  C1x C     4.1319  -15.3991
+            11  C1y C     4.9755  -16.2896
+            12  C1y C     5.3036  -15.1179
+            13  N1y N     4.0382  -13.8056
+            14  C1x C     6.8502  -16.2896
+            15  C1y C     6.5690  -15.1179
+            16  C1y C     7.8813  -16.8520
+            17  C8y C     8.9593  -17.7425
+            18  C1a C     2.8089  -14.4183
+            19  C2b C     7.1937  -13.8617
+            20  N2b N     8.6073  -13.8438
+            21  O2a O     9.2857  -12.6338
+            22  C1a C    10.7099  -12.6164
+            23  C8x C     8.9593  -19.1425
+            24  C8x C    10.1717  -19.8425
+            25  C8y C    11.3842  -19.1425
+            26  C8y C    11.3842  -17.7425
+            27  C8x C    10.1717  -17.0425
+            28  X   Cl   12.6013  -19.8454
+            29  X   Cl   12.6302  -17.0236
+BOND        30
+            1     1   2 1
+            2     2   3 2
+            3     2   4 1
+            4     4   5 2
+            5     5   6 1
+            6     6   7 2
+            7     6   8 1
+            8     9  10 1
+            9     9  11 1
+            10   10  12 1
+            11   11  13 1
+            12   11  14 1
+            13   12  15 1
+            14   14  16 1
+            15   16  17 1 #Down
+            16   12  13 1
+            17   15  16 1
+            18   13  18 1
+            19   15  19 1 #Up
+            20   19  20 2
+            21   20  21 1
+            22   21  22 1
+            23   17  23 2
+            24   23  24 1
+            25   24  25 2
+            26   25  26 1
+            27   26  27 2
+            28   17  27 1
+            29   25  28 1
+            30   26  29 1
+///

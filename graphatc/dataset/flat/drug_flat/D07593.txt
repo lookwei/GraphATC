@@ -1,0 +1,113 @@
+ENTRY       D07593                      Drug
+NAME        Buspirone (INN);
+            Gen-Buspirone (TN)
+FORMULA     C21H31N5O2
+EXACT_MASS  385.2478
+MOL_WEIGHT  385.5031
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+REMARK      Same as: C06861
+            ATC code: N05BE01
+            Chemical structure group: DG00913
+            Product (DG00913): D00702<US>
+EFFICACY    Antianxiety, Minor tranquilizer, Serotonin 5-HT1A receptor agonist
+COMMENT     Buspirone derivative
+TARGET      HTR1A [HSA:3350] [KO:K04153]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813+3350)  Neuroactive ligand-receptor interaction
+            hsa04726(3350)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+STR_MAP     map07030  Anxiolytics
+            map07211  Serotonin receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BE Azaspirodecanedione derivatives
+                 N05BE01 Buspirone
+                  D07593  Buspirone (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG00913  Buspirone
+                D07593  Buspirone
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D07593  Buspirone (INN)
+               Serotonin
+                HTR1A
+                 D07593  Buspirone (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG00913  Buspirone
+DBLINKS     CAS: 36505-84-7
+            PubChem: 51091905
+            ChEBI: 3223
+            LigandBox: D07593
+            NIKKAJI: J19.752A
+ATOM        28
+            1   C1z C    30.3800  -15.6800
+            2   C1x C    29.1900  -14.9800
+            3   C1x C    30.3800  -17.0800
+            4   C5x C    28.0000  -15.6800
+            5   C5x C    29.1900  -17.7800
+            6   N1y N    28.0000  -17.0800
+            7   O5x O    26.7400  -14.9800
+            8   O5x O    29.1900  -19.1100
+            9   C1b C    26.8100  -17.7800
+            10  C1b C    25.5500  -17.0800
+            11  C1b C    24.3600  -17.7800
+            12  C1b C    23.1700  -17.0800
+            13  N1y N    21.9800  -17.8500
+            14  C1x C    20.7200  -17.1500
+            15  C1x C    21.9800  -19.2500
+            16  C1x C    19.5300  -17.8500
+            17  C1x C    20.7200  -19.8800
+            18  N1y N    19.5300  -19.1800
+            19  C8y C    18.3400  -19.8800
+            20  N5x N    17.1500  -19.1800
+            21  N5x N    18.2700  -21.2800
+            22  C8x C    15.8200  -19.8800
+            23  C8x C    17.0800  -21.9800
+            24  C8x C    15.8200  -21.2800
+            25  C1x C    31.7100  -16.1000
+            26  C1x C    32.5500  -14.9800
+            27  C1x C    31.7100  -13.8600
+            28  C1x C    30.3800  -14.2800
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1
+            6     4   7 2
+            7     5   8 2
+            8     6   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   13  15 1
+            15   14  16 1
+            16   15  17 1
+            17   16  18 1
+            18   18  19 1
+            19   19  20 1
+            20   19  21 2
+            21   20  22 2
+            22   21  23 1
+            23   22  24 1
+            24    5   6 1
+            25   17  18 1
+            26   23  24 2
+            27    1  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31    1  28 1
+///

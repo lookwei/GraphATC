@@ -1,0 +1,147 @@
+ENTRY       D02689                      Drug
+NAME        Ramelteon (JAN/USAN/INN);
+            Rozerem (TN)
+PRODUCT     ROZEREM (Takeda Pharmaceuticals America)
+  GENERIC   RAMELTEON (Actavis Pharma)
+            RAMELTEON (Advanced Rx Pharmacy of Tennessee)
+            RAMELTEON (Advanced Rx Pharmacy of Tennessee)
+            RAMELTEON (American Health Packaging)
+            RAMELTEON (Aurobindo Pharma Limited)
+            RAMELTEON (AvKARE)
+            RAMELTEON (AvPAK)
+            RAMELTEON (Bryant Ranch Prepack)
+            RAMELTEON (Bryant Ranch Prepack)
+            RAMELTEON (Bryant Ranch Prepack)
+            RAMELTEON (Bryant Ranch Prepack)
+            RAMELTEON (DIRECT RX)
+            RAMELTEON (Direct_Rx)
+            RAMELTEON (Direct_Rx)
+            RAMELTEON (Dr.Reddys Laboratories)
+            RAMELTEON (Granules Pharmaceuticals)
+            RAMELTEON (Micro Labs Limited)
+            RAMELTEON (Proficient Rx LP)
+            RAMELTEON (Quality Care Products)
+            RAMELTEON (TruPharma)
+            RAMELTEON (Unit Dose Services)
+            RAMELTEON (Upsher-Smith Laboratories)
+            RAMELTEON (Westminster Pharmaceuticals)
+            RAMELTEON (Xiromed)
+            RAMELTEON (Zydus Lifesciences Limited)
+            RAMELTEON (Zydus Pharmaceuticals USA)
+            RAMELTEON (i3 Pharmaceuticals)
+FORMULA     C16H21NO2
+EXACT_MASS  259.1572
+MOL_WEIGHT  259.3434
+CLASS       Neuropsychiatric agent
+             DG01589  Melatonin receptor agonist
+             DG03202  Hypnotic
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      Therapeutic category: 1190
+            ATC code: N05CH02
+            Product: D02689<JP/US>
+EFFICACY    Hypnotic, Melatonin receptor agonist
+  DISEASE   Insomnia [DS:H01609]
+COMMENT     Treatment of sleep disorders
+TARGET      MTNR1 [HSA:4543 4544] [KO:K04285 K04286]
+  PATHWAY   hsa04080(4543+4544)  Neuroactive ligand-receptor interaction
+            hsa04713(4543+4544)  Circadian entrainment
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+STR_MAP     map07032  Hypnotics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05C HYPNOTICS AND SEDATIVES
+                N05CH Melatonin receptor agonists
+                 N05CH02 Ramelteon
+                  D02689  Ramelteon (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Sleep Disorder Agents
+              Sleep Promoting Agents
+               Ramelteon
+                D02689  Ramelteon (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D02689  Ramelteon (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01589  Melatonin receptor agonist
+               D02689  Ramelteon
+              DG03202  Hypnotic
+               D02689  Ramelteon
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               D02689  Ramelteon
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03202  Hypnotic
+               D02689  Ramelteon
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Melatonin
+                MTNR1
+                 D02689  Ramelteon (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D02689
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D02689
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D02689
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02689
+DBLINKS     CAS: 196597-26-9
+            PubChem: 17396858
+            PDB-CCD: JEV
+            LigandBox: D02689
+ATOM        19
+            1   C8y C    20.8600  -14.7700
+            2   C8x C    20.8600  -16.1700
+            3   C8x C    22.0724  -16.8700
+            4   C8y C    23.2849  -16.1700
+            5   C8y C    23.2849  -14.7700
+            6   C8y C    22.0724  -14.0700
+            7   C1x C    21.7814  -12.7006
+            8   C1x C    20.3890  -12.5542
+            9   O2x O    19.8196  -13.8332
+            10  C1x C    24.6164  -16.6026
+            11  C1x C    25.4393  -15.4700
+            12  C1y C    24.6164  -14.3374
+            13  C1b C    25.0475  -13.0106
+            14  C1b C    26.2724  -12.3200
+            15  N1b N    27.4849  -13.0200
+            16  C5a C    28.6973  -12.3200
+            17  C1b C    29.9097  -13.0200
+            18  C1a C    31.1222  -12.3200
+            19  O5a O    28.6973  -10.9200
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    1   9 1
+            11    4  10 1
+            12   10  11 1
+            13   11  12 1
+            14    5  12 1
+            15   12  13 1 #Down
+            16   13  14 1
+            17   14  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   16  19 2
+///

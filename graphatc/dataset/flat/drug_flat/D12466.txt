@@ -1,0 +1,58 @@
+ENTRY       D12466                      Drug
+NAME        Doxribtimine (USAN/INN)
+FORMULA     C10H14N2O5
+EXACT_MASS  242.0903
+MOL_WEIGHT  242.2286
+REMARK      Same as: C00214
+EFFICACY    Methabolic disease therapeutic agent
+COMMENT     Treatment of thymidine kinase 2 deficiency
+TARGET      TK2 [HSA:7084] [KO:K00857]
+  PATHWAY   hsa00240(7084)  Pyrimidine metabolism
+            hsa00983(7084)  Drug metabolism - other enzymes
+            hsa01232(7084)  Nucleotide metabolism
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Phosphotransferase
+                TK2
+                 D12466  Doxribtimine (USAN/INN)
+DBLINKS     CAS: 50-89-5
+            PDB-CCD: THM
+ATOM        17
+            1   C1y C    18.4887  -16.5203
+            2   O2x O    17.3639  -15.6768
+            3   C1x C    18.0669  -17.8560
+            4   C1y C    16.2391  -16.5203
+            5   C1y C    16.6609  -17.8560
+            6   C1b C    14.9035  -16.0985
+            7   O1a O    16.2391  -19.1917
+            8   O1a O    13.8490  -17.0124
+            9   N4y N    19.8243  -16.2391
+            10  C8y C    21.0194  -16.9421
+            11  C8x C    19.8243  -14.8332
+            12  N4x N    22.2145  -16.2391
+            13  O5x O    21.0191  -18.3481
+            14  C8y C    21.0194  -14.1302
+            15  C8y C    22.2145  -14.8332
+            16  C1a C    21.0194  -12.7242
+            17  O5x O    23.4798  -14.1302
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1 #Up
+            6     5   7 1 #Down
+            7     6   8 1
+            8     4   5 1
+            9     9  10 1
+            10    9  11 1
+            11   10  12 1
+            12   10  13 2
+            13   11  14 2
+            14   12  15 1
+            15   14  16 1
+            16   15  17 2
+            17   14  15 1
+            18    1   9 1 #Up
+///

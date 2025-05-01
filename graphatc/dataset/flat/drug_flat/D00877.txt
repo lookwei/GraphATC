@@ -1,0 +1,85 @@
+ENTRY       D00877                      Drug
+NAME        Cycloserine (JP18/USP/INN);
+            Seromycin (TN)
+  ABBR      DCS
+PRODUCT
+  GENERIC   CYCLOSERINE (Dr. Reddy's Laboratories)
+            CYCLOSERINE (Parsolex Gmp Center)
+            CYCLOSERINE (Parsolex Gmp Center)
+            SEROMYCIN (Parsolex Gmp Center)
+            SEROMYCIN (Parsolex Gmp Center)
+FORMULA     C3H6N2O2
+EXACT_MASS  102.0429
+MOL_WEIGHT  102.0919
+SOURCE      Streptomyces lavendulae [TAX:1914], Streptomyces roseochromogenes [TAX:67357]
+CLASS       Antibacterial
+             DG01966  Antitubercular
+REMARK      Same as: C08057
+            Therapeutic category: 6162
+            ATC code: J04AB01
+            Product: D00877<JP/US>
+EFFICACY    Antibacterial (tuberculostatic), Cell wall biosynthesis inhibitor
+  DISEASE   Tuberculosis [DS:H00342]
+COMMENT     Natural product
+TARGET      D-alanine-D-alanine ligase [KO:K01921]
+            alanine racemase [KO:K01775]
+  PATHWAY   ko00550(K01921)  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J04 ANTIMYCOBACTERIALS
+               J04A DRUGS FOR TREATMENT OF TUBERCULOSIS
+                J04AB Antibiotics
+                 J04AB01 Cycloserine
+                  D00877  Cycloserine (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antimycobacterials
+              Antituberculars
+               Cycloserine
+                D00877  Cycloserine (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               616  Acting mainly on acid-fast bacteria
+                6162  Cycloserines
+                 D00877  Cycloserine (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01966  Antitubercular
+               D00877  Cycloserine
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                D00877  Cycloserine (JP18/USP/INN) &lt;JP/US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                D00877  Cycloserine (JP17/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00877  Cycloserine
+DBLINKS     CAS: 68-41-7
+            PubChem: 7847941
+            ChEBI: 40009
+            PDB-CCD: 4AX
+            LigandBox: D00877
+            NIKKAJI: J8.592H
+ATOM        7
+            1   C1x C     7.7000  -17.0800
+            2   O2x O     9.1000  -17.0800
+            3   N1x N     9.5326  -15.7485
+            4   C5x C     8.4000  -14.9256
+            5   C1y C     7.2674  -15.7485
+            6   O5x O     8.4000  -13.5100
+            7   N1a N     5.9478  -15.3197
+BOND        7
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     4   6 2
+            7     5   7 1 #Up
+///

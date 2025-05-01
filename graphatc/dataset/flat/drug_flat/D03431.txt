@@ -1,0 +1,153 @@
+ENTRY       D03431                      Drug
+NAME        Cefuroxime pivoxetil (USAN)
+FORMULA     C23H28N4O11S
+EXACT_MASS  568.1475
+MOL_WEIGHT  568.5536
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01775  Second-generation cephalosporin
+             DG01804  Oxyimino beta-lactam
+REMARK      ATC code: J01DC02 S01AA27
+            Chemical structure group: DG00558
+            Product (DG00558): D00914<JP/US> D00915<US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Active form of prodrug: Cefuroxime [DR:D00262]
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DC Second-generation cephalosporins
+                 J01DC02 Cefuroxime
+                  D03431  Cefuroxime pivoxetil (USAN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA27 Cefuroxime
+                  D03431  Cefuroxime pivoxetil (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00558  Cefuroxime
+                  D03431  Cefuroxime pivoxetil
+              DG01775  Second-generation cephalosporin
+               DG00558  Cefuroxime
+                D03431  Cefuroxime pivoxetil
+              DG01804  Oxyimino beta-lactam
+               DG00558  Cefuroxime
+                D03431  Cefuroxime pivoxetil
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                D03431  Cefuroxime pivoxetil (USAN)
+            Prodrugs [br08324.html]
+             D03431
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00558  Cefuroxime
+              DG01775  Second-generation cephalosporin
+               DG00558  Cefuroxime
+              DG01804  Oxyimino beta-lactam
+               DG00558  Cefuroxime
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Second-generation cephalosporin
+                DG00558  Cefuroxime
+DBLINKS     CAS: 100680-33-9
+            PubChem: 17397571
+            LigandBox: D03431
+ATOM        39
+            1   C1y C    32.5159  -16.7317
+            2   N1y N    32.5159  -18.1006
+            3   C2y C    33.7017  -18.7850
+            4   C2y C    34.8871  -18.1006
+            5   C1x C    34.8871  -16.7317
+            6   S2x S    33.7017  -16.0472
+            7   C1y C    31.1469  -16.7317
+            8   C5x C    31.1469  -18.1006
+            9   N1b N    29.9615  -16.0472
+            10  C5a C    28.7759  -16.7317
+            11  O5a O    28.7759  -18.1006
+            12  O5x O    29.9615  -18.7850
+            13  C2c C    27.5903  -16.0472
+            14  C1b C    36.0907  -18.7959
+            15  C7a C    33.7017  -21.1833
+            16  O7a O    32.4994  -21.8775
+            17  O6a O    34.8705  -21.8583
+            18  C8y C    26.3858  -16.7431
+            19  O2x O    25.2563  -15.9478
+            20  C8x C    24.1464  -16.7765
+            21  C8x C    24.5914  -18.0881
+            22  C8x C    25.9764  -18.1403
+            23  N2b N    27.5902  -14.6574
+            24  O7a O    37.2931  -18.1023
+            25  C7a C    38.4552  -18.7738
+            26  N1a N    39.6253  -18.0985
+            27  O6a O    38.4548  -20.1496
+            28  C1c C    31.3212  -21.1969
+            29  O7a O    30.1666  -21.8633
+            30  C7a C    28.9936  -21.1857
+            31  C1d C    27.8294  -21.8575
+            32  C1a C    31.3209  -19.8036
+            33  O6a O    28.9938  -19.8035
+            34  C1a C    26.6186  -22.5566
+            35  O2a O    27.1414  -20.6660
+            36  C1a C    28.5396  -23.0875
+            37  C1a C    25.7323  -20.6658
+            38  O2a O    28.8066  -13.9551
+            39  C1a C    28.8066  -12.5551
+BOND        41
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15    4  14 1
+            16    3  15 1
+            17   15  16 1
+            18   15  17 2
+            19   13  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 2
+            23   21  22 1
+            24   18  22 2
+            25   13  23 2
+            26   14  24 1
+            27   24  25 1
+            28   25  26 1
+            29   25  27 2
+            30   16  28 1
+            31   28  29 1
+            32   29  30 1
+            33   30  31 1
+            34   28  32 1
+            35   30  33 2
+            36   31  34 1
+            37   31  35 1
+            38   31  36 1
+            39   35  37 1
+            40   23  38 1
+            41   38  39 1
+///

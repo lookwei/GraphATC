@@ -1,0 +1,93 @@
+ENTRY       D00391                      Drug
+NAME        Trifluridine (JAN/USP/INN);
+            Viroptic (TN)
+  ABBR      TFT
+PRODUCT
+  GENERIC   TRIFLURIDINE (Sandoz)
+FORMULA     C10H11F3N2O5
+EXACT_MASS  296.062
+MOL_WEIGHT  296.2
+REMARK      ATC code: S01AD02
+            Product: D00391<US>
+            Product (mixture): D10526<JP/US>
+EFFICACY    Antiviral, Nucleic acid biosynthesis inhibitor
+  DISEASE   Keratitis due to herpes simplex virus [DS:H00365]
+TARGET      TYMS [KO:K00560]
+  PATHWAY   ko00240(K00560)  Pyrimidine metabolism
+STR_MAP     map07044  Antiviral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AD Antivirals
+                 S01AD02 Trifluridine
+                  D00391  Trifluridine (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antivirals
+              Antiherpetic Agents
+               Trifluridine
+                D00391  Trifluridine (JAN/USP/INN)
+             Ophthalmic Agents
+              Ophthalmic Anti-Infectives
+               Antiviral, Ophthalmic
+                Trifluridine
+                 D00391  Trifluridine (JAN/USP/INN)
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D00391  Trifluridine (JAN/USP/INN) &lt;US&gt;
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Genome replication inhibitor
+               Herpesvirus DNA polymerase inhibitor
+                D00391  Trifluridine (JAN/USP/INN)
+DBLINKS     CAS: 70-00-8
+            PubChem: 7847457
+            ChEBI: 75179
+            LigandBox: D00391
+            NIKKAJI: J2.814B
+ATOM        20
+            1   C1y C    18.6900  -19.3200
+            2   C1x C    20.0200  -19.3200
+            3   C1y C    20.4400  -18.0600
+            4   O2x O    19.3900  -17.2200
+            5   C1y C    18.2700  -18.0600
+            6   O1a O    17.9200  -20.4400
+            7   C1b C    17.0100  -17.6400
+            8   O1a O    16.0300  -18.5500
+            9   N4y N    21.7700  -17.6400
+            10  C8x C    21.7700  -16.2400
+            11  C8y C    22.9600  -18.3400
+            12  N4x N    24.2200  -17.6400
+            13  C8y C    24.2200  -16.2400
+            14  C8y C    22.9600  -15.5400
+            15  C1d C    22.9600  -14.1400
+            16  O5x O    25.4100  -15.5400
+            17  O5x O    22.9600  -19.7400
+            18  X   F    22.9600  -12.7400
+            19  X   F    21.5600  -14.1400
+            20  X   F    24.3600  -14.1400
+BOND        21
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1 #Down
+            7     5   7 1 #Up
+            8     7   8 1
+            9     3   9 1 #Up
+            10   10   9 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   10  14 2
+            15   14  15 1
+            16   13  16 2
+            17   11  17 2
+            18   15  18 1
+            19   15  19 1
+            20   15  20 1
+            21   11   9 1
+///

@@ -1,0 +1,43 @@
+ENTRY       C02112                      Compound
+NAME        2-Acylglycerol;
+            2-Glyceride;
+            2-Monoacylglycerol
+FORMULA     C4H7O4R
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01352 R01368 R02688 R02758 R03838
+PATHWAY     map04745  Phototransduction - fly
+            map04975  Fat digestion and absorption
+            map04977  Vitamin digestion and absorption
+ENZYME      2.3.1.22        2.7.1.94        3.1.1.3         3.1.1.23
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Fats
+               Acylglycerols
+                C02112  2-Monoacylglycerol
+            Lipids [BR:br08002]
+             GL  Glycerolipids
+              GL01 Monoradylglycerols
+               GL0101 Monoacylglycerols
+                C02112  2-acyl-sn-glycerol
+DBLINKS     PubChem: 5194
+            ChEBI: 17389
+ATOM        9
+            1   C1c C    26.8706  -15.8379
+            2   O7a O    25.4201  -15.8321
+            3   C1b C    26.8646  -14.3757
+            4   C1b C    26.8646  -17.2941
+            5   C7a C    24.3848  -15.8379
+            6   O1a O    28.3209  -14.3757
+            7   O1a O    28.3209  -17.2941
+            8   O6a O    24.3908  -14.4225
+            9   R   R    22.9169  -15.8379
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+///

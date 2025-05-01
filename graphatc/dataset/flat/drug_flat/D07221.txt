@@ -1,0 +1,92 @@
+ENTRY       D07221                      Drug
+NAME        Promestriene (INN);
+            Colpotrophine (TN)
+FORMULA     C22H32O2
+EXACT_MASS  328.2402
+MOL_WEIGHT  328.4883
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+REMARK      ATC code: G03CA09
+EFFICACY    Menstruation disorder agent, Estrogen receptor agonist
+COMMENT     Estrogen
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA09 Promestriene
+                  D07221  Promestriene (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               D07221  Promestriene
+              DG01584  Estrogen receptor agonist
+               D07221  Promestriene
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D07221  Promestriene (INN)
+DBLINKS     CAS: 39219-28-8
+            PubChem: 51091559
+            LigandBox: D07221
+            NIKKAJI: J15.809G
+ATOM        24
+            1   C1z C    31.0291  -17.7768
+            2   C1y C    31.0291  -19.1426
+            3   C1x C    33.3949  -19.1426
+            4   C1x C    33.3949  -17.7768
+            5   C1y C    32.2119  -17.0938
+            6   C1x C    29.8462  -17.0938
+            7   C1x C    28.6633  -17.7768
+            8   C1y C    28.6633  -19.1426
+            9   C1y C    29.8462  -19.8256
+            10  C8y C    27.4805  -19.8256
+            11  C8y C    27.4805  -21.1914
+            12  C1x C    28.6633  -21.8744
+            13  C1x C    29.8462  -21.1914
+            14  C8x C    26.2976  -19.1426
+            15  C8x C    25.1147  -19.8256
+            16  C8y C    25.1147  -21.1914
+            17  C8x C    26.2976  -21.8744
+            18  O2a O    23.9047  -21.8744
+            19  C1b C    22.7218  -21.1914
+            20  C1b C    21.5389  -21.8744
+            21  C1a C    20.3561  -21.1914
+            22  O2a O    32.1800  -15.7280
+            23  C1a C    33.3578  -15.0363
+            24  C1a C    31.0291  -16.4109
+BOND        27
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     6   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9   2 1
+            11    8  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15    9  13 1
+            16   10  14 2
+            17   14  15 1
+            18   15  16 2
+            19   16  17 1
+            20   17  11 2
+            21   16  18 1
+            22   18  19 1
+            23   19  20 1
+            24   20  21 1
+            25    5  22 1 #Up
+            26   22  23 1
+            27    1  24 1 #Up
+///

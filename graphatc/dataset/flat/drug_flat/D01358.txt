@@ -1,0 +1,160 @@
+ENTRY       D01358                      Drug
+NAME        Mianserin hydrochloride (JAN/USAN);
+            Tetramide (TN)
+FORMULA     C18H20N2. HCl
+EXACT_MASS  300.1393
+MOL_WEIGHT  300.8257
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+            Neuropsychiatric agent
+             DG01729  Tetracyclic antidepressant
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 1179
+            ATC code: N06AX03
+            Chemical structure group: DG00951
+            Product (DG00951): D01358<JP>
+EFFICACY    Antidepressant
+COMMENT     Tetracyclic antidepressants
+            Antihistaminic
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            HTR2A [HSA:3356] [KO:K04157]
+            HTR2C [HSA:3358] [KO:K04157]
+            HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+            HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(150+151+152+3269+3356+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(170572+200909+285242+3356+3358+3359+9177)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP1A2 [HSA:1544], CYP2D6 [HSA:1565]
+INTERACTION  
+STR_MAP     map07027  Antidepressants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX03 Mianserin
+                  D01358  Mianserin hydrochloride (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1179  Others
+                 D01358  Mianserin hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00951  Mianserin
+                  D01358  Mianserin hydrochloride
+             Neuropsychiatric agent
+              DG01729  Tetracyclic antidepressant
+               DG00951  Mianserin
+                D01358  Mianserin hydrochloride
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00951  Mianserin
+                D01358  Mianserin hydrochloride
+              DG01644  CYP2D6 substrate
+               DG00951  Mianserin
+                D01358  Mianserin hydrochloride
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00951  Mianserin
+                 D01358  Mianserin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D01358  Mianserin hydrochloride (JAN/USAN) &lt;JP&gt;
+               Histamine
+                HRH1
+                 D01358  Mianserin hydrochloride (JAN/USAN) &lt;JP&gt;
+               Serotonin
+                HTR2A
+                 D01358  Mianserin hydrochloride (JAN/USAN) &lt;JP&gt;
+                HTR2C
+                 D01358  Mianserin hydrochloride (JAN/USAN) &lt;JP&gt;
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D01358  Mianserin hydrochloride (JAN/USAN) &lt;JP&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01358
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00951  Mianserin
+             Neuropsychiatric agent
+              DG01729  Tetracyclic antidepressant
+               DG00951  Mianserin
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               DG00951  Mianserin
+              DG01644  CYP2D6 substrate
+               DG00951  Mianserin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00951  Mianserin
+DBLINKS     CAS: 21535-47-7
+            PubChem: 7848421
+            ChEBI: 31843
+            LigandBox: D01358
+            NIKKAJI: J342.139B
+ATOM        21
+            1   X   Cl   21.7700  -20.6500
+            2   C8y C    19.4600  -15.8900
+            3   N1y N    18.5500  -16.9400
+            4   C1y C    17.1500  -16.9400
+            5   C8y C    16.3100  -15.8200
+            6   C8y C    19.1800  -14.4900
+            7   C8y C    16.6600  -14.4900
+            8   C1x C    17.9200  -13.8600
+            9   C8x C    15.6800  -13.5100
+            10  C8x C    14.2800  -13.9300
+            11  C8x C    14.0000  -15.2600
+            12  C8x C    14.9800  -16.2400
+            13  C8x C    20.7900  -16.3100
+            14  C8x C    21.8400  -15.4000
+            15  C8x C    21.5600  -14.0000
+            16  C8x C    20.2300  -13.5800
+            17  C1x C    16.4500  -18.1300
+            18  N1y N    17.1500  -19.3900
+            19  C1x C    18.5500  -19.3900
+            20  C1x C    19.2500  -18.2000
+            21  C1a C    16.4500  -20.5800
+BOND        23
+            1     4   5 1
+            2     2   6 1
+            3     5   7 1
+            4     3   4 1
+            5     6   8 1
+            6     2   3 1
+            7     7   8 1
+            8     7   9 2
+            9     9  10 1
+            10   10  11 2
+            11   11  12 1
+            12    5  12 2
+            13    2  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17    6  16 2
+            18    4  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22    3  20 1
+            23   18  21 1
+///

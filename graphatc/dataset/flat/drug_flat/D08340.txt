@@ -1,0 +1,109 @@
+ENTRY       D08340                      Drug
+NAME        Perhexiline (INN)
+FORMULA     C19H35N
+EXACT_MASS  277.277
+MOL_WEIGHT  277.4879
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01496  Calcium channel L type blocker
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: C08EX02
+            Chemical structure group: DG00334
+EFFICACY    Vasodilator (coronary), Calcium channel blocker
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+            CPT [HSA:1374 1375 126129 1376] [KO:K08765 K19523 K19524 K08766]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08E NON-SELECTIVE CALCIUM CHANNEL BLOCKERS
+                C08EX Other non-selective calcium channel blockers
+                 C08EX02 Perhexiline
+                  D08340  Perhexiline (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00334  Perhexiline
+                 D08340  Perhexiline
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00334  Perhexiline
+                D08340  Perhexiline
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D08340  Perhexiline (INN)
+             Enzymes
+              Transferases (EC2)
+               Acyltransferases
+                CPT
+                 D08340  Perhexiline (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08340
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01496  Calcium channel L type blocker
+                DG00334  Perhexiline
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00334  Perhexiline
+DBLINKS     CAS: 6621-47-2
+            PubChem: 96025027
+            LigandBox: D08340
+            NIKKAJI: J8.427A
+ATOM        20
+            1   C1x C    20.5800  -19.3200
+            2   C1x C    20.5800  -20.7200
+            3   C1x C    21.7700  -21.4200
+            4   C1x C    22.9600  -20.7200
+            5   C1y C    22.9600  -19.3200
+            6   C1x C    21.7700  -18.6200
+            7   C1x C    25.4100  -20.7200
+            8   C1y C    25.4100  -19.3200
+            9   C1c C    24.1500  -18.6200
+            10  C1x C    26.6000  -21.4200
+            11  C1x C    27.7900  -20.7200
+            12  C1x C    27.7900  -19.3200
+            13  C1x C    26.6000  -18.6200
+            14  C1b C    24.1500  -17.2200
+            15  C1y C    25.4100  -16.5200
+            16  N1x N    26.6000  -17.2200
+            17  C1x C    27.7900  -16.5200
+            18  C1x C    27.7900  -15.1200
+            19  C1x C    26.6000  -14.4200
+            20  C1x C    25.4100  -15.1200
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15    9  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 1
+            22   15  20 1
+///

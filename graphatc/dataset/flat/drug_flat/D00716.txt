@@ -1,0 +1,89 @@
+ENTRY       D00716                      Drug
+NAME        Clidinium bromide (USP/INN);
+            Quarzan (TN)
+FORMULA     C22H26NO3. Br
+EXACT_MASS  431.1096
+MOL_WEIGHT  432.3507
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      Product (mixture): D10247<US>
+EFFICACY    Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D00716  Clidinium bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00716  Clidinium bromide (USP/INN)
+DBLINKS     CAS: 3485-62-9
+            PubChem: 7847781
+            ChEBI: 3744
+            LigandBox: D00716
+            NIKKAJI: J355.310H
+ATOM        27
+            1   X   Br   29.2971  -15.9198 #-
+            2   C1d C    26.8587  -18.5281
+            3   C8y C    28.0885  -19.2306
+            4   C8y C    26.8571  -17.1168
+            5   C7a C    25.6466  -19.2410
+            6   C8x C    29.3085  -18.5199
+            7   C8x C    28.0901  -20.6417
+            8   C8x C    28.0800  -16.4111
+            9   C8x C    25.6302  -16.4192
+            10  O7a O    24.4318  -18.5296
+            11  O6a O    25.6534  -20.6492
+            12  C8x C    30.5304  -19.2202
+            13  C8x C    29.3170  -21.3395
+            14  C8x C    28.0704  -14.9976
+            15  C8x C    25.6286  -15.0079
+            16  C1y C    23.2226  -19.2475
+            17  C8x C    30.5371  -20.6286
+            18  C8x C    26.8486  -14.2972
+            19  C1y C    21.9624  -18.5156
+            20  C1x C    23.2139  -20.6984
+            21  C1x C    20.7012  -19.2368
+            22  C1x C    22.3748  -19.8356
+            23  N2y N    21.9578  -21.4169 #+
+            24  C1x C    20.7025  -20.6819
+            25  C1x C    21.5304  -20.0249
+            26  O1a O    28.0711  -17.8281
+            27  C1a C    21.9578  -22.8169
+BOND        29
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     3   6 1
+            5     3   7 2
+            6     4   8 2
+            7     4   9 1
+            8     5  10 1
+            9     5  11 2
+            10    6  12 2
+            11    7  13 1
+            12    8  14 1
+            13    9  15 2
+            14   10  16 1
+            15   12  17 1
+            16   14  18 2
+            17   16  19 1
+            18   16  20 1
+            19   19  21 1
+            20   19  22 1
+            21   20  23 1
+            22   21  24 1
+            23   22  25 1
+            24   13  17 2
+            25   15  18 1
+            26   23  24 1
+            27   23  25 1
+            28    2  26 1
+            29   23  27 1
+///

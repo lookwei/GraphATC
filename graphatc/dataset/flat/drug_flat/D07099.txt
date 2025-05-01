@@ -1,0 +1,97 @@
+ENTRY       D07099                      Drug
+NAME        Cimetropium bromide (JAN/INN);
+            Alginor (TN)
+FORMULA     C21H28NO4. Br
+EXACT_MASS  437.1202
+MOL_WEIGHT  438.3553
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      ATC code: A03BB05
+EFFICACY    Parasympatholytic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04020(1128+1129+1131+1133)  Calcium signaling pathway
+            hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03B BELLADONNA AND DERIVATIVES, PLAIN
+                A03BB Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+                 A03BB05 Cimetropium bromide
+                  D07099  Cimetropium bromide (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D07099  Cimetropium bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D07099  Cimetropium bromide (JAN/INN)
+DBLINKS     CAS: 51598-60-8
+            PubChem: 51091440
+            LigandBox: D07099
+            NIKKAJI: J244.408I
+ATOM        27
+            1   X   Br   25.0936  -19.6490 #-
+            2   C1y C    14.6964  -16.1237
+            3   C1y C    14.0704  -17.1671
+            4   C1y C    15.6007  -15.7759
+            5   O2x O    13.1661  -16.1237
+            6   C1y C    15.3920  -16.6802
+            7   N2y N    14.9769  -14.5921 #+
+            8   C1x C    16.9223  -15.7759
+            9   C1x C    16.9223  -16.6802
+            10  C1a C    15.6747  -13.1300
+            11  C1y C    18.1744  -17.2367
+            12  O7a O    18.1683  -18.2819
+            13  C7a C    19.5498  -19.1348
+            14  O6a O    19.5135  -20.4723
+            15  C1c C    20.6422  -18.4735
+            16  C8y C    20.6785  -17.1360
+            17  C1b C    21.8536  -19.1576
+            18  O1a O    23.0407  -18.4700
+            19  C1b C    14.0030  -13.3383
+            20  C8x C    21.8657  -16.4484
+            21  C8x C    21.8663  -15.0503
+            22  C8x C    20.7249  -14.3662
+            23  C8x C    19.4771  -15.0196
+            24  C8x C    19.4672  -16.4519
+            25  C1y C    12.6119  -13.3383
+            26  C1x C    11.4051  -14.0305
+            27  C1x C    11.4201  -12.6587
+BOND        30
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     3   6 1
+            5     4   7 1
+            6     4   8 1
+            7     6   9 1
+            8     7  10 1
+            9     8  11 1
+            10    3   5 1
+            11    6   7 1
+            12    9  11 1
+            13   12  13 1
+            14   13  14 2
+            15   13  15 1
+            16   15  16 1
+            17   11  12 1
+            18   15  17 1 #Up
+            19   17  18 1
+            20    7  19 1
+            21   16  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   23  24 2
+            26   16  24 1
+            27   19  25 1
+            28   26  25 1
+            29   25  27 1
+            30   27  26 1
+///

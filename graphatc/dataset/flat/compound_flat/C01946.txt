@@ -1,0 +1,157 @@
+ENTRY       C01946                      Compound
+NAME        Oleandomycin;
+            Amimycin;
+            Landomycin;
+            Matromycin;
+            Romicil
+FORMULA     C35H61NO12
+EXACT_MASS  687.4194
+MOL_WEIGHT  687.8583
+SEQUENCE    0 Mak  1 Mtk  2 Mtn  3 Mte  4 Mtk  5 Mtk  6 Mtn
+  GENE      0-2 oleA1 [UP:Q9KIV4]; 3-4 oleA2 [UP:Q9KIV3]; 5-6 oleA3
+            [UP:Q07017]
+  ORGANISM  Streptomyces antibioticus
+  TYPE      PK
+REMARK      ATC code: J01FA05
+            Drug group: DG00603
+REACTION    R03780 R06457
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01052  Type I polyketide structures
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map02010  ABC transporters
+MODULE      M00775  Oleandomycin biosynthesis, malonyl-CoA + methylmalonyl-CoA => 8,8a-deoxyoleandolide => oleandomycin
+ENZYME      2.7.1.136
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              Polyketides and nonribosomal peptides
+               Macrolides
+                C01946  Oleandomycin
+            Lipids [BR:br08002]
+             PK  Polyketides
+              PK04 Macrolides and lactone polyketides
+               C01946  Oleandomycin
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01F MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS
+                J01FA Macrolides
+                 J01FA05 Oleandomycin
+                  C01946  Oleandomycin
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01874  14-membered ring macrolide antibiotic
+                DG00603  Oleandomycin
+                 C01946  Oleandomycin
+            Secondary metabolites in pathway maps [br08011.html]
+             Biosynthetic pathways and modules of secondary metabolites
+              C01946
+DBLINKS     CAS: 3922-90-5
+            PubChem: 5050
+            ChEBI: 16869
+            LIPIDMAPS: LMPK04000007
+            3DMET: B01521
+            NIKKAJI: J10.660G
+ATOM        48
+            1   C1z C    23.5055  -12.4797
+            2   C1x C    23.4937  -11.0541
+            3   O2x O    24.7191  -11.7728
+            4   C1x C    23.5055  -13.8816
+            5   C5x C    22.2921  -11.7728
+            6   C1y C    24.7249  -14.5709
+            7   C1y C    21.0845  -12.4797
+            8   O5x O    22.2921  -10.3826
+            9   C1y C    24.7249  -15.9729
+            10  C1a C    25.9267  -13.8757
+            11  C1y C    21.0845  -13.8816
+            12  C1a C    19.8709  -11.7728
+            13  C1y C    23.5055  -16.6738
+            14  O2a O    25.9207  -16.6738
+            15  C1y C    19.8709  -14.5709
+            16  O1a O    22.2921  -14.5709
+            17  C1y C    23.5055  -18.0700
+            18  C1a C    22.6421  -15.6229
+            19  C1y C    27.3287  -16.6444
+            20  C1y C    19.8709  -15.9729
+            21  C1a C    18.6634  -13.8757
+            22  O2a O    24.7249  -18.7651
+            23  C1y C    22.2921  -18.7651
+            24  C1y C    28.0060  -15.4250
+            25  O2x O    28.0474  -17.8402
+            26  O7x O    21.0845  -16.6738
+            27  C1a C    18.6575  -16.6798
+            28  C1y C    25.9325  -19.4602
+            29  C7x C    21.0845  -18.0700
+            30  C1a C    22.2921  -20.1611
+            31  C1y C    29.4022  -15.4014
+            32  O1a O    27.2755  -14.2174
+            33  C1y C    29.4374  -17.8166
+            34  C1x C    25.9325  -20.8680
+            35  O2x O    27.1401  -18.7651
+            36  O6a O    19.8709  -18.7651
+            37  C1x C    30.1149  -16.5973
+            38  N1c N    30.0796  -14.1820
+            39  C1a C    30.8394  -18.2584
+            40  C1y C    27.1401  -21.5573
+            41  C1y C    28.3477  -19.4602
+            42  C1a C    29.3491  -12.9862
+            43  C1a C    31.4698  -14.2285
+            44  C1y C    28.3477  -20.8680
+            45  O2a O    27.1461  -22.9534
+            46  C1a C    29.5553  -18.7651
+            47  O1a O    29.5553  -21.5573
+            48  C1a C    25.9385  -23.6543
+BOND        51
+            1     1   2 1
+            2     1   3 1 #Up
+            3     1   4 1
+            4     1   5 1
+            5     4   6 1
+            6     5   7 1
+            7     5   8 2
+            8     6   9 1
+            9     6  10 1 #Down
+            10    7  11 1
+            11    7  12 1 #Up
+            12    9  13 1
+            13    9  14 1 #Down
+            14   11  15 1
+            15   11  16 1 #Up
+            16   13  17 1
+            17   13  18 1 #Down
+            18   19  14 1 #Up
+            19   15  20 1
+            20   15  21 1 #Down
+            21   17  22 1 #Down
+            22   17  23 1
+            23   19  24 1
+            24   19  25 1
+            25   20  26 1
+            26   20  27 1 #Down
+            27   28  22 1 #Down
+            28   23  29 1
+            29   23  30 1 #Up
+            30   24  31 1
+            31   24  32 1 #Down
+            32   25  33 1
+            33   28  34 1
+            34   28  35 1
+            35   29  36 2
+            36   31  37 1
+            37   31  38 1 #Up
+            38   33  39 1 #Up
+            39   34  40 1
+            40   35  41 1
+            41   38  42 1
+            42   38  43 1
+            43   40  44 1
+            44   40  45 1 #Up
+            45   41  46 1 #Up
+            46   44  47 1 #Down
+            47   45  48 1
+            48    2   3 1
+            49   26  29 1
+            50   33  37 1
+            51   41  44 1
+///

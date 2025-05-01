@@ -1,0 +1,93 @@
+ENTRY       D04020                      Drug
+NAME        Epicillin (USAN/INN);
+            Dexacillin (TN)
+FORMULA     C16H21N3O4S
+EXACT_MASS  351.1253
+MOL_WEIGHT  351.4206
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      ATC code: J01CA07
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA07 Epicillin
+                  D04020  Epicillin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 D04020  Epicillin
+              DG01780  Extended spectrum penicillin
+               D04020  Epicillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D04020  Epicillin (USAN/INN)
+DBLINKS     CAS: 26774-90-3
+            PubChem: 47205992
+            LigandBox: D04020
+            NIKKAJI: J9.799C
+ATOM        24
+            1   C1y C    24.1327  -14.3103
+            2   C5x C    24.1327  -15.7152
+            3   N1y N    25.5375  -15.7152
+            4   C1y C    25.5375  -14.3103
+            5   C1y C    26.8720  -16.1365
+            6   C1z C    27.7147  -15.0126
+            7   S2x S    26.8720  -13.8888
+            8   C1a C    28.6982  -15.9960
+            9   C1a C    28.6982  -14.0293
+            10  C6a C    27.3636  -17.4710
+            11  O6a O    28.7683  -17.4710
+            12  O6a O    26.5207  -18.5948
+            13  N1b N    22.9386  -13.6079
+            14  C5a C    21.7446  -14.3103
+            15  O5x O    22.9386  -16.4175
+            16  O5a O    21.7446  -15.7152
+            17  C1c C    20.5251  -13.6128
+            18  C2y C    19.3328  -14.3080
+            19  N1a N    20.5251  -12.2116
+            20  C2x C    18.1192  -13.6074
+            21  C1x C    16.9058  -14.3080
+            22  C2x C    16.9058  -15.7093
+            23  C2x C    18.1192  -16.4099
+            24  C1x C    19.3328  -15.7093
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 1
+            16    2  15 2
+            17   14  16 2
+            18   14  17 1
+            19   17  18 1
+            20   17  19 1 #Up
+            21   18  20 2
+            22   20  21 1
+            23   21  22 1
+            24   22  23 2
+            25   23  24 1
+            26   18  24 1
+///

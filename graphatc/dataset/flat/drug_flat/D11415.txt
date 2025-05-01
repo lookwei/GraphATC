@@ -1,0 +1,85 @@
+ENTRY       D11415                      Drug
+NAME        Troriluzole hydrochloride (USAN)
+FORMULA     C15H16F3N5O4S. HCl
+EXACT_MASS  455.0642
+MOL_WEIGHT  455.8398
+REMARK      Chemical structure group: DG03011
+EFFICACY    Neuroprotectant
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+            GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+            GRIK [HSA:2897 2898 2899 2900 2901] [KO:K05201 K05202 K05203 K05204 K05205]
+  PATHWAY   hsa04080(2890+2891+2892+2893+2897+2898+2899+2900+2901+2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893+2897+2898+2899+2900+2901+2902+2903+2904+2905+2906)  Glutamatergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D11415  Troriluzole hydrochloride (USAN)
+                GRIK
+                 D11415  Troriluzole hydrochloride (USAN)
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D11415  Troriluzole hydrochloride (USAN)
+DBLINKS     CAS: 1926204-76-3
+ATOM        29
+            1   C1d C    10.5067  -16.1101
+            2   O2a O    11.6972  -15.4098
+            3   X   F     9.2462  -15.4098
+            4   X   F    10.5067  -17.5107
+            5   X   F     9.2462  -16.8104
+            6   C8y C    12.9578  -16.1101
+            7   C8x C    14.1483  -15.4098
+            8   C8x C    12.9578  -17.5107
+            9   C8y C    15.3388  -16.1101
+            10  C8x C    14.1483  -18.2110
+            11  C8y C    15.3388  -17.5107
+            12  S2x S    16.6694  -15.6199
+            13  N5x N    16.6694  -17.9309
+            14  C8y C    17.5098  -16.7404
+            15  N1b N    18.9104  -16.7404
+            16  C5a C    19.6107  -17.9309
+            17  C1b C    21.0113  -17.9309
+            18  O5a O    18.9104  -19.1914
+            19  N1c N    21.7116  -16.7404
+            20  C5a C    23.1122  -16.7404
+            21  C1a C    21.0113  -15.5498
+            22  C1b C    23.8125  -15.5498
+            23  O5a O    23.8125  -17.9309
+            24  N1b N    25.2131  -15.5498
+            25  C5a C    25.9134  -14.3593
+            26  C1b C    27.3140  -14.3593
+            27  O5a O    25.2131  -13.1688
+            28  N1a N    28.0144  -13.1688
+            29  X   Cl   28.7700  -19.1100
+BOND        29
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     6   7 2
+            7     6   8 1
+            8     7   9 1
+            9     8  10 2
+            10    9  11 2
+            11    9  12 1
+            12   11  13 1
+            13   12  14 1
+            14   14  15 1
+            15   10  11 1
+            16   13  14 2
+            17   15  16 1
+            18   16  17 1
+            19   16  18 2
+            20   17  19 1
+            21   19  20 1
+            22   19  21 1
+            23   20  22 1
+            24   20  23 2
+            25   22  24 1
+            26   24  25 1
+            27   25  26 1
+            28   25  27 2
+            29   26  28 1
+///

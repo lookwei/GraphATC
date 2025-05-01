@@ -1,0 +1,138 @@
+ENTRY       D00889                      Drug
+NAME        Cerivastatin sodium (JAN/USAN);
+            Baycol (TN)
+FORMULA     C26H33FNO5. Na
+EXACT_MASS  481.224
+MOL_WEIGHT  481.5321
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+              DG01660  HMG-CoA reductase inhibitor
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: C10AA06
+            Chemical structure group: DG00356
+EFFICACY    Antihyperlipidemic, HMG-CoA reductase inhibitor
+TARGET      HMGCR [HSA:3156] [KO:K00021]
+  PATHWAY   hsa00900(3156)  Terpenoid backbone biosynthesis
+METABOLISM  Enzyme: CYP2C8 [HSA:1558], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07024  HMG-CoA reductase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C10 LIPID MODIFYING AGENTS
+               C10A LIPID MODIFYING AGENTS, PLAIN
+                C10AA HMG CoA reductase inhibitors
+                 C10AA06 Cerivastatin
+                  D00889  Cerivastatin sodium (JAN/USAN)
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00356  Cerivastatin
+                 D00889  Cerivastatin sodium
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00356  Cerivastatin
+                D00889  Cerivastatin sodium
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00356  Cerivastatin
+                 D00889  Cerivastatin sodium
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                HMGCR
+                 D00889  Cerivastatin sodium (JAN/USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00889
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               DG01660  HMG-CoA reductase inhibitor
+                DG00356  Cerivastatin
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00356  Cerivastatin
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00356  Cerivastatin
+DBLINKS     CAS: 143201-11-0
+            PubChem: 7847953
+            ChEBI: 3559
+            LigandBox: D00889
+            NIKKAJI: J712.494E
+ATOM        34
+            1   C8y C    23.3814  -15.9721
+            2   C8y C    23.3814  -17.3828
+            3   C8y C    22.1630  -15.2726
+            4   C8y C    24.5938  -15.2609
+            5   C8y C    22.1630  -18.0881
+            6   C2b C    24.5881  -18.0707
+            7   C8y C    20.9621  -15.9779
+            8   C1b C    22.1571  -13.8735
+            9   C8x C    25.8062  -15.9662
+            10  C8x C    24.5764  -13.8678
+            11  N5x N    20.9564  -17.3828
+            12  C1c C    22.1630  -19.4929
+            13  C2b C    25.8005  -17.3712
+            14  C1c C    19.7438  -15.2726
+            15  O2a O    20.9504  -13.1799
+            16  C8x C    27.0129  -15.2609
+            17  C8x C    25.7829  -13.1624
+            18  C1a C    20.9564  -20.1867
+            19  C1a C    23.3814  -20.1867
+            20  C1c C    27.0129  -18.0648
+            21  C1a C    19.7438  -13.8735
+            22  C1a C    18.5313  -15.9779
+            23  C1a C    20.9447  -11.7809
+            24  C8y C    27.0129  -13.8561
+            25  C1b C    28.2255  -17.3653
+            26  O1a O    27.0129  -19.4698
+            27  X   F    28.2196  -13.1507
+            28  C1c C    29.4379  -18.0531
+            29  C1b C    30.6388  -17.3595
+            30  O1a O    29.4379  -19.4579
+            31  C6a C    31.8513  -18.0474
+            32  O6a O    33.0637  -17.3536 #-
+            33  O6a O    31.8572  -19.4522
+            34  Z   Na   34.4400  -17.3600 #+
+BOND        34
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 2
+            13    7  14 1
+            14    8  15 1
+            15    9  16 1
+            16   10  17 2
+            17   12  18 1
+            18   12  19 1
+            19   13  20 1
+            20   14  21 1
+            21   14  22 1
+            22   15  23 1
+            23   16  24 2
+            24   20  25 1
+            25   20  26 1 #Down
+            26   24  27 1
+            27   25  28 1
+            28   28  29 1
+            29   28  30 1 #Down
+            30   29  31 1
+            31   31  32 1
+            32   31  33 2
+            33    7  11 2
+            34   17  24 1
+///

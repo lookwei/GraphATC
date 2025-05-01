@@ -1,0 +1,113 @@
+ENTRY       D08057                      Drug
+NAME        Ibopamine hydrochloride;
+            Scandine (TN)
+FORMULA     C17H25NO4. HCl
+EXACT_MASS  343.155
+MOL_WEIGHT  343.8456
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+            Neuropsychiatric agent
+             DG01472  Dopamine agonist
+REMARK      ATC code: C01CA16 S01FB03
+            Chemical structure group: DG00223
+EFFICACY    Mydriatic, Cardiotonic, Dopamine receptor agonist
+COMMENT     Dopamine derivative
+            Treatment of congestive heart failure
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04020(1812)  Calcium signaling pathway
+            hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813)  Dopaminergic synapse
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA16 Ibopamine
+                  D08057  Ibopamine hydrochloride
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FB Sympathomimetics excl. antiglaucoma preparations
+                 S01FB03 Ibopamine
+                  D08057  Ibopamine hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00223  Ibopamine
+                 D08057  Ibopamine hydrochloride
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00223  Ibopamine
+                D08057  Ibopamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D08057  Ibopamine hydrochloride
+                DRD2
+                 D08057  Ibopamine hydrochloride
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00223  Ibopamine
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00223  Ibopamine
+DBLINKS     CAS: 75011-65-3
+            PubChem: 96024749
+            LigandBox: D08057
+            NIKKAJI: J350.197C
+ATOM        23
+            1   X   Cl   26.9092  -20.5967
+            2   C8y C    19.7400  -14.9800
+            3   C8y C    19.7400  -16.4500
+            4   C8x C    21.0000  -17.1500
+            5   C8x C    22.1900  -16.4500
+            6   C8y C    22.1900  -14.9800
+            7   C8x C    21.0000  -14.2800
+            8   C1b C    23.4500  -14.2800
+            9   C1b C    24.6400  -14.9800
+            10  N1b N    25.8300  -14.2800
+            11  C1a C    27.0200  -14.9800
+            12  O7a O    18.5500  -14.2800
+            13  O7a O    18.5500  -17.1500
+            14  C7a C    17.3600  -14.9800
+            15  C1c C    16.1700  -14.3500
+            16  O6a O    17.3600  -16.4500
+            17  C1a C    14.9800  -14.9800
+            18  C1a C    16.1700  -12.8800
+            19  C7a C    18.5500  -18.5500
+            20  C1c C    17.3600  -19.2500
+            21  O6a O    19.8100  -19.2500
+            22  C1a C    16.1700  -18.5500
+            23  C1a C    17.3600  -20.6500
+BOND        22
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11    2  12 1
+            12    3  13 1
+            13   12  14 1
+            14   14  15 1
+            15   14  16 2
+            16   15  17 1
+            17   15  18 1
+            18   13  19 1
+            19   19  20 1
+            20   19  21 2
+            21   20  22 1
+            22   20  23 1
+///

@@ -1,0 +1,112 @@
+ENTRY       D03541                      Drug
+NAME        Clocortolone acetate (USAN)
+FORMULA     C24H30ClFO5
+EXACT_MASS  452.1766
+MOL_WEIGHT  452.9434
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: D07AB21
+            Chemical structure group: DG00416
+            Product (DG00416): D02287<US>
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D07 CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS
+               D07A CORTICOSTEROIDS, PLAIN
+                D07AB Corticosteroids, moderately potent (group II)
+                 D07AB21 Clocortolone
+                  D03541  Clocortolone acetate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00416  Clocortolone
+                 D03541  Clocortolone acetate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D03541  Clocortolone acetate (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                DG00416  Clocortolone
+DBLINKS     CAS: 4258-85-9
+            PubChem: 17397669
+            ChEBI: 177410
+            LigandBox: D03541
+            NIKKAJI: J8.696G
+ATOM        31
+            1   C2x C    19.1557  -16.0340
+            2   C5x C    19.1557  -17.3902
+            3   C2x C    20.3301  -18.0684
+            4   C2y C    21.5046  -17.3902
+            5   C1z C    21.5046  -16.0340
+            6   C2x C    20.3301  -15.3559
+            7   C1y C    22.6792  -18.0684
+            8   C1x C    23.8536  -17.3902
+            9   C1y C    23.8536  -16.0340
+            10  C1z C    22.6792  -15.3559
+            11  C1y C    25.0280  -15.3559
+            12  C1z C    25.0280  -13.9997
+            13  C1x C    23.8536  -13.3217
+            14  C1y C    22.6792  -13.9997
+            15  C1x C    27.3771  -15.3559
+            16  C1y C    27.3771  -13.9997
+            17  C1y C    26.2026  -13.3217
+            18  C5a C    26.2079  -11.5019
+            19  C1b C    27.3849  -10.8284
+            20  O5a O    25.0358  -10.8194
+            21  X   F    22.6817  -19.4245
+            22  X   Cl   22.6817  -16.7122
+            23  C1a C    28.5563  -13.3190
+            24  C1a C    24.9659  -12.6436
+            25  C1a C    21.5063  -14.6779
+            26  O5x O    17.9811  -18.0684
+            27  O1a O    21.5066  -13.3228
+            28  O7a O    28.5824  -11.5260
+            29  C7a C    29.7799  -10.8406
+            30  C1a C    30.9569  -11.5262
+            31  O6a O    29.7157   -9.4289
+BOND        34
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21   17  18 1 #Up
+            22   18  19 1
+            23   18  20 2
+            24    7  21 1 #Down
+            25   10  22 1 #Down
+            26   16  23 1 #Down
+            27   12  24 1 #Up
+            28    5  25 1 #Up
+            29    2  26 2
+            30   14  27 1 #Up
+            31   19  28 1
+            32   28  29 1
+            33   29  30 1
+            34   29  31 2
+///

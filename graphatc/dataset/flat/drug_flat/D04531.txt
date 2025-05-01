@@ -1,0 +1,112 @@
+ENTRY       D04531                      Drug
+NAME        Indoramin (USAN/INN)
+FORMULA     C22H25N3O
+EXACT_MASS  347.1998
+MOL_WEIGHT  347.4534
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+             DG01739  Peripherally-acting antiadrenergic
+REMARK      ATC code: C02CA02
+            Chemical structure group: DG00254
+EFFICACY    Antihypertensive, alpha1-Adrenergic receptor antagonist
+COMMENT     Indole derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02C ANTIADRENERGIC AGENTS, PERIPHERALLY ACTING
+                C02CA Alpha-adrenoreceptor antagonists
+                 C02CA02 Indoramin
+                  D04531  Indoramin (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00254  Indoramin
+                  D04531  Indoramin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00254  Indoramin
+                D04531  Indoramin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D04531  Indoramin (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00254  Indoramin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00254  Indoramin
+DBLINKS     CAS: 26844-12-2
+            PubChem: 47206378
+            LigandBox: D04531
+            NIKKAJI: J10.427B
+ATOM        26
+            1   C8x C     5.8100  -17.2900
+            2   C8x C     5.8100  -18.6900
+            3   C8x C     7.0224  -19.3900
+            4   C8y C     8.2349  -18.6900
+            5   C8y C     8.2349  -17.2900
+            6   C8x C     7.0224  -16.5900
+            7   N4x N     9.5664  -19.1226
+            8   C8x C    10.3893  -17.9900
+            9   C8y C     9.5664  -16.8574
+            10  C1b C     9.5664  -15.4574
+            11  C1b C    10.7908  -14.7502
+            12  N1y N    12.0037  -15.4502
+            13  C1x C    12.0044  -16.8696
+            14  C1x C    13.2172  -17.5690
+            15  C1y C    14.4292  -16.8684
+            16  C1x C    14.4285  -15.4490
+            17  C1x C    13.2157  -14.7496
+            18  N1b N    15.6358  -17.5642
+            19  C5a C    16.8259  -16.8761
+            20  C8y C    18.0166  -17.5628
+            21  O5a O    16.8253  -15.4702
+            22  C8x C    18.0174  -18.9697
+            23  C8x C    19.2302  -19.6690
+            24  C8x C    20.4423  -18.9683
+            25  C8x C    20.4415  -17.5614
+            26  C8x C    19.2286  -16.8621
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 2
+            10    5   9 1
+            11    9  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   12  17 1
+            20   15  18 1
+            21   18  19 1
+            22   19  20 1
+            23   19  21 2
+            24   20  22 2
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   20  26 1
+///

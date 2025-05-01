@@ -1,0 +1,127 @@
+ENTRY       D02292                      Drug
+NAME        Gallamine triethiodide (USP);
+            Flaxedil (TN)
+FORMULA     C30H60N3O3. 3I
+EXACT_MASS  891.1769
+MOL_WEIGHT  891.5291
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01696  Peripherally-acting muscle relaxant
+               DG03117  Nondepolarizing neuromuscular blocking agent
+             DG01742  Quaternary ammonium compound type muscle relaxant
+REMARK      ATC code: M03AC02
+EFFICACY    Neuromuscular blocking agent
+TARGET      CHRM2 [HSA:1129] [KO:K04130]
+            ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa04080(1129)  Neuroactive ligand-receptor interaction
+            hsa04725(1129+43)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03A MUSCLE RELAXANTS, PERIPHERALLY ACTING AGENTS
+                M03AC Other quaternary ammonium compounds
+                 M03AC02 Gallamine
+                  D02292  Gallamine triethiodide (USP)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 D02292  Gallamine triethiodide
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               D02292  Gallamine triethiodide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM2
+                 D02292  Gallamine triethiodide (USP)
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D02292  Gallamine triethiodide (USP)
+DBLINKS     CAS: 65-29-2
+            PubChem: 7849351
+            LigandBox: D02292
+            NIKKAJI: J231.272G
+ATOM        39
+            1   X   I    27.5305  -15.6275 #-
+            2   C8x C    16.9947  -18.1922
+            3   C8x C    16.9947  -19.5785
+            4   C8y C    18.1952  -20.2716
+            5   C8y C    19.3958  -19.5785
+            6   C8y C    19.3958  -18.1922
+            7   C8x C    18.1952  -17.4990
+            8   O2a O    20.6149  -17.0029
+            9   O2a O    20.6149  -20.7677
+            10  C1b C    21.8083  -17.6918
+            11  C1b C    22.9790  -17.0157
+            12  N1d N    24.1613  -17.6983 #+
+            13  C1b C    21.8083  -20.0788
+            14  C1b C    22.9790  -20.7550
+            15  N1d N    24.1613  -20.0724 #+
+            16  C1b C    24.1613  -16.3120
+            17  C1a C    22.9444  -15.6091
+            18  C1b C    25.3619  -17.0051
+            19  C1a C    25.3619  -15.6188
+            20  C1b C    25.3619  -18.3914
+            21  C1a C    26.5624  -17.6983
+            22  C1b C    24.1613  -21.4587
+            23  C1a C    22.9444  -22.1617
+            24  C1b C    25.3619  -19.3793
+            25  C1a C    26.5624  -20.0724
+            26  C1b C    25.3619  -20.7656
+            27  C1a C    25.3619  -22.1519
+            28  O2a O    18.1952  -21.6577
+            29  C1b C    19.3791  -22.3414
+            30  C1b C    19.3793  -23.7371
+            31  N1d N    20.5589  -24.4183 #+
+            32  C1b C    21.7322  -23.7409
+            33  C1b C    20.5591  -25.8165
+            34  C1a C    19.3366  -26.5228
+            35  C1b C    21.7595  -25.1114
+            36  C1a C    21.7595  -26.4977
+            37  C1a C    22.9131  -24.4228
+            38  X   I    27.5999  -22.2125 #-
+            39  X   I    20.8763  -27.6883 #-
+BOND        36
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     5   9 1
+            9     8  10 1
+            10   10  11 1
+            11   11  12 1
+            12    9  13 1
+            13   13  14 1
+            14   14  15 1
+            15   12  16 1
+            16   16  17 1
+            17   12  18 1
+            18   18  19 1
+            19   12  20 1
+            20   20  21 1
+            21   15  22 1
+            22   22  23 1
+            23   15  24 1
+            24   24  25 1
+            25   15  26 1
+            26   26  27 1
+            27    4  28 1
+            28   28  29 1
+            29   29  30 1
+            30   30  31 1
+            31   31  32 1
+            32   31  33 1
+            33   33  34 1
+            34   31  35 1
+            35   35  36 1
+            36   32  37 1
+///

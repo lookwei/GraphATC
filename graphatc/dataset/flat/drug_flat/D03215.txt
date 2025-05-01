@@ -1,0 +1,116 @@
+ENTRY       D03215                      Drug
+NAME        Armodafinil (USAN/INN);
+            Nuvigil (TN)
+PRODUCT     NUVIGIL (Cephalon)
+  GENERIC   ARMODAFINIL (Aurobindo Pharma Limited)
+            ARMODAFINIL (Bryant Ranch Prepack)
+            ARMODAFINIL (Bryant Ranch Prepack)
+            ARMODAFINIL (Bryant Ranch Prepack)
+            ARMODAFINIL (DASH Pharmaceuticals LLC)
+            ARMODAFINIL (DirectRx)
+            ARMODAFINIL (Direct_Rx)
+            ARMODAFINIL (Lupin Pharmaceuticals)
+            ARMODAFINIL (Mylan Pharmaceuticals)
+            ARMODAFINIL (Preferred Pharmaceuticals)
+            ARMODAFINIL (Preferred Pharmaceuticals)
+            ARMODAFINIL (Preferred Pharmaceuticals)
+            ARMODAFINIL (Quality Care Products LLC)
+            ARMODAFINIL (Sandoz)
+            ARMODAFINIL (Teva Pharmaceuticals USA)
+            ARMODAFINIL (direct rx)
+FORMULA     C15H15NO2S
+EXACT_MASS  273.0823
+MOL_WEIGHT  273.3501
+CLASS       Neuropsychiatric agent
+             DG01971  Agents for narcolepsy
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02925  CYP3A5 substrate
+REMARK      ATC code: N06BA13
+            Product: D03215<US>
+EFFICACY    Stimulant (central)
+  DISEASE   Narcolepsy [DS:H01293]
+COMMENT     See Modafinil [DR:D01832]
+TARGET      SLC6A3 (DAT1) [HSA:6531] [KO:K05036]
+  PATHWAY   hsa04728(6531)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576], CYP3A5 [HSA:1577]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06B PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS
+                N06BA Centrally acting sympathomimetics
+                 N06BA13 Armodafinil
+                  D03215  Armodafinil (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Sleep Disorder Agents
+              Wakefulness Promoting Agents
+               Armodafinil
+                D03215  Armodafinil (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01971  Agents for narcolepsy
+               D03215  Armodafinil
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D03215  Armodafinil
+              DG02925  CYP3A5 substrate
+               D03215  Armodafinil
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A3 (DAT1)
+                 D03215  Armodafinil (USAN/INN) &lt;US&gt;
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03215
+DBLINKS     CAS: 112111-43-0
+            PubChem: 17397368
+            ChEBI: 77590
+            LigandBox: D03215
+            NIKKAJI: J2.578.922I
+ATOM        19
+            1   C8x C    14.9817  -17.5728
+            2   C8x C    14.9817  -18.9709
+            3   C8x C    16.1954  -19.6699
+            4   C8x C    17.4021  -18.9709
+            5   C8y C    17.4021  -17.5728
+            6   C8x C    16.1954  -16.8736
+            7   C1c C    18.6134  -16.8746
+            8   C8y C    19.8238  -17.5747
+            9   C8x C    19.8172  -18.9707
+            10  C8x C    21.0276  -19.6708
+            11  C8x C    22.2391  -18.9725
+            12  C8x C    22.2401  -17.5745
+            13  C8x C    21.0296  -16.8745
+            14  S4a S    18.6042  -15.4754
+            15  C1b C    19.8113  -14.7679
+            16  C5a C    19.8019  -13.3689
+            17  O3c O    17.3684  -14.7731
+            18  O5a O    18.5631  -12.6648
+            19  N1a N    21.0008  -12.6658
+BOND        20
+            1     4   5 1
+            2     5   6 2
+            3     8   9 2
+            4     9  10 1
+            5    10  11 2
+            6    11  12 1
+            7    12  13 2
+            8    13   8 1
+            9     6   1 1
+            10    7  14 1
+            11    5   7 1
+            12    7   8 1
+            13    1   2 2
+            14    2   3 1
+            15   14  15 1 #Down
+            16   15  16 1
+            17    3   4 2
+            18   14  17 2
+            19   16  18 2
+            20   16  19 1
+///

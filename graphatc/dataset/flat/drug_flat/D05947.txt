@@ -1,0 +1,83 @@
+ENTRY       D05947                      Drug
+NAME        Sulfacetamide (USP/INN)
+FORMULA     C8H10N2O3S
+EXACT_MASS  214.0412
+MOL_WEIGHT  214.2416
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01784  Short-acting sulfonamide
+REMARK      ATC code: D10AF06 S01AB04
+            Chemical structure group: DG01124
+            Product (DG01124): D00871<US>
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+COMMENT     Sulfonamide
+            Component of Trysul (TN)
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AF Antiinfectives for treatment of acne
+                 D10AF06 Sulfacetamide
+                  D05947  Sulfacetamide (USP/INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AB Sulfonamides
+                 S01AB04 Sulfacetamide
+                  D05947  Sulfacetamide (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                DG01124  Sulfacetamide
+                 D05947  Sulfacetamide
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Short-acting sulfonamide
+                D05947  Sulfacetamide (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                DG01124  Sulfacetamide
+DBLINKS     CAS: 144-80-9
+            PubChem: 47207605
+            ChEBI: 63845
+            LigandBox: D05947
+            NIKKAJI: J8.635E
+ATOM        14
+            1   C8y C    22.9547  -16.7476
+            2   S4a S    24.1560  -16.0479
+            3   C8x C    22.9547  -18.1529
+            4   C8x C    21.7477  -16.0479
+            5   N1b N    25.3688  -16.7476
+            6   O3c O    25.1472  -15.0509
+            7   O3c O    23.1705  -15.0566
+            8   C8x C    21.7477  -18.8468
+            9   C8x C    20.5290  -16.7476
+            10  C5a C    26.5817  -16.0479
+            11  C8y C    20.5290  -18.1529
+            12  C1a C    27.7886  -16.7476
+            13  O5a O    26.5701  -14.6427
+            14  N1a N    19.3102  -18.8409
+BOND        14
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    8  11 1
+            11   10  12 1
+            12   10  13 2
+            13   11  14 1
+            14    9  11 2
+///

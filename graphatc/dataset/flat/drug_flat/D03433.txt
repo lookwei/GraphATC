@@ -1,0 +1,70 @@
+ENTRY       D03433                      Drug
+NAME        Celgosivir hydrochloride (USAN)
+FORMULA     C12H21NO5. HCl
+EXACT_MASS  295.1187
+MOL_WEIGHT  295.7598
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG01962  alpha-Glucosidase inhibitor, antiviral
+EFFICACY    Antiviral, Maturation inhibitor
+COMMENT     Maturation inhibitor
+            Indolizidine alkaloid derivative
+            Castanospermine [CPD:C02256] analog
+TARGET      HCV envelope glycoprotein [KO:K22272]
+  PATHWAY   ko03230(K22272)  Viral genome structure
+            ko05160(K22272)  Hepatitis C
+STR_MAP     map07044  Antiviral agents
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG01962  alpha-Glucosidase inhibitor, antiviral
+                D03433  Celgosivir hydrochloride
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Virus maturation inhibitor
+               HCV maturation inhibitor
+                D03433  Celgosivir hydrochloride (USAN)
+DBLINKS     CAS: 141117-12-6
+            PubChem: 17397573
+            LigandBox: D03433
+ATOM        19
+            1   C1y C    23.2370  -16.9578
+            2   C1y C    23.2370  -18.3126
+            3   C1x C    24.4102  -18.9900
+            4   N1y N    25.5835  -18.3126
+            5   C1y C    25.5835  -16.9578
+            6   C1y C    24.4102  -16.2804
+            7   O1a O    22.0637  -16.2804
+            8   O1a O    24.4102  -14.9258
+            9   O7a O    22.0637  -18.9900
+            10  C7a C    20.9068  -18.3219
+            11  C1b C    19.7578  -18.9853
+            12  O6a O    20.9067  -16.9581
+            13  C1b C    18.6051  -18.3195
+            14  C1a C    17.4540  -18.9840
+            15  C1x C    26.8720  -18.7313
+            16  C1x C    27.6684  -17.6352
+            17  C1y C    26.8720  -16.5392
+            18  O1a O    27.3110  -15.1880
+            19  X   Cl   30.2818  -17.7030
+BOND        19
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1 #Up
+            8     6   8 1 #Down
+            9     2   9 1 #Down
+            10    9  10 1
+            11   10  11 1
+            12   10  12 2
+            13   11  13 1
+            14   13  14 1
+            15    4  15 1
+            16   15  16 1
+            17   16  17 1
+            18    5  17 1
+            19   17  18 1 #Up
+///

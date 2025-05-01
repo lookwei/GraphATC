@@ -1,0 +1,96 @@
+ENTRY       D03561                      Drug
+NAME        Cloprednol (USAN/INN);
+            Cloradryn (TN)
+FORMULA     C21H25ClO5
+EXACT_MASS  392.1391
+MOL_WEIGHT  392.8732
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+REMARK      ATC code: H02AB14
+EFFICACY    Antiasthmatic, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             H SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+              H02 CORTICOSTEROIDS FOR SYSTEMIC USE
+               H02A CORTICOSTEROIDS FOR SYSTEMIC USE, PLAIN
+                H02AB Glucocorticoids
+                 H02AB14 Cloprednol
+                  D03561  Cloprednol (USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                D03561  Cloprednol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D03561  Cloprednol (USAN/INN)
+DBLINKS     CAS: 5251-34-3
+            PubChem: 17397681
+            LigandBox: D03561
+            NIKKAJI: J8.826I
+ATOM        27
+            1   C1z C    26.5612  -17.3125
+            2   C1z C    25.3973  -17.9686
+            3   C1x C    27.7138  -17.9858
+            4   C5a C    26.5498  -15.5323
+            5   C1y C    25.3914  -19.3096
+            6   C1x C    24.2506  -17.2954
+            7   C1a C    25.3803  -16.6279
+            8   C1x C    27.7082  -19.3210
+            9   C1y C    24.2277  -19.9772
+            10  C1y C    23.0809  -17.9516
+            11  C1y C    23.0696  -19.2923
+            12  C2x C    24.2277  -21.3181
+            13  C1z C    21.9054  -19.9657
+            14  C2y C    23.0581  -21.9913
+            15  C2y C    21.8998  -21.3066
+            16  C2x C    20.7475  -19.2868
+            17  C1a C    21.8943  -18.6192
+            18  C2x C    20.7475  -21.9855
+            19  C2x C    19.5777  -19.9657
+            20  C5x C    19.5777  -21.3066
+            21  X   Cl   23.0496  -23.3780
+            22  O5x O    18.3948  -21.9879
+            23  O1a O    21.8315  -17.2130
+            24  O1a O    27.8005  -16.5963
+            25  O5a O    25.2953  -14.8190
+            26  C1b C    27.7540  -14.8262
+            27  O1a O    28.9509  -15.5070
+BOND        30
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Up
+            7     3   8 1
+            8     5   9 1
+            9     6  10 1
+            10    9  11 1
+            11    9  12 1
+            12   11  13 1
+            13   12  14 2
+            14   13  15 1
+            15   13  16 1
+            16   13  17 1 #Up
+            17   15  18 2
+            18   16  19 2
+            19   18  20 1
+            20    5   8 1
+            21   10  11 1
+            22   14  15 1
+            23   19  20 1
+            24   14  21 1
+            25   20  22 2 #Up
+            26   10  23 1 #Up
+            27    1  24 1 #Down
+            28    4  25 2
+            29    4  26 1
+            30   26  27 1
+///

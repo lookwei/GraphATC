@@ -1,0 +1,143 @@
+ENTRY       D01290                      Drug
+NAME        Nicergoline (JP18/USAN/INN);
+            Sermion (TN)
+FORMULA     C24H26BrN3O3
+EXACT_MASS  483.1158
+MOL_WEIGHT  484.3855
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+            Neuropsychiatric agent
+             DG01964  Ergot alkaloid
+              DG01963  Vasodilator, ergot alkaloid
+REMARK      Therapeutic category: 2190
+            ATC code: C04AE02
+            Chemical structure group: DG00283
+            Product (DG00283): D01290<JP>
+EFFICACY    Nootropic, Vasodilator, alpha1-Adrenergic receptor antagonist
+COMMENT     Ergot alkaloid derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C04 PERIPHERAL VASODILATORS
+               C04A PERIPHERAL VASODILATORS
+                C04AE Ergot alkaloids
+                 C04AE02 Nicergoline
+                  D01290  Nicergoline (JP18/USAN/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               219  Miscellaneous
+                2190  Miscellaneous
+                 D01290  Nicergoline (JP18/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00283  Nicergoline
+                  D01290  Nicergoline
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG00283  Nicergoline
+                 D01290  Nicergoline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01290  Nicergoline (JP18/USAN/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01290  Nicergoline
+              D01290  Nicergoline tablets
+              D01290  Nicergoline powder
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00283  Nicergoline
+             Neuropsychiatric agent
+              DG01964  Ergot alkaloid
+               DG01963  Vasodilator, ergot alkaloid
+                DG00283  Nicergoline
+DBLINKS     CAS: 27848-84-6
+            PubChem: 7848353
+            ChEBI: 31902
+            LigandBox: D01290
+            NIKKAJI: J22.054J
+ATOM        31
+            1   C8x C    19.1423  -18.2109
+            2   C8x C    19.1353  -19.5858
+            3   C8y C    20.3226  -20.2793
+            4   C8x C    20.3364  -17.5294
+            5   C8y C    21.5237  -18.2229
+            6   C8y C    21.5097  -19.5921
+            7   C8y C    22.6884  -20.2891
+            8   C1x C    23.8812  -19.6166
+            9   C1z C    22.7166  -17.5504
+            10  C1y C    23.8919  -18.2496
+            11  N1y N    25.1550  -17.5813
+            12  C1x C    25.1026  -16.2138
+            13  C1y C    23.9274  -15.5147
+            14  C1x C    22.7343  -16.1832
+            15  C1a C    26.2666  -18.2841
+            16  C1b C    23.9452  -14.1400
+            17  O7a O    25.1446  -13.4680
+            18  C7a C    26.3264  -14.1708
+            19  C8y C    27.5260  -13.4988
+            20  O6a O    26.3085  -15.5457
+            21  C8x C    28.7036  -14.2021
+            22  C8y C    29.9030  -13.5302
+            23  C8x C    29.9208  -12.1554
+            24  N5x N    28.7392  -11.4526
+            25  C8x C    27.5396  -12.1246
+            26  X   Br   31.0848  -14.2331
+            27  O2a O    21.5172  -16.8568
+            28  C1a C    21.5182  -15.4819
+            29  N4y N    20.3089  -21.6482
+            30  C8x C    22.6768  -21.6620
+            31  C1a C    19.3290  -22.6126
+BOND        35
+            1    11  15 1
+            2     6   7 1
+            3    13  16 1 #Up
+            4     7   8 1
+            5    16  17 1
+            6     8  10 1
+            7    17  18 1
+            8     9   5 1
+            9    18  19 1
+            10    5   4 2
+            11   18  20 2
+            12    4   1 1
+            13    1   2 2
+            14    2   3 1
+            15    3   6 2
+            16   19  21 2
+            17   21  22 1
+            18   22  23 2
+            19   23  24 1
+            20   24  25 2
+            21   25  19 1
+            22    9  10 1
+            23   22  26 1
+            24   10  11 1
+            25    9  27 1 #Down
+            26   11  12 1
+            27   27  28 1
+            28   12  13 1
+            29   13  14 1
+            30    3  29 1
+            31   14   9 1
+            32    7  30 2
+            33   29  30 1
+            34    5   6 1
+            35   29  31 1
+///

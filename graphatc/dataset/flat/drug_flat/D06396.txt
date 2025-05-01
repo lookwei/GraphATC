@@ -1,0 +1,90 @@
+ENTRY       D06396                      Drug
+NAME        Renzapride (INN)
+FORMULA     C16H22ClN3O2
+EXACT_MASS  323.1401
+MOL_WEIGHT  323.8178
+CLASS       Gastrointestinal agent
+             DG01763  Propulsive
+             DG01489  5-HT3-receptor antagonist
+             DG01762  Antiemetic
+              DG01783  Benzamide type antiemetic
+EFFICACY    Anti-emetic, Prokinetic
+TARGET      HTR4 [HSA:3360] [KO:K04160]
+            HTR3 [HSA:3359 9177 170572 200909 285242] [KO:K04819]
+  PATHWAY   hsa04080(3360)  Neuroactive ligand-receptor interaction
+            hsa04726(170572+200909+285242+3359+3360+9177)  Serotonergic synapse
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               D06396  Renzapride
+              DG01489  5-HT3-receptor antagonist
+               D06396  Renzapride
+              DG01762  Antiemetic
+               DG01783  Benzamide type antiemetic
+                D06396  Renzapride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR4
+                 D06396  Renzapride (INN)
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3
+                 D06396  Renzapride (INN)
+DBLINKS     CAS: 112727-80-7
+            PubChem: 47208053
+            LigandBox: D06396
+            NIKKAJI: J367.735D
+ATOM        22
+            1   N1b N    19.6000  -15.3300
+            2   C1y C    20.7900  -16.0300
+            3   C1x C    23.5200  -15.4700
+            4   C1x C    22.9600  -19.0400
+            5   C1x C    21.9100  -18.4100
+            6   C1x C    24.0100  -18.4100
+            7   C1y C    21.9100  -17.2200
+            8   C1x C    22.3300  -16.4500
+            9   N1y N    24.0100  -17.2200
+            10  C1x C    22.9600  -16.5900
+            11  C5a C    17.9900  -16.1700
+            12  C8y C    16.8000  -15.4700
+            13  C8x C    15.6100  -16.1700
+            14  C8y C    14.4200  -15.4700
+            15  C8y C    14.4200  -14.0700
+            16  C8x C    15.6100  -13.3700
+            17  C8y C    16.8000  -14.0700
+            18  O5a O    17.9900  -17.5000
+            19  O2a O    17.9900  -13.3700
+            20  N1a N    13.2300  -13.3700
+            21  X   Cl   13.2300  -16.1700
+            22  C1a C    17.9900  -11.9700
+BOND        24
+            1     1   2 1
+            2     4   5 1
+            3     4   6 1
+            4     5   7 1
+            5     6   9 1
+            6     7   2 1
+            7     7  10 1
+            8     8   3 1
+            9     8   2 1
+            10    9  10 1
+            11    9   3 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   12  17 2
+            19   11  18 2
+            20   17  19 1
+            21   15  20 1
+            22   14  21 1
+            23    1  11 1
+            24   19  22 1
+///

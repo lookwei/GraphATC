@@ -1,0 +1,156 @@
+ENTRY       D00643                      Drug
+NAME        Quinidine polygalacturonate;
+            Cardioquin (TN)
+FORMULA     C20H24N2O2. (C6H10O7)mon
+CLASS       Cardiovascular agent
+             DG01653  Antiarrhythmics
+              DG01652  Class I antiarrhythmic agent
+               DG01649  Class Ia antiarrhythmic agent
+REMARK      ATC code: C01BA01
+            Chemical structure group: DG00192
+            Product (DG00192): D00642<US> D02272<JP/US>
+EFFICACY    Antiarrhythmic, Sodium channel blocker
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04261(6331)  Adrenergic signaling in cardiomyocytes
+            hsa04728(6323)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07025  Quinolines
+            map07037  Antiarrhythmic drugs
+            map07231  Sodium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01B ANTIARRHYTHMICS, CLASS I AND III
+                C01BA Antiarrhythmics, class Ia
+                 C01BA01 Quinidine
+                  D00643  Quinidine polygalacturonate
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00192  Quinidine
+                  D00643  Quinidine polygalacturonate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D00643  Quinidine polygalacturonate
+                SCN2A
+                 D00643  Quinidine polygalacturonate
+                SCN3A
+                 D00643  Quinidine polygalacturonate
+                SCN4A
+                 D00643  Quinidine polygalacturonate
+                SCN5A
+                 D00643  Quinidine polygalacturonate
+                SCN8A
+                 D00643  Quinidine polygalacturonate
+                SCN9A
+                 D00643  Quinidine polygalacturonate
+                SCN10A
+                 D00643  Quinidine polygalacturonate
+                SCN11A
+                 D00643  Quinidine polygalacturonate
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01653  Antiarrhythmics
+               DG01652  Class I antiarrhythmic agent
+                DG01649  Class Ia antiarrhythmic agent
+                 DG00192  Quinidine
+DBLINKS     CAS: 27555-34-6
+            PubChem: 7847709
+            LigandBox: D00643
+ATOM        37
+            1   C8y C    15.8200  -25.3400
+            2   C8y C    17.0100  -24.6400
+            3   C8y C    15.8200  -26.7400
+            4   C8x C    14.5600  -24.6400
+            5   C1c C    17.0100  -23.2400
+            6   C8x C    18.2000  -25.3400
+            7   C8x C    14.5600  -27.4400
+            8   N5x N    17.0100  -27.4400
+            9   C8y C    13.3700  -25.3400
+            10  C1y C    18.2700  -22.5400
+            11  O1a O    15.8200  -22.5400
+            12  C8x C    18.2000  -26.7400
+            13  C8x C    13.3700  -26.7400
+            14  O2a O    12.1800  -24.6400
+            15  N1y N    19.6700  -21.6300
+            16  C1x C    17.5000  -21.4900
+            17  C1a C    12.1800  -23.2400
+            18  C1x C    19.6700  -20.4400
+            19  C1x C    21.2100  -22.4700
+            20  C1y C    18.9000  -20.6500
+            21  C1y C    18.9000  -19.6700
+            22  C1x C    20.5100  -21.3500
+            23  C2b C    18.4100  -18.3400
+            24  C2a C    19.2500  -17.2200
+            25  C1c C    26.9500  -26.0400
+            26  C1c C    25.7600  -25.4100
+            27  C1c C    28.1400  -25.4100
+            28  O1a O    26.9500  -27.5100
+            29  C1c C    24.5000  -26.0400
+            30  O1a O    25.7600  -23.9400
+            31  C6a C    29.4000  -26.0400
+            32  O1a O    28.1400  -23.9400
+            33  C4a C    23.3100  -25.4100
+            34  O1a O    24.5000  -27.5100
+            35  O6a O    30.5900  -25.4100
+            36  O6a O    29.4000  -27.5100
+            37  O4a O    22.1200  -26.0400
+BOND        39
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1 #Down
+            11    6  12 1
+            12    7  13 1
+            13    9  14 1
+            14   10  15 1
+            15   10  16 1
+            16   14  17 1
+            17   15  18 1
+            18   15  19 1
+            19   16  20 1
+            20   18  21 1
+            21   19  22 1
+            22   21  23 1 #Up
+            23   23  24 2
+            24    8  12 2
+            25    9  13 2
+            26   20  21 1
+            27   20  22 1
+            28   25  26 1
+            29   25  27 1
+            30   25  28 1 #Down
+            31   26  29 1
+            32   26  30 1 #Up
+            33   27  31 1
+            34   27  32 1 #Down
+            35   29  33 1
+            36   29  34 1 #Up
+            37   31  35 1
+            38   31  36 2
+            39   33  37 2
+BRACKET     1    21.4200  -28.5600   21.4200  -23.1000
+            1    32.4800  -23.1000   32.4800  -28.5600
+            1  MON
+  ORIGINAL  1   26  27  28  29  30  31  32  33  34  35  36  37  38
+  REPEAT    1 
+///

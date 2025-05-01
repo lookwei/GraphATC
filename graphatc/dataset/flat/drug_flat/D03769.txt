@@ -1,0 +1,108 @@
+ENTRY       D03769                      Drug
+NAME        Enalaprilat (USP);
+            Vasotec (TN)
+PRODUCT
+  GENERIC   ENALAPRILAT (Dr. Reddys Laboratories)
+            ENALAPRILAT (HF Acquisition Co LLC)
+            ENALAPRILAT (Hikma Pharmaceuticals USA)
+FORMULA     C18H24N2O5. 2H2O
+EXACT_MASS  384.1897
+MOL_WEIGHT  384.4241
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+REMARK      Product: D03769<US>
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+  DISEASE   Hypertension [DS:H01633]
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03769  Enalaprilat
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03769  Enalaprilat
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01501  Angiotensin-converting enzyme inhibitor
+               D03769  Enalaprilat
+              DG03231  Antihypertensive
+               D03769  Enalaprilat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03769  Enalaprilat (USP) &lt;US&gt;
+DBLINKS     CAS: 84680-54-6
+            PubChem: 17397858
+            ChEBI: 59877
+            LigandBox: D03769
+            NIKKAJI: J2.209.946I
+ATOM        27
+            1   N1y N    31.6105  -15.9104
+            2   C1x C    31.6584  -14.5098
+            3   C5a C    30.4236  -16.6086
+            4   C1y C    32.9727  -16.3814
+            5   C1x C    33.0284  -14.0686
+            6   C1c C    29.2367  -15.9104
+            7   O5a O    30.4236  -18.0050
+            8   C1x C    33.8087  -15.2761
+            9   N1b N    28.0498  -16.6086
+            10  C1a C    29.3069  -14.5141
+            11  C1c C    26.7930  -15.9803
+            12  C1b C    25.6061  -16.6784
+            13  C6a C    26.7930  -14.5839
+            14  C1b C    24.3494  -15.9803
+            15  O6a O    25.5363  -13.8857
+            16  O6a O    27.9800  -13.8159
+            17  C8y C    23.1625  -16.6784
+            18  C8x C    21.9423  -15.9872
+            19  C8x C    20.7356  -16.6970
+            20  C8x C    20.7470  -18.0970
+            21  C8x C    21.9672  -18.7883
+            22  C8x C    23.1739  -18.0784
+            23  C6a C    32.9727  -17.7814
+            24  O6a O    31.7589  -18.4822
+            25  O6a O    34.1825  -18.4799
+            26  O0  O    38.1736  -16.1197
+            27  O0  O    38.1736  -16.1197
+BOND        26
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     6   9 1
+            9     6  10 1 #Up
+            10    9  11 1
+            11   11  12 1
+            12   11  13 1 #Up
+            13   12  14 1
+            14   13  15 1
+            15   13  16 2
+            16   14  17 1
+            17    5   8 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   17  22 1
+            24    4  23 1 #Up
+            25   23  24 2
+            26   23  25 1
+BRACKET     1    36.1200  -17.1500   36.1200  -15.0500
+            1    38.7800  -15.0500   38.7800  -17.1500
+            1  2
+  ORIGINAL  1   26
+  REPEAT    1   27
+///

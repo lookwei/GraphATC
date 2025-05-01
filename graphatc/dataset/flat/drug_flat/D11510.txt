@@ -1,0 +1,77 @@
+ENTRY       D11510                      Drug
+NAME        Mavorixafor (USAN)
+FORMULA     C21H27N5
+EXACT_MASS  349.2266
+MOL_WEIGHT  349.4726
+REMARK      Same as: C20266
+EFFICACY    Antineoplastic, Chemokine receptor type 4 (CXCR4) antagonist
+COMMENT     leukocyte mobilization
+TARGET      CXCR4 (CD184) [HSA:7852] [KO:K04189]
+  PATHWAY   hsa04060(7852)  Cytokine-cytokine receptor interaction
+            hsa04062(7852)  Chemokine signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Cytokines and receptors
+              Cytokine receptors
+               Chemokine receptors
+                CXCR4 (CD184)
+                 D11510  Mavorixafor (USAN)
+DBLINKS     CAS: 558447-26-0
+            PubChem: 384585486
+ATOM        26
+            1   C1b C    25.6200  -12.7400
+            2   C1b C    26.8324  -13.4400
+            3   N1a N    28.0279  -12.7496
+            4   C1b C    24.4076  -13.4400
+            5   C1b C    23.2121  -12.7496
+            6   N1c N    22.0247  -13.4351
+            7   C1b C    20.8335  -12.7471
+            8   C8y C    19.6440  -13.4338
+            9   C1y C    22.0245  -14.8398
+            10  C1x C    20.8312  -15.5288
+            11  C1x C    20.8312  -16.9288
+            12  C1x C    22.0436  -17.6288
+            13  C8y C    23.2370  -16.9398
+            14  C8y C    23.2370  -15.5398
+            15  C8x C    24.4494  -17.6398
+            16  C8x C    25.6619  -16.9398
+            17  C8x C    25.6618  -15.5398
+            18  N5x N    24.4494  -14.8398
+            19  N5x N    18.3891  -12.8749
+            20  C8y C    17.4698  -13.8957
+            21  C8y C    18.1565  -15.0855
+            22  N4x N    19.5003  -14.8000
+            23  C8x C    16.0698  -13.8956
+            24  C8x C    15.3697  -15.1079
+            25  C8x C    16.0564  -16.2977
+            26  C8x C    17.4564  -16.2978
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     1   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     9   6 1 #Down
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14    9  14 1
+            15   13  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   14  18 2
+            20    8  19 2
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24    8  22 1
+            25   20  23 2
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   21  26 2
+///

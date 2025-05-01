@@ -1,0 +1,127 @@
+ENTRY       D12598                      Drug
+NAME        Ibuprofen trelamine hydrochloride (USAN)
+FORMULA     C19H31NO2. HCl
+EXACT_MASS  341.2122
+MOL_WEIGHT  341.9159
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01908  Anti-inflammatory drug, propionic acid derivatives
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+REMARK      ATC code: C01EB16 G02CC01 M01AE01 M02AA13 R02AX02
+            Chemical structure group: DG00245
+            Product (DG00245): D00126<JP/US> D01122<JP> D06606<JP/US>
+EFFICACY    Analgesic, Anti-inflammatory, Antipyretic, COX inhibitor
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01E OTHER CARDIAC PREPARATIONS
+                C01EB Other cardiac preparations
+                 C01EB16 Ibuprofen
+                  D12598  Ibuprofen trelamine hydrochloride (USAN)
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02C OTHER GYNECOLOGICALS
+                G02CC Antiinflammatory products for vaginal administration
+                 G02CC01 Ibuprofen
+                  D12598  Ibuprofen trelamine hydrochloride (USAN)
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AE Propionic acid derivatives
+                 M01AE01 Ibuprofen
+                  D12598  Ibuprofen trelamine hydrochloride (USAN)
+              M02 TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+               M02A TOPICAL PRODUCTS FOR JOINT AND MUSCULAR PAIN
+                M02AA Antiinflammatory preparations, non-steroids for topical use
+                 M02AA13 Ibuprofen
+                  D12598  Ibuprofen trelamine hydrochloride (USAN)
+             R RESPIRATORY SYSTEM
+              R02 THROAT PREPARATIONS
+               R02A THROAT PREPARATIONS
+                R02AX Other throat preparations
+                 R02AX02 Ibuprofen
+                  D12598  Ibuprofen trelamine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00245  Ibuprofen
+                 D12598  Ibuprofen trelamine hydrochloride
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00245  Ibuprofen
+                D12598  Ibuprofen trelamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D12598  Ibuprofen trelamine hydrochloride (USAN)
+                PTGS2 (COX2)
+                 D12598  Ibuprofen trelamine hydrochloride (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D12598
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01908  Anti-inflammatory drug, propionic acid derivatives
+                DG00245  Ibuprofen
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               DG00245  Ibuprofen
+DBLINKS     CAS: 106492-87-9
+ATOM        23
+            1   O7a O    20.4601  -15.2750
+            2   C7a C    19.2689  -15.9757
+            3   C1c C    18.0778  -15.2750
+            4   O6a O    19.2689  -17.3771
+            5   C8y C    16.8866  -15.9757
+            6   C8x C    15.6254  -15.2750
+            7   C8x C    14.4342  -15.9757
+            8   C8y C    14.4342  -17.3771
+            9   C8x C    15.6254  -18.0778
+            10  C8x C    16.8866  -17.3771
+            11  C1b C    13.2430  -18.0778
+            12  C1c C    11.9818  -17.3771
+            13  C1a C    10.7906  -18.0778
+            14  C1a C    11.9818  -15.9757
+            15  C1a C    18.0778  -13.8736
+            16  C1b C    21.6513  -15.9757
+            17  C1b C    22.8425  -15.2750
+            18  N1c N    24.0336  -15.9757
+            19  C1b C    25.2248  -15.2750
+            20  C1a C    26.4860  -15.9757
+            21  C1b C    24.0336  -17.3771
+            22  C1a C    25.2248  -18.1478
+            23  X   Cl   29.5400  -17.8500
+BOND        22
+            1     2   4 2
+            2     3   5 1
+            3     5   6 2
+            4     6   7 1
+            5     7   8 2
+            6     8   9 1
+            7     9  10 2
+            8    10   5 1
+            9     8  11 1
+            10    1   2 1
+            11   11  12 1
+            12   12  13 1
+            13    2   3 1
+            14   12  14 1
+            15    3  15 1
+            16    1  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   18  21 1
+            22   21  22 1
+///

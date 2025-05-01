@@ -1,0 +1,71 @@
+ENTRY       D11521            Mixture   Drug
+NAME        Lamivudine, nevirapine and zidovudine
+COMPONENT   Lamivudine [DR:D00353], Nevirapine [DR:D00435], Zidovudine [DR:D00413]
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+             DG02924  UGT substrate
+            Metabolizing enzyme inducer
+             DG02891  CYP2B6 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+            Transporter substrate
+             DG02854  SLC22A2 substrate
+             DG02964  SLC47A1 substrate
+             DG03002  SLC47A2 substrate
+REMARK      ATC code: J05AR05
+EFFICACY    Antiviral
+  DISEASE   HIV-1 infection [DS:H01563]
+COMMENT     Lamivudine is a substrate of OCT2, MATE1 and MATE2-K.
+            Nevirapine is a substrate and an inducer of CYP3A and CYP2B6.
+            Zidovudine is metabolized by UDP-glucuronosyltransferase (UGT).
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551], CYP2B6 [HSA:1555], UGT [KO:K00699]
+            Transporter: SLC22A2 [HSA:6582], SLC47A1 [HSA:55244], SLC47A2 [HSA:146802]
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551], CYP2B6 [HSA:1555]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AR Antivirals for treatment of HIV infections, combinations
+                 J05AR05 Zidovudine, lamivudine and nevirapine
+                  D11521  Lamivudine, nevirapine and zidovudine
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D11521  Lamivudine, nevirapine and zidovudine
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               D11521  Lamivudine, nevirapine and zidovudine
+              DG01633  CYP3A/CYP3A4 substrate
+               D11521  Lamivudine, nevirapine and zidovudine
+              DG02924  UGT substrate
+               D11521  Lamivudine, nevirapine and zidovudine
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               D11521  Lamivudine, nevirapine and zidovudine
+              DG02853  CYP3A/CYP3A4 inducer
+               D11521  Lamivudine, nevirapine and zidovudine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               D11521  Lamivudine, nevirapine and zidovudine
+              DG02964  SLC47A1 substrate
+               D11521  Lamivudine, nevirapine and zidovudine
+              DG03002  SLC47A2 substrate
+               D11521  Lamivudine, nevirapine and zidovudine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D11521  Lamivudine, nevirapine and zidovudine
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11521
+             Drug transporters
+              D11521
+DBLINKS     PubChem: 384585497
+///

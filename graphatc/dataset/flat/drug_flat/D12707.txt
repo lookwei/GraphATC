@@ -1,0 +1,66 @@
+ENTRY       D12707                      Drug
+NAME        Brolamfetamine (INN);
+            DOB
+FORMULA     C11H16BrNO2
+EXACT_MASS  273.0364
+MOL_WEIGHT  274.1542
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+EFFICACY    Appetite suppressant
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            TAAR1 [HSA:134864] [KO:K05051]
+  PATHWAY   hsa04080(134864+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3357+3358)  Serotonergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                D12707  Brolamfetamine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2
+                 D12707  Brolamfetamine (INN)
+               Trace amine
+                TAAR1
+                 D12707  Brolamfetamine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D12707
+DBLINKS     CAS: 64638-07-9
+ATOM        15
+            1   C8y C    18.5723  -15.4649
+            2   C8y C    17.3720  -14.7588
+            3   C8x C    18.5723  -16.8771
+            4   C1b C    19.7727  -14.7588
+            5   C8x C    16.1716  -15.4649
+            6   C8y C    17.3720  -17.5126
+            7   C1c C    21.0437  -15.4649
+            8   C8y C    16.1716  -16.8771
+            9   O2a O    17.3720  -13.3466
+            10  C1a C    16.3834  -12.3580
+            11  X   Br   14.9712  -17.5126
+            12  O2a O    17.3720  -18.9248
+            13  C1a C    18.6429  -19.6309
+            14  N1a N    22.2441  -14.7588
+            15  C1a C    21.0437  -16.8649
+BOND        15
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     6   8 1
+            9     2   9 1
+            10    9  10 1
+            11    8  11 1
+            12    6  12 1
+            13   12  13 1
+            14    7  14 1
+            15    7  15 1
+///

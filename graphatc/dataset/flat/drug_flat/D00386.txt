@@ -1,0 +1,113 @@
+ENTRY       D00386                      Drug
+NAME        Triamterene (JP18/USP/INN);
+            Dyrenium (TN)
+PRODUCT     DYRENIUM (Concordia Pharmaceuticals)
+  GENERIC   TRIAMTERENE (Prasco Laboratories)
+            TRIAMTERENE (TRUPHARMA LLC)
+FORMULA     C12H11N7
+EXACT_MASS  253.1076
+MOL_WEIGHT  253.2626
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+             DG01885  Potassium-sparing diuretic
+REMARK      Therapeutic category: 2133
+            ATC code: C03DB02
+            Product: D00386<JP/US>
+            Product (mixture): D10269<US>
+EFFICACY    Diuretic, Aldosterone antagonist, Epithelial sodium channel blocker
+COMMENT     potassium-sparing diuretic
+TARGET      SCNN1 [HSA:6337 6338 6340] [KO:K04824 K04825 K04827]
+            NR3C2 (MR) [HSA:4306] [KO:K08555]
+  PATHWAY   hsa04960(4306+6337+6338+6340)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03D ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+                C03DB Other potassium-sparing agents
+                 C03DB02 Triamterene
+                  D00386  Triamterene (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Diuretics, Potassium-sparing
+               Triamterene
+                D00386  Triamterene (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               213  Diuretics
+                2133  Antialdosterones
+                 D00386  Triamterene (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00386  Triamterene
+              DG01885  Potassium-sparing diuretic
+               D00386  Triamterene
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00386  Triamterene
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Epithelial sodium channel (SCNN)
+                SCNN1
+                 D00386  Triamterene (JP18/USP/INN) &lt;JP/US&gt;
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C2 (MR)
+                 D00386  Triamterene (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00386  Triamterene
+DBLINKS     CAS: 396-01-0
+            PubChem: 7847452
+            ChEBI: 9671
+            PDB-CCD: DX2
+            LigandBox: D00386
+            NIKKAJI: J2.040K
+ATOM        19
+            1   C8y C    23.7354  -19.6412
+            2   C8y C    23.7354  -18.2292
+            3   N5x N    24.9550  -20.3298
+            4   N5x N    22.5099  -20.3357
+            5   N5x N    24.9374  -17.5347
+            6   C8y C    22.5216  -17.5407
+            7   C8y C    26.1512  -19.6412
+            8   C8y C    21.2962  -19.6412
+            9   C8y C    26.1512  -18.2292
+            10  N5x N    21.2962  -18.2409
+            11  N1a N    22.5216  -16.1459
+            12  N1a N    27.3649  -20.3298
+            13  N1a N    20.0826  -20.3531
+            14  C8y C    27.3532  -17.5114
+            15  C8x C    27.3765  -16.1402
+            16  C8x C    28.5961  -18.2116
+            17  C8x C    28.5904  -15.4399
+            18  C8x C    29.8040  -17.5114
+            19  C8x C    29.8274  -16.1226
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     4   8 1
+            8     5   9 2
+            9     6  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    9  14 1
+            14   14  15 2
+            15   14  16 1
+            16   15  17 1
+            17   16  18 2
+            18   17  19 2
+            19    7   9 1
+            20    8  10 2
+            21   18  19 1
+///

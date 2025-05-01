@@ -1,0 +1,111 @@
+ENTRY       D10219                      Drug
+NAME        Abediterol (USAN/INN)
+FORMULA     C25H30F2N2O4
+EXACT_MASS  460.2174
+MOL_WEIGHT  460.5135
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01232
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+            Treatment of asthma and COPD
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01232  Abediterol
+                  D10219  Abediterol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D10219  Abediterol (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01232  Abediterol
+DBLINKS     CAS: 915133-65-2
+            PubChem: 163312250
+            ChEBI: 142077
+ATOM        33
+            1   C8x C    29.4700  -18.3400
+            2   C8x C    29.4700  -19.7400
+            3   C8x C    28.2800  -20.4400
+            4   C8x C    27.0200  -19.7400
+            5   C8y C    27.0200  -18.3400
+            6   C8x C    28.2800  -17.6400
+            7   C1d C    25.8300  -17.6400
+            8   C1b C    24.5700  -18.3400
+            9   O2a O    23.3800  -17.6400
+            10  C1b C    22.1900  -18.3400
+            11  C1b C    21.0000  -17.6400
+            12  C1b C    19.8100  -18.3400
+            13  C1b C    18.6200  -17.6400
+            14  C1b C    17.4300  -18.3400
+            15  C1b C    16.2400  -17.6400
+            16  N1b N    15.0500  -18.3400
+            17  C1b C    13.8600  -17.6400
+            18  C1c C    12.6700  -18.3400
+            19  C8y C    11.4800  -17.6400
+            20  C8x C    10.2900  -18.3400
+            21  C8x C     8.9600  -17.6400
+            22  C8y C     8.9600  -16.2400
+            23  C8y C    10.2200  -15.5400
+            24  C8y C    11.4800  -16.2400
+            25  O1a O     7.7700  -15.5400
+            26  O1a O    12.6700  -19.7400
+            27  X   F    26.8100  -16.6600
+            28  X   F    24.8500  -16.6600
+            29  N4x N    10.1500  -14.1400
+            30  C8y C    11.3400  -13.3700
+            31  C8x C    12.6000  -14.0700
+            32  C8x C    12.6000  -15.4700
+            33  O5x O    11.3400  -11.9700
+BOND        35
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   19  24 1
+            26   22  25 1
+            27   18  26 1 #Down
+            28    7  27 1
+            29    7  28 1
+            30   23  29 1
+            31   29  30 1
+            32   30  31 1
+            33   31  32 2
+            34   24  32 1
+            35   30  33 2
+///

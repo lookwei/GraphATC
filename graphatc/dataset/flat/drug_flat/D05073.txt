@@ -1,0 +1,30 @@
+ENTRY       D05073                      Drug
+NAME        Monoctanoin (USAN);
+            Moctanin (TN)
+FORMULA     C3H6O3(R1)(R2)
+EFFICACY    Anticholelithogenic
+COMMENT     Mixture of glycerol 1-octanoate (80 to 85 percent), glycerol 1-decanoate and glycerol 1,2-diocttanoate (10 to 15 percent), and free glycerol (maximum 2.5 precent)
+            glycerol 1-octanoate (R1 = -CO(CH2)6CH3, R2 = -H)
+            glycerol 1-decanoate (R1 = -CO(CH2)8CH3, R2 = -H)
+            glycerol 1,2-diocttanoate (R1 = -CO(CH2)6CH3, R2 = -CO(CH2)6CH3)
+            free glycerol (R1 = -H, R2 = -H)
+            Anticholelithic (dissolution of gallstones)
+DBLINKS     PubChem: 47206800
+ATOM        8
+            1   O2a O    20.0739  -15.2826
+            2   C1b C    21.1735  -14.6477
+            3   C1c C    22.2733  -15.2826
+            4   C1b C    23.3729  -14.6477
+            5   O1a O    24.4725  -15.2826
+            6   O2a O    22.2733  -16.5522
+            7   Z   R#   18.5305  -14.5209
+            8   Z   R#   21.1736  -17.8210
+BOND        7
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     3   6 1
+            6     1   7 1
+            7     6   8 1
+///

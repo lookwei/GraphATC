@@ -1,0 +1,128 @@
+ENTRY       C00101                      Compound
+NAME        Tetrahydrofolate;
+            5,6,7,8-Tetrahydrofolate;
+            Tetrahydrofolic acid;
+            THF;
+            (6S)-Tetrahydrofolate;
+            (6S)-Tetrahydrofolic acid;
+            (6S)-THFA
+FORMULA     C19H23N7O6
+EXACT_MASS  445.171
+MOL_WEIGHT  445.4292
+REACTION    R00611 R00936 R00937 R00939 R00940 R00941 R00942 R00943 
+            R00944 R00945 R00946 R01221 R01225 R01226 R01564 R01565 
+            R01669 R02287 R02289 R02573 R02729 R02912 R03189 R03704 
+            R03940 R04125 R04242 R04325 R04326 R04560 R06613 R07660 
+            R08701 R09093 R09270 R09271 R10136 R10243 R10333 R11955 
+            R11956 R12548 R12790 R12967
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00670  One carbon pool by folate
+            map00680  Methane metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map00785  Lipoic acid metabolism
+            map00790  Folate biosynthesis
+            map00970  Aminoacyl-tRNA biosynthesis
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01240  Biosynthesis of cofactors
+            map01523  Antifolate resistance
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00140  C1-unit interconversion, prokaryotes
+            M00141  C1-unit interconversion, eukaryotes
+            M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+            M00621  Glycine cleavage system
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+NETWORK     nt06030  Methionine metabolism
+            nt06037  Histidine metabolism
+ENZYME      1.4.1.27        1.5.1.3         1.5.1.6         1.5.3.10        
+            1.5.3.24        1.5.8.3         1.5.8.4         2.1.1.13        
+            2.1.1.19        2.1.1.74        2.1.1.148       2.1.1.258       
+            2.1.1.269       2.1.1.341       2.1.1.378       2.1.1.385       
+            2.1.1.389       2.1.1.-         2.1.2.1         2.1.2.2         
+            2.1.2.3         2.1.2.4         2.1.2.5         2.1.2.7         
+            2.1.2.8         2.1.2.9         2.1.2.10        2.1.2.11        
+            2.1.2.13        2.1.2.14        2.1.5.1         2.3.1.169       
+            3.4.19.9        3.5.1.10        6.3.2.17        6.3.4.3
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Cofactors
+               Coenzymes
+                C00101  THF
+DBLINKS     CAS: 135-16-0
+            PubChem: 3401
+            ChEBI: 15635 20506
+            KNApSAcK: C00007249
+            PDB-CCD: THG
+            3DMET: B04633
+            NIKKAJI: J184.393A
+ATOM        32
+            1   N4x N     9.5392  -17.5978
+            2   C8y C     9.5392  -19.0001
+            3   N5x N    10.7312  -19.7013
+            4   C8y C    11.9933  -19.0001
+            5   C8y C    11.9933  -17.5978
+            6   C8y C    10.7312  -16.8966
+            7   N1x N    13.1853  -19.7013
+            8   C1x C    14.3773  -19.0001
+            9   C1y C    14.3773  -17.5978
+            10  N1x N    13.1853  -16.8966
+            11  O5x O    10.7312  -15.4943
+            12  N1a N     8.3219  -19.6964
+            13  C1b C    15.5918  -16.8966
+            14  N1b N    16.8063  -17.5978
+            15  C8y C    18.0207  -16.8966
+            16  C8x C    19.2373  -17.5990
+            17  C8x C    20.4517  -16.8978
+            18  C8y C    20.4517  -15.4955
+            19  C8x C    19.2352  -14.7931
+            20  C8x C    18.0207  -15.4943
+            21  C5a C    21.6920  -14.7931
+            22  N1b N    22.9065  -15.4943
+            23  O5a O    21.6979  -13.3911
+            24  C1c C    24.1397  -14.7821
+            25  C1b C    25.3469  -15.4790
+            26  C1b C    26.5312  -14.7950
+            27  C6a C    27.7272  -15.4855
+            28  O6a O    28.9171  -14.7983
+            29  O6a O    27.7274  -16.8963
+            30  C6a C    24.1394  -13.3909
+            31  O6a O    22.9130  -12.6830
+            32  O6a O    25.3419  -12.6962
+BOND        34
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    6  11 2
+            13    2  12 1
+            14    9  13 1 #Up
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   15  20 1
+            23   18  21 1
+            24   21  22 1
+            25   21  23 2
+            26   22  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   27  29 2
+            32   24  30 1 #Down
+            33   30  31 2
+            34   30  32 1
+///

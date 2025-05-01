@@ -1,0 +1,72 @@
+ENTRY       C00123                      Compound
+NAME        L-Leucine;
+            2-Amino-4-methylvaleric acid;
+            (2S)-alpha-2-Amino-4-methylvaleric acid;
+            (2S)-alpha-Leucine
+FORMULA     C6H13NO2
+EXACT_MASS  131.0946
+MOL_WEIGHT  131.1729
+REMARK      Same as: D00030
+REACTION    R01088 R01089 R01090 R01091 R02552 R03657 R08411 R08664 
+            R10944
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00966  Glucosinolate biosynthesis
+            map00970  Aminoacyl-tRNA biosynthesis
+            map01060  Biosynthesis of plant secondary metabolites
+            map01065  Biosynthesis of alkaloids derived from histidine and purine
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map02010  ABC transporters
+            map04150  mTOR signaling pathway
+            map04974  Protein digestion and absorption
+            map04978  Mineral absorption
+            map05131  Shigellosis
+            map05230  Central carbon metabolism in cancer
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA
+NETWORK     nt06024  Valine, leucine and isoleucine degradation
+ENZYME      1.4.1.9         1.14.13.-       2.3.1.66        2.6.1.6         
+            2.6.1.42        2.6.1.67        3.5.1.64        5.4.3.7         
+            6.1.1.4         6.3.2.47
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Common amino acids
+                C00123  Leucine (Leu)
+            Risk category of Japanese OTC drugs [BR:br08312(D00030)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               L-Leucine
+                D00030  Leucine (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00030)]
+             Chemicals
+              D00030  L-Leucine
+DBLINKS     CAS: 61-90-5
+            PubChem: 3423
+            ChEBI: 15603
+            KNApSAcK: C00001377
+            PDB-CCD: LEU
+            3DMET: B00034
+            NIKKAJI: J1.167C
+ATOM        9
+            1   C1c C    25.0761  -19.4138
+            2   C1b C    26.2633  -18.6769
+            3   C6a C    23.8420  -18.7586
+            4   N1a N    25.1229  -20.8173
+            5   C1c C    27.4974  -19.3377
+            6   O6a O    22.6841  -19.5483
+            7   O6a O    23.8654  -17.3551
+            8   C1a C    28.6846  -18.6007
+            9   C1a C    27.5442  -20.7356
+BOND        8
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     5   8 1
+            8     5   9 1
+///

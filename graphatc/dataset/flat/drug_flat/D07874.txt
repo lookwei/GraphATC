@@ -1,0 +1,138 @@
+ENTRY       D07874                      Drug
+NAME        Doxazosin (INN);
+            Cardura XL (TN)
+FORMULA     C23H25N5O5
+EXACT_MASS  451.1856
+MOL_WEIGHT  451.4751
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01457  alpha1-Adrenergic receptor antagonist
+             DG01739  Peripherally-acting antiadrenergic
+             DG03231  Antihypertensive
+REMARK      Same as: C06970
+            ATC code: C02CA04
+            Chemical structure group: DG00256
+            Product (DG00256): D00608<JP/US>
+EFFICACY    Antihypertensive, alpha1-Adrenergic receptor antagonist
+COMMENT     Prazosin derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C02 ANTIHYPERTENSIVES
+               C02C ANTIADRENERGIC AGENTS, PERIPHERALLY ACTING
+                C02CA Alpha-adrenoreceptor antagonists
+                 C02CA04 Doxazosin
+                  D07874  Doxazosin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00256  Doxazosin
+                  D07874  Doxazosin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00256  Doxazosin
+                D07874  Doxazosin
+              DG03231  Antihypertensive
+               DG00256  Doxazosin
+                D07874  Doxazosin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D07874  Doxazosin (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01457  alpha1-Adrenergic receptor antagonist
+                 DG00256  Doxazosin
+              DG01739  Peripherally-acting antiadrenergic
+               DG00256  Doxazosin
+              DG03231  Antihypertensive
+               DG00256  Doxazosin
+DBLINKS     CAS: 74191-85-8
+            PubChem: 96024570
+            ChEBI: 4708
+            LigandBox: D07874
+            NIKKAJI: J21.371C
+ATOM        33
+            1   C8y C    28.3500  -18.2700
+            2   C8y C    28.3500  -19.6700
+            3   N5x N    27.1600  -17.5700
+            4   C8x C    29.6100  -17.5700
+            5   C8x C    29.5400  -20.3700
+            6   C8y C    27.1600  -20.3700
+            7   C8y C    25.9700  -18.2700
+            8   C8y C    30.8000  -18.2700
+            9   C8y C    30.8000  -19.6700
+            10  N5x N    25.9700  -19.6700
+            11  N1a N    27.1600  -21.7700
+            12  N1y N    24.7100  -17.5700
+            13  O2a O    31.9900  -17.5700
+            14  O2a O    31.9900  -20.3700
+            15  C1x C    23.5200  -18.2700
+            16  C1x C    24.7100  -16.1700
+            17  C1a C    33.2500  -18.2700
+            18  C1a C    33.1800  -19.6700
+            19  C1x C    22.3300  -17.5700
+            20  C1x C    23.5200  -15.4700
+            21  N1y N    22.3300  -16.1700
+            22  C5a C    21.1400  -15.4700
+            23  C1y C    19.8800  -16.1700
+            24  O5a O    21.1400  -14.0700
+            25  O2x O    18.6900  -15.4700
+            26  C1x C    19.8800  -17.5700
+            27  C8y C    17.4300  -16.1700
+            28  O2x O    18.6900  -18.2700
+            29  C8y C    17.4300  -17.5700
+            30  C8x C    16.2400  -15.4700
+            31  C8x C    16.2400  -18.2700
+            32  C8x C    15.0500  -16.1700
+            33  C8x C    15.0500  -17.5700
+BOND        37
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     4   8 2
+            8     5   9 2
+            9     6  10 1
+            10    6  11 1
+            11    7  12 1
+            12    8  13 1
+            13    9  14 1
+            14   12  15 1
+            15   12  16 1
+            16   13  17 1
+            17   14  18 1
+            18   15  19 1
+            19   16  20 1
+            20   19  21 1
+            21   21  22 1
+            22   22  23 1
+            23   22  24 2
+            24   23  25 1
+            25   23  26 1
+            26   25  27 1
+            27   26  28 1
+            28   27  29 1
+            29   27  30 2
+            30   29  31 2
+            31   30  32 1
+            32   31  33 1
+            33    7  10 2
+            34    8   9 1
+            35   20  21 1
+            36   28  29 1
+            37   32  33 2
+///

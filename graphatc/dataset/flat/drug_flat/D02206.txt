@@ -1,0 +1,100 @@
+ENTRY       D02206                      Drug
+NAME        Buformin hydrochloride (JP18);
+            Dibetos-B (TN)
+FORMULA     C6H15N5. HCl
+EXACT_MASS  193.1094
+MOL_WEIGHT  193.6777
+CLASS       Antidiabetic agent
+             DG01685  Insulin sensitizer
+              DG01684  Biguanide antidiabetic
+             DG02044  Hypoglycemic agent
+              DG01684  Biguanide antidiabetic
+REMARK      Therapeutic category: 3962
+            ATC code: A10BA03
+            Chemical structure group: DG00114
+            Product (DG00114): D02206<JP>
+EFFICACY    Antidiabetic, Hypoglycemic
+COMMENT     Biguanide
+TARGET      AMPK (PRKAA) [HSA:5562 5563] [KO:K07198]
+  PATHWAY   hsa04152(5562+5563)  AMPK signaling pathway
+            hsa04910(5562+5563)  Insulin signaling pathway
+            hsa04920(5562+5563)  Adipocytokine signaling pathway
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BA Biguanides
+                 A10BA03 Buformin
+                  D02206  Buformin hydrochloride (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               396  Antidiabetic agents
+                3962  Biguanides
+                 D02206  Buformin hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01684  Biguanide antidiabetic
+                DG00114  Buformin
+                 D02206  Buformin hydrochloride
+              DG02044  Hypoglycemic agent
+               DG01684  Biguanide antidiabetic
+                DG00114  Buformin
+                 D02206  Buformin hydrochloride
+            Drug classes [BR:br08332]
+             Antidiabetic agent
+              DG01684  Biguanide antidiabetic
+               D02206  Buformin hydrochloride
+              DG02044  Hypoglycemic agent
+               D02206  Buformin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CAMK group
+                AMPK (PRKAA)
+                 D02206  Buformin hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02206  Buformin hydrochloride
+              D02206  Buformin hydrochloride tablets
+              D02206  Buformin hydrochloride enteric-coated tablets
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01685  Insulin sensitizer
+               DG01684  Biguanide antidiabetic
+                DG00114  Buformin
+              DG02044  Hypoglycemic agent
+               DG01684  Biguanide antidiabetic
+                DG00114  Buformin
+DBLINKS     CAS: 1190-53-0
+            PubChem: 7849266
+            LigandBox: D02206
+            NIKKAJI: J1.884.244K
+ATOM        12
+            1   N1b N    26.1791  -14.3037
+            2   C2c C    24.9663  -15.0034
+            3   C1b C    27.3919  -15.0034
+            4   N1b N    23.7535  -14.3037
+            5   N2a N    24.9663  -16.4028
+            6   C1b C    28.6047  -14.3037
+            7   C2c C    22.5407  -15.0034
+            8   C1b C    29.8175  -15.0034
+            9   N1a N    21.3280  -14.3037
+            10  N2a N    22.5407  -16.4028
+            11  C1a C    31.0303  -14.3037
+            12  X   Cl   18.8300  -15.7500
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     6   8 1
+            8     7   9 1
+            9     7  10 2
+            10    8  11 1
+///

@@ -1,0 +1,91 @@
+ENTRY       D09732                      Drug
+NAME        Ritobegron ethyl hydrochloride (JAN)
+FORMULA     C23H31NO5. HCl
+EXACT_MASS  437.1969
+MOL_WEIGHT  437.9569
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01453  beta3-Adrenergic receptor agonist
+EFFICACY    Overactive bladder agent, beta3-Adrenergic receptor agonist
+TARGET      ADRB3 [HSA:155] [KO:K04143]
+  PATHWAY   hsa04020(155)  Calcium signaling pathway
+            hsa04080(155)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01453  beta3-Adrenergic receptor agonist
+                 D09732  Ritobegron ethyl hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB3
+                 D09732  Ritobegron ethyl hydrochloride (JAN)
+DBLINKS     PubChem: 124490472
+            LigandBox: D09732
+ATOM        30
+            1   C8x C     9.4500  -16.8700
+            2   C8y C     9.4500  -15.4700
+            3   C8x C    10.6400  -14.7700
+            4   C8x C    11.9000  -15.4700
+            5   C8y C    11.9000  -16.8700
+            6   C8x C    10.6400  -17.5700
+            7   O1a O     8.2600  -14.7700
+            8   C1c C    13.0900  -17.5700
+            9   C1c C    14.2800  -16.8700
+            10  O1a O    13.0900  -18.9700
+            11  N1b N    15.4700  -17.5700
+            12  C1a C    14.2800  -15.4700
+            13  C1b C    16.6600  -16.8700
+            14  C1b C    17.8500  -17.5700
+            15  C8y C    19.0400  -16.8700
+            16  C8x C    19.0400  -15.4700
+            17  C8y C    20.3000  -14.7700
+            18  C8y C    21.4900  -15.4700
+            19  C8x C    21.4900  -16.8700
+            20  C8y C    20.3000  -17.5700
+            21  C1a C    20.3000  -18.9700
+            22  C1a C    20.3000  -13.3700
+            23  O2a O    22.6800  -14.7700
+            24  C1b C    23.9400  -15.4700
+            25  C7a C    25.1300  -14.7700
+            26  O7a O    26.3200  -15.4700
+            27  O6a O    25.1300  -13.3700
+            28  C1b C    27.5100  -14.7700
+            29  C1a C    28.7000  -15.4700
+            30  X   Cl   28.8400  -18.7600
+BOND        30
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     2   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 1 #Down
+            11    9  11 1
+            12    9  12 1 #Down
+            13   11  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 2
+            19   18  19 1
+            20   19  20 2
+            21   15  20 1
+            22   20  21 1
+            23   17  22 1
+            24   18  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   25  27 2
+            29   26  28 1
+            30   28  29 1
+///

@@ -1,0 +1,107 @@
+ENTRY       D00519                      Drug
+NAME        Chlorothiazide (JAN/USP/INN);
+            Diuril (TN)
+PRODUCT     DIURIL (Salix Pharmaceuticals)
+FORMULA     C7H6ClN3O4S2
+EXACT_MASS  294.9488
+MOL_WEIGHT  295.7232
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01749  Thiazide diuretic
+             DG01690  Sulfonamide diuretic
+              DG01749  Thiazide diuretic
+REMARK      Same as: C07461
+            ATC code: C03AA04
+            Chemical structure group: DG00268
+            Product (DG00268): D00519<US> D03471<US>
+EFFICACY    Antihypertensive, Diuretic, Na+-Cl- symport inhibitor
+  DISEASE   Hypertension [DS:H01633]
+COMMENT     Thiazides
+TARGET      SLC12A3 (TSC) [HSA:6559] [KO:K14426]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+            map07055  Sulfonamide derivatives - overview
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03A LOW-CEILING DIURETICS, THIAZIDES
+                C03AA Thiazides, plain
+                 C03AA04 Chlorothiazide
+                  D00519  Chlorothiazide (JAN/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Diuretics, Thiazide
+               Chlorothiazide
+                D00519  Chlorothiazide (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+                 D00519  Chlorothiazide
+              DG01690  Sulfonamide diuretic
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+                 D00519  Chlorothiazide
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               D00519  Chlorothiazide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A3 (TSC)
+                 D00519  Chlorothiazide (JAN/USP/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+              DG01690  Sulfonamide diuretic
+               DG01749  Thiazide diuretic
+                DG00268  Chlorothiazide
+DBLINKS     CAS: 58-94-6
+            PubChem: 7847585
+            ChEBI: 3640
+            LigandBox: D00519
+            NIKKAJI: J2.807J
+ATOM        17
+            1   C8y C    19.8889  -15.0612
+            2   C8y C    19.8946  -16.4185
+            3   C8x C    21.0648  -14.3768
+            4   S2x S    18.7070  -14.3943
+            5   C8x C    21.0705  -17.0914
+            6   N5x N    18.7304  -17.1088
+            7   C8y C    22.2407  -15.0495
+            8   N4x N    17.5371  -15.0846
+            9   O3c O    17.3849  -13.5811
+            10  O3c O    19.9298  -13.5577
+            11  C8y C    22.2465  -16.4068
+            12  C8x C    17.5488  -16.4419
+            13  S4a S    23.4166  -14.3651
+            14  X   Cl   23.4283  -17.0797
+            15  N1a N    24.6568  -13.5168
+            16  O3c O    24.5457  -15.3714
+            17  O3c O    22.3284  -13.3295
+BOND        18
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 1
+            8     4   9 2
+            9     4  10 2
+            10    5  11 2
+            11    6  12 2
+            12    7  13 1
+            13   11  14 1
+            14   13  15 1
+            15   13  16 2
+            16   13  17 2
+            17    7  11 1
+            18    8  12 1
+///

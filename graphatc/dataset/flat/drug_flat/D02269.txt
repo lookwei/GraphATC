@@ -1,0 +1,151 @@
+ENTRY       D02269                      Drug
+NAME        Kitasamycin (JP18/USAN);
+            Leucomycin (TN)
+FORMULA     C35H57NO13(R1)(R2)
+SOURCE      Streptomyces kitasatoensis [TAX:97405]
+CLASS       Antibacterial
+             DG01551  Macrolide antibiotic
+              DG01876  16-Membered ring macrolide antibiotic
+REMARK      Same as: C14064
+            Chemical structure group: DG01203
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     R1,R2: See Kitasamycin [CPD:C14064]
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+INTERACTION  
+STR_MAP     map07020  Macrolides and ketolides
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01876  16-Membered ring macrolide antibiotic
+                DG01203  Kitasamycin
+                 D02269  Kitasamycin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                D02269  Kitasamycin (JP18/USAN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02269  Kitasamycin
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01551  Macrolide antibiotic
+               DG01876  16-Membered ring macrolide antibiotic
+                DG01203  Kitasamycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Macrolide
+                DG01203  Kitasamycin
+DBLINKS     CAS: 1392-21-8
+            PubChem: 7849328
+            ChEBI: 31753
+            NIKKAJI: J870B
+ATOM        51
+            1   C1y C    22.8714  -20.8617
+            2   C1y C    23.9443  -21.5148
+            3   O2a O    21.7518  -21.5148
+            4   C1y C    22.8714  -19.6021
+            5   C1y C    25.0639  -20.8617
+            6   N1c N    23.9443  -22.7743
+            7   C1y C    20.6789  -22.1679
+            8   O2x O    23.9443  -18.9957
+            9   C1y C    25.0639  -19.6021
+            10  O1a O    26.1369  -21.5148
+            11  C1a C    25.0173  -23.4274
+            12  C1a C    22.8714  -23.4274
+            13  C1x C    20.6789  -23.3807
+            14  O2x O    19.5593  -21.5148
+            15  O2a O    27.2565  -17.0364
+            16  C1z C    19.5593  -24.0338
+            17  C1y C    18.4863  -22.1679
+            18  C1y C    23.8977  -13.4443
+            19  C1y C    18.4863  -23.3807
+            20  C1a C    18.7196  -25.2467
+            21  O1a O    20.4456  -25.3867
+            22  C1a C    17.4134  -21.5148
+            23  C1y C    23.8977  -12.1381
+            24  C1y C    22.7781  -14.0974
+            25  O2a O    17.4134  -24.0338
+            26  C1x C    22.7315  -11.5316
+            27  C1b C    24.9706  -11.5316
+            28  C1y C    22.7781  -15.4502
+            29  O2a O    21.6119  -13.4909
+            30  C1y C    22.7315  -10.2254
+            31  C4a C    26.0436  -12.1381
+            32  C1x C    21.6585  -16.0566
+            33  C1y C    21.6585   -9.6190
+            34  C1a C    23.8510   -9.6190
+            35  O4a O    27.1632  -11.4850
+            36  C7x C    20.4923  -15.4035
+            37  C2x C    20.5389  -10.2254
+            38  O1a O    21.6585   -8.3594
+            39  O7x O    19.3727  -16.0566
+            40  O6a O    20.4923  -14.1440
+            41  C2x C    20.5389  -11.5316
+            42  C1y C    18.2531  -15.3102
+            43  C2x C    19.4193  -12.1381
+            44  C1x C    18.2531  -14.0507
+            45  C1a C    17.1335  -15.9633
+            46  C2x C    19.4193  -13.4909
+            47  C1a C    21.6119  -12.2314
+            48  O2a O    23.8977  -16.1033
+            49  C1a C    21.7518  -18.9957
+            50  Z   R#   15.6886  -23.3586
+            51  Z   R#   23.8914  -17.4994
+BOND        53
+            1     9  15 1 #Up
+            2    13  16 1
+            3    14  17 1
+            4    18  15 1 #Down
+            5    16  19 1
+            6    16  20 1 #Down
+            7    16  21 1 #Up
+            8    17  22 1 #Down
+            9    18  23 1
+            10   18  24 1
+            11   19  25 1 #Up
+            12   23  26 1
+            13   23  27 1 #Down
+            14   24  28 1
+            15   24  29 1 #Down
+            16   26  30 1
+            17   27  31 1
+            18   28  32 1
+            19   30  33 1
+            20   30  34 1 #Down
+            21   31  35 2
+            22   32  36 1
+            23   33  37 1
+            24   33  38 1 #Down
+            25   36  39 1
+            26   36  40 2
+            27   37  41 2
+            28   39  42 1
+            29   41  43 1
+            30   42  44 1
+            31   42  45 1 #Down
+            32   43  46 2
+            33    8   9 1
+            34   17  19 1
+            35   44  46 1
+            36   29  47 1
+            37    1   2 1
+            38    1   3 1 #Down
+            39    1   4 1
+            40    2   5 1
+            41    2   6 1 #Up
+            42    7   3 1 #Up
+            43    4   8 1
+            44    5   9 1
+            45    5  10 1 #Down
+            46    6  11 1
+            47   28  48 1 #Down
+            48    6  12 1
+            49    7  13 1
+            50    7  14 1
+            51    4  49 1 #Up
+            52   25  50 1
+            53   48  51 1
+///

@@ -1,0 +1,108 @@
+ENTRY       D04157                      Drug
+NAME        Fenoterol (USAN/INN)
+FORMULA     C17H21NO4
+EXACT_MASS  303.1471
+MOL_WEIGHT  303.3529
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      ATC code: G02CA03 R03AC04 R03CC04
+            Chemical structure group: DG00451
+            Product (DG00451): D01428<JP>
+EFFICACY    Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02C OTHER GYNECOLOGICALS
+                G02CA Sympathomimetics, labour repressants
+                 G02CA03 Fenoterol
+                  D04157  Fenoterol (USAN/INN)
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03A ADRENERGICS, INHALANTS
+                R03AC Selective beta-2-adrenoreceptor agonists
+                 R03AC04 Fenoterol
+                  D04157  Fenoterol (USAN/INN)
+               R03C ADRENERGICS FOR SYSTEMIC USE
+                R03CC Selective beta-2-adrenoreceptor agonists
+                 R03CC04 Fenoterol
+                  D04157  Fenoterol (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG00451  Fenoterol
+                  D04157  Fenoterol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D04157  Fenoterol (USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG00451  Fenoterol
+DBLINKS     CAS: 13392-18-2
+            PubChem: 47206103
+            ChEBI: 149226
+            LigandBox: D04157
+            NIKKAJI: J8.104C
+ATOM        22
+            1   C8x C    24.7100  -16.8700
+            2   C8y C    24.7100  -15.4700
+            3   C8x C    23.5200  -14.7700
+            4   C8x C    22.2600  -15.4700
+            5   C8y C    22.2600  -16.8700
+            6   C8x C    23.5200  -17.5700
+            7   C1b C    21.0700  -17.5700
+            8   C1c C    19.8800  -16.8700
+            9   N1b N    18.6200  -17.5700
+            10  C1b C    17.4300  -16.8700
+            11  C1c C    16.2400  -17.5700
+            12  C8y C    14.9800  -16.8700
+            13  C1a C    19.8800  -15.4700
+            14  O1a O    16.2400  -18.9700
+            15  C8x C    14.9800  -15.4700
+            16  C8y C    13.7900  -14.7700
+            17  C8x C    12.6000  -15.4700
+            18  C8y C    12.6000  -16.8700
+            19  C8x C    13.7900  -17.5700
+            20  O1a O    11.3400  -17.5700
+            21  O1a O    13.7900  -13.3700
+            22  O1a O    25.9000  -14.7700
+BOND        23
+            1    10  11 1
+            2     4   5 2
+            3    11  12 1
+            4     5   6 1
+            5     8  13 1
+            6     6   1 2
+            7    11  14 1
+            8     5   7 1
+            9     7   8 1
+            10    1   2 1
+            11   12  15 1
+            12   15  16 2
+            13   16  17 1
+            14   17  18 2
+            15   18  19 1
+            16   19  12 2
+            17    8   9 1
+            18   18  20 1
+            19    2   3 2
+            20   16  21 1
+            21    9  10 1
+            22    2  22 1
+            23    3   4 1
+///

@@ -1,0 +1,82 @@
+ENTRY       D10133                      Drug
+NAME        Levomilnacipran hydrochloride (USAN);
+            Fetzima (TN)
+PRODUCT     FETZIMA (Allergan)
+  GENERIC   LEVOMILNACIPRAN (Amneal Pharmaceuticals LLC)
+FORMULA     C15H22N2O. HCl
+EXACT_MASS  282.1499
+MOL_WEIGHT  282.8089
+REMARK      ATC code: N06AX28
+            Chemical structure group: DG01387
+            Product (DG01387): D10133<US>
+EFFICACY    Antidepressant, Serotonin-noradrenaline reuptake inhibitor (SNRI)
+  DISEASE   Major depressive disorder [DS:H01646]
+COMMENT     selective serotonin norepinephrine reuptake inhibitor (SNRI)
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530+6532)  Synaptic vesicle cycle
+            hsa04726(6532)  Serotonergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX28 Levomilnacipran
+                  D10133  Levomilnacipran hydrochloride (USAN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antidepressants
+              SSRIs/SNRIs (Selective Serotonin Reuptake Inhibitors/Serotonin and Norepinephrine Reuptake Inhibitors)
+               Levomilnacipran
+                D10133  Levomilnacipran hydrochloride (USAN)
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D10133  Levomilnacipran hydrochloride (USAN) &lt;US&gt;
+                SLC6A4 (HTT)
+                 D10133  Levomilnacipran hydrochloride (USAN) &lt;US&gt;
+DBLINKS     CAS: 175131-60-9
+            PubChem: 135626851
+            LigandBox: D10133
+ATOM        19
+            1   C8x C    20.8600  -18.9700
+            2   C8x C    20.8600  -20.3700
+            3   C8x C    22.0500  -21.0700
+            4   C8y C    23.3100  -20.3700
+            5   C8x C    23.3100  -18.9700
+            6   C8x C    22.0500  -18.2700
+            7   C5a C    24.7100  -20.3700
+            8   C1x C    23.3100  -22.8200
+            9   C1y C    24.7100  -22.8200
+            10  C1z C    24.0100  -21.5600
+            11  C1b C    25.4100  -24.0100
+            12  O5a O    24.7100  -18.9700
+            13  N1c N    26.1100  -20.3700
+            14  C1b C    26.8100  -19.1800
+            15  C1b C    26.8100  -21.5600
+            16  C1a C    28.2100  -21.5600
+            17  C1a C    28.2100  -19.1800
+            18  N1a N    26.8100  -24.0100
+            19  X   Cl   31.6400  -24.0100
+BOND        19
+            1     8  10 1
+            2    10   9 1
+            3     3   4 2
+            4     9  11 1 #Down
+            5    10   4 1 #Up
+            6    10   7 1 #Down
+            7     4   5 1
+            8     7  12 2
+            9     5   6 2
+            10    7  13 1
+            11    6   1 1
+            12   13  14 1
+            13   13  15 1
+            14   15  16 1
+            15    1   2 2
+            16   14  17 1
+            17    2   3 1
+            18   11  18 1
+            19    8   9 1
+///

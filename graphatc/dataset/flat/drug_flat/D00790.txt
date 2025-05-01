@@ -1,0 +1,83 @@
+ENTRY       D00790                      Drug
+NAME        Chlorprothixene (JAN/USAN/INN);
+            Taractan (TN)
+FORMULA     C18H18ClNS
+EXACT_MASS  315.0848
+MOL_WEIGHT  315.8602
+REMARK      Same as: C07953
+            ATC code: N05AF03
+            Chemical structure group: DG00894
+EFFICACY    Antipsychotic, Dopamine receptor antagonist
+COMMENT     Thioxanthene derivative
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813)  Dopaminergic synapse
+STR_MAP     map07028  Antipsychotics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AF Thioxanthene derivatives
+                 N05AF03 Chlorprothixene
+                  D00790  Chlorprothixene (JAN/USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D00790  Chlorprothixene (JAN/USAN/INN)
+                DRD2
+                 D00790  Chlorprothixene (JAN/USAN/INN)
+DBLINKS     CAS: 113-59-7
+            PubChem: 7847855
+            ChEBI: 3651 50931
+            LigandBox: D00790
+            NIKKAJI: J52.995H
+ATOM        21
+            1   C8x C    22.8268  -17.0417
+            2   C8x C    22.8268  -18.4443
+            3   C8x C    24.0414  -19.1456
+            4   C8y C    25.2562  -18.4443
+            5   C8y C    25.2562  -17.0417
+            6   C8x C    24.0414  -16.3404
+            7   S2x S    26.4709  -19.1456
+            8   C8y C    27.6856  -18.4443
+            9   C8y C    27.6856  -17.0417
+            10  C8y C    26.4709  -16.3404
+            11  C8x C    28.9005  -19.1456
+            12  C8x C    30.1151  -18.4443
+            13  C8y C    30.1151  -17.0417
+            14  C8x C    28.9005  -16.3404
+            15  C2b C    26.4709  -14.9377
+            16  C1b C    27.6877  -14.2352
+            17  C1b C    28.8865  -14.9275
+            18  N1c N    30.0756  -14.2410
+            19  C1a C    31.2693  -14.9305
+            20  C1a C    30.0758  -12.8340
+            21  X   Cl   31.3339  -16.3381
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17   10  15 2
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   18  19 1
+            22   18  20 1
+            23   13  21 1
+///

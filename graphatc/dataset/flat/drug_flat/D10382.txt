@@ -1,0 +1,81 @@
+ENTRY       D10382                      Drug
+NAME        Afuresertib hydrochloride (USAN)
+FORMULA     C18H17Cl2FN4OS. HCl
+EXACT_MASS  462.0251
+MOL_WEIGHT  463.7841
+REMARK      Chemical structure group: DG01408
+EFFICACY    Antineoplastic, AKT serine/threonine kinase inhibitor
+COMMENT     Treatment of hematologic cancers
+TARGET      AKT (PKB) [HSA:207 208 10000] [KO:K04456]
+  PATHWAY   hsa04151(10000+207+208)  PI3K-Akt signaling pathway
+            hsa04210(10000+207+208)  Apoptosis
+            hsa05200(10000+207+208)  Pathways in cancer
+            hsa05205(10000+207+208)  Proteoglycans in cancer
+BRITE       Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               AGC group
+                AKT (PKB)
+                 D10382  Afuresertib hydrochloride (USAN)
+DBLINKS     CAS: 1047645-82-8
+            PubChem: 172232475
+ATOM        28
+            1   C8x C    10.9334  -14.7857
+            2   N5x N    10.9334  -16.1871
+            3   N4y N    12.2647  -16.6076
+            4   C8y C    13.1056  -15.4865
+            5   C8y C    12.2647  -14.3653
+            6   C8y C    14.5071  -15.4865
+            7   C8x C    15.3480  -16.6076
+            8   C8y C    16.6793  -16.1871
+            9   S2x S    16.6793  -14.7857
+            10  C8y C    15.3480  -14.3653
+            11  C5a C    17.8705  -16.9580
+            12  N1b N    19.0617  -16.3273
+            13  O5a O    17.8704  -18.3594
+            14  C1c C    20.2530  -17.0280
+            15  C1b C    21.5143  -16.3973
+            16  C8y C    22.7055  -17.1682
+            17  C8x C    22.7054  -18.5696
+            18  C8x C    23.8267  -19.3404
+            19  C8x C    25.0878  -18.6397
+            20  C8y C    25.0879  -17.2382
+            21  C8x C    23.8967  -16.4675
+            22  X   F    26.3492  -16.6076
+            23  C1b C    20.2530  -18.4295
+            24  X   Cl   12.6852  -13.0339
+            25  X   Cl   14.9275  -13.0339
+            26  C1a C    12.6852  -17.9390
+            27  N1a N    21.4442  -19.2002
+            28  X   Cl   24.6722  -13.2480
+BOND        29
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     4   6 1
+            7     6   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 1
+            11    6  10 2
+            12    8  11 1
+            13   11  12 1
+            14   11  13 2
+            15   12  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   16  21 1
+            24   20  22 1
+            25   14  23 1 #Up
+            26    5  24 1
+            27   10  25 1
+            28    3  26 1
+            29   23  27 1
+///

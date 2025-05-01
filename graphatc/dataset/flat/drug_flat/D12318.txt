@@ -1,0 +1,90 @@
+ENTRY       D12318                      Drug
+NAME        Buntanetap (USAN)
+FORMULA     C20H23N3O2
+EXACT_MASS  337.179
+MOL_WEIGHT  337.4155
+CLASS       Neuropsychiatric agent
+             DG01595  Cholinesterase inhibitor
+              DG01593  Acetylcholinesterase inhibitor
+REMARK      Chemical structure group: DG03220
+EFFICACY    Neurodegenerative diseases agent, Acetylcholinesterase inhibitor
+COMMENT     Physostigmine derivative
+            Treatment of neurodegenerative diseases (Alzheimer's, Parkinson's)
+TARGET      ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa00564(43)  Glycerophospholipid metabolism
+            hsa04725(43)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG03220  Buntanetap
+                 D12318  Buntanetap
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D12318  Buntanetap (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01595  Cholinesterase inhibitor
+               DG01593  Acetylcholinesterase inhibitor
+                DG03220  Buntanetap
+DBLINKS     CAS: 116839-68-0
+ATOM        25
+            1   C1z C    17.5579  -26.1507
+            2   C8y C    16.2944  -26.5719
+            3   C1y C    18.4001  -27.2738
+            4   C1x C    18.4001  -24.9575
+            5   C1a C    16.7156  -25.0277
+            6   C8y C    16.2944  -27.9757
+            7   C8x C    15.0310  -25.8700
+            8   N1y N    17.5579  -28.3968
+            9   N1y N    19.7338  -26.8526
+            10  C1x C    19.7338  -25.3786
+            11  C8x C    15.0310  -28.6776
+            12  C8y C    13.8378  -26.5719
+            13  C1a C    17.9790  -29.7304
+            14  C8x C    13.8378  -27.9757
+            15  O7a O    12.6445  -25.8700
+            16  C7a C    11.4513  -26.5719
+            17  N1b N    10.2581  -25.8700
+            18  O6a O    11.4513  -27.9757
+            19  C8y C     8.9946  -26.5719
+            20  C1a C    20.8568  -27.6247
+            21  C8x C     7.7816  -25.9141
+            22  C8x C     6.5576  -26.5936
+            23  C8x C     6.6041  -27.9934
+            24  C8x C     7.7471  -28.7212
+            25  C8x C     8.9711  -28.0417
+BOND        28
+            1    16  17 1
+            2    16  18 2
+            3    17  19 1
+            4     6   8 1
+            5     9  10 1
+            6    12  14 1
+            7     1   2 1
+            8     1   3 1
+            9     1   4 1
+            10    1   5 1 #Down
+            11    2   6 2
+            12    2   7 1
+            13    3   8 1
+            14    3   9 1
+            15    4  10 1
+            16    6  11 1
+            17    7  12 2
+            18    8  13 1
+            19   11  14 2
+            20   12  15 1
+            21   15  16 1
+            22    9  20 1
+            23   19  21 2
+            24   21  22 1
+            25   22  23 2
+            26   23  24 1
+            27   24  25 2
+            28   19  25 1
+///

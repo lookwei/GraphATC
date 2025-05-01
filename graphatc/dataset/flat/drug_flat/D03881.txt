@@ -1,0 +1,133 @@
+ENTRY       D03881                      Drug
+NAME        Dobutamine tartrate (USAN)
+FORMULA     C18H23NO3. C4H6O6
+EXACT_MASS  451.1842
+MOL_WEIGHT  451.467
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01451  beta1-Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+REMARK      ATC code: C01CA07
+            Chemical structure group: DG00216
+            Product (DG00216): D00632<JP/US>
+EFFICACY    Cardiotonic, beta1-Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRB1 [HSA:153] [KO:K04141]
+  PATHWAY   hsa04020(153)  Calcium signaling pathway
+            hsa04080(153)  Neuroactive ligand-receptor interaction
+            hsa04261(153)  Adrenergic signaling in cardiomyocytes
+            hsa04970(153)  Salivary secretion
+INTERACTION  
+STR_MAP     map07214  beta-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA07 Dobutamine
+                  D03881  Dobutamine tartrate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00216  Dobutamine
+                 D03881  Dobutamine tartrate
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01451  beta1-Adrenergic receptor agonist
+                 DG00216  Dobutamine
+                  D03881  Dobutamine tartrate
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00216  Dobutamine
+                D03881  Dobutamine tartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB1
+                 D03881  Dobutamine tartrate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00216  Dobutamine
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01451  beta1-Adrenergic receptor agonist
+                 DG00216  Dobutamine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00216  Dobutamine
+DBLINKS     CAS: 101626-66-8
+            PubChem: 17397965
+            LigandBox: D03881
+            NIKKAJI: J2.205.405H
+ATOM        32
+            1   C8y C     8.4700  -11.1300
+            2   C8x C     7.2800  -10.4300
+            3   C8x C     8.4700  -12.5300
+            4   C1b C     9.6600  -10.4300
+            5   C8y C     6.0200  -11.1300
+            6   C8x C     7.2800  -13.2300
+            7   C1b C    10.9200  -11.1300
+            8   C8y C     6.0200  -12.5300
+            9   O1a O     4.8300  -10.4300
+            10  N1b N    12.1100  -10.4300
+            11  O1a O     4.8300  -13.2300
+            12  C1c C    13.3000  -11.1300
+            13  C1b C    14.5600  -10.4300
+            14  C1a C    13.3000  -12.5300
+            15  C1b C    15.7500  -11.1300
+            16  C8y C    16.9400  -10.4300
+            17  C8x C    18.2000  -11.1300
+            18  C8x C    16.9400   -9.0300
+            19  C8x C    19.3900  -10.4300
+            20  C8x C    18.2000   -8.3300
+            21  C8y C    19.3900   -9.0300
+            22  O1a O    20.5800   -8.3300
+            23  C1c C    24.0100  -11.2700
+            24  C1c C    25.2000  -11.9700
+            25  C6a C    22.7500  -11.9700
+            26  O1a O    24.0100   -9.8700
+            27  C6a C    26.3900  -11.2700
+            28  O1a O    25.2000  -13.3700
+            29  O6a O    21.5600  -11.2700
+            30  O6a O    22.7500  -13.3700
+            31  O6a O    27.5800  -11.9700
+            32  O6a O    26.3900   -9.8700
+BOND        32
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11   10  12 1
+            12   12  13 1
+            13   12  14 1
+            14   13  15 1
+            15   15  16 1
+            16   16  17 2
+            17   16  18 1
+            18   17  19 1
+            19   18  20 2
+            20   19  21 2
+            21   21  22 1
+            22    6   8 1
+            23   20  21 1
+            24   23  24 1
+            25   23  25 1
+            26   23  26 1 #Up
+            27   24  27 1
+            28   24  28 1 #Up
+            29   25  29 1
+            30   25  30 2
+            31   27  31 1
+            32   27  32 2
+///

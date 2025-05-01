@@ -1,0 +1,158 @@
+ENTRY       D08066                      Drug
+NAME        Imatinib (INN);
+            Glamox (TN)
+FORMULA     C29H31N7O
+EXACT_MASS  493.259
+MOL_WEIGHT  493.6027
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG03161  BCR-ABL inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01EA01
+            Chemical structure group: DG00710
+            Product (DG00710): D01441<JP/US>
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+TARGET      BCR-ABL [HSA:25] [KO:K06619]
+            FIP1L1-PDGFRA [HSA:5156] [KO:K04363]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+  PATHWAY   hsa04010(3815+5156)  MAPK signaling pathway
+            hsa05200(25+3815+5156)  Pathways in cancer
+            hsa05220(25)  Chronic myeloid leukemia
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07045  Antineoplastics - protein kinase inhibitors
+OTHER_MAP   map04976  Bile secretion
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EA BCR-ABL tyrosine kinase inhibitors
+                 L01EA01 Imatinib
+                  D08066  Imatinib (INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03161  BCR-ABL inhibitor
+                DG00710  Imatinib
+                 D08066  Imatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00710  Imatinib
+                 D08066  Imatinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                FIP1L1-PDGFRA
+                 D08066  Imatinib (INN)
+                KIT (CD117)
+                 D08066  Imatinib (INN)
+              Non-receptor tyrosine kinases
+               ABL family
+                BCR-ABL
+                 D08066  Imatinib (INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D08066
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08066
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03161  BCR-ABL inhibitor
+                DG00710  Imatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00710  Imatinib
+DBLINKS     CAS: 152459-95-5
+            PubChem: 96024758
+            ChEBI: 45783
+            PDB-CCD: STI
+            LigandBox: D08066
+            NIKKAJI: J1.337.143A
+ATOM        37
+            1   C8x C    29.6100  -16.8000
+            2   C8y C    29.6100  -15.4000
+            3   C8x C    28.4200  -14.7000
+            4   C8x C    27.1600  -15.4000
+            5   C8y C    27.1600  -16.8000
+            6   C8x C    28.4200  -17.5000
+            7   C5a C    25.9700  -17.5000
+            8   N1b N    24.7800  -16.8000
+            9   C8y C    23.5900  -17.5000
+            10  C8x C    22.3300  -16.8000
+            11  C8y C    21.1400  -17.5000
+            12  C8y C    21.1400  -18.9000
+            13  C8x C    22.3300  -19.6000
+            14  C8x C    23.5900  -18.9000
+            15  N1b N    19.9500  -16.8700
+            16  C8y C    18.6900  -17.5700
+            17  N5x N    17.5000  -16.8700
+            18  C8y C    16.3100  -17.5700
+            19  C8x C    16.3100  -18.9700
+            20  C8x C    17.5000  -19.6700
+            21  N5x N    18.6900  -18.9700
+            22  C8y C    15.0500  -16.8700
+            23  C8x C    15.0500  -15.4700
+            24  N5x N    13.8600  -14.7700
+            25  C8x C    12.6000  -15.4700
+            26  C8x C    12.6000  -16.8700
+            27  C8x C    13.8600  -17.5700
+            28  C1b C    30.8000  -14.7000
+            29  N1y N    32.0600  -15.4000
+            30  C1x C    32.0600  -16.8000
+            31  C1x C    33.2500  -17.5000
+            32  N1y N    34.4400  -16.8000
+            33  C1x C    34.4400  -15.4000
+            34  C1x C    33.2500  -14.7000
+            35  C1a C    35.7000  -17.5000
+            36  O5a O    25.9700  -18.9000
+            37  C1a C    19.9500  -19.6000
+BOND        41
+            1    18  19 2
+            2    19  20 1
+            3    20  21 2
+            4    21  16 1
+            5     3   4 2
+            6    18  22 1
+            7     4   5 1
+            8     5   6 2
+            9     6   1 1
+            10    9  10 2
+            11   10  11 1
+            12   22  23 2
+            13   23  24 1
+            14   24  25 2
+            15   25  26 1
+            16   26  27 2
+            17   27  22 1
+            18   11  12 2
+            19    2  28 1
+            20   12  13 1
+            21   28  29 1
+            22   13  14 2
+            23   14   9 1
+            24   11  15 1
+            25    5   7 1
+            26   29  30 1
+            27   30  31 1
+            28   31  32 1
+            29   32  33 1
+            30   33  34 1
+            31   34  29 1
+            32   15  16 1
+            33   32  35 1
+            34    7  36 2
+            35    7   8 1
+            36   12  37 1
+            37    1   2 2
+            38    8   9 1
+            39    2   3 1
+            40   16  17 2
+            41   17  18 1
+///

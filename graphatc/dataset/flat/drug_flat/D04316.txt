@@ -1,0 +1,84 @@
+ENTRY       D04316                      Drug
+NAME        Gestodene (USAN/INN)
+FORMULA     C21H26O2
+EXACT_MASS  310.1933
+MOL_WEIGHT  310.4299
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D04316  Gestodene
+              DG01666  Progesterone receptor agonist
+               D04316  Gestodene
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D04316  Gestodene (USAN/INN)
+DBLINKS     CAS: 60282-87-3
+            PubChem: 47206243
+            LigandBox: D04316
+            NIKKAJI: J18.212E
+ATOM        23
+            1   C1x C    37.4821  -26.6925
+            2   C5x C    37.4821  -28.0599
+            3   C2x C    38.6663  -28.7436
+            4   C2y C    39.8506  -28.0599
+            5   C1y C    39.8506  -26.6925
+            6   C1x C    38.6663  -26.0088
+            7   C1x C    41.0348  -28.7436
+            8   C1x C    42.2190  -28.0599
+            9   C1y C    42.2190  -26.6925
+            10  C1y C    41.0348  -26.0088
+            11  C1y C    43.4033  -26.0088
+            12  C1z C    43.4033  -24.6414
+            13  C1x C    42.2190  -23.9576
+            14  C1x C    41.0348  -24.6414
+            15  C2x C    45.7717  -26.0088
+            16  C2x C    45.7717  -24.6414
+            17  C1z C    44.5875  -23.9576
+            18  O5x O    36.2980  -28.7436
+            19  C1b C    43.4033  -23.2739
+            20  O1a O    44.5875  -22.5902
+            21  C3b C    45.7717  -23.2739
+            22  C3a C    46.9559  -22.5902
+            23  C1a C    42.2396  -22.6018
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 2
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22   12  19 1 #Up
+            23   17  20 1 #Up
+            24   17  21 1 #Down
+            25   21  22 3
+            26   19  23 1
+///

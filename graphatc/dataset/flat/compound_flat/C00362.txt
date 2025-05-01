@@ -1,0 +1,78 @@
+ENTRY       C00362                      Compound
+NAME        dGMP;
+            2'-Deoxyguanosine 5'-monophosphate;
+            2'-Deoxyguanosine 5'-phosphate;
+            Deoxyguanylic acid;
+            Deoxyguanosine monophosphate
+FORMULA     C10H14N5O7P
+EXACT_MASS  347.0631
+MOL_WEIGHT  347.2212
+REACTION    R01855 R01967 R01968 R02090 R12786
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+ENZYME      2.7.1.113       2.7.1.145       2.7.4.8         2.7.4.12        
+            3.1.3.5         3.1.3.89        3.6.1.-         6.3.4.25
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Deoxyribonucleotides
+                C00362  dGMP
+DBLINKS     CAS: 902-04-5
+            PubChem: 3653
+            ChEBI: 16192
+            KNApSAcK: C00019356
+            PDB-CCD: DG DGP
+            3DMET: B01228
+            NIKKAJI: J195.198J
+ATOM        23
+            1   C8y C    29.5740  -19.2847
+            2   N4y N    28.5162  -18.5367
+            3   C8y C    30.8190  -18.3672
+            4   N5x N    29.7144  -20.7052
+            5   C1y C    27.2303  -18.9634
+            6   C8x C    28.9954  -17.1397
+            7   N5x N    30.4449  -17.1514
+            8   C8y C    32.0698  -18.9283
+            9   C8y C    31.0353  -21.2837
+            10  O2x O    26.0904  -18.1042
+            11  C1x C    26.7918  -20.2141
+            12  N4x N    32.2335  -20.4128
+            13  O5x O    33.1746  -18.0982
+            14  N1a N    31.1872  -22.6690
+            15  C1y C    24.9917  -18.9049
+            16  C1y C    25.4124  -20.2141
+            17  C1b C    23.6649  -18.4666
+            18  O1a O    24.9741  -21.5293
+            19  O2b O    22.6245  -19.4017
+            20  P1b P    21.2334  -19.4017
+            21  O1c O    21.2276  -20.7928
+            22  O1c O    19.8423  -19.4017
+            23  O1c O    21.2276  -18.0106
+BOND        25
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     5   2 1 #Up
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1
+            11    8  12 1
+            12    8  13 2
+            13    9  14 1
+            14   10  15 1
+            15   11  16 1
+            16   15  17 1 #Up
+            17   16  18 1 #Down
+            18   17  19 1
+            19   19  20 1
+            20   20  21 1
+            21   20  22 1
+            22   20  23 2
+            23    6   7 2
+            24    9  12 1
+            25   15  16 1
+///

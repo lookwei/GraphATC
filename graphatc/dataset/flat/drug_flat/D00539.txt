@@ -1,0 +1,115 @@
+ENTRY       D00539                      Drug
+NAME        Ethosuximide (JP18/USP/INN);
+            Zarontin (TN)
+PRODUCT     ZARONTIN (Parke-Davis Div of Pfizer)
+  GENERIC   ETHOSUXIMIDE (Akorn)
+            ETHOSUXIMIDE (Bionpharma)
+            ETHOSUXIMIDE (Bryant Ranch Prepack)
+            ETHOSUXIMIDE (Epic Pharma)
+            ETHOSUXIMIDE (Epic Pharma)
+            ETHOSUXIMIDE (Greenstone LLC)
+            ETHOSUXIMIDE (Greenstone LLC)
+            ETHOSUXIMIDE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            ETHOSUXIMIDE (PAI Holdings)
+            ETHOSUXIMIDE (Strides Pharma Science Limited)
+            ZARONTIN (Parke-Davis Div of Pfizer)
+FORMULA     C7H11NO2
+EXACT_MASS  141.079
+MOL_WEIGHT  141.1677
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01573  Calcium channel T type blocker
+            Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02033  Succinimide antiepileptic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07505
+            Therapeutic category: 1139
+            ATC code: N03AD01
+            Product: D00539<JP/US>
+EFFICACY    Antiepileptic
+COMMENT     Succinimide derivative
+TARGET      CACNA1-T [HSA:8911 8912 8913] [KO:K04856 K04855 K04854]
+  PATHWAY   hsa04010(8911+8912+8913)  MAPK signaling pathway
+            hsa04020(8911+8912+8913)  Calcium signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07033  Anticonvulsants
+            map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AD Succinimide derivatives
+                 N03AD01 Ethosuximide
+                  D00539  Ethosuximide (JP18/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Calcium Channel Modifying Agents
+               Ethosuximide
+                D00539  Ethosuximide (JP18/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               113  Antiepileptics
+                1139  Others
+                 D00539  Ethosuximide (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                D00539  Ethosuximide
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02033  Succinimide antiepileptic
+                D00539  Ethosuximide
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00539  Ethosuximide
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D00539  Ethosuximide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-T
+                 D00539  Ethosuximide (JP18/USP/INN) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00539  Ethosuximide
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00539
+DBLINKS     CAS: 77-67-8
+            PubChem: 7847605
+            ChEBI: 4887
+            LigandBox: D00539
+            NIKKAJI: J1.477J
+ATOM        10
+            1   C1z C    30.2572  -15.7833
+            2   C5x C    31.0718  -14.6371
+            3   C1x C    28.9189  -15.3703
+            4   C1b C    31.5607  -16.2779
+            5   C1a C    29.4311  -16.9121
+            6   N1x N    30.2341  -13.5199
+            7   O5x O    32.4683  -14.6255
+            8   C5x C    28.9016  -13.9681
+            9   C1a C    31.5774  -17.6569
+            10  O5x O    27.7611  -13.1534
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     4   9 1
+            9     8  10 2
+            10    6   8 1
+///

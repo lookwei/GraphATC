@@ -1,0 +1,93 @@
+ENTRY       D02775                      Drug
+NAME        Adrogolide hydrochloride (USAN)
+FORMULA     C22H25NO4S. HCl
+EXACT_MASS  435.1271
+MOL_WEIGHT  435.9641
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+              DG01467  Dopamine D1-receptor agonist
+EFFICACY    Antiparkinsonian, Dopamine D1 receptor agonist
+COMMENT     Ergot alkaloid
+            Treatment of the symptoms of Parkinson's disease
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+  PATHWAY   hsa04080(1812)  Neuroactive ligand-receptor interaction
+            hsa04728(1812)  Dopaminergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG01467  Dopamine D1-receptor agonist
+                D02775  Adrogolide hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D02775  Adrogolide hydrochloride (USAN)
+DBLINKS     CAS: 166591-11-3
+            PubChem: 17396933
+            LigandBox: D02775
+            NIKKAJI: J693.926K
+ATOM        29
+            1   O7a O    14.8277  -19.2997
+            2   C7a C    13.5696  -19.9986
+            3   C1a C    13.5696  -21.3965
+            4   C1x C    12.3814  -15.1061
+            5   C1x C    12.3814  -13.7082
+            6   C1y C    13.5696  -13.0093
+            7   C1y C    14.8277  -13.7082
+            8   C8y C    14.8277  -15.1061
+            9   C8y C    13.5696  -15.8050
+            10  N1x N    13.5696  -11.6114
+            11  C1x C    14.8277  -10.9125
+            12  C8y C    16.0159  -11.6114
+            13  C8y C    16.0159  -13.0093
+            14  C8x C    16.0159  -15.8050
+            15  C8y C    16.0159  -17.2029
+            16  C8y C    14.8277  -17.9018
+            17  C8x C    13.5696  -17.2029
+            18  O6a O    18.4622  -15.8050
+            19  C7a C    18.4622  -17.2029
+            20  O7a O    17.2041  -17.9018
+            21  S2x S    17.3439  -11.1920
+            22  C8y C    18.1826  -12.3103
+            23  C8x C    17.3439  -13.4286
+            24  C1a C    19.6503  -17.9018
+            25  O6a O    12.3814  -19.2997
+            26  C1b C    19.3708  -11.6114
+            27  C1b C    20.6289  -12.3103
+            28  C1a C    21.8171  -11.6114
+            29  X   Cl   24.8225  -16.9932
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 1
+            8     4   9 1
+            9     6  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 2
+            13    7  13 1
+            14    8  14 2
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17   9 2
+            19   18  19 2
+            20   19  20 1
+            21   15  20 1
+            22   12  21 1
+            23   21  22 1
+            24   22  23 2
+            25   13  23 1
+            26   19  24 1
+            27    1  16 1
+            28   25   2 2
+            29   22  26 1
+            30   26  27 1
+            31   27  28 1
+///

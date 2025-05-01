@@ -1,0 +1,111 @@
+ENTRY       D00549                      Drug
+NAME        Propofol (JAN/USP/INN);
+            Diprivan (TN)
+PRODUCT     DIPRIVAN (Fresenius Kabi USA)
+            DIPRIVAN (Fresenius Kabi USA)
+            DIPRIVAN (Fresenius Kabi USA)
+            DIPRIVAN (Fresenius Kabi USA)
+            DIPRIVAN (Fresenius Kabi USA)
+  GENERIC   PROPOFOL (Civica)
+            PROPOFOL (HF Acquisition Co LLC)
+            PROPOFOL (HF Acquisition Co LLC)
+            PROPOFOL (HF Acquisition Co LLC)
+            PROPOFOL (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            PROPOFOL (Hikma Pharmaceuticals USA)
+            PROPOFOL (Hospira)
+            PROPOFOL (NorthStar Rx LLC)
+            PROPOFOL (Pfizer Laboratories Div Pfizer)
+            PROPOFOL (REMEDYREPACK)
+            PROPOFOL (Sagent Pharmaceuticals)
+            PROPOFOL INJECTABLE EMULSION (Dr. Reddy's Laboratories)
+FORMULA     C12H18O
+EXACT_MASS  178.1358
+MOL_WEIGHT  178.2707
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG02030  Anesthetics
+              DG02027  General anesthetics
+REMARK      Same as: C07523
+            Therapeutic category: 1119
+            ATC code: N01AX10
+            Chemical structure group: DG00797
+            Product (DG00797): D00549<JP/US>
+EFFICACY    Anesthetic (intravenous), GABA-A receptor agonist
+COMMENT     Isopropylphenol derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01A ANESTHETICS, GENERAL
+                N01AX Other general anesthetics
+                 N01AX10 Propofol
+                  D00549  Propofol (JAN/USP/INN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               111  General anesthetics
+                1119  Others
+                 D00549  Propofol (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               DG00797  Propofol
+                D00549  Propofol
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG00797  Propofol
+                 D00549  Propofol
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D00549  Propofol (JAN/USP/INN) &lt;JP/US&gt;
+            Prodrugs [br08324.html]
+             D00549
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               DG00797  Propofol
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG00797  Propofol
+DBLINKS     CAS: 2078-54-8
+            PubChem: 7847615
+            ChEBI: 44915
+            PDB-CCD: PFL
+            LigandBox: D00549
+            NIKKAJI: J102.606B
+ATOM        13
+            1   C8y C    24.1226  -18.3979
+            2   C8y C    25.3400  -17.6989
+            3   C1c C    22.9112  -17.6989
+            4   C8x C    24.1226  -19.7958
+            5   C8y C    26.5514  -18.3979
+            6   O1a O    25.3457  -16.3010
+            7   C1a C    22.9112  -16.3010
+            8   C1a C    21.6996  -18.3979
+            9   C8x C    25.3400  -20.5005
+            10  C1c C    27.7688  -17.6989
+            11  C8x C    26.5514  -19.7958
+            12  C1a C    28.9804  -18.3979
+            13  C1a C    27.7688  -16.3010
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11   10  12 1
+            12   10  13 1
+            13    9  11 2
+///

@@ -1,0 +1,78 @@
+ENTRY       D01822                      Drug
+NAME        Clofenamide (JAN/INN)
+FORMULA     C6H7ClN2O4S2
+EXACT_MASS  269.9536
+MOL_WEIGHT  270.7138
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG02992  Thiazide related diuretic
+             DG01690  Sulfonamide diuretic
+              DG02992  Thiazide related diuretic
+             DG01534  Carbonic anhydrase inhibitor
+REMARK      ATC code: C03BA07
+EFFICACY    Diuretic, Carbonic anhydrase inhibitor
+COMMENT     Sulfonamide derivative
+TARGET      CA [HSA:759 760 761 762 763 11238 765 766 767 768 771 377677 23632] [KO:K01672 K18245 K18246]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03B LOW-CEILING DIURETICS, EXCL. THIAZIDES
+                C03BA Sulfonamides, plain
+                 C03BA07 Clofenamide
+                  D01822  Clofenamide (JAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG02992  Thiazide related diuretic
+                D01822  Clofenamide
+              DG01690  Sulfonamide diuretic
+               DG02992  Thiazide related diuretic
+                D01822  Clofenamide
+              DG01534  Carbonic anhydrase inhibitor
+               D01822  Clofenamide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Aldehyde-lyases
+                CA
+                 D01822  Clofenamide (JAN/INN)
+DBLINKS     CAS: 671-95-4
+            PubChem: 7848884
+            ChEBI: 31418
+            LigandBox: D01822
+            NIKKAJI: J4.524A
+ATOM        15
+            1   C8y C     8.4700  -16.6600
+            2   C8x C     8.4700  -18.0600
+            3   C8x C     9.6824  -18.7600
+            4   C8y C    10.8949  -18.0600
+            5   C8y C    10.8949  -16.6600
+            6   C8x C     9.6824  -15.9600
+            7   S4a S     7.2576  -15.9600
+            8   S4a S    12.1260  -15.9490
+            9   X   Cl   12.1260  -18.7710
+            10  N1a N     6.0451  -15.2600
+            11  O3c O     7.9730  -14.7435
+            12  O3c O     6.5537  -17.1569
+            13  N1a N    13.3384  -15.2490
+            14  O3c O    11.4267  -14.7381
+            15  O3c O    12.8268  -17.1626
+BOND        15
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     5   8 1
+            9     4   9 1
+            10    7  10 1
+            11    7  11 2
+            12    7  12 2
+            13    8  13 1
+            14    8  14 2
+            15    8  15 2
+///

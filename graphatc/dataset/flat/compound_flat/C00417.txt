@@ -1,0 +1,64 @@
+ENTRY       C00417                      Compound
+NAME        cis-Aconitate;
+            cis-Aconitic acid
+FORMULA     C6H6O6
+EXACT_MASS  174.0164
+MOL_WEIGHT  174.1082
+REACTION    R01325 R01900 R02243 R02244
+PATHWAY     map00020  Citrate cycle (TCA cycle)
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00660  C5-Branched dibasic acid metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map01060  Biosynthesis of plant secondary metabolites
+            map01061  Biosynthesis of phenylpropanoids
+            map01062  Biosynthesis of terpenoids and steroids
+            map01063  Biosynthesis of alkaloids derived from shikimate pathway
+            map01064  Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+            map01065  Biosynthesis of alkaloids derived from histidine and purine
+            map01066  Biosynthesis of alkaloids derived from terpenoid and polyketide
+            map01070  Biosynthesis of plant hormones
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01210  2-Oxocarboxylic acid metabolism
+MODULE      M00012  Glyoxylate cycle
+            M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+            M00740  Methylaspartate cycle
+ENZYME      4.1.1.6         4.2.1.3         5.3.3.7
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Tricarboxylic acids
+                C00417  cis-Aconitate
+DBLINKS     CAS: 585-84-2
+            PubChem: 3707
+            ChEBI: 16383 32805
+            KNApSAcK: C00001177
+            3DMET: B00107
+            NIKKAJI: J37.488A
+ATOM        12
+            1   C2c C    22.5011  -16.1837
+            2   C1b C    23.2152  -14.9453
+            3   C2b C    21.0791  -16.1837
+            4   C6a C    23.2152  -17.4157
+            5   C6a C    24.6372  -14.9453
+            6   C6a C    20.3647  -17.4157
+            7   O6a O    22.8549  -18.7854
+            8   O6a O    24.6372  -17.4090
+            9   O6a O    25.3449  -16.2537
+            10  O6a O    25.2815  -13.8533
+            11  O6a O    18.9363  -17.4090
+            12  O6a O    20.8562  -18.7570
+BOND        11
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     5   9 1
+            9     5  10 2
+            10    6  11 1
+            11    6  12 2
+///

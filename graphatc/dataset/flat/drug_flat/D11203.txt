@@ -1,0 +1,65 @@
+ENTRY       D11203                      Drug
+NAME        Mirogabalin (USAN/INN)
+FORMULA     C12H19NO2
+EXACT_MASS  209.1416
+MOL_WEIGHT  209.2848
+REMARK      ATC code: N02BF03
+            Chemical structure group: DG02947
+            Product (DG02947): D10790<JP>
+EFFICACY    Pain relief
+COMMENT     Treatment of fibromyalgia
+TARGET      CACNA2D1 [HSA:781] [KO:K04858]
+            CACNA2D2 [HSA:9254] [KO:K04859]
+  PATHWAY   hsa04010(781+9254)  MAPK signaling pathway
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02B OTHER ANALGESICS AND ANTIPYRETICS
+                N02BF Gabapentinoids
+                 N02BF03 Mirogabalin
+                  D11203  Mirogabalin (USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA2D1
+                 D11203  Mirogabalin (USAN/INN)
+                CACNA2D2
+                 D11203  Mirogabalin (USAN/INN)
+DBLINKS     CAS: 1138245-13-2
+            PubChem: 384585181
+            PDB-CCD: 8X9
+ATOM        15
+            1   C1y C    18.2665  -16.5201
+            2   C1y C    18.2665  -15.1141
+            3   C1x C    19.6725  -15.1141
+            4   C1z C    19.6725  -16.5201
+            5   C2x C    16.9308  -16.9419
+            6   C2y C    16.0872  -15.8171
+            7   C1x C    16.9308  -14.6923
+            8   C1b C    14.6813  -15.8171
+            9   C1a C    13.9783  -14.6220
+            10  C1b C    20.8676  -17.2231
+            11  C6a C    22.0627  -16.5201
+            12  O6a O    23.2578  -17.2231
+            13  O6a O    22.0627  -15.1141
+            14  C1b C    19.6725  -17.9261
+            15  N1a N    20.8676  -18.6291
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     1   5 1
+            6     5   6 2
+            7     6   7 1
+            8     2   7 1
+            9     6   8 1
+            10    8   9 1
+            11   10   4 1
+            12   10  11 1
+            13   11  12 1
+            14   11  13 2
+            15    4  14 1 #Up
+            16   14  15 1
+///

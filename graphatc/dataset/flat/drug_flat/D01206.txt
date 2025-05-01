@@ -1,0 +1,141 @@
+ENTRY       D01206                      Drug
+NAME        Febuxostat (JAN/USAN/INN);
+            Uloric (TN);
+            Feburic (TN)
+PRODUCT     ULORIC (Cardinal Health)
+            ULORIC (Takeda Pharmaceuticals America)
+  GENERIC   FEBUXOSTAT (Alembic Pharmaceuticals Limited)
+            FEBUXOSTAT (Alembic Pharmaceuticals)
+            FEBUXOSTAT (American Health Packaging)
+            FEBUXOSTAT (Ascend Laboratories)
+            FEBUXOSTAT (DR REDDY'S LABORATORIES LIMITED)
+            FEBUXOSTAT (Lannett Company)
+            FEBUXOSTAT (Macleods Pharmaceuticals Limited)
+            FEBUXOSTAT (NorthStar RxLLC)
+            FEBUXOSTAT (NuCare Pharmaceuticals)
+            FEBUXOSTAT (Solco Healthcare US LLC)
+            FEBUXOSTAT (Sun Pharmaceutical Industries)
+            FEBUXOSTAT (Viona Pharmaceuticals)
+            FEBUXOSTAT (Zydus Lifesciences Limited)
+FORMULA     C16H16N2O3S
+EXACT_MASS  316.0882
+MOL_WEIGHT  316.3748
+CLASS       Cardiovascular agent
+             DG01503  Xanthine dehydrogenase inhibitor
+            Musculo-skeletal system agent
+             DG03130  Xanthin oxidase inhibitor
+REMARK      Therapeutic category: 3949
+            ATC code: M04AA03
+            Chemical structure group: DG02878
+            Product (DG02878): D01206<JP/US> D11081<JP/US>
+EFFICACY    Gout suppressant, Uric acid biosynthesis inhibitor, Xanthine oxidase inhibitor
+  DISEASE   Gout [DS:H01532]
+COMMENT     Management of hyperuricemia in patients with gout
+TARGET      XDH [HSA:7498] [KO:K00106]
+  PATHWAY   hsa00230(7498)  Purine metabolism
+            hsa04146(7498)  Peroxisome
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M04 ANTIGOUT PREPARATIONS
+               M04A ANTIGOUT PREPARATIONS
+                M04AA Preparations inhibiting uric acid production
+                 M04AA03 Febuxostat
+                  D01206  Febuxostat (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antigout Agents
+              Febuxostat
+               D01206  Febuxostat (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               394  Gout preparations
+                3949  Others
+                 D01206  Febuxostat (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01503  Xanthine dehydrogenase inhibitor
+               DG02878  Febuxostat
+                D01206  Febuxostat
+             Musculo-skeletal system agent
+              DG03130  Xanthin oxidase inhibitor
+               DG02878  Febuxostat
+                D01206  Febuxostat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Xanthine dehydrogenase/oxidase
+                XDH
+                 D01206  Febuxostat (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01206
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D01206
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01206
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01206
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01503  Xanthine dehydrogenase inhibitor
+               DG02878  Febuxostat
+             Musculo-skeletal system agent
+              DG03130  Xanthin oxidase inhibitor
+               DG02878  Febuxostat
+DBLINKS     CAS: 144060-53-7
+            PubChem: 7848269
+            ChEBI: 31596
+            PDB-CCD: TEI
+            LigandBox: D01206
+ATOM        22
+            1   C8x C    16.2448  -15.8562
+            2   C8y C    16.2448  -17.2564
+            3   C8y C    17.4603  -17.9563
+            4   C8x C    18.6686  -17.2564
+            5   C8y C    18.6686  -15.8562
+            6   C8x C    17.4603  -15.1562
+            7   C8y C    19.8816  -15.1570
+            8   C3b C    17.4620  -19.3565
+            9   O2a O    15.0325  -17.9569
+            10  C1b C    13.8197  -17.2575
+            11  C1c C    12.6075  -17.9582
+            12  C1a C    11.3946  -17.2587
+            13  C1a C    12.6082  -19.3584
+            14  S2x S    21.2083  -15.5955
+            15  C8y C    22.0380  -14.4677
+            16  C8y C    21.2218  -13.3302
+            17  N5x N    19.8877  -13.7548
+            18  C1a C    21.6625  -12.0012
+            19  C6a C    23.4381  -14.4761
+            20  O6a O    24.1311  -15.6927
+            21  O6a O    24.1455  -13.2676
+            22  N3a N    17.4539  -20.7566
+BOND        23
+            1     9  10 1
+            2     5   6 2
+            3    10  11 1
+            4     6   1 1
+            5    11  12 1
+            6    11  13 1
+            7     5   7 1
+            8     1   2 2
+            9     3   8 1
+            10    2   3 1
+            11    7  14 1
+            12   14  15 1
+            13   15  16 2
+            14   16  17 1
+            15   17   7 2
+            16   16  18 1
+            17    3   4 2
+            18   15  19 1
+            19    2   9 1
+            20   19  20 2
+            21    4   5 1
+            22   19  21 1
+            23    8  22 3
+///

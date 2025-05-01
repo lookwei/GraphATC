@@ -1,0 +1,85 @@
+ENTRY       D00232                      Drug
+NAME        Anisotropine methylbromide (USAN);
+            Octatropine methylbromide (INN);
+            Methyloctatropine bromide (JAN);
+            Valpin (TN);
+            Valpin 50 (TN)
+FORMULA     C17H32NO2. Br
+EXACT_MASS  361.1616
+MOL_WEIGHT  362.3455
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      Same as: C06830
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Tropane derivative
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Anisotropine methylbromide
+                D00232  Anisotropine methylbromide (USAN)
+               Methyloctatropine
+                D00232  Anisotropine methylbromide (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D00232  Anisotropine methylbromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D00232  Anisotropine methylbromide (USAN)
+DBLINKS     CAS: 80-50-2
+            PubChem: 7847299
+            ChEBI: 2739
+            LigandBox: D00232
+            NIKKAJI: J243.983B
+ATOM        21
+            1   C1y C    24.3161  -18.7260
+            2   N2y N    23.2915  -18.1786 #+
+            3   C1x C    25.8000  -18.7260
+            4   C1x C    23.1680  -19.7506
+            5   C1y C    24.1807  -19.7506
+            6   C1y C    26.8128  -19.8565
+            7   C1x C    23.1680  -21.0815
+            8   C1x C    25.3997  -19.4503
+            9   O7a O    27.4370  -21.0047
+            10  C7a C    28.7499  -21.0335
+            11  C1c C    29.4214  -19.9146
+            12  O6a O    29.3743  -22.1816
+            13  C1b C    30.7286  -19.8799
+            14  C1b C    28.7972  -18.7722
+            15  C1b C    31.4116  -18.7612
+            16  C1b C    29.4802  -17.6535
+            17  C1a C    32.7189  -18.7897
+            18  C1a C    28.8503  -16.5051
+            19  C1a C    22.2575  -17.1689
+            20  C1a C    22.1636  -19.0469
+            21  X   Br   23.7867  -15.7350 #-
+BOND        21
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     5   8 1
+            8     6   9 1 #Down
+            9     9  10 1
+            10   10  11 1
+            11   10  12 2
+            12   11  13 1
+            13   11  14 1
+            14   13  15 1
+            15   14  16 1
+            16   15  17 1
+            17   16  18 1
+            18    5   7 1
+            19    6   8 1
+            20    2  19 1
+            21    2  20 1
+///

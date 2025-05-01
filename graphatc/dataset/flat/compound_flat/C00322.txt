@@ -1,0 +1,72 @@
+ENTRY       C00322                      Compound
+NAME        2-Oxoadipate;
+            2-Oxoadipic acid;
+            2-Oxohexanedioic acid
+FORMULA     C6H8O5
+EXACT_MASS  160.0372
+MOL_WEIGHT  160.1247
+REACTION    R01932 R01933 R01934 R01936 R01937 R01938 R01939 R01940 
+            R08331 R13011 R13166
+PATHWAY     map00300  Lysine biosynthesis
+            map00310  Lysine degradation
+            map00380  Tryptophan metabolism
+            map00680  Methane metabolism
+            map00785  Lipoic acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01240  Biosynthesis of cofactors
+MODULE      M00030  Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+            M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+            M00433  Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
+            M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+            M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+NETWORK     nt06032  Lipoic acid metabolism
+            nt06036  Lysine degradation
+ENZYME      1.1.1.87        1.1.1.172       1.1.1.286       1.2.1.-         
+            1.2.4.-         1.5.1.-         1.13.11.93      2.3.3.-         
+            2.6.1.39
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C00322  2-Oxoadipate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0117 Dicarboxylic acids
+                C00322  2-Oxohexanedioic acid
+DBLINKS     CAS: 3184-35-8
+            PubChem: 3616
+            ChEBI: 15753
+            LIPIDMAPS: LMFA01170121
+            KNApSAcK: C00000770
+            PDB-CCD: OOG
+            3DMET: B00088
+            NIKKAJI: J39.063A
+ATOM        11
+            1   C1b C    22.7740  -15.8016
+            2   C5a C    23.9839  -16.5030
+            3   C1b C    21.5577  -16.5030
+            4   C6a C    25.1939  -15.8016
+            5   O5a O    23.9839  -17.8995
+            6   C1b C    20.3478  -15.8016
+            7   O6a O    26.4038  -16.5030
+            8   O6a O    25.1873  -14.5387
+            9   C6a C    19.1315  -16.5030
+            10  O6a O    17.9216  -15.7951
+            11  O6a O    19.1380  -17.8995
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     6   9 1
+            9     9  10 1
+            10    9  11 2
+///

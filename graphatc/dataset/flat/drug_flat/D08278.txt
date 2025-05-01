@@ -1,0 +1,41 @@
+ENTRY       D08278                      Drug
+NAME        Nitroxinil (INN);
+            Nitroxynil;
+            Deldrax (TN);
+            Trodax [veterynary] (TN)
+FORMULA     C7H3IN2O3
+EXACT_MASS  289.9188
+MOL_WEIGHT  290.0148
+EFFICACY    Anthelmintic
+DBLINKS     CAS: 1689-89-0
+            PubChem: 96024965
+            LigandBox: D08278
+ATOM        13
+            1   C8y C    18.1300  -17.0100
+            2   C8x C    18.1300  -18.4100
+            3   C8y C    19.3424  -19.1100
+            4   C8x C    20.5549  -18.4100
+            5   C8y C    20.5549  -17.0100
+            6   C8y C    19.3424  -16.3100
+            7   O1a O    19.3424  -14.9102
+            8   N2b N    21.7860  -16.2990 #+
+            9   X   I    16.9176  -16.3100
+            10  O3a O    22.9912  -16.9947 #-
+            11  O3a O    21.7857  -14.9101
+            12  C3b C    19.3424  -20.5098
+            13  N3a N    19.3424  -21.9098
+BOND        13
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     5   8 1
+            9     1   9 1
+            10    8  10 1
+            11    8  11 2
+            12    3  12 1
+            13   12  13 3
+///

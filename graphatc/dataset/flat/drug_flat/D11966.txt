@@ -1,0 +1,48 @@
+ENTRY       D11966            Mixture   Drug
+NAME        Cabotegravir and rilpivirine;
+            Cabenuva (TN)
+PRODUCT     CABENUVA (ViiV Healthcare Company)
+COMPONENT   (Cabotegravir [DR:D10548] | Cabotegravir sodium [DR:D10549]), (Rilpivirine [DR:D09720] | Rilpivirine hydrochloride [DR:D09958])
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+             DG02924  UGT substrate
+              DG03183  UGT1A1 substrate
+              DG03188  UGT1A9 substrate
+REMARK      Product: D11966<US>
+EFFICACY    Antiviral
+  DISEASE   HIV-1 infection [DS:H01563]
+COMMENT     Cabotegravir is primarily metabolized by UGT1A1 with some contribution from UGT1A9.
+            Rilpivirine is primarily metabolized by CYP3A.
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+            HIV-1 integrase [KO:K24803]
+  PATHWAY   ko03230(K24802+K24803)  Viral genome structure
+            ko03240(K24802+K24803)  Viral replication
+            ko03250(K24802+K24803)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: UGT1A1 [HSA:54658], CYP3A [HSA:1576 1577 1551]; UGT1A9 [HSA:54600]
+INTERACTION  
+BRITE       USP drug classification [BR:br08302]
+             Antivirals
+              Anti-HIV Combinations
+               Cabotegravir/ Rilpivirine
+                D11966  Cabotegravir and rilpivirine
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D11966  Cabotegravir and rilpivirine
+              DG02924  UGT substrate
+               DG03183  UGT1A1 substrate
+                D11966  Cabotegravir and rilpivirine
+               DG03188  UGT1A9 substrate
+                D11966  Cabotegravir and rilpivirine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                D11966  Cabotegravir and rilpivirine &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11966
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11966
+///

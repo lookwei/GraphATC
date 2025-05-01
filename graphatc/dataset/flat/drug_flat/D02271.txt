@@ -1,0 +1,149 @@
+ENTRY       D02271                      Drug
+NAME        Morphine hydrochloride hydrate (JP18);
+            Morphine hydrochloride trihydrate;
+            Anpec (TN)
+FORMULA     C17H19NO3. 3H2O. HCl
+EXACT_MASS  375.1449
+MOL_WEIGHT  375.8444
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+REMARK      Therapeutic category: 8114
+            ATC code: N02AA01
+            Chemical structure group: DG00810
+            Product (DG00810): D00842<JP/US> D02271<JP>
+EFFICACY    Analgesic (narcotic), Opioid receptor agonist
+COMMENT     Opium alkaloid
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: UGT [KO:K00699]
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+OTHER_MAP   map05032  Morphine addiction
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AA Natural opium alkaloids
+                 N02AA01 Morphine
+                  D02271  Morphine hydrochloride hydrate (JP18) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Analgesics
+              Opioid Analgesics, Long-acting
+               Morphine
+                D02271  Morphine hydrochloride hydrate (JP18)
+              Opioid Analgesics, Short-acting
+               Morphine
+                D02271  Morphine hydrochloride hydrate (JP18)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             8  Narcotics
+              81  Alkaloidal narcotics
+               811  Opium alkaloids
+                8114  Morphines
+                 D02271  Morphine hydrochloride hydrate (JP18)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00810  Morphine
+                 D02271  Morphine hydrochloride hydrate
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00810  Morphine
+                D02271  Morphine hydrochloride hydrate
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG00810  Morphine
+                D02271  Morphine hydrochloride hydrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D02271  Morphine hydrochloride hydrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02271  Morphine hydrochloride hydrate
+              D02271  Morphine hydrochloride tablets
+              D02271  Morphine hydrochloride injection
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02271
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00810  Morphine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00810  Morphine
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG00810  Morphine
+DBLINKS     CAS: 6055-06-7
+            PubChem: 7849330
+            ChEBI: 55348
+            LigandBox: D02271
+ATOM        25
+            1   X   Cl   27.0190  -23.0527
+            2   O0  O    27.2299  -20.5437
+            3   C1z C    19.1395  -23.6495
+            4   C8y C    19.1395  -22.3255
+            5   C1y C    20.3241  -24.3462
+            6   C1y C    18.0246  -24.2766
+            7   C1x C    20.3241  -23.0224
+            8   C8y C    18.0246  -21.6984
+            9   C8y C    20.3241  -21.6984
+            10  C1y C    21.4390  -23.6495
+            11  C2x C    20.3241  -25.6005
+            12  O2x O    16.7007  -22.9526
+            13  C1y C    18.0246  -25.6005
+            14  C1x C    22.5538  -23.0224
+            15  C8y C    18.0246  -20.3745
+            16  C1x C    21.4390  -22.3952
+            17  C8x C    20.3241  -20.3745
+            18  N1y N    22.5538  -24.3462
+            19  C2x C    19.1395  -26.2973
+            20  O1a O    16.9098  -26.2973
+            21  C8x C    19.2092  -19.7474
+            22  O1a O    16.9098  -19.7474
+            23  C1a C    23.9527  -24.3462
+            24  O0  O    27.2299  -20.5437
+            25  O0  O    27.2299  -20.5437
+BOND        25
+            1     3   4 1
+            2     3   5 1
+            3     3   6 1
+            4     3   7 1 #Up
+            5     4   8 2
+            6     4   9 1
+            7     5  10 1
+            8     5  11 1
+            9     6  12 1 #Down
+            10    6  13 1
+            11    7  14 1
+            12    8  15 1
+            13    9  16 1
+            14    9  17 2
+            15   10  18 1 #Up
+            16   11  19 2
+            17   13  20 1 #Down
+            18   15  21 2
+            19   15  22 1
+            20    8  12 1
+            21   10  16 1
+            22   13  19 1
+            23   14  18 1
+            24   17  21 1
+            25   18  23 1
+BRACKET     1    25.0600  -21.4200   25.0600  -19.5300
+            1    27.9300  -19.5300   27.9300  -21.4200
+            1  3
+  ORIGINAL  1    2
+  REPEAT    1   25  26
+///

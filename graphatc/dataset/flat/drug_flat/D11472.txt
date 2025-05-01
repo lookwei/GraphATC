@@ -1,0 +1,166 @@
+ENTRY       D11472                      Drug
+NAME        Remdesivir (JAN/USAN);
+            Veklury (TN)
+PRODUCT     VEKLURY (Gilead Sciences)
+FORMULA     C27H35N6O8P
+EXACT_MASS  602.2254
+MOL_WEIGHT  602.576
+CLASS       Antiviral
+             DG03174  Anti-SARS-CoV-2 agent
+            Transporter substrate
+             DG02856  SLCO1B1 substrate
+             DG02932  SLCO1B3 substrate
+REMARK      Therapeutic category: 6250
+            ATC code: J05AB16
+            Product: D11472<JP/US>
+EFFICACY    Antiviral, RNA polymerase inhibitor
+  DISEASE   Coronavirus disease 2019 [DS:H02398]
+COMMENT     Active form of prodrug: GS-441524 [CPD:C22275]
+            nucleoside analog
+            Treatment of viral infections (broad-spectrum)
+TARGET      SARS coronavirus replicase [KO:K24149]
+  PATHWAY   ko03230(K24149)  Viral genome structure
+            ko05171(K24149)  Coronavirus disease - COVID-19
+METABOLISM  Transporter: SLCO1B1 [HSA:10599], SLCO1B3 [HSA:28234]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AB Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+                 J05AB16 Remdesivir
+                  D11472  Remdesivir (JAN/USAN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              62  Chemotherapeutics
+               625  Antivirals
+                6250  Antivirals
+                 D11472  Remdesivir (JAN/USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03174  Anti-SARS-CoV-2 agent
+               D11472  Remdesivir
+             Transporter substrate
+              DG02856  SLCO1B1 substrate
+               D11472  Remdesivir
+              DG02932  SLCO1B3 substrate
+               D11472  Remdesivir
+            Drug classes [BR:br08332]
+             Antiviral
+              DG03174  Anti-SARS-CoV-2 agent
+               D11472  Remdesivir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               Other inhibitor
+                D11472  Remdesivir (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D11472
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D11472
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D11472
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D11472
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D11472
+            Prodrugs [br08324.html]
+             D11472
+DBLINKS     CAS: 1809249-37-3
+            PubChem: 384585448
+            ChEBI: 145994
+ATOM        42
+            1   C8y C    29.6800  -15.4000
+            2   N4y N    31.0800  -14.9800
+            3   C1z C    28.3500  -15.8200
+            4   C8x C    28.9100  -14.2100
+            5   C8y C    31.0800  -13.5800
+            6   N5x N    32.3400  -15.7500
+            7   O2x O    27.1600  -14.9800
+            8   C1y C    27.8600  -17.2200
+            9   C8x C    29.7500  -13.0900
+            10  C8y C    32.3400  -12.9500
+            11  C8x C    33.5300  -15.1200
+            12  C1y C    26.0400  -15.8200
+            13  C1y C    26.4600  -17.2200
+            14  O1a O    28.7700  -18.3400
+            15  N5x N    33.5300  -13.7200
+            16  N1a N    32.3400  -11.5500
+            17  O1a O    25.6900  -18.3400
+            18  C3b C    29.5400  -16.5200
+            19  N3a N    30.8000  -17.2200
+            20  C1b C    24.8500  -15.1200
+            21  O2b O    23.6600  -15.8200
+            22  P1b P    22.4419  -15.1299
+            23  N1b N    21.2295  -15.8299
+            24  C1c C    19.9982  -15.1190
+            25  C7a C    18.8018  -15.8099
+            26  O2b O    22.4360  -13.7204
+            27  O3b O    23.6544  -14.4299
+            28  C8y C    23.6709  -13.0003
+            29  C8x C    24.8864  -13.6952
+            30  C8x C    26.0958  -12.9899
+            31  C8x C    26.0898  -11.5899
+            32  C8x C    24.8742  -10.8951
+            33  C8x C    23.6648  -11.6003
+            34  C1a C    19.9981  -13.7202
+            35  O7a O    17.6149  -15.1246
+            36  O6a O    18.8016  -17.2197
+            37  C1b C    16.4234  -15.8127
+            38  C1c C    15.2341  -15.1261
+            39  C1b C    14.0438  -15.8135
+            40  C1b C    15.2338  -13.7202
+            41  C1a C    14.0410  -13.0315
+            42  C1a C    12.8538  -15.1265
+BOND        45
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13    8  14 1 #Down
+            14   10  15 2
+            15   10  16 1
+            16   13  17 1 #Down
+            17    5   9 2
+            18   11  15 1
+            19   12  13 1
+            20    3  18 1 #Down
+            21   18  19 3
+            22   20  21 1
+            23   12  20 1 #Up
+            24   21  22 1
+            25   22  23 1 #Down
+            26   23  24 1
+            27   24  25 1
+            28   22  26 1 #Up
+            29   22  27 2
+            30   26  28 1
+            31   28  29 2
+            32   29  30 1
+            33   30  31 2
+            34   31  32 1
+            35   32  33 2
+            36   28  33 1
+            37   24  34 1 #Down
+            38   25  35 1
+            39   25  36 2
+            40   35  37 1
+            41   37  38 1
+            42   38  39 1
+            43   38  40 1
+            44   40  41 1
+            45   39  42 1
+///

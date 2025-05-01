@@ -1,0 +1,147 @@
+ENTRY       D04703                      Drug
+NAME        Levalbuterol tartrate (USAN);
+            Xopenex HFA (TN)
+PRODUCT     XOPENEX HFA (Sunovion Pharmaceuticals)
+  GENERIC   LEVALBUTEROL TARTRATE HFA INHALATION (Actavis Pharma)
+            LEVALBUTEROL TARTRATE HFA INHALATION (Bryant Ranch Prepack)
+            LEVALBUTEROL TARTRATE HFA INHALATION (Proficient Rx LP)
+FORMULA     (C13H21NO3)2. C4H6O6
+EXACT_MASS  628.3207
+MOL_WEIGHT  628.7083
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01235
+            Product (DG01235): D02281<US> D04703<US>
+EFFICACY    Antiasthmatic, Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Bronchodilators, Sympathomimetic
+               Levalbuterol
+                D04703  Levalbuterol tartrate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01235  Levalbuterol
+                  D04703  Levalbuterol tartrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D04703  Levalbuterol tartrate (USAN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01235  Levalbuterol
+DBLINKS     CAS: 661464-94-4
+            PubChem: 47206533
+            LigandBox: D04703
+ATOM        44
+            1   C8y C    19.9378  -19.0307
+            2   C8x C    18.7488  -19.7301
+            3   C1c C    21.1268  -19.7301
+            4   C8x C    19.9378  -17.6318
+            5   C8y C    17.4897  -19.0307
+            6   C1b C    22.3859  -19.0307
+            7   O1a O    21.1268  -21.1290
+            8   C8x C    18.7488  -16.9323
+            9   C8y C    17.4897  -17.6318
+            10  C1b C    16.3007  -19.7301
+            11  N1b N    23.5749  -19.7301
+            12  O1a O    16.3007  -16.9323
+            13  O1a O    15.1116  -19.0307
+            14  C1d C    24.7640  -19.0307
+            15  C1a C    26.0230  -19.7301
+            16  C1a C    24.7640  -17.6318
+            17  C1a C    25.9754  -18.3312
+            18  C1c C    32.5973  -19.4485
+            19  C1c C    33.7856  -18.7495
+            20  C6a C    31.3388  -18.7495
+            21  O1a O    32.5973  -20.8467
+            22  C6a C    34.9741  -19.4485
+            23  O1a O    33.7856  -17.3513
+            24  O6a O    30.1503  -19.4485
+            25  O6a O    31.3388  -17.3513
+            26  O6a O    36.2326  -18.7495
+            27  O6a O    34.9741  -20.8467
+            28  C8y C    19.9378  -19.0307
+            29  C8x C    18.7488  -19.7301
+            30  C8y C    17.4897  -19.0307
+            31  C8y C    17.4897  -17.6318
+            32  O1a O    16.3007  -16.9323
+            33  C8x C    18.7488  -16.9323
+            34  C8x C    19.9378  -17.6318
+            35  C1b C    16.3007  -19.7301
+            36  O1a O    15.1116  -19.0307
+            37  C1c C    21.1268  -19.7301
+            38  C1b C    22.3859  -19.0307
+            39  N1b N    23.5749  -19.7301
+            40  C1d C    24.7640  -19.0307
+            41  C1a C    26.0230  -19.7301
+            42  C1a C    24.7640  -17.6318
+            43  C1a C    25.9754  -18.3312
+            44  O1a O    21.1268  -21.1290
+BOND        43
+            1    18  19 1
+            2    18  20 1
+            3    18  21 1 #Up
+            4    19  22 1
+            5    19  23 1 #Up
+            6    20  24 1
+            7    20  25 2
+            8    22  26 1
+            9    22  27 2
+            10    1   2 1
+            11    1   3 1
+            12    1   4 2
+            13    2   5 2
+            14    3   6 1
+            15    3   7 1 #Down
+            16    4   8 1
+            17    5   9 1
+            18    5  10 1
+            19    6  11 1
+            20    9  12 1
+            21   10  13 1
+            22   11  14 1
+            23   14  15 1
+            24   14  16 1
+            25    8   9 2
+            26   14  17 1
+            27   28  29 1
+            28   28  37 1
+            29   28  34 2
+            30   29  30 2
+            31   37  38 1
+            32   37  44 1 #Down
+            33   34  33 1
+            34   30  31 1
+            35   30  35 1
+            36   38  39 1
+            37   31  32 1
+            38   35  36 1
+            39   39  40 1
+            40   40  41 1
+            41   40  42 1
+            42   33  31 2
+            43   40  43 1
+BRACKET     1    13.6500  -21.8400   13.6500  -15.7500
+            1    27.8600  -15.7500   27.8600  -21.8400
+            1  2
+  ORIGINAL  1    1   2   5   9  12   8   4  10  13   3   6  11  14  15  16  17
+            1    7
+  REPEAT    1   28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43
+            1   44
+///

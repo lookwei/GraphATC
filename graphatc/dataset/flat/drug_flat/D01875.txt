@@ -1,0 +1,105 @@
+ENTRY       D01875                      Drug
+NAME        Tiquizium bromide (JAN/INN);
+            Thiaton (TN)
+FORMULA     C19H24NS2. Br
+EXACT_MASS  409.0534
+MOL_WEIGHT  410.4346
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+            Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+REMARK      Therapeutic category: 1231
+            Product: D01875<JP>
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04080(1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1131)  Cholinergic synapse
+            hsa04971(1131)  Gastric acid secretion
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              12  Agents affecting peripheral nervous system
+               123  Autonomic nervous system agents
+                1231  Quaternary ammoniums
+                 D01875  Tiquizium bromide (JAN/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for digestive organs
+              15 Stomach pain and cramp relievers
+               D01875  Tiquizium bromide (JAN/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Tiquizium
+                D01875  Tiquizium bromide (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D01875  Tiquizium bromide
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               D01875  Tiquizium bromide
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM3
+                 D01875  Tiquizium bromide (JAN/INN) &lt;JP&gt;
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D01875
+DBLINKS     CAS: 71731-58-3
+            PubChem: 7848937
+            ChEBI: 32232
+            LigandBox: D01875
+            NIKKAJI: J349.600G
+ATOM        23
+            1   C1x C    20.5800  -23.9400
+            2   C1x C    21.7700  -23.3100
+            3   C2y C    21.7700  -21.9100
+            4   C1x C    20.5800  -21.2100
+            5   C2c C    23.0300  -21.2800
+            6   C8y C    24.1500  -21.9800
+            7   C8y C    23.0300  -19.8800
+            8   C8x C    21.9423  -19.0650
+            9   C8x C    22.4162  -17.7532
+            10  C8x C    23.7480  -17.7375
+            11  S2x S    24.1833  -19.0864
+            12  C8x C    24.6400  -23.2400
+            13  C8x C    26.0400  -23.1700
+            14  C8x C    26.3900  -21.8400
+            15  S2x S    25.2700  -21.0700
+            16  C1y C    19.3900  -23.2400
+            17  N2y N    19.3900  -21.9100 #+
+            18  C1x C    18.2000  -21.2100
+            19  C1x C    17.0100  -21.8400
+            20  C1x C    17.0100  -23.2400
+            21  C1x C    18.2000  -23.9400
+            22  C1a C    19.3900  -19.8800
+            23  X   Br   18.1300  -18.9700 #-
+BOND        25
+            1     8   9 1
+            2     9  10 2
+            3    10  11 1
+            4    11   7 1
+            5    16   1 1
+            6     1   2 1
+            7     6  12 2
+            8    12  13 1
+            9    13  14 2
+            10   14  15 1
+            11   15   6 1
+            12    2   3 1
+            13    3   5 2
+            14    3   4 1
+            15    5   6 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19   19  20 1
+            20   20  21 1
+            21   21  16 1
+            22    4  17 1
+            23    5   7 1
+            24   17  22 1 #Up
+            25    7   8 2
+///

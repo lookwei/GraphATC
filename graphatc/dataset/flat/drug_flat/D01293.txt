@@ -1,0 +1,123 @@
+ENTRY       D01293                      Drug
+NAME        Ethyl loflazepate (JP18/INN);
+            Meilax (TN)
+FORMULA     C18H14ClFN2O3
+EXACT_MASS  360.0677
+MOL_WEIGHT  360.7668
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 1124
+            ATC code: N05BA18
+            Product: D01293<JP>
+EFFICACY    Antianxiety
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+            map07230  GABA-A receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA18 Ethyl loflazepate
+                  D01293  Ethyl loflazepate (JP18/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               112  Hypnotics and sedatives, anxiolytics
+                1124  Benzodiazepins
+                 D01293  Ethyl loflazepate (JP18/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D01293  Ethyl loflazepate
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D01293  Ethyl loflazepate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01293  Ethyl loflazepate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D01293  Ethyl loflazepate (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01293  Ethyl loflazepate
+              D01293  Ethyl loflazepate tablets
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01293
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D01293
+DBLINKS     CAS: 29177-84-2
+            PubChem: 7848356
+            ChEBI: 31573
+            LigandBox: D01293
+            NIKKAJI: J21.650J
+ATOM        25
+            1   C2y C    19.3834  -15.4794
+            2   C8y C    18.5413  -14.3698
+            3   C8y C    18.8765  -13.0130
+            4   N1x N    20.1375  -12.4349
+            5   N2x N    20.7892  -15.5046
+            6   C5x C    21.3911  -13.0572
+            7   C1y C    21.6776  -14.4259
+            8   C8x C    17.8694  -12.0446
+            9   C8x C    16.5274  -12.4327
+            10  C8y C    16.1922  -13.7895
+            11  C8x C    17.1993  -14.7576
+            12  X   Cl   14.8274  -14.1839
+            13  C8y C    18.7489  -16.7291
+            14  C8x C    17.3473  -16.7291
+            15  C8x C    16.6473  -17.9416
+            16  C8x C    17.3473  -19.1540
+            17  C8x C    18.7489  -19.1540
+            18  C8y C    19.4489  -17.9416
+            19  X   F    20.8598  -17.9417
+            20  C7a C    22.8901  -15.1259
+            21  O7a O    24.1025  -14.4259
+            22  O5x O    22.5003  -12.1995
+            23  O6a O    22.8901  -16.5200
+            24  C1b C    25.2954  -15.1148
+            25  C1a C    26.4865  -14.4271
+BOND        27
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13   10  12 1
+            14    1  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   13  18 2
+            21   18  19 1
+            22    7  20 1
+            23   20  21 1
+            24    6  22 2
+            25   20  23 2
+            26   21  24 1
+            27   24  25 1
+///

@@ -1,0 +1,73 @@
+ENTRY       D09822            Mixture   Drug
+NAME        Theosalicin (JAN);
+            Theobromine calcium salicylate
+FORMULA     C7H8N4O2. C7H6O3. Ca
+EXACT_MASS  358.059
+MOL_WEIGHT  358.3628
+COMPONENT   Calcium salicylate [CPD:C19600], Theobromine, calcium salt [CPD:C19601]
+EFFICACY    Stimulant (central)
+COMMENT     Xanthine derivative
+TARGET      PDE [HSA:10846 27115 50940 5136 5137 5138 5139 5140 5141 5142 5143 5144 5150 5151 5153 8622] [KO:K18438 K18436 K13298 K13755 K18283 K19021 K13296 K13293 K18437]
+  PATHWAY   hsa00230(10846+27115+50940+5136+5137+5138+5139+5140+5141+5142+5143+5144+5150+5151+5153+8622)  Purine metabolism
+            hsa04020(5136+5137+5153)  Calcium signaling pathway
+            hsa04022(5138+5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(10846+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+BRITE       Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D09822  Theosalicin (JAN)
+DBLINKS     CAS: 8065-51-8
+            PubChem: 163312226
+ATOM        24
+            1   C8y C    10.0800  -16.1700
+            2   C8y C    10.0800  -17.5700
+            3   N4y N    11.2924  -18.2700
+            4   C8y C    12.5049  -17.5700
+            5   N4x N    12.5049  -16.1700
+            6   C8y C    11.2924  -15.4700
+            7   N4y N     8.7485  -15.7374
+            8   C8x C     7.9256  -16.8700
+            9   N5x N     8.7485  -18.0026
+            10  C1a C    11.2924  -19.6698
+            11  O5x O    13.7360  -18.2810
+            12  O5x O    11.2924  -14.0702
+            13  C1a C     8.3197  -14.4178
+            14  C8x C    18.3400  -16.8000
+            15  C8x C    18.3400  -18.2000
+            16  C8x C    19.5524  -18.9000
+            17  C8x C    20.7649  -18.2000
+            18  C8y C    20.7649  -16.8000
+            19  C8y C    19.5524  -16.1000
+            20  C6a C    19.5524  -14.7002
+            21  O6a O    18.3232  -13.9903
+            22  O6a O    20.7480  -14.0098
+            23  O1a O    21.9960  -16.0890
+            24  Z   Ca   15.5400  -15.6800
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    2   9 1
+            11    3  10 1
+            12    4  11 2
+            13    6  12 2
+            14    7  13 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   14  19 1
+            21   19  20 1
+            22   20  21 2
+            23   20  22 1
+            24   18  23 1
+///

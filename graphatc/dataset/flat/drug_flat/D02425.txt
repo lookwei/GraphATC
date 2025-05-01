@@ -1,0 +1,85 @@
+ENTRY       D02425                      Drug
+NAME        Carbutamide (INN);
+            Invenol (TN)
+FORMULA     C11H17N3O3S
+EXACT_MASS  271.0991
+MOL_WEIGHT  271.336
+CLASS       Antidiabetic agent
+             DG01508  Sulfonylurea receptor agonist
+              DG01734  Sulfonylurea
+             DG02044  Hypoglycemic agent
+              DG01734  Sulfonylurea
+REMARK      ATC code: A10BB06
+EFFICACY    Antidiabetic, Hypoglycemic, Sulfonylurea receptor agonist
+COMMENT     Sulfonylurea
+TARGET      ABCC8 (SUR1) [HSA:6833] [KO:K05032]
+  PATHWAY   hsa02010(6833)  ABC transporters
+            hsa04911(6833)  Insulin secretion
+            hsa04930(6833)  Type II diabetes mellitus
+INTERACTION  
+STR_MAP     map07018  Sulfonamide derivatives - hypoglycemic agents
+            map07055  Sulfonamide derivatives - overview
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BB Sulfonylureas
+                 A10BB06 Carbutamide
+                  D02425  Carbutamide (INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG01508  Sulfonylurea receptor agonist
+               DG01734  Sulfonylurea
+                D02425  Carbutamide
+              DG02044  Hypoglycemic agent
+               DG01734  Sulfonylurea
+                D02425  Carbutamide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              ABC transporters
+               ABCC subfamily
+                ABCC8 (SUR1)
+                 D02425  Carbutamide (INN)
+DBLINKS     CAS: 339-43-5
+            PubChem: 7849483
+            LigandBox: D02425
+            NIKKAJI: J5.684G
+ATOM        18
+            1   C8y C    18.8472  -12.3307
+            2   S4a S    20.0124  -11.6315
+            3   C8x C    17.6354  -11.6315
+            4   C8x C    18.8472  -13.6357
+            5   N1b N    21.5505  -12.3773
+            6   O3c O    20.8048  -10.4197
+            7   O3c O    19.0336  -10.3731
+            8   C8x C    16.4236  -12.2841
+            9   C8x C    17.6354  -14.3815
+            10  C5a C    22.6691  -11.6315
+            11  C8y C    16.4236  -13.6824
+            12  N1b N    23.8810  -12.2841
+            13  O5a O    22.6691  -10.2799
+            14  N1a N    15.2583  -14.3815
+            15  C1b C    24.9996  -11.5383
+            16  C1b C    26.1647  -12.2375
+            17  C1b C    27.3766  -11.4917
+            18  C1a C    28.4486  -12.0977
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    8  11 1
+            11   10  12 1
+            12   10  13 2
+            13   11  14 1
+            14   12  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18    9  11 2
+///

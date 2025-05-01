@@ -1,0 +1,52 @@
+ENTRY       C16589                      Compound
+NAME        2-Oxosuberate;
+            2-Oxooctanedionic acid;
+            alpha-Ketosuberate
+FORMULA     C8H12O5
+EXACT_MASS  188.0685
+MOL_WEIGHT  188.1779
+REACTION    R08215 R08328
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01210  2-Oxocarboxylic acid metabolism
+            map01240  Biosynthesis of cofactors
+MODULE      M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+ENZYME      1.1.1.-
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C16589  2-Oxosuberate
+DBLINKS     PubChem: 51090916
+            ChEBI: 80587
+            KNApSAcK: C00000773
+            NIKKAJI: J986.934D
+ATOM        13
+            1   C1b C    32.9000  -21.0700
+            2   C5a C    34.1600  -21.7700
+            3   C1b C    31.7100  -21.7700
+            4   C6a C    35.3500  -21.0700
+            5   O5a O    34.1600  -23.1700
+            6   C1b C    30.4500  -21.0700
+            7   O6a O    36.6100  -21.7700
+            8   O6a O    35.3500  -19.7400
+            9   C1b C    29.2600  -21.7700
+            10  C1b C    28.0000  -21.0000
+            11  C6a C    26.8100  -21.7000
+            12  O6a O    25.5500  -21.0000
+            13  O6a O    26.8100  -23.1000
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     4   8 2
+            8     6   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   11  13 2
+///

@@ -1,0 +1,75 @@
+ENTRY       D02026                      Drug
+NAME        Magnesium L-aspartate (JAN);
+            Magnesium aspartate
+FORMULA     (C4H6NO4)2. Mg
+EXACT_MASS  288.0444
+MOL_WEIGHT  288.4945
+CLASS       Gastrointestinal agent
+             DG01979  Magnesium containing preparation
+REMARK      ATC code: A12CC05
+            Product (mixture): D04952<JP>
+EFFICACY    Supplement (magnesium)
+COMMENT     Conponent of Aspara (TN)
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A12 MINERAL SUPPLEMENTS
+               A12C OTHER MINERAL SUPPLEMENTS
+                A12CC Magnesium
+                 A12CC05 Magnesium aspartate
+                  D02026  Magnesium L-aspartate (JAN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               L-Aspartic acid
+                D02026  Magnesium L-aspartate (JAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01979  Magnesium containing preparation
+               D02026  Magnesium L-aspartate
+DBLINKS     CAS: 18962-61-3
+            PubChem: 7849088
+            LigandBox: D02026
+ATOM        19
+            1   O6a O    16.3800  -16.0300
+            2   C6a C    17.5924  -15.3300
+            3   C1c C    18.8049  -16.0300
+            4   C1b C    20.0173  -15.3300
+            5   C6a C    21.2297  -16.0300
+            6   O6a O    22.4422  -15.3300 #-
+            7   O6a O    21.2297  -17.4299
+            8   O6a O    17.5924  -13.9302
+            9   N1a N    18.8049  -17.4298
+            10  Z   Mg   25.9000  -16.0300 #2+
+            11  O6a O    16.3800  -16.0300
+            12  C6a C    17.5924  -15.3300
+            13  C1c C    18.8049  -16.0300
+            14  C1b C    20.0173  -15.3300
+            15  C6a C    21.2297  -16.0300
+            16  O6a O    22.4422  -15.3300 #-
+            17  O6a O    21.2297  -17.4299
+            18  N1a N    18.8049  -17.4298
+            19  O6a O    17.5924  -13.9302
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     5   7 2
+            7     2   8 2
+            8     3   9 1 #Down
+            9    11  12 1
+            10   12  13 1
+            11   13  14 1
+            12   14  15 1
+            13   15  16 1
+            14   15  17 2
+            15   12  19 2
+            16   13  18 1 #Down
+BRACKET     1    14.9100  -18.3400   14.9100  -13.4400
+            1    23.3100  -13.4400   23.3100  -18.3400
+            1  2
+  ORIGINAL  1    1   2   3   4   5   6   7   9   8
+  REPEAT    1   11  12  13  14  15  16  17  18  19
+///

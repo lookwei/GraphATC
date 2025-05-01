@@ -1,0 +1,97 @@
+ENTRY       D01581                      Drug
+NAME        Flufenamic acid (JAN/USAN/INN);
+            Arlef (TN)
+FORMULA     C14H10F3NO2
+EXACT_MASS  281.0664
+MOL_WEIGHT  281.2299
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01911  Anti-inflammatory drug, fenamic acid derivatives
+REMARK      Same as: C13038
+            ATC code: M01AG03
+            Chemical structure group: DG00757
+            Product (DG00757): D01823<JP> D03254<JP>
+EFFICACY    Anti-inflammatory, COX inhibitor
+COMMENT     Fenamic acid derivative
+TARGET      PTGS1 (COX1) [HSA:5742] [KO:K00509]
+            PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5742+5743)  Arachidonic acid metabolism
+INTERACTION  
+STR_MAP     map07110  Benzoic acid family
+            map07219  Cyclooxygenase inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M01 ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS
+               M01A ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS
+                M01AG Fenamates
+                 M01AG03 Flufenamic acid
+                  D01581  Flufenamic acid (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01911  Anti-inflammatory drug, fenamic acid derivatives
+                DG00757  Flufenamic acid
+                 D01581  Flufenamic acid
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS1 (COX1)
+                 D01581  Flufenamic acid (JAN/USAN/INN)
+                PTGS2 (COX2)
+                 D01581  Flufenamic acid (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01911  Anti-inflammatory drug, fenamic acid derivatives
+                DG00757  Flufenamic acid
+DBLINKS     CAS: 530-78-9
+            PubChem: 7848644
+            ChEBI: 42638
+            PDB-CCD: FLF
+            LigandBox: D01581
+            NIKKAJI: J2.064H
+ATOM        20
+            1   C8x C    18.0229  -18.1131
+            2   C8x C    18.0229  -19.5137
+            3   C8x C    19.2388  -20.2140
+            4   C8x C    20.4475  -19.5137
+            5   C8y C    20.4475  -18.1131
+            6   C8y C    19.2388  -17.4128
+            7   N1b N    21.6611  -17.4137
+            8   C8y C    22.8735  -18.1148
+            9   C8x C    22.8670  -19.5136
+            10  C8x C    24.0794  -20.2147
+            11  C8x C    25.2929  -19.5153
+            12  C8y C    25.2939  -18.1146
+            13  C8x C    24.0814  -17.4135
+            14  C6a C    19.2405  -16.0122
+            15  O6a O    20.4543  -15.3134
+            16  O6a O    18.0285  -15.3104
+            17  C1d C    26.5013  -17.4187
+            18  X   F    27.7238  -16.7323
+            19  X   F    25.8102  -16.2189
+            20  X   F    27.2104  -18.6459
+BOND        21
+            1     5   6 1
+            2     6   1 2
+            3     8   9 1
+            4     9  10 2
+            5    10  11 1
+            6    11  12 2
+            7    12  13 1
+            8    13   8 2
+            9     5   7 1
+            10    1   2 1
+            11    7   8 1
+            12    6  14 1
+            13    2   3 2
+            14   14  15 1
+            15    3   4 1
+            16   14  16 2
+            17    4   5 2
+            18   12  17 1
+            19   17  18 1
+            20   17  19 1
+            21   17  20 1
+///

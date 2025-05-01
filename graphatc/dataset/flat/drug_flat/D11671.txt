@@ -1,0 +1,136 @@
+ENTRY       D11671                      Drug
+NAME        Elacestrant (USAN/INN)
+FORMULA     C30H38N2O2
+EXACT_MASS  458.2933
+MOL_WEIGHT  458.6349
+CLASS       Hormonal agent
+             DG01619  Estrogen receptor antagonist/modulator
+            Metabolizing enzyme substrate
+             DG01638  CYP2A6 substrate
+             DG01642  CYP2C9 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Chemical structure group: DG03078
+            Product (DG03078): D11672<US>
+EFFICACY    Antineoplastic
+COMMENT     Treatment of estrogen receptor-positive breast cancer
+TARGET      NR3A1 (ESR1) [HSA:2099] [KO:K08550]
+  PATHWAY   hsa04915(2099)  Estrogen signaling pathway
+            hsa05200(2099)  Pathways in cancer
+            hsa05224(2099)  Breast cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2A6 [HSA:1548], CYP2C9 [HSA:1559]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01619  Estrogen receptor antagonist/modulator
+               DG03078  Elacestrant
+                D11671  Elacestrant
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG03078  Elacestrant
+                D11671  Elacestrant
+              DG01642  CYP2C9 substrate
+               DG03078  Elacestrant
+                D11671  Elacestrant
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG03078  Elacestrant
+                 D11671  Elacestrant
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A1 (ESR1)
+                 D11671  Elacestrant (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11671
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01619  Estrogen receptor antagonist/modulator
+               DG03078  Elacestrant
+             Metabolizing enzyme substrate
+              DG01638  CYP2A6 substrate
+               DG03078  Elacestrant
+              DG01642  CYP2C9 substrate
+               DG03078  Elacestrant
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG03078  Elacestrant
+DBLINKS     CAS: 722533-56-4
+            PubChem: 405226538
+            PDB-CCD: I0V
+ATOM        34
+            1   C8x C     7.9800  -13.5100
+            2   C8y C     7.9800  -14.9100
+            3   C8x C     9.1924  -15.6100
+            4   C8y C    10.4049  -14.9100
+            5   C8y C    10.4049  -13.5100
+            6   C8x C     9.1924  -12.8100
+            7   C1x C    11.6173  -15.6100
+            8   C1x C    12.8297  -14.9100
+            9   C1y C    12.8297  -13.5100
+            10  C1x C    11.6173  -12.8100
+            11  C8y C    14.0273  -12.8185
+            12  O1a O     6.7676  -15.6100
+            13  C8y C    15.2156  -13.5045
+            14  C8x C    16.4280  -12.8045
+            15  C8y C    16.4280  -11.4045
+            16  C8x C    15.2397  -10.7185
+            17  C8x C    14.0273  -11.4185
+            18  O2a O    17.6544  -10.6963
+            19  C1a C    18.8619  -11.3933
+            20  N1c N    15.2157  -14.9098
+            21  C1b C    16.4088  -15.5988
+            22  C1b C    13.9840  -15.6211
+            23  C1a C    14.0344  -17.0095
+            24  C8y C    17.5948  -14.9141
+            25  C8x C    18.7868  -15.6025
+            26  C8x C    19.9993  -14.9026
+            27  C8y C    19.9994  -13.5026
+            28  C8x C    18.8075  -12.8142
+            29  C8x C    17.5949  -13.5141
+            30  C1b C    21.2240  -12.7956
+            31  C1b C    22.4320  -13.4931
+            32  N1b N    23.6131  -12.8112
+            33  C1b C    24.8076  -13.5010
+            34  C1a C    25.9955  -12.8153
+BOND        37
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1 #Down
+            13    2  12 1
+            14   11  13 2
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   11  17 1
+            20   15  18 1
+            21   18  19 1
+            22   13  20 1
+            23   20  21 1
+            24   20  22 1
+            25   22  23 1
+            26   21  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   24  29 1
+            33   27  30 1
+            34   30  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+///

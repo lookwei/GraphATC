@@ -1,0 +1,157 @@
+ENTRY       D11568                      Drug
+NAME        Edoxaban tosylate (USAN)
+FORMULA     C24H30ClN7O4S. C7H8O3S
+EXACT_MASS  719.1963
+MOL_WEIGHT  720.2591
+CLASS       Blood modifier agent
+             DG01950  Antithrombotic agent
+              DG01662  Factor Xa inhibitor
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: B01AF03
+            Chemical structure group: DG01398
+            Product (DG01398): D09546<JP/US>
+EFFICACY    Antithrombotic, Factor Xa inhibitor
+COMMENT     Prophylaxis of thromboembolic complications associated with atrial fibrillation, treatment and prevention of VTE
+TARGET      F10 [HSA:2159] [KO:K01314]
+  PATHWAY   hsa04610(2159)  Complement and coagulation cascades
+METABOLISM  Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B01 ANTITHROMBOTIC AGENTS
+               B01A ANTITHROMBOTIC AGENTS
+                B01AF Direct factor Xa inhibitors
+                 B01AF03 Edoxaban
+                  D11568  Edoxaban tosylate (USAN)
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01662  Factor Xa inhibitor
+                DG01398  Edoxaban
+                 D11568  Edoxaban tosylate
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01398  Edoxaban
+                D11568  Edoxaban tosylate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Serine peptidases
+                F10
+                 D11568  Edoxaban tosylate (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D11568
+            Drug groups [BR:br08330]
+             Blood modifier agent
+              DG01950  Antithrombotic agent
+               DG01662  Factor Xa inhibitor
+                DG01398  Edoxaban
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG01398  Edoxaban
+DBLINKS     CAS: 480449-71-6
+            PubChem: 384585543
+ATOM        48
+            1   C1x C    14.6550  -15.1433
+            2   C1y C    14.6550  -16.5390
+            3   C1y C    15.9111  -17.2368
+            4   C1x C    17.0975  -16.5390
+            5   C1x C    17.0975  -15.1433
+            6   C1y C    15.9111  -14.4454
+            7   C5a C    15.9111  -13.0497
+            8   O5a O    14.6550  -12.3519
+            9   N1c N    17.0975  -12.3519
+            10  C1a C    18.2838  -13.0497
+            11  C1a C    17.0975  -10.9562
+            12  N1b N    15.9111  -18.7023
+            13  C5a C    17.0975  -19.3304
+            14  C5a C    18.2838  -18.7023
+            15  O5a O    17.0975  -20.7958
+            16  N1b N    19.4701  -19.3304
+            17  O5a O    18.2838  -17.2368
+            18  C8y C    20.6565  -18.7023
+            19  N5x N    21.8428  -19.3304
+            20  C8x C    23.0292  -18.6325
+            21  C8y C    23.0292  -17.2368
+            22  C8x C    21.8428  -16.5390
+            23  C8x C    20.6565  -17.3066
+            24  X   Cl   24.2853  -16.5390
+            25  N1b N    13.4687  -17.2368
+            26  C5a C    12.2823  -16.6088
+            27  C8y C    11.0960  -17.2368
+            28  O5a O    12.2823  -15.1433
+            29  N5x N     9.8399  -16.6785
+            30  C8y C     8.8629  -17.7253
+            31  C8y C     9.5607  -18.9117
+            32  S2x S    10.9564  -18.6325
+            33  C1x C     7.4672  -17.7253
+            34  C1x C     6.7693  -18.9117
+            35  N1y N     7.4672  -20.0980
+            36  C1x C     8.8629  -20.0980
+            37  C1a C     6.7693  -21.3541
+            38  C8x C    27.8443  -17.1670
+            39  C8x C    27.8443  -18.6325
+            40  C8y C    29.0307  -19.3304
+            41  C8x C    30.2868  -18.6325
+            42  C8x C    30.2868  -17.1670
+            43  C8y C    29.0307  -16.4692
+            44  C1a C    29.0307  -20.7261
+            45  S4a S    29.0307  -15.0735
+            46  O1d O    30.4961  -15.0735
+            47  O1d O    27.6350  -15.0735
+            48  O1d O    29.0307  -13.6778
+BOND        51
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     6   7 1 #Up
+            8     7   8 2
+            9     7   9 1
+            10    9  10 1
+            11    9  11 1
+            12    3  12 1 #Down
+            13   12  13 1
+            14   13  14 1
+            15   13  15 2
+            16   14  16 1
+            17   14  17 2
+            18   16  18 1
+            19   18  19 2
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   18  23 1
+            25   21  24 1
+            26    2  25 1 #Down
+            27   25  26 1
+            28   26  27 1
+            29   26  28 2
+            30   27  29 2
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   27  32 1
+            35   30  33 1
+            36   33  34 1
+            37   34  35 1
+            38   35  36 1
+            39   31  36 1
+            40   35  37 1
+            41   38  39 2
+            42   39  40 1
+            43   40  41 2
+            44   41  42 1
+            45   42  43 2
+            46   38  43 1
+            47   40  44 1
+            48   43  45 1
+            49   45  46 2
+            50   45  47 2
+            51   45  48 1
+///

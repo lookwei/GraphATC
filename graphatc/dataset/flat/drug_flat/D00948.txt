@@ -1,0 +1,139 @@
+ENTRY       D00948                      Drug
+NAME        Estropipate (USP);
+            Piperazine estrone sulfate;
+            Ogen (TN)
+FORMULA     C18H22O5S. C4H10N2
+EXACT_MASS  436.2032
+MOL_WEIGHT  436.5649
+CLASS       Hormonal agent
+             DG01986  Estrogen
+             DG01584  Estrogen receptor agonist
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: G03CA07 G03CC04
+            Chemical structure group: DG00464
+EFFICACY    Antihypoestrogenism, Osteoporosis agent, Estrogen receptor agonist
+COMMENT     Components: Estrone 3-sulfate [CPD:C02538], Piperazine [DR:D00807]
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03C ESTROGENS
+                G03CA Natural and semisynthetic estrogens, plain
+                 G03CA07 Estrone
+                  D00948  Estropipate (USP)
+                G03CC Estrogens, combinations with other drugs
+                 G03CC04 Estrone
+                  D00948  Estropipate (USP)
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Estrogens
+               Estropipate
+                D00948  Estropipate (USP)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00464  Estrone
+                D00948  Estropipate
+              DG01584  Estrogen receptor agonist
+               DG00464  Estrone
+                D00948  Estropipate
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00464  Estrone
+                 D00948  Estropipate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D00948  Estropipate (USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00948
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01986  Estrogen
+               DG00464  Estrone
+              DG01584  Estrogen receptor agonist
+               DG00464  Estrone
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00464  Estrone
+DBLINKS     CAS: 7280-37-7
+            PubChem: 7848011
+            ChEBI: 4873
+            LigandBox: D00948
+            NIKKAJI: J220.353G
+ATOM        30
+            1   C1y C    21.6300  -17.8902
+            2   C1y C    20.4529  -17.2027
+            3   C1y C    22.8128  -17.2260
+            4   C1x C    21.6300  -19.2537
+            5   C8y C    19.2643  -17.8786
+            6   C1x C    20.4645  -15.8392
+            7   C1z C    22.8185  -15.8566
+            8   C1x C    25.1841  -17.2377
+            9   C1x C    20.4412  -19.9296
+            10  C8y C    19.2584  -19.2420
+            11  C8x C    18.0873  -17.1968
+            12  C1x C    21.6474  -15.1691
+            13  C5x C    24.0130  -15.1808
+            14  C1x C    25.1900  -15.8683
+            15  C8x C    18.0873  -19.9296
+            16  C8x C    16.8987  -17.8786
+            17  O5x O    24.0072  -13.7999
+            18  C8y C    16.8987  -19.2420
+            19  O2a O    15.7159  -19.9296
+            20  S4a S    14.5447  -19.2420
+            21  O1d O    15.5060  -18.2748
+            22  O1d O    13.5716  -18.2748
+            23  O1d O    13.5716  -20.2092
+            24  C1a C    22.8185  -14.4566
+            25  C1x C    27.5614  -15.7169
+            26  C1x C    27.5614  -17.1270
+            27  N1x N    28.7735  -15.0234
+            28  N1x N    28.7735  -17.8262
+            29  C1x C    29.9853  -15.7169
+            30  C1x C    29.9853  -17.1270
+BOND        33
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 2
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 1
+            14   10  15 1
+            15   11  16 2
+            16   13  17 2
+            17   15  18 2
+            18   18  19 1
+            19   19  20 1
+            20   20  21 2
+            21   20  22 2
+            22   20  23 1
+            23    7  12 1
+            24    9  10 1
+            25   13  14 1
+            26   16  18 1
+            27    7  24 1 #Up
+            28   25  26 1
+            29   25  27 1
+            30   26  28 1
+            31   27  29 1
+            32   28  30 1
+            33   29  30 1
+///

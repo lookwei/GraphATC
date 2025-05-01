@@ -1,0 +1,84 @@
+ENTRY       D10703                      Drug
+NAME        Esuberaprost sodium (USAN)
+FORMULA     C24H29O5. Na
+EXACT_MASS  420.1913
+MOL_WEIGHT  420.4738
+REMARK      Chemical structure group: DG01839
+EFFICACY    Antihypertensive, Prostaglandin I2 receptor agonist
+COMMENT     Prostacycline derivative
+            Treatment of pulmonary arterial hypertension
+TARGET      PTGIR [HSA:5739] [KO:K04263]
+  PATHWAY   hsa04080(5739)  Neuroactive ligand-receptor interaction
+            hsa04270(5739)  Vascular smooth muscle contraction
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostacyclin
+                PTGIR
+                 D10703  Esuberaprost sodium (USAN)
+DBLINKS     CAS: 152695-53-9
+            PubChem: 254741664
+ATOM        30
+            1   C1y C    18.4100  -19.7400
+            2   C1b C    24.2900  -20.5800
+            3   C3b C    25.5500  -19.8100
+            4   C3b C    26.7400  -18.9700
+            5   C2b C    19.4600  -20.5800
+            6   C2b C    20.7900  -19.8100
+            7   C1c C    21.9100  -20.5800
+            8   O1a O    21.9100  -21.9800
+            9   C1c C    23.1000  -19.8100
+            10  C1a C    23.1000  -18.7600
+            11  C1y C    18.4100  -18.3400
+            12  C1y C    17.1500  -17.9900
+            13  C1x C    16.3100  -19.0400
+            14  C1y C    17.1500  -20.1600
+            15  O1a O    16.8000  -21.5600
+            16  C1a C    28.4200  -17.9900
+            17  C8y C    19.2500  -17.2900
+            18  C8y C    18.4100  -16.1700
+            19  O2x O    17.1500  -16.5900
+            20  C8x C    20.6500  -17.1500
+            21  C8x C    21.2100  -15.8200
+            22  C8x C    20.3700  -14.7000
+            23  C8y C    18.9700  -14.8400
+            24  C1b C    18.1300  -13.7900
+            25  C1b C    16.8000  -13.7900
+            26  C1b C    16.0300  -12.7400
+            27  C6a C    14.6300  -12.7400
+            28  O6a O    13.6500  -11.4800 #-
+            29  O6a O    13.9300  -13.9300
+            30  Z   Na   11.6900  -11.4100 #+
+BOND        31
+            1     2   3 1
+            2     3   4 3
+            3     5   6 2
+            4     6   7 1
+            5     7   8 1 #Down
+            6     7   9 1
+            7     2   9 1
+            8     9  10 1 #Up
+            9     1   5 1 #Up
+            10    1  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14    1  14 1
+            15   14  15 1 #Down
+            16    4  16 1
+            17   17  18 1
+            18   18  19 1
+            19   11  17 1 #Down
+            20   12  19 1 #Down
+            21   17  20 2
+            22   20  21 1
+            23   21  22 2
+            24   22  23 1
+            25   18  23 2
+            26   23  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27  28 1
+            31   27  29 2
+///

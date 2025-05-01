@@ -1,0 +1,141 @@
+ENTRY       D09539                      Drug
+NAME        Gabapentin enacarbil (JAN/USAN/INN);
+            Horizant (TN)
+PRODUCT     HORIZANT (Azurity Pharmaceuticals)
+FORMULA     C16H27NO6
+EXACT_MASS  329.1838
+MOL_WEIGHT  329.3887
+CLASS       Neuropsychiatric agent
+             DG01574  Calcium channel alpha-2 delta blocker
+             DG03199  Antiepileptic agent
+              DG02037  GABA mimetic antiepileptic
+REMARK      Therapeutic category: 1190
+            ATC code: N02BF01
+            Chemical structure group: DG01245
+            Product (DG01245): D00332<JP/US> D09539<JP/US>
+EFFICACY    Anticonvulsant
+  DISEASE   Restless legs syndrome [DS:H01597]
+            Postherpetic neuralgia [DS:H01624]
+COMMENT     Active form of prodrug: Gabapentin [DR:D00332]
+TARGET      CACNA2D [HSA:781 9254 55799 93589] [KO:K04858 K04859 K04860 K04861]
+            SLC6A1 (GAT1) [HSA:6529] [KO:K05034]
+  PATHWAY   hsa04010(55799+781+9254+93589)  MAPK signaling pathway
+            hsa04727(6529)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07033  Anticonvulsants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02B OTHER ANALGESICS AND ANTIPYRETICS
+                N02BF Gabapentinoids
+                 N02BF01 Gabapentin
+                  D09539  Gabapentin enacarbil (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Anticonvulsants
+              Gamma-aminobutyric Acid (GABA) Augmenting Agents
+               GABA Agents, Other
+                Gabapentin
+                 D09539  Gabapentin enacarbil (JAN/USAN/INN)
+             Central Nervous System Agents
+              Central Nervous System, Other
+               Gabapentin
+                D09539  Gabapentin enacarbil (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               119  Miscellaneous
+                1190  Miscellaneous
+                 D09539  Gabapentin enacarbil (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01574  Calcium channel alpha-2 delta blocker
+               DG01245  Gabapentin
+                D09539  Gabapentin enacarbil
+              DG03199  Antiepileptic agent
+               DG02037  GABA mimetic antiepileptic
+                DG01245  Gabapentin
+                 D09539  Gabapentin enacarbil
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D09539  Gabapentin enacarbil
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA2D
+                 D09539  Gabapentin enacarbil (JAN/USAN/INN) &lt;JP/US&gt;
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A1 (GAT1)
+                 D09539  Gabapentin enacarbil (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D09539
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D09539
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D09539
+            Prodrugs [br08324.html]
+             D09539
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01574  Calcium channel alpha-2 delta blocker
+               DG01245  Gabapentin
+              DG03199  Antiepileptic agent
+               DG02037  GABA mimetic antiepileptic
+                DG01245  Gabapentin
+DBLINKS     PubChem: 96026219
+            LigandBox: D09539
+ATOM        23
+            1   C1x C    17.3600  -19.4600
+            2   C1x C    17.3600  -20.8600
+            3   C1z C    18.5500  -21.5600
+            4   C1x C    19.8100  -20.8600
+            5   C1x C    19.8100  -19.4600
+            6   C1x C    18.5500  -18.7600
+            7   N1b N    16.1700  -21.5600
+            8   C1b C    17.3600  -22.2600
+            9   C1b C    19.7400  -22.2600
+            10  C6a C    20.9300  -21.5600
+            11  O6a O    20.9300  -20.1600
+            12  O6a O    22.1453  -22.2551
+            13  C7a C    14.9576  -22.2600
+            14  O7a O    13.7451  -21.5600
+            15  C1c C    12.5327  -22.2600
+            16  O7a O    11.3203  -21.5600
+            17  C7a C    10.1078  -22.2600
+            18  C1c C     8.8954  -21.5600
+            19  C1a C     7.6830  -22.2600
+            20  O6a O    14.9576  -23.6598
+            21  C1a C    12.5327  -23.6600
+            22  O6a O    10.1078  -23.6597
+            23  C1a C     8.8954  -20.1600
+BOND        23
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     7   8 1
+            8     8   3 1
+            9     3   9 1
+            10    9  10 1
+            11   10  11 2
+            12   10  12 1
+            13    7  13 1
+            14   13  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   18  19 1
+            20   13  20 2
+            21   15  21 1
+            22   17  22 2
+            23   18  23 1
+///

@@ -1,0 +1,35 @@
+ENTRY       C02022                      Compound
+NAME        D-Erythrulose;
+            D-glycero-Tetrulose
+FORMULA     C4H8O4
+EXACT_MASS  120.0423
+MOL_WEIGHT  120.1039
+REACTION    R08573 R11342 R11461
+ENZYME      1.1.1.162       1.1.1.403       2.7.1.210
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Ketoses
+                C02022  D-Erythrulose
+DBLINKS     CAS: 496-55-9
+            PubChem: 5117
+            ChEBI: 16023 23958
+            NIKKAJI: J39.056I
+ATOM        8
+            1   O1a O     8.6800  -11.5500
+            2   C1b C     9.8924  -12.2500
+            3   C5a C    11.1049  -11.5500
+            4   C1c C    12.3173  -12.2500
+            5   C1b C    13.5297  -11.5500
+            6   O1a O    14.7422  -12.2500
+            7   O5a O    11.1049  -10.1502
+            8   O1a O    12.3173  -13.6500
+BOND        7
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     3   7 2
+            7     4   8 1 #Up
+///

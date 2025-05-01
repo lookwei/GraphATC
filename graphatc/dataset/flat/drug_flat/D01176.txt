@@ -1,0 +1,125 @@
+ENTRY       D01176                      Drug
+NAME        Blonanserin (JAN/INN);
+            AD 5423
+FORMULA     C23H30FN3
+EXACT_MASS  367.2424
+MOL_WEIGHT  367.5028
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+             DG03200  Antipsychotic agent
+              DG03064  Atypical antipsychotic
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 1179
+            Product: D01176<JP>
+EFFICACY    Antipsychotic
+TARGET      HTR2A [HSA:3356] [KO:K04157]
+            DRD2 [HSA:1813] [KO:K04145]
+            DRD3 [HSA:1814] [KO:K04146]
+  PATHWAY   hsa04080(1813+1814+3356)  Neuroactive ligand-receptor interaction
+            hsa04726(3356)  Serotonergic synapse
+            hsa04728(1813+1814)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1179  Others
+                 D01176  Blonanserin (JAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               D01176  Blonanserin
+              DG03200  Antipsychotic agent
+               DG03064  Atypical antipsychotic
+                D01176  Blonanserin
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01176  Blonanserin
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D01176  Blonanserin (JAN/INN) &lt;JP&gt;
+                DRD3
+                 D01176  Blonanserin (JAN/INN) &lt;JP&gt;
+               Serotonin
+                HTR2A
+                 D01176  Blonanserin (JAN/INN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01176
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01176
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01176
+DBLINKS     CAS: 132810-10-7
+            PubChem: 7848239
+            ChEBI: 31296
+            LigandBox: D01176
+ATOM        27
+            1   C8y C    18.6615  -14.9275
+            2   C8y C    18.6615  -16.3259
+            3   C8y C    19.8755  -17.0251
+            4   C8x C    21.0824  -16.3259
+            5   C8y C    21.0824  -14.9275
+            6   N5x N    19.8755  -14.2283
+            7   C1x C    17.6737  -17.3297
+            8   C1x C    16.2651  -17.3297
+            9   C1x C    17.6737  -13.9339
+            10  C1x C    15.2715  -16.3301
+            11  C1x C    16.2651  -13.9339
+            12  C1x C    15.2715  -14.9275
+            13  N1y N    22.2940  -14.2292
+            14  C8y C    19.8772  -18.4235
+            15  C8x C    18.6681  -19.1227
+            16  C8x C    18.6698  -20.5211
+            17  C8y C    19.8818  -21.2187
+            18  C8x C    21.0920  -20.5180
+            19  C8x C    21.0902  -19.1196
+            20  X   F    19.8836  -22.6171
+            21  C1x C    23.5010  -14.9299
+            22  C1x C    24.7126  -14.2315
+            23  N1y N    24.7136  -12.8331
+            24  C1x C    23.5032  -12.1331
+            25  C1x C    22.2916  -12.8313
+            26  C1b C    25.9252  -12.1348
+            27  C1a C    27.1358  -12.8350
+BOND        30
+            1     5  13 1
+            2     3  14 1
+            3     1   2 2
+            4     2   3 1
+            5     3   4 2
+            6     4   5 1
+            7     5   6 2
+            8    14  15 2
+            9    15  16 1
+            10   16  17 2
+            11   17  18 1
+            12   18  19 2
+            13   19  14 1
+            14    2   7 1
+            15   17  20 1
+            16    7   8 1
+            17    1   9 1
+            18    8  10 1
+            19    9  11 1
+            20   10  12 1
+            21   13  21 1
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   24  25 1
+            26   25  13 1
+            27   11  12 1
+            28   23  26 1
+            29    6   1 1
+            30   26  27 1
+///

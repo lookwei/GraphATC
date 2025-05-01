@@ -1,0 +1,151 @@
+ENTRY       D07994                      Drug
+NAME        Framycetin sulfate;
+            Neomycin B sulfate;
+            Isofra (TN)
+FORMULA     C23H46N6O13. H2SO4
+EXACT_MASS  712.2797
+MOL_WEIGHT  712.7222
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      ATC code: D09AA01 R01AX08 S01AA07
+            Chemical structure group: DG01446
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D09 MEDICATED DRESSINGS
+               D09A MEDICATED DRESSINGS
+                D09AA Medicated dressings with antiinfectives
+                 D09AA01 Framycetin
+                  D07994  Framycetin sulfate
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AX Other nasal preparations
+                 R01AX08 Framycetin
+                  D07994  Framycetin sulfate
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA07 Framycetin
+                  D07994  Framycetin sulfate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG01446  Framycetin
+                D07994  Framycetin sulfate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D07994  Framycetin sulfate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG01446  Framycetin
+DBLINKS     CAS: 28002-70-2
+            PubChem: 96024688
+            LigandBox: D07994
+            NIKKAJI: J262.631D
+ATOM        47
+            1   C1y C    20.5722  -21.3409
+            2   C1y C    20.5722  -22.7403
+            3   C1y C    21.8317  -23.4399
+            4   C1y C    23.0211  -22.7403
+            5   C1y C    23.0211  -21.3409
+            6   O2x O    21.8317  -20.6412
+            7   O2a O    24.2106  -20.6412
+            8   C1y C    26.4496  -19.5217
+            9   C1y C    26.8695  -18.1923
+            10  O2x O    25.7499  -17.4226
+            11  C1y C    24.6304  -18.1923
+            12  C1y C    25.0503  -19.5217
+            13  O2a O    28.4787  -17.7724
+            14  O1a O    28.8986  -20.5012
+            15  C1y C    30.0880  -19.8015
+            16  C1y C    31.2775  -20.5012
+            17  C1x C    32.4670  -19.8015
+            18  C1y C    32.4670  -18.4721
+            19  C1y C    31.2775  -17.7724
+            20  C1y C    30.0880  -18.4721
+            21  N1a N    31.2775  -21.9006
+            22  N1a N    33.6565  -17.7724
+            23  O2a O    31.2775  -16.3731
+            24  C1y C    32.4670  -15.6734
+            25  O2x O    33.6565  -16.3731
+            26  C1y C    34.7760  -15.6734
+            27  C1y C    34.7760  -14.2740
+            28  C1y C    33.6565  -13.5743
+            29  C1y C    32.4670  -14.2740
+            30  C1b C    36.0354  -16.3031
+            31  N1a N    36.0354  -17.7025
+            32  N1a N    31.2075  -13.5743
+            33  O1a O    33.6565  -12.2449
+            34  O1a O    36.0354  -13.5043
+            35  C1b C    23.3010  -17.7724
+            36  O1a O    27.2893  -20.6412
+            37  O1a O    22.2515  -18.7520
+            38  C1b C    19.4527  -20.6412
+            39  O1a O    19.4527  -23.4399
+            40  N1a N    24.2106  -23.4399
+            41  O1a O    21.8317  -24.8393
+            42  N1a N    18.1933  -21.3409
+            43  S4a S    36.0434  -23.0244
+            44  O1d O    36.0434  -21.6250
+            45  O1d O    36.0434  -24.4238
+            46  O1d O    37.4428  -23.0244
+            47  O1d O    34.6440  -23.0244
+BOND        49
+            1    25  26 1
+            2    26  27 1
+            3    27  28 1
+            4    28  29 1
+            5    29  24 1
+            6    26  30 1 #Up
+            7    15  14 1 #Down
+            8    30  31 1
+            9     5   7 1 #Down
+            10   29  32 1 #Down
+            11   28  33 1 #Up
+            12    1   2 1
+            13   27  34 1 #Down
+            14    2   3 1
+            15   11  35 1 #Up
+            16   12   7 1 #Down
+            17    3   4 1
+            18    8  36 1 #Down
+            19   15  16 1
+            20   35  37 1
+            21   16  17 1
+            22    1  38 1 #Down
+            23   17  18 1
+            24    2  39 1 #Down
+            25   18  19 1
+            26    4  40 1 #Down
+            27   19  20 1
+            28    3  41 1 #Up
+            29   20  15 1
+            30    4   5 1
+            31   16  21 1 #Up
+            32    8   9 1
+            33   18  22 1 #Up
+            34    9  10 1
+            35   19  23 1 #Down
+            36   20  13 1 #Up
+            37   10  11 1
+            38   24  23 1 #Down
+            39   11  12 1
+            40   12   8 1
+            41    5   6 1
+            42    9  13 1 #Up
+            43    6   1 1
+            44   24  25 1
+            45   38  42 1
+            46   43  44 2
+            47   43  45 2
+            48   43  46 1
+            49   43  47 1
+///

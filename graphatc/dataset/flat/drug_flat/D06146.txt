@@ -1,0 +1,68 @@
+ENTRY       D06146                      Drug
+NAME        Tiletamine hydrochloride (USP)
+FORMULA     C12H17NOS. HCl
+EXACT_MASS  259.0798
+MOL_WEIGHT  259.7954
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+REMARK      Chemical structure group: DG01380
+EFFICACY    Anesthetic, Anticonvulsant
+COMMENT     Phencyclidine derivative
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG01380  Tiletamine
+                D06146  Tiletamine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D06146  Tiletamine hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG01380  Tiletamine
+DBLINKS     CAS: 14176-50-2
+            PubChem: 47207804
+            LigandBox: D06146
+            NIKKAJI: J244.780K
+ATOM        16
+            1   C1x C    27.2312  -17.2214
+            2   C1x C    27.2312  -18.6215
+            3   C1x C    28.4437  -19.3216
+            4   C1x C    29.6563  -18.6215
+            5   C1z C    29.6563  -17.2214
+            6   C5x C    28.4437  -16.5214
+            7   C8y C    30.8875  -16.5104
+            8   C8x C    32.2128  -16.9230
+            9   C8x C    33.0170  -15.7893
+            10  C8x C    32.1875  -14.6742
+            11  S2x S    30.8705  -15.1186
+            12  N1b N    30.8688  -17.9215
+            13  C1b C    30.8389  -19.3211
+            14  C1a C    32.0601  -20.0616
+            15  O5x O    28.4437  -15.1215
+            16  X   Cl   36.1219  -17.9215
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    7  11 1
+            13    5  12 1
+            14   12  13 1
+            15   13  14 1
+            16    6  15 2
+///

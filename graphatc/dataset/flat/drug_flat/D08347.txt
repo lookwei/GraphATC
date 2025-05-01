@@ -1,0 +1,83 @@
+ENTRY       D08347                      Drug
+NAME        Phendimetrazine (INN)
+FORMULA     C12H17NO
+EXACT_MASS  191.131
+MOL_WEIGHT  191.2695
+CLASS       Neuropsychiatric agent
+             DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+            Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+REMARK      Same as: C07904
+            Chemical structure group: DG01537
+            Product (DG01537): D02080<US>
+EFFICACY    Appetite suppressant (systemic), Stimulant (central)
+COMMENT     Active form of prodrug: Phenmetrazine [CPD:C07432]
+            Morpholine derivative
+TARGET      SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04721(6530)  Synaptic vesicle cycle
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG01537  Phendimetrazine
+                D08347  Phendimetrazine
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG01537  Phendimetrazine
+                 D08347  Phendimetrazine
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D08347  Phendimetrazine (INN)
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D08347
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03085  Selective norepinephrine reuptake inhibitor (NRI)
+               DG01537  Phendimetrazine
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG01537  Phendimetrazine
+DBLINKS     CAS: 634-03-7
+            PubChem: 96025034
+            ChEBI: 8059
+            LigandBox: D08347
+            NIKKAJI: J6.905A
+ATOM        14
+            1   C8x C    15.3300  -27.5100
+            2   C8x C    15.3300  -28.9100
+            3   C8x C    16.5424  -29.6100
+            4   C8x C    17.7549  -28.9100
+            5   C8y C    17.7549  -27.5100
+            6   C8x C    16.5424  -26.8100
+            7   C1y C    18.9860  -26.7990
+            8   C1y C    20.1912  -27.4947
+            9   N1y N    21.4035  -26.7946
+            10  C1x C    21.4035  -25.3946
+            11  C1x C    20.1983  -24.6989
+            12  O2x O    18.9859  -25.3990
+            13  C1a C    22.6351  -27.5054
+            14  C1a C    20.1916  -28.9096
+BOND        15
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   5 1 #Down
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13    7  12 1
+            14    9  13 1
+            15    8  14 1 #Up
+///

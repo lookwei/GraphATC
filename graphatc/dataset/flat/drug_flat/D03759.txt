@@ -1,0 +1,81 @@
+ENTRY       D03759                      Drug
+NAME        Diacetolol hydrochloride (USAN)
+FORMULA     C16H24N2O4. HCl
+EXACT_MASS  344.1503
+MOL_WEIGHT  344.8337
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+             DG01653  Antiarrhythmics
+              DG01806  Class II antiarrhythmic agent
+EFFICACY    Antiarrhythmic, beta-Adrenergic receptor antagonist
+COMMENT     Propranolol derivative
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01464  beta-Adrenergic receptor antagonist (Beta blocker)
+                D03759  Diacetolol hydrochloride
+              DG01653  Antiarrhythmics
+               DG01806  Class II antiarrhythmic agent
+                D03759  Diacetolol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D03759  Diacetolol hydrochloride (USAN)
+DBLINKS     CAS: 69796-04-9
+            PubChem: 17397848
+            LigandBox: D03759
+ATOM        23
+            1   C8y C    30.8733  -17.2924
+            2   C8y C    29.6830  -17.9925
+            3   C8x C    32.1334  -17.9925
+            4   O2a O    30.8733  -15.8922
+            5   C8x C    29.6830  -19.3927
+            6   C5a C    28.4229  -17.2924
+            7   C8x C    32.1334  -19.3227
+            8   C1b C    32.0634  -15.1921
+            9   C8y C    30.9433  -20.0929
+            10  C1a C    27.2326  -17.9925
+            11  O5a O    28.4229  -15.8922
+            12  C1c C    33.2537  -15.8222
+            13  N1b N    30.9433  -21.4932
+            14  C1b C    34.5138  -15.1220
+            15  O1a O    33.2537  -17.2224
+            16  C5a C    29.7530  -22.1932
+            17  N1b N    35.7041  -15.8222
+            18  C1a C    28.4929  -21.4932
+            19  O5a O    29.7530  -23.5935
+            20  C1c C    36.8942  -15.1220
+            21  C1a C    38.1545  -15.7522
+            22  C1a C    36.8942  -13.7219
+            23  X   Cl   40.8150  -19.5328
+BOND        22
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     6  10 1
+            10    6  11 2
+            11    8  12 1
+            12    9  13 1
+            13   12  14 1
+            14   12  15 1
+            15   13  16 1
+            16   14  17 1
+            17   16  18 1
+            18   16  19 2
+            19   17  20 1
+            20   20  21 1
+            21   20  22 1
+            22    7   9 2
+///

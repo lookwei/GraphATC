@@ -1,0 +1,65 @@
+ENTRY       D06196                      Drug
+NAME        Torcitabine (USAN/INN)
+FORMULA     C9H13N3O4
+EXACT_MASS  227.0906
+MOL_WEIGHT  227.2172
+CLASS       Antiviral
+             DG01440  Arabinofuranosyl type antiviral
+REMARK      Same as: C21554
+EFFICACY    Antiviral
+COMMENT     Treatment of hepatitis B infection
+TARGET      HBV reverse transcriptase [KO:K21037]
+  PATHWAY   ko03230(K21037)  Viral genome structure
+            ko03240(K21037)  Viral replication
+            ko05161(K21037)  Hepatitis B
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG01440  Arabinofuranosyl type antiviral
+               D06196  Torcitabine
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HBV reverse transcriptase inhibitor
+                D06196  Torcitabine (USAN/INN)
+            Prodrugs [br08324.html]
+             D06196
+DBLINKS     CAS: 40093-94-5
+            PubChem: 47207854
+            PDB-CCD: LDC
+            LigandBox: D06196
+ATOM        16
+            1   C1y C    18.3106  -15.9773
+            2   N4y N    19.6440  -15.5577
+            3   O2x O    17.1672  -15.1140
+            4   C1x C    17.8965  -17.2725
+            5   C8y C    20.8438  -16.2612
+            6   C8x C    19.6538  -14.1739
+            7   C1y C    16.0413  -15.9541
+            8   C1y C    16.4788  -17.2725
+            9   N5x N    22.0649  -15.5782
+            10  O5x O    20.8447  -17.6665
+            11  C8x C    20.8655  -13.4750
+            12  C1b C    14.7054  -15.5282
+            13  O1a O    16.0471  -18.6376
+            14  C8y C    22.0621  -14.1912
+            15  O1a O    13.6729  -16.4674
+            16  N1a N    23.2946  -13.5056
+BOND        17
+            1     1   2 1 #Down
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 2
+            10    6  11 2
+            11    7  12 1 #Down
+            12    8  13 1 #Up
+            13    9  14 2
+            14   12  15 1
+            15   14  16 1
+            16    7   8 1
+            17   11  14 1
+///

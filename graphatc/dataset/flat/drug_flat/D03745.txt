@@ -1,0 +1,134 @@
+ENTRY       D03745                      Drug
+NAME        Zankiren hydrochloride (USAN)
+FORMULA     C35H55N5O6S2. HCl
+EXACT_MASS  741.3361
+MOL_WEIGHT  742.432
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01923  Renin inhibitor
+             DG03231  Antihypertensive
+              DG01923  Renin inhibitor
+EFFICACY    Antihypertensive, Renin inhibitor
+TARGET      REN [HSA:5972] [KO:K01380]
+  PATHWAY   hsa04614(5972)  Renin-angiotensin system
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01923  Renin inhibitor
+                D03745  Zankiren hydrochloride
+              DG03231  Antihypertensive
+               DG01923  Renin inhibitor
+                D03745  Zankiren hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Aspartic peptidases
+                REN
+                 D03745  Zankiren hydrochloride (USAN)
+DBLINKS     CAS: 138810-64-7
+            PubChem: 17397834
+            LigandBox: D03745
+ATOM        49
+            1   C1c C    24.8875  -19.6247
+            2   C1b C    24.8875  -21.3017
+            3   C5a C    26.1446  -18.9263
+            4   N1b N    23.7003  -18.9263
+            5   N1b N    27.3318  -19.6247
+            6   O5a O    26.1446  -17.5296
+            7   C5a C    22.5131  -19.6247
+            8   C1c C    28.5190  -18.9263
+            9   C1c C    21.2560  -18.9263
+            10  O5a O    22.5131  -20.9516
+            11  C1b C    28.5190  -17.0407
+            12  C1c C    29.7761  -19.6247
+            13  C1b C    21.2560  -17.1117
+            14  C1b C    20.0688  -19.6247
+            15  C1y C    29.4967  -16.2027
+            16  C1c C    30.9633  -18.9263
+            17  O1a O    29.7062  -20.7420
+            18  C8y C    22.5131  -16.4134
+            19  C1x C    30.6840  -16.9011
+            20  C1x C    29.4967  -14.8060
+            21  C1b C    32.1505  -19.6247
+            22  C8x C    23.7003  -17.1117
+            23  C8x C    22.5131  -15.0166
+            24  C1x C    31.8712  -16.2027
+            25  C1x C    30.6840  -14.1076
+            26  C8x C    24.8875  -16.4134
+            27  C8x C    23.7003  -14.3182
+            28  C1x C    31.8712  -14.8060
+            29  C8x C    24.8875  -15.0166
+            30  O1a O    30.9633  -17.5296
+            31  C8y C    26.0747  -22.0002
+            32  C1c C    33.3658  -18.9362
+            33  C1a C    34.5444  -19.6297
+            34  C1a C    33.3773  -17.5302
+            35  C8x C    26.2095  -23.3904
+            36  S2x S    27.5732  -23.6919
+            37  C8x C    28.2815  -22.4880
+            38  N5x N    27.3553  -21.4424
+            39  S4a S    18.8565  -18.9378
+            40  N1y N    17.6159  -19.6671
+            41  C1x C    16.4176  -18.9875
+            42  C1x C    15.2106  -19.6968
+            43  N1y N    15.2214  -21.0968
+            44  C1x C    16.4196  -21.7763
+            45  C1x C    17.6267  -21.0670
+            46  C1a C    14.0034  -21.8130
+            47  O3c O    19.8465  -17.9479
+            48  O3c O    17.8666  -17.9479
+            49  X   Cl   33.3608  -21.9386
+BOND        51
+            1     1   2 1 #Down
+            2     1   3 1
+            3     1   4 1
+            4     3   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 1
+            8     7   9 1
+            9     7  10 2
+            10    8  11 1 #Up
+            11    8  12 1
+            12    9  13 1 #Up
+            13    9  14 1
+            14   11  15 1
+            15   12  16 1
+            16   12  17 1 #Down
+            17   13  18 1
+            18   15  19 1
+            19   15  20 1
+            20   16  21 1
+            21   18  22 2
+            22   18  23 1
+            23   19  24 1
+            24   20  25 1
+            25   22  26 1
+            26   23  27 2
+            27   24  28 1
+            28   26  29 2
+            29   25  28 1
+            30   27  29 1
+            31   16  30 1 #Up
+            32    2  31 1
+            33   21  32 1
+            34   32  33 1
+            35   32  34 1
+            36   31  35 2
+            37   35  36 1
+            38   36  37 1
+            39   37  38 2
+            40   31  38 1
+            41   14  39 1
+            42   39  40 1
+            43   40  41 1
+            44   41  42 1
+            45   42  43 1
+            46   43  44 1
+            47   44  45 1
+            48   40  45 1
+            49   43  46 1
+            50   39  47 2
+            51   39  48 2
+///

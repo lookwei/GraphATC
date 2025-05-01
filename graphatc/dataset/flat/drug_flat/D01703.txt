@@ -1,0 +1,174 @@
+ENTRY       D01703                      Drug
+NAME        Ciclesonide (JAN/USAN/INN);
+            Alvesco (TN);
+            Omnaris (TN);
+            Zetonna (TN)
+PRODUCT     ALVESCO (Covis Pharma US)
+            OMNARIS (Covis Pharma US)
+            ZETONNA (Covis Pharma US)
+FORMULA     C32H44O7
+EXACT_MASS  540.3087
+MOL_WEIGHT  540.6876
+CLASS       Anti-inflammatory
+             DG01955  Corticosteroid
+              DG02068  Glucocorticoid
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 2290
+            ATC code: R01AD13 R03BA08
+            Product: D01703<JP/US>
+EFFICACY    Antiasthmatic, Anti-inflammatory, Glucocorticoid receptor agonist
+  DISEASE   Allergic rhinitis [DS:H01360]
+            Asthma [DS:H00079]
+COMMENT     Glucocorticoid, acetal derivative
+            Treatment of asthma as prophylactic therapy in adults and adolescents
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AD Corticosteroids
+                 R01AD13 Ciclesonide
+                  D01703  Ciclesonide (JAN/USAN/INN) &lt;JP/US&gt;
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03B OTHER DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES, INHALANTS
+                R03BA Glucocorticoids
+                 R03BA08 Ciclesonide
+                  D01703  Ciclesonide (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Respiratory Tract/Pulmonary Agents
+              Anti-inflammatories, Inhaled Corticosteroids
+               Ciclesonide
+                D01703  Ciclesonide (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              22  Respiratory organ agents
+               229  Miscellaneous
+                2290  Miscellaneous
+                 D01703  Ciclesonide (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               DG02068  Glucocorticoid
+                D01703  Ciclesonide
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D01703  Ciclesonide
+            Drug classes [BR:br08332]
+             Anti-inflammatory
+              DG01955  Corticosteroid
+               D01703  Ciclesonide
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D01703  Ciclesonide (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D01703
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D01703
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D01703
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D01703
+DBLINKS     CAS: 126544-47-6
+            PubChem: 7848766
+            ChEBI: 31397
+            LigandBox: D01703
+            NIKKAJI: J561.842H
+ATOM        39
+            1   C2x C    14.0700  -23.5900
+            2   C5x C    14.0700  -24.9900
+            3   C2x C    15.2600  -25.6900
+            4   C2y C    16.5200  -24.9900
+            5   C1z C    16.5200  -23.5900
+            6   C2x C    15.2600  -22.8900
+            7   C1x C    17.7100  -25.6900
+            8   C1x C    18.9000  -24.9900
+            9   C1y C    18.9000  -23.5900
+            10  C1y C    17.7100  -22.8900
+            11  C1y C    20.1600  -22.8900
+            12  C1z C    20.1600  -21.4900
+            13  C1x C    18.9000  -20.7900
+            14  C1y C    17.7100  -21.4900
+            15  C1x C    22.5400  -22.8900
+            16  C1y C    22.5400  -21.4900
+            17  C1z C    21.3500  -20.7900
+            18  O5x O    12.8800  -25.6900
+            19  C1a C    16.5200  -22.1900
+            20  C1a C    20.1600  -20.0900
+            21  O1a O    16.5200  -20.7900
+            22  C5a C    21.3500  -19.3900
+            23  O5a O    22.5400  -18.6900
+            24  C1b C    20.1600  -18.6900
+            25  O7a O    20.1600  -17.2900
+            26  C7a C    18.9700  -16.5900
+            27  C1c C    17.7800  -17.2900
+            28  O6a O    18.9700  -15.1900
+            29  C1a C    16.5900  -16.5900
+            30  C1a C    17.7800  -18.6900
+            31  O2x O    22.5400  -20.0900
+            32  O2x O    23.9400  -21.1400
+            33  C1y C    23.9400  -20.0900
+            34  C1x C    25.1300  -17.9900
+            35  C1y C    25.1300  -19.3900
+            36  C1x C    26.3200  -20.0900
+            37  C1x C    27.5800  -19.3900
+            38  C1x C    27.5800  -17.9900
+            39  C1x C    26.3200  -17.2900
+BOND        44
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22    5  19 1 #Up
+            23   12  20 1 #Up
+            24   14  21 1 #Up
+            25   17  22 1 #Up
+            26   22  23 2
+            27   22  24 1
+            28   24  25 1
+            29   25  26 1
+            30   26  27 1
+            31   26  28 2
+            32   27  29 1
+            33   27  30 1
+            34   17  31 1
+            35   16  32 1
+            36   31  33 1
+            37   32  33 1
+            38   34  35 1
+            39   35  36 1
+            40   36  37 1
+            41   37  38 1
+            42   38  39 1
+            43   34  39 1
+            44   33  35 1 #Down
+///

@@ -1,0 +1,92 @@
+ENTRY       C06566                      Compound
+NAME        Cephamycin C
+FORMULA     C16H22N4O9S
+EXACT_MASS  446.1107
+MOL_WEIGHT  446.4323
+SEQUENCE    0 Aad  1 Cys  2 Val
+  GENE      pcbAB [UP:P27743]
+  ORGANISM  Nocardia lactamdurans
+  TYPE      NRP
+REACTION    R05303
+PATHWAY     map00311  Penicillin and cephalosporin biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map07012  Cephalosporins - parenteral agents
+MODULE      M00673  Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C
+BRITE       Compounds with biological roles [BR:br08001]
+             Antibiotics
+              beta-Lactams
+               Cephems
+                C06566  Cephamycin C
+            Secondary metabolites in pathway maps [br08011.html]
+             Biosynthetic pathways and modules of secondary metabolites
+              C06566
+DBLINKS     CAS: 38429-35-5
+            PubChem: 8795
+            ChEBI: 3543
+            3DMET: B02071
+            NIKKAJI: J17.435A
+ATOM        30
+            1   C1y C    30.8479  -16.0175
+            2   C1z C    29.4527  -16.0175
+            3   N1y N    30.8421  -17.4069
+            4   S2x S    32.0446  -15.3229
+            5   C5x C    29.4527  -17.4128
+            6   N1b N    28.0517  -16.0175
+            7   O2a O    29.4411  -14.6224
+            8   C2y C    32.0446  -18.0957
+            9   C1x C    33.2472  -16.0175
+            10  O5x O    28.2034  -18.1132
+            11  C5a C    26.8433  -16.7123
+            12  C1a C    28.4370  -13.6241
+            13  C2y C    33.2472  -17.4069
+            14  C6a C    32.0329  -19.5318
+            15  C1b C    25.6349  -16.0175
+            16  O5a O    26.8433  -18.1132
+            17  C1b C    34.4847  -18.1191
+            18  O6a O    30.7894  -20.2440
+            19  O6a O    33.2704  -20.2498
+            20  C1b C    24.4325  -16.7123
+            21  O7a O    35.6872  -17.4128
+            22  C1b C    23.2241  -16.0175
+            23  C7a C    36.8956  -18.1132
+            24  C1c C    22.0214  -16.7123
+            25  N1a N    38.1040  -17.4069
+            26  O6a O    36.8898  -19.5085
+            27  C6a C    20.8130  -16.0175
+            28  N1a N    22.0097  -18.1132
+            29  O6a O    19.6046  -16.7123
+            30  O6a O    20.8073  -14.6224
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Up
+            6     2   7 1 #Down
+            7     3   8 1
+            8     4   9 1
+            9     5  10 2
+            10    6  11 1
+            11    7  12 1
+            12    8  13 2
+            13    8  14 1
+            14   11  15 1
+            15   11  16 2
+            16   13  17 1
+            17   14  18 1
+            18   14  19 2
+            19   15  20 1
+            20   17  21 1
+            21   20  22 1
+            22   21  23 1
+            23   22  24 1
+            24   23  25 1
+            25   23  26 2
+            26   24  27 1
+            27   24  28 1 #Up
+            28   27  29 1
+            29   27  30 2
+            30    3   5 1
+            31    9  13 1
+///

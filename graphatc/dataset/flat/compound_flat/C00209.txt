@@ -1,0 +1,43 @@
+ENTRY       C00209                      Compound
+NAME        Oxalate;
+            Oxalic acid;
+            Ethanedioic acid
+FORMULA     C2H2O4
+EXACT_MASS  89.9953
+MOL_WEIGHT  90.0349
+REACTION    R00273 R00338 R00466 R00522 R00646 R01558 R01559 R07290 
+            R09157 R09486 R10614 R11617
+PATHWAY     map00230  Purine metabolism
+            map00625  Chloroalkane and chloroalkene degradation
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+ENZYME      1.2.3.4         1.2.3.5         1.2.7.10        2.8.3.2         
+            2.8.3.16        2.8.3.19        3.5.1.126       3.7.1.1         
+            3.8.1.-         4.1.1.2         6.2.1.8
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Dicarboxylic acids
+                C00209  Oxalate
+DBLINKS     CAS: 144-62-7
+            PubChem: 3509
+            ChEBI: 16995 30623
+            KNApSAcK: C00001198
+            PDB-CCD: OXD OXL
+            3DMET: B00059
+            NIKKAJI: J2.954H
+ATOM        6
+            1   C6a C    21.5154  -16.5174
+            2   C6a C    22.7246  -15.8226
+            3   O6a O    20.2994  -15.8226
+            4   O6a O    21.5154  -17.9897
+            5   O6a O    23.9406  -16.5174
+            6   O6a O    22.7246  -14.5603
+BOND        5
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+///

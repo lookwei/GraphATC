@@ -1,0 +1,93 @@
+ENTRY       D08538                      Drug
+NAME        Sulfadimethoxine sodium (USP);
+            Bactotril (TN)
+FORMULA     C12H13N4O4S. Na
+EXACT_MASS  332.0555
+MOL_WEIGHT  332.3108
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01786  Long-acting sulfonamide
+REMARK      Same as: C18386
+            ATC code: J01ED01
+            Chemical structure group: DG00600
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+            map07055  Sulfonamide derivatives - overview
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01ED Long-acting sulfonamides
+                 J01ED01 Sulfadimethoxine
+                  D08538  Sulfadimethoxine sodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01786  Long-acting sulfonamide
+                DG00600  Sulfadimethoxine
+                 D08538  Sulfadimethoxine sodium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Long-acting sulfonamide
+                D08538  Sulfadimethoxine sodium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01786  Long-acting sulfonamide
+                DG00600  Sulfadimethoxine
+DBLINKS     CAS: 1037-50-9
+            PubChem: 96025223
+            ChEBI: 81722
+            LigandBox: D08538
+            NIKKAJI: J422.655K
+ATOM        22
+            1   C8x C    22.8200  -21.8400
+            2   C8y C    22.8200  -23.2400
+            3   C8x C    24.0100  -23.9400
+            4   C8x C    25.2000  -23.2400
+            5   C8y C    25.2000  -21.8400
+            6   C8x C    24.0100  -21.1400
+            7   N1a N    21.5600  -23.9400
+            8   S4a S    26.3900  -21.1400
+            9   N1b N    27.5800  -21.8400 #-
+            10  C8y C    28.7700  -21.1400
+            11  C8x C    29.9600  -21.8400
+            12  C8y C    31.2200  -21.1400
+            13  N5x N    31.2200  -19.7400
+            14  C8y C    29.9600  -19.0400
+            15  N5x N    28.7700  -19.7400
+            16  O3c O    27.4400  -20.0900
+            17  O3c O    25.4100  -20.0900
+            18  O2a O    32.4100  -21.8400
+            19  C1a C    33.6000  -21.1400
+            20  O2a O    29.9600  -17.6400
+            21  C1a C    31.2200  -16.9400
+            22  Z   Na   27.3700  -23.7300 #+
+BOND        22
+            1     4   5 1
+            2     5   6 2
+            3     6   1 1
+            4     2   7 1
+            5    10  11 2
+            6    11  12 1
+            7    12  13 2
+            8    13  14 1
+            9    14  15 2
+            10   15  10 1
+            11    1   2 2
+            12    8  16 2
+            13    5   8 1
+            14    8  17 2
+            15    2   3 1
+            16   12  18 1
+            17    8   9 1
+            18   18  19 1
+            19    3   4 2
+            20   14  20 1
+            21    9  10 1
+            22   20  21 1
+///

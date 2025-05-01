@@ -1,0 +1,145 @@
+ENTRY       D05972                      Drug
+NAME        Sultamicillin (USAN/INN)
+FORMULA     C25H30N4O9S2
+EXACT_MASS  594.1454
+MOL_WEIGHT  594.6571
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01479  beta-Lactamase inhibitor
+REMARK      ATC code: J01CR04
+            Chemical structure group: DG00547
+            Product (DG00547): D01668<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor, beta-Lactamase inhibitor
+TARGET      penicillin binding protein
+            beta-lactamases
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CR Combinations of penicillins, incl. beta-lactamase inhibitors
+                 J01CR04 Sultamicillin
+                  D05972  Sultamicillin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00547  Sultamicillin
+                  D05972  Sultamicillin
+              DG01479  beta-Lactamase inhibitor
+               DG00547  Sultamicillin
+                D05972  Sultamicillin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                D05972  Sultamicillin (USAN/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00547  Sultamicillin
+              DG01479  beta-Lactamase inhibitor
+               DG00547  Sultamicillin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                DG00547  Sultamicillin
+DBLINKS     CAS: 76497-13-7
+            PubChem: 47207630
+            LigandBox: D05972
+            NIKKAJI: J34.488E
+ATOM        40
+            1   C1x C    39.3335  -16.1425
+            2   C5x C    39.3335  -17.5838
+            3   N1y N    37.9609  -17.5838
+            4   C1y C    37.9609  -16.1425
+            5   C1y C    36.6569  -17.9956
+            6   C1z C    35.8333  -16.8288
+            7   S2x S    36.6569  -15.7307
+            8   C1a C    34.8724  -17.8583
+            9   C7a C    36.1764  -19.2996
+            10  O7a O    34.8038  -19.2996
+            11  O6a O    37.0000  -20.3977
+            12  O3c O    37.0000  -14.4266
+            13  O3c O    35.6960  -14.7698
+            14  C1a C    34.7809  -15.9474
+            15  C1y C    26.9796  -16.1425
+            16  C5x C    26.9796  -17.5151
+            17  N1y N    28.3522  -17.5151
+            18  C1y C    28.3522  -16.1425
+            19  C1y C    29.6563  -17.9269
+            20  C1z C    30.4799  -16.8288
+            21  S2x S    29.6563  -15.7307
+            22  C1a C    31.4407  -17.7897
+            23  C1a C    31.4407  -15.8679
+            24  C7a C    30.1367  -19.2996
+            25  O7a O    31.5094  -19.2996
+            26  O6a O    29.3131  -20.3977
+            27  N1b N    25.8128  -15.4561
+            28  C5a C    24.6460  -16.1425
+            29  O5x O    25.8128  -18.2701
+            30  O5a O    24.6460  -17.5151
+            31  C1c C    23.4107  -15.4561
+            32  C8y C    22.2439  -16.1425
+            33  N1a N    23.4107  -14.0835
+            34  C8x C    21.0771  -15.4561
+            35  C8x C    19.8417  -16.1425
+            36  C8x C    19.8417  -17.5151
+            37  C8x C    21.0771  -18.2015
+            38  C8x C    22.2439  -17.5151
+            39  C1b C    33.0879  -20.4883
+            40  O5x O    40.5460  -18.2838
+BOND        44
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    5   9 1 #Up
+            11    9  10 1
+            12    9  11 2
+            13    7  12 2
+            14    7  13 2
+            15    6  14 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   15  18 1
+            20   17  19 1
+            21   19  20 1
+            22   20  21 1
+            23   18  21 1
+            24   20  22 1
+            25   20  23 1
+            26   19  24 1 #Down
+            27   24  25 1
+            28   24  26 2
+            29   15  27 1 #Up
+            30   27  28 1
+            31   16  29 2
+            32   28  30 2
+            33   28  31 1
+            34   31  32 1
+            35   31  33 1 #Up
+            36   32  34 2
+            37   34  35 1
+            38   35  36 2
+            39   36  37 1
+            40   37  38 2
+            41   32  38 1
+            42   25  39 1
+            43   10  39 1
+            44    2  40 2
+///

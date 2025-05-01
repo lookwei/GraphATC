@@ -1,0 +1,105 @@
+ENTRY       D03009                      Drug
+NAME        Atrasentan hydrochloride (USAN)
+FORMULA     C29H38N2O6. HCl
+EXACT_MASS  546.2497
+MOL_WEIGHT  547.0828
+CLASS       Cardiovascular agent
+             DG01502  Endothelin receptor antagonist
+EFFICACY    Antineoplastic, Endothelin receptor type A antagonist
+COMMENT     Palliative treatment of bone pain due to metastatic prostate cancer and disease progression
+TARGET      EDNRA [HSA:1909] [KO:K04197]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01502  Endothelin receptor antagonist
+               D03009  Atrasentan hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Endothelin
+                EDNRA
+                 D03009  Atrasentan hydrochloride (USAN)
+DBLINKS     CAS: 195733-43-8
+            PubChem: 17397165
+            LigandBox: D03009
+ATOM        38
+            1   C1y C    26.0400  -21.0700
+            2   C1x C    26.0400  -19.6700
+            3   C8y C    22.4000  -21.7700
+            4   C8y C    22.4000  -23.1700
+            5   C8x C    23.5900  -23.8700
+            6   C8x C    24.8500  -23.1700
+            7   C8y C    24.8500  -21.7700
+            8   C8x C    23.5900  -21.0700
+            9   O2x O    21.0700  -21.3500
+            10  C1x C    20.2300  -22.4700
+            11  O2x O    21.0700  -23.5900
+            12  C1y C    27.3700  -21.4900
+            13  C1y C    28.2100  -20.3700
+            14  N1y N    27.3700  -19.2500
+            15  C6a C    27.7900  -22.8200
+            16  C8y C    29.6100  -20.3700
+            17  O6a O    29.1900  -22.8200
+            18  O6a O    26.9500  -23.9400
+            19  C8x C    30.3100  -21.5600
+            20  C8x C    31.7100  -21.5600
+            21  C8y C    32.4100  -20.3700
+            22  C8x C    31.7100  -19.1800
+            23  C8x C    30.3100  -19.1800
+            24  O2a O    33.8100  -20.3700
+            25  C1a C    34.5100  -21.5600
+            26  C1b C    27.3700  -17.8500
+            27  C5a C    26.1576  -17.1500
+            28  N1c N    24.9621  -17.8404
+            29  O5a O    26.1575  -15.7502
+            30  C1b C    23.7747  -17.1549
+            31  C1b C    24.9620  -19.2497
+            32  C1b C    23.7706  -19.9378
+            33  C1b C    22.5855  -19.2536
+            34  C1a C    21.3931  -19.9423
+            35  C1b C    22.5835  -17.8429
+            36  C1b C    21.3940  -17.1562
+            37  C1a C    20.2039  -17.8435
+            38  X   Cl   32.7600  -24.3600
+BOND        40
+            1     1   2 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   7 1
+            6     7   8 2
+            7     3   8 1
+            8     3   9 1
+            9     9  10 1
+            10   10  11 1
+            11    4  11 1
+            12    1   7 1 #Up
+            13    1  12 1
+            14   12  13 1
+            15   13  14 1
+            16    2  14 1
+            17   12  15 1 #Down
+            18   13  16 1 #Up
+            19   15  17 1
+            20   15  18 2
+            21   16  19 2
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   22  23 2
+            26   16  23 1
+            27   21  24 1
+            28   24  25 1
+            29   14  26 1
+            30   26  27 1
+            31   27  28 1
+            32   27  29 2
+            33   28  30 1
+            34   28  31 1
+            35   31  32 1
+            36   32  33 1
+            37   33  34 1
+            38   30  35 1
+            39   35  36 1
+            40   36  37 1
+///

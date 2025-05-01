@@ -1,0 +1,147 @@
+ENTRY       D00364                      Drug
+NAME        Loratadine (JAN/USP/INN);
+            Claritin (TN)
+PRODUCT
+  GENERIC   LORATADINE (Bryant Ranch Prepack)
+FORMULA     C22H23ClN2O2
+EXACT_MASS  382.1448
+MOL_WEIGHT  382.8832
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Dermatological agent
+             DG03243  Atopic dermatitis agent
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 4490
+            ATC code: R06AX13
+            Product: D00364<JP/US>
+EFFICACY    Antiallergic, H1 receptor antagonist
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+METABOLISM  Enzyme: CYP2D6 [HSA:1565], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07212  Histamine H1 receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AX Other antihistamines for systemic use
+                 R06AX13 Loratadine
+                  D00364  Loratadine (JAN/USP/INN) &lt;JP/US&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              44  Allergic agents
+               449  Miscellaneous
+                4490  Miscellaneous
+                 D00364  Loratadine (JAN/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Loratadine
+                D00364  Loratadine (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                D00364  Loratadine
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D00364  Loratadine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               D00364  Loratadine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00364  Loratadine
+            Drug classes [BR:br08332]
+             Anti-allergic agent
+              DG01482  Histamine receptor H1 antagonist
+               D00364  Loratadine
+             Dermatological agent
+              DG03243  Atopic dermatitis agent
+               D00364  Loratadine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D00364  Loratadine (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00364
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00364
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00364
+            Rx-to-OTC switch list in Japan [br08314.html]
+             D00364
+DBLINKS     CAS: 79794-75-5
+            PubChem: 7847430
+            ChEBI: 6538
+            LigandBox: D00364
+            NIKKAJI: J23.749C
+ATOM        27
+            1   C1x C    14.9552  -13.2773
+            2   C8y C    14.1108  -12.1647
+            3   C8y C    14.4469  -10.8042
+            4   C2y C    15.7114  -10.2245
+            5   C1x C    16.3648  -13.3026
+            6   C8y C    16.9683  -10.8485
+            7   C8y C    17.2556  -12.2210
+            8   C8x C    13.4370   -9.8331
+            9   C8x C    12.0914  -10.2223
+            10  C8y C    11.7553  -11.5828
+            11  C8x C    12.7651  -12.5536
+            12  C8x C    18.5904  -12.6593
+            13  C8x C    19.6375  -11.7223
+            14  C8x C    19.3504  -10.3498
+            15  N5x N    18.0153   -9.9115
+            16  C2y C    15.6631   -8.8458
+            17  X   Cl   10.4237  -11.9675
+            18  C1x C    16.8756   -8.1458
+            19  C1x C    16.8756   -6.7458
+            20  N1y N    15.6631   -6.0458
+            21  C1x C    14.4507   -6.7458
+            22  C1x C    14.4507   -8.1458
+            23  C7a C    15.6628   -4.6201
+            24  O6a O    14.4631   -3.9277
+            25  O7a O    16.8880   -3.9123
+            26  C1b C    18.0903   -4.6062
+            27  C1a C    19.2739   -3.9225
+BOND        30
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    7  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17    6  15 2
+            18    4  16 2
+            19   10  17 1
+            20   16  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 1
+            25   16  22 1
+            26   20  23 1
+            27   23  24 2
+            28   23  25 1
+            29   25  26 1
+            30   26  27 1
+///

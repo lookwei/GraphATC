@@ -1,0 +1,126 @@
+ENTRY       D07283                      Drug
+NAME        Esketamine (USAN/INN)
+FORMULA     C13H16ClNO
+EXACT_MASS  237.092
+MOL_WEIGHT  237.7252
+CLASS       Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+            Metabolizing enzyme substrate
+             DG02919  CYP2B6 substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+             DG02924  UGT substrate
+REMARK      ATC code: N01AX14 N06AX27
+            Chemical structure group: DG01829
+            Product (DG01829): D10627<US>
+EFFICACY    Antidepressant, NMDA receptor antagonist
+COMMENT     Treatment of depression
+TARGET      GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+METABOLISM  Enzyme: CYP2B6 [HSA:1555], CYP3A4 [HSA:1576]; CYP2C9 [HSA:1559], CYP2C19 [HSA:1557], UGT [KO:K00699]
+INTERACTION  
+STR_MAP     map07235  N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N01 ANESTHETICS
+               N01A ANESTHETICS, GENERAL
+                N01AX Other general anesthetics
+                 N01AX14 Esketamine
+                  D07283  Esketamine (USAN/INN)
+              N06 PSYCHOANALEPTICS
+               N06A ANTIDEPRESSANTS
+                N06AX Other antidepressants
+                 N06AX27 Esketamine
+                  D07283  Esketamine (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG01829  Esketamine
+                D07283  Esketamine
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG01829  Esketamine
+                D07283  Esketamine
+              DG01642  CYP2C9 substrate
+               DG01829  Esketamine
+                D07283  Esketamine
+              DG01639  CYP2C19 substrate
+               DG01829  Esketamine
+                D07283  Esketamine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01829  Esketamine
+                 D07283  Esketamine
+              DG02924  UGT substrate
+               DG01829  Esketamine
+                D07283  Esketamine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D07283  Esketamine (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07283
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG01829  Esketamine
+             Metabolizing enzyme substrate
+              DG02919  CYP2B6 substrate
+               DG01829  Esketamine
+              DG01642  CYP2C9 substrate
+               DG01829  Esketamine
+              DG01639  CYP2C19 substrate
+               DG01829  Esketamine
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG01829  Esketamine
+              DG02924  UGT substrate
+               DG01829  Esketamine
+DBLINKS     CAS: 33643-46-8
+            PubChem: 51091620
+            ChEBI: 60799
+            PDB-CCD: JC9
+            LigandBox: D07283
+            NIKKAJI: J238.630E
+ATOM        16
+            1   C1z C    19.3775  -16.0455
+            2   C8y C    18.1910  -16.7434
+            3   C5x C    20.7733  -16.0455
+            4   C1x C    18.6796  -14.8590
+            5   N1b N    20.0754  -17.2319
+            6   C8y C    16.9348  -16.0455
+            7   C8x C    18.1910  -18.1392
+            8   C1x C    21.4712  -14.7892
+            9   O5x O    21.4712  -17.2319
+            10  C1x C    19.3775  -13.6028
+            11  C1a C    19.3775  -18.4882
+            12  C8x C    15.7483  -16.7434
+            13  X   Cl   16.9348  -14.6496
+            14  C8x C    16.9348  -18.8371
+            15  C1x C    20.7733  -13.6028
+            16  C8x C    15.7483  -18.1392
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Down
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12    6  13 1
+            13    7  14 2
+            14    8  15 1
+            15   12  16 2
+            16   10  15 1
+            17   14  16 1
+///

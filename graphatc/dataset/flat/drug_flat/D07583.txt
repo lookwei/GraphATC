@@ -1,0 +1,64 @@
+ENTRY       D07583            Mixture   Drug
+NAME        Phenytoin and phenobarbital;
+            Aleviatin with phenobarbital (TN)
+COMPONENT   Phenytoin [DR:D00512], Phenobarbital [DR:D00506]
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+            Metabolizing enzyme substrate
+             DG01642  CYP2C9 substrate
+             DG01639  CYP2C19 substrate
+            Metabolizing enzyme inducer
+             DG02891  CYP2B6 inducer
+             DG02853  CYP3A/CYP3A4 inducer
+            Transporter inducer
+             DG01893  ABCB1 inducer
+REMARK      Therapeutic category: 1139
+            ATC code: N03AB52
+            Product: D07583<JP>
+EFFICACY    Antiepileptic
+COMMENT     Phenytoin is metabolized by CYP2C9 with some contribution from CYP2C19, and it is an inducer of CYP3A, CYP2B6 and P-gp.
+            Phenobarbital is an inducer of CYP3A.
+METABOLISM  Enzyme: CYP2C9 [HSA:1559]; CYP2C19 [HSA:1557]
+INTERACTION CYP induction: CYP3A [HSA:1576 1577 1551], CYP2B6 [HSA:1555]
+            Transporter induction: ABCB1 [HSA:5243]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AB Hydantoin derivatives
+                 N03AB52 Phenytoin, combinations
+                  D07583  Phenytoin and phenobarbital &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               113  Antiepileptics
+                1139  Others
+                 D07583  Phenytoin and phenobarbital
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D07583  Phenytoin and phenobarbital
+             Metabolizing enzyme substrate
+              DG01642  CYP2C9 substrate
+               D07583  Phenytoin and phenobarbital
+              DG01639  CYP2C19 substrate
+               D07583  Phenytoin and phenobarbital
+             Metabolizing enzyme inducer
+              DG02891  CYP2B6 inducer
+               D07583  Phenytoin and phenobarbital
+              DG02853  CYP3A/CYP3A4 inducer
+               D07583  Phenytoin and phenobarbital
+             Transporter inducer
+              DG01893  ABCB1 inducer
+               D07583  Phenytoin and phenobarbital
+            Drug classes [BR:br08332]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               D07583  Phenytoin and phenobarbital
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D07583
+             Drug transporters
+              D07583
+DBLINKS     PubChem: 96024446
+///

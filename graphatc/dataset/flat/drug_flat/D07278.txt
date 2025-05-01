@@ -1,0 +1,58 @@
+ENTRY       D07278                      Drug
+NAME        Tisopurine (INN);
+            Exuracid (TN)
+FORMULA     C5H4N4S
+EXACT_MASS  152.0157
+MOL_WEIGHT  152.1771
+CLASS       Musculo-skeletal system agent
+             DG03130  Xanthin oxidase inhibitor
+REMARK      ATC code: M04AA02
+EFFICACY    Gout suppressant, Uric acid biosynthesis inhibitor, Xanthine oxidase inhibitor
+TARGET      XDH [HSA:7498] [KO:K00106]
+  PATHWAY   hsa00230(7498)  Purine metabolism
+            hsa04146(7498)  Peroxisome
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M04 ANTIGOUT PREPARATIONS
+               M04A ANTIGOUT PREPARATIONS
+                M04AA Preparations inhibiting uric acid production
+                 M04AA02 Tisopurine
+                  D07278  Tisopurine (INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03130  Xanthin oxidase inhibitor
+               D07278  Tisopurine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Xanthine dehydrogenase/oxidase
+                XDH
+                 D07278  Tisopurine (INN)
+DBLINKS     CAS: 5334-23-6
+            PubChem: 51091616
+            LigandBox: D07278
+            NIKKAJI: J10.584H
+ATOM        10
+            1   C8x C    20.9300  -17.5700
+            2   N5x N    20.9300  -16.1700
+            3   C8y C    19.7400  -15.4700
+            4   C8y C    18.4800  -16.1700
+            5   C8y C    18.4800  -17.5700
+            6   N4x N    19.7400  -18.3400
+            7   C8x C    17.1500  -15.7500
+            8   N5x N    16.3800  -16.8700
+            9   N4x N    17.1500  -18.0600
+            10  S0  S    19.7400  -14.0700
+BOND        11
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    3  10 2
+///

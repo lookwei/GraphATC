@@ -1,0 +1,155 @@
+ENTRY       D08217                      Drug
+NAME        Mibefradil (INN)
+FORMULA     C29H38FN3O3
+EXACT_MASS  495.2897
+MOL_WEIGHT  495.6287
+CLASS       Cardiovascular agent
+             DG01575  Calcium channel blocker
+              DG01573  Calcium channel T type blocker
+            Metabolizing enzyme inhibitor
+             DG01634  CYP1A2 inhibitor
+             DG01645  CYP2D6 inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+REMARK      Same as: C07222
+            ATC code: C08CX01
+            Chemical structure group: DG00328
+EFFICACY    Vasodilator, Calcium channel blocker
+TARGET      CACNA1-T [HSA:8911 8912 8913] [KO:K04856 K04855 K04854]
+            CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04010(775+776+778+779+8911+8912+8913)  MAPK signaling pathway
+            hsa04020(775+776+778+779+8911+8912+8913)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION CYP inhibition: CYP3A [HSA:1576 1577 1551], CYP1A2 [HSA:1544], CYP2D6 [HSA:1565]
+STR_MAP     map07036  Calcium channel blocking drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CX Other selective calcium channel blockers with mainly vascular effects
+                 C08CX01 Mibefradil
+                  D08217  Mibefradil (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG00328  Mibefradil
+                 D08217  Mibefradil
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG00328  Mibefradil
+                D08217  Mibefradil
+              DG01645  CYP2D6 inhibitor
+               DG00328  Mibefradil
+                D08217  Mibefradil
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00328  Mibefradil
+                D08217  Mibefradil
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-T
+                 D08217  Mibefradil (INN)
+                CACNA1-L
+                 D08217  Mibefradil (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08217
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01575  Calcium channel blocker
+               DG01573  Calcium channel T type blocker
+                DG00328  Mibefradil
+             Metabolizing enzyme inhibitor
+              DG01634  CYP1A2 inhibitor
+               DG00328  Mibefradil
+              DG01645  CYP2D6 inhibitor
+               DG00328  Mibefradil
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG00328  Mibefradil
+DBLINKS     CAS: 116644-53-2
+            PubChem: 96024905
+            ChEBI: 6920
+            PDB-CCD: MWV
+            LigandBox: D08217
+            NIKKAJI: J281.718G
+ATOM        36
+            1   C1z C    20.8600  -17.0800
+            2   C1y C    19.7400  -17.7100
+            3   C1x C    20.8600  -15.7500
+            4   C1b C    22.1200  -17.9200
+            5   O7a O    23.1700  -14.8400
+            6   C8y C    18.5500  -17.0100
+            7   C1c C    19.6700  -19.0400
+            8   C1x C    19.8100  -15.0500
+            9   C1b C    23.3100  -17.2900
+            10  C7a C    24.3600  -15.5400
+            11  C8y C    18.5500  -15.6800
+            12  C8x C    17.4300  -17.6400
+            13  C1a C    18.4800  -19.6700
+            14  C1a C    20.7900  -19.8100
+            15  N1c N    24.4300  -17.9900
+            16  C1b C    25.5500  -14.8400
+            17  O6a O    24.3600  -16.9400
+            18  C8x C    17.5000  -14.9800
+            19  C8x C    16.2400  -16.9400
+            20  C1b C    25.6200  -17.3600
+            21  C1a C    24.4300  -19.3900
+            22  O2a O    26.7400  -15.5400
+            23  C8y C    16.2400  -15.6100
+            24  C1b C    26.7400  -18.1300
+            25  C1a C    27.9300  -14.8400
+            26  X   F    15.1200  -14.9100
+            27  C1b C    27.9300  -17.4300
+            28  C8y C    29.1200  -18.2000
+            29  N4x N    29.1200  -19.5300
+            30  N5x N    30.3800  -17.7100
+            31  C8y C    30.5200  -19.8100
+            32  C8y C    31.2200  -18.6900
+            33  C8x C    31.1500  -21.0000
+            34  C8x C    32.5500  -18.6900
+            35  C8x C    32.4800  -21.0000
+            36  C8x C    33.1800  -19.9500
+BOND        39
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     1   5 1 #Up
+            5     2   6 1
+            6     2   7 1 #Up
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    6  11 2
+            11    6  12 1
+            12    7  13 1
+            13    7  14 1
+            14    9  15 1
+            15   10  16 1
+            16   10  17 2
+            17   11  18 1
+            18   12  19 2
+            19   15  20 1
+            20   15  21 1
+            21   16  22 1
+            22   18  23 2
+            23   20  24 1
+            24   22  25 1
+            25   23  26 1
+            26   24  27 1
+            27   27  28 1
+            28   28  29 1
+            29   28  30 2
+            30   29  31 1
+            31   30  32 1
+            32   31  33 1
+            33   32  34 1
+            34   33  35 2
+            35   34  36 2
+            36    8  11 1
+            37   19  23 1
+            38   31  32 2
+            39   35  36 1
+///

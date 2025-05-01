@@ -1,0 +1,82 @@
+ENTRY       D07676                      Drug
+NAME        Chlormidazole hydrochloride;
+            Unfungicid (TN)
+FORMULA     C15H13ClN2. HCl
+EXACT_MASS  292.0534
+MOL_WEIGHT  293.1911
+CLASS       Antifungal
+             DG01883  Imidazole antifungal
+REMARK      ATC code: D01AC04
+            Chemical structure group: DG00364
+EFFICACY    Antifungal, Ergosterol biosynthesis inhibitor
+COMMENT     Imidazole derivative
+TARGET      sterol 14alpha-demethylase [KO:K05917]
+  PATHWAY   ko00100(K05917)  Steroid biosynthesis
+INTERACTION  
+STR_MAP     map07026  Antifungal agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D01 ANTIFUNGALS FOR DERMATOLOGICAL USE
+               D01A ANTIFUNGALS FOR TOPICAL USE
+                D01AC Imidazole and triazole derivatives
+                 D01AC04 Chlormidazole
+                  D07676  Chlormidazole hydrochloride
+            Drug groups [BR:br08330]
+             Antifungal
+              DG01883  Imidazole antifungal
+               DG00364  Chlormidazole
+                D07676  Chlormidazole hydrochloride
+            Antimicrobials [BR:br08307]
+             Antifungals
+              Ergosterol biosynthesis inhibitor
+               Imidazole
+                D07676  Chlormidazole hydrochloride
+            Drug groups [BR:br08330]
+             Antifungal
+              DG01883  Imidazole antifungal
+               DG00364  Chlormidazole
+DBLINKS     CAS: 54118-67-1
+            PubChem: 51091978
+            LigandBox: D07676
+ATOM        19
+            1   C8x C    21.7000  -19.1800
+            2   C8x C    21.7000  -20.5800
+            3   C8x C    22.8900  -21.2800
+            4   C8y C    24.1500  -20.5800
+            5   C8y C    24.1500  -19.1800
+            6   C8x C    22.8900  -18.4800
+            7   N5x N    25.4800  -21.0000
+            8   C8y C    26.2500  -19.8800
+            9   N4y N    25.4800  -18.7600
+            10  C1a C    27.7200  -19.8800
+            11  C1b C    25.4800  -17.3600
+            12  C8y C    24.2900  -16.6600
+            13  C8x C    24.2900  -15.2600
+            14  C8x C    23.1000  -14.5600
+            15  C8y C    21.8400  -15.2600
+            16  C8x C    21.8400  -16.6600
+            17  C8x C    23.1000  -17.3600
+            18  X   Cl   20.6500  -14.5600
+            19  X   Cl   30.8000  -17.7800
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   12  17 1
+            20   15  18 1
+///

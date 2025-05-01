@@ -1,0 +1,78 @@
+ENTRY       C05953                      Compound
+NAME        Prostaglandin A2;
+            PGA2;
+            Medullin
+FORMULA     C20H30O4
+EXACT_MASS  334.2144
+MOL_WEIGHT  334.4498
+REACTION    R02583 R05056
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04726  Serotonergic synapse
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Prostaglandins
+                C05953  Prostaglandin A2
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0301 Prostaglandins
+                C05953  Prostaglandin A2
+DBLINKS     PubChem: 8237
+            ChEBI: 27820
+            LIPIDMAPS: LMFA03010035
+            PDB-CCD: 8SU
+            3DMET: B01927
+            NIKKAJI: J15.713I
+ATOM        24
+            1   C1y C    21.7541  -14.9952
+            2   C1y C    21.7720  -16.3920
+            3   C5x C    20.5199  -14.5142
+            4   C1b C    23.0239  -13.8592
+            5   C2x C    20.4273  -16.7571
+            6   C2b C    22.9775  -17.0701
+            7   C2x C    19.6563  -15.5980
+            8   O5x O    20.1549  -13.1520
+            9   C2b C    24.2294  -14.5547
+            10  C2b C    24.1773  -16.3747
+            11  C2b C    25.6147  -14.5488
+            12  C1c C    25.3827  -17.0527
+            13  C1b C    26.8145  -13.8476
+            14  C1b C    26.5768  -16.3631
+            15  O1a O    25.3770  -18.4554
+            16  C1b C    28.0200  -14.5372
+            17  C1b C    27.7766  -17.0470
+            18  C1b C    29.2140  -13.8360
+            19  C1b C    28.9821  -16.3572
+            20  C6a C    30.4195  -14.5199
+            21  C1b C    30.1877  -17.0411
+            22  O6a O    31.6134  -13.8187
+            23  O6a O    30.4252  -15.9051
+            24  C1a C    31.3932  -16.3456
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     6  10 2
+            10    9  11 2
+            11   10  12 1
+            12   11  13 1
+            13   12  14 1
+            14   12  15 1 #Down
+            15   13  16 1
+            16   14  17 1
+            17   16  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   20  23 2
+            23   21  24 1
+            24    5   7 2
+///

@@ -1,0 +1,102 @@
+ENTRY       C00062                      Compound
+NAME        L-Arginine;
+            (S)-2-Amino-5-guanidinovaleric acid;
+            L-Arg
+FORMULA     C6H14N4O2
+EXACT_MASS  174.1117
+MOL_WEIGHT  174.201
+REMARK      Same as: D02982
+REACTION    R00551 R00552 R00554 R00557 R00558 R00559 R00562 R00563 
+            R00565 R00566 R00567 R00735 R00832 R00912 R01086 R01686 
+            R01886 R01989 R03477 R03646 R05465 R05547 R08197 R09363 
+            R09593 R09785 R10081 R10106 R10107 R10880 R11031 R11032 
+            R11033 R11085 R11604 R11711 R11712 R12506 R12572 R12573 
+            R12706 R12707 R12929
+PATHWAY     map00220  Arginine biosynthesis
+            map00261  Monobactam biosynthesis
+            map00330  Arginine and proline metabolism
+            map00331  Clavulanic acid biosynthesis
+            map00470  D-Amino acid metabolism
+            map00970  Aminoacyl-tRNA biosynthesis
+            map00998  Biosynthesis of various antibiotics
+            map01060  Biosynthesis of plant secondary metabolites
+            map01064  Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+            map02010  ABC transporters
+            map04148  Efferocytosis
+            map04150  mTOR signaling pathway
+            map04974  Protein digestion and absorption
+            map05014  Amyotrophic lateral sclerosis
+            map05022  Pathways of neurodegeneration - multiple diseases
+            map05142  Chagas disease
+            map05146  Amoebiasis
+            map05230  Central carbon metabolism in cancer
+MODULE      M00029  Urea cycle
+            M00047  Creatine pathway
+            M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+            M00134  Polyamine biosynthesis, arginine => ornithine => putrescine
+            M00674  Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate
+            M00736  Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+            M00785  Cycloserine biosynthesis, arginine/serine => cycloserine
+            M00844  Arginine biosynthesis, ornithine => arginine
+            M00845  Arginine biosynthesis, glutamate => acetylcitrulline => arginine
+            M00879  Arginine succinyltransferase pathway, arginine => glutamate
+            M00947  D-Arginine racemization, D-arginine => L-arginine
+NETWORK     nt06033  Glycine, serine and arginine metabolism
+            nt06535  Efferocytosis
+ENZYME      1.4.1.25        1.4.3.25        1.5.1.11        1.5.1.19        
+            1.13.12.1       1.14.11.41      1.14.13.39      1.14.14.47      
+            1.14.20.7       2.1.1.381       2.1.4.1         2.1.4.2         
+            2.1.4.3         2.3.1.109       2.5.1.66        2.6.1.84        
+            2.7.3.3         3.2.2.19        3.5.3.1         3.5.3.6         
+            4.1.1.19        4.3.2.1         5.1.1.9         5.1.1.10        
+            6.1.1.19        6.2.1.63        6.3.2.11        6.3.2.24        
+            6.3.2.30        6.3.2.48
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Common amino acids
+                C00062  Arginine (Arg)
+            Risk category of Japanese OTC drugs [BR:br08312(D02982)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               L-Arginine
+                D02982  Arginine (USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D02982)]
+             Chemicals
+              D02982  L-Arginine
+DBLINKS     CAS: 74-79-3
+            PubChem: 3362
+            ChEBI: 16467
+            KNApSAcK: C00001340
+            PDB-CCD: ARG GND
+            3DMET: B01143
+            NIKKAJI: J9.182K
+ATOM        12
+            1   C1b C    24.1085  -18.0306
+            2   C1b C    25.3110  -18.7488
+            3   C1c C    22.8766  -18.7137
+            4   C1b C    26.5369  -18.0657
+            5   C6a C    21.7324  -17.9664
+            6   N1a N    22.9232  -20.1148
+            7   N1b N    27.7453  -18.7779
+            8   O6a O    20.5065  -18.6494
+            9   O6a O    21.6856  -16.5596
+            10  C2c C    28.9714  -18.1007
+            11  N1a N    30.1739  -18.8129
+            12  N2a N    28.9888  -16.6938
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     3   6 1 #Down
+            6     4   7 1
+            7     5   8 1
+            8     5   9 2
+            9     7  10 1
+            10   10  11 1
+            11   10  12 2
+///

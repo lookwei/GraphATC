@@ -1,0 +1,37 @@
+ENTRY       D10754            Mixture   Drug
+NAME        Lamivudine and raltegravir;
+            Lamivudine and raltegravir potassium;
+            Dutrebis (TN)
+COMPONENT   Lamivudine [DR:D00353], (Raltegravir potassium [DR:D07133] | Raltegravir [DR:D06676])
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+REMARK      ATC code: J05AR16
+EFFICACY    Antiviral
+COMMENT     Treatment of HIV infection
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+            HIV-1 integrase [KO:K24803]
+  PATHWAY   ko03230(K24802+K24803)  Viral genome structure
+            ko03240(K24802+K24803)  Viral replication
+            ko03250(K24802+K24803)  Viral life cycle - HIV-1
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AR Antivirals for treatment of HIV infections, combinations
+                 J05AR16 Lamivudine and raltegravir
+                  D10754  Lamivudine and raltegravir
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               D10754  Lamivudine and raltegravir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV integrase inhibitor
+                D10754  Lamivudine and raltegravir
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10754
+DBLINKS     PubChem: 273220350
+///

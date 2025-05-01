@@ -1,0 +1,145 @@
+ENTRY       D09793                      Drug
+NAME        Ceftizoxime alapivoxil hydrochloride (JAN)
+FORMULA     C22H28N6O8S2. HCl
+EXACT_MASS  604.1177
+MOL_WEIGHT  605.0841
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01776  Third-generation cephalosporin
+             DG01804  Oxyimino beta-lactam
+REMARK      ATC code: J01DD07
+            Chemical structure group: DG00576
+            Product (DG00576): D00923<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Active form of prodrug: Ceftizoxime [DR:D07658]
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DD Third-generation cephalosporins
+                 J01DD07 Ceftizoxime
+                  D09793  Ceftizoxime alapivoxil hydrochloride (JAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00576  Ceftizoxime
+                  D09793  Ceftizoxime alapivoxil hydrochloride
+              DG01776  Third-generation cephalosporin
+               DG00576  Ceftizoxime
+                D09793  Ceftizoxime alapivoxil hydrochloride
+              DG01804  Oxyimino beta-lactam
+               DG00576  Ceftizoxime
+                D09793  Ceftizoxime alapivoxil hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                D09793  Ceftizoxime alapivoxil hydrochloride (JAN)
+            Prodrugs [br08324.html]
+             D09793
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00576  Ceftizoxime
+              DG01776  Third-generation cephalosporin
+               DG00576  Ceftizoxime
+              DG01804  Oxyimino beta-lactam
+               DG00576  Ceftizoxime
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                DG00576  Ceftizoxime
+DBLINKS     PubChem: 124490533
+            LigandBox: D09793
+ATOM        39
+            1   X   Cl   34.1600  -25.3400
+            2   C1y C    28.1400  -28.1400
+            3   N1y N    28.1400  -29.4700
+            4   C2y C    29.4000  -30.1700
+            5   C2x C    30.5900  -29.4700
+            6   C1x C    30.5900  -28.1400
+            7   S2x S    29.4000  -27.4400
+            8   C1y C    26.7400  -28.1400
+            9   C5x C    26.7400  -29.4700
+            10  N1b N    25.5500  -27.4400
+            11  C5a C    24.3600  -28.1400
+            12  O5a O    24.3600  -29.4700
+            13  O5x O    25.5500  -30.1700
+            14  C2c C    23.1700  -27.4400
+            15  C8y C    21.9100  -28.1400
+            16  C8x C    20.7900  -27.3000
+            17  S2x S    19.6700  -28.1400
+            18  C8y C    20.0900  -29.4700
+            19  N5x N    21.4900  -29.4700
+            20  N2b N    23.1700  -25.9700
+            21  C7a C    29.4000  -31.6400
+            22  O7a O    30.5900  -32.3400
+            23  O6a O    28.1400  -32.3400
+            24  O2a O    24.3600  -25.3400
+            25  C1a C    24.3600  -23.9400
+            26  C1b C    31.7800  -31.6400
+            27  O7a O    32.9700  -32.3400
+            28  C7a C    34.1600  -31.6400
+            29  C1d C    35.3500  -32.3400
+            30  O6a O    34.1600  -30.2400
+            31  C1a C    36.6100  -31.6400
+            32  C1a C    35.3500  -33.7400
+            33  C1a C    36.5400  -33.0400
+            34  C5a C    17.7100  -29.4700
+            35  N1b N    18.9000  -30.1700
+            36  C1c C    16.5200  -30.1700
+            37  O5a O    17.7100  -28.0700
+            38  C1a C    15.3300  -29.4700
+            39  N1a N    16.5200  -31.5700
+BOND        40
+            1     2   3 1
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 1
+            6     2   7 1
+            7     2   8 1
+            8     8   9 1
+            9     3   9 1
+            10    8  10 1 #Up
+            11   10  11 1
+            12   11  12 2
+            13    9  13 2
+            14   11  14 1
+            15   14  15 1
+            16   15  16 2
+            17   16  17 1
+            18   17  18 1
+            19   18  19 2
+            20   15  19 1
+            21   14  20 2
+            22    4  21 1
+            23   21  22 1
+            24   21  23 2
+            25   20  24 1
+            26   24  25 1
+            27   22  26 1
+            28   26  27 1
+            29   27  28 1
+            30   28  29 1
+            31   28  30 2
+            32   29  31 1
+            33   29  32 1
+            34   29  33 1
+            35   34  35 1
+            36   35  18 1
+            37   34  36 1
+            38   34  37 2
+            39   36  38 1
+            40   36  39 1 #Up
+///

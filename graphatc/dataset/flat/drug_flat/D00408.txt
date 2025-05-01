@@ -1,0 +1,129 @@
+ENTRY       D00408                      Drug
+NAME        Methyltestosterone (JP18/USP/INN);
+            Android (TN);
+            Testred (TN)
+PRODUCT
+  GENERIC   METHITEST (Amneal Pharmaceuticals of New York LLC)
+            METHYLTESTOSTERONE (Amneal Pharmaceuticals of New York LLC)
+            METHYLTESTOSTERONE (Novitium Pharma LLC)
+FORMULA     C20H30O2
+EXACT_MASS  302.2246
+MOL_WEIGHT  302.451
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+             DG02006  Testosterone
+REMARK      Same as: C07198
+            ATC code: G03BA02 G03EK01
+            Product: D00408<US>
+EFFICACY    Replenisher (androgen), Androgen receptor agonist
+  DISEASE   Hypogonadotropic hypogonadism [DS:H00255]
+            Mammary cancer [DS:H00031]
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+  PATHWAY   hsa04114(367)  Oocyte meiosis
+            hsa05200(367)  Pathways in cancer
+INTERACTION  
+STR_MAP     map07226  Progesterone, androgen and estrogen receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03B ANDROGENS
+                G03BA 3-oxoandrosten (4) derivatives
+                 G03BA02 Methyltestosterone
+                  D00408  Methyltestosterone (JP18/USP/INN) &lt;US&gt;
+               G03E ANDROGENS AND FEMALE SEX HORMONES IN COMBINATION
+                G03EK Androgens and female sex hormones in combination with other drugs
+                 G03EK01 Methyltestosterone
+                  D00408  Methyltestosterone (JP18/USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Androgens
+               Methyltestosterone
+                D00408  Methyltestosterone (JP18/USP/INN)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for  urogenital organs and anus
+              31 Other drugs for  urogenital organs and anus
+               D00408  Methyltestosterone (JP18/USP/INN)
+             Nourishing tonics and health supplements
+              48 Other nourishing tonics and health supplements
+               D00408  Methyltestosterone (JP18/USP/INN)
+             Agents for integumentary system
+              60 Hair remedies (incl. hair growth, hair tonic, anti-dandruff, and antipruritic)
+               D00408  Methyltestosterone (JP18/USP/INN)
+              61 Other agents for integumentary system
+               D00408  Methyltestosterone (JP18/USP/INN)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             First-class OTC drugs
+              Inorganic and organic chemicals
+               Methyltestosterone
+                D00408  Methyltestosterone (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               D00408  Methyltestosterone
+              DG02006  Testosterone
+               D00408  Methyltestosterone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D00408  Methyltestosterone (JP18/USP/INN) &lt;US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00408  Methyltestosterone
+              D00408  Methyltestosterone tablets
+DBLINKS     CAS: 58-18-4
+            PubChem: 7847474
+            ChEBI: 27436
+            LigandBox: D00408
+            NIKKAJI: J1.385D
+ATOM        22
+            1   C1x C    20.2653  -19.1854
+            2   C5x C    20.2653  -20.5401
+            3   C2x C    21.4385  -21.2175
+            4   C2y C    22.6118  -20.5401
+            5   C1z C    22.6118  -19.1854
+            6   C1x C    21.4385  -18.5080
+            7   C1x C    23.7850  -21.2175
+            8   C1x C    24.9582  -20.5401
+            9   C1y C    24.9582  -19.1854
+            10  C1y C    23.7850  -18.5080
+            11  C1y C    26.1315  -18.5080
+            12  C1z C    26.1315  -17.1533
+            13  C1x C    24.9582  -16.4759
+            14  C1x C    23.7850  -17.1533
+            15  C1x C    28.4779  -18.5080
+            16  C1x C    28.4779  -17.1533
+            17  C1z C    27.3047  -16.4759
+            18  O5x O    19.0921  -21.2175
+            19  C1a C    22.6118  -17.8306
+            20  C1a C    26.1315  -15.7985
+            21  O1a O    27.3047  -14.7147
+            22  C1a C    28.4779  -15.7985
+BOND        25
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22    5  19 1 #Up
+            23   12  20 1 #Up
+            24   17  21 1 #Up
+            25   17  22 1 #Down
+///

@@ -1,0 +1,164 @@
+ENTRY       C00031                      Compound
+NAME        D-Glucose;
+            Grape sugar;
+            Dextrose;
+            Glucose;
+            D-Glucopyranose
+FORMULA     C6H12O6
+EXACT_MASS  180.0634
+MOL_WEIGHT  180.1559
+REMARK      Same as: D00009
+COMMENT     alpha-D-Glucose [CPD:C00267]
+            beta-D-Glucose [CPD:C00221]
+REACTION    R00010 R00015 R00028 R00049 R00063 R00299 R00300 R00301 
+            R00302 R00303 R00304 R00305 R00306 R00308 R00327 R00337 
+            R00503 R00534 R00550 R00725 R00801 R00837 R00838 R00839 
+            R00850 R00874 R00952 R00953 R00960 R01006 R01100 R01101 
+            R01139 R01444 R01460 R01498 R01555 R01718 R01790 R01791 
+            R02185 R02558 R02595 R02727 R02738 R02887 R02985 R03075 
+            R03323 R03527 R03604 R03703 R03801 R03802 R03820 R04006 
+            R04094 R04194 R04333 R04409 R04410 R04411 R04498 R04503 
+            R04949 R04998 R05061 R05140 R05141 R05142 R05196 R05804 
+            R05980 R05981 R06040 R06053 R06056 R06058 R06059 R06067 
+            R06069 R06079 R06080 R06087 R06091 R06103 R06104 R06105 
+            R06106 R06107 R06108 R06109 R06112 R06113 R06114 R06115 
+            R06135 R06204 R06620 R07147 R07264 R08404 R08432 R08514 
+            R08819 R08823 R08946 R09039 R09723 R09941 R09943 R10411 
+            R10494 R10525 R10530 R10580 R10581 R11215 R11306 R11682 
+            R11791 R11942 R12208 R12209 R12250 R12983 R12997 R13178 
+            R13191
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00030  Pentose phosphate pathway
+            map00052  Galactose metabolism
+            map00500  Starch and sucrose metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map00521  Streptomycin biosynthesis
+            map00524  Neomycin, kanamycin and gentamicin biosynthesis
+            map00901  Indole alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map02010  ABC transporters
+            map02020  Two-component system
+            map02060  Phosphotransferase system (PTS)
+            map04066  HIF-1 signaling pathway
+            map04068  FoxO signaling pathway
+            map04113  Meiosis - yeast
+            map04148  Efferocytosis
+            map04152  AMPK signaling pathway
+            map04742  Taste transduction
+            map04910  Insulin signaling pathway
+            map04911  Insulin secretion
+            map04917  Prolactin signaling pathway
+            map04922  Glucagon signaling pathway
+            map04930  Type II diabetes mellitus
+            map04931  Insulin resistance
+            map04932  Non-alcoholic fatty liver disease
+            map04933  AGE-RAGE signaling pathway in diabetic complications
+            map04973  Carbohydrate digestion and absorption
+            map04976  Bile secretion
+            map04978  Mineral absorption
+            map05111  Biofilm formation - Vibrio cholerae
+            map05230  Central carbon metabolism in cancer
+            map05415  Diabetic cardiomyopathy
+NETWORK     nt06017  Glycogen metabolism
+            nt06535  Efferocytosis
+ENZYME      1.1.1.118       1.1.1.119       1.1.1.121       1.1.1.359       
+            1.1.1.360       1.1.1.432       1.1.3.10        1.1.5.2         
+            1.1.5.9         1.1.99.28       1.1.99.35       2.3.1.72        
+            2.3.1.90        2.3.1.91        2.3.1.92        2.3.1.103       
+            2.3.1.143       2.3.1.152       2.3.1.-         2.4.1.8         
+            2.4.1.9         2.4.1.10        2.4.1.20        2.4.1.22        
+            2.4.1.25        2.4.1.31        2.4.1.64        2.4.1.99        
+            2.4.1.230       2.4.1.245       2.4.1.279       2.4.1.281       
+            2.7.1.1         2.7.1.2         2.7.1.41        2.7.1.42        
+            2.7.1.61        2.7.1.62        2.7.1.63        2.7.1.142       
+            2.7.1.147       2.7.1.199       3.1.1.33        3.1.3.9         
+            3.1.3.10        3.1.3.58        3.1.4.48        3.1.6.3         
+            3.2.1.3         3.2.1.10        3.2.1.20        3.2.1.21        
+            3.2.1.22        3.2.1.23        3.2.1.26        3.2.1.28        
+            3.2.1.39        3.2.1.42        3.2.1.45        3.2.1.48        
+            3.2.1.58        3.2.1.74        3.2.1.86        3.2.1.93        
+            3.2.1.104       3.2.1.105       3.2.1.107       3.2.1.108       
+            3.2.1.117       3.2.1.118       3.2.1.122       3.2.1.125       
+            3.2.1.126       3.2.1.147       3.2.1.175       3.2.1.182       
+            3.2.1.186       3.2.1.188       3.2.1.189       3.2.1.205       
+            3.2.1.206       3.2.1.207       3.2.1.208       3.2.1.216       
+            3.2.1.220       3.2.1.-         4.2.99.22       4.2.99.23
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C00031  D-Glucose
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00009)]
+             B BLOOD AND BLOOD FORMING ORGANS
+              B05 BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS
+               B05C IRRIGATING SOLUTIONS
+                B05CX Other irrigating solutions
+                 B05CX01 Glucose
+                  D00009  Glucose (JP18) &lt;JP&gt;
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CA Tests for diabetes
+                 V04CA02 Glucose
+                  D00009  Glucose (JP18) &lt;JP&gt;
+              V06 GENERAL NUTRIENTS
+               V06D OTHER NUTRIENTS
+                V06DC Carbohydrates
+                 V06DC01 Glucose
+                  D00009  Glucose (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301(D00009)]
+             3  Agents affecting metabolism
+              32  Nutrients, tonics
+               323  Saccharide preparations
+                3231  Glucoses
+                 D00009  Glucose (JP18); Purified glucose (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312(D00009)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Glucose
+                D00009  Glucose (JP18)
+            Animal drugs in Japan [BR:br08331]
+             96  Agents affecting metabolism
+              964  Saccharide preparations and blood substitutes
+               9641  Dextrose and preparations
+                C00031  D-Glucose
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00009)]
+             Chemicals
+              D00009  Glucose
+              D00009  Purified glucose
+              D00009  Glucose injection
+DBLINKS     CAS: 50-99-7 2280-44-6
+            PubChem: 3333
+            ChEBI: 4167
+            KNApSAcK: C00042470
+            PDB-CCD: BGC GLC
+            3DMET: B04623
+            NIKKAJI: J4.109B
+ATOM        12
+            1   C1y C    24.2781  -16.5372
+            2   C1y C    24.2781  -17.9377
+            3   O2x O    25.4860  -15.8370
+            4   C1b C    23.0643  -15.8370
+            5   C1y C    25.4860  -18.6379
+            6   O1a O    23.0643  -18.6379
+            7   C1y C    26.7055  -16.5372
+            8   O1a O    22.0023  -16.7474
+            9   C1y C    26.7055  -17.9377
+            10  O1a O    25.4860  -20.0383
+            11  O1a O    27.9134  -15.8370
+            12  O1a O    27.9134  -18.6379
+BOND        12
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Up
+            10    7  11 1 #Either
+            11    9  12 1 #Down
+            12    7   9 1
+///

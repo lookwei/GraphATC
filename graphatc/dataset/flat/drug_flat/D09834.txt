@@ -1,0 +1,117 @@
+ENTRY       D09834                      Drug
+NAME        Levormeloxifene fumarate (JAN)
+FORMULA     C30H35NO3. C4H4O4
+EXACT_MASS  573.2727
+MOL_WEIGHT  573.676
+CLASS       Hormonal agent
+             DG01619  Estrogen receptor antagonist/modulator
+              DG01621  Selective estrogen receptor modulator
+EFFICACY    Osteoporosis agent, Selective estrogen receptor modulator (SERM)
+COMMENT     Clomifene, tamoxifen derivative
+TARGET      NR3A (ESR) [HSA:2099 2100] [KO:K08550 K08551]
+  PATHWAY   hsa04915(2099+2100)  Estrogen signaling pathway
+            hsa04961(2099)  Endocrine and other factor-regulated calcium reabsorption
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01619  Estrogen receptor antagonist/modulator
+               DG01621  Selective estrogen receptor modulator
+                D09834  Levormeloxifene fumarate
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               Estrogen receptor
+                NR3A (ESR)
+                 D09834  Levormeloxifene fumarate (JAN)
+DBLINKS     CAS: 199583-01-2
+            PubChem: 124490573
+            LigandBox: D09834
+ATOM        42
+            1   C6a C    29.3710  -22.5666
+            2   C2b C    30.5816  -23.2656
+            3   O6a O    28.1605  -23.2656
+            4   C2b C    31.7752  -22.5762
+            5   C6a C    32.9607  -23.2607
+            6   O6a O    34.1501  -22.5737
+            7   O6a O    29.3710  -21.1688
+            8   O6a O    32.9609  -24.6632
+            9   C8y C    16.8700  -22.5400
+            10  C8x C    16.8700  -23.9400
+            11  C8x C    18.0600  -24.6400
+            12  C8y C    19.3200  -23.9400
+            13  C8x C    19.3200  -22.5400
+            14  C8x C    18.0600  -21.8400
+            15  O2a O    20.5100  -24.7100
+            16  C1b C    21.7700  -24.0100
+            17  C1b C    22.9600  -24.6400
+            18  N1y N    24.1500  -23.9400
+            19  C1x C    25.4644  -24.4065
+            20  C1x C    26.2758  -23.2443
+            21  C1x C    25.4032  -22.1630
+            22  C1x C    24.1268  -22.6084
+            23  C1y C    15.6800  -21.8400
+            24  C1y C    15.6800  -20.4400
+            25  C1z C    14.4200  -19.7400
+            26  O2x O    13.2300  -20.4400
+            27  C8y C    13.2300  -21.8400
+            28  C8y C    14.4200  -22.5400
+            29  C8x C    11.9700  -22.5400
+            30  C8y C    11.9700  -23.9400
+            31  C8x C    13.2300  -24.6400
+            32  C8x C    14.4200  -23.9400
+            33  O2a O    10.7800  -24.6400
+            34  C1a C     9.5900  -23.9400
+            35  C8y C    16.8700  -19.7400
+            36  C8x C    18.0600  -20.4400
+            37  C8x C    19.3200  -19.7400
+            38  C8x C    19.3200  -18.3400
+            39  C8x C    18.1300  -17.6400
+            40  C8x C    16.8700  -18.3400
+            41  C1a C    13.4400  -18.7600
+            42  C1a C    15.4000  -18.7600
+BOND        45
+            1     1   2 1
+            2     1   3 1
+            3     2   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   7 2
+            7     5   8 2
+            8     9  10 2
+            9    10  11 1
+            10   11  12 2
+            11   12  13 1
+            12   13  14 2
+            13    9  14 1
+            14   12  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   18  19 1
+            19   19  20 1
+            20   20  21 1
+            21   21  22 1
+            22   18  22 1
+            23   23   9 1 #Down
+            24   23  24 1
+            25   24  25 1
+            26   25  26 1
+            27   26  27 1
+            28   27  28 1
+            29   23  28 1
+            30   27  29 2
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   28  32 2
+            35   30  33 1
+            36   33  34 1
+            37   24  35 1 #Up
+            38   35  36 2
+            39   36  37 1
+            40   37  38 2
+            41   38  39 1
+            42   39  40 2
+            43   35  40 1
+            44   25  41 1
+            45   25  42 1
+///

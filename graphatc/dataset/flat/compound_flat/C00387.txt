@@ -1,0 +1,71 @@
+ENTRY       C00387                      Compound
+NAME        Guanosine
+FORMULA     C10H13N5O5
+EXACT_MASS  283.0917
+MOL_WEIGHT  283.2407
+REACTION    R01227 R01228 R01677 R02145 R02147 R02148
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+            map02010  ABC transporters
+MODULE      M00959  Guanine ribonucleotide degradation, GMP => Urate
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate
+ENZYME      2.4.2.1         2.4.2.15        2.7.1.73        3.1.3.5         
+            3.1.3.6         3.1.3.-         3.2.2.1         3.5.4.15
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleosides
+               Ribonucleosides
+                C00387  Guanosine (G)
+DBLINKS     CAS: 118-00-3
+            PubChem: 3677
+            ChEBI: 16750
+            KNApSAcK: C00019679
+            PDB-CCD: GMP
+            3DMET: B01233
+            NIKKAJI: J10.076E
+ATOM        20
+            1   C8y C    28.1103  -19.2792
+            2   N4y N    27.0433  -18.5271
+            3   C8y C    29.3522  -18.3697
+            4   N5x N    28.2444  -20.6844
+            5   C1y C    25.7605  -18.9353
+            6   C8x C    27.5273  -17.1278
+            7   N5x N    28.9791  -17.1278
+            8   C8y C    30.6116  -18.9120
+            9   C8y C    29.5680  -21.2733
+            10  O2x O    24.6178  -18.0956
+            11  C1y C    25.3232  -20.1888
+            12  N4x N    30.7807  -20.3988
+            13  O5x O    31.7252  -18.1073
+            14  N1a N    29.7021  -22.6436
+            15  C1y C    23.5156  -18.8886
+            16  C1y C    23.9355  -20.1888
+            17  O1a O    26.2503  -21.2266
+            18  C1b C    22.2096  -18.4688
+            19  O1a O    23.1717  -21.3550
+            20  O1a O    21.1776  -19.4017
+BOND        22
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     5   2 1 #Up
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1
+            11    8  12 1
+            12    8  13 2
+            13    9  14 1
+            14   10  15 1
+            15   11  16 1
+            16   11  17 1 #Down
+            17   15  18 1 #Up
+            18   16  19 1 #Down
+            19   18  20 1
+            20    6   7 2
+            21    9  12 1
+            22   15  16 1
+///

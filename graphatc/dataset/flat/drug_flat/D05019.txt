@@ -1,0 +1,110 @@
+ENTRY       D05019                      Drug
+NAME        Metyrapone tartrate (USAN);
+            Metopirone ditartrate (TN)
+FORMULA     C14H14N2O. (C4H6O6)2
+EXACT_MASS  526.1435
+MOL_WEIGHT  526.4474
+REMARK      ATC code: V04CD01
+            Chemical structure group: DG01166
+            Product (DG01166): D00410<JP/US>
+EFFICACY    Diagnostic aid (pituitary function determination)
+COMMENT     corticosteroid synthesis inhibitor
+TARGET      CYP11B1 [HSA:1584] [KO:K00497]
+  PATHWAY   hsa00140(1584)  Steroid hormone biosynthesis
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V04 DIAGNOSTIC AGENTS
+               V04C OTHER DIAGNOSTIC AGENTS
+                V04CD Tests for pituitary function
+                 V04CD01 Metyrapone
+                  D05019  Metyrapone tartrate (USAN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Cytochrome P450
+                CYP11B1
+                 D05019  Metyrapone tartrate (USAN)
+DBLINKS     CAS: 908-35-0
+            PubChem: 47206746
+            LigandBox: D05019
+ATOM        37
+            1   C8x C    34.3843  -23.9561
+            2   N5x N    34.3843  -25.3573
+            3   C8x C    35.5978  -26.0579
+            4   C8y C    36.8113  -25.3573
+            5   C8x C    36.8113  -23.9561
+            6   C8x C    35.5978  -23.2554
+            7   C5a C    38.0435  -26.0690
+            8   C1d C    39.2498  -25.3726
+            9   C8y C    40.4332  -26.0560
+            10  O5a O    38.0432  -27.4591
+            11  C8x C    40.4331  -27.4590
+            12  C8x C    41.6464  -28.1597
+            13  C8x C    42.8600  -27.4592
+            14  N5x N    42.8601  -26.0562
+            15  C8x C    41.6466  -25.3555
+            16  C1a C    40.2401  -24.3823
+            17  C1a C    38.2596  -24.3823
+            18  C1c C    49.5390  -26.3788
+            19  C1c C    50.7274  -25.6798
+            20  C6a C    48.2806  -25.6798
+            21  O1a O    49.5390  -27.7771
+            22  C6a C    51.9159  -26.3788
+            23  O1a O    50.7274  -24.2815
+            24  O6a O    47.0921  -26.3788
+            25  O6a O    48.2806  -24.2815
+            26  O6a O    53.1744  -25.6798
+            27  O6a O    51.9159  -27.7771
+            28  C1c C    49.5390  -26.3788
+            29  C1c C    50.7274  -25.6798
+            30  C6a C    51.9159  -26.3788
+            31  O6a O    53.1744  -25.6798
+            32  O6a O    51.9159  -27.7771
+            33  O1a O    50.7274  -24.2815
+            34  C6a C    48.2806  -25.6798
+            35  O6a O    47.0921  -26.3788
+            36  O6a O    48.2806  -24.2815
+            37  O1a O    49.5390  -27.7771
+BOND        36
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    7  10 2
+            11    9  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16    9  15 1
+            17    8  16 1
+            18    8  17 1
+            19   18  19 1
+            20   18  20 1
+            21   18  21 1 #Up
+            22   19  22 1
+            23   19  23 1 #Up
+            24   20  24 1
+            25   20  25 2
+            26   22  26 1
+            27   22  27 2
+            28   28  29 1
+            29   28  34 1
+            30   28  37 1 #Up
+            31   29  30 1
+            32   29  33 1 #Up
+            33   34  35 1
+            34   34  36 2
+            35   30  31 1
+            36   30  32 2
+BRACKET     1    45.2200  -28.7000   45.2200  -23.0300
+            1    55.1600  -23.0300   55.1600  -28.7000
+            1  2
+  ORIGINAL  1   18  19  22  26  27  23  20  24  25  21
+  REPEAT    1   28  29  30  31  32  33  34  35  36  37
+///

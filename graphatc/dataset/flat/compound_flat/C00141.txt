@@ -1,0 +1,73 @@
+ENTRY       C00141                      Compound
+NAME        3-Methyl-2-oxobutanoic acid;
+            3-Methyl-2-oxobutyric acid;
+            3-Methyl-2-oxobutanoate;
+            2-Oxo-3-methylbutanoate;
+            2-Oxoisovalerate;
+            2-Oxoisopentanoate;
+            alpha-Ketovaline;
+            2-Ketovaline;
+            2-Keto-3-methylbutyric acid;
+            alpha-Ketoisovalerate
+FORMULA     C5H8O3
+EXACT_MASS  116.0473
+MOL_WEIGHT  116.1152
+REACTION    R01209 R01210 R01211 R01212 R01213 R01214 R01215 R01216 
+            R01226 R01434 R01701 R02200 R04441 R07160 R07599
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00770  Pantothenate and CoA biosynthesis
+            map00785  Lipoic acid metabolism
+            map00966  Glucosinolate biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01240  Biosynthesis of cofactors
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+            M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+            M00432  Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
+            M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+NETWORK     nt06024  Valine, leucine and isoleucine degradation
+            nt06032  Lipoic acid metabolism
+ENZYME      1.1.1.84        1.2.1.25        1.2.4.4         1.2.7.7         
+            1.4.1.8         1.4.1.9         1.4.1.23        2.1.2.11        
+            2.3.3.13        2.6.1.6         2.6.1.32        2.6.1.42        
+            2.6.1.66        4.1.2.12        4.2.1.9
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               2-Oxocarboxylic acids
+                C00141  2-Oxoisovalerate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0102 Branched fatty acids
+                C00141  3-Methyl-2-oxobutanoic acid
+DBLINKS     CAS: 759-05-7
+            PubChem: 3441
+            ChEBI: 11851 16530
+            LIPIDMAPS: LMFA01020274
+            KNApSAcK: C00007623
+            PDB-CCD: KIV
+            3DMET: B00039
+            NIKKAJI: J39.558G
+ATOM        8
+            1   C5a C    22.1200  -16.5574
+            2   C1c C    20.9110  -15.8564
+            3   C6a C    23.3290  -15.8564
+            4   O5a O    22.1200  -18.2327
+            5   C1a C    19.6957  -16.5574
+            6   C1a C    20.9110  -14.4546
+            7   O6a O    24.5443  -16.5574
+            8   O6a O    23.3290  -14.4546
+BOND        7
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+///

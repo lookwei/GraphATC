@@ -1,0 +1,99 @@
+ENTRY       D04794                      Drug
+NAME        Lupitidine hydrochloride (USAN)
+FORMULA     C21H27N5O2S. 3HCl
+EXACT_MASS  521.1186
+MOL_WEIGHT  522.9192
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01481  Histamine receptor H2 antagonist
+EFFICACY    Anti-ulcerative, H2 receptor antagonist (veterinary)
+TARGET      HRH2 [HSA:3274] [KO:K04150]
+  PATHWAY   hsa04080(3274)  Neuroactive ligand-receptor interaction
+            hsa04971(3274)  Gastric acid secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01481  Histamine receptor H2 antagonist
+                D04794  Lupitidine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH2
+                 D04794  Lupitidine hydrochloride (USAN)
+DBLINKS     CAS: 72716-75-7
+            PubChem: 47206604
+            LigandBox: D04794
+            NIKKAJI: J402.603I
+ATOM        32
+            1   X   Cl   28.1246  -22.9939
+            2   C8x C    13.7200  -17.9900
+            3   C8y C    13.3000  -19.3200
+            4   O2x O    14.4200  -20.1600
+            5   C8y C    15.5400  -19.3200
+            6   C8x C    15.1200  -17.9900
+            7   C1b C    16.7300  -20.0200
+            8   S2a S    17.9200  -19.3200
+            9   C1b C    19.1100  -20.0200
+            10  C1b C    20.3000  -19.3200
+            11  N1b N    21.4900  -20.0200
+            12  C8y C    22.6800  -19.3200
+            13  N4x N    23.8700  -20.0200
+            14  C8x C    25.1300  -19.3200
+            15  C8y C    25.1300  -17.9200
+            16  C8y C    23.9400  -17.2200
+            17  N5x N    22.6800  -17.9200
+            18  O5x O    23.9400  -15.8200
+            19  C1b C    26.3200  -17.2200
+            20  C8y C    27.5100  -17.9200
+            21  C8x C    27.5100  -19.3200
+            22  N5x N    28.7000  -20.0200
+            23  C8y C    29.9600  -19.3200
+            24  C8x C    29.9600  -17.9200
+            25  C8x C    28.7700  -17.2200
+            26  C1a C    31.1500  -20.0200
+            27  N1c N    10.9200  -19.3200
+            28  C1b C    12.1100  -20.0200
+            29  C1a C     9.7300  -20.0200
+            30  C1a C    10.9200  -17.9200
+            31  X   Cl   28.1246  -22.9939
+            32  X   Cl   28.1246  -22.9939
+BOND        31
+            1     2   3 2
+            2     3   4 1
+            3     4   5 1
+            4     5   6 2
+            5     2   6 1
+            6     5   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 2
+            15   15  16 1
+            16   16  17 1
+            17   12  17 2
+            18   16  18 2
+            19   15  19 1
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   23  24 1
+            25   24  25 2
+            26   20  25 1
+            27   23  26 1
+            28   27  28 1
+            29   28   3 1
+            30   27  29 1
+            31   27  30 1
+BRACKET     1    26.5300  -23.8000   26.5300  -22.0500
+            1    28.7700  -22.0500   28.7700  -23.8000
+            1  3
+  ORIGINAL  1    1
+  REPEAT    1   31  32
+///

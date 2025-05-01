@@ -1,0 +1,89 @@
+ENTRY       D06135                      Drug
+NAME        Ticabesone propionate (USAN)
+FORMULA     C25H32F2O5S
+EXACT_MASS  482.1939
+MOL_WEIGHT  482.5804
+EFFICACY    Anti-inflammatory, Glucocorticoid receptor agonist
+TARGET      NR3C1 (GR) [HSA:2908] [KO:K05771]
+  PATHWAY   hsa04080(2908)  Neuroactive ligand-receptor interaction
+BRITE       Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C1 (GR)
+                 D06135  Ticabesone propionate (USAN)
+DBLINKS     CAS: 73205-13-7
+            PubChem: 47207793
+            LigandBox: D06135
+ATOM        33
+            1   C1y C    32.1381  -18.9808
+            2   C1z C    30.9764  -18.2964
+            3   C1y C    33.2997  -18.3138
+            4   C1x C    32.1381  -20.3266
+            5   C1z C    29.8089  -18.9694
+            6   C1y C    30.9879  -16.9565
+            7   C1z C    33.3170  -16.9738
+            8   C1x C    35.6289  -18.3426
+            9   C1y C    30.9648  -20.9937
+            10  C2y C    29.8032  -20.3151
+            11  C2x C    28.6415  -18.2908
+            12  C1x C    32.1612  -16.2894
+            13  C1z C    34.4902  -16.3181
+            14  C1y C    35.6460  -17.0025
+            15  C2x C    28.6415  -20.9878
+            16  C2x C    27.4684  -18.9694
+            17  C5a C    35.7956  -15.2862
+            18  O7a O    34.4959  -14.6159
+            19  C5x C    27.4684  -20.3151
+            20  O5x O    26.3067  -20.9878
+            21  X   F    30.9534  -19.5846
+            22  C1a C    29.8089  -17.5889
+            23  C1a C    33.3170  -15.5932
+            24  X   F    30.9567  -22.4207
+            25  O1a O    29.7670  -16.2387
+            26  O5a O    37.0193  -15.9313
+            27  S2a S    35.7421  -13.8998
+            28  C1a C    36.9476  -13.1400
+            29  C7a C    33.3453  -13.8385
+            30  C1b C    32.0808  -14.4541
+            31  O6a O    33.3047  -12.4373
+            32  C1a C    30.9199  -13.6699
+            33  C1a C    37.0430  -17.0025
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    5  11 1
+            11    6  12 1
+            12    7  13 1
+            13    8  14 1
+            14   10  15 2
+            15   11  16 2
+            16   13  17 1 #Up
+            17   13  18 1 #Down
+            18   15  19 1
+            19   19  20 2
+            20    7  12 1
+            21    9  10 1
+            22   13  14 1
+            23   16  19 1
+            24    2  21 1 #Down
+            25    5  22 1 #Up
+            26    7  23 1 #Up
+            27    9  24 1 #Down
+            28    6  25 1 #Up
+            29   17  26 2
+            30   17  27 1
+            31   27  28 1
+            32   18  29 1
+            33   29  30 1
+            34   29  31 2
+            35   30  32 1
+            36   14  33 1 #Down
+///

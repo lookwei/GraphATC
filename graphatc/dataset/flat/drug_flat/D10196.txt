@@ -1,0 +1,121 @@
+ENTRY       D10196                      Drug
+NAME        Ipragliflozin (INN)
+FORMULA     C21H21FO5S
+EXACT_MASS  404.1094
+MOL_WEIGHT  404.4518
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01794  SGLT2 inhibitor
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+              DG03190  UGT2B7 substrate
+REMARK      ATC code: A10BK05
+            Chemical structure group: DG01248
+            Product (DG01248): D10200<JP>
+            Product (mixture): D11064<JP>
+EFFICACY    Antidiabetic, SGLT-2 inhibitor
+COMMENT     Phlorizin derivative
+TARGET      SLC5A2 (SGLT2) [HSA:6524] [KO:K14382]
+METABOLISM  Enzyme: UGT2B7 [HSA:7364]
+INTERACTION  
+STR_MAP     map07051  Antidiabetics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A10 DRUGS USED IN DIABETES
+               A10B BLOOD GLUCOSE LOWERING DRUGS, EXCL. INSULINS
+                A10BK Sodium-glucose co-transporter 2 (SGLT2) inhibitors
+                 A10BK05 Ipragliflozin
+                  D10196  Ipragliflozin (INN)
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01794  SGLT2 inhibitor
+                DG01248  Ipragliflozin
+                 D10196  Ipragliflozin
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03190  UGT2B7 substrate
+                DG01248  Ipragliflozin
+                 D10196  Ipragliflozin
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC5
+                SLC5A2 (SGLT2)
+                 D10196  Ipragliflozin (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10196
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01794  SGLT2 inhibitor
+                DG01248  Ipragliflozin
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG03190  UGT2B7 substrate
+                DG01248  Ipragliflozin
+DBLINKS     CAS: 761423-87-4
+            PubChem: 163312229
+ATOM        28
+            1   O2x O    13.0900  -18.2700
+            2   C1y C    13.0900  -19.6700
+            3   C1y C    11.9000  -20.3700
+            4   C1y C    10.6400  -19.6700
+            5   C1y C    10.6400  -18.2700
+            6   C1y C    11.9000  -17.5700
+            7   C1b C    11.9000  -16.1700
+            8   O1a O     9.4500  -20.3700
+            9   C8y C    14.2800  -20.3700
+            10  O1a O    13.0900  -15.4700
+            11  O1a O     9.4500  -17.5700
+            12  O1a O    11.9000  -21.7700
+            13  C8x C    15.4700  -19.6700
+            14  C8y C    16.7300  -20.3700
+            15  C8y C    16.7300  -21.7700
+            16  C8x C    15.5400  -22.4700
+            17  C8x C    14.2800  -21.7700
+            18  X   F    17.9200  -22.4700
+            19  C1b C    17.9200  -19.6700
+            20  C8y C    19.1100  -20.3700
+            21  S2x S    20.4400  -20.0200
+            22  C8y C    21.2100  -21.1400
+            23  C8y C    20.3700  -22.1900
+            24  C8x C    19.1100  -21.7000
+            25  C8x C    22.6100  -21.3500
+            26  C8x C    23.1000  -22.6800
+            27  C8x C    22.2600  -23.7300
+            28  C8x C    20.8600  -23.5200
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     6   7 1 #Up
+            8     4   8 1 #Up
+            9     2   9 1 #Up
+            10    7  10 1
+            11    5  11 1 #Down
+            12    3  12 1 #Down
+            13    9  13 2
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18    9  17 1
+            19   15  18 1
+            20   14  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   20  24 2
+            27   22  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   23  28 2
+///

@@ -1,0 +1,44 @@
+ENTRY       C03145                      Compound
+NAME        N-Formylmethionine;
+            N-Formyl-L-methionine
+FORMULA     C6H11NO3S
+EXACT_MASS  177.046
+MOL_WEIGHT  177.2214
+REACTION    R00653
+PATHWAY     map00270  Cysteine and methionine metabolism
+ENZYME      3.5.1.31
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C03145  N-Formylmethionine
+DBLINKS     CAS: 4289-98-9
+            PubChem: 6033
+            ChEBI: 16552
+            PDB-CCD: FME
+            3DMET: B01634
+            NIKKAJI: J208.507K
+ATOM        11
+            1   C1a C    31.6624  -18.8574
+            2   S2a S    30.4046  -18.1586
+            3   C1b C    29.2167  -18.8574
+            4   C1b C    28.0288  -18.1586
+            5   C1c C    26.7711  -18.8574
+            6   C6a C    25.5832  -18.1586
+            7   O6a O    24.3953  -18.8574
+            8   O6a O    25.5832  -16.7611
+            9   N1b N    26.7711  -20.2549
+            10  C4a C    27.9590  -20.9536
+            11  O4a O    29.1647  -20.2701
+BOND        10
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     6   8 2
+            8     5   9 1 #Down
+            9     9  10 1
+            10   10  11 2
+///

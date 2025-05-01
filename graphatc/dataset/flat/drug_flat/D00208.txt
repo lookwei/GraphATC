@@ -1,0 +1,127 @@
+ENTRY       D00208                      Drug
+NAME        Mitomycin (USP/INN);
+            Mitomycin C (JP18);
+            MMC;
+            Jelmyto (TN);
+            Mitomycin (TN);
+            Muamycin (TN)
+PRODUCT     JELMYTO (UroGen Pharma)
+            MITOSOL (Mobius Therapeutics LLC)
+  GENERIC   MITOMYCIN (Accord Healthcare)
+            MITOMYCIN (Archis Pharma LLC)
+            MITOMYCIN (Archis Pharma LLC)
+            MITOMYCIN (BluePoint Laboratories)
+            MITOMYCIN (Fresenius Kabi USA)
+            MITOMYCIN (Fresenius Kabi USA)
+            MITOMYCIN (Gland Pharma Limited)
+            MITOMYCIN (Gland Pharma Limited)
+            MITOMYCIN (Hikma Pharmaceuticals USA)
+            MITOMYCIN (Hikma Pharmaceuticals USA)
+            MITOMYCIN (Meitheal Pharmaceuticals)
+            MITOMYCIN (Meitheal Pharmaceuticals)
+            MITOMYCIN (Sagent Pharmaceuticals)
+            MITOMYCIN (Sagent Pharmaceuticals)
+            MUTAMYCIN (Accord BioPharma)
+FORMULA     C15H18N4O5
+EXACT_MASS  334.1277
+MOL_WEIGHT  334.3272
+SOURCE      Streptomyces caespitosus [TAX:53502]
+REMARK      Same as: C06681
+            Therapeutic category: 1317 4231
+            ATC code: L01DC03
+            Product: D00208<JP/US>
+EFFICACY    Antineoplastic
+  DISEASE   Glaucoma [DS:H00612]
+            Upper tract urothelial cancer [DS:H00022]
+            Adenocarcinoma of the stomach or pancreas [DS:H00018 H00019]
+COMMENT     DNA synthesis inhibitor
+TARGET      DNA
+INTERACTION  
+STR_MAP     map07040  Antineoplastics - alkylating agents
+            map07042  Antineoplastics - agents from natural products
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DC Other cytotoxic antibiotics
+                 L01DC03 Mitomycin
+                  D00208  Mitomycin (USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antineoplastics, Other
+               Mitomycin
+                D00208  Mitomycin (USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1317  Ophthalmic antibiotics
+                 D00208  Mitomycin (USP/INN); Mitomycin C (JP18)
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               423  Antibiotics
+                4231  Mytomycin C
+                 D00208  Mitomycin (USP/INN); Mitomycin C (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00208  Mitomycin C
+              D00208  Mitomycin C for injection
+DBLINKS     CAS: 50-07-7
+            PubChem: 7847275
+            ChEBI: 27504
+            LigandBox: D00208
+            NIKKAJI: J64.512E
+ATOM        24
+            1   C1z C    26.7153  -18.5085
+            2   N1y N    25.8935  -19.6917
+            3   C1y C    28.0734  -18.9398
+            4   C1y C    25.8935  -17.3777
+            5   C2y C    24.5646  -19.2603
+            6   C1x C    26.7445  -20.7467
+            7   C1y C    28.0967  -20.3444
+            8   N1x N    29.3090  -19.6509
+            9   C2y C    24.5646  -17.8557
+            10  C1b C    26.3074  -16.0547
+            11  C5x C    23.3581  -19.9714
+            12  C5x C    23.3581  -17.1213
+            13  O7a O    25.3573  -15.0289
+            14  C2y C    22.1049  -19.2953
+            15  O5x O    23.3581  -21.3645
+            16  C2y C    22.0875  -17.8674
+            17  O5x O    23.3990  -15.7574
+            18  C7a C    25.7537  -13.6360
+            19  C1a C    20.8694  -20.0006
+            20  N1a N    20.8694  -17.1796
+            21  N1a N    27.1700  -13.3270
+            22  O6a O    24.8443  -12.5926
+            23  O2a O    27.4153  -17.2960
+            24  C1a C    28.8400  -16.6662
+BOND        27
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 1
+            9     4  10 1 #Up
+            10    5  11 1
+            11    9  12 1
+            12   10  13 1
+            13   11  14 1
+            14   11  15 2
+            15   12  16 1
+            16   12  17 2
+            17   13  18 1
+            18   14  19 1
+            19   16  20 1
+            20   18  21 1
+            21   18  22 2
+            22    5   9 2
+            23    6   7 1
+            24    7   8 1
+            25   14  16 2
+            26    1  23 1 #Down
+            27   23  24 1
+///

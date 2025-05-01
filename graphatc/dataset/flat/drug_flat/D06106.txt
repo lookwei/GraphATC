@@ -1,0 +1,92 @@
+ENTRY       D06106                      Drug
+NAME        Thiamylal
+FORMULA     C12H18N2O2S
+EXACT_MASS  254.1089
+MOL_WEIGHT  254.3485
+CLASS       Neuropsychiatric agent
+             DG01837  Barbiturate sedative-hypnotics
+             DG01567  GABA-A receptor agonist
+             DG02030  Anesthetics
+              DG02027  General anesthetics
+               DG02025  Barbiturate anesthetics
+REMARK      Same as: C07846
+            Chemical structure group: DG01377
+            Product (DG01377): D00713<JP>
+EFFICACY    Anesthetic (intravenous)
+COMMENT     Barbiturates
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+INTERACTION  
+STR_MAP     map07230  GABA-A receptor agonists/antagonists
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG01377  Thiamylal
+                D06106  Thiamylal
+              DG01567  GABA-A receptor agonist
+               DG01377  Thiamylal
+                D06106  Thiamylal
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02025  Barbiturate anesthetics
+                 DG01377  Thiamylal
+                  D06106  Thiamylal
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D06106  Thiamylal
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01837  Barbiturate sedative-hypnotics
+               DG01377  Thiamylal
+              DG01567  GABA-A receptor agonist
+               DG01377  Thiamylal
+              DG02030  Anesthetics
+               DG02027  General anesthetics
+                DG02025  Barbiturate anesthetics
+                 DG01377  Thiamylal
+DBLINKS     CAS: 77-27-0
+            PubChem: 47207764
+            ChEBI: 9536
+            LigandBox: D06106
+            NIKKAJI: J38.391K
+ATOM        17
+            1   C1z C    24.6981  -18.6027
+            2   C5x C    24.6981  -20.0096
+            3   C5x C    23.4897  -17.9080
+            4   C1c C    26.0933  -18.6027
+            5   C1b C    24.6922  -17.2074
+            6   N1x N    23.4897  -20.7159
+            7   O5x O    25.9006  -20.7159
+            8   N1x N    22.2696  -18.6027
+            9   O5x O    23.5421  -16.5011
+            10  C1b C    26.7822  -17.3943
+            11  C2b C    25.9006  -16.5128
+            12  C2y C    22.2696  -20.0096
+            13  C1b C    28.1775  -17.3943
+            14  C2a C    25.9006  -15.1117
+            15  S0  S    21.0494  -20.7102
+            16  C1a C    28.8722  -16.1799
+            17  C1a C    26.8083  -19.8334
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     2   7 2
+            7     3   8 1
+            8     3   9 2
+            9     4  10 1
+            10    5  11 1
+            11    6  12 1
+            12   10  13 1
+            13   11  14 2
+            14   12  15 2
+            15   13  16 1
+            16    8  12 1
+            17    4  17 1
+///

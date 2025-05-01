@@ -1,0 +1,131 @@
+ENTRY       C00032                      Compound
+NAME        Heme;
+            Haem;
+            Protoheme;
+            Heme B;
+            Protoheme IX
+FORMULA     C34H32FeN4O4
+EXACT_MASS  616.1773
+MOL_WEIGHT  616.4873
+REACTION    R00310 R00311 R00312 R00313 R00314 R02480 R03684 R04977 
+            R07411 R10468 R10510 R11522 R11579 R11700 R11741 R11742 
+            R11816 R11817 R12002 R12455
+PATHWAY     map00860  Porphyrin metabolism
+            map01060  Biosynthesis of plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01240  Biosynthesis of cofactors
+            map02010  ABC transporters
+            map04216  Ferroptosis
+            map04978  Mineral absorption
+MODULE      M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            M00847  Heme biosynthesis, archaea, siroheme => heme
+            M00868  Heme biosynthesis, animals and fungi, glycine => heme
+            M00926  Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme
+NETWORK     nt06011  Heme biosynthesis
+ENZYME      1.3.98.5        1.3.98.6        1.14.14.18      1.14.15.20      
+            1.14.99.48      1.14.99.57      1.14.99.58      2.1.1.342       
+            2.5.1.141       4.4.1.17        4.98.1.1
+BRITE       Compounds with biological roles [BR:br08001]
+             Vitamins and cofactors
+              Cofactors
+               Coenzymes
+                C00032  Heme B
+DBLINKS     CAS: 14875-96-8
+            PubChem: 3334
+            ChEBI: 17627 26355 30413
+            PDB-CCD: HEM
+ATOM        43
+            1   C8y C    38.3311  -24.4093
+            2   C8x C    37.0877  -24.9517
+            3   N4y N    38.4255  -23.0539
+            4   C8y C    39.6633  -24.9220
+            5   C8y C    35.8081  -24.4409
+            6   C8y C    39.7458  -22.7390
+            7   C8y C    40.4724  -23.8868
+            8   C8y C    34.6012  -25.0465
+            9   N5x N    35.5935  -23.0902
+            10  C8x C    40.2335  -21.5190
+            11  N4y N    35.4990  -20.1625
+            12  C8y C    33.6306  -24.1414
+            13  C8y C    34.2616  -22.8698
+            14  C8y C    39.7341  -20.3003
+            15  C8y C    35.6717  -18.8120
+            16  C8y C    34.1485  -20.4006
+            17  C8x C    33.7205  -21.6685
+            18  C8y C    40.3465  -19.0685
+            19  N5x N    38.3894  -20.0914
+            20  C8y C    34.4400  -18.2358
+            21  C8x C    36.9035  -18.1530
+            22  C8y C    33.5071  -19.2108
+            23  C8y C    39.3772  -18.1286
+            24  C8y C    38.1700  -18.7596
+            25  C2b C    34.4284  -16.8619
+            26  C1a C    32.1390  -19.2108
+            27  C1a C    39.3656  -16.7545
+            28  C2a C    35.6129  -16.1613
+            29  C2b C    41.7030  -18.8429
+            30  C2a C    42.6178  -19.9540
+            31  C1b C    39.6262  -26.3663
+            32  C1b C    40.8679  -27.1168
+            33  C6a C    40.8314  -28.5599
+            34  O6a O    42.0729  -29.3105
+            35  O6a O    39.5674  -29.2595
+            36  C1b C    34.5461  -26.3913
+            37  C1b C    33.3485  -27.0231
+            38  C6a C    33.2935  -28.3678
+            39  O6a O    32.0959  -28.9925
+            40  O6a O    34.4292  -29.0947
+            41  C1a C    32.1885  -24.2077
+            42  C1a C    41.7812  -23.9500
+            43  Z   Fe   36.9209  -21.6094
+BOND        48
+            1    11  16 1
+            2    13  17 2
+            3    14  18 1
+            4    14  19 2
+            5    15  20 2
+            6    15  21 1
+            7    16  22 2
+            8    18  23 2
+            9    19  24 1
+            10   20  25 1
+            11   22  26 1
+            12   23  27 1
+            13    6   7 1
+            14   12  13 1
+            15   16  17 1
+            16   20  22 1
+            17   21  24 2
+            18   23  24 1
+            19   25  28 2
+            20   18  29 1
+            21   29  30 2
+            22    1   2 2
+            23    4  31 1
+            24    1   3 1
+            25   31  32 1
+            26    1   4 1
+            27   32  33 1
+            28    2   5 1
+            29   33  34 2
+            30    3   6 1
+            31   33  35 1
+            32    4   7 2
+            33    8  36 1
+            34    5   8 1
+            35   36  37 1
+            36    5   9 2
+            37   37  38 1
+            38    6  10 2
+            39   38  39 1
+            40    8  12 2
+            41   38  40 2
+            42    9  13 1
+            43   12  41 1
+            44   10  14 1
+            45    7  42 1
+            46   11  15 1
+            47   11  43 1
+            48    3  43 1
+///

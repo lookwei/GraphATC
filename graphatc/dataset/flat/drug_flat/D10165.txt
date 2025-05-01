@@ -1,0 +1,112 @@
+ENTRY       D10165                      Drug
+NAME        Setrobuvir (USAN)
+FORMULA     C25H25FN4O6S2
+EXACT_MASS  560.12
+MOL_WEIGHT  560.6176
+CLASS       Antiviral
+             DG03198  Anti-HCV agent
+              DG02000  HCV NS5B polymerase inhibitor
+EFFICACY    Antiviral, NS5B polymerase inhibitor
+COMMENT     HCV NS5B is RNA-dependent RNA polymerase(RdRP).
+            Treatment of hepatitis C
+TARGET      HCV NS5B polymerase [KO:K22472]
+  PATHWAY   ko03230(K22472)  Viral genome structure
+            ko03240(K22472)  Viral replication
+            ko05160(K22472)  Hepatitis C
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03198  Anti-HCV agent
+               DG02000  HCV NS5B polymerase inhibitor
+                D10165  Setrobuvir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D10165  Setrobuvir (USAN)
+DBLINKS     CAS: 1071517-39-9
+            PubChem: 135626883
+            LigandBox: D10165
+ATOM        38
+            1   C8y C    15.1200  -18.2700
+            2   C8y C    15.1200  -19.6700
+            3   N4x N    16.3324  -20.3700
+            4   C8y C    17.5449  -19.6700
+            5   N5x N    17.5449  -18.2700
+            6   S2x S    16.3324  -17.5700
+            7   C8x C    13.9076  -17.5700
+            8   C8y C    12.6951  -18.2700
+            9   C8x C    12.6951  -19.6700
+            10  C8x C    13.9076  -20.3700
+            11  N1b N    11.4640  -17.5590
+            12  S4a S    10.2588  -18.2547
+            13  C1a C     9.0765  -17.5719
+            14  O3c O     9.5588  -19.4671
+            15  O3c O    10.8312  -19.4670
+            16  O3c O    17.0324  -16.3576
+            17  O3c O    15.6324  -16.3576
+            18  C2y C    18.7760  -20.3810
+            19  C5x C    18.7757  -21.7699
+            20  N1y N    19.9880  -22.4702
+            21  C1y C    21.2006  -21.7705
+            22  C1y C    21.2009  -20.3816
+            23  C2y C    19.9886  -19.6813
+            24  C1y C    22.4128  -22.4707
+            25  C1x C    23.6254  -21.7710
+            26  C1x C    23.6257  -20.3821
+            27  C1y C    22.4135  -19.6819
+            28  O5x O    17.5513  -22.4765
+            29  C1b C    19.9877  -23.8696
+            30  C8y C    18.7994  -24.5557
+            31  C8x C    17.6161  -23.8725
+            32  C8x C    16.4037  -24.5724
+            33  C8y C    16.4036  -25.9724
+            34  C8x C    17.5869  -26.6556
+            35  C8x C    18.7994  -25.9557
+            36  X   F    15.1747  -26.6821
+            37  O1a O    19.9887  -18.2704
+            38  C1x C    21.7128  -21.1183
+BOND        43
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     1   7 2
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11    2  10 2
+            12    8  11 1
+            13   11  12 1
+            14   12  13 1
+            15   12  14 2
+            16   12  15 2
+            17    6  16 2
+            18    6  17 2
+            19    4  18 1
+            20   18  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   18  23 2
+            26   21  24 1
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   22  27 1
+            31   19  28 2
+            32   20  29 1
+            33   29  30 1
+            34   30  31 2
+            35   31  32 1
+            36   32  33 2
+            37   33  34 1
+            38   34  35 2
+            39   30  35 1
+            40   33  36 1
+            41   23  37 1
+            42   24  38 1 #Down
+            43   27  38 1 #Down
+///

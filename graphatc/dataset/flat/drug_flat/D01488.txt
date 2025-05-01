@@ -1,0 +1,42 @@
+ENTRY       D01488                      Drug
+NAME        Calcium glycerophosphate (JAN);
+            Calcium beta-glycerophosphate;
+            Calcium glycerophosphate (TN)
+FORMULA     C3H7O6P. Ca
+EXACT_MASS  209.9606
+MOL_WEIGHT  210.1358
+REMARK      Same as: C12935
+EFFICACY    Supplement (calcium)
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Calcium glycerophosphate
+                D01488  Calcium glycerophosphate (JAN)
+DBLINKS     CAS: 27214-00-2
+            PubChem: 7848551
+            ChEBI: 31336
+            LigandBox: D01488
+            NIKKAJI: J245.555B
+ATOM        11
+            1   O1a O    15.6554  -12.7378
+            2   C1b C    16.8656  -12.0371
+            3   C1c C    18.0758  -12.7378
+            4   C1b C    19.2860  -12.0371
+            5   O1a O    20.4962  -12.7378
+            6   O2b O    18.0758  -14.1390
+            7   P1b P    18.0688  -15.5403
+            8   O1c O    19.4701  -15.5403 #-
+            9   O1c O    16.6675  -15.5403
+            10  O1c O    18.0617  -16.9416 #-
+            11  Z   Ca   21.6002  -16.7718 #2+
+BOND        9
+            1     3   6 1
+            2     2   3 1
+            3     6   7 1
+            4     7   8 1
+            5     3   4 1
+            6     7   9 2
+            7     1   2 1
+            8     7  10 1
+            9     4   5 1
+///

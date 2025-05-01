@@ -1,0 +1,166 @@
+ENTRY       D07674                      Drug
+NAME        Chloramphenicol stearate;
+            Quemicetina (TN)
+FORMULA     C29H46Cl2N2O6
+EXACT_MASS  588.2733
+MOL_WEIGHT  589.5913
+CLASS       Antibacterial
+             DG01576  Amphenicol type antibacterial
+REMARK      ATC code: D06AX02 D10AF03 G01AA05 J01BA01 S01AA01 S02AA01 S03AA08
+            Chemical structure group: DG00399
+            Product (DG00399): D00104<JP> D02185<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     Amphenicol derivative
+            Active form of prodrug: Chloramphenicol [DR:D00104]
+TARGET      50S ribosomal subunit
+  PATHWAY   ko03010(K01980)  Ribosome
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AX Other antibiotics for topical use
+                 D06AX02 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+              D10 ANTI-ACNE PREPARATIONS
+               D10A ANTI-ACNE PREPARATIONS FOR TOPICAL USE
+                D10AF Antiinfectives for treatment of acne
+                 D10AF03 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G01 GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+               G01A ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS
+                G01AA Antibiotics
+                 G01AA05 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01B AMPHENICOLS
+                J01BA Amphenicols
+                 J01BA01 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA01 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA01 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+              S03 OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS
+               S03A ANTIINFECTIVES
+                S03AA Antiinfectives
+                 S03AA08 Chloramphenicol
+                  D07674  Chloramphenicol stearate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01576  Amphenicol type antibacterial
+               DG00399  Chloramphenicol
+                D07674  Chloramphenicol stearate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Amphenicol
+                D07674  Chloramphenicol stearate
+            Prodrugs [br08324.html]
+             D07674
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01576  Amphenicol type antibacterial
+               DG00399  Chloramphenicol
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Amphenicol
+                DG00399  Chloramphenicol
+            Prodrugs [br08324.html(DG00399)]
+             DG00399
+DBLINKS     CAS: 16255-48-4
+            PubChem: 51091976
+            ChEBI: 177426
+            LigandBox: D07674
+            NIKKAJI: J286.850D
+ATOM        39
+            1   C8y C     8.9879  -15.5006
+            2   C1c C     8.9879  -16.9031
+            3   C8x C     7.7958  -14.7994
+            4   C8x C    10.2501  -14.7994
+            5   C1c C    10.2501  -17.6043
+            6   O1a O     7.7958  -17.6043
+            7   C8x C     7.7958  -13.3268
+            8   C8x C    10.2501  -13.3268
+            9   N1b N    11.4422  -16.9031
+            10  C1b C    10.2500  -19.0068
+            11  C8y C     8.9879  -12.6255
+            12  C5a C    12.6343  -17.6043
+            13  O7a O     9.0579  -19.7081
+            14  N2b N     8.9879  -11.2231 #+
+            15  C1c C    13.8966  -16.9031
+            16  O5a O    12.6343  -19.0068
+            17  O3a O     7.7958  -10.5218
+            18  O3a O    10.2501  -10.5218 #-
+            19  X   Cl   15.0887  -17.6043
+            20  X   Cl   13.8966  -15.5006
+            21  C7a C     9.0579  -21.1105
+            22  O6a O     7.8658  -21.8118
+            23  C1b C    10.2500  -21.8118
+            24  C1b C    11.5122  -21.1105
+            25  C1b C    12.7043  -21.8118
+            26  C1b C    13.8964  -21.1105
+            27  C1b C    15.0885  -21.8118
+            28  C1b C    16.3508  -21.1105
+            29  C1b C    17.5429  -21.8118
+            30  C1b C    18.7350  -21.1105
+            31  C1b C    19.9271  -21.8118
+            32  C1b C    21.1192  -21.1105
+            33  C1b C    22.3814  -21.8118
+            34  C1b C    23.5735  -21.1807
+            35  C1b C    24.7657  -21.8118
+            36  C1b C    25.9578  -21.1807
+            37  C1b C    27.1499  -21.8118
+            38  C1b C    28.3379  -21.0665
+            39  C1a C    29.5696  -21.7184
+BOND        39
+            1    15  19 1
+            2    15  20 1
+            3     8  11 1
+            4    13  21 1
+            5     1   2 1
+            6    21  22 2
+            7     1   3 2
+            8    21  23 1
+            9     1   4 1
+            10   23  24 1
+            11    2   5 1
+            12   24  25 1
+            13    2   6 1 #Down
+            14   25  26 1
+            15    3   7 1
+            16   26  27 1
+            17    4   8 2
+            18   27  28 1
+            19    5   9 1
+            20   28  29 1
+            21    5  10 1
+            22   29  30 1
+            23    7  11 2
+            24   30  31 1
+            25    9  12 1
+            26   31  32 1
+            27   10  13 1
+            28   32  33 1
+            29   11  14 1
+            30   33  34 1
+            31   12  15 1
+            32   34  35 1
+            33   12  16 2
+            34   35  36 1
+            35   14  17 2
+            36   36  37 1
+            37   14  18 1
+            38   37  38 1
+            39   38  39 1
+///

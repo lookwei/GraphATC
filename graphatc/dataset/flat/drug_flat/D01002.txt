@@ -1,0 +1,114 @@
+ENTRY       D01002                      Drug
+NAME        Cyclopentolate hydrochloride (JP18/USP);
+            Cyclogyl (TN)
+PRODUCT
+  GENERIC   CYCLOGYL (Alcon Laboratories)
+            CYCLOPENTOLATE (Akorn)
+            CYCLOPENTOLATE HYDROCHLORIDE (Akorn)
+            CYCLOPENTOLATE HYDROCHLORIDE (Bausch & Lomb Incorporated)
+            CYCLOPENTOLATE HYDROCHLORIDE (Sandoz)
+FORMULA     C17H25NO3. HCl
+EXACT_MASS  327.1601
+MOL_WEIGHT  327.8462
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+REMARK      Therapeutic category: 1311
+            ATC code: S01FA04
+            Chemical structure group: DG01141
+            Product (DG01141): D01002<JP/US>
+            Product (mixture): D11698<US>
+EFFICACY    Mydriatic, Muscarinic acetylcholine receptor antagonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07220  Cholinergic and anticholinergic drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01F MYDRIATICS AND CYCLOPLEGICS
+                S01FA Anticholinergics
+                 S01FA04 Cyclopentolate
+                  D01002  Cyclopentolate hydrochloride (JP18/USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Ophthalmic Agents
+              Ophthalmic Agents, Other
+               Cycloplegic Mydriatics
+                Cyclopentolate
+                 D01002  Cyclopentolate hydrochloride (JP18/USP)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1311  Mydriatic agents
+                 D01002  Cyclopentolate hydrochloride (JP18/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01141  Cyclopentolate
+                D01002  Cyclopentolate hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D01002  Cyclopentolate hydrochloride (JP18/USP) &lt;JP/US&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01002  Cyclopentolate hydrochloride
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG01141  Cyclopentolate
+DBLINKS     CAS: 5870-29-1
+            PubChem: 7848065
+            ChEBI: 4025
+            LigandBox: D01002
+            NIKKAJI: J220.042B
+ATOM        22
+            1   X   Cl   29.4700  -22.1900
+            2   C8x C    25.9700  -22.7500
+            3   C8x C    25.9700  -24.1500
+            4   C8x C    24.7100  -24.8500
+            5   C8x C    23.5200  -24.1500
+            6   C8y C    23.5200  -22.7500
+            7   C8x C    24.7100  -22.0500
+            8   C1c C    22.2600  -22.0500
+            9   C7a C    21.0700  -22.7500
+            10  C1z C    22.2600  -20.6500
+            11  C1x C    21.1400  -19.8100
+            12  C1x C    21.5600  -18.4800
+            13  C1x C    22.9600  -18.4800
+            14  C1x C    23.3800  -19.8100
+            15  O7a O    19.8800  -22.0500
+            16  C1b C    18.6900  -22.7500
+            17  O6a O    21.0700  -24.1500
+            18  C1b C    17.5000  -22.0500
+            19  N1c N    16.2400  -22.7500
+            20  C1a C    15.0500  -22.0500
+            21  O1a O    23.6600  -20.6500
+            22  C1a C    16.2400  -24.1500
+BOND        22
+            1     2   3 2
+            2     3   4 1
+            3     4   5 2
+            4     5   6 1
+            5     6   7 2
+            6     2   7 1
+            7     6   8 1
+            8     8   9 1
+            9     8  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   10  14 1
+            15    9  15 1
+            16   15  16 1
+            17    9  17 2
+            18   16  18 1
+            19   18  19 1
+            20   19  20 1
+            21   10  21 1
+            22   19  22 1
+///

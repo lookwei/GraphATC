@@ -1,0 +1,78 @@
+ENTRY       D10896                      Drug
+NAME        Pomaglumetad methionil (INN);
+            LY2140023
+FORMULA     C12H18N2O7S2
+EXACT_MASS  366.0555
+MOL_WEIGHT  366.4105
+REMARK      Chemical structure group: DG02201
+EFFICACY    Antipsychotic, Metabotropic glutamate receptor agonist
+COMMENT     Active form of prodrug: LY404039 [CPD:C21577]
+            Treatment of schizophrenia
+TARGET      GRM2 [HSA:2912] [KO:K04605]
+            GRM3 [HSA:2913] [KO:K04606]
+  PATHWAY   hsa04080(2912+2913)  Neuroactive ligand-receptor interaction
+            hsa04724(2912+2913)  Glutamatergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               Glutamate (metabotropic)
+                GRM2
+                 D10896  Pomaglumetad methionil (INN)
+                GRM3
+                 D10896  Pomaglumetad methionil (INN)
+            Prodrugs [br08324.html]
+             D10896
+            Prodrugs [br08324.html(DG02201)]
+             DG02201
+DBLINKS     CAS: 635318-55-7
+            PubChem: 340125674
+ATOM        23
+            1   C1y C    16.6463  -14.7090
+            2   C1y C    17.9109  -15.4115
+            3   C1y C    17.9109  -14.0064
+            4   C1z C    19.1755  -15.9033
+            5   C1x C    20.0185  -14.7090
+            6   S2x S    19.2457  -13.5849
+            7   C6a C    15.2412  -14.7090
+            8   O6a O    14.5387  -13.5146
+            9   O6a O    14.5387  -15.9033
+            10  N1b N    19.1755  -17.3084
+            11  C6a C    20.3698  -16.6059
+            12  O6a O    21.5641  -15.9033
+            13  O6a O    20.3698  -18.0110
+            14  C5a C    17.9587  -18.0110
+            15  O5a O    16.7588  -17.3180
+            16  C1c C    17.9586  -19.4158
+            17  C1b C    16.7586  -20.1088
+            18  N1a N    19.1923  -20.1283
+            19  C1b C    15.5672  -19.4209
+            20  S2a S    14.3715  -20.1114
+            21  C1a C    13.1778  -19.4222
+            22  O3c O    20.6508  -13.5849
+            23  O3c O    19.2457  -12.1798
+BOND        24
+            1     1   2 1
+            2     2   3 1
+            3     3   1 1
+            4     2   4 1
+            5     4   5 1
+            6     5   6 1
+            7     3   6 1
+            8     1   7 1 #Up
+            9     7   8 1
+            10    7   9 2
+            11    4  10 1 #Down
+            12    4  11 1 #Up
+            13   11  12 1
+            14   11  13 2
+            15   10  14 1
+            16   14  15 2
+            17   14  16 1
+            18   16  17 1
+            19   16  18 1 #Up
+            20   17  19 1
+            21   19  20 1
+            22   20  21 1
+            23    6  22 2
+            24    6  23 2
+///

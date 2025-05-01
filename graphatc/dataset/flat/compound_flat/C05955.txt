@@ -1,0 +1,76 @@
+ENTRY       C05955                      Compound
+NAME        Prostaglandin C2;
+            PGC2
+FORMULA     C20H30O4
+EXACT_MASS  334.2144
+MOL_WEIGHT  334.4498
+REACTION    R05056 R05057
+PATHWAY     map00590  Arachidonic acid metabolism
+            map01100  Metabolic pathways
+            map04726  Serotonergic synapse
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Eicosanoids
+               Prostaglandins
+                C05955  Prostaglandin C2
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA03 Eicosanoids
+               FA0301 Prostaglandins
+                C05955  Prostaglandin C2
+DBLINKS     PubChem: 8239
+            ChEBI: 27555
+            LIPIDMAPS: LMFA03010133
+            3DMET: B01929
+            NIKKAJI: J10.364K
+ATOM        24
+            1   C1y C    21.7611  -15.0010
+            2   C2y C    21.7726  -16.4052
+            3   C5x C    20.5145  -14.5153
+            4   C1b C    22.9955  -14.0590
+            5   C2x C    20.4210  -16.7681
+            6   C2b C    22.9838  -17.0783
+            7   C1x C    19.6486  -15.6037
+            8   O5x O    20.1459  -13.1520
+            9   C2b C    24.2125  -14.7435
+            10  C2b C    24.2593  -16.3526
+            11  C2b C    25.5994  -14.7378
+            12  C1c C    25.3946  -17.0666
+            13  C1b C    26.7989  -14.0355
+            14  C1b C    26.5998  -16.3761
+            15  O1a O    25.3886  -18.4708
+            16  C1b C    28.0159  -14.7261
+            17  C1b C    27.8112  -17.0606
+            18  C1b C    29.2154  -14.0179
+            19  C1b C    29.0224  -16.3643
+            20  C6a C    30.4267  -14.7144
+            21  C1b C    30.2219  -17.0549
+            22  O6a O    31.6263  -14.0062
+            23  O6a O    30.4327  -16.1069
+            24  C1a C    31.4331  -16.3584
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 1
+            9     6  10 2
+            10    9  11 2
+            11   10  12 1
+            12   11  13 1
+            13   12  14 1
+            14   12  15 1 #Down
+            15   13  16 1
+            16   14  17 1
+            17   16  18 1
+            18   17  19 1
+            19   18  20 1
+            20   19  21 1
+            21   20  22 1
+            22   20  23 2
+            23   21  24 1
+            24    5   7 1
+///

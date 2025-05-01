@@ -1,0 +1,99 @@
+ENTRY       D09672                      Drug
+NAME        Sulopenem etzadroxil (USAN)
+FORMULA     C19H27NO7S3
+EXACT_MASS  477.095
+MOL_WEIGHT  477.6152
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01486  Penem
+REMARK      Chemical structure group: DG01213
+EFFICACY    Antibiotic, Cell wall biosynthesis inhibitor
+COMMENT     beta-Lactam, penem
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01486  Penem
+                 DG01213  Sulopenem
+                  D09672  Sulopenem etzadroxil
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D09672  Sulopenem etzadroxil (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01486  Penem
+                 DG01213  Sulopenem
+DBLINKS     PubChem: 124490412
+            LigandBox: D09672
+ATOM        30
+            1   C1y C     4.2000  -12.8100
+            2   C5x C     4.2000  -14.2100
+            3   N1y N     5.4600  -14.2100
+            4   C1y C     5.4600  -12.8100
+            5   C2y C     6.7900  -14.6300
+            6   C2y C     7.5600  -13.5800
+            7   S2x S     6.7900  -12.3900
+            8   C1c C     3.0100  -12.1100
+            9   C1a C     1.7500  -12.8100
+            10  O5x O     3.0100  -14.9100
+            11  O1a O     3.0100  -10.7100
+            12  C7a C     6.7900  -16.0300
+            13  O7a O     7.9800  -16.7300
+            14  O6a O     5.6000  -16.7300
+            15  C1b C     9.1700  -16.0300
+            16  O7a O    10.3600  -16.7300
+            17  C7a C    11.5500  -16.0300
+            18  C1c C    12.7400  -16.7300
+            19  O6a O    11.5500  -14.6300
+            20  C1b C    13.9300  -16.0300
+            21  C1b C    12.7400  -18.1300
+            22  C1a C    13.9300  -18.8300
+            23  C1a C    15.1200  -16.7300
+            24  S2a S     8.9600  -13.5800
+            25  C1y C     9.5900  -12.3200
+            26  C1x C     9.1000  -10.9900
+            27  S2x S    10.2900  -10.0800
+            28  C1x C    11.4800  -10.9200
+            29  C1x C    11.0600  -12.3200
+            30  O3c O    10.2633   -8.6803
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 2
+            7     6   7 1
+            8     4   7 1
+            9     1   8 1
+            10    8   9 1
+            11    2  10 2
+            12    8  11 1 #Up
+            13    5  12 1
+            14   12  13 1
+            15   12  14 2
+            16   13  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   17  19 2
+            21   18  20 1
+            22   18  21 1
+            23   21  22 1
+            24   20  23 1
+            25    6  24 1
+            26   25  24 1 #Down
+            27   25  26 1
+            28   27  26 1 #Down
+            29   27  28 1
+            30   28  29 1
+            31   25  29 1
+            32   27  30 2
+///

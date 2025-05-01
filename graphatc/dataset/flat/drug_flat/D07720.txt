@@ -1,0 +1,66 @@
+ENTRY       D07720                      Drug
+NAME        Clodronic acid disodium salt;
+            Disodium clodronate;
+            Clodronate disodium;
+            Bonefos (TN)
+FORMULA     CH2Cl2O6P2. 2Na
+EXACT_MASS  287.8499
+MOL_WEIGHT  288.856
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      ATC code: M05BA02
+            Chemical structure group: DG00781
+EFFICACY    Antihypercalcemia, Antiresorptive
+COMMENT     Bisphosphonate
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M05 DRUGS FOR TREATMENT OF BONE DISEASES
+               M05B DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+                M05BA Bisphosphonates
+                 M05BA02 Clodronic acid
+                  D07720  Clodronic acid disodium salt
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00781  Clodronic acid
+                 D07720  Clodronic acid disodium salt
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00781  Clodronic acid
+DBLINKS     CAS: 22560-50-5
+            PubChem: 51092016
+            ChEBI: 59586
+            LigandBox: D07720
+            NIKKAJI: J286.245J J395.799C
+ATOM        13
+            1   C1d C    24.2900  -17.9200
+            2   P1b P    23.3100  -17.9200
+            3   P1b P    25.2000  -17.9200
+            4   O1c O    23.3100  -19.2500 #-
+            5   O1c O    21.9100  -17.8500
+            6   O1c O    23.3100  -16.5900
+            7   O1c O    25.2000  -19.2500 #-
+            8   O1c O    26.4600  -17.8500
+            9   O1c O    25.2000  -16.5900
+            10  X   Cl   24.2900  -20.0200
+            11  X   Cl   24.2900  -15.8900
+            12  Z   Na   27.2300  -20.0900 #+
+            13  Z   Na   20.9300  -20.0900 #+
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     3   9 2
+            9     1  10 1
+            10    1  11 1
+///

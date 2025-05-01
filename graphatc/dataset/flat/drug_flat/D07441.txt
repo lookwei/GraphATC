@@ -1,0 +1,120 @@
+ENTRY       D07441                      Drug
+NAME        Amantadine (INN)
+FORMULA     C10H17N
+EXACT_MASS  151.1361
+MOL_WEIGHT  151.2487
+CLASS       Antiviral
+             DG03029  Anti-influenza virus agent
+              DG02841  Viral uncoating inhibitor
+            Neuropsychiatric agent
+             DG01498  NMDA receptor antagonist
+             DG01967  Antiparkinson agent
+            Transporter substrate
+             DG02854  SLC22A2 substrate
+REMARK      Same as: C06818
+            ATC code: N04BB01
+            Chemical structure group: DG00860
+            Product (DG00860): D00777<JP/US>
+EFFICACY    Antiviral, M2 protein inhibitor, Antiparkinsonian, Dopamine secretagogue
+COMMENT     Adamantane derivative
+TARGET      Influenza A virus M2 [KO:K19394]
+            GRIN (NMDAR) [HSA:2902 2903 2904 2905 2906] [KO:K05208 K05209 K05210 K05211 K05212]
+  PATHWAY   hsa04080(2902+2903+2904+2905+2906)  Neuroactive ligand-receptor interaction
+            hsa04724(2902+2903+2904+2905+2906)  Glutamatergic synapse
+            hsa04728(2903+2904)  Dopaminergic synapse
+            ko03230(K19394)  Viral genome structure
+            ko05164(K19394)  Influenza A
+METABOLISM  Transporter: SLC22A2 [HSA:6582]
+INTERACTION  
+STR_MAP     map07044  Antiviral agents
+            map07057  Antiparkinsonian agents
+            map07235  N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BB Adamantane derivatives
+                 N04BB01 Amantadine
+                  D07441  Amantadine (INN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02841  Viral uncoating inhibitor
+                DG00860  Amantadine
+                 D07441  Amantadine
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG00860  Amantadine
+                D07441  Amantadine
+              DG01967  Antiparkinson agent
+               DG00860  Amantadine
+                D07441  Amantadine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00860  Amantadine
+                D07441  Amantadine
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), NMDA
+                GRIN (NMDAR)
+                 D07441  Amantadine (INN)
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               Influenza virus uncoating inhibitor
+                D07441  Amantadine (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug transporters
+              D07441
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03029  Anti-influenza virus agent
+               DG02841  Viral uncoating inhibitor
+                DG00860  Amantadine
+             Neuropsychiatric agent
+              DG01498  NMDA receptor antagonist
+               DG00860  Amantadine
+              DG01967  Antiparkinson agent
+               DG00860  Amantadine
+             Transporter substrate
+              DG02854  SLC22A2 substrate
+               DG00860  Amantadine
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Entry, fusion or uncoating inhibitor
+               Influenza virus uncoating inhibitor
+                DG00860  Amantadine
+DBLINKS     CAS: 768-94-5
+            PubChem: 51091772
+            ChEBI: 2618
+            PDB-CCD: 308
+            LigandBox: D07441
+            NIKKAJI: J6.971J
+ATOM        11
+            1   C1z C    24.7800  -16.7300
+            2   C1x C    23.7300  -17.3600
+            3   C1x C    24.1500  -18.2000
+            4   C1x C    25.8300  -17.3600
+            5   N1a N    24.7800  -15.5400
+            6   C1y C    23.7300  -18.5500
+            7   C1y C    24.1500  -19.3200
+            8   C1y C    25.8300  -18.5500
+            9   C1x C    22.4700  -19.8100
+            10  C1x C    24.7800  -19.1800
+            11  C1x C    25.3400  -20.3700
+BOND        13
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     6   9 1
+            9     6  10 1
+            10    7  11 1
+            11    7   9 1
+            12    8  10 1
+            13    8  11 1
+///

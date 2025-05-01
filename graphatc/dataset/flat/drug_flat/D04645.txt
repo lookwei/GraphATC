@@ -1,0 +1,133 @@
+ENTRY       D04645                      Drug
+NAME        Ixabepilone (JAN/USAN/INN);
+            Ixempra (TN)
+PRODUCT     IXEMPRA (R-Pharm US Operating)
+FORMULA     C27H42N2O5S
+EXACT_MASS  506.2814
+MOL_WEIGHT  506.6978
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: L01DC04
+            Product: D04645<US>
+EFFICACY    Antineoplastic, Antimitotic
+  DISEASE   Breast cancer [DS:H00031]
+COMMENT     Epothilone B [CPD:C12154] derivative
+            Depolymerization inhibitor
+            epothilone
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01D CYTOTOXIC ANTIBIOTICS AND RELATED SUBSTANCES
+                L01DC Other cytotoxic antibiotics
+                 L01DC04 Ixabepilone
+                  D04645  Ixabepilone (JAN/USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antineoplastics, Other
+               Ixabepilone
+                D04645  Ixabepilone (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D04645  Ixabepilone
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D04645  Ixabepilone (JAN/USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D04645
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D04645
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D04645
+DBLINKS     CAS: 219989-84-1
+            PubChem: 47206488
+            ChEBI: 63605
+            PDB-CCD: GZX
+            LigandBox: D04645
+ATOM        35
+            1   C1y C    25.4627  -17.4415
+            2   C1y C    25.4627  -18.8490
+            3   C5x C    26.6816  -19.5527
+            4   C1z C    27.9005  -18.8490
+            5   C1y C    26.6816  -16.7377
+            6   C1y C    29.1194  -19.5527
+            7   C1x C    30.3383  -18.8490
+            8   C5x C    31.5573  -19.5527
+            9   N1x N    32.7761  -18.8490
+            10  C1y C    32.7761  -17.4415
+            11  C1x C    31.5573  -16.7377
+            12  C1x C    29.1194  -15.3303
+            13  C1x C    27.9005  -14.6265
+            14  C1x C    26.6816  -15.3303
+            15  C1y C    31.5573  -15.3303
+            16  C1z C    30.3383  -14.6265
+            17  C1a C    24.2438  -19.5527
+            18  O1a O    29.1194  -20.9602
+            19  O5x O    26.6816  -20.9600
+            20  O5x O    31.5573  -20.9599
+            21  O1a O    24.2438  -16.7377
+            22  O2x O    31.5573  -13.9228
+            23  C1a C    29.5953  -13.4190
+            24  C2c C    33.9991  -16.7354
+            25  C1a C    29.1194  -18.1452
+            26  C1a C    26.6816  -18.4267
+            27  C2b C    35.2030  -17.4306
+            28  C1a C    33.9991  -15.3305
+            29  C8y C    36.3957  -16.7421
+            30  N5x N    37.7093  -17.1781
+            31  C8y C    38.5292  -16.0645
+            32  S2x S    37.7235  -14.9407
+            33  C8x C    36.4056  -15.3597
+            34  C1a C    25.6864  -15.7426
+            35  C1a C    39.8994  -16.0025
+BOND        37
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   5 1
+            5     4   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   12  13 1
+            12   13  14 1
+            13    5  14 1
+            14   11  15 1
+            15   15  16 1
+            16   16  12 1
+            17    2  17 1 #Down
+            18    6  18 1 #Down
+            19    3  19 2
+            20    8  20 2
+            21    1  21 1 #Up
+            22   16  22 1
+            23   15  22 1
+            24   16  23 1 #Down
+            25   10  24 1 #Up
+            26    4  25 1
+            27    4  26 1
+            28   24  27 2
+            29   24  28 1
+            30   27  29 1
+            31   29  30 1
+            32   30  31 2
+            33   31  32 1
+            34   32  33 1
+            35   29  33 2
+            36    5  34 1 #Down
+            37   31  35 1
+///

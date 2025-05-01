@@ -1,0 +1,94 @@
+ENTRY       D04057                      Drug
+NAME        Esoxybutynin chloride (USAN)
+FORMULA     C22H31NO3. HCl
+EXACT_MASS  393.2071
+MOL_WEIGHT  393.9474
+CLASS       Neuropsychiatric agent
+             DG01491  Muscarinic cholinergic receptor antagonist
+EFFICACY    Antispasmodic, Muscarinic acetylcholine receptor antagonist
+COMMENT     Treats overactive bladder symptoms of urgency, frequency and urinary incontinence
+TARGET      CHRM1 [HSA:1128] [KO:K04129]
+            CHRM2 [HSA:1129] [KO:K04130]
+            CHRM3 [HSA:1131] [KO:K04131]
+  PATHWAY   hsa04020(1128+1129+1131)  Calcium signaling pathway
+            hsa04080(1128+1129+1131)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131)  Cholinergic synapse
+            hsa04970(1131)  Salivary secretion
+            hsa04971(1131)  Gastric acid secretion
+            hsa04972(1131)  Pancreatic secretion
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01491  Muscarinic cholinergic receptor antagonist
+               D04057  Esoxybutynin chloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM1
+                 D04057  Esoxybutynin chloride (USAN)
+                CHRM2
+                 D04057  Esoxybutynin chloride (USAN)
+                CHRM3
+                 D04057  Esoxybutynin chloride (USAN)
+DBLINKS     CAS: 230949-16-3
+            PubChem: 47206016
+            ChEBI: 51330
+            LigandBox: D04057
+ATOM        27
+            1   X   Cl   34.2190  -20.6931
+            2   C3b C    22.2224  -20.1318
+            3   C1b C    23.4852  -20.8334
+            4   O7a O    24.6778  -20.1318
+            5   C7a C    25.9406  -20.8334
+            6   C1d C    27.1332  -20.1318
+            7   C8y C    28.3259  -20.8334
+            8   C8x C    29.5887  -20.1318
+            9   C8x C    30.7813  -20.8334
+            10  C8x C    28.3259  -22.2365
+            11  C8x C    29.5887  -22.9381
+            12  C8x C    30.7813  -22.2365
+            13  C1y C    27.1332  -18.7287
+            14  C1x C    28.3259  -18.0272
+            15  C1x C    28.3259  -16.6241
+            16  C1x C    27.1332  -15.9225
+            17  C1x C    25.9406  -16.6241
+            18  C1x C    25.9406  -18.0272
+            19  O1a O    28.3259  -19.4303
+            20  O6a O    25.9406  -22.2365
+            21  C3b C    21.0297  -19.4303
+            22  C1b C    19.8371  -18.7287
+            23  N1c N    18.5743  -19.4303
+            24  C1b C    17.3816  -18.7287
+            25  C1b C    18.5743  -20.8334
+            26  C1a C    16.1890  -19.4303
+            27  C1a C    17.3816  -21.5350
+BOND        27
+            1     2   3 1
+            2     3   4 1
+            3     4   5 1
+            4     5   6 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 2
+            8     7  10 2
+            9    10  11 1
+            10   11  12 2
+            11    9  12 1
+            12    6  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16   16  17 1
+            17   17  18 1
+            18   13  18 1
+            19    6  19 1 #Down
+            20    5  20 2
+            21    2  21 3
+            22   21  22 1
+            23   22  23 1
+            24   23  24 1
+            25   23  25 1
+            26   24  26 1
+            27   25  27 1
+///

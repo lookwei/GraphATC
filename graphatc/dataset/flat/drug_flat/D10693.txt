@@ -1,0 +1,82 @@
+ENTRY       D10693                      Drug
+NAME        Bradanicline hydrochloride (USAN)
+FORMULA     C22H23N3O2. HCl
+EXACT_MASS  397.1557
+MOL_WEIGHT  397.8979
+REMARK      Chemical structure group: DG01849
+EFFICACY    Dementia therapeutic agent, Nicotinic acetylcholine receptor agonist
+COMMENT     Cognitive and memory enhancement
+TARGET      CHRNA7 [HSA:1139] [KO:K04809]
+  PATHWAY   hsa04080(1139)  Neuroactive ligand-receptor interaction
+            hsa04725(1139)  Cholinergic synapse
+            hsa05033(1139)  Nicotine addiction
+BRITE       Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRNA7
+                 D10693  Bradanicline hydrochloride (USAN)
+DBLINKS     CAS: 1111941-90-2
+            PubChem: 254741654
+ATOM        28
+            1   C8y C    17.5000  -19.1100
+            2   C8y C    18.2000  -20.3700
+            3   C8x C    16.0300  -19.1100
+            4   C8x C    15.4000  -20.3700
+            5   C8x C    16.0300  -21.6300
+            6   C8x C    17.5000  -21.6300
+            7   C8x C    19.5300  -20.0900
+            8   C8y C    19.7400  -18.6200
+            9   O2x O    18.4800  -17.9900
+            10  C5a C    20.9300  -17.8500
+            11  O5a O    20.9300  -16.5200
+            12  N1b N    22.1900  -18.6200
+            13  C1x C    24.9200  -16.2400
+            14  C1y C    24.0100  -16.8700
+            15  C1y C    23.3100  -17.9200
+            16  N1y N    25.5500  -16.5900
+            17  C1x C    26.6000  -17.2200
+            18  C1y C    24.9200  -17.5000
+            19  C1x C    26.1100  -18.0600
+            20  C1x C    25.5500  -14.9100
+            21  C1b C    22.8200  -15.9600
+            22  C8y C    22.8200  -14.5600
+            23  C8x C    24.0800  -13.8600
+            24  N5x N    24.0800  -12.5300
+            25  C8x C    22.8900  -11.8300
+            26  C8x C    21.6300  -12.5300
+            27  C8x C    21.6300  -13.9300
+            28  X   Cl   28.9100  -16.5900
+BOND        31
+            1     1   2 1
+            2     1   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     2   6 2
+            7     2   7 1
+            8     7   8 2
+            9     8   9 1
+            10    1   9 1
+            11    8  10 1
+            12   10  11 2
+            13   10  12 1
+            14   14  15 1
+            15   14  16 1
+            16   16  17 1
+            17   15  18 1
+            18   17  19 1
+            19   18  19 1
+            20   13  18 1
+            21   16  20 1
+            22   20  13 1
+            23   15  12 1 #Up
+            24   14  21 1 #Down
+            25   21  22 1
+            26   22  23 2
+            27   23  24 1
+            28   24  25 2
+            29   25  26 1
+            30   26  27 2
+            31   22  27 1
+///

@@ -1,0 +1,100 @@
+ENTRY       D03756                      Drug
+NAME        Indolapril hydrochloride (USAN)
+FORMULA     C24H34N2O5. HCl
+EXACT_MASS  466.2235
+MOL_WEIGHT  466.9981
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03756  Indolapril hydrochloride
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03756  Indolapril hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03756  Indolapril hydrochloride (USAN)
+DBLINKS     CAS: 80828-32-6
+            PubChem: 17397845
+            LigandBox: D03756
+ATOM        32
+            1   N1y N    36.2600  -19.6000
+            2   C1y C    37.5900  -20.1600
+            3   C1y C    36.4700  -18.2000
+            4   C5a C    35.0700  -20.3000
+            5   C1y C    38.5000  -19.1100
+            6   C1x C    38.0100  -21.4900
+            7   C1x C    37.8000  -17.8500
+            8   C6a C    36.4000  -16.8000
+            9   C1c C    33.8800  -19.6000
+            10  O5a O    35.0700  -21.7000
+            11  C1x C    39.9000  -19.3900
+            12  C1x C    39.3400  -21.7700
+            13  O6a O    37.6600  -16.1000
+            14  O6a O    35.2100  -16.1700
+            15  N1b N    32.6200  -20.3000
+            16  C1a C    33.8800  -18.2000
+            17  C1x C    40.3200  -20.7200
+            18  C1c C    31.4300  -19.6000
+            19  C7a C    31.4300  -18.2000
+            20  C1b C    30.2400  -20.3000
+            21  O7a O    32.6200  -17.5000
+            22  O6a O    30.2400  -17.5000
+            23  C1b C    28.9800  -19.6000
+            24  C1b C    32.6200  -16.1700
+            25  C8y C    27.7900  -20.3000
+            26  C1a C    31.4300  -15.4700
+            27  C8x C    26.5719  -19.6099
+            28  C8x C    25.3652  -20.3197
+            29  C8x C    25.3066  -21.7197
+            30  C8x C    26.5947  -22.4098
+            31  C8x C    27.8014  -21.7000
+            32  X   Cl   44.1700  -19.6700
+BOND        33
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Down
+            8     4   9 1
+            9     4  10 2
+            10    5  11 1
+            11    6  12 1
+            12    8  13 1
+            13    8  14 2
+            14    9  15 1
+            15    9  16 1 #Up
+            16   11  17 1
+            17   15  18 1
+            18   18  19 1 #Up
+            19   18  20 1
+            20   19  21 1
+            21   19  22 2
+            22   20  23 1
+            23   21  24 1
+            24   23  25 1
+            25   24  26 1
+            26    5   7 1
+            27   12  17 1
+            28   25  27 2
+            29   27  28 1
+            30   28  29 2
+            31   29  30 1
+            32   30  31 2
+            33   25  31 1
+///

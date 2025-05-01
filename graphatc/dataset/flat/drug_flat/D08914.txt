@@ -1,0 +1,195 @@
+ENTRY       D08914                      Drug
+NAME        Eribulin mesylate (USAN);
+            Eribulin mesilate (JAN);
+            Halaven (TN)
+PRODUCT     HALAVEN (BSP Pharmaceuticals SpA)
+            HALAVEN (Eisai)
+FORMULA     C40H59NO11. CH4SO3
+EXACT_MASS  825.3969
+MOL_WEIGHT  826.0022
+CLASS       Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01XX41
+            Product: D08914<JP/US>
+EFFICACY    Antineoplastic, Tubulin polymerization inhibitor
+  DISEASE   Breast cancer [DS:H00031]
+            Liposarcoma [DS:H02427]
+COMMENT     Halichondrin B [CPD:C16791] analog
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+  PATHWAY   hsa04540(10381+10382+10383+203068+347688+347733+7280+81027+84617)  Gap junction
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX41 Eribulin
+                  D08914  Eribulin mesylate (USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antineoplastics, Other
+               Eribulin
+                D08914  Eribulin mesylate (USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D08914  Eribulin mesylate (USAN); Eribulin mesilate (JAN)
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D08914  Eribulin mesylate
+            Target-based classification of drugs [BR:br08310]
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D08914  Eribulin mesylate (USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D08914
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D08914
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D08914
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D08914
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08914
+DBLINKS     CAS: 441045-17-6
+            PubChem: 96025597
+            ChEBI: 70710
+            LigandBox: D08914
+ATOM        57
+            1   C1y C    16.4500  -12.6000
+            2   C1y C    16.4500  -11.2700
+            3   C1b C    17.6400  -10.5700
+            4   C5a C    18.7600  -11.2700
+            5   C1b C    19.9500  -10.5700
+            6   C1y C    21.0700  -11.2700
+            7   C1x C    22.2600  -10.5700
+            8   C1x C    23.3800  -11.2700
+            9   C1y C    23.3800  -12.6000
+            10  C1y C    22.1900  -13.3000
+            11  C1y C    22.1900  -14.6300
+            12  C1y C    23.3800  -15.3300
+            13  C1y C    24.5700  -14.6300
+            14  O2x O    24.5700  -13.3000
+            15  O2x O    21.0000  -15.3300
+            16  C1z C    21.0000  -16.7300
+            17  C1x C    22.1900  -17.3600
+            18  O2x O    23.3800  -16.7300
+            19  C1y C    24.2200  -17.3600
+            20  C1y C    25.7600  -15.3300
+            21  C1b C    19.8100  -17.3600
+            22  C1b C    19.8100  -18.7600
+            23  C1y C    18.6900  -19.3900
+            24  C1x C    18.6900  -20.7900
+            25  O2x O    17.5000  -18.7600
+            26  C1y C    16.3100  -19.4600
+            27  C1b C    15.1200  -18.7600
+            28  C2y C    16.3100  -20.7900
+            29  C1b C    15.1200  -17.3600
+            30  C1y C    16.3100  -16.7300
+            31  O2x O    16.3100  -15.3300
+            32  C1x C    17.4300  -17.3600
+            33  C1y C    18.6200  -16.7300
+            34  C2y C    18.6200  -15.3300
+            35  C1y C    17.5000  -14.6300
+            36  C1b C    17.5000  -13.3000
+            37  C2a C    19.6700  -14.6300
+            38  O5a O    18.7600  -12.6000
+            39  O2x O    21.0700  -12.6000
+            40  O2x O    22.1900  -16.0300
+            41  C2a C    15.3300  -21.7000
+            42  C1y C    15.1851  -10.8590
+            43  C1y C    14.4033  -11.9350
+            44  O2x O    15.1851  -13.0110
+            45  O2a O    14.7503   -9.5209
+            46  C1b C    13.0204  -11.9354
+            47  C1c C    12.3347  -10.7492
+            48  C1b C    10.9203  -10.7497
+            49  N1a N    10.2327   -9.5603
+            50  C1a C    15.4503   -8.3085
+            51  O1a O    13.0172   -9.5660
+            52  C1a C    19.3900  -16.1700
+            53  S4a S    32.7600  -14.6300
+            54  O1d O    32.7600  -13.2300
+            55  O1d O    32.7600  -16.0300
+            56  O1d O    34.1600  -14.6300
+            57  C1a C    31.3600  -14.6300
+BOND        64
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14    9  14 1
+            15   11  15 1
+            16   15  16 1
+            17   16  17 1
+            18   12  18 1
+            19   17  19 1
+            20   13  20 1
+            21   20  19 1
+            22   16  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   23  25 1
+            27   25  26 1
+            28   26  27 1
+            29   26  28 1
+            30   28  24 1
+            31   27  29 1
+            32   29  30 1
+            33   30  31 1
+            34   30  32 1
+            35   32  33 1
+            36   33  34 1
+            37   34  35 1
+            38   31  35 1
+            39    1  36 1
+            40   36  35 1
+            41   34  37 2
+            42    4  38 2
+            43    6  39 1
+            44   39  10 1
+            45   16  40 1 #Up
+            46   20  40 1 #Up
+            47   19  18 1
+            48   28  41 2
+            49    2  42 1
+            50   42  43 1
+            51   43  44 1
+            52    1  44 1
+            53   42  45 1 #Down
+            54   43  46 1 #Down
+            55   46  47 1
+            56   47  48 1
+            57   48  49 1
+            58   45  50 1
+            59   47  51 1 #Up
+            60   33  52 1 #Down
+            61   53  54 2
+            62   53  55 2
+            63   53  56 1
+            64   53  57 1
+///

@@ -1,0 +1,82 @@
+ENTRY       D09368                      Drug
+NAME        Pozanicline tartrate (USAN)
+FORMULA     C11H16N2O. C4H6O6
+EXACT_MASS  342.1427
+MOL_WEIGHT  342.3444
+CLASS       Neuropsychiatric agent
+             DG01571  Nicotinic cholinergic receptor partial agonist
+REMARK      Chemical structure group: DG01288
+EFFICACY    Dementia therapeutic agent, Nicotinic acetylcholine receptor partial agonist
+COMMENT     Attention deficit/hyperactivity disorder (ADHD), dementia of the Alzheimer's type (AD)
+TARGET      CHRNA4/CHRNB2 [HSA:1137 1141] [KO:K04806 K04813]
+  PATHWAY   hsa04080(1137+1141)  Neuroactive ligand-receptor interaction
+            hsa04725(1137+1141)  Cholinergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01571  Nicotinic cholinergic receptor partial agonist
+               DG01288  Pozanicline
+                D09368  Pozanicline tartrate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRNA4/CHRNB2
+                 D09368  Pozanicline tartrate (USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01571  Nicotinic cholinergic receptor partial agonist
+               DG01288  Pozanicline
+DBLINKS     CAS: 945405-37-8
+            PubChem: 96026048
+            LigandBox: D09368
+ATOM        24
+            1   C8y C    19.4197  -24.4214
+            2   C8x C    19.4197  -25.8249
+            3   C8x C    18.2268  -26.5266
+            4   C8x C    16.9636  -25.8249
+            5   N5x N    16.9636  -24.4214
+            6   C8y C    18.2268  -23.7196
+            7   O2a O    20.6127  -23.7196
+            8   C1b C    21.8057  -24.4214
+            9   C1y C    22.9986  -23.7196
+            10  C1x C    23.4197  -22.3863
+            11  C1x C    24.8232  -22.3863
+            12  C1x C    25.2442  -23.7196
+            13  N1x N    24.1214  -24.5617
+            14  C1a C    18.2268  -22.3161
+            15  C6a C    28.5425  -23.7196
+            16  O6a O    27.3270  -24.4214
+            17  C1c C    29.7726  -24.4298
+            18  C1c C    30.9679  -23.7395
+            19  C6a C    32.1553  -24.4250
+            20  O6a O    33.3465  -23.7370
+            21  O6a O    32.1555  -25.8298
+            22  O6a O    28.5426  -22.3301
+            23  O1a O    29.7727  -25.8298
+            24  O1a O    30.9679  -22.3303
+BOND        24
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     9   8 1 #Down
+            10   10  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13   9 1
+            14   10   9 1
+            15    6  14 1
+            16   15  16 1
+            17   15  17 1
+            18   17  18 1
+            19   18  19 1
+            20   19  20 1
+            21   19  21 2
+            22   15  22 2
+            23   17  23 1 #Up
+            24   18  24 1 #Up
+///

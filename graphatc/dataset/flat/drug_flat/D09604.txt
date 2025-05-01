@@ -1,0 +1,98 @@
+ENTRY       D09604                      Drug
+NAME        Dinaciclib (USAN/INN)
+FORMULA     C21H28N6O2
+EXACT_MASS  396.2274
+MOL_WEIGHT  396.486
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+EFFICACY    Antineoplastic, Cyclin-dependent kinase (CDK) inhibitor
+TARGET      CDK1 [HSA:983] [KO:K02087]
+            CDK2 [HSA:1017] [KO:K02206]
+            CDK5 [HSA:1020] [KO:K02090]
+            CDK9 [HSA:1025] [KO:K02211]
+  PATHWAY   hsa04110(1017+983)  Cell cycle
+            hsa04115(1017+983)  p53 signaling pathway
+            hsa05200(1017)  Pathways in cancer
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               D09604  Dinaciclib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK1
+                 D09604  Dinaciclib (USAN/INN)
+                CDK2
+                 D09604  Dinaciclib (USAN/INN)
+                CDK9
+                 D09604  Dinaciclib (USAN/INN)
+                CDK5
+                 D09604  Dinaciclib (USAN/INN)
+DBLINKS     CAS: 779353-01-4
+            PubChem: 124490344
+            LigandBox: D09604
+ATOM        29
+            1   C1x C    16.2400  -25.3400
+            2   C1x C    16.2400  -26.7400
+            3   C1x C    17.4300  -27.4400
+            4   C1y C    18.6900  -26.7400
+            5   N1y N    18.6900  -25.3400
+            6   C1x C    17.4300  -24.6400
+            7   C8y C    19.8800  -24.6400
+            8   C1b C    19.8800  -27.4400
+            9   C1b C    21.0700  -26.7400
+            10  O1a O    22.2600  -27.4400
+            11  C8x C    21.0700  -25.3400
+            12  C8y C    22.3300  -24.6400
+            13  N4y N    22.3300  -23.2400
+            14  C8y C    21.1400  -22.5400
+            15  N5x N    19.8800  -23.2400
+            16  N5x N    23.3800  -22.2600
+            17  C8x C    22.7500  -21.0000
+            18  C8y C    21.4200  -21.1400
+            19  N1b N    23.5200  -25.3400
+            20  C1b C    24.7100  -24.6400
+            21  C8y C    25.9000  -25.3400
+            22  C8x C    25.9000  -26.7400
+            23  C8x C    27.1600  -27.4400
+            24  C8x C    28.3500  -26.7400
+            25  N5y N    28.3500  -25.3400 #+
+            26  C8x C    27.1600  -24.6400
+            27  C1b C    20.2300  -20.4400
+            28  C1a C    19.0400  -21.1400
+            29  O3a O    29.8453  -24.3649 #-
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     4   8 1 #Down
+            9     8   9 1
+            10    9  10 1
+            11    7  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16    7  15 2
+            17   13  16 1
+            18   16  17 2
+            19   17  18 1
+            20   14  18 2
+            21   12  19 1
+            22   19  20 1
+            23   20  21 1
+            24   21  22 2
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 2
+            29   21  26 1
+            30   27  18 1
+            31   27  28 1
+            32   25  29 1
+///

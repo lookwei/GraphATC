@@ -1,0 +1,121 @@
+ENTRY       D04066                      Drug
+NAME        Estramustine (USAN/INN)
+FORMULA     C23H31Cl2NO3
+EXACT_MASS  439.1681
+MOL_WEIGHT  440.4031
+CLASS       Antineoplastic
+             DG01677  Alkylating agent
+              DG01678  Nitrogen mustard analog
+REMARK      Same as: C11228
+            ATC code: L01XX11
+            Chemical structure group: DG00724
+            Product (DG00724): D06397<JP/US>
+EFFICACY    Antineoplastic, Alkylating agent
+COMMENT     Nitrogen mustard analogs
+TARGET      TUBB [HSA:10381 10382 10383 203068 347688 347733 7280 81027 84617] [KO:K07375]
+            SRD5A2 [HSA:6716] [KO:K12344]
+INTERACTION  
+STR_MAP     map07040  Antineoplastics - alkylating agents
+            map07043  Antineoplastics - hormones
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01X OTHER ANTINEOPLASTIC AGENTS
+                L01XX Other antineoplastic agents
+                 L01XX11 Estramustine
+                  D04066  Estramustine (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01677  Alkylating agent
+               DG01678  Nitrogen mustard analog
+                DG00724  Estramustine
+                 D04066  Estramustine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                SRD5A2
+                 D04066  Estramustine (USAN/INN)
+             Not elsewhere classified
+              Cellular process
+               Cytoskeleton
+                TUBB
+                 D04066  Estramustine (USAN/INN)
+            Prodrugs [br08324.html]
+             D04066
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01677  Alkylating agent
+               DG01678  Nitrogen mustard analog
+                DG00724  Estramustine
+            Prodrugs [br08324.html(DG00724)]
+             DG00724
+DBLINKS     CAS: 2998-57-4
+            PubChem: 47206023
+            ChEBI: 4868
+            LigandBox: D04066
+            NIKKAJI: J7.659G
+ATOM        29
+            1   C8x C    23.2713  -17.0398
+            2   C8y C    23.2713  -18.4089
+            3   C8x C    24.4570  -19.0899
+            4   C8x C    24.4570  -16.3519
+            5   C8y C    25.6427  -17.0398
+            6   C8y C    25.6367  -18.4089
+            7   C1x C    26.8166  -19.0952
+            8   C1x C    28.0093  -18.4192
+            9   C1y C    26.8284  -16.3571
+            10  C1y C    28.0093  -17.0531
+            11  C1x C    28.0321  -14.3224
+            12  C1x C    26.8399  -14.9918
+            13  C1z C    29.2062  -15.0113
+            14  C1y C    29.1893  -16.3725
+            15  C1x C    31.5481  -16.4016
+            16  C1x C    31.5647  -15.0406
+            17  C1y C    30.3973  -14.3488
+            18  O7a O    22.0780  -19.0830
+            19  C7a C    20.8917  -18.4020
+            20  O6a O    20.8846  -17.0328
+            21  N1c N    19.7052  -19.0759
+            22  C1b C    19.6981  -20.4448
+            23  C1b C    18.5115  -18.3949
+            24  C1a C    29.1967  -13.6420
+            25  O1a O    30.3900  -12.9749
+            26  C1b C    18.5131  -16.9687
+            27  X   Cl   17.2934  -16.2626
+            28  C1b C    20.9026  -21.1488
+            29  X   Cl   20.9026  -22.5458
+BOND        32
+            1     6   7 1
+            2     7   8 1
+            3    13  14 1
+            4    15  16 1
+            5    16  17 1
+            6    17  13 1
+            7    14  15 1
+            8     8  10 1
+            9     2  18 1
+            10    9   5 1
+            11   18  19 1
+            12    5   4 1
+            13   19  20 2
+            14    4   1 2
+            15   19  21 1
+            16   21  22 1
+            17    1   2 1
+            18    9  10 1
+            19   10  14 1
+            20   21  23 1
+            21   13  11 1
+            22   11  12 1
+            23   12   9 1
+            24   13  24 1 #Up
+            25    2   3 2
+            26   17  25 1 #Up
+            27    3   6 1
+            28    5   6 2
+            29   23  26 1
+            30   26  27 1
+            31   22  28 1
+            32   28  29 1
+///

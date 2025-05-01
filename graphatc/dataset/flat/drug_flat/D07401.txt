@@ -1,0 +1,80 @@
+ENTRY       D07401                      Drug
+NAME        Oxomemazine (INN);
+            Doxergan (TN)
+FORMULA     C18H22N2O2S
+EXACT_MASS  330.1402
+MOL_WEIGHT  330.4445
+REMARK      ATC code: R06AD08
+EFFICACY    Antiallergic, H1 receptor antagonist
+COMMENT     Phenothiazine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04080(3269)  Neuroactive ligand-receptor interaction
+            hsa04750(3269)  Inflammatory mediator regulation of TRP channels
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AD Phenothiazine derivatives
+                 R06AD08 Oxomemazine
+                  D07401  Oxomemazine (INN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D07401  Oxomemazine (INN)
+DBLINKS     CAS: 3689-50-7
+            PubChem: 51091737
+            LigandBox: D07401
+            NIKKAJI: J8.210D
+ATOM        23
+            1   C8x C    22.6800  -20.3000
+            2   C8x C    22.6800  -18.8300
+            3   C8x C    23.9400  -18.1300
+            4   C8y C    25.1300  -18.8300
+            5   C8y C    25.1300  -20.3000
+            6   C8x C    23.9400  -21.0000
+            7   N4y N    26.3200  -18.1300
+            8   C8y C    27.5800  -18.8300
+            9   C8y C    27.5800  -20.3000
+            10  S2x S    26.3200  -21.0000
+            11  C8x C    28.7700  -18.1300
+            12  C8x C    30.0300  -18.8300
+            13  C8x C    30.0300  -20.3000
+            14  C8x C    28.7700  -21.0000
+            15  C1b C    26.3200  -16.7300
+            16  C1c C    27.5800  -16.0300
+            17  C1b C    28.7700  -16.7300
+            18  N1c N    29.9600  -16.0300
+            19  C1a C    27.5800  -14.6300
+            20  C1a C    31.1500  -16.7300
+            21  C1a C    29.9600  -14.6300
+            22  O3c O    27.0200  -22.1900
+            23  O3c O    25.6200  -22.1900
+BOND        25
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    8  11 2
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16    9  14 2
+            17    7  15 1
+            18   15  16 1
+            19   16  17 1
+            20   17  18 1
+            21   16  19 1
+            22   18  20 1
+            23   18  21 1
+            24   10  22 2
+            25   10  23 2
+///

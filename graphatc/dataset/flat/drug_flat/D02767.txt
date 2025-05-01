@@ -1,0 +1,90 @@
+ENTRY       D02767                      Drug
+NAME        Adatanserin hydrochloride (USAN)
+FORMULA     C21H31N5O. HCl
+EXACT_MASS  405.2295
+MOL_WEIGHT  405.9647
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+EFFICACY    Antianxiety, Antidepressant, Serotonin 5-HT1A receptor agonist, Serotonin 5-HT2 receptor antagonist
+TARGET      HTR1A [HSA:3350] [KO:K04153]
+            HTR2 [HSA:3356 3357 3358] [KO:K04157]
+  PATHWAY   hsa04020(3356+3357+3358)  Calcium signaling pathway
+            hsa04080(3350+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04726(3350+3356+3357+3358)  Serotonergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               D02767  Adatanserin hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR1A
+                 D02767  Adatanserin hydrochloride (USAN)
+                HTR2
+                 D02767  Adatanserin hydrochloride (USAN)
+DBLINKS     CAS: 144966-96-1
+            PubChem: 17396925
+            LigandBox: D02767
+ATOM        28
+            1   C1z C    18.5331  -14.6639
+            2   C1x C    17.8402  -16.0497
+            3   C1y C    17.8402  -17.2969
+            4   C1y C    17.3551  -16.6040
+            5   C1y C    19.6417  -16.6040
+            6   C1x C    16.2465  -17.7126
+            7   C1x C    18.9488  -18.3363
+            8   C1x C    17.3551  -15.2875
+            9   C1x C    18.5331  -17.2276
+            10  C1x C    19.6417  -15.2875
+            11  C1b C    20.8203  -13.2088
+            12  N1b N    19.7117  -12.5852
+            13  C5a C    18.5338  -13.2781
+            14  N1y N    23.1762  -13.2088
+            15  C1b C    21.9983  -12.5159
+            16  O5a O    17.3280  -12.5950
+            17  C1x C    23.1762  -14.5946
+            18  C1x C    24.3763  -15.2875
+            19  N1y N    25.5765  -14.5946
+            20  C1x C    25.5765  -13.2088
+            21  C1x C    24.3763  -12.5159
+            22  N5x N    26.7766  -16.6733
+            23  C8y C    26.7766  -15.2875
+            24  C8x C    27.9767  -17.3662
+            25  C8x C    29.1769  -16.6733
+            26  C8x C    29.1769  -15.2875
+            27  N5x N    27.9767  -14.5946
+            28  X   Cl   32.8075  -15.0103
+BOND        31
+            1     1   2 1
+            2     2   3 1
+            3     8   4 1
+            4     4   9 1
+            5     9   5 1
+            6     5  10 1
+            7    10   1 1
+            8     1   8 1
+            9     3   6 1
+            10    3   7 1
+            11    4   6 1
+            12    5   7 1
+            13   11  12 1
+            14   12  13 1
+            15    1  13 1
+            16   14  15 1
+            17   11  15 1
+            18   13  16 2
+            19   14  17 1
+            20   17  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 1
+            24   14  21 1
+            25   22  23 1
+            26   19  23 1
+            27   22  24 2
+            28   24  25 1
+            29   25  26 2
+            30   26  27 1
+            31   23  27 2
+///

@@ -1,0 +1,143 @@
+ENTRY       D05322                      Drug
+NAME        Oxytetracycline calcium (USP);
+            Terramycin (TN)
+FORMULA     C22H22N2O9. Ca
+EXACT_MASS  498.0951
+MOL_WEIGHT  498.4961
+CLASS       Antibacterial
+             DG01197  Tetracycline antibiotic
+REMARK      ATC code: A01AB25 D06AA03 G01AA07 J01AA06 S01AA04
+            Chemical structure group: DG00397
+            Product (DG00397): D01596<JP>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07019  Tetracyclines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB25 Oxytetracycline
+                  D05322  Oxytetracycline calcium (USP)
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AA Tetracycline and derivatives
+                 D06AA03 Oxytetracycline
+                  D05322  Oxytetracycline calcium (USP)
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G01 GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+               G01A ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS
+                G01AA Antibiotics
+                 G01AA07 Oxytetracycline
+                  D05322  Oxytetracycline calcium (USP)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA06 Oxytetracycline
+                  D05322  Oxytetracycline calcium (USP)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA04 Oxytetracycline
+                  D05322  Oxytetracycline calcium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00397  Oxytetracycline
+                D05322  Oxytetracycline calcium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D05322  Oxytetracycline calcium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00397  Oxytetracycline
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                DG00397  Oxytetracycline
+DBLINKS     CAS: 15251-48-6
+            PubChem: 47207017
+            LigandBox: D05322
+            NIKKAJI: J220.544K
+ATOM        34
+            1   C1y C    23.3688  -17.1859
+            2   C1z C    23.3455  -18.5596
+            3   C1y C    22.1872  -16.4874
+            4   C1y C    24.5678  -16.5107
+            5   C2y C    22.1579  -19.2348
+            6   C5x C    24.5271  -19.2640
+            7   O1a O    23.3338  -19.9275
+            8   C1y C    20.9823  -17.1626
+            9   O1a O    22.1755  -14.8222
+            10  C2y C    25.7436  -17.2151
+            11  N1c N    24.5853  -15.1370
+            12  C2y C    20.9706  -18.5363
+            13  O1a O    22.2163  -20.6143
+            14  C2y C    25.7260  -18.5945
+            15  O5x O    24.5037  -20.6376
+            16  C1z C    19.7948  -16.4640
+            17  O1a O    26.9542  -16.5456 #-
+            18  C1a C    25.7901  -14.4618
+            19  C1a C    24.5970  -13.4723
+            20  C5x C    19.7831  -19.2231
+            21  C5a C    26.9135  -19.2988
+            22  C8y C    18.5958  -17.1509
+            23  C1a C    19.8007  -14.6708
+            24  C8y C    18.5899  -18.5305
+            25  O5x O    19.7774  -20.6027
+            26  N1a N    28.1125  -18.6294
+            27  O5a O    26.8901  -20.6783
+            28  C8x C    17.4025  -16.4640
+            29  C8y C    17.4025  -19.2174
+            30  C8x C    16.2094  -17.1509
+            31  C8x C    16.2094  -18.5305
+            32  O1a O    17.4083  -20.5968 #-
+            33  O1a O    18.5830  -15.7644
+            34  Z   Ca   31.2200  -17.0100 #2+
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Down
+            7     3   8 1
+            8     3   9 1 #Down
+            9     4  10 1
+            10    4  11 1 #Down
+            11    5  12 2
+            12    5  13 1
+            13    6  14 1
+            14    6  15 2
+            15    8  16 1
+            16   10  17 1
+            17   11  18 1
+            18   11  19 1
+            19   12  20 1
+            20   14  21 1
+            21   16  22 1
+            22   16  23 1 #Down
+            23   20  24 1
+            24   20  25 2
+            25   21  26 1
+            26   21  27 2
+            27   22  28 2
+            28   24  29 2
+            29   28  30 1
+            30   29  31 1
+            31   29  32 1
+            32    8  12 1
+            33   10  14 2
+            34   22  24 1
+            35   30  31 2
+            36   16  33 1 #Up
+///

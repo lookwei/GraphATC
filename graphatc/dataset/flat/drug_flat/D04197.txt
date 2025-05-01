@@ -1,0 +1,96 @@
+ENTRY       D04197                      Drug
+NAME        Floxuridine (USP/INN);
+            FUDR (TN)
+PRODUCT
+  GENERIC   FLOXURIDINE (Cerona Therapeutics)
+            FLOXURIDINE (Fresenius Kabi USA)
+            FLOXURIDINE (Hikma Pharmaceuticals USA)
+FORMULA     C9H11FN2O5
+EXACT_MASS  246.0652
+MOL_WEIGHT  246.1924
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01935  Fluoropyrimidine antineoplastic
+REMARK      Same as: C11736
+            ATC code: L01BC09
+            Product: D04197<US>
+EFFICACY    Antineoplastic, Antiviral, Antimetabolite
+  DISEASE   Gastrointestinal adenocarcinoma [DS:H00017 H00018 H00019 H00020]
+TARGET      TYMS [HSA:7298] [KO:K00560]
+  PATHWAY   hsa00240(7298)  Pyrimidine metabolism
+            hsa00670(7298)  One carbon pool by folate
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+OTHER_MAP   map00983  Drug metabolism - other enzymes
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01B ANTIMETABOLITES
+                L01BC Pyrimidine analogues
+                 L01BC09 Floxuridine
+                  D04197  Floxuridine (USP/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Antimetabolites
+               Floxuridine
+                D04197  Floxuridine (USP/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01935  Fluoropyrimidine antineoplastic
+                 D04197  Floxuridine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D04197  Floxuridine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                TYMS
+                 D04197  Floxuridine (USP/INN) &lt;US&gt;
+DBLINKS     CAS: 50-91-9
+            PubChem: 47206143
+            ChEBI: 60761
+            LigandBox: D04197
+            NIKKAJI: J4.488A
+ATOM        17
+            1   C1y C    20.5100  -17.2900
+            2   O2x O    19.3900  -16.5200
+            3   C1x C    20.0900  -18.6200
+            4   C1y C    18.2700  -17.2900
+            5   C1y C    18.6900  -18.6200
+            6   C1b C    17.0100  -16.8700
+            7   O1a O    17.9200  -19.6700
+            8   O1a O    16.0300  -17.7800
+            9   N4y N    21.8400  -16.8000
+            10  C8x C    21.8400  -15.4000
+            11  C8y C    23.0300  -17.5000
+            12  N4x N    24.2900  -16.8000
+            13  C8y C    24.2900  -15.4000
+            14  C8y C    23.0300  -14.7000
+            15  X   F    23.0300  -13.3000
+            16  O5x O    25.4800  -14.7000
+            17  O5x O    23.0300  -18.9000
+BOND        18
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     3   5 1
+            5     4   6 1 #Up
+            6     5   7 1 #Down
+            7     6   8 1
+            8     4   5 1
+            9     1   9 1 #Up
+            10   10   9 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   10  14 2
+            15   14  15 1
+            16   13  16 2
+            17   11  17 2
+            18   11   9 1
+///

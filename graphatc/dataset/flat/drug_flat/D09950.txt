@@ -1,0 +1,143 @@
+ENTRY       D09950                      Drug
+NAME        Ponatinib (USAN/INN)
+FORMULA     C29H27F3N6O
+EXACT_MASS  532.2198
+MOL_WEIGHT  532.5595
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG03161  BCR-ABL inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      ATC code: L01EA05
+            Chemical structure group: DG00722
+            Product (DG00722): D09951<JP/US>
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+TARGET      BCR-ABL [HSA:25] [KO:K06619]
+  PATHWAY   hsa05200(25)  Pathways in cancer
+            hsa05220(25)  Chronic myeloid leukemia
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EA BCR-ABL tyrosine kinase inhibitors
+                 L01EA05 Ponatinib
+                  D09950  Ponatinib (USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03161  BCR-ABL inhibitor
+                DG00722  Ponatinib
+                 D09950  Ponatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00722  Ponatinib
+                D09950  Ponatinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Non-receptor tyrosine kinases
+               ABL family
+                BCR-ABL
+                 D09950  Ponatinib (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09950
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03161  BCR-ABL inhibitor
+                DG00722  Ponatinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00722  Ponatinib
+DBLINKS     CAS: 943319-70-8
+            PubChem: 135626676
+            ChEBI: 78543
+            PDB-CCD: 0LI
+            LigandBox: D09950
+ATOM        39
+            1   N1y N    31.5700  -28.2800
+            2   C1x C    31.5700  -29.6800
+            3   C1x C    32.7600  -30.3800
+            4   N1y N    34.0200  -29.6800
+            5   C1x C    34.0200  -28.2800
+            6   C1x C    32.7600  -27.5800
+            7   C1a C    35.2100  -30.3800
+            8   C1b C    30.3547  -27.5849
+            9   C8y C    29.1663  -28.2777
+            10  C8y C    27.9699  -27.5935
+            11  C8x C    26.7603  -28.2984
+            12  C8y C    26.7660  -29.6984
+            13  C8x C    27.9623  -30.3826
+            14  C8x C    29.1719  -29.6777
+            15  C1d C    28.0339  -26.1805
+            16  X   F    28.0339  -24.7805
+            17  X   F    26.6339  -26.1805
+            18  X   F    29.4339  -26.1805
+            19  N1b N    25.5454  -30.4100
+            20  C5a C    24.3207  -29.7101
+            21  C8y C    23.1022  -30.4211
+            22  O5a O    24.3149  -28.2802
+            23  C8x C    21.8974  -29.7332
+            24  C8y C    20.6884  -30.4390
+            25  C8y C    20.6951  -31.8390
+            26  C8x C    21.8999  -32.5269
+            27  C8x C    23.1090  -31.8211
+            28  C1a C    19.5001  -32.5369
+            29  C3b C    19.5013  -29.7610
+            30  C3b C    18.2888  -29.0610
+            31  C8y C    17.0764  -28.3610
+            32  C8x C    17.0548  -26.9502
+            33  N5x N    15.7070  -26.5340
+            34  C8y C    14.8946  -27.6872
+            35  N4y N    15.7404  -28.8162
+            36  C8x C    13.5046  -27.8539
+            37  C8x C    12.9539  -29.1411
+            38  C8x C    13.7997  -30.2700
+            39  N5x N    15.1897  -30.1033
+BOND        43
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     1   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15    9  14 2
+            16   10  15 1
+            17   15  16 1
+            18   15  17 1
+            19   15  18 1
+            20   12  19 1
+            21   19  20 1
+            22   20  21 1
+            23   20  22 2
+            24   21  23 2
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   21  27 1
+            30   25  28 1
+            31   24  29 1
+            32   29  30 3
+            33   30  31 1
+            34   31  32 2
+            35   32  33 1
+            36   33  34 2
+            37   34  35 1
+            38   31  35 1
+            39   34  36 1
+            40   36  37 2
+            41   37  38 1
+            42   38  39 2
+            43   35  39 1
+///

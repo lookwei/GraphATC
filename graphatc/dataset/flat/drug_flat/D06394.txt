@@ -1,0 +1,75 @@
+ENTRY       D06394                      Drug
+NAME        Dabuzalgron hydrochloride (USAN)
+FORMULA     C12H16ClN3O3S. HCl
+EXACT_MASS  353.0368
+MOL_WEIGHT  354.2527
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+EFFICACY    Overactive bladder agent, alpha1A-Adrenergic receptor partial agonist
+COMMENT     Treatment of stress urinary incontinence
+TARGET      ADRA1A [HSA:148] [KO:K04135]
+  PATHWAY   hsa04080(148)  Neuroactive ligand-receptor interaction
+            hsa04270(148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 D06394  Dabuzalgron hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1A
+                 D06394  Dabuzalgron hydrochloride (USAN)
+DBLINKS     CAS: 219311-43-0
+            PubChem: 47208051
+            LigandBox: D06394
+ATOM        21
+            1   C8y C    12.1100  -13.8600
+            2   C8y C    12.1100  -15.2600
+            3   C8x C    13.3224  -15.9600
+            4   C8x C    14.5349  -15.2600
+            5   C8y C    14.5349  -13.8600
+            6   C8y C    13.3224  -13.1600
+            7   N1b N    10.8976  -13.1600
+            8   S4a S     9.7021  -13.8504
+            9   C1a C     8.4896  -14.5504
+            10  O3c O    10.4129  -15.0821
+            11  O3c O     9.0135  -12.6573
+            12  C1a C    13.3224  -11.7602
+            13  X   Cl   10.8976  -15.9600
+            14  O2a O    15.7660  -13.1490
+            15  C1b C    16.9712  -13.8447
+            16  C2y C    18.1535  -13.1619
+            17  N2x N    18.1535  -11.7619
+            18  N1x N    19.4850  -13.5945
+            19  C1x C    20.3079  -12.4619
+            20  C1x C    19.4850  -11.3292
+            21  X   Cl   22.7500  -13.8600
+BOND        21
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 1
+            10    8  10 2
+            11    8  11 2
+            12    6  12 1
+            13    2  13 1
+            14    5  14 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 2
+            18   16  18 1
+            19   18  19 1
+            20   19  20 1
+            21   17  20 1
+///

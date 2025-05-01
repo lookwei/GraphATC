@@ -1,0 +1,58 @@
+ENTRY       D11520            Mixture   Drug
+NAME        Ezetimibe and rosuvastatin;
+            Roszet (TN);
+            Rosuzet (TN)
+PRODUCT     ROSZET (Althera Pharmaceuticals LLC)
+  GENERIC   ROSUVASTATIN AND EZETIMIBE (SCOV3 LLC)
+COMPONENT   Ezetimibe [DR:D01966], (Rosuvastatin calcium [DR:D01915] | Rosuvastatin [DR:D08492])
+CLASS       Hypolipidemic agent
+             DG01946  Hypolipidemic agent
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+            Transporter substrate
+             DG01913  ABCG2 substrate
+             DG02856  SLCO1B1 substrate
+REMARK      Therapeutic category: 2189
+            Product: D11520<JP/US>
+EFFICACY    Antihyperlipidemic
+  DISEASE   Hyperlipidemia [DS:H01635]
+            Homozygous familial hypercholesterolemia [DS:H00155]
+COMMENT     Ezetimibe is metabolized by UDP-glucuronosyltransferase (UGT).
+            Rosuvastatin is a substrate for OATP1B1 and BCRP.
+METABOLISM  Enzyme: UGT [KO:K00699]
+            Transporter: SLCO1B1 [HSA:10599], ABCG2 [HSA:9429]
+INTERACTION  
+BRITE       USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Dyslipidemics, Other
+               Ezetimibe/ Rosuvastatin Calcium
+                D11520  Ezetimibe and rosuvastatin
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               218  Hyperlipidemia agents
+                2189  Others
+                 D11520  Ezetimibe and rosuvastatin
+            Drug groups [BR:br08330]
+             Hypolipidemic agent
+              DG01946  Hypolipidemic agent
+               D11520  Ezetimibe and rosuvastatin
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               D11520  Ezetimibe and rosuvastatin
+             Transporter substrate
+              DG01913  ABCG2 substrate
+               D11520  Ezetimibe and rosuvastatin
+              DG02856  SLCO1B1 substrate
+               D11520  Ezetimibe and rosuvastatin
+            Drug classes [BR:br08332]
+             Cardiovascular agent
+              DG01946  Hypolipidemic agent
+               D11520  Ezetimibe and rosuvastatin
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D11520
+             Drug transporters
+              D11520
+DBLINKS     PubChem: 384585496
+///

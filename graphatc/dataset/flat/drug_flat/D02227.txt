@@ -1,0 +1,113 @@
+ENTRY       D02227                      Drug
+NAME        Pentazocine hydrochloride (JAN/USP);
+            Sosegon (TN);
+            Talacen (TN)
+FORMULA     C19H27NO. HCl
+EXACT_MASS  321.1859
+MOL_WEIGHT  321.8847
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      Therapeutic category: 1149
+            ATC code: N02AD01
+            Chemical structure group: DG00819
+            Product (DG00819): D00498<JP> D02227<JP>
+            Product (mixture): D12492<US>
+EFFICACY    Analgesic, Opioid receptor agonist/antagonist
+COMMENT     Benzomorphan derivative
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+            OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AD Benzomorphan derivatives
+                 N02AD01 Pentazocine
+                  D02227  Pentazocine hydrochloride (JAN/USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               114  Antipyretics and analgesics, anti-inflammatory agents
+                1149  Others
+                 D02227  Pentazocine hydrochloride (JAN/USP)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00819  Pentazocine
+                D02227  Pentazocine hydrochloride
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00819  Pentazocine
+                D02227  Pentazocine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D02227  Pentazocine hydrochloride (JAN/USP) &lt;JP&gt;
+                OPRK1
+                 D02227  Pentazocine hydrochloride (JAN/USP) &lt;JP&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00819  Pentazocine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00819  Pentazocine
+DBLINKS     CAS: 64024-15-3
+            PubChem: 7849286
+            LigandBox: D02227
+            NIKKAJI: J355.237C
+ATOM        22
+            1   X   Cl   38.7586  -17.6371
+            2   C1z C    32.2000  -20.1600
+            3   C8y C    32.2000  -18.8300
+            4   C1y C    33.4600  -20.8600
+            5   C1a C    31.0800  -20.7900
+            6   C1x C    33.4600  -19.5300
+            7   C8x C    31.0800  -18.2000
+            8   C8y C    33.4600  -18.2000
+            9   C1y C    34.5800  -20.1600
+            10  C1x C    35.7000  -19.5300
+            11  C8y C    31.0800  -16.8700
+            12  C1x C    34.5800  -18.9000
+            13  C8x C    33.4600  -16.8700
+            14  N1y N    35.7000  -20.8600
+            15  C8x C    32.2700  -16.1700
+            16  O1a O    29.9600  -16.1700
+            17  C1b C    37.1000  -20.8600
+            18  C2b C    37.8700  -22.1200
+            19  C1a C    33.4600  -22.3300
+            20  C2c C    39.2700  -22.1200
+            21  C1a C    39.9700  -23.3800
+            22  C1a C    39.9700  -20.8600
+BOND        23
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     2   6 1 #Up
+            5     3   7 2
+            6     3   8 1
+            7     4   9 1
+            8     6  10 1
+            9     7  11 1
+            10    8  12 1
+            11    8  13 2
+            12    9  14 1 #Up
+            13   11  15 2
+            14   11  16 1
+            15    9  12 1
+            16   10  14 1
+            17   13  15 1
+            18   14  17 1
+            19   17  18 1
+            20    4  19 1 #Down
+            21   18  20 2
+            22   20  21 1
+            23   20  22 1
+///

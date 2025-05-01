@@ -1,0 +1,94 @@
+ENTRY       D03713                      Drug
+NAME        Dexfenfluramine hydrochloride (USAN);
+            d-Fenfluramine hydrochloride;
+            Redux (TN)
+FORMULA     C12H16F3N. HCl
+EXACT_MASS  267.1002
+MOL_WEIGHT  267.7183
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01704  Phenethylamine anorexic
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      ATC code: A08AA04
+            Chemical structure group: DG00105
+EFFICACY    Appetite suppressant (systemic), Serotonin reuptake inhibitor
+TARGET      SLC6A4 (HTT) [HSA:6532] [KO:K05037]
+  PATHWAY   hsa04726(6532)  Serotonergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A08 ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+               A08A ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS
+                A08AA Centrally acting antiobesity products
+                 A08AA04 Dexfenfluramine
+                  D03713  Dexfenfluramine hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00105  Dexfenfluramine
+                 D03713  Dexfenfluramine hydrochloride
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00105  Dexfenfluramine
+                D03713  Dexfenfluramine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A4 (HTT)
+                 D03713  Dexfenfluramine hydrochloride (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03713
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01704  Phenethylamine anorexic
+                DG00105  Dexfenfluramine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00105  Dexfenfluramine
+DBLINKS     CAS: 3239-45-0
+            PubChem: 17397804
+            ChEBI: 59730
+            LigandBox: D03713
+            NIKKAJI: J263.328K
+ATOM        17
+            1   C1b C    17.8500  -15.4000
+            2   C1c C    19.1100  -16.1000
+            3   N1b N    20.3000  -15.4000
+            4   C8y C    16.5900  -16.1000
+            5   C8x C    15.4000  -15.4700
+            6   C8y C    14.2100  -16.1700
+            7   C8x C    14.2100  -17.5700
+            8   C8x C    15.4000  -18.2000
+            9   C8x C    16.5900  -17.5000
+            10  C1d C    13.0200  -15.4000
+            11  X   F    11.7600  -14.7000
+            12  X   F    12.3200  -16.6600
+            13  X   F    13.6500  -14.2100
+            14  C1a C    19.1100  -17.5000
+            15  C1b C    21.4900  -16.1000
+            16  C1a C    22.7500  -15.4000
+            17  X   Cl   23.8000  -18.2000
+BOND        16
+            1     1   2 1
+            2     2   3 1
+            3     1   4 1
+            4     4   5 2
+            5     5   6 1
+            6     6   7 2
+            7     7   8 1
+            8     8   9 2
+            9     4   9 1
+            10    6  10 1
+            11   10  11 1
+            12   10  12 1
+            13   10  13 1
+            14    2  14 1 #Up
+            15    3  15 1
+            16   15  16 1
+///

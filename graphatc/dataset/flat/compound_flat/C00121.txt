@@ -1,0 +1,50 @@
+ENTRY       C00121                      Compound
+NAME        D-Ribose
+FORMULA     C5H10O5
+EXACT_MASS  150.0528
+MOL_WEIGHT  150.1299
+REACTION    R01051 R01079 R01080 R01081 R01245 R01273 R01677 R01770 
+            R02137 R02143 R02172 R02341 R03885 R07918 R08072 R08073 
+            R08074 R08080 R10046
+PATHWAY     map00030  Pentose phosphate pathway
+            map01100  Metabolic pathways
+            map02010  ABC transporters
+            map02030  Bacterial chemotaxis
+ENZYME      1.1.1.115       2.7.1.15        3.2.2.1         3.2.2.2         
+            3.2.2.3         3.2.2.7         3.2.2.8         3.2.2.13        
+            3.2.2.25        5.3.1.20
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Aldoses
+                C00121  D-Ribose
+DBLINKS     CAS: 50-69-1
+            PubChem: 3421
+            ChEBI: 47013
+            KNApSAcK: C00034198
+            PDB-CCD: BDR RIB
+            3DMET: B04636
+            NIKKAJI: J60.867J
+ATOM        10
+            1   C1y C    23.1879  -16.1353
+            2   C1y C    23.6486  -17.4649
+            3   O2x O    24.3192  -15.3130
+            4   C1b C    21.8758  -15.7154
+            5   C1y C    25.0597  -17.4649
+            6   O1a O    22.8206  -18.6019
+            7   C1y C    25.4737  -16.1587
+            8   O1a O    21.0303  -16.8351
+            9   O1a O    25.8762  -18.5962
+            10  O1a O    26.8032  -15.7213
+BOND        10
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Up
+            4     2   5 1
+            5     2   6 1 #Down
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1 #Down
+            9     7  10 1 #Either
+            10    5   7 1
+///

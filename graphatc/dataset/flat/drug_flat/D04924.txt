@@ -1,0 +1,84 @@
+ENTRY       D04924                      Drug
+NAME        Meptazinol hydrochloride (USAN)
+FORMULA     C15H23NO. HCl
+EXACT_MASS  269.1546
+MOL_WEIGHT  269.8102
+CLASS       Analgesic
+             DG01984  Opioid analgesics
+             DG01587  Opioid receptor agonist/antagonist
+REMARK      ATC code: N02AX05
+            Chemical structure group: DG00825
+EFFICACY    Analgesic, Opioid receptor agonist/antagonist
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AX Other opioids
+                 N02AX05 Meptazinol
+                  D04924  Meptazinol hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00825  Meptazinol
+                D04924  Meptazinol hydrochloride
+              DG01587  Opioid receptor agonist/antagonist
+               DG00825  Meptazinol
+                D04924  Meptazinol hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D04924  Meptazinol hydrochloride (USAN)
+            Drug groups [BR:br08330]
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00825  Meptazinol
+              DG01587  Opioid receptor agonist/antagonist
+               DG00825  Meptazinol
+DBLINKS     CAS: 59263-76-2
+            PubChem: 47206676
+            LigandBox: D04924
+            NIKKAJI: J311.492I
+ATOM        18
+            1   C1x C    24.3232  -18.0614
+            2   N1y N    25.5698  -17.4331
+            3   C1x C    26.8460  -18.0101
+            4   C1z C    27.1865  -19.3579
+            5   C1x C    24.0429  -19.4422
+            6   C1x C    26.3453  -20.4803
+            7   C1x C    24.9443  -20.5138
+            8   C1a C    25.5402  -16.0300
+            9   C1b C    27.8865  -20.5703
+            10  C8y C    28.3989  -18.6579
+            11  C8x C    29.6412  -19.3746
+            12  C8y C    30.8534  -18.6743
+            13  C8x C    30.8530  -17.2743
+            14  C8x C    29.6107  -16.5575
+            15  C8x C    28.3985  -17.2579
+            16  O1a O    32.0853  -19.3849
+            17  C1a C    29.2600  -20.5705
+            18  X   Cl   35.3500  -19.1800
+BOND        18
+            1     3   4 1
+            2     1   5 1
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     2   8 1
+            9     4   9 1
+            10    4  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17   12  16 1
+            18    9  17 1
+///

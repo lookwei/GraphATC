@@ -1,0 +1,172 @@
+ENTRY       D12444                      Drug
+NAME        Nilotinib hydrochloride dihydrate (JAN)
+FORMULA     C28H22F3N7O. HCl. 2H2O
+EXACT_MASS  601.1816
+MOL_WEIGHT  602.0073
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG03161  BCR-ABL inhibitor
+            Metabolizing enzyme substrate
+             DG02918  CYP2C8 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Transporter substrate
+             DG01665  ABCB1 substrate
+REMARK      ATC code: L01EA03
+            Chemical structure group: DG00716
+            Product (DG00716): D06413<JP/US>
+EFFICACY    Antineoplastic, Tyrosine kinase inhibitor
+TARGET      BCR-ABL [HSA_VAR:25v1] [HSA:25] [KO:K06619]
+            PDGFR [HSA:5156 5159] [KO:K04363 K05089]
+            KIT (CD117) [HSA:3815] [KO:K05091]
+  PATHWAY   hsa04012(25)  ErbB signaling pathway
+            hsa04014(25+3815+5156+5159)  Ras signaling pathway
+            hsa05200(25+3815+5156+5159)  Pathways in cancer
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]; CYP2C8 [HSA:1558]
+            Transporter: ABCB1 [HSA:5243]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EA BCR-ABL tyrosine kinase inhibitors
+                 L01EA03 Nilotinib
+                  D12444  Nilotinib hydrochloride dihydrate (JAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03161  BCR-ABL inhibitor
+                DG00716  Nilotinib
+                 D12444  Nilotinib hydrochloride dihydrate
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00716  Nilotinib
+                D12444  Nilotinib hydrochloride dihydrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00716  Nilotinib
+                 D12444  Nilotinib hydrochloride dihydrate
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00716  Nilotinib
+                D12444  Nilotinib hydrochloride dihydrate
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                PDGFR
+                 D12444  Nilotinib hydrochloride dihydrate (JAN)
+                KIT (CD117)
+                 D12444  Nilotinib hydrochloride dihydrate (JAN)
+              Non-receptor tyrosine kinases
+               ABL family
+                BCR-ABL [HSA_VAR:25v1]
+                 D12444  Nilotinib hydrochloride dihydrate (JAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D12444
+             Drug transporters
+              D12444
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03161  BCR-ABL inhibitor
+                DG00716  Nilotinib
+             Metabolizing enzyme substrate
+              DG02918  CYP2C8 substrate
+               DG00716  Nilotinib
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00716  Nilotinib
+             Transporter substrate
+              DG01665  ABCB1 substrate
+               DG00716  Nilotinib
+DBLINKS     CAS: 923289-71-8
+ATOM        42
+            1   C8y C    24.8037  -15.7651
+            2   C8x C    24.8037  -14.3637
+            3   C8y C    23.6126  -13.6631
+            4   C8x C    22.3514  -14.3637
+            5   C8y C    22.3514  -15.7651
+            6   C8x C    23.6126  -16.4658
+            7   N1b N    21.1603  -16.4658
+            8   C5a C    19.9691  -15.7651
+            9   C8y C    18.7780  -16.4658
+            10  C8x C    17.5168  -15.7651
+            11  C8y C    16.3256  -16.4658
+            12  C8y C    16.3256  -17.8671
+            13  C8x C    17.5168  -18.5678
+            14  C8x C    18.7780  -17.8671
+            15  N1b N    15.1345  -15.8352
+            16  C8y C    13.8733  -16.5358
+            17  N5x N    12.6821  -15.8352
+            18  C8y C    11.4910  -16.5358
+            19  C8x C    11.4910  -17.9372
+            20  C8x C    12.6821  -18.6378
+            21  N5x N    13.8733  -17.9372
+            22  C8y C    10.1597  -15.8352
+            23  C8x C    10.1597  -14.4338
+            24  N5x N     8.9686  -13.7331
+            25  C8x C     7.7774  -14.4338
+            26  C8x C     7.7774  -15.8352
+            27  C8x C     8.9686  -16.5358
+            28  C1a C    15.1345  -18.5678
+            29  O5a O    19.9691  -14.3637
+            30  C8x C    25.9949  -17.8671
+            31  N4y N    25.9949  -16.4658
+            32  N5x N    27.3962  -18.2875
+            33  C8y C    28.1670  -17.1664
+            34  C8x C    27.3262  -16.0454
+            35  C1d C    23.6126  -12.2617
+            36  X   F    22.1412  -12.2617
+            37  C1a C    29.5683  -17.1664
+            38  X   F    24.9439  -12.2617
+            39  X   F    23.6126  -10.8604
+            40  X   Cl   23.4725  -18.8480
+            41  O0  O    30.2628  -11.5003
+            42  O0  O    30.2400  -13.6500
+BOND        43
+            1    18  19 2
+            2    19  20 1
+            3    20  21 2
+            4    21  16 1
+            5     3   4 2
+            6    18  22 1
+            7     4   5 1
+            8     5   6 2
+            9     6   1 1
+            10    9  10 2
+            11   10  11 1
+            12   22  23 2
+            13   23  24 1
+            14   24  25 2
+            15   25  26 1
+            16   26  27 2
+            17   27  22 1
+            18   11  12 2
+            19   12  13 1
+            20   13  14 2
+            21   14   9 1
+            22   11  15 1
+            23    5   7 1
+            24   15  16 1
+            25    7   8 1
+            26   12  28 1
+            27    1   2 2
+            28    8   9 1
+            29    2   3 1
+            30   16  17 2
+            31   17  18 1
+            32    8  29 2
+            33   30  31 1
+            34    1  31 1
+            35   30  32 2
+            36   32  33 1
+            37   33  34 2
+            38   31  34 1
+            39    3  35 1
+            40   35  36 1
+            41   33  37 1
+            42   35  38 1
+            43   35  39 1
+///

@@ -1,0 +1,98 @@
+ENTRY       D07096                      Drug
+NAME        Aglepristone (INN);
+            Alizine (TN)
+FORMULA     C29H37NO2
+EXACT_MASS  431.2824
+MOL_WEIGHT  431.6096
+CLASS       Hormonal agent
+             DG01667  Progesterone receptor antagonist
+EFFICACY    Abortifacient (veterinary), Progesterone receptor antagonist
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01667  Progesterone receptor antagonist
+               D07096  Aglepristone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D07096  Aglepristone (INN)
+DBLINKS     CAS: 124478-60-0
+            PubChem: 51091437
+            ChEBI: 177608
+            LigandBox: D07096
+ATOM        32
+            1   C2y C    26.8960  -19.8220
+            2   C1y C    28.0166  -20.5224
+            3   C1y C    26.8960  -18.4211
+            4   C2y C    25.7052  -20.5224
+            5   C1y C    29.2774  -19.8220
+            6   C1x C    28.0166  -21.8532
+            7   C1x C    28.0867  -17.7908
+            8   C8y C    25.7052  -17.7908
+            9   C2y C    25.7052  -21.8532
+            10  C1x C    24.5145  -19.8220
+            11  C1z C    29.2774  -18.4912
+            12  C1x C    31.5888  -19.8220
+            13  C1x C    26.8259  -22.5536
+            14  C8x C    25.7052  -16.3899
+            15  C8x C    24.5145  -18.4211
+            16  C2x C    24.5145  -22.5536
+            17  C1x C    23.3238  -20.5224
+            18  C1z C    30.4681  -17.7908
+            19  C1a C    29.2774  -17.1604
+            20  C1x C    31.5888  -18.4912
+            21  C8x C    24.5145  -15.6895
+            22  C8x C    23.3238  -17.7207
+            23  C5x C    23.3238  -21.8532
+            24  C2b C    31.5888  -17.0903
+            25  C8y C    23.3238  -16.3899
+            26  O5x O    22.1331  -22.5536
+            27  N1c N    22.1331  -15.6895
+            28  C1a C    22.1331  -14.2886
+            29  C1a C    20.9424  -16.3899
+            30  O1a O    30.4681  -16.2498
+            31  C2b C    32.8257  -17.7478
+            32  C1a C    32.8042  -19.1214
+BOND        36
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Up
+            8     4   9 1
+            9     4  10 1
+            10    5  11 1
+            11    5  12 1
+            12    6  13 1
+            13    8  14 2
+            14    8  15 1
+            15    9  16 2
+            16   10  17 1
+            17   11  18 1
+            18   11  19 1 #Up
+            19   12  20 1
+            20   14  21 1
+            21   15  22 2
+            22   16  23 1
+            23   18  24 1 #Down
+            24   21  25 2
+            25   23  26 2
+            26   25  27 1
+            27   27  28 1
+            28   27  29 1
+            29    7  11 1
+            30    9  13 1
+            31   17  23 1
+            32   18  20 1
+            33   22  25 1
+            34   18  30 1 #Up
+            35   24  31 2
+            36   31  32 1
+///

@@ -1,0 +1,136 @@
+ENTRY       D00274                      Drug
+NAME        Cisapride (USP/INN)
+FORMULA     C23H29ClFN3O4
+EXACT_MASS  465.1831
+MOL_WEIGHT  465.9455
+CLASS       Gastrointestinal agent
+             DG01763  Propulsive
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Same as: C06910
+            ATC code: A03FA02
+            Chemical structure group: DG00056
+EFFICACY    Prokinetic, Serotonin receptor agonist
+TARGET      HTR4 [HSA:3360] [KO:K04160]
+            HTR3A [HSA:3359] [KO:K04819]
+            HTR2A [HSA:3356] [KO:K04157]
+  PATHWAY   hsa04020(3356+3360)  Calcium signaling pathway
+            hsa04080(3356+3360)  Neuroactive ligand-receptor interaction
+            hsa04726(3356+3359+3360)  Serotonergic synapse
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+STR_MAP     map07211  Serotonin receptor agonists/antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A03 DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS
+               A03F PROPULSIVES
+                A03FA Propulsives
+                 A03FA02 Cisapride
+                  D00274  Cisapride (USP/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG00056  Cisapride
+                D00274  Cisapride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00056  Cisapride
+                D00274  Cisapride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Serotonin
+                HTR2A
+                 D00274  Cisapride (USP/INN)
+                HTR4
+                 D00274  Cisapride (USP/INN)
+             Ion channels
+              Ligand-gated ion channels
+               Serotonin
+                HTR3A
+                 D00274  Cisapride (USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00274
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01763  Propulsive
+               DG00056  Cisapride
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00056  Cisapride
+DBLINKS     CAS: 81098-60-4
+            PubChem: 7847340
+            ChEBI: 3720
+            LigandBox: D00274
+            NIKKAJI: J299.805J
+ATOM        32
+            1   C5a C    13.7900  -15.4000
+            2   N1b N    15.0500  -14.7000
+            3   O5a O    13.7900  -16.7999
+            4   C1y C    16.2400  -15.4000
+            5   C1y C    16.2400  -16.7999
+            6   C1x C    17.4300  -14.7000
+            7   C1x C    17.4300  -17.5000
+            8   O2a O    14.9800  -17.5000
+            9   C1x C    18.6200  -15.4000
+            10  N1y N    18.6200  -16.7999
+            11  C1a C    14.9800  -18.8999
+            12  C1b C    19.8100  -17.5700
+            13  C1b C    21.0700  -16.8699
+            14  C1b C    22.2600  -17.5700
+            15  O2a O    23.4500  -16.8699
+            16  C8y C    24.7100  -17.5700
+            17  C8x C    24.7100  -18.9699
+            18  C8x C    25.9000  -16.8699
+            19  C8x C    25.9000  -19.6700
+            20  C8x C    27.0901  -17.6400
+            21  C8y C    27.0901  -19.0399
+            22  X   F    28.3500  -19.7400
+            23  C8y C    12.5834  -14.6900
+            24  C8y C    12.5950  -13.2999
+            25  C8x C    11.3884  -12.5899
+            26  C8y C    10.1702  -13.2797
+            27  C8y C    10.1586  -14.6698
+            28  C8x C    11.3652  -15.3799
+            29  N1a N     8.9578  -12.5661
+            30  X   Cl    8.9209  -15.3703
+            31  O2a O    13.8170  -12.6080
+            32  C1a C    13.7589  -11.2005
+BOND        34
+            1     1   2 1
+            2     1   3 2
+            3     2   4 1
+            4     4   5 1
+            5     4   6 1
+            6     5   7 1
+            7     5   8 1
+            8     6   9 1
+            9     7  10 1
+            10    8  11 1
+            11   10  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16   16  17 2
+            17   16  18 1
+            18   17  19 1
+            19   18  20 2
+            20   19  21 2
+            21   21  22 1
+            22    9  10 1
+            23   20  21 1
+            24    1  23 1
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   27  28 1
+            30   23  28 2
+            31   26  29 1
+            32   27  30 1
+            33   24  31 1
+            34   31  32 1
+///

@@ -1,0 +1,87 @@
+ENTRY       D12516                      Drug
+NAME        Zagociguat (USAN/INN)
+FORMULA     C16H10F4N6
+EXACT_MASS  362.0903
+MOL_WEIGHT  362.2844
+CLASS       Cardiovascular agent
+             DG03006  Guanylate cyclase activator
+EFFICACY    Neurodegenerative diseases agent, Guanylate cyclase activator
+COMMENT     Treatment of serious neurodegenerative disorders including mitochondrial disease, Alzheimer's disease (AD), and cognitive impairment associated with schizophrenia
+TARGET      GUCY1A [HSA:2977 2982] [KO:K12318]
+            GUCY1B [HSA:2983] [KO:K12319]
+  PATHWAY   hsa00230(2977+2982+2983)  Purine metabolism
+            hsa04022(2977+2982+2983)  cGMP-PKG signaling pathway
+            hsa04540(2977+2982+2983)  Gap junction
+            hsa04730(2977+2982+2983)  Long-term depression
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03006  Guanylate cyclase activator
+               D12516  Zagociguat
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Lyases (EC4)
+               Phosphorus-oxygen lyases
+                GUCY1A
+                 D12516  Zagociguat (USAN/INN)
+                GUCY1B
+                 D12516  Zagociguat (USAN/INN)
+DBLINKS     CAS: 2201048-82-8
+ATOM        26
+            1   C8x C    18.0057  -15.6326
+            2   N5x N    15.7724  -15.7024
+            3   C8y C    16.1912  -16.9586
+            4   N4y N    17.5869  -16.9586
+            5   C8x C    16.8890  -14.7952
+            6   C8y C    15.5631  -18.2148
+            7   N5x N    16.2609  -19.4012
+            8   C8y C    17.6567  -19.4012
+            9   C8x C    18.3546  -18.1450
+            10  C1b C    14.1414  -18.1934
+            11  C8y C    13.4200  -19.4007
+            12  C8x C    12.0400  -19.3798
+            13  C8x C    11.3217  -20.5815
+            14  C8x C    12.0033  -21.8044
+            15  C8x C    13.3833  -21.8253
+            16  C8y C    14.1016  -20.6236
+            17  X   F    15.4700  -20.6449
+            18  C8y C    18.3574  -20.5922
+            19  N4x N    17.8001  -21.8717
+            20  C8y C    18.8448  -22.7971
+            21  N5x N    20.0477  -22.0895
+            22  N5x N    19.7464  -20.7268
+            23  C1d C    18.7076  -24.2146
+            24  X   F    17.4168  -24.8022
+            25  X   F    19.8378  -25.0217
+            26  X   F    18.7076  -25.6146
+BOND        29
+            1     2   3 2
+            2     3   4 1
+            3     4   1 1
+            4     1   5 2
+            5     2   5 1
+            6     3   6 1
+            7     6   7 2
+            8     7   8 1
+            9     8   9 2
+            10    4   9 1
+            11    6  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 2
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   16  17 1
+            20    8  18 1
+            21   18  19 1
+            22   19  20 1
+            23   20  21 2
+            24   21  22 1
+            25   18  22 2
+            26   20  23 1
+            27   23  24 1
+            28   23  25 1
+            29   23  26 1
+///

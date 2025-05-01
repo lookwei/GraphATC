@@ -1,0 +1,95 @@
+ENTRY       D09582                      Drug
+NAME        Balapiravir (USAN/INN)
+FORMULA     C21H30N6O8
+EXACT_MASS  494.2125
+MOL_WEIGHT  494.4983
+REMARK      Chemical structure group: DG03150
+EFFICACY    Antiviral
+COMMENT     Treatment of Dengue virus infection
+TARGET      HCV NS5B polymerase [KO:K22472]
+            Dengue virus RNA-dependent RNA polymerase
+  PATHWAY   ko03230(K22472)  Viral genome structure
+            ko03240(K22472)  Viral replication
+            ko05160(K22472)  Hepatitis C
+BRITE       Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HCV NS5A/NS5B inhibitor
+                D09582  Balapiravir (USAN/INN)
+DBLINKS     CAS: 690270-29-2
+            PubChem: 124490322
+            LigandBox: D09582
+ATOM        35
+            1   C1z C    27.1600  -28.4200
+            2   C1y C    27.5800  -29.7500
+            3   C1y C    28.9800  -29.7500
+            4   C1y C    29.4000  -28.4200
+            5   O2x O    28.2800  -27.5800
+            6   N4y N    30.5900  -27.7200
+            7   C1b C    25.9700  -27.7200
+            8   O7a O    30.1700  -30.4500
+            9   O7a O    26.3900  -30.4500
+            10  C8x C    31.7800  -28.4200
+            11  C8x C    33.0400  -27.7200
+            12  C8y C    33.0400  -26.3200
+            13  N5x N    31.7800  -25.6200
+            14  C8y C    30.5900  -26.3200
+            15  O5x O    29.4000  -25.6200
+            16  N1a N    34.2300  -25.6200
+            17  C7a C    30.1700  -31.8500
+            18  C7a C    26.3900  -31.8500
+            19  O6a O    28.9800  -32.5500
+            20  C1c C    31.3600  -32.5500
+            21  O6a O    27.5800  -32.5500
+            22  C1c C    25.2000  -32.5500
+            23  C1a C    32.6200  -31.8500
+            24  C1a C    31.3600  -33.9500
+            25  C1a C    23.9400  -31.8500
+            26  C1a C    25.2000  -33.9500
+            27  N0  N    24.7800  -28.4200 #+
+            28  N2b N    25.9700  -29.1200
+            29  N2a N    23.3800  -29.3300 #-
+            30  O7a O    25.9700  -26.3200
+            31  C7a C    24.7576  -25.6200
+            32  C1c C    23.5621  -26.3104
+            33  O6a O    24.7575  -24.2202
+            34  C1a C    22.3747  -25.6249
+            35  C1a C    23.5620  -27.7197
+BOND        36
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     4   6 1 #Up
+            7     1   7 1 #Up
+            8     3   8 1 #Down
+            9     2   9 1 #Down
+            10    6  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15    6  14 1
+            16   14  15 2
+            17   12  16 1
+            18    8  17 1
+            19    9  18 1
+            20   17  19 2
+            21   17  20 1
+            22   18  21 2
+            23   18  22 1
+            24   20  23 1
+            25   20  24 1
+            26   22  25 1
+            27   22  26 1
+            28   27  28 2
+            29    1  28 1 #Down
+            30   27  29 2
+            31    7  30 1
+            32   30  31 1
+            33   31  32 1
+            34   31  33 2
+            35   32  34 1
+            36   32  35 1
+///

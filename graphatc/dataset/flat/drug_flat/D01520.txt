@@ -1,0 +1,116 @@
+ENTRY       D01520                      Drug
+NAME        Levomepromazine hydrochloride (JAN/USAN);
+            Nozinan (TN)
+FORMULA     C19H24N2OS. HCl
+EXACT_MASS  364.1376
+MOL_WEIGHT  364.9326
+CLASS       Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+REMARK      Therapeutic category: 1172
+            ATC code: N05AA02
+            Chemical structure group: DG00868
+            Product (DG00868): D01520<JP> D02248<JP>
+EFFICACY    Analgesic, Antipsychotic
+COMMENT     Phenothiazine derivative
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1813)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07029  Antipsychotics - phenothiazines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AA Phenothiazines with aliphatic side-chain
+                 N05AA02 Levomepromazine
+                  D01520  Levomepromazine hydrochloride (JAN/USAN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               117  Psychotropics
+                1172  Phenothiazines
+                 D01520  Levomepromazine hydrochloride (JAN/USAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00868  Levomepromazine
+                 D01520  Levomepromazine hydrochloride
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00868  Levomepromazine
+                 D01520  Levomepromazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D01520  Levomepromazine hydrochloride (JAN/USAN) &lt;JP&gt;
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00868  Levomepromazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00868  Levomepromazine
+DBLINKS     CAS: 1236-99-3
+            PubChem: 7848583
+            ChEBI: 31773
+            LigandBox: D01520
+            NIKKAJI: J349.699F
+ATOM        24
+            1   S2x S    22.4684  -23.2234
+            2   N1y N    22.4684  -20.4199
+            3   C8y C    23.6782  -21.1208
+            4   C8y C    23.6723  -22.5226
+            5   C8x C    24.8832  -23.2285
+            6   C8x C    26.1001  -22.5330
+            7   C8y C    26.1060  -21.1312
+            8   C8x C    24.8951  -20.4252
+            9   C8y C    21.2515  -22.5226
+            10  C8y C    21.2515  -21.1208
+            11  C8x C    20.0374  -20.4199
+            12  C8x C    18.8236  -21.1208
+            13  C8x C    18.8236  -22.5226
+            14  C8x C    20.0374  -23.2234
+            15  C1b C    22.4621  -19.0252
+            16  C1c C    23.6728  -18.3243
+            17  C1b C    23.6728  -16.9295
+            18  N1c N    24.8834  -16.2286
+            19  C1a C    24.8834  -14.8340
+            20  C1a C    24.8871  -19.0243
+            21  C1a C    26.0977  -16.9288
+            22  O2a O    27.3240  -20.4348
+            23  C1a C    28.5257  -21.1356
+            24  X   Cl   32.5418  -20.6190
+BOND        25
+            1     3   2 1
+            2     2  10 1
+            3     9  10 2
+            4    10  11 1
+            5    11  12 2
+            6    12  13 1
+            7    13  14 2
+            8    14   9 1
+            9     3   4 2
+            10    2  15 1
+            11    4   5 1
+            12   15  16 1
+            13    5   6 2
+            14   16  17 1
+            15    6   7 1
+            16   17  18 1
+            17    7   8 2
+            18   18  19 1
+            19    8   3 1
+            20   16  20 1 #Up
+            21   18  21 1
+            22    9   1 1
+            23    1   4 1
+            24    7  22 1
+            25   22  23 1
+///

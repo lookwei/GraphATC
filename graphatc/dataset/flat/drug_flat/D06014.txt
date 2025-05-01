@@ -1,0 +1,51 @@
+ENTRY       D06014                      Drug
+NAME        Tazolol hydrochloride (USAN)
+FORMULA     C9H16N2O2S. HCl
+EXACT_MASS  252.0699
+MOL_WEIGHT  252.7615
+EFFICACY    Cardiotonic, beta-Adrenergic receptor agonist/antagonist
+TARGET      ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(153+154)  Adrenergic signaling in cardiomyocytes
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB
+                 D06014  Tazolol hydrochloride (USAN)
+DBLINKS     CAS: 38241-39-3
+            PubChem: 47207672
+            LigandBox: D06014
+            NIKKAJI: J365.036G
+ATOM        15
+            1   X   Cl   21.0999  -20.9455
+            2   C1c C    19.3900  -16.8700
+            3   C1a C    20.6024  -17.5700
+            4   N1b N    18.1776  -17.5700
+            5   C1a C    19.3900  -15.4700
+            6   C1b C    16.9821  -16.8796
+            7   C1c C    15.7947  -17.5651
+            8   C1b C    14.6035  -16.8771
+            9   O1a O    15.7945  -18.9698
+            10  O2a O    13.4140  -17.5638
+            11  C8y C    13.4138  -18.9698
+            12  S2x S    12.2983  -19.7802
+            13  C8x C    12.7244  -21.0916
+            14  C8x C    14.1032  -21.0916
+            15  N5x N    14.5293  -19.7802
+BOND        14
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     4   6 1
+            5     6   7 1
+            6     7   8 1
+            7     7   9 1
+            8     8  10 1
+            9    10  11 1
+            10   11  12 1
+            11   12  13 1
+            12   13  14 2
+            13   14  15 1
+            14   11  15 2
+///

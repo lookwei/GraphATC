@@ -1,0 +1,128 @@
+ENTRY       D00076                      Drug
+NAME        Noradrenaline (JP18);
+            Norepinephrine (INN);
+            Nor adrenalin (TN)
+FORMULA     C8H11NO3
+EXACT_MASS  169.0739
+MOL_WEIGHT  169.1778
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01699  Catecholamine cardiotonic
+             DG01456  Adrenergic receptor agonist
+             DG01951  Catecholamine adrenergic receptor agonist
+            Metabolizing enzyme substrate
+             DG01592  COMT substrate
+             DG02917  MAO substrate
+REMARK      Same as: C00547
+            Therapeutic category: 2451
+            ATC code: C01CA03
+            Chemical structure group: DG00212
+            Product (DG00212): D00076<JP> D05206<US>
+EFFICACY    Antihypotensive, Vasoconstrictor, Adrenergic receptor agonist
+COMMENT     Catecholamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+METABOLISM  Enzyme: COMT [HSA:1312], MAO [HSA:4128 4129]
+INTERACTION  
+STR_MAP     map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA03 Norepinephrine
+                  D00076  Noradrenaline (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              24  Hormones
+               245  Adrenal hormone preparations
+                2451  Epinephrines
+                 D00076  Noradrenaline (JP18); Norepinephrine (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00212  Norepinephrine
+                 D00076  Noradrenaline
+              DG01456  Adrenergic receptor agonist
+               DG00212  Norepinephrine
+                D00076  Noradrenaline
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00212  Norepinephrine
+                D00076  Noradrenaline
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00212  Norepinephrine
+                D00076  Noradrenaline
+              DG02917  MAO substrate
+               DG00212  Norepinephrine
+                D00076  Noradrenaline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D00076  Noradrenaline (JP18) &lt;JP&gt;
+                ADRA2
+                 D00076  Noradrenaline (JP18) &lt;JP&gt;
+                ADRB
+                 D00076  Noradrenaline (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00076  Noradrenaline
+              D00076  Noradrenaline injection
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00076
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01699  Catecholamine cardiotonic
+                DG00212  Norepinephrine
+              DG01456  Adrenergic receptor agonist
+               DG00212  Norepinephrine
+              DG01951  Catecholamine adrenergic receptor agonist
+               DG00212  Norepinephrine
+             Metabolizing enzyme substrate
+              DG01592  COMT substrate
+               DG00212  Norepinephrine
+              DG02917  MAO substrate
+               DG00212  Norepinephrine
+DBLINKS     CAS: 51-41-2
+            PubChem: 7847144
+            ChEBI: 18357
+            PDB-CCD: E5E LNR
+            LigandBox: D00076
+            NIKKAJI: J9.223A
+ATOM        12
+            1   C8y C    25.1107  -17.0137
+            2   C8x C    25.1107  -18.4285
+            3   C8x C    23.8950  -16.3188
+            4   C1c C    26.3149  -16.3188
+            5   C8x C    23.8950  -19.1423
+            6   C8y C    22.6850  -17.0137
+            7   C1b C    27.5246  -17.0080
+            8   O1a O    26.3149  -14.9217
+            9   C8y C    22.6850  -18.4285
+            10  N1a N    28.7227  -16.3130
+            11  O1a O    21.4681  -19.1189
+            12  O1a O    21.4728  -16.3208
+BOND        12
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     4   8 1 #Up
+            8     5   9 2
+            9     7  10 1
+            10    9  11 1
+            11    6   9 1
+            12    6  12 1
+///

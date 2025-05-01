@@ -1,0 +1,74 @@
+ENTRY       C00365                      Compound
+NAME        dUMP;
+            Deoxyuridylic acid;
+            Deoxyuridine monophosphate;
+            Deoxyuridine 5'-phosphate;
+            2'-Deoxyuridine 5'-phosphate
+FORMULA     C9H13N2O8P
+EXACT_MASS  308.041
+MOL_WEIGHT  308.1819
+REACTION    R01663 R02098 R02099 R02100 R02101 R02102 R06613 R07307
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+            map01523  Antifolate resistance
+MODULE      M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+ENZYME      2.1.1.45        2.1.1.148       2.7.1.21        2.7.1.145       
+            2.7.4.4         2.7.4.9         3.1.3.5         3.1.3.89        
+            3.1.3.-         3.5.4.12        3.5.4.30        3.6.1.23
+BRITE       Compounds with biological roles [BR:br08001]
+             Nucleic acids
+              Nucleotides
+               Deoxyribonucleotides
+                C00365  dUMP
+DBLINKS     CAS: 964-26-1
+            PubChem: 3656
+            ChEBI: 17622
+            KNApSAcK: C00019282
+            PDB-CCD: DU UMP
+            3DMET: B01231
+            NIKKAJI: J298.569A
+ATOM        20
+            1   N4y N    28.8395  -19.3493
+            2   C1y C    27.4981  -19.7926
+            3   C8y C    29.8893  -20.2824
+            4   C8x C    29.1313  -17.9845
+            5   O2x O    26.4075  -18.9876
+            6   C1x C    27.0900  -21.1631
+            7   N4x N    31.2250  -19.8450
+            8   O5x O    29.6094  -21.6530
+            9   C8x C    30.4551  -17.5354
+            10  C1y C    25.2703  -19.8276
+            11  C1y C    25.6902  -21.1631
+            12  C8y C    31.5109  -18.4686
+            13  C1b C    23.9346  -19.3959
+            14  O1a O    24.8562  -22.2829
+            15  O5x O    32.8406  -18.0369
+            16  O2b O    22.9490  -20.3700
+            17  P1b P    21.5493  -20.3700
+            18  O1c O    21.5434  -21.7638
+            19  O1c O    20.1554  -20.3700
+            20  O1c O    21.5434  -18.9702
+BOND        21
+            1     2   1 1 #Up
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 2
+            8     4   9 2
+            9     5  10 1
+            10    6  11 1
+            11    7  12 1
+            12   10  13 1 #Up
+            13   11  14 1 #Down
+            14   12  15 2
+            15   13  16 1
+            16   16  17 1
+            17   17  18 1
+            18   17  19 1
+            19   17  20 2
+            20    9  12 1
+            21   10  11 1
+///

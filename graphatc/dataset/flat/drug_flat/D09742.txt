@@ -1,0 +1,43 @@
+ENTRY       D09742            Mixture   Drug
+NAME        Lansoprazole, amoxicillin hydrate and metronidazole;
+            Lampion (TN)
+COMPONENT   Lansoprazole [DR:D00355], (Amoxicillin hydrate [DR:D00229] | Amoxicillin [DR:D07452]), Metronidazole [DR:D00409]
+CLASS       Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      ATC code: A02BD03 J01RA01
+EFFICACY    Antibacterial
+COMMENT     Lansoprazole is primarily metabolized by CYP2C19 and CYP3A4.
+METABOLISM  Enzyme: CYP2C19 [HSA:1557], CYP3A4 [HSA:1576]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BD Combinations for eradication of Helicobacter pylori
+                 A02BD03 Lansoprazole, amoxicillin and metronidazole
+                  D09742  Lansoprazole, amoxicillin hydrate and metronidazole
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01R COMBINATIONS OF ANTIBACTERIALS
+                J01RA Combinations of antibacterials
+                 J01RA01 Penicillins, combinations with other antibacterials
+                  D09742  Lansoprazole, amoxicillin hydrate and metronidazole
+            Drug groups [BR:br08330]
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D09742  Lansoprazole, amoxicillin hydrate and metronidazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D09742  Lansoprazole, amoxicillin hydrate and metronidazole
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D09742  Lansoprazole, amoxicillin hydrate and metronidazole
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09742
+DBLINKS     PubChem: 124490482
+///

@@ -1,0 +1,97 @@
+ENTRY       D05096                      Drug
+NAME        Mycophenolic acid (USAN/INN);
+            Mycophenolic acid (TN)
+FORMULA     C17H20O6
+EXACT_MASS  320.126
+MOL_WEIGHT  320.3371
+SOURCE      Penicillium brevicompactum [TAX:5074]
+REMARK      Same as: C20380
+            ATC code: L04AA06
+            Chemical structure group: DG00739
+            Product (DG00739): D00752<JP/US> D05094<US> D05095<US>
+EFFICACY    Immunosuppressant, Inosine monophosphate dehydrogenase inhibitor
+TARGET      IMPDH [HSA:3614 3615] [KO:K00088]
+  PATHWAY   hsa00230(3614+3615)  Purine metabolism
+STR_MAP     map07046  Immunosuppressive agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA06 Mycophenolic acid
+                  D05096  Mycophenolic acid (USAN/INN)
+            USP drug classification [BR:br08302]
+             Immunological Agents
+              Immunosuppressants
+               Antimetabolites, Antiproliferative
+                Mycophenolic Acid
+                 D05096  Mycophenolic acid (USAN/INN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                IMPDH
+                 D05096  Mycophenolic acid (USAN/INN)
+            Pharmacogenomic biomarkers [br08341.html]
+             Polymorphisms and mutations affecting drug response
+              D05096
+            Prodrugs [br08324.html]
+             D05096
+            Prodrugs [br08324.html(DG00739)]
+             DG00739
+DBLINKS     CAS: 24280-93-1
+            PubChem: 47206821
+            ChEBI: 168396
+            PDB-CCD: MOA
+            LigandBox: D05096
+            NIKKAJI: J2.768E
+ATOM        23
+            1   C8y C    30.8131  -17.7549
+            2   C8y C    30.8073  -16.3449
+            3   C8y C    29.6013  -18.4481
+            4   C1x C    32.1474  -18.1860
+            5   C8y C    29.6013  -15.6458
+            6   C7x C    32.1414  -15.9136
+            7   C8y C    28.3893  -17.7549
+            8   C1a C    29.6013  -19.8523
+            9   O7x O    32.9688  -17.0499
+            10  C8y C    28.3893  -16.3449
+            11  O1a O    29.6013  -14.2474
+            12  O6a O    32.5785  -14.5795
+            13  O2a O    27.1775  -18.4481
+            14  C1b C    27.1775  -15.6458
+            15  C1a C    27.1775  -19.8523
+            16  C2b C    25.9658  -16.3392
+            17  C2c C    24.7539  -15.6400
+            18  C1b C    23.5477  -16.3332
+            19  C1a C    24.7598  -14.2417
+            20  C1b C    22.3360  -15.6341
+            21  C6a C    21.1242  -16.3215
+            22  O6a O    19.9123  -15.6284
+            23  O6a O    21.1184  -17.7256
+BOND        24
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 2
+            10    5  11 1
+            11    6  12 2
+            12    7  13 1
+            13   10  14 1
+            14   13  15 1
+            15   14  16 1
+            16   16  17 2
+            17   17  18 1
+            18   17  19 1
+            19   18  20 1
+            20   20  21 1
+            21   21  22 1
+            22   21  23 2
+            23    6   9 1
+            24    7  10 1
+///

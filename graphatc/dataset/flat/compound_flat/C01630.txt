@@ -1,0 +1,58 @@
+ENTRY       C01630                      Compound
+NAME        Xylobiose
+FORMULA     C10H18O9
+EXACT_MASS  282.0951
+MOL_WEIGHT  282.2445
+PATHWAY     map02010  ABC transporters
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Oligosaccharides
+               Disaccharides
+                C01630  Xylobiose
+DBLINKS     CAS: 6860-47-5
+            PubChem: 4780
+            ChEBI: 28309
+            PDB-CCD: BXP XYB
+            NIKKAJI: J15.577B
+ATOM        19
+            1   C1y C    23.4075  -14.8251
+            2   C1y C    24.6056  -15.5060
+            3   O2a O    22.0772  -15.6700
+            4   C1x C    23.4075  -13.4506
+            5   C1y C    25.7972  -14.8251
+            6   O1a O    24.6056  -16.8869
+            7   C1y C    20.5829  -16.1743
+            8   O2x O    24.6056  -12.7697
+            9   C1y C    25.7972  -13.4506
+            10  O1a O    27.2409  -15.6636
+            11  C1y C    20.5829  -17.5489
+            12  O2x O    19.3975  -15.4998
+            13  O1a O    26.8564  -12.9147
+            14  C1y C    19.3975  -18.2361
+            15  O1a O    21.7745  -18.2361
+            16  C1x C    18.1995  -16.1743
+            17  C1y C    18.1995  -17.5489
+            18  O1a O    19.3975  -19.6107
+            19  O1a O    17.0141  -18.2361
+BOND        20
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1 #Up
+            6     7   3 1 #Up
+            7     4   8 1
+            8     5   9 1
+            9     5  10 1 #Down
+            10    7  11 1
+            11    7  12 1
+            12    9  13 1
+            13   11  14 1
+            14   11  15 1 #Down
+            15   12  16 1
+            16   14  17 1
+            17   14  18 1 #Up
+            18   17  19 1 #Down
+            19    8   9 1
+            20   16  17 1
+///

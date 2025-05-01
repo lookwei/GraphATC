@@ -1,0 +1,109 @@
+ENTRY       D06007                      Drug
+NAME        Tapentadol (USAN/INN)
+FORMULA     C14H23NO
+EXACT_MASS  221.178
+MOL_WEIGHT  221.3385
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+              DG01563  mu-Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+            Metabolizing enzyme substrate
+             DG02924  UGT substrate
+REMARK      ATC code: N02AX06
+            Chemical structure group: DG00826
+            Product (DG00826): D10199<JP/US>
+EFFICACY    Analgesic, Opioid receptor agonist, Noradrenaline reuptake inhibitor
+TARGET      OPRM1 [HSA:4988] [KO:K04215]
+            SLC6A2 (NAT1) [HSA:6530] [KO:K05035]
+  PATHWAY   hsa04080(4988)  Neuroactive ligand-receptor interaction
+            hsa04721(6530)  Synaptic vesicle cycle
+METABOLISM  Enzyme: UGT [KO:K00699]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AX Other opioids
+                 N02AX06 Tapentadol
+                  D06007  Tapentadol (USAN/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00826  Tapentadol
+                 D06007  Tapentadol
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00826  Tapentadol
+                D06007  Tapentadol
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG00826  Tapentadol
+                D06007  Tapentadol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D06007  Tapentadol (USAN/INN)
+             Transporters
+              Solute carrier family
+               SLC6
+                SLC6A2 (NAT1)
+                 D06007  Tapentadol (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D06007
+            Narcotics and psychotropics in Japan [br08308.html]
+             Narcotics by Cabinet Order Article 1 (157 substances)
+              D06007
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG01563  mu-Opioid receptor agonist
+                DG00826  Tapentadol
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00826  Tapentadol
+             Metabolizing enzyme substrate
+              DG02924  UGT substrate
+               DG00826  Tapentadol
+DBLINKS     CAS: 175591-23-8
+            PubChem: 47207665
+            LigandBox: D06007
+ATOM        16
+            1   C8y C    16.4500  -15.8900
+            2   C8x C    16.4500  -17.2900
+            3   C8x C    17.6624  -17.9900
+            4   C8x C    18.8749  -17.2900
+            5   C8y C    18.8749  -15.8900
+            6   C8x C    17.6624  -15.1900
+            7   O1a O    15.2376  -15.1900
+            8   C1c C    20.1060  -15.1790
+            9   C1c C    21.3112  -15.8747
+            10  C1b C    20.1057  -13.7901
+            11  C1b C    22.4935  -15.1919
+            12  C1a C    21.3062  -13.0966
+            13  N1c N    23.6875  -15.8812
+            14  C1a C    21.3116  -17.2896
+            15  C1a C    24.8754  -15.1952
+            16  C1a C    23.6877  -17.2897
+BOND        16
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     1   7 1
+            8     5   8 1
+            9     8   9 1
+            10    8  10 1 #Down
+            11    9  11 1
+            12   10  12 1
+            13   11  13 1
+            14    9  14 1 #Down
+            15   13  15 1
+            16   13  16 1
+///

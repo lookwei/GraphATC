@@ -1,0 +1,100 @@
+ENTRY       D04223                      Drug
+NAME        Fluparoxan hydrochloride (USAN);
+            Fluparoxan hydrochloride hydrate
+FORMULA     (C10H10FNO2. HCl)2. H2O
+EXACT_MASS  480.103
+MOL_WEIGHT  481.3178
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+EFFICACY    Antidepressant
+TARGET      ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+  PATHWAY   hsa04080(150+151+152)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 D04223  Fluparoxan hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA2
+                 D04223  Fluparoxan hydrochloride (USAN)
+DBLINKS     CAS: 111793-41-0
+            PubChem: 47206169
+            LigandBox: D04223
+ATOM        31
+            1   C8x C    23.0318  -15.4728
+            2   C8x C    23.0318  -16.8731
+            3   C8x C    24.2445  -17.5732
+            4   C8y C    25.4572  -16.8731
+            5   C8y C    25.4572  -15.4728
+            6   C8y C    24.2445  -14.7727
+            7   X   F    24.2445  -13.3726
+            8   O2x O    26.6698  -17.5732
+            9   C1y C    27.8824  -16.8731
+            10  C1y C    27.8824  -15.4728
+            11  O2x O    26.6698  -14.7727
+            12  C1x C    29.2142  -17.3058
+            13  N1x N    30.0373  -16.1729
+            14  C1x C    29.2142  -15.0401
+            15  O0  O    36.5452  -15.4730
+            16  X   Cl   33.0400  -16.1000
+            17  C8x C    23.0318  -15.4728
+            18  C8x C    23.0318  -16.8731
+            19  C8x C    24.2445  -17.5732
+            20  C8y C    25.4572  -16.8731
+            21  C8y C    25.4572  -15.4728
+            22  C8y C    24.2445  -14.7727
+            23  X   F    24.2445  -13.3726
+            24  O2x O    26.6698  -14.7727
+            25  C1y C    27.8824  -15.4728
+            26  C1y C    27.8824  -16.8731
+            27  O2x O    26.6698  -17.5732
+            28  C1x C    29.2142  -17.3058
+            29  N1x N    30.0373  -16.1729
+            30  C1x C    29.2142  -15.0401
+            31  X   Cl   33.0400  -16.1000
+BOND        32
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     6   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    5  11 1
+            13    9  12 1 #Down
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1 #Up
+            17   17  18 2
+            18   18  19 1
+            19   19  20 2
+            20   20  21 1
+            21   21  22 2
+            22   17  22 1
+            23   22  23 1
+            24   20  27 1
+            25   27  26 1
+            26   26  25 1
+            27   25  24 1
+            28   21  24 1
+            29   26  28 1 #Down
+            30   28  29 1
+            31   29  30 1
+            32   25  30 1 #Up
+BRACKET     1    22.2600  -18.2700   22.2600  -12.6700
+            1    33.8800  -12.6700   33.8800  -18.2700
+            1  2
+  ORIGINAL  1    1   2   3   4   5   6   7  11  10   9   8  12  13  14  16
+  REPEAT    1   17  18  19  20  21  22  23  24  25  26  27  28  29  30  31
+///

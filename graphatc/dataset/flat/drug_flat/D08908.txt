@@ -1,0 +1,53 @@
+ENTRY       D08908                      Drug
+NAME        Eglumegad (INN)
+FORMULA     C8H11NO4
+EXACT_MASS  185.0688
+MOL_WEIGHT  185.1772
+REMARK      Chemical structure group: DG01987
+EFFICACY    Antianxiety, Smoking cessation adjunct, Metabotropic glutamate receptor agonist
+COMMENT     Treatment of general anxiety disorders and smoking cessation
+TARGET      GRM2 [HSA:2912] [KO:K04605]
+  PATHWAY   hsa04080(2912)  Neuroactive ligand-receptor interaction
+            hsa04724(2912)  Glutamatergic synapse
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               Glutamate (metabotropic)
+                GRM2
+                 D08908  Eglumegad (INN)
+DBLINKS     CAS: 176199-48-7
+            PubChem: 96025591
+            ChEBI: 194387
+            PDB-CCD: 40F
+            LigandBox: D08908
+            NIKKAJI: J812.964I
+ATOM        13
+            1   C1y C    24.8282  -18.8616
+            2   C1y C    24.8282  -20.2647
+            3   C1z C    26.1627  -20.6983
+            4   C1x C    26.9874  -19.5632
+            5   C1x C    26.1627  -18.4280
+            6   C1y C    23.6131  -19.5632
+            7   C6a C    22.2324  -19.5632
+            8   O6a O    21.5308  -18.3481
+            9   O6a O    21.5308  -20.7783
+            10  C6a C    27.3778  -21.3999
+            11  N1a N    26.1627  -22.1014
+            12  O6a O    28.5801  -20.7054
+            13  O6a O    27.3777  -22.7902
+BOND        14
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     1   6 1
+            7     2   6 1
+            8     6   7 1 #Up
+            9     7   8 1
+            10    7   9 2
+            11    3  10 1 #Up
+            12    3  11 1 #Down
+            13   10  12 1
+            14   10  13 2
+///

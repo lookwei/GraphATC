@@ -1,0 +1,106 @@
+ENTRY       D09009                      Drug
+NAME        Taranabant (USAN/INN)
+FORMULA     C27H25ClF3N3O2
+EXACT_MASS  515.1587
+MOL_WEIGHT  515.9545
+CLASS       Gastrointestinal agent
+             DG01705  Anoretic
+              DG01754  Cannabinoid receptor inverse agonist
+EFFICACY    Antiobesity, Cannabinoid receptor inverse agonist
+COMMENT     Treatment of obesity
+TARGET      CNR1 [HSA:1268] [KO:K04277]
+  PATHWAY   hsa04080(1268)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01705  Anoretic
+               DG01754  Cannabinoid receptor inverse agonist
+                D09009  Taranabant
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Cannabinoid
+                CNR1
+                 D09009  Taranabant (USAN/INN)
+DBLINKS     CAS: 701977-09-5
+            PubChem: 96025692
+            ChEBI: 177607
+            PDB-CCD: 7DY
+            LigandBox: D09009
+ATOM        36
+            1   C8y C    24.0591  -12.3529
+            2   C8x C    24.0591  -13.7563
+            3   C8y C    25.2744  -14.4580
+            4   C8x C    26.4899  -13.7563
+            5   C8x C    26.4899  -12.3529
+            6   C8x C    25.2744  -11.6512
+            7   C1c C    25.2744  -15.8612
+            8   C1c C    24.0422  -16.5729
+            9   C1b C    26.4729  -16.5533
+            10  C8y C    27.6630  -15.8662
+            11  C8x C    28.8573  -16.5559
+            12  C8x C    30.0727  -15.8543
+            13  C8y C    30.0728  -14.4509
+            14  C8x C    28.8785  -13.7613
+            15  C8x C    27.6631  -14.4628
+            16  N1b N    22.8353  -15.8761
+            17  C5a C    21.6495  -16.5608
+            18  C1a C    24.0424  -17.9664
+            19  C1d C    20.4530  -15.8700
+            20  O5a O    21.6494  -17.9663
+            21  O2a O    19.2376  -15.1683
+            22  C1a C    21.1650  -14.6364
+            23  C1a C    19.7622  -17.0672
+            24  C8y C    18.0109  -15.8768
+            25  N5x N    16.7992  -15.1773
+            26  C8x C    15.5839  -15.8790
+            27  C8y C    15.5840  -17.2824
+            28  C8x C    16.7957  -17.9820
+            29  C8x C    18.0110  -17.2802
+            30  C1d C    14.3685  -17.9841
+            31  X   F    13.1532  -18.6858
+            32  X   F    15.1411  -19.1428
+            33  X   F    13.5841  -16.8076
+            34  C3b C    22.8437  -11.6512
+            35  X   Cl   31.3006  -13.7419
+            36  N3a N    21.6283  -10.9495
+BOND        38
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     7   3 1 #Down
+            8     7   8 1
+            9     7   9 1
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14   13  14 1
+            15   14  15 2
+            16   10  15 1
+            17    8  16 1
+            18   16  17 1
+            19    8  18 1 #Down
+            20   17  19 1
+            21   17  20 2
+            22   19  21 1
+            23   19  22 1
+            24   19  23 1
+            25   21  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   27  28 1
+            30   28  29 2
+            31   24  29 1
+            32   27  30 1
+            33   30  31 1
+            34   30  32 1
+            35   30  33 1
+            36    1  34 1
+            37   13  35 1
+            38   34  36 3
+///

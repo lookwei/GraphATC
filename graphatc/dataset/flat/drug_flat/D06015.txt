@@ -1,0 +1,93 @@
+ENTRY       D06015                      Drug
+NAME        Tazomeline citrate (USAN)
+FORMULA     C14H23N3S2. C6H8O7
+EXACT_MASS  489.1603
+MOL_WEIGHT  489.606
+CLASS       Neuropsychiatric agent
+             DG01490  Muscarinic cholinergic receptor agonist
+EFFICACY    Dementia therapeutic agent, Muscarinic acetylcholine receptor agonist
+COMMENT     Alzheimer's disease treatment
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               D06015  Tazomeline citrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D06015  Tazomeline citrate (USAN)
+DBLINKS     CAS: 175615-45-9
+            PubChem: 47207673
+            LigandBox: D06015
+ATOM        32
+            1   C1d C    23.1700  -16.0300
+            2   C1b C    21.9800  -16.6600
+            3   C1b C    24.3600  -16.6600
+            4   C6a C    23.8700  -14.7700
+            5   O1a O    22.4700  -14.7700
+            6   C6a C    20.7900  -16.0300
+            7   C6a C    24.3600  -18.0600
+            8   O6a O    23.1700  -13.5800
+            9   O6a O    25.2700  -14.7700
+            10  O6a O    19.5300  -16.7300
+            11  O6a O    20.7900  -14.6300
+            12  O6a O    25.6200  -18.7600
+            13  O6a O    23.1700  -18.7600
+            14  N1y N     4.4800  -16.3800
+            15  C1x C     4.4800  -17.7800
+            16  C1x C     5.6924  -18.4800
+            17  C2x C     6.9049  -17.7800
+            18  C2y C     6.9049  -16.3800
+            19  C1x C     5.6924  -15.6800
+            20  C1a C     3.2676  -15.6800
+            21  C8y C     8.1360  -15.6690
+            22  C8y C     9.2697  -16.4788
+            23  N5x N    10.3865  -15.6516
+            24  S2x S     9.9448  -14.3339
+            25  N5x N     8.5551  -14.3467
+            26  S2a S     9.2109  -17.8494
+            27  C1b C    10.4131  -18.6141
+            28  C1b C    11.6652  -17.9611
+            29  C1b C    12.8774  -18.7317
+            30  C1b C    14.1089  -18.0893
+            31  C1b C    15.2984  -18.8461
+            32  C1a C    16.5713  -18.1825
+BOND        32
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     4   9 2
+            9     6  10 1
+            10    6  11 2
+            11    7  12 1
+            12    7  13 2
+            13   14  15 1
+            14   15  16 1
+            15   16  17 1
+            16   17  18 2
+            17   18  19 1
+            18   14  19 1
+            19   14  20 1
+            20   18  21 1
+            21   21  22 1
+            22   22  23 2
+            23   23  24 1
+            24   24  25 1
+            25   21  25 2
+            26   22  26 1
+            27   26  27 1
+            28   27  28 1
+            29   28  29 1
+            30   29  30 1
+            31   30  31 1
+            32   31  32 1
+///

@@ -1,0 +1,84 @@
+ENTRY       D01047                      Drug
+NAME        Sulfathiazole (USP/INN)
+FORMULA     C9H9N3O2S2
+EXACT_MASS  255.0136
+MOL_WEIGHT  255.3167
+CLASS       Antibacterial
+             DG01787  Sulfonamide antibacterial
+              DG01784  Short-acting sulfonamide
+REMARK      Same as: C11169
+            ATC code: D06BA02 J01EB07
+            Product (mixture): D04856<JP>
+EFFICACY    Antibacterial, Folic acid biosynthesis inhibitor
+COMMENT     Sulfonamide
+TARGET      dihydropteroate synthase [KO:K00796]
+  PATHWAY   ko00790(K00796)  Folate biosynthesis
+INTERACTION  
+STR_MAP     map07016  Sulfonamide derivatives - sulfa drugs
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06B CHEMOTHERAPEUTICS FOR TOPICAL USE
+                D06BA Sulfonamides
+                 D06BA02 Sulfathiazole
+                  D01047  Sulfathiazole (USP/INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01E SULFONAMIDES AND TRIMETHOPRIM
+                J01EB Short-acting sulfonamides
+                 J01EB07 Sulfathiazole
+                  D01047  Sulfathiazole (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01787  Sulfonamide antibacterial
+               DG01784  Short-acting sulfonamide
+                D01047  Sulfathiazole
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Folic acid biosynthesis inhibitor
+               Short-acting sulfonamide
+                D01047  Sulfathiazole (USP/INN)
+            Prodrugs [br08324.html]
+             D01047
+DBLINKS     CAS: 72-14-0
+            PubChem: 7848110
+            ChEBI: 9337
+            PDB-CCD: YTZ
+            LigandBox: D01047
+            NIKKAJI: J1.425G
+ATOM        16
+            1   C8y C    14.6300  -17.7800
+            2   S4a S    15.8200  -17.0800
+            3   C8x C    14.6300  -19.1800
+            4   C8x C    13.3700  -17.0800
+            5   N1b N    17.0100  -17.7800
+            6   O3c O    14.8400  -16.1000
+            7   O3c O    16.8000  -16.1000
+            8   C8x C    13.3700  -19.8800
+            9   C8x C    12.1800  -17.7800
+            10  C8y C    18.2700  -17.0800
+            11  C8y C    12.1800  -19.1800
+            12  N1a N    10.9200  -19.8800
+            13  S2x S    19.4009  -17.9053
+            14  C8x C    20.5352  -17.0847
+            15  C8x C    20.1054  -15.7523
+            16  N5x N    18.7054  -15.7494
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     2   7 2
+            7     3   8 2
+            8     4   9 1
+            9     5  10 1
+            10    8  11 1
+            11   11  12 1
+            12    9  11 2
+            13   10  13 1
+            14   13  14 1
+            15   14  15 2
+            16   15  16 1
+            17   10  16 2
+///

@@ -1,0 +1,110 @@
+ENTRY       D02347                      Drug
+NAME        Dantrolene (USAN/INN)
+FORMULA     C14H10N4O5
+EXACT_MASS  314.0651
+MOL_WEIGHT  314.253
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+            Metabolizing enzyme substrate
+             DG01891  CYP1A1 substrate
+             DG01892  CYP1A2 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Same as: C06939
+            ATC code: M03CA01
+            Chemical structure group: DG00778
+            Product (DG00778): D02274<JP/US>
+EFFICACY    Skeletal muscle relaxant
+METABOLISM  Enzyme: CYP1A1 [HSA:1543], CYP1A2 [HSA:1544], CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M03 MUSCLE RELAXANTS
+               M03C MUSCLE RELAXANTS, DIRECTLY ACTING AGENTS
+                M03CA Dantrolene and derivatives
+                 M03CA01 Dantrolene
+                  D02347  Dantrolene (USAN/INN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG00778  Dantrolene
+                D02347  Dantrolene
+             Metabolizing enzyme substrate
+              DG01891  CYP1A1 substrate
+               DG00778  Dantrolene
+                D02347  Dantrolene
+              DG01892  CYP1A2 substrate
+               DG00778  Dantrolene
+                D02347  Dantrolene
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00778  Dantrolene
+                D02347  Dantrolene
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02347
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG00778  Dantrolene
+             Metabolizing enzyme substrate
+              DG01891  CYP1A1 substrate
+               DG00778  Dantrolene
+              DG01892  CYP1A2 substrate
+               DG00778  Dantrolene
+              DG01633  CYP3A/CYP3A4 substrate
+               DG00778  Dantrolene
+DBLINKS     CAS: 7261-97-4
+            PubChem: 7849406
+            ChEBI: 4317
+            LigandBox: D02347
+            NIKKAJI: J8.920F
+ATOM        23
+            1   C8y C    15.5572  -14.7001
+            2   C8y C    14.3407  -14.0007
+            3   O2x O    16.6972  -13.8713
+            4   C8x C    15.9920  -16.0399
+            5   C8x C    13.1243  -14.7001
+            6   C8x C    14.3407  -12.5904
+            7   C8y C    17.8373  -14.7001
+            8   C8x C    17.4023  -16.0399
+            9   C8x C    11.9079  -14.0007
+            10  C8x C    13.1243  -11.8911
+            11  C2b C    19.0535  -14.0007
+            12  C8y C    11.9079  -12.5904
+            13  N2b N    20.2759  -14.7001
+            14  N2b N    10.6857  -11.8911 #+
+            15  N1y N    21.6330  -14.0007
+            16  O3a O     9.4224  -12.6842
+            17  O3a O    10.6915  -10.4808 #-
+            18  C1x C    22.7850  -14.5648
+            19  C5x C    21.6450  -12.5904
+            20  C5x C    23.7252  -13.5190
+            21  N1x N    23.0669  -12.3025
+            22  O5x O    20.6049  -11.9315
+            23  O5x O    25.0300  -13.5251
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     4   8 1
+            8     5   9 1
+            9     6  10 2
+            10    7  11 1
+            11    9  12 2
+            12   11  13 2
+            13   12  14 1
+            14   13  15 1
+            15   14  16 2
+            16   14  17 1
+            17   15  18 1
+            18   15  19 1
+            19   18  20 1
+            20   19  21 1
+            21   19  22 2
+            22   20  23 2
+            23    7   8 2
+            24   10  12 1
+            25   20  21 1
+///

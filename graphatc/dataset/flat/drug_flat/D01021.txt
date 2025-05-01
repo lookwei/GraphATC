@@ -1,0 +1,123 @@
+ENTRY       D01021                      Drug
+NAME        Naphazoline nitrate (JP18);
+            Privine (TN)
+FORMULA     C14H14N2. HNO3
+EXACT_MASS  273.1113
+MOL_WEIGHT  273.2872
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01450  alpha-Adrenergic receptor agonist
+               DG01448  alpha1-Adrenergic receptor agonist
+REMARK      Therapeutic category: 1316 1324
+            ATC code: R01AA08 R01AB02 S01GA01
+            Chemical structure group: DG01032
+            Product (DG01032): D01021<JP>
+EFFICACY    Vasoconstrictor, alpha1-Adrenergic receptor agonist
+COMMENT     Imidazoline derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+  PATHWAY   hsa04080(146+147+148)  Neuroactive ligand-receptor interaction
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+STR_MAP     map07114  Naphthalene family
+            map07215  alpha-Adrenergic receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R01 NASAL PREPARATIONS
+               R01A DECONGESTANTS AND OTHER NASAL PREPARATIONS FOR TOPICAL USE
+                R01AA Sympathomimetics, plain
+                 R01AA08 Naphazoline
+                  D01021  Naphazoline nitrate (JP18) &lt;JP&gt;
+                R01AB Sympathomimetics, combinations excl. corticosteroids
+                 R01AB02 Naphazoline
+                  D01021  Naphazoline nitrate (JP18) &lt;JP&gt;
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01G DECONGESTANTS AND ANTIALLERGICS
+                S01GA Sympathomimetics used as decongestants
+                 S01GA01 Naphazoline
+                  D01021  Naphazoline nitrate (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               131  Ophthalmic agents
+                1316  Ophthalmic local vasoconstrictors
+                 D01021  Naphazoline nitrate (JP18)
+               132  Otic and nasal agents
+                1324  Otolaryngologic vasoconstrictors
+                 D01021  Naphazoline nitrate (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Naphazoline
+                D01021  Naphazoline nitrate (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG01032  Naphazoline
+                  D01021  Naphazoline nitrate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01021  Naphazoline nitrate (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01021  Naphazoline nitrate
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01450  alpha-Adrenergic receptor agonist
+                DG01448  alpha1-Adrenergic receptor agonist
+                 DG01032  Naphazoline
+DBLINKS     CAS: 5144-52-5
+            PubChem: 7848084
+            ChEBI: 7471
+            LigandBox: D01021
+            NIKKAJI: J300.553D
+ATOM        20
+            1   N2b N    36.3244  -19.0105 #+
+            2   O3a O    36.3186  -17.6140
+            3   O3a O    37.5567  -19.7146 #-
+            4   O1b O    35.1065  -19.7205
+            5   C8y C    28.2800  -18.6900
+            6   C8y C    29.4700  -17.9900
+            7   C8y C    28.2800  -20.0900
+            8   C8x C    27.0900  -17.9900
+            9   C1b C    29.4700  -16.5900
+            10  C8x C    30.8000  -18.6900
+            11  C8x C    29.4700  -20.7900
+            12  C8x C    27.0900  -20.7900
+            13  C8x C    25.8300  -18.6900
+            14  C2y C    30.7300  -15.8900
+            15  C8x C    30.8000  -20.0900
+            16  C8x C    25.8300  -20.0900
+            17  N1x N    32.0600  -16.3800
+            18  N2x N    30.7300  -14.5600
+            19  C1x C    32.9000  -15.1900
+            20  C1x C    32.0600  -14.0700
+BOND        21
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     5   6 1
+            5     5   7 2
+            6     5   8 1
+            7     6   9 1
+            8     6  10 2
+            9     7  11 1
+            10    7  12 1
+            11    8  13 2
+            12    9  14 1
+            13   10  15 1
+            14   12  16 2
+            15   14  17 1
+            16   14  18 2
+            17   17  19 1
+            18   18  20 1
+            19   11  15 2
+            20   13  16 1
+            21   19  20 1
+///

@@ -1,0 +1,107 @@
+ENTRY       D03839                      Drug
+NAME        Droxinavir hydrochloride (USAN)
+FORMULA     C29H51N5O4. HCl
+EXACT_MASS  569.3708
+MOL_WEIGHT  570.2073
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+EFFICACY    Antiviral, HIV protease inhibitor
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+INTERACTION  
+STR_MAP     map07218  HIV protease inhibitors
+BRITE       Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                D03839  Droxinavir hydrochloride
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D03839  Droxinavir hydrochloride (USAN)
+DBLINKS     CAS: 155662-50-3
+            PubChem: 17397925
+            LigandBox: D03839
+ATOM        39
+            1   N1c N    31.0645  -19.3102
+            2   C1b C    32.2540  -18.6105
+            3   C1c C    33.5134  -19.3102
+            4   C1c C    34.7028  -18.6105
+            5   C1b C    34.7028  -17.2112
+            6   N1b N    35.8922  -19.3102
+            7   C8y C    33.5134  -16.5115
+            8   C5a C    37.0816  -18.6105
+            9   C8x C    32.2540  -17.2112
+            10  C8x C    33.5134  -15.1122
+            11  C1c C    38.3410  -19.3102
+            12  O5a O    37.0816  -17.2112
+            13  C8x C    31.0645  -16.5115
+            14  C8x C    32.2540  -14.4125
+            15  C8x C    31.0645  -15.1122
+            16  O1a O    33.4434  -20.7095
+            17  C5a C    29.8676  -18.6200
+            18  N1b N    28.6551  -19.3200
+            19  O5a O    29.8672  -17.2202
+            20  C1d C    27.4240  -18.6090
+            21  C1a C    26.2188  -19.3047
+            22  C1a C    27.4240  -17.2090
+            23  C1a C    26.2116  -17.9090
+            24  C1b C    31.0645  -20.7102
+            25  C1b C    29.8596  -21.4060
+            26  C1c C    29.8596  -22.8060
+            27  C1a C    28.6643  -23.4965
+            28  C1a C    31.1010  -23.5225
+            29  N1b N    39.5512  -18.5844
+            30  C1d C    38.3410  -20.7102
+            31  C1a C    37.1387  -21.4045
+            32  C1a C    39.5720  -21.4208
+            33  C1a C    38.3410  -22.2502
+            34  C5a C    40.7595  -19.2551
+            35  C1b C    41.9477  -18.5419
+            36  O5a O    40.7130  -20.6493
+            37  N1b N    43.1616  -19.2157
+            38  C1a C    44.3671  -18.4921
+            39  X   Cl   48.8600  -18.5500
+BOND        38
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1 #Down
+            5     4   6 1
+            6     5   7 1
+            7     6   8 1
+            8     7   9 2
+            9     7  10 1
+            10    8  11 1
+            11    8  12 2
+            12    9  13 1
+            13   10  14 2
+            14   13  15 2
+            15   14  15 1
+            16    3  16 1 #Down
+            17    1  17 1
+            18   17  18 1
+            19   17  19 2
+            20   18  20 1
+            21   20  21 1
+            22   20  22 1
+            23   20  23 1
+            24    1  24 1
+            25   24  25 1
+            26   25  26 1
+            27   26  27 1
+            28   26  28 1
+            29   11  29 1
+            30   11  30 1 #Up
+            31   30  31 1
+            32   30  32 1
+            33   30  33 1
+            34   29  34 1
+            35   34  35 1
+            36   34  36 2
+            37   35  37 1
+            38   37  38 1
+///

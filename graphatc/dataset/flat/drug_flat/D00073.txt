@@ -1,0 +1,58 @@
+ENTRY       D00073                      Drug
+NAME        Hydroquinone (USP);
+            Eldoquin (TN)
+FORMULA     C6H6O2
+EXACT_MASS  110.0368
+MOL_WEIGHT  110.1106
+CLASS       Cardiovascular agent
+             DG01617  Catecholamine synthesis inhibitors
+REMARK      Same as: C00530
+            ATC code: D11AX11
+            Product (mixture): D12499<US>
+EFFICACY    Depigmentor, Tyrosinase inhibitor
+COMMENT     Componet of Tri-luma (TN)
+TARGET      TYR [HSA:7299] [KO:K00505]
+  PATHWAY   hsa04916(7299)  Melanogenesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D11 OTHER DERMATOLOGICAL PREPARATIONS
+               D11A OTHER DERMATOLOGICAL PREPARATIONS
+                D11AX Other dermatologicals
+                 D11AX11 Hydroquinone
+                  D00073  Hydroquinone (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01617  Catecholamine synthesis inhibitors
+               D00073  Hydroquinone
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Other monooxygenases
+                TYR
+                 D00073  Hydroquinone (USP)
+DBLINKS     CAS: 123-31-9
+            PubChem: 7847141
+            ChEBI: 17594
+            PDB-CCD: HQE
+            LigandBox: D00073
+            NIKKAJI: J2.929G
+ATOM        8
+            1   C8y C    23.5900  -17.5133
+            2   C8x C    22.3815  -16.7971
+            3   C8x C    24.8050  -16.7971
+            4   O1a O    23.5837  -18.9007
+            5   C8x C    22.3815  -15.3901
+            6   C8x C    24.8050  -15.3901
+            7   C8y C    23.5900  -14.6995
+            8   O1a O    23.5837  -13.3056
+BOND        8
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     5   7 2
+            7     7   8 1
+            8     6   7 1
+///

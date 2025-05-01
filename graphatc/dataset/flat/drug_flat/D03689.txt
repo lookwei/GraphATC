@@ -1,0 +1,90 @@
+ENTRY       D03689                      Drug
+NAME        Deracoxib (USAN)
+FORMULA     C17H14F3N3O3S
+EXACT_MASS  397.0708
+MOL_WEIGHT  397.3716
+CLASS       Anti-inflammatory
+             DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+              DG01922  Selective COX2 inhibitor
+               DG01907  Anti-inflammatory drug, coxibs
+EFFICACY    Analgesic, Anti-inflammatory, COX-2 inhibitor
+COMMENT     Coxibs
+            Veterinary (For oral use in dogs only)
+TARGET      PTGS2 (COX2) [HSA:5743] [KO:K11987]
+  PATHWAY   hsa00590(5743)  Arachidonic acid metabolism
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01504  Nonsteroidal anti-inflammatory drug (NSAID)
+               DG01922  Selective COX2 inhibitor
+                DG01907  Anti-inflammatory drug, coxibs
+                 D03689  Deracoxib
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Prostaglandin synthase
+                PTGS2 (COX2)
+                 D03689  Deracoxib (USAN)
+DBLINKS     CAS: 169590-41-4
+            PubChem: 17397783
+            ChEBI: 73032
+            LigandBox: D03689
+ATOM        27
+            1   N4y N    25.6200  -17.5000
+            2   C8y C    25.6200  -18.9000
+            3   C8x C    26.9500  -19.3200
+            4   C8y C    27.7900  -18.2000
+            5   N5x N    26.9500  -17.0800
+            6   C1c C    29.1900  -18.2000
+            7   X   F    29.8900  -19.3900
+            8   X   F    29.8900  -17.0100
+            9   C8y C    24.5000  -19.7400
+            10  C8y C    24.5000  -16.6600
+            11  C8y C    22.0500  -15.2600
+            12  C8x C    22.0500  -16.6600
+            13  C8x C    23.2400  -17.3600
+            14  C8x C    24.5000  -15.2600
+            15  C8x C    23.2400  -14.5600
+            16  C8x C    22.0500  -19.7400
+            17  C8y C    22.0500  -21.1400
+            18  C8y C    23.2400  -21.8400
+            19  C8x C    24.5000  -21.1400
+            20  C8x C    23.2400  -19.0400
+            21  S4a S    20.8347  -14.5649
+            22  N1a N    19.6223  -13.8649
+            23  O3c O    21.5347  -13.3525
+            24  O3c O    20.1347  -15.7774
+            25  X   F    23.2228  -23.2399
+            26  O2a O    20.8347  -21.8351
+            27  C1a C    19.6463  -21.1423
+BOND        29
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     1   5 1
+            6     4   6 1
+            7     6   7 1
+            8     6   8 1
+            9     2   9 1
+            10    1  10 1
+            11   11  12 2
+            12   12  13 1
+            13   13  10 2
+            14   10  14 1
+            15   14  15 2
+            16   11  15 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   19   9 1
+            21    9  20 2
+            22   16  20 1
+            23   11  21 1
+            24   21  22 1
+            25   21  23 2
+            26   21  24 2
+            27   18  25 1
+            28   17  26 1
+            29   26  27 1
+///

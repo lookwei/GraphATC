@@ -1,0 +1,80 @@
+ENTRY       D01533                      Drug
+NAME        Mestanolone (JAN/INN);
+            Mesanolon (TN)
+FORMULA     C20H32O2
+EXACT_MASS  304.2402
+MOL_WEIGHT  304.4669
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+              DG01605  Anabolic steroid
+EFFICACY    Anabolic
+TARGET      NR3C4 (AR) [HSA:367] [KO:K08557]
+  PATHWAY   hsa04114(367)  Oocyte meiosis
+INTERACTION  
+STR_MAP     map07047  Osteoporosis drugs
+BRITE       Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                D01533  Mestanolone
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C4 (AR)
+                 D01533  Mestanolone (JAN/INN)
+DBLINKS     CAS: 521-11-9
+            PubChem: 7848596
+            ChEBI: 31825
+            LigandBox: D01533
+            NIKKAJI: J5.180B
+ATOM        22
+            1   C1x C    28.5717  -17.9873
+            2   C5x C    28.5717  -19.3462
+            3   C1x C    29.7514  -20.0257
+            4   C1x C    29.7514  -17.3078
+            5   C1z C    30.9242  -17.9873
+            6   C1y C    30.9185  -19.3462
+            7   C1x C    32.0925  -20.0307
+            8   C1x C    33.2722  -19.3562
+            9   C1y C    32.1040  -17.3129
+            10  C1y C    33.2722  -18.0001
+            11  C1x C    33.2944  -15.2895
+            12  C1x C    32.1152  -15.9574
+            13  C1z C    34.4628  -15.9766
+            14  C1y C    34.4464  -17.3279
+            15  C1x C    36.7868  -17.3564
+            16  C1x C    36.8032  -16.0050
+            17  C1z C    35.6412  -15.3153
+            18  O1a O    35.6575  -13.6783
+            19  C1a C    34.4536  -14.6174
+            20  C1a C    30.9120  -16.6283
+            21  C1a C    36.8147  -14.6242
+            22  O5x O    27.3951  -20.0263
+BOND        25
+            1    11  12 1
+            2    12   9 1
+            3     2   3 1
+            4     3   6 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8    13  14 1
+            9    15  16 1
+            10   16  17 1
+            11   17  13 1
+            12   14  15 1
+            13    8  10 1
+            14   17  18 1 #Up
+            15    9   5 1
+            16   13  19 1 #Up
+            17    5   4 1
+            18    4   1 1
+            19    5  20 1 #Up
+            20    1   2 1
+            21    9  10 1
+            22   10  14 1
+            23   17  21 1 #Down
+            24   13  11 1
+            25    2  22 2
+///

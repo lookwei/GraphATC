@@ -1,0 +1,98 @@
+ENTRY       D01573                      Drug
+NAME        Etilefrine hydrochloride (JP18);
+            Etilefrine hydrochloride (TN)
+FORMULA     C10H15NO2. HCl
+EXACT_MASS  217.087
+MOL_WEIGHT  217.6925
+CLASS       Cardiovascular agent
+             DG01703  Cardiotonic
+              DG01702  Phenethylamine cardiotonic
+REMARK      Therapeutic category: 2119
+            ATC code: C01CA01
+            Chemical structure group: DG00210
+            Product (DG00210): D01573<JP>
+EFFICACY    Antihypotensive, Cardiotonic, Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04020(146+147+148+153+154+155)  Calcium signaling pathway
+            hsa04022(146+147+148+150+151+152+153+154+155)  cGMP-PKG signaling pathway
+            hsa04024(153+154)  cAMP signaling pathway
+            hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C01 CARDIAC THERAPY
+               C01C CARDIAC STIMULANTS EXCL. CARDIAC GLYCOSIDES
+                C01CA Adrenergic and dopaminergic agents
+                 C01CA01 Etilefrine
+                  D01573  Etilefrine hydrochloride (JP18) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              21  Cardiovascular agents
+               211  Cardiotonics
+                2119  Others
+                 D01573  Etilefrine hydrochloride (JP18)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00210  Etilefrine
+                 D01573  Etilefrine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D01573  Etilefrine hydrochloride (JP18) &lt;JP&gt;
+                ADRA2
+                 D01573  Etilefrine hydrochloride (JP18) &lt;JP&gt;
+                ADRB
+                 D01573  Etilefrine hydrochloride (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01573  Etilefrine hydrochloride
+              D01573  Etilefrine hydrochloride tablets
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01703  Cardiotonic
+               DG01702  Phenethylamine cardiotonic
+                DG00210  Etilefrine
+DBLINKS     CAS: 943-17-9
+            PubChem: 7848636
+            ChEBI: 31582
+            LigandBox: D01573
+            NIKKAJI: J237.911B
+ATOM        14
+            1   C8y C    27.7200  -15.6100
+            2   C8x C    27.7200  -17.0100
+            3   C8x C    28.9100  -17.7100
+            4   C8x C    30.1000  -17.0100
+            5   C8y C    30.1000  -15.6100
+            6   C8x C    28.9100  -14.9100
+            7   C1c C    31.2900  -14.9100
+            8   C1b C    32.5500  -15.6100
+            9   N1b N    33.7400  -14.9100
+            10  C1b C    34.9300  -15.6100
+            11  C1a C    36.1900  -14.9100
+            12  O1a O    31.2900  -13.5100
+            13  O1a O    26.4600  -14.9100
+            14  X   Cl   34.7900  -17.0800
+BOND        13
+            1     5   7 1
+            2     7   8 1
+            3     1   2 2
+            4     8   9 1
+            5     2   3 1
+            6     9  10 1
+            7     3   4 2
+            8    10  11 1
+            9     4   5 1
+            10    7  12 1
+            11    5   6 2
+            12    1  13 1
+            13    6   1 1
+///

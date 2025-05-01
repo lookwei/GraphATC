@@ -1,0 +1,65 @@
+ENTRY       D11432                      Drug
+NAME        Islatravir (USAN)
+FORMULA     C12H12FN5O3
+EXACT_MASS  293.0924
+MOL_WEIGHT  293.2538
+REMARK      Chemical structure group: DG03126
+EFFICACY    Antiviral, Reverse transcriptase inhibitor
+TARGET      HIV-1 reverse transcriptase [KO:K24802]
+  PATHWAY   ko03230(K24802)  Viral genome structure
+            ko03240(K24802)  Viral replication
+            ko03250(K24802)  Viral life cycle - HIV-1
+BRITE       Antimicrobials [BR:br08307]
+             Antivirals
+              Genome replication inhibitor
+               HIV reverse transcriptase inhibitor
+                D11432  Islatravir (USAN)
+DBLINKS     CAS: 865363-93-5
+            PubChem: 384585409
+ATOM        21
+            1   N4y N    19.3200  -15.4000
+            2   C8y C    20.5100  -16.2400
+            3   C1y C    17.9900  -15.8200
+            4   C8x C    19.8100  -14.0700
+            5   C8y C    21.6300  -15.4000
+            6   N5x N    20.6500  -17.7100
+            7   O2x O    16.8000  -14.9800
+            8   C1x C    17.5000  -17.2200
+            9   N5x N    21.2100  -14.0700
+            10  C8y C    22.8900  -15.9600
+            11  C8y C    21.9100  -18.2700
+            12  C1z C    15.6800  -15.8200
+            13  C1y C    16.1000  -17.2200
+            14  N5x N    23.0300  -17.4300
+            15  N1a N    24.0100  -15.1900
+            16  O1a O    15.3300  -18.3400
+            17  C1b C    14.4900  -15.1200
+            18  O1a O    13.3000  -15.8200
+            19  C3b C    14.4900  -16.5200
+            20  C3a C    13.2300  -17.2200
+            21  X   F    22.0500  -19.6700
+BOND        23
+            1     1   2 1
+            2     3   1 1 #Up
+            3     1   4 1
+            4     2   5 2
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    6  11 2
+            11    7  12 1
+            12    8  13 1
+            13   10  14 2
+            14   10  15 1
+            15   13  16 1 #Down
+            16    5   9 1
+            17   11  14 1
+            18   12  13 1
+            19   12  17 1 #Up
+            20   17  18 1
+            21   12  19 1 #Down
+            22   19  20 3
+            23   11  21 1
+///

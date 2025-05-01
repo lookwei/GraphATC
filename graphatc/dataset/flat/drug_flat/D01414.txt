@@ -1,0 +1,87 @@
+ENTRY       D01414                      Drug
+NAME        Ethylestrenol (USAN/INN);
+            Ethylnandrol (JAN);
+            Orabolin (TN)
+FORMULA     C20H32O
+EXACT_MASS  288.2453
+MOL_WEIGHT  288.4675
+CLASS       Hormonal agent
+             DG01590  Androgen receptor agonist
+              DG01605  Anabolic steroid
+REMARK      ATC code: A14AB02
+EFFICACY    Anabolic
+COMMENT     Estren derivative
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A14 ANABOLIC AGENTS FOR SYSTEMIC USE
+               A14A ANABOLIC STEROIDS
+                A14AB Estren derivatives
+                 A14AB02 Ethylestrenol
+                  D01414  Ethylestrenol (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01590  Androgen receptor agonist
+               DG01605  Anabolic steroid
+                D01414  Ethylestrenol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D01414  Ethylestrenol (USAN/INN)
+DBLINKS     CAS: 965-90-2
+            PubChem: 7848477
+            ChEBI: 31578
+            LigandBox: D01414
+            NIKKAJI: J3.354E
+ATOM        21
+            1   C1y C    22.9631  -17.3408
+            2   C1z C    22.9692  -15.9671
+            3   C1y C    21.7743  -18.0307
+            4   C1x C    25.3408  -17.3469
+            5   C1z C    24.1580  -15.2772
+            6   C1x C    21.7680  -15.2834
+            7   C1a C    22.9199  -14.4456
+            8   C1y C    20.5915  -17.3531
+            9   C1x C    21.7866  -19.3982
+            10  C1x C    25.3471  -15.9733
+            11  C1b C    25.3101  -14.5996
+            12  O1a O    24.1520  -13.9404
+            13  C1x C    20.5792  -15.9794
+            14  C1y C    19.4150  -18.0370
+            15  C1x C    20.6038  -20.0758
+            16  C2y C    19.4150  -19.3921
+            17  C1x C    18.2445  -17.3715
+            18  C2x C    18.2445  -20.0758
+            19  C1x C    17.0803  -18.0370
+            20  C1x C    17.0803  -19.3921
+            21  C1a C    26.4729  -15.2586
+BOND        24
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     2   7 1 #Up
+            7     3   8 1
+            8     3   9 1
+            9     4  10 1
+            10    5  11 1 #Down
+            11    5  12 1 #Up
+            12    6  13 1
+            13    8  14 1
+            14    9  15 1
+            15   14  16 1
+            16   14  17 1
+            17   16  18 2
+            18   17  19 1
+            19   18  20 1
+            20    5  10 1
+            21    8  13 1
+            22   15  16 1
+            23   19  20 1
+            24   11  21 1
+///

@@ -1,0 +1,52 @@
+ENTRY       D05035                      Drug
+NAME        Milameline hydrochloride (USAN)
+FORMULA     C8H14N2O. HCl
+EXACT_MASS  190.0873
+MOL_WEIGHT  190.6705
+CLASS       Neuropsychiatric agent
+             DG01490  Muscarinic cholinergic receptor agonist
+EFFICACY    Dementia therapeutic agent, Muscarinic acetylcholine receptor partial agonist
+TARGET      CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01490  Muscarinic cholinergic receptor agonist
+               D05035  Milameline hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D05035  Milameline hydrochloride (USAN)
+DBLINKS     CAS: 139886-04-7
+            PubChem: 47206762
+            LigandBox: D05035
+            NIKKAJI: J671.182K
+ATOM        12
+            1   N1y N    16.5200  -16.5200
+            2   C1x C    16.5200  -17.9200
+            3   C1x C    17.7324  -18.6200
+            4   C2x C    18.9449  -17.9200
+            5   C2y C    18.9449  -16.5200
+            6   C1x C    17.7324  -15.8200
+            7   C2b C    20.1760  -15.8090
+            8   C1a C    15.3076  -15.8200
+            9   N2b N    21.3812  -16.5047
+            10  O2a O    22.5635  -15.8219
+            11  C1a C    23.7575  -16.5112
+            12  X   Cl   24.5000  -18.6900
+BOND        11
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     1   8 1
+            9     7   9 2
+            10    9  10 1
+            11   10  11 1
+///

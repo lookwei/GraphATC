@@ -1,0 +1,71 @@
+ENTRY       D01888                      Drug
+NAME        Safrazine hydrochloride (JAN)
+FORMULA     C11H16N2O2. HCl
+EXACT_MASS  244.0979
+MOL_WEIGHT  244.7179
+CLASS       Neuropsychiatric agent
+             DG01568  MAO inhibitor
+              DG01519  Non-selective monoamine oxidase inhibitor
+EFFICACY    Antidepressant, Monoamine oxidase (MAO) inhibitor
+TARGET      MAO [HSA:4128 4129] [KO:K00274]
+  PATHWAY   hsa00260(4128+4129)  Glycine, serine and threonine metabolism
+            hsa00330(4128+4129)  Arginine and proline metabolism
+            hsa00340(4128+4129)  Histidine metabolism
+            hsa00350(4128+4129)  Tyrosine metabolism
+            hsa00360(4128+4129)  Phenylalanine metabolism
+            hsa00380(4128+4129)  Tryptophan metabolism
+            hsa00982(4128+4129)  Drug metabolism - cytochrome P450
+            hsa04726(4128+4129)  Serotonergic synapse
+            hsa04728(4128+4129)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07216  Catecholamine transferase inhibitors
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01568  MAO inhibitor
+               DG01519  Non-selective monoamine oxidase inhibitor
+                D01888  Safrazine hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Amine oxidases
+                MAO
+                 D01888  Safrazine hydrochloride (JAN)
+DBLINKS     CAS: 7296-30-2
+            PubChem: 7848950
+            ChEBI: 32113
+            LigandBox: D01888
+ATOM        16
+            1   C8y C    20.9810  -17.4331
+            2   C8y C    20.9810  -18.8322
+            3   C8x C    22.1994  -16.7335
+            4   O2x O    19.6460  -16.9959
+            5   C8x C    22.1994  -19.5377
+            6   O2x O    19.6401  -19.2694
+            7   C8y C    23.4061  -17.4331
+            8   C1x C    18.8241  -18.1326
+            9   C8x C    23.4061  -18.8322
+            10  C1b C    24.6129  -16.7335
+            11  C1b C    25.8256  -17.4331
+            12  C1c C    27.0381  -16.7335
+            13  N1b N    28.2457  -17.4312
+            14  N1a N    29.4538  -16.7343
+            15  C1a C    27.0384  -15.3386
+            16  X   Cl   31.4718  -19.2008
+BOND        16
+            1     1   4 1
+            2     2   5 2
+            3     2   6 1
+            4     3   7 1
+            5     4   8 1
+            6     5   9 1
+            7     7  10 1
+            8    10  11 1
+            9    11  12 1
+            10    6   8 1
+            11    7   9 2
+            12   12  13 1
+            13    1   2 1
+            14   13  14 1
+            15   12  15 1
+            16    1   3 2
+///

@@ -1,0 +1,141 @@
+ENTRY       D00749                      Drug
+NAME        Leflunomide (JAN/USP/INN);
+            Arava (TN)
+PRODUCT     ARAVA (sanofi-aventis U.S. LLC)
+  GENERIC   LEFLUNOMIDE (A-S Medication Solutions)
+            LEFLUNOMIDE (Alembic Pharmaceuticals Limited)
+            LEFLUNOMIDE (Alembic Pharmaceuticals)
+            LEFLUNOMIDE (Apotex Corp.)
+            LEFLUNOMIDE (Aurobindo Pharma Limited)
+            LEFLUNOMIDE (AvKARE)
+            LEFLUNOMIDE (AvPAK)
+            LEFLUNOMIDE (Bryant Ranch Prepack)
+            LEFLUNOMIDE (Bryant Ranch Prepack)
+            LEFLUNOMIDE (Burel Pharmaceuticals)
+            LEFLUNOMIDE (Fosun Pharma USA)
+            LEFLUNOMIDE (Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals)
+            LEFLUNOMIDE (KVK-Tech)
+            LEFLUNOMIDE (Lupin Pharmaceuticals)
+            LEFLUNOMIDE (REMEDYREPACK)
+            LEFLUNOMIDE (Winthrop U.S.)
+            LEFLUNOMIDE (Zydus Lifesciences Limited)
+            LEFLUNOMIDE (Zydus Pharmaceuticals (USA))
+FORMULA     C12H9F3N2O2
+EXACT_MASS  270.0616
+MOL_WEIGHT  270.2073
+CLASS       Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG01643  CYP2C9 inhibitor
+REMARK      Same as: C07905
+            Therapeutic category: 3999
+            ATC code: L04AA13
+            Product: D00749<JP/US>
+EFFICACY    Antirheumatic, Dihydroorotate dehydrogenase inhibitor
+  DISEASE   Active rheumatoid arthritis [DS:H00630]
+COMMENT     Antineoplastic (blocks PDGF receptor function, inhibiting the growth and survival of human tumor cells when administered intravenously), Used in the treatment of rheumatoid arthritis when administered orally
+TARGET      DHODH [HSA:1723] [KO:K00254]
+  PATHWAY   hsa00240(1723)  Pyrimidine metabolism
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP2C9 [HSA:1559]
+STR_MAP     map07046  Immunosuppressive agents
+            map07050  Antirheumatics - DMARDs and biological agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA13 Leflunomide
+                  D00749  Leflunomide (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Immunological Agents
+              Immunosuppressants
+               Antimetabolites, Antiproliferative
+                Leflunomide
+                 D00749  Leflunomide (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D00749  Leflunomide (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D00749  Leflunomide
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D00749  Leflunomide
+             Metabolizing enzyme inhibitor
+              DG01643  CYP2C9 inhibitor
+               D00749  Leflunomide
+            Drug classes [BR:br08332]
+             Antirheumatic agent
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               D00749  Leflunomide
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Oxidoreductases (EC1)
+               Dehydrogenases
+                DHODH
+                 D00749  Leflunomide (JAN/USP/INN) &lt;JP/US&gt;
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D00749
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D00749
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00749
+DBLINKS     CAS: 75706-12-6
+            PubChem: 7847814
+            ChEBI: 6402
+            LigandBox: D00749
+            NIKKAJI: J227.599F
+ATOM        19
+            1   C8y C    22.4985  -19.9460
+            2   C5a C    23.7261  -19.2621
+            3   C8y C    22.4985  -21.3488
+            4   C8x C    21.1659  -19.5077
+            5   N1b N    24.9360  -19.9577
+            6   O5a O    23.7261  -17.8652
+            7   O2x O    21.1601  -21.7813
+            8   C1a C    23.6268  -22.1788
+            9   N5x N    20.3360  -20.6415
+            10  C8y C    26.1460  -19.2621
+            11  C8x C    26.1460  -17.8592
+            12  C8x C    27.3617  -19.9577
+            13  C8x C    27.3617  -17.1637
+            14  C8x C    28.5657  -19.2621
+            15  C8y C    28.5657  -17.8592
+            16  C1d C    29.7756  -17.1580
+            17  X   F    30.9798  -16.4506
+            18  X   F    29.0684  -15.9421
+            19  X   F    30.4653  -18.3677
+BOND        20
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     2   6 2
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10   10  11 2
+            11   10  12 1
+            12   11  13 1
+            13   12  14 2
+            14   13  15 2
+            15   15  16 1
+            16   16  17 1
+            17   16  18 1
+            18   16  19 1
+            19    7   9 1
+            20   14  15 1
+///

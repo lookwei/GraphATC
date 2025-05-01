@@ -1,0 +1,81 @@
+ENTRY       D09035                      Drug
+NAME        Zonampanel (INN/USAN)
+FORMULA     C13H9N5O6
+EXACT_MASS  331.0553
+MOL_WEIGHT  331.2405
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG01569  AMPA receptor antagonist
+EFFICACY    Neuroprotectant, Stroke treatment, AMPA receptor antagonist
+COMMENT     Treatment of ischemic stroke
+TARGET      GRIA [HSA:2890 2891 2892 2893] [KO:K05197 K05198 K05199 K05200]
+  PATHWAY   hsa04080(2890+2891+2892+2893)  Neuroactive ligand-receptor interaction
+            hsa04724(2890+2891+2892+2893)  Glutamatergic synapse
+            hsa04728(2890+2891+2892+2893)  Dopaminergic synapse
+BRITE       Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG01569  AMPA receptor antagonist
+                D09035  Zonampanel
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Glutamate (ionotropic), non-NMDA
+                GRIA
+                 D09035  Zonampanel (INN/USAN)
+DBLINKS     CAS: 210245-80-0
+            PubChem: 96025718
+            LigandBox: D09035
+ATOM        24
+            1   C8y C    17.3600  -15.1900
+            2   C8y C    17.3600  -16.5900
+            3   C8x C    18.5724  -17.2900
+            4   C8y C    19.7849  -16.5900
+            5   C8y C    19.7849  -15.1900
+            6   C8x C    18.5724  -14.4900
+            7   N4x N    20.9973  -17.2900
+            8   C8y C    22.2097  -16.5900
+            9   C8y C    22.2097  -15.1900
+            10  N4y N    20.9973  -14.4900
+            11  N4y N    16.1476  -14.4900
+            12  C8x C    16.0015  -13.1002
+            13  C8x C    14.6346  -12.8096
+            14  N5x N    13.9358  -14.0198
+            15  C8x C    14.8709  -15.0584
+            16  N2b N    16.1476  -17.2900 #+
+            17  O3a O    14.9521  -16.5996
+            18  O3a O    16.1475  -18.6898 #-
+            19  O5x O    23.4073  -14.4985
+            20  O5x O    23.4073  -17.2815
+            21  C1b C    20.9973  -13.0900
+            22  C6a C    22.2118  -12.3888
+            23  O6a O    23.4083  -13.0798
+            24  O6a O    22.2118  -10.9902
+BOND        26
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    1  11 1
+            13   11  12 1
+            14   12  13 2
+            15   13  14 1
+            16   14  15 2
+            17   11  15 1
+            18    2  16 1
+            19   16  17 2
+            20   16  18 1
+            21    9  19 2
+            22    8  20 2
+            23   10  21 1
+            24   21  22 1
+            25   22  23 1
+            26   22  24 2
+///

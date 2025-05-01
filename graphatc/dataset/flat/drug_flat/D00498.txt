@@ -1,0 +1,118 @@
+ENTRY       D00498                      Drug
+NAME        Pentazocine (JP18/USP/INN);
+            Fortral (TN)
+FORMULA     C19H27NO
+EXACT_MASS  285.2093
+MOL_WEIGHT  285.4238
+CLASS       Neuropsychiatric agent
+             DG01564  Opioid receptor agonist
+            Analgesic
+             DG01984  Opioid analgesics
+REMARK      Same as: C07421
+            Therapeutic category: 1149
+            ATC code: N02AD01
+            Chemical structure group: DG00819
+            Product (DG00819): D00498<JP> D02227<JP>
+EFFICACY    Analgesic, Opioid receptor agonist/antagonist
+COMMENT     Benzomorphan derivative
+TARGET      OPRK1 [HSA:4986] [KO:K04214]
+            OPRM1 [HSA:4988] [KO:K04215]
+  PATHWAY   hsa04080(4986+4988)  Neuroactive ligand-receptor interaction
+INTERACTION  
+STR_MAP     map07039  Opioid analgesics
+            map07224  Opioid receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02A OPIOIDS
+                N02AD Benzomorphan derivatives
+                 N02AD01 Pentazocine
+                  D00498  Pentazocine (JP18/USP/INN) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              11  Agents affecting central nervous system
+               114  Antipyretics and analgesics, anti-inflammatory agents
+                1149  Others
+                 D00498  Pentazocine (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00819  Pentazocine
+                D00498  Pentazocine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00819  Pentazocine
+                D00498  Pentazocine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Opioid
+                OPRM1
+                 D00498  Pentazocine (JP18/USP/INN) &lt;JP&gt;
+                OPRK1
+                 D00498  Pentazocine (JP18/USP/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00498  Pentazocine
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Control Act Article 2 Table 31 (10 substances)
+              D00498
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01564  Opioid receptor agonist
+               DG00819  Pentazocine
+             Analgesic
+              DG01984  Opioid analgesics
+               DG00819  Pentazocine
+DBLINKS     CAS: 359-83-1
+            PubChem: 7847564
+            ChEBI: 7982
+            LigandBox: D00498
+            NIKKAJI: J252.834G
+ATOM        21
+            1   C1z C     8.0048   -9.4999
+            2   C8y C     8.0048   -8.1768
+            3   C1y C     9.1886  -10.1961
+            4   C1a C     6.8906  -10.1266
+            5   C1x C     9.1886   -8.8732
+            6   C8x C     6.8906   -7.5501
+            7   C8y C     9.1886   -7.5501
+            8   C1y C    10.3027   -9.4999
+            9   C1x C    11.4168   -8.8732
+            10  C8y C     6.8906   -6.2271
+            11  C1x C    10.3027   -8.2464
+            12  C8x C     9.1886   -6.2271
+            13  N1y N    11.4168  -10.1961
+            14  C8x C     8.0744   -5.6004
+            15  O1a O     5.7765   -5.6004
+            16  C1b C    12.8147  -10.1961
+            17  C2b C    13.5172  -11.4126
+            18  C1a C     9.2080  -11.6195
+            19  C2c C    14.9100  -11.4125
+            20  C1a C    15.6090  -12.6230
+            21  C1a C    15.6110  -10.1981
+BOND        23
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 1 #Up
+            5     2   6 2
+            6     2   7 1
+            7     3   8 1
+            8     5   9 1
+            9     6  10 1
+            10    7  11 1
+            11    7  12 2
+            12    8  13 1 #Up
+            13   10  14 2
+            14   10  15 1
+            15    8  11 1
+            16    9  13 1
+            17   12  14 1
+            18   13  16 1
+            19   16  17 1
+            20    3  18 1 #Down
+            21   17  19 2
+            22   19  20 1
+            23   19  21 1
+///

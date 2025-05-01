@@ -1,0 +1,98 @@
+ENTRY       D03440                      Drug
+NAME        Ceronapril (USAN/INN)
+FORMULA     C21H33N2O6P
+EXACT_MASS  440.2076
+MOL_WEIGHT  440.4703
+CLASS       Cardiovascular agent
+             DG01925  Renin-angiotensin system inhibitor
+              DG01501  Angiotensin-converting enzyme inhibitor
+             DG03231  Antihypertensive
+              DG01501  Angiotensin-converting enzyme inhibitor
+EFFICACY    Antihypertensive, Angiotensin-converting enzyme inhibitor
+TARGET      ACE (CD143) [HSA:1636] [KO:K01283]
+  PATHWAY   hsa04614(1636)  Renin-angiotensin system
+INTERACTION  
+STR_MAP     map07217  Renin-angiotensin system inhibitors
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01925  Renin-angiotensin system inhibitor
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03440  Ceronapril
+              DG03231  Antihypertensive
+               DG01501  Angiotensin-converting enzyme inhibitor
+                D03440  Ceronapril
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-dipeptidases
+                ACE (CD143)
+                 D03440  Ceronapril (USAN/INN)
+DBLINKS     CAS: 111223-26-8
+            PubChem: 17397580
+            ChEBI: 177391
+            LigandBox: D03440
+            NIKKAJI: J304.212J
+ATOM        30
+            1   N1y N    39.2629  -19.3281
+            2   C1x C    40.5499  -19.8956
+            3   C5a C    38.0519  -20.0242
+            4   C1y C    39.4149  -17.9357
+            5   C1x C    41.4860  -18.8543
+            6   C1c C    36.8409  -19.3221
+            7   O5a O    38.0519  -21.4225
+            8   C1x C    40.7898  -17.6432
+            9   O2b O    35.6241  -20.0242
+            10  C1b C    36.8409  -17.9240
+            11  P1b P    34.4131  -19.3221
+            12  C1b C    33.2020  -20.0184
+            13  C1b C    31.9910  -19.3221
+            14  C1b C    30.7800  -20.0184
+            15  C1b C    29.5690  -19.3164
+            16  C8y C    28.3523  -20.0184
+            17  O1c O    33.2005  -18.6221
+            18  O1c O    35.6256  -18.6221
+            19  C8x C    27.1405  -19.3183
+            20  C8x C    25.9278  -20.0181
+            21  C8x C    25.9274  -21.4182
+            22  C8x C    27.1391  -22.1183
+            23  C8x C    28.3519  -21.4185
+            24  C1b C    35.6111  -17.2140
+            25  C1b C    35.6111  -15.8140
+            26  C1b C    34.4155  -15.1237
+            27  C6a C    39.4149  -16.5357
+            28  O6a O    40.6304  -15.8340
+            29  O6a O    38.1920  -15.8297
+            30  N1a N    34.4155  -13.7237
+BOND        31
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 2
+            7     4   8 1
+            8     6   9 1
+            9     6  10 1 #Up
+            10    9  11 1
+            11   11  12 1
+            12   12  13 1
+            13   13  14 1
+            14   14  15 1
+            15   15  16 1
+            16    5   8 1
+            17   11  17 1
+            18   11  18 2
+            19   16  19 2
+            20   19  20 1
+            21   20  21 2
+            22   21  22 1
+            23   22  23 2
+            24   16  23 1
+            25   10  24 1
+            26   24  25 1
+            27   25  26 1
+            28    4  27 1 #Down
+            29   27  28 1
+            30   27  29 2
+            31   26  30 1
+///

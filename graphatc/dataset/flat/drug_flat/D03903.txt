@@ -1,0 +1,158 @@
+ENTRY       D03903                      Drug
+NAME        Doxycycline calcium (USP)
+FORMULA     C22H20N2O8. 2Ca
+EXACT_MASS  520.0471
+MOL_WEIGHT  520.5588
+CLASS       Antibacterial
+             DG01197  Tetracycline antibiotic
+REMARK      ATC code: A01AB22 J01AA02
+            Chemical structure group: DG00008
+            Product (DG00008): D00307<US> D02129<JP/US>
+EFFICACY    Antibacterial, Antiprotozoal, Protein biosynthesis inhibitor
+  DISEASE   Rocky Mountain spotted fever [DS:H00323]
+            Typhus fever [DS:H00322]
+            Q fever [DS:H00310]
+            Lymphogranuloma venereum [DS:H00348]
+            Psittacosis [DS:H00350]
+            Trachoma [DS:H00349]
+            Relapsing fever [DS:H00427]
+            Chancroid [DS:H00305]
+            Plague [DS:H00297]
+            Tularemia [DS:H00312]
+            Cholera [DS:H00110]
+            Campylobacter fetus infection [DS:H00321]
+            Brucellosis [DS:H00325]
+            Bartonellosis [DS:H00326]
+            Granuloma inguinale [DS:H01415]
+            Anthrax [DS:H00328]
+            Gonorrhea [DS:H00315]
+            Syphilis [DS:H00354]
+            Yaws [DS:H01318]
+            Listeriosis [DS:H00332]
+            Vincent's infection [DS:H01440]
+            Actinomycosis [DS:H01325]
+            Amebiasis [DS:H00360]
+            Severe acne [DS:H01445]
+            Malaria [DS:H00361]
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07019  Tetracyclines
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB22 Doxycycline
+                  D03903  Doxycycline calcium (USP)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01A TETRACYCLINES
+                J01AA Tetracyclines
+                 J01AA02 Doxycycline
+                  D03903  Doxycycline calcium (USP)
+            USP drug classification [BR:br08302]
+             Antibacterials
+              Tetracyclines
+               Doxycycline
+                D03903  Doxycycline calcium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00008  Doxycycline
+                D03903  Doxycycline calcium
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                D03903  Doxycycline calcium (USP)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01197  Tetracycline antibiotic
+               DG00008  Doxycycline
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Tetracycline
+                DG00008  Doxycycline
+DBLINKS     CAS: 94088-85-4
+            PubChem: 17397986
+            LigandBox: D03903
+            NIKKAJI: J290.632E
+ATOM        34
+            1   Z   Ca   29.8200  -20.5939 #2+
+            2   C8x C    12.1800  -20.0200
+            3   C8x C    12.1800  -21.4200
+            4   C8y C    13.3924  -22.1200
+            5   C8y C    14.6049  -21.4200
+            6   C8y C    14.6049  -20.0200
+            7   C8x C    13.3924  -19.3200
+            8   C5x C    15.8173  -22.1200
+            9   C2y C    17.0297  -21.4200
+            10  C1y C    17.0297  -20.0200
+            11  C1y C    15.8173  -19.3200
+            12  C2y C    18.2422  -22.1200
+            13  C1z C    19.4546  -21.4200
+            14  C1y C    19.4546  -20.0200
+            15  C1y C    18.2422  -19.3200
+            16  C5x C    20.6670  -22.1200
+            17  C2y C    21.8795  -21.4200
+            18  C2y C    21.8795  -20.0200
+            19  C1y C    20.6670  -19.3200
+            20  C5a C    23.1146  -22.1334
+            21  N1a N    24.3219  -21.4366
+            22  O5a O    23.1142  -23.5199
+            23  O1a O    23.1146  -19.3066
+            24  N1c N    20.6670  -17.9201
+            25  C1a C    19.4418  -17.2126
+            26  C1a C    21.8667  -17.2274
+            27  O1a O    18.2422  -17.9203 #-
+            28  C1a C    15.8173  -17.9200
+            29  O1a O    13.3924  -23.5198 #-
+            30  O5x O    15.8173  -23.5200
+            31  O1a O    18.2422  -23.5197 #-
+            32  O1a O    19.4546  -22.8200 #-
+            33  O5x O    20.6670  -23.5199
+            34  Z   Ca   29.8200  -20.5939 #2+
+BOND        35
+            1     2   3 1
+            2     3   4 2
+            3     4   5 1
+            4     5   6 2
+            5     6   7 1
+            6     2   7 2
+            7     5   8 1
+            8     8   9 1
+            9     9  10 1
+            10   10  11 1
+            11    6  11 1
+            12    9  12 2
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16   10  15 1
+            17   13  16 1
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 1
+            22   17  20 1
+            23   20  21 1
+            24   20  22 2
+            25   18  23 1
+            26   19  24 1 #Down
+            27   24  25 1
+            28   24  26 1
+            29   15  27 1 #Down
+            30   11  28 1 #Down
+            31    4  29 1
+            32    8  30 2
+            33   12  31 1
+            34   13  32 1 #Down
+            35   16  33 2
+BRACKET     1    28.4200  -21.9100   28.4200  -18.9700
+            1    32.2000  -18.9700   32.2000  -21.9100
+            1  2
+  ORIGINAL  1    1
+  REPEAT    1   36
+///

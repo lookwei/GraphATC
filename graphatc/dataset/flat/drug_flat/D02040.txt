@@ -1,0 +1,166 @@
+ENTRY       D02040                      Drug
+NAME        Pralmorelin dihydrochloride (USAN);
+            Pralmorelin hydrochloride (JAN);
+            GHRP (TN)
+FORMULA     C45H55N9O6. 2HCl
+EXACT_MASS  889.3809
+MOL_WEIGHT  890.8968
+REMARK      Therapeutic category: 7223
+            Product: D02040<JP>
+EFFICACY    Diagnostic
+COMMENT     growth hormone release-stimulating peptide
+TARGET      GHSR [HSA:2693] [KO:K04284]
+  PATHWAY   hsa04080(2693)  Neuroactive ligand-receptor interaction
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             7  Agents not mainly for therapeutic purpose
+              72  Intracorporeal diagnostic agents
+               722  Various function testing reagents
+                7223  Diagnostic reagents for endocrine function
+                 D02040  Pralmorelin dihydrochloride (USAN); Pralmorelin hydrochloride (JAN)
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Ghrelin
+                GHSR
+                 D02040  Pralmorelin dihydrochloride (USAN) &lt;JP&gt;
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D02040
+DBLINKS     CAS: 158827-34-0
+            PubChem: 7849102
+            LigandBox: D02040
+            NIKKAJI: J2.025.836E
+ATOM        62
+            1   C8x C    22.2067  -15.5557
+            2   C8x C    22.2067  -16.8615
+            3   C8x C    23.3258  -17.5143
+            4   C8y C    24.4450  -16.8615
+            5   C8y C    24.4450  -15.5557
+            6   C8x C    23.3258  -14.9029
+            7   C8y C    26.7299  -16.8615
+            8   C8x C    26.7299  -15.5557
+            9   N4x N    25.5642  -14.9029
+            10  C1b C    27.9424  -17.5609
+            11  C1c C    29.1548  -16.8615
+            12  N1b N    30.3672  -17.5609
+            13  C5a C    31.5797  -16.8615
+            14  C1c C    32.7921  -17.5609
+            15  N1b N    34.0045  -16.8615
+            16  C5a C    35.1704  -17.5609
+            17  C1c C    36.3828  -16.8615
+            18  C1b C    37.5951  -17.5609
+            19  C5a C    29.1548  -15.4624
+            20  N1b N    30.3672  -14.7630
+            21  O5a O    27.9424  -14.7630
+            22  C1c C    30.3672  -13.3641
+            23  C5a C    29.1548  -12.6646
+            24  O5a O    29.1548  -11.2656
+            25  C1b C    31.5797  -12.6646
+            26  O5a O    31.5797  -15.4624
+            27  C1a C    32.7921  -18.9598
+            28  O5a O    35.1704  -18.9598
+            29  N1b N    36.3828  -15.4624
+            30  C5a C    37.6418  -14.7630
+            31  C1c C    38.8543  -15.4624
+            32  N1a N    40.0666  -14.7630
+            33  C8y C    37.5951  -18.9598
+            34  C8x C    36.3828  -19.6593
+            35  C8x C    36.3828  -21.0583
+            36  C8y C    37.6418  -21.7578
+            37  C8y C    38.8076  -21.0583
+            38  C8x C    38.8076  -19.6593
+            39  C8x C    37.6418  -23.1567
+            40  C8x C    38.8543  -23.8096
+            41  C8x C    40.0666  -23.1101
+            42  C8x C    40.0666  -21.7112
+            43  N1b N    27.9433  -13.3641
+            44  C1c C    26.7317  -12.6646
+            45  C1b C    25.5202  -13.3641
+            46  C1b C    24.3087  -12.6646
+            47  C1b C    23.0971  -13.3641
+            48  C1b C    21.8856  -12.6646
+            49  C5a C    26.7317  -11.2662
+            50  N1a N    25.5198  -10.5665
+            51  N1a N    20.6703  -13.3663
+            52  C8y C    32.8012  -13.3700
+            53  C8x C    32.8010  -14.7683
+            54  C8x C    34.0130  -15.4683
+            55  C8x C    35.2254  -14.7687
+            56  C8x C    35.2257  -13.3705
+            57  C8x C    34.0135  -12.6704
+            58  O5a O    27.9482  -10.5639
+            59  O5a O    37.6531  -13.3695
+            60  C1a C    38.8542  -16.8693
+            61  X   Cl   29.6100  -21.9800
+            62  X   Cl   29.6100  -21.9800
+BOND        64
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    7  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 1
+            18   16  17 1
+            19   17  18 1
+            20   11  19 1 #Up
+            21   19  20 1
+            22   19  21 2
+            23   22  20 1 #Down
+            24   22  23 1
+            25   23  24 2
+            26   22  25 1
+            27   13  26 2
+            28   14  27 1 #Up
+            29   16  28 2
+            30   17  29 1 #Down
+            31   29  30 1
+            32   30  31 1
+            33   31  32 1
+            34   18  33 1
+            35   33  34 2
+            36   34  35 1
+            37   35  36 2
+            38   36  37 1
+            39   37  38 2
+            40   33  38 1
+            41   36  39 1
+            42   39  40 2
+            43   40  41 1
+            44   41  42 2
+            45   37  42 1
+            46   23  43 1
+            47   43  44 1
+            48   44  45 1
+            49   45  46 1
+            50   46  47 1
+            51   47  48 1
+            52   44  49 1 #Up
+            53   49  50 1
+            54   48  51 1
+            55   25  52 1
+            56   52  53 2
+            57   53  54 1
+            58   54  55 2
+            59   55  56 1
+            60   56  57 2
+            61   52  57 1
+            62   49  58 2
+            63   30  59 2
+            64   31  60 1 #Down
+BRACKET     1    28.0700  -22.8900   28.0700  -21.0700
+            1    30.4500  -21.0700   30.4500  -22.8900
+            1  2
+  ORIGINAL  1   61
+  REPEAT    1   62
+///

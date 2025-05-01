@@ -1,0 +1,80 @@
+ENTRY       D08206                      Drug
+NAME        Methylephedrine (BAN)
+FORMULA     C11H17NO
+EXACT_MASS  179.131
+MOL_WEIGHT  179.2588
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01229
+            Product (DG01229): D02109<JP>
+EFFICACY    Bronchodilator, Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+TARGET      ADRA1 [HSA:148 147 146] [KO:K04135 K04136 K04137]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            ADRB [HSA:153 154 155] [KO:K04141 K04142 K04143]
+  PATHWAY   hsa04080(146+147+148+150+151+152+153+154+155)  Neuroactive ligand-receptor interaction
+            hsa04261(146+147+148+153+154)  Adrenergic signaling in cardiomyocytes
+            hsa04270(146+147+148)  Vascular smooth muscle contraction
+            hsa04970(146+147+148+153+154+155)  Salivary secretion
+INTERACTION  
+BRITE       Risk category of Japanese OTC drugs [BR:br08312]
+             Designated second-class OTC drugs
+              Inorganic and organic chemicals
+               Methylephedrine
+                D08206  Methylephedrine (BAN)
+             Second-class OTC drugs
+              Inorganic and organic chemicals
+               Methylephedrine
+                D08206  Methylephedrine (BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+                D08206  Methylephedrine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRA1
+                 D08206  Methylephedrine (BAN)
+                ADRA2
+                 D08206  Methylephedrine (BAN)
+                ADRB
+                 D08206  Methylephedrine (BAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01229  Methylephedrine
+DBLINKS     CAS: 552-79-4
+            PubChem: 96024894
+            LigandBox: D08206
+            NIKKAJI: J21.604F
+ATOM        13
+            1   C8x C    22.6479  -18.3731
+            2   C8x C    22.6479  -19.7757
+            3   C8x C    23.8401  -20.4769
+            4   C8x C    25.0322  -19.7757
+            5   C8y C    25.0322  -18.3731
+            6   C8x C    23.8401  -17.6718
+            7   C1c C    26.2946  -17.6718
+            8   C1c C    27.4868  -18.3731
+            9   N1c N    28.6790  -17.6718
+            10  C1a C    29.9413  -18.3731
+            11  C1a C    27.4868  -19.7757
+            12  O1a O    26.2946  -16.2692
+            13  C1a C    28.6790  -16.2692
+BOND        13
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    8  11 1 #Up
+            12    7  12 1 #Up
+            13    9  13 1
+///

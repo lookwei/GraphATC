@@ -1,0 +1,108 @@
+ENTRY       D00375                      Drug
+NAME        Mephenytoin (USP/INN);
+            Mesantoin (TN)
+FORMULA     C12H14N2O2
+EXACT_MASS  218.1055
+MOL_WEIGHT  218.2518
+CLASS       Neuropsychiatric agent
+             DG03199  Antiepileptic agent
+              DG02031  Hydantoin antiepileptic
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+REMARK      ATC code: N03AB04
+EFFICACY    Anticonvulsant
+COMMENT     Hydantoin derivative
+TARGET      SCN1A [HSA:6323] [KO:K04833]
+            SCN2A [HSA:6326] [KO:K04834]
+            SCN3A [HSA:6328] [KO:K04836]
+            SCN4A [HSA:6329] [KO:K04837]
+            SCN5A [HSA:6331] [KO:K04838]
+            SCN8A [HSA:6334] [KO:K04840]
+            SCN9A [HSA:6335] [KO:K04841]
+            SCN10A [HSA:6336] [KO:K04842]
+            SCN11A [HSA:11280] [KO:K04843]
+  PATHWAY   hsa04728(6323)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]
+INTERACTION  
+STR_MAP     map07033  Anticonvulsants
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N03 ANTIEPILEPTICS
+               N03A ANTIEPILEPTICS
+                N03AB Hydantoin derivatives
+                 N03AB04 Mephenytoin
+                  D00375  Mephenytoin (USP/INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG03199  Antiepileptic agent
+               DG02031  Hydantoin antiepileptic
+                D00375  Mephenytoin
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D00375  Mephenytoin
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Sodium channels
+                SCN1A
+                 D00375  Mephenytoin (USP/INN)
+                SCN2A
+                 D00375  Mephenytoin (USP/INN)
+                SCN3A
+                 D00375  Mephenytoin (USP/INN)
+                SCN4A
+                 D00375  Mephenytoin (USP/INN)
+                SCN5A
+                 D00375  Mephenytoin (USP/INN)
+                SCN8A
+                 D00375  Mephenytoin (USP/INN)
+                SCN9A
+                 D00375  Mephenytoin (USP/INN)
+                SCN10A
+                 D00375  Mephenytoin (USP/INN)
+                SCN11A
+                 D00375  Mephenytoin (USP/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D00375
+DBLINKS     CAS: 50-12-4
+            PubChem: 7847441
+            ChEBI: 6757
+            LigandBox: D00375
+            NIKKAJI: J4.097E
+ATOM        16
+            1   C1z C    20.8941  -17.2706
+            2   C5x C    19.4767  -17.2762
+            3   N1x N    21.3729  -15.9550
+            4   N1y N    19.1015  -15.9329
+            5   O5x O    18.6308  -18.4135
+            6   C5x C    20.2356  -15.1090
+            7   C1a C    17.7859  -15.4541
+            8   O5x O    20.2300  -13.6917
+            9   C8y C    22.2941  -17.2706
+            10  C8x C    22.9937  -18.4823
+            11  C8x C    24.3937  -18.4824
+            12  C8x C    25.0937  -17.2699
+            13  C8x C    24.3941  -16.0582
+            14  C8x C    22.9941  -16.0581
+            15  C1b C    20.8941  -18.6706
+            16  C1a C    19.6477  -19.3902
+BOND        17
+            1     1   2 1
+            2     1   3 1
+            3     2   4 1
+            4     2   5 2
+            5     3   6 1
+            6     4   7 1
+            7     6   8 2
+            8     4   6 1
+            9     1   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14   13  14 2
+            15    9  14 1
+            16    1  15 1
+            17   15  16 1
+///

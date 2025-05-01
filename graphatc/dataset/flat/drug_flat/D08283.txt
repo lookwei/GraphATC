@@ -1,0 +1,102 @@
+ENTRY       D08283                      Drug
+NAME        Nordazepam (INN);
+            Calmday (TN)
+FORMULA     C15H11ClN2O
+EXACT_MASS  270.056
+MOL_WEIGHT  270.7136
+CLASS       Neuropsychiatric agent
+             DG01567  GABA-A receptor agonist
+             DG01914  Anxiolytics, benzodiazepine derivatives
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C07486
+            ATC code: N05BA16
+EFFICACY    Antianxiety
+COMMENT     Benzodiazepine derivative
+TARGET      GABR [HSA:2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2568 55879] [KO:K05175 K05181 K05184 K05185 K05186 K05189 K05192]
+  PATHWAY   hsa04080(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  Neuroactive ligand-receptor interaction
+            hsa04727(2554+2555+2556+2557+2558+2559+2560+2561+2562+2563+2564+2565+2566+2567+2568+55879)  GABAergic synapse
+METABOLISM  Enzyme: CYP2C19 [HSA:1557], CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07030  Anxiolytics
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05B ANXIOLYTICS
+                N05BA Benzodiazepine derivatives
+                 N05BA16 Nordazepam
+                  D08283  Nordazepam (INN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01567  GABA-A receptor agonist
+               D08283  Nordazepam
+              DG01914  Anxiolytics, benzodiazepine derivatives
+               D08283  Nordazepam
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               D08283  Nordazepam
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                D08283  Nordazepam
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               GABA (ionotropic)
+                GABR
+                 D08283  Nordazepam (INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D08283
+            Narcotics and psychotropics in Japan [br08308.html]
+             Psychotropics by Cabinet order Article 3 (78 substances)
+              D08283
+DBLINKS     CAS: 1088-11-5
+            PubChem: 96024970
+            ChEBI: 111762
+            LigandBox: D08283
+            NIKKAJI: J7.250H
+ATOM        19
+            1   C2y C    25.6900  -16.7300
+            2   C8y C    24.8500  -15.6100
+            3   C8y C    25.2000  -14.2800
+            4   N1x N    26.4600  -13.7200
+            5   N2x N    27.0900  -16.7300
+            6   C5x C    27.7200  -14.3500
+            7   C1x C    28.0000  -15.6800
+            8   C8x C    24.2200  -13.3000
+            9   C8x C    22.8200  -13.7200
+            10  C8y C    22.5400  -15.0500
+            11  C8x C    23.5200  -16.0300
+            12  O5x O    28.7700  -13.3700
+            13  X   Cl   21.1400  -15.4700
+            14  C8y C    25.0600  -17.9900
+            15  C8x C    23.6600  -17.9900
+            16  C8x C    22.9600  -19.2500
+            17  C8x C    23.6600  -20.3700
+            18  C8x C    25.0600  -20.3700
+            19  C8x C    25.7600  -19.2500
+BOND        21
+            1     3   4 1
+            2     1   5 2
+            3     4   6 1
+            4     2   3 1
+            5     5   7 1
+            6     1   2 1
+            7     6   7 1
+            8     3   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13    6  12 2
+            14   10  13 1
+            15    1  14 1
+            16   14  15 1
+            17   15  16 2
+            18   16  17 1
+            19   17  18 2
+            20   18  19 1
+            21   14  19 2
+///

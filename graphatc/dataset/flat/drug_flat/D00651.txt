@@ -1,0 +1,93 @@
+ENTRY       D00651                      Drug
+NAME        Benzthiazide (JAN/INN);
+            Exna (TN)
+FORMULA     C15H14ClN3O4S3
+EXACT_MASS  430.9835
+MOL_WEIGHT  431.9374
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01749  Thiazide diuretic
+             DG01690  Sulfonamide diuretic
+              DG01749  Thiazide diuretic
+REMARK      Same as: C07759
+EFFICACY    Antihypertensive, Diuretic, Na+-Cl- symport inhibitor
+COMMENT     Thiazides
+TARGET      SLC12A3 (TSC) [HSA:6559] [KO:K14426]
+INTERACTION  
+STR_MAP     map07017  Sulfonamide derivatives - diuretics
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01749  Thiazide diuretic
+                D00651  Benzthiazide
+              DG01690  Sulfonamide diuretic
+               DG01749  Thiazide diuretic
+                D00651  Benzthiazide
+            Target-based classification of drugs [BR:br08310]
+             Transporters
+              Solute carrier family
+               SLC12
+                SLC12A3 (TSC)
+                 D00651  Benzthiazide (JAN/INN)
+DBLINKS     CAS: 91-33-8
+            PubChem: 7847717
+            ChEBI: 3047
+            LigandBox: D00651
+            NIKKAJI: J5.235C
+ATOM        26
+            1   C8y C    23.6363  -18.5557
+            2   C8y C    23.6304  -17.1500
+            3   N5x N    22.4291  -19.2555
+            4   C8x C    24.8376  -19.2496
+            5   C8x C    24.8376  -16.4444
+            6   S2x S    22.4174  -16.4504
+            7   C8y C    21.2102  -18.5673
+            8   C8y C    26.0565  -18.5557
+            9   C8y C    26.0565  -17.1500
+            10  N4x N    21.2043  -17.1617
+            11  O3c O    23.6363  -15.7505
+            12  O3c O    21.2102  -15.7446
+            13  C1b C    20.0030  -19.2613
+            14  X   Cl   27.2754  -19.2438
+            15  S4a S    27.2695  -16.4561
+            16  S2a S    18.7957  -18.5614
+            17  N1a N    28.4710  -15.7505
+            18  O3c O    28.2493  -17.4418
+            19  O3c O    26.2723  -15.4588
+            20  C1b C    17.5826  -19.2613
+            21  C8y C    16.3696  -18.5614
+            22  C8x C    15.1566  -19.2613
+            23  C8x C    16.3696  -17.1617
+            24  C8x C    13.9435  -18.5614
+            25  C8x C    15.1566  -16.4619
+            26  C8x C    13.9435  -17.1617
+BOND        28
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     5   9 2
+            9     6  10 1
+            10    6  11 2
+            11    6  12 2
+            12    7  13 1
+            13    8  14 1
+            14    9  15 1
+            15   13  16 1
+            16   15  17 1
+            17   15  18 2
+            18   15  19 2
+            19   16  20 1
+            20   20  21 1
+            21   21  22 1
+            22   21  23 2
+            23   22  24 2
+            24   23  25 1
+            25   24  26 1
+            26    7  10 1
+            27    8   9 1
+            28   25  26 2
+///

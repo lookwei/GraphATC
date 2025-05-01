@@ -1,0 +1,123 @@
+ENTRY       D10515                      Drug
+NAME        Zoledronic acid hemipentahydrate (JAN)
+FORMULA     (C5H10N2O7P2)2. 5H2O
+EXACT_MASS  634.0455
+MOL_WEIGHT  634.2556
+CLASS       Musculo-skeletal system agent
+             DG03232  Osteoporosis agent
+              DG01600  Bisphosphonate
+REMARK      ATC code: M05BA08
+            Chemical structure group: DG00787
+            Product (DG00787): D01968<JP/US>
+EFFICACY    Antiresorptive, Farnesylpyrophosphate synthetase inhibitor
+COMMENT     Bisphosphonate
+TARGET      FDPS [HSA:2224] [KO:K00787]
+  PATHWAY   hsa00900(2224)  Terpenoid backbone biosynthesis
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             M MUSCULO-SKELETAL SYSTEM
+              M05 DRUGS FOR TREATMENT OF BONE DISEASES
+               M05B DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION
+                M05BA Bisphosphonates
+                 M05BA08 Zoledronic acid
+                  D10515  Zoledronic acid hemipentahydrate (JAN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00787  Zoledronic acid
+                 D10515  Zoledronic acid hemipentahydrate
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Alkyl/Aryl transferases
+                FDPS
+                 D10515  Zoledronic acid hemipentahydrate (JAN)
+            Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG03232  Osteoporosis agent
+               DG01600  Bisphosphonate
+                DG00787  Zoledronic acid
+DBLINKS     PubChem: 172232608
+ATOM        37
+            1   C1d C    20.6500  -17.6400
+            2   P1b P    21.9100  -18.2700
+            3   P1b P    19.5300  -18.2700
+            4   C1b C    20.6500  -16.3100
+            5   O1c O    18.3400  -17.6400
+            6   O1c O    19.5300  -19.6700
+            7   O1c O    17.9900  -19.2500
+            8   O1c O    23.0300  -17.6400
+            9   O1c O    21.9100  -19.6700
+            10  O1c O    23.0300  -18.9700
+            11  O1a O    20.6500  -19.0400
+            12  N4y N    21.8400  -15.6100
+            13  C8x C    23.1700  -16.0300
+            14  N5x N    24.0100  -14.9100
+            15  C8x C    23.1700  -13.7900
+            16  C8x C    21.8400  -14.2100
+            17  O0  O    30.4500  -18.2000
+            18  C1d C    20.6500  -17.6400
+            19  P1b P    21.9100  -18.2700
+            20  O1c O    23.0300  -17.6400
+            21  O1c O    21.9100  -19.6700
+            22  O1c O    23.0300  -18.9700
+            23  P1b P    19.5300  -18.2700
+            24  O1c O    18.3400  -17.6400
+            25  O1c O    19.5300  -19.6700
+            26  O1c O    17.9900  -19.2500
+            27  C1b C    20.6500  -16.3100
+            28  N4y N    21.8400  -15.6100
+            29  C8x C    23.1700  -16.0300
+            30  N5x N    24.0100  -14.9100
+            31  C8x C    23.1700  -13.7900
+            32  C8x C    21.8400  -14.2100
+            33  O1a O    20.6500  -19.0400
+            34  O0  O    30.4500  -18.2000
+            35  O0  O    30.4500  -18.2000
+            36  O0  O    30.4500  -18.2000
+            37  O0  O    30.4500  -18.2000
+BOND        32
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     3   5 2
+            5     3   6 1
+            6     3   7 1
+            7     2   8 2
+            8     2   9 1
+            9     2  10 1
+            10    1  11 1
+            11    4  12 1
+            12   12  13 1
+            13   13  14 2
+            14   14  15 1
+            15   15  16 2
+            16   12  16 1
+            17   18  19 1
+            18   18  23 1
+            19   18  27 1
+            20   23  24 2
+            21   23  25 1
+            22   23  26 1
+            23   19  20 2
+            24   19  21 1
+            25   19  22 1
+            26   18  33 1
+            27   27  28 1
+            28   28  29 1
+            29   29  30 2
+            30   30  31 1
+            31   31  32 2
+            32   28  32 1
+BRACKET     1    15.5400  -20.9300   15.5400  -12.6700
+            1    24.7100  -12.6700   24.7100  -20.9300
+            1  2
+  ORIGINAL  1    1   2   8   9  10   3   5   6   7   4  12  13  14  15  16  11
+  REPEAT    1   18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33
+            2    28.2100  -18.9700   28.2100  -17.2200
+            2    31.1500  -17.2200   31.1500  -18.9700
+            2  5
+  ORIGINAL  2   17
+  REPEAT    2   34  35  36  37
+///

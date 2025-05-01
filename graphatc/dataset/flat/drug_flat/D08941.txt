@@ -1,0 +1,119 @@
+ENTRY       D08941                      Drug
+NAME        Levamlodipine malate (USAN)
+FORMULA     C20H25ClN2O5. C4H6O5
+EXACT_MASS  542.1667
+MOL_WEIGHT  542.9633
+CLASS       Cardiovascular agent
+             DG03231  Antihypertensive
+              DG01928  Dihydropyridine calcium channel blocker
+REMARK      ATC code: C08CA17
+            Chemical structure group: DG03091
+            Product (DG03091): D11723<US>
+EFFICACY    Antihypertensive, Vasodilator
+COMMENT     Dihydropyridine derivative
+            See Amlodipine [DR:D07450]
+            Treatment of Hypertension, Chronic stable angina, Vasospastic angina
+TARGET      CACNA1-L [HSA:775 776 778 779] [KO:K04850 K04851 K04853 K04857]
+  PATHWAY   hsa04020(775+776+778+779)  Calcium signaling pathway
+            hsa04260(775+776+778+779)  Cardiac muscle contraction
+            hsa04261(775+776+778+779)  Adrenergic signaling in cardiomyocytes
+            hsa04270(775+776+778+779)  Vascular smooth muscle contraction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C08 CALCIUM CHANNEL BLOCKERS
+               C08C SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS
+                C08CA Dihydropyridine derivatives
+                 C08CA17 Levamlodipine
+                  D08941  Levamlodipine malate (USAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG03231  Antihypertensive
+               DG01928  Dihydropyridine calcium channel blocker
+                D08941  Levamlodipine malate
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Calcium channels
+                CACNA1-L
+                 D08941  Levamlodipine malate (USAN)
+DBLINKS     CAS: 736178-83-9
+            PubChem: 96025624
+            LigandBox: D08941
+ATOM        37
+            1   C2y C    14.3290  -12.1664
+            2   C2y C    14.3290  -13.5649
+            3   C1y C    15.5401  -14.2641
+            4   C2y C    16.7513  -13.5649
+            5   C2y C    16.7513  -12.1664
+            6   N1x N    15.5401  -11.4671
+            7   C1b C    17.9874  -11.4671
+            8   O2a O    19.1986  -12.1664
+            9   C1b C    20.4097  -11.4671
+            10  C1b C    21.6208  -12.1664
+            11  N1a N    22.8320  -11.4671
+            12  C7a C    17.9874  -14.2641
+            13  O7a O    19.1986  -13.5649
+            14  C1b C    20.4097  -14.2641
+            15  C1a C    21.6208  -13.5649
+            16  C1a C    13.1179  -11.4671
+            17  C7a C    13.1179  -14.2641
+            18  O7a O    11.9237  -13.5744
+            19  C8y C    15.5401  -15.6624
+            20  C8x C    14.3122  -16.3715
+            21  C8x C    14.3124  -17.7700
+            22  C8x C    15.5236  -18.4691
+            23  C8x C    16.7515  -17.7600
+            24  C8y C    16.7513  -16.3615
+            25  O6a O    13.1178  -15.6624
+            26  C1a C    10.7376  -14.2592
+            27  O6a O    17.9936  -15.4000
+            28  X   Cl   18.0113  -16.3615
+            29  O6a O    27.6146  -13.8446
+            30  C6a C    28.8257  -14.5438
+            31  C1c C    30.0367  -13.8446
+            32  C1b C    31.2478  -14.5438
+            33  C6a C    32.4589  -13.8446
+            34  O6a O    33.6701  -14.5438
+            35  O6a O    28.8257  -15.9421
+            36  O6a O    32.4589  -12.4462
+            37  O1a O    30.0367  -12.4463
+BOND        37
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12    4  12 1
+            13   12  13 1
+            14   13  14 1
+            15   14  15 1
+            16    1  16 1
+            17    2  17 1
+            18   17  18 1
+            19    3  19 1 #Up
+            20   19  20 2
+            21   20  21 1
+            22   21  22 2
+            23   22  23 1
+            24   23  24 2
+            25   19  24 1
+            26   17  25 2
+            27   18  26 1
+            28   12  27 2
+            29   24  28 1
+            30   29  30 1
+            31   30  31 1
+            32   31  32 1
+            33   32  33 1
+            34   33  34 1
+            35   30  35 2
+            36   33  36 2
+            37   31  37 1 #Up
+///

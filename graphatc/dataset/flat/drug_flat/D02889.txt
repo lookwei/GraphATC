@@ -1,0 +1,128 @@
+ENTRY       D02889                      Drug
+NAME        Amdinocillin pivoxil (USAN);
+            Pivmecillinam (INN);
+            Coactabs (TN)
+FORMULA     C21H33N3O5S
+EXACT_MASS  439.2141
+MOL_WEIGHT  439.5688
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01780  Extended spectrum penicillin
+REMARK      ATC code: J01CA08
+            Chemical structure group: DG00523
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Active form of prodrug: Mecillinam [DR:D02888]
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CA Penicillins with extended spectrum
+                 J01CA08 Pivmecillinam
+                  D02889  Amdinocillin pivoxil (USAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00523  Pivmecillinam
+                  D02889  Amdinocillin pivoxil
+              DG01780  Extended spectrum penicillin
+               DG00523  Pivmecillinam
+                D02889  Amdinocillin pivoxil
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                D02889  Amdinocillin pivoxil (USAN)
+            Prodrugs [br08324.html]
+             D02889
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00523  Pivmecillinam
+              DG01780  Extended spectrum penicillin
+               DG00523  Pivmecillinam
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Extended spectrum penicillin
+                DG00523  Pivmecillinam
+            Prodrugs [br08324.html(DG00523)]
+             DG00523
+DBLINKS     CAS: 32886-97-8
+            PubChem: 17397046
+            LigandBox: D02889
+            NIKKAJI: J17.761J
+ATOM        30
+            1   C1y C    25.3355  -15.1827
+            2   C5x C    25.3355  -16.5822
+            3   N1y N    26.7350  -16.5822
+            4   C1y C    26.7350  -15.1827
+            5   C1y C    28.0645  -17.0020
+            6   C1z C    28.9042  -15.8824
+            7   S2x S    28.0645  -14.7628
+            8   C1a C    29.8839  -16.8621
+            9   C1a C    29.8839  -14.9028
+            10  C7a C    28.5543  -18.3316
+            11  O7a O    29.9539  -18.3316
+            12  O6a O    27.7146  -19.5212
+            13  N2b N    24.1459  -14.4829
+            14  C2b C    22.9563  -15.1827
+            15  O5x O    24.1459  -17.2819
+            16  N1y N    21.6967  -14.4829
+            17  C1b C    30.6536  -19.5911
+            18  O7a O    32.0531  -19.5911
+            19  C7a C    32.7529  -18.4016
+            20  O6a O    32.0531  -17.2120
+            21  C1d C    34.1524  -18.4016
+            22  C1a C    35.5519  -18.4016
+            23  C1a C    34.1524  -17.0020
+            24  C1a C    34.1524  -19.8011
+            25  C1x C    21.6967  -13.0834
+            26  C1x C    20.5771  -12.1737
+            27  C1x C    19.2476  -12.5236
+            28  C1x C    18.6178  -13.7832
+            29  C1x C    19.2476  -15.0427
+            30  C1x C    20.5771  -15.3226
+BOND        32
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    1  13 1 #Up
+            15   13  14 2
+            16    2  15 2
+            17   14  16 1
+            18   11  17 1
+            19   17  18 1
+            20   18  19 1
+            21   19  20 2
+            22   19  21 1
+            23   21  22 1
+            24   21  23 1
+            25   21  24 1
+            26   27  28 1
+            27   28  29 1
+            28   26  27 1
+            29   25  26 1
+            30   29  30 1
+            31   30  16 1
+            32   25  16 1
+///

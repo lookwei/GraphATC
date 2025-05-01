@@ -1,0 +1,105 @@
+ENTRY       D00660                      Drug
+NAME        Tazobactam (JP18/USP/INN)
+FORMULA     C10H12N4O5S
+EXACT_MASS  300.0528
+MOL_WEIGHT  300.2911
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01713  Penicillin skeleton group
+               DG01480  Penicillin
+             DG01479  beta-Lactamase inhibitor
+REMARK      Same as: C07771
+            ATC code: J01CG02
+            Chemical structure group: DG00546
+            Product (mixture): D02505<JP/US>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor, beta-Lactamase inhibitor
+TARGET      beta-lactamases
+INTERACTION  
+STR_MAP     map07011  Penicillins
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01C BETA-LACTAM ANTIBACTERIALS, PENICILLINS
+                J01CG Beta-lactamase inhibitors
+                 J01CG02 Tazobactam
+                  D00660  Tazobactam (JP18/USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00546  Tazobactam
+                  D00660  Tazobactam
+              DG01479  beta-Lactamase inhibitor
+               DG00546  Tazobactam
+                D00660  Tazobactam
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                D00660  Tazobactam (JP18/USP/INN)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00660  Tazobactam
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01713  Penicillin skeleton group
+                DG01480  Penicillin
+                 DG00546  Tazobactam
+              DG01479  beta-Lactamase inhibitor
+               DG00546  Tazobactam
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Beta-lactamase inhibitor
+                DG00546  Tazobactam
+DBLINKS     CAS: 89786-04-9
+            PubChem: 7847726
+            ChEBI: 9421
+            LigandBox: D00660
+ATOM        20
+            1   C1x C    23.5522  -14.7309
+            2   C5x C    23.5522  -16.1282
+            3   N1y N    24.9497  -16.1282
+            4   C1y C    24.9497  -14.7309
+            5   C1y C    26.2785  -16.5600
+            6   C1z C    27.0998  -15.4296
+            7   S2x S    26.2785  -14.2991
+            8   C1a C    28.0877  -16.4176
+            9   C1b C    28.0877  -14.4416
+            10  C6a C    26.7064  -17.8771
+            11  O6a O    28.1038  -17.8771
+            12  O6a O    25.8827  -19.0110
+            13  O3c O    25.9176  -12.9522
+            14  O3c O    27.2646  -13.3131
+            15  N4y N    29.4842  -14.4416
+            16  C8x C    30.3146  -15.5845
+            17  C8x C    31.6581  -15.1480
+            18  N5x N    31.6582  -13.7354
+            19  N5x N    30.3147  -13.2988
+            20  O5x O    22.3398  -16.8282
+BOND        22
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     1   4 1
+            5     3   5 1
+            6     5   6 1
+            7     6   7 1
+            8     4   7 1
+            9     6   8 1 #Down
+            10    6   9 1
+            11    5  10 1 #Down
+            12   10  11 1
+            13   10  12 2
+            14    7  13 2
+            15    7  14 2
+            16    9  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   15  19 1
+            22    2  20 2
+///

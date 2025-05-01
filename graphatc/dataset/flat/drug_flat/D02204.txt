@@ -1,0 +1,69 @@
+ENTRY       D02204                      Drug
+NAME        Hexamethonium bromide (JAN/INN);
+            Hexamethonium bromide (TN)
+FORMULA     C12H30N2. 2Br
+EXACT_MASS  360.0776
+MOL_WEIGHT  362.188
+CLASS       Musculo-skeletal system agent
+             DG02029  Muscle relaxant
+              DG01696  Peripherally-acting muscle relaxant
+               DG03117  Nondepolarizing neuromuscular blocking agent
+             DG01742  Quaternary ammonium compound type muscle relaxant
+EFFICACY    Antihypertensive, Nicotinic acetylcholine receptor antagonist
+COMMENT     Quaternary ammonium compound
+            Ganglionic blocking agent
+TARGET      CHRN (neuronal type) [HSA:1135 1136 1137 1138 8973 1139 55584 57053 1141 1142 1143] [KO:K04804 K04805 K04806 K04807 K04808 K04809 K04810 K04811 K04813 K04814 K04815]
+  PATHWAY   hsa04080(1135+1136+1137+1138+1139+1141+1142+1143+55584+57053+8973)  Neuroactive ligand-receptor interaction
+            hsa04725(1136+1137+1139+1141+1143+8973)  Cholinergic synapse
+INTERACTION  
+STR_MAP     map07221  Nicotinic cholinergic receptor antagonists
+BRITE       Drug groups [BR:br08330]
+             Musculo-skeletal system agent
+              DG02029  Muscle relaxant
+               DG01696  Peripherally-acting muscle relaxant
+                DG03117  Nondepolarizing neuromuscular blocking agent
+                 D02204  Hexamethonium bromide
+              DG01742  Quaternary ammonium compound type muscle relaxant
+               D02204  Hexamethonium bromide
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Acetylcholine (nicotinic)
+                CHRN (neuronal type)
+                 D02204  Hexamethonium bromide (JAN/INN)
+DBLINKS     CAS: 55-97-0
+            PubChem: 7849264
+            LigandBox: D02204
+            NIKKAJI: J231.256E
+ATOM        16
+            1   C1a C    18.2851  -15.8196
+            2   N1d N    19.5003  -16.5207 #+
+            3   C1b C    20.7156  -15.8196
+            4   C1b C    21.9309  -16.5207
+            5   C1b C    23.1461  -15.8196
+            6   C1b C    24.3614  -16.5207
+            7   C1b C    25.5767  -15.8196
+            8   C1b C    26.7919  -16.5207
+            9   N1d N    27.9605  -15.8196 #+
+            10  C1a C    29.1758  -16.5207
+            11  C1a C    18.2851  -17.1751
+            12  C1a C    20.7156  -17.2218
+            13  C1a C    29.3158  -14.9317
+            14  C1a C    26.7452  -15.1185
+            15  X   Br   31.5470  -15.9134 #-
+            16  X   Br   15.1202  -16.5201 #-
+BOND        13
+            1     2   3 1
+            2     7   8 1
+            3     8   9 1
+            4     3   4 1
+            5     9  10 1
+            6     2  11 1
+            7     4   5 1
+            8     2  12 1
+            9     1   2 1
+            10    9  13 1
+            11    5   6 1
+            12    9  14 1
+            13    6   7 1
+///

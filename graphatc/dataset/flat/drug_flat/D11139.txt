@@ -1,0 +1,87 @@
+ENTRY       D11139                      Drug
+NAME        Savolitinib (USAN/INN)
+FORMULA     C17H15N9
+EXACT_MASS  345.145
+MOL_WEIGHT  345.3613
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG01917  Receptor tyrosine kinase inhibitor
+EFFICACY    Antineoplastic, Receptor tyrosine kinase inhibitor
+COMMENT     Treatment of cancer
+TARGET      MET [HSA:4233] [KO:K05099]
+  PATHWAY   hsa04010(4233)  MAPK signaling pathway
+            hsa05200(4233)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG01917  Receptor tyrosine kinase inhibitor
+                D11139  Savolitinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               MET family
+                MET
+                 D11139  Savolitinib (USAN/INN)
+DBLINKS     CAS: 1313725-88-0
+            PubChem: 376219063
+            PDB-CCD: V0L
+ATOM        26
+            1   C8y C    13.8600  -18.9000
+            2   C8x C    13.8600  -20.3000
+            3   N5x N    15.0724  -21.0000
+            4   C8y C    16.2849  -20.3000
+            5   C8y C    16.2849  -18.9000
+            6   N5x N    15.0724  -18.2000
+            7   N5x N    17.6164  -20.7326
+            8   N5x N    18.4393  -19.6000
+            9   N4y N    17.6164  -18.4674
+            10  C1c C    18.0475  -17.1406
+            11  C8y C    19.4269  -16.8474
+            12  C8x C    20.3895  -17.9169
+            13  N4y N    21.7590  -17.6261
+            14  C8y C    22.1918  -16.2947
+            15  C8x C    21.2293  -15.2252
+            16  C8x C    19.8598  -15.5160
+            17  C8x C    22.8914  -18.4492
+            18  C8x C    24.0242  -17.6265
+            19  N5x N    23.5919  -16.2950
+            20  C8y C    12.6476  -18.2000
+            21  C8x C    12.5015  -16.8102
+            22  N5x N    11.1346  -16.5196
+            23  N4y N    10.4358  -17.7298
+            24  C8x C    11.3709  -18.7684
+            25  C1a C     9.0399  -17.8765
+            26  C1a C    17.1211  -16.1115
+BOND        30
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    9  10 1
+            12   10  11 1
+            13   11  12 2
+            14   12  13 1
+            15   13  14 1
+            16   14  15 1
+            17   15  16 2
+            18   11  16 1
+            19   13  17 1
+            20   17  18 2
+            21   18  19 1
+            22   14  19 2
+            23    1  20 1
+            24   20  21 1
+            25   21  22 2
+            26   22  23 1
+            27   23  24 1
+            28   20  24 2
+            29   23  25 1
+            30   10  26 1 #Up
+///

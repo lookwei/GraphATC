@@ -1,0 +1,145 @@
+ENTRY       D02543                      Drug
+NAME        Amikacin (USP/INN)
+FORMULA     C22H43N5O13
+EXACT_MASS  585.2857
+MOL_WEIGHT  585.6025
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C06820
+            ATC code: D06AX12 J01GB06 S01AA21
+            Chemical structure group: DG00403
+            Product (DG00403): D00865<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07021  Aminoglycosides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AX Other antibiotics for topical use
+                 D06AX12 Amikacin
+                  D02543  Amikacin (USP/INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01G AMINOGLYCOSIDE ANTIBACTERIALS
+                J01GB Other aminoglycosides
+                 J01GB06 Amikacin
+                  D02543  Amikacin (USP/INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA21 Amikacin
+                  D02543  Amikacin (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00403  Amikacin
+                D02543  Amikacin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D02543  Amikacin (USP/INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00403  Amikacin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                DG00403  Amikacin
+DBLINKS     CAS: 37517-28-5
+            PubChem: 17396714
+            ChEBI: 2637
+            PDB-CCD: AKN
+            LigandBox: D02543
+            NIKKAJI: J19.345C
+ATOM        40
+            1   C1y C    16.3913  -20.1724
+            2   C1y C    16.3913  -21.5733
+            3   C1y C    17.5820  -22.2737
+            4   C1y C    18.8429  -21.5733
+            5   C1y C    18.8429  -20.1724
+            6   O2x O    17.5820  -19.4719
+            7   O2a O    20.0336  -19.4719
+            8   C1y C    21.2244  -18.7714
+            9   C1y C    22.4152  -19.4719
+            10  C1x C    23.6760  -18.7714
+            11  C1y C    23.6760  -17.3705
+            12  C1y C    22.4152  -16.6701
+            13  C1y C    21.2244  -17.3705
+            14  O2a O    22.4152  -15.2692
+            15  C1y C    23.6060  -14.5687
+            16  C1b C    15.2005  -19.4719
+            17  O1a O    14.0097  -20.1724
+            18  O1a O    15.2005  -22.2737
+            19  N1a N    17.5820  -23.6746
+            20  O1a O    20.0336  -22.2737
+            21  N1b N    22.4152  -20.8728
+            22  C5a C    23.6060  -21.5733
+            23  C1c C    24.8668  -20.8728
+            24  C1b C    26.0576  -21.5733
+            25  C1b C    27.2483  -20.8728
+            26  N1a N    28.5091  -21.5733
+            27  O2x O    24.8668  -15.2692
+            28  C1y C    26.0576  -14.5687
+            29  C1y C    26.0576  -13.1678
+            30  C1y C    24.7967  -12.4673
+            31  C1y C    23.6060  -13.1678
+            32  C1b C    27.3184  -15.2692
+            33  N1a N    27.3184  -16.6701
+            34  O1a O    27.2483  -12.3973
+            35  O1a O    24.7967  -11.0664
+            36  O1a O    22.4152  -12.4673
+            37  O5a O    23.6060  -22.9742
+            38  O1a O    24.8668  -19.4719
+            39  N1a N    24.7967  -16.6701
+            40  O1a O    20.0336  -16.6701
+BOND        42
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1 #Down
+            8     8   7 1 #Down
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15   12  14 1 #Down
+            16   15  14 1 #Down
+            17    1  16 1 #Up
+            18   16  17 1
+            19    2  18 1 #Down
+            20    3  19 1 #Up
+            21    4  20 1 #Down
+            22    9  21 1 #Up
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   24  25 1
+            27   25  26 1
+            28   15  27 1
+            29   27  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33   15  31 1
+            34   28  32 1 #Up
+            35   32  33 1
+            36   29  34 1 #Down
+            37   30  35 1 #Up
+            38   31  36 1 #Down
+            39   22  37 2
+            40   23  38 1 #Up
+            41   11  39 1 #Up
+            42   13  40 1 #Up
+///

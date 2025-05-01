@@ -1,0 +1,136 @@
+ENTRY       D02232                      Drug
+NAME        Cefoselis sulfate (JAN);
+            FK 037;
+            Winsef (TN)
+FORMULA     C19H22N8O6S2. H2SO4
+EXACT_MASS  620.0778
+MOL_WEIGHT  620.6365
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01804  Oxyimino beta-lactam
+REMARK      Chemical structure group: DG01206
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+COMMENT     Semisynthetic cephalosporin: broad spectrum cephalosporin
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01206  Cefoselis
+                  D02232  Cefoselis sulfate
+              DG01804  Oxyimino beta-lactam
+               DG01206  Cefoselis
+                D02232  Cefoselis sulfate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                D02232  Cefoselis sulfate (JAN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG01206  Cefoselis
+              DG01804  Oxyimino beta-lactam
+               DG01206  Cefoselis
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Other cephalosporin
+                DG01206  Cefoselis
+DBLINKS     CAS: 122841-12-7
+            PubChem: 7849291
+            ChEBI: 34616
+            LigandBox: D02232
+            NIKKAJI: J535.100F
+ATOM        40
+            1   S4a S    35.1097  -20.6335
+            2   O1d O    35.1097  -19.2315
+            3   O1d O    35.1097  -22.0355
+            4   O1d O    36.5117  -20.6335
+            5   O1d O    33.7077  -20.6335
+            6   C1y C    22.6835  -18.8317
+            7   N1y N    22.6835  -20.2319
+            8   C2y C    23.8737  -20.9321
+            9   C2y C    25.0640  -20.2319
+            10  C1x C    25.0640  -18.8317
+            11  S2x S    23.8737  -18.1315
+            12  C1y C    21.2832  -18.8317
+            13  C5x C    21.2832  -20.2319
+            14  N1b N    20.0229  -18.1315
+            15  C5a C    18.8327  -18.8317
+            16  O5a O    18.8327  -20.2319
+            17  O5x O    20.0229  -20.9321
+            18  C2c C    17.6424  -18.1315
+            19  C1b C    26.3243  -20.9321
+            20  C8y C    16.3821  -18.8317
+            21  N4y N    27.5146  -20.2319
+            22  C8x C    15.3319  -17.9914
+            23  S2x S    14.1417  -18.7616
+            24  C8y C    14.5618  -20.1619
+            25  N5x N    15.9620  -20.1619
+            26  N2b N    17.6424  -16.7311
+            27  C6a C    23.8737  -22.3324
+            28  O6a O    25.0640  -23.0326
+            29  O6a O    22.6135  -23.0326
+            30  N1a N    13.7216  -21.2821
+            31  N4y N    28.6647  -21.0351
+            32  C8y C    29.7850  -20.1922
+            33  C8x C    29.3296  -18.8662
+            34  C8x C    27.9278  -18.8896
+            35  N2a N    31.1190  -20.6010
+            36  C1b C    28.6894  -22.4302
+            37  C1b C    29.8916  -23.0965
+            38  O1a O    31.0977  -22.3716
+            39  O2a O    18.8563  -16.0368
+            40  C1a C    20.0432  -16.7287
+BOND        42
+            1     1   2 2
+            2     1   3 2
+            3     1   4 1
+            4     1   5 1
+            5     6   7 1
+            6     7   8 1
+            7     8   9 2
+            8     9  10 1
+            9    10  11 1
+            10    6  11 1
+            11    6  12 1
+            12   12  13 1
+            13    7  13 1
+            14   12  14 1 #Up
+            15   14  15 1
+            16   15  16 2
+            17   13  17 2
+            18   15  18 1
+            19    9  19 1
+            20   18  20 1
+            21   19  21 1
+            22   20  22 2
+            23   22  23 1
+            24   23  24 1
+            25   24  25 2
+            26   20  25 1
+            27   18  26 2
+            28    8  27 1
+            29   27  28 1
+            30   27  29 2
+            31   24  30 1
+            32   21  31 1
+            33   31  32 1
+            34   32  33 1
+            35   33  34 2
+            36   21  34 1
+            37   32  35 2
+            38   31  36 1
+            39   36  37 1
+            40   37  38 1
+            41   26  39 1
+            42   39  40 1
+///

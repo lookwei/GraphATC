@@ -1,0 +1,130 @@
+ENTRY       D00869                      Drug
+NAME        Spectinomycin hydrochloride (USP);
+            Spectinomycin hydrochloride hydrate (JP18);
+            Trobicin (TN)
+FORMULA     C14H24N2O7. 2HCl. 5H2O
+EXACT_MASS  494.1645
+MOL_WEIGHT  495.3478
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Therapeutic category: 6129
+            ATC code: J01XX04
+            Chemical structure group: DG00634
+            Product (DG00634): D00869<JP>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+STR_MAP     map07021  Aminoglycosides
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01X OTHER ANTIBACTERIALS
+                J01XX Other antibacterials
+                 J01XX04 Spectinomycin
+                  D00869  Spectinomycin hydrochloride (USP) &lt;JP&gt;
+            Therapeutic category of drugs in Japan [BR:br08301]
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               612  Acting mainly on gram-negative bacteria
+                6129  Others
+                 D00869  Spectinomycin hydrochloride (USP); Spectinomycin hydrochloride hydrate (JP18)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00634  Spectinomycin
+                D00869  Spectinomycin hydrochloride
+            Drug classes [BR:br08332]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               D00869  Spectinomycin hydrochloride
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D00869  Spectinomycin hydrochloride (USP) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00869  Spectinomycin hydrochloride hydrate
+              D00869  Spectinomycin hydrochloride for injection
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00634  Spectinomycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                DG00634  Spectinomycin
+DBLINKS     CAS: 22189-32-8
+            PubChem: 7847934
+            ChEBI: 9217
+            LigandBox: D00869
+ATOM        30
+            1   C1y C     8.8211  -14.0729
+            2   C1y C     8.8211  -12.6739
+            3   C1y C     7.6065  -14.7787
+            4   O2x O    10.0421  -14.7724
+            5   O2x O    10.0358  -11.9616
+            6   C1y C     7.6065  -11.9807
+            7   C1y C     6.4109  -14.0729
+            8   N1b N     7.6065  -16.1651
+            9   C1z C    11.3394  -14.1491
+            10  C1y C    11.3267  -12.6675
+            11  C1y C     6.4109  -12.6739
+            12  O1a O     7.6065  -10.7406
+            13  O1a O     5.2091  -14.7597
+            14  C1a C     6.4047  -16.8519
+            15  C5x C    12.5732  -14.7787
+            16  O1a O    11.3331  -15.7328
+            17  O2x O    12.6177  -11.9363
+            18  N1b N     5.2156  -11.9807
+            19  C1x C    13.8069  -14.1364
+            20  O5x O    12.5859  -16.0951
+            21  C1y C    13.7877  -12.6357
+            22  C1a C     4.0135  -12.6739
+            23  C1a C    14.9770  -11.9363
+            24  X   Cl   19.3200  -12.1800
+            25  O0  O    19.8100  -15.1900
+            26  X   Cl   19.3200  -12.1800
+            27  O0  O    19.8100  -15.1900
+            28  O0  O    19.8100  -15.1900
+            29  O0  O    19.8100  -15.1900
+            30  O0  O    19.8100  -15.1900
+BOND        25
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1 #Up
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1 #Up
+            8     4   9 1
+            9     5  10 1
+            10    6  11 1
+            11    6  12 1 #Down
+            12    7  13 1 #Up
+            13    8  14 1
+            14    9  15 1
+            15    9  16 1 #Up
+            16   10  17 1
+            17   11  18 1 #Up
+            18   15  19 1
+            19   15  20 2
+            20   17  21 1
+            21   18  22 1
+            22   21  23 1 #Down
+            23    7  11 1
+            24    9  10 1
+            25   19  21 1
+BRACKET     1    17.5700  -13.1600   17.5700  -11.2700
+            1    20.5100  -11.2700   20.5100  -13.1600
+            1  2
+  ORIGINAL  1   25
+  REPEAT    1   27
+            2    17.3600  -15.9600   17.3600  -14.3500
+            2    20.8600  -14.3500   20.8600  -15.9600
+            2  5
+  ORIGINAL  2   26
+  REPEAT    2   28  29  30  31
+///

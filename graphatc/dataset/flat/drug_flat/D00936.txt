@@ -1,0 +1,78 @@
+ENTRY       D00936                      Drug
+NAME        Calcium lactate (USP);
+            Prequist powder (TN)
+FORMULA     (C3H5O3)2. Ca. xH2O
+CLASS       Gastrointestinal agent
+             DG01980  Calcium
+REMARK      ATC code: A12AA05
+            Chemical structure group: DG00136
+            Product (DG00136): D02254<JP>
+EFFICACY    Antihypocalcemia, Supplement (calcium)
+COMMENT     x=5 [DR:D02254]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A12 MINERAL SUPPLEMENTS
+               A12A CALCIUM
+                A12AA Calcium
+                 A12AA05 Calcium lactate
+                  D00936  Calcium lactate (USP)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Nourishing tonics and health supplements
+              44 Calcium based drugs
+               D00936  Calcium lactate (USP)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Calcium lactate
+                D00936  Calcium lactate (USP)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00136  Calcium lactate
+                D00936  Calcium lactate
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01980  Calcium
+               DG00136  Calcium lactate
+DBLINKS     CAS: 41372-22-9
+            PubChem: 7847999
+            LigandBox: D00936
+            NIKKAJI: J244.492E
+ATOM        14
+            1   O0  O    32.0250  -17.8958
+            2   C1c C    21.8295  -18.1689
+            3   C6a C    23.0380  -17.4801
+            4   C1a C    21.8235  -19.5760
+            5   O1a O    20.6152  -17.4742
+            6   O6a O    23.0321  -16.0790
+            7   O6a O    24.2523  -18.1806 #-
+            8   Z   Ca   27.1882  -18.0230 #2+
+            9   C1c C    21.8295  -18.1689
+            10  C6a C    23.0380  -17.4801
+            11  O6a O    23.0321  -16.0790
+            12  O6a O    24.2523  -18.1806 #-
+            13  C1a C    21.8235  -19.5760
+            14  O1a O    20.6152  -17.4742
+BOND        10
+            1     2   3 1
+            2     2   4 1
+            3     2   5 1
+            4     3   6 2
+            5     3   7 1
+            6     9  10 1
+            7     9  13 1
+            8     9  14 1
+            9    10  11 2
+            10   10  12 1
+BRACKET     1    30.1000  -18.9700   30.1000  -16.8700
+            1    32.4800  -16.8700   32.4800  -18.9700
+            1  x
+  ORIGINAL  1    1
+  REPEAT    1 
+            2    18.7600  -20.7200   18.7600  -15.1900
+            2    25.2700  -15.1900   25.2700  -20.7200
+            2  2
+  ORIGINAL  2    2   3   6   7   4   5
+  REPEAT    2    9  10  11  12  13  14
+///

@@ -1,0 +1,101 @@
+ENTRY       C02465                      Compound
+NAME        Triiodothyronine;
+            3,3',5-Triiodo-L-thyronine;
+            L-3,5,3'-Triiodothyronine;
+            3,5,3'-Triiodothyronine;
+            Liothyronine;
+            3,5,3'-Triiodo-L-thyronine;
+            T3
+FORMULA     C15H12I3NO4
+EXACT_MASS  650.79
+MOL_WEIGHT  650.9735
+REMARK      Same as: D08128
+REACTION    R03734 R03952 R03953 R08524
+PATHWAY     map00350  Tyrosine metabolism
+            map01100  Metabolic pathways
+            map04080  Neuroactive ligand-receptor interaction
+            map04714  Thermogenesis
+            map04918  Thyroid hormone synthesis
+            map04919  Thyroid hormone signaling pathway
+            map04976  Bile secretion
+            map05320  Autoimmune thyroid disease
+MODULE      M00043  Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine
+NETWORK     nt06322  TRH-TSH-TH signaling
+ENZYME      1.11.1.8        1.21.99.4       2.6.1.26
+BRITE       Compounds with biological roles [BR:br08001]
+             Peptides
+              Amino acids
+               Other amino acids
+                C02465  Triiodothyronine
+             Hormones and transmitters
+              Other hormones
+               Thyroid hormones
+                C02465  Triiodothyronine
+            Drug groups [BR:br08330(D08128)]
+             Hormonal agent
+              DG01953  Thyroid preparation
+               DG01608  Thyroid hormone replenisher
+                DG01372  Liothyronine
+                 D08128  Liothyronine
+            Target-based classification of drugs [BR:br08310(D08128)]
+             Nuclear receptors
+              Thyroid hormone like receptors
+               Thyroid hormone receptor (THR)
+                NR1A (THR)
+                 D08128  Liothyronine (INN)
+DBLINKS     CAS: 6893-02-3
+            PubChem: 5481
+            ChEBI: 18258
+            PDB-CCD: T3
+            3DMET: B01576
+            NIKKAJI: J85.948F
+ATOM        23
+            1   C8y C    31.2138  -15.4878
+            2   O2a O    32.4306  -16.1864
+            3   C8y C    30.0144  -16.1864
+            4   C8y C    31.2138  -14.0905
+            5   C8y C    33.6415  -16.8908
+            6   C8x C    28.7977  -15.4878
+            7   X   I    30.0144  -17.5837
+            8   C8x C    30.0144  -13.3861
+            9   X   I    32.4306  -13.3861
+            10  C8x C    34.8583  -16.1864
+            11  C8x C    33.6415  -18.2881
+            12  C8y C    28.7977  -14.0905
+            13  C8y C    36.0694  -16.8908
+            14  C8x C    34.8583  -18.9868
+            15  C1b C    27.5866  -13.3861
+            16  C8y C    36.0694  -18.2881
+            17  X   I    37.2803  -16.1864
+            18  C1c C    26.3698  -14.0905
+            19  O1a O    37.2803  -18.9868
+            20  C6a C    25.1589  -13.3861
+            21  N1a N    26.3698  -15.4878
+            22  O6a O    23.9421  -14.0905
+            23  O6a O    25.1589  -11.9888
+BOND        24
+            1     1   2 1
+            2     1   3 2
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     3   7 1
+            7     4   8 2
+            8     4   9 1
+            9     5  10 1
+            10    5  11 2
+            11    6  12 2
+            12   10  13 2
+            13   11  14 1
+            14   12  15 1
+            15   13  16 1
+            16   13  17 1
+            17   15  18 1
+            18   16  19 1
+            19   18  20 1
+            20   18  21 1 #Down
+            21   20  22 1
+            22   20  23 2
+            23    8  12 1
+            24   14  16 2
+///

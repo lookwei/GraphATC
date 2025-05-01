@@ -1,0 +1,130 @@
+ENTRY       D02121                      Drug
+NAME        Ceftibuten hydrate (JP18);
+            Ceftibuten dihydrate;
+            Cedax (TN);
+            Seftem (TN)
+FORMULA     C15H14N4O6S2. 2H2O
+EXACT_MASS  446.0566
+MOL_WEIGHT  446.4554
+CLASS       Antibacterial
+             DG01710  beta-Lactam antibiotic
+              DG01714  Cephalosporin skeleton group
+               DG01488  Cephem
+             DG01776  Third-generation cephalosporin
+REMARK      ATC code: J01DD14
+            Chemical structure group: DG00583
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+  DISEASE   Pharyngitis and tonsillitis [DS:H01424]
+TARGET      penicillin binding protein
+  PATHWAY   ko00550  Peptidoglycan biosynthesis
+INTERACTION  
+STR_MAP     map07013  Cephalosporins - oral agents
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01D OTHER BETA-LACTAM ANTIBACTERIALS
+                J01DD Third-generation cephalosporins
+                 J01DD14 Ceftibuten
+                  D02121  Ceftibuten hydrate (JP18)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00583  Ceftibuten
+                  D02121  Ceftibuten hydrate
+              DG01776  Third-generation cephalosporin
+               DG00583  Ceftibuten
+                D02121  Ceftibuten hydrate
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                D02121  Ceftibuten hydrate (JP18)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02121  Ceftibuten hydrate
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01710  beta-Lactam antibiotic
+               DG01714  Cephalosporin skeleton group
+                DG01488  Cephem
+                 DG00583  Ceftibuten
+              DG01776  Third-generation cephalosporin
+               DG00583  Ceftibuten
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, beta-lactam
+               Third-generation cephalosporin
+                DG00583  Ceftibuten
+DBLINKS     CAS: 118081-34-8
+            PubChem: 7849182
+            ChEBI: 34618
+            LigandBox: D02121
+            NIKKAJI: J1.628.850K
+ATOM        29
+            1   C1y C    28.3778  -19.7733
+            2   N1y N    28.3778  -21.1641
+            3   C2y C    29.5824  -21.8594
+            4   C2x C    30.7869  -21.1641
+            5   C1x C    30.7869  -19.7733
+            6   S2x S    29.5824  -19.0777
+            7   C1y C    26.9869  -19.7733
+            8   C5x C    26.9869  -21.1641
+            9   N1b N    25.7825  -19.0777
+            10  C5a C    24.5778  -19.7733
+            11  O5a O    24.5778  -21.1641
+            12  O5x O    25.7825  -21.8594
+            13  C2c C    23.3732  -19.0777
+            14  C8y C    22.1494  -19.7848
+            15  C8x C    21.0254  -18.9431
+            16  S2x S    19.8734  -19.7517
+            17  C8y C    20.2862  -21.0971
+            18  N5x N    21.6934  -21.1203
+            19  C2b C    23.3731  -17.6655
+            20  C6a C    29.5824  -23.2730
+            21  O6a O    28.3739  -23.9706
+            22  O6a O    30.8034  -23.9778
+            23  N1a N    19.4304  -22.2351
+            24  C1b C    24.5855  -16.9655
+            25  C6a C    24.5856  -15.5401
+            26  O6a O    25.7864  -14.8469
+            27  O6a O    23.3615  -14.8331
+            28  O0  O    24.1373  -23.4406
+            29  O0  O    24.1373  -23.4406
+BOND        29
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     2   8 1
+            10    7   9 1 #Up
+            11    9  10 1
+            12   10  11 2
+            13    8  12 2
+            14   10  13 1
+            15   13  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 1
+            19   17  18 2
+            20   14  18 1
+            21   13  19 2
+            22    3  20 1
+            23   20  21 2
+            24   20  22 1
+            25   17  23 1
+            26   19  24 1
+            27   24  25 1
+            28   25  26 2
+            29   25  27 1
+BRACKET     1    22.1200  -24.2200   22.1200  -22.5400
+            1    24.6400  -22.5400   24.6400  -24.2200
+            1  2
+  ORIGINAL  1   29
+  REPEAT    1   30
+///

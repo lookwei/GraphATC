@@ -1,0 +1,149 @@
+ENTRY       C00033                      Compound
+NAME        Acetate;
+            Acetic acid;
+            Ethanoic acid
+FORMULA     C2H4O2
+EXACT_MASS  60.0211
+MOL_WEIGHT  60.052
+REMARK      Same as: D00010
+REACTION    R00227 R00229 R00235 R00315 R00316 R00317 R00318 R00319 
+            R00320 R00321 R00322 R00324 R00325 R00326 R00327 R00338 
+            R00362 R00393 R00458 R00488 R00628 R00651 R00669 R00710 
+            R00711 R00743 R00897 R00909 R00928 R01019 R01026 R01156 
+            R01179 R01200 R01241 R01287 R01308 R01323 R01359 R01426 
+            R01649 R01810 R01987 R02026 R02059 R02276 R02333 R02733 
+            R02942 R02955 R03062 R03131 R03132 R03133 R03134 R03145 
+            R03153 R03217 R03482 R03601 R03884 R04000 R04043 R04056 
+            R04057 R04091 R04141 R04146 R04174 R04397 R04449 R04450 
+            R04452 R04490 R04525 R04587 R04727 R04769 R04859 R04945 
+            R05138 R05168 R05219 R05336 R05508 R05509 R05677 R05880 
+            R05917 R06241 R06893 R07183 R07300 R07301 R07342 R07513 
+            R07832 R08090 R08206 R08517 R08518 R08600 R08601 R08874 
+            R08876 R08895 R08901 R08944 R09107 R09475 R09483 R09651 
+            R09721 R09801 R09931 R10248 R10249 R10289 R10305 R10343 
+            R10398 R10401 R10461 R10553 R10600 R10614 R10705 R10839 
+            R10840 R11116 R11283 R11693 R11694 R11889 R11903 R12347 
+            R12390 R12391 R12392 R12515 R12516 R12635 R12671 R12926 
+            R13046
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00430  Taurine and hypotaurine metabolism
+            map00440  Phosphonate and phosphinate metabolism
+            map00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            map00620  Pyruvate metabolism
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00660  C5-Branched dibasic acid metabolism
+            map00680  Methane metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map00908  Zeatin biosynthesis
+            map00920  Sulfur metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01220  Degradation of aromatic compounds
+            map04725  Cholinergic synapse
+            map04936  Alcoholic liver disease
+            map04973  Carbohydrate digestion and absorption
+            map04974  Protein digestion and absorption
+MODULE      M00357  Methanogenesis, acetate => methane
+            M00579  Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate
+ENZYME      1.1.1.318       1.1.1.319       1.2.1.3         1.2.1.4         
+            1.2.1.5         1.2.1.-         1.2.5.1         1.2.5.2         
+            1.2.99.6        1.13.11.50      1.13.12.4       1.14.13.54      
+            1.14.14.32      2.1.1.152       2.3.1.187       2.5.1.47        
+            2.5.1.48        2.5.1.49        2.5.1.50        2.5.1.51        
+            2.5.1.52        2.5.1.53        2.5.1.65        2.5.1.118       
+            2.5.1.119       2.5.1.134       2.5.1.144       2.6.99.3        
+            2.7.2.1         2.7.2.12        2.7.2.15        2.8.3.1         
+            2.8.3.3         2.8.3.8         2.8.3.10        2.8.3.11        
+            2.8.3.12        2.8.3.14        2.8.3.18        2.8.3.19        
+            2.8.3.-         3.1.1.2         3.1.1.6         3.1.1.7         
+            3.1.1.8         3.1.1.33        3.1.1.41        3.1.1.47        
+            3.1.1.53        3.1.1.54        3.1.1.55        3.1.1.56        
+            3.1.1.58        3.1.1.66        3.1.1.71        3.1.1.80        
+            3.1.1.94        3.1.1.105       3.1.1.106       3.1.1.112       
+            3.1.1.113       3.1.1.114       3.1.2.1         3.1.2.16        
+            3.5.1.4         3.5.1.14        3.5.1.15        3.5.1.16        
+            3.5.1.17        3.5.1.21        3.5.1.25        3.5.1.29        
+            3.5.1.33        3.5.1.41        3.5.1.47        3.5.1.48        
+            3.5.1.51        3.5.1.62        3.5.1.63        3.5.1.66        
+            3.5.1.76        3.5.1.85        3.5.1.89        3.5.1.103       
+            3.5.1.104       3.5.1.105       3.5.1.108       3.5.1.112       
+            3.5.1.113       3.5.1.114       3.5.1.125       3.5.1.135       
+            3.5.1.136       3.5.1.-         3.6.1.7         3.6.1.20        
+            3.7.1.1         3.7.1.6         3.7.1.24        3.7.1.25        
+            3.11.1.2        4.1.1.88        4.1.3.4         4.1.3.6         
+            4.1.3.22        4.1.3.26        4.2.99.24       6.2.1.1         
+            6.2.1.13        6.2.1.22        6.2.1.35
+BRITE       Compounds with biological roles [BR:br08001]
+             Organic acids
+              Carboxylic acids
+               Monocarboxylic acids
+                C00033  Acetate; Ethanoate
+            Lipids [BR:br08002]
+             FA  Fatty acyls
+              FA01 Fatty Acids and Conjugates
+               FA0101 Straight chain fatty acids
+                C00033  Acetic acid
+            Anatomical Therapeutic Chemical (ATC) classification [BR:br08303(D00010)]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G01 GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS
+               G01A ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS
+                G01AD Organic acids
+                 G01AD02 Acetic acid
+                  D00010  Acetic acid, glacial (USP) &lt;JP/US&gt;
+             S SENSORY ORGANS
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA10 Acetic acid
+                  D00010  Acetic acid, glacial (USP) &lt;JP/US&gt;
+            USP drug classification [BR:br08302(D00010)]
+             Antibacterials
+              Antibacterials, Other
+               Acetic Acid
+                D00010  Acetic acid, glacial (USP)
+            Therapeutic category of drugs in Japan [BR:br08301(D00010)]
+             2  Agents affecting individual organs
+              26  Epidermides
+               264  Analgesics, anti-itchings, astringents, anti-inflammatory agents
+                2649  Others
+                 D00010  Acetic acid, glacial (USP); Acetic acid (JP18/NF); Glacial acetic acid (JP18)
+               266  Emollients
+                2661  Organic acids
+                 D00010  Acetic acid, glacial (USP); Acetic acid (JP18/NF); Glacial acetic acid (JP18)
+             7  Agents not mainly for therapeutic purpose
+              71  Dispensing medicines
+               714  Flavorings, deodorants, coloring agents
+                7149  Others
+                 D00010  Acetic acid, glacial (USP); Acetic acid (JP18/NF); Glacial acetic acid (JP18)
+               719  Miscellaneous
+                7190  Miscellaneous
+                 D00010  Acetic acid, glacial (USP); Acetic acid (JP18/NF); Glacial acetic acid (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312(D00010)]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Acetic acid
+                D00010  Acetic acid, glacial (USP)
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311(D00010)]
+             Chemicals
+              D00010  Acetic acid
+              D00010  Glacial acetic acid
+DBLINKS     CAS: 64-19-7
+            PubChem: 3335
+            ChEBI: 15366 30089
+            LIPIDMAPS: LMFA01010002
+            KNApSAcK: C00001176
+            PDB-CCD: ACT ACY
+            3DMET: B00009
+            NIKKAJI: J2.355H
+ATOM        4
+            1   C6a C    24.5700  -15.7500
+            2   C1a C    25.7840  -16.4527
+            3   O6a O    23.3619  -16.4527
+            4   O6a O    24.5700  -14.3503
+BOND        3
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+///

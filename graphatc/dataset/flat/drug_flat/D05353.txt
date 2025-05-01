@@ -1,0 +1,128 @@
+ENTRY       D05353                      Drug
+NAME        Pantoprazole (USAN/INN)
+FORMULA     C16H15F2N3O4S
+EXACT_MASS  383.0751
+MOL_WEIGHT  383.3698
+CLASS       Gastrointestinal agent
+             DG01975  Agents for peptic ulcer
+              DG01646  Proton pump inhibitor (PPI)
+            Metabolizing enzyme substrate
+             DG01639  CYP2C19 substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+REMARK      Same as: C11806
+            ATC code: A02BC02
+            Chemical structure group: DG00021
+            Product (DG00021): D02593<US>
+EFFICACY    Anti-ulcerative, Proton pump inhibitor
+COMMENT     Benzimidazole derivative
+TARGET      ATP4 [HSA:495 496] [KO:K01542 K01543]
+  PATHWAY   hsa04966(495+496)  Collecting duct acid secretion
+            hsa04971(495+496)  Gastric acid secretion
+METABOLISM  Enzyme: CYP2C19 [HSA:1557]; CYP3A4 [HSA:1576]
+INTERACTION  
+STR_MAP     map07038  Antiulcer drugs
+            map07233  Ion transporter inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A02 DRUGS FOR ACID RELATED DISORDERS
+               A02B DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)
+                A02BC Proton pump inhibitors
+                 A02BC02 Pantoprazole
+                  D05353  Pantoprazole (USAN/INN)
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00021  Pantoprazole
+                 D05353  Pantoprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00021  Pantoprazole
+                D05353  Pantoprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00021  Pantoprazole
+                 D05353  Pantoprazole
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               ATPase
+                ATP4
+                 D05353  Pantoprazole (USAN/INN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D05353
+            Drug groups [BR:br08330]
+             Gastrointestinal agent
+              DG01975  Agents for peptic ulcer
+               DG01646  Proton pump inhibitor (PPI)
+                DG00021  Pantoprazole
+             Metabolizing enzyme substrate
+              DG01639  CYP2C19 substrate
+               DG00021  Pantoprazole
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00021  Pantoprazole
+DBLINKS     CAS: 102625-70-7
+            PubChem: 17398288
+            ChEBI: 7915
+            LigandBox: D05353
+            NIKKAJI: J324.079G
+ATOM        26
+            1   C8x C    13.5800  -22.8200
+            2   C8y C    13.5800  -24.2200
+            3   C8x C    14.7924  -24.9200
+            4   C8y C    16.0049  -24.2200
+            5   C8y C    16.0049  -22.8200
+            6   C8x C    14.7924  -22.1200
+            7   N5x N    17.3364  -24.6526
+            8   C8y C    18.1593  -23.5200
+            9   N4x N    17.3364  -22.3874
+            10  S4a S    19.5300  -23.5200
+            11  C1b C    20.2300  -24.7324
+            12  O3c O    20.2300  -22.3076
+            13  O2a O    12.3676  -24.9200
+            14  C1c C    11.1721  -24.2296
+            15  X   F     9.9847  -24.9151
+            16  X   F    11.1720  -22.8203
+            17  C8y C    21.6298  -24.7324
+            18  C8y C    22.3203  -25.9280
+            19  C8y C    23.7203  -25.9278
+            20  C8x C    24.4201  -24.7153
+            21  C8x C    23.7297  -23.5198
+            22  N5x N    22.3297  -23.5199
+            23  O2a O    21.6349  -27.1152
+            24  C1a C    20.2302  -27.1154
+            25  O2a O    24.4110  -27.1232
+            26  C1a C    25.8296  -27.1232
+BOND        28
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 2
+            9     8   9 1
+            10    5   9 1
+            11    8  10 1
+            12   10  11 1
+            13   10  12 2
+            14    2  13 1
+            15   13  14 1
+            16   14  15 1
+            17   14  16 1
+            18   11  17 1
+            19   17  18 2
+            20   18  19 1
+            21   19  20 2
+            22   20  21 1
+            23   21  22 2
+            24   17  22 1
+            25   18  23 1
+            26   23  24 1
+            27   19  25 1
+            28   25  26 1
+///

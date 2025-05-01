@@ -1,0 +1,118 @@
+ENTRY       D08167                      Drug
+NAME        Megestrol (INN);
+            Chronopil (TN)
+FORMULA     C22H30O3
+EXACT_MASS  342.2195
+MOL_WEIGHT  342.4718
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C07120
+            ATC code: G03AC05 G03DB02 L02AB01
+            Chemical structure group: DG00457
+            Product (DG00457): D00952<US>
+EFFICACY    Antineoplastic, Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+                G03AC Progestogens
+                 G03AC05 Megestrol
+                  D08167  Megestrol (INN)
+               G03D PROGESTOGENS
+                G03DB Pregnadien derivatives
+                 G03DB02 Megestrol
+                  D08167  Megestrol (INN)
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L02 ENDOCRINE THERAPY
+               L02A HORMONES AND RELATED AGENTS
+                L02AB Progestogens
+                 L02AB01 Megestrol
+                  D08167  Megestrol (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00457  Megestrol
+                D08167  Megestrol
+              DG01666  Progesterone receptor agonist
+               DG00457  Megestrol
+                D08167  Megestrol
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D08167  Megestrol (INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               DG00457  Megestrol
+              DG01666  Progesterone receptor agonist
+               DG00457  Megestrol
+DBLINKS     CAS: 3562-63-8
+            PubChem: 96024857
+            ChEBI: 6722
+            LigandBox: D08167
+            NIKKAJI: J14.548C
+ATOM        25
+            1   C1y C    25.3400  -18.7600
+            2   C1y C    26.5300  -18.0600
+            3   C1y C    24.1500  -18.0600
+            4   C2x C    25.3400  -20.1600
+            5   C1z C    26.5300  -16.7300
+            6   C1x C    28.9100  -18.1300
+            7   C1z C    22.9600  -18.7600
+            8   C1x C    24.1500  -16.6600
+            9   C2y C    24.1500  -20.7900
+            10  C1z C    27.7200  -16.0300
+            11  C1x C    25.3400  -16.0300
+            12  C1a C    26.6000  -15.4700
+            13  C1x C    28.9100  -16.7300
+            14  C2y C    22.9600  -20.0900
+            15  C1x C    21.7700  -18.0600
+            16  C1a C    23.0300  -17.5000
+            17  C1a C    24.1500  -22.1900
+            18  C5a C    27.7200  -14.6300
+            19  O1a O    28.9800  -15.1900
+            20  C2x C    21.7700  -20.7900
+            21  C1x C    20.5800  -18.7600
+            22  C1a C    26.6000  -13.9300
+            23  O5a O    28.8400  -13.7200
+            24  C5x C    20.5800  -20.0900
+            25  O5x O    19.3900  -20.7900
+BOND        28
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 1
+            7     3   8 1
+            8     4   9 2
+            9     5  10 1
+            10    5  11 1
+            11    5  12 1 #Up
+            12    6  13 1
+            13    7  14 1
+            14    7  15 1
+            15    7  16 1 #Up
+            16    9  17 1
+            17   10  18 1 #Up
+            18   10  19 1 #Down
+            19   14  20 2
+            20   15  21 1
+            21   18  22 1
+            22   18  23 2
+            23   20  24 1
+            24   24  25 2
+            25    8  11 1
+            26    9  14 1
+            27   10  13 1
+            28   21  24 1
+///

@@ -1,0 +1,62 @@
+ENTRY       D05590                      Drug
+NAME        Pralidoxime mesylate (USAN)
+FORMULA     C7H9N2O. CH3SO3
+EXACT_MASS  232.0518
+MOL_WEIGHT  232.2569
+REMARK      ATC code: V03AB04
+            Chemical structure group: DG01153
+            Product (DG01153): D00469<US> D01572<JP>
+EFFICACY    Antidote (organicphosphorus compound), Acetylcholinesterase (AChE) reactivator
+TARGET      ACHE [HSA:43] [KO:K01049]
+  PATHWAY   hsa00564(43)  Glycerophospholipid metabolism
+            hsa04725(43)  Cholinergic synapse
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             V VARIOUS
+              V03 ALL OTHER THERAPEUTIC PRODUCTS
+               V03A ALL OTHER THERAPEUTIC PRODUCTS
+                V03AB Antidotes
+                 V03AB04 Pralidoxime
+                  D05590  Pralidoxime mesylate (USAN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Carboxylic-ester hydrolases
+                ACHE
+                 D05590  Pralidoxime mesylate (USAN)
+DBLINKS     CAS: 154-97-2
+            PubChem: 47207253
+            ChEBI: 50240
+            LigandBox: D05590
+            NIKKAJI: J252.987D
+ATOM        15
+            1   C8y C    23.2283  -18.4177
+            2   N5y N    22.0116  -17.7100 #+
+            3   C8x C    23.2283  -19.8160
+            4   C2b C    24.4452  -17.7100
+            5   C8x C    20.8006  -18.4177
+            6   C1a C    22.0116  -16.3235
+            7   C8x C    22.0116  -20.5237
+            8   N2b N    25.6444  -18.4177
+            9   C8x C    20.8006  -19.8160
+            10  O1b O    26.8669  -17.7100
+            11  O1d O    31.6296  -17.2429
+            12  S4a S    31.6296  -18.6389
+            13  C1a C    30.2338  -18.6389
+            14  O1d O    33.0256  -18.6389 #-
+            15  O1d O    31.6296  -20.0348
+BOND        14
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     2   6 1
+            6     3   7 2
+            7     4   8 2
+            8     5   9 2
+            9     8  10 1
+            10    7   9 1
+            11   11  12 2
+            12   12  13 1
+            13   12  14 1
+            14   12  15 2
+///

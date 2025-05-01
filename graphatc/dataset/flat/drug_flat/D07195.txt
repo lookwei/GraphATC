@@ -1,0 +1,95 @@
+ENTRY       D07195                      Drug
+NAME        Chloropyramine (INN)
+FORMULA     C16H20ClN3
+EXACT_MASS  289.1346
+MOL_WEIGHT  289.8031
+CLASS       Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+REMARK      ATC code: D04AA09 R06AC03
+            Chemical structure group: DG00384
+EFFICACY    Antiallergic, H1 receptor antagonist
+COMMENT     Phenbenzamine derivative
+TARGET      HRH1 [HSA:3269] [KO:K04149]
+  PATHWAY   hsa04020(3269)  Calcium signaling pathway
+            hsa04080(3269)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             D DERMATOLOGICALS
+              D04 ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+               D04A ANTIPRURITICS, INCL. ANTIHISTAMINES, ANESTHETICS, ETC.
+                D04AA Antihistamines for topical use
+                 D04AA09 Chloropyramine
+                  D07195  Chloropyramine (INN)
+             R RESPIRATORY SYSTEM
+              R06 ANTIHISTAMINES FOR SYSTEMIC USE
+               R06A ANTIHISTAMINES FOR SYSTEMIC USE
+                R06AC Substituted ethylene diamines
+                 R06AC03 Chloropyramine
+                  D07195  Chloropyramine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00384  Chloropyramine
+                 D07195  Chloropyramine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Histamine
+                HRH1
+                 D07195  Chloropyramine (INN)
+            Drug groups [BR:br08330]
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00384  Chloropyramine
+DBLINKS     CAS: 59-32-5
+            PubChem: 51091533
+            PDB-CCD: C4C
+            LigandBox: D07195
+            NIKKAJI: J4.599C
+ATOM        20
+            1   N5x N    23.1000  -23.2400
+            2   C8x C    23.1000  -24.6400
+            3   C8x C    24.3124  -25.3400
+            4   C8x C    25.5249  -24.6400
+            5   C8x C    25.5249  -23.2400
+            6   C8y C    24.3124  -22.5400
+            7   N1c N    24.3124  -21.1402
+            8   C1b C    23.0832  -20.4303
+            9   C1b C    25.5080  -20.4498
+            10  C1b C    26.6952  -21.1352
+            11  N1c N    27.8866  -20.4472
+            12  C1a C    29.0759  -21.1339
+            13  C1a C    27.8867  -19.0403
+            14  C8y C    21.8792  -21.1254
+            15  C8x C    20.6963  -20.4423
+            16  C8x C    19.4838  -21.1422
+            17  C8y C    19.4837  -22.5422
+            18  C8x C    20.6667  -23.2253
+            19  C8x C    21.8791  -22.5254
+            20  X   Cl   18.2545  -23.2519
+BOND        21
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     6   7 1
+            8     7   8 1
+            9     7   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   11  13 1
+            14    8  14 1
+            15   14  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   14  19 1
+            21   17  20 1
+///

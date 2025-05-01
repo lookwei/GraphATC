@@ -1,0 +1,75 @@
+ENTRY       D00064                      Drug
+NAME        l-Menthol (JP18);
+            Levomenthol;
+            l-Menthol (TN)
+FORMULA     C10H20O
+EXACT_MASS  156.1514
+MOL_WEIGHT  156.2652
+REMARK      Same as: C00400
+            Therapeutic category: 7149 7990
+            Chemical structure group: DG01385
+            Product (DG01385): D00064<JP>
+            Product (mixture): D08706<JP> D08707<JP> D08716<JP> D08718<JP>
+EFFICACY    Antiperistaltic (gastric), Pharmaceutic aid (flavor)
+TARGET      TRPM8 [HSA:79054] [KO:K04983]
+            TRPA1 [HSA:8989] [KO:K04984]
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             7  Agents not mainly for therapeutic purpose
+              71  Dispensing medicines
+               714  Flavorings, deodorants, coloring agents
+                7149  Others
+                 D00064  l-Menthol (JP18)
+              79  Other agents not mainly for therapeutic purpose
+               799  Miscellaneous
+                7990  Miscellaneous
+                 D00064  l-Menthol (JP18)
+            Classification of Japanese OTC drugs [BR:br08313]
+             Agents for integumentary system
+              57 Analgesic, antipruritic, astringent, and anti-inflammatory remedies (incl. gel patches)
+               D00064  l-Menthol (JP18)
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Menthol
+                D00064  l-Menthol (JP18)
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Voltage-gated ion channels
+               Transient receptor potential channels
+                TRPA1
+                 D00064  l-Menthol (JP18) &lt;JP&gt;
+                TRPM8
+                 D00064  l-Menthol (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D00064  l-Menthol
+DBLINKS     CAS: 2216-51-5
+            PubChem: 7847132
+            ChEBI: 15409
+            LigandBox: D00064
+            NIKKAJI: J9.251G
+ATOM        11
+            1   C1y C    21.5486  -17.2256
+            2   C1y C    22.7671  -16.5260
+            3   C1x C    20.3418  -16.5260
+            4   C1c C    21.5486  -18.6364
+            5   C1x C    22.7671  -15.1268
+            6   O1a O    23.9797  -17.2256
+            7   C1x C    20.3418  -15.1268
+            8   C1a C    22.7555  -19.3244
+            9   C1a C    20.3301  -19.3186
+            10  C1y C    21.5486  -14.4212
+            11  C1a C    21.5486  -13.0221
+BOND        11
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1 #Down
+            4     2   5 1
+            5     2   6 1 #Up
+            6     3   7 1
+            7     4   8 1
+            8     4   9 1
+            9     5  10 1
+            10   10  11 1 #Up
+            11    7  10 1
+///

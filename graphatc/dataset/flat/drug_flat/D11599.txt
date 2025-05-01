@@ -1,0 +1,126 @@
+ENTRY       D11599                      Drug
+NAME        Zotiraciclib (USAN)
+FORMULA     C23H24N4O
+EXACT_MASS  372.195
+MOL_WEIGHT  372.4629
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+            Anti-inflammatory
+             DG01985  Disease modifying anti-rheumatic drug (DMARD)
+              DG02020  JAK inhibitor
+REMARK      Chemical structure group: DG03058
+EFFICACY    Antineoplastic
+COMMENT     Treatment of solid and hematologic tumors
+TARGET      CDK1 [HSA:983] [KO:K02087]
+            CDK2 [HSA:1017] [KO:K02206]
+            CDK7 [HSA:1022] [KO:K02202]
+            CDK9 [HSA:1025] [KO:K02211]
+            JAK2 [HSA:3717] [KO:K04447]
+            FLT3 (CD135) [HSA:2322] [KO:K05092]
+  PATHWAY   hsa04110(1017+1022+983)  Cell cycle
+            hsa04151(1017+2322+3717)  PI3K-Akt signaling pathway
+            hsa04640(2322)  Hematopoietic cell lineage
+            hsa05200(1017+2322+3717)  Pathways in cancer
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG03058  Zotiraciclib
+                D11599  Zotiraciclib
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03058  Zotiraciclib
+                 D11599  Zotiraciclib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK1
+                 D11599  Zotiraciclib (USAN)
+                CDK2
+                 D11599  Zotiraciclib (USAN)
+                CDK7
+                 D11599  Zotiraciclib (USAN)
+                CDK9
+                 D11599  Zotiraciclib (USAN)
+              Receptor tyrosine kinases (RTK)
+               PDGFR family
+                FLT3 (CD135)
+                 D11599  Zotiraciclib (USAN)
+              Non-receptor tyrosine kinases
+               JAK family
+                JAK2
+                 D11599  Zotiraciclib (USAN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               DG03058  Zotiraciclib
+             Anti-inflammatory
+              DG01985  Disease modifying anti-rheumatic drug (DMARD)
+               DG02020  JAK inhibitor
+                DG03058  Zotiraciclib
+DBLINKS     CAS: 1204918-72-8
+            PubChem: 405226466
+ATOM        28
+            1   C8y C    17.5000  -17.9200
+            2   C8x C    17.5000  -19.3200
+            3   C8x C    18.7124  -20.0200
+            4   C8x C    19.9249  -19.3200
+            5   C8y C    19.9249  -17.9200
+            6   C8x C    18.7124  -17.2200
+            7   N2x N    21.1560  -17.2090
+            8   C8y C    21.1560  -15.8090
+            9   N5x N    22.3517  -15.1187
+            10  C8x C    22.3517  -13.7187
+            11  C8x C    21.1393  -13.0187
+            12  C8y C    19.9436  -13.7090
+            13  N4x N    19.9436  -15.1090
+            14  C8y C    18.7407  -13.0145
+            15  C8x C    18.7408  -11.6201
+            16  C8x C    17.5284  -10.9201
+            17  C8x C    16.3159  -11.6200
+            18  C8y C    16.3158  -13.0144
+            19  C8x C    17.5282  -13.7144
+            20  O2x O    15.0965  -13.7182
+            21  C1x C    13.9026  -13.0286
+            22  C1x C    12.7144  -13.7145
+            23  C2x C    12.7144  -15.1145
+            24  C2x C    13.9484  -15.8270
+            25  C1x C    13.9484  -17.2270
+            26  N1y N    15.1440  -17.9172
+            27  C1x C    16.3371  -17.2282
+            28  C1a C    15.1442  -19.3198
+BOND        31
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13   12  13 1
+            14    8  13 1
+            15   12  14 1
+            16   14  15 2
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   14  19 1
+            22   18  20 1
+            23   20  21 1
+            24   21  22 1
+            25   22  23 1
+            26   23  24 2
+            27   24  25 1
+            28   25  26 1
+            29   26  27 1
+            30   27   1 1
+            31   26  28 1
+///

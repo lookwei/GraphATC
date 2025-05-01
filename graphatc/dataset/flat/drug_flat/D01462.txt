@@ -1,0 +1,147 @@
+ENTRY       D01462                      Drug
+NAME        Lisuride maleate (JAN)
+FORMULA     C20H26N4O. C4H4O4
+EXACT_MASS  454.2216
+MOL_WEIGHT  454.5188
+CLASS       Neuropsychiatric agent
+             DG01483  5-HT1A-receptor agonist
+             DG01472  Dopamine agonist
+              DG01468  Dopamine D2-receptor agonist
+             DG01964  Ergot alkaloid
+              DG01982  Antimigraine, ergot alkaloid
+REMARK      ATC code: G02CB02 N02CA07
+            Chemical structure group: DG00453
+EFFICACY    Antimigraine, Dopamine receptor agonist
+COMMENT     Ergot alkaloid
+            Prolactin inhibitor
+TARGET      DRD2 [HSA:1813] [KO:K04145]
+            DRD3 [HSA:1814] [KO:K04146]
+            DRD4 [HSA:1815] [KO:K04147]
+  PATHWAY   hsa04080(1813+1814+1815)  Neuroactive ligand-receptor interaction
+            hsa04728(1813+1814+1815)  Dopaminergic synapse
+INTERACTION  
+STR_MAP     map07048  Antimigraines
+            map07211  Serotonin receptor agonists/antagonists
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G02 OTHER GYNECOLOGICALS
+               G02C OTHER GYNECOLOGICALS
+                G02CB Prolactine inhibitors
+                 G02CB02 Lisuride
+                  D01462  Lisuride maleate (JAN)
+             N NERVOUS SYSTEM
+              N02 ANALGESICS
+               N02C ANTIMIGRAINE PREPARATIONS
+                N02CA Ergot alkaloids
+                 N02CA07 Lisuride
+                  D01462  Lisuride maleate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG00453  Lisuride
+                D01462  Lisuride maleate
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00453  Lisuride
+                 D01462  Lisuride maleate
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00453  Lisuride
+                 D01462  Lisuride maleate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD2
+                 D01462  Lisuride maleate (JAN)
+                DRD3
+                 D01462  Lisuride maleate (JAN)
+                DRD4
+                 D01462  Lisuride maleate (JAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01483  5-HT1A-receptor agonist
+               DG00453  Lisuride
+              DG01472  Dopamine agonist
+               DG01468  Dopamine D2-receptor agonist
+                DG00453  Lisuride
+              DG01964  Ergot alkaloid
+               DG01982  Antimigraine, ergot alkaloid
+                DG00453  Lisuride
+DBLINKS     CAS: 19875-60-6
+            PubChem: 7848525
+            ChEBI: 31776
+            LigandBox: D01462
+            NIKKAJI: J240.215G
+ATOM        33
+            1   C8x C    23.3538  -18.5435
+            2   C8x C    23.3538  -19.9101
+            3   C8x C    24.5401  -17.8602
+            4   C8y C    25.7194  -18.5435
+            5   C1x C    28.0806  -19.9202
+            6   C2y C    26.9060  -17.8653
+            7   C1y C    28.0807  -18.5564
+            8   N1y N    29.2665  -17.8845
+            9   C1y C    28.1031  -15.8306
+            10  C2x C    26.8470  -16.5022
+            11  C8y C    25.7136  -19.9101
+            12  C8y C    24.5368  -20.5875
+            13  N4x N    24.5351  -21.9921
+            14  C8x C    26.8873  -21.9484
+            15  C8y C    26.8889  -20.5905
+            16  N1b N    28.1142  -14.4640
+            17  C5a C    29.3033  -13.7905
+            18  N1c N    30.4810  -14.4833
+            19  C1b C    31.6703  -13.8098
+            20  C1a C    30.4445  -18.5776
+            21  C1b C    30.4699  -15.8500
+            22  C1x C    29.2808  -16.5235
+            23  C1a C    31.6477  -16.5428
+            24  C1a C    32.8481  -14.5029
+            25  O5a O    29.2995  -12.4100
+            26  C6a C    39.4265  -20.0084
+            27  C2b C    38.7455  -18.8337
+            28  O6a O    38.7517  -21.1893
+            29  O6a O    40.7887  -20.0020
+            30  C2b C    37.1147  -18.8398
+            31  C6a C    36.4399  -20.0207
+            32  O6a O    35.0776  -20.0207
+            33  O6a O    37.1272  -21.1955
+BOND        35
+            1    10   6 2
+            2     4  11 1
+            3    15   5 1
+            4     5   7 1
+            5     6   4 1
+            6    11  12 2
+            7    12  13 1
+            8    14  15 2
+            9    15  11 1
+            10   13  14 1
+            11    1   2 2
+            12    9  16 1 #Down
+            13    2  12 1
+            14   19  24 1
+            15   16  17 1
+            16    4   3 2
+            17    3   1 1
+            18   17  18 1
+            19   18  19 1
+            20    6   7 1
+            21    8  20 1
+            22    7   8 1
+            23   18  21 1
+            24    8  22 1
+            25   22   9 1
+            26   21  23 1
+            27    9  10 1
+            28   17  25 2
+            29   26  27 1
+            30   26  28 1
+            31   26  29 2
+            32   27  30 2
+            33   30  31 1
+            34   31  32 1
+            35   31  33 2
+///

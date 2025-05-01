@@ -1,0 +1,30 @@
+ENTRY       D07842                      Drug
+NAME        Diisopropylamine hydrochloride;
+            Disotat (TN)
+FORMULA     C6H16N. Cl
+EXACT_MASS  137.0971
+MOL_WEIGHT  137.6509
+REMARK      Chemical structure group: DG02939
+            Product (DG02939): D01816<JP>
+EFFICACY    Vasodilator
+DBLINKS     CAS: 819-79-4
+            PubChem: 96024539
+            LigandBox: D07842
+            NIKKAJI: J237.394G
+ATOM        8
+            1   C1a C    23.9135  -17.3237
+            2   C1c C    25.1059  -18.0251
+            3   N1b N    26.3684  -17.3237 #+
+            4   C1c C    27.5608  -18.0251
+            5   C1a C    28.7532  -17.3237
+            6   C1a C    27.5608  -19.4279
+            7   C1a C    25.1059  -19.4279
+            8   X   Cl   28.9800  -14.7000 #-
+BOND        6
+            1     2   3 1
+            2     2   7 1
+            3     3   4 1
+            4     1   2 1
+            5     4   5 1
+            6     4   6 1
+///

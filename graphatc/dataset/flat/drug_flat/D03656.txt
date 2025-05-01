@@ -1,0 +1,166 @@
+ENTRY       D03656                      Drug
+NAME        Darunavir (USAN/INN)
+PRODUCT
+  GENERIC   DARUNAVIR (Camber Pharmaceuticals)
+FORMULA     C27H37N3O7S
+EXACT_MASS  547.2352
+MOL_WEIGHT  547.6636
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      ATC code: J05AE10
+            Chemical structure group: DG00659
+            Product (DG00659): D03656<US> D06478<JP/US> D12637<US>
+            Product (mixture): D10832<JP/US> D11382<JP/US>
+EFFICACY    Antiviral, HIV protease inhibitor
+TARGET      HIV protease [KO:K22599]
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE10 Darunavir
+                  D03656  Darunavir (USAN/INN) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00659  Darunavir
+                 D03656  Darunavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00659  Darunavir
+                 D03656  Darunavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00659  Darunavir
+                 D03656  Darunavir
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D03656  Darunavir (USAN/INN)
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D03656
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03656
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00659  Darunavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00659  Darunavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00659  Darunavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00659  Darunavir
+DBLINKS     CAS: 206361-99-1
+            PubChem: 17397753
+            ChEBI: 367163
+            PDB-CCD: 017
+            LigandBox: D03656
+            NIKKAJI: J2.037.394F
+ATOM        38
+            1   C1y C    33.7636  -15.0281
+            2   N1c N    25.3035  -15.6573
+            3   C1b C    26.4921  -14.9581
+            4   S4a S    24.1149  -14.9581
+            5   C1c C    27.7506  -15.6573
+            6   C8y C    22.8564  -15.6573
+            7   C1c C    28.9392  -14.9581
+            8   C1b C    28.9392  -13.5598
+            9   N1b N    30.1278  -15.6573
+            10  C8y C    27.7506  -12.8606
+            11  C7a C    31.3164  -14.9581
+            12  C8x C    26.4921  -13.5598
+            13  C8x C    27.7506  -11.4622
+            14  O7a O    32.5750  -15.6573
+            15  O6a O    31.3164  -13.5598
+            16  C8x C    25.3035  -12.8606
+            17  C8x C    26.4921  -10.7631
+            18  C8x C    25.3035  -11.4622
+            19  C8x C    22.8564  -17.0557
+            20  C8x C    21.6678  -17.7549
+            21  C8y C    20.4792  -17.0557
+            22  C8x C    20.4792  -15.6573
+            23  C8x C    21.6678  -14.9581
+            24  C1b C    25.3035  -18.1057
+            25  O1a O    27.6807  -17.0557
+            26  O3c O    25.0938  -13.9793
+            27  O3c O    23.1361  -13.9793
+            28  C1y C    35.1016  -15.4482
+            29  C1y C    35.9144  -14.3276
+            30  O2x O    35.0951  -13.1837
+            31  C1x C    33.7471  -13.6107
+            32  C1x C    35.9900  -16.5811
+            33  C1x C    37.2570  -16.0851
+            34  O2x O    37.2562  -14.7512
+            35  N1a N    19.2207  -17.7549
+            36  C1c C    26.5170  -18.7664
+            37  C1a C    26.5170  -20.1664
+            38  C1a C    27.7330  -18.0439
+BOND        41
+            1     2   3 1
+            2     2   4 1
+            3     3   5 1
+            4     4   6 1
+            5     5   7 1
+            6     7   8 1 #Down
+            7     7   9 1
+            8     8  10 1
+            9     9  11 1
+            10   10  12 2
+            11   10  13 1
+            12   11  14 1
+            13   11  15 2
+            14   12  16 1
+            15   13  17 2
+            16   16  18 2
+            17   17  18 1
+            18    6  19 2
+            19   19  20 1
+            20   20  21 2
+            21   21  22 1
+            22   22  23 2
+            23    6  23 1
+            24    2  24 1
+            25    5  25 1 #Down
+            26    4  26 2
+            27    4  27 2
+            28    1  14 1 #Up
+            29    1  28 1
+            30   28  29 1
+            31   29  30 1
+            32   30  31 1
+            33    1  31 1
+            34   28  32 1
+            35   32  33 1
+            36   33  34 1
+            37   29  34 1
+            38   21  35 1
+            39   24  36 1
+            40   36  37 1
+            41   36  38 1
+///

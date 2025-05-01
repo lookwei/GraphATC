@@ -1,0 +1,92 @@
+ENTRY       D01309                      Drug
+NAME        Doxifluridine (JP18/INN);
+            Furtulon (TN)
+FORMULA     C9H11FN2O5
+EXACT_MASS  246.0652
+MOL_WEIGHT  246.1924
+CLASS       Antineoplastic
+             DG02018  Antimetabolite
+              DG01958  Nucleic acid derivative, antineoplastic
+               DG01935  Fluoropyrimidine antineoplastic
+REMARK      Same as: C12739
+            Therapeutic category: 4223
+            Product: D01309<JP>
+EFFICACY    Antineoplastic, Antimetabolite
+COMMENT     Active form of prodrug: Fluorouracil [DR:D00584]
+TARGET      TYMS [HSA:7298] [KO:K00560]
+  PATHWAY   hsa00240(7298)  Pyrimidine metabolism
+            hsa00670(7298)  One carbon pool by folate
+INTERACTION  
+STR_MAP     map07041  Antineoplastics - antimetabolic agents
+OTHER_MAP   map00983  Drug metabolism - other enzymes
+BRITE       Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               422  Antimetabolites
+                4223  Fluorouracils
+                 D01309  Doxifluridine (JP18/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG02018  Antimetabolite
+               DG01958  Nucleic acid derivative, antineoplastic
+                DG01935  Fluoropyrimidine antineoplastic
+                 D01309  Doxifluridine
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG02018  Antimetabolite
+               D01309  Doxifluridine
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Transferases (EC2)
+               Methyltransferases
+                TYMS
+                 D01309  Doxifluridine (JP18/INN) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D01309  Doxifluridine
+              D01309  Doxifluridine capsules
+            Prodrugs [br08324.html]
+             D01309
+DBLINKS     CAS: 3094-09-5
+            PubChem: 7848372
+            ChEBI: 31521
+            LigandBox: D01309
+            NIKKAJI: J7.679A
+ATOM        17
+            1   C1y C    22.8703  -17.4990
+            2   N4y N    24.5207  -16.9314
+            3   O2x O    21.7034  -16.6238
+            4   C1y C    22.4328  -18.8118
+            5   C8y C    25.7785  -17.6293
+            6   C8x C    24.4865  -15.5558
+            7   C1y C    20.6094  -17.4261
+            8   C1y C    21.0470  -18.8118
+            9   O1a O    23.2350  -19.9058
+            10  N4x N    26.9723  -16.9258
+            11  O5x O    25.7354  -18.9679
+            12  C8y C    25.7504  -14.8522
+            13  O1a O    20.2448  -19.9058
+            14  C8y C    26.9711  -15.4873
+            15  O5x O    28.1650  -14.7838
+            16  C1a C    19.2967  -17.0614
+            17  X   F    25.7492  -13.4138
+BOND        18
+            1     1   3 1
+            2     1   4 1
+            3     2   5 1
+            4     2   6 1
+            5     3   7 1
+            6     4   8 1
+            7     4   9 1 #Down
+            8     5  10 1
+            9     5  11 2
+            10    6  12 2
+            11    8  13 1 #Down
+            12   10  14 1
+            13   14  15 2
+            14    7   8 1
+            15   12  14 1
+            16    7  16 1 #Up
+            17    1   2 1 #Up
+            18   12  17 1
+///

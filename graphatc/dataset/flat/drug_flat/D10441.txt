@@ -1,0 +1,136 @@
+ENTRY       D10441                      Drug
+NAME        Latanoprostene bunod (USAN/INN);
+            Vyzulta (TN)
+PRODUCT     VYZULTA (Bausch & Lomb Incorporated)
+FORMULA     C27H41NO8
+EXACT_MASS  507.2832
+MOL_WEIGHT  507.6163
+CLASS       Hormonal agent
+             DG01961  Prostaglandin derivative
+              DG01960  Prostaglandin F derivative
+            Ophthalmic agent
+             DG03201  Intraocular pressure lowering agent
+REMARK      ATC code: S01EE06
+            Product: D10441<US>
+EFFICACY    Antiglaucoma, Prostaglandin F receptor agonist
+  DISEASE   Open-angle glaucoma [DS:H00612]
+COMMENT     prostaglandin F2-alpha [DR:D00081] derivative
+TARGET      PTGFR [HSA:5737] [KO:K04262]
+  PATHWAY   hsa04080(5737)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01E ANTIGLAUCOMA PREPARATIONS AND MIOTICS
+                S01EE Prostaglandin analogues
+                 S01EE06 Latanoprostene bunod
+                  D10441  Latanoprostene bunod (USAN/INN) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Ophthalmic Agents
+              Intraocular Pressure Lowering Agents
+               Prostaglandin and Prostamide Analogs, Ophthalmic
+                Latanoprostene Bunod
+                 D10441  Latanoprostene bunod (USAN/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG01961  Prostaglandin derivative
+               DG01960  Prostaglandin F derivative
+                D10441  Latanoprostene bunod
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D10441  Latanoprostene bunod
+            Drug classes [BR:br08332]
+             Ophthalmic agent
+              DG03201  Intraocular pressure lowering agent
+               D10441  Latanoprostene bunod
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Prostaglandin
+                PTGFR
+                 D10441  Latanoprostene bunod (USAN/INN) &lt;US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10441
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10441
+DBLINKS     CAS: 860005-21-6
+            PubChem: 172232534
+            ChEBI: 177703
+ATOM        36
+            1   C1y C    10.6293  -14.0559
+            2   C1y C    10.6293  -15.4590
+            3   C1y C     9.2262  -13.6349
+            4   C1b C    11.8220  -13.3543
+            5   C1y C     9.2963  -15.8799
+            6   C1b C    11.8220  -16.1606
+            7   C1x C     8.4545  -14.7574
+            8   C2b C    13.0147  -14.0559
+            9   O1a O     8.8754  -17.2831
+            10  C1b C    13.0147  -15.4590
+            11  C1c C    14.2775  -16.1606
+            12  C1b C    15.4701  -15.4590
+            13  O1a O    14.2775  -17.5637
+            14  C1b C    16.7330  -16.1606
+            15  C8y C    16.7330  -17.5637
+            16  C8x C    17.9256  -18.2653
+            17  C8x C    17.9256  -19.6684
+            18  C8x C    16.7330  -20.3700
+            19  C8x C    15.4701  -19.6684
+            20  C8x C    15.4701  -18.2653
+            21  O1a O     8.7351  -12.3019
+            22  C2b C    14.4178  -14.0559
+            23  C1b C    15.6105  -13.3543
+            24  C1b C    16.8031  -14.0559
+            25  C1b C    17.9958  -13.3543
+            26  C7a C    19.1885  -14.0559
+            27  O7a O    20.3811  -13.3543
+            28  C1b C    21.5738  -14.0559
+            29  C1b C    22.7665  -13.3543
+            30  O6a O    19.1885  -15.4590
+            31  C1b C    23.9873  -14.0459
+            32  C1b C    25.1713  -13.3493
+            33  O2a O    26.3795  -14.0338
+            34  N2b N    27.5533  -13.3434 #+
+            35  O3a O    28.7664  -14.0309 #-
+            36  O3a O    27.6120  -11.9512
+BOND        37
+            1    12  14 1
+            2     5   7 1
+            3    14  15 1
+            4     1   2 1
+            5     1   3 1
+            6     1   4 1 #Down
+            7     2   5 1
+            8     2   6 1 #Up
+            9    15  16 2
+            10   16  17 1
+            11   17  18 2
+            12   18  19 1
+            13   19  20 2
+            14   20  15 1
+            15    3   7 1
+            16    4   8 1
+            17    5   9 1 #Down
+            18    6  10 1
+            19   10  11 1
+            20   11  12 1
+            21   11  13 1 #Down
+            22    3  21 1 #Down
+            23    8  22 2
+            24   23  24 1
+            25   23  22 1
+            26   24  25 1
+            27   25  26 1
+            28   26  27 1
+            29   27  28 1
+            30   28  29 1
+            31   26  30 2
+            32   29  31 1
+            33   31  32 1
+            34   32  33 1
+            35   33  34 1
+            36   34  35 1
+            37   34  36 2
+///

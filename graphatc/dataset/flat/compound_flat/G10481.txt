@@ -1,0 +1,31 @@
+ENTRY       G10481                      Glycan
+NAME        1,4-beta-D-Glucan;
+            1,4-beta-Glucan;
+            Cellulose
+COMPOSITION (Glc)1 (*)2
+REMARK      Same as: C00760 D00093
+REACTION    R06022 R06023 R06030 R06077 R06200
+ENZYME      2.4.1.12        2.4.1.29        2.4.1.49        3.2.1.4         
+            3.2.1.21        3.2.1.91
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Polysaccharides
+               Homopolysaccharides
+                G10481  Cellulose
+REFERENCE   1  [PMID:12914442]
+  AUTHORS   Herring AM, McKinnon JT, McCloskey BD, Filley J, Gneshin KW, Pavelka RA, Kleebe HJ, Aldrich DJ.
+  TITLE     A novel method for the templated synthesis of homogeneous samples of hollow carbon nanospheres from cellulose chars.
+  JOURNAL   J Am Chem Soc 125:9916-7 (2003)
+            DOI:10.1021/ja035031j
+DBLINKS     GlyTouCan: G75830OM
+NODE        3
+            1   *           8     0
+            2   Glc         0     0
+            3   *          -9     0
+EDGE        2
+            1     2:b1    1    
+            2     3       2:4  
+BRACKET     1  -4.0   2.0  -4.0  -2.0
+            1   5.0  -2.0   5.0   2.0
+            1 n
+///

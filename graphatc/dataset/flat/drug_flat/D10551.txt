@@ -1,0 +1,161 @@
+ENTRY       D10551                      Drug
+NAME        Ceritinib (JAN/USAN/INN);
+            Zykadia (TN)
+PRODUCT     ZYKADIA (Novartis Pharmaceuticals Corporation)
+FORMULA     C28H36ClN5O3S
+EXACT_MASS  557.2227
+MOL_WEIGHT  558.1351
+CLASS       Antineoplastic
+             DG01918  Tyrosine kinase inhibitor
+              DG03136  ALK inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01ED02
+            Product: D10551<JP/US>
+EFFICACY    Antineoplastic, Anaplastic lymphoma kinase (ALK) inhibitor
+  DISEASE   Non-small cell lung cancer (ALK positive) [DS:H00014]
+TARGET      EML4-ALK [HSA_VAR:238v1] [HSA:238] [KO:K05119]
+  PATHWAY   hsa05200(238)  Pathways in cancer
+            hsa05223(238)  Non-small cell lung cancer
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01ED Anaplastic lymphoma kinase (ALK) inhibitors
+                 L01ED02 Ceritinib
+                  D10551  Ceritinib (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Ceritinib
+                D10551  Ceritinib (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D10551  Ceritinib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG01918  Tyrosine kinase inhibitor
+               DG03136  ALK inhibitor
+                D10551  Ceritinib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D10551  Ceritinib
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03136  ALK inhibitor
+               D10551  Ceritinib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Receptor tyrosine kinases (RTK)
+               ALK family
+                EML4-ALK [HSA_VAR:238v1]
+                 D10551  Ceritinib (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10551
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10551
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10551
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10551
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10551
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D10551
+DBLINKS     CAS: 1032900-25-6
+            PubChem: 254741513
+            PDB-CCD: 4MK
+ATOM        38
+            1   C1x C     5.6700  -17.9200
+            2   N1x N     5.6700  -19.3200
+            3   C1x C     6.8824  -20.0200
+            4   C1x C     8.0949  -19.3200
+            5   C1y C     8.0949  -17.9200
+            6   C1x C     6.8824  -17.2200
+            7   C8y C     9.3260  -17.2090
+            8   C8y C    10.5312  -17.9047
+            9   C8x C    11.7435  -17.2046
+            10  C8y C    11.7435  -15.8046
+            11  C8y C    10.5383  -15.1089
+            12  C8x C     9.3259  -15.8090
+            13  O2a O    10.5385  -13.7204
+            14  C1a C    10.5316  -19.3196
+            15  N1b N    12.9614  -15.1012
+            16  C8y C    14.1734  -15.8007
+            17  N5x N    14.1740  -17.2196
+            18  C8x C    15.3867  -17.9190
+            19  C8y C    16.5989  -17.2185
+            20  C8y C    16.5982  -15.7996
+            21  N5x N    15.3855  -15.1002
+            22  X   Cl   17.8056  -17.9145
+            23  N1b N    17.7954  -15.1079
+            24  C8y C    19.0016  -15.8039
+            25  C8x C    19.0023  -17.2196
+            26  C8x C    20.2151  -17.9190
+            27  C8x C    21.4272  -17.2184
+            28  C8x C    21.4265  -15.8027
+            29  C8y C    20.2137  -15.1033
+            30  S4a S    20.2131  -13.7201
+            31  O3c O    21.6131  -13.7201
+            32  O3c O    18.8131  -13.7201
+            33  C1c C    20.2131  -12.3201
+            34  C1a C    21.4382  -11.6127
+            35  C1a C    19.0134  -11.6274
+            36  C1c C     9.3498  -13.0337
+            37  C1a C     8.1658  -13.7170
+            38  C1a C     9.3498  -11.6203
+BOND        41
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     5   7 1
+            8     7   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12   11  12 2
+            13    7  12 1
+            14   11  13 1
+            15    8  14 1
+            16   10  15 1
+            17   15  16 1
+            18   16  17 2
+            19   17  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   16  21 1
+            24   19  22 1
+            25   20  23 1
+            26   23  24 1
+            27   24  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   28  29 2
+            32   24  29 1
+            33   29  30 1
+            34   30  31 2
+            35   30  32 2
+            36   30  33 1
+            37   33  34 1
+            38   33  35 1
+            39   13  36 1
+            40   36  37 1
+            41   36  38 1
+///

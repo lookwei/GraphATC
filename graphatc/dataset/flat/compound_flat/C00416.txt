@@ -1,0 +1,73 @@
+ENTRY       C00416                      Compound
+NAME        Phosphatidate;
+            Phosphatidic acid;
+            1,2-Diacyl-sn-glycerol 3-phosphate;
+            3-sn-Phosphatidate
+FORMULA     C5H7O8PR2
+COMMENT     Generic compound in reaction hierarchy
+REACTION    R01310 R01797 R01799 R02051 R02239 R02240 R02241 R02242 
+            R02760 R04149 R06623 R07398 R09381 R09644 R09944 R12796
+PATHWAY     map00561  Glycerolipid metabolism
+            map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map04024  cAMP signaling pathway
+            map04070  Phosphatidylinositol signaling system
+            map04072  Phospholipase D signaling pathway
+            map04666  Fc gamma R-mediated phagocytosis
+            map04912  GnRH signaling pathway
+            map04975  Fat digestion and absorption
+            map05200  Pathways in cancer
+            map05212  Pancreatic cancer
+            map05231  Choline metabolism in cancer
+MODULE      M00089  Triacylglycerol biosynthesis
+            M00093  Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
+ENZYME      2.3.1.51        2.3.1.52        2.7.1.107       2.7.1.174       
+            2.7.7.41        3.1.1.118       3.1.3.4         3.1.4.4         
+            3.1.4.50        3.6.1.26        3.6.1.75
+BRITE       Compounds with biological roles [BR:br08001]
+             Lipids
+              Phospholipids
+               Glycerophospholipids
+                C00416  Phosphatidic acid
+            Lipids [BR:br08002]
+             GP  Glycerophospholipids
+              GP10 Glycerophosphates
+               GP1001 Diacylglycerophosphates
+                C00416  1,2-Diacyl-sn-glycerol 3-phosphate
+DBLINKS     PubChem: 3706
+            ChEBI: 16337
+ATOM        16
+            1   P1b P    28.4113  -17.5905
+            2   O2b O    27.0909  -17.5905
+            3   O1c O    28.4056  -18.9110
+            4   O1c O    29.7378  -17.5905
+            5   O1c O    28.4173  -16.2641
+            6   C1b C    25.7646  -17.5905
+            7   C1c C    25.7470  -15.8258
+            8   O7a O    24.2045  -15.7851
+            9   C1b C    25.7646  -14.0439
+            10  C7a C    22.8781  -15.7851
+            11  O7a O    27.0909  -14.0439
+            12  O6a O    22.8664  -14.4587
+            13  R   R    21.5460  -15.7851
+            14  C7a C    28.4113  -14.0439
+            15  O6a O    28.4056  -12.7117
+            16  R   R    29.7378  -14.0439
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 1
+            4     1   5 2
+            5     2   6 1
+            6     6   7 1
+            7     7   8 1
+            8     7   9 1
+            9     8  10 1
+            10    9  11 1
+            11   10  12 2
+            12   10  13 1
+            13   11  14 1
+            14   14  15 2
+            15   14  16 1
+///

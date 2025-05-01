@@ -1,0 +1,122 @@
+ENTRY       D09819                      Drug
+NAME        Chlorpromazine tannate (JAN)
+CLASS       Cardiovascular agent
+             DG01466  Adrenergic receptor antagonist
+              DG01465  alpha-Adrenergic receptor antagonist
+               DG01460  alpha2-Adrenergic receptor antagonist
+            Neuropsychiatric agent
+             DG01478  Dopamine antagonist
+              DG01474  Dopamine D2-receptor antagonist
+             DG01491  Muscarinic cholinergic receptor antagonist
+             DG03200  Antipsychotic agent
+              DG01905  Phenothiazine antipsychotics
+            Anti-allergic agent
+             DG01557  Histamine receptor antagonist
+              DG01482  Histamine receptor H1 antagonist
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+            Metabolizing enzyme inhibitor
+             DG01645  CYP2D6 inhibitor
+REMARK      ATC code: N05AA01
+            Chemical structure group: DG00867
+            Product (DG00867): D00789<JP/US> D04034<JP>
+EFFICACY    Antipsychotic
+COMMENT     Phenothiazine derivative
+TARGET      HTR2 [HSA:3356 3357 3358] [KO:K04157]
+            HRH1 [HSA:3269] [KO:K04149]
+            ADRA2 [HSA:150 151 152] [KO:K04138 K04139 K04140]
+            DRD2 [HSA:1813] [KO:K04145]
+            CHRM [HSA:1128 1129 1131 1132 1133] [KO:K04129 K04130 K04131 K04132 K04133]
+  PATHWAY   hsa04080(1128+1129+1131+1132+1133+150+151+152+1813+3269+3356+3357+3358)  Neuroactive ligand-receptor interaction
+            hsa04725(1128+1129+1131+1132+1133)  Cholinergic synapse
+            hsa04726(3356+3357+3358)  Serotonergic synapse
+            hsa04728(1813)  Dopaminergic synapse
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION CYP inhibition: CYP2D6 [HSA:1565]
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             N NERVOUS SYSTEM
+              N05 PSYCHOLEPTICS
+               N05A ANTIPSYCHOTICS
+                N05AA Phenothiazines with aliphatic side-chain
+                 N05AA01 Chlorpromazine
+                  D09819  Chlorpromazine tannate (JAN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00867  Chlorpromazine
+                  D09819  Chlorpromazine tannate
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00867  Chlorpromazine
+                 D09819  Chlorpromazine tannate
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00867  Chlorpromazine
+                D09819  Chlorpromazine tannate
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00867  Chlorpromazine
+                 D09819  Chlorpromazine tannate
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00867  Chlorpromazine
+                 D09819  Chlorpromazine tannate
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00867  Chlorpromazine
+                D09819  Chlorpromazine tannate
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00867  Chlorpromazine
+                D09819  Chlorpromazine tannate
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Acetylcholine (muscarinic)
+                CHRM
+                 D09819  Chlorpromazine tannate (JAN)
+               Adrenaline
+                ADRA2
+                 D09819  Chlorpromazine tannate (JAN)
+               Dopamine
+                DRD2
+                 D09819  Chlorpromazine tannate (JAN)
+               Histamine
+                HRH1
+                 D09819  Chlorpromazine tannate (JAN)
+               Serotonin
+                HTR2
+                 D09819  Chlorpromazine tannate (JAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D09819
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01466  Adrenergic receptor antagonist
+               DG01465  alpha-Adrenergic receptor antagonist
+                DG01460  alpha2-Adrenergic receptor antagonist
+                 DG00867  Chlorpromazine
+             Neuropsychiatric agent
+              DG01478  Dopamine antagonist
+               DG01474  Dopamine D2-receptor antagonist
+                DG00867  Chlorpromazine
+              DG01491  Muscarinic cholinergic receptor antagonist
+               DG00867  Chlorpromazine
+              DG03200  Antipsychotic agent
+               DG01905  Phenothiazine antipsychotics
+                DG00867  Chlorpromazine
+             Anti-allergic agent
+              DG01557  Histamine receptor antagonist
+               DG01482  Histamine receptor H1 antagonist
+                DG00867  Chlorpromazine
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG00867  Chlorpromazine
+             Metabolizing enzyme inhibitor
+              DG01645  CYP2D6 inhibitor
+               DG00867  Chlorpromazine
+DBLINKS     PubChem: 124490559
+///

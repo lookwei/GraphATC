@@ -1,0 +1,141 @@
+ENTRY       D08260                      Drug
+NAME        Neomycin (INN);
+            Fradiomycin;
+            Neomycin;
+            Kaomycine (TN)
+FORMULA     C12H25N4O5R
+SOURCE      Streptomyces Fradiae [TAX:1906]
+CLASS       Antibacterial
+             DG01447  Aminoglycoside antibiotic
+REMARK      Same as: C00384
+            ATC code: A01AB08 A07AA01 B05CA09 D06AX04 J01GB05 R02AB01 S01AA03 S02AA07 S03AA01
+            Chemical structure group: DG00003
+            Product (DG00003): D01618<JP/US>
+EFFICACY    Antibacterial, Protein biosynthesis inhibitor
+COMMENT     R: See Neomycin [CPD:C00384]
+TARGET      30S ribosomal subunit
+  PATHWAY   ko03010(K01977)  Ribosome
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             A ALIMENTARY TRACT AND METABOLISM
+              A01 STOMATOLOGICAL PREPARATIONS
+               A01A STOMATOLOGICAL PREPARATIONS
+                A01AB Antiinfectives and antiseptics for local oral treatment
+                 A01AB08 Neomycin
+                  D08260  Neomycin (INN)
+              A07 ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS
+               A07A INTESTINAL ANTIINFECTIVES
+                A07AA Antibiotics
+                 A07AA01 Neomycin
+                  D08260  Neomycin (INN)
+             B BLOOD AND BLOOD FORMING ORGANS
+              B05 BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS
+               B05C IRRIGATING SOLUTIONS
+                B05CA Antiinfectives
+                 B05CA09 Neomycin
+                  D08260  Neomycin (INN)
+             D DERMATOLOGICALS
+              D06 ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE
+               D06A ANTIBIOTICS FOR TOPICAL USE
+                D06AX Other antibiotics for topical use
+                 D06AX04 Neomycin
+                  D08260  Neomycin (INN)
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01G AMINOGLYCOSIDE ANTIBACTERIALS
+                J01GB Other aminoglycosides
+                 J01GB05 Neomycin
+                  D08260  Neomycin (INN)
+             R RESPIRATORY SYSTEM
+              R02 THROAT PREPARATIONS
+               R02A THROAT PREPARATIONS
+                R02AB Antibiotics
+                 R02AB01 Neomycin
+                  D08260  Neomycin (INN)
+             S SENSORY ORGANS
+              S01 OPHTHALMOLOGICALS
+               S01A ANTIINFECTIVES
+                S01AA Antibiotics
+                 S01AA03 Neomycin
+                  D08260  Neomycin (INN)
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA07 Neomycin
+                  D08260  Neomycin (INN)
+              S03 OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS
+               S03A ANTIINFECTIVES
+                S03AA Antiinfectives
+                 S03AA01 Neomycin
+                  D08260  Neomycin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00003  Neomycin
+                D08260  Neomycin
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                D08260  Neomycin (INN)
+            Drug groups [BR:br08330]
+             Antibacterial
+              DG01447  Aminoglycoside antibiotic
+               DG00003  Neomycin
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Protein biosynthesis inhibitor
+               Aminoglycoside
+                DG00003  Neomycin
+DBLINKS     CAS: 1404-04-2
+            PubChem: 96024948
+            ChEBI: 7507
+            NIKKAJI: J872I
+ATOM        22
+            1   R   R    20.5100  -18.6200
+            2   O1a O    20.5800  -21.4200
+            3   C1y C    21.8400  -20.7200
+            4   C1y C    23.0300  -21.4200
+            5   C1x C    24.2200  -20.7200
+            6   C1y C    24.2200  -19.3200
+            7   C1y C    23.0300  -18.6200
+            8   C1y C    21.8400  -19.3200
+            9   N1a N    23.0300  -22.8200
+            10  N1a N    25.4100  -18.6200
+            11  O2a O    23.0300  -17.2200
+            12  C1y C    24.2200  -16.5200
+            13  O2x O    25.4100  -17.2200
+            14  C1y C    26.6000  -16.5200
+            15  C1y C    26.6000  -15.1200
+            16  C1y C    25.4100  -14.4200
+            17  C1y C    24.2200  -15.1200
+            18  C1b C    27.8600  -17.1500
+            19  N1a N    27.8600  -18.5500
+            20  N1a N    22.9600  -14.4200
+            21  O1a O    25.4100  -13.0200
+            22  O1a O    27.8600  -14.3500
+BOND        23
+            1    13  14 1
+            2    14  15 1
+            3    15  16 1
+            4    16  17 1
+            5    17  12 1
+            6    14  18 1 #Up
+            7     3   2 1 #Down
+            8    18  19 1
+            9    17  20 1 #Down
+            10   16  21 1 #Up
+            11   15  22 1 #Down
+            12    3   4 1
+            13    4   5 1
+            14    5   6 1
+            15    6   7 1
+            16    7   8 1
+            17    8   3 1
+            18    4   9 1 #Up
+            19    6  10 1 #Up
+            20    7  11 1 #Down
+            21    8   1 1 #Up
+            22   12  11 1 #Down
+            23   12  13 1
+///

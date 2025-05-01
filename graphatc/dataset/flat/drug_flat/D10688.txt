@@ -1,0 +1,161 @@
+ENTRY       D10688                      Drug
+NAME        Abemaciclib (JAN/USAN/INN);
+            Verzenio (TN)
+PRODUCT     VERZENIO (Eli Lilly and Company)
+FORMULA     C27H32F2N8
+EXACT_MASS  506.2718
+MOL_WEIGHT  506.5934
+CLASS       Antineoplastic
+             DG03138  CDK inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+REMARK      Therapeutic category: 4291
+            ATC code: L01EF03
+            Product: D10688<JP/US>
+EFFICACY    Antineoplastic, Cyclin-dependent kinase (CDK) inhibitor
+  DISEASE   Breast cancer (HR positive, HER2 negative) [DS:H00031]
+COMMENT     Treatment of advanced cancer
+TARGET      CDK4/6 [HSA:1019 1021] [KO:K02089 K02091]
+  PATHWAY   hsa04110(1019+1021)  Cell cycle
+            hsa04151(1019+1021)  PI3K-Akt signaling pathway
+            hsa05200(1019+1021)  Pathways in cancer
+            hsa05224(1019+1021)  Breast cancer
+METABOLISM  Enzyme: CYP3A [HSA:1576 1577 1551]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L01 ANTINEOPLASTIC AGENTS
+               L01E PROTEIN KINASE INHIBITORS
+                L01EF Cyclin-dependent kinase (CDK) inhibitors
+                 L01EF03 Abemaciclib
+                  D10688  Abemaciclib (JAN/USAN/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Antineoplastics
+              Molecular Target Inhibitors
+               Abemaciclib
+                D10688  Abemaciclib (JAN/USAN/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             4  Agents affecting cellular function
+              42  Antineoplastics
+               429  Miscellaneous
+                4291  Other Antitumors
+                 D10688  Abemaciclib (JAN/USAN/INN)
+            Drug groups [BR:br08330]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               D10688  Abemaciclib
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               D10688  Abemaciclib
+            Drug classes [BR:br08332]
+             Antineoplastic
+              DG03138  CDK inhibitor
+               D10688  Abemaciclib
+            Target-based classification of drugs [BR:br08310]
+             Protein kinases
+              Serine/threonine kinases
+               CMGC group
+                CDK4/6
+                 D10688  Abemaciclib (JAN/USAN/INN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D10688
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D10688
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D10688
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D10688
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10688
+            Pharmacogenomic biomarkers [br08341.html]
+             Somatic variations in targeted cancer therapies
+              D10688
+DBLINKS     CAS: 1231929-97-7
+            PubChem: 254741649
+            PDB-CCD: 6ZV
+ATOM        37
+            1   C8x C    18.7600  -14.4900
+            2   C8y C    18.7600  -15.8900
+            3   N5x N    19.9724  -16.5900
+            4   C8x C    21.1849  -15.8900
+            5   C8y C    21.1849  -14.4900
+            6   C8x C    19.9724  -13.7900
+            7   C1x C    23.6097  -15.8900
+            8   N1y N    23.6097  -14.4900
+            9   C1b C    22.3973  -13.7900
+            10  C1x C    24.8222  -16.5900
+            11  N1y N    26.0346  -15.8900
+            12  C1x C    26.0346  -14.4900
+            13  C1x C    24.8222  -13.7900
+            14  C1b C    27.2470  -16.5900
+            15  N5x N    16.3351  -14.4900
+            16  C8y C    16.3351  -15.8900
+            17  N1b N    17.5476  -16.5900
+            18  C8x C    15.1227  -13.7900
+            19  C8y C    13.9103  -14.4900
+            20  C8y C    13.9103  -15.8900
+            21  N5x N    15.1227  -16.5900
+            22  X   F    12.6978  -13.7900
+            23  C8x C    11.4854  -15.8900
+            24  C8y C    12.6978  -16.5900
+            25  C8y C    10.2730  -16.5900
+            26  C8y C    10.2730  -17.9900
+            27  C8y C    11.4854  -18.6900
+            28  C8x C    12.6978  -17.9900
+            29  N5x N     9.2325  -18.9268
+            30  C8y C     9.8020  -20.2058
+            31  N4y N    11.1943  -20.0594
+            32  C1a C     9.2325  -21.4847
+            33  C1a C    11.4478  -22.4710
+            34  C1c C    12.0172  -21.1920
+            35  C1a C    13.4395  -20.9697
+            36  C1a C    28.4594  -15.8900
+            37  X   F     9.0606  -15.8900
+BOND        41
+            1     1   2 1
+            2     2   3 2
+            3     3   4 1
+            4     4   5 2
+            5     5   6 1
+            6     1   6 2
+            7     7   8 1
+            8     8   9 1
+            9     5   9 1
+            10    7  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14    8  13 1
+            15   11  14 1
+            16   15  16 2
+            17   16  17 1
+            18    2  17 1
+            19   15  18 1
+            20   18  19 2
+            21   19  20 1
+            22   20  21 2
+            23   16  21 1
+            24   19  22 1
+            25   23  24 1
+            26   20  24 1
+            27   23  25 2
+            28   25  26 1
+            29   26  27 2
+            30   27  28 1
+            31   24  28 2
+            32   26  29 1
+            33   29  30 2
+            34   30  31 1
+            35   27  31 1
+            36   30  32 1
+            37   33  34 1
+            38   31  34 1
+            39   34  35 1
+            40   14  36 1
+            41   25  37 1
+///

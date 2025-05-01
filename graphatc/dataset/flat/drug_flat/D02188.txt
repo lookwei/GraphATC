@@ -1,0 +1,81 @@
+ENTRY       D02188                      Drug
+NAME        Fosfomycin sodium (JP18);
+            Fosmicin S (TN)
+FORMULA     C3H5O4P. 2Na
+EXACT_MASS  181.9721
+MOL_WEIGHT  182.0227
+REMARK      Therapeutic category: 1325 6135
+            ATC code: J01XX01 S02AA17
+            Chemical structure group: DG00633
+            Product (DG00633): D00925<US> D02187<JP> D02188<JP>
+EFFICACY    Antibacterial, Cell wall biosynthesis inhibitor
+TARGET      UDP-N-acetylglucosamine 1-carboxyvinyltransferase [KO:K00790]
+  PATHWAY   ko00550(K00790)  Peptidoglycan biosynthesis
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J01 ANTIBACTERIALS FOR SYSTEMIC USE
+               J01X OTHER ANTIBACTERIALS
+                J01XX Other antibacterials
+                 J01XX01 Fosfomycin
+                  D02188  Fosfomycin sodium (JP18) &lt;JP&gt;
+             S SENSORY ORGANS
+              S02 OTOLOGICALS
+               S02A ANTIINFECTIVES
+                S02AA Antiinfectives
+                 S02AA17 Fosfomycin
+                  D02188  Fosfomycin sodium (JP18) &lt;JP&gt;
+            USP drug classification [BR:br08302]
+             Antibacterials
+              Antibacterials, Other
+               Fosfomycin
+                D02188  Fosfomycin sodium (JP18)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             1  Agents affecting nervous system and sensory organs
+              13  Agents affecting sensory organs
+               132  Otic and nasal agents
+                1325  Otolaryngologic antibiotics
+                 D02188  Fosfomycin sodium (JP18)
+             6  Agents against pathologic organisms and parasites
+              61  Antibiotics
+               613  Acting mainly on gram-positive and gram-negative bacteria
+                6135  Fosfomycins
+                 D02188  Fosfomycin sodium (JP18)
+            Antimicrobials [BR:br08307]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                D02188  Fosfomycin sodium (JP18) &lt;JP&gt;
+            Drugs listed in the Japanese Pharmacopoeia [BR:br08311]
+             Chemicals
+              D02188  Fosfomycin sodium
+              D02188  Fosfomycin sodium for injection
+            Antimicrobials abbreviations [BR:br08327]
+             Antibacterials
+              Cell wall biosynthesis inhibitor, other
+               Other peptidoglycan biosynthesis inhibitor
+                DG00633  Fosfomycin
+DBLINKS     CAS: 26016-99-9
+            PubChem: 7849248
+            LigandBox: D02188
+            NIKKAJI: J17.130A
+ATOM        10
+            1   Z   Na   28.4891  -14.3848 #+
+            2   Z   Na   31.9988  -18.1307 #+
+            3   C1y C    32.5500  -14.8400
+            4   C1y C    33.9500  -14.8400
+            5   O2x O    33.2500  -13.6500
+            6   P1b P    31.3600  -15.6100
+            7   C1a C    35.1400  -15.6100
+            8   O1c O    30.1000  -16.3100
+            9   O1c O    30.6600  -14.3500 #-
+            10  O1c O    32.0600  -16.8000 #-
+BOND        8
+            1     3   4 1
+            2     4   5 1
+            3     5   3 1
+            4     3   6 1 #Up
+            5     4   7 1 #Up
+            6     6   8 2
+            7     6   9 1
+            8     6  10 1
+///

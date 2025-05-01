@@ -1,0 +1,165 @@
+ENTRY       D03837                      Drug
+NAME        Fosamprenavir sodium (USAN)
+FORMULA     C25H34N3O9PS. 2Na
+EXACT_MASS  629.1549
+MOL_WEIGHT  629.5705
+CLASS       Antiviral
+             DG03107  Anti-HIV agent
+              DG01647  HIV protease inhibitor
+            Metabolizing enzyme substrate
+             DG01633  CYP3A/CYP3A4 substrate
+              DG02913  CYP3A4 substrate
+            Metabolizing enzyme inhibitor
+             DG02852  CYP3A/CYP3A4 inhibitor
+              DG01522  CYP3A4 inhibitor
+REMARK      ATC code: J05AE07
+            Chemical structure group: DG00656
+            Product (DG00656): D02867<JP> D03835<US>
+EFFICACY    Antiviral, HIV protease inhibitor
+COMMENT     Active form of prodrug: Amprenavir [DR:D00894]
+TARGET      HIV protease [KO:K22599]
+  PATHWAY   ko03230(K22599)  Viral genome structure
+            ko03250(K22599)  Viral life cycle - HIV-1
+METABOLISM  Enzyme: CYP3A4 [HSA:1576]
+INTERACTION CYP inhibition: CYP3A4 [HSA:1576]
+STR_MAP     map07053  Anti-HIV agents
+            map07218  HIV protease inhibitors
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             J ANTIINFECTIVES FOR SYSTEMIC USE
+              J05 ANTIVIRALS FOR SYSTEMIC USE
+               J05A DIRECT ACTING ANTIVIRALS
+                J05AE Protease inhibitors
+                 J05AE07 Fosamprenavir
+                  D03837  Fosamprenavir sodium (USAN)
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00656  Fosamprenavir
+                 D03837  Fosamprenavir sodium
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00656  Fosamprenavir
+                 D03837  Fosamprenavir sodium
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00656  Fosamprenavir
+                 D03837  Fosamprenavir sodium
+            Antimicrobials [BR:br08307]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                D03837  Fosamprenavir sodium (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D03837
+            Drug groups [BR:br08330]
+             Antiviral
+              DG03107  Anti-HIV agent
+               DG01647  HIV protease inhibitor
+                DG00656  Fosamprenavir
+             Metabolizing enzyme substrate
+              DG01633  CYP3A/CYP3A4 substrate
+               DG02913  CYP3A4 substrate
+                DG00656  Fosamprenavir
+             Metabolizing enzyme inhibitor
+              DG02852  CYP3A/CYP3A4 inhibitor
+               DG01522  CYP3A4 inhibitor
+                DG00656  Fosamprenavir
+            Antimicrobials abbreviations [BR:br08327]
+             Antivirals
+              Polyprotein cleavage inhibitor
+               HIV protease inhibitor
+                DG00656  Fosamprenavir
+            Prodrugs [br08324.html(DG00656)]
+             DG00656
+DBLINKS     CAS: 226700-80-7
+            PubChem: 17397923
+            LigandBox: D03837
+ATOM        41
+            1   Z   Na   17.7733  -24.9426 #+
+            2   Z   Na   11.5601  -24.5153 #+
+            3   N1c N    18.9700  -21.0000
+            4   C1b C    17.8500  -20.3000
+            5   S4a S    20.5100  -20.3000
+            6   C1c C    16.6600  -21.0000
+            7   C8y C    21.9100  -21.0000
+            8   C1c C    15.4700  -20.3000
+            9   N1b N    14.3500  -21.0000
+            10  C7a C    13.1600  -20.3000
+            11  O7a O    11.9700  -21.0000
+            12  O6a O    13.1600  -18.9700
+            13  C1y C    10.7800  -20.3700
+            14  C8x C    21.9100  -22.4000
+            15  C8x C    23.1000  -23.0300
+            16  C8y C    24.2200  -22.4000
+            17  C8x C    24.2200  -21.0000
+            18  C8x C    23.1000  -20.3000
+            19  N1a N    25.4800  -23.1000
+            20  O2b O    16.6600  -23.0300
+            21  P1b P    15.4700  -23.8000
+            22  O1c O    13.9300  -24.5700 #-
+            23  O3c O    19.5300  -19.3900
+            24  O3c O    21.4200  -19.3900
+            25  O1c O    16.1700  -24.9900 #-
+            26  O1c O    14.7700  -22.6100
+            27  C1x C    10.7800  -19.0400
+            28  C1x C     9.5200  -20.7900
+            29  C1x C     8.6800  -19.7400
+            30  O2x O     9.5200  -18.6200
+            31  C1b C    18.9700  -22.4000
+            32  C1c C    20.1600  -23.1700
+            33  C1a C    21.4200  -22.4700
+            34  C1a C    20.1600  -24.5000
+            35  C1b C    15.4700  -18.9000
+            36  C8y C    16.6600  -18.2000
+            37  C8x C    17.9200  -18.9000
+            38  C8x C    19.1100  -18.1300
+            39  C8x C    19.1100  -16.7300
+            40  C8x C    17.8500  -16.0300
+            41  C8x C    16.6600  -16.8000
+BOND        41
+            1     3   4 1
+            2     3   5 1
+            3     4   6 1
+            4     5   7 1
+            5     6   8 1
+            6     8   9 1
+            7     9  10 1
+            8    10  11 1
+            9    10  12 2
+            10   13  11 1 #Up
+            11    7  14 2
+            12   14  15 1
+            13   15  16 2
+            14   16  17 1
+            15   17  18 2
+            16    7  18 1
+            17   16  19 1
+            18    6  20 1 #Up
+            19   20  21 1
+            20   21  22 1
+            21    5  23 2
+            22    5  24 2
+            23   21  25 1
+            24   21  26 2
+            25   13  27 1
+            26   13  28 1
+            27   28  29 1
+            28   29  30 1
+            29   27  30 1
+            30    3  31 1
+            31   31  32 1
+            32   32  33 1
+            33   32  34 1
+            34    8  35 1 #Up
+            35   35  36 1
+            36   36  37 2
+            37   37  38 1
+            38   38  39 2
+            39   39  40 1
+            40   40  41 2
+            41   36  41 1
+///

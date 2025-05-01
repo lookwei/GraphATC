@@ -1,0 +1,72 @@
+ENTRY       C00252                      Compound
+NAME        Isomaltose;
+            Brachiose
+FORMULA     C12H22O11
+EXACT_MASS  342.1162
+MOL_WEIGHT  342.2965
+REMARK      Same as: G01318
+REACTION    R01718 R11309 R11788 R11790 R11791
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+ENZYME      3.2.1.10        3.2.1.11        3.2.1.204       3.2.1.205
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Oligosaccharides
+               Disaccharides
+                C00252  Isomaltose
+DBLINKS     CAS: 499-40-1
+            PubChem: 3551
+            ChEBI: 28189
+            KNApSAcK: C00018660
+            3DMET: B04654
+            NIKKAJI: J150.529G
+ATOM        23
+            1   C1y C    24.4410  -14.9156
+            2   O2x O    23.2155  -14.2153
+            3   O2a O    25.6490  -14.2096
+            4   C1y C    24.4410  -16.3163
+            5   C1y C    22.0133  -14.9214
+            6   C1b C    26.7171  -13.2991
+            7   C1y C    23.2155  -17.0166
+            8   O1a O    25.6433  -17.0866
+            9   C1y C    22.0133  -16.3163
+            10  C1b C    20.7995  -14.2153
+            11  C1y C    27.9309  -13.9994
+            12  O1a O    23.2155  -18.4172
+            13  O1a O    20.7995  -17.0166
+            14  O1a O    19.7316  -15.1257
+            15  C1y C    27.9309  -15.4000
+            16  O2x O    29.1330  -13.2991
+            17  C1y C    29.1330  -16.1003
+            18  O1a O    26.7171  -16.1003
+            19  C1y C    30.3527  -13.9994
+            20  C1y C    30.3527  -15.4000
+            21  O1a O    29.1330  -17.5009
+            22  O1a O    31.5607  -13.2991
+            23  O1a O    31.5607  -16.1003
+BOND        24
+            1     1   2 1
+            2     1   3 1 #Down
+            3     1   4 1
+            4     2   5 1
+            5     3   6 1
+            6     4   7 1
+            7     4   8 1 #Down
+            8     5   9 1
+            9     5  10 1 #Up
+            10   11   6 1 #Up
+            11    7  12 1 #Up
+            12    9  13 1 #Down
+            13   10  14 1
+            14   11  15 1
+            15   11  16 1
+            16   15  17 1
+            17   15  18 1 #Down
+            18   16  19 1
+            19   17  20 1
+            20   17  21 1 #Up
+            21   19  22 1 #Either
+            22   20  23 1 #Down
+            23    7   9 1
+            24   19  20 1
+///

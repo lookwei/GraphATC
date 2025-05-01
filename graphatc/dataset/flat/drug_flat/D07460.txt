@@ -1,0 +1,109 @@
+ENTRY       D07460                      Drug
+NAME        Apomorphine (BAN);
+            Uprima (TN)
+FORMULA     C17H17NO2
+EXACT_MASS  267.1259
+MOL_WEIGHT  267.3224
+CLASS       Neuropsychiatric agent
+             DG01472  Dopamine agonist
+             DG01967  Antiparkinson agent
+REMARK      ATC code: G04BE07 N04BC07
+            Chemical structure group: DG00486
+            Product (DG00486): D02004<JP/US>
+EFFICACY    Antiparkinsonian, Emetic, Impotence therapy, Dopamine receptor agonist
+COMMENT     Morphine [DR:D08233] decomposition
+            Isoquinoline alkaloid
+TARGET      DRD1 [HSA:1812] [KO:K04144]
+            DRD2 [HSA:1813] [KO:K04145]
+  PATHWAY   hsa04080(1812+1813)  Neuroactive ligand-receptor interaction
+            hsa04728(1812+1813)  Dopaminergic synapse
+            hsa05012(1812+1813)  Parkinson disease
+INTERACTION  
+STR_MAP     map07057  Antiparkinsonian agents
+            map07213  Dopamine receptor agonists/antagonists
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G04 UROLOGICALS
+               G04B UROLOGICALS
+                G04BE Drugs used in erectile dysfunction
+                 G04BE07 Apomorphine
+                  D07460  Apomorphine (BAN)
+             N NERVOUS SYSTEM
+              N04 ANTI-PARKINSON DRUGS
+               N04B DOPAMINERGIC AGENTS
+                N04BC Dopamine agonists
+                 N04BC07 Apomorphine
+                  D07460  Apomorphine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00486  Apomorphine
+                D07460  Apomorphine
+              DG01967  Antiparkinson agent
+               DG00486  Apomorphine
+                D07460  Apomorphine
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Dopamine
+                DRD1
+                 D07460  Apomorphine (BAN)
+                DRD2
+                 D07460  Apomorphine (BAN)
+            Drug groups [BR:br08330]
+             Neuropsychiatric agent
+              DG01472  Dopamine agonist
+               DG00486  Apomorphine
+              DG01967  Antiparkinson agent
+               DG00486  Apomorphine
+DBLINKS     CAS: 58-00-4
+            PubChem: 51091791
+            PDB-CCD: OR9
+            LigandBox: D07460
+            NIKKAJI: J4.588H
+ATOM        20
+            1   C8x C    22.6800  -17.4300
+            2   C8x C    22.6800  -18.8300
+            3   C8x C    23.8924  -19.5300
+            4   C8y C    25.1049  -18.8300
+            5   C8y C    25.1049  -17.4300
+            6   C8y C    23.8924  -16.7300
+            7   C1x C    26.3173  -19.5300
+            8   C1x C    27.5297  -18.8300
+            9   N1y N    27.5297  -17.4300
+            10  C1y C    26.3173  -16.7300
+            11  C1x C    26.3173  -15.3300
+            12  C8y C    25.1048  -14.6300
+            13  C8y C    23.8924  -15.3300
+            14  C8x C    25.1048  -13.2300
+            15  C8x C    23.8923  -12.5300
+            16  C8y C    22.6799  -13.2300
+            17  C8y C    22.6799  -14.6300
+            18  C1a C    28.7273  -16.7385
+            19  O1a O    21.4675  -12.5301
+            20  O1a O    21.4676  -15.3300
+BOND        23
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12   10  11 1
+            13   11  12 1
+            14   12  13 2
+            15    6  13 1
+            16   12  14 1
+            17   14  15 2
+            18   15  16 1
+            19   16  17 2
+            20   13  17 1
+            21    9  18 1
+            22   16  19 1
+            23   17  20 1
+///

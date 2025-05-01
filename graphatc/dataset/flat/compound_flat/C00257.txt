@@ -1,0 +1,64 @@
+ENTRY       C00257                      Compound
+NAME        D-Gluconic acid;
+            D-Gluconate;
+            D-gluco-Hexonic acid
+FORMULA     C6H12O7
+EXACT_MASS  196.0583
+MOL_WEIGHT  196.1553
+REACTION    R01519 R01538 R01737 R01738 R01739 R01740 R01741 R01742 
+            R10832
+PATHWAY     map00030  Pentose phosphate pathway
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00308  Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+            M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+ENZYME      1.1.1.69        1.1.1.215       1.1.99.3        2.4.1.321       
+            2.7.1.12        3.1.1.17        4.2.1.39        4.2.1.140
+BRITE       Compounds with biological roles [BR:br08001]
+             Carbohydrates
+              Monosaccharides
+               Sugar acids
+                C00257  D-Gluconic acid
+            Risk category of Japanese OTC drugs [BR:br08312]
+             Third-class OTC drugs
+              Inorganic and organic chemicals
+               Calcium gluconate
+                C00257  D-Gluconic acid
+DBLINKS     CAS: 526-95-4
+            PubChem: 3556
+            ChEBI: 18391 33198
+            KNApSAcK: C00007303 C00034850
+            PDB-CCD: GCO
+            3DMET: B04655
+            NIKKAJI: J3.286G
+ATOM        13
+            1   O1a O    21.6419  -20.9484
+            2   C1b C    22.8553  -20.2478
+            3   C1c C    24.0688  -20.9484
+            4   C1c C    25.2823  -20.2478
+            5   C1c C    26.4957  -20.9484
+            6   C1c C    27.7092  -20.2478
+            7   C6a C    28.9227  -20.9484
+            8   O6a O    30.1361  -20.2478
+            9   O1a O    24.0688  -22.3494
+            10  O1a O    25.2823  -18.8466
+            11  O1a O    27.7092  -18.8469
+            12  O1a O    26.4957  -22.3495
+            13  O6a O    28.9225  -22.3299
+BOND        12
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     6   7 1
+            7     7   8 1
+            8     3   9 1 #Down
+            9     4  10 1 #Up
+            10    6  11 1 #Up
+            11    5  12 1 #Up
+            12    7  13 2
+///

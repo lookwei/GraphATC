@@ -1,0 +1,105 @@
+ENTRY       D02017            Mixture   Drug
+NAME        Oxtriphylline (USP);
+            Choline theophyllinate (INN);
+            Choline theophylline (JAN);
+            Theophyline and choline;
+            Theocolin (TN)
+FORMULA     C7H7N4O2. C5H14NO
+EXACT_MASS  283.1644
+MOL_WEIGHT  283.3268
+COMPONENT   Theophylline [DR:D00371], Choline [DR:D07690]
+CLASS       Respiratory system agent
+             DG01616  Xanthine derivative
+              DG01609  Xanthine-type bronchodilator
+            Metabolizing enzyme substrate
+             DG01892  CYP1A2 substrate
+REMARK      ATC code: R03DA02
+EFFICACY    Bronchodilator, Phosphodiesterase inhibitor
+COMMENT     Xanthine derivative
+TARGET      ADORA1 [HSA:134] [KO:K04265]
+            ADORA2A [HSA:135] [KO:K04266]
+            PDE [HSA:10846 27115 50940 5136 5137 5138 5139 5140 5141 5142 5143 5144 5150 5151 5153 8622] [KO:K18438 K18436 K13298 K13755 K18283 K19021 K13296 K13293 K18437]
+  PATHWAY   hsa04020(135+5136+5137+5153)  Calcium signaling pathway
+            hsa04022(134+5138+5139+5140)  cGMP-PKG signaling pathway
+            hsa04024(10846+134+135+5139+5140+5141+5142+5143+5144)  cAMP signaling pathway
+            hsa04080(134+135)  Neuroactive ligand-receptor interaction
+METABOLISM  Enzyme: CYP1A2 [HSA:1544]
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             R RESPIRATORY SYSTEM
+              R03 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+               R03D OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES
+                R03DA Xanthines
+                 R03DA02 Choline theophyllinate
+                  D02017  Oxtriphylline (USP)
+            Drug groups [BR:br08330]
+             Respiratory system agent
+              DG01616  Xanthine derivative
+               DG01609  Xanthine-type bronchodilator
+                D02017  Oxtriphylline
+             Metabolizing enzyme substrate
+              DG01892  CYP1A2 substrate
+               D02017  Oxtriphylline
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adenosine
+                ADORA1
+                 D02017  Oxtriphylline (USP)
+                ADORA2A
+                 D02017  Oxtriphylline (USP)
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE
+                 D02017  Oxtriphylline (USP)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D02017
+DBLINKS     CAS: 4499-40-5
+            PubChem: 7849079
+            LigandBox: D02017
+            NIKKAJI: J220.275A
+ATOM        20
+            1   C8y C    22.1287  -15.2901
+            2   C8y C    22.1287  -16.6727
+            3   N4y N    23.3260  -17.3639
+            4   C8y C    24.5232  -16.6727
+            5   N4y N    24.5232  -15.2901
+            6   C8y C    23.3260  -14.5989
+            7   N4x N    20.8139  -14.8630 #-
+            8   C8x C    20.0012  -15.9814
+            9   N5x N    20.8139  -17.0999
+            10  O5x O    23.3260  -13.2164
+            11  O5x O    25.7219  -17.3647
+            12  C1a C    25.7219  -14.5982
+            13  C1a C    23.3260  -18.7465
+            14  C1a C    28.7702  -16.6604
+            15  N1d N    29.9826  -15.9603 #+
+            16  C1b C    31.1951  -16.6604
+            17  C1b C    32.4076  -15.9603
+            18  O1a O    33.6200  -16.6604
+            19  C1a C    29.9826  -14.5605
+            20  C1a C    29.9826  -17.3604
+BOND        20
+            1     1   2 2
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     1   7 1
+            8     7   8 1
+            9     8   9 2
+            10    2   9 1
+            11    6  10 2
+            12    4  11 2
+            13    5  12 1
+            14    3  13 1
+            15   14  15 1
+            16   15  16 1
+            17   16  17 1
+            18   17  18 1
+            19   15  19 1
+            20   15  20 1
+///

@@ -1,0 +1,132 @@
+ENTRY       D08860                      Drug
+NAME        Apremilast (JAN/USAN);
+            Otezla (TN)
+PRODUCT     OTEZLA (Amgen)
+            OTEZLA (REMEDYREPACK)
+FORMULA     C22H24N2O7S
+EXACT_MASS  460.1304
+MOL_WEIGHT  460.5002
+REMARK      Therapeutic category: 3999
+            ATC code: L04AA32
+            Product: D08860<JP/US>
+EFFICACY    Anti-inflammatory, Phosphodiesterase IV inhibitor
+  DISEASE   Psoriatic arthritis [DS:H01507]
+            Psoriasis [DS:H01656]
+            Plaque Psoriasis [DS:H01656]
+            Behçet’s disease [DS:H01476]
+COMMENT     Treatment of chronic inflammatory conditions including psoriasis, asthma and cutaneous lupus erythematosus
+TARGET      PDE4 [HSA:5141 5142 5143 5144] [KO:K13293]
+  PATHWAY   hsa00230(5141+5142+5143+5144)  Purine metabolism
+            hsa04024(5141+5142+5143+5144)  cAMP signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             L ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS
+              L04 IMMUNOSUPPRESSANTS
+               L04A IMMUNOSUPPRESSANTS
+                L04AA Selective immunosuppressants
+                 L04AA32 Apremilast
+                  D08860  Apremilast (JAN/USAN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Dermatological Agents
+              Dermatological Agents, Other
+               Psoriasis Agents
+                Apremilast
+                 D08860  Apremilast (JAN/USAN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             3  Agents affecting metabolism
+              39  Other agents affecting metabolism
+               399  Miscellaneous
+                3999  Others
+                 D08860  Apremilast (JAN/USAN)
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Phosphodiesterases
+                PDE4
+                 D08860  Apremilast (JAN/USAN) &lt;JP/US&gt;
+            New drug approvals in the USA [br08319.html]
+             New molecular entities and new therapeutic biological products
+              D08860
+            New drug approvals in Europe [br08329.html]
+             European public assessment reports (EPAR) authorised medicine
+              D08860
+            New drug approvals in Japan [br08318.html]
+             Drugs with new active ingredients
+              D08860
+            New drug approvals in the USA, Europe and Japan [br08328.html]
+             Approval dates by FDA, EMA and PMDA
+              D08860
+DBLINKS     CAS: 608141-41-9
+            PubChem: 96025543
+            ChEBI: 78540
+            PDB-CCD: A9L
+            LigandBox: D08860
+ATOM        32
+            1   C8y C    15.0500  -16.8700
+            2   C8y C    15.0500  -18.2700
+            3   C5x C    16.3815  -18.7026
+            4   N1y N    17.2044  -17.5700
+            5   C5x C    16.3815  -16.4374
+            6   O5x O    16.8103  -15.1178
+            7   O5x O    16.8103  -20.0222
+            8   C8x C    13.8376  -16.1700
+            9   C8x C    12.6251  -16.8700
+            10  C8x C    12.6251  -18.2700
+            11  C8y C    13.8376  -18.9700
+            12  N1b N    13.8376  -20.3698
+            13  C5a C    12.6252  -21.0698
+            14  C1a C    11.3941  -20.3588
+            15  O5a O    12.6251  -22.4698
+            16  C1c C    18.6200  -17.5700
+            17  C8y C    19.3200  -18.7824
+            18  C1b C    19.3200  -16.3576
+            19  S4a S    20.7198  -16.3576
+            20  O3c O    22.1198  -16.3576
+            21  O3c O    20.7198  -17.7800
+            22  C1a C    20.7198  -14.9800
+            23  C8x C    18.6296  -19.9779
+            24  C8x C    19.3295  -21.1904
+            25  C8y C    20.7295  -21.1906
+            26  C8y C    21.4199  -19.9951
+            27  C8x C    20.7200  -18.7826
+            28  O2a O    21.4354  -22.4134
+            29  O2a O    22.8198  -19.9953
+            30  C1b C    23.5094  -18.8015
+            31  C1a C    24.9197  -18.8016
+            32  C1a C    22.8199  -22.4132
+BOND        34
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     1   5 1
+            6     5   6 2
+            7     3   7 2
+            8     1   8 2
+            9     8   9 1
+            10    9  10 2
+            11   10  11 1
+            12    2  11 2
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   13  15 2
+            17    4  16 1
+            18   16  17 1
+            19   16  18 1 #Down
+            20   18  19 1
+            21   19  20 2
+            22   19  21 2
+            23   19  22 1
+            24   17  23 2
+            25   23  24 1
+            26   24  25 2
+            27   25  26 1
+            28   26  27 2
+            29   17  27 1
+            30   25  28 1
+            31   26  29 1
+            32   29  30 1
+            33   30  31 1
+            34   28  32 1
+///

@@ -1,0 +1,94 @@
+ENTRY       D00649                      Drug
+NAME        Amiloride hydrochloride (USP);
+            Midamor (TN)
+PRODUCT     AMILORIDE HYDROCHLORIDE (Padagis US LLC)
+  GENERIC   AMILORIDE HYDROCHLORIDE (Bryant Ranch Prepack)
+            AMILORIDE HYDROCHLORIDE (Par Pharmaceutical)
+            AMILORIDE HYDROCHLORIDE (Sigmapharm Laboratories)
+            AMILORIDE HYDROCHLORIDE (WINDLAS BIOTECH LIMITED)
+FORMULA     C6H8ClN7O. 2H2O. HCl
+EXACT_MASS  301.0457
+MOL_WEIGHT  302.1185
+CLASS       Cardiovascular agent
+             DG01885  Potassium-sparing diuretic
+REMARK      ATC code: C03DB01
+            Chemical structure group: DG00275
+            Product (DG00275): D00649<US>
+            Product (mixture): D10271<US>
+EFFICACY    Diuretic, Epithelial sodium channel blocker
+COMMENT     potassium-sparing diuretic
+TARGET      SCNN1 [HSA:6337 6338 6340] [KO:K04824 K04825 K04827]
+  PATHWAY   hsa04960(6337+6338+6340)  Aldosterone-regulated sodium reabsorption
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             C CARDIOVASCULAR SYSTEM
+              C03 DIURETICS
+               C03D ALDOSTERONE ANTAGONISTS AND OTHER POTASSIUM-SPARING AGENTS
+                C03DB Other potassium-sparing agents
+                 C03DB01 Amiloride
+                  D00649  Amiloride hydrochloride (USP) &lt;US&gt;
+            USP drug classification [BR:br08302]
+             Cardiovascular Agents
+              Diuretics, Potassium-sparing
+               Amiloride
+                D00649  Amiloride hydrochloride (USP)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01885  Potassium-sparing diuretic
+               DG00275  Amiloride
+                D00649  Amiloride hydrochloride
+            Target-based classification of drugs [BR:br08310]
+             Ion channels
+              Ligand-gated ion channels
+               Epithelial sodium channel (SCNN)
+                SCNN1
+                 D00649  Amiloride hydrochloride (USP) &lt;US&gt;
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01885  Potassium-sparing diuretic
+               DG00275  Amiloride
+DBLINKS     CAS: 17440-83-4
+            PubChem: 7847715
+            ChEBI: 2640
+            LigandBox: D00649
+ATOM        18
+            1   C8y C    22.0858  -17.2962
+            2   C5a C    23.3026  -17.9925
+            3   C8y C    22.0858  -15.8920
+            4   N5x N    20.8805  -17.9925
+            5   N1b N    24.5137  -17.2904
+            6   O5a O    23.3026  -19.3907
+            7   N5x N    20.8805  -15.1959
+            8   N1a N    23.3026  -15.1959
+            9   C8y C    19.6636  -17.2962
+            10  C2c C    25.7247  -17.9925
+            11  C8y C    19.6636  -15.8920
+            12  X   Cl   18.4466  -17.9925
+            13  N1a N    26.9358  -17.2904
+            14  N2a N    25.7247  -19.3907
+            15  N1a N    18.4466  -15.1959
+            16  O0  O    32.0313  -18.1505
+            17  X   Cl   31.6217  -15.6801
+            18  O0  O    32.0313  -18.1505
+BOND        15
+            1     1   2 1
+            2     1   3 1
+            3     1   4 2
+            4     2   5 1
+            5     2   6 2
+            6     3   7 2
+            7     3   8 1
+            8     4   9 1
+            9     5  10 1
+            10    7  11 1
+            11    9  12 1
+            12   10  13 1
+            13   10  14 2
+            14   11  15 1
+            15    9  11 2
+BRACKET     1    30.0300  -19.1100   30.0300  -17.2200
+            1    32.6200  -17.2200   32.6200  -19.1100
+            1  2
+  ORIGINAL  1   16
+  REPEAT    1   18
+///

@@ -1,0 +1,65 @@
+ENTRY       D06020                      Drug
+NAME        Tecalcet hydrochloride (USAN);
+            Norcalcin (TN)
+FORMULA     C18H22ClNO. HCl
+EXACT_MASS  339.1157
+MOL_WEIGHT  340.2873
+EFFICACY    Antihypercalcemia, Antihyperparathyroidism, Calcium sensing receptor allosteric modulator
+COMMENT     Treatment of hyperparathyroidism and related disorders, such as hypercalcemia (reduction of PTH secretion through modulation of calcium ion receptors on parathyroid cells)
+TARGET      CASR [HSA:846] [KO:K04612]
+BRITE       Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Metabotropic glutamate receptor family
+               Calcium-sensing
+                CASR
+                 D06020  Tecalcet hydrochloride (USAN)
+DBLINKS     CAS: 177172-49-5
+            PubChem: 47207678
+            LigandBox: D06020
+ATOM        22
+            1   C8x C     8.8900  -12.8100
+            2   C8x C     8.8900  -14.2100
+            3   C8x C    10.1024  -14.9100
+            4   C8y C    11.3149  -14.2100
+            5   C8y C    11.3149  -12.8100
+            6   C8x C    10.1024  -12.1100
+            7   X   Cl   12.5460  -12.0990
+            8   C1b C    12.5460  -14.9210
+            9   C1b C    13.7512  -14.2253
+            10  C1b C    14.9335  -14.9081
+            11  N1b N    16.1275  -14.2188
+            12  C1c C    17.3154  -14.9048
+            13  C8y C    18.5065  -14.2171
+            14  C1a C    17.3155  -16.3098
+            15  C8x C    19.6959  -14.9039
+            16  C8y C    20.9084  -14.2040
+            17  C8x C    20.9085  -12.8040
+            18  C8x C    19.7191  -12.1172
+            19  C8x C    18.5066  -12.8171
+            20  O2a O    22.1395  -14.9150
+            21  C1a C    23.3395  -14.2223
+            22  X   Cl   22.7500  -17.0100
+BOND        22
+            1     1   2 2
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 2
+            6     1   6 1
+            7     5   7 1
+            8     4   8 1
+            9     8   9 1
+            10    9  10 1
+            11   10  11 1
+            12   11  12 1
+            13   12  13 1
+            14   12  14 1 #Up
+            15   13  15 2
+            16   15  16 1
+            17   16  17 2
+            18   17  18 1
+            19   18  19 2
+            20   13  19 1
+            21   16  20 1
+            22   20  21 1
+///

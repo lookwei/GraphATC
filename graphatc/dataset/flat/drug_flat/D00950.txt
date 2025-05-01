@@ -1,0 +1,135 @@
+ENTRY       D00950                      Drug
+NAME        Levonorgestrel (JAN/USP/INN);
+            Mirena (TN);
+            Norplant (TN);
+            Skyla (TN)
+PRODUCT     KYLEENA (Bayer HealthCare Pharmaceuticals)
+            LILETTA (Allergan)
+            MIRENA (Bayer HealthCare Pharmaceuticals)
+            SKYLA (Bayer HealthCare Pharmaceuticals)
+  GENERIC   LEVONORGESTREL (Novel Laboratories)
+FORMULA     C21H28O2
+EXACT_MASS  312.2089
+MOL_WEIGHT  312.4458
+CLASS       Hormonal agent
+             DG02004  Progesterone
+             DG01666  Progesterone receptor agonist
+REMARK      Same as: C08149
+            Therapeutic category: 2529 2549
+            ATC code: G03AC03 G03AD01
+            Product: D00950<JP/US>
+            Product (mixture): D04482<JP/US> D09187<JP/US>
+EFFICACY    Contraceptive, Progesterone receptor agonist
+COMMENT     Progestin
+TARGET      NR3C3 (PGR) [HSA:5241] [KO:K08556]
+  PATHWAY   hsa04114(5241)  Oocyte meiosis
+            hsa04914(5241)  Progesterone-mediated oocyte maturation
+            hsa04915(5241)  Estrogen signaling pathway
+INTERACTION  
+BRITE       Anatomical Therapeutic Chemical (ATC) classification [BR:br08303]
+             G GENITO URINARY SYSTEM AND SEX HORMONES
+              G03 SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM
+               G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE
+                G03AC Progestogens
+                 G03AC03 Levonorgestrel
+                  D00950  Levonorgestrel (JAN/USP/INN) &lt;JP/US&gt;
+                G03AD Emergency contraceptives
+                 G03AD01 Levonorgestrel
+                  D00950  Levonorgestrel (JAN/USP/INN) &lt;JP/US&gt;
+            USP drug classification [BR:br08302]
+             Contraceptives
+              Oral Progestins
+               Levonorgestrel
+                D00950  Levonorgestrel (JAN/USP/INN)
+              Contraceptives, Other
+               Levonorgestrel
+                D00950  Levonorgestrel (JAN/USP/INN)
+             Hormonal Agents, Stimulant/Replacement/Modifying (Sex Hormones/Modifiers)
+              Progestins
+               Levonorgestrel
+                D00950  Levonorgestrel (JAN/USP/INN)
+            Therapeutic category of drugs in Japan [BR:br08301]
+             2  Agents affecting individual organs
+              25  Urogenital and anal organ agents
+               252  Genital organ agents
+                2529  Others
+                 D00950  Levonorgestrel (JAN/USP/INN)
+               254  Contraceptives
+                2549  Others
+                 D00950  Levonorgestrel (JAN/USP/INN)
+            Drug groups [BR:br08330]
+             Hormonal agent
+              DG02004  Progesterone
+               D00950  Levonorgestrel
+              DG01666  Progesterone receptor agonist
+               D00950  Levonorgestrel
+            Drug classes [BR:br08332]
+             Endocrine and hormonal agent
+              DG02004  Progesterone
+               D00950  Levonorgestrel
+            Target-based classification of drugs [BR:br08310]
+             Nuclear receptors
+              Estrogen like receptors
+               3-Ketosteroid receptor
+                NR3C3 (PGR)
+                 D00950  Levonorgestrel (JAN/USP/INN) &lt;JP/US&gt;
+            Rx-to-OTC switch list in the USA [br08315.html]
+             D00950
+DBLINKS     CAS: 797-63-7
+            PubChem: 7848013
+            ChEBI: 6443
+            PDB-CCD: NOG
+            LigandBox: D00950
+            NIKKAJI: J7.097A
+ATOM        23
+            1   C1x C     5.3900  -17.3600
+            2   C5x C     5.3900  -18.7600
+            3   C2x C     6.6024  -19.4600
+            4   C2y C     7.8149  -18.7600
+            5   C1y C     7.8149  -17.3600
+            6   C1x C     6.6024  -16.6600
+            7   C1x C     9.0273  -19.4600
+            8   C1x C    10.2397  -18.7600
+            9   C1y C    10.2397  -17.3600
+            10  C1y C     9.0273  -16.6600
+            11  C1y C    11.4522  -16.6600
+            12  C1z C    11.4522  -15.2600
+            13  C1x C    10.2397  -14.5600
+            14  C1x C     9.0273  -15.2600
+            15  C1x C    13.8770  -16.6600
+            16  C1x C    13.8770  -15.2600
+            17  C1z C    12.6646  -14.5600
+            18  O5x O     4.1776  -19.4600
+            19  C1b C    11.4522  -13.8600
+            20  O1a O    12.6646  -13.1600
+            21  C3b C    13.8770  -13.8600
+            22  C3a C    15.0895  -13.1600
+            23  C1a C    10.2608  -13.1719
+BOND        26
+            1     1   2 1
+            2     2   3 1
+            3     3   4 2
+            4     4   5 1
+            5     5   6 1
+            6     1   6 1
+            7     4   7 1
+            8     7   8 1
+            9     8   9 1
+            10    9  10 1
+            11    5  10 1
+            12    9  11 1
+            13   11  12 1
+            14   12  13 1
+            15   13  14 1
+            16   10  14 1
+            17   11  15 1
+            18   15  16 1
+            19   16  17 1
+            20   12  17 1
+            21    2  18 2
+            22   12  19 1 #Up
+            23   17  20 1 #Up
+            24   17  21 1 #Down
+            25   21  22 3
+            26   19  23 1
+///

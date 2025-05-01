@@ -1,0 +1,97 @@
+ENTRY       D07463                      Drug
+NAME        Arformoterol (INN)
+FORMULA     C19H24N2O4
+EXACT_MASS  344.1736
+MOL_WEIGHT  344.4049
+CLASS       Cardiovascular agent
+             DG01456  Adrenergic receptor agonist
+              DG01455  beta-Adrenergic receptor agonist
+               DG01452  beta2-Adrenergic receptor agonist
+REMARK      Chemical structure group: DG01233
+            Product (DG01233): D02981<US>
+EFFICACY    Antiasthmatic, Bronchodilator, beta2-Adrenergic receptor agonist
+COMMENT     Phenethylamine derivative
+            Long-acting beta-adrenoceptor agonist (LABA)
+TARGET      ADRB2 [HSA:154] [KO:K04142]
+  PATHWAY   hsa04020(154)  Calcium signaling pathway
+            hsa04024(154)  cAMP signaling pathway
+            hsa04080(154)  Neuroactive ligand-receptor interaction
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01233  Arformoterol
+                  D07463  Arformoterol
+            Target-based classification of drugs [BR:br08310]
+             G Protein-coupled receptors
+              Rhodopsin family
+               Adrenaline
+                ADRB2
+                 D07463  Arformoterol (INN)
+            Drug groups [BR:br08330]
+             Cardiovascular agent
+              DG01456  Adrenergic receptor agonist
+               DG01455  beta-Adrenergic receptor agonist
+                DG01452  beta2-Adrenergic receptor agonist
+                 DG01233  Arformoterol
+DBLINKS     CAS: 67346-49-0
+            PubChem: 51091794
+            ChEBI: 408174
+            PDB-CCD: H98
+            LigandBox: D07463
+ATOM        25
+            1   C8y C    21.2100  -17.9900
+            2   C8x C    19.9500  -18.6900
+            3   C8x C    21.2100  -16.5900
+            4   C1c C    22.4000  -18.6900
+            5   C8y C    18.7600  -17.9900
+            6   C8x C    19.9500  -15.8900
+            7   C1b C    23.5900  -17.9900
+            8   C8y C    18.7600  -16.5900
+            9   N1b N    17.5700  -18.6900
+            10  N1b N    24.7800  -18.6900
+            11  O1a O    17.5700  -15.8900
+            12  C4a C    16.3100  -17.9900
+            13  C1c C    26.0400  -17.9900
+            14  O4a O    15.1200  -18.6900
+            15  C1b C    27.2300  -18.6900
+            16  C8y C    28.4200  -17.9900
+            17  C8x C    28.4200  -16.5900
+            18  C8x C    29.6100  -18.6900
+            19  C8x C    29.6100  -15.8900
+            20  C8x C    30.8700  -17.9900
+            21  C8y C    30.8700  -16.5900
+            22  O2a O    32.0600  -15.8200
+            23  C1a C    33.2500  -16.5200
+            24  C1a C    26.0400  -16.5900
+            25  O1a O    22.4000  -20.0900
+BOND        26
+            1     1   2 2
+            2     1   3 1
+            3     1   4 1
+            4     2   5 1
+            5     3   6 2
+            6     4   7 1
+            7     5   8 2
+            8     5   9 1
+            9     7  10 1
+            10    8  11 1
+            11    9  12 1
+            12   10  13 1
+            13   12  14 2
+            14   13  15 1
+            15   15  16 1
+            16   16  17 2
+            17   16  18 1
+            18   17  19 1
+            19   18  20 2
+            20   19  21 2
+            21   21  22 1
+            22   22  23 1
+            23    6   8 1
+            24   20  21 1
+            25   13  24 1 #Down
+            26    4  25 1 #Down
+///

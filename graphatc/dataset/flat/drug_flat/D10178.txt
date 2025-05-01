@@ -1,0 +1,106 @@
+ENTRY       D10178                      Drug
+NAME        Trelagliptin (USAN)
+FORMULA     C18H20FN5O2
+EXACT_MASS  357.1601
+MOL_WEIGHT  357.3821
+CLASS       Antidiabetic agent
+             DG02044  Hypoglycemic agent
+              DG01601  DPP-4 inhibitor
+            Metabolizing enzyme substrate
+             DG01644  CYP2D6 substrate
+REMARK      Chemical structure group: DG01284
+            Product (DG01284): D10179<JP>
+EFFICACY    Antidiabetic, Dipeptidyl peptidase-4 (DPP-4) inhibitor
+COMMENT     Treatment of type 2 diabetes
+TARGET      DPP4 (CD26) [HSA:1803] [KO:K01278]
+  PATHWAY   hsa04974(1803)  Protein digestion and absorption
+METABOLISM  Enzyme: CYP2D6 [HSA:1565]
+INTERACTION  
+BRITE       Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01284  Trelagliptin
+                 D10178  Trelagliptin
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01284  Trelagliptin
+                D10178  Trelagliptin
+            Target-based classification of drugs [BR:br08310]
+             Enzymes
+              Hydrolases (EC3)
+               Peptidyl-peptidases
+                DPP4 (CD26)
+                 D10178  Trelagliptin (USAN)
+            Drug metabolizing enzymes and transporters [br08309.html]
+             Drug metabolizing enzymes
+              D10178
+            Drug groups [BR:br08330]
+             Antidiabetic agent
+              DG02044  Hypoglycemic agent
+               DG01601  DPP-4 inhibitor
+                DG01284  Trelagliptin
+             Metabolizing enzyme substrate
+              DG01644  CYP2D6 substrate
+               DG01284  Trelagliptin
+DBLINKS     CAS: 865759-25-7
+            PubChem: 135626896
+            PDB-CCD: 6RL
+            LigandBox: D10178
+ATOM        26
+            1   C8x C    23.8700  -25.9000
+            2   C8y C    23.8700  -27.3000
+            3   N4y N    22.6800  -28.0000
+            4   C8y C    21.4200  -27.3000
+            5   N4y N    21.4200  -25.9000
+            6   C8y C    22.6800  -25.2000
+            7   C1b C    20.2300  -25.2000
+            8   C8y C    19.0400  -25.9000
+            9   C8x C    19.0400  -27.3000
+            10  C8y C    17.7800  -28.0000
+            11  C8x C    16.5900  -27.3000
+            12  C8x C    16.5900  -25.9000
+            13  C8y C    17.7800  -25.2000
+            14  C3b C    17.7800  -23.8000
+            15  X   F    17.7800  -29.4000
+            16  C1a C    22.6800  -29.4000
+            17  O5x O    25.0600  -28.0000
+            18  O5x O    20.2300  -28.0000
+            19  N1y N    22.6800  -23.8000
+            20  C1x C    21.4900  -23.1000
+            21  C1y C    21.4900  -21.7000
+            22  C1x C    22.6800  -21.0000
+            23  C1x C    23.8700  -21.7000
+            24  C1x C    23.8700  -23.1000
+            25  N3a N    17.7800  -22.4000
+            26  N1a N    20.2747  -21.0049
+BOND        28
+            1     1   2 1
+            2     2   3 1
+            3     3   4 1
+            4     4   5 1
+            5     5   6 1
+            6     1   6 2
+            7     5   7 1
+            8     7   8 1
+            9     8   9 2
+            10    9  10 1
+            11   10  11 2
+            12   11  12 1
+            13   12  13 2
+            14    8  13 1
+            15   13  14 1
+            16   10  15 1
+            17    3  16 1
+            18    2  17 2
+            19    4  18 2
+            20    6  19 1
+            21   19  20 1
+            22   20  21 1
+            23   21  22 1
+            24   22  23 1
+            25   23  24 1
+            26   19  24 1
+            27   14  25 3
+            28   21  26 1 #Down
+///
