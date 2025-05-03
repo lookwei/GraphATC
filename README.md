@@ -6,6 +6,7 @@
 [![Static Badge](https://img.shields.io/badge/DOI-10.1093%2Fbib%2Fbbaf194-blue)](https://doi.org/10.1093/bib/bbaf194)
 [![Static Badge](https://img.shields.io/badge/Briefings%20in%20Bioinformatics-Volume%2026%2C%20Issue%202%2C%20March%202025-blue)](https://doi.org/10.1093/bib/bbaf194)
 [![Static Badge](https://img.shields.io/badge/OUP-Open%20Access-green)](https://doi.org/10.1093/bib/bbaf194)
+[![Static Badge](https://img.shields.io/badge/GitHub-GraphATC-blue)](https://github.com/lookwei/GraphATC)
 
 
 [**Paper PDF**](https://academic.oup.com/bib/article-pdf/26/2/bbaf194/63012495/bbaf194.pdf) | [**Paper Website**](https://doi.org/10.1093/bib/bbaf194)
