@@ -12,7 +12,7 @@
 [![Static Badge](https://img.shields.io/badge/GitHub-GraphATC-blue)](https://github.com/lookwei/GraphATC)
 
 
-[**Paper PDF**](https://academic.oup.com/bib/article-pdf/26/2/bbaf194/63012495/bbaf194.pdf) | [**Paper Website**](https://doi.org/10.1093/bib/bbaf194) | [**Demo Website**](https://demo.ultrafish.io:8001/)
+[**Paper PDF**](https://academic.oup.com/bib/article-pdf/26/2/bbaf194/63012495/bbaf194.pdf) | [**Paper Website**](https://doi.org/10.1093/bib/bbaf194) | [**Demo Website**](https://graphatc.ultrafish.io/)
 
 Official implementation of 'GraphATC: advancing multilevel and multi-label anatomical therapeutic chemical classification via atom-level graph learning', published in 'Briefings in Bioinformatics, Volume 26, Issue 2, March 2025' on 26 April 2025, [https://doi.org/10.1093/bib/bbaf194](https://doi.org/10.1093/bib/bbaf194)
 <p align="center"><img width="850" src="images/GraphATC_pipeline.png"></p>
@@ -35,7 +35,7 @@ of prior studies have concentrated solely on the Level 1 labels defined by the W
 
 ## 📢 News
 
-- **[2025.5.08]** The [demo website](https://demo.ultrafish.io:8001/) of GraphATC has been released.
+- **[2025.5.08]** The [demo website](https://graphatc.ultrafish.io/) of GraphATC has been released.
 - **[2025.5.01]** The code and dataset of GraphATC has been released.
 - **[2025.4.26]** Our paper has been published in Briefings in Bioinformatics.
 - **[2025.4.07]** Our paper has been accepted by Briefings in Bioinformatics.
@@ -129,7 +129,6 @@ The evaluation results will be saved in the `graphatc/log/` directory.
 - [x] Release the dataset;
 - [x] Release the source code;
 - [x] Release the web server;
-- [ ] Release more details;
 
 
 ## 📖 Citation
